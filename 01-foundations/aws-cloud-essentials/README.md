@@ -8,7 +8,7 @@ To get basic understanding of primary aws tools and services we use in data engi
 
 1. [Setup AWS](./setup-aws.md)
 1. S3
-1. RDS
+1. [RDS](./rds.md)
 1. Redshift
 1. Glue Crawler and Catalog
 1. Glue Studio and ETL Jobs

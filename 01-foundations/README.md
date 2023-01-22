@@ -7,7 +7,14 @@ Build the required foundational skills to become a data engineer
 ## Steps
 
 1. [Developer Foundations](./developer-foundations/)
-1. [AWS Cloud Essentials](./aws-cloud-essentials/)
 1. [Data Engineering Fundamentals](./data-engineering-fundamentals/)
 1. [Python](./python/)
-1. SQL
+1. [SQL](./sql/)
+
+### AWS Track
+
+1. [AWS Cloud Essentials](./aws-cloud-essentials/)
+
+### GCP Track
+
+1. [GCP Cloud Essentials](./gcp-cloud-essentials/)

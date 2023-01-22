@@ -17,11 +17,14 @@ To learn the basics concepts of data engineering
 
 1. [Partitioning](./partitioning.md)
 1. [System Design](./system-design.md)
+1. [Serialization and Compression](./serialization-and-compression.md)
+1. [OLTP](./oltp.md)
 
 ### Concepts Level 3
 
 1. [Data Contract](./data-contract.md)
 1. [Data Security](./data-security.md)
+1. [Incremental Data Load](./incremental-data-load.md)
 
 ## References
 
