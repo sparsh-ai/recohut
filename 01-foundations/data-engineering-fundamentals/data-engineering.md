@@ -22,7 +22,7 @@ Let's expand it more and analyze the complete ecosystem from a wider perspective
 
 The first type of data engineering is SQL-focused. The work and primary storage of the data is in relational databases. All of the data processing is done with SQL or a SQL-based language. Sometimes, this data processing is done with an ETL tool. The second type of data engineering is Big Data–focused. The work and primary storage of the data is in Big Data technologies like Hadoop, Cassandra, and HBase. All of the data processing is done in Big Data frameworks like MapReduce, Spark, and Flink. While SQL is used, the primary processing is done with programming languages like Java, Scala, and Python.
 
-<iframe width="100%" height="480" src="https://www.youtube.com/embed/qWru-b6m030" title="How Data Engineering Works" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Watch this video: https://www.youtube.com/watch?v=qWru-b6m030
 
 ## Why Is It Important?
 
@@ -42,13 +42,13 @@ There are some really interesting trade-offs to make when you do this. And knowi
 
 ## Role of a Data Engineer
 
-<YouTube vid="m5hLUknIi5c" title="Roles in Data Science Teams" />
+Watch this video: https://www.youtube.com/watch?v=m5hLUknIi5c
 
-<YouTube vid="h0GhXADnFGI" title="The role of a data engineer" />
+Watch this video: https://www.youtube.com/watch?v=h0GhXADnFGI
 
 ## Data Engineering Challenges
 
-<YouTube vid="VxZu4B8wIbQ" title="Data engineering challenges" />
+Watch this video: https://www.youtube.com/watch?v=VxZu4B8wIbQ
 
 ## Skills You Need to Become a Data Engineer
 
@@ -133,7 +133,7 @@ Scheduling tools for data processing. Airflow is considered to be the defacto st
 
 ![](https://user-images.githubusercontent.com/62965911/213917834-967b67bb-89e6-483a-bbbe-db8cf5ddf36c.svg)
 
-<Youtube vid="bFC1MBijB-c" title="EL, ELT, ETL" />
+Watch this video: https://www.youtube.com/watch?v=bFC1MBijB-c
 
 ## Unified Approach
 
@@ -145,4 +145,4 @@ Scheduling tools for data processing. Airflow is considered to be the defacto st
 
 ### Partner effectively with other data teams
 
-<YouTube vid="rULI2LOuhw4" title="Partner effectively with other data teams" />
+Watch this video: https://www.youtube.com/watch?v=rULI2LOuhw4
