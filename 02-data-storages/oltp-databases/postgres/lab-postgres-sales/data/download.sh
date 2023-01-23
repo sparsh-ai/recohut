@@ -1,0 +1,1 @@
+aws s3 cp s3://wysde-assets/labs/lab-206-postgres-basics/load_db_tables_pg.sql ./

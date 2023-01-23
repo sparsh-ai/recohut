@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  postgres:
+    image: postgres
+    ports:
+      - 5432:5432
+    restart: always
+    environment:
+      POSTGRES_DB: sparshdb
+      POSTGRES_USER: sparsh
+      POSTGRES_PASSWORD: sparsh
+    volumes:
+      - postgres_volume:/var/lib/postgresql/data/
+
+volumes:
+  postgres_volume:
