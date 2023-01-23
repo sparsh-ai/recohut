@@ -1,0 +1,1 @@
+aws s3 cp s3://wysde-assets/labs/lab-185-snowflake-snowsql/staging/upload.csv ./

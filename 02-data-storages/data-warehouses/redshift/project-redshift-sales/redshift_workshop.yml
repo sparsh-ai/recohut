@@ -1,0 +1,493 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Parameters:
+  DatabaseName:
+    Description: The name of the first database to be created when the cluster is
+      created
+    Type: String
+    Default: dev
+    AllowedPattern: "([a-z]|[0-9])+"
+  NumberOfNodes:
+    Description: The number of compute nodes in the cluster. For multi-node clusters,
+      the NumberOfNodes parameter must be greater than 1
+    Type: Number
+    MinValue: 2
+    Default: 2
+  NodeType:
+    Description: The type of node to be provisioned
+    Type: String
+    Default: ra3.4xlarge
+    AllowedValues:
+    - ra3.xlplus
+    - ra3.4xlarge
+    - ra3.16xlarge
+  MasterUsername:
+    Description: The user name that is associated with the master user account for the cluster that is being created
+    Type: String
+    Default: awsuser
+    AllowedPattern: "([a-z])([a-z]|[0-9])*"
+  MasterUserPassword:
+    Description: The password that is associated with the master user account for the cluster that is being created. Default is Awsuser123
+    Type: String
+    Default: Awsuser123
+    NoEcho: 'true'
+  InboundTraffic:
+    Description: The IP address CIDR range (x.x.x.x/x) to connect from your local machine.  FYI, get your address using http://www.whatismyip.com.
+    Type: String
+    MinLength: '9'
+    MaxLength: '18'
+    Default: '255.255.255.255/32'
+    AllowedPattern: "(\\d{1,3})\\.(\\d{1,3})\\.(\\d{1,3})\\.(\\d{1,3})/(\\d{1,2})"
+    ConstraintDescription: Must be a valid CIDR range of the form x.x.x.x/x.
+  PortNumber:
+    Description: The port number on which the cluster accepts incoming connections.
+    Type: Number
+    Default: '5439'
+  EETeamRoleArn:
+    Description: "ARN of the IAM Principal (User or Role) that will schedule and monitor scheduled queries.  Typically, the user or role you are using to deploy this CFN template. E.g. arn:aws:iam::999999999999:user/<iam-user> or arn:aws:iam::999999999999:role/<iam-role>"
+    Type: String
+    AllowedPattern : "arn:aws:iam::[0-9]+:.*"
+    ConstraintDescription : "Must be an IAM Role or User ARN, e.g. arn:aws:iam::123456789012:user/[username] or arn:aws:iam::123456789012:role/[rolename]"
+  DataSharingCluster:
+    Description: Option to spin up an identical cluster for the data sharing exercises
+    Type: String
+    Default: 'No'
+    AllowedValues:
+    - 'No'
+    - 'Yes'
+  DataLoadingPrimaryCluster:
+    Description: Option to fully load data into Redshift cluster - allows user to skip Data Loading Lab 2
+    Type: String
+    Default: 'Yes'
+    AllowedValues:
+    - 'No'
+    - 'Yes'
+  LaunchEC2Instance:
+    Description: Option to launch an EC2 instance and DMS replication instance needed for Labs 11, 12, and 18 - includes AWS SCT, Sample Oracle Server w/ Oracle SQL Developer, Sample SQL Server w/ SQL Server Mgmt. Studio, Power BI, SQL Workbench/J w/ Redshift driver
+    Type: String
+    Default: 'No'
+    AllowedValues:
+    - 'No'
+    - 'Yes'
+Conditions:
+  OptInDataSharingCluster: !Equals
+    - !Ref DataSharingCluster
+    - 'Yes'
+  FullLoad: !Equals
+    - !Ref DataLoadingPrimaryCluster
+    - 'Yes'
+  LaunchEC2: !Equals
+    - !Ref LaunchEC2Instance
+    - 'Yes'
+Metadata:
+  AWS::CloudFormation::Interface:
+    ParameterGroups:
+      -
+        Label:
+          default: "Connection Details"
+        Parameters:
+          - NodeType
+          - NumberOfNodes
+          - MasterUsername
+          - MasterUserPassword
+          - DatabaseName
+          - PortNumber
+          - InboundTraffic
+          - EETeamRoleArn
+# Mappings:
+#   RegionMap:
+#     us-west-2: # Oregon
+#       "S3BucketDirectory" : "redshift-immersionday-labs"
+#     us-east-1: # Virginia
+#       "S3BucketDirectory" : "redshift-demos"
+Resources:
+  LambdaRole:
+    Type: AWS::IAM::Role
+    Properties :
+      AssumeRolePolicyDocument:
+        Version : 2012-10-17
+        Statement :
+          -
+            Effect : Allow
+            Principal :
+              Service :
+                - lambda.amazonaws.com
+            Action :
+              - sts:AssumeRole
+      Path : /
+      Policies:
+        -
+          PolicyName: LambdaCloudFormationPolicy
+          PolicyDocument:
+            Version: 2012-10-17
+            Statement:
+              -
+                Effect: Allow
+                Action:
+                  - s3:*
+                Resource:
+                  - !Sub "arn:aws:s3:::cloudformation-custom-resource-response-${AWS::Region}"
+                  - !Sub "arn:aws:s3:::cloudformation-waitcondition-${AWS::Region}"
+                  - !Sub "arn:aws:s3:::cloudformation-custom-resource-response-${AWS::Region}/*"
+                  - !Sub "arn:aws:s3:::cloudformation-waitcondition-${AWS::Region}/*"
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/service-role/AWSGlueServiceRole
+        - arn:aws:iam::aws:policy/AmazonS3FullAccess
+        - arn:aws:iam::aws:policy/CloudWatchLogsFullAccess
+        - arn:aws:iam::aws:policy/AmazonRDSDataFullAccess
+        - arn:aws:iam::aws:policy/IAMFullAccess
+        - arn:aws:iam::aws:policy/AmazonRedshiftFullAccess
+  LambdaFunctionDefaultRole:
+    Type: AWS::Lambda::Function
+    Properties:
+        Timeout: 300
+        Code:
+          ZipFile: |
+            import sys
+            import os
+            import json
+            import cfnresponse
+            import logging
+            from pip._internal import main
+
+            main(['install', 'boto3', '--target', '/tmp/'])
+            sys.path.insert(0,'/tmp/')
+
+            import boto3
+            from botocore.exceptions import ClientError
+
+            def lambda_handler(event, context):
+
+                print(boto3.__version__)
+
+                if event['RequestType'] == 'Delete':
+                    cfnresponse.send(event, context, cfnresponse.SUCCESS, {'Data': 'Delete complete'})
+                else:
+                    try:
+                        client = boto3.client('redshift')
+                        response = client.modify_cluster_iam_roles(
+                            ClusterIdentifier=os.environ['RedshiftClusterIdentifier'],
+                            DefaultIamRoleArn=os.environ['RedshiftClusterRole']
+                        )
+                        print(response)
+                    except Exception as e:
+                        logger.error(e)
+                        cfnresponse.send(event, context, cfnresponse.FAILED, {'Data': 'Create failed'})
+
+                cfnresponse.send(event, context, cfnresponse.SUCCESS, {'Data': 'Create complete'})
+
+                return {
+                    'statusCode': 200,
+                    'body': json.dumps('Deployed Default Role')
+                }
+          # S3Bucket:
+          #   Fn::FindInMap:
+          #   - RegionMap
+          #   - !Ref AWS::Region
+          #   - S3BucketDirectory
+          # S3Key: my-deployment-package.zip
+        Environment:
+          Variables:
+            RedshiftClusterIdentifier:
+              Ref: RedshiftCluster
+            RedshiftClusterRole:
+              Fn::GetAtt: [RedshiftRole, Arn]
+        Handler: index.lambda_handler
+        Role:
+          Fn::GetAtt: [LambdaRole, Arn]
+        Runtime: python3.9
+    DependsOn:
+      - LambdaRole
+      - RedshiftCluster
+      - RedshiftRole
+  PrimerInvokeDefaultRole:
+    Type: AWS::CloudFormation::CustomResource
+    DependsOn:
+      - LambdaFunctionDefaultRole
+    Version: "1.0"
+    Properties:
+      ServiceToken: !GetAtt 'LambdaFunctionDefaultRole.Arn'
+  RedshiftRole:
+    Type: AWS::IAM::Role
+    Properties :
+      RoleName: RedshiftImmersionRole
+      AssumeRolePolicyDocument:
+        Version : 2012-10-17
+        Statement :
+          -
+            Effect : Allow
+            Principal :
+              Service :
+                - redshift.amazonaws.com
+            Action :
+              - sts:AssumeRole
+          -
+            Effect : Allow
+            Principal :
+              Service :
+                - sagemaker.amazonaws.com
+            Action :
+              - sts:AssumeRole
+          -
+            Effect : Allow
+            Principal :
+              AWS :
+                Ref: EETeamRoleArn
+            Action :
+              - sts:AssumeRole
+          -
+            Effect : Allow
+            Principal :
+              Service :
+                - events.amazonaws.com
+            Action :
+              - sts:AssumeRole
+          -
+            Effect : Allow
+            Principal :
+              Service :
+                - scheduler.redshift.amazonaws.com
+            Action :
+              - sts:AssumeRole
+      Path : /
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/AmazonS3FullAccess
+        - arn:aws:iam::aws:policy/AWSGlueConsoleFullAccess
+        - arn:aws:iam::aws:policy/AmazonRedshiftFullAccess
+        - arn:aws:iam::aws:policy/AmazonSageMakerFullAccess
+  RedshiftCluster:
+    Type: AWS::Redshift::Cluster
+    DependsOn:
+      - AttachGateway
+      - RedshiftRole
+    Properties:
+      ClusterType: 'multi-node'
+      NumberOfNodes:
+        Ref: NumberOfNodes
+      NodeType:
+        Ref: NodeType
+      DBName:
+        Ref: DatabaseName
+      MasterUsername:
+        Ref: MasterUsername
+      MasterUserPassword:
+        Ref: MasterUserPassword
+      ClusterParameterGroupName: default.redshift-1.0
+      VpcSecurityGroupIds:
+       - Ref: SecurityGroup
+      ClusterSubnetGroupName:
+        Ref: RedshiftClusterSubnetGroup
+      PubliclyAccessible: 'true'
+      Port:
+        Ref: PortNumber
+      IamRoles:
+        - Fn::GetAtt: [RedshiftRole, Arn]
+  RedshiftClusterSubnetGroup:
+    Type: AWS::Redshift::ClusterSubnetGroup
+    Properties:
+      Description: Cluster subnet group
+      SubnetIds:
+      - Ref: Subnet
+      - Ref: Subnet2
+  RedshiftDataSharingCluster:
+    Type: AWS::CloudFormation::Stack
+    Condition: OptInDataSharingCluster
+    DependsOn:
+      - RedshiftCluster
+    Properties:
+      TemplateURL: 'https://redshift-immersionday-labs.s3.us-west-2.amazonaws.com/DataSharingCluster.yaml'
+      Parameters:
+        DatabaseName:
+          Ref: DatabaseName
+        NumberOfNodes:
+          Ref: NumberOfNodes
+        NodeType:
+          Ref: NodeType
+        MasterUsername:
+          Ref: MasterUsername
+        MasterUserPassword:
+          Ref: MasterUserPassword
+        InboundTraffic:
+          Ref: InboundTraffic
+        PortNumber:
+          Ref: PortNumber
+        RedshiftRole: !GetAtt 'RedshiftRole.Arn'
+        SubnetA:
+          Ref: Subnet
+        SubnetB:
+          Ref: Subnet2
+        RedshiftClusterSecurityGroup:
+          Ref: SecurityGroup
+  FullLoadLambdaFunction:
+    Type: AWS::CloudFormation::Stack
+    Condition: FullLoad
+    DependsOn:
+      - PrimerInvokeDefaultRole
+    Properties:
+      TemplateURL: 'https://redshift-immersionday-labs.s3.us-west-2.amazonaws.com/LambdaFullLoad.yaml'
+      Parameters:
+        RedshiftCluster:
+          Ref: RedshiftCluster
+  EC2InstanceStack:
+    Type: AWS::CloudFormation::Stack
+    Condition: LaunchEC2
+    DependsOn:
+      - RedshiftCluster
+    Properties:
+      TemplateURL: 'https://redshift-immersionday-labs.s3.us-west-2.amazonaws.com/EC2Instance.yaml'
+      Parameters:
+        RedshiftSubnetA:
+          Ref: Subnet
+        RedshiftSubnetB:
+          Ref: Subnet2
+        RedshiftSecurityGroup:
+          Ref: SecurityGroup
+        InboundTraffic:
+          Ref: InboundTraffic
+  VPC:
+    Type: AWS::EC2::VPC
+    Properties:
+      CidrBlock: 10.0.0.0/16
+      EnableDnsHostnames: true
+      EnableDnsSupport: true
+  Subnet:
+    Type: AWS::EC2::Subnet
+    Properties:
+      MapPublicIpOnLaunch: true
+      CidrBlock: 10.0.0.0/24
+      AvailabilityZone: !Select [2, !GetAZs ""]
+      VpcId:
+        Ref: VPC
+  Subnet2:
+    Type: AWS::EC2::Subnet
+    Properties:
+      MapPublicIpOnLaunch: true
+      CidrBlock: 10.0.1.0/24
+      AvailabilityZone: !Select [3, !GetAZs ""]
+      VpcId:
+        Ref: VPC
+  SecurityGroup:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupDescription: Security group
+      SecurityGroupIngress:
+      - CidrIp:
+          Ref: InboundTraffic
+        FromPort: !Ref PortNumber
+        ToPort: !Ref PortNumber
+        IpProtocol: tcp
+      VpcId:
+        Ref: VPC
+  SecurityGroupSelfReference:
+    Type: AWS::EC2::SecurityGroupIngress
+    Properties:
+      Description: Self Referencing Rule
+      FromPort: -1
+      IpProtocol: -1
+      GroupId: !GetAtt [SecurityGroup, GroupId]
+      SourceSecurityGroupId: !GetAtt [SecurityGroup, GroupId]
+      ToPort: -1
+  InternetGateway:
+    Type: AWS::EC2::InternetGateway
+  AttachGateway:
+    Type: AWS::EC2::VPCGatewayAttachment
+    Properties:
+      VpcId:
+        Ref: VPC
+      InternetGatewayId:
+        Ref: InternetGateway
+  RouteTable:
+    Type: AWS::EC2::RouteTable
+    Properties:
+      VpcId:
+        Ref: VPC
+  Route:
+    Type: AWS::EC2::Route
+    DependsOn: AttachGateway
+    Properties:
+      RouteTableId:
+        Ref: RouteTable
+      DestinationCidrBlock: 0.0.0.0/0
+      GatewayId:
+        Ref: InternetGateway
+  SubnetRouteTableAssociation:
+    Type: AWS::EC2::SubnetRouteTableAssociation
+    Properties:
+      SubnetId:
+        Ref: Subnet
+      RouteTableId:
+        Ref: RouteTable
+  SubnetRouteTableAssociation2:
+    Type: AWS::EC2::SubnetRouteTableAssociation
+    Properties:
+      SubnetId:
+        Ref: Subnet2
+      RouteTableId:
+        Ref: RouteTable
+Outputs:
+  ClusterEndpoint:
+    Description: Cluster endpoint
+    Value: !Sub "${RedshiftCluster.Endpoint.Address}:${RedshiftCluster.Endpoint.Port}"
+  NumberOfNodes:
+    Description: Number of nodes in your Redshift cluster
+    Value:
+      Ref: NumberOfNodes
+  NodeType:
+    Description: Redshift cluster node type config
+    Value:
+      Ref: NodeType
+  MasterUsername:
+    Description: Username to login to your Redshift cluster
+    Value:
+      Ref: MasterUsername
+  MasterUserPassword:
+    Description: Username to login to your Redshift cluster
+    Value:
+      Ref: MasterUserPassword
+  VPC:
+    Description: VPC ID for this configuration
+    Value:
+      Ref: VPC
+  InboundTraffic:
+    Description: CIDR range
+    Value:
+      Ref: InboundTraffic
+  PortNumber:
+    Description: Redshift port number for connections and security
+    Value:
+      Ref: PortNumber
+  RedshiftRoleName:
+    Description: Name of Redshift Role
+    Value:
+      Ref: RedshiftRole
+  LambdaRoleName:
+    Description: Name of Lambda Role
+    Value:
+      Ref: LambdaRole
+  RedshiftRoleNameArn:
+    Description: Name of Redshift Role with ARN FN tag
+    Value:
+      Fn::GetAtt: [RedshiftRole, Arn]
+  LambdaRoleNameArn:
+    Description: Name of Lambda Role with ARN FN tag
+    Value:
+      Fn::GetAtt: [LambdaRole, Arn]
+  ClusterName:
+    Description: Name of cluster
+    Value:
+      Ref: RedshiftCluster
+  RedshiftClusterSubnetGroupName:
+    Description: Name of cluster subnet group
+    Value:
+      Ref: RedshiftClusterSubnetGroup
+  SubnetA:
+    Description: first subnet
+    Value:
+      Ref: Subnet
+  SubnetB:
+    Description: second subnet
+    Value:
+      Ref: Subnet2
+  RedshiftClusterSecurityGroupName:
+    Description: Name of cluster security group
+    Value:
+      Ref: SecurityGroup

@@ -12,13 +12,14 @@ To learn the basics concepts of data engineering
 1. [Key Concepts](./key-concepts.md)
 1. [Big Data](./big-data.md)
 1. [Cloud Computing](./cloud-computing.md)
+1. [OLTP](./oltp.md)
+1. [Data Lakes and Lakehouses](./data-lakes-lakehouses.md)
 
 ### Concepts Level 2
 
 1. [Partitioning](./partitioning.md)
 1. [System Design](./system-design.md)
 1. [Serialization and Compression](./serialization-and-compression.md)
-1. [OLTP](./oltp.md)
 
 ### Concepts Level 3
 

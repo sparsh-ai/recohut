@@ -1,0 +1,96 @@
++--------------------+------------------+
+| CURRENT_DATABASE() | CURRENT_SCHEMA() |
+|--------------------+------------------|
+| SF_TUTS            | PUBLIC           |
++--------------------+------------------+
++---------------------------------------+
+| status                                |
+|---------------------------------------|
+| Table EMP_BASIC successfully created. |
++---------------------------------------+
++--------------------------------------------+
+| status                                     |
+|--------------------------------------------|
+| Warehouse SF_TUTS_WH successfully created. |
++--------------------------------------------+
++---------------------+
+| CURRENT_WAREHOUSE() |
+|---------------------|
+| SF_TUTS_WH          |
++---------------------+
++-----------------+--------------------+-------------+-------------+--------------------+--------------------+----------+---------+
+| source          | target             | source_size | target_size | source_compression | target_compression | status   | message |
+|-----------------+--------------------+-------------+-------------+--------------------+--------------------+----------+---------|
+| employees01.csv | employees01.csv.gz |         370 |         304 | NONE               | GZIP               | UPLOADED |         |
+| employees02.csv | employees02.csv.gz |         364 |         288 | NONE               | GZIP               | UPLOADED |         |
+| employees03.csv | employees03.csv.gz |         407 |         304 | NONE               | GZIP               | UPLOADED |         |
+| employees04.csv | employees04.csv.gz |         375 |         304 | NONE               | GZIP               | UPLOADED |         |
+| employees05.csv | employees05.csv.gz |         404 |         304 | NONE               | GZIP               | UPLOADED |         |
++-----------------+--------------------+-------------+-------------+--------------------+--------------------+----------+---------+
++--------------------+------+----------------------------------+------------------------------+
+| name               | size | md5                              | last_modified                |
+|--------------------+------+----------------------------------+------------------------------|
+| employees01.csv.gz |  304 | 48ea7745b6f32e007f9fbc76fae036cd | Fri, 5 Aug 2022 11:03:35 GMT |
+| employees02.csv.gz |  288 | d6a0cfa3bdbe934dae99eb66b33b0893 | Fri, 5 Aug 2022 11:03:33 GMT |
+| employees03.csv.gz |  304 | ffe486555faed9592f4d5990c96a6999 | Fri, 5 Aug 2022 11:03:35 GMT |
+| employees04.csv.gz |  304 | 1f120952b7d4e09ac87751685b0e0ee1 | Fri, 5 Aug 2022 11:03:35 GMT |
+| employees05.csv.gz |  304 | 5674b45e688e0747f99f057cc075e73f | Fri, 5 Aug 2022 11:03:35 GMT |
++--------------------+------+----------------------------------+------------------------------+
++--------------------+--------+-------------+-------------+-------------+-------------+-------------+------------------+-----------------------+-------------------------+
+| file               | status | rows_parsed | rows_loaded | error_limit | errors_seen | first_error | first_error_line | first_error_character | first_error_column_name |
+|--------------------+--------+-------------+-------------+-------------+-------------+-------------+------------------+-----------------------+-------------------------|
+| employees02.csv.gz | LOADED |           5 |           5 |           1 |           0 | NULL        |             NULL |                  NULL | NULL                    |
+| employees01.csv.gz | LOADED |           5 |           5 |           1 |           0 | NULL        |             NULL |                  NULL | NULL                    |
+| employees04.csv.gz | LOADED |           5 |           5 |           1 |           0 | NULL        |             NULL |                  NULL | NULL                    |
+| employees03.csv.gz | LOADED |           5 |           5 |           1 |           0 | NULL        |             NULL |                  NULL | NULL                    |
+| employees05.csv.gz | LOADED |           5 |           5 |           1 |           0 | NULL        |             NULL |                  NULL | NULL                    |
++--------------------+--------+-------------+-------------+-------------+-------------+-------------+------------------+-----------------------+-------------------------+
++------------+--------------+---------------------------+-----------------------------+--------------------+------------+
+| FIRST_NAME | LAST_NAME    | EMAIL                     | STREETADDRESS               | CITY               | START_DATE |
+|------------+--------------+---------------------------+-----------------------------+--------------------+------------|
+| Wallis     | Sizey        | wsizeyf@sf_tuts.com       | 36761 American Lane         | Taibao             | 2016-12-30 |
+| Di         | McGowran     | dmcgowrang@sf_tuts.com    | 1856 Maple Lane             | Banjar Bengkelgede | 2017-04-22 |
+| Carson     | Bedder       | cbedderh@sf_tuts.co.au    | 71 Clyde Gallagher Place    | Leninskoye         | 2017-03-29 |
+| Dana       | Avory        | davoryi@sf_tuts.com       | 2 Holy Cross Pass           | Wenlin             | 2017-05-11 |
+| Ronny      | Talmadge     | rtalmadgej@sf_tuts.co.uk  | 588 Chinook Street          | Yawata             | 2017-06-02 |
+| Nyssa      | Dorgan       | ndorgan5@sf_tuts.com      | 7 Tomscot Way               | Pampas Chico       | 2017-04-13 |
+| Catherin   | Devereu      | cdevereu6@sf_tuts.co.au   | 535 Basil Terrace           | Magapit            | 2016-12-17 |
+| Grazia     | Glaserman    | gglaserman7@sf_tuts.com   | 162 Debra Lane              | Shiquanhe          | 2017-06-06 |
+| Ivett      | Casemore     | icasemore8@sf_tuts.com    | 84 Holmberg Pass            | Campina Grande     | 2017-03-29 |
+| Cesar      | Hovie        | chovie9@sf_tuts.com       | 5 7th Pass                  | Miami              | 2016-12-21 |
+| Althea     | Featherstone | afeatherstona@sf_tuts.com | 8172 Browning Street, Apt B | Calatrava          | 2017-07-12 |
+| Hollis     | Anneslie     | hanneslieb@sf_tuts.com    | 3248 Roth Park              | Aleysk             | 2017-11-16 |
+| Betti      | Cicco        | bciccoc@sf_tuts.com       | 121 Victoria Junction       | Sinegor'ye         | 2017-06-22 |
+| Brendon    | Durnall      | bdurnalld@sf_tuts.com     | 26814 Weeping Birch Place   | Sabadell           | 2017-11-14 |
+| Kylila     | MacConnal    | kmacconnale@sf_tuts.com   | 04 Valley Edge Court        | Qingshu            | 2017-06-22 |
+| Arlene     | Davidovits   | adavidovitsk@sf_tuts.com  | 7571 New Castle Circle      | Meniko             | 2017-05-03 |
+| Violette   | Shermore     | vshermorel@sf_tuts.com    | 899 Merchant Center         | Troitsk            | 2017-01-19 |
+| Ron        | Mattys       | rmattysm@sf_tuts.com      | 423 Lien Pass               | Bayaguana          | 2017-11-15 |
+| Shurlocke  | Oluwatoyin   | soluwatoyinn@sf_tuts.com  | 40637 Portage Avenue        | Semënovskoye       | 2017-09-12 |
+| Granger    | Bassford     | gbassfordo@sf_tuts.co.uk  | 6 American Ash Circle       | Kardítsa           | 2016-12-30 |
+| Lem        | Boissier     | lboissier@sf_tuts.com     | 3002 Ruskin Trail           | Shikārpur          | 2017-08-25 |
+| Iain       | Hanks        | ihanks1@sf_tuts.com       | 2 Pankratz Hill             | Monte-Carlo        | 2017-12-10 |
+| Avo        | Laudham      | alaudham2@sf_tuts.com     | 6948 Debs Park              | Prażmów            | 2017-10-18 |
+| Emili      | Cornner      | ecornner3@sf_tuts.com     | 177 Magdeline Avenue        | Norrköping         | 2017-08-13 |
+| Harrietta  | Goolding     | hgoolding4@sf_tuts.com    | 450 Heath Trail             | Osielsko           | 2017-11-27 |
++------------+--------------+---------------------------+-----------------------------+--------------------+------------+
++-------------------------+
+| number of rows inserted |
+|-------------------------|
+|                       2 |
++-------------------------+
++--------------------------+
+| EMAIL                    |
+|--------------------------|
+| gbassfordo@sf_tuts.co.uk |
+| madamouc@sf_tuts.co.uk   |
+| rtalmadgej@sf_tuts.co.uk |
++--------------------------+
++------------+-----------+------------------------------+
+| FIRST_NAME | LAST_NAME | DATEADD('DAY',90,START_DATE) |
+|------------+-----------+------------------------------|
+| Wallis     | Sizey     | 2017-03-30                   |
+| Catherin   | Devereu   | 2017-03-17                   |
+| Cesar      | Hovie     | 2017-03-21                   |
+| Granger    | Bassford  | 2017-03-30                   |
++------------+-----------+------------------------------+

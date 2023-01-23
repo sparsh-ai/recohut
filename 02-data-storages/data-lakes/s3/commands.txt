@@ -1,0 +1,35 @@
+**Create a bucket named `de-first`**
+
+```sh
+aws s3api create-bucket --bucket de-first
+```
+
+**List all the buckets**
+
+```sh
+aws s3 ls
+```
+
+**List the content of a bucket named `de-first`**
+
+```sh
+aws s3 ls s3://de-first/
+```
+
+**Copy a local file `/Files/sample.txt` to the bucket `de-first`**
+
+```sh
+aws s3 cp /Files/sample.txt s3://de-first/sample.txt
+```
+
+**Sync all files of a folder `/Files` to the bucket's `datafiles` folder**
+
+```sh
+aws s3 sync /Files s3://de-first/datafiles
+```
+
+**To copy all JSON Reference data to same location**
+
+```sh
+aws s3 cp . s3://de-first/data/ --recursive --exclude "*" --include "*.json"
+```

@@ -1,0 +1,1 @@
+CREATE DATABASE ADAM_DB COMMENT = 'First Database';
