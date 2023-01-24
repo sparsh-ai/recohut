@@ -1,0 +1,1 @@
+select * from creditcard.transactions_by_category where category='groceries' and creditcard_num='4111111111111111';

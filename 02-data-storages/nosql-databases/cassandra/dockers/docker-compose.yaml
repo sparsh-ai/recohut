@@ -1,0 +1,5 @@
+version: '3'
+services:
+  cassandra:
+    image: cassandra:3.11
+    network_mode: host
