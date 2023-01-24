@@ -12,7 +12,7 @@
 
 1. [Foundations](./01-foundations/)
 1. [Data Storages](./02-data-storages/)
-1. Data Modeling
+1. [Data Modeling](./03-data-modeling/)
 1. Data Transformation
 1. Workflow Orchestration
 1. Streaming Data Processing
