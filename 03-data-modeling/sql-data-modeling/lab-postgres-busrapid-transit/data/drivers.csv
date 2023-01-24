@@ -1,0 +1,51 @@
+id,first_name,last_name,gender,email_address,address,date_of_birth,national_identity_number
+1,Bukola,Kyauta,M,Bukola.Kyuauta@example.com,"Michael Okpara Street, Zone 5, Wuse",1972-05-20,36085056682
+2,Umar,Azubuike,F,Umar.Azuauta@example.com,"Suite GF012 Noble Complex Moshood Abiola Road Area 10, Garki",1972-05-21,27076178042
+3,Chuks,Ayuba,M,Chuks.Ayuauta@example.com,"No 41 Gana Street, Maitama",1972-05-22,74086881815
+4,Chinyelu,Onyinyechi,F,Chinyelu.Onuauta@example.com,"Agege Motor Road, Challenge Bus Stop, Mushin",1972-05-23,81564235737
+5,Chinwendu,Yetunde,M,Chinwendu.Yeuauta@example.com,"Lungi Crescent, Off Aminu Kano Crescent",1972-05-24,53595237206
+6,Hadizatu,Eniola,M,Hadizatu.Enuauta@example.com,Jeka Danari,1972-05-25,84977638233
+7,Ogochukwu,Ife,M,Ogochukwu.Ifuauta@example.com,"Off Ogbatai Road, Woji. P. O. Box 531 Woji Town, Port Harcourt",1978-11-04,38283469027
+8,Hamisu,Bolanle,F,Hamisu.Bouauta@example.com,"Blk 43 Iponri Estate, Iponri",1978-11-05,68883882742
+9,Chidiebele,Oluwayemisi,M,Chidiebele.Oluauta@example.com,"11, Oju Olokun St.",1978-11-06,27026276239
+10,Aminu,Chibueze,M,Aminu.Chuauta@example.com,"41A Western Avenue,Alaka Bus Stop",1990-12-03,48327814351
+11,Abimbola,Jummai,M,Abimbola.Juuauta@example.com,"Bayero Block C2 Ultra Modern Market, Garki Ii",1990-12-04,62651357218
+12,Ola,Chioma,M,Ola.Chuauta@example.com,"4,Beekley Avenue Gbagada",1990-12-05,15103683041
+13,Ebere,Bukar,F,Ebere.Buuauta@example.com,"1, Sule Abore Street",1990-12-06,30979759615
+14,Babajide,Olujimi,M,Babajide.Oluauta@example.com,"22, Bwari Road",1990-12-07,11180826634
+15,Umaru,Kelechi,F,Umaru.Keuauta@example.com,"32, Ikot-Ekpene Road",1980-06-07,56916162166
+16,Ahmadu,Yalwa,F,Ahmadu.Yauauta@example.com,"8, Ajao Street, Owode Market",1980-06-08,73474717859
+17,Ife,Balarabe,M,Ife.Bauauta@example.com,"45 Alhaji Street Itunpate, Ikorodu",1980-06-09,50300305348
+18,Oluwaseun,Rabiu,M,Oluwaseun.Rauauta@example.com,"106, Market Rd. Box 449",1980-06-10,38133723055
+19,Opeyemi,Ogechi,M,Opeyemi.Oguauta@example.com,"893, Ogunusi Road",1980-06-11,10838239219
+20,Obinna,Yewande,M,Obinna.Yeuauta@example.com,"43,Adebiyi Street",1993-02-11,60183144715
+21,Nkemdilim,Opeyemi,M,Nkemdilim.Opuauta@example.com,"15, Akin Adesola Street",1993-02-12,53820061494
+22,Chinonso,Ifeoma,M,Chinonso.Ifuauta@example.com,"C 28, Kura Plaza",1993-02-13,18168184930
+23,Ogochukwu,Umar,M,Ogochukwu.Umuauta@example.com,42 I/Taiwo Rd.,1993-02-14,35667663828
+24,Idowu,Eniola,F,Idowu.Enuauta@example.com,"Kolda Link By NITEL Junction, Adetokunbo Ademola Crescent, Wuse Ii",1993-02-15,49726517652
+25,Eniola,Onyinye,F,Eniola.Onuauta@example.com,"27,Unity Quaters",1978-11-05,63151038086
+26,Nnamdi,Emeka,M,Nnamdi.Emuauta@example.com,"Glover Memorial Hall, 4, Customs Street",1978-11-06,64568728757
+27,Uju,Ige,F,Uju.Iguauta@example.com,"Malam Shehu Plaza, Upstairs, Jabi",1990-12-03,54862945514
+28,Ogechukwu,Ɗanlami,F,Ogechukwu.Ɗauauta@example.com,"7, Jimoh Jinadu Street, Isheri-Osun",1990-12-04,92052667557
+29,Chijioke,Funmilayo,M,Chijioke.Fuuauta@example.com,"24, Ibadan Road",1993-01-21,56041818465
+30,Ige,Ekwueme,F,Ige.Ekuauta@example.com,"118,Funsho Williams Avenue Surulere",1993-01-22,74203493538
+31,Aisha,Abdullahi,M,Aisha.Abuauta@example.com,"76, Mobolaji Bank Anthony Way",1993-01-23,75198465746
+32,Onyinyechi,Enitan,M,Onyinyechi.Enuauta@example.com,"Opebi Road, Ikeja, Ikeja",1993-01-24,32014614079
+33,Ayokunle,Folami,M,Ayokunle.Fouauta@example.com,"3,Baale Street",1993-01-25,77746675243
+34,Chisom,Nkechinyere,M,Chisom.Nkuauta@example.com,"20, Bayode Oluwole Street",1993-01-26,85365620860
+35,Ejike,Mojisola,M,Ejike.Mouauta@example.com,"Dambata Close, Area 7, Garki",1995-09-23,19272169141
+36,Nnamdi,Chibueze,F,Nnamdi.Chuauta@example.com,"Adetokunbo Ademola Crescent, Wuse II, P.O. Box 3472",1995-09-24,49641804283
+37,Chukwudi,Ogechukwu,F,Chukwudi.Oguauta@example.com,"Isawo Road, Owutu, Agirc",1995-09-25,17923331258
+38,Nkechinyere,Aishatu,M,Nkechinyere.Aiuauta@example.com,"15, Michael Ososipe St, Ago Palace Way",1995-09-26,58266018113
+39,Muhammadu,Chijioke,M,Muhammadu.Chuauta@example.com,"24, Kizoughga Street",1995-09-27,14620600153
+40,Olufemi,Akachi,M,Olufemi.Akuauta@example.com,"2/2 Junction, Along Gado Nasko Road, Kubwa",1995-09-28,86245259137
+41,Segun,Chinyere,F,Segun.Chuauta@example.com,"76, Akinwande Street",1993-01-25,88146075968
+42,Olufunmilola,Chidinma,F,Olufunmilola.Chuauta@example.com,"Off Parakou Crescent, Off Aminu Kano Crescent, Wuse Ii",1993-01-26,99595244947
+43,Ikenna,Chi,M,Ikenna.Chuauta@example.com,"D5, Bahago Plaza",1995-09-23,42766249794
+44,Nnamdi,Abiodun,M,Nnamdi.Abuauta@example.com,"18/20, Itire Road, Surulere",1995-09-24,35958696871
+45,Afolabi,Ekene,F,Afolabi.Ekuauta@example.com,"Off Adeniran Ogunsanya Street, P.O. Box 1373, Surulere",1982-04-04,59203142545
+46,Abioye,Aliyu,F,Abioye.Aluauta@example.com,"159, Igbosere Rd.",1988-04-24,35157539530
+47,Olukayode,Lawal,M,Olukayode.Lauauta@example.com,"Enerhen Junction, Effurun",1977-06-20,28922960054
+48,Adanna,Babatunde,M,Adanna.Bauauta@example.com,"3 5 avenue Charles de Gaulle, B.P. 752",1990-10-13,95100752021
+49,Chikere,Ekundayo,M,Chikere.Ekuauta@example.com,"3, Adepele Street, Computer Village",1990-10-14,36691817647
+50,Alhaji,Adebola,M,Alhaji.Aduauta@example.com,"Obayan Street, Off Community Road (Pako Bus-Stop), Akoka",1990-10-15,84627539526
