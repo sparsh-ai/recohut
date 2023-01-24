@@ -12,6 +12,16 @@ To develop essential SQL skills required in data engineering
 1. [SQL Interview Questions](./sql-interviews-questions.md)
 1. [SQL vs NoSQL](./sql-vs-nosql.md)
 
+### Practice
+
+1. [Assignment 1](./sql-assignments/assignment1/)
+1. [Assignment 2](./sql-assignments/assignment2/)
+1. [Assignment 3](./sql-assignments/assignment3/)
+1. [Assignment 4](./sql-assignments/assignment4/)
+1. [Assignment 5](./sql-assignments/assignment5/)
+1. [Assignment 6](./sql-assignments/assignment6/)
+1. [Assignment 7](./sql-assignments/assignment7/)
+
 ### Leetcode
 
 1. [Leetcode Easy Level](./leetcode/basics)

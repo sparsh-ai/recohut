@@ -1,0 +1,56 @@
+# Patients SQL Assignment
+
+## Queries
+
+- Show first name, last name, and the full province name of each patient.
+- Show patient_id, first_name, last_name from patients whose diagnosis is 'Dementia'.
+- Show first name and last name concatinated into one column to show their full name.
+- Show how many patients have a birth_date with 2010 as the birth year.
+- Show the first_name, last_name, and height of the patient with the greatest height.
+- Show all columns for patients who have one of the following patient_ids: 1,45,534,879,1000
+- Show the total number of admissions
+- Show all the columns from admissions where the patient was admitted and discharged on the same day.
+- Show the total number of admissions for patient_id 45.
+- Based on the cities that our patients live in, show unique cities that are in province_id 'NS'?
+- Write a query to find the first_name, last name and birth date of patients who have height more than 160 and weight more 
+- Write a query to find list of patients first_name, last_name, and allergies from Hamilton where allergies are not null
+- Show unique birth years from patients and order them by ascending.
+- Show unique first names from the patients table which only occurs once in the list.
+- Show patient_id and first_name from patients where their first_name start with 'N' and ends with 'y' and is at least 3 
+- Display every patient's first_name. Order the list by the length of each name and then by alphbetically.
+- Show the total amount of male patients and the total amount of female patients in the patients table.
+- Show first and last name, allergies from patients which have allergies to either 'Penicillin' or 'Morphine'. Show results 
+- Show patient_id, diagnosis from admissions. Find patients admitted multiple times for the same diagnosis.
+- Show the city and the total number of patients in the city.
+- Show first name, last name and role of every person that is either patient or physician.
+- Show all allergies ordered by popularity. Remove NULL values from query.
+- Show all patient's first_name, last_name, and birth_date who were born in the 1970s decade. Sort the list starting from the 
+- Separate the last_name and first_name with a comma. Order the list by the first_name in decending order.
+- Show the province_id(s), sum of height; where the total sum of its patient's height is greater than or equal to 7,000.
+- Show the difference between the largest weight and smallest weight for patients with the last name 'Maroni'.
+- Show all of the days of the month (1-31) and how many admission_dates occurred on that day. Sort by the day with most 
+- Show all columns for patient_id 45's most recent admission_date.
+- Show patient_id, attending_physician_id, and diagnosis for admissions that match one of the given criteria.
+- Show first_name, last_name, and the total number of admissions attended for each physician.
+- For each physicain, display their id, full name, and the first and last admission date they attended.
+- Display the total amount of patients for each province. Order by descending.
+- For every admission, display the patient's full name, their admission diagnosis, and their physician's full name who 
+- Show all of the patients grouped into weight groups. Show the total amount of patients in each weight group. Order the list 
+- Show patient_id, weight, height, isObese from the patients table.
+- Show patient_id, first_name, last_name, and attending physician's specialty.
+- All patients who have gone through admissions, can see their medical documents on our site. Those patients are given a 
+- Each admission costs $50 for patients without insurance, and $10 for patients with insurance. All patients with an even 
+- Show the provinces that has more patients identified as 'M' than 'F'. Must only show full province_name
+- Show the percent of patients that have 'M' as their gender. Round the answer to the nearest hundreth number and in percent 
+- Show patients who borned in or after 2005.
+- Show last name of patients that ends with the letter 'A'
+- Show the first name of the physician who is the busiest.
+- How many Cardiologist are there?
+- How many patients admitted in July 2018?
+- How many patients stayed for more than 30 days?
+- How many patients were diagnosed with Appendicitis?
+- What are the top 5 cities having the highest number of patients?
+- What are the top 3 allergies patients suffered from?
+- What is the average height of male patients from Dundas city?
+- What is the average weight of female patients who had Penicillin allergy?
+- Update the patients table for the allergies column. If the patient's allergies is `Sulfa` then replace it with `Malar`.
