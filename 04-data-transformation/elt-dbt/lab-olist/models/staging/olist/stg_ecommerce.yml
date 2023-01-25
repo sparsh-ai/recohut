@@ -1,0 +1,50 @@
+version: 2
+
+sources:
+  - name: olist
+    quoting:
+      identifier: true
+    tables:
+      - name: olist_customers
+        columns:
+          - name: customer_unique_id
+            description: Unique identifier for each customer
+            # quote: true
+            tests:
+              - not_null
+          - name: customer_id
+            description: Customer ID column for orders
+            # quote: true
+            tests:
+              - not_null
+      - name: olist_geolocation
+      - name: olist_order_items
+      - name: olist_order_payments
+      - name: olist_order_reviews
+      - name: olist_orders
+      - name: olist_products
+      - name: olist_sellers
+      - name: product_category_name_translation.csv
+
+models:
+  - name: stg_rfm
+    columns:
+      - name: customer_unique_id
+        tests:
+          - unique
+          - not_null
+      - name: segment
+        description: '{{ doc("segment_info") }}'
+        tests:
+          - accepted_values:
+              values:
+                - Loyal_Customers
+                - Need_Attention
+                - Hibernating
+                - Potential_Loyalists
+                - Champions
+                - At_Risk
+                - Cant_Loose
+                - Promising
+                - New_Customers
+                - About_to_Sleep

@@ -1,0 +1,66 @@
+
+# Name your project! Project names should contain only lowercase characters
+# and underscores. A good package name should reflect your organization's
+# name or the intended use of these models
+name: 'demo_project'
+version: '1.0.0'
+config-version: 2
+
+# This setting configures which "profile" dbt uses for this project.
+profile: 'demo_project'
+
+# These configurations specify where dbt should look for different types of files.
+# The `model-paths` config, for example, states that models in this project can be
+# found in the "models/" directory. You probably won't need to change these!
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+target-path: "target"  # directory which will store compiled SQL files
+clean-targets:         # directories to be removed by `dbt clean`
+  - "target"
+  - "dbt_packages"
+
+vars:
+    new_user_default_pwd: 'Password123'
+    dbt_managed_users: [
+        'finance_user',
+        'masked_user',
+        'unmasked_user'
+    ]
+    dbt_managed_grants: {
+        'dbt_dept_finance': ['does_not_exist_user', 'finance_user'],
+        'dbt_dept_tech': ['masked_user', 'unmasked_user'],
+        'dbtraw': ['finance_user', 'masked_user', 'unmasked_user'],
+        'dbt': ['finance_user', 'masked_user', 'unmasked_user']
+    }
+
+seeds:
+  demo_project:
+    dept_marketing:
+      schema: dept_marketing
+
+models:
+  demo_project:
+    # Config indicated by + and applies to all files under models/example/
+    base_public:
+      +materialized: ephemeral
+      schema: dbtraw
+    dept_finance:
+      +materialized: view
+      schema: dept_finance
+    dept_tech:
+      +materialized: view
+      schema: dept_tech
+    dept_marketing:
+      materialized: view
+      schema: dept_marketing
+    dept_experimental:
+      materialized: materialized_view
+      schema: dept_experimental
+
+on-run-end:
+  - "{{ macro_manage_users_grants(schemas) }}"

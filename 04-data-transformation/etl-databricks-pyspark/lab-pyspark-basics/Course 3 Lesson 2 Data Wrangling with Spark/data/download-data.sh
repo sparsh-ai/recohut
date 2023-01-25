@@ -1,0 +1,1 @@
+aws s3 cp s3://wysde-datasets/sparkify/sparkify_log_small.json sparkify_log_small.json

@@ -1,0 +1,1 @@
+select * from {{ source('olist','product_category_name_translation.csv') }}

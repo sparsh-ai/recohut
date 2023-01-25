@@ -1,0 +1,574 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description:  CloudFormation Template for Orchestration using MWAA for EMR Serverless
+Parameters:
+  EnvironmentName:
+    Description: The name of the MWAA environment to be created.
+    Type: String
+    Default: mwaa-emr-serverless
+Resources:
+  # S3 Bucket for MWAA
+  AirflowBucketName:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub 'airflow-${AWS::Region}-${AWS::AccountId}'
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: True
+        BlockPublicPolicy: True
+        IgnorePublicAcls: True
+        RestrictPublicBuckets: True
+      VersioningConfiguration:
+        Status: Enabled
+
+  S3CustomResource:
+    Type: Custom::S3CustomResource
+    Properties:
+      ServiceToken: !GetAtt AWSLambdaFunction.Arn
+      the_bucket: !Ref AirflowBucketName
+      dirs_to_create: "dags"
+  
+  AWSLambdaFunction:
+     Type: "AWS::Lambda::Function"
+     Properties:
+       Description: "Work with S3 Buckets!"
+       FunctionName: !Sub '${AWS::StackName}-${AWS::Region}-lambda'
+       Handler: index.handler
+       Role: !GetAtt AWSLambdaExecutionRole.Arn
+       Timeout: 360
+       Runtime: python3.9
+       Code:
+         ZipFile: |
+          import boto3
+          import cfnresponse
+          def handler(event, context):
+              # Init ...
+              the_event = event['RequestType']
+              print("The event is: ", str(the_event))
+              response_data = {}
+              s_3 = boto3.client('s3')
+              # Retrieve parameters
+              the_bucket = event['ResourceProperties']['the_bucket']
+              dirs_to_create = event['ResourceProperties']['dirs_to_create']
+              try:
+                  if the_event in ('Create', 'Update'):
+                      print("Requested folders: ", str(dirs_to_create))
+                      for dir_name in list(str(dirs_to_create).split(",")):
+                          print("Creating: ", str(dir_name))
+                          s_3.put_object(Bucket=the_bucket,
+                                         Key=(dir_name
+                                              + '/'))
+                  elif the_event == 'Delete':
+                      print("Deleting S3 content...")
+                      b_operator = boto3.resource('s3')
+                      b_operator.Bucket(str(the_bucket)).objects.all().delete()
+                  # Everything OK... send the signal back
+                  print("Operation successful!")
+                  cfnresponse.send(event,
+                                   context,
+                                   cfnresponse.SUCCESS,
+                                   response_data)
+              except Exception as e:
+                  print("Operation failed...")
+                  print(str(e))
+                  response_data['Data'] = str(e)
+                  cfnresponse.send(event,
+                                   context,
+                                   cfnresponse.FAILED,
+                                   response_data)
+  AWSLambdaExecutionRole:
+     Type: AWS::IAM::Role
+     Properties:
+       AssumeRolePolicyDocument:
+         Statement:
+         - Action:
+           - sts:AssumeRole
+           Effect: Allow
+           Principal:
+             Service:
+             - lambda.amazonaws.com
+         Version: '2012-10-17'
+       Path: "/"
+       Policies:
+       - PolicyDocument:
+           Statement:
+           - Action:
+             - logs:CreateLogGroup
+             - logs:CreateLogStream
+             - logs:PutLogEvents
+             Effect: Allow
+             Resource: arn:aws:logs:*:*:*
+           Version: '2012-10-17'
+         PolicyName: !Sub ${AWS::StackName}-${AWS::Region}-AWSLambda-CW
+       - PolicyDocument:
+           Statement:
+           - Action:
+             - s3:PutObject
+             - s3:DeleteObject
+             - s3:List*
+             Effect: Allow
+             Resource:
+             - !Sub arn:aws:s3:::${AirflowBucketName}/*
+             - !Sub arn:aws:s3:::${AirflowBucketName}
+           Version: '2012-10-17'
+         PolicyName: !Sub ${AWS::StackName}-${AWS::Region}-AWSLambda-S3
+       RoleName: !Sub ${AWS::StackName}-${AWS::Region}-AWSLambdaExecutionRole
+
+  # VPC configurations
+  VPC:
+    Type: AWS::EC2::VPC
+    Properties:
+      CidrBlock: 10.192.0.0/16
+      EnableDnsSupport: true
+      EnableDnsHostnames: true
+      Tags:
+        - Key: Name
+          Value: !Ref EnvironmentName
+
+  InternetGateway:
+    Type: AWS::EC2::InternetGateway
+    Properties:
+      Tags:
+        - Key: Name
+          Value: !Ref EnvironmentName
+
+  InternetGatewayAttachment:
+    Type: AWS::EC2::VPCGatewayAttachment
+    Properties:
+      InternetGatewayId: !Ref InternetGateway
+      VpcId: !Ref VPC
+
+  PublicSubnet1:
+    Type: AWS::EC2::Subnet
+    Properties:
+      VpcId: !Ref VPC
+      AvailabilityZone: !Select [ 0, !GetAZs '' ]
+      CidrBlock: 10.192.10.0/24
+      MapPublicIpOnLaunch: true
+      Tags:
+        - Key: Name
+          Value: !Sub ${EnvironmentName} Public Subnet (AZ1)
+
+  PublicSubnet2:
+    Type: AWS::EC2::Subnet
+    Properties:
+      VpcId: !Ref VPC
+      AvailabilityZone: !Select [ 1, !GetAZs  '' ]
+      CidrBlock: 10.192.11.0/24
+      MapPublicIpOnLaunch: true
+      Tags:
+        - Key: Name
+          Value: !Sub ${EnvironmentName} Public Subnet (AZ2)
+
+  PrivateSubnet1:
+    Type: AWS::EC2::Subnet
+    Properties:
+      VpcId: !Ref VPC
+      AvailabilityZone: !Select [ 0, !GetAZs  '' ]
+      CidrBlock: 10.192.20.0/24
+      MapPublicIpOnLaunch: false
+      Tags:
+        - Key: Name
+          Value: !Sub ${EnvironmentName} Private Subnet (AZ1)
+
+  PrivateSubnet2:
+    Type: AWS::EC2::Subnet
+    Properties:
+      VpcId: !Ref VPC
+      AvailabilityZone: !Select [ 1, !GetAZs  '' ]
+      CidrBlock: 10.192.21.0/24
+      MapPublicIpOnLaunch: false
+      Tags:
+        - Key: Name
+          Value: !Sub ${EnvironmentName} Private Subnet (AZ2)
+
+  NatGateway1EIP:
+    Type: AWS::EC2::EIP
+    DependsOn: InternetGatewayAttachment
+    Properties:
+      Domain: vpc
+
+  NatGateway2EIP:
+    Type: AWS::EC2::EIP
+    DependsOn: InternetGatewayAttachment
+    Properties:
+      Domain: vpc
+
+  NatGateway1:
+    Type: AWS::EC2::NatGateway
+    Properties:
+      AllocationId: !GetAtt NatGateway1EIP.AllocationId
+      SubnetId: !Ref PublicSubnet1
+
+  NatGateway2:
+    Type: AWS::EC2::NatGateway
+    Properties:
+      AllocationId: !GetAtt NatGateway2EIP.AllocationId
+      SubnetId: !Ref PublicSubnet2
+
+  PublicRouteTable:
+    Type: AWS::EC2::RouteTable
+    Properties:
+      VpcId: !Ref VPC
+      Tags:
+        - Key: Name
+          Value: !Sub ${EnvironmentName} Public Routes
+
+  DefaultPublicRoute:
+    Type: AWS::EC2::Route
+    DependsOn: InternetGatewayAttachment
+    Properties:
+      RouteTableId: !Ref PublicRouteTable
+      DestinationCidrBlock: 0.0.0.0/0
+      GatewayId: !Ref InternetGateway
+
+  PublicSubnet1RouteTableAssociation:
+    Type: AWS::EC2::SubnetRouteTableAssociation
+    Properties:
+      RouteTableId: !Ref PublicRouteTable
+      SubnetId: !Ref PublicSubnet1
+
+  PublicSubnet2RouteTableAssociation:
+    Type: AWS::EC2::SubnetRouteTableAssociation
+    Properties:
+      RouteTableId: !Ref PublicRouteTable
+      SubnetId: !Ref PublicSubnet2
+
+
+  PrivateRouteTable1:
+    Type: AWS::EC2::RouteTable
+    Properties:
+      VpcId: !Ref VPC
+      Tags:
+        - Key: Name
+          Value: !Sub ${EnvironmentName} Private Routes (AZ1)
+
+  DefaultPrivateRoute1:
+    Type: AWS::EC2::Route
+    Properties:
+      RouteTableId: !Ref PrivateRouteTable1
+      DestinationCidrBlock: 0.0.0.0/0
+      NatGatewayId: !Ref NatGateway1
+
+  PrivateSubnet1RouteTableAssociation:
+    Type: AWS::EC2::SubnetRouteTableAssociation
+    Properties:
+      RouteTableId: !Ref PrivateRouteTable1
+      SubnetId: !Ref PrivateSubnet1
+
+  PrivateRouteTable2:
+    Type: AWS::EC2::RouteTable
+    Properties:
+      VpcId: !Ref VPC
+      Tags:
+        - Key: Name
+          Value: !Sub ${EnvironmentName} Private Routes (AZ2)
+
+  DefaultPrivateRoute2:
+    Type: AWS::EC2::Route
+    Properties:
+      RouteTableId: !Ref PrivateRouteTable2
+      DestinationCidrBlock: 0.0.0.0/0
+      NatGatewayId: !Ref NatGateway2
+
+  PrivateSubnet2RouteTableAssociation:
+    Type: AWS::EC2::SubnetRouteTableAssociation
+    Properties:
+      RouteTableId: !Ref PrivateRouteTable2
+      SubnetId: !Ref PrivateSubnet2
+
+  NoIngressSecurityGroup:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupName: "no-ingress-sg"
+      GroupDescription: "Security group with no ingress rule"
+      VpcId: !Ref VPC
+
+  NoIngressSecurityGroupIngresRule:
+    Type: AWS::EC2::SecurityGroupIngress
+    Properties:
+      SourceSecurityGroupId: {Ref: NoIngressSecurityGroup}
+      GroupId: {Ref: NoIngressSecurityGroup}
+      IpProtocol: -1
+      ToPort: -1
+      FromPort: -1
+
+  S3VPCEndpoint:
+    Type: "AWS::EC2::VPCEndpoint"
+    Properties:
+      RouteTableIds:
+      - !Ref PrivateRouteTable1
+      - !Ref PrivateRouteTable2
+      ServiceName: !Sub 'com.amazonaws.${AWS::Region}.s3'
+      VpcId: !Ref VPC
+
+  EmrEndpoint:
+    Type: "AWS::EC2::VPCEndpoint"
+    Properties:
+      PrivateDnsEnabled: "true"
+      VpcEndpointType: "Interface"
+      VpcId: !Ref VPC
+      SecurityGroupIds:
+      - !Ref NoIngressSecurityGroup
+      ServiceName: !Sub 'com.amazonaws.${AWS::Region}.elasticmapreduce'
+      SubnetIds:
+      - !Ref PrivateSubnet1
+      - !Ref PrivateSubnet2
+
+  # IAM resources - Roles and Policies
+  MwaaExecutionRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+        - Effect: Allow
+          Principal:
+            Service:
+            - airflow-env.amazonaws.com
+            - airflow.amazonaws.com
+          Action:
+          - sts:AssumeRole
+      Description: "Service role for MWAA"
+      Policies:
+        - PolicyName: AirflowEMRServerlessExecutionPolicy
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action:
+                  - "emr-serverless:CreateApplication"
+                  - "emr-serverless:GetApplication"
+                  - "emr-serverless:StartApplication"
+                  - "emr-serverless:StopApplication"
+                  - "emr-serverless:DeleteApplication"
+                  - "emr-serverless:StartJobRun"
+                  - "emr-serverless:GetJobRun"
+                Resource: "*"
+              - Effect: Allow
+                Action:
+                  - "iam:PassRole"
+                Resource:
+                  - !GetAtt EMRServerlessJobRole.Arn
+                Condition:
+                  StringLike:
+                    "iam:PassedToService": "emr-serverless.amazonaws.com"
+
+  # Refer to Doc: https://docs.aws.amazon.com/mwaa/latest/userguide/mwaa-create-role.html#role-aws-key
+  MwaaExecutionRoleDefaultPolicy:
+    Type: "AWS::IAM::ManagedPolicy"
+    Properties:
+      Roles:
+      - !Ref "MwaaExecutionRole"
+      ManagedPolicyName: MwaaExecutionRoleDefaultPolicy
+      PolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+        - Effect: Allow
+          Action:
+          - "airflow:PublishMetrics"
+          Resource:
+          - !Sub arn:aws:airflow:${AWS::Region}:${AWS::AccountId}:environment/*
+        - Effect: Deny
+          Action:
+          - "s3:ListAllMyBuckets"
+          Resource:
+          - !Sub arn:aws:s3:::${AirflowBucketName}
+          - !Sub arn:aws:s3:::${AirflowBucketName}/*
+        - Effect: Allow
+          Action:
+          - "s3:GetObject*"
+          - "s3:GetBucket*"
+          - "s3:List*"
+          Resource:
+          - !Sub arn:aws:s3:::${AirflowBucketName}
+          - !Sub arn:aws:s3:::${AirflowBucketName}/*
+        - Effect: Allow
+          Action:
+          - "logs:CreateLogStream"
+          - "logs:CreateLogGroup"
+          - "logs:PutLogEvents"
+          - "logs:GetLogEvents"
+          - "logs:GetLogRecord"
+          - "logs:GetLogGroupFields"
+          - "logs:GetQueryResults"
+          - "logs:DescribeLogGroups"
+          Resource:
+          - !Sub arn:aws:logs:${AWS::Region}:${AWS::AccountId}:log-group:airflow-*
+        - Effect: Allow
+          Action: "cloudwatch:PutMetricData"
+          Resource: "*"
+        - Effect: Allow
+          Action:
+          - "sqs:ChangeMessageVisibility"
+          - "sqs:DeleteMessage"
+          - "sqs:GetQueueAttributes"
+          - "sqs:GetQueueUrl"
+          - "sqs:ReceiveMessage"
+          - "sqs:SendMessage"
+          Resource:
+          - !Sub arn:aws:sqs:${AWS::Region}:*:airflow-celery-*
+        - Effect: Allow
+          Action:
+          - "kms:Decrypt"
+          - "kms:DescribeKey"
+          - "kms:GenerateDataKey*"
+          - "kms:Encrypt"
+          NotResource:
+          - !Sub arn:aws:kms:*:${AWS::AccountId}:key/*
+          Condition:
+            StringLike:
+              kms:ViaService:
+              - !Sub sqs.${AWS::Region}.amazonaws.com
+
+
+  EMRServerlessJobRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: 2012-10-17
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service:
+                - emr-serverless.amazonaws.com
+            Action:
+              - "sts:AssumeRole"
+      Description: "Service role for EMR Studio"
+      Policies:
+        - PolicyName: GlueAccess
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action:
+                  - "glue:GetDatabase"
+                  - "glue:GetDataBases"
+                  - "glue:CreateTable"
+                  - "glue:GetTable"
+                  - "glue:GetTables"
+                  - "glue:GetPartition"
+                  - "glue:GetPartitions"
+                  - "glue:CreatePartition"
+                  - "glue:BatchCreatePartition"
+                  - "glue:GetUserDefinedFunctions"
+                Resource: "*"
+        - PolicyName: S3Access
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action:
+                  - "s3:GetObject"
+                  - "s3:ListBucket"
+                Resource: "*"
+              - Effect: Allow
+                Action:
+                  - "s3:PutObject"
+                  - "s3:DeleteObject"
+                Resource:
+                  - !Sub "arn:aws:s3:::${AirflowBucketName}/*"
+
+  EmrPermissionsForMwaaExecutionRole:
+    Type: "AWS::IAM::ManagedPolicy"
+    Properties:
+      Roles:
+      - !Ref "MwaaExecutionRole"
+      ManagedPolicyName: EmrPermissionsForMwaaExecutionRole
+      PolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+        - Effect: Allow
+          Action:
+          - "elasticmapreduce:StartNotebookExecution"
+          - "elasticmapreduce:DescribeStep"
+          - "elasticmapreduce:DescribeNotebookExecution"
+          - "elasticmapreduce:AddJobFlowSteps"
+          - "elasticmapreduce:DescribeCluster"
+          - "elasticmapreduce:RunJobFlow"
+          - "elasticmapreduce:TerminateJobFlows"
+          Resource:
+          - !Sub "arn:aws:elasticmapreduce:${AWS::Region}:${AWS::AccountId}:cluster/*"
+          - !Sub "arn:aws:elasticmapreduce:${AWS::Region}:${AWS::AccountId}:editor/*"
+          - !Sub "arn:aws:elasticmapreduce:${AWS::Region}:${AWS::AccountId}:notebook-execution/*"
+        - Effect: Allow
+          Action:
+          - "iam:PassRole"
+          Resource:
+          - !Sub arn:aws:iam::${AWS::AccountId}:role/EMR_EC2_DefaultRole
+          - !Sub arn:aws:iam::${AWS::AccountId}:role/EMR_DefaultRole
+          - !Sub arn:aws:iam::${AWS::AccountId}:role/EMR_Notebooks_DefaultRole
+
+# Amazon Managed Workflows for Apache Airflow
+  MwaaEnvironment:
+    Type: AWS::MWAA::Environment
+    Properties:
+      Name: !Ref EnvironmentName
+      NetworkConfiguration:
+        SubnetIds:
+        - !Ref PrivateSubnet1
+        - !Ref PrivateSubnet2
+        SecurityGroupIds: 
+        - !Ref NoIngressSecurityGroup
+      WebserverAccessMode: PUBLIC_ONLY
+      AirflowVersion: 2.2.2
+      LoggingConfiguration:
+        DagProcessingLogs:
+          Enabled: false
+          LogLevel: INFO
+        SchedulerLogs:
+          Enabled: false
+          LogLevel: INFO
+        TaskLogs:
+          Enabled: true
+          LogLevel: INFO
+        WebserverLogs:
+          Enabled: false
+          LogLevel: INFO
+        WorkerLogs:
+          Enabled: false
+          LogLevel: INFO
+      SourceBucketArn: !Sub arn:aws:s3:::${AirflowBucketName}
+      ExecutionRoleArn: !GetAtt MwaaExecutionRole.Arn
+      MaxWorkers: 1
+      DagS3Path: "dags"
+      EnvironmentClass: mw1.small
+
+# EMR Serverless Application
+  SparkApplication:
+    Type: AWS::EMRServerless::Application
+    Properties:
+      Name: spark-3.2
+      ReleaseLabel: emr-6.6.0
+      Type: Spark
+      MaximumCapacity:
+        Cpu: 200 vCPU
+        Memory: 100 GB
+      AutoStartConfiguration:
+        Enabled: true
+      AutoStopConfiguration:
+        Enabled: true
+        IdleTimeoutMinutes: 100
+      InitialCapacity:
+        - Key: Driver
+          Value:
+            WorkerCount: 3
+            WorkerConfiguration:
+              Cpu: 2 vCPU
+              Memory: 4 GB
+              Disk: 21 GB
+        - Key: Executor
+          Value:
+            WorkerCount: 4
+            WorkerConfiguration:
+              Cpu: 1 vCPU
+              Memory: 4 GB
+              Disk: 20 GB
+
+Outputs:
+  ApplicationId:
+    Value: !Ref SparkApplication
+  ApplicationArn:
+    Value: !GetAtt SparkApplication.Arn
+  JobRoleArn:
+    Value: !GetAtt EMRServerlessJobRole.Arn
+  S3Bucket:
+    Value: !Ref AirflowBucketName

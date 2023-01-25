@@ -1,0 +1,27 @@
+version: 2
+
+models:
+    - name: int_user_attributes
+      description: represents combined enriched view of customer.
+      columns:
+          - name: core_age
+            tests:
+              - not_null
+          - name: core_length_of_residence
+            tests:
+              - not_null
+          - name: core_household_income
+            tests:
+              - not_null
+          - name: core_marital_status
+            tests:
+              - not_null
+          - name: core_presence_of_children
+            tests:
+              - not_null
+          - name: core_homeowner
+            tests:
+              - not_null
+
+    - name: int_user_subscription_agg
+      description: user to subscription aggregated across various billing cycles.

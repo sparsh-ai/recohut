@@ -1,0 +1,23 @@
+{
+    "name": "salesdata_generator",
+    "displayName": "Synthetic Sales Data Generator",
+    "description": "Generate synthetic order datasets for testing purposes.",
+    "functionName": "salesdata_generator",
+    "parameters": [
+      {
+        "name": "numSamples",
+        "displayName": "Number of samples",
+        "type": "int",
+        "description": "Number of samples to generate"
+      },
+      {
+        "name": "year",
+        "displayName": "Year",
+        "isOptional": true,
+        "type": "int",
+        "description": "Year for which generate data distributed randomly, by default last year",
+        "validationRule": "^\\d{4}$",
+        "validationMessage": "Please enter a valid year number"
+      }
+    ]
+  }

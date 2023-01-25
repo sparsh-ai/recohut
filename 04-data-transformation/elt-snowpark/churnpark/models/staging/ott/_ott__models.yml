@@ -1,0 +1,21 @@
+version: 2
+
+models:
+    - name: stg_ott__users
+      columns:
+          - name: user_id
+            tests:
+              - unique
+              - not_null
+          - name: is_migration
+            tests:
+              - not_null
+          - name: first_start_timestamp
+            tests:
+              - not_null
+          - name: first_trial_start_timestamp
+            tests:
+              - not_null
+          - name: first_paid_start_timestamp
+            tests:
+              - not_null

@@ -7,14 +7,14 @@ To get basic understanding of primary aws tools and services we use in data engi
 ## Steps
 
 1. [Setup AWS](./setup-aws.md)
-1. S3
+1. [S3](./s3.md)
 1. [RDS](./rds.md)
 1. Redshift
 1. Glue Crawler and Catalog
 1. Glue Studio and ETL Jobs
 1. Athena
 1. Lambda Function
-1. EC2
+1. [EC2](./ec2.md)
 1. Kinesis
 1. [IAM](./iam.md)
 1. [Secrets Manager](./secrets-manager/)

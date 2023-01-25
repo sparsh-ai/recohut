@@ -1,0 +1,23 @@
+version: 2
+
+models:
+    - name: stg_merkle__datasources
+      description: Customer data sourced from Merkle (3rd party) covering core attributes of customer
+      columns:
+          - name: user_id
+            tests:
+              - unique
+              - not_null
+          - name: core_household_income
+            tests:
+              - not_null
+          - name: core_marital_status
+            tests:
+              - not_null
+          - name: core_presence_of_children
+            tests:
+              - not_null
+          - name: core_homeowner
+            tests:
+              - not_null
+              

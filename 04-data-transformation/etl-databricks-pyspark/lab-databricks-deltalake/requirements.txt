@@ -1,0 +1,5 @@
+# This project was created on a Databricks environment running:
+# Databricks Runtime 11.0
+# Apache Spark 3.3.0
+# Scala 2.12
+koalas==1.8.2

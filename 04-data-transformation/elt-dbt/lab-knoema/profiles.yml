@@ -1,0 +1,23 @@
+default:
+  outputs:
+    dev:
+      account: .us-east-1
+      database: dbtKnoema
+      password: 
+      role: accountadmin
+      schema: dev
+      threads: 1
+      type: snowflake
+      user: sprsag
+      warehouse: compute_wh
+    prod:
+      account: .us-east-1
+      database: dbtKnoema
+      password: 
+      role: accountadmin
+      schema: prod
+      threads: 1
+      type: snowflake
+      user: sprsag
+      warehouse: compute_wh
+  target: dev

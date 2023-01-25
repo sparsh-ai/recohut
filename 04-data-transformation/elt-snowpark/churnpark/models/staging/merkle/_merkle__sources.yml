@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: merkle
+    database: sparsh
+    schema: madcow
+    loader: snowflake # informational only (free text)
+    
+    tags:
+      - snowflake
+      
+    tables:
+      - name: merkle_datasource

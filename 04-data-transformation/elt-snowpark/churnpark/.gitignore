@@ -1,0 +1,9 @@
+temp/
+setenv.sh
+profiles.yml
+venv/
+
+# DBT related artifacts that gets created
+logs/
+target/
+dbt_packages/

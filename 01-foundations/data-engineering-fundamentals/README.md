@@ -14,6 +14,7 @@ To learn the basics concepts of data engineering
 1. [Cloud Computing](./cloud-computing.md)
 1. [OLTP](./oltp.md)
 1. [Data Lakes and Lakehouses](./data-lakes-lakehouses.md)
+1. [Data Management](./data-management.md)
 
 ### Concepts Level 2
 
@@ -26,6 +27,7 @@ To learn the basics concepts of data engineering
 1. [Data Contract](./data-contract.md)
 1. [Data Security](./data-security.md)
 1. [Incremental Data Load](./incremental-data-load.md)
+1. [Scala Language](./scala.md)
 
 ## References
 

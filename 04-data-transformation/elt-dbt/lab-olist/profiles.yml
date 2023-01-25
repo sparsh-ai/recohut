@@ -1,0 +1,12 @@
+postgres:
+  outputs:
+    dev:
+      type: postgres
+      threads: 2
+      host: database-1.ciykztisaaxg.us-east-1.rds.amazonaws.com
+      port: 5432
+      user: postgres
+      pass: 
+      dbname: postgres
+      schema: olist
+  target: dev

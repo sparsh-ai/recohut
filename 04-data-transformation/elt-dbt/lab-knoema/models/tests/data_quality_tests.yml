@@ -1,0 +1,25 @@
+version: 2
+
+models:
+  - name: tfm_fx_rates
+    columns:
+      - name: currency||date
+        tests:
+          - unique
+          - not_null
+
+  - name: tfm_book
+    columns:
+      - name: instrument
+        tests:
+          - not_null
+          - relationships:
+              to: ref('tfm_stock_history')
+              field: company_symbol
+
+  - name: tfm_stock_history
+    columns:
+      - name: company_symbol||date||stock_exchange_name
+        tests:
+          - not_null
+          - unique

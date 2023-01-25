@@ -1,0 +1,28 @@
+{
+    "name": "repartition_date",
+    "displayName": "Repartition by date",
+    "description": "Split a date into partition columns and reorganize the data to save them as partitions.",
+    "functionName": "repartition_date",
+    "parameters": [
+      {
+        "name": "dateCol",
+        "displayName": "Date column",
+        "type": "str",
+        "description": "Column with the date to split into year, month and day partitions. The column won't be removed"
+      },
+      {
+        "name": "partitionCols",
+        "displayName": "Partition columns",
+        "type": "str",
+        "isOptional": true,
+        "description": "In addition to the year, month and day, you can specify additional columns to partition by, separated by commas"
+      },
+      {
+        "name": "numPartitionsExpected",
+        "displayName": "Number partitions expected",
+        "isOptional": true,
+        "type": "int",
+        "description": "The number of partition column value combinations expected, if not specified the system will calculate it."
+      }
+    ]
+  }

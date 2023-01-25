@@ -1,0 +1,5 @@
+version: 2
+
+models:
+    - name: user_churn_predict
+      description: Contains the prediction of customers on thier churn

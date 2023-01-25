@@ -1,0 +1,180 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Resources:
+# Create an AWS Glue database
+  AWSGlueStudioTicketsYYZDB:
+    Type: AWS::Glue::Database
+    Properties:
+      CatalogId: !Ref AWS::AccountId
+      DatabaseInput:
+        Name: yyz-tickets	
+        Description: Database to hold tables for yyz  parking tickets data
+####
+  AWSGlueStudioS3Bucket:
+    Type: AWS::S3::Bucket
+    DeletionPolicy: Retain
+    Properties:
+      BucketName: !Sub 'glue-studio-blog-${AWS::AccountId}'
+#####
+  AWSGlueStudioRole:
+    Type: "AWS::IAM::Role"
+    Properties:
+      RoleName: AWSGlueStudioRole
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service:
+                - glue.amazonaws.com
+            Action:
+              - sts:AssumeRole
+      Policies:
+        - PolicyName: datadest
+          PolicyDocument:
+            Version: 2012-10-17
+            Statement:
+              - Effect: Allow
+                Action:
+                  - "s3:GetObject"
+                  - "s3:PutObject"
+                  - "s3:ListBucket"
+                  - "s3:DeleteObject"
+                Resource:
+                  - !Join ['', ['arn:aws:s3:::', !Ref 'AWSGlueStudioS3Bucket', /*]]
+                  - "arn:aws:s3:::aws-bigdata-blog/artifacts/gluestudio/*"            
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/service-role/AWSGlueServiceRole
+      Path: "/"
+###
+# Create an AWS Glue table
+  AWSGlueStudioTableTickets:
+    # Creating the table waits for the database to be created
+    DependsOn: AWSGlueStudioTicketsYYZDB
+    Type: AWS::Glue::Table
+    Properties:
+      CatalogId: !Ref AWS::AccountId
+      DatabaseName: !Ref AWSGlueStudioTicketsYYZDB
+      TableInput:
+        Name: tickets
+        Description: Define columns of the tickets table
+        TableType: EXTERNAL_TABLE
+        Parameters: {
+    "classification": "parquet",
+    "typeOfData": "file"
+  }
+#       ViewExpandedText: String
+        StorageDescriptor:
+          OutputFormat: org.apache.hadoop.hive.ql.io.parquet.MapredParquetOutputFormat
+          Columns:
+          - Name: tag_number_masked
+            Type: string
+          - Name: date_of_infraction
+            Type: string
+          - Name: ticket_date
+            Type: string
+          - Name: ticket_number
+            Type: decimal(38,0)
+          - Name: officer
+            Type: decimal(38,0)
+          - Name: infraction_code
+            Type: decimal(38,0)
+          - Name: infraction_description
+            Type: string
+          - Name: set_fine_amount
+            Type: decimal(38,0)
+          - Name: time_of_infraction
+            Type: decimal(38,0)
+          - Name: location1
+            Type: string
+          - Name: location2
+            Type: string
+          - Name: location3
+            Type: string
+          - Name: location4
+            Type: string
+          - Name: province
+            Type: string                  			
+          InputFormat: org.apache.hadoop.hive.ql.io.parquet.MapredParquetInputFormat
+          Location: s3://aws-bigdata-blog/artifacts/gluestudio/tickets/
+          SerdeInfo:
+            Parameters:
+              field.delim: ","
+            SerializationLibrary: org.apache.hadoop.hive.ql.io.parquet.serde.ParquetHiveSerDe
+              
+###
+# Create an AWS Glue table
+  AWSGlueStudioTableTrials:
+    # Creating the table waits for the database to be created
+    DependsOn: AWSGlueStudioTicketsYYZDB
+    Type: AWS::Glue::Table
+    Properties:
+      CatalogId: !Ref AWS::AccountId
+      DatabaseName: !Ref AWSGlueStudioTicketsYYZDB
+      TableInput:
+        Name: trials
+        Description: Define columns of the Trials table
+        TableType: EXTERNAL_TABLE
+        Parameters: {
+    "classification": "parquet",
+    "typeOfData": "file"
+  }
+#       ViewExpandedText: String
+        StorageDescriptor:
+          OutputFormat: org.apache.hadoop.hive.ql.io.parquet.MapredParquetOutputFormat
+          Columns:
+          - Name: court_date
+            Type: date
+          - Name: court_location
+            Type: string
+          - Name: court_room
+            Type: string
+          - Name: court_time
+            Type: int
+          - Name: parking_ticket_number
+            Type: bigint
+          - Name: infraction_date
+            Type: date
+          - Name: first_3_letters_name
+            Type: string
+          - Name: sentence
+            Type: string          			
+          InputFormat: org.apache.hadoop.hive.ql.io.parquet.MapredParquetInputFormat
+          Location: s3://aws-bigdata-blog/artifacts/gluestudio/trials/
+          SerdeInfo:
+            Parameters:
+              field.delim: ","
+            SerializationLibrary: org.apache.hadoop.hive.ql.io.parquet.serde.ParquetHiveSerDe      
+
+###
+# Create an AWS Glue table
+  AWSGlueStudioParkingTicketCount:
+    # Creating the table waits for the database to be created
+    DependsOn: AWSGlueStudioTicketsYYZDB
+    Type: AWS::Glue::Table
+    Properties:
+      CatalogId: !Ref AWS::AccountId
+      DatabaseName: !Ref AWSGlueStudioTicketsYYZDB
+      TableInput:
+        Name: parking_tickets_count
+        Description: Define columns of the tickets count table
+        TableType: EXTERNAL_TABLE
+        Parameters: {
+    "classification": "parquet",
+    "typeOfData": "file"
+  }
+#       ViewExpandedText: String
+        StorageDescriptor:
+          OutputFormat: org.apache.hadoop.hive.ql.io.parquet.MapredParquetOutputFormat
+          Columns:
+          - Name: location
+            Type: string
+          - Name: infraction
+            Type: string
+          - Name: total
+            Type: bigint     			
+          InputFormat: org.apache.hadoop.hive.ql.io.parquet.MapredParquetInputFormat
+          Location: !Sub 's3://glue-studio-blog-${AWS::AccountId}/parking_tickets_count/'
+          SerdeInfo:
+            Parameters:
+              field.delim: ","
+            SerializationLibrary: org.apache.hadoop.hive.ql.io.parquet.serde.ParquetHiveSerDe

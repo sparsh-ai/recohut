@@ -1,0 +1,23 @@
+default:
+  outputs:
+    dev:
+      account: srb04000.us-east-1
+      database: dbt
+      password: MvnPddd90127
+      role: accountadmin
+      schema: dev
+      threads: 1
+      type: snowflake
+      user: sprsag
+      warehouse: compute_wh
+    prod:
+      account: srb04000.us-east-1
+      database: dbt
+      password: MvnPddd90127
+      role: accountadmin
+      schema: prod
+      threads: 1
+      type: snowflake
+      user: sprsag
+      warehouse: compute_wh
+  target: dev

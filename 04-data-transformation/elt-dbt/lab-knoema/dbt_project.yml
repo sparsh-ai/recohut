@@ -1,0 +1,29 @@
+name: 'snowflake_workshop'
+version: '1.0.0'
+config-version: 2
+profile: 'default'
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_packages"
+models:
+  snowflake_workshop:
+      # Applies to all files under models/example/
+      example:
+          materialized: view
+          +enabled: false
+      l10_staging:
+          schema: l10_staging
+          materialized: view
+      l20_transform:
+          schema: l20_transform
+          materialized: view
+      l30_mart:
+          schema: l30_mart
+          materialized: view

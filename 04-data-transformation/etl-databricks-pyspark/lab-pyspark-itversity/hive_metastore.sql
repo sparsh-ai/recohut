@@ -1,0 +1,3 @@
+CREATE DATABASE metastore;
+CREATE USER hive WITH ENCRYPTED PASSWORD 'itversity';
+GRANT ALL ON DATABASE metastore TO hive;

@@ -1,0 +1,51 @@
+version: 2
+
+sources:
+  - name: source
+    schema: dbt_taxi
+    tables:
+      - name: yellow_taxi_trips
+      - name: taxi_zone_lookup
+
+models:
+  - name: taxi_zone_lookup_model
+    description: "A list of all taxi zones with codes in NYC"
+    columns:
+      - name: locationid
+        tests:
+          - not_null
+      - name: borough
+        tests:
+          - not_null
+      - name: zone
+        tests:
+          - not_null
+      - name: service_zone
+        tests:
+          - not_null
+  - name: yellow_taxi_trips_models
+    description: "A reduced version of yellow taxi trip data in NYC"
+    columns:
+      - name: vendor_id
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['1', '2', '4']
+      - name: pickup_datetime
+        tests:
+          - not_null
+      - name: dropoff_datetime
+        tests:
+          - not_null
+      - name: passenger_count
+        tests:
+          - not_null
+      - name: pickup_location_id
+        tests:
+          - not_null
+      - name: dropoff_location_id
+        tests:
+          - not_null
+      - name: fare_amount
+        tests:
+          - not_null

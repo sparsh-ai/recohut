@@ -1,0 +1,5 @@
+dbt-core==1.2.0
+dbt-postgres==1.1.1
+psycopg2-binary==2.9.3
+ipython-sql==0.4.1
+boto3==1.24.31

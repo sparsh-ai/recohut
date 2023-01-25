@@ -1,0 +1,26 @@
+version: 2
+sources:
+  - name: tpch
+    description: source tpch data
+    database: snowflake_sample_data
+    schema: tpch_sf1
+    tables:
+      - name: orders
+        description: main order tracking table
+        
+        columns:
+          - name: o_orderkey
+            description: SF*1,500,000 are sparsely populated
+            tests: 
+              - unique
+              - not_null
+
+      - name: lineitem
+        description: main lineitem table
+        columns:
+          - name: l_orderkey
+            description: Foreign Key to O_ORDERKEY
+            tests:
+              - relationships:
+                  to: source('tpch', 'orders')
+                  field: o_orderkey

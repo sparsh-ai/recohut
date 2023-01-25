@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: ott
+    database: churn_demo
+    schema: raw
+    loader: snowflake # informational only (free text)    
+    tags:
+      - snowflake     
+    tables:
+      - name: dim_user
+      - name: subscription_billing_cycles

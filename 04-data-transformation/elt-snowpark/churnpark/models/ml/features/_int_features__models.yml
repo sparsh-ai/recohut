@@ -1,0 +1,13 @@
+version: 2
+
+models:
+    - name: int_user_and_subscriptions_training
+      description: Training datasets to be used for customer churn.
+
+    - name: int_user_encoded
+      description: Performs one hot encoding on various categorical columns found in the enriched user data
+    
+    - name: int_train_test
+      description: Performs one hot encoding on various categorical columns found in the enriched user data
+
+    

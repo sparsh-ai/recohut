@@ -1,0 +1,819 @@
+{
+    "Resources": {
+        "personalVpc38CEDDC0": {
+            "Type": "AWS::EC2::VPC",
+            "Properties": {
+                "CidrBlock": "10.0.0.0/16",
+                "EnableDnsHostnames": true,
+                "EnableDnsSupport": true,
+                "InstanceTenancy": "default",
+                "Tags": [
+                    {
+                        "Key": "Name",
+                        "Value": "dbtWorkshopStack/personalVpc"
+                    }
+                ]
+            }
+        },
+        "personalVpcpublicSubnetSubnet1Subnet4DCAB0EF": {
+            "Type": "AWS::EC2::Subnet",
+            "Properties": {
+                "VpcId": {
+                    "Ref": "personalVpc38CEDDC0"
+                },
+                "AvailabilityZone": {
+                    "Fn::Select": [
+                        0,
+                        {
+                            "Fn::GetAZs": ""
+                        }
+                    ]
+                },
+                "CidrBlock": "10.0.0.0/24",
+                "MapPublicIpOnLaunch": false,
+                "Tags": [
+                    {
+                        "Key": "aws-cdk:subnet-name",
+                        "Value": "publicSubnet"
+                    },
+                    {
+                        "Key": "aws-cdk:subnet-type",
+                        "Value": "Public"
+                    },
+                    {
+                        "Key": "Name",
+                        "Value": "dbtWorkshopStack/personalVpc/publicSubnetSubnet1"
+                    }
+                ]
+            }
+        },
+        "personalVpcpublicSubnetSubnet1RouteTable6D0ABD8F": {
+            "Type": "AWS::EC2::RouteTable",
+            "Properties": {
+                "VpcId": {
+                    "Ref": "personalVpc38CEDDC0"
+                },
+                "Tags": [
+                    {
+                        "Key": "Name",
+                        "Value": "dbtWorkshopStack/personalVpc/publicSubnetSubnet1"
+                    }
+                ]
+            }
+        },
+        "personalVpcpublicSubnetSubnet1RouteTableAssociationA0FF007E": {
+            "Type": "AWS::EC2::SubnetRouteTableAssociation",
+            "Properties": {
+                "RouteTableId": {
+                    "Ref": "personalVpcpublicSubnetSubnet1RouteTable6D0ABD8F"
+                },
+                "SubnetId": {
+                    "Ref": "personalVpcpublicSubnetSubnet1Subnet4DCAB0EF"
+                }
+            }
+        },
+        "personalVpcpublicSubnetSubnet1DefaultRoute40DCE842": {
+            "Type": "AWS::EC2::Route",
+            "Properties": {
+                "RouteTableId": {
+                    "Ref": "personalVpcpublicSubnetSubnet1RouteTable6D0ABD8F"
+                },
+                "DestinationCidrBlock": "0.0.0.0/0",
+                "GatewayId": {
+                    "Ref": "personalVpcIGW09F00E45"
+                }
+            },
+            "DependsOn": [
+                "personalVpcVPCGWF4A67AF7"
+            ]
+        },
+        "personalVpcpublicSubnetSubnet1EIPF25859D7": {
+            "Type": "AWS::EC2::EIP",
+            "Properties": {
+                "Domain": "vpc",
+                "Tags": [
+                    {
+                        "Key": "Name",
+                        "Value": "dbtWorkshopStack/personalVpc/publicSubnetSubnet1"
+                    }
+                ]
+            }
+        },
+        "personalVpcpublicSubnetSubnet1NATGateway2DD2C91F": {
+            "Type": "AWS::EC2::NatGateway",
+            "Properties": {
+                "SubnetId": {
+                    "Ref": "personalVpcpublicSubnetSubnet1Subnet4DCAB0EF"
+                },
+                "AllocationId": {
+                    "Fn::GetAtt": [
+                        "personalVpcpublicSubnetSubnet1EIPF25859D7",
+                        "AllocationId"
+                    ]
+                },
+                "Tags": [
+                    {
+                        "Key": "Name",
+                        "Value": "dbtWorkshopStack/personalVpc/publicSubnetSubnet1"
+                    }
+                ]
+            }
+        },
+        "personalVpcpublicSubnetSubnet2Subnet9F5E159E": {
+            "Type": "AWS::EC2::Subnet",
+            "Properties": {
+                "VpcId": {
+                    "Ref": "personalVpc38CEDDC0"
+                },
+                "AvailabilityZone": {
+                    "Fn::Select": [
+                        1,
+                        {
+                            "Fn::GetAZs": ""
+                        }
+                    ]
+                },
+                "CidrBlock": "10.0.1.0/24",
+                "MapPublicIpOnLaunch": false,
+                "Tags": [
+                    {
+                        "Key": "aws-cdk:subnet-name",
+                        "Value": "publicSubnet"
+                    },
+                    {
+                        "Key": "aws-cdk:subnet-type",
+                        "Value": "Public"
+                    },
+                    {
+                        "Key": "Name",
+                        "Value": "dbtWorkshopStack/personalVpc/publicSubnetSubnet2"
+                    }
+                ]
+            }
+        },
+        "personalVpcpublicSubnetSubnet2RouteTableB9CC10F9": {
+            "Type": "AWS::EC2::RouteTable",
+            "Properties": {
+                "VpcId": {
+                    "Ref": "personalVpc38CEDDC0"
+                },
+                "Tags": [
+                    {
+                        "Key": "Name",
+                        "Value": "dbtWorkshopStack/personalVpc/publicSubnetSubnet2"
+                    }
+                ]
+            }
+        },
+        "personalVpcpublicSubnetSubnet2RouteTableAssociationF835FEDB": {
+            "Type": "AWS::EC2::SubnetRouteTableAssociation",
+            "Properties": {
+                "RouteTableId": {
+                    "Ref": "personalVpcpublicSubnetSubnet2RouteTableB9CC10F9"
+                },
+                "SubnetId": {
+                    "Ref": "personalVpcpublicSubnetSubnet2Subnet9F5E159E"
+                }
+            }
+        },
+        "personalVpcpublicSubnetSubnet2DefaultRouteF2FDAE06": {
+            "Type": "AWS::EC2::Route",
+            "Properties": {
+                "RouteTableId": {
+                    "Ref": "personalVpcpublicSubnetSubnet2RouteTableB9CC10F9"
+                },
+                "DestinationCidrBlock": "0.0.0.0/0",
+                "GatewayId": {
+                    "Ref": "personalVpcIGW09F00E45"
+                }
+            },
+            "DependsOn": [
+                "personalVpcVPCGWF4A67AF7"
+            ]
+        },
+        "personalVpcprivateSubnetSubnet1SubnetBA5A2D72": {
+            "Type": "AWS::EC2::Subnet",
+            "Properties": {
+                "VpcId": {
+                    "Ref": "personalVpc38CEDDC0"
+                },
+                "AvailabilityZone": {
+                    "Fn::Select": [
+                        0,
+                        {
+                            "Fn::GetAZs": ""
+                        }
+                    ]
+                },
+                "CidrBlock": "10.0.2.0/24",
+                "MapPublicIpOnLaunch": false,
+                "Tags": [
+                    {
+                        "Key": "aws-cdk:subnet-name",
+                        "Value": "privateSubnet"
+                    },
+                    {
+                        "Key": "aws-cdk:subnet-type",
+                        "Value": "Private"
+                    },
+                    {
+                        "Key": "Name",
+                        "Value": "dbtWorkshopStack/personalVpc/privateSubnetSubnet1"
+                    }
+                ]
+            }
+        },
+        "personalVpcprivateSubnetSubnet1RouteTableC13AD856": {
+            "Type": "AWS::EC2::RouteTable",
+            "Properties": {
+                "VpcId": {
+                    "Ref": "personalVpc38CEDDC0"
+                },
+                "Tags": [
+                    {
+                        "Key": "Name",
+                        "Value": "dbtWorkshopStack/personalVpc/privateSubnetSubnet1"
+                    }
+                ]
+            }
+        },
+        "personalVpcprivateSubnetSubnet1RouteTableAssociationA9225E45": {
+            "Type": "AWS::EC2::SubnetRouteTableAssociation",
+            "Properties": {
+                "RouteTableId": {
+                    "Ref": "personalVpcprivateSubnetSubnet1RouteTableC13AD856"
+                },
+                "SubnetId": {
+                    "Ref": "personalVpcprivateSubnetSubnet1SubnetBA5A2D72"
+                }
+            }
+        },
+        "personalVpcprivateSubnetSubnet1DefaultRoute66DA1174": {
+            "Type": "AWS::EC2::Route",
+            "Properties": {
+                "RouteTableId": {
+                    "Ref": "personalVpcprivateSubnetSubnet1RouteTableC13AD856"
+                },
+                "DestinationCidrBlock": "0.0.0.0/0",
+                "NatGatewayId": {
+                    "Ref": "personalVpcpublicSubnetSubnet1NATGateway2DD2C91F"
+                }
+            }
+        },
+        "personalVpcprivateSubnetSubnet2Subnet427D4344": {
+            "Type": "AWS::EC2::Subnet",
+            "Properties": {
+                "VpcId": {
+                    "Ref": "personalVpc38CEDDC0"
+                },
+                "AvailabilityZone": {
+                    "Fn::Select": [
+                        1,
+                        {
+                            "Fn::GetAZs": ""
+                        }
+                    ]
+                },
+                "CidrBlock": "10.0.3.0/24",
+                "MapPublicIpOnLaunch": false,
+                "Tags": [
+                    {
+                        "Key": "aws-cdk:subnet-name",
+                        "Value": "privateSubnet"
+                    },
+                    {
+                        "Key": "aws-cdk:subnet-type",
+                        "Value": "Private"
+                    },
+                    {
+                        "Key": "Name",
+                        "Value": "dbtWorkshopStack/personalVpc/privateSubnetSubnet2"
+                    }
+                ]
+            }
+        },
+        "personalVpcprivateSubnetSubnet2RouteTable963322FB": {
+            "Type": "AWS::EC2::RouteTable",
+            "Properties": {
+                "VpcId": {
+                    "Ref": "personalVpc38CEDDC0"
+                },
+                "Tags": [
+                    {
+                        "Key": "Name",
+                        "Value": "dbtWorkshopStack/personalVpc/privateSubnetSubnet2"
+                    }
+                ]
+            }
+        },
+        "personalVpcprivateSubnetSubnet2RouteTableAssociation00215528": {
+            "Type": "AWS::EC2::SubnetRouteTableAssociation",
+            "Properties": {
+                "RouteTableId": {
+                    "Ref": "personalVpcprivateSubnetSubnet2RouteTable963322FB"
+                },
+                "SubnetId": {
+                    "Ref": "personalVpcprivateSubnetSubnet2Subnet427D4344"
+                }
+            }
+        },
+        "personalVpcprivateSubnetSubnet2DefaultRoute3834382E": {
+            "Type": "AWS::EC2::Route",
+            "Properties": {
+                "RouteTableId": {
+                    "Ref": "personalVpcprivateSubnetSubnet2RouteTable963322FB"
+                },
+                "DestinationCidrBlock": "0.0.0.0/0",
+                "NatGatewayId": {
+                    "Ref": "personalVpcpublicSubnetSubnet1NATGateway2DD2C91F"
+                }
+            }
+        },
+        "personalVpcIGW09F00E45": {
+            "Type": "AWS::EC2::InternetGateway",
+            "Properties": {
+                "Tags": [
+                    {
+                        "Key": "Name",
+                        "Value": "dbtWorkshopStack/personalVpc"
+                    }
+                ]
+            }
+        },
+        "personalVpcVPCGWF4A67AF7": {
+            "Type": "AWS::EC2::VPCGatewayAttachment",
+            "Properties": {
+                "VpcId": {
+                    "Ref": "personalVpc38CEDDC0"
+                },
+                "InternetGatewayId": {
+                    "Ref": "personalVpcIGW09F00E45"
+                }
+            }
+        },
+        "RedshiftSecurityGroupCD386564": {
+            "Type": "AWS::EC2::SecurityGroup",
+            "Properties": {
+                "GroupDescription": "dbtWorkshopStack/RedshiftSecurityGroup",
+                "SecurityGroupEgress": [
+                    {
+                        "CidrIp": "0.0.0.0/0",
+                        "Description": "Allow all outbound traffic by default",
+                        "IpProtocol": "-1"
+                    }
+                ],
+                "SecurityGroupIngress": [
+                    {
+                        "CidrIp": "10.0.0.0/16",
+                        "Description": "from 10.0.0.0/16:5439",
+                        "FromPort": 5439,
+                        "IpProtocol": "tcp",
+                        "ToPort": 5439
+                    }
+                ],
+                "VpcId": {
+                    "Ref": "personalVpc38CEDDC0"
+                }
+            }
+        },
+        "DefaultRedshiftRoleE02A6768": {
+            "Type": "AWS::IAM::Role",
+            "Properties": {
+                "AssumeRolePolicyDocument": {
+                    "Statement": [
+                        {
+                            "Action": "sts:AssumeRole",
+                            "Effect": "Allow",
+                            "Principal": {
+                                "Service": "redshift.amazonaws.com"
+                            }
+                        }
+                    ],
+                    "Version": "2012-10-17"
+                },
+                "Description": "This role is to be used by the Redshift cluster as it's default role",
+                "ManagedPolicyArns": [
+                    {
+                        "Fn::Join": [
+                            "",
+                            [
+                                "arn:",
+                                {
+                                    "Ref": "AWS::Partition"
+                                },
+                                ":iam::aws:policy/AmazonRedshiftDataFullAccess"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        },
+        "AccessToTickitSampleData13523133": {
+            "Type": "AWS::IAM::Policy",
+            "Properties": {
+                "PolicyDocument": {
+                    "Statement": [
+                        {
+                            "Action": [
+                                "s3:Get*",
+                                "s3:List*"
+                            ],
+                            "Effect": "Allow",
+                            "Resource": [
+                                "arn:aws:s3:::awssampledbuswest2",
+                                "arn:aws:s3:::awssampledbuswest2/*"
+                            ]
+                        }
+                    ],
+                    "Version": "2012-10-17"
+                },
+                "PolicyName": "AccessToTickitSampleData13523133",
+                "Roles": [
+                    {
+                        "Ref": "DefaultRedshiftRoleE02A6768"
+                    }
+                ]
+            }
+        },
+        "RedshiftClusterSubnetGroup": {
+            "Type": "AWS::Redshift::ClusterSubnetGroup",
+            "Properties": {
+                "Description": "Subnet group used for private Redshift clusters.",
+                "SubnetIds": [
+                    {
+                        "Ref": "personalVpcprivateSubnetSubnet1SubnetBA5A2D72"
+                    },
+                    {
+                        "Ref": "personalVpcprivateSubnetSubnet2Subnet427D4344"
+                    }
+                ]
+            },
+            "UpdateReplacePolicy": "Delete",
+            "DeletionPolicy": "Delete"
+        },
+        "dbtRedshiftClusterSecret1B636035": {
+            "Type": "AWS::SecretsManager::Secret",
+            "Properties": {
+                "GenerateSecretString": {
+                    "ExcludeCharacters": "\"@/\\ '",
+                    "GenerateStringKey": "password",
+                    "PasswordLength": 30,
+                    "SecretStringTemplate": "{\"username\":\"admin\"}"
+                }
+            },
+            "UpdateReplacePolicy": "Delete",
+            "DeletionPolicy": "Delete"
+        },
+        "dbtRedshiftClusterSecretAttachment63B01FC0": {
+            "Type": "AWS::SecretsManager::SecretTargetAttachment",
+            "Properties": {
+                "SecretId": {
+                    "Ref": "dbtRedshiftClusterSecret1B636035"
+                },
+                "TargetId": {
+                    "Ref": "dbtRedshiftClusterA6F1C677"
+                },
+                "TargetType": "AWS::Redshift::Cluster"
+            }
+        },
+        "dbtRedshiftClusterA6F1C677": {
+            "Type": "AWS::Redshift::Cluster",
+            "Properties": {
+                "ClusterType": "multi-node",
+                "DBName": "dev",
+                "MasterUsername": {
+                    "Fn::Join": [
+                        "",
+                        [
+                            "{{resolve:secretsmanager:",
+                            {
+                                "Ref": "dbtRedshiftClusterSecret1B636035"
+                            },
+                            ":SecretString:username::}}"
+                        ]
+                    ]
+                },
+                "MasterUserPassword": {
+                    "Fn::Join": [
+                        "",
+                        [
+                            "{{resolve:secretsmanager:",
+                            {
+                                "Ref": "dbtRedshiftClusterSecret1B636035"
+                            },
+                            ":SecretString:password::}}"
+                        ]
+                    ]
+                },
+                "NodeType": "dc2.large",
+                "AllowVersionUpgrade": true,
+                "AutomatedSnapshotRetentionPeriod": 1,
+                "ClusterIdentifier": "dbt-redshift-cluster",
+                "ClusterSubnetGroupName": {
+                    "Ref": "RedshiftClusterSubnetGroup"
+                },
+                "Encrypted": true,
+                "IamRoles": [
+                    {
+                        "Fn::GetAtt": [
+                            "DefaultRedshiftRoleE02A6768",
+                            "Arn"
+                        ]
+                    }
+                ],
+                "NumberOfNodes": 2,
+                "PubliclyAccessible": false,
+                "VpcSecurityGroupIds": [
+                    {
+                        "Fn::GetAtt": [
+                            "RedshiftSecurityGroupCD386564",
+                            "GroupId"
+                        ]
+                    }
+                ]
+            },
+            "UpdateReplacePolicy": "Delete",
+            "DeletionPolicy": "Delete"
+        },
+        "Cloud9EnvD28F4C4F": {
+            "Type": "AWS::Cloud9::EnvironmentEC2",
+            "Properties": {
+                "InstanceType": "t2.micro",
+                "ConnectionType": "CONNECT_SSH",
+                "SubnetId": {
+                    "Ref": "personalVpcpublicSubnetSubnet1Subnet4DCAB0EF"
+                },
+                "ImageId": "amazonlinux-2-x86_64",
+                "OwnerArn": { "Ref" : "Cloud9LoginUser" }
+            },
+            "UpdateReplacePolicy": "Delete",
+            "DeletionPolicy": "Delete"
+        },
+        "StepFunctionsRole4FE5099D": {
+            "Type": "AWS::IAM::Role",
+            "Properties": {
+                "ManagedPolicyArns": ["arn:aws:iam::aws:policy/AmazonRedshiftDataFullAccess"],
+                "AssumeRolePolicyDocument": {
+                    "Statement": [
+                        {
+                            "Action": "sts:AssumeRole",
+                            "Effect": "Allow",
+                            "Principal": {
+                                "Service": {
+                                    "Fn::Join": [
+                                        "",
+                                        [
+                                            "states.",
+                                            {
+                                                "Ref": "AWS::Region"
+                                            },
+                                            ".amazonaws.com"
+                                        ]
+                                    ]
+                                }
+                            }
+                        }
+                    ],
+                    "Version": "2012-10-17"
+                }
+            }
+        },
+        "StepFunctionsRoleDefaultPolicy8C8819ED": {
+            "Type": "AWS::IAM::Policy",
+            "Properties": {
+                "PolicyDocument": {
+                    "Statement": [
+                        {
+                            "Action": [
+                                "redshift:CancelQuery",
+                                "redshift:CancelQuerySession",
+                                "redshift:DescribeClusters",
+                                "redshift:DescribeQuery",
+                                "redshift:DescribeTable",
+                                "redshift:ExecuteQuery",
+                                "redshift:FetchResults",
+                                "redshift:GetClusterCredentials",
+                                "redshift:ListDatabases",
+                                "redshift:ListSchemas",
+                                "redshift:ListTables"
+                            ],
+                            "Effect": "Allow",
+                            "Resource": {
+                                "Fn::Join": [
+                                    "",
+                                    [
+                                        "arn:aws:redshift:",
+                                        { "Ref" : "AWS::Region" },
+                                        ":",
+                                        { "Ref" : "AWS::AccountId" },
+                                        ":*:",
+                                        { "Ref": "dbtRedshiftClusterA6F1C677" },
+                                        "*"
+                                    ]
+                                ]
+                            }
+                        }
+                    ],
+                    "Version": "2012-10-17"
+                },
+                "PolicyName": "StepFunctionsRoleDefaultPolicy8C8819ED",
+                "Roles": [
+                    {
+                        "Ref": "StepFunctionsRole4FE5099D"
+                    }
+                ]
+            }
+        },
+        "StepFunctionsFFB27117": {
+            "Type": "AWS::StepFunctions::StateMachine",
+            "Properties": {
+                "RoleArn": {
+                    "Fn::GetAtt": [
+                        "StepFunctionsRole4FE5099D",
+                        "Arn"
+                    ]
+                },
+                "DefinitionString": {
+                    "Fn::Join": [
+                        "",
+                        [
+                            "{\"StartAt\":\"Submit\",\"States\":{\"Submit\":{\"Next\":\"Wait\",\"Type\":\"Task\",\"ResultPath\":\"$.sql_output\",\"Resource\":\"arn:",
+                            {
+                                "Ref": "AWS::Partition"
+                            },
+                            ":states:::aws-sdk:redshiftdata:batchExecuteStatement\",\"Parameters\":{\"ClusterIdentifier\":\"",
+                            {
+                                "Ref": "dbtRedshiftClusterA6F1C677"
+                            },
+                            "\",\"Database\":\"dev\",\"DbUser\":\"admin\",\"Sqls\":[\"\\n            create table users(\\n                userid integer not null distkey sortkey,\\n                username char(8),\\n                firstname varchar(30),\\n                lastname varchar(30),\\n                city varchar(30),\\n                state char(2),\\n                email varchar(100),\\n                phone char(14),\\n                likesports boolean,\\n                liketheatre boolean,\\n                likeconcerts boolean,\\n                likejazz boolean,\\n                likeclassical boolean,\\n                likeopera boolean,\\n                likerock boolean,\\n                likevegas boolean,\\n                likebroadway boolean,\\n                likemusicals boolean);\\n            \",\"\\n            create table venue(\\n                venueid smallint not null distkey sortkey,\\n                venuename varchar(100),\\n                venuecity varchar(30),\\n                venuestate char(2),\\n                venueseats integer);\\n            \",\"\\n            create table category(\\n                catid smallint not null distkey sortkey,\\n                catgroup varchar(10),\\n                catname varchar(10),\\n                catdesc varchar(50));\\n            \",\"\\n            create table date(\\n                dateid smallint not null distkey sortkey,\\n                caldate date not null,\\n                day character(3) not null,\\n                week smallint not null,\\n                month character(5) not null,\\n                qtr character(5) not null,\\n                year smallint not null,\\n                holiday boolean default('N'));\\n            \",\"\\n            create table event(\\n                eventid integer not null distkey,\\n                venueid smallint not null,\\n                catid smallint not null,\\n                dateid smallint not null sortkey,\\n                eventname varchar(200),\\n                starttime timestamp);\\n            \",\"\\n            create table listing(\\n                listid integer not null distkey,\\n                sellerid integer not null,\\n                eventid integer not null,\\n                dateid smallint not null  sortkey,\\n                numtickets smallint not null,\\n                priceperticket decimal(8,2),\\n                totalprice decimal(8,2),\\n                listtime timestamp);\\n            \",\"\\n            create table sales(\\n                salesid integer not null,\\n                listid integer not null distkey,\\n                sellerid integer not null,\\n                buyerid integer not null,\\n                eventid integer not null,\\n                dateid smallint not null sortkey,\\n                qtysold smallint not null,\\n                pricepaid decimal(8,2),\\n                commission decimal(8,2),\\n                saletime timestamp);\\n            \",\"\\n            copy users from 's3://awssampledbuswest2/tickit/allusers_pipe.txt' \\n            iam_role '",
+                            {
+                                "Fn::GetAtt": [
+                                    "DefaultRedshiftRoleE02A6768",
+                                    "Arn"
+                                ]
+                            },
+                            "' \\n            delimiter '|' region 'us-west-2';\\n            \",\"\\n            copy venue from 's3://awssampledbuswest2/tickit/venue_pipe.txt' \\n            iam_role '",
+                            {
+                                "Fn::GetAtt": [
+                                    "DefaultRedshiftRoleE02A6768",
+                                    "Arn"
+                                ]
+                            },
+                            "'\\n            delimiter '|' region 'us-west-2';\\n            \",\"\\n            copy category from 's3://awssampledbuswest2/tickit/category_pipe.txt' \\n            iam_role '",
+                            {
+                                "Fn::GetAtt": [
+                                    "DefaultRedshiftRoleE02A6768",
+                                    "Arn"
+                                ]
+                            },
+                            "'\\n            delimiter '|' region 'us-west-2';\\n            \",\"\\n            copy date from 's3://awssampledbuswest2/tickit/date2008_pipe.txt' \\n            iam_role '",
+                            {
+                                "Fn::GetAtt": [
+                                    "DefaultRedshiftRoleE02A6768",
+                                    "Arn"
+                                ]
+                            },
+                            "'\\n            delimiter '|' region 'us-west-2';\\n            \",\"\\n            copy event from 's3://awssampledbuswest2/tickit/allevents_pipe.txt' \\n            iam_role '",
+                            {
+                                "Fn::GetAtt": [
+                                    "DefaultRedshiftRoleE02A6768",
+                                    "Arn"
+                                ]
+                            },
+                            "'\\n            delimiter '|' timeformat 'YYYY-MM-DD HH:MI:SS' region 'us-west-2';\\n            \",\"\\n            copy listing from 's3://awssampledbuswest2/tickit/listings_pipe.txt' \\n            iam_role '",
+                            {
+                                "Fn::GetAtt": [
+                                    "DefaultRedshiftRoleE02A6768",
+                                    "Arn"
+                                ]
+                            },
+                            "'\\n            delimiter '|' region 'us-west-2';\\n            \",\"\\n            copy sales from 's3://awssampledbuswest2/tickit/sales_tab.txt'\\n            iam_role '",
+                            {
+                                "Fn::GetAtt": [
+                                    "DefaultRedshiftRoleE02A6768",
+                                    "Arn"
+                                ]
+                            },
+                            "'\\n            delimiter '\\t' timeformat 'MM/DD/YYYY HH:MI:SS' region 'us-west-2';\\n            \"],\"StatementName\":\"LoadDatatoRedshift\",\"WithEvent\":true}},\"Wait\":{\"Type\":\"Wait\",\"Seconds\":5,\"Next\":\"Status\"},\"Status\":{\"Next\":\"Complete\",\"Type\":\"Task\",\"ResultPath\":\"$.Result\",\"Resource\":\"arn:",
+                            {
+                                "Ref": "AWS::Partition"
+                            },
+                            ":states:::aws-sdk:redshiftdata:describeStatement\",\"Parameters\":{\"Id.$\":\"$.sql_output.Id\"}},\"Complete\":{\"Type\":\"Choice\",\"Choices\":[{\"Variable\":\"$.Result.Status\",\"StringEquals\":\"FAILED\",\"Next\":\"Fail\"},{\"Variable\":\"$.Result.Status\",\"StringEquals\":\"FINISHED\",\"Next\":\"DwhLoaderSuccess\"}],\"Default\":\"Wait\"},\"Fail\":{\"Type\":\"Fail\",\"Error\":\"$.Result.Error\",\"Cause\":\"Redshift Data API statement failed\"},\"DwhLoaderSuccess\":{\"Type\":\"Succeed\"}},\"TimeoutSeconds\":300}"
+                        ]
+                    ]
+                }
+            },
+            "DependsOn": [
+                "StepFunctionsRoleDefaultPolicy8C8819ED",
+                "StepFunctionsRole4FE5099D"
+            ]
+        },
+        "awscustomCustomResourcePolicy44EB9363": {
+            "Type": "AWS::IAM::Policy",
+            "Properties": {
+                "PolicyDocument": {
+                    "Statement": [
+                        {
+                            "Action": "states:StartExecution",
+                            "Effect": "Allow",
+                            "Resource": { "Ref": "StepFunctionsFFB27117" }
+                        }
+                    ],
+                    "Version": "2012-10-17"
+                },
+                "PolicyName": "awscustomCustomResourcePolicy44EB9363",
+                "Roles": [
+                    {
+                        "Ref": "AWS679f53fac002430cb0da5b7982bd2287ServiceRoleC1EA0FF2"
+                    }
+                ]
+            }
+        },
+        "awscustom79CCFF50": {
+            "Type": "Custom::AWS",
+            "Properties": {
+                "ServiceToken": {
+                    "Fn::GetAtt": [
+                        "AWS679f53fac002430cb0da5b7982bd22872D164C4C",
+                        "Arn"
+                    ]
+                },
+                "Create": {
+                    "Fn::Join": [
+                        "",
+                        [
+                            "{\"action\":\"startExecution\",\"service\":\"StepFunctions\",\"parameters\":{\"stateMachineArn\":\"",
+                            {
+                                "Ref": "StepFunctionsFFB27117"
+                            },
+                            "\"},\"physicalResourceId\":{\"id\":\"physicalResourceStateMachine\"}}"
+                        ]
+                    ]
+                },
+                "InstallLatestAwsSdk": true
+            },
+            "DependsOn": [
+                "awscustomCustomResourcePolicy44EB9363"
+            ],
+            "UpdateReplacePolicy": "Delete",
+            "DeletionPolicy": "Delete"
+        },
+        "AWS679f53fac002430cb0da5b7982bd2287ServiceRoleC1EA0FF2": {
+            "Type": "AWS::IAM::Role",
+            "Properties": {
+                "AssumeRolePolicyDocument": {
+                    "Statement": [
+                        {
+                            "Action": "sts:AssumeRole",
+                            "Effect": "Allow",
+                            "Principal": {
+                                "Service": "lambda.amazonaws.com"
+                            }
+                        }
+                    ],
+                    "Version": "2012-10-17"
+                },
+                "ManagedPolicyArns": [
+                    {
+                        "Fn::Join": [
+                            "",
+                            [
+                                "arn:",
+                                {
+                                    "Ref": "AWS::Partition"
+                                },
+                                ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        },
+        "AWS679f53fac002430cb0da5b7982bd22872D164C4C": {
+            "Type": "AWS::Lambda::Function",
+            "Properties": {
+                "Code": {
+                    "ZipFile": "\"use strict\";Object.defineProperty(exports,\"__esModule\",{value:!0}),exports.handler=exports.forceSdkInstallation=exports.flatten=exports.PHYSICAL_RESOURCE_ID_REFERENCE=void 0;const child_process_1=require(\"child_process\"),fs=require(\"fs\"),path_1=require(\"path\");exports.PHYSICAL_RESOURCE_ID_REFERENCE=\"PHYSICAL:RESOURCEID:\";function flatten(object){return Object.assign({},...function _flatten(child,path=[]){return[].concat(...Object.keys(child).map(key=>{const childKey=Buffer.isBuffer(child[key])?child[key].toString(\"utf8\"):child[key];return typeof childKey==\"object\"&&childKey!==null?_flatten(childKey,path.concat([key])):{[path.concat([key]).join(\".\")]:childKey}}))}(object))}exports.flatten=flatten;function decodeSpecialValues(object,physicalResourceId){return JSON.parse(JSON.stringify(object),(_k,v)=>{switch(v){case exports.PHYSICAL_RESOURCE_ID_REFERENCE:return physicalResourceId;default:return v}})}function filterKeys(object,pred){return Object.entries(object).reduce((acc,[k,v])=>pred(k)?{...acc,[k]:v}:acc,{})}let latestSdkInstalled=!1;function forceSdkInstallation(){latestSdkInstalled=!1}exports.forceSdkInstallation=forceSdkInstallation;function installLatestSdk(){console.log(\"Installing latest AWS SDK v2\"),child_process_1.execSync(\"HOME=/tmp npm install aws-sdk@2 --production --no-package-lock --no-save --prefix /tmp\"),latestSdkInstalled=!0}const patchedServices=[];function patchSdk(awsSdk){const apiLoader=awsSdk.apiLoader;return patchedServices.forEach(({serviceName,apiVersions})=>{const lowerServiceName=serviceName.toLowerCase();awsSdk.Service.hasService(lowerServiceName)?awsSdk.Service.addVersions(awsSdk[serviceName],apiVersions):(apiLoader.services[lowerServiceName]={},awsSdk[serviceName]=awsSdk.Service.defineService(lowerServiceName,apiVersions)),apiVersions.forEach(apiVersion=>{Object.defineProperty(apiLoader.services[lowerServiceName],apiVersion,{get:function(){const modelFilePrefix=`aws-sdk-patch/${lowerServiceName}-${apiVersion}`,model=JSON.parse(fs.readFileSync(path_1.join(__dirname,`${modelFilePrefix}.service.json`),\"utf-8\"));return model.paginators=JSON.parse(fs.readFileSync(path_1.join(__dirname,`${modelFilePrefix}.paginators.json`),\"utf-8\")).pagination,model},enumerable:!0,configurable:!0})})}),awsSdk}async function handler(event,context){var _a,_b,_c,_d,_e,_f,_g,_h,_j,_l,_m,_o,_p;try{let AWS;if(!latestSdkInstalled&&event.ResourceProperties.InstallLatestAwsSdk===\"true\")try{installLatestSdk(),AWS=require(\"/tmp/node_modules/aws-sdk\")}catch(e){console.log(`Failed to install latest AWS SDK v2: ${e}`),AWS=require(\"aws-sdk\")}else latestSdkInstalled?AWS=require(\"/tmp/node_modules/aws-sdk\"):AWS=require(\"aws-sdk\");try{AWS=patchSdk(AWS)}catch(e){console.log(`Failed to patch AWS SDK: ${e}. Proceeding with the installed copy.`)}console.log(JSON.stringify(event)),console.log(\"AWS SDK VERSION: \"+AWS.VERSION),event.ResourceProperties.Create=decodeCall(event.ResourceProperties.Create),event.ResourceProperties.Update=decodeCall(event.ResourceProperties.Update),event.ResourceProperties.Delete=decodeCall(event.ResourceProperties.Delete);let physicalResourceId;switch(event.RequestType){case\"Create\":physicalResourceId=(_j=(_f=(_c=(_b=(_a=event.ResourceProperties.Create)===null||_a===void 0?void 0:_a.physicalResourceId)===null||_b===void 0?void 0:_b.id)!==null&&_c!==void 0?_c:(_e=(_d=event.ResourceProperties.Update)===null||_d===void 0?void 0:_d.physicalResourceId)===null||_e===void 0?void 0:_e.id)!==null&&_f!==void 0?_f:(_h=(_g=event.ResourceProperties.Delete)===null||_g===void 0?void 0:_g.physicalResourceId)===null||_h===void 0?void 0:_h.id)!==null&&_j!==void 0?_j:event.LogicalResourceId;break;case\"Update\":case\"Delete\":physicalResourceId=(_o=(_m=(_l=event.ResourceProperties[event.RequestType])===null||_l===void 0?void 0:_l.physicalResourceId)===null||_m===void 0?void 0:_m.id)!==null&&_o!==void 0?_o:event.PhysicalResourceId;break}let flatData={},data={};const call=event.ResourceProperties[event.RequestType];if(call){let credentials;if(call.assumedRoleArn){const timestamp=new Date().getTime(),params={RoleArn:call.assumedRoleArn,RoleSessionName:`${timestamp}-${physicalResourceId}`.substring(0,64)};credentials=new AWS.ChainableTemporaryCredentials({params})}if(!Object.prototype.hasOwnProperty.call(AWS,call.service))throw Error(`Service ${call.service} does not exist in AWS SDK version ${AWS.VERSION}.`);const awsService=new AWS[call.service]({apiVersion:call.apiVersion,credentials,region:call.region});try{const response=await awsService[call.action](call.parameters&&decodeSpecialValues(call.parameters,physicalResourceId)).promise();flatData={apiVersion:awsService.config.apiVersion,region:awsService.config.region,...flatten(response)};let outputPaths;call.outputPath?outputPaths=[call.outputPath]:call.outputPaths&&(outputPaths=call.outputPaths),outputPaths?data=filterKeys(flatData,startsWithOneOf(outputPaths)):data=flatData}catch(e){if(!call.ignoreErrorCodesMatching||!new RegExp(call.ignoreErrorCodesMatching).test(e.code))throw e}!((_p=call.physicalResourceId)===null||_p===void 0)&&_p.responsePath&&(physicalResourceId=flatData[call.physicalResourceId.responsePath])}await respond(\"SUCCESS\",\"OK\",physicalResourceId,data)}catch(e){console.log(e),await respond(\"FAILED\",e.message||\"Internal Error\",context.logStreamName,{})}function respond(responseStatus,reason,physicalResourceId,data){const responseBody=JSON.stringify({Status:responseStatus,Reason:reason,PhysicalResourceId:physicalResourceId,StackId:event.StackId,RequestId:event.RequestId,LogicalResourceId:event.LogicalResourceId,NoEcho:!1,Data:data});console.log(\"Responding\",responseBody);const parsedUrl=require(\"url\").parse(event.ResponseURL),requestOptions={hostname:parsedUrl.hostname,path:parsedUrl.path,method:\"PUT\",headers:{\"content-type\":\"\",\"content-length\":responseBody.length}};return new Promise((resolve,reject)=>{try{const request=require(\"https\").request(requestOptions,resolve);request.on(\"error\",reject),request.write(responseBody),request.end()}catch(e){reject(e)}})}}exports.handler=handler;function decodeCall(call){if(!!call)return JSON.parse(call)}function startsWithOneOf(searchStrings){return function(string){for(const searchString of searchStrings)if(string.startsWith(searchString))return!0;return!1}}"
+                },
+                "Role": {
+                    "Fn::GetAtt": [
+                        "AWS679f53fac002430cb0da5b7982bd2287ServiceRoleC1EA0FF2",
+                        "Arn"
+                    ]
+                },
+                "Handler": "index.handler",
+                "Runtime": "nodejs12.x",
+                "Timeout": 120
+            },
+            "DependsOn": [
+                "AWS679f53fac002430cb0da5b7982bd2287ServiceRoleC1EA0FF2"
+            ]
+        }
+    },
+    "Parameters": {
+        "Cloud9LoginUser" : {
+            "Type" : "String",
+            "Description" : "Enter the ARN of user to log into Cloud9."
+        }
+    }
+}

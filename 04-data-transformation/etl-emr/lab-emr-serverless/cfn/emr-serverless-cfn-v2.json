@@ -1,0 +1,128 @@
+{
+   "AWSTemplateFormatVersion":"2010-09-09",
+   "Transform":"AWS::Serverless-2016-10-31",
+   "Description":"EMR Serverless workshop",
+   "Parameters" : {
+      "S3BucketPrefix": {
+        "Default": "emrserverless-workshop",
+        "Type" : "String",
+        "Description" : "Provide a bucket name prefix. This Cloudformation template will add your account id to the prefix you give to keep it unique"
+      }
+    },
+   "Resources":{
+    "Cloud9EMRServerless" : {
+      "Type" : "AWS::Cloud9::EnvironmentEC2",
+      "Properties" : {
+          "AutomaticStopTimeMinutes" : 30,          
+          "Description" : "Cloud9 for EMRServerless Workshop",          
+          "InstanceType" : "t2.micro",
+          "Name" : "Cloud9 for EMRServerless Workshop"          
+        }
+    },
+    "S3Bucket" : {
+        "Type" : "AWS::S3::Bucket",
+        "Properties" : {
+          "BucketName" : {
+            "Fn::Join": ["", [{"Ref": "S3BucketPrefix"},"-",{"Ref": "AWS::AccountId"}]]
+          }
+        }
+     },
+   "EMRServerlessS3RuntimeRole":{
+        "Type":"AWS::IAM::Role",
+        "Properties":{
+           "RoleName" : "EMRServerlessS3RuntimeRole",
+           "AssumeRolePolicyDocument":{
+              "Version": "2012-10-17",
+              "Statement": [
+                {
+                  "Effect": "Allow",
+                  "Principal": {
+                    "Service": "emr-serverless.amazonaws.com"
+                  },
+                  "Action": "sts:AssumeRole"
+                }
+              ]
+            }
+        }
+     },
+     "EMRServerlessS3AndGlueAccessPolicy":{
+        "Type":"AWS::IAM::ManagedPolicy",
+        "Properties":{
+           "ManagedPolicyName" : "EMRServerlessS3AndGlueAccessPolicy",
+           "Description":"EMRServerlessS3AndGlueAccessPolicy",
+           "Roles":[
+                 "Ref":"EMRServerlessS3RuntimeRole"
+           ],
+           "PolicyDocument":{
+              "Version": "2012-10-17",
+              "Statement": [
+                  {
+                      "Sid": "ReadAccessForEMRSamples",
+                      "Effect": "Allow",
+                      "Action": [
+                          "s3:GetObject",
+                          "s3:ListBucket"
+                      ],
+                      "Resource": [
+                          "arn:aws:s3:::*.elasticmapreduce",
+                          "arn:aws:s3:::*.elasticmapreduce/*",
+                          "arn:aws:s3:::aws-data-analytics-workshops",
+                          "arn:aws:s3:::aws-data-analytics-workshops/*"
+                      ]
+                  },
+                  {
+                      "Sid": "FullAccessToOutputBucket",
+                      "Effect": "Allow",
+                      "Action": [
+                          "s3:PutObject",
+                          "s3:GetObject",
+                          "s3:ListBucket",
+                          "s3:DeleteObject"
+                      ],
+                      "Resource": [
+                        {
+                            "Fn::Join": ["", ["arn:aws:s3:::",{"Ref": "S3Bucket"}]]
+                        },
+                        {
+                            "Fn::Join": ["", ["arn:aws:s3:::",{"Ref": "S3Bucket"},"/*"]]
+                        }
+                      ]
+                  },
+                  {
+                      "Sid": "GlueCreateAndReadDataCatalog",
+                      "Effect": "Allow",
+                      "Action": [
+                          "glue:GetDatabase",
+                          "glue:CreateDatabase",
+                          "glue:GetDataBases",
+                          "glue:CreateTable",
+                          "glue:GetTable",
+                          "glue:UpdateTable",
+                          "glue:DeleteTable",
+                          "glue:GetTables",
+                          "glue:GetPartition",
+                          "glue:GetPartitions",
+                          "glue:CreatePartition",
+                          "glue:DeletePartition",
+                          "glue:BatchCreatePartition",
+                          "glue:ListSchemas",
+                          "glue:GetUserDefinedFunctions"
+                      ],
+                      "Resource": ["*"]
+                  }
+              ]
+          }
+        }
+     }
+   },
+   "Outputs":{
+     "EMRServerlessS3RuntimeRoleARN": {
+          "Description": "Amazon Resource Name (ARN) for EMRServerlessS3RuntimeRole: Substitute job-role-arn with this runtime role ARN",
+          "Value": {"Fn::GetAtt" : ["EMRServerlessS3RuntimeRole", "Arn"] }
+     },
+     "S3Bucket": {
+          "Description": "S3Bucket",
+          "Value": {"Ref": "S3Bucket"}
+     }
+   }
+}

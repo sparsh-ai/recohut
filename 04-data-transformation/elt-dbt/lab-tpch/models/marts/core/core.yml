@@ -1,0 +1,40 @@
+version: 2
+
+models:
+  - name: fct_orders
+    description: orders fact table
+    columns:
+      - name: order_key
+        description: primary key of the model
+        tests:
+          - unique
+          - not_null
+          - relationships:
+              to: ref('stg_tpch_orders')
+              field: order_key
+              severity: warn
+      - name: customer_key
+        description: foreign key for customers
+      - name: order_date
+        description: date of the order
+      - name: status_code
+        description: status of the order
+        tests:
+          - accepted_values:
+              values: ['P','O','F']
+      - name: priority_code
+        description: code associated with the order
+      - name: clerk_name
+        description: id of the clerk
+      - name: ship_priority
+        description: numeric representation of the shipping priority, zero being the default
+      - name: order_count
+        description: count of order
+      - name: gross_item_sales_amount
+        description: '{{ doc("gross_item_sales_amount") }}'
+      - name: item_discount_amount
+        description: item level discount amount. this is always less than or equal to zero
+      - name: item_tax_amount
+        description: item level tax total
+      - name: net_item_sales_amount
+        description: the net total which factors in discount and tax

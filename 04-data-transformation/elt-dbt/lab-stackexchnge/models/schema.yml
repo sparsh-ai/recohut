@@ -1,0 +1,23 @@
+version: 2
+
+models:
+  - name: aggregated_users
+    description: "Post table aggregated by user"
+    columns:
+      - name: user_id
+        description: "The user id for the Stackoverflow post creator"
+        tests:
+          - not_null
+          - unique
+      - name: displayname
+      - name: post_to_comment_ratio
+      - name: location
+      - name: code
+      - name: last_updated
+sources:
+  - name: stackoverflow
+    database: PROJECT_ID
+    dataset: stackoverflow
+    tables: 
+      - name: users
+      - name: posts
