@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: Create ECS Fargate cluster
+Parameters:
+  cluster:
+    Type: String
+    Description: Cluster name
+    Default: prefect-streaming
+Resources:
+  Cluster:
+    Type: AWS::ECS::Cluster
+    Properties:
+      ClusterName: !Ref cluster

@@ -1,23 +1,8 @@
 # Basic Curriculum
 
-Est. Time: 40 hrs
-
-| S. No. | Module Name                                       | No. of Hrs | Tools                                                    |
-|--------|---------------------------------------------------|------------|----------------------------------------------------------|
-| 1      | Development Foundations                           | 3          | VSCode, Anaconda, Github, Bash                           |
-| 2      | Data Engineering Foundations                      | 2          |                                                          |
-| 3      | Cloud Computing and Data Engineering tools in AWS | 2          | AWS S3, RDS, Redshift, Glue etc.                         |
-| 4      | Advanced Python Programming                       | 7          | Python (libs: pandas, requests etc.)                     |
-| 5      | Advanced PySpark Programming                      | 5          | PySpark, Databricks                                      |
-| 6      | SQL Programming                                   | 6          | SQL                                                      |
-| 7      | Scala Programming                                 | 3          | Scala                                                    |
-| 8      | Data Modeling with RDBMS/NoSQL                    | 2          | Redshift, Postgres, Cassandra                            |
-| 9      | Data Warehouse and Data Lakes                     | 2          | AWS Datalake (S3, Glue, Athena, Redshift)                |
-| 10     | Big Data Processing                               | 3          | Databricks PySpark Jobs, EMR Jobs, Lambda Functions, dbt |
-| 11     | Building Data Pipelines                           | 2          | Airflow                                                  |
-| 12     | End-to-End Industry Grade Project                 | 3          |                                                          |
-
----
+Est. Time:
+   - Monologue mode: 30 hrs
+   - Interactive mode: 45 hours
 
 ## Development Foundations
 

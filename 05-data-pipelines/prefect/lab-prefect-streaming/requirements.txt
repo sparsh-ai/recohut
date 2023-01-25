@@ -1,0 +1,4 @@
+awswrangler==2.16.1
+pandas==1.4.3
+prefect_slack==0.1.0
+requests==2.27.1

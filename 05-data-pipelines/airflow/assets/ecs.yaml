@@ -1,0 +1,29 @@
+version: '3.7'
+
+services:
+
+  airflow:
+    build: ./dockerfiles/airflow
+    restart: always
+    environment:
+      - INSTALL_MYSQL=y
+      - LOAD_EX=n
+      - EXECUTOR=Local
+      - AIRFLOW_DATABASE_URL=postgresql://airflow:airflow@postgres/airflow
+    volumes:
+      - ../airflow_/dags:/usr/local/airflow/dags
+      - ../scripts:/usr/local/airflow/includes
+      - ../dbt_:/usr/local/airflow/dbt_
+      - ../data:/usr/local/airflow/data
+      - ../airflow_/logs:/opt/airflow/logs
+      - ../airflow_/plugins:/opt/airflow/plugins
+    ports:
+      - "8087:8080"
+      - "7211:7211"
+      - "9921:9921"
+    command: webserver
+
+networks: 
+  default: 
+    external: 
+      name: local_network_1

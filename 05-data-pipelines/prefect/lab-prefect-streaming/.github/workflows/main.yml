@@ -1,0 +1,110 @@
+name: Real-time streaming Prefect flow on AWS ECS
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  PROJECT: realtime-poc
+  ECS_CLUSTER: prefect-streaming
+  ECS_TASK_DEFINITION: task-definition.json
+
+jobs:
+  set_description:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Generate Markdown Summary
+        run: |
+          echo "### Workflow $GITHUB_WORKFLOW with GITHUB_SHA $GITHUB_SHA" >> $GITHUB_STEP_SUMMARY
+          echo "- **Changes**: detects changes in flow code and code dependencies as compared to the last commit" >> $GITHUB_STEP_SUMMARY
+          echo "- **Build**: rebuilds Docker image and redeploys the service if any code dependencies changed <br/>" >> $GITHUB_STEP_SUMMARY
+          echo "Prefect streaming service gets deployed to AWS ECS Service ${{ env.ECS_CLUSTER }}/${{ env.PROJECT }} " >> $GITHUB_STEP_SUMMARY
+
+  changes:
+    name: Detect code changes
+    runs-on: ubuntu-latest
+    outputs:
+      code_changed: ${{ steps.filter.outputs.code }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - uses: dorny/paths-filter@v2
+        id: filter
+        with:
+          list-files: json
+          filters: |
+            code:
+              - added|modified|deleted: 'realtime-poc/**'
+              - added|modified|deleted: 'requirements.txt'
+              - added|modified|deleted: 'Dockerfile'
+              - added|modified|deleted: 'task-definition.json'
+      - name: Generate Markdown Summary
+        run: | 
+          echo "Changes as compared to the last commit" >> $GITHUB_STEP_SUMMARY
+          echo ${{ steps.filter.outputs.code_files }} >> $GITHUB_STEP_SUMMARY
+
+  ecr-ecs-build:
+    needs: changes
+    if: ${{ needs.changes.outputs.code_changed == 'true' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
+
+      - name: Add Secrets to SSM Parameter Store (needed for container in ECS task)
+        run: |
+          aws ssm put-parameter --type SecureString --name PREFECT_API_URL --value ${{ secrets.PREFECT_API_URL}} --overwrite
+          aws ssm put-parameter --type SecureString --name PREFECT_API_KEY --value ${{ secrets.PREFECT_API_KEY}} --overwrite
+        # aws ssm put-parameter --type SecureString --name SLACK_WEBHOOK_URL --value ${{ secrets.SLACK_WEBHOOK_URL}} --overwrite
+
+      - name: Login to Amazon ECR
+        id: login-ecr
+        uses: aws-actions/amazon-ecr-login@v1
+
+      - name: Build, tag, and push image to Amazon ECR
+        id: build-image
+        env:
+          ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
+          IMAGE_TAG: ${{ github.sha }}
+        run: |
+          docker build -t $ECR_REGISTRY/$PROJECT:$IMAGE_TAG .
+          docker push $ECR_REGISTRY/$PROJECT:$IMAGE_TAG
+          echo "::set-output name=image::$ECR_REGISTRY/$PROJECT:$IMAGE_TAG"
+
+      - name: Flow deployments finished
+        run: echo "ECR image $ECR_REGISTRY/$PROJECT:$IMAGE_TAG built at $(date +'%Y-%m-%dT%H:%M:%S')" >> $GITHUB_STEP_SUMMARY
+
+      - name: Fill in the new image ID in the Amazon ECS task definition
+        id: task-def
+        uses: aws-actions/amazon-ecs-render-task-definition@v1
+        with:
+          task-definition: ${{ env.ECS_TASK_DEFINITION }}
+          container-name: ${{ env.PROJECT }}
+          image: ${{ steps.build-image.outputs.image }}
+
+      - name: Deploy Amazon ECS task definition
+        uses: aws-actions/amazon-ecs-deploy-task-definition@v1
+        with:
+          task-definition: ${{ steps.task-def.outputs.task-definition }}
+          service: ${{ env.ECS_CLUSTER }}/${{ env.PROJECT }}
+          cluster: ${{ env.ECS_CLUSTER }}
+          # wait-for-service-stability: true
+
+      - name: Upload task definition as artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: ECS task definition
+          path: ${{ steps.task-def.outputs.task-definition }}
+
+      - name: Summary
+        run: echo '### AWS resources successfully redeployed! :rocket:' >> $GITHUB_STEP_SUMMARY

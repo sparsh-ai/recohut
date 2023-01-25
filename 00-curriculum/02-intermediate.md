@@ -1,17 +1,8 @@
 # Intermediate Curriculum
 
-Est. Time: 75 hrs
-
-| S. No. | Module Name               | No. of Hrs |
-|--------|---------------------------|------------|
-| 1      | Foundations               | 8          |
-| 2      | Data Modeling             | 10         |
-| 3      | Data Lakes and Warehouses | 8          |
-| 4      | Data Transformation       | 20         |
-| 5      | Workflow Orchestration    | 6          |
-| 6      | Real-time Data Streaming  | 12         |
-| 7      | DevOps                    | 8          |
-| 8      | Interview Preparation     | 3          |
+Est. Time:
+   - Monologue mode: 60 hrs
+   - Interactive mode: 75 hours
 
 ## Foundations
 

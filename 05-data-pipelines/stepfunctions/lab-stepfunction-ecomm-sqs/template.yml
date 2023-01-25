@@ -1,0 +1,426 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: >-
+  AWS Step Functions sample project for combining workflows using the Step
+  Functions StartExecution API service integration in various patterns.
+Parameters:
+  ProjectPrefix:
+    Type: String
+    Default: athenasns
+  ProjectSuffix:
+    Type: String
+    Default: wys
+Resources:
+  SelectiveCheckpointingStandardStateMachine:
+    Type: 'AWS::StepFunctions::StateMachine'
+    Properties:
+      StateMachineName: !Join [ "-", [!Ref ProjectPrefix, "SelectiveCheckpointingStandardStateMachine", !Ref ProjectSuffix ] ]
+      RoleArn: !GetAtt 
+        - SelectiveCheckpointingStandardStateMachineExecutionRole
+        - Arn
+      DefinitionString: !Sub 
+        - |-
+          {
+              "Comment": "An example of combining standard and express state machines for an e-commerce workflow that does selective checkpointing.",
+              "StartAt": "Approve Order Request",
+              "States": {
+                  "Approve Order Request": {
+                      "Type": "Task",
+                      "Resource": "arn:${AWS::Partition}:states:::sqs:sendMessage.waitForTaskToken",
+                      "Parameters": {
+                          "QueueUrl": "${sqsQueueUrl}",
+                          "MessageBody": {
+                              "MessageTitle": "Order Request received. Pausing workflow to wait for manual approval. ",
+                              "TaskToken.$": "$$.Task.Token"
+                          }
+                      },
+                      "Next": "Notify Order Success",
+                      "Catch": [
+                          {
+                              "ErrorEquals": [
+                                  "States.ALL"
+                              ],
+                              "Next": "Notify Order Failure"
+                          }
+                      ]
+                  },
+                  "Notify Order Success": {
+                      "Type": "Task",
+                      "Resource": "arn:${AWS::Partition}:states:::sns:publish",
+                      "Parameters": {
+                          "Message": "Order has been approved. Resuming workflow.",
+                          "TopicArn": "${sendtoSNSArn}"
+                      },
+                      "Next": "Process Payment"
+                  },
+                  "Notify Order Failure": {
+                      "Type": "Task",
+                      "Resource": "arn:${AWS::Partition}:states:::sns:publish",
+                      "Parameters": {
+                          "Message": "Order not approved. Order failed.",
+                          "TopicArn": "${sendtoSNSArn}"
+                      },
+                      "End": true
+                  },
+                  "Process Payment": {
+                      "Type": "Task",
+                      "Resource": "arn:${AWS::Partition}:states:::sqs:sendMessage.waitForTaskToken",
+                      "Parameters": {
+                          "QueueUrl": "${sqsQueueUrl}",
+                          "MessageBody": {
+                              "MessageTitle": "Payment sent to third-party for processing. Pausing workflow to wait for response.",
+                              "TaskToken.$": "$$.Task.Token"
+                          }
+                      },
+                      "Next": "Notify Payment Success",
+                      "Catch": [
+                          {
+                              "ErrorEquals": [
+                                  "States.ALL"
+                              ],
+                              "Next": "Notify Payment Failure"
+                          }
+                      ]
+                  },
+                  "Notify Payment Success": {
+                      "Type": "Task",
+                      "Resource": "arn:${AWS::Partition}:states:::sns:publish",
+                      "Parameters": {
+                          "Message": "Payment processing succeeded. Resuming workflow.",
+                          "TopicArn": "${sendtoSNSArn}"
+                      },
+                      "Next": "Workflow to Update Backend Systems"
+                  },
+                  "Notify Payment Failure": {
+                      "Type": "Task",
+                      "Resource": "arn:${AWS::Partition}:states:::sns:publish",
+                      "Parameters": {
+                          "Message": "Payment processing failed.",
+                          "TopicArn": "${sendtoSNSArn}"
+                      },
+                      "End": true
+                  },
+                  "Workflow to Update Backend Systems": {
+                      "Comment": "Executing an Express workflow to handle backend updates. Express workflows are fast and cost-effective for steps where checkpointing isn't required.",
+                      "Type": "Task",
+                      "Resource": "arn:${AWS::Partition}:states:::states:startExecution.sync:2",
+                      "Parameters": {
+                          "StateMachineArn": "${SelectiveCheckpointingExpressStateMachineArn}",
+                          "Input": {
+                              "AWS_STEP_FUNCTIONS_STARTED_BY_EXECUTION_ID.$": "$$.Execution.Id"
+                          }
+                      },
+                      "Next": "Ship the Package"
+                  },
+                  "Ship the Package": {
+                      "Type": "Task",
+                      "Resource": "arn:${AWS::Partition}:states:::sns:publish",
+                      "Parameters": {
+                          "Message": "Order and payment received, database is updated and the package is ready to ship.",
+                          "TopicArn": "${sendtoSNSArn}"
+                      },
+                      "End": true
+                  }
+              }
+          }
+        - {SelectiveCheckpointingExpressStateMachineArn: !Ref SelectiveCheckpointingExpressStateMachine, sendtoSNSArn: !Ref SNSTopic, sqsQueueUrl: !Ref SQSQueue}
+  SelectiveCheckpointingStandardStateMachineExecutionRole:
+    Type: 'AWS::IAM::Role'
+    Properties:
+      RoleName: !Join [ "-", [!Ref ProjectPrefix, "SelectiveCheckpointingStandardStateMachineExecutionRole", !Ref ProjectSuffix ] ]
+      AssumeRolePolicyDocument:
+        Version: 2012-10-17
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: states.amazonaws.com
+            Action: 'sts:AssumeRole'
+      Path: /
+      Policies:
+        - PolicyName: SNSPublishPolicy
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action:
+                  - "sns:Publish"
+                Resource: !Ref SNSTopic
+        - PolicyName: SQSSendMessagePolicy
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action:
+                  - "sqs:SendMessage"
+                Resource: !GetAtt [SQSQueue, Arn]
+        - PolicyName: StatesExecutionPolicy
+          PolicyDocument:
+            Version: 2012-10-17
+            Statement:
+              - Effect: Allow
+                Action:
+                  - 'states:StartExecution'
+                  - 'states:DescribeExecution'
+                  - 'states:StopExecution'
+                Resource: '*'
+              - Effect: Allow
+                Action:
+                  - 'events:PutTargets'
+                  - 'events:PutRule'
+                  - 'events:DescribeRule'
+                Resource: !Sub >-
+                  arn:${AWS::Partition}:events:${AWS::Region}:${AWS::AccountId}:rule/StepFunctionsGetEventsForStepFunctionsExecutionRule
+  ExpressLogGroup:
+    Type: AWS::Logs::LogGroup
+  SelectiveCheckpointingExpressStateMachine:
+    Type: 'AWS::StepFunctions::StateMachine'
+    Properties:
+      StateMachineType: "EXPRESS"
+      LoggingConfiguration:
+        Level: ALL
+        IncludeExecutionData: True
+        Destinations:
+          - CloudWatchLogsLogGroup:
+                LogGroupArn: !GetAtt
+                  - ExpressLogGroup
+                  - Arn
+      RoleArn: !GetAtt
+        - SelectiveCheckpointingExpressStateMachineExecutionRole
+        - Arn
+      DefinitionString:
+        'Fn::Sub': |
+          {
+            "StartAt": "Update Order History",
+            "States": {
+              "Update Order History": {
+                "Type": "Task",
+                "Resource": "arn:${AWS::Partition}:states:::lambda:invoke",
+                "Parameters": {
+                  "FunctionName": "${UpdateDatabaseLambdaFunction}",
+                  "Payload": {
+                    "Message": "Update order history."
+                  }
+                },
+                "Next": "Update Data Warehouse"
+              },
+              "Update Data Warehouse": {
+                "Type" : "Task",
+                "Resource": "arn:${AWS::Partition}:states:::lambda:invoke",
+                "Parameters": {
+                  "FunctionName": "${UpdateDatabaseLambdaFunction}",
+                  "Payload": {
+                    "Message": "Update data warehouse."
+                  }
+                },
+                "Next": "Update Customer Profile"
+              },
+              "Update Customer Profile": {
+                "Type": "Task",
+                "Resource": "arn:${AWS::Partition}:states:::lambda:invoke",
+                "Parameters": {
+                  "FunctionName": "${UpdateDatabaseLambdaFunction}",
+                  "Payload": {
+                    "Message": "Update customer profile."
+                  }
+                },
+                "Next": "Update Inventory"
+              },
+              "Update Inventory": {
+                "Type": "Task",
+                "Resource": "arn:${AWS::Partition}:states:::lambda:invoke",
+                "Parameters": {
+                  "FunctionName": "${UpdateDatabaseLambdaFunction}",
+                  "Payload": {
+                    "Message": "Update inventory."
+                  }
+                },
+                "End": true
+              }
+            }
+          }
+  SelectiveCheckpointingExpressStateMachineExecutionRole:
+    Type: 'AWS::IAM::Role'
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: 2012-10-17
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: states.amazonaws.com
+            Action: 'sts:AssumeRole'
+      Path: /
+      Policies:
+        - PolicyName: ExpressStatesExecutionPolicy
+          PolicyDocument:
+            Version: 2012-10-17
+            Statement:
+              - Effect: Allow
+                Action:
+                  - 'lambda:InvokeFunction'
+                Resource:
+                  - !GetAtt UpdateDatabaseLambdaFunction.Arn
+        - PolicyName: CloudWatchLogs
+          PolicyDocument:
+            Version: 2012-10-17
+            Statement:
+              - Effect: Allow
+                Action:
+                  - 'logs:CreateLogDelivery'
+                  - 'logs:GetLogDelivery'
+                  - 'logs:UpdateLogDelivery'
+                  - 'logs:DeleteLogDelivery'
+                  - 'logs:ListLogDeliveries'
+                  - 'logs:PutResourcePolicy'
+                  - 'logs:DescribeResourcePolicies'
+                  - 'logs:DescribeLogGroups'
+                Resource:
+                  - '*'
+  UpdateDatabaseLambdaFunction:
+    Type: 'AWS::Lambda::Function'
+    Properties:
+      Handler: index.lambda_handler
+      Role: !GetAtt UpdateDatabaseLambdaFunctionRole.Arn
+      Runtime: python3.7
+      Timeout: '60'
+      Code:
+        ZipFile: |
+          import time
+          def lambda_handler(event, context):
+            time.sleep(0.3)
+            return { 'statusCode': 200,
+              'body': {
+                'updated': True
+              }
+            }
+  UpdateDatabaseLambdaFunctionRole:
+    Type: "AWS::IAM::Role"
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: lambda.amazonaws.com
+            Action: "sts:AssumeRole"
+      Policies:
+        - PolicyName: CloudWatchLogsPolicy
+          PolicyDocument:
+            Statement:
+              - Effect: Allow
+                Action:
+                  - "logs:CreateLogGroup"
+                  - "logs:CreateLogStream"
+                  - "logs:PutLogEvents"
+                Resource: !Sub "arn:${AWS::Partition}:logs:*:*:*"
+  ShipPackageLambdaFunction:
+    Type: 'AWS::Lambda::Function'
+    Properties:
+      Handler: index.lambda_handler
+      Role: !GetAtt ShipPackageLambdaFunctionRole.Arn
+      Runtime: python3.7
+      Timeout: '25'
+      Code:
+        ZipFile: |
+          import time
+          import boto3
+          import json
+          import random
+
+
+          stepfunctions = boto3.client('stepfunctions')
+
+
+          def lambda_handler(event, context):
+            time.sleep(3+random.randint(0,5))
+            for record in event['Records']:
+              body = json.loads(record['body'])
+              task_token = body['TaskToken']
+              params = {
+                  'output': 'Callback task completed successfully.',
+                  'task_token': task_token
+              }
+              print('Calling Step Functions to complete callback task with params {}'.format(params))
+              try:
+                  stepfunctions.send_task_success(taskToken=task_token, output='{"output": "Callback task completed successfully."}')
+              except Exception as e:
+                  stepfunctions.send_task_failure(taskToken=task_token, error='500', cause=repr(e))
+                  return { 'statusCode': 500,
+                    'body': {
+                      'updated': True
+                    }
+                  }
+                  
+            return { 'statusCode': 200,
+              'body': {
+                'updated': True
+              }
+            }
+  ShipPackageLambdaFunctionRole:
+    Type: 'AWS::IAM::Role'
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: 2012-10-17
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: lambda.amazonaws.com
+            Action: 'sts:AssumeRole'
+      Policies:
+        - PolicyName: SQSReceiveMessagePolicy
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action:
+                  - "sqs:ReceiveMessage"
+                  - "sqs:DeleteMessage"
+                  - "sqs:GetQueueAttributes"
+                  - "sqs:ChangeMessageVisibility"
+                Resource: !GetAtt [SQSQueue, Arn]
+        - PolicyName: CloudWatchLogsPolicy
+          PolicyDocument:
+            Statement:
+              - Effect: Allow
+                Action:
+                  - 'logs:CreateLogGroup'
+                  - 'logs:CreateLogStream'
+                  - 'logs:PutLogEvents'
+                Resource: !Sub 'arn:${AWS::Partition}:logs:*:*:*'
+        - PolicyName: StatesExecutionPolicy
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action:
+                  - 'states:SendTaskSuccess'
+                  - "states:SendTaskFailure"
+                Resource: "*"
+  SQSQueue:
+    Type: "AWS::SQS::Queue"
+    Properties:
+      DelaySeconds: 0
+      VisibilityTimeout: 30
+      RedrivePolicy:
+        deadLetterTargetArn: !GetAtt [SQSQueueDLQ, Arn]
+        maxReceiveCount: 1
+  SQSQueueDLQ:
+    Type: "AWS::SQS::Queue"
+    Properties:
+      DelaySeconds: 0
+      VisibilityTimeout: 30
+  SNSTopic:
+    Type: "AWS::SNS::Topic"
+  LambdaFunctionEventSourceMapping:
+    Type: "AWS::Lambda::EventSourceMapping"
+    Properties:
+      BatchSize: 10
+      Enabled: true
+      EventSourceArn: !GetAtt [SQSQueue, Arn]
+      FunctionName: !GetAtt [ShipPackageLambdaFunction, Arn]
+Outputs:
+  StateMachineArn:
+    Value:
+      Ref: SelectiveCheckpointingStandardStateMachine
+  ExecutionInput:
+    Description: Sample input to StartExecution.
+    Value: |
+      {}

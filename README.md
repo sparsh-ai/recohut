@@ -14,7 +14,7 @@
 1. [Data Storages](./02-data-storages/)
 1. [Data Modeling](./03-data-modeling/)
 1. [Data Transformation](./04-data-transformation/)
-1. Workflow Orchestration
+1. [Data Pipelines](./05-data-pipelines/)
 1. Streaming Data Processing
 1. Additional Data Engineering
 1. DevOps for Data Engineers

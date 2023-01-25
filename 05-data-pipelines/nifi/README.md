@@ -1,0 +1,7 @@
+# NiFi
+
+Apache NiFi is a framework for building data engineering pipelines, and it utilizes DAGs. Apache NiFi was built by the National Security Agency and is used at several federal agencies. Apache NiFi is easier to set up and is useful for new data engineers. The GUI is excellent and while you can use Jython, Clojure, Scala, or Groovy to write processors, you can accomplish a lot with a simple configuration of existing processors.
+
+NiFi allows you to build data pipelines using prebuilt processors that you can configure for your needs. You do not need to write any code to get NiFi pipelines working. It also provides a scheduler to set how frequently you would like your pipelines to run. In addition, it will handle backpressure – if one task works faster than another, you can slow down the task. Apache NiFi also allows clustering and the remote execution of pipelines. Furthermore, Apache NiFi has version control using the NiFi Registry and can be used to collect data on the edge using MiNiFi.
+
+A NiFi data flow is made up of processors, connections, and relationships. NiFi has over 100 processors all ready for you to use. By clicking the Processor tool and dragging it on to the canvas, you will be prompted to select the processor you would like to use.

@@ -1,23 +1,8 @@
 # Advanced Curriculum
 
-Est. Time: 270 hrs
-
-| S. No. | Module Name                           | No. of Hrs |
-|--------|---------------------------------------|------------|
-| 1      | Foundations                           | 8          |
-| 2      | Data Storages                         | 16         |
-| 3      | Data Modeling                         | 16         |
-| 4      | Data Transformation                   | 40         |
-| 5      | Workflow Orchestration                | 16         |
-| 6      | Real-time and Unified Data Processing | 24         |
-| 7      | Others                                | 36         |
-| 8      | Visualization                         | 12         |
-| 9      | DevOps                                | 16         |
-| 10     | Interview Preparation                 | 8          |
-| 11     | Data Science & Machine Learning       | 12         |
-| 12     | Projects - Basic                      | 12         |
-| 13     | Projects - Intermediate               | 18         |
-| 14     | Projects - Advanced                   | 36         |
+Est. Time:
+   - Monologue mode: 90 hrs
+   - Interactive mode: 120 hours
 
 ## Foundations
 
