@@ -1,0 +1,2 @@
+This is just a plain text file, UTF-8 strings are allowed 🎉.
+Each line in the file is one element in the PCollection.

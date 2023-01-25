@@ -15,7 +15,7 @@
 1. [Data Modeling](./03-data-modeling/)
 1. [Data Transformation](./04-data-transformation/)
 1. [Data Pipelines](./05-data-pipelines/)
-1. Streaming Data Processing
+1. [Streaming Data Processing](./06-stream-data-processing/)
 1. Additional Data Engineering
 1. DevOps for Data Engineers
 1. Visualization

@@ -1,0 +1,4 @@
+Each element must be a string.
+It writes one element per line.
+There are no guarantees on the line order.
+The data might be written into multiple files.

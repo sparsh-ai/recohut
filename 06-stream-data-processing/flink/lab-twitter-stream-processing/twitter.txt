@@ -1,0 +1,1 @@
+I am using Twitter API to learn about stream processing. This will mostly for learning development. I will be analyzing twitter stream to understand the sentiment of the feed. The code I develop using this API will be opensourced.
