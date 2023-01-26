@@ -1,0 +1,277 @@
+AWSTemplateFormatVersion: '2010-09-09'
+
+Resources:
+  GlueDatabase:
+    Type: AWS::Glue::Database
+    Properties:
+      CatalogId: !Ref AWS::AccountId
+      DatabaseInput: 
+        Name: "firehosedb"
+  GlueTable:
+    Type: AWS::Glue::Table
+    Properties:
+      CatalogId: !Ref AWS::AccountId
+      DatabaseName: !Ref GlueDatabase
+      TableInput:
+        Name: "access_logs_parquet"
+        Retention: 0
+        StorageDescriptor:
+          Columns:
+          - Name: client_ip
+            Type: string
+          - Name: client_id
+            Type: string
+          - Name: user_id
+            Type: string
+          - Name: request_received_time
+            Type: string
+          - Name: client_request
+            Type: string
+          - Name: resource
+            Type: string
+          - Name: version
+            Type: string
+          - Name: status
+            Type: string
+          - Name: returned_obj_size
+            Type: string
+          Location: !Sub 's3://${MyS3Bucket}/access-logs-parquet'
+          InputFormat: org.apache.hadoop.hive.ql.io.parquet.MapredParquetInputFormat
+          OutputFormat: org.apache.hadoop.hive.ql.io.parquet.MapredParquetOutputFormat
+          Compressed: false
+          NumberOfBuckets: -1
+          SerdeInfo:
+            SerializationLibrary: org.apache.hadoop.hive.ql.io.parquet.serde.ParquetHiveSerDe
+            Parameters:
+              serialization.format: '1'
+          BucketColumns: []
+          SortColumns: []
+          StoredAsSubDirectories: false
+        PartitionKeys:
+        - Name: year
+          Type: string
+        - Name: month
+          Type: string
+        - Name: day
+          Type: string
+        - Name: hour
+          Type: string
+        TableType: EXTERNAL_TABLE
+
+  MyS3Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub 'access-logs-parquet-${AWS::AccountId}'
+      AccessControl: Private
+
+  FirehoseDeliveryRole:
+    Type: "AWS::IAM::Role"
+    Properties:
+      AssumeRolePolicyDocument:
+       Version: "2012-10-17"
+       Statement:
+         -
+          Effect: "Allow"
+          Principal:
+            Service:
+             - "firehose.amazonaws.com"
+          Action:
+             - "sts:AssumeRole"
+          Condition:
+             StringEquals:
+               "sts:ExternalId": !Ref "AWS::AccountId"
+      Path: "/"
+      Policies:
+        - PolicyName: firehose_delivery_policy
+          PolicyDocument:
+            Version: 2012-10-17
+            Statement:
+              - Effect: Allow
+                Action:
+                  - 's3:AbortMultipartUpload'
+                  - 's3:GetBucketLocation'
+                  - 's3:GetObject'
+                  - 's3:ListBucket'
+                  - 's3:ListBucketMultipartUploads'
+                  - 's3:PutObject'
+                Resource:
+                  - !Sub 'arn:aws:s3:::${MyS3Bucket}'
+                  - !Sub 'arn:aws:s3:::${MyS3Bucket}*'
+              - Effect: Allow
+                Action: 'glue:GetTableVersions'
+                Resource: '*'
+
+  MyKDFH:
+    Type: AWS::KinesisFirehose::DeliveryStream
+    DependsOn: GlueTable
+    Properties:
+     ExtendedS3DestinationConfiguration:
+       BucketARN: !Sub 'arn:aws:s3:::${MyS3Bucket}'
+       BufferingHints:
+         IntervalInSeconds: 60
+         SizeInMBs: 64
+       CompressionFormat: UNCOMPRESSED
+       Prefix: access-logs-parquet/
+       RoleARN: !GetAtt FirehoseDeliveryRole.Arn
+       ProcessingConfiguration:
+         Enabled: true
+         Processors:
+          - Type: Lambda
+            Parameters:
+             - ParameterName: LambdaArn
+               ParameterValue: !GetAtt tsvtoparquetLambda.Arn
+       DataFormatConversionConfiguration:
+         Enabled: True
+         SchemaConfiguration:
+           CatalogId: !Ref AWS::AccountId
+           RoleARN: !GetAtt FirehoseDeliveryRole.Arn
+           DatabaseName: !Ref GlueDatabase
+           TableName: !Ref GlueTable
+           Region: !Ref AWS::Region
+           VersionId: LATEST
+         InputFormatConfiguration:
+           Deserializer:
+             OpenXJsonSerDe: {}
+         OutputFormatConfiguration:
+           Serializer:
+             ParquetSerDe: {}
+     DeliveryStreamName: 'access-logs-sink-parquet'
+     DeliveryStreamType: 'DirectPut'
+  
+  InvokeLambdaPolicy:
+   Type: AWS::IAM::Policy
+   Properties:
+     PolicyName: kfh_lambda_policy
+     PolicyDocument:
+      Version: 2012-10-17
+      Statement:
+        - Effect: Allow
+          Action:
+           - 'lambda:InvokeFunction'
+          Resource:
+           - !GetAtt tsvtoparquetLambda.Arn
+     Roles:
+        - !Ref FirehoseDeliveryRole
+
+  tsvtoparquetLambdaExecutionRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+       Version: '2012-10-17'
+       Statement:
+       - Effect: Allow
+         Principal:
+           Service:
+           - lambda.amazonaws.com
+         Action:
+          - sts:AssumeRole
+      Policies:
+       - PolicyName: allowLambdaLogs
+         PolicyDocument:
+           Version: '2012-10-17'
+           Statement:
+           - Effect: Allow
+             Action:
+             - logs:*
+             Resource: arn:aws:logs:*:*:*
+
+  tsvtoparquetLambda:
+    Type: AWS::Lambda::Function
+    Properties:
+      Description: aws:states:opt-in
+      Code:
+        ZipFile: |
+
+          import base64 
+          import json
+          import gzip
+          import re
+
+          regex = '^(\S+) (\S+) (\S+) \[([\w:/]+\s[+\-]\d{4})\] "(\S+) (\S+)\s*(\S+)?\s*" (\d{3}) (\S+)'
+          fields = ['client_ip','client_id','user_id','request_received_time','client_request','resource','version','status','returned_obj_size']
+
+
+          def transformLogEvent(event, context):
+              output = []
+              for record in event['records']:
+                 #Kinesis data is base64 encoded so decode here
+                 payload=base64.b64decode(record["data"]).decode('utf-8')
+                 actions = []
+                 m=re.match(regex,payload)
+                 if m:
+                      logrec=m.groups(0)
+                      j_payload=dict(zip(fields,logrec))
+                      actions.append({'index': {'_index':'index','_type': 'logs'}})
+                      actions.append(j_payload)
+                      payload_w_newline = json.dumps(j_payload) + "\n"
+                      output_record = {
+                      'recordId': record['recordId'],
+                      'result': 'Ok',
+                      'data':  base64.b64encode(payload_w_newline.encode('utf-8')).decode('utf-8')
+                      }
+                      output.append(output_record)
+              print('Successfully processed {} records.'.format(len(event['records'])))
+              return {'records': output}
+      Handler: index.transformLogEvent
+      Role: !GetAtt tsvtoparquetLambdaExecutionRole.Arn
+      Runtime: python3.8
+      Timeout: 120
+      MemorySize: 128
+
+  GlueCrawlerRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          -
+           Effect: "Allow"
+           Principal:
+             Service:
+              - "glue.amazonaws.com"
+           Action:
+              - "sts:AssumeRole"
+      Path: "/"
+      Policies:
+        -
+          PolicyName: "root"
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              -
+               Effect: "Allow"
+               Action: "*"
+               Resource: "*"
+ 
+  S3DataCrawler:
+    DependsOn: GlueTable
+    Type: AWS::Glue::Crawler
+    Properties:
+      Name: accessogCrawler
+      Role: !GetAtt GlueCrawlerRole.Arn
+      DatabaseName: !Ref GlueDatabase
+      SchemaChangePolicy:
+        UpdateBehavior: "UPDATE_IN_DATABASE"
+        DeleteBehavior: "LOG"
+      Targets:
+          CatalogTargets:
+           -
+            DatabaseName: "firehosedb"
+            Tables:
+             - "access_logs_parquet"
+Outputs:
+   KinesisFirehose:
+     Description: Kinesis Firehose Name
+     Value: "accesslogs-sink-parquet"
+   S3bucketname: 
+     Value: !Ref MyS3Bucket
+     Description: Name of the bucket created
+   GlueDatabase: 
+     Value: !Ref GlueDatabase
+     Description: AWS Glue Database
+   GlueTable: 
+     Value: !Ref GlueTable
+     Description: AWS Glue Table
+   GlueCrawler: 
+     Value: !Ref S3DataCrawler
+     Description: AWS Glue Crawler

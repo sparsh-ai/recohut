@@ -1,0 +1,153 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Resources:
+  MyS3Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub 'access-logs-json-${AWS::AccountId}'
+      AccessControl: Private
+
+  FirehoseDeliveryRole:
+    Type: "AWS::IAM::Role"
+    Properties:
+      AssumeRolePolicyDocument:
+       Version: "2012-10-17"
+       Statement:
+         -
+          Effect: "Allow"
+          Principal:
+            Service:
+             - "firehose.amazonaws.com"
+          Action:
+             - "sts:AssumeRole"
+          Condition:
+             StringEquals:
+               "sts:ExternalId": !Ref "AWS::AccountId"
+
+  FirehoseDeliveryPolicy:
+   Type: AWS::IAM::Policy
+   Properties:
+      PolicyName: firehose_delivery_policy
+      PolicyDocument:
+        Version: 2012-10-17
+        Statement:
+          - Effect: Allow
+            Action:
+              - 's3:AbortMultipartUpload'
+              - 's3:GetBucketLocation'
+              - 's3:GetObject'
+              - 's3:ListBucket'
+              - 's3:ListBucketMultipartUploads'
+              - 's3:PutObject'
+            Resource:
+              - !Sub 'arn:aws:s3:::${MyS3Bucket}'
+              - !Sub 'arn:aws:s3:::${MyS3Bucket}*'
+      Roles:
+        - !Ref FirehoseDeliveryRole
+
+  MyKDFH:
+    Type: AWS::KinesisFirehose::DeliveryStream
+    DependsOn: MyS3Bucket 
+    Properties:
+     ExtendedS3DestinationConfiguration:
+       BucketARN: !Sub 'arn:aws:s3:::${MyS3Bucket}'
+       BufferingHints:
+         IntervalInSeconds: 60
+         SizeInMBs: 1
+       CompressionFormat: UNCOMPRESSED
+       Prefix: access-logs-json/
+       RoleARN: !GetAtt FirehoseDeliveryRole.Arn
+       ProcessingConfiguration:
+         Enabled: true
+         Processors:
+          - Type: Lambda
+            Parameters:
+             - ParameterName: LambdaArn
+               ParameterValue: !GetAtt tsvtojsonLambda.Arn
+     DeliveryStreamName: 'access-logs-sink-json'
+     DeliveryStreamType: 'DirectPut'
+  
+  InvokeLambdaPolicy:
+   Type: AWS::IAM::Policy
+   Properties:
+     PolicyName: kfh_lambda_policy
+     PolicyDocument:
+      Version: 2012-10-17
+      Statement:
+        - Effect: Allow
+          Action:
+           - 'lambda:InvokeFunction'
+          Resource:
+           - !GetAtt tsvtojsonLambda.Arn
+     Roles:
+        - !Ref FirehoseDeliveryRole
+
+  tsvtojsonLambdaExecutionRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+       Version: '2012-10-17'
+       Statement:
+       - Effect: Allow
+         Principal:
+           Service:
+           - lambda.amazonaws.com
+         Action:
+          - sts:AssumeRole
+      Policies:
+       - PolicyName: allowLambdaLogs
+         PolicyDocument:
+           Version: '2012-10-17'
+           Statement:
+           - Effect: Allow
+             Action:
+             - logs:*
+             Resource: arn:aws:logs:*:*:*
+
+  tsvtojsonLambda:
+    Type: AWS::Lambda::Function
+    Properties:
+      Code:
+        ZipFile: |
+
+          import base64 
+          import json
+          import gzip
+          import re
+ 
+          regex = '^(\S+) (\S+) (\S+) \[([\w:/]+\s[+\-]\d{4})\] "(\S+) (\S+)\s*(\S+)?\s*" (\d{3}) (\S+)'
+          fields = ['client_ip','client_id','user_id','request_received_time','client_request','resource','version','status','returned_obj_size']
+
+
+          def transformLogEvent(event, context):
+              output = []
+              for record in event['records']:
+                 #Kinesis data is base64 encoded so decode here
+                 payload=base64.b64decode(record["data"]).decode('utf-8')
+                 actions = []
+                 m=re.match(regex,payload)
+                 if m:
+                        logrec=m.groups(0)
+                        j_payload=dict(zip(fields,logrec))
+                        actions.append({'index': {'_index':'index','_type': 'logs'}})
+                        actions.append(j_payload)
+                        payload_w_newline = json.dumps(j_payload) + "\n"
+                        output_record = {
+                        'recordId': record['recordId'],
+                        'result': 'Ok',
+                        'data':  base64.b64encode(payload_w_newline.encode('utf-8')).decode('utf-8')
+                        }
+                        output.append(output_record)
+              print('Successfully processed {} records.'.format(len(event['records'])))
+              return {'records': output}
+      Handler: index.transformLogEvent
+      Role: !GetAtt tsvtojsonLambdaExecutionRole.Arn
+      Runtime: python3.7
+      Timeout: 60
+      MemorySize: 128
+Outputs:
+   KinesisFirehose:
+     Description: Kinesis Firehose Name
+     Value: "access-logs-sink-json"
+   S3bucketname: 
+     Value: !Ref MyS3Bucket
+     Description: Name of the bucket created

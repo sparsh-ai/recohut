@@ -1,0 +1,69 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Resources:
+  MyS3Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub 'access-logs-tsv-${AWS::AccountId}'
+      AccessControl: Private
+
+  FirehoseDeliveryRole:
+    Type: "AWS::IAM::Role"
+    Properties:
+      Path: '/'
+      AssumeRolePolicyDocument:
+       Version: "2012-10-17"
+       Statement:
+         -
+          Effect: "Allow"
+          Principal:
+            Service:
+             - "firehose.amazonaws.com"
+          Action:
+             - "sts:AssumeRole"
+          Condition:
+             StringEquals:
+               "sts:ExternalId": !Ref "AWS::AccountId"
+
+  FirehoseDeliveryPolicy:
+   Type: AWS::IAM::Policy
+   Properties:
+      PolicyName: firehose_delivery_policy
+      PolicyDocument:
+        Version: 2012-10-17
+        Statement:
+          - Effect: Allow
+            Action:
+              - 's3:AbortMultipartUpload'
+              - 's3:GetBucketLocation'
+              - 's3:GetObject'
+              - 's3:ListBucket'
+              - 's3:ListBucketMultipartUploads'
+              - 's3:PutObject'
+            Resource:
+              - !Sub 'arn:aws:s3:::${MyS3Bucket}'
+              - !Sub 'arn:aws:s3:::${MyS3Bucket}*'
+      Roles:
+        - !Ref FirehoseDeliveryRole
+
+  MyKDFH:
+    Type: AWS::KinesisFirehose::DeliveryStream
+    DependsOn: MyS3Bucket 
+    Properties:
+     ExtendedS3DestinationConfiguration:
+       BucketARN: !Sub 'arn:aws:s3:::${MyS3Bucket}'
+       BufferingHints:
+         IntervalInSeconds: 60
+         SizeInMBs: 1
+       CompressionFormat: UNCOMPRESSED
+       Prefix: access-logs-tsv/
+       RoleARN: !GetAtt FirehoseDeliveryRole.Arn
+     DeliveryStreamName: 'access-logs-s3-sink'
+     DeliveryStreamType: 'DirectPut'
+
+Outputs:
+   KinesisFirehose:
+     Description: Kinesis Firehose Name
+     Value: "access-logs-s3-sink"
+   S3bucketname: 
+     Value: !Ref MyS3Bucket
+     Description: Name of the bucket created
