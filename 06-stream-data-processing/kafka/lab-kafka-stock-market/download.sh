@@ -1,0 +1,1 @@
+aws s3 cp s3://wysde-datasets/stocktus/indexProcessed.csv.zip indexProcessed.csv.zip

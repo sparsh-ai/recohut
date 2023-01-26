@@ -1,0 +1,8 @@
+confluent-kafka
+confluent-kafka[avro,json,protobuf]
+kafka-python
+# kafka-python==1.4.6
+# confluent_kafka
+avro
+faust
+fastavro

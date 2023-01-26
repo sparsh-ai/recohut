@@ -1,9 +1,9 @@
 default:
   outputs:
     dev:
-      account: srb04000.us-east-1
+      account: <>
       database: dbt
-      password: MvnPddd90127
+      password: 
       role: accountadmin
       schema: dev
       threads: 1
@@ -11,9 +11,9 @@ default:
       user: sprsag
       warehouse: compute_wh
     prod:
-      account: srb04000.us-east-1
+      account: <>
       database: dbt
-      password: MvnPddd90127
+      password: 
       role: accountadmin
       schema: prod
       threads: 1

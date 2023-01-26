@@ -29,7 +29,7 @@ To learn the basics concepts of data engineering
 1. [Incremental Data Load](./incremental-data-load.md)
 1. [Scala Language](./scala.md)
 
-## References
+## More
 
 1. [Data Engineering Roadmap](https://knowledgetree.notion.site/Data-Engineering-Roadmap-6e543497f9074aba89520b45b678d32f)
 1. [Approaching the data pipeline architecture](https://knowledgetree.notion.site/Approaching-the-data-pipeline-architecture-214bdf596037454ca3f879894035c83f)
@@ -38,3 +38,9 @@ To learn the basics concepts of data engineering
 1.  [Five Steps to land a high paying data engineering job](https://www.startdataengineering.com/post/n-steps-high-pay-de-job/)
 1. [Functional Data Engineering - A Set of Best Practices](https://youtu.be/4Spo2QRTz1k)
 1. [4 Key Aspects for Designing Distributed Systems [`medium`]](https://betterprogramming.pub/4-key-aspects-for-designing-distributed-systems-dc8fec7b8c5b)
+1. [Big Data](https://www.alura.com.br/artigos/big-data)
+1. [Data Lake vs Data Warehouse](https://www.alura.com.br/artigos/data-lake-vs-data-warehouse)
+1. [Data Mesh: indo além do Data Lake e Data Warehouse](https://medium.com/data-hackers/data-mesh-indo-al%C3%A9m-do-data-lake-e-data-warehouse-465d57539d89)
+1. [Data as a product vs data products. What are the differences?](https://towardsdatascience.com/data-as-a-product-vs-data-products-what-are-the-differences-b43ddbb0f123)
+1. [Data Mesh Principles and Logical Architecture](https://martinfowler.com/articles/data-mesh-principles.html)
+1. [Data Mesh and Governance](https://www.thoughtworks.com/en-us/about-us/events/webinars/core-principles-of-data-mesh/data-mesh-and-governance)

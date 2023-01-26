@@ -11,3 +11,5 @@ The time taken to execute a transaction usually called latency needs to be very 
 ## OLTP database design
 
 The schema of an OLTP database is higly normalized so as to achieve a very low latency. To further improve the latency an OLTP database stores only the recent data like the last few week's data. They are usually run on storage that is very fast like SSD.
+
+- https://en.wikipedia.org/wiki/Online_transaction_processing

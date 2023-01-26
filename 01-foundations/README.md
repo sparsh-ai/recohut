@@ -7,7 +7,7 @@ Build the required foundational skills to become a data engineer
 ## Steps
 
 1. [Developer Foundations](./developer-foundations/)
-1. [Data Engineering Fundamentals](./data-engineering-fundamentals/)
+1. [Data Engineering Foundations](./data-engineering/)
 1. [Python](./python/)
 1. [SQL](./sql/)
 
