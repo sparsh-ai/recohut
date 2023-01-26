@@ -1,0 +1,13 @@
+default:
+  outputs:
+    dev:
+      account: 
+      database: snowflake
+      password: 
+      role: accountadmin
+      schema: POST_MODERN_DATA_STACK
+      threads: 1000
+      type: snowflake
+      user: 
+      warehouse: compute_wh
+  target: dev

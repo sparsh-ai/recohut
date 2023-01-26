@@ -1,0 +1,8 @@
+metaflow==2.7.6
+snowflake-connector-python==2.7.9
+python-dotenv==0.20.0
+comet-ml==3.31.7
+sagemaker==2.103.0
+reclist==0.2.3
+dbt-snowflake==1.2.0
+tensorflow>=2.8.0

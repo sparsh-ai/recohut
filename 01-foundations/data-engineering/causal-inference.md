@@ -1,0 +1,3 @@
+# Causal Inference
+
+Typical recommender systems frame the recommendation task as either a distance learning problem between pairs of products, or between pairs of users and products, or as a next item prediction problem. However, a recommender system should not only attempt to model organic user behavior but influence it. This is where causal techniques help, potentially via simple modifications of standard matrix factorization methods.

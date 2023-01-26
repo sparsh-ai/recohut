@@ -16,7 +16,8 @@
 1. [Data Transformation](./04-data-transformation/)
 1. [Data Pipelines](./05-data-pipelines/)
 1. [Streaming Data Processing](./06-stream-data-processing/)
-1. Additional Data Engineering
+1. [Data Extraction](./07-data-extraction/)
+1. [Modern Data Stack](./08-modern-data-stack/)
 1. DevOps for Data Engineers
 1. Visualization
 1. Interview Preparation

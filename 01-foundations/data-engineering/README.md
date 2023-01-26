@@ -21,6 +21,7 @@ To learn the basics concepts of data engineering
 1. [Partitioning](./partitioning.md)
 1. [System Design](./system-design.md)
 1. [Serialization and Compression](./serialization-and-compression.md)
+1. [Data Quality](./data-quality.md)
 
 ### Concepts Level 3
 
@@ -28,6 +29,8 @@ To learn the basics concepts of data engineering
 1. [Data Security](./data-security.md)
 1. [Incremental Data Load](./incremental-data-load.md)
 1. [Scala Language](./scala.md)
+1. [Bias and Fairness](./bias-%26-fairness.md)
+1. [Causal Inference](./causal-inference.md)
 
 ## More
 
