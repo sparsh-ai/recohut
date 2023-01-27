@@ -1,8 +1,23 @@
 # Intermediate Curriculum
 
+##### Table of Contents
+
+- [Foundations](#foundations)
+- [Data Modeling](#data-modeling)
+- [Data Lakes and Warehouses](#data-lakes-and-warehouses)
+- [Data Transformation](#data-transformation)
+- [Workflow Orchestration](#workflow-orchestration)
+- [Real-time Data Streaming](#real-time-data-streaming)
+- [DevOps](#devops)
+- [Interview Preparation](#interview-preparation)
+
+---
+
 Est. Time:
    - Monologue mode: 60 hrs
    - Interactive mode: 75 hours
+
+---
 
 ## Foundations
 

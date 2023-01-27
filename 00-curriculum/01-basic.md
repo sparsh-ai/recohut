@@ -1,8 +1,27 @@
-# Basic Curriculum
+## Basic Curriculum
+
+##### Table of Contents
+
+- [Development Foundations](#development-foundations)
+- [Data Engineering Foundations](#data-engineering-foundations)
+- [Cloud Computing and Data Engineering tools in AWS](#cloud-computing-and-data-engineering-tools-in-aws)
+- [Advanced Python Programming](#advanced-python-programming)
+- [Advanced PySpark Programming](#advanced-pyspark-programming)
+- [SQL Programming](#sql-programming)
+- [Scala Programming](#scala-programming)
+- [Data Modeling with RDBMS/NoSQL](#data-modeling-with-rdbms-nosql)
+- [Data Warehouse and Data Lakes](#data-warehouse-and-data-lakes)
+- [Big Data Processing](#big-data-processing)
+- [Building Data Pipelines](#building-data-pipelines)
+- [End-to-End Industry Grade Project](#end-to-end-industry-grade-project)
+
+---
 
 Est. Time:
    - Monologue mode: 30 hrs
    - Interactive mode: 45 hours
+
+---
 
 ## Development Foundations
 
