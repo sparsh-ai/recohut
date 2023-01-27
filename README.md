@@ -24,7 +24,7 @@
 1. Data Science & Machine Learning
 1. Data Engineering Projects
 1. Case Studies
-1. Resources
+1. [Resources](./15-resources/)
 1. Extras
 
 ## How to start
