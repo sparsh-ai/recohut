@@ -23,3 +23,17 @@
 - `unzip`: Unzip here zipped
 - `tar -cz`: Compact and zip the file in tar.gz format
 - `tar -xzf`: Decompresses a tar.gz file and redirects to the output of the file
+
+Common tasks you should be able to do:
+
+1. Create a folder/file
+2. Rename folder/file
+3. Update a file
+4. Update file/folder permissions
+5. Delete a folder/file
+6. List files in a folder
+7. Move a folder/file
+8. Copy a folder/file
+9. Print folder/file tree
+10. Print file content
+11. Print current path

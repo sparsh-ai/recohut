@@ -23,8 +23,9 @@
 1. Interview Preparation
 1. Data Science & Machine Learning
 1. Data Engineering Projects
-1. Case Studies
-1. [Resources](./15-resources/)
+1. [Case Studies](./14-cases/)
+1. [Code Snippets](./15-snippets/)
+1. [Resources](./16-resources/)
 1. Extras
 
 ## How to start

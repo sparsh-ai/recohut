@@ -28,6 +28,7 @@
 1. [Lab: Delta Live Tables vs dbt](./lab-dlt-dbt/)
 1. [Lab: NYC Taxi Data Analysis with PySpark](./lab-pyspark-nyctaxi/)
 1. [Lab: Getting Started with Scala](./lab-scala-getting-started/)
+1. [Additional: SQL to PySpark Code Conversion](./lab-sql-to-pyspark/)
 
 ## Databricks
 
