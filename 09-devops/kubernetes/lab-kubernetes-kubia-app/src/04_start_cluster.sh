@@ -1,0 +1,1 @@
+kubeadm init --apiserver-advertise-address $(hostname -i)

@@ -1,0 +1,19 @@
+version: 0.2
+env:
+    variables:
+      CONTAINER_REPO_URL: <account-id>.dkr.ecr.<region>.amazonaws.com
+      CONTAINER_REPO_NAME: <reco-name>
+      REGION: <region>
+      TAG_NAME: latest
+phases:
+  install:
+    commands:
+      - nohup /usr/local/bin/dockerd --host=unix:///var/run/docker.sock --host=tcp://127.0.0.1:2375 --storage-driver=overlay2 &
+      - timeout 15 sh -c "until docker info; do echo .; sleep 1; done"
+  pre_build:
+    commands:
+      - aws ecr get-login-password --region $REGION | docker login --username AWS --password-stdin $CONTAINER_REPO_URL
+  build:
+    commands:
+      - sam build --use-container
+      - sam deploy --no-confirm-changeset --no-fail-on-empty-changeset --stack-name sam-$CONTAINER_REPO_NAME --s3-bucket $CONTAINER_REPO_NAME --image-repository $CONTAINER_REPO_URL/$CONTAINER_REPO_NAME --capabilities CAPABILITY_IAM --region $REGION

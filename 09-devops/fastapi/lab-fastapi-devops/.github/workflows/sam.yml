@@ -1,0 +1,30 @@
+name: AWS Serverless Deploy
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: main
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+          architecture: x64
+      - uses: aws-actions/setup-sam@v1
+      - uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
+      # s3
+      - run: aws s3api create-bucket --bucket devopsclass-fastapi --region us-east-1 || true
+      # sam build 
+      - run: sam build --template template.yml --use-container
+      # sam deploy
+      - run: sam deploy --no-confirm-changeset --no-fail-on-empty-changeset --stack-name sam-devopsclass-fastapi-stack --s3-bucket devopsclass-fastapi --capabilities CAPABILITY_IAM --region us-east-1

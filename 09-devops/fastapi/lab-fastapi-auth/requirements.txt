@@ -1,0 +1,7 @@
+fastapi>=0.73
+uvicorn>=0.17.4
+requests
+python-multipart
+python-jose
+cryptography
+passlib[bcrypt]

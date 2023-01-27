@@ -1,0 +1,54 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: An AWS Serverless Specification template
+
+Globals:
+  Function:
+    Timeout: 10
+    MemorySize: 512
+
+Resources:
+  LambdaExecutionRole:
+    Type: 'AWS::IAM::Role'
+    Properties:
+      AssumeRolePolicyDocument:
+        Statement:
+          Effect: Allow
+          Principal:
+            Service: lambda.amazonaws.com
+          Action: 'sts:AssumeRole'
+      ManagedPolicyArns:
+        - 'arn:aws:iam::aws:policy/AdministratorAccess'
+  ApplicationLambda:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: app.handler
+      Runtime: python3.9
+      Architectures:
+        - x86_64
+      CodeUri: ./
+      Description: 'API Lambda Serverless'
+      Role: !GetAtt LambdaExecutionRole.Arn
+      Events:
+        Api1:
+          Type: Api
+          Properties:
+            Path: /{proxy+}
+            Method: ANY
+            RestApiId:
+              Ref: FastapiGateway
+        Api2:
+          Type: Api
+          Properties:
+            Path: /
+            Method: ANY
+            RestApiId:
+              Ref: FastapiGateway
+      Environment:
+        Variables:
+          STAGE: dev
+  FastapiGateway:
+      Type: AWS::Serverless::Api
+      Properties:
+          StageName: dev
+          OpenApiVersion: 3.0.0

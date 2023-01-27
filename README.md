@@ -18,7 +18,7 @@
 1. [Streaming Data Processing](./06-stream-data-processing/)
 1. [Data Extraction](./07-data-extraction/)
 1. [Modern Data Stack](./08-modern-data-stack/)
-1. DevOps for Data Engineers
+1. [DevOps for Data Engineers](./09-devops/)
 1. Visualization
 1. Interview Preparation
 1. Data Science & Machine Learning

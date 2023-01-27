@@ -1,5 +1,13 @@
 # Databricks and PySpark
 
+## Concepts
+
+1. [Hadoop](./hadoop.md)
+1. [The Genesis of Spark](./spark-origin.md)
+1. [Spark](./spark.md)
+1. [RDD](./rdd.md)
+1. [Spark Questions](./spark-questions.md)
+
 ## Steps
 
 1. [Setup Databricks Account](./setup.md)
@@ -21,7 +29,7 @@
 1. [Lab: NYC Taxi Data Analysis with PySpark](./lab-pyspark-nyctaxi/)
 1. [Lab: Getting Started with Scala](./lab-scala-getting-started/)
 
-## Note
+## Databricks
 
 > Databricks is a platform that enables enterprises to quickly build their Data Lakehouse infrastructure and enable all data personas – data engineers, data scientists, and business intelligence personnel – in their organization to extract and deliver insights from the data. The platform provides a curated experience for each data persona, enabling them to execute their daily workflows. The foundational technologies that enable these experiences are open source – Apache Spark, Delta lake, MLflow, and more.
 > 
@@ -35,6 +43,26 @@ The mission was to democratize AI. What started as a simple platform, leveraging
 Databricks was born out of the frustration of the Hadoop vendors and two Apache projects: Hadoop and Spark. Databricks is the commercial entity of Apache Spark. Apache Spark was born out of frustration with Apache Hadoop and the commercial vendors where only one is left: Cloudera. Hadoop does not do well with concurrency and it has huge latency issues. Apache MapReduce is dead and was replaced with Apache Spark to remedy these limitations. Apache Spark has problems of its own and thus Databricks was born to take Spark to Enterprise.
 
 ![](https://user-images.githubusercontent.com/62965911/214503488-88a696f6-8e78-495f-813f-4a95ef7cfe7e.png)
+
+## Apache Spark
+
+Apache Spark is a powerful open-source data processing engine that allows for large-scale data processing and analysis. It is built on top of the Hadoop ecosystem and is designed to be fast, flexible, and easy to use. In this lab, we will provide an introduction to Spark and its various components, functions, methods, and operations as well as a detailed explanation of the two primary data structures used in Spark: Resilient Distributed Datasets (RDDs) and Spark DataFrames.
+
+### Why Apache Spark?
+
+Spark is a distributed computing framework that is designed to work with large datasets. It is built on top of the Hadoop Distributed File System (HDFS) and allows for in-memory data processing, which can greatly speed up data processing tasks. Spark can be used to process data in a variety of formats, including structured data (such as CSV and Parquet) and unstructured data (such as JSON and XML).
+
+One of the key features of Spark is its ability to perform distributed data processing. This means that Spark can split up a large dataset and process it in parallel across multiple machines. This can greatly speed up data processing tasks and allows for the processing of much larger datasets than would be possible with a single machine.
+
+### Components of Apache Spark
+
+Spark consists of several components that work together to provide a comprehensive data processing ecosystem. The main components of Spark are:
+
+-   Spark Core: The foundation of Spark, provides the basic functionality for scheduling tasks and managing the execution of tasks in a cluster.
+-   Spark SQL: Allows for the processing of structured data using SQL-like commands.
+-   Spark Streaming: Allows for the processing of streaming data.
+-   Spark MLlib: A library for machine learning tasks.
+-   Spark GraphX: A library for graph processing.
 
 ## Resources
 

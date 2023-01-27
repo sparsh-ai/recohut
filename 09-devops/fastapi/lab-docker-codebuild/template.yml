@@ -1,0 +1,229 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: 'AWS::Serverless-2016-10-31'
+Description: An AWS Serverless Specification template for text classification model
+
+Globals:
+  Function:
+    Timeout: 30
+    MemorySize: 10000
+    Environment:
+      Variables:
+        MODEL_DIR: /mnt/ml/models/
+        NETWORK_DIR: /mnt/ml/network/ 
+
+Parameters:
+  SrcBucket:
+    Type: String
+    Description: Name of S3 bucket which will have the new ML models 
+    Default: text-classifier-api-dev-models
+
+Resources:
+
+  MyS3Bucket:
+    Type: 'AWS::S3::Bucket'
+    Properties:
+      BucketName: !Ref SrcBucket
+      
+  EfsLambdaVpc:
+    Type: AWS::EC2::VPC
+    Properties:
+      CidrBlock: "10.0.0.0/16"
+
+  InternetGateway:
+    Type: 'AWS::EC2::InternetGateway'
+    Properties:
+      Tags:
+      - Key: Name
+        Value: !Sub '10.0.0.0/16'
+
+  VPCGatewayAttachment:
+    Type: 'AWS::EC2::VPCGatewayAttachment'
+    Properties:
+      VpcId: !Ref EfsLambdaVpc
+      InternetGatewayId: !Ref InternetGateway
+      
+  SubnetAPublic:
+    Type: AWS::EC2::Subnet
+    Properties:
+      VpcId: !Ref EfsLambdaVpc
+      AvailabilityZone: !Select [ 0, !GetAZs '' ]
+      MapPublicIpOnLaunch: true
+      CidrBlock: "10.0.0.0/24"
+      
+  SubnetAPrivate:
+    Type: AWS::EC2::Subnet
+    Properties:
+      VpcId: !Ref EfsLambdaVpc
+      AvailabilityZone: !Select [ 1, !GetAZs '' ]
+      CidrBlock: "10.0.1.0/24"
+
+  RouteTableAPublic:
+    Type: 'AWS::EC2::RouteTable'
+    Properties:
+      VpcId: !Ref EfsLambdaVpc
+
+  RouteTableAPrivate:
+    Type: 'AWS::EC2::RouteTable'
+    Properties:
+      VpcId: !Ref EfsLambdaVpc
+
+  RouteTableAssociationAPublic:
+    Type: 'AWS::EC2::SubnetRouteTableAssociation'
+    Properties:
+      SubnetId: !Ref SubnetAPublic
+      RouteTableId: !Ref RouteTableAPublic
+      
+  RouteTableAssociationAPrivate:
+    Type: 'AWS::EC2::SubnetRouteTableAssociation'
+    Properties:
+      SubnetId: !Ref SubnetAPrivate
+      RouteTableId: !Ref RouteTableAPrivate
+      
+  RouteTablePublicAInternetRoute:
+    Type: 'AWS::EC2::Route'
+    DependsOn: VPCGatewayAttachment
+    Properties:
+      RouteTableId: !Ref RouteTableAPublic
+      DestinationCidrBlock: '0.0.0.0/0'
+      GatewayId: !Ref InternetGateway
+
+  EIPA:
+    Type: 'AWS::EC2::EIP'
+    Properties:
+      Domain: vpc
+      
+  NatGatewayA:
+    Type: 'AWS::EC2::NatGateway'
+    Properties:
+      AllocationId: !GetAtt 'EIPA.AllocationId'
+      SubnetId: !Ref SubnetAPublic
+
+  RouteA:
+    Type: 'AWS::EC2::Route'
+    Properties:
+      RouteTableId: !Ref RouteTableAPrivate
+      DestinationCidrBlock: '0.0.0.0/0'
+      NatGatewayId: !Ref NatGatewayA
+        
+  EfsLambdaSecurityGroup:
+    Type: 'AWS::EC2::SecurityGroup'
+    Properties:
+      GroupDescription: 'Security group for NAT Gateway Lambda'
+      VpcId: !Ref EfsLambdaVpc
+      SecurityGroupEgress:
+        - CidrIp: "0.0.0.0/0"
+          # FromPort: 0
+          # ToPort: 65535
+          IpProtocol: -1
+      SecurityGroupIngress:
+        - CidrIp: "0.0.0.0/0"
+          # FromPort: 0
+          # ToPort: 65535
+          IpProtocol: -1     
+  
+  EfsFileSystem:
+    Type: AWS::EFS::FileSystem
+    
+  MountTargetA:
+    Type: AWS::EFS::MountTarget
+    Properties:
+      FileSystemId: !Ref EfsFileSystem
+      SubnetId: !Ref SubnetAPrivate
+      SecurityGroups:
+        - !Ref EfsLambdaSecurityGroup
+
+  AccessPoint:
+    Type: AWS::EFS::AccessPoint
+    Properties:
+      FileSystemId: !Ref EfsFileSystem
+      PosixUser:
+        Gid: "1000"
+        Uid: "1000"
+      RootDirectory:
+        Path: "/ml"
+        CreationInfo:
+          OwnerGid: "1000"
+          OwnerUid: "1000"
+          Permissions: "755"
+          
+  MLModelUploadFunction:
+    Type: AWS::Serverless::Function
+    DependsOn:
+      - MountTargetA
+    Properties:
+      CodeUri: s3-efs/
+      Handler: app.lambda_handler
+      Runtime: python3.7  
+      FunctionName: lambda-model-s3-efs
+      VpcConfig:
+        SecurityGroupIds:
+          - !Ref EfsLambdaSecurityGroup
+        SubnetIds:
+          - !Ref SubnetAPrivate
+      FileSystemConfigs:
+        - Arn: !GetAtt AccessPoint.Arn
+          LocalMountPath: /mnt/ml
+      Policies:
+        - S3CrudPolicy: 
+            BucketName: !Ref SrcBucket
+        - EFSWriteAccessPolicy:
+            FileSystem: !Ref EfsFileSystem
+            AccessPoint: !Ref AccessPoint
+      Events:
+        UploadMLModelEvent:
+          Type: S3
+          Properties:
+            Bucket: !Ref MyS3Bucket
+            Events: s3:ObjectCreated:*
+
+  TextClassifierAPIFunction:
+    Type: 'AWS::Serverless::Function'
+    DependsOn: 
+      - MountTargetA
+    Properties:
+      PackageType: Image
+      Description: ''
+      FunctionName: lambda-model-api
+      VpcConfig:
+        SecurityGroupIds:
+          - !Ref EfsLambdaSecurityGroup
+        SubnetIds:
+          - !Ref SubnetAPrivate
+      FileSystemConfigs:
+        - Arn: !GetAtt AccessPoint.Arn
+          LocalMountPath: /mnt/ml
+      Policies:
+        - S3CrudPolicy: 
+            BucketName: !Ref SrcBucket
+        - EFSWriteAccessPolicy:
+            FileSystem: !Ref EfsFileSystem
+            AccessPoint: !Ref AccessPoint 
+      Events:
+        Api1:
+          Type: Api
+          Properties:
+            Path: '/{proxy+}'
+            Method: ANY
+            RestApiId:
+              Ref: FastapiGateway
+        Api2:
+          Type: Api
+          Properties:
+            Path: /
+            Method: ANY
+            RestApiId:
+              Ref: FastapiGateway
+      Environment:
+        Variables:
+          STAGE: dev
+
+    Metadata:
+      Dockerfile: Dockerfile
+      DockerContext: ./app
+      DockerTag: latest
+          
+  FastapiGateway:
+      Type: AWS::Serverless::Api
+      Properties:
+          StageName: dev
+          OpenApiVersion: '3.0.0'

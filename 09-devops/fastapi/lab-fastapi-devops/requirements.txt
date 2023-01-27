@@ -1,0 +1,10 @@
+async-timeout==4.0.2
+fastapi==0.70.0
+pydantic==1.9.1
+requests==2.28.1
+six==1.16.0
+sniffio==1.2.0
+typing-extensions
+urllib3==1.26.11
+uvicorn==0.15.0
+mangum==0.14.1

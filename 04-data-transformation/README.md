@@ -1,13 +1,5 @@
 # Data Transformation
 
-## Concepts
-
-1. [Hadoop](./concepts/hadoop.md)
-1. [The Genesis of Spark](./concepts/spark-origin.md)
-1. [Spark](./concepts/spark.md)
-1. [RDD](./concepts/rdd.md)
-1. [Spark Questions](./concepts/spark-questions.md)
-
 ## Steps
 
 ## Data Preparation
