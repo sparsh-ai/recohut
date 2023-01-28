@@ -1,6 +1,6 @@
 # Interview Preparation
 
-1. [Master Guide](./01-master-guide.mdx)
+1. [Master Guide](./master-guide.md)
 1. [Resume Buildup](./resume-buildup.md)
 1. [Expert Tips](./expert-tips.md)
 

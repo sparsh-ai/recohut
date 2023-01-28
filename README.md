@@ -36,4 +36,13 @@ You can follow this repo on your own. All the content listed is 100% free. Learn
 
 ### Option 2: Bootcamp
 
-There are multiple bootcamps running continuously throughout the year. Join the paid program to learn the concepts in a guided and interactive environment. Feel free to say `Hi, I am interested in the bootcamp` on `sprsag@gmail.com` and I will re-direct you to a suitable agency partner to register for the bootcamp. (Note: Currently, I am providing bootcamp trainings through agency partners only)
+Join the paid program to learn the concepts in a guided and interactive environment:
+
+| Slot               | Curriculum   | Status             | How to join                      |
+|--------------------|--------------|--------------------|----------------------------------|
+| 01:30-03:30 AM UTC | Intermediate | Active             | Call/Whatsapp on +91 84840 05449 |
+| 03:30-06:30 AM UTC | Basic        | Starting in 3 days | Call/Whatsapp on +91 95177 20888 |
+| 10:30-11:30 AM UTC | Basic        | Active             | Call/Whatsapp on +91 95177 20888 |
+| 11:30-01:30 PM UTC | Basic        | Active             | Call/Whatsapp on +91 95177 20888 |
+| 03:00-04:00 PM UTC | Basic        | Active             | Call/Whatsapp on +91 74706 13433 |
+| 06:00-08:00 PM UTC | Basic        | Active             | Call/Whatsapp on +91 95177 20888 |
