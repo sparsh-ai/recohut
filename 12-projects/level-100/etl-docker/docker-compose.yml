@@ -1,0 +1,4 @@
+services:
+  pythonapp:
+    build: ./
+    command: python3 ./address_challenge.py

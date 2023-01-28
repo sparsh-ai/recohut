@@ -1,0 +1,183 @@
+{
+  "assets": [{
+    "id": 74417323,
+    "num_sales": 1,
+    "background_color": null,
+    "image_url": "https://lh3.googleusercontent.com/CrSXeD3t60EdSZqBPSdzU82aA9zd5n5W5ap0Feg1efE7dB4NHjFU2sHTLAhem22Hezt9PSIPWFQUGoG_TJBzccwPGpzwyXoGbOHJtQ",
+    "image_preview_url": "https://lh3.googleusercontent.com/CrSXeD3t60EdSZqBPSdzU82aA9zd5n5W5ap0Feg1efE7dB4NHjFU2sHTLAhem22Hezt9PSIPWFQUGoG_TJBzccwPGpzwyXoGbOHJtQ=s250",
+    "image_thumbnail_url": "https://lh3.googleusercontent.com/CrSXeD3t60EdSZqBPSdzU82aA9zd5n5W5ap0Feg1efE7dB4NHjFU2sHTLAhem22Hezt9PSIPWFQUGoG_TJBzccwPGpzwyXoGbOHJtQ=s128",
+    "image_original_url": "ipfs://QmVdZcdjS5fAzqzH4nMeKrqEhZM6Kjf6EgRDhxZEemEjJM",
+    "animation_url": null,
+    "animation_original_url": null,
+    "name": "Doodle #9999",
+    "description": "A community-driven collectibles project featuring art by Burnt Toast. Doodles come in a joyful range of colors, traits and sizes with a collection size of 10,000. Each Doodle allows its owner to vote for experiences and activations paid for by the Doodles Community Treasury. Burnt Toast is the working alias for Scott Martin, a Canadian–based illustrator, designer, animator and muralist.",
+    "external_link": null,
+    "asset_contract": {
+      "address": "0x8a90cab2b38dba80c64b7734e58ee1db38b8992e",
+      "asset_contract_type": "non-fungible",
+      "created_date": "2021-10-16T16:25:03.736944",
+      "name": "Doodles",
+      "nft_version": "3.0",
+      "opensea_version": null,
+      "owner": 96236530,
+      "schema_name": "ERC721",
+      "symbol": "DOODLE",
+      "total_supply": "0",
+      "description": "A community-driven collectibles project featuring art by Burnt Toast. Doodles come in a joyful range of colors, traits and sizes with a collection size of 10,000. Each Doodle allows its owner to vote for experiences and activations paid for by the Doodles Community Treasury.",
+      "external_link": "https://doodles.app",
+      "image_url": "https://lh3.googleusercontent.com/7B0qai02OdHA8P_EOVK672qUliyjQdQDGNrACxs7WnTgZAkJa_wWURnIFKeOh5VTf8cfTqW3wQpozGedaC9mteKphEOtztls02RlWQ=s120",
+      "default_to_fiat": false,
+      "dev_buyer_fee_basis_points": 0,
+      "dev_seller_fee_basis_points": 500,
+      "only_proxied_transfers": false,
+      "opensea_buyer_fee_basis_points": 0,
+      "opensea_seller_fee_basis_points": 250,
+      "buyer_fee_basis_points": 0,
+      "seller_fee_basis_points": 750,
+      "payout_address": "0xdcd382be6cc4f1971c667ffda85c7a287605afe4"
+    },
+    "permalink": "https://opensea.io/assets/0x8a90cab2b38dba80c64b7734e58ee1db38b8992e/9999",
+    "collection": {
+      "banner_image_url": "https://lh3.googleusercontent.com/svc_rQkHVGf3aMI14v3pN-ZTI7uDRwN-QayvixX-nHSMZBgb1L1LReSg1-rXj4gNLJgAB0-yD8ERoT-Q2Gu4cy5AuSg-RdHF9bOxFDw=s2500",
+      "chat_url": null,
+      "created_date": "2021-10-17T13:00:47.419945",
+      "default_to_fiat": false,
+      "description": "A community-driven collectibles project featuring art by Burnt Toast. Doodles come in a joyful range of colors, traits and sizes with a collection size of 10,000. Each Doodle allows its owner to vote for experiences and activations paid for by the Doodles Community Treasury.",
+      "dev_buyer_fee_basis_points": "0",
+      "dev_seller_fee_basis_points": "500",
+      "discord_url": "https://discord.gg/doodles",
+      "display_data": {
+        "card_display_style": "contain"
+      },
+      "external_url": "https://doodles.app",
+      "featured": false,
+      "featured_image_url": "https://lh3.googleusercontent.com/svc_rQkHVGf3aMI14v3pN-ZTI7uDRwN-QayvixX-nHSMZBgb1L1LReSg1-rXj4gNLJgAB0-yD8ERoT-Q2Gu4cy5AuSg-RdHF9bOxFDw=s300",
+      "hidden": false,
+      "safelist_request_status": "verified",
+      "image_url": "https://lh3.googleusercontent.com/7B0qai02OdHA8P_EOVK672qUliyjQdQDGNrACxs7WnTgZAkJa_wWURnIFKeOh5VTf8cfTqW3wQpozGedaC9mteKphEOtztls02RlWQ=s120",
+      "is_subject_to_whitelist": false,
+      "large_image_url": "https://lh3.googleusercontent.com/svc_rQkHVGf3aMI14v3pN-ZTI7uDRwN-QayvixX-nHSMZBgb1L1LReSg1-rXj4gNLJgAB0-yD8ERoT-Q2Gu4cy5AuSg-RdHF9bOxFDw=s300",
+      "medium_username": null,
+      "name": "Doodles",
+      "only_proxied_transfers": false,
+      "opensea_buyer_fee_basis_points": "0",
+      "opensea_seller_fee_basis_points": "250",
+      "payout_address": "0xdcd382be6cc4f1971c667ffda85c7a287605afe4",
+      "require_email": false,
+      "short_description": null,
+      "slug": "doodles-official",
+      "telegram_url": null,
+      "twitter_username": "doodles",
+      "instagram_username": null,
+      "wiki_url": null
+    },
+    "decimals": 0,
+    "token_metadata": "https://opensea.mypinata.cloud/ipfs/QmPMc4tcBsMqLRuCQtPmPe84bpSjrC3Ky7t3JWuHXYB4aS/9999",
+    "owner": {
+      "user": {
+        "username": "AJAW"
+      },
+      "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/20.png",
+      "address": "0x4301b45f31bf7b511859c6be04bcef2c5100a112",
+      "config": ""
+    },
+    "sell_orders": null,
+    "creator": {
+      "user": {
+        "username": "Doodles_LLC"
+      },
+      "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/2.png",
+      "address": "0x2b3ab8e7bb14988616359b78709538b10900ab7d",
+      "config": "verified"
+    },
+    "traits": [{
+      "trait_type": "hair",
+      "value": "blue messy",
+      "display_type": null,
+      "max_value": null,
+      "trait_count": 250,
+      "order": null
+    }, {
+      "trait_type": "background",
+      "value": "blue",
+      "display_type": null,
+      "max_value": null,
+      "trait_count": 726,
+      "order": null
+    }, {
+      "trait_type": "head",
+      "value": "yellow",
+      "display_type": null,
+      "max_value": null,
+      "trait_count": 944,
+      "order": null
+    }, {
+      "trait_type": "face",
+      "value": "aviators with mustache",
+      "display_type": null,
+      "max_value": null,
+      "trait_count": 153,
+      "order": null
+    }, {
+      "trait_type": "body",
+      "value": "pink fleece",
+      "display_type": null,
+      "max_value": null,
+      "trait_count": 317,
+      "order": null
+    }],
+    "last_sale": {
+      "asset": {
+        "decimals": 0,
+        "token_id": "9999"
+      },
+      "asset_bundle": null,
+      "event_type": "successful",
+      "event_timestamp": "2021-10-20T00:00:00",
+      "auction_type": null,
+      "total_price": "979000000000000000",
+      "payment_token": {
+        "id": 1,
+        "symbol": "ETH",
+        "address": "0x0000000000000000000000000000000000000000",
+        "image_url": "https://storage.opensea.io/files/6f8e2979d428180222796ff4a33ab929.svg",
+        "name": "Ether",
+        "decimals": 18,
+        "eth_price": "1.000000000000000",
+        "usd_price": "3116.409999999999854000"
+      },
+      "transaction": {
+        "block_hash": "0xc33b6dabd0f5efe7f6d5abe2e0a2f6e500cce1b3ba0101c75f1377f5424bf852",
+        "block_number": "13451285",
+        "from_account": {
+          "user": {
+            "username": "AJAW"
+          },
+          "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/20.png",
+          "address": "0x4301b45f31bf7b511859c6be04bcef2c5100a112",
+          "config": ""
+        },
+        "id": 184506019,
+        "timestamp": "2021-10-20T00:00:00",
+        "to_account": {
+          "user": {
+            "username": "OpenSea-Orders"
+          },
+          "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/22.png",
+          "address": "0x7be8076f4ea4a4ad08075c2508e481d6c946d12b",
+          "config": "verified"
+        },
+        "transaction_hash": "0x8730bed59d2310b4aef2587000e804cecb6aaa4e8c8ad3d139fe815352c89f7e",
+        "transaction_index": "303"
+      },
+      "created_date": "2021-10-20T00:00:45.597187",
+      "quantity": "1"
+    },
+    "top_bid": null,
+    "listing_date": null,
+    "is_presale": false,
+    "transfer_fee_payment_token": null,
+    "transfer_fee": null,
+    "token_id": "9999"
+  }]
+}

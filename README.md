@@ -19,14 +19,13 @@
 1. [Data Extraction](./07-data-extraction/)
 1. [Modern Data Stack](./08-modern-data-stack/)
 1. [DevOps for Data Engineers](./09-devops/)
-1. Visualization
+1. [Visualization](./10-visualization/)
 1. [Interview Preparation](./11-interview-preparation/)
-1. Data Science & Machine Learning
-1. Data Engineering Projects
-1. [Case Studies](./14-cases/)
-1. [Code Snippets](./15-snippets/)
-1. [Resources](./16-resources/)
-1. Extras
+1. [Data Engineering Projects](./12-projects/)
+1. [Case Studies](./13-cases/)
+1. [Code Snippets](./14-snippets/)
+1. [Resources](./15-resources/)
+1. Essential AI/ML for Data Engineers
 
 ## How to start
 
