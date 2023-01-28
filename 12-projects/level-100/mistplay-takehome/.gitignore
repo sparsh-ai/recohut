@@ -1,0 +1,14 @@
+*.class
+*.log
+*.iml
+*.swp
+.idea/
+.terraform
+terraform.tfstate
+*.tfstate*
+.DS_Store
+.vscode/*
+*.mmdb
+target/*
+__pycache__
+/venv/

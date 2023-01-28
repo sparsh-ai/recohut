@@ -39,3 +39,20 @@ Your goal is to design and develop a data pipeline for it.
 :::note
 We first tried pipeline 1 but due to limitation in API requests, we decided to go with pipeline 2.
 :::
+
+## Project Structure
+
+```
+├── [ 84K]  01-sa-data-ingestion.ipynb
+├── [1.7K]  README.md
+├── [ 64K]  airflow
+│   ├── [ 49K]  airflow.cfg
+│   ├── [ 14K]  dags
+│   │   ├── [5.4K]  acled_v1.py
+│   │   ├── [4.7K]  acled_v2.py
+│   │   └── [4.2K]  acled_v3.py
+│   └── [ 403]  run.sh
+└── [  93]  download.sh
+
+ 150K used in 2 directories, 8 files
+```

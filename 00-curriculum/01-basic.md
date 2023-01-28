@@ -51,14 +51,14 @@ Est. Time:
 
 ### Tools and Concepts
 
-7. Benefits of cloud computing
-3. Types of cloud computing
-1. AWS S3
-2. RDS
-3. Redshift
-4. AWS Glue
-5. Athena
-6. DBeaver
+1. Benefits of cloud computing
+2. Types of cloud computing
+3. AWS S3
+4. RDS
+5. Redshift
+6. AWS Glue
+7. Athena
+8. DBeaver
 
 ### Labs
 

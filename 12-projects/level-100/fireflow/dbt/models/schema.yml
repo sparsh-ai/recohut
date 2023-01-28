@@ -1,0 +1,42 @@
+version: 2
+
+sources:
+  - name: staging
+    database: iykra-df8
+    schema: fireflow_dataset
+
+    tables: 
+      - name: Fact_Table
+      - name: customer
+      - name: education
+      - name: job
+      - name: sales_training
+      - name: salesperson
+      - name: training_course
+
+models:
+  - name: training_avg
+    columns:
+    - name: id
+      tests:
+        - unique
+        - not_null
+    - name: training_course
+    - name: avg_course_spend_days
+
+  - name: city_conversion
+    columns:
+    - name: city
+      tests:
+      - unique
+    - name: total_sales_city
+    - name: sales_conversion
+
+  - name: fact_table_final
+    columns:
+    - name: date
+      tests:
+        - not_null
+    - name: customer_id
+      tests:
+        - not_null

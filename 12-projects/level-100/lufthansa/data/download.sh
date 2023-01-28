@@ -1,0 +1,1 @@
+aws s3 sync s3://wysde-datasets/airlines/lab1 .

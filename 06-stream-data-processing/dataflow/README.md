@@ -7,3 +7,4 @@
 1. [Lab: Providing Side Inputs in Dataflow (Python)](./lab-gcp-dataflow-side-inputs.md)
 1. [Lab: Using Dataflow for Streaming Analytics (Python)](./lab-gcp-dataflow-stream-pipeline.md)
 1. [Lab: Writing an ETL Pipeline using Apache Beam and Cloud Dataflow (Python)](./lab-gcp-serverless-dataflow.md)
+1. [Lab: ETL Processing on Google Cloud Using Dataflow and BigQuery](./lab-dataflow-bigquery-etl.md)
