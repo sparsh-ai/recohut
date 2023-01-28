@@ -14,8 +14,8 @@
 ---
 
 Est. Time:
-   - Monologue mode: 60 hrs
-   - Interactive mode: 75 hours
+   - Monologue mode: 35 hrs
+   - Interactive mode: 80 hours
 
 ---
 

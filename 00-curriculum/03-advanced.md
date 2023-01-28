@@ -1,8 +1,30 @@
 # Advanced Curriculum
 
+##### Table of Contents
+
+- [Foundations](#foundations)
+- [Data Storages](#data-storages)
+- [Data Modeling](#data-modeling)
+- [Data Transformation](#data-transformation)
+- [Workflow Orchestration](#workflow-orchestration)
+- [Real-time and Unified Data Processing](#real-time-and-unified-data-processing)
+- [Miscellaneous](#miscellaneous)
+- [Visualization](#visualization)
+- [DevOps](#devops)
+- [Interview Preparation](#interview-preparation)
+- [Data Science & Machine Learning](#data-science---machine-learning)
+- [Projects](#projects)
+  * [Basic](#basic)
+  * [Intermediate](#intermediate)
+  * [Advanced](#advanced)
+
+---
+
 Est. Time:
-   - Monologue mode: 90 hrs
+   - Monologue mode: 55 hrs
    - Interactive mode: 120 hours
+
+---
 
 ## Foundations
 

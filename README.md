@@ -20,7 +20,7 @@
 1. [Modern Data Stack](./08-modern-data-stack/)
 1. [DevOps for Data Engineers](./09-devops/)
 1. Visualization
-1. Interview Preparation
+1. [Interview Preparation](./11-interview-preparation/)
 1. Data Science & Machine Learning
 1. Data Engineering Projects
 1. [Case Studies](./14-cases/)
