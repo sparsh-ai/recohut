@@ -1,0 +1,67 @@
+version: 2
+
+sources:
+    - name: staging
+      database: dtc-de-339112
+      schema: trips_data
+
+      tables:
+        - name: citibike_tripdata
+
+models:
+    - name: stg_citibike_tripdata
+      description: >
+        Trips made by bike share program, with 20,000 bikes and over 1,300 stations across Manhattan, 
+        Brooklyn, Queens, the Bronx and Jersey City.
+        This data is provided according to the Citi Bike Data Use Policy.
+      columns:
+          - name: trip_id
+            description: Primary key for this table, generated with a concatenation of bikeid+starttime.
+            tests:
+                - unique:
+                    severity: warn
+                - not_null:
+                    severity: warn
+          - name: bike_id 
+            description: Bike identifier.
+          - name: start_time
+            description: The date and time when the ride was started.
+          - name: stop_time 
+            description: The date and time when the ride was finished.
+          - name: trip_duration 
+            description: The time elapsed on the ride in seconds.
+          - name: start_station_id
+            description: Station number where the ride was started.
+          - name: start_station_name
+            description: Station name where the ride was started.
+          - name: start_station_latitude
+            description: Latitude where the ride was started.
+          - name: start_station_longitude
+            description: Longitude where the ride was started.
+          - name: end_station_id
+            description: Station number where the ride was finished.
+          - name: end_station_name
+            description: Station name where the ride was finished.
+          - name: end_station_latitude
+            description: Latitude where the ride was finished.
+          - name: end_station_longitude
+            description: Longitude where the ride was finished.
+          - name: user_type 
+            description: >
+              A field describing the type of the service user.
+              Customer = 24-hour pass or 3-day pass user;
+              Subscriber = Annual Member.
+          - name: birth_year 
+            description: >
+              A field describing the year when the user was born.
+          - name: gender_code 
+            description: >
+              A numeric code signifying the user gender.
+            tests: 
+              - accepted_values:
+                  values: "{{ var('gender_code_values') }}"
+                  severity: warn
+                  quote: false
+          - name: gender
+            description: Description of the gender_code
+   

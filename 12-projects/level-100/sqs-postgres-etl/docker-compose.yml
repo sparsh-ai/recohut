@@ -1,0 +1,34 @@
+version: "3.9"
+services:
+  localstack:
+    image: localstack/localstack:0.14.3
+    network_mode: bridge
+    ports:
+      - "127.0.0.1:443:443"              # only required for Pro (LocalStack HTTPS Edge Proxy)
+      - "127.0.0.1:4510-4559:4510-4559"  # external service port range
+      - "127.0.0.1:4566:4566"            # LocalStack Edge Proxy
+    environment:
+      - DEBUG=${DEBUG-}
+      - LAMBDA_EXECUTOR=${LAMBDA_EXECUTOR-}
+      - HOST_TMP_FOLDER=${TMPDIR:-/tmp/}localstack
+      - DOCKER_HOST=unix:///var/run/docker.sock
+      - HOSTNAME_EXTERNAL=localstack
+    volumes:
+      - "${TMPDIR:-/tmp}/localstack:/tmp/localstack"
+      - "/var/run/docker.sock:/var/run/docker.sock"
+      - ${PWD}/data/sample_data.json.gz:/tmp/data/sample_data.json.gz
+      - ${PWD}/scripts/create_and_write_to_queue.py:/tmp/scripts/create_and_write_to_queue.py
+      - ${PWD}/scripts/transformation.py:/tmp/scripts/transformation.py
+      - ${PWD}/scripts/01_call_python_scripts.sh:/docker-entrypoint-initaws.d/01_call_python_scripts.sh
+  postgres:
+    image: postgres:10
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    ports:
+      - 5432:5432
+    expose:
+      - 5432
+    volumes:
+      - ${PWD}/scripts/create_table.sql:/docker-entrypoint-initdb.d/create_table.sql

@@ -1,0 +1,5 @@
+apache-airflow-providers-google
+apache-airflow-providers-postgres
+pyarrow
+pyspark==3.2.0
+pandas

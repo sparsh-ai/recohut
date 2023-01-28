@@ -1,0 +1,10 @@
+Enable dataproc api
+In GCP, grant Dataproc Admin role to the service account
+Create a Dataproc cluster in default configuration 
+Submit job to Dataproc
+gcloud dataproc jobs submit pyspark dataproc.py --cluster=ghcnd --region=europe-west6 --jars=gs://spark-lib/bigquery/spark-bigquery-latest_2.12.jar
+
+
+Dockerfile
+RUN curl -fL "https://storage.googleapis.com/spark-lib/bigquery/spark-bigquery-with-dependencies_2.12-0.24.0.jar" \ 
+--output "${SPARK_HOME}/jars/spark-bigquery-with-dependencies_2.12-0.24.0.jar"

@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+    - name: staging_other
+      database: ghcn-d
+      schema: ghcnd
+      tables:
+        - name: stations
+        - name: countries
+    - name: staging_years
+      database: ghcn-d
+      schema: ghcnd
+      tables: "{{ var('specific_years_tables') }}"
+

@@ -1,0 +1,1 @@
+wscli-local==0.20

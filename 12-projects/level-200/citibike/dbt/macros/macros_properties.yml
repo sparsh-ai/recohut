@@ -1,0 +1,12 @@
+version: 2
+
+macros:
+  - name: get_gender_description
+    description: >
+      This macro receives a gender_code and returns the gender description.
+    arguments:
+      - name: gender_code
+        type: int
+        description: > 
+          gender_code value.
+          Must be one of the accepted values, otherwise the macro will return null

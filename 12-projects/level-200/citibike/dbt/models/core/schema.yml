@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: fact_citibike_trips
+    description: >
+      Citi Bike trips data. 
+      Each record corresponds to a trip uniquely identified by trip_id.
+
+  - name: dm_monthly_zone_trip_stats
+    description: >
+      Aggregated table of all Citi Bike trips corresponding to the start zone and month.
+      The table contains monthly indicators like number of trips and average trip duration.

@@ -1,0 +1,1 @@
+gcloud dataproc jobs submit pyspark process_year_tables.py --cluster=ghcnd --region="europe-west6" --jars ./spark-bigquery-with-dependencies_2.12-0.24.0.jar -- 2020 2021

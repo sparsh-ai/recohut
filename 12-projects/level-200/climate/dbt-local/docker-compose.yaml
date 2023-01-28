@@ -1,0 +1,25 @@
+version: '3'
+
+x-dbt-ghcnd-common:
+  &dbt-ghcnd-common
+  build:
+    context: .
+    target: dbt-postgres
+  volumes:
+    - .:/usr/app
+    - ./.dbt/:/root/.dbt/
+  network_mode: host
+
+services:
+  dbt-pg-ghcnd:
+    <<: *dbt-ghcnd-common
+    working_dir: /usr/app/ghcnd
+    command: debug
+  
+  dbt-pg-ghcnd-init:
+    <<: *dbt-ghcnd-common
+    working_dir: /usr/app
+    command: init
+
+
+
