@@ -29,19 +29,14 @@
 
 ## How to start
 
-### Option 1: Self-paced
+There are 3 ways to start your data engineering journey: 
 
-You can follow this repo on your own. All the content listed is 100% free. Learn and follow as per your convenience.
+1. Agile mode: You will design your own learning modules and I will be your scrum master, guiding you in your learning path.
+1. Monologue mode: I will be showing you the process on my screen and you will be asking questions/doubts.
+1. Interactive mode: You will be doing the hands-on on your system and I will be guiding you step by step.
 
-### Option 2: Bootcamp
+To join, Call/Whatsapp on the following numbers:
 
-Join the paid program to learn the concepts in a guided and interactive environment:
-
-| Slot               | Curriculum   | Status             | How to join                      |
-|--------------------|--------------|--------------------|----------------------------------|
-| 01:30-03:30 AM UTC | Intermediate | Active             | Call/Whatsapp on +91 84840 05449 |
-| 03:30-06:30 AM UTC | Basic        | Starting in 3 days | Call/Whatsapp on +91 95177 20888 |
-| 10:30-11:30 AM UTC | Basic        | Active             | Call/Whatsapp on +91 95177 20888 |
-| 11:30-01:30 PM UTC | Basic        | Active             | Call/Whatsapp on +91 95177 20888 |
-| 03:00-04:00 PM UTC | Basic        | Active             | Call/Whatsapp on +91 74706 13433 |
-| 06:00-08:00 PM UTC | Basic        | Active             | Call/Whatsapp on +91 95177 20888 |
+- +91 84840 05449
+- +91 95177 20888
+- +91 74706 13433
