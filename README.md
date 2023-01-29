@@ -16,7 +16,11 @@
 
 *(Click on the image for more details)*
 
-- [Advanced](./00-curriculum/03-advanced.md)
+### Advanced
+
+[![](https://user-images.githubusercontent.com/62965911/215348161-ad995de9-4221-4479-a74e-de07886d6e22.svg)](./00-curriculum/03-advanced.md)
+
+*(Click on the image for more details)*
 
 ## Content
 
@@ -39,14 +43,10 @@
 
 ## How to start
 
-There are 3 ways to start your data engineering journey: 
+3 modes to start your journey: 
 
-1. Agile mode: You will design your own learning modules and I will be your scrum master, guiding you in your learning path.
-1. Monologue mode: I will be showing you the process on my screen and you will be asking questions/doubts.
-1. Interactive mode: You will be doing the hands-on on your system and I will be guiding you step by step.
+1. Agile: You will design your own learning modules and I will be your scrum master, guiding you in your learning path.
+1. Monologue: I will be showing you the process on my screen and you will be asking questions/doubts.
+1. Interactive: You will be doing the hands-on on your system and I will be guiding you step by step.
 
-To join, Call/Whatsapp on the following numbers:
-
-- +91 84840 05449
-- +91 95177 20888
-- +91 74706 13433
+To join: `+91 84840 05449` (agency partner 1), `+91 95177 20888` (agency partner 2), `+91 74706 13433` (agency partner 3)

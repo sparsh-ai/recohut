@@ -1,5 +1,7 @@
 # Advanced Curriculum
 
+![](https://user-images.githubusercontent.com/62965911/215348161-ad995de9-4221-4479-a74e-de07886d6e22.svg)
+
 ##### Table of Contents
 
 - [Foundations](#foundations)
