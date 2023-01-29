@@ -6,6 +6,10 @@ The Data Engineering Ecosystem includes several different components. It include
 
 The goal of data engineering is to make large and complex data accessible for others to interpret. When data — both structured and unstructured — enters a company’s systems, data engineers are the first people to get their hands on it.
 
+Data engineering is the art of designing, building, and maintaining the systems and infrastructure used to collect, store, process, and analyze data.
+
+Data engineering also sees to the creation of data management systems and infrastructure that allows data scientists and analysts to access, process and analyze data with ease. This includes building data lakes, warehouses, and marts and creating data access and retrieval systems. It is a very important component of the data life cycle which enables organizations to effectively collect, manage and use large volumes of data. Data engineering is where software engineering, cloud and DevOps meet.
+
 ## How it works?
 
 ![](https://user-images.githubusercontent.com/62965911/213917819-7afbfc9c-b35b-4459-a86c-c28c09f4a429.svg)
@@ -42,9 +46,17 @@ There are some really interesting trade-offs to make when you do this. And knowi
 
 ## Role of a Data Engineer
 
+**Who is a data engineer?**
+
+A data engineer is a person who is responsible for designing and maintaining data pipelines, data storage systems, and data processing systems. These tasks include data modelling, warehousing, integration, quality management, and security. They also ensure that the data pipelines are efficient and scalable and can handle the volume, velocity and variety of data that the organization is dealing with to ensure that the data is accessible, accurate, and useful for analysis.
+
 Watch this video: https://www.youtube.com/watch?v=m5hLUknIi5c
 
 Watch this video: https://www.youtube.com/watch?v=h0GhXADnFGI
+
+**Partner effectively with other data teams**
+
+Watch this video: https://www.youtube.com/watch?v=rULI2LOuhw4
 
 ## Data Engineering Challenges
 
@@ -74,75 +86,64 @@ Data engineers need to meet various requirements to build data pipelines. This i
 
 Unix machines are used everywhere these days and as a data engineer, they are something we interact with every single day. Understanding common shell tools and how to use them to manipulate data will increase your flexibility and speed when dealing with day to day data activities.
 
-### Git
+### Developer tools - Git, VSCode and Jupyter Notebook
 
 Git is one of the skills that every software engineer needs to manage the code base efficiently. GitHub or any version control software is important for any software development projects, including those which are data driven. GitHub allows version control of your projects through Git.
 
-### VSCode
-
 The VSCode provides rich functionalities, extensions (plugins), built-in Git, ability to run and debug code, and complete customization for the workspace. You can build, test, deploy, and monitor your data engineering applications and pipelines without leaving the application.
-
-### Jupyter Notebook
 
 Jupyter Notebook is one of the most widely used tool in data engineering that use Python. This is due to the fact, that it is an ideal environment for developing reproducible data pipelines with Python. Colaboratory, or “Colab” for short, is a provide Jupyter-like environment on the cloud.
 
-### Relational Databases
+### Relational and NoSQL Databases
 
 RDBMS are the basic building blocks for any application data. A data engineer should know how to design and architect their structures, and learn about concepts that are related to them.
 
-### NoSQL Databases
+NoSQL is a term for any non-relational database model: key-value, document, column, graph, and more. A basic acquaintance is required, but going deeper into any model depends on the job. Column databases are a kind of nosql databases. They deserve their own section as they are essential for the data engineer as working with Big Data online (as opposed to offline batching) usually requires a columnar back-end.
 
-NoSQL is a term for any non-relational database model: key-value, document, column, graph, and more. A basic acquaintance is required, but going deeper into any model depends on the job.
+### Data Lakes and Warehouses
 
-### Columnar Databases
-
-Column databases are a kind of nosql databases. They deserve their own section as they are essential for the data engineer as working with Big Data online (as opposed to offline batching) usually requires a columnar back-end.
-
-### Data Warehouses
-
-Understand the concepts behind data warehouses and familiarize youself with common data warehouse solutions.
+Understand the concepts behind data warehouses and familiarize youself with common data warehouse solutions. Also make yourself famliar with data lakes and lakehouse concepts like medallion architecture and delta format.
 
 ### OLAP Data Modeling
 
 OLAP (analytical) databases (used in data warehouses) data modeling concepts, modeling the data correctly is essential for a functioning data warehouse.
 
-### Batch Data Processing
+### Batch and Stream Data Processing
 
-Data processing using Python, SQL and Spark. Everyone should know how it works, but going deep into the details and operations are recommended only if necessary.
+Batch Data processing using Python, SQL and Spark. Everyone should know how it works, but going deep into the details and operations are recommended only if necessary.
 
-### Stream Data Processing
-
-Data processing on the fly. Suggested to get a good grasp of the subject and then dive deep into a specific tool like Kafka, Spark, Flink, etc.
+Stream Data Processing is the data processing on the fly. Suggested to get a good grasp of the subject and then dive deep into a specific tool like Kafka, Spark, Flink, etc.
 
 ### Pipeline / Workflow Management
 
-Scheduling tools for data processing. Airflow is considered to be the defacto standard, but any understanding of DAGs - directed acyclical graphs for tasks will be good.
+Data engineers should have experience with data pipeline and ETL (extract, transform, load) tools, such as Apache NiFi, Apache Kafka, Apache Airflow, Talend etc. These tools are used to build data pipelines that collect, store, and process data. Airflow is considered to be the defacto standard, but any understanding of DAGs - directed acyclical graphs for tasks will be good.
 
-### Other Skills
+### Distributed Systems
 
-- Data Lakes and Lakehouses
+Data engineers should understand distributed systems, such as how data is stored and processed across multiple machines. This knowledge is essential for designing and implementing big data systems that can handle large amounts of data.
+
+### Soft skills
+
+1. Strong analytical and problem-solving skills: Data engineers should have strong analytical and problem-solving skills, as they are responsible for designing and implementing data pipelines, troubleshooting issues, and ensuring data quality.
+1. Understanding of data governance and security: Data engineers should be familiar with the best practices and how to implement them in the data pipeline, such as data encryption, access control, and data masking.
+1. Strong communication and collaboration skills: Data engineers often work with cross-functional teams and must be able to communicate effectively with data scientists, analysts, internal and external customers and other stakeholders.
+
+### DevOps Skills
+
 - Infra as Code
 - Container Orchestration
 - API Management
 - CICD Pipelines
-- MLOps Pipelines
+
+### Basic ML/AI Skills
+
 - Machine Learning Basics
-- Deep Learning Basics - NLP and Computer Vision
+- NLP & Computer Vision
+- Recommender Systems
+- MLOps Pipelines
 
 ## Data Flow
 
 ![](https://user-images.githubusercontent.com/62965911/213917834-967b67bb-89e6-483a-bbbe-db8cf5ddf36c.svg)
 
 Watch this video: https://www.youtube.com/watch?v=bFC1MBijB-c
-
-## Unified Approach
-
-![](https://user-images.githubusercontent.com/62965911/213917837-6862fe02-3b73-445b-b3cc-a68de77e912f.png)
-
-## Data Science vs Engineering
-
-![](https://user-images.githubusercontent.com/62965911/213917817-5ef64ab6-9bce-4ba8-ba98-e5239acdd7ce.png)
-
-### Partner effectively with other data teams
-
-Watch this video: https://www.youtube.com/watch?v=rULI2LOuhw4

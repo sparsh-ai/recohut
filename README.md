@@ -8,9 +8,14 @@
 
 [![](https://user-images.githubusercontent.com/62965911/215325722-1f79be37-9ec0-4fd1-ab0f-b424b0365853.svg)](./00-curriculum/01-basic.md)
 
-##### (Click on the image for more details)
+*(Click on the image for more details)*
 
-- [Intermediate](./00-curriculum/02-intermediate.md)
+### Intermediate
+
+[![](https://user-images.githubusercontent.com/62965911/215347510-eb9f024f-d680-40f4-b4b3-d5b43ee15f6b.svg)](./00-curriculum/02-intermediate.md)
+
+*(Click on the image for more details)*
+
 - [Advanced](./00-curriculum/03-advanced.md)
 
 ## Content

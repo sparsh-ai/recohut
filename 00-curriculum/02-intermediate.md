@@ -1,5 +1,7 @@
 # Intermediate Curriculum
 
+![](https://user-images.githubusercontent.com/62965911/215347510-eb9f024f-d680-40f4-b4b3-d5b43ee15f6b.svg)
+
 ##### Table of Contents
 
 - [Foundations](#foundations)
