@@ -1,0 +1,1 @@
+aws s3 cp s3://wysde-assets/projects/patent-analytics/packages.zip ./

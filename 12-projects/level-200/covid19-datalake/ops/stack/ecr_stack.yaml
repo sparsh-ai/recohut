@@ -1,0 +1,34 @@
+---
+AWSTemplateFormatVersion: '2010-09-09'
+Description: ECR Repositories Stack
+
+Parameters:
+  Environment:
+    Type: String
+    AllowedValues:
+      - staging
+      - production
+    Default: staging
+
+Resources:
+  APILambdaRepository:
+    Type: AWS::ECR::Repository
+    DeletionPolicy: Delete
+    Properties:
+      EncryptionConfiguration:
+        EncryptionType: AES256
+      ImageTagMutability: MUTABLE
+      ImageScanningConfiguration:
+        ScanOnPush: true
+      RepositoryName: !Sub 'api_lambda-${Environment}'
+
+  GELambdaRepository:
+    Type: AWS::ECR::Repository
+    DeletionPolicy: Delete
+    Properties:
+      EncryptionConfiguration:
+        EncryptionType: AES256
+      ImageTagMutability: MUTABLE
+      ImageScanningConfiguration:
+        ScanOnPush: true
+      RepositoryName: !Sub 'ge_lambda-${Environment}'

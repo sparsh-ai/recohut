@@ -1,0 +1,64 @@
+---
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Deploy Role for Github OIDC provider
+
+Resources:
+  GithubOIDCRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: GithubOIDCRole
+      AssumeRolePolicyDocument:
+        Statement:
+          - Effect: Allow
+            Action: sts:AssumeRoleWithWebIdentity
+            Principal:
+              Federated: !Sub 'arn:aws:iam::${AWS::AccountId}:oidc-provider/token.actions.githubusercontent.com'
+            Condition:
+              StringLike:
+                token.actions.githubusercontent.com:sub: repo:moritzkoerber/covid-19-data-engineering-pipeline:*
+      Path: /
+      Policies:
+        - PolicyName: Access
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action:
+                  - ecr:GetAuthorizationToken
+                Resource: '*'
+              - Effect: Allow
+                Action:
+                  - ecr:*
+                Resource:
+                  - !Sub 'arn:aws:ecr:${AWS::Region}:${AWS::AccountId}:repository/*'
+              - Effect: Allow
+                Action:
+                  - s3:*
+                Resource:
+                  - 'arn:aws:s3:::data-pipeline-lambda-layers'
+                  - 'arn:aws:s3:::data-pipeline-lambda-layers/*'
+                  - 'arn:aws:s3:::data-pipeline-s3-bucket-staging'
+                  - 'arn:aws:s3:::data-pipeline-s3-bucket-staging/*'
+                  - 'arn:aws:s3:::data-pipeline-s3-bucket-production'
+                  - 'arn:aws:s3:::data-pipeline-s3-bucket-production/*'
+              - Effect: Allow
+                Action:
+                  - cloudformation:*
+                Resource:
+                  - !Sub 'arn:aws:cloudformation:${AWS::Region}:${AWS::AccountId}:stack/*'
+                  - !Sub 'arn:aws:cloudformation:${AWS::Region}:aws:transform/Serverless-2016-10-31'
+              - Effect: Allow
+                Action:
+                  - s3:*
+                  - iam:*
+                  - glue:*
+                  - lambda:*
+                  - events:*
+                  - cloudwatch:*
+                  - logs:*
+                  - states:*
+                  - cloudtrail:*
+                Resource: '*'
+                Condition:
+                  StringEquals:
+                    aws:CalledViaFirst: cloudformation.amazonaws.com

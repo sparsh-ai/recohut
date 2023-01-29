@@ -1,0 +1,24 @@
+{
+    "jsonpaths": [
+        "$['ADRESSLAND']",
+        "$['AG_NAMN']",
+        "$['ANTAL_AKT_PLATSER']",
+        "$['ARBETSDRIFT']",
+        "$['ARBETSTID']",
+        "$['BESKR_ARBETSDRIFT']",
+        "$['FORSTA_PUBLICERINGSDATUM']",
+        "$['HEMSIDA']",
+        "$['KOMMUN_KOD']",
+        "$['ORGNR']",
+        "$['PLATSBESKRIVNING']",
+        "$['PLATSNUMMER']",
+        "$['PLATSRUBRIK']",
+        "$['POSTNR']",
+        "$['POSTORT']",
+        "$['SISTA_ANSOK_PUBLDATUM']",
+        "$['TILLTRADE']",
+        "$['VARAKTIGHET']",
+        "$['YRKE_ID']"
+    ]
+}
+

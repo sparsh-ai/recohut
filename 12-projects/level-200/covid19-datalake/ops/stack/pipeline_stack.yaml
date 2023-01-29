@@ -1,0 +1,666 @@
+---
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: Data Engineering Pipeline Stack
+
+Parameters:
+  Environment:
+    Type: String
+    AllowedValues:
+      - staging
+      - production
+    Default: staging
+  Version:
+    Type: String
+
+Mappings:
+  Environments:
+    staging:
+      DailyAPILambdaSchedule: cron(0 7 ? * * *)
+      DailyCSSELambdaSchedule: cron(15 7 ? * * *)
+    production:
+      DailyAPILambdaSchedule: cron(0 8 ? * * *)
+      DailyCSSELambdaSchedule: cron(15 8 ? * * *)
+
+
+Resources:
+  APIS3Bucket:
+    Type: AWS::S3::Bucket
+    DeletionPolicy: Retain
+    UpdateReplacePolicy: Retain
+    DependsOn: GELambdaInvokePermission
+    Properties:
+      BucketName: !Sub 'data-pipeline-s3-bucket-${Environment}'
+      LifecycleConfiguration:
+        Rules:
+          - Id: Delete processed data
+            ExpirationInDays: 30
+            Prefix: data/rki/valid/
+            Status: Enabled
+          - Id: Delete validations
+            ExpirationInDays: 30
+            Prefix: validations/exp_suite/
+            Status: Enabled
+          - Id: Delete logs
+            ExpirationInDays: 30
+            Prefix: !Sub 'logs/cloudtrail/AWSLogs/${AWS::AccountId}/CloudTrail/${AWS::Region}/'
+            Status: Enabled
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+      AccessControl: Private
+      NotificationConfiguration:
+        LambdaConfigurations:
+          - Event: s3:ObjectCreated:*
+            Function: !GetAtt GELambda.Arn
+            Filter:
+              S3Key:
+                Rules:
+                  - Name: prefix
+                    Value: data/rki/raw/germany/cases
+      Tags:
+        - Key: Stack
+          Value: !Ref AWS::StackName
+        - Key: Environment
+          Value: !Ref Environment
+        - Key: Name
+          Value: ApiPipeline
+
+  APIS3BucketPolicy:
+    Type: AWS::S3::BucketPolicy
+    Properties:
+      Bucket: !Ref APIS3Bucket
+      PolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service:
+                - cloudtrail.amazonaws.com
+            Action:
+              - s3:GetBucketAcl
+            Resource:
+              - !Sub '${APIS3Bucket.Arn}'
+          - Effect: Allow
+            Principal:
+              Service:
+                - cloudtrail.amazonaws.com
+            Action:
+              - s3:PutObject
+            Resource:
+              - !Sub '${APIS3Bucket.Arn}/logs/cloudtrail'
+              - !Sub '${APIS3Bucket.Arn}/logs/cloudtrail/*'
+            Condition:
+              StringEquals:
+                s3:x-amz-acl: bucket-owner-full-control
+
+  APIGlueDatabase:
+    Type: AWS::Glue::Database
+    Properties:
+      DatabaseInput:
+        Description: !Sub '${Environment} Database for API data'
+        LocationUri: !Sub 's3://${APIS3Bucket}/'
+        Name: !Sub 'api_data_${Environment}'
+      CatalogId: !Ref AWS::AccountId
+
+  APIDataCrawler:
+    Type: AWS::Glue::Crawler
+    Properties:
+      DatabaseName: !Ref APIGlueDatabase
+      Description: Glue Crawler for API data
+      Name: !Sub 'api-data-glue-crawler-${Environment}'
+      Role: !Ref APICrawlerRole
+      SchemaChangePolicy:
+        UpdateBehavior: UPDATE_IN_DATABASE
+        DeleteBehavior: DELETE_FROM_DATABASE
+      Targets:
+        S3Targets:
+          - Path: !Sub 's3://${APIS3Bucket}/data/rki/processed/germany/cases'
+      Configuration: '{"Version":1.0,"CrawlerOutput":{"Partitions":{"AddOrUpdateBehavior":"InheritFromTable"}}}'
+      Tags:
+        Stack: !Ref AWS::StackName
+        Environment: !Ref Environment
+
+  APICrawlerRole:
+    Type: AWS::IAM::Role
+    Properties:
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/service-role/AWSGlueServiceRole
+      AssumeRolePolicyDocument:
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: glue.amazonaws.com
+            Action: sts:AssumeRole
+      Path: /
+      Policies:
+        - PolicyName: S3Access
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action:
+                  - s3:Delete*
+                  - s3:Get*
+                  - s3:Put*
+                Resource:
+                  - !Sub '${APIS3Bucket.Arn}'
+                  - !Sub '${APIS3Bucket.Arn}/*'
+
+  APILambda:
+    Type: AWS::Lambda::Function
+    Properties:
+      Code:
+        ImageUri: !Sub '${AWS::AccountId}.dkr.ecr.${AWS::Region}.amazonaws.com/api_lambda-${Environment}:${Version}'
+      ImageConfig:
+        Command:
+          - handler.handler
+      Description: Lambda for covid api calls
+      Timeout: 300
+      MemorySize: 256
+      PackageType: Image
+      Role: !GetAtt LambdaRole.Arn
+      Environment:
+        Variables:
+          API_URL: https://api.corona-zahlen.org
+          S3_BUCKET: !Sub 's3://${APIS3Bucket}'
+      Tags:
+        - Key: Stack
+          Value: !Ref AWS::StackName
+        - Key: Environment
+          Value: !Ref Environment
+        - Key: Name
+          Value: ApiPipeline
+
+  CSSELambda:
+    Type: AWS::Serverless::Function
+    Properties:
+      Layers:
+        - !Ref LambdaLayer
+      Handler: handler.handler
+      CodeUri:
+        Bucket: !Ref APIS3Bucket
+        Key: !Sub 'scripts/${Version}/api_queries/CSSE/csse_handler.zip'
+      EventInvokeConfig:
+        MaximumRetryAttempts: 1
+        DestinationConfig:
+          OnFailure:
+            Type: EventBridge
+            Destination: !Sub 'arn:${AWS::Partition}:events:${AWS::Region}:${AWS::AccountId}:event-bus/default'
+      Runtime: python3.9
+      Description: Lambda for CSSE api calls
+      Timeout: 300
+      MemorySize: 256
+      Role: !GetAtt LambdaRole.Arn
+      Events:
+        Schedule:
+          Type: Schedule
+          Properties:
+            Schedule: !FindInMap [Environments, !Ref Environment, DailyCSSELambdaSchedule]
+      Environment:
+        Variables:
+          REPOSITORY_PATH: 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series'
+          ENVIRONMENT: !Ref Environment
+          S3_BUCKET: !Sub 's3://${APIS3Bucket}'
+          DATABASE: !Ref APIGlueDatabase
+
+  LambdasStateMachine:
+    Type: AWS::StepFunctions::StateMachine
+    Properties:
+      StateMachineName: !Sub 'api-data-state-machine-${Environment}'
+      RoleArn: !GetAtt StateMachineRole.Arn
+      DefinitionString: |-
+        {
+          "StartAt": "APIQuery",
+          "States": {
+            "APIQuery": {
+              "Type": "Task",
+              "Resource": "${APILambda}",
+              "Parameters": {
+                "InvocationType": "Event"
+                },
+              "Retry": [ {
+                "ErrorEquals":  [ "Lambda.ServiceException", "Lambda.AWSLambdaException", "Lambda.SdkClientException", "Lambda.Unknown", "States.TaskFailed", "States.Timeout"],
+                "IntervalSeconds": 21600,
+                "MaxAttempts": 2
+              } ],
+              "End": true
+            }
+          }
+        }
+      DefinitionSubstitutions:
+        APILambda: !GetAtt APILambda.Arn
+      LoggingConfiguration:
+        Level: ERROR
+        IncludeExecutionData: true
+        Destinations:
+          - CloudWatchLogsLogGroup:
+              LogGroupArn: !GetAtt StateMachineLogGroup.Arn
+      Tags:
+        - Key: Stack
+          Value: !Ref AWS::StackName
+        - Key: Environment
+          Value: !Ref Environment
+        - Key: Name
+          Value: ApiPipeline
+
+  StateMachineLogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: !Sub 'state-machine-log-group-${Environment}'
+      RetentionInDays: 14
+      Tags:
+        - Key: Stack
+          Value: !Ref AWS::StackName
+        - Key: Environment
+          Value: !Ref Environment
+        - Key: Name
+          Value: ApiPipeline
+
+  StateMachineRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: states.amazonaws.com
+            Action: sts:AssumeRole
+      Path: /
+      Policies:
+        - PolicyName: StatesExecutionPolicy
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action:
+                  - lambda:InvokeFunction
+                Resource: !GetAtt APILambda.Arn
+              - Effect: Allow
+                Action:
+                  - logs:*
+                Resource: '*'
+
+  APILambdaAlarm:
+    Type: AWS::CloudWatch::Alarm
+    Properties:
+      AlarmDescription: !Sub 'Alarm if an error occurs in APILambda (${Environment})'
+      Namespace: AWS/States
+      MetricName: LambdaFunctionsFailed
+      Dimensions:
+        - Name: LambdaFunctionArn
+          Value: !Ref APILambda
+      ComparisonOperator: GreaterThanOrEqualToThreshold
+      TreatMissingData: ignore
+      Threshold: 1
+      Statistic: Sum
+      Period: 300
+      EvaluationPeriods: 1
+      AlarmActions:
+        - !ImportValue CloudWatchAlarmSNSTopic
+      OKActions:
+        - !ImportValue CloudWatchAlarmSNSTopic
+
+  LambdaLayer:
+    Type: AWS::Serverless::LayerVersion
+    Properties:
+      RetentionPolicy: Delete
+      CompatibleRuntimes:
+        - python3.9
+      LayerName: !Sub 'data-pipeline-csse-lambda-layer-${Environment}-${Version}'
+      Description: !Sub 'CSSE Lambda ${Version} (${Environment})'
+      ContentUri:
+        Bucket: !ImportValue LambdaLayerS3Bucket
+        Key: !Sub 'data-pipeline/${Environment}/csse/lambda_layer_${Environment}_${Version}.zip'
+
+  GELambda:
+    Type: AWS::Lambda::Function
+    Properties:
+      Code:
+        ImageUri: !Sub '${AWS::AccountId}.dkr.ecr.${AWS::Region}.amazonaws.com/ge_lambda-${Environment}:${Version}'
+      ImageConfig:
+        Command:
+          - handler.handler
+      Description: Lambda to run great expectations on data
+      Timeout: 600
+      MemorySize: 256
+      PackageType: Image
+      Role: !GetAtt LambdaRole.Arn
+      Environment:
+        Variables:
+          S3_BUCKET: !Sub 'data-pipeline-s3-bucket-${Environment}'
+          S3_FOLDER: data/rki
+          S3_FOLDER_SUCCESS: valid
+          S3_FOLDER_FAILURE: rejected
+          DATASOURCE: germany
+          CHECKPOINT: checkpoint
+      Tags:
+        - Key: Stack
+          Value: !Ref AWS::StackName
+        - Key: Environment
+          Value: !Ref Environment
+        - Key: Name
+          Value: ApiPipeline
+
+  GELambdaAlarm:
+    Type: AWS::CloudWatch::Alarm
+    Properties:
+      AlarmDescription: !Sub 'Alarm if an error occurs in GELambda (${Environment})'
+      Namespace: AWS/Lambda
+      MetricName: Errors
+      Dimensions:
+        - Name: FunctionName
+          Value: !Ref GELambda
+      ComparisonOperator: GreaterThanOrEqualToThreshold
+      TreatMissingData: ignore
+      Threshold: 1
+      Statistic: Sum
+      Period: 600
+      EvaluationPeriods: 1
+      AlarmActions:
+        - !ImportValue CloudWatchAlarmSNSTopic
+      OKActions:
+        - !ImportValue CloudWatchAlarmSNSTopic
+
+  LambdaRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: lambda.amazonaws.com
+            Action: sts:AssumeRole
+      Path: /
+      Policies:
+        - PolicyName: ECRAccess
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action:
+                  - ecr:BatchGetImage
+                  - ecr:GetDownloadUrlForLayer
+                Resource:
+                  - !Sub 'arn:${AWS::Partition}:ecr:${AWS::Region}:${AWS::AccountId}:repository/api_lambda-${Environment}'
+                  - !Sub 'arn:${AWS::Partition}:ecr:${AWS::Region}:${AWS::AccountId}:repository/ge_lambda-${Environment}'
+        - PolicyName: S3Access
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action:
+                  - s3:*
+                Resource:
+                  - !Sub 'arn:${AWS::Partition}:s3:::data-pipeline-s3-bucket-${Environment}'
+                  - !Sub 'arn:${AWS::Partition}:s3:::data-pipeline-s3-bucket-${Environment}/*'
+        - PolicyName: GlueAccess
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action:
+                  - glue:GetTable
+                  - glue:CreateTable
+                  - glue:UpdateTable
+                  - glue:BatchCreatePartition
+                Resource:
+                  - !Sub 'arn:${AWS::Partition}:glue:${AWS::Region}:${AWS::AccountId}:catalog'
+                  - !Sub 'arn:${AWS::Partition}:glue:${AWS::Region}:${AWS::AccountId}:database/*'
+                  - !Sub 'arn:${AWS::Partition}:glue:${AWS::Region}:${AWS::AccountId}:table/*'
+        - PolicyName: EventBridgeAccess
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action: events:PutEvents
+                Resource: '*'
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+
+  DailyAPIStateMachineTrigger:
+    Type: AWS::Events::Rule
+    Properties:
+      Description: Trigger APILambda State Machine
+      Name: !Sub 'api-data-state-machine-trigger-${Environment}'
+      ScheduleExpression: !FindInMap [Environments, !Ref Environment, DailyAPILambdaSchedule]
+      Targets:
+        - Arn: !GetAtt LambdasStateMachine.Arn
+          Id: !Sub 'APILambda-state-machine-${Environment}'
+          RoleArn: !GetAtt DailyAPIStateMachineTriggerRole.Arn
+      State: ENABLED
+
+  DailyAPIStateMachineTriggerRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: events.amazonaws.com
+            Action: sts:AssumeRole
+      Policies:
+        - PolicyName: StateMachineExecutionPolicy
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action:
+                  - states:StartExecution
+                Resource:
+                  - !Ref LambdasStateMachine
+
+  DailyAPIStateMachineTriggerPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      Action: lambda:InvokeFunction
+      FunctionName: !Ref APILambda
+      Principal: events.amazonaws.com
+      SourceAccount: !Ref AWS::AccountId
+      SourceArn: !GetAtt DailyAPIStateMachineTrigger.Arn
+
+  GELambdaInvokePermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      Action: lambda:InvokeFunction
+      FunctionName: !Ref GELambda
+      Principal: s3.amazonaws.com
+      SourceAccount: !Ref AWS::AccountId
+      SourceArn: !Sub 'arn:${AWS::Partition}:s3:::data-pipeline-s3-bucket-${Environment}'
+
+  APIGlueProcessingWorkflow:
+    Type: AWS::Glue::Workflow
+    Properties:
+      Name: !Sub 'data-processing-glue-workflow-${Environment}'
+      Tags:
+        Stack: !Ref AWS::StackName
+        Environment: !Ref Environment
+        Name: ApiPipeline
+
+  GlueDataProcessingJob:
+    Type: AWS::Glue::Job
+    Properties:
+      Command:
+        Name: glueetl
+        ScriptLocation: !Sub 's3://${APIS3Bucket}/scripts/${Version}/glue_jobs/cases_data_processing.py'
+      GlueVersion: '4.0'
+      DefaultArguments:
+        --bucket: !Ref APIS3Bucket
+        --prefix: data/rki/valid/germany/cases
+        --write_location: data/rki/processed/germany/cases
+      NumberOfWorkers: 2
+      Name: !Sub 'data-processing-glue-job-${Environment}'
+      WorkerType: Standard
+      MaxRetries: 0
+      ExecutionProperty:
+        MaxConcurrentRuns: 1
+      Role: !Ref GlueDataProcessingJobRole
+      Timeout: 30
+      Tags:
+        Stack: !Ref AWS::StackName
+        Environment: !Ref Environment
+        Name: ApiPipeline
+
+  GlueDataProcessingJobRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: glue.amazonaws.com
+            Action: sts:AssumeRole
+      Path: /
+      Policies:
+        - PolicyName: S3Access
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action:
+                  - s3:ListObjects
+                  - s3:GetObject
+                  - s3:PutObject
+                  - s3:Delete*
+                Resource:
+                  - !Sub 'arn:${AWS::Partition}:s3:::data-pipeline-s3-bucket-${Environment}'
+                  - !Sub 'arn:${AWS::Partition}:s3:::data-pipeline-s3-bucket-${Environment}/*'
+      ManagedPolicyArns:
+        - !Sub 'arn:${AWS::Partition}:iam::aws:policy/service-role/AWSGlueServiceRole'
+
+  GlueJobTrigger:
+    Type: AWS::Glue::Trigger
+    Properties:
+      Name: !Sub 'data-processing-glue-job-trigger-${Environment}'
+      WorkflowName: !Ref APIGlueProcessingWorkflow
+      Description: !Sub 'Triggers ${GlueDataProcessingJob} in ${Environment}'
+      Actions:
+        - JobName: !Ref GlueDataProcessingJob
+      Type: EVENT
+      Tags:
+        Stack: !Ref AWS::StackName
+        Environment: !Ref Environment
+        Name: ApiPipeline
+
+  APIS3BucketCloudTrail:
+    Type: AWS::CloudTrail::Trail
+    Properties:
+      TrailName: !Sub 'data-pipeline-cloudtrail-${Environment}'
+      IsLogging: true
+      S3BucketName: !Ref APIS3Bucket
+      S3KeyPrefix: logs/cloudtrail
+      EventSelectors:
+        - DataResources:
+            - Type: AWS::S3::Object
+              Values:
+                - !Sub 'arn:${AWS::Partition}:s3:::${APIS3Bucket}/data/rki/valid/germany/cases'
+          IncludeManagementEvents: false
+          ReadWriteType: WriteOnly
+      Tags:
+        - Key: Stack
+          Value: !Ref AWS::StackName
+        - Key: Environment
+          Value: !Ref Environment
+        - Key: Name
+          Value: ApiPipeline
+
+  GlueJobEventRule:
+    DependsOn: APIGlueProcessingWorkflow
+    Type: AWS::Events::Rule
+    Properties:
+      Name: !Sub 'data-pipeline-valid-data-event-${Environment}'
+      Description: !Sub 'Triggers ${GlueDataProcessingJob} in ${Environment} when ${GELambda} puts a valid data file in the corresponding folder'
+      EventPattern:
+        source:
+          - aws.s3
+        detail-type:
+          - AWS API Call via CloudTrail
+        detail:
+          eventSource:
+            - s3.amazonaws.com
+          eventName:
+            - PutObject
+            - CopyObject
+          requestParameters:
+            bucketName:
+              - !Ref APIS3Bucket
+            key:
+              - prefix: data/rki/valid/germany/cases
+      State: ENABLED
+      Targets:
+        - Arn: !Sub 'arn:${AWS::Partition}:glue:${AWS::Region}:${AWS::AccountId}:workflow/${APIGlueProcessingWorkflow}'
+          RoleArn: !GetAtt GlueJobEventRuleRole.Arn
+          Id: !Sub 'CloudtrailWorkflowTrigger${Environment}'
+
+  GlueJobEventRuleRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: events.amazonaws.com
+            Action: sts:AssumeRole
+      Path: /
+      Policies:
+        - PolicyName: GlueFailureNotification
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action:
+                  - glue:notifyEvent
+                Resource:
+                  - !Sub 'arn:${AWS::Partition}:glue:${AWS::Region}:${AWS::AccountId}:workflow/${APIGlueProcessingWorkflow}'
+
+  GlueJobEventFailureNotification:
+    Type: AWS::Events::Rule
+    Properties:
+      Name: !Sub 'data-processing-glue-job-failure-notification-${Environment}'
+      Description: !Sub 'Notifies in case ${GlueDataProcessingJob} fails in ${Environment}'
+      EventPattern:
+        source:
+          - aws.glue
+        detail-type:
+          - Glue Job State Change
+        detail:
+          jobName:
+            - !Ref GlueDataProcessingJob
+          state:
+            - FAILED
+            - TIMEOUT
+      State: ENABLED
+      Targets:
+        - Arn: !ImportValue CloudWatchAlarmSNSTopic
+          Id: !Sub 'GlueDataProcessingJobFailed${Environment}'
+          InputTransformer:
+            InputPathsMap:
+              jobname: '$.detail.jobName'
+              state: '$.detail.state'
+              message: '$.detail.message'
+            InputTemplate: |
+              "Glue Job <jobname> failed, state: <state>, message: <message>"
+
+  GlueCrawlerTrigger:
+    Type: AWS::Glue::Trigger
+    Properties:
+      Name: !Sub 'data-processing-glue-crawler-trigger-${Environment}'
+      WorkflowName: !Ref APIGlueProcessingWorkflow
+      Actions:
+        - CrawlerName: !Ref APIDataCrawler
+      Description: !Sub 'Triggers ${APIDataCrawler} after ${GlueDataProcessingJob} successfully ran in ${Environment}'
+      Predicate:
+        Conditions:
+          - JobName: !Ref GlueDataProcessingJob
+            State: SUCCEEDED
+            LogicalOperator: EQUALS
+      StartOnCreation: true
+      Type: CONDITIONAL
+      Tags:
+        Stack: !Ref AWS::StackName
+        Environment: !Ref Environment
+        Name: ApiPipeline

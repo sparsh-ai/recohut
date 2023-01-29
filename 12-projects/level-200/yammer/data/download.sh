@@ -1,0 +1,1 @@
+aws s3 sync s3://wysde-datasets/yammer/lab-165-sql-yammer .

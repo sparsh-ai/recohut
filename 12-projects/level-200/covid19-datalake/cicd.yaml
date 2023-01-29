@@ -1,0 +1,140 @@
+---
+name: Manual Deployment
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'For example "v2"'
+        required: true
+      environment:
+        type: choice
+        options:
+          - staging
+          - production
+        description: Deploy environment; staging or production
+        required: true
+
+concurrency: ${{ github.event.inputs.environment }}
+
+run-name: Deploy ${{ github.event.inputs.version }} to ${{ github.event.inputs.environment }}
+
+env:
+  PYTHON_VERSION: '3.9'
+  PIPENV_VENV_IN_PROJECT: '1'
+
+jobs:
+  build_and_push_lambda_layers:
+    name: Build and push lambda layer + handler
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Get AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          role-to-assume: arn:aws:iam::${{ secrets.AWS_ACCOUNT_ID }}:role/GithubOIDCRole
+          aws-region: eu-central-1
+
+      - name: upload handler
+        run: |
+          zip -j csse_handler.zip src/api_queries/CSSE/handler.py
+          aws s3 cp csse_handler.zip \
+            s3://data-pipeline-s3-bucket-${{ github.event.inputs.environment }}/scripts/${{ github.event.inputs.version }}/api_queries/CSSE/csse_handler.zip
+
+      - name: upload glue jobs
+        run: |
+          aws s3 sync src/glue_jobs s3://data-pipeline-s3-bucket-${{ github.event.inputs.environment }}/scripts/${{ github.event.inputs.version }}/glue_jobs/
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v2
+
+      - name: build and push lambda layer
+        uses: docker/build-push-action@v3
+        with:
+          context: ops/layers/csse/
+          push: false
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+          build-args: |
+            VERSION=${{ github.event.inputs.version }}
+            ENV=${{ github.event.inputs.environment }}
+          secrets: |
+            "AWS_ACCESS_KEY_ID=${{ env.AWS_ACCESS_KEY_ID }}"
+            "AWS_SECRET_ACCESS_KEY=${{ env.AWS_SECRET_ACCESS_KEY }}"
+            "AWS_REGION=${{ env.AWS_REGION }}"
+            "AWS_SESSION_TOKEN=${{ env.AWS_SESSION_TOKEN }}"
+
+  build_and_push_docker_containers:
+    name: Build and push docker containers
+    runs-on: ubuntu-latest
+    needs: build_and_push_lambda_layers
+    permissions:
+      id-token: write
+      contents: write
+    strategy:
+      matrix:
+        lambda_name: ['api_lambda', 'ge_lambda']
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Get AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          role-to-assume: arn:aws:iam::${{ secrets.AWS_ACCOUNT_ID }}:role/GithubOIDCRole
+          aws-region: eu-central-1
+
+      - name: Login to Amazon ECR
+        id: login-ecr
+        uses: aws-actions/amazon-ecr-login@v1
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v2
+
+      - name: Build and push docker container
+        uses: docker/build-push-action@v3
+        with:
+          context: ops/container/${{ matrix.lambda_name }}
+          push: true
+          tags: ${{ steps.login-ecr.outputs.registry }}/${{ matrix.lambda_name }}-${{ github.event.inputs.environment }}:${{ github.event.inputs.version }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
+  deploy_stack:
+    name: Deploy stack
+    runs-on: ubuntu-latest
+    needs: build_and_push_docker_containers
+    permissions:
+      id-token: write
+      contents: write
+    strategy:
+      matrix:
+        include:
+          - stack-name: data-engineering-stack
+            stack-file: ops/stack/pipeline_stack.yaml
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Get AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          role-to-assume: arn:aws:iam::${{ secrets.AWS_ACCOUNT_ID }}:role/GithubOIDCRole
+          aws-region: eu-central-1
+
+      - name: Deploy stacks
+        uses: aws-actions/aws-cloudformation-github-deploy@v1
+        with:
+          name: ${{ matrix.stack-name }}-${{ github.event.inputs.environment }}
+          template: ${{ matrix.stack-file }}
+          no-fail-on-empty-changeset: '1'
+          termination-protection: '1'
+          capabilities: CAPABILITY_NAMED_IAM
+          parameter-overrides: >-
+            Environment=${{ github.event.inputs.environment }},
+            Version=${{ github.event.inputs.version }}

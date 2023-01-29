@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+spark-nlp = "*"
+pygeodesy = "*"
+
+[dev-packages]
+pyspark = "==3.1.2"
+ipython = "*"
+"flake8" = "*"
+spark-nlp = "*"
+
+[requires]
+python_version = "3.8"
