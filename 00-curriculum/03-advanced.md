@@ -18,13 +18,9 @@
   * [Intermediate](#intermediate)
   * [Advanced](#advanced)
 
----
-
-Est. Time:
-   - Monologue mode: 55 hrs
-   - Interactive mode: 120 hours
-
----
+##### Estimated Time:
+   - Monologue mode: 60 hrs
+   - Interactive mode: 140 hours
 
 ## Foundations
 

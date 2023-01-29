@@ -1,4 +1,6 @@
-## Basic Curriculum
+# Basic Curriculum
+
+![](./img/basic.drawio.svg)
 
 ##### Table of Contents
 
@@ -6,8 +8,8 @@
 - [Data Engineering Foundations](#data-engineering-foundations)
 - [Cloud Computing and Data Engineering tools in AWS](#cloud-computing-and-data-engineering-tools-in-aws)
 - [Advanced Python Programming](#advanced-python-programming)
-- [Advanced PySpark Programming](#advanced-pyspark-programming)
 - [SQL Programming](#sql-programming)
+- [Advanced PySpark Programming](#advanced-pyspark-programming)
 - [Scala Programming](#scala-programming)
 - [Data Modeling with RDBMS/NoSQL](#data-modeling-with-rdbms-nosql)
 - [Data Warehouse and Data Lakes](#data-warehouse-and-data-lakes)
@@ -15,13 +17,9 @@
 - [Building Data Pipelines](#building-data-pipelines)
 - [End-to-End Industry Grade Project](#end-to-end-industry-grade-project)
 
----
-
-Est. Time:
-   - Monologue mode: 25 hrs
-   - Interactive mode: 40 hours
-
----
+##### Estimated Time:
+   - Monologue mode: 20 hrs
+   - Interactive mode: 35 hours
 
 ## Development Foundations
 
@@ -91,6 +89,14 @@ Est. Time:
 4. Connect to Postgres and Redshift from Python
 5. Load and Read the data from Postgres and Redshift using Python
 
+## SQL Programming
+
+### Labs
+
+1. Hospital Data Analysis with SQL
+2. Ecommerce Data Analysis with SQL
+3. Order Analysis with Redshift SQL
+
 ## Advanced PySpark Programming
 
 ### Tools and Concepts
@@ -107,14 +113,6 @@ Est. Time:
 3. Data Transformation with PySpark
 4. Connect AWS to PySpark
 5. ETL Pipeline with AWS S3 and PySpark
-
-## SQL Programming
-
-### Labs
-
-1. Hospital Data Analysis with SQL
-2. Ecommerce Data Analysis with SQL
-3. Order Analysis with Redshift SQL
 
 ## Scala Programming
 

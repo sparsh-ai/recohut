@@ -11,13 +11,9 @@
 - [DevOps](#devops)
 - [Interview Preparation](#interview-preparation)
 
----
-
-Est. Time:
-   - Monologue mode: 35 hrs
+##### Estimated Time:
+   - Monologue mode: 45 hrs
    - Interactive mode: 80 hours
-
----
 
 ## Foundations
 
