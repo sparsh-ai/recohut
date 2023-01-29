@@ -1,6 +1,6 @@
 # Basic Curriculum
 
-![](./img/basic.drawio.svg)
+![](https://user-images.githubusercontent.com/62965911/215325722-1f79be37-9ec0-4fd1-ab0f-b424b0365853.svg)
 
 ##### Table of Contents
 

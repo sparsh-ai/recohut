@@ -4,7 +4,12 @@
 
 ## Curriculum 
 
-- [Basic](./00-curriculum/01-basic.md)
+### Basic
+
+[![](https://user-images.githubusercontent.com/62965911/215325722-1f79be37-9ec0-4fd1-ab0f-b424b0365853.svg)](./00-curriculum/01-basic.md)
+
+##### (Click on the image for more details)
+
 - [Intermediate](./00-curriculum/02-intermediate.md)
 - [Advanced](./00-curriculum/03-advanced.md)
 
@@ -25,7 +30,7 @@
 1. [Case Studies](./13-cases/)
 1. [Code Snippets](./14-snippets/)
 1. [Resources](./15-resources/)
-1. Essential AI/ML for Data Engineers
+1. [Essential AI/ML for Data Engineers](./16-ds-ml/)
 
 ## How to start
 
