@@ -135,4 +135,4 @@ dmypy.json
 .pyre/
 
 # vscode workspace setting
-.vscode
+.vscode.DS_Store
