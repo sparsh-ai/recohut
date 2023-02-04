@@ -1,13 +1,13 @@
 # Postgres
 
-## Steps
+## Hands-on
 
 1. [Lab: Setup Postgres in Local and in Cloud](./setup.md)
-1. [Lab: Connect to Postgres with Python](./lab-connect-python/)
-1. [Lab: Load data into Postgres with Python](./lab-load-python/)
-1. [Lab: Load and Analyze Sales data in Postgres](./lab-postgres-sales/)
-1. [Lab: Window Functions in Postgres](./window-functions.ipynb)
-1. [Lab: Slowly Changing Dimensions in Postgres](./slowly-changing-dimensions.ipynb)
+2. [Lab: Connect to Postgres with Python](./lab-connect-python/)
+3. [Lab: Load data into Postgres with Python](./lab-load-python/)
+4. [Lab: Load and Analyze Sales data in Postgres](./lab-postgres-sales/)
+5. [Lab: Window Functions in Postgres](./window-functions.ipynb)
+6. [Lab: Slowly Changing Dimensions in Postgres](./slowly-changing-dimensions.ipynb)
 
 ## Note
 
@@ -19,7 +19,7 @@ PostgreSQL runs on most modern operating systems, including Windows, Mac, and Li
 
 PostgreSQL can be used for both **online transaction processing** (**OLTP**) and **online analytical processing** (**OLAP**) applications. In addition to that, PostgreSQL supports both pessimistic and optimistic concurrency control, and the locking behavior can be chosen based on the use case. PostgreSQL provides a lot of features that help to handle very large amounts of data efficiently, such as partitioning and parallel execution. PostgreSQL is scalable thanks to its replication capabilities. All this makes PostgreSQL attractive because it can be used to set up highly available and performant data management solutions.
 
-### Use Cases
+## Use Cases
 
 #### Financial industry
 
@@ -55,7 +55,7 @@ Research and scientific projects can generate terabytes of data, which have to b
 
 On top of that PostgreSQL can easily be extended. You can write your own aggregation functions and you can come up with your own business logic in the database. By bringing the algorithms close to your data, a lot more efficiency can be achieved than by performing all operations on the application level.
 
-### Customer Success Stories
+## Customer Success Stories
 
 **Apple**
 
@@ -113,9 +113,9 @@ If there’s such a thing as a cool job, working with guys who fly in space and 
 
 If there’s such a thing as a cool job, working with guys who fly in space and perhaps know if aliens are out there is one of them.
 
-### References
+## Resources
 
 1. https://learnsql.com/blog/companies-that-use-postgresql-in-business/
 2. https://www.cybertec-postgresql.com/en/postgresql-overview/solutions-who-uses-postgresql/
-6. [10 Essential PSQL Commands For Data Engineers](https://towardsdatascience.com/10-essential-psql-commands-for-data-engineers-c1ea42279160)
-7. [Building Your Data Warehouse On Top Of PostgreSQL](https://www.dataengineeringpodcast.com/postgresql-data-warehouse-episode-186/)
+3. [10 Essential PSQL Commands For Data Engineers](https://towardsdatascience.com/10-essential-psql-commands-for-data-engineers-c1ea42279160)
+4. [Building Your Data Warehouse On Top Of PostgreSQL](https://www.dataengineeringpodcast.com/postgresql-data-warehouse-episode-186/)

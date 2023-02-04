@@ -18,24 +18,45 @@
 - [End-to-End Industry Grade Project](#end-to-end-industry-grade-project)
 
 ##### Estimated Time:
-   - Monologue mode: 20 hrs
-   - Interactive mode: 35 hours
+
+- Monologue mode: 20 hrs
+- Interactive mode: 35 hours
 
 ## Development Foundations
 
 ### Tools and Concepts
 
-1. Visual Studio Code (VSCode) 
+1. Visual Studio Code (VSCode)
 2. Anaconda
 3. Github
 4. Bash Shell
 
 ### Labs
 
-1. VSCode GUI and Features
-2. Github basics
-3. Bash Shell commands
-4. Setting up an integrated workspace in VSCode
+* [ ] Download and Install vscode
+* [ ] Understand vscode features
+* [ ] Install extensions in vscode
+
+  * [ ] Python Extensions Pack
+  * [ ] Office Viewer
+* [ ] Download and Install Anaconda
+* [ ] Create virtual environment in anaconda
+* [ ] Create test jupyter notebook in vscode and connect to venv
+* [ ] Create github account
+* [ ] Install git cli
+* [ ] Create git repo and add student(s) as collaborator
+* [ ] Connect local workspace to git repo
+* [ ] Learn git commands
+
+  * git init
+  * git remote
+  * git pull
+  * git push
+  * git add
+  * git commit
+  * git branch
+  * git checkout
+* [ ] Learn bash commands
 
 ## Data Engineering Foundations
 
@@ -44,50 +65,58 @@
 1. What is Data Engineering?
 2. Role of Data Engineering in Organizations
 3. Skills required to become a Data Engineer
+4. What is data lake and data warehouse?
+5. What is medallion architecture?
+6. What is EL, ETL and ELT?
+7. What are the benefits of cloud computing?
 
 ## Cloud Computing and Data Engineering tools in AWS
 
 ### Tools and Concepts
 
-1. Benefits of cloud computing
-2. Types of cloud computing
-3. AWS S3
-4. RDS
-5. Redshift
-6. AWS Glue
-7. Athena
-8. DBeaver
+1. AWS S3
+2. RDS
+3. Redshift
+4. AWS Glue
+5. Athena
+6. AWS Lambda
+7. EMR and EMR Serverless
+8. Keyspace
+9. Cloudformation
+10. IAM
+11. DBeaver
 
 ### Labs
 
-1. Create AWS Cloud Account
-2. Working with AWS IAM Service
-3. Create AWS IAM Credentials
-4. Setup AWS CLI in VSCode
-1. Copy and Sync data to/from S3
-2. Create Postgres/MySQL DBMS in RDS
-3. Create Redshift Warehouse
-6. Install DBeaver in your PC
-4. Connect to Postgres Database
-5. Connect to Redshift Warehouse
-6. Create AWS Glue Crawlers and Databases
-7. Run SQL Queries in Athena
+1. [ ] (Optional) Create AWS Account
+2. [ ] Create IAM user and generate credentials
+3. [ ] Install AWS CLI
+4. [ ] Setup AWS credentials
+5. [ ] Walkthrough AWS Services
+6. [ ] Copy and Sync data to/from S3
+7. [ ] Create database in RDS DBMS and generate credentials
+8. [ ] Install DBeaver in your PC
+9. [ ] Connect to RDS DBMS from DBeaver
 
-## Advanced Python Programming
+## Python Programming
 
 ### Tools and Concepts
 
-1. Python Functions and Classes
-2. Pandas Series and Dataframes
+1. Lists and dictionaries
+2. For loops and while loops
+3. Functions and Inline functions
+4. Pandas Dataframes
+5. `requests` library
+6. `psycopg2` and `sqlalchemy` library
 
 ### Labs
 
 1. Building Functions and Classes in Python
-1. Read/Write and Manipulate Data using Pandas
-2. Data Format Conversion - CSV to Parquet, JSON to CSV/Parquet
-3. Pulling Data from APIs using requests library
-4. Connect to Postgres and Redshift from Python
-5. Load and Read the data from Postgres and Redshift using Python
+2. Read/Write and Manipulate Data using Pandas
+3. Data Format Conversion - CSV to Parquet, JSON to CSV/Parquet
+4. Pulling Data from APIs using requests library
+5. Connect to Postgres and Redshift from Python
+6. Load and Read the data from Postgres and Redshift using Python
 
 ## SQL Programming
 
@@ -121,7 +150,7 @@
 1. Introduction to Scala Programming
 2. Transform complex data types
 
-## Data Modeling with RDBMS/NoSQL 
+## Data Modeling with RDBMS/NoSQL
 
 ### Tools and Concepts
 
@@ -137,7 +166,7 @@
 2. Music Data Modeling with Cassandra
 3. Healthcare Data Modeling with Postgres
 
-## Data Warehouse and Data Lakes 
+## Data Warehouse and Data Lakes
 
 ### Tools and Concepts
 
@@ -171,7 +200,7 @@
 ### Tools and Concepts
 
 1. Data Pipelines (ETL/ELT)
-1. Apache Airflow
+2. Apache Airflow
    1. UI
    2. Operators
    3. Variables
@@ -187,7 +216,7 @@
 4. Building an ETL Data Pipeline with lambda and aws data lake
 5. Building an ELT Data Pipeline with dbt, airflow and redshift
 
-## End-to-End Industry Grade Project 
+## End-to-End Industry Grade Project
 
 - We will build an end-to-end project with tools and concepts we learned and adopted in the trainin sessions.
 - The project will be added in your resume.

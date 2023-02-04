@@ -24,13 +24,13 @@ Once you know how to view some data using SELECT and FROM, the next step is filt
 
 The most basic way to filter data is using comparison operators. The easiest way to understand them is to start by looking at a list of them:
 
-| Equal to                 | `=`          |
-| ------------------------ | ------------ |
+| Equal to                 | `=`              |
+| ------------------------ | ------------------ |
 | Not equal to             | `<>` or `!=` |
-| Greater than             | `>`          |
-| Less than                | `<`          |
-| Greater than or equal to | `>=`         |
-| Less than or equal to    | `<=`         |
+| Greater than             | `>`              |
+| Less than                | `<`              |
+| Greater than or equal to | `>=`             |
+| Less than or equal to    | `<=`             |
 
 These comparison operators make the most sense when applied to numerical columns.
 
@@ -60,13 +60,13 @@ You'll likely also want to filter data using several conditions---possibly more 
 
 Each logical operator is a special snowflake, so we'll go through them individually in the following lessons. Here's a quick preview:
 
--   `LIKE` allows you to match similar values, instead of exact values.
--   `IN` allows you to specify a list of values you'd like to include.
--   `BETWEEN` allows you to select only rows within a certain range.
--   `IS NULL` allows you to select rows that contain no data in a given column.
--   `AND` allows you to select only rows that satisfy two conditions.
--   `OR` allows you to select rows that satisfy either of two conditions.
--   `NOT` allows you to select rows that do not match a certain condition.
+- `LIKE` allows you to match similar values, instead of exact values.
+- `IN` allows you to specify a list of values you'd like to include.
+- `BETWEEN` allows you to select only rows within a certain range.
+- `IS NULL` allows you to select rows that contain no data in a given column.
+- `AND` allows you to select only rows that satisfy two conditions.
+- `OR` allows you to select rows that satisfy either of two conditions.
+- `NOT` allows you to select rows that do not match a certain condition.
 
 ### SQL LIKE
 
@@ -242,7 +242,7 @@ Outer joins are joins that return matched values and unmatched values from eithe
 
 Note: LEFT JOIN is also refered to as OUTER LEFT JOIN. RIGHT JOIN is also refered to as OUTER RIGHT JOIN. FULL OUTER JOIN is also refered to as OUTER JOIN.
 
-## SQL UNION
+### SQL UNION
 
 SQL joins allow you to combine two datasets side-by-side, but UNION allows you to stack one dataset on top of the other. Put differently, UNION allows you to write two separate SELECT statements, and to have the results of one statement display in the same table as the results from the other statement.
 
@@ -321,9 +321,9 @@ Subqueries can be used in several places within a query, but it's easiest to sta
 
 Subqueries are required to have names, which are added after parentheses the same way you would add an alias to a normal table.
 
-A quick note on formatting: The important thing to remember when using subqueries is to provide some way for the reader to easily determine which parts of the query will be executed together. Most people do this by indenting the subquery in some way. 
+A quick note on formatting: The important thing to remember when using subqueries is to provide some way for the reader to easily determine which parts of the query will be executed together. Most people do this by indenting the subquery in some way.
 
-## SQL Window Functions
+### SQL Window Functions
 
 A window function performs a calculation across a set of table rows that are somehow related to the current row. This is comparable to the type of calculation that can be done with an aggregate function. But unlike regular aggregate functions, use of a window function does not cause rows to become grouped into a single output row — the rows retain their separate identities. Behind the scenes, the window function is able to access more than just the current row of the query result.
 
@@ -343,7 +343,7 @@ Using the PARTITION BY clause will allow you to begin counting 1 again in each p
 
 **RANK() and DENSE_RANK()**
 
-RANK() is slightly different from ROW_NUMBER(). 
+RANK() is slightly different from ROW_NUMBER().
 
 You can also use DENSE_RANK() instead of RANK() depending on your application. Imagine a situation in which three entries have the same value. Using either command, they will all get the same rank.
 
@@ -369,16 +369,16 @@ SQL tuning is the process of improving SQL queries to accelerate your servers pe
 
 A database is a piece of software that runs on a computer, and is subject to the same limitations as all software---it can only process as much information as its hardware is capable of handling. The way to make a query run faster is to reduce the number of calculations that the software (and therefore hardware) must perform. To do this, you'll need some understanding of how SQL actually makes calculations. First, let's address some of the high-level things that will affect the number of calculations you need to make, and therefore your querys runtime:
 
--   Table size: If your query hits one or more tables with millions of rows or more, it could affect performance.
--   Joins: If your query joins two tables in a way that substantially increases the row count of the result set, your query is likely to be slow.
--   Aggregations: Combining multiple rows to produce a result requires more computation than simply retrieving those rows.
+- Table size: If your query hits one or more tables with millions of rows or more, it could affect performance.
+- Joins: If your query joins two tables in a way that substantially increases the row count of the result set, your query is likely to be slow.
+- Aggregations: Combining multiple rows to produce a result requires more computation than simply retrieving those rows.
 
 Query runtime is also dependent on some things that you can't really control related to the database itself:
 
--   Other users running queries: The more queries running concurrently on a database, the more the database must process at a given time and the slower everything will run. It can be especially bad if others are running particularly resource-intensive queries that fulfill some of the above criteria.
--   Database software and optimization: This is something you probably can't control, but if you know the system you're using, you can work within its bounds to make your queries more efficient.
+- Other users running queries: The more queries running concurrently on a database, the more the database must process at a given time and the slower everything will run. It can be especially bad if others are running particularly resource-intensive queries that fulfill some of the above criteria.
+- Database software and optimization: This is something you probably can't control, but if you know the system you're using, you can work within its bounds to make your queries more efficient.
 
-**Reducing table size** 
+**Reducing table size**
 
 Filtering the data to include only the observations you need can dramatically improve query speed. How you do this will depend entirely on the problem you're trying to solve. For example, if you've got time series data, limiting to a small time window can make your queries run much more quickly:
 
