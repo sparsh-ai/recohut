@@ -4,7 +4,7 @@
 
 ##### Table of Contents
 
-- [Development Foundations](#development-foundations)
+- [Developer Foundations](#developer-foundations)
 - [Data Engineering Foundations](#data-engineering-foundations)
 - [Cloud Computing and Data Engineering tools in AWS](#cloud-computing-and-data-engineering-tools-in-aws)
 - [Advanced Python Programming](#advanced-python-programming)
@@ -22,45 +22,29 @@
 - Monologue mode: 20 hrs
 - Interactive mode: 35 hours
 
-## Development Foundations
+## Developer Foundations
 
-### Tools and Concepts
+Tools: Visual Studio Code (VSCode), Anaconda Python, Github and Bash Shell
 
-1. Visual Studio Code (VSCode)
-2. Anaconda
-3. Github
-4. Bash Shell
-
-### Labs
+**Labs**
 
 * [ ] Download and Install vscode
 * [ ] Understand vscode features
 * [ ] Install extensions in vscode
-
-  * [ ] Python Extensions Pack
-  * [ ] Office Viewer
 * [ ] Download and Install Anaconda
 * [ ] Create virtual environment in anaconda
-* [ ] Create test jupyter notebook in vscode and connect to venv
+* [ ] Create jupyter notebook in vscode and connect to venv
 * [ ] Create github account
 * [ ] Install git cli
-* [ ] Create git repo and add student(s) as collaborator
+* [ ] Create git repo and add students as collaborator
 * [ ] Connect local workspace to git repo
 * [ ] Learn git commands
-
-  * git init
-  * git remote
-  * git pull
-  * git push
-  * git add
-  * git commit
-  * git branch
-  * git checkout
 * [ ] Learn bash commands
+* [ ] Download and Install DBeaver
 
 ## Data Engineering Foundations
 
-### Tools and Concepts
+In this module, we will learn the basic concepts we should know as a data engineer. We will focus primarily on the following set of questions:
 
 1. What is Data Engineering?
 2. Role of Data Engineering in Organizations
@@ -69,38 +53,27 @@
 5. What is medallion architecture?
 6. What is EL, ETL and ELT?
 7. What are the benefits of cloud computing?
+8. OLTP vs OLAP technologies
 
 ## Cloud Computing and Data Engineering tools in AWS
 
-### Tools and Concepts
+Tools: AWS S3, RDS, Redshift, AWS Glue, Athena, AWS Lambda, EMR and EMR Serverless, Keyspace, Cloudformation, AWS IAM, Secrets Manager
 
-1. AWS S3
-2. RDS
-3. Redshift
-4. AWS Glue
-5. Athena
-6. AWS Lambda
-7. EMR and EMR Serverless
-8. Keyspace
-9. Cloudformation
-10. IAM
-11. DBeaver
-
-### Labs
+**Labs**
 
 1. [ ] (Optional) Create AWS Account
 2. [ ] Create IAM user and generate credentials
 3. [ ] Install AWS CLI
 4. [ ] Setup AWS credentials
-5. [ ] Walkthrough AWS Services
+5. [ ] Walkthrough of various AWS Services
 6. [ ] Copy and Sync data to/from S3
 7. [ ] Create database in RDS DBMS and generate credentials
-8. [ ] Install DBeaver in your PC
-9. [ ] Connect to RDS DBMS from DBeaver
+8. [ ] Connect to RDS DBMS in DBeaver
+9. [ ] Pull credentials from Secrets Manager in Python using Boto3
 
 ## Python Programming
 
-### Tools and Concepts
+In this module, we will learn the essential python concepts we use in data engineering. We will primarily focus on the following topics:
 
 1. Lists and dictionaries
 2. For loops and while loops
@@ -109,14 +82,14 @@
 5. `requests` library
 6. `psycopg2` and `sqlalchemy` library
 
-### Labs
+**Labs**
 
-1. Building Functions and Classes in Python
+1. Building Functions in Python
 2. Read/Write and Manipulate Data using Pandas
 3. Data Format Conversion - CSV to Parquet, JSON to CSV/Parquet
 4. Pulling Data from APIs using requests library
 5. Connect to Postgres and Redshift from Python
-6. Load and Read the data from Postgres and Redshift using Python
+6. Load and Read the data from Postgres using Python
 
 ## SQL Programming
 

@@ -3,7 +3,18 @@
 ## Steps
 
 1. [Lab: Git Basics](./lab-git-basics.md)
-1. [Git Sim](./gitsim/)
+2. [Git Sim](./gitsim/)
+
+## Git commands
+
+* git init
+* git remote
+* git pull
+* git push
+* git add
+* git commit
+* git branch
+* git checkout
 
 ## Setup
 

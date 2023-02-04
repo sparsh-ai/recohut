@@ -4,23 +4,9 @@
 
 ## Curriculum
 
-### Basic
-
-[![](https://user-images.githubusercontent.com/62965911/215325722-1f79be37-9ec0-4fd1-ab0f-b424b0365853.svg)](./00-curriculum/01-basic.md)
-
-*(Click on the image for more details)*
-
-### Intermediate
-
-[![](https://user-images.githubusercontent.com/62965911/215347510-eb9f024f-d680-40f4-b4b3-d5b43ee15f6b.svg)](./00-curriculum/02-intermediate.md)
-
-*(Click on the image for more details)*
-
-### Advanced
-
-[![](https://user-images.githubusercontent.com/62965911/215348161-ad995de9-4221-4479-a74e-de07886d6e22.svg)](./00-curriculum/03-advanced.md)
-
-*(Click on the image for more details)*
+1. [Level 100](./00-curriculum/01-basic.md)
+2. [Level 200](./00-curriculum/02-intermediate.md)
+3. [Level 300](./00-curriculum/03-advanced.md)
 
 ## Content
 
