@@ -6,9 +6,8 @@ To understand the data storage tools and technologies in data engineering
 
 ## Steps
 
-1. [OLTP Databases](./oltp-databases)
-1. [NoSQL Databases](./nosql-databases/)
-1. [OLAP Databases](./olap-databases/)
-1. [Data Warehouses](./data-warehouses/)
-1. [Data Lakes](./data-lakes/)
-1. [Data Lakehouses](./data-lakehouses/)
+1. [SQL Databases](./databases)
+2. [NoSQL Databases](./nosql-databases/)
+3. [Data Warehouses](./data-warehouses/)
+4. [Data Lakes](./data-lakes/)
+5. [Data Lakehouses](./data-lakehouses/)
