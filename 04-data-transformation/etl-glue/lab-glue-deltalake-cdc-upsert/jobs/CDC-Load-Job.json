@@ -1,0 +1,46 @@
+{
+  "jobConfig": {
+    "name": "CDC-Load-Job",
+    "description": "",
+    "role": "arn:aws:iam::684199068947:role/glue-delta-lake-cdc-role",
+    "command": "glueetl",
+    "version": "4.0",
+    "workerType": "G.1X",
+    "numberOfWorkers": 2,
+    "maxCapacity": 2,
+    "maxRetries": 0,
+    "timeout": 2880,
+    "maxConcurrentRuns": 1,
+    "security": "none",
+    "scriptName": "CDC-Load-Job.py",
+    "scriptLocation": "s3://aws-glue-assets-684199068947-us-east-1/scripts/",
+    "language": "python-3",
+    "jobParameters": [
+      {
+        "key": "--datalake-formats",
+        "value": "delta",
+        "existing": false
+      },
+      {
+        "key": "--s3_bucket",
+        "value": "wysde-assets/labs/glue-cdc-upsert",
+        "existing": false
+      }
+    ],
+    "tags": [],
+    "jobMode": "DEVELOPER_MODE",
+    "developerMode": true,
+    "connectionsList": [],
+    "temporaryDirectory": "s3://aws-glue-assets-684199068947-us-east-1/temporary/",
+    "glueHiveMetastore": true,
+    "etlAutoTuning": false,
+    "dependentPath": "s3://wysde-assets/jars/kafka/delta-core_2.13-2.1.1.jar",
+    "pythonPath": "s3://wysde-assets/jars/kafka/delta-core_2.13-2.1.1.jar",
+    "bookmark": "job-bookmark-disable",
+    "sparkPath": "s3://aws-glue-assets-684199068947-us-east-1/sparkHistoryLogs/",
+    "flexExecution": false,
+    "minFlexWorkers": null
+  },
+  "hasBeenSaved": false,
+  "script": "import sys\nfrom awsglue.utils import getResolvedOptions\nfrom awsglue.context import GlueContext\nfrom pyspark.sql.session import SparkSession\nfrom pyspark.sql.functions import col\nfrom pyspark.sql.functions import expr\n\n## For Delta lake\nfrom delta.tables import DeltaTable\n\n\n## @params: [JOB_NAME]\nargs = getResolvedOptions(sys.argv, ['JOB_NAME','s3_bucket'])\n\n# Initialize Spark Session with Delta Lake\nspark = SparkSession \\\n.builder \\\n.config(\"spark.sql.extensions\", \"io.delta.sql.DeltaSparkSessionExtension\") \\\n.config(\"spark.sql.catalog.spark_catalog\", \"org.apache.spark.sql.delta.catalog.DeltaCatalog\") \\\n.getOrCreate()\n\n# Read the CDC load\ncdc_df = spark.read.csv(\"s3://\"+ args['s3_bucket']+\"/cdcload\")\ncdc_df.show(5,True)\n\n# now read the full load (latest data) as delta table\ndelta_df = DeltaTable.forPath(spark, \"s3://\"+ args['s3_bucket']+\"/delta/insurance/\")\ndelta_df.toDF().show(5,True)\n\n# UPSERT process if matches on the condition the update else insert\n# if there is no keyword then create a data set with Insert, Update and Delete flag and do it separately.\n# for delete it has to run in loop with delete condition, this script do not handle deletes.\n    \nfinal_df = delta_df.alias(\"prev_df\").merge( \\\nsource = cdc_df.alias(\"append_df\"), \\\n#matching on primarykey\ncondition = expr(\"prev_df.policy_id = append_df._c1\"))\\\n.whenMatchedUpdate(set= {\n    \"prev_df.expiry_date\"           : col(\"append_df._c2\"), \n    \"prev_df.location_name\"         : col(\"append_df._c3\"),\n    \"prev_df.state_code\"            : col(\"append_df._c4\"),\n    \"prev_df.region_name\"           : col(\"append_df._c5\"), \n    \"prev_df.insured_value\"         : col(\"append_df._c6\"),\n    \"prev_df.business_type\"         : col(\"append_df._c7\"),\n    \"prev_df.earthquake_coverage\"   : col(\"append_df._c8\"), \n    \"prev_df.flood_coverage\"        : col(\"append_df._c9\")} )\\\n.whenNotMatchedInsert(values =\n#inserting a new row to Delta table\n{   \"prev_df.policy_id\"             : col(\"append_df._c1\"),\n    \"prev_df.expiry_date\"           : col(\"append_df._c2\"), \n    \"prev_df.location_name\"         : col(\"append_df._c3\"),\n    \"prev_df.state_code\"            : col(\"append_df._c4\"),\n    \"prev_df.region_name\"           : col(\"append_df._c5\"), \n    \"prev_df.insured_value\"         : col(\"append_df._c6\"),\n    \"prev_df.business_type\"         : col(\"append_df._c7\"),\n    \"prev_df.earthquake_coverage\"   : col(\"append_df._c8\"), \n    \"prev_df.flood_coverage\"        : col(\"append_df._c9\")\n})\\\n.execute()"
+}

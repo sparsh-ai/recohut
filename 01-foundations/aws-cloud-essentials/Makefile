@@ -23,6 +23,13 @@ create_role:
 attach_policy_to_role:
 	aws iam attach-role-policy --policy-arn <> --role-name <>
 
+iam_keys_rotation:
+	aws iam list-users
+	aws iam list-access-keys --user-name jan31
+	aws iam create-access-key --user-name jan31
+	aws iam update-access-key --access-key-id <> --status Inactive --user-name jan31
+	aws iam delete-access-key --access-key-id <> --user-name jan31
+
 create-redshift-cluster:
 # Use the following command to create a two-node dc2.large cluster with the minimal set of parameters of cluster-identifier (any unique identifier for the cluster), node-type/number-of-nodes and the master user credentials. Replace $MasterUserPassword in the following command with a password of your choice. The password must be 8-64 characters long and must contain at least one uppercase letter, one lowercase letter, and one number. You can use any printable ASCII character except /, "", or, or @:
 	aws redshift create-cluster --node-type dc2.large --number-of-nodes 2 --master-username adminuser --master-user-password $MasterUserPassword --cluster-identifier myredshiftcluster

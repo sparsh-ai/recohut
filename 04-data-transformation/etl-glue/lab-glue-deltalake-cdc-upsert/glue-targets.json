@@ -1,0 +1,8 @@
+{
+  "DeltaTargets": [
+    {
+      "DeltaTables": ["s3://wysde-assets/labs/glue-cdc-upsert/delta/insurance"],
+      "CreateNativeDeltaTable": true
+    }
+  ]
+}

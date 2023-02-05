@@ -1,0 +1,26 @@
+policy_id,expiry_date,location_name,state_code,region_name,insured_value,business_type,earthquake,flood
+200242,2023-01-02,Urban,NY,East,1617630,Retail,N,N
+200314,2023-01-02,Urban,NY,East,8678500,Apartment,Y,Y
+200359,2023-01-02,Rural,WI,Midwest,2052660,Farming,N,N
+200315,2023-01-02,Urban,NY,East,17580000,Apartment,Y,Y
+200385,2023-01-02,Urban,NY,East,1925000,Hospitality,N,N
+200388,2023-01-04,Urban,IL,Midwest,12934500,Apartment,Y,Y
+200358,2023-01-05,Urban,WI,Midwest,928300,Office Bldg,N,N
+200264,2023-01-07,Rural,NY,East,2219900,Farming,N,N
+200265,2023-01-07,Urban,NY,East,14100000,Apartment,Y,Y
+100582,2023-03-25,Urban,NJ,East,4651680,Apartment,Y,Y
+100487,2023-03-25,Urban,NY,East,5990067,Apartment,N,N
+100519,2023-03-25,Rural,NY,East,4102500,Farming,N,N
+100462,2023-03-25,Urban,NY,East,3400000,Construction,Y,Y
+100486,2023-03-26,Urban,NY,East,9973900,Apartment,Y,Y
+100463,2023-03-27,Urban,NY,East,15480000,Office Bldg,Y,Y
+100595,2023-03-27,Rural,NY,East,2446600,Farming,N,N
+100617,2023-03-27,Urban,VT,Northeast,8861500,Office Bldg,N,N
+100580,2023-03-30,Urban,NH,Northeast,97920,Office Bldg,Y,Y
+100581,2023-03-30,Urban,NY,East,5150000,Apartment,Y,Y
+100475,2023-03-31,Rural,WI,Midwest,1451662,Farming,N,N
+100503,2023-03-31,Urban,NJ,East,1761960,Office Bldg,N,N
+100504,2023-03-31,Rural,NY,East,1649105,Farming,N,N
+100616,2023-03-31,Urban,NY,East,2329500,Apartment,N,N
+100611,2023-04-25,Urban,NJ,East,1595500,Office Bldg,Y,Y
+100621,2023-04-25,Urban,MI,Central,394220,Retail,N,N

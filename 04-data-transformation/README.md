@@ -9,15 +9,15 @@
 ## ELT
 
 1. [DBT](./elt-dbt/)
-1. [Snowpark](./elt-snowpark/)
+2. [Snowpark](./elt-snowpark/)
 
 ## ETL
 
-1. [Databricks & PySpark](./etl-databricks-pyspark/)
-1. [Cloud Dataproc](./etl-dataproc/)
-1. [EMR](./etl-emr/)
-1. [Glue Studio](./etl-glue-studio/)
-1. [Lambda Function](./etl-lambda-function/)
+1. [Databricks &amp; PySpark](./etl-databricks-pyspark/)
+2. [Cloud Dataproc](./etl-dataproc/)
+3. [EMR](./etl-emr/)
+4. [Glue Studio](./etl-glue/)
+5. [Lambda Function](./etl-lambda-function/)
 
 ## Note
 
@@ -62,10 +62,10 @@ Some common transformations to know are
 Some points you need answered/explored are
 
 1. How does transformation time increase with an increase in the data size? Is it linear or worse? Hint: A cross join will not scale linearly
-1. Read the data warehouse documentation to know what features exist. This allows you to go back to the docs in case you need to use a feature. Most transformations can be done within your data warehouse.
-1. When evaluating performance be aware of cached reads on subsequent queries.
-1. When possible, filter the data before or during the transformation query.
-1. Most SQL queries are a mix of wide and narrow transformations.
+2. Read the data warehouse documentation to know what features exist. This allows you to go back to the docs in case you need to use a feature. Most transformations can be done within your data warehouse.
+3. When evaluating performance be aware of cached reads on subsequent queries.
+4. When possible, filter the data before or during the transformation query.
+5. Most SQL queries are a mix of wide and narrow transformations.
 
 #### Query planner
 
@@ -83,7 +83,7 @@ In short
 #### File format optimizations
 
 CSV, XML, JSON, and other types of plaintext files are commonly used to store structured and semi-structured data. These file formats are useful when manually exploring data, but there are much better, binary-based file formats to use for computer-based analytics. A common binary format that is optimized for read-heavy analytics is the Apache Parquet format. A common transformation is to convert plaintext files into an optimized format, such as Apache Parquet.
-    
+
 Within modern data lake environments, there are a number of file formats that can be used that are optimized for data analytics. From an analytics perspective, the most popular file format currently is **Apache Parquet**.
 
 **Parquet** files are columnar-based, meaning that the contents of the file are physically stored to have data grouped by columns, rather than grouped by rows as with most file formats. (CSV files, for example, are physically stored to be grouped by rows.) As a result, queries that select a set of specific columns (rather than the entire row) do not need to read through all the data in the Parquet file to return a result, leading to performance improvements.

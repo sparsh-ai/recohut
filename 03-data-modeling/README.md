@@ -168,6 +168,22 @@ So how do we build a Star Schema? [As proposed by Kimball](https://www.kimballg
 - [ACID](https://en.wikipedia.org/wiki/ACID) databases choose consistency over availability.
 - [BASE](https://en.wikipedia.org/wiki/Eventual_consistency) systems choose availability over consistency.
 
+### Best Practices
+
+**Database design** is a critical aspect of any software system. It determines the overall performance, scalability, and security of a system. Here are 9 best practices for designing a database that ensures the longevity and success of your system:
+
+1. **Normalization:** Normalization is the process of organizing data in a relational database so that data redundancies are minimized and data anomalies are prevented. Normalization helps ensure data consistency and eliminates data duplications.
+2. **Proper indexing:** Indexing is the process of adding an index to a database column to speed up the search process. Proper indexing helps improve the performance of queries and makes data retrieval faster.
+3. **Use appropriate data types:** It is important to use appropriate data types for each column in your database. This helps ensure data accuracy and consistency.
+4. **Avoid over-normalization:** While normalization is important, over-normalization can lead to complicated and slow-performing queries. It is important to strike a balance between normalization and efficiency.
+5. **Use appropriate keys:** Keys are used to identifying a unique record in a database. It is important to choose the appropriate key for each table, such as primary keys, foreign keys, or composite keys.
+6. **Document your design:** Documenting your database design helps ensure that it is clear, consistent, and easy to understand. This documentation also makes it easier to maintain and modify the database in the future.
+7. **Test your design:** It is important to test your database design thoroughly before deploying it to production. This helps catch any potential problems and ensures that the design meets all requirements.
+8. **Consider security:** Security is a critical aspect of database design. It is important to consider security from the beginning of the design process to ensure that the database is protected from unauthorized access.
+9. **Plan for scalability:** As your system grows, so will your database. It is important to plan for scalability from the beginning so that the database can easily handle increasing amounts of data.
+
+Following these 9 best practices for database design will help ensure that your system has a strong foundation for success. Proper planning, documentation, testing, and security considerations will help ensure that your database is efficient, secure, and scalable.
+
 ## Check your understanding
 
 1. What is Data Normalization?

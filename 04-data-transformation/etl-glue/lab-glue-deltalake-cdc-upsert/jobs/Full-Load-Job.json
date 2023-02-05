@@ -1,0 +1,52 @@
+{
+  "dag": {},
+  "jobConfig": {
+    "command": "glueetl",
+    "description": "",
+    "role": "arn:aws:iam::684199068947:role/glue-delta-lake-cdc-role",
+    "scriptName": "Full-Load-Job.py",
+    "version": "3.0",
+    "language": "python-3",
+    "scriptLocation": "s3://aws-glue-assets-684199068947-us-east-1/scripts/",
+    "temporaryDirectory": "s3://aws-glue-assets-684199068947-us-east-1/temporary/",
+    "timeout": 2880,
+    "maxConcurrentRuns": 1,
+    "workerType": "G.1X",
+    "numberOfWorkers": "2",
+    "maxRetries": 0,
+    "metrics": false,
+    "security": "none",
+    "bookmark": "job-bookmark-disable",
+    "logging": false,
+    "spark": false,
+    "sparkPath": "s3://aws-glue-assets-684199068947-us-east-1/sparkHistoryLogs/",
+    "serverEncryption": false,
+    "glueHiveMetastore": true,
+    "etlAutoScaling": false,
+    "etlAutoTuning": false,
+    "jobParameters": [
+      {
+        "key": "--datalake-formats",
+        "value": "delta",
+        "existing": false,
+        "markedForRemoval": false,
+        "valid": true
+      },
+      {
+        "key": "--s3_bucket",
+        "value": "wysde-assets/labs/glue-cdc-upsert",
+        "existing": false,
+        "markedForRemoval": false,
+        "valid": true
+      }
+    ],
+    "tags": [],
+    "connectionsList": [],
+    "jobMode": "DEVELOPER_MODE",
+    "name": "Full-Load-Job",
+    "pythonPath": "s3://wysde-assets/jars/kafka/delta-core_2.13-2.2.0.jar",
+    "dependentPath": "s3://wysde-assets/jars/kafka/delta-core_2.13-2.2.0.jar"
+  },
+  "hasBeenSaved": false,
+  "script": "import sys\nfrom awsglue.utils import getResolvedOptions\nfrom pyspark.sql.session import SparkSession\nfrom pyspark.sql.types import *\n\n## @params: [JOB_NAME]\nargs = getResolvedOptions(sys.argv, ['JOB_NAME','s3_bucket'])\n\n# Initialize Spark Session with Delta Lake\nspark = SparkSession \\\n.builder \\\n.config(\"spark.sql.extensions\", \"io.delta.sql.DeltaSparkSessionExtension\") \\\n.config(\"spark.sql.catalog.spark_catalog\", \"org.apache.spark.sql.delta.catalog.DeltaCatalog\") \\\n.getOrCreate()\n\n#Define the table schema\nschema = StructType() \\\n      .add(\"policy_id\",IntegerType(),True) \\\n      .add(\"expiry_date\",DateType(),True) \\\n      .add(\"location_name\",StringType(),True) \\\n      .add(\"state_code\",StringType(),True) \\\n      .add(\"region_name\",StringType(),True) \\\n      .add(\"insured_value\",IntegerType(),True) \\\n      .add(\"business_type\",StringType(),True) \\\n      .add(\"earthquake_coverage\",StringType(),True) \\\n      .add(\"flood_coverage\",StringType(),True) \n\n# Read the full load\nsdf = spark.read.format(\"csv\").option(\"header\",True).schema(schema).load(\"s3://\"+ args['s3_bucket']+\"/fullload/\")\nsdf.printSchema()\n\n# Write data as DELTA TABLE\nsdf.write.format(\"delta\").mode(\"overwrite\").save(\"s3://\"+ args['s3_bucket']+\"/delta/insurance/\")\n"
+}
