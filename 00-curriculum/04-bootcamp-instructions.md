@@ -1,5 +1,11 @@
 # Bootcamp Instructions
 
+## Training methods
+
+1. Agile: You will design your own learning modules and I will be your scrum master, guiding you in your learning path.
+2. Monologue: I will be showing you the process on my screen and you will be asking questions/doubts.
+3. Interactive: You will be doing the hands-on on your system and I will be guiding you step by step.
+
 ## Assignments
 
 - In assignments, you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the classes to figure out how to complete the tasks on your own!
