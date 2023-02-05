@@ -1,12 +1,12 @@
-# Data Engineering
+# Data Engineering Bootcamp
 
 **Hit the ⭐️ button if you like the repo.**
 
 ## Curriculum
 
-1. [Level 100](./00-curriculum/01-basic.md)
-2. [Level 200](./00-curriculum/02-intermediate.md)
-3. [Level 300](./00-curriculum/03-advanced.md)
+1. [Beginner](./00-curriculum/01-basic.md)
+2. [Intermediate](./00-curriculum/02-intermediate.md)
+3. [Advanced](./00-curriculum/03-advanced.md)
 
 ## Content
 

@@ -8,6 +8,7 @@
 4. [Lab: Load and Analyze Sales data in Postgres](./lab-postgres-sales/)
 5. [Lab: Window Functions in Postgres](./window-functions.ipynb)
 6. [Lab: Slowly Changing Dimensions in Postgres](./slowly-changing-dimensions.ipynb)
+7. [Lab: ETL using shell scripts](./lab-bash-etl)
 
 ## Note
 
@@ -112,6 +113,14 @@ The world learned about everything from this small mention on the PostgreSQL.org
 If there’s such a thing as a cool job, working with guys who fly in space and perhaps know if aliens are out there is one of them.
 
 If there’s such a thing as a cool job, working with guys who fly in space and perhaps know if aliens are out there is one of them.
+
+## How to connect to Postgres
+
+1. Connect via VS-Code SQLTools Extension
+2. Connect via DBeaver
+3. Connect via pgpAdmin
+4. Connect via CLI
+5. Connect via Python
 
 ## Resources
 
