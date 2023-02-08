@@ -37,3 +37,31 @@ psql_general:
 	GRANT ALL ON DATABASE <db_name> TO <user_name>;
 	GRANT pg_read_server_files TO <user_name>;
 	\q
+
+connect_py:
+	import boto3
+	import json
+
+	def get_secret(secret_name, region_name="us-east-1"):
+		session = boto3.session.Session()
+		client = session.client(
+			service_name='secretsmanager',
+			region_name=region_name)
+		get_secret_value_response = client.get_secret_value(SecretId=secret_name)
+		get_secret_value_response = json.loads(get_secret_value_response['SecretString'])
+		return get_secret_value_response
+
+	creds = get_secret("wysde")
+	USERNAME = creds["RDS_POSTGRES_USERNAME"]
+	PASSWORD = creds["RDS_POSTGRES_PASSWORD"]
+	HOST = creds["RDS_POSTGRES_HOST"]
+	DATABASE = 'sparsh'
+
+	conn_str = 'postgresql://{0}:{1}@{2}/{3}'.format(USERNAME, PASSWORD, HOST, DATABASE)
+
+	%config SqlMagic.autopandas=True
+	%config SqlMagic.displaycon=False
+	%config SqlMagic.feedback=False
+	%config SqlMagic.displaylimit=5
+	%reload_ext sql
+	%sql {conn_str}
