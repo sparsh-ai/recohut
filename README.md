@@ -30,3 +30,4 @@
 - Agency Partner 1: `+91 84840 05449`
 - Agency Partner 2: `+91 95177 20888`
 - Agency Partner 3: `+91 74706 13433`
+- Direct: [Say `Hi` on Whatsapp](https://api.whatsapp.com/send?phone=918384805365&text=Hi%20Sparsh%0AI%20am%20interested%20in%20the%20data%20engineering%20bootcamp)
