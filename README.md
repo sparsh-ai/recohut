@@ -27,7 +27,8 @@
 
 ## How to Join
 
-- Agency Partner 1: `+91 84840 05449`
-- Agency Partner 2: `+91 95177 20888`
-- Agency Partner 3: `+91 74706 13433`
-- Direct: [Say `Hi` on Whatsapp](https://api.whatsapp.com/send?phone=918384805365&text=Hi%20Sparsh%0AI%20am%20interested%20in%20the%20data%20engineering%20bootcamp)
+| Option           | Contact                                                                                                                                                                  | Region      | Details                                                                             |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- | ----------------------------------------------------------------------------------- |
+| Agency Partner 1 | [Whatsapp](https://api.whatsapp.com/send?phone=919517720888&text=Hi%20Sowmya%20(WeHire)%0AI%20am%20interested%20in%20the%20data%20engineering%20training%20from%20Sparsh)   | US & India  | Pay for the training to the agency partner directly                                 |
+| Agency Partner 2 | [Whatsapp](https://api.whatsapp.com/send?phone=918484005449&text=Hi%20Vishwas%20(Wynisco)%0AI%20am%20interested%20in%20the%20data%20engineering%20training%20from%20Sparsh) | US & Canada | Pay after getting hired - 15% of your income for 1 year, directly to agency partner |
+| Direct           | [Whatsapp](https://api.whatsapp.com/send?phone=918384805365&text=Hi%20Sparsh%0AI%20am%20interested%20in%20the%20data%20engineering%training)                                | Global      | Directly hire me for 1:1 or 1:many training @ $25/hr                                |

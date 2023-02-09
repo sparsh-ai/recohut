@@ -1,48 +1,31 @@
 # Basic Curriculum
 
-![](https://user-images.githubusercontent.com/62965911/215325722-1f79be37-9ec0-4fd1-ab0f-b424b0365853.svg)
-
-##### Table of Contents
-
-- [Developer Foundations](#developer-foundations)
-- [Data Engineering Foundations](#data-engineering-foundations)
-- [Cloud Computing and Data Engineering tools in AWS](#cloud-computing-and-data-engineering-tools-in-aws)
-- [Python Programming](#python-programming)
-- [SQL Programming](#sql-programming)
-- [PySpark Programming](#pyspark-programming)
-- [Scala Programming](#scala-programming)
-- [Data Modeling with RDBMS/NoSQL](#data-modeling-with-rdbms-nosql)
-- [Data Warehouse and Data Lakes](#data-warehouse-and-data-lakes)
-- [Big Data Processing](#big-data-processing)
-- [Building Data Pipelines](#building-data-pipelines)
-- [End-to-End Industry Grade Project](#end-to-end-industry-grade-project)
-
-##### Estimated Time:
+**Estimated Time**
 
 - Monologue mode: 20 hrs
 - Interactive mode: 35 hours
 
-## Developer Foundations
+## Module 1 - Developer Foundations
 
 Tools: Visual Studio Code (VSCode), Anaconda Python, Github and Bash Shell
 
 **Labs**
 
-* [ ] Download and Install vscode
-* [ ] Understand vscode features
-* [ ] Install extensions in vscode
-* [ ] Download and Install Anaconda
-* [ ] Create virtual environment in anaconda
-* [ ] Create jupyter notebook in vscode and connect to venv
-* [ ] Create github account
-* [ ] Install git cli
-* [ ] Create git repo and add students as collaborator
-* [ ] Connect local workspace to git repo
-* [ ] Learn git commands
-* [ ] Learn bash commands
-* [ ] Download and Install DBeaver
+1. [ ] Download and Install vscode
+1. [ ] Understand vscode features
+1. [ ] Install extensions in vscode
+1. [ ] Download and Install Anaconda
+1. [ ] Create virtual environment in anaconda
+1. [ ] Create jupyter notebook in vscode and connect to venv
+1. [ ] Create github account
+1. [ ] Install git cli
+1. [ ] Create git repo and add students as collaborator
+1. [ ] Connect local workspace to git repo
+1. [ ] Learn git commands
+1. [ ] Learn bash commands
+1. [ ] Download and Install DBeaver
 
-## Data Engineering Foundations
+## Module 2 - Data Engineering Foundations
 
 In this module, we will learn the basic concepts we should know as a data engineer. We will focus primarily on the following set of questions:
 
@@ -55,9 +38,9 @@ In this module, we will learn the basic concepts we should know as a data engine
 7. What are the benefits of cloud computing?
 8. OLTP vs OLAP technologies
 
-## Cloud Computing and Data Engineering tools in AWS
+## Module 3 - Cloud Computing and Data Engineering tools in Cloud
 
-Tools: AWS S3, RDS, Redshift, AWS Glue, Athena, AWS Lambda, EMR and EMR Serverless, Keyspace, Cloudformation, AWS IAM, Secrets Manager
+**Tools**: AWS S3, RDS, Redshift, AWS Glue, Athena, AWS Lambda, EMR and EMR Serverless, Keyspace, Cloudformation, AWS IAM, Secrets Manager, Azure and GCP overview
 
 **Labs**
 
@@ -70,8 +53,10 @@ Tools: AWS S3, RDS, Redshift, AWS Glue, Athena, AWS Lambda, EMR and EMR Serverle
 7. [ ] Create database in RDS DBMS and generate credentials
 8. [ ] Connect to RDS DBMS in DBeaver
 9. [ ] Pull credentials from Secrets Manager in Python using Boto3
+1. [ ] Azure Cloud Overview
+1. [ ] GCP Cloud Overview
 
-## Python Programming
+## Module 4 - Python Programming
 
 In this module, we will learn the essential python concepts we use in data engineering. We will primarily focus on the following topics:
 
@@ -91,24 +76,24 @@ In this module, we will learn the essential python concepts we use in data engin
 5. Connect to Postgres and Redshift from Python
 6. Load and Read the data from Postgres using Python
 
-## SQL Programming
+## Module 5 - SQL Programming
 
-### Labs
+**Labs**
 
 1. [ ] SQL Basic - SELECT, LIMIT, WHERE, Comparison and Logical Operators, ORDER BY
 2. [ ] SQL Intermediate - Aggregation Functions, GROUP BY, CASE, JOINS
 3. [ ] SQL Advanced - Dates, Texts, Subqueries, Window Functions, EXPLAIN
 
-## PySpark Programming
+## Module 6 - PySpark Programming
 
-### Tools and Concepts
+**Tools and Concepts**
 
 1. Spark and Hadoop Fundamentals
 2. Databricks
 3. Spark UDFs
 4. Spark Dataframe API
 
-### Labs
+**Labs**
 
 1. [ ] Create Databricks Account
 2. [ ] Create Spark Cluster in Databricks
@@ -119,17 +104,17 @@ In this module, we will learn the essential python concepts we use in data engin
 7. [ ] Connect AWS to PySpark
 8. [ ] ETL Pipeline with AWS S3 and PySpark
 
-## Scala Programming
+## Module 7 - Scala Programming
 
-### Labs
+**Labs**
 
 1. [ ] Introduction to Scala Programming
 2. [ ] Transform complex data types
 3. [ ] Extract and Load Process with Spark Scala, S3 and Postgres
 
-## Data Modeling with RDBMS/NoSQL
+## Module 8 - Data Modeling with RDBMS/NoSQL
 
-### Tools and Concepts
+**Tools and Concepts**
 
 1. Data Modeling
 2. SQL vs NoSQL
@@ -137,44 +122,45 @@ In this module, we will learn the essential python concepts we use in data engin
 4. Postgres
 5. Cassandra
 
-### Labs
+**Labs**
 
 1. [ ] Music Data Modeling with Postgres
 2. [ ] Music Data Modeling with Cassandra
 3. [ ] Healthcare Data Modeling with Postgres
+4. [ ] Building Data Model in Snowflake
 
-## Data Warehouse and Data Lakes
+## Module 9 - Data Warehouse and Data Lakes
 
-### Tools and Concepts
+**Tools**: Redshift, S3, Snowflake, BigQuery, Deltalake, Athena
 
-1. Data Warehouses vs Data Lakes
-2. Data Lakes and Lakehouses
+**Concepts**: Data Warehouses, Data Lakes, Data Lakehouses
 
-### Labs
+**Labs**
 
 1. [ ] Loading Data into Redshift
 2. [ ] Queries in Redshift
-3. [ ] Data lake with AWS, S3 and Athena
-4. [ ] Working with Delta lake in Databricks
+3. [ ] Loading Data into Snowflake
+4. [ ] Queries in Snowflake
+5. [ ] GCP BigQuery Overview
+6. [ ] Data lake with AWS, S3 and Athena
+7. [ ] Working with Delta lake in Databricks
 
-## Big Data Processing
+## Module 10 - Big Data Processing
 
-### Tools and Concepts
+**Tools**: EMR (Serverless), Databricks, dbt, Lambda
 
-1. Spark Jobs
-2. EMR and EMR Serverless
-3. Databricks
-4. dbt
+**Concepts**: Spark and Hadoop, Spark Jobs, Big Data Processing, Clusters, Horizontal and Vertical Scaling
 
-### Labs
+**Labs**
 
 1. [ ] Processing data with EMR Serverless
-2. [ ] Processing data using dbt in Redshift
+2. [ ] Processing data using dbt in Snowflake
 3. [ ] Processing data with Databricks
+4. [ ] Building Serverless Pipeline in Lambda
 
-## Building Data Pipelines
+## Module 11 - Building Data Pipelines
 
-### Tools and Concepts
+**Tools and Concepts**
 
 1. Data Pipelines (ETL/ELT)
 2. Apache Airflow
@@ -185,14 +171,16 @@ In this module, we will learn the essential python concepts we use in data engin
    5. Schedules
    6. etc.
 
-### Labs
+**Labs**
 
 1. [ ] Install Airflow in your PC
-2. [ ] First DAG of executing Bash commands in Pipeline
+2. [ ] First DAG/Pipeline - executing Bash commands
 3. [ ] CSV to JSON ETL Pipeline
 4. [ ] ACLED Data Pipeline
 
-## End-to-End Industry Grade Project
+## Module 12 - End-to-End Industry Grade Project
+
+Project: Building an ELT pipeline with dbt and Redshift
 
 - We will build an end-to-end project with tools and concepts we learned and adopted in the training sessions.
 - The project will be added in your resume.

@@ -4,15 +4,17 @@
 
 ![key_capabilities](https://user-images.githubusercontent.com/62965911/214893307-67708ea2-5f96-4332-9c30-907a6cdfda78.png)
 
-## Glue Data Catalog
-
-The AWS Glue Data Catalog is a central repository to store structural and operational metadata for all your data assets. For a given data set, you can store its table definition, physical location, add business relevant attributes, as well as track how this data has changed over time. AWS Glue provides a number of ways to populate metadata into the AWS Glue Data Catalog. AWS Glue Data Catalog is Apache Hive Metastore compatible. You can point to the Glue Data Catalog endpoint and use it as an Apache Hive Metastore replacement. The metadata stored in the AWS Glue Data Catalog can be readily accessed from Glue ETL, Amazon Athena, Amazon EMR, Amazon Redshift Spectrum, and third-party services.
-
 ## Glue Crawler
 
 AWS Glue crawler connects to a data store, progresses through a prioritized list of classifiers to extract the schema of your data and other statistics, and then populates the Glue Data Catalog with this metadata. Crawlers can run periodically to detect the availability of new data as well as changes to existing data, including table definition changes. Crawlers automatically add new tables, new partitions to existing tables, and new versions of table definitions. You can customize Glue crawlers to classify your own file types.
 
 When you define a crawler, you choose one or more classifiers that evaluate the format of your data to infer a schema. When the crawler runs, the first classifier in your list to successfully recognize your data store is used to create a schema for your table. You can use built-in classifiers or define your own. You define your custom classifiers in a separate operation, before you define the crawlers. AWS Glue provides built-in classifiers to infer schemas from common files with formats that include JSON, CSV, and Apache Avro.
+
+## Glue Data Catalog
+
+The AWS Glue Data Catalog is a central repository to store structural and operational metadata for all your data assets. For a given data set, you can store its table definition, physical location, add business relevant attributes, as well as track how this data has changed over time. AWS Glue provides a number of ways to populate metadata into the AWS Glue Data Catalog. AWS Glue Data Catalog is Apache Hive Metastore compatible. You can point to the Glue Data Catalog endpoint and use it as an Apache Hive Metastore replacement. The metadata stored in the AWS Glue Data Catalog can be readily accessed from Glue ETL, Amazon Athena, Amazon EMR, Amazon Redshift Spectrum, and third-party services.
+
+![awsglue](https://user-images.githubusercontent.com/62965911/217855503-54966554-7971-4d11-bac8-c601047291d9.png)
 
 ## Glue Studio
 
@@ -56,9 +58,8 @@ Using the Interactive Sessions API, customers can programmatically run applicati
 
 Interactive sessions therefore provide a faster, cheaper, more-flexible way to build and run data preparation and analytics applications.
 
-:::note
+**Note**
 AWS Glue provides multiple options to develop and test Spark code. Data engineers and data scientists can use tools of their choice to author Glue ETL scripts before deploying them to production. Data scientists can continue to work with Sagemaker notebooks connected to Glue Dev Endpoint, others can use Glue Job Notebooks to quickly launch and use jupyter-based fully-managed notebooks directly in browser. If you prefer to work locally, you can use Glue interactive sessions.
-:::
 
 ## Glue Workflows
 
