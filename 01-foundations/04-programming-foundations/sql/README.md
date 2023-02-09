@@ -1,4 +1,4 @@
-# SQL Fundamentals
+# SQL
 
 SQL is a must-have skill for data engineers. They use the querying language to perform essential tasks like modeling data, extracting performance metrics, and developing reusable data structures.
 
@@ -16,6 +16,37 @@ This data engineering SQL questions guide provides an overview of the types of q
 Watch this video: https://www.youtube.com/embed/AK7_m-aThfw
 
 [This](https://techtfq.com/blog/top-20-sql-interview-questions) is the blog link for the above video.
+
+## Steps
+
+### Concepts
+
+1. [SQL Interview Questions](./sql-interviews-questions.md)
+3. [SQL vs NoSQL](./sql-vs-nosql.md)
+
+### Practice
+
+1. [Assignment 1](./sql-assignments/assignment1/)
+2. [Assignment 2](./sql-assignments/assignment2/)
+3. [Assignment 3](./sql-assignments/assignment3/)
+4. [Assignment 4](./sql-assignments/assignment4/)
+5. [Assignment 5](./sql-assignments/assignment5/)
+6. [Assignment 6](./sql-assignments/assignment6/)
+7. [Assignment 7](./sql-assignments/assignment7/)
+
+### Leetcode
+
+1. [Leetcode Easy Level](./leetcode/basics)
+2. [Leetcode Medium Level](./leetcode/intermediate)
+3. [Leetcode Hard Level](./leetcode/advanced)
+
+### Mode Analytics
+
+Learning SQL basics by hands-on practice on MySQL database.
+
+1. [Mode Easy Level](./mode/basics)
+2. [Mode Medium Level](./mode/intermediate)
+3. [Mode Hard Level](./mode/advanced)
 
 ## Basics
 

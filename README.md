@@ -1,10 +1,14 @@
-# Data Engineering Bootcamp
+# Data Bootcamp
 
 **Hit the ⭐️ button if you like the repo.**
 
 ## Curriculum
 
-![advanced-bg](https://user-images.githubusercontent.com/62965911/216822120-17282162-dfb5-4e12-9295-a49241efb35f.svg)
+### Data Engineering
+
+1. [Basics Curriculum](./00-curriculum/de-basic.md) (Best for beginners coming from non-data background)
+2. [Intermediate Curriculum](./00-curriculum/de-intermediate.md) (Best for data analysts/scientists looking to expand their skillset)
+3. [Advanced Curriculum](./00-curriculum/de-advanced.md) (Best for junior data engineers and senior data analysts/scientists)
 
 ## Timeline
 
