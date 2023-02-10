@@ -40,48 +40,65 @@ This lab focuses on provisioning, uploading, and managing the data life cycle in
 
 ### Securing and Monitoring Data in Azure Data Lake
 
-Covers securing an Azure Data Lake account using firewall and private links, accessing data lake accounts using managed identities, and monitoring an Azure Data Lake account using Azure Monitor.
+[Source code](../02-data-storages/data-lakes/azure-data-lakes/lab-securing-monitoring-lakes)
 
-## Building Data Ingestion Pipelines Using Azure Data Factory
+This lab covers securing an Azure Data Lake account using firewall and private links, accessing data lake accounts using managed identities, and monitoring an Azure Data Lake account using Azure Monitor.
 
-Covers ingesting data using Azure Data Factory and copying data between Azure SQL Database and Azure Data Lake.
+- Recipe 1 - Configuring a firewall for an Azure Data Lake account using the Azure portal
+- Recipe 2 - Configuring virtual networks for an Azure Data Lake account using the Azure portal
+- Recipe 3 - Configuring encryption using Azure Key Vault for Azure Data Lake
+- Recipt 4 - Creating an alert to monitor an Azure storage account
 
-## Azure Data Factory Integration Runtime
+## Azure Data Factory
 
-Focuses on configuring and managing self-hosted integration runtimes and running SSIS packages in Azure using Azure-SSIS integration runtimes.
+### Building Data Ingestion Pipelines Using Azure Data Factory
 
-## Configuring and Securing Azure SQL Database
+This lab covers ingesting data using Azure Data Factory and copying data between Azure SQL Database and Azure Data Lake.
 
-Covers configuring a Serverless SQL database, Hyperscale SQL database, and securing Azure SQL Database using virtual networks and private links.
+### Azure Data Factory Integration Runtime
 
-## Implementing High Availability and Monitoring in Azure SQL Database
+This lab focuses on configuring and managing self-hosted integration runtimes and running SSIS packages in Azure using Azure-SSIS integration runtimes.
 
-Explains configuring high availability to Azure SQL Database using auto-failover groups and read replicas, monitoring Azure SQL Database, and the automated scaling of Azure SQL Database during utilization spikes.
+## Azure SQL Database
 
-## Processing Data Using Azure Databricks
+### Configuring and Securing Azure SQL Database
 
-Covers integrating Azure Databricks with Azure Data Lake and Azure Key Vault, processing data using Databricks notebooks, working with Delta tables, and visualizing Delta tables using Power BI.
+This lab covers configuring a Serverless SQL database, Hyperscale SQL database, and securing Azure SQL Database using virtual networks and private links.
 
-## Processing Data Using Azure Synapse Analytics
+### Implementing High Availability and Monitoring in Azure SQL Database
 
-Covers exploring data using Synapse Serverless SQL pool, processing data using Synapse Spark Pools, Working with Synapse Lake database, and integrating Synapse Analytics with Power BI.
+This lab explains configuring high availability to Azure SQL Database using auto-failover groups and read replicas, monitoring Azure SQL Database, and the automated scaling of Azure SQL Database during utilization spikes.
 
-## Transforming Data Using Azure Synapse Dataflows
+## Azure Databricks
 
-Focuses on performing transformations using Synapse Dataflows, optimizing data flows using partitioning, and managing dynamic source schema changes using schema drifting.
+### Processing Data Using Azure Databricks
 
-## Building the Serving Layer in Azure Synapse SQL Pools
+This lab covers integrating Azure Databricks with Azure Data Lake and Azure Key Vault, processing data using Databricks notebooks, working with Delta tables, and visualizing Delta tables using Power BI.
 
-Covers loading processed data into Synapse dedicated SQL pools, performing data archival using partitioning, managing table distributions, and optimizing performance using statistics and workload management.
+## Azure Synapse Analytics
 
-## Monitoring Synapse SQL and Spark Pools
+### Processing Data Using Azure Synapse Analytics
 
-Covers monitoring Synapse dedicated SQL and Spark pools using Azure Log Analytics workbooks, Kusto scripts, and Azure Monitor, and monitoring Synapse dedicated SQL pools using Dynamic Management Views (DMVs).
+This lab covers exploring data using Synapse Serverless SQL pool, processing data using Synapse Spark Pools, Working with Synapse Lake database, and integrating Synapse Analytics with Power BI.
 
-## Optimizing and Maintaining Synapse SQL and Spark Pools
+### Transforming Data Using Azure Synapse Dataflows
 
-Offers techniques for tuning query performance by optimizing query plans, rebuilding replication caches and maintenance scripts to optimize Delta tables, and automatically pausing SQL pools during inactivity, among other things.
+This lab focuses on performing transformations using Synapse Dataflows, optimizing data flows using partitioning, and managing dynamic source schema changes using schema drifting.
 
-## Monitoring and Maintaining Azure Data Engineering Pipelines
+### Building the Serving Layer in Azure Synapse SQL Pools
 
-Covers monitoring and managing end-to-end data engineering pipelines, which includes tracking data lineage using Microsoft Purview and improving the observability of pipeline executions using log analytics and query labeling.
+This lab covers loading processed data into Synapse dedicated SQL pools, performing data archival using partitioning, managing table distributions, and optimizing performance using statistics and workload management.
+
+### Monitoring Synapse SQL and Spark Pools
+
+This lab covers monitoring Synapse dedicated SQL and Spark pools using Azure Log Analytics workbooks, Kusto scripts, and Azure Monitor, and monitoring Synapse dedicated SQL pools using Dynamic Management Views (DMVs).
+
+### Optimizing and Maintaining Synapse SQL and Spark Pools
+
+This lab offers techniques for tuning query performance by optimizing query plans, rebuilding replication caches and maintenance scripts to optimize Delta tables, and automatically pausing SQL pools during inactivity, among other things.
+
+## Azure Data Engineering Pipelines
+
+### Monitoring and Maintaining Azure Data Engineering Pipelines
+
+This lab covers monitoring and managing end-to-end data engineering pipelines, which includes tracking data lineage using Microsoft Purview and improving the observability of pipeline executions using log analytics and query labeling.

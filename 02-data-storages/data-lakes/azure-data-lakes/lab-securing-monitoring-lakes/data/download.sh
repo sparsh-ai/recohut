@@ -1,0 +1,1 @@
+aws s3 cp s3://wysde-datasets/random/110223/BigFile.csv ./
