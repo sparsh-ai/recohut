@@ -53,7 +53,14 @@ This lab covers securing an Azure Data Lake account using firewall and private l
 
 ### Building Data Ingestion Pipelines Using Azure Data Factory
 
+[Source code](../05-data-pipelines/azure-data-factory/lab-data-ingestion-pipeline)
+
 This lab covers ingesting data using Azure Data Factory and copying data between Azure SQL Database and Azure Data Lake.
+
+- Recipe 1 - Provisioning Azure Data Factory
+- Recipe 2 - Copying files to a database from a data lake using a control flow and copy activity
+- Recipe 3 - Triggering a pipeline in Azure Data Factory
+- Recipe 4 - Copying data from a SQL Server virtual machine to a data lake using the Copy data wizard
 
 ### Azure Data Factory Integration Runtime
 
