@@ -6,9 +6,11 @@
 
 ### Data Engineering
 
-1. [Basics Curriculum](./00-curriculum/de-basic.md) (Best for beginners coming from non-data background)
-2. [Intermediate Curriculum](./00-curriculum/de-intermediate.md) (Best for data analysts/scientists looking to expand their skillset)
-3. [Advanced Curriculum](./00-curriculum/de-advanced.md) (Best for junior data engineers and senior data analysts/scientists)
+| Curriculum                                      | Level  | Suitable for...                                           |
+| ----------------------------------------------- | ------ | --------------------------------------------------------- |
+| [Basics](./00-curriculum/de-aws-basic.md)          | ★☆☆ | Beginners coming from non-data background                 |
+| [Intermediate](./00-curriculum/de-aws-intermediate.md) | ★★☆ | Data analysts/scientists looking to expand their skillset |
+| [Advanced](./00-curriculum/de-aws-advanced.md)         | ★★★ | Junior data engineers and senior data analysts/scientists |
 
 ## Timeline
 
@@ -33,6 +35,6 @@
 
 | Option           | Contact                                                                                                                                                                  | Region      | Details                                                                             |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- | ----------------------------------------------------------------------------------- |
-| Agency Partner 1 | [Whatsapp](https://api.whatsapp.com/send?phone=919517720888&text=Hi%20Sowmya%20(WeHire)%0AI%20am%20interested%20in%20the%20data%20engineering%20training%20from%20Sparsh)   | US & India  | Pay for the training to the agency partner directly                                 |
+| Agency Partner 1 | [Whatsapp](https://api.whatsapp.com/send?phone=919517720888&text=Hi%20Sowmya%20(WeHire)%0AI%20am%20interested%20in%20the%20data%20engineering%20training%20from%20Sparsh)   | US & India  | Pay for the training to the agency partner directly, vendor association required    |
 | Agency Partner 2 | [Whatsapp](https://api.whatsapp.com/send?phone=918484005449&text=Hi%20Vishwas%20(Wynisco)%0AI%20am%20interested%20in%20the%20data%20engineering%20training%20from%20Sparsh) | US & Canada | Pay after getting hired - 15% of your income for 1 year, directly to agency partner |
-| Direct           | [Whatsapp](https://api.whatsapp.com/send?phone=918384805365&text=Hi%20Sparsh%0AI%20am%20interested%20in%20the%20data%20engineering%training)                                | Global      | Directly hire me for 1:1 or 1:many training @ $25/hr                                |
+| Direct           | [Whatsapp](https://api.whatsapp.com/send?phone=918384805365&text=Hi%20Sparsh%0AI%20am%20interested%20in%20the%20data%20engineering%20training)                              | Global      | Directly hire me for 1:1 or 1:many training @ $25/hr                                |

@@ -2,8 +2,9 @@
 
 ## Steps
 
-1. [Lab: Git Basics](./lab-git-basics.md)
-2. [Git Sim](./gitsim/)
+1. Download [Git SCM](https://git-scm.com/downloads)
+2. [Lab: Git Basics](./lab-git-basics.md)
+3. [Git Sim](./gitsim/)
 
 ## Git commands
 

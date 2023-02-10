@@ -1,4 +1,6 @@
-# Basic Curriculum
+# Curriculum
+
+![img](./img/basic.drawio.svg)
 
 **Estimated Time**
 
@@ -12,14 +14,14 @@ Tools: Visual Studio Code (VSCode), Anaconda Python, Github and Bash Shell
 **Labs**
 
 1. [ ] Download and Install vscode
-1. [ ] Understand vscode features
-1. [ ] Install extensions in vscode
-1. [ ] Download and Install Anaconda
-1. [ ] Create virtual environment in anaconda
-1. [ ] Create jupyter notebook in vscode and connect to venv
-1. [ ] Create github account
-1. [ ] Install git cli
-1. [ ] Create git repo and add students as collaborator
+2. [ ] Understand vscode features
+3. [ ] Install extensions in vscode
+4. [ ] Download and Install Anaconda
+5. [ ] Create virtual environment in anaconda
+6. [ ] Create jupyter notebook in vscode and connect to venv
+7. [ ] Create github account
+8. [ ] Install git cli
+9. [ ] Create git repo and add students as collaborator
 1. [ ] Connect local workspace to git repo
 1. [ ] Learn git commands
 1. [ ] Learn bash commands
@@ -38,9 +40,11 @@ In this module, we will learn the basic concepts we should know as a data engine
 7. What are the benefits of cloud computing?
 8. OLTP vs OLAP technologies
 
-## Module 3 - Cloud Computing and Data Engineering tools in Cloud
+## Module 3 - Cloud Computing
 
 **Tools**: AWS S3, RDS, Redshift, AWS Glue, Athena, AWS Lambda, EMR and EMR Serverless, Keyspace, Cloudformation, AWS IAM, Secrets Manager, Azure and GCP overview
+
+**Concepts:** Cloud Computing and Data Engineering tools in Cloud
 
 **Labs**
 
@@ -69,20 +73,20 @@ In this module, we will learn the essential python concepts we use in data engin
 
 **Labs**
 
-1. Building Functions in Python
-2. Read/Write and Manipulate Data using Pandas
-3. Data Format Conversion - CSV to Parquet, JSON to CSV/Parquet
-4. Pulling Data from APIs using requests library
-5. Connect to Postgres and Redshift from Python
-6. Load and Read the data from Postgres using Python
+* [ ] Building Functions in Python
+* [ ] Read/Write and Manipulate Data using Pandas
+* [ ] Data Format Conversion - CSV to Parquet, JSON to CSV/Parquet
+* [ ] Pulling Data from APIs using requests library
+* [ ] Connect to Postgres and Redshift from Python
+* [ ] Load and Read the data from Postgres using Python
 
 ## Module 5 - SQL Programming
 
 **Labs**
 
-1. [ ] SQL Basic - SELECT, LIMIT, WHERE, Comparison and Logical Operators, ORDER BY
-2. [ ] SQL Intermediate - Aggregation Functions, GROUP BY, CASE, JOINS
-3. [ ] SQL Advanced - Dates, Texts, Subqueries, Window Functions, EXPLAIN
+* [ ] SQL Basic - SELECT, LIMIT, WHERE, Comparison and Logical Operators, ORDER BY
+* [ ] SQL Intermediate - Aggregation Functions, GROUP BY, CASE, JOINS
+* [ ] SQL Advanced - Dates, Texts, Subqueries, Window Functions, EXPLAIN
 
 ## Module 6 - PySpark Programming
 
@@ -184,4 +188,4 @@ Project: Building an ELT pipeline with dbt and Redshift
 
 - We will build an end-to-end project with tools and concepts we learned and adopted in the training sessions.
 - The project will be added in your resume.
-- We will also release the project in your github. (Recruiters are interested in seeing your projects in git)
+- We will also release the project in your github. (Recruiters are interested in seeing your projects in git
