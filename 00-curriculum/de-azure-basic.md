@@ -62,15 +62,16 @@ This lab covers ingesting data using Azure Data Factory and copying data between
 - Recipe 3 - Triggering a pipeline in Azure Data Factory
 - Recipe 4 - Copying data from a SQL Server virtual machine to a data lake using the Copy data wizard
 
-### Azure Data Factory Integration Runtime
-
-This lab focuses on configuring and managing self-hosted integration runtimes and running SSIS packages in Azure using Azure-SSIS integration runtimes.
-
 ## Azure SQL Database
 
 ### Configuring and Securing Azure SQL Database
 
+[Source code](../02-data-storages/databases/azure-sql/lab-securing-azure-sql-databases)
+
 This lab covers configuring a Serverless SQL database, Hyperscale SQL database, and securing Azure SQL Database using virtual networks and private links.
+
+- Recipe 1 - Provisioning and connecting to an Azure SQL database using PowerShell
+- Recipe 2 - Implementing an Azure SQL Database elastic pool using PowerShell
 
 ### Implementing High Availability and Monitoring in Azure SQL Database
 
@@ -80,13 +81,31 @@ This lab explains configuring high availability to Azure SQL Database using auto
 
 ### Processing Data Using Azure Databricks
 
-This lab covers integrating Azure Databricks with Azure Data Lake and Azure Key Vault, processing data using Databricks notebooks, working with Delta tables, and visualizing Delta tables using Power BI.
+[Source code](../04-data-transformation/azure-databricks/lab-data-processing-azure-dbr)
+
+This lab covers integrating Azure Databricks with Azure Data Lake and Azure Key Vault, processing data using Databricks notebooks, and working with Delta tables.
+
+- Recipe 1 - Configuring the Azure Databricks environment
+- Recipe 2 - Integrate Databricks with Azure Key Vault
+- Recipe 3 - Mounting an Azure Data Lake container in Databricks
+- Recipe 4 - Processing data using notebooks
+- Recipe 5 - Scheduling notebooks using job clusters
+- Recipe 6 - Working with Delta Lake tables
 
 ## Azure Synapse Analytics
 
 ### Processing Data Using Azure Synapse Analytics
 
+[Source code](../04-data-transformation/azure-synapse-analytics/lab-data-processing-synapse-analytics)
+
 This lab covers exploring data using Synapse Serverless SQL pool, processing data using Synapse Spark Pools, Working with Synapse Lake database, and integrating Synapse Analytics with Power BI.
+
+* Recipe 1 - Provisioning an Azure Synapse Analytics workspace
+* Recipe 2 - Analyzing data using serverless SQL pool
+* Recipe 3 - Provisioning and configuring Spark pools
+* Recipe 4 - Processing data using Spark pools and a lake database
+* Recipe 5 - Querying the data in a lake database from serverless SQL pool
+* Recipe 6 - Scheduling notebooks to process data incrementally
 
 ### Transforming Data Using Azure Synapse Dataflows
 
