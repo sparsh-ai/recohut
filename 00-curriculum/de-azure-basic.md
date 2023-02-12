@@ -19,6 +19,14 @@ Import-Module Az
 Connect-AzAccount
 ```
 
+#### Install AzCopy
+
+First install by `brew install azcopy` (for mac users e.g.). Then login by getting the tenant id from your `Azure Active Directory` blade home page and using it in this command: `azcopy login --tenant-id cf97c957****`
+
+### Introducing Azure Basics
+
+[Follow here](../01-foundations/cloud/azure/README.md)
+
 ## Azure Data Lake
 
 ### Creating and Managing Data in Azure Data Lake
@@ -61,6 +69,16 @@ This lab covers ingesting data using Azure Data Factory and copying data between
 - Recipe 2 - Copying files to a database from a data lake using a control flow and copy activity
 - Recipe 3 - Triggering a pipeline in Azure Data Factory
 - Recipe 4 - Copying data from a SQL Server virtual machine to a data lake using the Copy data wizard
+
+### Incremental Data Loading using Azure Data Factory
+
+[Source code](../05-data-pipelines/azure-data-factory/lab-adf-incremental-loading)
+
+This lab covers various methods to perform data loading in incremental fashion.
+
+- Recipe 1 - Using Watermarking
+- Recipe 2 - Using File Timestamps
+- Recipe 3 - Using File partitions and folder structures
 
 ## Azure SQL Database
 
@@ -131,6 +149,17 @@ This lab covers monitoring Synapse dedicated SQL and Spark pools using Azure Log
 ### Optimizing and Maintaining Synapse SQL and Spark Pools
 
 This lab offers techniques for tuning query performance by optimizing query plans, rebuilding replication caches and maintenance scripts to optimize Delta tables, and automatically pausing SQL pools during inactivity, among other things.
+
+### Implementing the Serving Layer Star Schema
+
+[Source code](../04-data-transformation/azure-synapse-analytics/lab-implementing-star-schema)
+
+In this lab, we will learn about implementing the serving layer, which involves implementing star schemas, techniques to read and write different data formats, sharing data between services such as SQL and Spark, and more. Once you complete this lab, you should be able to understand the differences between a Synapse dedicated SQL pool versus traditional SQL systems for implementing the Star schema, the various ways of accessing Parquet data using technologies such as Spark and SQL, and the details involved in storing metadata across services. All this knowledge should help you build a practical and maintainable serving layer in a data lake.
+
+- Recipe 1 - Delivering data in a relational star schema
+- Recipe 2 - Implementing a dimensional hierarchy
+- Recipe 3 - Delivering data in Parquet files
+- Recipe 4 - Maintaining metadata
 
 ## Azure Data Engineering Pipelines
 

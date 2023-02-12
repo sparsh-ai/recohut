@@ -1,0 +1,6 @@
+customerId, name, emailId, phoneNum, city
+301,Alice,alice@someemail.com, '(465)-xxx-xxxx', 'New York'
+302,Bryan,bryan@someemail.com, '(480)-xxx-xxxx', 'San Jose'
+303,Carmen,carmen@somemail.com, '(122)-xxx-xxxx', 'Phoenix'
+304,Daniel,daniel@somemail.com, '(510)-xxx-xxxx', 'Tahoe'
+305,Ethan,ethan@somemail.com, '(265)-xxx-xxxx', 'Dallas'

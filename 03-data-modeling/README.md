@@ -1,15 +1,12 @@
 # Data Modeling
 
-## Sub-modules
-
-1. [SQL Data Modeling](./sql-data-modeling/)
-2. [NoSQL Data Modeling](./nosql-data-modeling/)
-
-## Concepts
-
 The data model helps us design our database. When building a plane, you don’t start with building the engine. You start by creating a blueprint anschematic. Creating database is just the same, you start with modelling the data. Model is a representation of real data that provide us with characteristic, relation and rules that apply to our data. It doesn’t actually contain any data in it.
 
 In the classical sense, a data model is simply metadata that described the structure, content, and relationships that exist within a group of related data assets. Maintaining a data model has long been a standard practice for OLTP workloads built on SQL. Typically maintained by data engineers & data architects, they help manage the evolution of assets, remove unnecessary duplication & enforce conventions to maintain an intuitive and consistent layout. A key additional benefit is to inform consumers (ex. data analysts) about assets and how best to use them. For this reason, maintaining data models is also a common practice for managing the evolution of large SQL data warehouses. Without data models, end users would find it challenging to navigate around a library of hundreds (if not thousands) of data assets and correctly leverage them.
+
+**Data modeling** is a process of designing how data will be represented in data stores. Many data modeling techniques were originally designed for databases and warehouses. Since the Serving layers are usually built with relational data stores such as data warehouses, some of the data modeling techniques can be applied for the Serving layer design too. Serving layer could be built using other storage technologies such as document databases, key-value stores, and so on, based on the customer requirements.
+
+Unlike data lakes, in databases or data warehouses we don't have the luxury of storing huge volumes of data in the format we like. Databases and data warehouses can perform querying exceptionally fast, provided the data is stored in predetermined formats and is limited in size. Hence, while designing the Serving layer, we need to identify the specifics of which data needs to be stored, which format to store it in, and how much data to store. To be specific, we need to decide on which SQL tables are required, what would be the relationship between these tables, and which restrictions need to be imposed on these tables.
 
 ### Stages of Data Modeling
 
@@ -35,9 +32,69 @@ Owing its origins to the entity-relationship modeling methodology, 3NF is also w
 
 Dimensional modeling is a bottom-up approach to designing data warehouses in order to optimize them for analytics. Dimensional models are used to denormalize business data into **dimensions** (like time and product) and **facts** (like transactions in amounts and quantities), and different subject areas are connected via conformed dimensions to navigate to different fact tables. It is usually found in OLAP systems.
 
-The most common form of dimensional modeling is the [star schema](https://www.databricks.com/glossary/star-schema). A star schema is a multi-dimensional data model used to organize data so that it is easy to understand and analyze, and very easy and intuitive to run reports on. Kimball-style star schemas or dimensional models are pretty much the gold standard for the presentation layer in data warehouses and data marts, and even semantic and reporting layers. The star schema design is optimized for querying large data sets. The most popular exponents of this method are the star schema and snowflake schema.
+Schemas are guidelines for arranging data entities such as SQL tables in a data store. Designing a schema refers to the process of designing the various tables and the relationships among them. Star and Snowflake schemas are two of the most commonly used schemas in the data analytics and BI world. In fact, Star schemas are used more frequently than Snowflake schemas. Both have their own advantages and disadvantages.
+
+**Star Schema**
+
+Star Schema (introduced by Ralph Kimball) is the most widely used approach to organize data in database to make it easy to understand, read (fast data retrieval) and analyze. It is the underlying structure of dimensional model and also one of the methods used in dimensional modeling.
+
+In practice, Star Schema is used to denormalize business data. It separates business process data into:
+
+1. Fact tables that hold quantitative information about the business, such as quantity, unit price, sales amount, etc.
+2. Dimension tables that hold descriptive information of the fact table, such as store, product, customer, etc.
+
+With this design, the end-users are able to easily find the data they need, slice and dice the data however they see fit and evolve the schema if the business changes.
+
+It is called a star schema because the fact table sits at the center of the logical diagram, and the small dimensional tables branch off to form the points of the star.
+
+![](https://user-images.githubusercontent.com/62965911/214235541-66b537aa-4903-40ae-9587-57768efa1bd8.png)
+
+A star schema is a multi-dimensional data model used to organize data so that it is easy to understand and analyze, and very easy and intuitive to run reports on. Kimball-style star schemas or dimensional models are pretty much the gold standard for the presentation layer in data warehouses and data marts, and even semantic and reporting layers. The star schema design is optimized for querying large data sets. Star schema has two sets of tables: one that stores quantitative information such as transactions happening at a retail outlet or trips happening at a cab company, and another that stores the context or descriptions of events that are stored in the quantitative table. The quantitative tables are called fact tables and the descriptive or context tables are called dimension tables.
 
 ![star-schema-datamodel](https://user-images.githubusercontent.com/62965911/216760155-70c45f6e-7599-47a3-a337-183262bdff6d.png)
+
+Dimensional modeling focuses on easier and faster information retrieval, whereas other models usually focus on storage optimization. Since the relationship diagram of the Star schema is in the shape of a star, it is called a Star schema. The fact table at the middle is the center of the star, and the dimension tables are the arms of the star.
+
+Let's look at some important points about Star schemas, as follows:
+
+- Fact tables are usually of much higher volume than dimension tables.
+- Dimension tables are not connected; they are independent of each other.
+- Data is not normalized in a Star schema. It is very common to find data replicated in multiple tables. The tables are designed for speed and ease of use.
+- They are optimized for **BI** queries. The queries are usually very simple as it just has one level of joins.
+- Queries are usually much faster too due to the lesser number of joins.
+
+In fact tables, you will have the foreign keys to dimension tables as well as aggregate or numeric information. We do not want descriptions or attributes in fact tables since those are reserved for dimension tables. We will use the foreign keys in a fact table to "*join"* the information in dimension tables.
+
+Dimension tables are generally [denormalized](https://en.wikipedia.org/wiki/Denormalization) (may hold redundant data) and do not contain any foreign keys nor do they have any *"sub-dimension tables"*. Dimension table contains primary key and descriptive information of the fact table.
+
+So how do we build a Star Schema? [As proposed by Kimball](https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/four-4-step-design-process/#:~:text=Select%20the%20business%20process.,Identify%20the%20facts.), there are 4 steps in designing of a dimensional model.
+
+1. Select the business process. The first step is to identify the business process that you want to model. Model the processes that are most significant or relevant to the business first.
+2. Declare the grain. Grain refers to the level of detail of the information that you will store in the fact table. The grain should be at the most atomic or lowest level possible. For example, A line item on a grocery receipt. The grocery owner might want to ask questions such as *"what are the items that sold the best during the day in our grocery store?"*, and to answer this question we need to dig into line-item level instead of the order-level.
+3. Identify the dimensions. You can identify the dimensions by looking at the descriptive information or attributes that exist in your business process and provide context to your measurable events. For example: payment method, customers, locations, etc.
+4. Identify the facts. Facts are the quantitative measures in your business process that are always in numeric. For example: price, minutes, speed, etc. You should identify/select the measures that are true to your selected grain.
+
+**Snowflake Schema**
+
+A snowflake schema is an extension of the Star schema. In this model, the fact table remains the same, but the dimension tables are further split into their normalized forms, which are referenced using foreign keys. There could be multiple levels of hierarchy among the dimension tables.
+
+The following diagram shows how the same example used for a Star schema can be extended to a Snowflake schema:
+
+![B17525_04_001](https://user-images.githubusercontent.com/62965911/218277646-2a914b1e-2a71-4bb9-8d67-a8a70ddb41c9.jpeg)
+![Figure_4 2_-_Example_of_Snowflake_Schema](https://user-images.githubusercontent.com/62965911/218277647-ead2f682-4e1c-4462-87d2-a5457373ba94.jpg)
+
+As you will notice from the preceding diagram, the DimDriver table has been normalized to have the license details separately. Similarly, we have normalized the address details away from the DimCustomer table.
+
+You can choose a Snowflake schema if you have both BI and non-BI applications sharing the same data warehouse. In such cases, from an overall perspective, it might be better to have normalized data.
+
+Let's look at some important points about Snowflake schemas, as follows:
+
+- Fact tables, here again, are similar to Star schemas and are of much higher volume than dimension tables.
+- Dimension data is normalized, thereby avoiding any redundant data.
+- Dimensions could be connected to each other.
+- The data is optimized for storage and integrity, but not speed.
+- The schema is more complex than a Star schema, so this might not be the most preferred option for BI and reporting use cases.
+- Queries are usually slower compared to Star schemas due to the multi-level joins required.
 
 #### Data Vault Modeling
 
@@ -128,35 +185,161 @@ It’s crucial to understand the following concepts.
 
 Every data warehouse has different naming/implementation/caveats concerning the above, e.g. Snowflake automatically does most of these are for you, while Redshift requires a more hands on approach.
 
+### Designing SCDs
+
+SCDs refer to data in dimension tables that changes slowly over time and not at a regular cadence. A common example for SCDs is customer profiles—for example, an email address or the phone number of a customer doesn't change that often, and these are perfect candidates for SCD.
+
+Here are some of the main aspects we will need to consider while designing an SCD:
+
+- Should we keep track of the changes? If yes, how much of the history should we maintain?
+- Or, should we just overwrite the changes and ignore the history?
+
+Based on our requirements for maintaining the history, there are about seven ways in which we can accomplish keeping track of changes. They are named SCD1, SCD2, SCD3, and so on, up to SCD7.
+
+Among these, SCD1, SCD2, SCD3, SCD4, and SCD6 are the most important ones.
+
+#### Designing SCD1
+
+In SCD type 1, the values are overwritten and no history is maintained, so once the data is updated, there is no way []()to find out what the previous value was. The new queries will always return the most recent value. Here is an example of an SCD1 table:
+
+| Customer ID | Name | City     | Email | ... |
+| ----------- | ---- | -------- | ----- | --- |
+| 1           | Adam | New York | Adam  | ... |
+
+| Customer ID | Name | City       | Email | ... |
+|-------------|------|------------|-------|-----|
+| 1           | Adam | New Jersey | Adam  | ... |
+
+In this example, the value of the City column is changing from New York to New Jersey. The value just gets overwritten.
+
+#### Designing SCD2
+
+In SCD2, we maintain a complete history of changes. Every time there is a change, we add a new row with all the details without deleting the previous values. There are multiple ways in which we can accomplish this. Let's take a look at the most common approaches.
+
+**Using a flag**
+
+In this approach, we use a flag to indicate if a particular value is active or if it is current. Here is an example of this:
+
+| SurrogateID | CustomerID | Name | City | isActive | ... |
+| ----------- | ---------- | ---- | ---- | -------- | --- |
+| 1 | 1 | Adam | New York | True | ... |
+
+| SurrogateID | CustomerID | Name | City       | isActive | ... |
+|-------------|------------|------|------------|----------|-----|
+| 1           | 1          | Adam | New York   | False    | ... |
+| 2           | 1          | Adam | New Jersey | False    | ... |
+| 3           | 1          | Adam | Miami      | True     | ... |
+
+In the second table, every time there is a change, we add a new row and update the isActive column of the previous rows to False. That way, we can easily query the active values by filtering on the isActive=True criteria.
+
+NOTE
+> Surrogate keys are secondary row identification keys. They are added in all SCD2 cases because the primary identification key will not be unique anymore with newly added rows.
+
+**Using version numbers**
+
+In this approach, we use version numbers to keep track of changes. The row with the highest version is the most current value. Here is an example of this:
+
+| SurrogateID | CustomerID | Name | City | Version | ... |
+| ----------- | ---------- | ---- | ---- | -------- | --- |
+| 1 | 1 | Adam | New York | 0 | ... |
+
+| SurrogateID | CustomerID | Name | City       | Version | ... |
+|-------------|------------|------|------------|----------|-----|
+| 1           | 1          | Adam | New York   | 0    | ... |
+| 2           | 1          | Adam | New Jersey | 1    | ... |
+| 3           | 1          | Adam | Miami      | 2     | ... |
+
+In the previous example, we need to filter on the MAX(Version) column to get the current values.
+
+**Using date ranges**
+
+In this approach, we use date ranges to show the period a particular record (row) was active, as illustrated in the following example:
+
+| SurrogateID | CustomerID | Name | City     | StartDate   | EndDate | ... |
+|-------------|------------|------|----------|-------------|---------|-----|
+| 1           | 1          | Adam | New York | 01-Jan-2020 | NULL    | ... |
+
+| SurrogateID | CustomerID | Name | City       | StartDate   | EndDate     | ... |
+|-------------|------------|------|------------|-------------|-------------|-----|
+| 1           | 1          | Adam | New York   | 01-Jan-2020 | 25-Mar-2020 | ... |
+| 2           | 1          | Adam | New Jersey | 25-Mar-2020 | 01-Dec-2020 | ... |
+| 3           | 1          | Adam | Miami      | 01-Dec-2020 | NULL        | ... |
+
+In the previous example, every time we change a field, we add a new record to the table. Along with that, we update the EndDate column of the previous record and the StartDate column for the new record with today's date. In order to fetch the current record, we have to filter on the EndDate=NULL criteria, or, instead, we could just fill in a very futuristic date instead of NULL—something such as 31-Dec-2100.
+
+As a variation to the date-range approach, we could also add a flag column to easily identify active or current records. The following example shows this approach:
+
+| SurrogateID | CustomerID | Name | City       | StartDate   | EndDate     | isActive | ... |
+|-------------|------------|------|------------|-------------|-------------|----------|-----|
+| 1           | 1          | Adam | New York   | 01-Jan-2020 | 25-Mar-2020 | False    | ... |
+| 2           | 1          | Adam | New Jersey | 25-Mar-2020 | 01-Dec-2020 | False    | ... |
+| 3           | 1          | Adam | Miami      | 01-Dec-2020 | NULL        | True     | ... |
+
+#### Designing SCD3
+
+In SCD3, we maintain only a partial history and not a complete history. Instead of adding additional rows, we add an extra column that stores the previous value, so only one version of historic data will be preserved. As with the SCD2 option, here again, we can choose to add date columns to keep track of modified dates, but we don't need surrogate keys in this case as the identification key of the record doesn't change. Here is an example of this:
+
+| CustomerID | Name | City     | PrevCity | ... |
+|------------|------|----------|----------|-----|
+| 1          | Adam | New York | NULL     | ... |
+
+| CustomerID | Name | City       | PrevCity | ... |
+|------------|------|------------|----------|-----|
+| 1          | Adam | New Jersey | New York | ... |
+
+In the previous example, we have added a new column called PrevCity. Every time the value of City changes, we add the previous value to PrevCity and update the City column with the current city.
+
+#### Designing SCD4
+
+SCD4 was introduced for dimension attributes that change relatively frequently. In type 4, we split the fast-changing attributes of the dimension table into another smaller dimension table and also reference the new dimension table directly from the fact table.
+
+For example, in the following diagram, if we assume that the carpool (also known as High occupancy vehicles) pass needs to be purchased every month, we can move that field to a smaller mini-dimension and reference it directly from the fact table:
+
+![B17525_04_009](https://user-images.githubusercontent.com/62965911/218293241-5d41063b-5dc9-45ac-bcf7-77c9fc41532b.jpeg)
+
+We can split the table into a mini DimCarPool dimension, as in the following diagram:
+
+![B17525_04_010](https://user-images.githubusercontent.com/62965911/218293244-d9892da4-f4cf-4010-8188-f040f0d5d784.jpeg)
+
+This sub-division helps in modifying only a smaller amount of data frequently instead of the complete row.
+
+#### Designing SCD5, SCD6, and SCD7
+
+The rest of the SCDs—SCD5, SCD6, and SCD7—are derivatives of the previous four SCDs. Among these derived ones, SCD6 is a relatively important one, so we will be exploring that as part of the next sub-section.
+
+**Designing SCD6**
+
+Type 6 is a combination of 1, 2, and 3. In this type, along with the addition of new rows, we also update the latest value in all the rows, as illustrated below:
+
+| SurrogateID | CustomerID | Name | CurrCity | PrevCity   | StartDate   | EndDate     | isActive | ... |
+|-------------|------------|------|----------|------------|-------------|-------------|----------|-----|
+| 1           | 1          | Adam | Miami    | NULL       | 01-Jan-2020 | 25-Mar-2020 | False    | ... |
+| 2           | 1          | Adam | Miami    | New York   | 25-Mar-2020 | 01-Dec-2020 | False    | ... |
+| 3           | 1          | Adam | Miami    | New Jersey | 01-Dec-2020 | NULL        | True     | ... |
+
+In the previous example, you would have noticed that the CurrCity value for all the records belonging to customer Adam has been updated. This is just another benefit of extracting the latest values.
+
+That explains SCD type 6. If you are interested in learning about SCDs 5 and 7, you can find more information at the following links:
+
+SCD5: https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/type-5/
+
+SCD7: https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/type-7
+
+### Designing for incremental loading
+
+Incremental loading or delta loading refers to the process of loading smaller increments of data into a storage solution—for example, we could have daily data that is being loaded into a data lake or hourly data flowing into an extract, transform, load (ETL) pipeline, and so on. During data-ingestion scenarios, it is very common to do a bulk upload followed by scheduled incremental loads.
+
+There are different ways in which we can design incremental loading. Based on the type of data source, we can have different techniques to implement incremental loading. Some of them are listed here:
+
+#### Watermarks
+
+Watermarking is a very simple technique whereby we just keep track of the last record loaded (our watermark) and load all the new records beyond the watermark in the next incremental run.
+
+In relational storage technologies such as SQL databases, we can store the watermark details as just another simple table and automatically update the watermark with stored procedures. Every time a new record is loaded, the stored procedure should get triggered, which will update our watermark table. The next incremental copy pipeline can use this watermark information to identify the new set of records that need to be copied.
+
 ### Normalization vs Denormalization
 
 Normalization is Trying to increase data integrity by reducing the number of copies of the data. Data that needs to be added or updated will be done in as few places as possible. Denormalization is Trying to increase performance by reducing the number of joins between tables (as joins can be slow). Data integrity will take a bit of a potential hit, as there will be more copies of the data (to reduce JOINS).
-
-### Star vs Snowflake Schema
-
-Star Schema (introduced by Ralph Kimball) is the most widely used approach to organize data in database to make it easy to understand, read (fast data retrieval) and analyze. It is the underlying structure of dimensional model and also one of the methods used in dimensional modeling.
-
-In practice, Star Schema is used to denormalize business data. It separates business process data into:
-
-1. Fact tables that hold quantitative information about the business, such as quantity, unit price, sales amount, etc.
-2. Dimension tables that hold descriptive information of the fact table, such as store, product, customer, etc.
-
-With this design, the end-users are able to easily find the data they need, slice and dice the data however they see fit and evolve the schema if the business changes.
-
-It is called a star schema because the fact table sits at the center of the logical diagram, and the small dimensional tables branch off to form the points of the star.
-
-![](https://user-images.githubusercontent.com/62965911/214235541-66b537aa-4903-40ae-9587-57768efa1bd8.png)
-
-In fact tables, you will have the foreign keys to dimension tables as well as aggregate or numeric information. We do not want descriptions or attributes in fact tables since those are reserved for dimension tables. We will use the foreign keys in a fact table to "*join"* the information in dimension tables.
-
-Dimension tables are generally [denormalized](https://en.wikipedia.org/wiki/Denormalization) (may hold redundant data) and do not contain any foreign keys nor do they have any *"sub-dimension tables"*. Dimension table contains primary key and descriptive information of the fact table.
-
-So how do we build a Star Schema? [As proposed by Kimball](https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/four-4-step-design-process/#:~:text=Select%20the%20business%20process.,Identify%20the%20facts.), there are 4 steps in designing of a dimensional model.
-
-1. Select the business process. The first step is to identify the business process that you want to model. Model the processes that are most significant or relevant to the business first.
-2. Declare the grain. Grain refers to the level of detail of the information that you will store in the fact table. The grain should be at the most atomic or lowest level possible. For example, A line item on a grocery receipt. The grocery owner might want to ask questions such as *"what are the items that sold the best during the day in our grocery store?"*, and to answer this question we need to dig into line-item level instead of the order-level.
-3. Identify the dimensions. You can identify the dimensions by looking at the descriptive information or attributes that exist in your business process and provide context to your measurable events. For example: payment method, customers, locations, etc.
-4. Identify the facts. Facts are the quantitative measures in your business process that are always in numeric. For example: price, minutes, speed, etc. You should identify/select the measures that are true to your selected grain.
 
 ### [CAP Theorem](https://en.wikipedia.org/wiki/CAP_theorem)
 
@@ -223,6 +406,14 @@ Following these 9 best practices for database design will help ensure that your 
 35. What are the differences between Operational and Analytical Systems?
 36. What is Data Mart?
 37. Explain how the Cargo Shipping Company Created its Data Model?
+
+## Case Studies
+
+### Relational/3NF Data Models
+
+1. [Spotify](https://medium.com/towards-data-engineering/design-the-database-for-a-system-like-spotify-95ffd1fb5927)
+2. [LinkedIn](https://medium.com/towards-data-engineering/database-design-for-a-system-like-linkedin-3c52a5ab28c0)
+3. [Zomato/Swiggy](https://medium.com/towards-data-engineering/database-design-for-a-food-delivery-app-like-zomato-swiggy-86c16319b5c5)
 
 ## Resources
 
