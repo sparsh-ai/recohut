@@ -78,6 +78,8 @@ So how do we build a Star Schema? [As proposed by Kimball](https://www.kimballg
 
 A snowflake schema is an extension of the Star schema. In this model, the fact table remains the same, but the dimension tables are further split into their normalized forms, which are referenced using foreign keys. There could be multiple levels of hierarchy among the dimension tables.
 
+![CH05_F05_Riscutia2](https://user-images.githubusercontent.com/62965911/218325714-f1e5bd1b-6153-4b6f-95dc-097837916a4f.png)
+
 The following diagram shows how the same example used for a Star schema can be extended to a Snowflake schema:
 
 ![B17525_04_001](https://user-images.githubusercontent.com/62965911/218277646-2a914b1e-2a71-4bb9-8d67-a8a70ddb41c9.jpeg)
@@ -207,7 +209,7 @@ In SCD type 1, the values are overwritten and no history is maintained, so once 
 | 1           | Adam | New York | Adam  | ... |
 
 | Customer ID | Name | City       | Email | ... |
-|-------------|------|------------|-------|-----|
+| ----------- | ---- | ---------- | ----- | --- |
 | 1           | Adam | New Jersey | Adam  | ... |
 
 In this example, the value of the City column is changing from New York to New Jersey. The value just gets overwritten.
@@ -220,12 +222,12 @@ In SCD2, we maintain a complete history of changes. Every time there is a change
 
 In this approach, we use a flag to indicate if a particular value is active or if it is current. Here is an example of this:
 
-| SurrogateID | CustomerID | Name | City | isActive | ... |
-| ----------- | ---------- | ---- | ---- | -------- | --- |
-| 1 | 1 | Adam | New York | True | ... |
+| SurrogateID | CustomerID | Name | City     | isActive | ... |
+| ----------- | ---------- | ---- | -------- | -------- | --- |
+| 1           | 1          | Adam | New York | True     | ... |
 
 | SurrogateID | CustomerID | Name | City       | isActive | ... |
-|-------------|------------|------|------------|----------|-----|
+| ----------- | ---------- | ---- | ---------- | -------- | --- |
 | 1           | 1          | Adam | New York   | False    | ... |
 | 2           | 1          | Adam | New Jersey | False    | ... |
 | 3           | 1          | Adam | Miami      | True     | ... |
@@ -233,21 +235,22 @@ In this approach, we use a flag to indicate if a particular value is active or i
 In the second table, every time there is a change, we add a new row and update the isActive column of the previous rows to False. That way, we can easily query the active values by filtering on the isActive=True criteria.
 
 NOTE
+
 > Surrogate keys are secondary row identification keys. They are added in all SCD2 cases because the primary identification key will not be unique anymore with newly added rows.
 
 **Using version numbers**
 
 In this approach, we use version numbers to keep track of changes. The row with the highest version is the most current value. Here is an example of this:
 
-| SurrogateID | CustomerID | Name | City | Version | ... |
-| ----------- | ---------- | ---- | ---- | -------- | --- |
-| 1 | 1 | Adam | New York | 0 | ... |
+| SurrogateID | CustomerID | Name | City     | Version | ... |
+| ----------- | ---------- | ---- | -------- | ------- | --- |
+| 1           | 1          | Adam | New York | 0       | ... |
 
 | SurrogateID | CustomerID | Name | City       | Version | ... |
-|-------------|------------|------|------------|----------|-----|
-| 1           | 1          | Adam | New York   | 0    | ... |
-| 2           | 1          | Adam | New Jersey | 1    | ... |
-| 3           | 1          | Adam | Miami      | 2     | ... |
+| ----------- | ---------- | ---- | ---------- | ------- | --- |
+| 1           | 1          | Adam | New York   | 0       | ... |
+| 2           | 1          | Adam | New Jersey | 1       | ... |
+| 3           | 1          | Adam | Miami      | 2       | ... |
 
 In the previous example, we need to filter on the MAX(Version) column to get the current values.
 
@@ -256,11 +259,11 @@ In the previous example, we need to filter on the MAX(Version) column to get the
 In this approach, we use date ranges to show the period a particular record (row) was active, as illustrated in the following example:
 
 | SurrogateID | CustomerID | Name | City     | StartDate   | EndDate | ... |
-|-------------|------------|------|----------|-------------|---------|-----|
+| ----------- | ---------- | ---- | -------- | ----------- | ------- | --- |
 | 1           | 1          | Adam | New York | 01-Jan-2020 | NULL    | ... |
 
 | SurrogateID | CustomerID | Name | City       | StartDate   | EndDate     | ... |
-|-------------|------------|------|------------|-------------|-------------|-----|
+| ----------- | ---------- | ---- | ---------- | ----------- | ----------- | --- |
 | 1           | 1          | Adam | New York   | 01-Jan-2020 | 25-Mar-2020 | ... |
 | 2           | 1          | Adam | New Jersey | 25-Mar-2020 | 01-Dec-2020 | ... |
 | 3           | 1          | Adam | Miami      | 01-Dec-2020 | NULL        | ... |
@@ -270,7 +273,7 @@ In the previous example, every time we change a field, we add a new record to th
 As a variation to the date-range approach, we could also add a flag column to easily identify active or current records. The following example shows this approach:
 
 | SurrogateID | CustomerID | Name | City       | StartDate   | EndDate     | isActive | ... |
-|-------------|------------|------|------------|-------------|-------------|----------|-----|
+| ----------- | ---------- | ---- | ---------- | ----------- | ----------- | -------- | --- |
 | 1           | 1          | Adam | New York   | 01-Jan-2020 | 25-Mar-2020 | False    | ... |
 | 2           | 1          | Adam | New Jersey | 25-Mar-2020 | 01-Dec-2020 | False    | ... |
 | 3           | 1          | Adam | Miami      | 01-Dec-2020 | NULL        | True     | ... |
@@ -280,11 +283,11 @@ As a variation to the date-range approach, we could also add a flag column to ea
 In SCD3, we maintain only a partial history and not a complete history. Instead of adding additional rows, we add an extra column that stores the previous value, so only one version of historic data will be preserved. As with the SCD2 option, here again, we can choose to add date columns to keep track of modified dates, but we don't need surrogate keys in this case as the identification key of the record doesn't change. Here is an example of this:
 
 | CustomerID | Name | City     | PrevCity | ... |
-|------------|------|----------|----------|-----|
+| ---------- | ---- | -------- | -------- | --- |
 | 1          | Adam | New York | NULL     | ... |
 
 | CustomerID | Name | City       | PrevCity | ... |
-|------------|------|------------|----------|-----|
+| ---------- | ---- | ---------- | -------- | --- |
 | 1          | Adam | New Jersey | New York | ... |
 
 In the previous example, we have added a new column called PrevCity. Every time the value of City changes, we add the previous value to PrevCity and update the City column with the current city.
@@ -312,7 +315,7 @@ The rest of the SCDs—SCD5, SCD6, and SCD7—are derivatives of the previous fo
 Type 6 is a combination of 1, 2, and 3. In this type, along with the addition of new rows, we also update the latest value in all the rows, as illustrated below:
 
 | SurrogateID | CustomerID | Name | CurrCity | PrevCity   | StartDate   | EndDate     | isActive | ... |
-|-------------|------------|------|----------|------------|-------------|-------------|----------|-----|
+| ----------- | ---------- | ---- | -------- | ---------- | ----------- | ----------- | -------- | --- |
 | 1           | 1          | Adam | Miami    | NULL       | 01-Jan-2020 | 25-Mar-2020 | False    | ... |
 | 2           | 1          | Adam | Miami    | New York   | 25-Mar-2020 | 01-Dec-2020 | False    | ... |
 | 3           | 1          | Adam | Miami    | New Jersey | 01-Dec-2020 | NULL        | True     | ... |
