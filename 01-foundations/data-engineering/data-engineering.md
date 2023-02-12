@@ -2,13 +2,11 @@
 
 ![](https://user-images.githubusercontent.com/62965911/213917818-65a2146a-5eb3-4818-861f-5bad0155b8d0.svg)
 
-The Data Engineering Ecosystem includes several different components. It includes disparate data types, formats, and sources of data. Data Pipelines gather data from multiple sources, transform it into analytics-ready data, and make it available to data consumers for analytics and decision-making. Data repositories, such as relational and non-relational databases, data warehouses, data marts, data lakes, and big data stores process and store this data. Data Integration Platforms combine disparate data into a unified view for the data consumers. You will learn about each of these components. You will also learn about Big Data and the use of some of the Big Data processing tools. 
+With the advent of cloud computing, the amount of data generated every moment reached an unprecedented scale. The discipline of data science flourishes in this environment, deriving knowledge and insights from massive amounts of data. As data science becomes critical to business, its processes must be treated with the same rigor as other components of business IT. For example, software engineering teams today embrace DevOps to develop and operate services with 99.99999% availability guarantees. Data engineering brings a similar rigor to data science, so data-centric processes run reliably, smoothly, and in a compliant way.
 
-The goal of data engineering is to make large and complex data accessible for others to interpret. When data — both structured and unstructured — enters a company’s systems, data engineers are the first people to get their hands on it.
+The goal of data engineering is to make large and complex data accessible for others to interpret. When data — both structured and unstructured — enters a company’s systems, data engineers are the first people to get their hands on it. Data engineering also sees to the creation of data management systems and infrastructure that allows data scientists and analysts to access, process and analyze data with ease. This includes building data lakes, warehouses, and marts and creating data access and retrieval systems. It is a very important component of the data life cycle which enables organizations to effectively collect, manage and use large volumes of data. Data engineering is where software engineering, cloud and DevOps meet.
 
-Data engineering is the art of designing, building, and maintaining the systems and infrastructure used to collect, store, process, and analyze data.
-
-Data engineering also sees to the creation of data management systems and infrastructure that allows data scientists and analysts to access, process and analyze data with ease. This includes building data lakes, warehouses, and marts and creating data access and retrieval systems. It is a very important component of the data life cycle which enables organizations to effectively collect, manage and use large volumes of data. Data engineering is where software engineering, cloud and DevOps meet.
+The Data Engineering Ecosystem includes several different components. It includes disparate data types, formats, and sources of data. Data Pipelines gather data from multiple sources, transform it into analytics-ready data, and make it available to data consumers for analytics and decision-making. Data repositories, such as relational and non-relational databases, data warehouses, data marts, data lakes, and big data stores process and store this data. Data Integration Platforms combine disparate data into a unified view for the data consumers. You will learn about each of these components. You will also learn about Big Data and the use of some of the Big Data processing tools.
 
 ## How it works?
 
@@ -16,17 +14,19 @@ Data engineering also sees to the creation of data management systems and infras
 
 A typical Data Engineering lifecycle includes architecting data platforms, designing data stores, and gathering, importing, wrangling, querying, and analyzing data. It also includes performance monitoring and finetuning to ensure systems are performing at optimal levels.
 
-If we expand the above process in a little more depth, it will look like this:
-
-![](https://user-images.githubusercontent.com/62965911/213917836-1e406d00-a8a4-4f26-8a85-e32d21f6fa4f.png)
-
-Let's expand it more and analyze the complete ecosystem from a wider perspective:
+Let's expand it and analyze the complete ecosystem from a wider perspective:
 
 ![](https://user-images.githubusercontent.com/62965911/213917792-c61931fb-c440-4ea3-b133-edf8bfbc40e0.gif)
 
 The first type of data engineering is SQL-focused. The work and primary storage of the data is in relational databases. All of the data processing is done with SQL or a SQL-based language. Sometimes, this data processing is done with an ETL tool. The second type of data engineering is Big Data–focused. The work and primary storage of the data is in Big Data technologies like Hadoop, Cassandra, and HBase. All of the data processing is done in Big Data frameworks like MapReduce, Spark, and Flink. While SQL is used, the primary processing is done with programming languages like Java, Scala, and Python.
 
-Watch this video: https://www.youtube.com/watch?v=qWru-b6m030
+<iframe width="1440" height="595" src="https://www.youtube.com/embed/qWru-b6m030" title="How Data Engineering Works" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Data engineering is the part of data science that deals with the practical applications of collecting and analyzing data. It aims to bring engineering rigor to the process of building and supporting reliable data systems.
+
+The ML part of data science deals with building a model. In the Netflix scenario, the data model recommends, based on your viewing history, which movies you are likely to enjoy next. The data engineering part of the discipline deals with building a system that continuously gathers and cleans up the viewing history, then runs the model at scale on the data of all users and distributes the results to the recommendation user interface. All of this provided in an automated fashion with monitoring and alerting build around each step of the process.
+
+Data engineering deals with building and operating big data platforms to support all data science scenarios. There are various other terms used for some of these aspects: DataOps refers to moving data in a data system, MLOps refers to running ML at scale as in our Netflix example. (ML combined with DevOps is also known as MLOps.) Our definition of data engineering encompasses all of these and looks at how we can implement DevOps for data science.
 
 ## Why Is It Important?
 
@@ -50,13 +50,11 @@ There are some really interesting trade-offs to make when you do this. And knowi
 
 A data engineer is a person who is responsible for designing and maintaining data pipelines, data storage systems, and data processing systems. These tasks include data modelling, warehousing, integration, quality management, and security. They also ensure that the data pipelines are efficient and scalable and can handle the volume, velocity and variety of data that the organization is dealing with to ensure that the data is accessible, accurate, and useful for analysis.
 
-Watch this video: https://www.youtube.com/watch?v=m5hLUknIi5c
+Watch these videos:
 
-Watch this video: https://www.youtube.com/watch?v=h0GhXADnFGI
-
-**Partner effectively with other data teams**
-
-Watch this video: https://www.youtube.com/watch?v=rULI2LOuhw4
+- https://www.youtube.com/watch?v=m5hLUknIi5c
+- https://www.youtube.com/watch?v=h0GhXADnFGI
+- https://www.youtube.com/watch?v=rULI2LOuhw4
 
 ## Data Engineering Challenges
 
@@ -125,8 +123,8 @@ Data engineers should understand distributed systems, such as how data is stored
 ### Soft skills
 
 1. Strong analytical and problem-solving skills: Data engineers should have strong analytical and problem-solving skills, as they are responsible for designing and implementing data pipelines, troubleshooting issues, and ensuring data quality.
-1. Understanding of data governance and security: Data engineers should be familiar with the best practices and how to implement them in the data pipeline, such as data encryption, access control, and data masking.
-1. Strong communication and collaboration skills: Data engineers often work with cross-functional teams and must be able to communicate effectively with data scientists, analysts, internal and external customers and other stakeholders.
+2. Understanding of data governance and security: Data engineers should be familiar with the best practices and how to implement them in the data pipeline, such as data encryption, access control, and data masking.
+3. Strong communication and collaboration skills: Data engineers often work with cross-functional teams and must be able to communicate effectively with data scientists, analysts, internal and external customers and other stakeholders.
 
 ### DevOps Skills
 
@@ -144,6 +142,6 @@ Data engineers should understand distributed systems, such as how data is stored
 
 ## Data Flow
 
-![](https://user-images.githubusercontent.com/62965911/213917834-967b67bb-89e6-483a-bbbe-db8cf5ddf36c.svg)
-
 Watch this video: https://www.youtube.com/watch?v=bFC1MBijB-c
+
+![img](https://user-images.githubusercontent.com/62965911/213917834-967b67bb-89e6-483a-bbbe-db8cf5ddf36c.svg)

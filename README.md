@@ -1,35 +1,14 @@
-# Data Bootcamp
+# Data Engineering Bootcamp
 
 **Hit the ⭐️ button if you like the repo.**
 
 ## Curriculum
-
-### Data Engineering
 
 | Curriculum                                      | Level  | Suitable for...                                           |
 | ----------------------------------------------- | ------ | --------------------------------------------------------- |
 | [Basics](./00-curriculum/de-aws-basic.md)          | ★☆☆ | Beginners coming from non-data background                 |
 | [Intermediate](./00-curriculum/de-aws-intermediate.md) | ★★☆ | Data analysts/scientists looking to expand their skillset |
 | [Advanced](./00-curriculum/de-aws-advanced.md)         | ★★★ | Junior data engineers and senior data analysts/scientists |
-
-## Timeline
-
-* [Week 1: Foundations](./01-foundations/)
-* [Week 2: Data Storages](./02-data-storages/)
-* [Week 3: Data Modeling](./03-data-modeling/)
-* [Week 4: Data Transformation](./04-data-transformation/)
-* [Week 5: Data Pipelines](./05-data-pipelines/)
-* [Week 6; Real-Time Analytics](./06-realtime-analytics)
-* [Week 7: Data Extraction](./07-data-extraction/)
-* [Week 8: Modern Data Stack](./08-modern-data-stack/)
-* [Week 9: DevOps for Data Engineers](./09-devops/)
-* [Week 10: Visualization](./10-visualization/)
-* [Week 11: Interview Preparation](./11-interview-preparation/)
-* [Week 12-15: Data Engineering Projects](./12-projects/)
-* [Week 16: Essential AI/ML for Data Engineers](./16-ds-ml/)
-* [Appendix 1: Case Studies](./13-cases/)
-* [Appendix 2: Code Snippets](./14-snippets/)
-* [Appendix 3: Resources](./15-resources/)
 
 ## How to Join
 

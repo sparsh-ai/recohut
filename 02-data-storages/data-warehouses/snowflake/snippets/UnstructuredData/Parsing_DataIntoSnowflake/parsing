@@ -1,2 +1,0 @@
-
-The idea here is to be able to ingest data from other sources into an external stage / data lake, parse the data and transform it into a useable format for the business or analysis 

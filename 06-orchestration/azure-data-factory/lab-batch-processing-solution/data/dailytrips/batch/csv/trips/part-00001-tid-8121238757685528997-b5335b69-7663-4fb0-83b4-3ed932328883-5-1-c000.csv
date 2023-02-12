@@ -1,0 +1,4 @@
+tripId,driverId,customerId,cabId,tripDate,startLocation,endLocation
+102,202,302,402,20220103,San Jose,San Franciso
+103,203,303,403,20220102,New York,Boston
+104,204,304,404,20220103,New York,Washington

@@ -1,0 +1,4 @@
+tripId,driverId,customerId,cabId,tripDate,startLocation,endLocation
+105,205,305,405,20220201,Miami,Fort Lauderdale
+106,206,306,406,20220202,Seattle,Redmond
+107,207,307,407,20220203,Los Angeles,San Diego

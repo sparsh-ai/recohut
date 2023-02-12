@@ -6,6 +6,8 @@
 
 #### Create Azure Account
 
+To quickly get started with Azure, you could [create a free trial account](https://azure.microsoft.com/en-us/free/) in Azure Portal. An Azure free account gives you access to the Azure platform, including 12 months free for several services and $200 in credit to explore paid services for 30 days.
+
 #### Install Azure Powershell
 
 Install Azure PowerShell on your machine; instructions for installing it can be found at [https://docs.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-6.6.00](https://docs.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-6.6.00).
@@ -23,6 +25,12 @@ Connect-AzAccount
 
 First install by `brew install azcopy` (for mac users e.g.). Then login by getting the tenant id from your `Azure Active Directory` blade home page and using it in this command: `azcopy login --tenant-id cf97c957****`
 
+#### Install Azure CLI
+
+Follow this - https://learn.microsoft.com/en-us/cli/azure/install-azure-cli.
+
+Login with `az login`.
+
 ### Introducing Azure Basics
 
 [Follow here](../01-foundations/cloud/azure/README.md)
@@ -31,7 +39,7 @@ First install by `brew install azcopy` (for mac users e.g.). Then login by getti
 
 ### Creating and Managing Data in Azure Data Lake
 
-[Source code](../02-data-storages/data-lakes/azure-data-lakes/lab-create-manage-data)
+[Source code](../02-storage/data-lakes/azure-data-lakes/lab-create-manage-data)
 
 This lab focuses on provisioning, uploading, and managing the data life cycle in Azure Data Lake accounts.
 
@@ -48,7 +56,7 @@ This lab focuses on provisioning, uploading, and managing the data life cycle in
 
 ### Securing and Monitoring Data in Azure Data Lake
 
-[Source code](../02-data-storages/data-lakes/azure-data-lakes/lab-securing-monitoring-lakes)
+[Source code](../02-storage/data-lakes/azure-data-lakes/lab-securing-monitoring-lakes)
 
 This lab covers securing an Azure Data Lake account using firewall and private links, accessing data lake accounts using managed identities, and monitoring an Azure Data Lake account using Azure Monitor.
 
@@ -61,7 +69,7 @@ This lab covers securing an Azure Data Lake account using firewall and private l
 
 ### Building Data Ingestion Pipelines Using Azure Data Factory
 
-[Source code](../05-data-pipelines/azure-data-factory/lab-data-ingestion-pipeline)
+[Source code](../06-orchestration/azure-data-factory/lab-data-ingestion-pipeline)
 
 This lab covers ingesting data using Azure Data Factory and copying data between Azure SQL Database and Azure Data Lake.
 
@@ -72,7 +80,7 @@ This lab covers ingesting data using Azure Data Factory and copying data between
 
 ### Incremental Data Loading using Azure Data Factory
 
-[Source code](../05-data-pipelines/azure-data-factory/lab-adf-incremental-loading)
+[Source code](../06-orchestration/azure-data-factory/lab-adf-incremental-loading)
 
 This lab covers various methods to perform data loading in incremental fashion.
 
@@ -80,11 +88,23 @@ This lab covers various methods to perform data loading in incremental fashion.
 - Recipe 2 - Using File Timestamps
 - Recipe 3 - Using File partitions and folder structures
 
+### Develop Batch Processing Solution
+
+[Source code](../06-orchestration/azure-data-factory/lab-batch-processing-solution)
+
+In this lab, we design an end-to-end batch processing solution by using Data Factory, Data Lake, Spark, Azure Synapse Pipelines, PolyBase, and Azure Databricks.
+
+- Recipe 1 - Data Ingestion using Data Flow
+- Recipe 2 - Data Transformation using Azure Databricks
+- Recipe 3 - Data Serving using PolyBase
+- Recipe 4 - Data Pipeline using Azure Data Factory Pipeline
+- Recipe 5 - End to end data processing with Azure Batch
+
 ## Azure SQL Database
 
 ### Configuring and Securing Azure SQL Database
 
-[Source code](../02-data-storages/databases/azure-sql/lab-securing-azure-sql-databases)
+[Source code](../02-storage/databases/azure-sql/lab-securing-azure-sql-databases)
 
 This lab covers configuring a Serverless SQL database, Hyperscale SQL database, and securing Azure SQL Database using virtual networks and private links.
 
@@ -99,7 +119,7 @@ This lab explains configuring high availability to Azure SQL Database using auto
 
 ### Processing Data Using Azure Databricks
 
-[Source code](../04-data-transformation/azure-databricks/lab-data-processing-azure-dbr)
+[Source code](../03-procesing/azure-databricks/lab-data-processing-azure-dbr)
 
 This lab covers integrating Azure Databricks with Azure Data Lake and Azure Key Vault, processing data using Databricks notebooks, and working with Delta tables.
 
@@ -114,7 +134,7 @@ This lab covers integrating Azure Databricks with Azure Data Lake and Azure Key 
 
 ### Processing Data Using Azure Synapse Analytics
 
-[Source code](../04-data-transformation/azure-synapse-analytics/lab-data-processing-synapse-analytics)
+[Source code](../03-procesing/azure-synapse-analytics/lab-data-processing-synapse-analytics)
 
 This lab covers exploring data using Synapse Serverless SQL pool, processing data using Synapse Spark Pools, Working with Synapse Lake database, and integrating Synapse Analytics with Power BI.
 
@@ -127,7 +147,7 @@ This lab covers exploring data using Synapse Serverless SQL pool, processing dat
 
 ### Transforming Data Using Azure Synapse Dataflows
 
-[Source code](../04-data-transformation/azure-synapse-analytics/lab-azure-synapse-dataflows)
+[Source code](../03-procesing/azure-synapse-analytics/lab-azure-synapse-dataflows)
 
 This lab focuses on performing transformations using Synapse Dataflows, optimizing data flows using partitioning, and managing dynamic source schema changes using schema drifting.
 
@@ -152,7 +172,7 @@ This lab offers techniques for tuning query performance by optimizing query plan
 
 ### Implementing the Serving Layer Star Schema
 
-[Source code](../04-data-transformation/azure-synapse-analytics/lab-implementing-star-schema)
+[Source code](../03-procesing/azure-synapse-analytics/lab-implementing-star-schema)
 
 In this lab, we will learn about implementing the serving layer, which involves implementing star schemas, techniques to read and write different data formats, sharing data between services such as SQL and Spark, and more. Once you complete this lab, you should be able to understand the differences between a Synapse dedicated SQL pool versus traditional SQL systems for implementing the Star schema, the various ways of accessing Parquet data using technologies such as Spark and SQL, and the details involved in storing metadata across services. All this knowledge should help you build a practical and maintainable serving layer in a data lake.
 
@@ -166,3 +186,9 @@ In this lab, we will learn about implementing the serving layer, which involves 
 ### Monitoring and Maintaining Azure Data Engineering Pipelines
 
 This lab covers monitoring and managing end-to-end data engineering pipelines, which includes tracking data lineage using Microsoft Purview and improving the observability of pipeline executions using log analytics and query labeling.
+
+## Questions
+
+### Azure Data Engineer Associate Certification Guide
+
+[Questions and Answers](../a1-interviewprep/azure-data-engineering.md)

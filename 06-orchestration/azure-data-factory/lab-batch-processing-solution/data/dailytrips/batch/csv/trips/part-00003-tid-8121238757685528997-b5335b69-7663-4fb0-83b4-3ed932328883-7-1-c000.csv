@@ -1,0 +1,4 @@
+tripId,driverId,customerId,cabId,tripDate,startLocation,endLocation
+108,208,308,408,20220301,Phoenix,Las Vegas
+109,209,309,409,20220302,Washington,Baltimore
+110,210,310,410,20220303,Dallas,Austin

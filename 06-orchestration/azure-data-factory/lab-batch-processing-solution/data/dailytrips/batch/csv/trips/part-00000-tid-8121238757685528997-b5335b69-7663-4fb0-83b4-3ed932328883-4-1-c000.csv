@@ -1,0 +1,3 @@
+tripId,driverId,customerId,cabId,tripDate,startLocation,endLocation
+100,200,300,400,20220101,New York,New Jersey
+101,201,301,401,20220102,Tempe,Phoenix
