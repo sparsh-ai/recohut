@@ -1,4 +1,4 @@
-# Curriculum - Data Engineering Training (Azure) | Basic
+# Curriculum - Data Engineering Training (Azure)
 
 ## Foundations
 

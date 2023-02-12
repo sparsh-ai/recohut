@@ -4,11 +4,9 @@
 
 ## Curriculum
 
-| Curriculum                                      | Level  | Suitable for...                                           |
-| ----------------------------------------------- | ------ | --------------------------------------------------------- |
-| [Basics](./00-curriculum/de-aws-basic.md)          | ★☆☆ | Beginners coming from non-data background                 |
-| [Intermediate](./00-curriculum/de-aws-intermediate.md) | ★★☆ | Data analysts/scientists looking to expand their skillset |
-| [Advanced](./00-curriculum/de-aws-advanced.md)         | ★★★ | Junior data engineers and senior data analysts/scientists |
+- [AWS Curriculum](./00-curriculum/de-aws.md)
+- [Azure Curriculum](./00-curriculum/de-azure.md)
+- GCP Curriculum (work in progress)
 
 ## How to Join
 

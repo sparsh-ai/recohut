@@ -44,8 +44,6 @@ Apache Spark supports transformations with three different **Application Pro
 
 ## The Genesis of Spark
 
-<iframe frameborder="0" style="width:100%;height:230px;" src="https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=#R5VnLcpswFP0abzM8DNjL1I6TRdPJ1IsmSxkU0FRwPUL40a%2BvZCQwCDtN64AnXaF7dSVxD%2Bfoxcidpbt7htbJI0SYjhwr2o3c%2BchxbHfqiof07EuPNw1KR8xIpIJqx5L8wsppKW9BIpw3AjkA5WTddIaQZTjkDR9iDLbNsFegzVHXKFYjWrVjGSKKjbAfJOJJ6Z04Qe1%2FwCRO9Mi2Py1rUqSDVcd5giLYHrncu5E7YwC8LKW7GaYSPI1L2W5xorZ6MYYz%2FicNdIuc73VyOBK5KjODTDy%2BJDylwrJFEe8Ifz4qv4iydeMpay4%2FsaWNvTYyzvbPx8ZRK2nWzQ6Wble%2Bmnyfk9np14eChTpKMwKxGOswv8JWkBJDisU4IoZhijjZNPtHih1xFVcDKAoKwxMfQPWxQbRQvT7MF0vhsW8sA2oGRRbhSMG5TQjHyzU6JLIVymkiT9EK0yfICSeQCV8oQMBMVGww40SQ82srgIPsAVESd4bfqooVcA5pBbesxrvzgJtAqgZeoJLca8Eqe1vLxPaVLzmSSCXtfwLfMsC%2FB4gF2p8eeHcyJPCBgfs7Z5W%2FU7pjCr0vnTumzMU0LpehQ9rABOesFYnlIoc4ki0zWSY5Z2RVcME9kW%2B2IQyyVOZ4mqHW2wy9AIGccYtATgeBnA4C%2BRfgj2ug%2BcRgRXEq500DGpEkb%2BYvQIWfeAYUWE2vV0Jpy%2FWmJFMSRXKYTsCbn%2BQSmLdmy6kJeZdk3QsgPh1GsWNTsZOeFDs%2Bp9g1gxDneVuzIDWbFnJjKRcRsX0LE5KJnee1qbXiRB9q9c6o1aTRp1Wr07HEfpRcbe%2Bd8ux3y%2B2bsradnnTtG2zUez5rQQ6P5T7nkpwDa3ZsDbjC2uOrJtCkg0BuTwSaGAR6RGuGoyI8d24YhjO9zvN2xyb3cJYdGBRvOqSQzL3q9dCljUy%2FdDFnYnX14fwPVx%2BB32Jlv1cf5hH8KrQatO8l7D4Zec1TexuZakvfCzLm%2Be%2Fl9vu3qwPFDrwPA0WY9T37oe7ob4V79xs%3D"></iframe>
-
 Watch this video: https://www.youtube.com/watch?v=1BGFzDj60SY
 
 ### Big Data and Distributed Computing at Google
@@ -387,7 +385,15 @@ Follow [this](https://aws.amazon.com/emr/features/hadoop/) blog for more informa
 
 Watch this video: https://www.youtube.com/watch?v=ohroxsisQ0w
 
-## Tuning shuffle partitions
+## Understanding Spark Query Execution
+
+To write efficient Spark applications, we need to have some understanding of how Spark executes queries. Having a good understanding of how Spark executes a given query helps big data developers/engineers work efficiently with large volumes of data.
+
+Query execution is a very broad subject, and, in this section, we will understand jobs, stages, and tasks. We will also learn how Spark lazy evaluation works, how to check and understand the execution plan when working with DataFrames or SparkSQL, how joins work in Spark and the different types of join algorithms Spark uses while joining two tables. We will also learn about the input, output, and shuffle partitions and the storage benefits of using different file formats.
+
+Knowing about the internals will help you troubleshoot and debug your Spark applications more efficiently. By the end of this section, you will know how to execute Spark queries, as well as how to write and debug your Spark applications more efficiently.
+
+### Tuning shuffle partitions
 
 Spark uses a technique called **shuffle** to move data between its executors or nodes while performing operations such as **join**, **union**, **groupby**, and **reduceby**. The shuffle operation is very expensive as it involves the movement of data between nodes. Hence, it is usually preferable to reduce the amount of shuffle involved in a Spark query. The number of partition splits that Spark performs while shuffling data is determined by the following configuration:
 
@@ -399,7 +405,7 @@ spark.conf.set("spark.sql.shuffle.partitions",200)
 
 You can learn more about Spark performance tuning and shuffle partitions here: [https://spark.apache.org/docs/latest/sql-performance-tuning.html](https://spark.apache.org/docs/latest/sql-performance-tuning.html).
 
-## Interpreting a Spark DAG
+### Interpreting a Spark DAG
 
 A DAG is just a regular graph with nodes and edges but with no cycles or loops. In order to understand a Spark DAG, we first have to understand where a DAG comes into the picture during the execution of a Spark job.
 
@@ -426,8 +432,7 @@ The main advantage of learning to read Spark DAGs is that they help you identify
 
 You can learn more about Spark DAGs here: [https://spark.apache.org/docs/3.0.0/web-ui.html](https://spark.apache.org/docs/3.0.0/web-ui.html).
 
-Identifying shuffles in a Spark query plan
-------------------------------------------
+### Identifying shuffles in a Spark query plan
 
 Similar to SQL, we can use the **EXPLAIN** command to print the plans in Spark. Here is a simple example to generate two sets of numbers, partition them, and then join them. This will cause lot of data movement:
 
@@ -459,6 +464,7 @@ Alternatively, you can identify the shuffle stage from the Spark DAG. In the DAG
 ![B17525_14_013](https://user-images.githubusercontent.com/62965911/218312617-1624668d-96d7-449d-87ea-60edf79edf2d.jpeg)
 
 If there are very expensive shuffle sections, consider enabling the statistics and checking whether the engine generates a better plan. If not, you will have to rewrite the query to reduce the shuffles as much as possible.
+
 
 ## Test your knowledge
 

@@ -72,3 +72,11 @@ flowchart TD
 | PR Submission          | 10        |
 
 All the above factors will be assessed during a Mock Interview and Viva. Once you create the PR, notify the instructor and a 15-min slot will be allotted for the viva.
+
+## Difficulty Criteria
+
+★☆☆ - Easy
+
+★★☆ - Medium
+
+★★★ - Hard
