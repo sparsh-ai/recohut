@@ -2,7 +2,9 @@
 
 > An open format storage layer for your lakehouses
 
-Delta Lake  is an open source storage layer that enables building a Lakehouse architecture on top of data lakes. Delta Lake guarantees data atomicity, consistency, isolation, and durability in the lake. In short, a Delta Lake is ACID compliant. In addition to providing ACID transactions, scalable metadata handling, and more, Delta Lake runs on an existing data lake and is compatible with Apache Spark APIs. Delta Lake also offers unifies streaming and batch data processing on top of existing data lakes, such as S3 and HDFS.
+Delta Lake  is an open source storage layer that enables building a Lakehouse architecture on top of data lakes. It provides functionalities to data in the data lake that only exist in data warehouses. When combined with cloud storage, Databricks and Delta Lake lead to the formation of a Lakehouse. A Lakehouse simply provides the best of both worlds – data lakes and data warehouses. In today's world, a Lakehouse provides the same set of capabilities as a traditional data warehouse and at a much lower cost. This is made possible due to cheap cloud storage such as Azure Data Lake/S3, Spark as the processing engine, and data being stored in the Delta Lake format.
+
+Delta Lake guarantees data atomicity, consistency, isolation, and durability in the lake. In short, a Delta Lake is ACID compliant. In addition to providing ACID transactions, scalable metadata handling, and more, Delta Lake runs on an existing data lake and is compatible with Apache Spark APIs. Delta Lake also offers unifies streaming and batch data processing on top of existing data lakes, such as S3 and HDFS.
 
 There are a few methods of getting started with Delta Lake. Databricks offers notebooks along with compatible Apache Spark APIs to create and manage Delta Lakes.
 
