@@ -187,6 +187,17 @@ SQLite, MySQL, Postgres, RDS, DuckDB
 3. [ ] Processing data with Databricks
 4. [ ] Building Serverless Pipeline in Lambda
 
+#### Understanding Spark Query Execution
+
+[Source code](../03-processing/01-batch/spark/lab-understand-spark-query-execution)
+
+- Recipe 1 - Introduction to jobs, stages, and tasks
+- Recipe 2 - Deep diving into schema inference
+- Recipe 3 - Looking into the query execution plan
+- Recipe 4 - How joins work in Spark
+- Recipe 5 - Learning about input, output and shuffle partitions
+- Recipe 6 - The storage benefits of different file types
+
 ## Orchestration Layer
 
 **Tools and Concepts**
