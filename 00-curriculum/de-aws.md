@@ -1,9 +1,5 @@
 # Curriculum - Data Engineering Training (AWS)
 
-# Basic
-
-**Estimated Time:** Monologue mode: 20 hrs, Interactive mode: 35 hours
-
 ## Foundations
 
 ### Developer Foundations
@@ -37,7 +33,7 @@ We will learn the basic concepts we should know as a data engineer. We will focu
 
 ### AWS Cloud Essentials
 
-**Tools**: AWS S3, RDS, Redshift, AWS Glue, Athena, AWS Lambda, EMR and EMR Serverless, Keyspace, Cloudformation, AWS IAM, Secrets Manager, Azure and GCP overview
+**Tools**: AWS S3, RDS, Redshift, AWS Glue, Athena, AWS Lambda, EMR and EMR Serverless, Keyspace, Cloudformation, AWS IAM, Secrets Manager
 
 **Concepts:** Cloud Computing and Data Engineering tools in Cloud
 
@@ -53,7 +49,7 @@ We will learn the basic concepts we should know as a data engineer. We will focu
 * [ ] Connect to RDS DBMS in DBeaver
 * [ ] Pull credentials from Secrets Manager in Python using Boto3
 
-### Programming Foundations
+### Programming
 
 #### SQL
 
@@ -198,6 +194,10 @@ SQLite, MySQL, Postgres, RDS, DuckDB
 - Recipe 5 - Learning about input, output and shuffle partitions
 - Recipe 6 - The storage benefits of different file types
 
+### Streaming & Unified Data Processing
+
+**Tools:** Kafka, Kinesis, Spark Streaming, Faust, Beam, Flink, Delta Live Tables, Debezium (CDC)
+
 ## Orchestration Layer
 
 **Tools and Concepts**
@@ -223,18 +223,6 @@ SQLite, MySQL, Postgres, RDS, DuckDB
 4. [ ] ACLED Data Pipeline
 5. [ ] Sending Email notifications using SNS and SES
 
-## Capstone Project
-
-Objective: Building an ELT pipeline with dbt and Redshift
-
-- We will build an end-to-end project with tools and concepts we learned and adopted in the training sessions.
-- The project will be added in your resume.
-- We will also release the project in your github. (Recruiters are interested in seeing your projects in git
-
-# Advanced
-
-**Estimated Time:** Monologue mode: 60 hrs, Interactive mode: 120 hours
-
 ## Extraction Layer
 
 ### API Data Extraction
@@ -245,23 +233,13 @@ Objective: Building an ELT pipeline with dbt and Redshift
 
 ## Processing Layer
 
-### Streaming & Unified Data Processing
-
-**Tools:** Kafka, Kinesis, Spark Streaming, Faust, Beam, Flink, Delta Live Tables, Debezium (CDC)
-
-#### Kafka
-
-#### Kinesis
-
-#### Spark Streaming
-
 ## Governance
 
 ### Data Quality
 
 **Tools:** Great Expectations
 
-### Access Management
+### Data Access Control
 
 **Tools:** AWS IAM Roles and Policy Management, AWS Secrets Manager
 
@@ -290,7 +268,13 @@ Objective: Building an ELT pipeline with dbt and Redshift
 4. MLOps - Sagemaker
 5. PyTorch/Lightning, Tensorflow/Lite
 
-## Projects
+## Capstone Projects
+
+### Features
+
+- We will build end-to-end projects with tools and concepts we learned and adopted in the training sessions.
+- The project will be added in your resume.
+- We will also release the project in your github. (Recruiters are interested in seeing your projects in git
 
 ### Basic
 

@@ -101,4 +101,10 @@ With the help of AQE, Spark can switch join strategies at runtime if they are f
 
 *Data skew* occurs when data is unevenly distributed across the partitions of the DataFrame. It has the potential to downgrade query performance. With the help of AQE, Spark can automatically detect data skew while joins are created. After detection, it splits the larger of those partitions into smaller sub-partitions that are joined to the corresponding partition on the other side of the join. This ensures that the Spark job does not get stuck due to a single enormously large partition.
 
-In this lab, we will go through a worked-out example to learn how AQE actually works in Databricks.
+In this recipe, we will go through a worked-out example to learn how AQE actually works in Databricks.
+
+## Conclusion
+
+In this lab, we learned about several optimization techniques concerning Spark Core. We started off by learning about broadcast joins and how they are more performant than a standard join. Then, we learned about the advantages of using Apache Arrow with Pandas. Next, we learned about shuffle partitions and Spark caching.
+
+Finally, we learned about AQE and how it helps to speed up queries during runtime. All these optimization techniques are highly useful for tuning big data workloads in Databricks.

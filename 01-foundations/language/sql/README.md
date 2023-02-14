@@ -1,5 +1,14 @@
 # SQL
 
+**Structured Query Language** (**SQL**) is the most widely used language in relational database platforms for recording, editing, re-editing, and querying operations. SQL was created by Donald D. Chamberlin and Raymond F. Boyce in 1974 in an innovation lab at IBM and has since evolved with DBMSs that use it with Microsoft SQL Server, Oracle Database, MySQL, PostgreSQL, and MariaDB.
+
+SQL has been standardized by ANSI and the **International Organization for Standardization** (**ISO**), but each of the RDBMS has some exclusive extended SQL standard instructions, primarily for administration, monitoring, and other operations unique to that RDM.
+
+These unique patterns have names such as the following:
+
+- T-SQL or Transact-SQL is the version used by Microsoft SQL Server and Azure SQL versions
+- pgSQL is the default of PostgreSQL databases
+
 SQL is a must-have skill for data engineers. They use the querying language to perform essential tasks like modeling data, extracting performance metrics, and developing reusable data structures.
 
 Data engineer SQL questions tend to mirror the work that engineers do.
@@ -17,36 +26,135 @@ Watch this video: https://www.youtube.com/embed/AK7_m-aThfw
 
 [This](https://techtfq.com/blog/top-20-sql-interview-questions) is the blog link for the above video.
 
-## Steps
+We will now list some of the additional advantages that made the SQL language the standard used in relational databases.
 
-### Concepts
+Key advantages of SQL
+---------------------
 
-1. [SQL Interview Questions](./sql-interviews-questions.md)
-2. [SQL vs NoSQL](./sql-vs-nosql.md)
+The list of advantages is very long, but the main points are as follows:
 
-### Practice
+- **Standardization**: As mentioned, SQL has been standardized by *ANSI* and is still used in many database systems. This is why SQL is one of the most documented languages today, easier to learn, and useful for day-to-day activities.
+- **Simplicity with scalability**: SQL is an easy-to-understand language with simple syntax fundamentals, answering high-scalability database scenarios by processing millions of pieces of data.
+- **Portability**: Because it is standard in several *DBMSs*, SQL is portable between these different types of database managers, even though there are some particularities in the SQL of each.
+- **Multiple data views**: With SQL, it is possible to define different views of the database structure for different user needs. For example, you might have users who are only allowed to explore the data and perform **SELECT** commands, whereas other users can add columns in tables but cannot delete any columns. This granularity of permissions makes databases more fully configurable.
 
-1. [Assignment 1](./sql-assignments/assignment1/)
-2. [Assignment 2](./sql-assignments/assignment2/)
-3. [Assignment 3](./sql-assignments/assignment3/)
-4. [Assignment 4](./sql-assignments/assignment4/)
-5. [Assignment 5](./sql-assignments/assignment5/)
-6. [Assignment 6](./sql-assignments/assignment6/)
-7. [Assignment 7](./sql-assignments/assignment7/)
+Key disadvantages of SQL
+------------------------
 
-### Leetcode
+Of course, we can find more disadvantages when we know about NoSQL databases, but the disadvantages most encountered by data architects to justify an analysis of other databases are these:
 
-1. [Leetcode Easy Level](./leetcode/basics)
-2. [Leetcode Medium Level](./leetcode/intermediate)
-3. [Leetcode Hard Level](./leetcode/advanced)
+- **Database processing cost**: In general, the cost of processing a database that uses the SQL language is high compared to more modern database languages. This means that the database needs a robust infrastructure for data processing. Compared to a NoSQL database, a SQL database uses compute power, RAM, and storage speed more intensively.
+- **Pre-build and fixed schema**: A SQL database must be planned and implemented (the creation of tables, columns, relationships, and so on) before implementing the software. Your schema should be created and, once created, only changed upon a general impact analysis of the database.
 
-### Mode Analytics
+This generates a lack of flexibility and more time spent at the beginning of a project in the planning and implementation of the database.
 
-Learning SQL basics by hands-on practice on MySQL database.
+Let's now get to know the categories of SQL commands.
 
-1. [Mode Easy Level](./mode/basics)
-2. [Mode Medium Level](./mode/intermediate)
-3. [Mode Hard Level](./mode/advanced)
+Understanding the categories of SQL commands
+--------------------------------------------
+
+To understand the structure of SQL, it is subdivided into five categories of commands:
+
+- **Data Query Language** (**DQL**): Defines the command used so that we can query (**SELECT**) the data stored in the database
+- **Data Manipulation Language** (**DML**): Defines the commands used for manipulating data in the database (**INSERT**, **UPDATE**, and **DELETE**)
+- **Data Definition Language** (**DDL**): Defines the commands used for creating tables, views, and indexes, updating these structures (**ALTER**), as well as removal (**DROP**)
+- **Data Control Language** (**DCL**): Defines the commands used to control access to database data by adding (**GRANT**) and removing (**REVOKE**) access permissions
+- **Data Transaction Language** (**DTL**): Defines the commands used to manage transactions executed in the database, such as starting a transaction (**BEGIN**), confirming it (**COMMIT**), or undoing it (**ROLLBACK**)
+
+The following diagram demonstrates the categories of the SQL language and their main commands for quick reference:
+
+![B18569_03_03](https://user-images.githubusercontent.com/62965911/218838205-321df2ab-06b7-4737-8570-6d8c52e5e543.jpeg)
+
+These five categories contain all the necessary syntaxes of SQL commands for operations in a database.
+
+## Describing the database components
+
+There are components in a relational database that are important to maintain the organization and productivity. The four most common components among database systems are as follows:
+
+- **Views**
+- **Stored Procedures**
+- **Triggers**
+- **Indexes**
+
+Let's take a look at each of them in detail in the following sections.
+
+Views
+-----
+
+A *view* can be considered a virtual table because it is composed of rows and columns of data, the results of a **SELECT** SQL instruction in one or more database tables. Views are great resources for organizing information from different tables to create reports.
+
+The following is a *view* example, with the name **High_price_products**, which is constructed with a **SELECT** statement in the **PRODUCTS** table, filtering the **Price** field by the average greater than that of the other products in the table:
+
+```sql
+CREATE VIEW [High_price_products] AS
+SELECT Product_Name, Product_Price
+FROM Products
+WHERE Product_Price > (SELECT AVG(Product_Price) FROM Products);
+```
+
+Views are important features, especially for generating reports. But another object that's also widely used in SQL databases, and which can help in the development of solutions, is a stored procedure, which we'll look at in the following section.
+
+Stored procedures
+-----------------
+
+A *stored procedure* is a set of SQL statements stored in a database. These statements can request data entry parameters, which are used as variables during execution, and can constitute a data output.
+
+In the following example, we can see the creation of a *stored SQL procedure* called **All_Customers**, which requests two variables, **City** and **PostalCode**, to filter the results in the query:
+
+```sql
+CREATE PROCEDURE All_Customers
+@City nvarchar(30), @PostalCode nvarchar(10)
+AS
+SELECT * FROM Customers WHERE City = @City AND PostalCode = @PostalCode
+GO;
+```
+
+Objects in a database need a trigger to be called and start executing. For this reason, there is an object in relational databases called a *trigger*. Let's analyze it now.
+
+Triggers
+--------
+
+*Triggers* are a type of stored procedure, configured to call whenever an event occurs. This trigger can be used, for example, to signalize the execution of some statements whenever new data is included in a table, or a record is edited in the table.
+
+Many *trigger* use cases are about creating transaction audit tables and maintaining data consistency, by reviewing relationships before confirming any type of transaction. We can use a trigger in the data definition and for data manipulation instructions.
+
+In the following, we will use the **DDL CREATE** statement, which we have already seen in this note to create tables, but now we will use it to create a **TRIGGER**:
+
+```sql
+CREATE TRIGGER LOG_PRICE_HISTORY before update
+on PRODUCTS_SERVICES
+for each row
+insert into PRICE_HISTORY
+values(old.PRODUCTID, old.BASEPRICE, old.DISCOUNT, old.FINALPRICE, old.DATELASTUPDATE);
+```
+
+Executing this command, the **LOG_PRICE_HISTORY** trigger will be created and linked to the **PRODUCTS_SERVICES** table, with the following condition: whenever an item is edited in this table, a new record will be created in the **PRICE_HISTORY** table with the data from this table before the change.
+
+This makes it possible for you to keep a history of this table and know exactly the changes that were made.
+
+Sometimes, tables become very large, with thousands and even millions of records. This size can cause performance problems in database operations, and one of the methods used to mitigate these problems was indexes, which we are going to look at now.
+
+Indexes
+-------
+
+An *index* is created by a table or view to define a field that can be used to optimize queries.
+
+The best way to understand an *index* is to observe the index section typically present in a book. This section summarizes the main topics in the book and references the page each topic begins on. This is exactly what an index does in a database table or view.
+
+Some database platforms have an *auto index*; others use the primary key of the tables to create their indexes.
+
+You can create multiple *indexes* in each table. Each *index* generates a record in an internal database table, with a copy of the data in order and pointers that indicate the fastest way to get to the information, which help the database search system find that record.
+
+To create an *index* in a table, the SQL statement is very simple:
+
+```sql
+CREATE INDEX IDX_CUSTOMERNAME
+ON CUSTOMERS(Name);
+```
+
+This way, we create an index called **IDX_CUSTOMERNAME** in the **CUSTOMERS** table, using the **Name** field to help the database organize queries for customer names.
+
+So, we close the main SQL commands used in relational databases. Of course, all commands are used in a large database, but by understanding the statement and how they work, you will surely be able to implement your commands at the right time.
 
 ## Basics
 
@@ -431,7 +539,7 @@ If you're planning to write several window functions in to the same query, using
 
 The WINDOW clause, if included, should always come after the WHERE clause.
 
-### Performance Tuning SQL Queries
+## Performance Tuning SQL Queries
 
 SQL tuning is the process of improving SQL queries to accelerate your servers performance. It's general purpose is to reduce the amount of time it takes a user to receive a result after issuing a query, and to reduce the amount of resources used to process a query.
 
@@ -446,7 +554,7 @@ Query runtime is also dependent on some things that you can't really control rel
 - Other users running queries: The more queries running concurrently on a database, the more the database must process at a given time and the slower everything will run. It can be especially bad if others are running particularly resource-intensive queries that fulfill some of the above criteria.
 - Database software and optimization: This is something you probably can't control, but if you know the system you're using, you can work within its bounds to make your queries more efficient.
 
-#### **Reducing table size**
+**Reducing table size**
 
 Filtering the data to include only the observations you need can dramatically improve query speed. How you do this will depend entirely on the problem you're trying to solve. For example, if you've got time series data, limiting to a small time window can make your queries run much more quickly:
 
@@ -484,11 +592,11 @@ Note: Using LIMIT this will dramatically alter your results, so you should use i
 
 In general, when working with subqueries, you should make sure to limit the amount of data you're working with in the place where it will be executed first. This means putting the LIMIT in the subquery, not the outer query. Again, this is for making the query run fast so that you can test—NOT for producing good results.
 
-#### **EXPLAIN**
+**EXPLAIN**
 
 You can add EXPLAIN at the beginning of any (working) query to get a sense of how long it will take. It's not perfectly accurate, but it's a useful tool.
 
-#### **Use Column Names Instead of * in a SELECT Statement**
+**Use Column Names Instead of * in a SELECT Statement**
 
 If you are selecting only a few columns from a table there is no need to use SELECT *. Though this is easier to write, it will cost more time for the database to complete the query. By selecting only the columns you need, you are reducing the size of the result table, reducing the network traffic and also in turn boosting the overall performance of the query.
 
@@ -506,7 +614,7 @@ Improved query:
 SELECT s.prod_id FROM SH.sales s
 ```
 
-#### **Avoid including a HAVING clause in SELECT statements**
+**Avoid including a HAVING clause in SELECT statements**
 
 The HAVING clause is used to filter the rows after all the rows are selected and it is used like a filter. It is quite useless in a SELECT statement. It works by going through the final result table of the query parsing out the rows that don’t meet the HAVING condition.
 
@@ -524,7 +632,7 @@ Improved query:
 SELECT s.cust_id,count(cust_id) FROM SH.sales s WHERE s.cust_id != '1660' AND s.cust_id !='2' GROUP BY s.cust_id
 ```
 
-#### Eliminate Unnecessary DISTINCT Conditions
+**Eliminate Unnecessary DISTINCT Conditions**
 
 Considering the case of the following example, the DISTINCT keyword in the original query is unnecessary because the table_name contains the primary key p.ID, which is part of the result set.
 
@@ -542,7 +650,7 @@ Improved query:
 SELECT * FROM SH.sales s JOIN SH.customers c ON s.cust_id = c.cust_id WHERE c.cust_marital_status='single'
 ```
 
-#### Un-nest sub queries
+**Un-nest sub queries**
 
 Rewriting nested queries as joins often leads to more efficient execution and more effective optimization. In general, sub-query un-nesting is always done for correlated sub-queries with, at most, one table in the FROM clause, which are used in ANY, ALL, and EXISTS predicates. A uncorrelated sub-query, or a sub-query with more than one table in the FROM clause, is flattened if it can be decided, based on the query semantics, that the sub-query returns at most one row.
 
@@ -560,7 +668,7 @@ Improved query:
 SELECT p.* FROM SH.products p, sales s WHERE p.prod_id = s.prod_id AND s.cust_id = 100996 AND s.quantity_sold = 1
 ```
 
-#### Consider using an IN predicate when querying an indexed column
+**Consider using an IN predicate when querying an indexed column**
 
 The IN-list predicate can be exploited for indexed retrieval and also, the optimizer can sort the IN-list to match the sort sequence of the index, leading to more efficient retrieval. Note that the IN-list must contain only constants, or values that are constant during one execution of the query block, such as outer references.
 
@@ -578,7 +686,7 @@ Improved query:
 SELECT s.* FROM SH.sales s WHERE s.prod_id IN (14, 17)
 ```
 
-#### Use EXISTS instead of DISTINCT when using table joins that involves tables having one-to-many relationships
+**Use EXISTS instead of DISTINCT when using table joins that involves tables having one-to-many relationships**
 
 The DISTINCT keyword works by selecting all the columns in the table then parses out any duplicates.Instead, if you use sub query with the EXISTS keyword, you can avoid having to return an entire table.
 
@@ -596,7 +704,7 @@ Improved query:
 SELECT c.country_id, c.country_name FROM SH.countries c WHERE EXISTS (SELECT 'X' FROM SH.customers e WHERE e.country_id = c.country_id)
 ```
 
-#### Try to use UNION ALL in place of UNION
+**Try to use UNION ALL in place of UNION**
 
 The UNION ALL statement is faster than UNION, because UNION ALL statement does not consider duplicate s, and UNION statement does look for duplicates in a table while selection of rows, whether or not they exist.
 
@@ -614,7 +722,7 @@ Improved query:
 SELECT cust_id FROM SH.sales UNION ALL SELECT cust_id FROM customers
 ```
 
-#### Avoid using OR in join conditions
+**Avoid using OR in join conditions**
 
 Any time you place an ‘OR’ in the join condition, the query will slow down by at least a factor of two.
 
@@ -643,7 +751,7 @@ INNER JOIN SH.products p
 ON c.unit_price = p.prod_list_price
 ```
 
-#### Avoid functions on the right hand side of the operator
+**Avoid functions on the right hand side of the operator**
 
 Functions or methods are used very often with their SQL queries. Rewriting the query by removing aggregate functions will increase the performance tremendously.
 
@@ -665,7 +773,7 @@ FROM SH.sales
 WHERE TRUNC (time_id) BETWEEN TRUNC(TO_DATE(‘12/01/2001’, ’mm/dd/yyyy’)) AND TRUNC (TO_DATE (‘12/30/2001’,’mm/dd/yyyy’))
 ```
 
-#### Remove any redundant mathematics
+**Remove any redundant mathematics**
 
 There will be times where you will be performing mathematics within an SQL statement. They can be a drag on the performance if written improperly. For each time the query finds a row it will recalculate the math. So eliminating any unnecessary math in the statement will make it perform faster.
 
