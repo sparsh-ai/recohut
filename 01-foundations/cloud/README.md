@@ -1,5 +1,9 @@
 # Cloud Computing
 
+Renting someone else's server: this definition of the cloud is my favorite, very simple, to the point, definition of what the cloud really is. So as long as you don't need to buy your own machine to store and process data, you are using the cloud.
+
+But increasingly, after some leading cloud providers such as Google Cloud and Amazon Web Services having gained more traction and technology maturity, the terminology is becoming representative of sets of architecture, managed services, and highly scalable environments that define how we build solutions. For data engineering, that means building data products using collections of services, APIs, and trusting the underlying infrastructure of the cloud provider one hundred percent.
+
 Cloud computing is the on-demand delivery of IT resources over the Internet with pay-as-you-go pricing. Instead of buying, owning, and maintaining physical data centers and servers, you can access technology services, such as computing power, storage, and databases, on an as-needed basis from a cloud provider like Amazon Web Services (AWS).
 
 <iframe width="100%" height="480" src="https://www.youtube.com/embed/mxT233EdY5c" title="What is Cloud Computing? | Amazon Web Services" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
