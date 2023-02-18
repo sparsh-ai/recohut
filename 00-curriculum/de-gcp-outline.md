@@ -3,11 +3,13 @@
 **Estimated Time:** 55 hours
 
 - Getting Started
+
   - Creating an account
   - Creating your first GCP project
   - Using GCP Cloud Shell
   - A quick overview of GCP services for data engineering
 - Developer Foundations
+
   - VS Code
     - Download and Install vscode
     - Understand vscode features
@@ -25,6 +27,7 @@
   - Bash
     - Learn bash commands
 - Data Engineering Basics
+
   - What is Data Engineering?
   - Role of Data Engineering in Organizations
   - Skills required to become a Data Engineer
@@ -38,6 +41,7 @@
   - The on-demand nature of the cloud
   - OLTP vs OLAP technologies
 - Programming
+
   - SQL
     - Query Types
     - Query Engines
@@ -86,6 +90,7 @@
     - Transform complex data types
     - Extract and Load Process with Spark Scala, S3 and Postgres
 - Data Modeling
+
   - SQL Data Modeling
     - Music Data Modeling with Postgres
     - Healthcare Data Modeling with Postgres
@@ -93,11 +98,13 @@
   - NoSQL Data Modeling
     - Music Data Modeling with Cassandra
 - Selecting Appropriate Storage Technologies
+
   - From Business Requirements to Storage Systems
   - Technical Aspects of Data: Volume, Velocity, Variation, Access, and Security
   - Types of Structure: Structured, Semi-Structured, and Unstructured
   - Schema Design Considerations
 - Building and Operationalizing Storage Systems
+
   - Cloud SQL
   - Cloud Spanner
   - Cloud Bigtable
@@ -107,10 +114,12 @@
   - Cloud Storage
   - Unmanaged Databases
 - Designing a Data Processing Solution
+
   - Designing Infrastructure
   - Designing for Distributed Processing
   - Migrating a Data Warehouse
 - BigQuery Data Warehouse
+
   - Introduction to BigQuery
     - Introduction to Google Cloud Storage and BigQuery
     - BigQuery data location
@@ -134,9 +143,11 @@
     - Steps and planning for handling scenario 2
     - Exercise – Scenario 3
 - Snowflake Data Warehousing
+
   - Loading Data into Snowflake
   - Queries in Snowflake
 - Orchestration Layer
+
   - Data Pipelines (ETL/ELT)
   - Apache Airflow
     - Common features
@@ -151,6 +162,7 @@
   - AWS SNS and SES for Notifications
 - Lab - ACLED Data Pipeline
 - Batch Data Processing
+
   - Spark and Hadoop
   - Spark Jobs
   - Big Data Processing
@@ -159,17 +171,21 @@
   - Processing data using dbt in Snowflake
   - Processing data with Databricks
 - Data Lakes and Lakehouses
+
   - Delta, Iceberg and Hudi
   - Working with Delta lake in Databricks
 - Designing Databases for Reliability, Scalability, and Availability
+
   - Designing Cloud Bigtable Databases for Scalability and Reliability
   - Designing Cloud Spanner Databases for Scalability and Reliability
   - Designing BigQuery Databases for Data Warehousing
 - Designing Data Pipelines
+
   - Overview of Data Pipelines
   - GCP Pipeline Components
   - Migrating Hadoop and Spark to GCP
 - Cloud Composer
+
   - Introduction to Cloud Composer
   - Understanding the working of Airflow
   - Provisioning Cloud Composer in a GCP project
@@ -180,6 +196,7 @@
     - Level 4 DAG – Guaranteeing task idempotency in Cloud Composer
     - Level 5 DAG – Handling late data using a sensor
 - Dataproc
+
   - Introduction to Dataproc
     - A brief history of the data lake and Hadoop ecosystem
     - A deeper look into Hadoop components
@@ -198,54 +215,3 @@
     - Understanding the concept of the ephemeral cluster
     - Practicing using a workflow template on Dataproc
     - Building an ephemeral cluster using Dataproc and Cloud Composer
-- Understanding Data Operations for Flexibility and Portability
-  - Cataloging and Discovery with Data Catalog
-  - Data Preprocessing with Dataprep
-  - Visualizing with Data Studio
-  - Exploring Data with Cloud Datalab
-  - Orchestrating Workflows with Cloud Composer
-- Pub/Sub and Dataflow
-  - Processing streaming data
-  - Streaming data for data engineers
-  - Introduction to Pub/Sub
-  - Introduction to Dataflow
-  - Lab – Publishing event streams to cloud Pub/Sub
-    - Creating a Pub/Sub topic
-    - Creating and running a Pub/Sub publisher using Python
-    - Creating a Pub/Sub subscription
-    - Lab – Using Cloud Dataflow to stream data from Pub/Sub to GCS
-    - Creating a HelloWorld application using Apache Beam
-    - Creating a Dataflow streaming job without aggregation
-    - Creating a streaming job with aggregation
-- Key Strategies for Architecting Top-Notch Data Pipelines
-  - User and Project Management in GCP
-    - Understanding IAM in GCP
-    - Planning a GCP project structure
-    - Understanding the GCP organization, folder, and project hierarchy
-    - Deciding how many projects we should have in a GCP organization
-    - Controlling user access to our data warehouse
-  - Use-case scenario – planninga BigQuery ACL on an e-commerce organization
-  - Column-level security in BigQuery
-  - Practicing the concept of IaC using Terraform
-    - Lab – creating and running basic Terraform scripts
-    - Self-exercise – managing a GCP project and resources using Terraform
-- Designing for Security and Compliance
-  - Identity and Access Management with Cloud IAM
-  - Using IAM with Storage and Processing Services
-  - Data Security
-  - Ensuring Privacy with the Data Loss Prevention API
-  - Legal Compliance
-- CI/CD on Google Cloud Platform for Data Engineers
-  - Introduction to CI/CD
-  - Understanding the data engineer's relationship with CI/CD practices
-  - Understanding CI/CD components with GCP services
-  - Lab – implementing continuous integration using Cloud Build
-    - Creating a GitHub repository using Cloud Source Repository
-    - Developing the code and Cloud Build scripts
-    - Creating the Cloud Build Trigger
-    - Pushing the code to the GitHub repository
-  - Lab – deploying Cloud Composer jobs using Cloud Build
-    - Preparing the CI/CD environment
-    - Preparing the cloudbuild.yaml configuration file
-    - Pushing the DAG to our GitHub repository
-    - Checking the CI/CD result in the GCS bucket and Cloud Composer

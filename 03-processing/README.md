@@ -261,17 +261,13 @@ If you think about how every piece of data is created, it's always in real time-
 
 Take a look at the following diagram. Here, there are two databases: the source database and the target database. For streaming data, every time a new record is inserted into the source database (illustrated as boxes with numbers), the record is immediately processed as an event and inserted into the target database. These events happen continuously, which makes the data in the target database real-time compared to the source database:
 
-![Figure 6.1 -- Streaming data illustration
-](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781800561328/files/image/Figure_6.1.jpg)
+![Figure_6 1](https://user-images.githubusercontent.com/62965911/219853662-f177ccc8-463d-417f-8c18-ddc5eef722ba.jpg)
 
 In data engineering, the antonym for *stream* is *batch*. Batching is a very common approach for data engineers to process data. Even though we know data is real-time in nature, it's a lot easier to process data in a set time. For example, if your **chief executive officer** (**CEO**) wants to know about the company's revenue, it's a lot easier to populate the purchase history in a month and calculate the revenue, rather than build a system then continuously calculate the purchase transactions. Or, in a more granular level, a batch is commonly done on a weekly, daily, or hourly basis. The batch approach is a widely used practice in the data engineering world; I can say 90% of the data pipeline is a batch. 
 
-Take a look at the following diagram. Here, the two databases are the same as in *Figure 6.1*. The nature of how data is inserted into the source database is also the same---it's always real-time from the source database perspective. The difference is in the processing step, where the records are grouped into batches. Every batch is scheduled individually to be loaded to the target database:
+Take a look at the following diagram. Here, the two databases are the same as the above figure. The nature of how data is inserted into the source database is also the same---it's always real-time from the source database perspective. The difference is in the processing step, where the records are grouped into batches. Every batch is scheduled individually to be loaded to the target database:
 
-![Figure 6.2 -- Batch data illustration
-](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781800561328/files/image/Figure_6.2.jpg)
-
-Figure 6.2 -- Batch data illustration
+![Figure_6 2](https://user-images.githubusercontent.com/62965911/219853667-6aa1ca55-587b-4133-bdb9-6ce486724a3a.jpg)
 
 There are two major reasons why processing data in batches is more popular compared to streams. The first is because of the data user's needs. The data user, who is usually called a decision maker, naturally asks for information over a period of time. As we've discussed in the previous example, common questions are *How much X in a day?* or *How many X in a month?*. It's very rare to have a question such as *How much X occurred this second compared to the last second?*.
 

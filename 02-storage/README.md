@@ -279,9 +279,9 @@ Merging data lakes and data warehouses into a single system means that data team
 
 What about support for other types of data applications? Users of a lakehouse have access to a variety of standard tools (Spark, Python, R, machine learning libraries) for non BI workloads like data science and machine learning. Data exploration and refinement are standard for many analytic and data science applications. Delta Lake is designed to let users incrementally improve the quality of data in their lakehouse until it is ready for consumption.
 
-:::note
-While distributed file systems can be used for the storage layer, objects stores are more commonly used in lakehouses. Object stores provide low cost, highly available storage, that excel at massively parallel reads – an essential requirement for modern data warehouses.
-:::
+NOTE
+
+>  While distributed file systems can be used for the storage layer, objects stores are more commonly used in lakehouses. Object stores provide low cost, highly available storage, that excel at massively parallel reads – an essential requirement for modern data warehouses.
 
 ### AWS Data Lake
 
@@ -302,17 +302,19 @@ An open-source storage format that brings ACID transactions to Apache Spark™ a
 
 ![](https://www.databricks.com/wp-content/uploads/2022/06/db-247-blog-img-3.png)
 
-Watch this video: https://www.youtube.com/watch?v=yumysN3XwbQ
+Watch these videos:
 
-Watch this video: https://www.youtube.com/watch?v=PftRBoqjhZM
+- https://www.youtube.com/watch?v=yumysN3XwbQ
+- https://www.youtube.com/watch?v=PftRBoqjhZM
+- https://www.youtube.com/watch?v=BMO90DI82Dc
+- https://www.youtube.com/watch?v=H5nMHhlh5N0
+- https://www.youtube.com/watch?v=fApTba65Dnk
 
-Watch this video: https://www.youtube.com/watch?v=BMO90DI82Dc
+### Google’s Storage Decision Tree
 
-## Watch the video
+Google has developed a decision tree for choosing a storage system that starts with distinguishing structured, semi-structured, and unstructured data:
 
-Watch this video: https://www.youtube.com/watch?v=H5nMHhlh5N0
-
-Watch this video: https://www.youtube.com/watch?v=fApTba65Dnk
+![c01f001](https://user-images.githubusercontent.com/62965911/219854084-fe98ed6f-9602-47e9-8fa0-6b0ac772170f.png)
 
 ## Case Studies
 
