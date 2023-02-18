@@ -1,21 +1,6 @@
 # BigQuery
 
-## Steps
-
-1. [Lab: Bigquery basics command line operations](./lab-bigquery-commandline/)
-1. [Lab: Creating a Data Warehouse Through Joins and Unions](./lab-bigquery-data-warehousing/)
-1. [Lab: Using BigQuery to do Analysis](./lab-bigquery-analysis/)
-1. [Lab: Build and Optimize Data Warehouses with BigQuery](./lab-bigquery-optimization/)
-1. [Lab: Optimizing your BigQuery Queries for Performance](./lab-bigquery-query-optimization/)
-1. [Lab: Predict Visitor Purchases with a Classification Model in BigQuery ML](./lab-gcp-bigquery-ml/)
-1. [Lab: Copying BigQuery Tables Across Different Locations using Cloud Composer](./lab-gcp-bigquery-composer/)
-1. [Assignment: Process NYC Taxi data on BigQuery](./lab-gcp-bigquery-nyctaxi/)
-
-## Note
-
-> Serverless enterprise data warehouse
-
-BigQuery is server-less, highly scalable, and cost-effective Data warehouse designed for Google cloud Platform (GCP) to store and query petabytes of data. The query engine is capable of running SQL queries on terabytes of data in a matter of seconds, and petabytes in only minutes. You get this performance without having to manage any infrastructure and without having to create or rebuild indexes. 
+BigQuery is server-less, highly scalable, and cost-effective Data warehouse designed for Google cloud Platform (GCP) to store and query petabytes of data. The query engine is capable of running SQL queries on terabytes of data in a matter of seconds, and petabytes in only minutes. You get this performance without having to manage any infrastructure and without having to create or rebuild indexes.
 
 BigQuery supports standard SQL, so if you ever develop with relational database like Oracle, PostgreSQL, MySQL, Microsoft SQL Server, etc, it is easy to familiarize yourself with BigQuery. There are a few BigQuery functions to support modern-day requirements, and learning about them will make your job easier.
 
@@ -70,6 +55,8 @@ Storing and querying massive datasets can be time consuming and expensive withou
 You access BigQuery through the Cloud Console, the command-line tool, or by making calls to the BigQuery REST API using a variety of client libraries such as Java, .NET, or Python. There are also a variety of third-party tools that you can use to interact with BigQuery, such as visualizing the data or loading the data. In this lab, you access BigQuery using the web UI.
 
 You can use the BigQuery web UI in the Cloud Console as a visual interface to complete tasks like running queries, loading data, and exporting data. This hands-on lab shows you how to query tables in a public dataset and how to load sample data into BigQuery through the Cloud Console.
+
+Given all the advantages of BigQuery, keep in mind that BigQuery is not a transactional database. BigQuery is not designed for millisecond query latency. It can process 1 TB of data in 5 seconds, but this doesn't mean you can process 1 MB of data in 0.0005 seconds. It is simply not designed for that purpose.
 
 ### Watch the videos
 

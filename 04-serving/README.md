@@ -1,5 +1,7 @@
 # Data Modeling
 
+What is data modeling? **Data modeling** is a process for representing the database objects in our real-world or business perspective. Objects in warehouses can be datasets, tables, or views. Representing the objects as close as possible to the real world is important because the end users of the data are human. Some of the most common end users are business analysts, data analysts, data scientists, BI users, or any other roles that require access to the data for business purposes.
+
 The data model helps us design our database. When building a plane, you don’t start with building the engine. You start by creating a blueprint anschematic. Creating database is just the same, you start with modelling the data. Model is a representation of real data that provide us with characteristic, relation and rules that apply to our data. It doesn’t actually contain any data in it.
 
 In the classical sense, a data model is simply metadata that described the structure, content, and relationships that exist within a group of related data assets. Maintaining a data model has long been a standard practice for OLTP workloads built on SQL. Typically maintained by data engineers & data architects, they help manage the evolution of assets, remove unnecessary duplication & enforce conventions to maintain an intuitive and consistent layout. A key additional benefit is to inform consumers (ex. data analysts) about assets and how best to use them. For this reason, maintaining data models is also a common practice for managing the evolution of large SQL data warehouses. Without data models, end users would find it challenging to navigate around a library of hundreds (if not thousands) of data assets and correctly leverage them.
@@ -7,6 +9,122 @@ In the classical sense, a data model is simply metadata that described the struc
 **Data modeling** is a process of designing how data will be represented in data stores. Many data modeling techniques were originally designed for databases and warehouses. Since the Serving layers are usually built with relational data stores such as data warehouses, some of the data modeling techniques can be applied for the Serving layer design too. Serving layer could be built using other storage technologies such as document databases, key-value stores, and so on, based on the customer requirements.
 
 Unlike data lakes, in databases or data warehouses we don't have the luxury of storing huge volumes of data in the format we like. Databases and data warehouses can perform querying exceptionally fast, provided the data is stored in predetermined formats and is limited in size. Hence, while designing the Serving layer, we need to identify the specifics of which data needs to be stored, which format to store it in, and how much data to store. To be specific, we need to decide on which SQL tables are required, what would be the relationship between these tables, and which restrictions need to be imposed on these tables.
+
+What's the main difference between designing a data model in a data warehouse and designing an **OLTP** database (transactional database) for applications. In the application database, the end users of the database are applications, not humans. In the data warehouse, you serve humans. So, as data engineers, we need to think from their perspective.
+
+Since modern data engineers realize the non-relevancy of the old principles and, at the same time, the demand to insert any data in data warehouses is growing tremendously, they tend to skip the data modeling steps, and that's bad. Skipping the data warehouse principles means ignoring the fact that we need to maintain data consistency. This fact may lead to some bad results. Take the following common example:
+
+- Data is duplicated in many locations.
+- Some values are not consistent across different users and reports.
+- The cost of processing is highly inefficient.
+- The end user doesn't understand how to use the data warehouse objects.
+- The business doesn't trust the data.
+
+In my opinion, a modern data warehouse is still a data warehouse. The objective of a data warehouse is to build a centralized and trustworthy data storage that can be used for business. Data engineers need to take more time to do proper data modeling in data warehouses compared to the data lake concept in order to meet this objective.
+
+Let's look at this example. We want to represent people in a table object. Which of the following two tables, A or B, do you think better represents people? Here is People table A:
+
+![B16851_03_35](https://user-images.githubusercontent.com/62965911/219542322-e4437269-6cba-4f29-aa32-5cd23d1d8c71.jpg)
+Try and compare this with People table B:
+
+![B16851_03_36](https://user-images.githubusercontent.com/62965911/219542327-4e45a493-a827-4e30-944d-66a623c7ea41.jpg)
+
+If we look back at the objective, we want to represent people. Then I think we can all agree that *People table A* is better at representing people because this table represents people clearly. It's very natural to imagine people having names, ages, hair colors, and genders. A good data model is self-explanatory, like *People table A*. This means that even without anyone explaining to you how to read the table, you already know what the table is about.
+
+Now, why is *table B* bad? There are a few reasons:
+
+- The lists of attributes don't really represent people; for example, **postal code**. Even though we know people may have houses, and houses have postal codes, it's difficult to imagine people as entities having a postal code as part of them. 
+- What is **NULL** in relation to **postal code**? Does that mean Barb doesn't have a house? Or maybe he forgot his postal code? Or perhaps this is just a bug. The table can't really tell you that.
+- Still on the subject of the postal code, how about if one of the people here has more than one house? Should we add new records to this table? It will become complicated.
+- Gender is inconsistent. **Female** and **Woman**, and **Male** and **Man**, may have the same meanings, but may not.
+- The wealthy column has **yes** and **no** values. What does this mean? How can this column be justified?
+
+It is not that the information is wrong - we often need to store such information. Now the question is, can we store the same information, but with a better data model? 
+
+Let's take another example. Perhaps this better represents the real world for the required information:
+
+![B16851_03_37](https://user-images.githubusercontent.com/62965911/219542328-65d0e5a7-f59a-4afe-b18a-6929a0f01d0e.jpg)
+
+Maybe this *Alternative C* is better. We still have the people table, but only with people-related attributes, for example, **gender**. Then, **postal code** is part of the **Address** table. It may have other address information, but in this example, we will keep it simple with just the postal code. And if someone such as **Barb** doesn't have a postal code, then we don't need to put the **NULL** record there. And lastly, we may assume that wealth is driven by salary (just for example purposes), so we had better just store the salary information, and later use queries to put the **wealthy** logic on top of the salary information. This is more natural and closer to the real world.
+
+What could happen with a bad data model? It is often the case that the end user will have too much dependency on the data engineering team. Unable to understand the table shapes, end users need to keep posing the following questions to the data engineering team, for example:
+
+1. What does **NULL** mean?
+2. How should I join the tables?
+3. Why are there duplications?
+4. Why do some records have the attribute X while others don't?
+
+In the worst-case scenario, the end user doesn't trust the data in the data warehouse, so the goal of using the data for a business impact has failed. 
+
+In the best-case scenario, a perfect data model is where the end user doesn't need to put any questions to the data engineering team. They can answer any business questions just by looking at the table structures and trust the data 100%. And that's our goal as data engineers.
+
+But, at the end of the day, it's very difficult to design a perfect data model because there are other aspects that a data engineer needs to think about when designing a data model.
+
+#### Other purposes of the data model
+
+Besides representing data in a real-world scenario, there are three other reasons why we require a data model in a data warehouse:
+
+- **Data consistency**
+- **Query performance**
+- **Storage efficiency**
+
+Let's start with the latest point first: *Storage efficiency*. How can we improve storage efficiency by the data model? 
+
+Take a look at this example again. Which one is more storage-efficient? Perhaps a table with **name** and **gender**, where **gender** is written in a string data type as **Man or Woman**:
+
+![B16851_03_38](https://user-images.githubusercontent.com/62965911/219542329-0af81eb2-394a-4241-af5f-12533db98706.jpg)
+
+Or perhaps *option B*? We create a gender reference table, and the main table will only store one character, **gender_id**, as a reference. The user can later join both tables for the same result as *option A*.
+
+![B16851_03_39](https://user-images.githubusercontent.com/62965911/219542332-906ff971-1b6d-47c6-b72b-19f9775bd577.jpg)
+
+*Option B* is definitely better, as we don't need to repeat storing **Female** and **Male** strings in our storage. It looks like a small difference, but the same technique applies to all categorical string attributes, and that can have a significant impact.
+
+Using the same technique, we can also improve data consistency. For example, we can use the gender reference table for other tables, as in the following example user table:
+
+![B16851_03_40](https://user-images.githubusercontent.com/62965911/219542334-b975bb7d-415e-43d4-ad03-97cbd62f3784.jpg)
+
+With that, we avoid data inconsistency; for example, the People table uses Female-Male, and the User table uses Man-Woman. This is a very common practice, and the common terminology in the data warehouse world to refer to this is normalized and denormalized. 
+
+*Storage efficiency option A* is a denormalized table, while *Storage efficiency option B* is a normalized table.
+
+Last but not least, one reason why we need a data model is for query performance. In a big data system where data is stored in distributed storage, there is a general rule of thumb regarding which operation is the most resource-intensive, which is **JOIN**. **JOIN** in general is a very expensive operation, especially when we need to join multiple large-volume tables. And if you look back at the normalized and denormalized approaches, you will realize that even normalized data is good for storage efficiency and data consistency, but it's bad for performance because you require a lot of **Join** operations. 
+
+At the end of the day, we need to find a balance between all the factors. There will be no right or wrong answer for a data model in a complex data warehouse. In a complex data warehouse, this may involve thousands to millions of tables. So, everyone will have a different approach for designing the data model. However, there are some theories that we can use as reference.
+
+#### Inmon versus the Kimball data model
+
+If you look at the internet, there will be many references to data modeling, but two of the most famous approaches are the **Inmon** method (data-driven) and the **Kimball** method (user-driven).
+
+We will take a quick look at these methods, but we won't spend much time or go into too much detail in this note since there are so many details to explain regarding the framework. I suggest you do some more in-depth research from other resources regarding these two methods to better understand the step-by-step approaches and the frameworks. What we want to learn from them are the differences and the thinking processes behind them.
+
+At a very high level, the Inmon method focuses on building a central data warehouse or single source of truth. To achieve that, the data model must be highly normalized to the lowest level, so the data can be highly consistent. The Inmon data model follows a top-down approach, which means the data warehouse is built as the central data source for all the downstream data marts, sometimes referred to as the **Enterprise Data Warehouse**. The downstream data marts need to follow the rules from the data warehouse, as in this figure. Imagine the gray boxes are tables. 
+
+![B16851_03_41](https://user-images.githubusercontent.com/62965911/219542336-5dc33337-2996-4feb-abc7-89b178c9ec9d.jpg)
+
+Compared to the Inmon method, the Kimball method focuses on answering user questions and follows a bottom-up approach. This method keeps end user questions in mind and uses the questions as a basis to build necessary tables. The goal is to ease end user accessibility and provide a high level of performance improvement.
+
+The tables may contain the entity's basic information and its measurements. This is what are now known as fact and dimension tables. A **fact table** is a collection of measurements or metrics in a predefined granularity. A **dimension table** is a collection of entity attributes that support the fact tables. This collection of fact and dimension tables will later be the data warehouse. 
+
+Here is an example of a fact table. The fact table has two measurements that measure customers in daily granularity:
+
+![B16851_03_42](https://user-images.githubusercontent.com/62965911/219542340-a84d6156-e7ed-49d8-b97a-85644f3de1f9.jpg)
+
+Here is an example of a dimension table with **Customer ID** as the primary key and the attributes:
+
+![B16851_03_43](https://user-images.githubusercontent.com/62965911/219542343-d63c8ffc-d3b7-4409-99c1-788025412491.jpg)
+
+As you can see from the examples, the facts and dimension tables are different. So how do they relate together as a data model?
+
+One of the most well-known data models for the Kimball method is the star schema. The star schema follows the fact and dimension table relations. There is a rule of thumb regarding the star schema that a dimension table can't have parent tables, which means the dimension is a denormalized table. Check the following diagram, which provides a high-level illustration of a data warehouse using the Kimball approach. Imagine that all the gray boxes are tables:
+
+![B16851_03_44](https://user-images.githubusercontent.com/62965911/219542344-c9fcd477-c631-451c-b0f9-ed8b17b731dc.jpg)
+
+The pros and cons of both methods are summarized as follows:
+
+![B16851_03_45](https://user-images.githubusercontent.com/62965911/219542350-d8a15c63-644d-4dac-8032-3c321258265b.jpg)
+
+Use the table comparison as your reference when deciding between the Inmon or Kimball methods. This is usually not a straightforward and quick decision to make. It's a difficult decision because choosing one of them means your entire organization needs to commit to the data model for the long term. An experienced data modeler is usually the best person to decide this.
 
 ### Stages of Data Modeling
 

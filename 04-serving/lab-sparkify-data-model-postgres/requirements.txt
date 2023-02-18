@@ -1,3 +1,2 @@
 psycopg2-binary
 python-dotenv
-ipython-sql==0.4.1
