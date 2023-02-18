@@ -48,6 +48,46 @@ BigQuery’s serverless architecture decouples storage and compute and allows th
 
 Watch this video: https://www.youtube.com/watch?v=2UGA6b5MFI0
 
+### Introducing BigQuery partitioning
+
+There is one essential feature in BigQuery called a BigQuery partitioned table. A BigQuery partitioned table will logically divide the data in the BigQuery table by partitioning it into segments using a key.
+
+There are three partition key options, outlined as follows:
+
+- **Time-unit columns**: Based on a column containing **TIMESTAMP**, **DATE**, or **DATETIME** value
+- **Ingestion time**: Based on the timestamp when BigQuery ingests data to the table
+- **Integer range**: Based on a column containing the integer value
+
+The most common scenario is using either a time-unit column or ingestion time, and even though you can partition up to an hourly granular level, the most common scenario is still partitioning at a daily level. This feature will benefit mainly cost and performance optimization, but other than those two factors, using BigQuery partitioned tables can help our load jobs.
+
+Take a look at the next example.
+
+We create a table with **PARTITION BY** (column), as follows:
+
+```sql
+CREATE TABLE example_table
+(
+val1 INT64,
+val2  STRING,
+date  DATE,
+)
+PARTITION BY (date);
+```
+
+Under the hood of BigQuery storage, the **example_table** table will be divided based on the **Date** column.
+
+Every table record will be stored in a separate storage location. With this, it's theoretically the same as having multiple tables with the same schemas. But you don't need to worry about this, as BigQuery will handle this seamlessly. What you can do as a user is to access the table, and filter the table using the **partition** column, like this:
+
+```sql
+SELECT val1
+FROM example_table
+WHERE date = '2018-01-03';
+```
+
+The query will only access a partial amount of data from the table, which is the **val1** column at **2021-01-03**.
+
+This is the idea of partitioned tables in BigQuery. The other main reason why people use partitioned tables in BigQuery is for cost optimization.
+
 ### Exploring a BigQuery Public Dataset
 
 Storing and querying massive datasets can be time consuming and expensive without the right hardware and infrastructure. BigQuery is an enterprise data warehouse that solves this problem by enabling super-fast SQL queries using the processing power of Google's infrastructure. Simply move your data into BigQuery and let it handle the hard work. You can control access to both the project and your data based on your business needs, such as giving others the ability to view or query your data.

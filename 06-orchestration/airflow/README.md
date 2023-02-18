@@ -1,28 +1,5 @@
 # Airflow
 
-## Steps
-
-1. Install Airflow
-1. Configure Email notifications in Airflow
-1. Bash Echo DAG
-1. CSV to JSON ETL DAG
-1. Scooter Data ETL DAG
-1. Set Airflow Connection from Python
-
-## Side hustles
-
-### Airflow db
-
-Explore the Airflow db (in SQLite by default) in your database client line `DBeaver`
-
-### Encryption
-
-Instead of storing credentials in plain text, you can use encryption.
-
-## Note
-
-> An open-source workflow management tool for data engineering pipelines
-
 Apache Airflow is an open source tool for programmatically authoring, scheduling, and monitoring data pipelines. It has over 9 million downloads per month and an active OSS community. Airflow allows data practitioners to define their data pipelines as Python code in a highly extensible and infinitely scalable way.
 
 Airflow pipelines are defined as DAGs using Python code in DAG files. Each DAG file typically defines one DAG, which describes the different tasks and their dependencies. Besides this, the DAG also defines a schedule interval that determines when the DAG is executed by Airflow. One advantage of defining Airflow DAGs in Python code is that this programmatic approach provides you with a lot of flexibility for building DAGs. This flexibility gives a great deal of customization in how you build your pipelines, allowing you to fit Airflow to your needs for building arbitrarily complex pipelines. In addition to this flexibility, another advantage of Airflow’s Python foundation is that tasks can execute any operation that you can implement in Python. Over time, this has led to the development of many Airflow extensions that enable you to execute tasks across a wide variety of systems, including external databases, big data technologies, and various cloud services, allowing you to build complex data pipelines bringing together data processes across many different systems.
@@ -199,7 +176,7 @@ The following are the additional DAG views that are available, but not discussed
 - Details: Shows details of the DAG configuration and DagModel debug information.
 - Audit Log: Shows selected events for all DAG runs.
 
-### Airflow scheduling and timetables
+## Airflow scheduling and timetables
 
 One of the fundamental features of Apache Airflow is the ability to schedule jobs. Historically, Airflow users scheduled their DAGs by specifying a schedule with a cron expression, a timedelta object, or a preset Airflow schedule. Timetables, released in Airflow 2.2, allow users to create their own custom schedules using Python, effectively eliminating the limitations of cron. With timetables, you can now schedule DAGs to run at any time. Datasets, introduced in Airflow 2.4, let you schedule your DAGs on updates to a dataset rather than a time-based schedule.
 
@@ -257,13 +234,13 @@ Although this cron-based representation may seem a bit convoluted, it provides u
 
 Airflow also provides support for several macros that represent shorthand for commonly used scheduling intervals:
 
-| @once | Schedule once and only once. |
-| --- | --- |
-| @hourly | Run once an hour at the beginning of the hour. |
-| @daily | Run once a day at midnight. |
-| @weekly | Run once a week at midnight on Sunday morning. |
+| @once    | Schedule once and only once.                                |
+| -------- | ----------------------------------------------------------- |
+| @hourly  | Run once an hour at the beginning of the hour.              |
+| @daily   | Run once a day at midnight.                                 |
+| @weekly  | Run once a week at midnight on Sunday morning.              |
 | @monthly | Run once a month at midnight on the first day of the month. |
-| @yearly | Run once a year at midnight on January 1. |
+| @yearly  | Run once a year at midnight on January 1.                   |
 
 **Frequency-based intervals**
 
@@ -276,7 +253,7 @@ What if we really want to run our DAG once every three days? To support this typ
 ```python
 dag = DAG(
     dag_id="04_time_delta",
-    schedule_interval=dt.timedelta(days=3),              
+    schedule_interval=dt.timedelta(days=3),  
     start_date=dt.datetime(year=2019, month=1, day=1),
     end_date=dt.datetime(year=2019, month=1, day=5),
 )
@@ -284,7 +261,50 @@ dag = DAG(
 
 This would result in our DAG being run every three days following the start date (on the 4th, 7th, 10th, and so on of January 2019). Of course, you can also use this approach to run your DAG every 10 minutes (using `timedelta(minutes=10)`) or every two hours (using `timedelta(hours=2)`).
 
+## Understanding Airflow backfilling, rerun, and catchup
+
+In a data pipeline, we often need to handle data from the past. This is a very common scenario in data engineering. Most of the time, applications as the data sources are created before a data lake or data warehouse, so we need to load data from the past. There are three main terms related to this.
+
+### Backfill
+
+The first one is **backfilling**. Backfilling happens when you need to load data from the past.
+
+Backfilling lets you use a DAG to process data prior to the DAG's start date. Backfilling is the concept of running a DAG for a specified historical period. Unlike catchup, which triggers missed DAG runs from the DAG's start_date through the current data interval, backfill periods can be specified explicitly and can include periods prior to the DAG's start_date.
+
+Backfilling can be accomplished in Airflow using the CLI by specifying the DAG ID and the start and end dates for the backfill period. This command runs the DAG for all intervals between the start date and end date. DAGs in your backfill interval are still rerun even if they already have DAG runs.
+
+For illustration, imagine in a real-life scenario you already run a data pipeline for *7 days* starting from **2021-01-01**, without any issue. For some reason, your end user asked you to also load data from **2020-12-01**. This is a backfilling scenario. In this case, you need to load the historical data without changing or disturbing your running data pipeline.
+
+In Airflow, you can run backfilling using the command, like this:
+
+```bash
+airflow dags backfill [-h] [-c CONF] [--delay-on-limit DELAY_ON_LIMIT] [-x]
+                      [-n] [-e END_DATE] [-i] [-I] [-l] [-m] [--pool POOL]
+                      [--rerun-failed-tasks] [--reset-dagruns] [-B]
+                      [-s START_DATE] [-S SUBDIR] [-t TASK_REGEX] [-v] [-y]
+                      dag_id
+```
+
+For example, `airflow dags backfill -s 2021-11-01 -e 2021-11-02 example_dag` backfills `example_dag` from November 1st-2nd 2021.
+
+When using backfill keep the following considerations in mind:
+
+- Consider your available resources. If your backfill will trigger many DAG runs, you might want to add some of the catchup parameters to your DAG.
+- Clearing the task or DAG status of a backfilled DAG run does not rerun the task or DAG.
+
+Alternatively, you can deploy a copy of the DAG with a new name and a start date that is the date you want to backfill to. Airflow will consider this a separate DAG so you won't see all the DAG runs and task instances in the same place, but it would accomplish running the DAG for data in the desired time period. If you have a small number of DAG runs to backfill, you can trigger them manually from the Airflow UI and choose the desired logical date.
+
+### Rerun
+
+The second one is a **rerun**. A rerun happens when you need to reload data from the past. The difference between a rerun and a backfill is that a rerun works for a DAG or tasks that have run before. The scenario of using a rerun is when a DAG or tasks have failed, so you need to rerun them.
+
+You can trigger a rerun from the Airflow web UI. In the web UI, if you click **Clear** in either the DAG or task indicator (in the DAG **Tree View**), the DAG or task will retry, and that's what we call a rerun.
+
 ### Catchup
+
+The third one is a **catchup**. A catchup happens when you deploy a DAG for the first time. A catchup is a process when Airflow automatically triggers multiple DAG Runs to load all expected date data. It's similar to a backfill, but the trigger happens automatically as intended.
+
+These three Airflow features are very important and highly relevant to real-world scenarios. Whether you are in the development phase or in production mode, you will use these features.
 
 You can use the built-in catchup DAG argument to process data starting a year ago.
 
@@ -313,34 +333,60 @@ Catchup is a powerful feature, but it should be used with caution. For example, 
 - wait_for_downstream: Set at the DAG level and similar to a DAG-level implementation of depends_on_past. The entire DAG needs to run successfully for the next DAG run to start.
 - catchup_by_default: Set at the Airflow level in your airflow.cfg or as an environment variable. If you set this parameter to False all DAGs in your Airflow environment will not catchup unless you turn it on.
 
-:::tip
-If you want to deploy your DAG with catchup enabled but there are some tasks you don't want to run during the catchup, you can use the LatestOnlyOperator in your DAG. This operator only runs during the DAG's most recent scheduled interval. In every other DAG run it is ignored, along with any tasks downstream of it.
-:::
+TIP
 
-### Backfill
+> If you want to deploy your DAG with catchup enabled but there are some tasks you don't want to run during the catchup, you can use the LatestOnlyOperator in your DAG. This operator only runs during the DAG's most recent scheduled interval. In every other DAG run it is ignored, along with any tasks downstream of it.
 
-Backfilling lets you use a DAG to process data prior to the DAG's start date. Backfilling is the concept of running a DAG for a specified historical period. Unlike catchup, which triggers missed DAG runs from the DAG's start_date through the current data interval, backfill periods can be specified explicitly and can include periods prior to the DAG's start_date.
+## Airflow Sensors
 
-Backfilling can be accomplished in Airflow using the CLI by specifying the DAG ID and the start and end dates for the backfill period. This command runs the DAG for all intervals between the start date and end date. DAGs in your backfill interval are still rerun even if they already have DAG runs. For example:
+First, let's understand what late data is and why it's an issue for scheduling.
 
-```sh
-airflow dags backfill [-h] [-c CONF] [--delay-on-limit DELAY_ON_LIMIT] [-x]
-                      [-n] [-e END_DATE] [-i] [-I] [-l] [-m] [--pool POOL]
-                      [--rerun-failed-tasks] [--reset-dagruns] [-B]
-                      [-s START_DATE] [-S SUBDIR] [-t TASK_REGEX] [-v] [-y]
-                      dag_id
-```
+Imagine you have two DAGs. The first DAG loads data from GCS to a BigQuery raw table, as follows:
 
-For example, airflow dags backfill -s 2021-11-01 -e 2021-11-02 example_dag backfills example_dag from November 1st-2nd 2021.
+`GCS → BigQuery raw table → BigQuery DWH tables`
 
-When using backfill keep the following considerations in mind:
+The second DAG will load data from the BigQuery raw table to a data mart table, as follows:
 
-- Consider your available resources. If your backfill will trigger many DAG runs, you might want to add some of the catchup parameters to your DAG.
-- Clearing the task or DAG status of a backfilled DAG run does not rerun the task or DAG.
-  
-Alternatively, you can deploy a copy of the DAG with a new name and a start date that is the date you want to backfill to. Airflow will consider this a separate DAG so you won't see all the DAG runs and task instances in the same place, but it would accomplish running the DAG for data in the desired time period. If you have a small number of DAG runs to backfill, you can trigger them manually from the Airflow UI and choose the desired logical date.
+`BigQuery DWH tables → BigQuery data mart`
 
-### Import custom hooks and operators
+Here are the two scenarios:
+
+- The data sources from GCS are ready at 5:00 A.M.
+- The requirement is to have a data mart table ready by 6:00 A.M.
+
+What can go wrong in this scenario? To answer that, let's do some pseudocode to handle the requirements, as follows:
+
+1. The data is ready by 5:00 A.M. For a time buffer, let's add 10 minutes, which means that we can create a scheduler that runs at 5:10 A.M. every day for the first DAG. In our DAG, we can define the following:
+
+   `schedule_interval = 10 5 * * *`
+2. The second DAG is dependent on the first DAG. Let's assume the first DAG will be finished after 30 minutes or at 5:40 A.M. For a time buffer, let's add 5 minutes on top of that. Then, we can create a scheduler that runs at 5:45 A.M. every day for the second DAG. In our second DAG, we can define the following:
+
+   `schedule_interval = 45 5 * * *`
+
+Sounds good? Yes---it will be good for most cases, assuming that the first DAG will be finished in less than 35 minutes.
+
+Now, imagine what will happen if the first DAG is 10 minutes late, or---in other words---the first DAG finished in 45 minutes rather than 30 minutes.
+
+If the first DAG finished late, then the second DAG will start blindly. *Blindly* means that the DAG will run without knowing that the upstream data is not actually there yet, and that is very bad.
+
+In a real-world scenario, DAG dependencies are everywhere---there can be tens to hundreds (or even more) DAG dependencies in a day. If one DAG is late, imagine the implications on all the downstream DAGs. All your daily data will be corrupted just because some DAGs are late by a couple of minutes. How should we avoid that? The answer is by using Airflow sensors.
+
+Airflow came up with a feature called a sensor. A sensor is a mechanism to check some conditions before starting a DAG Run. If the object doesn't exist in the directory, the operator will wait. It will wait and keep checking every 60 seconds, and that's what you set in the **poke_interval** parameter. If you think about it, it will be very useful for our DAG dependencies, in that the downstream DAG can wait before it runs the other tasks.
+
+Let's get back to our scenario and improve our pseudocode, as follows:
+
+1. The data is ready by 5:00 A.M. We can create a scheduler that runs at 5:00 A.M. every day for the first DAG without any time buffer. In our DAG, we can define the following:
+
+   `schedule_interval = 0 5 * * *`
+2. For the second DAG, let's no longer assume anything from the first DAG. We don't assume how long the first DAG will take to finish. The first DAG can finish in 1 minute, 5 minutes, or 1 hour---we don't need to assume. Rather, we will start the schedule at the same time as the first DAG, which is 5:00 A.M., and what we will do is to put a sensor on the signal directory from the first DAG. So, the logic will look like this:
+
+   `schedule_interval = 0 5 * * *`
+
+And that's it---with the new logic, the first DAG will send a signal file into a directory and later, the downstream DAGs can use this signal to automatically start or wait for the DAG to run.
+
+In summary, you will need Airflow sensors for better DAG dependencies compared to relying on a fixed schedule time. The Airflow sensor has a poking mechanism that checks the availability of some conditions - for example, checking the existence of a file.
+
+## Import custom hooks and operators
 
 One of the great benefits of Airflow is its vast network of provider packages that provide hooks, operators, and sensors for many common use cases. Another great benefit of Airflow is that it is highly customizable because everything is defined in Python code. If a hook, operator, or sensor you need doesn't exist in the open source, you can easily define your own.
 
@@ -380,19 +426,19 @@ By default, Airflow adds the dags/ and plugins/ directories in a project to the 
 
 ```
 .
-├── dags/                    
+├── dags/      
 │   ├── example-dag.py
-├── Dockerfile                  
-├── include/                 
+├── Dockerfile    
+├── include/   
 │   └── sql/
 │       └── transforms.sql
-├── packages.txt     
-├── plugins/             
+├── packages.txt   
+├── plugins/   
 │   └── operators/
 │       └── my_operator.py
 │   └── sensors/
 │       └── my_sensor.py
-└── requirements.txt    
+└── requirements.txt  
 ```
 
 After you've added your custom operators to the project, you can import them into your DAG like you would any other Python package:
@@ -432,6 +478,22 @@ with DAG('example_dag',
 ```
 
 And that's it! Your DAG will use MyOperator and MySensor when it runs, giving you full flexibility over what happens in your pipelines.
+
+## Airflow on Cloud
+
+### Cloud Composer
+
+Cloud Composer is an Airflow-managed service in GCP. Using Cloud Composer, we don't need to think about the infrastructure, installation, and software management for the Airflow environment. With this, we can focus only on the development and deployment of our data pipeline. From the perspective of a data engineer, there is almost no difference between Cloud Composer and Airflow.
+
+## Side hustles
+
+### Airflow db
+
+Explore the Airflow db (in SQLite by default) in your database client line `DBeaver`
+
+### Encryption
+
+Instead of storing credentials in plain text, you can use encryption.
 
 ## Explore further
 
