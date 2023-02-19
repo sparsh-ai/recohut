@@ -1,0 +1,71 @@
+{
+  "kind": "youtube#playlistItemListResponse",
+  "etag": "lfs_qWNaczIydJ2Dlp1gmX9UTAc",
+  "nextPageToken": "CAUQAA",
+  "items": [
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "SGHDydc4dLsY2RjfXTPneb_zc_s",
+      "id": "UExmMHN3VEZoVEk4cmtINHlJZm95VEFoZUVHaldJUnRQRy5EQkE3RTJCQTJEQkFBQTcz",
+      "contentDetails": {
+        "videoId": "ETZJln4jtAo",
+        "videoPublishedAt": "2020-11-28T16:29:47Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "5EFUNhJBvcwXPxO416VYQsXGzMo",
+      "id": "UExmMHN3VEZoVEk4cmtINHlJZm95VEFoZUVHaldJUnRQRy4yQzk4QTA5QjkzMTFFOEI1",
+      "contentDetails": {
+        "videoId": "1OVHjHTkP3M",
+        "videoPublishedAt": "2020-11-28T16:30:12Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "TiKqB2aeYxJjMGKQ0yLMJY0vpQE",
+      "id": "UExmMHN3VEZoVEk4cmtINHlJZm95VEFoZUVHaldJUnRQRy45NDlDQUFFOThDMTAxQjUw",
+      "contentDetails": {
+        "videoId": "qfUbPLsLQcQ",
+        "videoPublishedAt": "2020-11-28T16:30:33Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "vQrJOpYdXmGJuV32kjj2xqvSByc",
+      "id": "UExmMHN3VEZoVEk4cmtINHlJZm95VEFoZUVHaldJUnRQRy4xN0Y2QjVBOEI2MzQ5OUM5",
+      "contentDetails": {
+        "videoId": "rLTbhSaXhSM",
+        "videoPublishedAt": "2020-11-28T16:30:52Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "2CzGUToIgqywXAr4wuPswj9MuFg",
+      "id": "UExmMHN3VEZoVEk4cmtINHlJZm95VEFoZUVHaldJUnRQRy5FQUY2Qzk4RUFDN0ZFRkZF",
+      "contentDetails": {
+        "videoId": "wP7BhXrJKR8",
+        "videoPublishedAt": "2020-11-28T16:31:14Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 127,
+    "resultsPerPage": 5
+  }
+}

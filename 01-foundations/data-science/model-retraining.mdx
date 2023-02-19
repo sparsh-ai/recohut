@@ -1,0 +1,108 @@
+# Model Retraining
+
+## Concept Drift
+
+Model Drift refers to a model’s predictive performance degrading over time due to a change in the environment that violates the model’s assumptions. Predictive performance will degrade, it will degrade over some period of time and at some rate, and this degradation will be due to changes in the environment that violate the modeling assumptions. Each of these variables should be taken into account when determining how to diagnose model drift and how to correct it through model retraining.
+
+:::tip
+Model drift is a bit of a misnomer because it’s not the model that is changing, but rather the environment in which the model is operating. For that reason, the term [concept drift](https://machinelearningmastery.com/gentle-introduction-concept-drift-machine-learning/) may actually be a better name, but both terms describe the same phenomenon.
+:::
+
+As soon as you deploy your machine learning model in production, the performance of your model degrades. This is because your model is sensitive to changes in the real world, and user behaviour keeps changing with time. Although all machine learning models decay, the speed of decay varies with time. This is mostly caused by data drift, concept drift, or both.
+
+<p><center><img src='https://github.com/recohut/incremental-learning/raw/a6fdcde2e8af7ebfd9f5efd278c487e0e9560cb3/docs/_images/L194114_1.png'/></center></p>
+
+Data drift (covariate shift) is a change in the statistical distribution of production data from the baseline data used to train or build the model. Data from real-time serving can drift from the baseline data due to:
+
+- Changes in the real world,
+- Training data not being a representation of the population,
+- Data quality issues like outliers in the dataset.
+
+For example, if you built a model with temperature data collected from a sensor in Celsius degrees, but the unit changed to Fahrenheit – it means there’s been a change in your input data, so the data has drifted.
+
+### **How to monitor data drift in production**
+
+The best approach to handling data drift is to continuously monitor your data with advanced MLOps tools instead of using traditional rule-based methods. Rule based methods, like calculating the data range or comparing data attributes to detect alien values, can be time-consuming and are susceptible to error.
+
+**Steps you can take to detect data drift:**
+
+1. Take advantage of the [JS-Divergence algorithm](https://en.wikipedia.org/wiki/Jensen%E2%80%93Shannon_divergence) to identify prediction drift in real-time model output and compare it with training data.
+2. Compare the data distribution from both upstream and downstream data to view the actual difference.
+
+As mentioned above, you can also take advantage of the [Fiddler AI](https://www.fiddler.ai/) platform to monitor data drift in production.
+
+### **Data drift vs concept drift**
+
+It’s an obvious fact that data is generated at every moment in the world. As data is collected from multiple sources, data itself is changing. This change can be due to the dynamic nature of the data, or it can be caused by changes in the real world.
+
+If the input distribution changes but the true labels don’t (the probability of the model’s input changes but the probability of the target class given the probability of the model input doesn’t change), then this kind of change is considered as data drift.
+
+Meanwhile, if there’s a change in the labels or target classes of your model, that is the probability of the target class changes given the probability of the input data. This means we’re detecting the effect of concept drift. Both data drift and concept drift cause model decay and should both be addressed separately.
+
+## A spectrum of model freshness
+
+We can think of model retraining approaches as a hierarchy:
+
+- **Level 0:** Train the model once and never retrain it. This is appropriate for “stationary” problems.
+- **Level 1 (“cold-start retraining”):** Periodically retrain the whole model on a batch dataset.
+- **Level 2 (“warm-start retraining”):** In addition to Level 1, if the model has personalized per-key components, retrain just these in bulk on data specific to each key (e.g., all impressions of an advertiser's ads), once enough data has accumulated.
+- **Level 3 (“nearline retraining”):** In addition to Level 2, retrain per-key components individually and asynchronously nearline on streaming data.
+
+These levels build upon each other. Depending on how fresh a model needs to be to perform well at its task, we may elect to stay at Level 0 for a stationary problem, all the way through to Level 3 for problems where incorporating new data within seconds makes a difference.
+
+<figure><p><center><img src='https://github.com/recohut/incremental-learning/raw/a6fdcde2e8af7ebfd9f5efd278c487e0e9560cb3/docs/_images/L241645_1.png'/><figcaption>*A hierarchy of model retraining.*</figcaption></center></p></figure>
+
+If we arrange all of the model updates in Level 3 on a timeline, as depicted in the above, we’ll see three types of model update occurring. Occasionally, a Level 1 update will reset the whole model (both global model and all per-key components); this will be a batch offline update using a large accumulated dataset. More frequently, Level 2 updates will reset just the per-key components; this again will be an offline batch update, but won’t touch the large global model. Finally, “lightweight” Level 3 updates will occur almost continuously; any individual per-key component is tuned as soon as there is enough data to do so.
+
+## Scikit warm-start
+
+For some applications the amount of examples, features (or both) and/or the speed at which they need to be processed are challenging for traditional approaches. In these cases scikit-learn has a number of options you can consider to make your system scale.
+
+### Scaling with instances using out-of-core learning
+
+Out-of-core (or “external memory”) learning is a technique used to learn from data that cannot fit in a computer’s main memory (RAM).
+
+Here is sketch of a system designed to achieve this goal:
+
+1. a way to stream instances
+2. a way to extract features from instances
+3. an incremental algorithm
+
+### Streaming instances
+
+Basically, (1. a way to stream instances) may be a reader that yields instances from files on a hard drive, a database, from a network stream etc. However, details on how to achieve this are beyond the scope of this documentation.
+
+### Extracting features
+
+(2. a way to extract features from instances) could be any relevant way to extract features among the different *[feature extraction](https://scikit-learn.org/0.15/modules/feature_extraction.html#feature-extraction)* methods supported by scikit-learn. However, when working with data that needs vectorization and where the set of features or values is not known in advance one should take explicit care. A good example is text classification where unknown terms are likely to be found during training. It is possible to use a stateful vectorizer if making multiple passes over the data is reasonable from an application point of view. Otherwise, one can turn up the difficulty by using a stateless feature extractor. Currently the preferred way to do this is to use the so-called *[hashing trick](https://scikit-learn.org/0.15/modules/feature_extraction.html#feature-hashing)* as implemented by **[sklearn.feature_extraction.FeatureHasher](https://scikit-learn.org/0.15/modules/generated/sklearn.feature_extraction.FeatureHasher.html#sklearn.feature_extraction.FeatureHasher)** for datasets with categorical variables represented as list of Python dicts or **[sklearn.feature_extraction.text.HashingVectorizer](https://scikit-learn.org/0.15/modules/generated/sklearn.feature_extraction.text.HashingVectorizer.html#sklearn.feature_extraction.text.HashingVectorizer)** for text documents.
+
+### Incremental learning
+
+Finally, for (3. an incremental algorithm), we have a number of options inside scikit-learn. Although all algorithms cannot learn incrementally (i.e. without seeing all the instances at once), all estimators implementing the partial_fit API are candidates. Actually, the ability to learn incrementally from a mini-batch of instances (sometimes called “online learning”) is key to out-of-core learning as it guarantees that at any given time there will be only a small amount of instances in the main memory. Choosing a good size for the mini-batch that balances relevancy and memory footprint could involve some tuning.
+
+For classification, a somewhat important thing to note is that although a stateless feature extraction routine may be able to cope with new/unseen attributes, the incremental learner itself may be unable to cope with new/unseen targets classes. In this case you have to pass all the possible classes to the first partial_fit call using the classes= parameter.
+
+Another aspect to consider when choosing a proper algorithm is that all of them don’t put the same importance on each example over time. Namely, the Perceptron is still sensitive to badly labeled examples even after many examples whereas the SGD* and PassiveAggressive* families are more robust to this kind of artifacts. Conversely, the later also tend to give less importance to remarkably different, yet properly labeled examples when they come late in the stream as their learning rate decreases over time.
+
+## References
+
+- [Learning in the Presence of Concept Drift and Hidden Contexts](https://pdfs.semanticscholar.org/4ccc/553d7774748be878002381877d70932b2717.pdf)
+- [The problem of concept drift: definitions and related work](http://www-ai.cs.uni-dortmund.de/LEHRE/FACHPROJEKT/SS12/paper/concept-drift/tsymbal2004.pdf)
+- [Concept Drift Detection for Streaming Data](https://arxiv.org/abs/1504.01044)
+- [Learning under Concept Drift: an Overview](https://arxiv.org/abs/1010.4784)
+- [An overview of concept drift applications](http://www.win.tue.nl/~mpechen/publications/pubs/CD_applications15.pdf)
+- [What Is Concept Drift and How to Measure](https://link.springer.com/chapter/10.1007/978-3-642-16438-5_17)
+- [Understanding Concept Drift](https://arxiv.org/abs/1704.00362)
+- [https://machinelearningmastery.com/gentle-introduction-concept-drift-machine-learning](https://machinelearningmastery.com/gentle-introduction-concept-drift-machine-learning/)
+- [Concept drift on Wikipedia](https://en.wikipedia.org/wiki/Concept_drift)
+- [Handling Concept Drift: Importance, Challenges and Solutions](https://ieeexplore.ieee.org/document/6042653/)
+- [https://mlinproduction.com/model-retraining](https://mlinproduction.com/model-retraining/)
+- [Retraining Models on New Data](https://docs.aws.amazon.com/machine-learning/latest/dg/retraining-models-on-new-data.html)
+- [Should a machine learning model be retrained each time new observations are available?](https://www.quora.com/Should-a-machine-learning-model-be-retrained-each-time-new-observations-are-available)
+- [MACHINE LEARNING AND AUTOMATED MODEL RETRAINING WITH SAGEMAKER](https://www.inawisdom.com/machine-learning/machine-learning-automated-model-retraining-sagemaker/)
+- [A Gentle Introduction to Concept Drift in Machine Learning](https://machinelearningmastery.com/gentle-introduction-concept-drift-machine-learning/)
+- [Lessons learned turning machine learning models into real products and services](https://www.oreilly.com/ideas/lessons-learned-turning-machine-learning-models-into-real-products-and-services)
+- [What’s your ML Test Score? A rubric for ML production systems](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/45742.pdf)
+- [Machine Learning: The High-Interest Credit Card of Technical Debt](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/43146.pdf)
+- [Lessons learned turning machine learning models into real products and services](https://www.oreilly.com/ideas/lessons-learned-turning-machine-learning-models-into-real-products-and-services)
+- [Machine learning models get stale with time](https://neptune.ai/blog/retraining-model-during-deployment-continuous-training-continuous-testing)

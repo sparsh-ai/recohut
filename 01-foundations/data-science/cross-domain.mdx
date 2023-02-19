@@ -1,0 +1,70 @@
+# Cross-domain
+
+A common challenge for most current recommender systems is the cold-start problem. Due to the lack of user-item interactions, the fine-tuned recommender systems are unable to handle situations with new users or new items. Recently, some works introduce the meta-optimization idea into the recommendation scenarios, i.e. predicting the user preference by only a few of past interacted items. The core idea is learning a global sharing initialization parameter for all users and then learning the local parameters for each user separately. However, most meta-learning based recommendation approaches adopt model-agnostic meta-learning for parameter initialization, where the global sharing parameter may lead the model into local optima for some users.
+
+Although recommendation systems have been proved to play a significant role in a variety of applications, there are two long-standing obstacles that greatly limit the performance of recommendation systems. On the one hand, the number of user-item interaction records often tends to be small and is insufficient to mine user interests well, which is called the data sparsity problem. On the other hand, for any service, there are constantly new users joining, for whom there are no historical interaction records. Traditional recommendation systems cannot make recommendations to these users, which is called the cold-start problem.
+
+As more and more users begin to interact with more than one domains (e.g., music and book), it increases opportunities of leveraging information collected from other domains to alleviate the two problems (i.e., data sparsity and cold-start problems) in one domain. This idea leads to Cross-Domain Recommendation (CDR) which has attracted increasing attention in recent years.
+
+There are two core issues for cross-domain recommendation, namely, what to transfer and how to transfer. What to transfer is how to mine useful knowledge in each domain, and how to transfer focuses on how to establish linkages between domains and realize the transfer of knowledge.
+
+Cold-start problems are enormous challenges in practical recommender systems. One promising solution for this problem is cross-domain recommendation (CDR) which leverages rich information from an auxiliary (source) domain to improve the performance of recommender system in the target domain. In these CDR approaches, the family of Embedding and Mapping methods for CDR (EMCDR) is very effective, which explicitly learn a mapping function from source embeddings to target embeddings with overlapping users.
+
+With the help of the auxiliary (source) domain, cross-domain recommendation (CDR) is a promising solution to alleviate data sparsity and the cold-start problem in the target domain. The core task of  CDR is preference transfer. For instance, If I like *Song A* and *Song B* (music domain), how much I like *Movie X* (movie domain)? 
+
+![Existing workflow in cross-domain recommendation for cold-start users.](/img/content-concepts-raw-cross-domain-recommendations-untitled.png)
+
+Existing workflow in cross-domain recommendation for cold-start users.
+
+### Formal Definition
+
+Given a user $u_i$, sequential recommendation aims to predict the next item that the user is most likely to interact with at the next time step $|s^i|+1$ based on his or her past behavior sequence $s^i$, which can be formalized as modeling the probability over all items:
+
+$$
+p(v_{{|s^i|}+1}^i = v|s^i)
+$$
+
+In cross-domain scenarios, in order to improve the recommendation performance, user information from other domains is also taken into account. For example, for next-item recommendation in domain A, it can be formulated as modeling the probability over all possible candidates given the behavior sequences $s_a^i$ and $s_b^i$ in domains A and B:
+
+$$
+p(v_{{|s_A^i|}+1}^i = v|s_A^i,s_B^i)
+$$
+
+### **Domain Overlapping**
+
+![[source](https://arxiv.org/pdf/2108.03357.pdf)](/img/content-concepts-raw-cross-domain-recommendations-untitled-1.png)
+
+[source](https://arxiv.org/pdf/2108.03357.pdf)
+
+**Recommendation scenarios**
+
+![[source](https://arxiv.org/pdf/2108.03357.pdf)](/img/content-concepts-raw-cross-domain-recommendations-untitled-2.png)
+
+[source](https://arxiv.org/pdf/2108.03357.pdf)
+
+- CMF assumes a shared global user embedding matrix for all domains, and it factorizes matrices from multiple domains simultaneously.
+- CST utilizes the user embedding in the source domain to initialize the embedding in the target domain and restricts them from being closed.
+
+In recent years, researchers proposed many deep learning-based models to enhance knowledge transfer.
+
+- CoNet transfers and combines the knowledge by using cross-connections between feedforward neural networks.
+- MINDTL combines the CF information of the target-domain with the rating patterns extracted from a cluster-level rating matrix in the source-domain.
+- DDTCDR develops a novel latent orthogonal mapping to extract user preferences over multiple domains while preserving relations between users across different latent spaces. DDTCDR and its improved version DOML adopt dual metric learning (DML).
+- DCDCSR maps the latent factors in the target domain to fit the benchmark factors which combines the features in both the target and source domains.
+
+Similar to multi-task methods, these methods focus on proposing a well-designed deep structure that can effectively train the source and target domains together.
+
+Another group of CDR methods focus on bridging user preferences in different domains, which is the most related work.
+
+- CST utilizes the user embedding learned in the source domain to initialize the user embedding in the target domain and restricts them to being closed.
+- To reduce the dependency on overlapped users, SSCDR adopts a semi-supervised strategy.
+
+Some methods explicitly model the preference bridge.
+
+- **CMF** is a simple and well-known method for cross-domain recommendation by sharing the user factors and factorizing joint rating matrix across domains.
+- **EMCDR** is the first to propose the three-step optimization paradigm by training matrix factorization in both domains successively then utilizing multi-layer perceptrons to map the user latent factors. To transfer knowledge from the source domain to the target domain, EMCDR learns a mapping function on overlapped users which maps user preferences across domains.
+- **CDLFM** modifies matrix factorization by fusing three kinds of user similarities as a regularization term based on their rating behaviors. A neighborhood-based mapping approach is used to replace the previous multi-layer perceptrons, by considering similar users and the gradient boosting trees (GBT) based ensemble learning method.
+
+![The workflow diagram for our proposed model CDLFM.](/img/content-concepts-raw-cross-domain-recommendations-untitled-3.png)
+
+The workflow diagram for our proposed model CDLFM.

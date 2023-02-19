@@ -1,7 +1,5 @@
 # Spectrum
 
-Disclaimer: This project is inspired from Udacity Nanodegreee project called `Sparkify`.
-
 ## Spectrum SQL Data Modeling with Postgres
 
 In this, we will model the data with Postgres and build an ETL pipeline using Python. The fact and dimension tables for a star database schema for a particular analytic focus is defined, and an ETL pipeline that transfers data from files in two local directories into these tables in Postgres using Python and SQL was developed.
@@ -34,18 +32,18 @@ Sample record:
 
 ### Quality
 
-1. LogDataset : userID - Found users with empty string '', firstName as None  
+1. LogDataset : userID - Found users with empty string '', firstName as None
 2. LogDataset : Major of the artist_id & song_id is null
 3. Artists table doesn't have list of all the artists found in log
 4. Songs table doesn't have all the songs found in log
-5. LogDataset : Logs are ordered by timestamp, so they need to be sorted. This enables latest user level to be updated in the users table   
+5. LogDataset : Logs are ordered by timestamp, so they need to be sorted. This enables latest user level to be updated in the users table
 
 ### Tidiness
 
-1. LogDataset : ts : timestamp column as int64 needs to converted to timestamp  
-2. SongPlays table : Add new column songplay_id as serial ( auto-increment )   
-3. user : table : Adding column ts  
-4. songplays : table : Adding columns itemInSession, song, artist  
+1. LogDataset : ts : timestamp column as int64 needs to converted to timestamp
+2. SongPlays table : Add new column songplay_id as serial ( auto-increment )
+3. user : table : Adding column ts
+4. songplays : table : Adding columns itemInSession, song, artist
 
 ### Database Schema Design - Entity Relation Diagram (ERD)
 
@@ -87,7 +85,7 @@ The data stored on S3 buckets is extracted and processed using Spark, and is the
 
 A startup called Spectrum wants to analyze the data they've been collecting on songs and user activity on their new music streaming application. Spectrum has grown their user base and song database large and want to move their data warehouse to a data lake. Their data resides in S3, in a directory of JSON logs on user activity on the application, as well as a directory with JSON metadata on the songs in their application.
 
-They'd like a data engineer to build an ETL pipeline that extracts their data from S3,  processes them using Spark, and loads the data back into S3 as a set of fact and dimensional tables. This will allow their analytics team to continue finding insights in what songs their users are listening to. The role of this project is to create a data lake on cloud (AWS S3) and build ETL pipeline for this process. 
+They'd like a data engineer to build an ETL pipeline that extracts their data from S3,  processes them using Spark, and loads the data back into S3 as a set of fact and dimensional tables. This will allow their analytics team to continue finding insights in what songs their users are listening to. The role of this project is to create a data lake on cloud (AWS S3) and build ETL pipeline for this process.
 
 ### Project Description
 
@@ -122,9 +120,9 @@ Sample Record :
 
 ### Data Model ERD
 
-The Star Database Schema (Fact and Dimension Schema) is used for data modeling in this ETL pipeline. There is one fact table containing all the metrics (facts) associated to each event (user actions), and four dimensions tables, containing associated information such as user name, artist name, song meta-data etc. This model enables to search the database schema with the minimum number of *SQL JOIN*s possible and enable fast read queries. 
+The Star Database Schema (Fact and Dimension Schema) is used for data modeling in this ETL pipeline. There is one fact table containing all the metrics (facts) associated to each event (user actions), and four dimensions tables, containing associated information such as user name, artist name, song meta-data etc. This model enables to search the database schema with the minimum number of *SQL JOIN*s possible and enable fast read queries.
 
-The data stored on S3 buckets is extracted and processed using Spark, and is then inserted into the fact and dimensional tables. This tables are stored back to S3 in parquet files, organized for optimal performance. An entity relationship diagram (ERD) of the data model is given below. 
+The data stored on S3 buckets is extracted and processed using Spark, and is then inserted into the fact and dimensional tables. This tables are stored back to S3 in parquet files, organized for optimal performance. An entity relationship diagram (ERD) of the data model is given below.
 
 ![database](https://user-images.githubusercontent.com/62965911/215310795-2ba21d81-1c32-4e7b-b6d6-9de37c5d002e.png)
 
@@ -133,7 +131,7 @@ fictional music streaming service, which is called Spectrum.
 
 ### Problem
 
-The scenario that should be solved in this project is: 
+The scenario that should be solved in this project is:
 Spectrum has gained a lot new users and the song database as well as the
 recorded song plays have increased over time.
 
@@ -159,7 +157,7 @@ In this enviroment run
 
 ```bash
 pip install pyspark
-``` 
+```
 
 or use the provided Anaconda environment
 
@@ -172,6 +170,7 @@ Then execute the `etl.py` script, which can either be executed in a local
 mode or the remote mode:
 
 Local mode:
+
 ```bash
 # make sure to first unzip the sample data
 bash unzip_data.sh
@@ -181,6 +180,7 @@ python etl.py local          # runs the script in local mode (with default param
 ```
 
 Remote mode:
+
 ```bash
 python etl.py remote --help  # list all parameters
 python etl.py remote --s3-bucket-target s3a://your-bucket-id
@@ -197,8 +197,8 @@ In this lab AWS Redshift is used as a Data Warehouse for a fictional music strea
 
 ### Problem
 
-The scenario that should be solved in this lab is: 
-Spectrum has gained a lot new users and the song database as well as the recorded song plays have increased over time. 
+The scenario that should be solved in this lab is:
+Spectrum has gained a lot new users and the song database as well as the recorded song plays have increased over time.
 
 Spectrum has created a dump of the data in Amazon S3 storage.
 This dump currently consists of JSON logs of the user activity and metadata on the songs.
@@ -295,7 +295,7 @@ Spectrum.
 
 ### Problem
 
-The scenario that should be solved in this project is: 
+The scenario that should be solved in this project is:
 Spectrum has gained a lot new users and the song database as well as the
 recorded song plays have increased over time.
 
@@ -332,7 +332,7 @@ In this enviroment run
 
 ```bash
 pip install -r requirements.txt
-``` 
+```
 
 or use the provided Anaconda environment
 
@@ -354,8 +354,8 @@ The setup requires you to have two credentials stored in your Airflow
 instance as connections:
 
 | Credentials Name | Description                                                                                                                                          |
-|:-----------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| aws_credentials  | Credentials for your AWS user. Use fields `login` and `password` and set your `access_key` and `secret_access_key` here.                             |
+| :--------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------- |
+| aws_credentials  | Credentials for your AWS user. Use fields `login` and `password` and set your `access_key` and `secret_access_key` here.                     |
 | redshift         | Choose "Postgres" as the connection type. Enter your AWS Redshift credentials here. Your database name should be stored in the field named "Schema". |
 
 ![airflow-credentials-1](https://user-images.githubusercontent.com/62965911/215310782-b43e1286-aacb-497e-aa41-945388fec290.png)
@@ -411,13 +411,13 @@ Sample Record :
 
 #### Data Model ERD
 
-The Star Database Schema (Fact and Dimension Schema) is used for data modeling in this ETL pipeline. There is one fact table containing all the metrics (facts) associated to each event (user actions), and four dimensions tables, containing associated information such as user name, artist name, song meta-data etc. This model enables to search the database schema with the minimum number of *SQL JOIN*s possible and enable fast read queries. 
+The Star Database Schema (Fact and Dimension Schema) is used for data modeling in this ETL pipeline. There is one fact table containing all the metrics (facts) associated to each event (user actions), and four dimensions tables, containing associated information such as user name, artist name, song meta-data etc. This model enables to search the database schema with the minimum number of *SQL JOIN*s possible and enable fast read queries.
 
 The data stored on S3 buckets is staged and then inserted to fact and dimensional tables on Redshift. The whole process in orchestrated using Airflow which is set to execute periodically once every hour.
 
 ![database-data-pipeline](https://user-images.githubusercontent.com/62965911/215310793-1d7b3a80-2001-4885-9ef4-6c1bebc85bcb.png)
 
-### Apache Airflow Orchestration 
+### Apache Airflow Orchestration
 
 #### DAG Structure
 
@@ -436,17 +436,15 @@ The DAG dependency graph is given below.
 
 #### Operators
 
-Operators create necessary tables, stage the data, transform the data, and run checks on data quality. Connections and Hooks are configured using Airflow's built-in functionalities. All of the operators and task run SQL statements against the Redshift database. 
+Operators create necessary tables, stage the data, transform the data, and run checks on data quality. Connections and Hooks are configured using Airflow's built-in functionalities. All of the operators and task run SQL statements against the Redshift database.
 
 #### Stage Operator
+
 The stage operator loads any JSON formatted files from S3 to Amazon Redshift. The operator creates and runs a SQL COPY statement based on the parameters provided. The operator's parameters specify where in S3, the file is loaded and what is the target table.
 
 - **Task to stage JSON data is included in the DAG and uses the RedshiftStage operator**: There is a task that to stages data from S3 to Redshift (Runs a Redshift copy statement).
-
 - **Task uses params**: Instead of running a static SQL statement to stage the data, the task uses parameters to generate the copy statement dynamically. It also contains a templated field that allows it to load timestamped files from S3 based on the execution time and run backfills.
-
 - **Logging used**: The operator contains logging in different steps of the execution.
-
 - **The database connection is created by using a hook and a connection**: The SQL statements are executed by using a Airflow hook.
 
 #### Fact and Dimension Operators
@@ -456,11 +454,8 @@ The dimension and fact operators make use of the SQL helper class to run data tr
 Dimension loads are done with the truncate-insert pattern where the target table is emptied before the load. There is a parameter that allows switching between insert modes when loading dimensions. Fact tables are massive so they only allow append type functionality.
 
 - **Set of tasks using the dimension load operator is in the DAG**: Dimensions are loaded with on the LoadDimension operator.
-
 - **A task using the fact load operator is in the DAG**: Facts are loaded with on the LoadFact operator.
-
 - **Both operators use params**: Instead of running a static SQL statement to stage the data, the task uses parameters to generate the copy statement dynamically.
-
 - **The dimension task contains a param to allow switch between append and insert-delete functionality**: The DAG allows to switch between append-only and delete-load functionality.
 
 #### Data Quality Operator
@@ -470,9 +465,7 @@ The data quality operator is used to run checks on the data itself. The operator
 For example one test could be a SQL statement that checks if certain column contains NULL values by counting all the rows that have NULL in the column. We do not want to have any NULLs so expected result would be 0 and the test would compare the SQL statement's outcome to the expected result.
 
 - **A task using the data quality operator is in the DAG and at least one data quality check is done**: Data quality check is done with correct operator.
-
 - **The operator raises an error if the check fails**: The DAG either fails or retries n times.
-
 - **The operator is parametrized**: Operator uses params to get the tests and the results, tests are not hard coded to the operator.
 
 #### Airflow UI views of DAG and plugins
@@ -483,14 +476,14 @@ The DAG follows the data flow provided in the instructions, all the tasks have a
 
 Files in this repository:
 
-|   File / Folder   |                             Description                              |
-|:-----------------:|:--------------------------------------------------------------------:|
-|       dags        | Folder at the root of the project, where DAGs and SubDAGS are stored |
-|      images       |      Folder at the root of the project, where images are stored      |
-|  plugins/helpers  |            Contains a SQL helper class for easy querying             |
-| plugins/operators |        Contains the custom operator to perform the DAG tasks         |
+|   File / Folder   |                             Description                             |
+| :---------------: | :------------------------------------------------------------------: |
+|       dags       | Folder at the root of the project, where DAGs and SubDAGS are stored |
+|      images      |      Folder at the root of the project, where images are stored      |
+|  plugins/helpers  |            Contains a SQL helper class for easy querying            |
+| plugins/operators |        Contains the custom operator to perform the DAG tasks        |
 | create_tables.sql |   Contains SQL commands to create the necessary tables on Redshift   |
-|      README       |                             Readme file                              |
+|      README      |                             Readme file                             |
 
 <!-- GETTING STARTED -->
 

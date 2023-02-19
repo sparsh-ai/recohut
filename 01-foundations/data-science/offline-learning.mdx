@@ -1,0 +1,27 @@
+# Off-Policy Learning
+
+## Offline Reinforcement Learning
+
+The offline reinforcement learning problem can be defined as a data-driven formulation of the reinforcement learning problem. The end goal is still to optimize the objective $J(\pi) = \mathbb{E}_{\tau\sim p_\pi(\tau)} \lbrack \sum_{t=0}^H \gamma^tr(s_t,a_t) \rbrack$. However, the agent no longer has the ability to interact with the environment and collect additional transitions using the behavior policy. Instead, the learning algorithm is provided with a static dataset of transitions, $D = \{(s_t^i, a_t^i, s_{t+1}^i, r_t^i)\}$, and must learn the best policy it can using this dataset. This formulation more closely resembles the standard supervised learning problem statement, and we can regard $D$ as the training set for the policy. In essence, offline reinforcement learning requires the learning algorithm to derive a sufficient understanding of the dynamical system underlying the MDP $M$ entirely from a fixed dataset, and then construct a policy $π(a|s)$ that attains the largest possible cumulative reward when it is actually used to interact with the MDP. We will use $π_β$ to denote the distribution over states and actions in $D$, such that we assume that the state-action tuples $(s, a) ∈ D$ are sampled according to $s \sim d^{\pi \beta} (s)$, and the actions are sampled according to the behavior policy, such that $a ∼ π_β(a|s)$.
+
+<p><center><img src='https://github.com/recohut/drl-recsys/raw/a8a38a68e3606557f3501c8adc85fc6aa5726bc1/docs/_images/L268705_1.png'/></center></p>
+
+In online RL, data is collected each time the policy is modified. In off-policy RL, old data is retained, and new data is still collected periodically as the policy changes. In offline RL, the data is collected once, in advance, much like in the supervised learning setting, and is then used to train optimal policies without any additional online data collection. Of course, in practical use, offline RL methods can be combined with modest amounts of online finetuning, where after an initial offline phase, the policy is deployed to collect additional data to improve online.
+
+Crucially, when the need to collect additional data with the latest policy is removed completely, reinforcement learning does not require any capability to interact with the world during training. This removes a wide range of cost, practicality, and safety issues: we no longer need to deploy partially trained and potentially unsafe policies, we no longer need to figure out how to conduct multiple trials in the real world, and we no longer need to build complex simulators. The offline data for this learning process could be collected from a baseline manually designed controller, or even by humans demonstrating a range of behaviors. These behaviors do not need to all be good either, in contrast to imitation learning methods. This approach removes one of the most complex and challenging parts of a real-world reinforcement learning system.
+
+These off-policy algorithms can fail in the batch setting, becoming unsuccessful if the dataset is uncorrelated to the true distribution under the current policy. The most surprising result shows that off-policy agents perform dramatically worse than the behavioral agent when trained with the same algorithm on the same dataset. This inability to learn truly off-policy is due to a fundamental problem with off-policy reinforcement learning named **extrapolation error**, a phenomenon in which unseen state-action pairs are erroneously estimated to have unrealistic values. Extrapolation error can be attributed to a mismatch in the distribution of data induced by the policy and the distribution of data contained in the batch. As a result, it may be impossible to learn a value function for a policy which selects actions not contained in the batch.
+
+## Distributional Shift
+
+**Policy constraints:** A simple approach to control the distributional shift is to limit how much the learned policy can deviate from the behavior policy. This is especially natural for actor-critic algorithms. 
+
+**Implicit constraints**: The AWR and AWAC algorithms instead perform offline RL by using an implicit constraint. Instead of explicitly learning the behavior policy, these methods solve for the optimal policy via a weighted maximum likelihood update.
+
+**Conservative Q-functions**: A very different approach to offline RL, which we explore in our recent conservative Q-learning (CQL) paper, is to not constrain the policy at all, but instead regularize the Q-function to assign lower values to out-of-distribution actions. This prevents the policy from taking these actions and results in a much simpler algorithm that in practice attains state-of-the-art performance across a wide range of offline RL benchmark problems. This approach also leads to appealing theoretical guarantees, allowing us to show that conservative Q-functions are guaranteed to lower bound the true Q-function with an appropriate choice of regularizer, providing a degree of confidence in the output of the method.
+
+---
+
+## Reference
+
+[https://arxiv.org/abs/2005.01643](https://arxiv.org/abs/2005.01643)

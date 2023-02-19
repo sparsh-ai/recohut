@@ -1,0 +1,252 @@
+# Multi-Objective Optimization
+
+Recommender systems have been widely applied to several domains and applications. Traditional recommender systems usually deal with a single objective, such as minimizing the prediction errors or maximizing the ranking of the recommendation list. There is an emerging demand for multi-objective optimization so that the development of recommendation models can take multiple objectives into consideration, especially in the area of multi-stakeholder and multi-task recommender systems.
+
+Using MOO in recommender systems is not a novel practice. The earliest application of MOO in recommender systems may track back to the ones which balance different evaluation metrics (e.g., accuracy, diversity, novelty, etc.). Recently, there is an emerging demand in MOO, especially in some special type of recommender systems. Take the multi-task recommender system for example, researchers may utilize a joint learning to optimize multiple tasks in a model with shared representations (e.g., latent factors, feature embeddings, etc.).
+
+In many applications, there are multiple rich sources of feedback to draw upon. For example, an e-commerce site may record user visits to product pages (abundant, but relatively low signal), image clicks, adding to cart, and, finally, purchases. It may even record post-purchase signals such as reviews and returns. Integrating all these different forms of feedback is critical to building systems that users love to use, and that do not optimize for any one metric at the expense of overall performance. In addition, building a joint model for multiple tasks may produce better results than building a number of task-specific models. This is especially true where some data is abundant (for example, clicks), and some data is sparse (purchases, returns, manual reviews). In those scenarios, a joint model may be able to use representations learned from the abundant task to improve its predictions on the sparse task via a phenomenon known as [transfer learning](https://en.wikipedia.org/wiki/Transfer_learning). For example, [this paper](https://openreview.net/pdf?id=SJxPVcSonN) shows that a model predicting explicit user ratings from sparse user surveys can be substantially improved by adding an auxiliary task that uses abundant click log data. Recommendation with multiple objectives is an important but difficult problem, where the coherent difficulty lies in the possible conflicts between objectives. In this case, multi-objective optimization is expected to be **Pareto efficient**, where no single objective can be further improved without hurting the others.
+
+MOO address the challenges of producing recommendations in multiobjective and multi-stakeholder (e.g. marketplaces) settings, including but not limited to the following topics:
+
+- Recommender systems with multiple objectives
+- Value-aware recommendation (profit, value, purpose, etc.)
+- Trade-off between relevance and bias in recommender systems
+- Recommendation with multiple stakeholders
+- Food recommendation with different objectives
+- Group recommender systems
+- Conflict handling in multi-stakeholder recommendation
+- Fairness-aware recommender systems
+- Balancing the long-term impacts of the recommendations and the users’ short term preferences
+- News recommendation with editorial values
+- Educational recommender systems with multiple, potentially conflicting, objectives
+- Personalized medicine with the different objectives coming from the patients and physicians
+
+Many people may not realize that Multi Objective Problems (MOP) could be general in our life and society. Every day we are making decisions trying to compromise among different objectives. If you were a car buyer, you want to lower price and gas consumption, and higher level of comfort and performance. With limited budget, these objectives are conflict each other. You need to balance between lower price or gas consumption and comfort or performance. On the society level, the central bank’s monetary policy needs to balance among inflation rate, unemployment rate, trade deficit and other economic factors. Lower interest rate may reduce the unemployment but may increase the risk of inflation at same time. We can find similar situations in other areas such as engineering and communication designs. In each situation, the decision maker (DM) wants to optimize more than one objective, which are conflict each other in most of cases.
+
+## Problem formulation
+
+A multi-objective optimization problem is an optimization problem in which several possibly conflicting objectives are being optimized simultaneously. It can be defined as follows:
+
+$$\min_{w \in R^D} L(w) = \min_{w \in R^D} \bigg| L_1(w), L_2(w),\dots,L_n(w) \bigg|^{}_{n \times 1}
+$$
+
+where $n$ is the number of objectives to optimize, $w$ the model parameters, $D$ is the total number of parameters, $L_i:R^D \rightarrow R,\ i=1,\dots,n$, $L_i$ is a single objective loss function, and $L$ is the multi-objective loss function. Operator $\min$ represents the operation of minimization of all objectives simultaneously. This is not a limiting factor, because, without loss of generality, any maximization problem can be transformed into a minimization problem.
+
+In case that a gradient-based optimization algorithm is applied, the gradient of every constituent loss function $\nabla_wL_i(w)$ has to be a Lipschitz continuous function (Murphy, 2013).
+
+## Scenario: Optimal fruit choice
+
+Let's understand with an example. Imagine you want to eat a fruit and you have conditions - the fruit should be healthy as well as tasty. Based on your knowledge, you draw the following diagram to decide which fruit to eat:
+
+<figure><p><center><img src='https://github.com/recohut/multiobjective-optimizations/raw/098954ea18e25506b6320039c85d09385c70f37b/docs/_images/L069335_1.png'/><figcaption>[source](https://www.alexirpan.com/public/fruit-opinion/xkcdfruit.png)</figcaption></center></p></figure>
+
+So which one is the best to eat? The answer is that there is no single optimal choice here but three - Peaches, Strawberries, and Seedless grapes. These 3 fruits are at the Pareto Front (don't worry, we are going to learn this concept) and called non-dominated and therefore optimal choices.
+
+## Scenario: Cement factory
+
+Let's say we run a cement factory and looking to optimize our profits. But as per regulations and ethics, we also need to take care of health impacts to nearby communities. So let's understand how we can formulate this situation as MOO. Objective 1 could be to maximize production to maximize profit. Objective 2 could be to minimize hazardous wastes to protect health of nearby communities. How to solve the contradiction between objectives? - we can do that by compromising. Given these objectives, one way to formulate our goal is ***Max(Profit) s.t. Produced hazards ≤ Max allowable value.*** We can alternatively formulate our goal as ***Max(Profit/Hazards)***.
+
+## Scenario: Accuracy vs speed tradeoff
+
+We can frame the multi-objective optimization problem as a search for optimal tradeoffs. Let’s imagine that we really care about exactly two objectives: predictive accuracy, and the speed at which we can make a prediction.
+
+Unfortunately, these things are likely to be in tension. It may be possible to construct a very accurate classifier by using extremely large models, or stacking several ML algorithms, or by performing many complex feature transformations. All of these things increase the computation necessary to make a prediction, and thus slow us down.
+
+Imagine we randomly sampled hyperparameter configurations and measured the speed and accuracy of the resulting models. We would surely find some configurations that result in algorithms being both slower and less accurate than others. Speaking technically, if one point—call it `A`—is better than another point—`B`—in one dimension, and at least as good in all other dimensions, we say `A` *dominates* `B`. We’d never want to deploy dominated models, since there are other models that are strictly better in both the optimization objectives.
+
+<figure><p><center><img src='https://github.com/recohut/multiobjective-optimizations/raw/098954ea18e25506b6320039c85d09385c70f37b/docs/_images/L069335_2.png'/><figcaption>As we try different hyperparameter configurations, we’ll find that the resultant models represent different accuracy-speed trade offs. We can visualize each model as a point in the trade off space.</figcaption></center></p></figure>
+
+It’s possible we’d find one point that maximizes both the accuracy and speed of our predictions. In practice, this is unlikely. We might improve accuracy by using deeper trees in a random forest, but deeper trees also take longer to evaluate, so we have traded off some speed for accuracy.
+
+Eventually, we’ll discern an edge in the accuracy-speed tradeoff space, where we cannot find a hyperparameter combination that leads to an improvement in one direction without a negative impact on the other. This edge is called the *Pareto frontier*, and allows us to make a quantitative tradeoff between our optimization objectives. The Pareto frontier is constructed from the set of non-dominated points, and choosing any one of them gives us our exact accuracy/speed tradeoff.
+
+<figure><p><center><img src='https://github.com/recohut/multiobjective-optimizations/raw/098954ea18e25506b6320039c85d09385c70f37b/docs/_images/L069335_3.png'/><figcaption>As we try different hyperparameter configurations, we’ll find that the resultant models represent different accuracy-speed trade offs. We can visualize each model as a point in the trade off space.</figcaption></center></p></figure>
+
+Ultimately, a deployed ML system will be trained with a single hyperparameter combination, and we must choose a single *point* in the accuracy-speed plane. The Pareto frontier allows us to present a decision maker with a host of models, some maximizing accuracy, others maximizing speed, and the entire spectrum in between.
+
+How do we find this frontier? We could construct it with a dense random sampling of the hyperparameter search space. This risks being inefficient. We’d like to spend as little time as possible sampling configurations that aren’t likely to expand the Pareto frontier. Every sample on the frontier is useful, because they let us trade off accuracy and speed in a new combination. Samples inside the frontier end up being useless.
+
+## Categories of Multi-Objective Recommendations
+
+### 1. Recommender Systems Balancing Multiple Metrics
+
+In traditional recommender systems, the goal is to generate a list of items that most likely meets the user’s need. There are many different metrics to evaluate user’s need. Here are three most used metrics during the offline evaluations:
+
+- Accuracy: measure the difference between recommended items and the expected items.
+- Diversity: measurement of un-similarity between recommended items. Maintaining a certain level of diversity increase the chance for user to choose useful items from the list.
+- Novelty: measure the likelihood that a recommender system to generate recommendations that user may not be aware of.
+
+When a recommender system tries to maximize all three metrics at the same time, it become a multi objective optimization problem. Each metric is an objective. In this case, increasing accuracy may reduce the diversity and novelty, since more items that user assessed in the testing data set are in recommendation list. Increasing diversity or novelty may also reduce the accuracy for the same reason.
+
+<figure><p><center><img src='_images/L553498_1.png'/><figcaption>A 3-dimensional objective space. Points are possible hybrids and are represented by the corresponding level of accuracy, novelty and diversity. Hybrids lying in the Pareto frontier are not dominated by any other hybrid.</figcaption></center></p></figure>
+
+We have a recommendation system that tries to optimize multiple objectives that conflict each other. Another interesting benefit of applying MOO in this case is the fact that recommendations (movies, music, news) might soon become boring to the users if we focus just on accuracy. Diversity enable the recommender to recommend something different. Similarly, novelty enable it to recommend something never experienced before.
+
+### 2. Group Recommender Systems
+
+In contrast to traditional recommender systems, the group recommender systems [37] produce a list of recommended items to a group of users, e.g., group dining or travelling. The major challenge in group recommendations is to balance the individual and group satisfactions, since a member’s taste in the group may conflict with another member’s preferences in the same group. As a result, MOO can be applied to find a balance and improve group recommendations.
+
+In [this](https://dl.acm.org/doi/10.1145/3109859.3109887) paper, authors utilized the weighted sum as the scalarization method to combine two objectives – individual satisfaction and group fairness. They proposed to use greedy search and integer programming as the single objective optimizer. Their experiments were able to demonstrate that they could improve group recommendations by considering group fairness in the MOO process.
+
+### 3. Multi-Stakeholder Recommender Systems
+
+In **multi-stakeholder recommender systems**, the utilities of all stakeholders (end users, item sellers and platform owners) need to be maximized at same time. The challenge here is that increasing utility of one stakeholder may reduce the utilities of other stakeholders. For example, if the recommendation includes more expensive items, the seller’s utilities (profit) may increase at the cost of user’s utilities (items likely to buy). In conclusion, a multi-stakeholder recommender must deal with multi objectives that conflicts each other.
+
+The definition of the objectives in this category may vary from applications to applications. In the marketplace, buyers, sellers and the platform may be the stakeholders. In job seeking, the recruiter and the job seekers may be the stakeholders. Therefore, the definition of the stakeholders and the associated objectives are dependent with the specific applications or domains.
+
+Lin, et al. utilized scalarization to optimize the click through rate (CTR) and gross merchandise volume (GMV) in an e-commerce application. They defined the loss function based on CTR and GMV, and used the weighted sum to combine these two losses into a joint loss function. They tried different weights to perform the joint learning process and finally adopted the least misery strategy to select a single optimal solution from the Pareto set.
+
+By contrast, Zheng, et al. utilized MOEA as the optimizer to recommend Kaggle datasets to students for the projects by considering the item utility from the perspective of both students and instructors. They took advantage of the multi-criteria rating vectors and expectation vectors to compute the item utility in view of students and instructors by using a utility-based multi-criteria recommendation framework. Weighed sum is used to aggregate the two utilities (i.e., from perspective of students and instructors) to produce the ranking score which can be applied to sort and rank items. MOEA was applied to consider the student and instructor satisfactions, as well as the recommendation performance as the multiple metrics. A TOPSIS based method was used to select a single optimal solution from the Pareto set generated by MOEA. The experimental results can demonstrate that the model could improve the instructor’s satisfaction at a limited loss on the recommendation performance.
+
+### 4. Multi-Task Recommender Systems
+
+The multi-task recommender systems refer to the recommender system which optimize multiple tasks through a joint learning process. Particularly, there are usually some common or shared representations in multi-task recommender systems, such as the shared latent-factors or embedding layers in the neural network models. Note that, multi-task recommender systems are not limited to the models using neural networks. Some work utilizing matrix factorization can optimize both rating prediction and ranking tasks by sharing the user and item latent factors. The goal is to improve multiple tasks by a joint learning process. However, the improvement is dependent with the correlation of the tasks and the power of the shared representations.
+
+Neural-based **multi-task learning** has been successfully used in many real-world large-scale applications such as recommendation systems. For example, in movie recommendations, beyond providing users movies which they tend to purchase and watch, the system might also optimize for users liking the movies afterwards. With multi-task learning, we aim to build a single model that learns these multiple goals and tasks simultaneously.
+
+In multi-task recommender systems, most of the work utilized the joint learning process which is in shape of the weighed sum of the scalarization method. However, researchers may just assign a learning rate to each loss function without guaranteeing the sum of the weights is one. In this case, it is not guaranteed that researchers can find a Pareto set, though a single solution may still be Pareto optimal. Furthermore, the researchers may just tune up the learning and regularization rates to find a better solution than the baseline. According to the instructions in MOO, trying different weights to produce a Pareto set and selecting an optimal solution from the set should be formal way, if the preferences of the decision maker is not available.
+
+## Multi-Objective Hyperparameter Optimization
+
+In practice, we may often optimize a machine learning algorithm for a single objective, but we rarely truly care about just one thing. Would we want a 99.99% accurate classifier if it took a week to make each prediction? Possibly, but it represents a very particular scenario. This is a little hyperbolic, but the essential point is true: we must always make tradeoffs between characteristics of algorithmic performance. While traditional characteristics include predictive performance metrics, there are often physical or ethical constraints that an ML algorithm must meet. Netflix famously ran a competition to find the best recommendation algorithm, but [Netflix Never Used Its $1 Million Algorithm Due To Engineering Costs](https://www.wired.com/2012/04/netflix-prize-costs/). Just as we may trade off precision and recall by changing the classification threshold, we can navigate the larger tradeoff space (predictive, physical, ethical) of a complete ML pipeline by optimizing the hyperparameters of the system. “Engineering cost,” as in the Netflix example, would be extremely tricky to encode, but prediction latency, serialized model size, and technical measures of fairness, for instance, are all fair game.
+
+We can frame the multi-objective optimization problem as a search for optimal tradeoffs. Let’s imagine that we really care about exactly two objectives: predictive accuracy, and the speed at which we can make a prediction.
+
+Unfortunately, these things are likely to be in tension. It may be possible to construct a very accurate classifier by using extremely large models, or stacking several ML algorithms, or by performing many complex feature transformations. All of these things increase the computation necessary to make a prediction, and thus slow us down.
+
+Imagine we randomly sampled hyperparameter configurations and measured the speed and accuracy of the resulting models. We would surely find some configurations that result in algorithms being both slower and less accurate than others. Speaking technically, if one point—call it `A`—is better than another point—`B`—in one dimension, and at least as good in all other dimensions, we say `A` *dominates* `B`. We’d never want to deploy dominated models, since there are other models that are strictly better in both the optimization objectives.
+
+<figure><p><center><img src='https://github.com/recohut/multiobjective-optimizations/raw/098954ea18e25506b6320039c85d09385c70f37b/docs/_images/L556513_1.png'/><figcaption>As we try different hyperparameter configurations, we’ll find that the resultant models represent different accuracy-speed trade offs. We can visualize each model as a point in the trade off space.</figcaption></center></p></figure>
+
+It’s possible we’d find one point that maximizes both the accuracy and speed of our predictions. In practice, this is unlikely. We might improve accuracy by using deeper trees in a random forest, but deeper trees also take longer to evaluate, so we have traded off some speed for accuracy.
+
+Eventually, we’ll discern an edge in the accuracy-speed tradeoff space, where we cannot find a hyperparameter combination that leads to an improvement in one direction without a negative impact on the other. This edge is called the *Pareto frontier*, and allows us to make a quantitative tradeoff between our optimization objectives. The Pareto frontier is constructed from the set of non-dominated points, and choosing any one of them gives us our exact accuracy/speed tradeoff.
+
+<figure><p><center><img src='https://github.com/recohut/multiobjective-optimizations/raw/098954ea18e25506b6320039c85d09385c70f37b/docs/_images/L556513_2.png'/><figcaption>The Pareto frontier is formed by those points that are not dominated by any others.</figcaption></center></p></figure>
+
+Ultimately, a deployed ML system will be trained with a single hyperparameter combination, and we must choose a single *point* in the accuracy-speed plane. The Pareto frontier allows us to present a decision maker with a host of models, some maximizing accuracy, others maximizing speed, and the entire spectrum in between.
+
+How do we find this frontier? We could construct it with a dense random sampling of the hyperparameter search space. This risks being inefficient. We’d like to spend as little time as possible sampling configurations that aren’t likely to expand the Pareto frontier. Every sample on the frontier is useful, because they let us trade off accuracy and speed in a new combination. Samples inside the frontier end up being useless.
+
+**Multi-objective Bayesian optimization** is a powerful technique (encompassing a collection of methods) for discovering the Pareto frontier. Rather than diving in at the deep end, let’s first review how Bayesian optimization works for a single objective. We’ll then build on that approach for the multi-objective case and discuss a few specific methods that we experimented with.
+
+The “Bayes” in Bayesian optimization refers to updating our prior beliefs about how the input hyperparameters map to the output objectives, resulting in a better, posterior belief about the mapping. This approach to optimization is fundamentally sequential, and each iteration of the sequence follows the same procedure. The procedure looks like this:
+
+- We have an unknown function between hyperparameters and our objective. We don’t know this true function (we’ll call it the **objective function**), but we can sample points from it by training a ML algorithm and evaluating the objective (calculating the accuracy, for instance). This is computationally expensive, so we’d like to do it as little as possible. Our goal is to optimize the output of this function, by which we mean to find it’s highest (or lowest, if appropriate) value.
+
+<p><center><img src='https://github.com/recohut/multiobjective-optimizations/raw/098954ea18e25506b6320039c85d09385c70f37b/docs/_images/L556513_3.png'/></center></p>
+    
+- Because we don’t know the true function, we fit a probabilistic **surrogate function**—usually a Gaussian Process (a class of flexible, non-parametric functions (technically, a *stochastic process*, which is a *space* of functions))—to some random samples from the objective function. It’s important that this surrogate function captures uncertainty.
+    
+<p><center><img src='https://github.com/recohut/multiobjective-optimizations/raw/098954ea18e25506b6320039c85d09385c70f37b/docs/_images/L556513_4.png'/></center></p>
+    
+- From the surrogate function, we derive an **acquisition function** (if you’re counting, that’s the third function we’ve just introduced). The acquisition function tells us where in hyperparameter space to sample next. For instance, we might choose the point that has the highest probability of improving (PoI) the objective. Or, we might choose the point with the highest expected improvement (EI), which is different from PoI!
+- Optimizing the acquisition function, for instance finding the highest EI, is itself an optimization problem! Fortunately, our surrogate function is very quick to evaluate compared to training a whole ML model, so we can find the highest EI point with iterative optimization methods. This inner loop of optimization is very fast.
+- The optimal points of the acquisition function tell us where to sample next, so we evaluate our **objective function** at those hyperparameters and update our **surrogate function** with the output (making it a better model of the unknown, true objective function). Hence *Bayesian* optimization: we have a prior belief (the surrogate function) about the objective function, and we update that belief as we sample more points.
+- We repeat this loop of updating the surrogate, calculating a new proposal point to sample, and evaluating the objective function. Eventually, we find an output of the objective function we’re happy with, or else blow our compute budget, and stop!
+
+That’s a lot of functions. In a nutshell, we’re modeling the relationship between hyperparameters and objectives, and using that model to make better hyperparameter choices.
+
+“Better” is doing some work there. When selecting a next datapoint to sample, we must make a tradeoff between maximizing the objective function as much as possible with the information that we have, and learning more about the objective function so we can make better future decisions. This is known as the explore-exploit tradeoff, and we navigate it by choosing an acquisition function. Each possible acquisition function determines the degree to which we explore and exploit the surrogate function. Some acquisition functions favour exploration of unsampled regions, others favour exploitation, and most have their own parameters to control the degree of exploration. A nice *exploration* of some acquisition functions is given in the Distill.pub article [Exploring Bayesian Optimization](https://distill.pub/2020/bayesian-optimization/) (which is also a very accessible introduction to Bayesian optimization generally). If you’re unfamiliar with Gaussian Processes, we recommend first reading [A Visual Exploration of Gaussian Processes](https://distill.pub/2019/visual-exploration-gaussian-processes/).
+
+We can overfit hyperparameters just as we can overfit parameters. When performing such a search, it’s a good idea to hold out an additional dataset for comparing models. This is true even with grid search. With grid or random search, we don’t explicitly “learn” a function, we just take a finite number of samples from it, but we might nonetheless pick a combination that is very good for the training set, and not so much for the test set. We can counter this by withholding an evaluation dataset split before starting any hyperparameter optimization, and using that dataset only for reporting our final metrics, not for choosing a model or finding the Pareto frontier.
+
+Since we now have a recipe for single-objective optimization, there’s an obvious solution to multi-objective optimization: we may reduce multi-objective optimization to a single objective case. We could do this by optimizing for a weighted combination of the two (or more) objectives, reducing them to a single number—a *scalar*—that we want to maximize or minimize. This is known as ***scalarization***. Then, we can apply regular 1-dimensional optimization, and forget about there ever having been more than one objective.
+
+This approach is only really viable if we have strong a priori quantitative knowledge about how much we care about each objective, since we must construct the precise combination to maximize. For instance, `2 * speed + accuracy`, if we care about accuracy twice as much as speed. One reason this is hard is that the shape of the tradeoff is rarely known in advance. Are we prepared to sacrifice 10 points of accuracy for a 10 millisecond improvement in speed? How about 3 points of accuracy for a 100ms improvement? It is unlikely that we could confidently make these decisions without knowing what tradeoffs are available.
+
+Maximizing a scalarized objective is going to hone in on a single point in the objective space (the speed-accuracy plane, for example). This is exactly one point on the Pareto frontier! So one way of discovering the Pareto frontier is by first optimizing for one point, then changing the weights in the scalarization, and repeating the procedure, each time optimizing for a different combination of accuracy and speed. Randomizing this combination is known, unsurprisingly, as ***random scalarization***, and it forms the basis of the multi-objective optimization algorithm known as [**ParEGO**](https://ieeexplore.ieee.org/document/1583627).
+
+It turns out it is possible to attack a multi-objective problem directly, without scalarizing, with a cleverly constructed acquisition function: the **Expected Hypervolume Improvement**.
+
+The Pareto frontier generalizes the notion of optimizing to more than one dimension. But one can’t “maximize the frontier” – what does that even mean? To maximize (or minimize) a thing, we must have a notion of comparison between its possible values. For a single dimension, we compare magnitudes. How then, can we generalize comparison to multiple dimensions? By comparing volumes! Enter the Expected Hypervolume Improvement (EHVI) acquisition function. It’s perhaps best understood with a walkthrough.
+
+Suppose we have a Pareto frontier of points initialized by randomly sampling the hyperparameter space. Even though these hyperparameter configurations were sampled randomly, we can still draw a Pareto frontier, which is just the set of points that are not dominated by others. We additionally choose a reference point that is completely dominated by the entire Pareto frontier (by every point on it). The hypervolume of interest is the volume occupied between the reference point and the Pareto frontier. With 2 objectives, the hypervolume is just the area. We are looking for points that increase this volume, which, intuitively, are points that push the Pareto frontier out, away from the reference point.
+
+<figure><p><center><img src='_images/L556513_5.png'/><figcaption>The green shaded region is the hypervolume between the points on the Pareto frontier and the reference point, in this case, at the origin of the chart.</figcaption></center></p></figure>
+
+When we draw a new point, we sample from the *hyperparameter* space, but we want a volume improvement in the *objective space*. Our surrogate model – usually consisting of an independent Gaussian Process model for each objective – is approximating how input hyperparameters will result in output objective values, and the goal is to choose input hyperparameters that maximize the expected hypervolume improvement in the output space.
+
+Choosing points that maximize the expected hypervolume improvement is itself an optimization problem, just like finding those that maximize expected improvement or probability of improvement in the single-objective case. We can perform this optimization using our surrogate functions, which are fast to compute. If we knew the objective function perfectly, the hypervolume improvement from adding a new point might look something like this.
+
+<figure><p><center><img src='_images/L556513_6.png'/><figcaption>The red shaded region is the hypervolume improvement that would result from adding the new candidate point.</figcaption></center></p></figure>
+
+However, we don’t know that objective function perfectly—we’re modelling it with surrogate functions (one for each objective). The surrogate functions come with uncertainty attached, since they’re just our best approximation of the objective function. Because of that uncertainty, we can’t be sure exactly where on the accuracy-speed space a given hyperparameter combination will land us, so the picture looks a little more like this.
+
+<figure><p><center><img src='_images/L556513_7.png'/><figcaption>In reality, we don’t know the objective function perfectly—we are modeling it with a surrogate function that has uncertainty. The fuzzy point and area on the chart indicate that the exact location of the point, and thus the associated hypervolume improvement, are uncertain.</figcaption></center></p></figure>
+
+This uncertainty is the reason we compute the *Expected* HVI, which means integrating over the uncertainty. There are fast computational methods for doing so using Monte Carlo and discretizing the space. Fortunately, evaluating the EHVI is not nearly as expensive as training an ML model and finding the true hypervolume improvement. So we can find the point that maximizes the EHVI using iterative methods (think [BFGS](https://en.wikipedia.org/wiki/Broyden-Fletcher-Goldfarb-Shanno_algorithm)). This is made all the faster by having exact gradients of the MC estimate of the EHVI, thanks to modern auto-differentiation tools.[5](https://blog.fastforwardlabs.com/2021/07/07/exploring-multi-objective-hyperparameter-optimization.html#fn:5)
+
+We evaluate the objective function at the suggested hyperparameters, and update our surrogate models. We can repeat this process for as long as our compute budget allows. By maximizing the hypervolume between the reference point (origin) and the Pareto frontier, we effectively construct the frontier itself!
+
+There are two notable enhancements to expected hypervolume improvement. The first, qEHVI, allows for parallel suggested points. The second, MOTPE, replaces the GP models of the objectives with tree-structured Parzen estimators.
+
+### qEHVI
+
+That little “q” signifies a recent advance – trying multiple new points in parallel – introduced in [Differentiable Expected Hypervolume Improvement for Parallel Multi-Objective Bayesian Optimization](https://arxiv.org/abs/2006.05078), which also introduced the exact MC gradients mentioned earlier.
+
+We need not restrict ourselves to trying only one new hyperparameter config at a time. The “q” in qEHVI indicates the number of parallel candidates suggested. The q candidates are selected by optimizing the *total* hypervolume improvement from their *combined* contribution, so they ought to work together. This makes sense, for if we chose three points that each maximize the EHVI independently, they’d be at the same spot. It’s a clever mechanism for exploiting parallelism in an otherwise sequential optimization process.
+
+<figure><p><center><img src='_images/L556513_8.png'/><figcaption>qEHVI can suggest multiple (here q=3) new candidate points without refitting the surrogate models, accelerating the search for the Pareto Frontier.</figcaption></center></p></figure>
+
+The full technical treatment of qEHVI is given in the paper. We warn the intrepid reader that for anyone unfamiliar with Bayesian Optimization literature (which is vast and deep), and through no fault of the authors, the paper is a tough read. We recommend starting with [this short video](https://www.youtube.com/watch?v=JNt_hBjH4wU) explaining the contributions of the paper.
+
+### Multi-Objective Tree-structured Parzen Estimators (MOTPE)
+
+qEHVI improved on the EHVI acquisition function. An alternative approach is to improve upon the surrogate functions from which EHVI is calculated.
+
+Gaussian processes offer a flexible approach to modeling which captures feature interactions. However, they are continuous in nature, and can struggle with awkward search spaces involving discrete transitions. An alternative approach known as Tree-structured Parzen Estimators (TPE) is superior for these spaces, and hyperparameter optimization often involves just such spaces. For example, the hyperparameter specifying the number of neurons in the third layer of a neural network is irrelevant if the hyperparameter specifying the number of layers is less than three in a given trial. GPs *can* model such functions with a continuous approximation, but the search space fundamentally is tree shaped.
+
+Whereas GPs seek to model the probability of a given output (accuracy, for instance) conditional on the input hyperparameters $p(\text{accuracy}|n\_layers,learning\_rate,\dots)$, TPEs turn this around and model the conditional distribution of hyperparameters given the output:
+
+$$p\left(\text{hyperparameter} \ |\ \text{objective}\right) \ = \begin{cases} l & \mathrm{if} \ \text{objective} \ >\ \text{threshold}\\ g & \mathrm{if} \ \text{objective} \ < \ \text{threshold} \end{cases}$$
+
+The two functions $l$ and $g$ are themselves density estimations (“Parzen estimator” is just a particular name for a kernel density estimator), and functions of the hyperparameters. The threshold between them selects for whether the objective is among the best values, where “best” is defined as some upper quantile. A different density is fit to those good (upper quantile) objective values ($l$) and the poorer (lower quantiles) ones ($g$). New hyperparameters are drawn such that they’re very likely under the distribution $l$, and unlikely under the distribution $g$.
+
+<figure><p><center><img src='_images/L556513_9.png'/><figcaption>TPE fits two densities to each hyperparameter, then samples hyperparameters from the configuration, l, that is fit only to the better objective values. In reality, the distributions may not separate so neatly.</figcaption></center></p></figure>
+
+Modeling the conditional distribution of each hyperparameter, rather than the objectives, means we can handle tree-shaped hyperparameter configurations such as the neural net example above. We simply don’t update the model, $p(hyperparameter|objective)$, for a hyperparameter if it wasn’t used in a particular trial. As a trade off for this effective handling of tree-shaped search spaces, we lose the ability to model hyperparameter interactions, since each hyperparameter has its own conditional density. Whether this trade-off makes sense depends on the shape of our search space, and alas can rarely be known in advance.
+
+Recently, [Multiobjective tree-structured parzen estimator for computationally expensive optimization problems](https://dl.acm.org/doi/10.1145/3377930.3389817) applied tree-structured Parzen estimators in the multi-objective case, using EHVI as the acquisition function. See [Algorithms for hyper-parameter optimization](https://dl.acm.org/doi/10.5555/2986459.2986743) for the introduction of TPE to hyperparameter search, and a comparison with Gaussian Process-based HPO.
+
+## References
+
+1. Multi-Objective Recommendations: A Tutorial. Yong Zheng, David Wang. 2021. RecSys. [https://arxiv.org/abs/2108.06367](https://arxiv.org/abs/2108.06367)
+2. Progressive Layered Extraction. H. Tang, J. Liu, M. Zhao, X. Gong. 2020. RecSys. [https://dl.acm.org/doi/abs/10.1145/3383313.3412236](https://dl.acm.org/doi/abs/10.1145/3383313.3412236)
+3. A Pareto-Efficient Algorithm for Multiple Objective Optimization in E-Commerce Recommendation. Lin et. al.. 2019. RecSys. [http://www.yongfeng.me/attach/lin-recsys2019.pdf](http://www.yongfeng.me/attach/lin-recsys2019.pdf)
+4. Multiple Objective Optimization in Recommender Systems. Mario Rodriguez , Christian Posse , Ethan Zhang Authors Info & Claims. 2012. RecSys. [https://dl.acm.org/doi/10.1145/2365952.2365961](https://dl.acm.org/doi/10.1145/2365952.2365961)
+5. Advances in Recommender Systems: From Multi-stakeholder Marketplaces to Automated RecSys. Rishabh Mehrotra , Ben Carterette , Yong Li , Quanming Yao , Chen Gao , James Kwok , Qiang Yang , Isabelle Guyon. 2020. KDD. [https://dl.acm.org/doi/abs/10.1145/3394486.3406463](https://dl.acm.org/doi/abs/10.1145/3394486.3406463)
+6. MMoE: Modeling Task Relationships in Multi-task Learning with Multi-gate Mixture-of-Experts. Jiaqi Ma , Zhe Zhao , Xinyang Yi , Jilin Chen , Lichan Hong , Ed H. Chi. 2018. KDD. [https://dl.acm.org/doi/10.1145/3219819.3220007](https://dl.acm.org/doi/10.1145/3219819.3220007)
+7. An Overview of Multi-Task Learning in Deep Neural Networks. Sebastian Ruder. 2017. arXiv. [https://arxiv.org/abs/1706.05098](https://arxiv.org/abs/1706.05098)
+8. Recommending What Video to Watch Next: A Multitask Ranking System. Zhe Zhao, Lichan Hong, Li Wei, Jilin Chen, Aniruddh Nath, Shawn Andrews, Aditee Kumthekar, Maheswaran Sathiamoorthy, Xinyang Yi, Ed Chi. 2019. RecSys. [https://daiwk.github.io/assets/youtube-multitask.pdf](https://daiwk.github.io/assets/youtube-multitask.pdf)
+9. Progressive Layered Extraction (PLE): A Novel Multi-Task Learning (MTL) Model for Personalized Recommendations. Hongyan Tang , Junning Liu , Ming Zhao , Xudong Gong. 2020. RecSys. [https://dl.acm.org/doi/10.1145/3383313.3412236](https://dl.acm.org/doi/10.1145/3383313.3412236)
+10. Multi-Task Feature Learning for Knowledge Graph Enhanced Recommendation. Hongwei Wang, Fuzheng Zhang, Miao Zhao, Wenjie Li, Xing Xie, Minyi Guo. 2019. arXiv. [https://arxiv.org/abs/1901.08907](https://arxiv.org/abs/1901.08907)
+11. Multi-Gradient Descent for Multi-Objective Recommender Systems. Nikola Milojkovic, Diego Antognini, Giancarlo Bergamin, Boi Faltings, Claudiu Musat. 2020. arXiv. [https://arxiv.org/abs/2001.00846](https://arxiv.org/abs/2001.00846)
+12. Multi Objective Pareto Efficient Approaches for Recommender Systems. Marco Tulio Ribeiro , Nivio Ziviani , Edleno Silva De Moura , Itamar Hata , Anisio Lacerda , Adriano Veloso. 2015. arXiv. [https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.721.3102&rep=rep1&type=pdf](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.721.3102&rep=rep1&type=pdf)
+13. Multi-FR: A Multi-Objective Optimization Method for Achieving Two-sided Fairness in E-commerce Recommendation. Haolun Wu Chen Ma Bhaskar Mitra Fernando Diaz Xue Liu. 2021. arXiv. [https://arxiv.org/abs/2105.02951](https://arxiv.org/abs/2105.02951)
+14. Pareto Optimisation: Multi-Task Learning with User Preferences.  2020.  [https://youtu.be/mgxrjGw6WKU](https://youtu.be/mgxrjGw6WKU)
+15. Fairness-Aware Group Recommendation with Pareto-Efficiency. Lin Xiao , Zhang Min , Zhang Yongfeng , Gu Zhaoquan , Liu Yiqun , Ma Shaoping. 2017. RecSys. [https://dl.acm.org/doi/10.1145/3109859.3109887](https://dl.acm.org/doi/10.1145/3109859.3109887)
+16. Multi-Task Learning as Multi-Objective Optimization. Ozan Sener, Vladlen Koltun. 2018. arXiv. [https://arxiv.org/abs/1810.04650](https://arxiv.org/abs/1810.04650)
+17. Efficient Continuous Pareto Exploration in Multi-Task Learning. Pingchuan Ma, Tao Du, Wojciech Matusik. 2020. arXiv. [https://arxiv.org/abs/2006.16434](https://arxiv.org/abs/2006.16434)
+18. ESSM: Entire Space Multi-Task Model: An Effective Approach for Estimating Post-Click Conversion Rate. Xiao Ma, Liqin Zhao, Guan Huang, Zhi Wang, Zelin Hu, Xiaoqiang Zhu, Kun Gai. 2018. SIGIR. [https://arxiv.org/abs/1804.07931](https://arxiv.org/abs/1804.07931)
+19. Multitask Learning. Rich Caruana. 1997.  [http://reports-archive.adm.cs.cmu.edu/anon/1997/CMU-CS-97-203.pdf](http://reports-archive.adm.cs.cmu.edu/anon/1997/CMU-CS-97-203.pdf)
+20. Multi-objective Ranking via Constrained Optimization. Michinari Momma, Alireza Bagheri Garakani, Nanxun Ma, Yi Sun. 2020. arXiv. [https://arxiv.org/abs/2002.05753](https://arxiv.org/abs/2002.05753)
+21. Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer. Noam Shazeer, Azalia Mirhoseini, Krzysztof Maziarz, Andy Davis, Quoc Le, Geoffrey Hinton, Jeff Dean. 2017. arXiv. [https://arxiv.org/abs/1701.06538](https://arxiv.org/abs/1701.06538)
+22. [https://d-nb.info/1231781351/34](https://d-nb.info/1231781351/34)
+23. [https://github.com/geangohn/recsys-tutorial](https://github.com/geangohn/recsys-tutorial)
+24. [https://github.com/imsheridan/DeepRec/tree/master/MTL](https://github.com/imsheridan/DeepRec/tree/master/MTL)
+25. [DSelect-k: Differentiable Selection in the Mixture of Experts with Applications to Multi-Task Learning](https://arxiv.org/pdf/2106.03760v2.pdf) `paper`
+26. [CSC321: Introduction to Neural Networks and Machine Learning](https://www.cs.toronto.edu/~hinton/csc321/notes/lec15.pdf) `ppt`
+27. [Video Recommendation with Multi-gate Mixture of Experts Soft Actor Critic](https://dl.acm.org/doi/10.1145/3397271.3401238) `paper`
+28. [Personalized Educational Learning with Multi-Stakeholder Optimizations](https://www.researchgate.net/publication/332552766_Personalized_Educational_Learning_with_Multi-Stakeholder_Optimizations) `paper`
+29. [https://esa.github.io/pygmo2/index.html](https://esa.github.io/pygmo2/index.html) `tool`
+30. [https://pymoo.org/](https://pymoo.org/) `tool`
+31. [https://pythonhosted.org/inspyred/](https://pythonhosted.org/inspyred/) `tool`
+32. [https://platypus.readthedocs.io/en/latest/](https://platypus.readthedocs.io/en/latest/) `tool`
+33. [PyTorch Community Voices | Multi-task Reinforcement Learning | Shagun Sodhani](https://youtu.be/QIX9b9EAZOY) `video` `st` `mtrl`
+34. [https://github.com/facebookresearch/mtrl](https://github.com/facebookresearch/mtrl) `code` `st` `mtrl`
+35. [https://github.com/facebookresearch/mtenv](https://github.com/facebookresearch/mtenv) `code` `st` `mtrl`
+36. [ESMM]Entire Space Multi-Task Model: An Effective Approach for Estimating Post-Click Conversion Rate [SIGIR2018][[PDF]](https://arxiv.org/pdf/1804.07931.pdf)
+37. [ESM2]Conversion Rate Prediction via Post-Click Behaviour Modeling
+38. [https://blog.fastforwardlabs.com/2021/07/07/exploring-multi-objective-hyperparameter-optimization.html](https://blog.fastforwardlabs.com/2021/07/07/exploring-multi-objective-hyperparameter-optimization.html)
+39. [https://github.com/fastforwardlabs/multi-objective-hyperparameter-optimization](https://github.com/fastforwardlabs/multi-objective-hyperparameter-optimization)

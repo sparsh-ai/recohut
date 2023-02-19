@@ -1,0 +1,19 @@
+# Scalarization
+
+| Method | Idea | Scalarization | Characteristic |
+| ------ | ---- | ------------- | -------------- |
+| Goal Programming | Set up goal for each objective | $min \sum_{i=1}^M|d_i|$ | May not be Pareto optimal |
+| Physical Programming | Map goals and objective to utility functions $\bar{g}_i$ | $min\ log_{10} \sum \bar{g}_i$ | Pareto optimal
+Need detail knowledge of each objective |
+| Lexicographic | Order each objective by importance | Minimize each objective in order | The solution may not be feasible |
+
+The central idea of scalarization algorithms is to transform multi objectives into one objective. If DM (decision maker) preference is available, this transformation can be done easily, and a single solution is produced. If DM preference is not available, such as in a posteriori and no DM cases, multiple runs of scalarization algorithm with different parameters are needed to find the Pareto set.
+
+There are many different types of scalarization algorithms that solve the MOO problem. The difference between them lies on how to transform the multi objectives into a single objective. After transforming multi objectives into one objective, the problem can be solved using regular optimization algorithms. Here is a list of commonly used methods of scalarization algorithms:
+
+- Weighting methods
+- 𝜖-constraint method
+- Normal Boundary Intersection (NBI) & Normal Constraint (NC) method
+- Goal Programming
+- Physical Programming
+- Lexicographic Method

@@ -1,0 +1,14 @@
+# Meta Learning
+
+Meta learning covers a wide range of topics and has contributed to a booming study trend. Few-shot learning is one of successful branches of meta learning. We retrospect some representative meta-learning models with strong connections to our work.
+
+They can be divided into the following common types.
+
+1. Memory-based approaches: combining deep neural networks (DNNs) with the memory mechanism to enhance the capability of storing and querying meta-knowledge.
+2. Optimization-based approaches: a meta-learner, e.g. recurrent neural networks (RNNs) is trained to optimize target models.
+3. Metric-based approaches: learning an effective similarity metric between new examples and other examples in the training set.
+4. Gradient-based approaches: learning an shared initialization where the model parameters can be trained via a few gradient updates on new tasks. Most meta-learning models follow an episodic learning manner. Among them, MAML is one of the most popular frameworks, which falls into the fourth type. Some MAML-based works consider that the sequence of tasks may originate from different task distributions, and try various task-specific adaptations to improve model capability.
+
+It is also named learning to learn, aiming to improve novel tasks’ performance by training on similar tasks. There are various meta learning methods, e.g., metric-based methods, gradient-based methods, and parameter-generating based methods.
+
+This line of research aims to learn a model which can adapt and generalize to new tasks and new environments with a few training samples. To achieve the goal of “learning-to-learn”, there are three types of different approaches. Metric-based methods are based on a similar idea to the nearest neighbors algorithm with a well-designed metric or distance function, prototypical networks or Siamese Neural Network. Model-based methods usually perform a rapid parameter update with an internal architecture or are controlled by another meta-learner model. As for the optimization-based approaches, by adjusting the optimization algorithm, the models can be efficiently updated with a few examples.

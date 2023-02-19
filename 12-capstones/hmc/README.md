@@ -28,39 +28,3 @@ Follow these steps:
 3. Root cause analysis
 4. Research & development
 5. Solution development
-
-## Project Structure
-
-```
-├── [ 25K]  01-sa.ipynb
-├── [1.5K]  README.md
-├── [ 12K]  data
-│   └── [ 12K]  raw
-│       └── [ 12K]  other_events
-│           └── [ 12K]  event=journey_closed
-│               └── [ 12K]  brand=paw-and-glory
-│                   ├── [5.5K]  part-00000-4a7006e4-1695-44eb-ae29-b8f438652eed-c000.snappy.parquet
-│                   └── [6.2K]  part-00008-1f817ad7-0889-4df0-a1f0-f714b8163389.c000.snappy.parquet
-├── [  44]  download.sh
-└── [708K]  files
-    ├── [3.2K]  athena_queries.sql
-    ├── [ 17K]  change.drawio.svg
-    ├── [4.3K]  glue_etl_original.py
-    ├── [1.3K]  glue_etl_v0.py
-    ├── [3.3K]  glue_etl_v1.py
-    ├── [5.2K]  glue_etl_v2.py
-    ├── [218K]  nbs.zip
-    ├── [8.8K]  src
-    │   ├── [4.4K]  glue_new.py
-    │   └── [4.2K]  glue_old.py
-    ├── [1.8K]  temp.py
-    ├── [240K]  tiger
-    │   ├── [217K]  Resolving\ the\ parquet\ schema\ error\ 8c9b3aa4157c4ce2b5ead115512b39f2
-    │   │   ├── [ 58K]  Screenshot_2022-08-31_at_11.11.50_PM.png
-    │   │   ├── [ 56K]  Untitled\ 1.png
-    │   │   └── [103K]  Untitled.png
-    │   └── [ 23K]  Resolving\ the\ parquet\ schema\ error\ 8c9b3aa4157c4ce2b5ead115512b39f2.html
-    └── [205K]  tiger.zip
-
- 747K used in 9 directories, 20 files
-```

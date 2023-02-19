@@ -1,0 +1,40 @@
+# Multi-Task Learning
+
+Generally, as soon as you find yourself optimizing more than one loss function, you are effectively doing multi-task learning (in contrast to single-task learning). In those scenarios, it helps to think about what you are trying to do explicitly in terms of MTL and to draw insights from it.
+
+We can motivate multi-task learning in different ways: Biologically, we can see multi-task learning as being inspired by human learning. For learning new tasks, we often apply the knowledge we have acquired by learning related tasks. For instance, a baby first learns to recognize faces and can then apply this knowledge to recognize other objects. 
+
+From a pedagogical perspective, we often learn tasks first that provide us with the necessary skills to master more complex techniques. This is true for learning the proper way of falling in martial arts, e.g. Judo as much as learning to program. 
+
+Taking an example out of pop culture, we can also consider The Karate Kid (1984). In the movie, sensei Mr Miyagi teaches the karate kid seemingly unrelated tasks such as sanding the floor and waxing a car. In hindsight, these, however, turn out to equip him with invaluable skills that are relevant for learning karate. 
+
+We can motivate multi-task learning from a machine learning point of view: We can view multi-task learning as a form of inductive transfer. Inductive transfer can help improve a model by introducing an inductive bias, which causes a model to prefer some hypotheses over others. For instance, a common form of inductive bias is $l_1$ regularization, which leads to a preference for sparse solutions. In the case of MTL, the inductive bias is provided by the auxiliary tasks, which cause the model to prefer hypotheses that explain more than one task. This generally leads to solutions that generalize better.
+
+One of the most surprising results in statistics is Stein’s paradox. Stein (1956) showed that it is better to estimate the means of three or more Gaussian random variables using samples from all of them rather than estimating them separately, even when the Gaussians are independent. Stein’s paradox was an early motivation for multi-task learning (MTL) (Caruana, 1997), a learning paradigm in which data from multiple tasks is used with the hope to obtain superior performance over learning each task independently. Potential advantages of MTL go beyond the direct implications of Stein’s paradox, since even seemingly unrelated real world tasks have strong dependencies due to the shared processes that give rise to the data. For example, although autonomous driving and object manipulation are seemingly unrelated, the underlying data is governed by the same laws of optics, material properties, and dynamics. This motivates the use of multiple tasks as an inductive bias in learning systems. A typical MTL system is given a collection of input points and sets of targets for various tasks per point. A common way to set up the inductive bias across tasks is to design a parametrized hypothesis class that shares some parameters across tasks. Typically, these parameters are learned by solving an optimization problem that minimizes a weighted sum of the empirical risk for each task. However, the linear-combination formulation is only sensible when there is a parameter set that is effective across all tasks. In other words, minimization of a weighted sum of empirical risk is only valid if tasks are not competing, which is rarely the case. MTL with conflicting objectives requires modeling of the trade-off between tasks, which is beyond what a linear combination achieves.
+
+Multi-task learning is a machine learning method in which a model learns to solve multiple tasks simultaneously. The assumption is that by learning to complete multiple correlated tasks with the same model, that the performance of each task will be higher than if we trained individual models on each task.
+
+However, this assumption does not always hold true. Naïve multi-task learning approaches do not consider the relationships between tasks and trade-offs involved in learning to complete all of the tasks.
+
+[Google’s multi-gate mixture-of-experts model](https://dl.acm.org/doi/pdf/10.1145/3219819.3220007) (MMoE) attempts to improve upon the baseline multi-task learning methods by explicitly learning relationships between tasks.
+
+In the context of Deep Learning, multi-task learning is typically done with either hard or soft parameter sharing of hidden layers.
+
+## Hard Parameter Sharing
+
+Hard parameter sharing is the most commonly used approach to MTL in neural networks and goes back to [Caruana, 1993]. It is generally applied by sharing the hidden layers between all tasks, while keeping several task-specific output layers. Hard parameter sharing greatly reduces the risk of overfitting. In fact, [Baxter, 1997] showed that the risk of overfitting the shared parameters is an order N – where N is the number of tasks – smaller than overfitting the task-specific parameters, i.e. the output layers. This makes sense intuitively: The more tasks we are learning simultaneously, the more our model has to find a representation that captures all of the tasks and the less is our chance of overfitting on our original task.
+
+<figure><p><center><img src='_images/T336869_1.png'/><figcaption>Hard parameter sharing for multi-task learning in deep neural networks.</figcaption></center></p></figure>
+
+## Soft Parameter Sharing
+
+In soft parameter sharing on the other hand, each task has its own model with its own parameters. The distance between the parameters of the model is then regularized in order to encourage the parameters to be similar. [Duong et al., 2015] for instance use $l_2$ distance for regularization, while [Yang and Hospedales, 2017b] use the trace norm.
+
+<figure><p><center><img src='_images/T336869_2.png'/><figcaption>Soft parameter sharing for multi-task learning in deep neural networks.</figcaption></center></p></figure>
+
+The constraints used for soft parameter sharing in deep neural networks have been greatly inspired by regularization techniques for MTL that have been developed for other models.
+
+## References
+
+1. [https://ruder.io/multi-task/](https://ruder.io/multi-task/)
+2. [https://towardsdatascience.com/multi-task-learning-with-multi-gate-mixture-of-experts-b46efac3268](https://towardsdatascience.com/multi-task-learning-with-multi-gate-mixture-of-experts-b46efac3268)
