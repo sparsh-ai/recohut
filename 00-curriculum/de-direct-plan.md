@@ -4,7 +4,7 @@
 - Prices - $175 /-
 - Batch Size - 10+ students
 - Referral discount - 10%
-- Payment - Weekly (Prepaid)
+- Payment - Pre-pay every week
 
 # Curriculum
 

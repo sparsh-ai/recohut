@@ -4,21 +4,21 @@ In this lab, we will learn about various Delta Lake optimizations that help us b
 
 We will cover the following topics:
 
--   Working with the **OPTIMIZE** and **ZORDER** commands
--   Using **AUTO OPTIMIZE**
--   Learning about delta caching
--   Learning about dynamic partition pruning
--   Understanding bloom filter indexing
+- Working with the **OPTIMIZE** and **ZORDER** commands
+- Using **AUTO OPTIMIZE**
+- Learning about delta caching
+- Learning about dynamic partition pruning
+- Understanding bloom filter indexing
 
 Delta Lake is an open source storage layer that provides functionalities to data in the data lake that only exist in data warehouses. When combined with cloud storage, **Databricks** and Delta Lake lead to the formation of a **Lakehouse**. A Lakehouse simply provides the best of both worlds -- **data lakes** and **data warehouses**. In today's world, a Lakehouse provides the same set of capabilities as a traditional data warehouse and at a much lower cost. This is made possible due to cheap cloud storage such as Azure Data Lake, Spark as the processing engine, and data being stored in the Delta Lake format. In this lab, we will learn about various Delta Lake optimizations that help us build a more performant Lakehouse.
 
 In this lab, we will cover the following topics:
 
--   Working with the **OPTIMIZE** and **ZORDER** commands
--   Using **AUTO OPTIMIZE**
--   Learning about delta caching
--   Learning about dynamic partition pruning
--   Understanding bloom filter indexing
+- Working with the **OPTIMIZE** and **ZORDER** commands
+- Using **AUTO OPTIMIZE**
+- Learning about delta caching
+- Learning about dynamic partition pruning
+- Understanding bloom filter indexing
 
 ## Environment Setup
 
@@ -30,21 +30,19 @@ You will find a dbc file in assets folder. Import this in your databricks worksp
 
 Delta lake on Databricks lets you speed up queries by changing the layout of the data stored in the cloud storage. The algorithms that support this functionality are as follows:
 
--   **Bin-packing**: This uses the **OPTIMIZE** command and helps coalesce small files into larger ones.
--   **Z-Ordering**: This uses the **ZORDER** command and helps collocate data in the same set of files. This co-locality helps reduce the amount of data that's read by Spark while processing.
+- **Bin-packing**: This uses the **OPTIMIZE** command and helps coalesce small files into larger ones.
+- **Z-Ordering**: This uses the **ZORDER** command and helps collocate data in the same set of files. This co-locality helps reduce the amount of data that's read by Spark while processing.
 
 Use `1. Working with OPTIMIZE and ZORDER` notebook for this recipe.
 
 **OPTIMIZE** and **ZORDER** can be used to speed up Databricks queries. As a best practice, **ZORDER** should be used on columns that are commonly used in queries to filter data and have high cardinality. But *Z-Ordering* on too many columns can also degrade performance. Hence, the columns to Z-Order on should be chosen wisely. *Bin-packing* should always be used when different transactions such as inserts, deletes, or updates are being executed on a delta table. Also, it is an idempotent process, meaning that if the **OPTIMIZE** command is run twice on a table, the second run will have no effect.
 
-This concludes this section on Bin-Packing and Z-Ordering. Next, we will learn about Auto Optimize.
-
 ## Using Auto Optimize
 
 **Auto Optimize** is a feature that helps us automatically compact small files while an individual writes to a delta table. Unlike bin-packing, we do not need to run a command every time Auto Optimize is executed. It consists of two components:
 
--   **Optimized Writes**: Databricks dynamically optimizes Spark partition sizes to write 128 MB chunks of table partitions.
--   **Auto Compaction**: Here, Databricks runs an optimized job when the data writing process has been completed and compacts small files. It tries to coalesce small files into 128 MB files. This works on data that has the greatest number of small files.
+- **Optimized Writes**: Databricks dynamically optimizes Spark partition sizes to write 128 MB chunks of table partitions.
+- **Auto Compaction**: Here, Databricks runs an optimized job when the data writing process has been completed and compacts small files. It tries to coalesce small files into 128 MB files. This works on data that has the greatest number of small files.
 
 Use `2. Using AUTO OPTIMIZE` notebook for this recipe.
 
@@ -54,9 +52,9 @@ In this recipe, we will understand how Auto Optimize has been applied to our new
 
 **Optimized writes** help dynamically optimize Spark partition sizes to write 128 MB chunks of table partitions. Here are some best practices regarding optimized writes:
 
--   Optimized writes involve shuffling data across the executors, so they should only be used if a minutes' worth of latency is acceptable in streaming jobs.
--   It should be used when SQL commands such as **UPDATE**, **DELETE**, and more are frequently used.
--   It should not be used when terabytes of data is being processed and storage optimized node instances are not available.
+- Optimized writes involve shuffling data across the executors, so they should only be used if a minutes' worth of latency is acceptable in streaming jobs.
+- It should be used when SQL commands such as **UPDATE**, **DELETE**, and more are frequently used.
+- It should not be used when terabytes of data is being processed and storage optimized node instances are not available.
 
 Next, let's learn about Auto Compaction.
 
@@ -64,11 +62,12 @@ Next, let's learn about Auto Compaction.
 
 **Auto Compaction** tries to coalesce small files into 128 MB files and works on data that has the greatest number of small files. Here are some best practices regarding optimized writes:
 
--   Auto Compaction should be used when a minutes' worth of latency is acceptable in streaming jobs.
--   If Bin-Packing is not being done on a delta table, Auto Compaction should be used.
--   This feature should not be used when operations such as **DELETE**, **UPDATE**, and more are being applied on a Delta table. This is because Auto Compaction is performed on a table after the write has succeeded. Hence, there could be a transactional conflict between the jobs.
+- Auto Compaction should be used when a minutes' worth of latency is acceptable in streaming jobs.
+- If Bin-Packing is not being done on a delta table, Auto Compaction should be used.
+- This feature should not be used when operations such as **DELETE**, **UPDATE**, and more are being applied on a Delta table. This is because Auto Compaction is performed on a table after the write has succeeded. Hence, there could be a transactional conflict between the jobs.
 
 NOTE
+
 > If Auto Compaction fails due to a conflict, Databricks does not fail or retry the compaction.
 
 This concludes this section on Auto Optimize. In the next section, we will learn about delta caching.
