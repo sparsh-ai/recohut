@@ -1,0 +1,6 @@
+prop_id;house_type;has_furniture;surface;price;
+4;Apartment;True;20;540;
+6;Apartment;True;22;500;
+8;House;True;52;640;
+9;Apartment;True;30;600;
+10;Apartment;False;35;620;
