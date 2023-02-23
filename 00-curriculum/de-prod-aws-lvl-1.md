@@ -11,6 +11,11 @@
 * [ ] Programming - Python
 * [ ] Programming - PySpark
 * [ ] Programming - Scala
+* [ ] Data Modeling and Warehousing
+* [ ] Data Lakes and Lakehouses
+* [ ] Big Data Processing
+* [ ] Orchestration and Data Pipelines
+* [ ] Capstone Projects
 
 ## Developer Foundations
 
@@ -28,7 +33,7 @@
 * [ ] Learn bash commands
 * [ ] Download and Install DBeaver
 
-### Data Engineering Foundations
+## Data Engineering Foundations
 
 * [ ] What is Data Engineering?
 * [ ] Role of Data Engineering in Organizations
@@ -71,6 +76,7 @@
 * [ ] Reading and writing data to databases using psycopg2 and sqlalchemy library
 * [ ] Reading data from S3 and athena using aws data wrangler library
 * [ ] Pull credentials from Secrets Manager using boto3 library
+* [ ] Lab - Exchange Rate ETL process [[source code](../01-foundations/language/python/lab-exchange-rate-etl)]
 
 ## Programming - PySpark
 
@@ -88,16 +94,16 @@
 * [ ] Getting started with Spark Scala
 * [ ] Building extract and load pipeline with Scala, S3 and Postgres
 
-## Data Modeling
+## Data Modeling and Warehousing
 
 * [ ] Building a sql data model for a music company in Postgres
 * [ ] Building a nosql data model for a music company in Cassandra
-
-## Data Warehouse and Data Lakes
-
 * [ ] Difference between databases, warehouses, lakes and lakehouses
 * [ ] OLTP vs OLAP technologies
 * [ ] Loading data into Redshift warehouse with S3 staging and COPY command
+
+## Data Lakes and Lakehouses
+
 * [ ] Building a data lake for a healthcare company with AWS, S3 and Athena
 * [ ] Working with AWS S3 and Delta lake in Databricks
 
@@ -108,7 +114,7 @@
 * [ ] Building a near real-time serverless data pipeline with AWS lambda function
 * [ ] Building an ELT pipeline for a cab service company using dbt and Postgres
 
-## Orchestration
+## Orchestration and Data Pipelines
 
 * [ ] Install Airflow in your PC
 * [ ] Starting Airflow scheduler and web server
