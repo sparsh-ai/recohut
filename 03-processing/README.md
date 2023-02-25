@@ -241,6 +241,16 @@ For data lakes, combining the data from multiple tables into a single table can 
 
 Another important component that we should include in the transformation section of our pipeline architecture is the process of cataloging the dataset. During this process, we ensure all the datasets in the data lake are referenced in the data catalog and can add additional business metadata.
 
+## Typical Real-Time Solution
+
+*Figure below* is a typical real-time data flow that captures data from a source, transforms it, and serves it using a real-time OLAP database. The diagram is completed with a real-time visualization to an end user.
+
+![img1](https://user-images.githubusercontent.com/62965911/221354689-bd4ad06a-a2b8-4ad5-8e89-25f4d846a86d.png)
+
+**Real-time transformation** engines are distributed, stateful ***stream processors*** that can perform complex transformations on real-time data. They can handle high throughput data at any scale. The role of the stream processor is to preprocess the data before it reaches the real-time OLAP database.
+
+**Real-time OLAP (RTOLAP)** are databases that can serve data with high query per second (QPS). QPS is a good indicator of good end user experience. End users could be actual users or other applications. The higher the QPS, the better the experience for end users. The stream processors take away the need for these databases to preprocess the data so that they can focus their resources on higher QPS.
+
 ## Processing Streaming data
 
 In the big data era, people like to correlate big data with real-time data. Some people say that if the data is not real-time, then it's not big data. This statement is partially true. In practice, the majority of data pipelines in the world use the batch approach, and that's why it's still very important for data engineers to understand the batch data pipeline.
@@ -330,6 +340,18 @@ Watch this video: https://www.youtube.com/watch?v=3Y7PhzFbz_s
 ## Streaming data challenges
 
 Watch this video: https://www.youtube.com/watch?v=0vbdoFNCUOA
+
+## Streaming Database
+
+**Streaming databases** try to do *both - Stream processing and Real-time OLAP.* They have stream processing capabilities as well as the ability to serve real-time data with high QPS like a RTOLAP.
+
+![img2](https://user-images.githubusercontent.com/62965911/221354846-693a81b9-5505-4f22-a4d0-56fc59703cc8.png)
+
+Streaming database cannot be created by simply putting a SQL based stream processor and a RTOLAP together. ***They need to share the same SQL processor/engine for both transforming data and serving data.*** It provides a ***single SQL interface*** for user facing applications that *pull* data from a RTOLAP with high QPS and for developers building transformations that *push* data downstream in a data pipeline.
+
+## Comparison
+
+![img3](https://user-images.githubusercontent.com/62965911/221354914-6bfa14bc-cbe0-4a60-b094-7e3fef2f735c.png)
 
 ## More Resources
 

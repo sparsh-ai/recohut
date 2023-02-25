@@ -6,11 +6,25 @@ Apache Spark is an Open source analytical processing engine for large scale powe
 
 Spark is a distributed data processing engine meaning its components work collaboratively on a cluster of machines to run your tasks. It can be run on a single machine (standalone mode) as well for testing purposes. Spark is an open-source project that was originally developed in 2009 by Matei Zaharia as a replacement/alternative to MapReduce.
 
+Spark is a distributed computing framework that is designed to work with large datasets. It is built on top of the Hadoop Distributed File System (HDFS) and allows for in-memory data processing, which can greatly speed up data processing tasks. Spark can be used to process data in a variety of formats, including structured data (such as CSV and Parquet) and unstructured data (such as JSON and XML).
+
+One of the key features of Spark is its ability to perform distributed data processing. This means that Spark can split up a large dataset and process it in parallel across multiple machines. This can greatly speed up data processing tasks and allows for the processing of much larger datasets than would be possible with a single machine.
+
 Apache Spark is a framework that is supported in Scala, Python, R Programming, and Java. Below are different implementations of Spark.
 
 - Spark – Default interface for Scala and Java
 - PySpark – Python interface for Spark
 - SparklyR – R interface for Spark.
+
+**Components of Apache Spark**
+
+Spark consists of several components that work together to provide a comprehensive data processing ecosystem. The main components of Spark are:
+
+- Spark Core: The foundation of Spark, provides the basic functionality for scheduling tasks and managing the execution of tasks in a cluster.
+- Spark SQL: Allows for the processing of structured data using SQL-like commands.
+- Spark Streaming: Allows for the processing of streaming data.
+- Spark MLlib: A library for machine learning tasks.
+- Spark GraphX: A library for graph processing.
 
 **Features:**
 

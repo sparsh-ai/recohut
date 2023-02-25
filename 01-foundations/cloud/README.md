@@ -189,3 +189,7 @@ SaaS provides you with a complete product that is run and managed by the service
 </tbody>
 </table>
 </html>
+
+## Big Data Pipelines on AWS, Azure and Google Cloud
+
+![cloud](https://user-images.githubusercontent.com/62965911/221352820-d1b634a7-ddd2-4976-bc2c-2c8cb4ad19e6.png)

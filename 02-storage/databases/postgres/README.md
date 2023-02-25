@@ -1,17 +1,5 @@
 # Postgres
 
-## Hands-on
-
-1. [Lab: Setup Postgres in Local and in Cloud](./setup.md)
-2. [Lab: Connect to Postgres with Python](./lab-connect-python/)
-3. [Lab: Load data into Postgres with Python](./lab-load-python/)
-4. [Lab: Load and Analyze Sales data in Postgres](./lab-postgres-sales/)
-5. [Lab: Window Functions in Postgres](./window-functions.ipynb)
-6. [Lab: Slowly Changing Dimensions in Postgres](./slowly-changing-dimensions.ipynb)
-7. [Lab: ETL using shell scripts](./lab-bash-etl)
-
-## Note
-
 Picking the right database management system is a difficult task due to the vast number of options on the market. Depending on the business model, you can pick a commercial database or an open source database with commercial support. In addition to this, there are several technical and non-technical factors to assess. When it comes to picking a relational database management system, PostgreSQL stands at the top for several reasons. The PostgreSQL slogan, "*The world's most advanced open source database*," emphasizes the sophistication of its features and the high degree of community confidence.
 
 PostgreSQL is an open source object relational database management system. It competes with major relational databases such as Oracle, MySQL, and SQL Server. Its licensing model allows commercial use without any limitations and there are a lot of companies offering commercial support of PostgreSQL. For this reason, start-ups often favor PostgreSQL. Due to its rich extensions, it is often used for research purposes. PostgreSQL code is also a base for a few open source and commercial database solutions such as Greenplum and Amazon Redshift.

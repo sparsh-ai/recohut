@@ -1,12 +1,5 @@
 # Cassandra
 
-## Steps
-
-1. [Setup locally](./setup.md)
-1. [Setup and Getting Started with Cassandra on Cloud with Amazon Keyspaces](./amazon-keyspaces/)
-
-## Note
-
 > *Apache Cassandra is an open source, distributed, decentralized, elastically scalable, highly available, fault-tolerant, tuneably consistent, row-oriented database. Cassandra bases its distribution design on Amazon’s Dynamo and its data model on Google’s Bigtable, with a query language similar to SQL. Created at Facebook, it now powers cloud-scale applications across many industries.*
 
 Cassandra first started as an Incubator project at Apache in January of 2009. Shortly thereafter, the committers, led by Apache Cassandra Project Chair Jonathan Ellis, released version 0.3 of Cassandra, and steadily made releases up to the milestone 3.0 release. Since 2017, the project has been led by Apache Cassandra Project Chair Nate McCall, producing releases 3.1 through the latest 4.0 release. Cassandra is being used in production by some of the biggest companies on the web, including Facebook, Twitter, and Netflix.
@@ -77,8 +70,8 @@ Watch this video: https://www.youtube.com/watch?v=PYdLIvBHe2E
 ## References
 
 1. [Introduction to Apache Cassandra - the “Lamborghini” of the NoSQL World](https://bit.ly/3fsVUAR)
-1. [Apache Cassandra Database – Full Course for Beginners](https://youtu.be/J-cSy5MeMOA)
-1. [Overview of Amazon Keyspaces](https://youtu.be/PYdLIvBHe2E) [[Long](https://youtu.be/KPh_8DeRgxQ)]
-1. [Cassandra Case Studies](https://cassandra.apache.org/_/case-studies.html)
-1. [Cassandra Case Studies](https://cassandra.apache.org/_/case-studies.html)
-1. [AWS re:Invent 2020: Running Apache Cassandra workloads with Amazon Keyspaces](https://youtu.be/KPh_8DeRgxQ)
+2. [Apache Cassandra Database – Full Course for Beginners](https://youtu.be/J-cSy5MeMOA)
+3. [Overview of Amazon Keyspaces](https://youtu.be/PYdLIvBHe2E) [[Long](https://youtu.be/KPh_8DeRgxQ)]
+4. [Cassandra Case Studies](https://cassandra.apache.org/_/case-studies.html)
+5. [Cassandra Case Studies](https://cassandra.apache.org/_/case-studies.html)
+6. [AWS re:Invent 2020: Running Apache Cassandra workloads with Amazon Keyspaces](https://youtu.be/KPh_8DeRgxQ)

@@ -1,8 +1,8 @@
-# ETL using shell scripts
+# ETL with bash script
 
 ## Objective
 
-In this lab, you will use Bash shell scripts to extract, transform and load data
+In this lab, you will use bash shell commands to extract, transform and load data
 
 ## Activity
 

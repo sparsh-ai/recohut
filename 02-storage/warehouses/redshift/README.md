@@ -1,16 +1,5 @@
 # Amazon Redshift
 
-## Steps
-
-1. [Lab: Connect to Amazon Redshift Cluster using Python](./lab-redshift-python/)
-1. [Lab: Copy Data from S3 into Amazon Redshift](./lab-copy-from-s3/)
-1. [Lab: Implement a slowly changing dimension in Amazon Redshift](./lab-redshift-scd/)
-1. [Lab: Credit Card Fraud detection in Amazon Redshift](./lab-redshift-ml/)
-1. [Lab: Taxi Data Process and Save to Redshift using AWS Wrangler](./lab-redshift-taxi/)
-1. [Project: Sales Order Analytics with Amazon Redshift](./project-redshift-sales/)
-
-## Note
-
 Amazon Redshift is a data warehousing service optimized for **online analytical processing** (**OLAP**) applications. You can start with just a few hundred **gigabytes** (**GB**) of data and scale to a **petabyte** (**PB**) or more. Designing your database for analytical processing lets you take full advantage of Amazon Redshift's columnar architecture.
 
 An analytical schema forms the foundation of your data model. You can choose a star or snowflake schema by using Normalized, Denormalized, or Data Vault data modeling techniques. Redshift is a relational database management system (RDBMS) that supports a number of data model structures, including dimensional, denormalized, and aggregate (rollup) structures. This makes it optimal for analytics.

@@ -2,18 +2,7 @@
 
 **Hit the ⭐️ button if you like the repo.**
 
-## Bootcamp 1: Data Engineering
-
-- [AWS Curriculum](./00-curriculum/de-aws.md)
-- [Azure Curriculum](./00-curriculum/de-azure.md)
-- [GCP Curriculum](./00-curriculum/de-gcp.md)
-
-## Bootcamp 2: Data Science
-
-- L1: Beginner
-- L2: Intermediate
-- L3: Proficient
-- L4: Wizard
+## [Data Engineering Curriculum](./00-curriculum/de-prod.md)
 
 ## How to Join
 

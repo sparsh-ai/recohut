@@ -231,8 +231,6 @@ SQLite, MySQL, Postgres, RDS, DuckDB
 
 ### Synthetic Data Generation
 
-## Processing Layer
-
 ## Governance
 
 ### Data Quality

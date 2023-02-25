@@ -1,5 +1,3 @@
 # CloudSQL
 
-## Steps
-
-1. [Lab: Loading Taxi Data into Google Cloud SQL](./oltp-databases/cloudsql/lab-gcp-cloudsql-nyctaxi.md)
+CloudSQL is a fully managed relational database service for MySQL, PostgreSQL, and SQL Server with rich extension collections, configuration flags, and developer ecosystems.

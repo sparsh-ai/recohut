@@ -11,16 +11,6 @@ Data cleaning and data processing are key job responsibilities in engineering ro
 - Your technical problem-solving ability.
 - Clearly explain the issue, what you proposed, the steps you took to solve the problem, and the outcome.
 
-### Describe a time you had difficulty merging data. How did you solve this issue?
-
-Data cleaning and data processing are key job responsibilities in engineering roles. Inevitably unexpected issues will come up. Interviewers ask questions like these to determine:
-
-- How well do you adapt?
-- The depth of your experience.
-- Your technical problem-solving ability.
-- Clearly explain the issue, what you proposed, the steps you took to solve the problem, and the outcome.
-
-
 ### What ETL tools do you have experience using? What tools do you prefer?
 
 There are many variations to this type of question. A different version would be about a specific ETL tool, “Have you had experienced with Apache Spark or Amazon Redshift?” If a tool is in the job description, it might come up in a question like this. One tip: Include any training, how long you’ve used the tech, and specific tasks you can perform.
@@ -62,7 +52,7 @@ This question assesses how you gather stakeholder information before starting a 
 - Who will manage the pipeline?
 
 ### How do you gather stakeholder input before beginning a data engineering project?
-    
+
 Understanding what stakeholders need from you is essential in any data engineering job, and a question like this assesses your ability to align your work to stakeholder needs. Describe the processes that you typically utilize in your response; you might include tools like:
 
 - Surveys
