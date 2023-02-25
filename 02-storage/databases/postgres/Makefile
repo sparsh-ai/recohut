@@ -16,9 +16,6 @@ restore_dump:
 describe_table:
 	\d <table_name>
 
-show_talbe:
-	\d <table_name>
-
 restart_service_mac:
 	brew services restart postgresql
 

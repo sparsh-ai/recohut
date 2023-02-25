@@ -6,6 +6,8 @@ Workflow orchestration tools are software platforms that help organizations mana
 
 A data pipeline is a means of moving data from one place (the source) to a destination (such as a data warehouse). Along the way, data is transformed and optimized, arriving in a state that can be analyzed and used to develop business insights.
 
+![ZOrVKw](https://user-images.githubusercontent.com/62965911/221342007-f51b9dce-5c49-4dd5-91c3-67ff8abf9065.gif)
+
 A data pipeline essentially is the steps involved in aggregating, organizing, and moving data. Modern data pipelines automate many of the manual steps involved in transforming and optimizing continuous data loads. Typically, this includes loading raw data into a staging table for interim storage and then changing it before ultimately inserting it into the destination reporting tables.
 
 Collecting and restructuring data from online transaction processing systems is often a multistep process. Some common patterns in data warehousing pipelines are as follows:
