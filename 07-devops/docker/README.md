@@ -1,7 +1,5 @@
 # Docker
 
-## Note
-
 Docker is a tool that enables easy management of the entire container ecosystem. Docker has a command-line tool that makes running containers easy, as well as creating, downloading, and managing container images. Docker also comes with a desktop application, Docker Desktop, that makes container management even easier. Finally, the company that built the Docker tool also runs Docker Hub, which makes it easy to store and access container images in the cloud.
 
 Docker has been at the forefront of container management throughout its technological growth. Many of the modern standards around containers arose from features that originated in Docker, and even those that arose elsewhere were popularized by having an easy-to-use tool to make them accessible to the average developer. Docker is known as a “container runtime,” as it contains the tools to make the containers boot up and execute in their own provisioned space.
@@ -25,9 +23,9 @@ RUN apt-get install htop
 
 Now in this case, Docker will consider Ubuntu image as the base image and add three layers:
 
--   One layer for creating /tmp/logs
--   One other layer that installs vim
--   A third layer that installs htop
+- One layer for creating /tmp/logs
+- One other layer that installs vim
+- A third layer that installs htop
 
 When Docker builds the image, each layer is stacked on the next and merged into a single layer using the union filesystem. Layers are uniquely identified using sha256 hashes. This makes it easy to reuse and cache them. When Docker scans a base image, it scans for the IDs of all the layers that constitute the image and begins to download the layers. If a layer exists in the local cache, it skips downloading the cached image.
 
@@ -57,10 +55,10 @@ For these reasons, Docker provides different ways to mount data into a container
 
 We mentioned earlier that you can leverage existing images of common application stacks---have you ever wondered where these are and how you can use them in building your application? A Docker Registry is a place where you can store Docker images so that they can be used as the basis for an application stack. Some common examples of Docker registries include the following:
 
--   Docker Hub
--   Google Container Registry
--   Amazon Elastic Container Registry
--   JFrog Artifactory
+- Docker Hub
+- Google Container Registry
+- Amazon Elastic Container Registry
+- JFrog Artifactory
 
 Most of these registries also allow for the visibility level of the images that you have pushed to be set as public/private. Private registries will prevent your Docker images from being accessible to the public, allowing you to set up access control so that only authorized users can use your Docker image.
 
@@ -68,10 +66,10 @@ Most of these registries also allow for the visibility level of the images that 
 
 A *Dockerfile* is a set of instructions that tells Docker how to build an image. A typical Dockerfile is made up of the following:
 
--   A FROM instruction that tells Docker what the base image is
--   An ENV instruction to pass an environment variable
--   A RUN instruction to run some shell commands (for example, install-dependent programs not available in the base image)
--   A CMD or an ENTRYPOINT instruction that tells Docker which executable to run when a container is started
+- A FROM instruction that tells Docker what the base image is
+- An ENV instruction to pass an environment variable
+- A RUN instruction to run some shell commands (for example, install-dependent programs not available in the base image)
+- A CMD or an ENTRYPOINT instruction that tells Docker which executable to run when a container is started
 
 As you can see, the Dockerfile instruction set has clear and simple syntax, which makes it easy to understand.
 
@@ -79,7 +77,6 @@ As you can see, the Dockerfile instruction set has clear and simple syntax, whic
 
 Docker Engine is the core part of Docker. Docker Engine is a client-server application that provides the platform, the runtime, and the tooling for building and managing Docker images, Docker containers, and more. Docker Engine provides the following:
 
--   Docker daemon
--   Docker CLI
--   Docker API
-
+- Docker daemon
+- Docker CLI
+- Docker API

@@ -1,0 +1,167 @@
+gender
+
+----------------------
+
+frequencies
+
+Female    4385
+Male      4599
+Name: gender, dtype: int64
+
+percentages
+
+Female   0
+Male     1
+Name: gender, dtype: float64
+
+
+maritalstatus
+
+----------------------
+
+frequencies
+
+Divorced          663
+Married          3066
+Never-married    2766
+Separated         154
+Widowed            23
+NaN              2312
+Name: maritalstatus, dtype: int64
+
+percentages
+
+Divorced        0
+Married         0
+Never-married   0
+Separated       0
+Widowed         0
+Name: maritalstatus, dtype: float64
+
+
+weeklyhrscomputer
+
+----------------------
+
+frequencies
+
+1 to 3 hours a week         733
+10 hours or more a week    3669
+4 to 6 hours a week         726
+7 to 9 hours a week         368
+Less than 1 hour a week     296
+None                        918
+NaN                        2274
+Name: weeklyhrscomputer, dtype: int64
+
+percentages
+
+1 to 3 hours a week       0
+10 hours or more a week   1
+4 to 6 hours a week       0
+7 to 9 hours a week       0
+Less than 1 hour a week   0
+None                      0
+Name: weeklyhrscomputer, dtype: float64
+
+
+weeklyhrstv
+
+----------------------
+
+frequencies
+
+11 to 20 hours a week         1145
+21 to 30 hours a week          299
+3 to 10 hours a week          3625
+31 to 40 hours a week          116
+Less than 2 hours per week    1350
+More than 40 hours a week      176
+NaN                           2273
+Name: weeklyhrstv, dtype: int64
+
+percentages
+
+11 to 20 hours a week        0
+21 to 30 hours a week        0
+3 to 10 hours a week         1
+31 to 40 hours a week        0
+Less than 2 hours per week   0
+More than 40 hours a week    0
+Name: weeklyhrstv, dtype: float64
+
+
+highestdegree
+
+----------------------
+
+frequencies
+
+0. None             953
+1. GED             1146
+2. High School     3667
+3. Associates       737
+4. Bachelors       1673
+5. Masters          603
+6. PhD               54
+7. Professional     120
+NaN                  31
+Name: highestdegree, dtype: int64
+
+percentages
+
+0. None           0
+1. GED            0
+2. High School    0
+3. Associates     0
+4. Bachelors      0
+5. Masters        0
+6. PhD            0
+7. Professional   0
+Name: highestdegree, dtype: float64
+
+
+govprovidejobs
+
+----------------------
+
+frequencies
+
+1. Definitely         454
+2. Probably           617
+3. Probably not       462
+4. Definitely not     300
+NaN                  7151
+Name: govprovidejobs, dtype: int64
+
+percentages
+
+1. Definitely       0
+2. Probably         0
+3. Probably not     0
+4. Definitely not   0
+Name: govprovidejobs, dtype: float64
+
+
+govpricecontrols
+
+----------------------
+
+frequencies
+
+NaN                  7125
+1. Definitely        1007
+2. Probably           621
+3. Probably not       161
+4. Definitely not      70
+Name: govpricecontrols, dtype: int64
+
+percentages
+
+1. Definitely       1
+2. Probably         0
+3. Probably not     0
+4. Definitely not   0
+Name: govpricecontrols, dtype: float64
+
+

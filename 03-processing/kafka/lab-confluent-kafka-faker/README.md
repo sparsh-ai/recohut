@@ -1,4 +1,4 @@
-# Real-time CDC-enabled Extract and Load Pipeline with Kafka in Cloud
+# Real-time CDC-enabled Extract and Load Pipeline with Kafka on Cloud
 
 ## Introduction
 

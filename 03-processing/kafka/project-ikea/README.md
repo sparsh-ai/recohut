@@ -1,4 +1,4 @@
-# Event driven app
+# Building an event-driven IKEA app with Kafka
 
 This app is designed to break down the event driven architecture for modern apps
 

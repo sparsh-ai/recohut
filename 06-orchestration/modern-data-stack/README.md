@@ -1,13 +1,5 @@
 # Modern Data Stack (MDS)
 
-## Steps
-
-1. [Lab: Analyze and Compare the Modern Data Stacks](./lab-analyse-stacks/)
-1. [Lab: Sequential Recommendation with the Modern Data Stack](./lab-metaflow-snowflake/)
-1. [Lab: Build a modern data stack](./lab-terraform-gcp/)
-
-## Note
-
 > Big Data Systems with Modern Data Stack
 
 ![mds_flow_1](https://user-images.githubusercontent.com/62965911/214901183-c6c14047-4ea3-4681-bf78-13e91da34e66.png)

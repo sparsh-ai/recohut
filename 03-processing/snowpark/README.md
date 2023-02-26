@@ -1,19 +1,5 @@
 # Snowpark
 
-## Objective
-
-Build dbt models using Python instead of SQL, and materialize them in Snowflake
-
-## Steps
-
-1. [Lab: Churnpark](./churnpark/)
-1. [Lab: dbt Snowpy](./dbtsnowpy/)
-1. [Lab: Fifapark](./fifapark/)
-1. [Lab: Jafflepark](./jafflepark/)
-1. [Lab: Knoema Regression](./knoema-regression/)
-
-## Note
-
 ### What is Snowpark
 
 Snowpark at its core provides an API that developers can use to construct DataFrames that are executed lazily on Snowflake's platform. It enables data engineers, data scientists, and developers coding in languages other than SQL such as Python to take advantage of Snowflake's powerful platform without having to first move data out of Snowflake. This enables data application developers to run complex transformations within Snowflake while taking advantage of the built-in unlimited scalability, performance, governance and security features.

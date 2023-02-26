@@ -1,12 +1,5 @@
 # Kinesis
 
-## Steps
-
-1. [Lab: Real-Time Clickstream Anomaly Detection with Kinesis](./lab-kinesis-clickstream-anomaly/)
-1. [Lab: Real Time Apache Log Analytics with Kinesis](./lab-kinesis-apache-logs/)
-
-## Note
-
 > Easily collect, process, and analyze video and data streams in real time
 
 ### Kinesis Data Streams
@@ -70,6 +63,6 @@ The KDG simplifies the task of generating data and sending it to Amazon Kinesis.
 2. [Kinesis Data Generator](https://awslabs.github.io/amazon-kinesis-data-generator/web/help.html)
 3. [Delivering data in real-time via auto scaling Kinesis streams at Disney](https://medium.com/disney-streaming/delivering-data-in-real-time-via-auto-scaling-kinesis-streams-72a0236b2cd9)
 4. [Streaming Terabytes of Real Time Data with Serverless Amazon Kinesis Services](https://www.youtube.com/watch?v=ZWyYHgtu67I)
-6. [https://youtu.be/MbEfiX4sMXc](https://youtu.be/MbEfiX4sMXc)
-7. [https://youtu.be/hLLgkTUmwOU](https://youtu.be/hLLgkTUmwOU)
-8. [https://youtu.be/SC_oajk02BM](https://youtu.be/SC_oajk02BM)
+5. [https://youtu.be/MbEfiX4sMXc](https://youtu.be/MbEfiX4sMXc)
+6. [https://youtu.be/hLLgkTUmwOU](https://youtu.be/hLLgkTUmwOU)
+7. [https://youtu.be/SC_oajk02BM](https://youtu.be/SC_oajk02BM)

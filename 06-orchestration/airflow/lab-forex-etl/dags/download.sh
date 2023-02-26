@@ -1,0 +1,1 @@
+aws s3 cp s3://wysde2-airflow/dags/forex_postgres.py ./

@@ -1,0 +1,36 @@
+rank,feature
+1,agecategory_25-29
+1,agecategory_45-49
+1,agecategory_50-54
+1,agecategory_55-59
+1,agecategory_60-64
+1,agecategory_65-69
+1,agecategory_70-74
+1,agecategory_75-79
+1,agecategory_80 or older
+1,diabetic_Yes
+1,ethnicity_Asian
+1,gender_Male
+1,genhealth_Fair
+1,genhealth_Good
+1,genhealth_Poor
+1,genhealth_Very good
+1,kidneydisease_Yes
+1,stroke_Yes
+2,alcoholdrinkingheavy_Yes
+3,smoking_Yes
+4,asthma_Yes
+5,agecategory_35-39
+6,agecategory_30-34
+7,ethnicity_Other
+8,ethnicity_White
+9,walkingdifficult_Yes
+10,skincancer_Yes
+11,ethnicity_Hispanic
+12,bmi
+13,agecategory_40-44
+14,physicalhealthbaddays
+15,mentalhealthbaddays
+16,sleeptimenightly
+17,physicalactivity_Yes
+18,ethnicity_Black

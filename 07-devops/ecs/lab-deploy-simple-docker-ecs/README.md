@@ -1,4 +1,4 @@
-# Deploy Simple Docker in ECS
+# Deploy Docker in ECS
 
 ## Create a Docker image
 

@@ -1,11 +1,5 @@
 # Dataproc
 
-## Steps
-
-1. [Lab: Running Apache Spark jobs on Cloud Dataproc](./lab-gcp-dataproc/)
-
-## Note
-
 ### Running Hadoop on Dataproc
 
 Watch this video: https://www.youtube.com/watch?v=NIVvl_T7IZw

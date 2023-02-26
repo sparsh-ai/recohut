@@ -2,4 +2,4 @@
 
 ## Objective
 
-In this lab, we will use Faust in Kafka Streams to process the taxi data in real-time and consumer it via Python consumer instance.
+In this lab, we will use Faust in Kafka Streams to process the taxi data in real-time and consume it via Python consumer instance.
