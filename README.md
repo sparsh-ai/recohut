@@ -124,6 +124,10 @@
 * [ ] Running Dates, String and Advanced queries in Postgres on Sales data [[source code](02-storage/databases/postgres/lab-postgres-sales)]
 * [ ] Working with Book dataset on SQLite database [[source code](02-storage/databases/sqlite/lab-sqlite-basics)]
 
+### Language - Python
+
+* [ ] ETL process and reading/writing CSV, JSON and XML files in pandas [[source code](01-foundations/language/python/lab-etl-csv-json-xml)]
+
 ### Storage Layer - Flat Files
 
 * [ ] Introduction to various file formats - CSV, Parquet, JSON, Avro, and ORC [[link to note](02-storage/flat-files/README.md)]
@@ -201,6 +205,7 @@
 * [ ] Create a NoSQL Data Model for Investment Accounts or Portfolios using Cassandra [[source code](04-serving/cassandra-investment-data-model)]
 * [ ] Create a NoSQL Data Model for Temperature Monitoring Sensor Networks using Cassandra [[source code](04-serving/cassandra-sensor-data-model)]
 * [ ] Create a NoSQL Data Model for Online Shopping Carts using Cassandra [[source code](04-serving/cassandra-shopping-cart-data-model)]
+* [ ] Ingest Movies data into CouchDB database [[source code](02-storage/nosql-databases/couchdb/lab-couchdb-movies-data-migration)]
 
 ### Processing Layer - Batch Data Processing
 
@@ -286,7 +291,7 @@
 * [ ] Extract data using API from saveonfoods [[source code](05-extraction/api/lab-saveonfoods)]
 * [ ] Extract data using API from twitter [[source code](05-extraction/api/lab-twitter)]
 * [ ] Extract data using API from datausa [[source code](05-extraction/api/lab-uspopulation)]
-* [ ] Extract data using API from a [[source code](03-processing/pubsub/lab-gcp-pubsub.md)]
+* [ ] Extract data using API from git and Hacker News [[source code](05-extraction/api/lab-hackernews-git-api)]
 * [ ] Extract synthetic data using Faker library in python [[source code](05-extraction/faker/lab-generate-data-with-faker)]
 * [ ] Extract data using Web Scraping from Finance websites [[source code](05-extraction/webscraping/lab-finance-extract-load)]
 
@@ -296,8 +301,10 @@
 * [ ] Bike Sharing Service Data Pipeline using Cloud Composer [[source code](06-orchestration/airflow/lab-bike-sharing-service-pipeline)]
 * [ ] Forex ETL with Airflow [[source code](06-orchestration/airflow/lab-forex-etl)]
 * [ ] Building an Airflow ETL pipeline to pull NFT data from Github and store in SQLite database [[source code](06-orchestration/airflow/github-nft)]
+* [ ] IMDB Spark ETL - Build a data pipeline that download data, process it, calculate the hight profit movies and save the processed data into Postgres database [[source code](06-orchestration/airflow/lab-imdb-spark-etl)]
 * [ ] Building Data Ingestion Pipelines using Azure Data Factory - This lab covers ingesting data using Azure Data Factory and copying data between Azure SQL Database and Azure Data Lake. Recipe 1 - Provisioning Azure Data Factory. Recipe 2 - Copying files to a database from a data lake using a control flow and copy activity. Recipe 3 - Triggering a pipeline in Azure Data Factory. Recipe 4 - Copying data from a SQL Server virtual machine to a data lake using the Copy data wizard [[Source code](06-orchestration/azure-data-factory/lab-data-ingestion-pipeline)]
 * [ ] Incremental Data Loading using Azure Data Factory - This lab covers various methods to perform data loading in incremental fashion. Recipe 1 - Using Watermarking. Recipe 2 - Using File Timestamps. Recipe 3 - Using File partitions and folder structures [[Source code](06-orchestration/azure-data-factory/lab-adf-incremental-loading)]
+* [ ] Assignment - Build ETL Pipeline in Airflow using Toll data [[source code](06-orchestration/airflow/lab-tolldata)]
 * [ ] Develop Batch Processing Solution using Azure Data Factory - In this lab, we design an end-to-end batch processing solution by using Data Factory, Data Lake, Spark, Azure Synapse Pipelines, PolyBase, and Azure Databricks. Recipe 1 - Data Ingestion using Data Flow. Recipe 2 - Data Transformation using Azure Databricks. Recipe 3 - Data Serving using PolyBase. Recipe 4 - Data Pipeline using Azure Data Factory Pipeline. Recipe 5 - End to end data processing with Azure Batch [[Source code](06-orchestration/azure-data-factory/lab-batch-processing-solution)]
 * [ ] Building and Executing a Pipeline Graph with Data Fusion [[source code](06-orchestration/datafusion/lab-datafusion-pipeline)]
 * [ ] Prefect Getting Started [[source code](06-orchestration/prefect/lab-prefect-getting-started)]
@@ -319,6 +326,7 @@
 * [ ] FastAPI applications - Online Academic Discussion Forum API, Online Book Reselling System API, Auction System, ERP System, Todo App, Task Planner System, Fitness Club Management System API, NewsStand Manegement System API, Poverty Analysis System API, Online Recipe System API, Online Restaurant Review System API, Intelligent Tourist System API [[source code](07-devops/fastapi/README.md)]
 * [ ] FastAPI DevOps - In this lab, we will build and deploy a FastAPI. We will deploy it in a serverless manner using AWS's SAM (Serverless Application Model) framework. We will also use Cloudformation stack to automate the pipeline CICD [[source code](07-devops/fastapi/lab-fastapi-devops)]
 * [ ] Build and deploy NodeJS Kubia app in Kubernetes [[source code](07-devops/kubernetes/lab-kubernetes-kubia-app)]
+* [ ] Build Address parsing system in python and dockerize it [[source code](07-devops/docker/lab-assignment-etl-docker)]
 
 ### Data Science & Machine Learning
 
