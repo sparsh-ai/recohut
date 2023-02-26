@@ -1,4 +1,4 @@
-# Bootcamp
+# Data Engineering Bootcamp
 
 **Hit the ⭐️ button if you like the repo.**
 
