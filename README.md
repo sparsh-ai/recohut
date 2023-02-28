@@ -118,6 +118,12 @@
 
 **Estimated Time:** 75 hours
 
+### Data Engineering Foundations
+
+* [ ] Case study: Fair - Data Ingestion with a Cloud Data Platform [[link to note](a3-casestudies/fair.md)]
+* [ ] Case study: Harmony - Responsive Data Pipeline [[link to note](a3-casestudies/harmony.md)]
+* [ ] Case study: Panoramic - Simplifying Data Ingestion, Transformation, And Delivery [[link to note](a3-casestudies/panoramic.md)]
+
 ### Language - SQL
 
 * [ ] Postgres SQL basics to advanced [[source code](01-foundations/language/sql/lab-postgres-queries)]
