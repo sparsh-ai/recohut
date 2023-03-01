@@ -409,5 +409,3 @@
 1. Self-guided - You will find all the content in this repo. It is free and open-source
 2. [Guided](https://api.whatsapp.com/send?phone=918384805365&text=Hi%20Sparsh%0AI%20am%20interested%20in%20the%20data%20engineering%20training) - $175 for 55-hours of training - Zoom sessions - 2 hrs/day
 3. [Contractual](https://api.whatsapp.com/send?phone=918484005449&text=Hi%20Vishwas%20(Wynisco)%0AI%20am%20interested%20in%20the%20data%20engineering%20training%20from%20Sparsh) (US & Canada only) - Pay after getting hired - 15% of your income for 1 year, directly to agency partner
-
----
