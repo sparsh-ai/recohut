@@ -8,46 +8,67 @@
 
 ### Developer Foundations
 
-* [ ] Download and Install vscode
-* [ ] Understand vscode features
-* [ ] Install extensions in vscode
-* [ ] Download and Install Anaconda
-* [ ] Create virtual environment in anaconda
-* [ ] Create jupyter notebook in vscode and connect to venv
-* [ ] Create github account
-* [ ] Install git cli
-* [ ] Create git repo and add students as collaborator
-* [ ] Connect local workspace to git repo
-* [ ] Learn git commands
-* [ ] Learn bash commands
-* [ ] Download and Install DBeaver
+* [ ] Visual Studio Code (vscode) [[link to note](01-foundations/developer/vscode)]
+  * [ ] Download and Install vscode
+  * [ ] Understand vscode features
+  * [ ] Install extensions in vscode
+* [ ] Anaconda [[link to note](01-foundations/developer/anaconda)]
+  * [ ] Download and Install Anaconda
+  * [ ] Create virtual environment in anaconda
+  * [ ] Create jupyter notebook in vscode and connect to venv
+* [ ] Github [[link to note](01-foundations/developer/github)]
+  * [ ] Create github account
+  * [ ] Install git cli
+  * [ ] Create git repo and add students as collaborator
+  * [ ] Connect local workspace to git repo
+  * [ ] Learn git commands
+* [ ] Bash [[link to note](01-foundations/developer/bash)]
+  * [ ] Starting bash terminal in vscode
+  * [ ] Learn bash commands
+* [ ] DBeaver [[link to note](01-foundations/developer/dbeaver)]
+  * [ ] Download and Install DBeaver
 
 ### Data Engineering Foundations
 
-* [ ] What is Data Engineering?
-* [ ] Role of Data Engineering in Organizations
-* [ ] Skills required to become a Data Engineer
-* [ ] Data engineer versus data scientist
-* [ ] What is data lake and data warehouse?
-* [ ] What is medallion architecture?
-* [ ] What is EL, ETL and ELT?
-* [ ] H/w - Most common questions
+* [ ] Data Engineering Must-to-know concepts
+  * [ ] What is Data Engineering?
+  * [ ] Role of Data Engineering in Organizations
+  * [ ] Skills required to become a Data Engineer
+  * [ ] Data engineer versus data scientist
+  * [ ] What is data lake and data warehouse?
+  * [ ] What is medallion architecture?
+  * [ ] What is EL, ETL and ELT?
+* [ ] Data Engineering most common interview questions
 
 ### AWS Cloud Essentials
 
 * [ ] (Optional) Create AWS Account
-* [ ] Create IAM user and generate credentials
-* [ ] Install AWS CLI
-* [ ] Setup AWS credentials
-* [ ] Walkthrough of various AWS Services (S3, RDS, Redshift, Glue, Athena, Lambda, EMR, Keyspace, Cloudformation, IAM, Secrets Manager)
-* [ ] Comparison of AWS services with GCP Services (GCS Bucket, Dataproc, IAM, Cloud Functions, BigQuery, CloudSQL, BigTable)
-* [ ] Comparison of AWS services with Azure Services (Blob Storge, DataLake Gen2 buckets, Databricks/Synapse Analytics, Azure Data Factory, Azure SQL Databases)
-* [ ] Learn AWS CLI S3 essential commands
-* [ ] Copy and Sync data to/from S3 with AWS CLI
-* [ ] Create database in RDS DBMS and generate credentials
-* [ ] Connect to RDS DBMS in DBeaver
-* [ ] Create a Secret in Secrets Manager Vault
-* [ ] Get the credential using AWS CLI
+* [ ] AWS Services Walkthrough
+  * [ ] Storage Services - S3, RDS, Redshift, Keyspace
+  * [ ] ETL Services - Glue
+  * [ ] Compute Services - Lambda, EMR, EC2, Athena
+  * [ ] DevOps Services - Cloudformation, IAM, Secrets Manager
+* [ ] GCP Services Walkthrough
+  * [ ] Storage Services - GCS, Cloud SQL, BigQuery, BigTable
+  * [ ] Compute Services - Cloud Functions, Dataproc, Cloud Compute, Dataflow
+  * [ ] DevOps Services - IAM
+* [ ] Azure Services Walkthrough
+  * [ ] Storage Services - Blob Storge, DataLake Gen2 buckets, Azure SQL Databases
+  * [ ] Compute Services - Databricks/Synapse Analytics, Azure Data Factory
+  * [ ] DevOps Services - IAM
+* [ ] AWS IAM Service
+  * [ ] Create IAM user and generate credentials
+  * [ ] Install AWS CLI
+  * [ ] Setup AWS credentials
+* [ ] AWS S3 Service
+  * [ ] Learn AWS CLI S3 essential commands
+  * [ ] Copy and Sync data to/from S3 with AWS CLI
+* [ ] AWS RDS Service
+  * [ ] Create database in RDS DBMS and generate credentials
+  * [ ] Connect to RDS DBMS in DBeaver
+* [ ] AWS Secrets Manager Service
+  * [ ] Create a Secret in Secrets Manager Vault
+  * [ ] Get the credential using AWS CLI
 
 ### Programming - SQL
 
@@ -358,11 +379,10 @@
 
 ## Level 300
 
+## How to start learning
 
-## How to Join
-
-1. [Agency Partner 1](https://api.whatsapp.com/send?phone=919517720888&text=Hi%20Sowmya%20(WeHire)%0AI%20am%20interested%20in%20the%20data%20engineering%20training%20from%20Sparsh) (US & India only) - Pay for the training to the agency partner directly, vendor association required
-2. [Agency Partner 2](https://api.whatsapp.com/send?phone=918484005449&text=Hi%20Vishwas%20(Wynisco)%0AI%20am%20interested%20in%20the%20data%20engineering%20training%20from%20Sparsh) (US & Canada only) - Pay after getting hired - 15% of your income for 1 year, directly to agency partner
-3. [Direct](https://api.whatsapp.com/send?phone=918384805365&text=Hi%20Sparsh%0AI%20am%20interested%20in%20the%20data%20engineering%20training) - Directly hire me for 1:1 or 1:many training `@$25/hr`. E.g. 35-hr basic training in a batch of 15 would cost you `$58/-` (=25*35/15)
+1. Self-guided - You will find all the content in this repo. It is free and open-source
+2. [Guided](https://api.whatsapp.com/send?phone=918384805365&text=Hi%20Sparsh%0AI%20am%20interested%20in%20the%20data%20engineering%20training) - $175 for 55-hours of training - Zoom sessions - 2 hrs/day
+3. [Contractual](https://api.whatsapp.com/send?phone=918484005449&text=Hi%20Vishwas%20(Wynisco)%0AI%20am%20interested%20in%20the%20data%20engineering%20training%20from%20Sparsh) (US & Canada only) - Pay after getting hired - 15% of your income for 1 year, directly to agency partner
 
 ---
