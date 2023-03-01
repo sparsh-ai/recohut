@@ -30,7 +30,7 @@
 
 ### Data Engineering Foundations
 
-* [ ] Data Engineering Must-to-know concepts
+* [ ] Data Engineering Must-to-know concepts [[link to note](01-foundations/data-engineering/README.md)]
   * [ ] What is Data Engineering?
   * [ ] Role of Data Engineering in Organizations
   * [ ] Skills required to become a Data Engineer
@@ -38,44 +38,56 @@
   * [ ] What is data lake and data warehouse?
   * [ ] What is medallion architecture?
   * [ ] What is EL, ETL and ELT?
-* [ ] Data Engineering most common interview questions
+* [ ] Data Engineering most common interview questions [[link to note](01-foundations/data-engineering/README.md)]
 
 ### AWS Cloud Essentials
 
 * [ ] (Optional) Create AWS Account
 * [ ] AWS Services Walkthrough
-  * [ ] Storage Services - S3, RDS, Redshift, Keyspace
-  * [ ] ETL Services - Glue
-  * [ ] Compute Services - Lambda, EMR, EC2, Athena
-  * [ ] DevOps Services - Cloudformation, IAM, Secrets Manager
+
+  * [ ] Storage Services - [S3](01-foundations/cloud/aws/s3.md), [RDS](01-foundations/cloud/aws/rds.md), Redshift, Keyspace
+  * [ ] ETL Services - [Glue](01-foundations/cloud/aws/glue.md)
+  * [ ] Compute Services - Lambda, EMR, [EC2](01-foundations/cloud/aws/ec2/README.md), Athena
+  * [ ] DevOps Services - Cloudformation, [IAM](01-foundations/cloud/aws/iam/README.md), Secrets Manager
 * [ ] GCP Services Walkthrough
+
   * [ ] Storage Services - GCS, Cloud SQL, BigQuery, BigTable
   * [ ] Compute Services - Cloud Functions, Dataproc, Cloud Compute, Dataflow
   * [ ] DevOps Services - IAM
 * [ ] Azure Services Walkthrough
+
   * [ ] Storage Services - Blob Storge, DataLake Gen2 buckets, Azure SQL Databases
   * [ ] Compute Services - Databricks/Synapse Analytics, Azure Data Factory
   * [ ] DevOps Services - IAM
-* [ ] AWS IAM Service
-  * [ ] Create IAM user and generate credentials
+* [ ] AWS Account Setup [[source code](01-foundations/cloud/aws/lab-aws-setup)]
+
   * [ ] Install AWS CLI
+  * [ ] Create IAM user and generate credentials
   * [ ] Setup AWS credentials
+* [ ] AWS IAM Service [[source code](01-foundations/cloud/aws/iam/README.md)]
+
+  * [ ] Create policies and roles
+  * [ ] Attach policies to the roles
 * [ ] AWS S3 Service
+
   * [ ] Learn AWS CLI S3 essential commands
   * [ ] Copy and Sync data to/from S3 with AWS CLI
 * [ ] AWS RDS Service
+
   * [ ] Create database in RDS DBMS and generate credentials
   * [ ] Connect to RDS DBMS in DBeaver
-* [ ] AWS Secrets Manager Service
+* [ ] AWS Secrets Manager Service [[source code](01-foundations/cloud/aws/secrets-manager)]
+
   * [ ] Create a Secret in Secrets Manager Vault
   * [ ] Get the credential using AWS CLI
 
 ### Programming - SQL
 
 * [ ] Ingest data from CSV file into MySQL database table [[source code](02-storage/databases/mysql/lab-data-ingestion-to-mysql)]
-* [ ] SQL Basics - Select, Limit, Where, Comparison and Logical operators, Order by
-* [ ] SQL Intermediate - Aggregations, Group by, Case statements, Joins
-* [ ] SQL Advanced - Dates, Text, Subqueries, Window functions, Optimizations
+* [ ] SQL Basics to Advanced Primer [[source code](01-foundations/language/sql/mode)]
+  * [ ] SQL Basics - Select, Limit, Where, Comparison and Logical operators, Order by
+  * [ ] SQL Intermediate - Aggregations, Group by, Case statements, Joins
+  * [ ] SQL Advanced - Dates, Text, Subqueries, Window functions, Optimizations
 
 ### Programming - Python
 
@@ -139,6 +151,12 @@
 
 **Estimated Time:** 75 hours
 
+### AWS
+
+* [ ] Create VPC [[link to note](01-foundations/cloud/aws/vpc/lab-create-your-first-vpc)]
+* [ ] Containers Services - ECS and EKS [[link to note](01-foundations/cloud/aws/containers-on-aws.md)]
+* [ ] Data Migration Service (DMS) [[link to note](01-foundations/cloud/aws/dms.md)]
+
 ### Data Engineering Foundations
 
 * [ ] Case study: Fair - Data Ingestion with a Cloud Data Platform [[link to note](a3-casestudies/fair.md)]
@@ -150,6 +168,8 @@
 * [ ] Postgres SQL basics to advanced [[source code](01-foundations/language/sql/lab-postgres-queries)]
 * [ ] Running Dates, String and Advanced queries in Postgres on Sales data [[source code](02-storage/databases/postgres/lab-postgres-sales)]
 * [ ] Working with Book dataset on SQLite database [[source code](02-storage/databases/sqlite/lab-sqlite-basics)]
+* [ ] Challenge - Yammer Advanced Analytics [[source code](01-foundations/language/sql/challenges/yammer)]
+* [ ] Challenge - BrainTree SQL Code Challenge [[source code](01-foundations/language/sql/challenges/braintree)]
 
 ### Language - Python
 
