@@ -399,6 +399,11 @@
 
 ## Level 300
 
+### Computer Vision
+
+* [ ] Common Use Cases - Image Classification, Image Similarity, Object Detection, Image Segmentation, Pose Estimation, Object Tracking, Video Classification, Face Detection and Recognition [[link to note](19-computer-vision/README.md)]
+* [ ] Video Classification Modeling with X3D Model [[source code](19-computer-vision/lab-video-classification)]
+
 ## How to start learning
 
 1. Self-guided - You will find all the content in this repo. It is free and open-source
