@@ -8,53 +8,86 @@
 
 ### Developer Foundations
 
-* [ ] Download and Install vscode
-* [ ] Understand vscode features
-* [ ] Install extensions in vscode
-* [ ] Download and Install Anaconda
-* [ ] Create virtual environment in anaconda
-* [ ] Create jupyter notebook in vscode and connect to venv
-* [ ] Create github account
-* [ ] Install git cli
-* [ ] Create git repo and add students as collaborator
-* [ ] Connect local workspace to git repo
-* [ ] Learn git commands
-* [ ] Learn bash commands
-* [ ] Download and Install DBeaver
+* [ ] Visual Studio Code (vscode) [[link to note](01-foundations/developer/vscode)]
+  * [ ] Download and Install vscode
+  * [ ] Understand vscode features
+  * [ ] Install extensions in vscode
+* [ ] Anaconda [[link to note](01-foundations/developer/anaconda)]
+  * [ ] Download and Install Anaconda
+  * [ ] Create virtual environment in anaconda
+  * [ ] Create jupyter notebook in vscode and connect to venv
+* [ ] Github [[link to note](01-foundations/developer/github)]
+  * [ ] Create github account
+  * [ ] Install git cli
+  * [ ] Create git repo and add students as collaborator
+  * [ ] Connect local workspace to git repo
+  * [ ] Learn git commands
+* [ ] Bash [[link to note](01-foundations/developer/bash)]
+  * [ ] Starting bash terminal in vscode
+  * [ ] Learn bash commands
+* [ ] DBeaver [[link to note](01-foundations/developer/dbeaver)]
+  * [ ] Download and Install DBeaver
 
 ### Data Engineering Foundations
 
-* [ ] What is Data Engineering?
-* [ ] Role of Data Engineering in Organizations
-* [ ] Skills required to become a Data Engineer
-* [ ] Data engineer versus data scientist
-* [ ] What is data lake and data warehouse?
-* [ ] What is medallion architecture?
-* [ ] What is EL, ETL and ELT?
-* [ ] H/w - Most common questions
+* [ ] Data Engineering Must-to-know concepts [[link to note](01-foundations/data-engineering/README.md)]
+  * [ ] What is Data Engineering?
+  * [ ] Role of Data Engineering in Organizations
+  * [ ] Skills required to become a Data Engineer
+  * [ ] Data engineer versus data scientist
+  * [ ] What is data lake and data warehouse?
+  * [ ] What is medallion architecture?
+  * [ ] What is EL, ETL and ELT?
+* [ ] Data Engineering most common interview questions [[link to note](01-foundations/data-engineering/README.md)]
 
 ### AWS Cloud Essentials
 
 * [ ] (Optional) Create AWS Account
-* [ ] Create IAM user and generate credentials
-* [ ] Install AWS CLI
-* [ ] Setup AWS credentials
-* [ ] Walkthrough of various AWS Services (S3, RDS, Redshift, Glue, Athena, Lambda, EMR, Keyspace, Cloudformation, IAM, Secrets Manager)
-* [ ] Comparison of AWS services with GCP Services (GCS Bucket, Dataproc, IAM, Cloud Functions, BigQuery, CloudSQL, BigTable)
-* [ ] Comparison of AWS services with Azure Services (Blob Storge, DataLake Gen2 buckets, Databricks/Synapse Analytics, Azure Data Factory, Azure SQL Databases)
-* [ ] Learn AWS CLI S3 essential commands
-* [ ] Copy and Sync data to/from S3 with AWS CLI
-* [ ] Create database in RDS DBMS and generate credentials
-* [ ] Connect to RDS DBMS in DBeaver
-* [ ] Create a Secret in Secrets Manager Vault
-* [ ] Get the credential using AWS CLI
+* [ ] AWS Services Walkthrough
+
+  * [ ] Storage Services - [S3](01-foundations/cloud/aws/s3.md), [RDS](01-foundations/cloud/aws/rds.md), Redshift, Keyspace
+  * [ ] ETL Services - [Glue](01-foundations/cloud/aws/glue.md)
+  * [ ] Compute Services - Lambda, EMR, [EC2](01-foundations/cloud/aws/ec2/README.md), Athena
+  * [ ] DevOps Services - Cloudformation, [IAM](01-foundations/cloud/aws/iam/README.md), Secrets Manager
+* [ ] GCP Services Walkthrough
+
+  * [ ] Storage Services - GCS, Cloud SQL, BigQuery, BigTable
+  * [ ] Compute Services - Cloud Functions, Dataproc, Cloud Compute, Dataflow
+  * [ ] DevOps Services - IAM
+* [ ] Azure Services Walkthrough
+
+  * [ ] Storage Services - Blob Storge, DataLake Gen2 buckets, Azure SQL Databases
+  * [ ] Compute Services - Databricks/Synapse Analytics, Azure Data Factory
+  * [ ] DevOps Services - IAM
+* [ ] AWS Account Setup [[source code](01-foundations/cloud/aws/lab-aws-setup)]
+
+  * [ ] Install AWS CLI
+  * [ ] Create IAM user and generate credentials
+  * [ ] Setup AWS credentials
+* [ ] AWS IAM Service [[source code](01-foundations/cloud/aws/iam/README.md)]
+
+  * [ ] Create policies and roles
+  * [ ] Attach policies to the roles
+* [ ] AWS S3 Service
+
+  * [ ] Learn AWS CLI S3 essential commands
+  * [ ] Copy and Sync data to/from S3 with AWS CLI
+* [ ] AWS RDS Service
+
+  * [ ] Create database in RDS DBMS and generate credentials
+  * [ ] Connect to RDS DBMS in DBeaver
+* [ ] AWS Secrets Manager Service [[source code](01-foundations/cloud/aws/secrets-manager)]
+
+  * [ ] Create a Secret in Secrets Manager Vault
+  * [ ] Get the credential using AWS CLI
 
 ### Programming - SQL
 
 * [ ] Ingest data from CSV file into MySQL database table [[source code](02-storage/databases/mysql/lab-data-ingestion-to-mysql)]
-* [ ] SQL Basics - Select, Limit, Where, Comparison and Logical operators, Order by
-* [ ] SQL Intermediate - Aggregations, Group by, Case statements, Joins
-* [ ] SQL Advanced - Dates, Text, Subqueries, Window functions, Optimizations
+* [ ] SQL Basics to Advanced Primer [[source code](01-foundations/language/sql/mode)]
+  * [ ] SQL Basics - Select, Limit, Where, Comparison and Logical operators, Order by
+  * [ ] SQL Intermediate - Aggregations, Group by, Case statements, Joins
+  * [ ] SQL Advanced - Dates, Text, Subqueries, Window functions, Optimizations
 
 ### Programming - Python
 
@@ -118,11 +151,29 @@
 
 **Estimated Time:** 75 hours
 
+### AWS
+
+* [ ] Create VPC [[link to note](01-foundations/cloud/aws/vpc/lab-create-your-first-vpc)]
+* [ ] Containers Services - ECS and EKS [[link to note](01-foundations/cloud/aws/containers-on-aws.md)]
+* [ ] Data Migration Service (DMS) [[link to note](01-foundations/cloud/aws/dms.md)]
+
+### Data Engineering Foundations
+
+* [ ] Case study: Fair - Data Ingestion with a Cloud Data Platform [[link to note](a3-casestudies/fair.md)]
+* [ ] Case study: Harmony - Responsive Data Pipeline [[link to note](a3-casestudies/harmony.md)]
+* [ ] Case study: Panoramic - Simplifying Data Ingestion, Transformation, And Delivery [[link to note](a3-casestudies/panoramic.md)]
+
 ### Language - SQL
 
 * [ ] Postgres SQL basics to advanced [[source code](01-foundations/language/sql/lab-postgres-queries)]
 * [ ] Running Dates, String and Advanced queries in Postgres on Sales data [[source code](02-storage/databases/postgres/lab-postgres-sales)]
 * [ ] Working with Book dataset on SQLite database [[source code](02-storage/databases/sqlite/lab-sqlite-basics)]
+* [ ] Challenge - Yammer Advanced Analytics [[source code](01-foundations/language/sql/challenges/yammer)]
+* [ ] Challenge - BrainTree SQL Code Challenge [[source code](01-foundations/language/sql/challenges/braintree)]
+
+### Language - Python
+
+* [ ] ETL process and reading/writing CSV, JSON and XML files in pandas [[source code](01-foundations/language/python/lab-etl-csv-json-xml)]
 
 ### Storage Layer - Flat Files
 
@@ -201,6 +252,7 @@
 * [ ] Create a NoSQL Data Model for Investment Accounts or Portfolios using Cassandra [[source code](04-serving/cassandra-investment-data-model)]
 * [ ] Create a NoSQL Data Model for Temperature Monitoring Sensor Networks using Cassandra [[source code](04-serving/cassandra-sensor-data-model)]
 * [ ] Create a NoSQL Data Model for Online Shopping Carts using Cassandra [[source code](04-serving/cassandra-shopping-cart-data-model)]
+* [ ] Ingest Movies data into CouchDB database [[source code](02-storage/nosql-databases/couchdb/lab-couchdb-movies-data-migration)]
 
 ### Processing Layer - Batch Data Processing
 
@@ -286,7 +338,7 @@
 * [ ] Extract data using API from saveonfoods [[source code](05-extraction/api/lab-saveonfoods)]
 * [ ] Extract data using API from twitter [[source code](05-extraction/api/lab-twitter)]
 * [ ] Extract data using API from datausa [[source code](05-extraction/api/lab-uspopulation)]
-* [ ] Extract data using API from a [[source code](03-processing/pubsub/lab-gcp-pubsub.md)]
+* [ ] Extract data using API from git and Hacker News [[source code](05-extraction/api/lab-hackernews-git-api)]
 * [ ] Extract synthetic data using Faker library in python [[source code](05-extraction/faker/lab-generate-data-with-faker)]
 * [ ] Extract data using Web Scraping from Finance websites [[source code](05-extraction/webscraping/lab-finance-extract-load)]
 
@@ -296,8 +348,10 @@
 * [ ] Bike Sharing Service Data Pipeline using Cloud Composer [[source code](06-orchestration/airflow/lab-bike-sharing-service-pipeline)]
 * [ ] Forex ETL with Airflow [[source code](06-orchestration/airflow/lab-forex-etl)]
 * [ ] Building an Airflow ETL pipeline to pull NFT data from Github and store in SQLite database [[source code](06-orchestration/airflow/github-nft)]
+* [ ] IMDB Spark ETL - Build a data pipeline that download data, process it, calculate the hight profit movies and save the processed data into Postgres database [[source code](06-orchestration/airflow/lab-imdb-spark-etl)]
 * [ ] Building Data Ingestion Pipelines using Azure Data Factory - This lab covers ingesting data using Azure Data Factory and copying data between Azure SQL Database and Azure Data Lake. Recipe 1 - Provisioning Azure Data Factory. Recipe 2 - Copying files to a database from a data lake using a control flow and copy activity. Recipe 3 - Triggering a pipeline in Azure Data Factory. Recipe 4 - Copying data from a SQL Server virtual machine to a data lake using the Copy data wizard [[Source code](06-orchestration/azure-data-factory/lab-data-ingestion-pipeline)]
 * [ ] Incremental Data Loading using Azure Data Factory - This lab covers various methods to perform data loading in incremental fashion. Recipe 1 - Using Watermarking. Recipe 2 - Using File Timestamps. Recipe 3 - Using File partitions and folder structures [[Source code](06-orchestration/azure-data-factory/lab-adf-incremental-loading)]
+* [ ] Assignment - Build ETL Pipeline in Airflow using Toll data [[source code](06-orchestration/airflow/lab-tolldata)]
 * [ ] Develop Batch Processing Solution using Azure Data Factory - In this lab, we design an end-to-end batch processing solution by using Data Factory, Data Lake, Spark, Azure Synapse Pipelines, PolyBase, and Azure Databricks. Recipe 1 - Data Ingestion using Data Flow. Recipe 2 - Data Transformation using Azure Databricks. Recipe 3 - Data Serving using PolyBase. Recipe 4 - Data Pipeline using Azure Data Factory Pipeline. Recipe 5 - End to end data processing with Azure Batch [[Source code](06-orchestration/azure-data-factory/lab-batch-processing-solution)]
 * [ ] Building and Executing a Pipeline Graph with Data Fusion [[source code](06-orchestration/datafusion/lab-datafusion-pipeline)]
 * [ ] Prefect Getting Started [[source code](06-orchestration/prefect/lab-prefect-getting-started)]
@@ -319,6 +373,7 @@
 * [ ] FastAPI applications - Online Academic Discussion Forum API, Online Book Reselling System API, Auction System, ERP System, Todo App, Task Planner System, Fitness Club Management System API, NewsStand Manegement System API, Poverty Analysis System API, Online Recipe System API, Online Restaurant Review System API, Intelligent Tourist System API [[source code](07-devops/fastapi/README.md)]
 * [ ] FastAPI DevOps - In this lab, we will build and deploy a FastAPI. We will deploy it in a serverless manner using AWS's SAM (Serverless Application Model) framework. We will also use Cloudformation stack to automate the pipeline CICD [[source code](07-devops/fastapi/lab-fastapi-devops)]
 * [ ] Build and deploy NodeJS Kubia app in Kubernetes [[source code](07-devops/kubernetes/lab-kubernetes-kubia-app)]
+* [ ] Build Address parsing system in python and dockerize it [[source code](07-devops/docker/lab-assignment-etl-docker)]
 
 ### Data Science & Machine Learning
 
@@ -339,11 +394,15 @@
 * [ ] Data Pipeline with dbt, Airflow and Great Expectations - In this project, we will learn how to combine the functions of three open source tools - Airflow, dbt and Great expectations - to build, test, validate, document, and orchestrate an entire pipeline, end to end, from scratch. We are going to load the NYC Taxi data into Redshift warehouse and then transform and validate the data using dbt and great expectations. By the end of this project, you’ll understand- The basics of dbt, Airflow, and Great Expectations - How to effectively combine these components to build a robust data pipeline - When and how to implement data validation using these tools - How to start developing a data quality strategy for your organization that goes beyond implementing data validation. And you’ll be able to - Write and run Airflow, dbt, and Great Expectations code - Design and implement a robust data pipeline - Implement data validation and alerting across a data pipeline [[source code](12-capstones/robust-data-pipeline)]
 * [ ] Sparkify - In this capstone, you will build 1. SQL Data Modeling with Postgres, 2. NoSQL Data Modeling with Cassandra, 3. Data Lake with AWS and PySpark, 4. Data Warehouse with Redshift, 5. Data Pipeline with Airflow [[source code](12-capstones/spectrum)]
 * [ ] US Immigration analysis and data pipeline - In this capstone, you will build - 1. Data Load into S3, 2. Data Preprocessing with PySpark, 3. Data Modeling and Warehousing with Amazon Redshift, 4. Advanced analytics using Python and Matplotlib and 5. Convert the whole process into an airflow pipeline [[source code](12-capstones/us-immigration)]
+* [ ] CitiBike Trip Histories Data Pipeline - In this capstone, you will build an end-to-end data pipeline. Cloud: GCP, Data Lake (DL): GCS, Data Warehouse (DWH): BigQuery, Infrastructure as code (IaC): Terraform, Workflow orchestration: Airflow, Transforming data: DBT, and Data Visualization: Google Data Studio [[source code](12-capstones/citibike-trip-histories)]
+* [ ] Global Historical Climatology Network Daily Data Pipeline - In this capstone, your goal is to build a global historical climatology network data pipeline that runs daily. Cloud: GCP, Infrastructure as code (IaC): Terraform, Workflow orchestration: Airflow (ingestion pipeline and transformation pipeline), Data Warehouse: BigQuery, Data Lake: GCS, Batch processing/Transformations: dbt cloud or DataProc/Spark (transformation pipeline), and Dashboard: Google Data Studio [[source code](12-capstones/climate)]
 
-## How to Join
+## Level 300
 
-1. [Agency Partner 1](https://api.whatsapp.com/send?phone=919517720888&text=Hi%20Sowmya%20(WeHire)%0AI%20am%20interested%20in%20the%20data%20engineering%20training%20from%20Sparsh) (US & India only) - Pay for the training to the agency partner directly, vendor association required
-2. [Agency Partner 2](https://api.whatsapp.com/send?phone=918484005449&text=Hi%20Vishwas%20(Wynisco)%0AI%20am%20interested%20in%20the%20data%20engineering%20training%20from%20Sparsh) (US & Canada only) - Pay after getting hired - 15% of your income for 1 year, directly to agency partner
-3. [Direct](https://api.whatsapp.com/send?phone=918384805365&text=Hi%20Sparsh%0AI%20am%20interested%20in%20the%20data%20engineering%20training) - Directly hire me for 1:1 or 1:many training `@$25/hr`. E.g. 35-hr basic training in a batch of 15 would cost you `$58/-` (=25*35/15)
+## How to start learning
+
+1. Self-guided - You will find all the content in this repo. It is free and open-source
+2. [Guided](https://api.whatsapp.com/send?phone=918384805365&text=Hi%20Sparsh%0AI%20am%20interested%20in%20the%20data%20engineering%20training) - $175 for 55-hours of training - Zoom sessions - 2 hrs/day
+3. [Contractual](https://api.whatsapp.com/send?phone=918484005449&text=Hi%20Vishwas%20(Wynisco)%0AI%20am%20interested%20in%20the%20data%20engineering%20training%20from%20Sparsh) (US & Canada only) - Pay after getting hired - 15% of your income for 1 year, directly to agency partner
 
 ---

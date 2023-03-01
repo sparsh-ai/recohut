@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <row>
+    <car_model>etios liva</car_model>
+    <year_of_manufacture>2014</year_of_manufacture>
+    <price>5895.522388059701</price>
+    <fuel>Diesel</fuel>
+  </row>
+  <row>
+    <car_model>corolla altis</car_model>
+    <year_of_manufacture>2011</year_of_manufacture>
+    <price>6716.417910447762</price>
+    <fuel>Diesel</fuel>
+  </row>
+  <row>
+    <car_model>corolla altis</car_model>
+    <year_of_manufacture>2013</year_of_manufacture>
+    <price>11119.402985074626</price>
+    <fuel>Petrol</fuel>
+  </row>
+  <row>
+    <car_model>etios liva</car_model>
+    <year_of_manufacture>2011</year_of_manufacture>
+    <price>3955.223880597015</price>
+    <fuel>Petrol</fuel>
+  </row>
+  <row>
+    <car_model>etios cross</car_model>
+    <year_of_manufacture>2014</year_of_manufacture>
+    <price>7313.432835820897</price>
+    <fuel>Diesel</fuel>
+  </row>
+  <row>
+    <car_model>etios g</car_model>
+    <year_of_manufacture>2015</year_of_manufacture>
+    <price>5895.522388059701</price>
+    <fuel>Petrol</fuel>
+  </row>
+  <row>
+    <car_model>corolla altis</car_model>
+    <year_of_manufacture>2013</year_of_manufacture>
+    <price>8208.955223880597</price>
+    <fuel>Petrol</fuel>
+  </row>
+  <row>
+    <car_model>corolla</car_model>
+    <year_of_manufacture>2004</year_of_manufacture>
+    <price>2238.805970149254</price>
+    <fuel>Petrol</fuel>
+  </row>
+  <row>
+    <car_model>corolla altis</car_model>
+    <year_of_manufacture>2010</year_of_manufacture>
+    <price>7835.820895522388</price>
+    <fuel>Petrol</fuel>
+  </row>
+  <row>
+    <car_model>fortuner</car_model>
+    <year_of_manufacture>2012</year_of_manufacture>
+    <price>21641.79104477612</price>
+    <fuel>Diesel</fuel>
+  </row>
+</root>
