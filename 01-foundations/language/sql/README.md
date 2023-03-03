@@ -296,6 +296,26 @@ You can also leave comments across multiple lines using /* to begin the comment 
 
 ### SQL Aggregate Functions
 
+| Aggregate function                                               | Description                                                            |
+| ---------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| [AVG()](https://www.mysqltutorial.org/mysql-avg/)                   | Return the average of non-NULL values.                                 |
+| BIT_AND()                                                        | Return bitwise AND.                                                    |
+| BIT_OR()                                                         | Return bitwise OR.                                                     |
+| BIT_XOR()                                                        | Return bitwise XOR.                                                    |
+| [COUNT()](https://www.mysqltutorial.org/mysql-count/)               | Return the number of rows in a group, including rows with NULL values. |
+| [GROUP_CONCAT()](https://www.mysqltutorial.org/mysql-group_concat/) | Return a concatenated string.                                          |
+| JSON_ARRAYAGG()                                                  | Return result set as a single JSON array.                              |
+| JSON_OBJECTAGG()                                                 | Return result set as a single JSON object.                             |
+| [MAX()](https://www.mysqltutorial.org/mysql-max-function/)          | Return the highest value (maximum) in a set of non-NULL values.        |
+| [MIN()](https://www.mysqltutorial.org/mysql-min/)                   | Return the lowest value (minimum) in a set of non-NULL values.         |
+| [STDEV()](https://www.mysqltutorial.org/mysql-standard-deviation/)  | Return the population standard deviation.                              |
+| STDDEV_POP()                                                     | Return the population standard deviation.                              |
+| STDDEV_SAMP()                                                    | Return the sample standard deviation.                                  |
+| [SUM()](https://www.mysqltutorial.org/mysql-sum/)                   | Return the summation of all non-NULL values a set.                     |
+| VAR_POP()                                                        | Return the population standard variance.                               |
+| VARP_SAM()                                                       | Return the sample variance.                                            |
+| VARIANCE()                                                       | Return the population standard variance.                               |
+
 SQL is excellent at aggregating data the way you might in a pivot table in Excel. You will use aggregate functions all the time, so it's important to get comfortable with them. The functions themselves are the same ones you will find in Excel or any other analytics program.
 
 - COUNT counts how many rows are in a particular column.
@@ -441,13 +461,53 @@ While the column names don't necessarily have to be the same, you will find that
 
 ## Advanced
 
-### SQL Date Format
+### SQL Date
 
 Assuming you've got some dates properly stored as a date or time data type, you can do some pretty powerful things. Maybe you'd like to calculate a field of dates a week after an existing field. Or maybe you'd like to create a field that indicates how many days apart the values in two other date fields are. These are trivially simple, but it's important to keep in mind that the data type of your results will depend on exactly what you are doing to the dates.
 
 When you perform arithmetic on dates (such as subtracting one date from another), the results are often stored as the interval data type—a series of integers that represent a period of time.
 
+| Function                                                         | Description                                                               |
+| ---------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| [CURDATE](https://www.mysqltutorial.org/mysql-curdate/)             | Returns the current date.                                                 |
+| [DATEDIFF](https://www.mysqltutorial.org/mysql-datediff.aspx)       | Calculates the number of days between two DATE values.                    |
+| [DAY](https://www.mysqltutorial.org/mysql-day/)                     | Gets the day of the month of a specified date.                            |
+| [DATE_ADD](https://www.mysqltutorial.org/mysql-date_add/)           | Adds a time value to date value.                                          |
+| [DATE_SUB](https://www.mysqltutorial.org/mysql-date_sub/)           | Subtracts a time value from a date value.                                 |
+| [DATE_FORMAT](https://www.mysqltutorial.org/mysql-date_format/)     | Formats a date value based on a specified date format.                    |
+| [DAYNAME](https://www.mysqltutorial.org/mysql-dayname/)             | Gets the name of a weekday for a specified date.                          |
+| [DAYOFWEEK](https://www.mysqltutorial.org/mysql-dayofweek/)         | Returns the weekday index for a date.                                     |
+| [EXTRACT](https://www.mysqltutorial.org/mysql-extract/)             | Extracts a part of a date.                                                |
+| [LAST_DAY](https://www.mysqltutorial.org/mysql-last_day/)           | Returns the last day of the month of a specified date                     |
+| [NOW](https://www.mysqltutorial.org/mysql-now/)                     | Returns the current date and time at which the statement executed.        |
+| [MONTH](https://www.mysqltutorial.org/mysql-month/)                 | Returns an integer that represents a month of a specified date.           |
+| [STR_TO_DATE](https://www.mysqltutorial.org/mysql-str_to_date/)     | Converts a string into a date and time value based on a specified format. |
+| [SYSDATE](https://www.mysqltutorial.org/mysql-sysdate/)             | Returns the current date.                                                 |
+| [TIMEDIFF](https://www.mysqltutorial.org/mysql-timediff/)           | Calculates the difference between two TIME or DATETIME values.            |
+| [TIMESTAMPDIFF](https://www.mysqltutorial.org/mysql-timestampdiff/) | Calculates the difference between two DATE or DATETIME values.            |
+| [WEEK](https://www.mysqltutorial.org/mysql-week/)                   | Returns a week number of a date.                                          |
+| [WEEKDAY](https://www.mysqltutorial.org/mysql-weekday/)             | Returns a weekday index for a date.                                       |
+| [YEAR](https://www.mysqltutorial.org/mysql-year/)                   | Return the year for a specified date                                      |
+
 ### Using SQL String Functions to Clean Data
+
+| Name                                                                                                 | Description                                                                              |
+| ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| [CONCAT](https://www.mysqltutorial.org/sql-concat-in-mysql.aspx)                                        | Concatenate two or more strings into a single string                                     |
+| [INSTR](https://www.mysqltutorial.org/mysql-instr/)                                                     | Return the position of the first occurrence of a substring in a string                   |
+| [LENGTH](https://www.mysqltutorial.org/mysql-string-length/)                                            | Get the length of a string in bytes and in characters                                    |
+| [LEFT](https://www.mysqltutorial.org/mysql-left-function/)                                              | Get a specified number of leftmost characters from a string                              |
+| [LOWER](https://www.mysqltutorial.org/mysql-string-functions/mysql-lower/)                              | Convert a string to lowercase                                                            |
+| [LTRIM](https://www.mysqltutorial.org/mysql-string-functions/mysql-ltrim-function/)                     | Remove all leading spaces from a string                                                  |
+| [REPLACE](https://www.mysqltutorial.org/mysql-string-replace-function.aspx)                             | Search and replace a substring in a string                                               |
+| [RIGHT](https://www.mysqltutorial.org/mysql-string-functions/mysql-right-function/)                     | Get a specified number of rightmost characters from a string                             |
+| [RTRIM](https://www.mysqltutorial.org/mysql-string-functions/mysql-rtrim-function/)                     | Remove all trailing spaces from a string                                                 |
+| [SUBSTRING](https://www.mysqltutorial.org/mysql-substring.aspx)                                         | Extract a substring starting from a position with a specific length.                     |
+| [SUBSTRING_INDEX](https://www.mysqltutorial.org/mysql-string-functions/mysql-substring_index-function/) | Return a substring from a string before a specified number of occurrences of a delimiter |
+| [TRIM](https://www.mysqltutorial.org/mysql-trim/)                                                       | Remove unwanted characters from a string.                                                |
+| [FIND_IN_SET](https://www.mysqltutorial.org/mysql-find_in_set/)                                         | Find a string within a comma-separated list of strings                                   |
+| [FORMAT](https://www.mysqltutorial.org/mysql-format-function/)                                          | Format a number with a specific locale, rounded to the number of decimals                |
+| [UPPER](https://www.mysqltutorial.org/mysql-string-functions/mysql-upper/)                              | Convert a string to uppercase                                                            |
 
 **LEFT, RIGHT, and LENGTH**
 
@@ -499,7 +559,7 @@ What if you want to include today's date or time? You can instruct your query to
 
 Occasionally, you will end up with a dataset that has some nulls that you'd prefer to contain actual values. This happens frequently in numerical data (displaying nulls as 0 is often preferable), and when performing outer joins that result in some unmatched rows. In cases like this, you can use COALESCE to replace the null values:
 
-### SQL Subqueries
+### Subqueries
 
 Subqueries (also known as inner queries or nested queries) are a tool for performing operations in multiple steps. For example, if you wanted to take the sums of several columns, then average all of those values, you'd need to do each aggregation in a distinct step.
 
@@ -509,7 +569,21 @@ Subqueries are required to have names, which are added after parentheses the sam
 
 A quick note on formatting: The important thing to remember when using subqueries is to provide some way for the reader to easily determine which parts of the query will be executed together. Most people do this by indenting the subquery in some way.
 
-### SQL Window Functions
+### Window Functions
+
+| Name                                                                                           | Description                                                                                                                                                                                                                                      |
+| ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [CUME_DIST](https://www.mysqltutorial.org/mysql-window-functions/mysql-cume_dist-function/)       | Calculates the cumulative distribution of a value in a set of values.                                                                                                                                                                            |
+| [DENSE_RANK](https://www.mysqltutorial.org/mysql-window-functions/mysql-dense_rank-function/)     | Assigns a rank to every row within its partition based on the `ORDER BY` clause. It assigns the same rank to the rows with equal values. If two or more rows have the same rank, then there will be no gaps in the sequence of ranked values. |
+| [FIRST_VALUE](https://www.mysqltutorial.org/mysql-window-functions/mysql-first_value-function/)   | Returns the value of the specified expression with respect to the first row in the window frame.                                                                                                                                                 |
+| [LAG](https://www.mysqltutorial.org/mysql-window-functions/mysql-lag-function/)                   | Returns the value of the Nth row before the current row in a partition. It returns NULL if no preceding row exists.                                                                                                                             |
+| [LAST_VALUE](https://www.mysqltutorial.org/mysql-window-functions/mysql-last_value-function/)     | Returns the value of the specified expression with respect to the last row in the window frame.                                                                                                                                                  |
+| [LEAD](https://www.mysqltutorial.org/mysql-window-functions/mysql-lead-function/)                 | Returns the value of the Nth row after the current row in a partition. It returns NULL if no subsequent row exists.                                                                                                                             |
+| [NTH_VALUE](https://www.mysqltutorial.org/mysql-window-functions/mysql-nth_value-function/)       | Returns value of argument from Nth row of the window frame                                                                                                                                                                                       |
+| [NTILE](https://www.mysqltutorial.org/mysql-window-functions/mysql-ntile-function/)               | Distributes the rows for each window partition into a specified number of ranked groups.                                                                                                                                                         |
+| [PERCENT_RANK](https://www.mysqltutorial.org/mysql-window-functions/mysql-percent_rank-function/) | Calculates the percentile rank of a row in a partition or result set                                                                                                                                                                             |
+| [RANK](https://www.mysqltutorial.org/mysql-window-functions/mysql-rank-function/)                 | Similar to the `DENSE_RANK()` function except that there are gaps in the sequence of ranked values when two or more rows have the same rank.                                                                                                  |
+| [ROW_NUMBER](https://www.mysqltutorial.org/mysql-window-functions/mysql-row_number-function/)     | Assigns a sequential integer to every row within its partition                                                                                                                                                                                   |
 
 A window function performs a calculation across a set of table rows that are somehow related to the current row. This is comparable to the type of calculation that can be done with an aggregate function. But unlike regular aggregate functions, use of a window function does not cause rows to become grouped into a single output row — the rows retain their separate identities. Behind the scenes, the window function is able to access more than just the current row of the query result.
 
@@ -549,7 +623,44 @@ If you're planning to write several window functions in to the same query, using
 
 The WINDOW clause, if included, should always come after the WHERE clause.
 
-## Performance Tuning SQL Queries
+### CTE (Common Table Expressions)
+
+A common table expression is a named temporary result set that exists only within the execution scope of a single SQL statement e.g.,[`SELECT`](https://www.mysqltutorial.org/mysql-select-statement-query-data.aspx), [`INSERT`](https://www.mysqltutorial.org/mysql-insert-statement.aspx), [`UPDATE`](https://www.mysqltutorial.org/mysql-update-data.aspx), or [`DELETE`](https://www.mysqltutorial.org/mysql-delete-statement.aspx).
+
+Similar to a [derived table](https://www.mysqltutorial.org/mysql-derived-table/), a CTE is not stored as an object and last only during the execution of a query. A Common Table Expression (CTE) is the result set of a query which exists temporarily and for use only within the context of a larger query. Much like a derived table, the result of a CTE is not stored and exists only for the duration of the query.
+
+CTEs, like database views and derived tables, enable users to more easily write and maintain complex queries via increased readability and simplification. This reduction in complexity is achieved by deconstructing ordinarily complex queries into simple blocks to be used, and reused if necessary, in rewriting the query. Example use cases include:
+
+- Needing to reference a derived table multiple times in a single query
+- An alternative to creating a view in the database
+- Performing the same calculation multiple times over across multiple query components
+
+Unlike a derived table, a CTE can be self-referencing (a [recursive CTE](https://www.mysqltutorial.org/mysql-recursive-cte/)) or can be referenced multiple times in the same query. In addition, a CTE provides better readability and performance in comparison with a derived table.
+
+The structure of a CTE includes the name, an optional column list, and a query that defines the CTE. After the CTE is defined, you can use it as a view in a `SELECT`, `INSERT`, `UPDATE`, `DELETE`, or `CREATE VIEW` statement.
+
+The following illustrates the basic syntax of a CTE:
+
+```sql
+WITH cte_name (column_list) AS (
+    query
+) 
+SELECT * FROM cte_name;
+```
+
+### Indexes
+
+A database index is a data structure that improves the speed of operations in a table. Indexes can be created using one or more columns, providing the basis for both rapid random lookups and efficient ordering of access to records.
+
+While creating index, it should be taken into consideration which all columns will be used to make SQL queries and create one or more indexes on those columns.
+
+Practically, indexes are also a type of tables, which keep primary key or index field and a pointer to each record into the actual table.
+
+The users cannot see the indexes, they are just used to speed up queries and will be used by the Database Search Engine to locate records very fast.
+
+The INSERT and UPDATE statements take more time on tables having indexes, whereas the SELECT statements become fast on those tables. The reason is that while doing insert or update, a database needs to insert or update the index values as well.
+
+### Performance Tuning
 
 SQL tuning is the process of improving SQL queries to accelerate your servers performance. It's general purpose is to reduce the amount of time it takes a user to receive a result after issuing a query, and to reduce the amount of resources used to process a query.
 
@@ -801,6 +912,121 @@ Improved query:
 SELECT * FROM SH.sales s WHERE s.cust_id < 25000
 ```
 
+### Stored Procedures
+
+If you want to save your SQL query on the database server for execution later, one way to do it is to use a stored procedure.
+
+The first time you invoke a stored procedure, MySQL looks up for the name in the database catalog, compiles the stored procedure's code, place it in a memory area known as a cache, and execute the stored procedure.
+
+If you invoke the same stored procedure in the same session again, MySQL just executes the stored procedure from the cache without having to recompile it.
+
+A stored procedure can have [parameters](https://www.mysqltutorial.org/stored-procedures-parameters.aspx) so you can pass values to it and get the result back. For example, you can have a stored procedure that returns customers by country and city. In this case, the country and city are parameters of the stored procedure.
+
+A stored procedure may contain control flow statements such as [IF](https://www.mysqltutorial.org/mysql-if-statement/), [CASE](https://www.mysqltutorial.org/mysql-case-statement/), and `LOOP` that allow you to implement the code in the procedural way.
+
+A stored procedure can call other stored procedures or [stored functions](https://www.mysqltutorial.org/mysql-stored-function/), which allows you to modulize your code.
+
+Typically, a stored procedure contains multiple statements separated by semicolons (;). To compile the whole stored procedure as a single compound statement, you need to temporarily change the delimiter from the semicolon (;) to another delimiter such as `$$` or `//`.
+
+**MySQL stored procedures advantages**
+
+The following are the advantages of stored procedures.
+
+1. Reduce network traffic - Stored procedures help reduce the network traffic between applications and MySQL Server. Because instead of sending multiple lengthy SQL statements, applications have to send only the name and parameters of stored procedures.
+2. Centralize business logic in the database - You can use the stored procedures to implement business logic that is reusable by multiple applications. The stored procedures help reduce the efforts of duplicating the same logic in many applications and make your database more consistent.
+3. Make database more secure - The database administrator can grant appropriate privileges to applications that only access specific stored procedures without giving any privileges on the underlying tables.
+
+**MySQL stored procedures disadvantages**
+
+Besides those advantages, stored procedures also have disadvantages:
+
+1. Resource usages - If you use many stored procedures, the memory usage of every connection will increase substantially. Besides, overusing a large number of logical operations in the stored procedures will increase the CPU usage because the MySQL is not well-designed for logical operations.
+2. Troubleshooting - It's difficult to debug stored procedures. Unfortunately, MySQL does not provide any facilities to debug stored procedures like other enterprise database products such as Oracle and SQL Server.
+3. Maintenances - Developing and maintaining stored procedures often requires a specialized skill set that not all application developers possess. This may lead to problems in both application development and maintenance.
+
+### Cursor
+
+To handle a result set inside a [stored procedure](https://www.mysqltutorial.org/mysql-stored-procedure-tutorial.aspx "MySQL Stored Procedure"), you use a cursor. A cursor allows you to [iterate ](https://www.mysqltutorial.org/stored-procedures-loop.aspx "How to use loop in stored procedure")a set of rows returned by a query and process each row individually.
+
+MySQL cursor is read-only, non-scrollable and asensitive.
+
+- Read-only: you cannot update data in the underlying table through the cursor.
+- Non-scrollable: you can only fetch rows in the order determined by the [SELECT](https://www.mysqltutorial.org/mysql-select-statement-query-data.aspx) statement. You cannot fetch rows in the reversed order. In addition, you cannot skip rows or jump to a specific row in the result set.
+- Asensitive: there are two kinds of cursors: asensitive cursor and insensitive cursor. An asensitive cursor points to the actual data, whereas an insensitive cursor uses a temporary copy of the data. An asensitive cursor performs faster than an insensitive cursor because it does not have to make a temporary copy of data. However, any change that made to the data from other connections will affect the data that is being used by an asensitive cursor, therefore, it is safer if you do not update the data that is being used by an asensitive cursor. MySQL cursor is asensitive.
+
+You can use MySQL cursors in [stored procedures](https://www.mysqltutorial.org/getting-started-with-mysql-stored-procedures.aspx), [stored functions](https://www.mysqltutorial.org/mysql-stored-function/), and [triggers](https://www.mysqltutorial.org/mysql-triggers.aspx "MySQL Triggers").
+
+First, declare a cursor by using the `DECLARE` statement:
+
+```sql
+DECLARE cursor_name CURSOR FOR SELECT_statement;
+```
+
+The cursor declaration must be after any [variable ](https://www.mysqltutorial.org/variables-in-stored-procedures.aspx "MySQL Variables in Stored Procedures")declaration. If you declare a cursor before the variable declarations, MySQL will issue an error. A cursor must always associate with a `SELECT` statement.
+
+Next, open the cursor by using the `OPEN` statement. The `OPEN` statement initializes the result set for the cursor, therefore, you must call the `OPEN` statement before fetching rows from the result set.
+
+```sql
+OPEN cursor_name;
+```
+
+Then, use the `FETCH` statement to retrieve the next row pointed by the cursor and move the cursor to the next row in the result set.
+
+```sql
+FETCH cursor_name INTO variables list;
+```
+
+After that, check if there is any row available before fetching it.
+
+Finally, deactivate the cursor and release the memory associated with it  using the `CLOSE` statement:
+
+```sql
+CLOSE cursor_name;
+```
+
+It is a good practice to always close a cursor when it is no longer used.
+
+When working with MySQL cursor, you must also declare a `NOT FOUND` handler to handle the situation when the cursor could not find any row.
+
+Because each time you call the `FETCH` statement, the cursor attempts to read the next row in the result set. When the cursor reaches the end of the result set, it will not be able to get the data, and a condition is raised. The handler is used to handle this condition.
+
+To declare a `NOT FOUND` handler, you use the following syntax:
+
+```sql
+
+DECLARE CONTINUE HANDLER FOR NOT FOUND SET finished = 1;
+```
+
+The `finished` is a variable to indicate that the cursor has reached the end of the result set. Notice that the handler declaration must appear after variable and cursor declaration inside the stored procedures.
+
+The following diagram illustrates how MySQL cursor works:
+
+![mysql-cursor](https://user-images.githubusercontent.com/62965911/222632160-ccbd8671-684e-4176-8273-5baab4d4eed3.png)
+
+### Triggers
+
+In MySQL, a trigger is a stored program invoked automatically in response to an event such as [insert](https://www.mysqltutorial.org/mysql-insert-statement.aspx), [update](https://www.mysqltutorial.org/mysql-update-data.aspx), or [delete](https://www.mysqltutorial.org/mysql-delete-statement.aspx) that occurs in the associated table. For example, you can define a trigger that is invoked automatically before a new row is inserted into a table.
+
+MySQL supports triggers that are invoked in response to the [INSERT](https://www.mysqltutorial.org/mysql-insert-statement.aspx), [UPDATE](https://www.mysqltutorial.org/mysql-update-data.aspx) or [DELETE](https://www.mysqltutorial.org/mysql-delete-statement.aspx) event.
+
+The SQL standard defines two types of triggers: row-level triggers and statement-level triggers.
+
+- A row-level trigger is activated for each row that is inserted, updated, or deleted.  For example, if a table has 100 rows inserted, updated, or deleted, the trigger is automatically invoked 100 times for the 100 rows affected.
+- A statement-level trigger is executed once for each transaction regardless of how many rows are inserted, updated, or deleted.
+
+**Advantages of triggers**
+
+- Triggers provide another way to check the integrity of data.
+- Triggers handle errors from the database layer.
+- Triggers give an alternative way to [run scheduled tasks](https://www.mysqltutorial.org/mysql-triggers/working-mysql-scheduled-event/). By using triggers, you don't have to wait for the [scheduled events](https://www.mysqltutorial.org/mysql-triggers/working-mysql-scheduled-event/) to run because the triggers are invoked automatically *before* or *after* a change is made to the data in a table.
+- Triggers can be useful for auditing the data changes in tables.
+
+**Disadvantages of triggers**
+
+- Triggers can only provide extended validations, not all validations. For simple validations, you can use the [NOT NULL](https://www.mysqltutorial.org/mysql-not-null-constraint/), [UNIQUE](https://www.mysqltutorial.org/mysql-unique-constraint/), [CHECK](https://www.mysqltutorial.org/mysql-check-constraint/) and [FOREIGN KEY](https://www.mysqltutorial.org/mysql-foreign-key/) constraints.
+- Triggers can be difficult to troubleshoot because they execute automatically in the database, which may not invisible to the client applications.
+- Triggers may increase the overhead of the MySQL Server.
+
 ## Database Problems
 
 1. [https://leetcode.com/problems/combine-two-tables/](https://leetcode.com/problems/combine-two-tables/)
@@ -828,6 +1054,5 @@ SELECT * FROM SH.sales s WHERE s.cust_id < 25000
 23. [https://pgexercises.com/](https://pgexercises.com/)
 24. [https://www.hackerrank.com/domains/sql](https://www.hackerrank.com/domains/sql)
 25. [https://www.hackerrank.com/domains/databases](https://www.hackerrank.com/domains/databases)
-
 
 ---

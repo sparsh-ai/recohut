@@ -2,9 +2,7 @@
 
 **Hit the ⭐️ button if you like the repo.**
 
-## Level 100
-
-**Estimated Time:** 55 hours
+## Curriculum
 
 ### Developer Foundations
 
@@ -39,47 +37,45 @@
   * [ ] What is medallion architecture?
   * [ ] What is EL, ETL and ELT?
 * [ ] Data Engineering most common interview questions [[link to note](01-foundations/data-engineering/README.md)]
+* [ ] Case study: Fair - Data Ingestion with a Cloud Data Platform [[link to note](a3-casestudies/fair.md)]
+* [ ] Case study: Harmony - Responsive Data Pipeline [[link to note](a3-casestudies/harmony.md)]
+* [ ] Case study: Panoramic - Simplifying Data Ingestion, Transformation, And Delivery [[link to note](a3-casestudies/panoramic.md)]
 
 ### AWS Cloud Essentials
 
 * [ ] (Optional) Create AWS Account
 * [ ] AWS Services Walkthrough
-
   * [ ] Storage Services - [S3](01-foundations/cloud/aws/s3.md), [RDS](01-foundations/cloud/aws/rds.md), Redshift, Keyspace
   * [ ] ETL Services - [Glue](01-foundations/cloud/aws/glue.md)
   * [ ] Compute Services - Lambda, EMR, [EC2](01-foundations/cloud/aws/ec2/README.md), Athena
   * [ ] DevOps Services - Cloudformation, [IAM](01-foundations/cloud/aws/iam/README.md), Secrets Manager
 * [ ] GCP Services Walkthrough
-
   * [ ] Storage Services - GCS, Cloud SQL, BigQuery, BigTable
   * [ ] Compute Services - Cloud Functions, Dataproc, Cloud Compute, Dataflow
   * [ ] DevOps Services - IAM
 * [ ] Azure Services Walkthrough
-
   * [ ] Storage Services - Blob Storge, DataLake Gen2 buckets, Azure SQL Databases
   * [ ] Compute Services - Databricks/Synapse Analytics, Azure Data Factory
   * [ ] DevOps Services - IAM
 * [ ] AWS Account Setup [[source code](01-foundations/cloud/aws/lab-aws-setup)]
-
   * [ ] Install AWS CLI
   * [ ] Create IAM user and generate credentials
   * [ ] Setup AWS credentials
 * [ ] AWS IAM Service [[source code](01-foundations/cloud/aws/iam/README.md)]
-
   * [ ] Create policies and roles
   * [ ] Attach policies to the roles
 * [ ] AWS S3 Service
-
   * [ ] Learn AWS CLI S3 essential commands
   * [ ] Copy and Sync data to/from S3 with AWS CLI
 * [ ] AWS RDS Service
-
   * [ ] Create database in RDS DBMS and generate credentials
   * [ ] Connect to RDS DBMS in DBeaver
 * [ ] AWS Secrets Manager Service [[source code](01-foundations/cloud/aws/secrets-manager)]
-
   * [ ] Create a Secret in Secrets Manager Vault
   * [ ] Get the credential using AWS CLI
+* [ ] Create VPC [[link to note](01-foundations/cloud/aws/vpc/lab-create-your-first-vpc)]
+* [ ] Containers Services - ECS and EKS [[link to note](01-foundations/cloud/aws/containers-on-aws.md)]
+* [ ] Data Migration Service (DMS) [[link to note](01-foundations/cloud/aws/dms.md)]
 
 ### Programming - SQL
 
@@ -88,6 +84,11 @@
   * [ ] SQL Basics - Select, Limit, Where, Comparison and Logical operators, Order by
   * [ ] SQL Intermediate - Aggregations, Group by, Case statements, Joins
   * [ ] SQL Advanced - Dates, Text, Subqueries, Window functions, Optimizations
+* [ ] Postgres SQL basics to advanced [[source code](01-foundations/language/sql/lab-postgres-queries)]
+* [ ] Running Dates, String and Advanced queries in Postgres on Sales data [[source code](02-storage/databases/postgres/lab-postgres-sales)]
+* [ ] Working with Book dataset on SQLite database [[source code](02-storage/databases/sqlite/lab-sqlite-basics)]
+* [ ] Challenge - Yammer Advanced Analytics [[source code](01-foundations/language/sql/challenges/yammer)]
+* [ ] Challenge - BrainTree SQL Code Challenge [[source code](01-foundations/language/sql/challenges/braintree)]
 
 ### Programming - Python
 
@@ -96,10 +97,13 @@
 * [ ] Functions and Inline functions
 * [ ] Read/Write and Manipulate Data using Pandas
 * [ ] Pulling data from APIs using requests library
+* [ ] Reading data from flat files - csv, json, parquet, avro, excel, txt [[source code](02-storage/flat-files/lab-data-loading-python)]
 * [ ] Reading and writing data to databases using psycopg2 and sqlalchemy library
 * [ ] Reading data from S3 and athena using aws data wrangler library
 * [ ] Pull credentials from Secrets Manager using boto3 library
 * [ ] Lab - Exchange Rate ETL process [[source code](01-foundations/language/python/lab-exchange-rate-etl)]
+* [ ] ETL process and reading/writing CSV, JSON and XML files in pandas [[source code](01-foundations/language/python/lab-etl-csv-json-xml)]
+* [ ] Basic Text Handling with Python [[source code](18-nlp/lab-basic-text-handlng-python)]
 
 ### Programming - PySpark
 
@@ -116,64 +120,6 @@
 * [ ] Introduction to Scala programming
 * [ ] Getting started with Spark Scala
 * [ ] Building extract and load pipeline with Scala, S3 and Postgres [[source code](03-processing/databricks/lab-databricks-scala-postgres-s3)]
-
-### Data Modeling and Warehousing
-
-* [ ] Building a sql data model for a music company in Postgres
-* [ ] Building a nosql data model for a music company in Cassandra
-* [ ] Difference between databases, warehouses, lakes and lakehouses
-* [ ] OLTP vs OLAP technologies
-* [ ] Loading data into Redshift warehouse with S3 staging and COPY command
-
-### Data Lakes and Lakehouses
-
-* [ ] Building a data lake for a healthcare company with AWS, S3 and Athena [[source code](02-storage/datalakes/lab-datalake-healthcare-s3-glue-athena)]
-* [ ] Working with AWS S3 and Delta lake in Databricks
-
-### Big Data Processing
-
-* [ ] Creating and Monitoring Production Data Processing Jobs in Databricks
-* [ ] Creating and submitting Word count Spark Job in EMR Serverless
-* [ ] Building a near real-time serverless data pipeline with AWS lambda function [[source code](03-processing/aws-lambda-function/lab-lambda-csv-parquet)]
-* [ ] Building an ELT pipeline for a cab service company using dbt and Postgres
-
-### Orchestration and Data Pipelines
-
-* [ ] Getting started with Airflow - Install Airflow in local system, Starting Airflow Web server and Scheduler, Building a BASH commands execution pipeline in Airflow, Building a CSV to JSON pipeline in Airflow [[source code](06-orchestration/airflow/lab-airflow-getting-started)]
-* [ ] Integrate email notifications in Airflow with AWS SNS/SES service [[source code](06-orchestration/airflow/lab-airflow-email-notifications)]
-
-### Capstone Projects
-
-* [ ] ACLED ETL Data Pipeline for war and conflict analysis (Airflow, Postgres, Glue, Spark) [[source code](12-capstones/acled)]
-* [ ] Sales & Orders ELT Data Pipeline (dbt, Redshift, SQL, Jinja) [[source code](12-capstones/dbt-redshift)]
-
-## Level 200
-
-**Estimated Time:** 75 hours
-
-### AWS
-
-* [ ] Create VPC [[link to note](01-foundations/cloud/aws/vpc/lab-create-your-first-vpc)]
-* [ ] Containers Services - ECS and EKS [[link to note](01-foundations/cloud/aws/containers-on-aws.md)]
-* [ ] Data Migration Service (DMS) [[link to note](01-foundations/cloud/aws/dms.md)]
-
-### Data Engineering Foundations
-
-* [ ] Case study: Fair - Data Ingestion with a Cloud Data Platform [[link to note](a3-casestudies/fair.md)]
-* [ ] Case study: Harmony - Responsive Data Pipeline [[link to note](a3-casestudies/harmony.md)]
-* [ ] Case study: Panoramic - Simplifying Data Ingestion, Transformation, And Delivery [[link to note](a3-casestudies/panoramic.md)]
-
-### Language - SQL
-
-* [ ] Postgres SQL basics to advanced [[source code](01-foundations/language/sql/lab-postgres-queries)]
-* [ ] Running Dates, String and Advanced queries in Postgres on Sales data [[source code](02-storage/databases/postgres/lab-postgres-sales)]
-* [ ] Working with Book dataset on SQLite database [[source code](02-storage/databases/sqlite/lab-sqlite-basics)]
-* [ ] Challenge - Yammer Advanced Analytics [[source code](01-foundations/language/sql/challenges/yammer)]
-* [ ] Challenge - BrainTree SQL Code Challenge [[source code](01-foundations/language/sql/challenges/braintree)]
-
-### Language - Python
-
-* [ ] ETL process and reading/writing CSV, JSON and XML files in pandas [[source code](01-foundations/language/python/lab-etl-csv-json-xml)]
 
 ### Storage Layer - Flat Files
 
@@ -220,6 +166,9 @@
 * [ ] Implement a slowly changing dimension in Amazon Redshift [[source code](02-storage/warehouses/redshift/lab-redshift-scd)]
 * [ ] Load NYC Taxi csv data into Redshift using Python AWS Data Wrangler [[source code](02-storage/warehouses/redshift/lab-redshift-taxi)]
 * [ ] Advanced Data Analytics on TPCH Sales data in Redshift [[source code](02-storage/warehouses/redshift/project-redshift-sales)]
+* [ ] Difference between databases, warehouses, lakes and lakehouses
+* [ ] OLTP vs OLAP technologies
+* [ ] Loading data into Redshift warehouse with S3 staging and COPY command
 
 ### Storage Layer - Data Lakes and Lakehouses
 
@@ -227,35 +176,15 @@
 * [ ] Creating and Managing Data in Azure Data Lake [[source code](02-storage/datalakes/lab-adl-create-manage-data)]
 * [ ] Securing and Monitoring Data in Azure Data Lake [[source code](02-storage/datalakes/lab-adl-securing-monitoring-lakes)]
 * [ ] Introduction to Data Lakehouses - Delta, Iceberg and Hudi [[link to note](02-storage/lakehouses/README.md)]
-
-### Serving Layer - SQL Data Modeling
-
-* [ ] Build a Star Schema based Data Model in Postgres on the AirBnB dataset [[source code](04-serving/lab-airbnb-postgres-datamodel)]
-* [ ] Car company Data Model in MySQL [[source code](04-serving/lab-cars-mysql-datamodel)]
-* [ ] Create a star schema from 3NF schema on DVD rental Pagila dataset [[source code](04-serving/lab-dvd-rental-datamodel)]
-* [ ] Create a Postgres data model of Google Playstore dataset [[source code](04-serving/lab-google-playstore-datamodel)]
-* [ ] Inegi Snowflake Data Model [[source code](04-serving/lab-inegi-snowflake-datamodel)]
-* [ ] Northwind Data Model in MySQL [[source code](04-serving/lab-mysql-northwind-datamodel)]
-* [ ] Retail Store Data Model in MySQL [[source code](04-serving/lab-mysql-retail-store-datamodel)]
-* [ ] Creating a Bus Rapid Transit (BRT) Database in Postgres [[source code](04-serving/lab-postgres-busrapid-transit)]
-* [ ] Create Fact and Dimension Tables from Denormalized Raw Data [[source code](04-serving/lab-postgres-elt-datamodel)]
-* [ ] Postgres e-Wallet Data Model [[source code](04-serving/lab-postgres-ewallet-datamodel)]
-* [ ] Housing Data Model with CDC and SCD Type 2 [[source code](04-serving/lab-postgres-housing-cdc-scd)]
-* [ ] Credit Debit Finance Data Model in Snowflake [[source code](04-serving/lab-snowflake-creditdebit-datamodel)]
-* [ ] Sparkify Music Company Data Model in Postgres [[source code](04-serving/lab-sparkify-data-model-postgres)]
-
-### Serving Layer - NoSQL Data Modeling
-
-* [ ] Create a NoSQL Data Model for a Digital Music Library using Cassandra [[source code](02-storage/datalakes/lab-adl-securing-monitoring-lakes)]
-* [ ] Create a NoSQL Data Model for an Email System using Cassandra [[source code](04-serving/cassandra-email-data-model)]
-* [ ] Create a NoSQL Data Model for Hotel Reservations using Cassandra [[source code](04-serving/cassandra-hotel-reservations)]
-* [ ] Create a NoSQL Data Model for Investment Accounts or Portfolios using Cassandra [[source code](04-serving/cassandra-investment-data-model)]
-* [ ] Create a NoSQL Data Model for Temperature Monitoring Sensor Networks using Cassandra [[source code](04-serving/cassandra-sensor-data-model)]
-* [ ] Create a NoSQL Data Model for Online Shopping Carts using Cassandra [[source code](04-serving/cassandra-shopping-cart-data-model)]
-* [ ] Ingest Movies data into CouchDB database [[source code](02-storage/nosql-databases/couchdb/lab-couchdb-movies-data-migration)]
+* [ ] Building a data lake for a healthcare company with AWS, S3 and Athena [[source code](02-storage/datalakes/lab-datalake-healthcare-s3-glue-athena)]
+* [ ] Working with AWS S3 and Delta lake in Databricks
 
 ### Processing Layer - Batch Data Processing
 
+* [ ] Creating and Monitoring Production Data Processing Jobs in Databricks
+* [ ] Creating and submitting Word count Spark Job in EMR Serverless
+* [ ] Building a near real-time serverless data pipeline with AWS lambda function [[source code](03-processing/aws-lambda-function/lab-lambda-csv-parquet)]
+* [ ] Building an ELT pipeline for a cab service company using dbt and Postgres
 * [ ] Data Transformation with PySpark using Amazon EMR Serverless Application [[source code](03-processing/aws-emr/lab-emr-serverless)]
 * [ ] Advanced Data Engineering and Data Processing with AWS Glue Jobs [[source code](03-processing/aws-glue/lab-glue-advanced)]
 * [ ] Handle UPSERT data operations using open-source Delta Lake and AWS Glue [[source code](03-processing/aws-glue/lab-glue-deltalake-cdc-upsert)]
@@ -327,6 +256,34 @@
 * [ ] Log Analytics and Processing in Real-Time (Apache Flink, Beam, Amazon Kinesis Data Analytics) [[source code](12-capstones/kinesis-flink-beam)]
 * [ ] Streaming ETL pipeline with Apache Flink and Amazon Kinesis Data Analytics [[source code](12-capstones/kinesis-flink-etl)]
 
+### Serving Layer - SQL Data Modeling
+
+* [ ] Building a sql data model for a music company in Postgres
+* [ ] Build a Star Schema based Data Model in Postgres on the AirBnB dataset [[source code](04-serving/lab-airbnb-postgres-datamodel)]
+* [ ] Car company Data Model in MySQL [[source code](04-serving/lab-cars-mysql-datamodel)]
+* [ ] Create a star schema from 3NF schema on DVD rental Pagila dataset [[source code](04-serving/lab-dvd-rental-datamodel)]
+* [ ] Create a Postgres data model of Google Playstore dataset [[source code](04-serving/lab-google-playstore-datamodel)]
+* [ ] Inegi Snowflake Data Model [[source code](04-serving/lab-inegi-snowflake-datamodel)]
+* [ ] Northwind Data Model in MySQL [[source code](04-serving/lab-mysql-northwind-datamodel)]
+* [ ] Retail Store Data Model in MySQL [[source code](04-serving/lab-mysql-retail-store-datamodel)]
+* [ ] Creating a Bus Rapid Transit (BRT) Database in Postgres [[source code](04-serving/lab-postgres-busrapid-transit)]
+* [ ] Create Fact and Dimension Tables from Denormalized Raw Data [[source code](04-serving/lab-postgres-elt-datamodel)]
+* [ ] Postgres e-Wallet Data Model [[source code](04-serving/lab-postgres-ewallet-datamodel)]
+* [ ] Housing Data Model with CDC and SCD Type 2 [[source code](04-serving/lab-postgres-housing-cdc-scd)]
+* [ ] Credit Debit Finance Data Model in Snowflake [[source code](04-serving/lab-snowflake-creditdebit-datamodel)]
+* [ ] Sparkify Music Company Data Model in Postgres [[source code](04-serving/lab-sparkify-data-model-postgres)]
+
+### Serving Layer - NoSQL Data Modeling
+
+* [ ] Building a nosql data model for a music company in Cassandra
+* [ ] Create a NoSQL Data Model for a Digital Music Library using Cassandra [[source code](02-storage/datalakes/lab-adl-securing-monitoring-lakes)]
+* [ ] Create a NoSQL Data Model for an Email System using Cassandra [[source code](04-serving/cassandra-email-data-model)]
+* [ ] Create a NoSQL Data Model for Hotel Reservations using Cassandra [[source code](04-serving/cassandra-hotel-reservations)]
+* [ ] Create a NoSQL Data Model for Investment Accounts or Portfolios using Cassandra [[source code](04-serving/cassandra-investment-data-model)]
+* [ ] Create a NoSQL Data Model for Temperature Monitoring Sensor Networks using Cassandra [[source code](04-serving/cassandra-sensor-data-model)]
+* [ ] Create a NoSQL Data Model for Online Shopping Carts using Cassandra [[source code](04-serving/cassandra-shopping-cart-data-model)]
+* [ ] Ingest Movies data into CouchDB database [[source code](02-storage/nosql-databases/couchdb/lab-couchdb-movies-data-migration)]
+
 ### Data Extraction
 
 * [ ] Extract data using API from archive.org [[source code](03-processing/pubsub/lab-gcp-pubsub.md)]
@@ -342,8 +299,10 @@
 * [ ] Extract synthetic data using Faker library in python [[source code](05-extraction/faker/lab-generate-data-with-faker)]
 * [ ] Extract data using Web Scraping from Finance websites [[source code](05-extraction/webscraping/lab-finance-extract-load)]
 
-### Workflow Orchestration
+### Orchestration and Data Pipelines
 
+* [ ] Getting started with Airflow - Install Airflow in local system, Starting Airflow Web server and Scheduler, Building a BASH commands execution pipeline in Airflow, Building a CSV to JSON pipeline in Airflow [[source code](06-orchestration/airflow/lab-airflow-getting-started)]
+* [ ] Integrate email notifications in Airflow with AWS SNS/SES service [[source code](06-orchestration/airflow/lab-airflow-email-notifications)]
 * [ ] Copying BigQuery Tables Across Different Locations using Cloud Composer [[source code](02-storage/warehouses/bigquery/lab-gcp-bigquery-composer)]
 * [ ] Bike Sharing Service Data Pipeline using Cloud Composer [[source code](06-orchestration/airflow/lab-bike-sharing-service-pipeline)]
 * [ ] Forex ETL with Airflow [[source code](06-orchestration/airflow/lab-forex-etl)]
@@ -379,33 +338,49 @@
 
 * [ ] Basics of Regression and Classification models on Tabular data
 * [ ] Getting started with NLP Deep Learning - Text Classification, Topic Modeling, Chatbots, Language Modeling, Named Entity Recognition, Text Clearning, Text Embedding, Text Generation, Text Similarity, Text Summarization, Transformers, Word2vec
-* [ ] Getting started with Computer Vision Deep Learning - Face Detection and Recognition, Image Classification, Image Similairty, Image Segmentation, Object Detection, Pose Estimation, Object Tracking, Scene Text Recognition, Video Classification, Video Action Recognition
 * [ ] Getting started with Recommender Systems - Content-based Recommender Systems, Collaborative  Recommender Systems, Hybrid Recommender Systems, Session-based Recommender Systems, Candidate Retrieval Model, Scoring and Ranking Model
+
+### Computer Vision
+
+* [ ] Common Use Cases - Face Detection and Recognition, Image Classification, Image Similairty, Image Segmentation, Object Detection, Pose Estimation, Object Tracking, Scene Text Recognition, Video Classification, Video Action Recognition [[link to note](19-computer-vision/README.md)]
+* [ ] Video Classification Modeling with X3D Model [[source code](19-computer-vision/lab-video-classification)]
 
 ### Capstone Projects
 
-* [ ] Building End to end data pipeline in AWS - Activity 1: Ingestion with DMS, Activity 2: Data Lake Hydration, Activity 3: DMS Migration, Activity 4: Transforming data with Glue - Data Validation and ETL, Activity 5: Query and Visualize [[source code](12-capstones/cloudmaze)]
-* [ ] Funflix - You are working as a data engineer in an Australian media company Funflix. You got the following requirements and tasks to solve. 1 - Design the data warehouse for Funflix. 2 - Build and deploy the data pipeline for Funflix's multi-region business. 3 - Build a data lake [[source code](12-capstones/funflix)]
+* [ ] ACLED ETL Data Pipeline for war and conflict analysis (Airflow, Postgres, Glue, Spark) [[source code](12-capstones/acled)]
+* [ ] Sales & Orders ELT Data Pipeline (dbt, Redshift, SQL, Jinja) [[source code](12-capstones/dbt-redshift)]
+* [ ] Building End to end data pipeline in AWS [[source code](12-capstones/cloudmaze)]
+  * [ ] Activity 1: Ingestion with DMS
+  * [ ] Activity 2: Data Lake Hydration
+  * [ ] Activity 3: DMS Migration
+  * [ ] Activity 4: Transforming data with Glue - Data Validation and ETL
+  * [ ] Activity 5: Query and Visualize
+* [ ] Funflix - Australian media company [[source code](12-capstones/funflix)]
+  * [ ] Design the data warehouse for Funflix
+  * [ ] Build and deploy the data pipeline for Funflix's multi-region business
+  * [ ] Build a data lake for the organization
 * [ ] Datalake Schema Correction (AWS S3, Glue, Athena) [[source code](12-capstones/hmc)]
-* [ ] Kortex - In this Capstone project, you will: 1. Design a data platform that uses MySQL as an OLTP database and MongoDB as a NoSQL database. 2. Design and implement a data warehouse and generate reports from the data. 3. Design a reporting dashboard that reflects the key metrics of the business. 4. Extract data from OLTP, and NoSQL databases, transform it and load it into the data warehouse, and then create an ETL pipeline. 5. And finally, create a Spark connection to the data warehouse, and then deploy a machine learning model [[source code](12-capstones/kortex)]
+* [ ] Kortex [[source code](12-capstones/kortex)]
+  * [ ] Design a data platform that uses MySQL as an OLTP database and MongoDB as a NoSQL database
+  * [ ] Design and implement a data warehouse and generate reports from the data
+  * [ ] Design a reporting dashboard that reflects the key metrics of the business
+  * [ ] Extract data from OLTP, and NoSQL databases, transform it and load it into the data warehouse, and then create an ETL pipeline
+  * [ ] And finally, create a Spark connection to the data warehouse, and then deploy a machine learning model
 * [ ] Movie Review Sentiment Analysis Pipeline - Build a pipeline that expresses the fact artist review sentiment and film review sentiment, based on the data provided by IMDb and TMDb [[source code](12-capstones/movie-sentiment)]
 * [ ] Building Recommender System from Scratch - In this capstone, you will build 1. Front-end website built with Plotly Dash. 2. Clickstream data collection using Divolte pipeline. 3. Model building in python. 4. Recommendation Serving [[source code](12-capstones/recofront)]
-* [ ] Reddit Submissions, Authors and Subreddits analysis - This project will use a sample of publicly available dump of Reddit and load it into a AWS Redshift warehouse so that Data Scientists can make use of the content and for example develop a recommender system that finds the most suitable subreddit for your purposes. The goal of this project is to create a Data Warehouse to analyze trending and new subreddits using Airflow. The project uses the Reddit API to get subreddits and stores them on AWS S3 in JSON format. Data processing happens on an EMR cluster on AWS using PySpark and processed data gets stored on AWS S3 in parquet format. Finally, the data gets inserted into AWS Redshift, gets denormalized to create fact and dimension tables [[source code](12-capstones/reddit)]
+* [ ] Reddit Submissions, Authors and Subreddits analysis [[source code](12-capstones/reddit)]
+  * [ ] This project will use a sample of publicly available dump of Reddit and load it into a AWS Redshift warehouse so that Data Scientists can make use of the content and for example develop a recommender system that finds the most suitable subreddit for your purposes. The goal of this project is to create a Data Warehouse to analyze trending and new subreddits using Airflow. The project uses the Reddit API to get subreddits and stores them on AWS S3 in JSON format. Data processing happens on an EMR cluster on AWS using PySpark and processed data gets stored on AWS S3 in parquet format. Finally, the data gets inserted into AWS Redshift, gets denormalized to create fact and dimension tables
 * [ ] Data Pipeline with dbt, Airflow and Great Expectations - In this project, we will learn how to combine the functions of three open source tools - Airflow, dbt and Great expectations - to build, test, validate, document, and orchestrate an entire pipeline, end to end, from scratch. We are going to load the NYC Taxi data into Redshift warehouse and then transform and validate the data using dbt and great expectations. By the end of this project, you’ll understand- The basics of dbt, Airflow, and Great Expectations - How to effectively combine these components to build a robust data pipeline - When and how to implement data validation using these tools - How to start developing a data quality strategy for your organization that goes beyond implementing data validation. And you’ll be able to - Write and run Airflow, dbt, and Great Expectations code - Design and implement a robust data pipeline - Implement data validation and alerting across a data pipeline [[source code](12-capstones/robust-data-pipeline)]
-* [ ] Sparkify - In this capstone, you will build 1. SQL Data Modeling with Postgres, 2. NoSQL Data Modeling with Cassandra, 3. Data Lake with AWS and PySpark, 4. Data Warehouse with Redshift, 5. Data Pipeline with Airflow [[source code](12-capstones/spectrum)]
+* [ ] Sparkify [[source code](12-capstones/spectrum)]
+  * [ ] SQL Data Modeling with Postgres
+  * [ ] NoSQL Data Modeling with Cassandra
+  * [ ] Data Lake with AWS and PySpark
+  * [ ] Data Warehouse with Redshift
+  * [ ] Data Pipeline with Airflow
 * [ ] US Immigration analysis and data pipeline - In this capstone, you will build - 1. Data Load into S3, 2. Data Preprocessing with PySpark, 3. Data Modeling and Warehousing with Amazon Redshift, 4. Advanced analytics using Python and Matplotlib and 5. Convert the whole process into an airflow pipeline [[source code](12-capstones/us-immigration)]
 * [ ] CitiBike Trip Histories Data Pipeline - In this capstone, you will build an end-to-end data pipeline. Cloud: GCP, Data Lake (DL): GCS, Data Warehouse (DWH): BigQuery, Infrastructure as code (IaC): Terraform, Workflow orchestration: Airflow, Transforming data: DBT, and Data Visualization: Google Data Studio [[source code](12-capstones/citibike-trip-histories)]
 * [ ] Global Historical Climatology Network Daily Data Pipeline - In this capstone, your goal is to build a global historical climatology network data pipeline that runs daily. Cloud: GCP, Infrastructure as code (IaC): Terraform, Workflow orchestration: Airflow (ingestion pipeline and transformation pipeline), Data Warehouse: BigQuery, Data Lake: GCS, Batch processing/Transformations: dbt cloud or DataProc/Spark (transformation pipeline), and Dashboard: Google Data Studio [[source code](12-capstones/climate)]
 
-## Level 300
+## Contact us
 
-### Computer Vision
-
-* [ ] Common Use Cases - Image Classification, Image Similarity, Object Detection, Image Segmentation, Pose Estimation, Object Tracking, Video Classification, Face Detection and Recognition [[link to note](19-computer-vision/README.md)]
-* [ ] Video Classification Modeling with X3D Model [[source code](19-computer-vision/lab-video-classification)]
-
-## How to start learning
-
-1. Self-guided - You will find all the content in this repo. It is free and open-source
-2. [Guided](https://api.whatsapp.com/send?phone=918384805365&text=Hi%20Sparsh%0AI%20am%20interested%20in%20the%20data%20engineering%20training) - $175 for 55-hours of training - Zoom sessions - 2 hrs/day
-3. [Contractual](https://api.whatsapp.com/send?phone=918484005449&text=Hi%20Vishwas%20(Wynisco)%0AI%20am%20interested%20in%20the%20data%20engineering%20training%20from%20Sparsh) (US & Canada only) - Pay after getting hired - 15% of your income for 1 year, directly to agency partner
+- [Whatsapp](https://api.whatsapp.com/send?phone=918384805365&text=Hi%20Sparsh%0AI%20am%20interested%20in%20the%20data%20engineering%20training)
