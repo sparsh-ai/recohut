@@ -28,7 +28,18 @@ Watch this video: https://www.youtube.com/embed/AK7_m-aThfw
 
 We will now list some of the additional advantages that made the SQL language the standard used in relational databases.
 
-Key advantages of SQL
+## Key Concepts
+
+1. *Data definition:* The ability to create and modify the structure of a database, including creating tables, defining columns and data types, and setting constraints.
+2. *Data manipulation:* The ability to add, update, and delete data within a database, as well as retrieve specific data using SELECT statements.
+3. *Data integrity:* Ensuring that the data within a database is accurate, consistent, and free of errors, through the use of constraints, keys, and indexes.
+4. *Data querying:* Retrieving specific data from a database using SELECT statements, filtering and sorting the data, and joining tables to combine data from multiple sources.
+5. *Data modeling: *The ability to represent real-world entities and relationships in a database through the use of tables, columns, and keys.*
+6. *Data normalization: *The process of organizing data in a database to minimize data redundancy and improve data integrity.*
+7. *Data security:* Techniques for protecting a database from unauthorized access, such as through the use of user accounts, passwords, and access controls.
+8. *Data maintenance: *The ability to backup, restore, and optimize a database to ensure its ongoing performance and stability.*
+
+Key Advantages of SQL
 ---------------------
 
 The list of advantages is very long, but the main points are as follows:
@@ -38,7 +49,7 @@ The list of advantages is very long, but the main points are as follows:
 - **Portability**: Because it is standard in several *DBMSs*, SQL is portable between these different types of database managers, even though there are some particularities in the SQL of each.
 - **Multiple data views**: With SQL, it is possible to define different views of the database structure for different user needs. For example, you might have users who are only allowed to explore the data and perform **SELECT** commands, whereas other users can add columns in tables but cannot delete any columns. This granularity of permissions makes databases more fully configurable.
 
-Key disadvantages of SQL
+Key Disadvantages of SQL
 ------------------------
 
 Of course, we can find more disadvantages when we know about NoSQL databases, but the disadvantages most encountered by data architects to justify an analysis of other databases are these:
@@ -66,6 +77,46 @@ The following diagram demonstrates the categories of the SQL language and their
 ![B18569_03_03](https://user-images.githubusercontent.com/62965911/218838205-321df2ab-06b7-4737-8570-6d8c52e5e543.jpeg)
 
 These five categories contain all the necessary syntaxes of SQL commands for operations in a database.
+
+## Key Commands
+
+Important Commands that you must know:
+
+- CREATE - To create table or view or database
+- SELECT - To select the data values from the table in a database
+- FROM - To specify table name from where we are retrieving the records
+- WHERE - To filter the results based on the condition specified in the where clause
+- LIMIT - To limit the number of rows returned as the result
+- DROP - To delete the table or database
+- UPDATE - To update the data in the table
+- DELETE - To delete the rows in the table
+- ALTER TABLE - To add or remove columns from the table
+- AS - To rename column with an alias name
+- JOIN - To combine the rows of 2 or more tables
+- AND - To combine rows in which records from both/more table are evaluated using And condition
+- OR - To combine rows in which records from both/more table are evaluated using Or condition
+- IN - To specify multiple values using the where clause/condition
+- LIKE - To search/identify the patterns in the column
+- IS NULL - To check and return those rows that contains NULL values
+- CASE - To return values after evaluating the specified condition
+- GROUP BY - To group rows which consist of same values into the summary rows/columns
+- ORDER BY - To specify the order of the result returned ( ASC or DESC)
+- HAVING - To specify conditions for aggregate functions
+- COUNT - To count the number of rows
+- SUM - To return sum of the column
+- AVG - To return average of the column
+- MIN - To return min value in the column
+- MAX - To return max value in the column
+
+## Key Functions
+
+* **Aggregate functions:** These functions are used to summarize data, such as counting the number of rows, calculating the sum or average of a column, or finding the minimum or maximum value. Examples include COUNT(), SUM(), AVG(), MIN(), and MAX().
+* **Window functions:** These functions are used to perform calculations across rows within a specific window or frame of a query result set. Examples include ROW_NUMBER(), RANK(), DENSE_RANK() and NTILE().
+* **String functions:** These functions are used to manipulate and extract information from strings. Examples include SUBSTRING(), LENGTH(), CONCAT(), UPPER(), and LOWER().
+* **Date and time functions:** These functions are used to work with date and time data. Examples include CURRENT_DATE(), CURRENT_TIME(), CURRENT_TIMESTAMP(), and EXTRACT().
+* **Conversion functions:** These functions are used to convert data from one type to another. Examples include CAST() and CONVERT().
+* **Conditional functions:** These functions are used to perform conditional calculations. Examples include CASE(), COALESCE() and NULLIF().
+* **Analytic functions:** These functions are used to perform complex calculations over a group of rows. Examples include RANK(), DENSE_RANK(), ROW_NUMBER(), and LEAD() and LAG().
 
 ## Describing the database components
 
@@ -912,6 +963,19 @@ Improved query:
 SELECT * FROM SH.sales s WHERE s.cust_id < 25000
 ```
 
+**Some of the most Query Optimizations techniques are —**
+
+1. **Use indexes:** Indexes can greatly improve the performance of your queries by allowing the database to quickly locate the data it needs.
+2. **Limit the number of rows returned:** Use the "LIMIT" clause to limit the number of rows returned by a query. This can improve performance and reduce memory usage.
+3. **Use the right join type:** Use the appropriate join type (e.g. inner join, left join, right join) based on the specific needs of your query.
+4. **Use subqueries wisely:** Subqueries can be useful, but they can also slow down a query if used excessively. Use subqueries sparingly and make sure they are optimized.
+5. **Avoid using "SELECT"**: Instead of using "SELECT", specify the specific columns you need in your query. This can improve performance and reduce memory usage.
+6. **Avoid using functions on indexed columns:** Avoid using functions on indexed columns in the WHERE clause.
+7. **Use Temporary table:** Use temporary tables to store intermediate results and then join them with other tables.
+8. **Use Explain plan:** Use the "EXPLAIN PLAN" statement to analyze the execution plan of a query and identify any potential performance bottlenecks.
+9. **Use Partitioning:** Use partitioning to divide large tables into smaller, more manageable pieces.
+10. **Use caching:** Use caching to store the results of frequently-run queries in memory, so they can be retrieved quickly without the need to re-run the query.
+
 ### Stored Procedures
 
 If you want to save your SQL query on the database server for execution later, one way to do it is to use a stored procedure.
@@ -1027,7 +1091,143 @@ The SQL standard defines two types of triggers: row-level triggers and statement
 - Triggers can be difficult to troubleshoot because they execute automatically in the database, which may not invisible to the client applications.
 - Triggers may increase the overhead of the MySQL Server.
 
-## Database Problems
+## SQL vs. NoSQL
+
+SQL was initially created to be the language for generating, manipulating, and retrieving data from relational databases, which have been around for more than 40 years. Over the past decade or so, however, other data platforms such as Hadoop, Spark, and NoSQL have gained a great deal of traction, eating away at the relational database market. However, the SQL language has been evolving to facilitate the retrieval of data from various platforms, regardless of whether the data is stored in tables, documents, or flat files.
+
+Whether you will be using a relational database or not, if you are working in data engineering, business intelligence, or some other facet of data analysis, you will likely need to know SQL, along with other languages/platforms such as Python and R. Data is everywhere, in huge quantities, and arriving at a rapid pace, and people who can extract meaningful information from all this data are in big demand.
+
+### Aggregation, Grouping, Ordering & Filtering
+
+The aggregation functions perform calculations on multiple rows and return the result as one value, collapsing the individual rows in the process. When an aggregation function is used, you need to group the data on fields which are not aggregated by using a GROUP BY clause.
+
+Filtering is used when you need to extract a subset of data by using a specific condition. You can use WHERE and HAVING clauses to filter the data as per your needs.
+
+### Joins and Unions
+
+Data Engineers are typically responsible for collating different data sources together and providing a cleaner source of information for the Data Scientists or Data Analysts. In order to collate data from different sources, they need a good understanding of SQL Joins and Unions.
+
+### CTEs, Sub Queries, and Window Functions
+
+As the queries become more complex, it’s not always possible to write a single query and do all the analysis. Sometimes, it’s necessary to create a temporary table and use the results in a new query to perform analysis at different levels. We can use a subquery, a CTE (Common Table Expression), or a TEMP (Temporary) table for this. As a Data Engineer, you need to understand these concepts to write better and optimized SQL queries.
+
+### Query breakdown
+
+| Statement | How to Use It               | Other Details                                         |
+| --------- | --------------------------- | ----------------------------------------------------- |
+| SELECT    | SELECT Col1, Col2, ...      | Provide the columns you want                          |
+| FROM      | FROM Table                  | Provide the table where the columns exist             |
+| LIMIT     | LIMIT 10                    | Limits based number of rows returned                  |
+| ORDER BY  | ORDER BY Col                | Orders table based on the column. Used with DESC.     |
+| WHERE     | WHERE Col > 5               | A conditional statement to filter your results        |
+| LIKE      | WHERE Col LIKE '%me%'       | Only pulls rows where column has 'me' within the text |
+| IN        | WHERE Col IN ('Y', 'N')     | A filter for only rows with column of 'Y' or 'N'      |
+| NOT       | WHERE Col NOT IN ('Y', 'N') | NOT is frequently used with LIKE and IN               |
+| AND       | WHERE Col1 > 5 AND Col2 < 3 | Filter rows where two or more conditions must be true |
+| OR        | WHERE Col1 > 5 OR Col2 < 3  | Filter rows where at least one condition must be true |
+| BETWEEN   | WHERE Col BETWEEN 3 AND 5   | Often easier syntax than using an AND                 |
+
+## Common types of NoSQL
+
+### Key-value stores
+
+- Array of key-value pairs. The "key" is an attribute name.
+- Redis, Vodemort, Dynamo.
+
+### Document databases
+
+- Data is stored in documents.
+- Documents are grouped in collections.
+- Each document can have an entirely different structure.
+- CouchDB, MongoDB.
+
+### Wide-column / columnar databases
+
+- Column families - containers for rows.
+- No need to know all the columns up front.
+- Each row can have different number of columns.
+- Cassandra, HBase.
+
+### Graph database
+
+- Data is stored in graph structures
+  - Nodes: entities
+  - Properties: information about the entities
+  - Lines: connections between the entities
+- Neo4J, InfiniteGraph
+
+## Differences between SQL and NoSQL
+
+### Storage
+
+- SQL: store data in tables.
+- NoSQL: have different data storage models.
+
+### Schema
+
+- SQL
+  - Each record conforms to a fixed schema.
+  - Schema can be altered, but it requires modifying the whole database.
+- NoSQL:
+  - Schemas are dynamic.
+
+### Querying
+
+- SQL
+  - Use SQL (structured query language) for defining and manipulating the data.
+- NoSQL
+  - Queries are focused on a collection of documents.
+  - UnQL (unstructured query language).
+  - Different databases have different syntax.
+
+### Scalability
+
+- SQL
+  - Vertically scalable (by increasing the horsepower: memory, CPU, etc) and expensive.
+  - Horizontally scalable (across multiple servers); but it can be challenging and time-consuming.
+- NoSQL
+  - Horizontablly scalable (by adding more servers) and cheap.
+
+### ACID
+
+- Atomicity, consistency, isolation, durability
+- SQL
+  - ACID compliant
+  - Data reliability
+  - Gurantee of transactions
+- NoSQL
+  - Most sacrifice ACID compliance for performance and scalability.
+
+## Which one to use?
+
+### SQL
+
+- Ensure ACID compliance.
+  - Reduce anomalies.
+  - Protect database integrity.
+- Data is structured and unchanging.
+
+### NoSQL
+
+- Data has little or no structure.
+- Make the most of cloud computing and storage.
+  - Cloud-based storage requires data to be easily spread across multiple servers to scale up.
+- Rapid development.
+  - Frequent updates to the data structure.
+
+## Resources
+
+1. [SQL Cheat Sheet](https://www.interviewbit.com/sql-cheat-sheet/)
+2. [What I realized after solving 100 leetcode SQL questions](https://towardsdatascience.com/sql-questions-summary-df90bfe4c9c)
+3. [LeetCode SQL Problem Solving Questions With Solutions](https://www.dsfaisal.com/articles/sql/leetcode-sql-problem-solving)
+4. [HackerRank SQL Problem Solving Questions With Solutions](https://www.dsfaisal.com/articles/sql/hackerrank-sql-problem-solving#1-revising-the-select-query-i--easy--hackerrank)
+5. [SQL Interview Questions](https://knowledgetree.notion.site/SQL-Interview-Questions-04a1196192a24eb2848e8454af1bd9c7)
+6. [Data Engineer Interview Questions](https://www.stratascratch.com/blog/data-engineer-interview-questions/)
+7. [10 SQL Queries You Should Know as a Data Engineer](https://knowledgetree.notion.site/10-SQL-Queries-You-Should-Know-as-a-Data-Engineer-4e157d42c4ce4ae08050e99f3b33b82b)
+8. [SQL JOIN Interview Questions](https://www.stratascratch.com/blog/sql-join-interview-questions/)
+9. [The Ultimate Guide to SQL Window Functions](https://www.stratascratch.com/blog/the-ultimate-guide-to-sql-window-functions/)
+
+## Database Questions
 
 1. [https://leetcode.com/problems/combine-two-tables/](https://leetcode.com/problems/combine-two-tables/)
 2. [https://leetcode.com/problems/employees-earning-more-than-their-managers/](https://leetcode.com/problems/employees-earning-more-than-their-managers/)
