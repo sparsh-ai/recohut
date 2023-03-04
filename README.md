@@ -538,4 +538,4 @@
 
 ## Contact us
 
-- [Whatsapp](https://api.whatsapp.com/send?phone=918384805365&text=Hi%20Sparsh%0AI%20am%20interested%20in%20the%20data%20engineering%20training)
+We also provide personal trainings in a batch size of 10. There will be a 55-hours hands-on intensive training over zoom and the total price would be $175 (incl. of taxes). For any query or concern, contact us on [Whatsapp](https://api.whatsapp.com/send?phone=918384805365&text=Hi%20Sparsh%0AI%20am%20interested%20in%20the%20data%20engineering%20training).
