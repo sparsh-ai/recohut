@@ -1,0 +1,252 @@
+SLNO,Disease_Category_Id,Disease_agent,Vaccine_availability
+1,1,Acinetobacter baumannii,No
+2,2,Actinomyces israelii Actinomyces gerencseriae and Propionibacterium propionicus,No
+3,3,Adenoviridae,Under research
+4,4,Trypanosoma brucei,Under research
+5,5,HIV (Human immunodeficiency virus),Under research
+6,6,Entamoeba histolytica,No
+7,7,Anaplasma species,No
+8,8,Angiostrongylus,No
+9,9,Anisakis,No
+10,10,Bacillus anthracis,Yes
+11,11,Arcanobacterium haemolyticum,No
+12,12,Junin virus,Yes[4]
+13,13,Ascaris lumbricoides,No
+14,14,Aspergillus species,No
+15,15,Astroviridae species,No
+16,16,Babesia species,No
+17,17,Bacillus cereus,No
+18,18,multiple bacteria,No
+19,19,multiple bacteria,No
+20,20,List of bacterial vaginosis microbiota,No
+21,21,Bacteroides species,No
+22,22,Balantidium coli,No
+23,23,Bartonella,No
+24,24,Baylisascaris species,No
+25,25,BK virus,No
+26,26,Piedraia hortae,No
+27,27,Blastocystis species,No
+28,28,Blastomyces dermatitidis,No
+29,29,Machupo virus,No
+30,30,Clostridium botulinum Note: Botulism is not an infection by Clostridium botulinum but caused by the intake of botulinum toxin.,No
+31,31,Sabia virus,No
+32,32,Brucella species,Yes[5]
+33,33,Yersinia pestis,Under research
+34,34, Burkholderia cepacia and other Burkholderia species,No
+35,35,Mycobacterium ulcerans,No
+36,36,Caliciviridae species,No
+37,37,Campylobacter species,No
+38,38, Candida albicans and other Candida species,No
+39,39,Intestinal disease by Capillaria philippinensis hepatic disease by Capillaria hepatica and pulmonary disease by Capillaria aerophila,No
+40,40,Streptococcus mutans ,Under research
+41,41,Bartonella bacilliformis,No
+42,42,Bartonella henselae,No
+43,43, Group A Streptococcus and Staphylococcus,No
+44,44,Trypanosoma cruzi,Under research
+45,45,Haemophilus ducreyi,No
+46,46,Varicella zoster virus (VZV),Yes
+47,47,Alphavirus,Under research
+48,48,Chlamydia trachomatis,No
+49,49,Chlamydophila pneumoniae,No
+50,50,Vibrio cholerae,Yes
+51,51, Fonsecaea pedrosoi,No
+52,52,Batrachochytrium dendrabatidis,No
+53,53,Clonorchis sinensis,No
+54,54,Clostridium difficile,No
+55,55,Coccidioides immitis and Coccidioides posadasii,No
+56,56,Colorado tick fever virus (CTFV),No
+57,57, rhinoviruses and coronaviruses,No
+58,58,Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2),Yes
+59,59,Coxsackie B virus,Under research
+60,60,PRNP,No
+61,61,Crimean-Congo hemorrhagic fever virus,No
+62,62,Cryptococcus neoformans,No
+63,63,Cryptosporidium species,No
+64,64, Ancylostoma braziliense multiple other parasites,No
+65,65,Cyclospora cayetanensis,No
+66,66,Taenia solium,No
+67,67,Cytomegalovirus,Under research
+68,68,Dengue viruses (DEN- DEN-2 DEN-3 and DEN-) – Flaviviruses,Yes
+69,69,Green algae Desmodesmus armatus,No
+70,70,Dientamoeba fragilis,No
+71,71,Corynebacterium diphtheriae,Yes
+72,72,Diphyllobothrium,No
+73,73,Dracunculus medinensis,No
+74,74,Eastern equine encephalitis virus,Under research
+75,75,Ebolavirus (EBOV),Yes
+76,76,Echinococcus species,No
+77,77,Ehrlichia species,Under research
+78,78,Enterobius vermicularis,No
+79,79,Enterococcus species,No
+80,80,Enterovirus species,No
+81,81,Rickettsia prowazekii,No
+82,82,Parvovirus B9,No
+83,83,Human herpesvirus 6 (HHV-6) and human herpesvirus 7 (HHV-7),No
+84,84,Fasciola hepatica and Fasciola gigantica,No
+85,85,Fasciolopsis buski,No
+86,86,PRNP,No
+87,87,Filarioidea superfamily,No
+88,88,Clostridium perfringens,No
+89,89,multiple,No
+90,90,Fusobacterium species,No
+91,91, Clostridium perfringens other Clostridium species,No
+92,92,Geotrichum candidum,No
+93,93,PRNP,No
+94,94,Giardia lamblia,No
+95,95,Burkholderia mallei,No
+96,96,Gnathostoma spinigerum and Gnathostoma hispidum,No
+97,97,Neisseria gonorrhoeae,Under research
+98,98,Klebsiella granulomatis,No
+99,99,Streptococcus pyogenes,No
+100,100,Streptococcus agalactiae,No
+101,101,Haemophilus influenzae,Yes
+102,102,Enteroviruses mainly Coxsackie A virus and enterovirus 7 (EV7),Under research
+103,103,Sin Nombre virus,No
+104,104,Heartland virus,No
+105,105,Helicobacter pylori,No
+106,106,Escherichia coli O57:H7 O and O0:H,No
+107,107,Bunyaviridae species,No
+108,108,Hendra virus,No
+109,109,Hepatitis A virus,Yes
+110,110,Hepatitis B virus,Yes
+111,111,Hepatitis C virus,Under research
+112,112,Hepatitis D Virus,No
+113,113,Hepatitis E virus,Yes
+114,114,Herpes simplex virus  and 2 (HSV- and HSV-2),No
+115,115,Histoplasma capsulatum,No
+116,116,Ancylostoma duodenale and Necator americanus,Under research
+117,117,Human bocavirus (HBoV),No
+118,118,Ehrlichia ewingii,No
+119,119,Anaplasma phagocytophilum,No
+120,120,Human metapneumovirus (hMPV),No
+121,121,Ehrlichia chaffeensis,No
+122,122,One of the human papillomaviruses,Yes
+123,123,Human parainfluenza viruses (HPIV),Under research
+124,124,Human T-lymphotropic virus  (HTLV-),Under research
+125,125,Hymenolepis nana and Hymenolepis diminuta,No
+126,126,Epstein–Barr virus (EBV),Under research
+127,127,Orthomyxoviridae species,Under research
+128,128,NA,NA
+129,129,Isospora belli,No
+130,130,Japanese encephalitis virus,Yes
+131,131,unknown evidence supports that it is infectious,No
+132,132,multiple,No
+133,133,Kingella kingae,No
+134,134,PRNP,No
+135,135,Lassa virus,No
+136,136,Legionella pneumophila,No
+137,137,Legionella pneumophila,No
+138,138,Leishmania species,Under research
+139,139,Mycobacterium leprae and Mycobacterium lepromatosis,Under research
+140,140,Leptospira species,Yes
+141,141,Listeria monocytogenes,No
+142,142,Borrelia burgdorferi Borrelia garinii and Borrelia afzelii,Under research
+143,143,Wuchereria bancrofti and Brugia malayi,No
+144,144,Lymphocytic choriomeningitis virus (LCMV),No
+145,145,Plasmodium species,Yes
+146,146,Marburg virus,Under research
+147,147,Measles virus,Yes
+148,148,Middle East respiratory syndrome–related coronavirus,Under research
+149,149,Burkholderia pseudomallei,No
+150,150,multiple,No
+151,151,Neisseria meningitidis,Yes
+152,152, Metagonimus yokagawai,No
+153,153,Microsporidia phylum,No
+154,154,Molluscum contagiosum virus (MCV),No
+155,155,Monkeypox virus,Yes
+156,156,Mumps virus,Yes
+157,157,Rickettsia typhi,No
+158,158,Mycoplasma pneumoniae,No
+159,159,Mycoplasma genitalium,No
+160,160,numerous species of bacteria (Actinomycetoma) and fungi (Eumycetoma),No
+161,161,parasitic dipterous fly larvae,No
+162,162,most commonly Chlamydia trachomatis and Neisseria gonorrhoeae,No
+163,163,Nipah virus,Under research
+164,164,Norovirus,Under research
+165,165,PRNP,No
+166,166, Nocardia asteroides and other Nocardia species,No
+167,167,Onchocerca volvulus,Under research
+168,168,Opisthorchis viverrini and Opisthorchis felineus,No
+169,169,Paracoccidioides brasiliensis,No
+170,170, Paragonimus westermani and other Paragonimus species,No
+171,171,Pasteurella species,No
+172,172,Pediculus humanus capitis,No
+173,173,Pediculus humanus corporis,No
+174,174,Pthirus pubis,No
+175,175,multiple,No
+176,176,Bordetella pertussis,Yes
+177,177,Yersinia pestis,Under research
+178,178,Streptococcus pneumoniae,Yes
+179,179,Pneumocystis jirovecii,No
+180,180,multiple,No
+181,181,Poliovirus,Yes
+182,182,Prevotella species,No
+183,183, Naegleria fowleri,No
+184,184,JC virus,No
+185,185,Chlamydophila psittaci,No
+186,186,Coxiella burnetii,Yes
+187,187,Rabies virus,Yes
+188,188,Borrelia hermsii Borrelia recurrentis and other Borrelia species,No
+189,189,Respiratory syncytial virus (RSV),Under research
+190,190,Rhinosporidium seeberi,No
+191,191,Rhinovirus,No
+192,192,Rickettsia species,No
+193,193,Rickettsia akari,No
+194,194,Rift Valley fever virus,No
+195,195,Rickettsia rickettsii,No
+196,196,Rotavirus,Yes
+197,197,Rubella virus,Yes
+198,198,Salmonella species,No
+199,199,SARS coronavirus,Under research
+200,200,Sarcoptes scabiei,No
+201,201,Group A Streptococcus species,No
+202,202,Schistosoma species,Under research
+203,203,multiple,No
+204,204,Shigella species,No
+205,205,Varicella zoster virus (VZV),Yes[36]
+206,206,Variola major or Variola minor,Yes
+207,207,Sporothrix schenckii,No
+208,208,Staphylococcus species,No
+209,209,Staphylococcus species,No
+210,210,Strongyloides stercoralis,No
+211,211,Measles virus,Yes
+212,212,Treponema pallidum,Under research
+213,213,Taenia species,No
+214,214,Clostridium tetani,Yes
+215,215,Tick-borne encephalitis virus (TBEV),Yes
+216,216, Trichophyton species,No
+217,217, Trichophyton tonsurans,No
+218,218, Trichophyton species,No
+219,219, Epidermophyton floccosum Trichophyton rubrum and Trichophyton mentagrophytes,No
+220,220,Trichophyton rubrum,No
+221,221, Hortaea werneckii,No
+222,222, Trichophyton species,No
+223,223, Trichophyton species,No
+224,224,Malassezia species,No
+225,225,Staphylococcus aureus or Streptococcus pyogenes,Under research
+226,226,Toxocara canis or Toxocara cati,No
+227,227,Toxocara canis or Toxocara cati,No
+228,228,Toxoplasma gondii,No
+229,229,Chlamydia trachomatis,No
+230,230,Trichinella spiralis,No
+231,231,Trichomonas vaginalis,No
+232,232,Trichuris trichiura,No
+233,233, Mycobacterium tuberculosis,Yes
+234,234,Francisella tularensis,Under research
+235,235,Salmonella enterica subsp. enterica serovar typhi,Yes
+236,236,Rickettsia,No
+237,237,Ureaplasma urealyticum,No
+238,238,Coccidioides immitis or Coccidioides posadasii.,No
+239,239,Venezuelan equine encephalitis virus,No
+240,240,Guanarito virus,No
+241,241,Vibrio vulnificus,No
+242,242,Vibrio parahaemolyticus,No
+243,243,multiple viruses,No
+244,244,West Nile virus,Under research
+245,245,Trichosporon beigelii,No
+246,246,Yersinia pseudotuberculosis,No
+247,247,Yersinia enterocolitica,No
+248,248,Yellow fever virus,Yes
+249,249,Zeaspora fungus,No
+250,250,Zika virus,Under research
+251,251,Mucorales order (Mucormycosis) and Entomophthorales order (Entomophthoramycosis),No
