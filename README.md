@@ -2,11 +2,13 @@
 
 **Hit the ⭐️ button if you like the repo.**
 
-## Contact us
+## Join the Program
 
-Join the 55-hour intensive training program now. Price - $175. 
+Join the 55-hour intensive training program now.
 
-[Book your seat today!](https://api.whatsapp.com/send?phone=918384805365&text=Hi%20Sparsh%0AI%20am%20interested%20in%20the%20data%20engineering%20training)
+Price is $175 /- USE *DEITP30* Coupon code for a whopping 30% discount. *OFFER VALID FOR LIMITED TIME ONLY*
+
+[Book your seat today!](https://sparshcloud.typeform.com/to/fX9s14Ir)
 
 ## Curriculum
 
