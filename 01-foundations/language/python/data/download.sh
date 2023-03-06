@@ -36,3 +36,4 @@ aws s3 cp s3://wysde-datasets/python/data2.csv ./
 aws s3 cp s3://wysde-datasets/python/yelp_business.csv ./
 aws s3 cp s3://wysde-datasets/python/oscar_nominees.csv ./
 aws s3 cp s3://wysde-datasets/python/student-por.csv ./
+aws s3 cp s3://wysde-datasets/python/city_sales.csv ./

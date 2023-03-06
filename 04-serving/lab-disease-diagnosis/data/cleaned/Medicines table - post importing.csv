@@ -1,0 +1,143 @@
+ID,Drug_Name,Manufacturer_Name,Price,Disease_Category_Id
+1,"Abilify ","A & Z Pharmaceuticals Inc",87.58,1
+2,"Abilify Maintena","A & Z Pharmaceuticals Inc",109.00,2
+3,Abacavir,"A & Z Pharmaceuticals Inc",117.58,3
+4,Abaloparatide,"A & Z Pharmaceuticals Inc",110.16,4
+5,Abatacept,"A & Z Pharmaceuticals Inc",110.98,5
+6,Agomelatine,"A & Z Pharmaceuticals Inc",121.63,6
+7,AbobotulinumtoxinA,"A & Z Pharmaceuticals Inc",108.63,7
+8,Abrocitinib,"A & Z Pharmaceuticals Inc",87.17,8
+9,Acetadote,"A & Z Pharmaceuticals Inc",111.84,9
+10,"Acetohydroxamic acid","A & Z Pharmaceuticals Inc",90.69,10
+11,"Acetylcysteine injection","Aavis Pharmaceuticals",100.30,11
+12,Actemra,"Aavis Pharmaceuticals",83.11,12
+13,"Acthar (corticotropin)","Aavis Pharmaceuticals",100.84,13
+14,"Acyclovir Buccal tablet","Aavis Pharmaceuticals",109.65,14
+15,"Alaquet ","Aavis Pharmaceuticals",115.70,15
+16,"Allegron ","Aavis Pharmaceuticals",94.11,16
+17,"Acyclovir capsule","Abbott Laboratories",119.36,17
+18,Adacel,"AbbVie Inc",86.20,18
+19,Adalimumab,"Abraxis BioScience Inc",128.40,19
+20,Adefovir,"ABER Pharmaceuticals LLC",112.02,20
+21,"Penicillin V","Acadia Pharmaceuticals",103.74,21
+22,Primaxin,"Acadia Pharmaceuticals",93.53,22
+23,pyrazinamide,"Acadia Pharmaceuticals",125.27,23
+24,Recarbrio,"Acadia Pharmaceuticals",83.60,24
+25,Rifadin,"Acadia Pharmaceuticals",122.31,25
+26,Silvadene,"Acceleron Pharma",85.28,26
+27,"Sivextro (tedizolid injection)","Acceleron Pharma",120.11,27
+28,"Solosec (secnidazole)","Acceleron Pharma",96.68,28
+29,"SSD (silver sulfadiazine-SSD)","Acceleron Pharma",97.35,29
+30,Streptomycin,"Acceleron Pharma",118.69,30
+31,sulfadiazine,"Acceleron Pharma",105.88,31
+32,"Sulfamylon (mafenide)","Acumen Pharmaceuticals",85.37,32
+33,Alprazolam,"Acumen Pharmaceuticals",102.87,33
+34,"Suprax (cefixime)","Acumen Pharmaceuticals",107.44,34
+35,"Teflaro (ceftaroline)","Acumen Pharmaceuticals",113.94,35
+36,"Terazol (terconazole)","Acumen Pharmaceuticals",126.35,36
+37,"Tygacil (tigecycline)","Acumen Pharmaceuticals",93.99,37
+38,"Vancocin (vancomycin capsule)","Acumen Pharmaceuticals",107.95,38
+39,"Vancomycin injection","Acumen Pharmaceuticals",82.71,39
+40,"Vibativ (telavancin)","Acumen Pharmaceuticals",120.94,40
+41,"Vibramycin (doxycycline calcium syrup)","Acumen Pharmaceuticals",88.85,41
+42,"Xenleta (lefamulin injection)","Acumen Pharmaceuticals",96.63,42
+43,"Xepi (ozenoxacin)","Acumen Pharmaceuticals",102.88,43
+44,"Xerava (eravacycline)","Acumen Pharmaceuticals",111.88,44
+45,"Xifaxan (rifaximin 200 mg)","Acumen Pharmaceuticals",114.52,45
+46,"Xifaxan (rifaximin 550 mg)","Acumen Pharmaceuticals",84.63,46
+47,Ximino,"Acumen Pharmaceuticals",106.86,47
+48,"Zemdri (plazomicin)","Acumen Pharmaceuticals",91.89,48
+49,Zerbaxa,"Acumen Pharmaceuticals",126.44,49
+50,"Zilxi (minocycline 1.5% foam)","Acumen Pharmaceuticals",91.97,50
+51,Zithromax,"Acura Pharmaceuticals",82.45,51
+52,Zosyn,"Adare Pharmaceuticals",110.73,52
+53,"Zyvox (linezolid injection)","Adare Pharmaceuticals",95.93,53
+54,cidofovir,"Adare Pharmaceuticals",95.60,54
+55,Cimduo,"Adare Pharmaceuticals",94.13,55
+56,Combivir,"Adare Pharmaceuticals",128.62,56
+57,Complera,"Adare Pharmaceuticals",129.80,57
+58,"Cytovene (ganciclovir injection)","Adare Pharmaceuticals",86.10,58
+59,Delstrigo,"Adare Pharmaceuticals",88.91,59
+60,"Denavir (penciclovir)","Adare Pharmaceuticals",82.13,60
+61,Descovy,"Adare Pharmaceuticals",99.62,61
+62,didanosine,"Adare Pharmaceuticals",100.73,62
+63,Dovato,"Adare Pharmaceuticals",100.07,63
+64,"Edurant (rilpivirine)","Adare Pharmaceuticals",115.00,64
+65,"Emtriva (emtricitabine)","Aegerion Pharmaceuticals",104.19,65
+66,Epclusa,"Aegerion Pharmaceuticals",102.93,66
+67,Epivir,"Aegerion Pharmaceuticals",81.41,67
+68,"Epivir HBV","Aegerion Pharmaceuticals",126.83,68
+69,Epzicom,"Aegerion Pharmaceuticals",86.05,69
+70,Evotaz,"Aegerion Pharmaceuticals",119.76,70
+71,famciclovir,"Aegerion Pharmaceuticals",129.61,71
+72,foscarnet,"Aegerion Pharmaceuticals",80.78,72
+73,"Fuzeon (enfuvirtide)","Aegerion Pharmaceuticals",116.04,73
+74,Genvoya,"Aegerion Pharmaceuticals",100.27,74
+75,Harvoni,"Aegerion Pharmaceuticals",84.60,75
+76,"Hepsera (adefovir)","Aegerion Pharmaceuticals",83.28,76
+77,"Intelence (etravirine)","Aegerion Pharmaceuticals",90.03,77
+78,"Invirase (saquinavir)","Aegerion Pharmaceuticals",107.03,78
+79,"Isentress (raltegravir)","Aegerion Pharmaceuticals",127.97,79
+80,Juluca,"Aegerion Pharmaceuticals",124.84,80
+81,"Alventa XL","Aegerion Pharmaceuticals",110.26,81
+82,Kaletra,"Aegerion Pharmaceuticals",108.07,82
+83,"Lexiva (fosamprenavir)","Aegerion Pharmaceuticals",122.21,83
+84,Alzain,"Aegerion Pharmaceuticals",102.91,84
+85,"Livtencity (maribavir)","Aegerion Pharmaceuticals",107.05,85
+86,Mavyret,"Aegerion Pharmaceuticals",116.32,86
+87,Norvir,"Aegerion Pharmaceuticals",83.77,87
+88,"Norvir (ritonavir tablet)","Aegerion Pharmaceuticals",114.50,88
+89,Odefsey,"Aegerion Pharmaceuticals",115.65,89
+90,Pegasys,"Aegerion Pharmaceuticals",81.38,90
+91,Pegintron,"Aerie Pharmaceuticals",129.27,91
+92,"Pifeltro (doravirine)","Aeterna Zentaris",101.94,92
+93,"Prevymis (letermovir)","Afaxys Pharmaceuticals",86.39,93
+94,Prezcobix,"Ajanta Pharma USA Inc",121.88,94
+95,"Prezista (darunavir)","Akcea Therapeutics",123.98,95
+96,"Relenza (zanamivir)","Akrimax Pharmaceuticals",106.30,96
+97,"Retrovir (zidovudine)","Alcon Laboratories Inc",86.24,97
+98,Amisulpride,"Alder Biopharmaceuticals Inc",88.25,98
+99,"Reyataz (atazanavir)","Alder Biopharmaceuticals Inc",114.78,99
+100,"ribavirin 200 mg capsule","Alder Biopharmaceuticals Inc",125.33,100
+101,"ribavirin tablet","Alder Biopharmaceuticals Inc",90.36,101
+102,rimantadine,"Alder Biopharmaceuticals Inc",86.42,102
+103,"Rukobia (fostemsavir)","Alder Biopharmaceuticals Inc",84.24,103
+104,"Selzentry (maraviroc solution)","Alder Biopharmaceuticals Inc",103.30,104
+105,"Sovaldi (sofosbuvir)","Alder Biopharmaceuticals Inc",110.62,105
+106,stavudine,"Alder Biopharmaceuticals Inc",119.23,106
+107,"Sustiva (efavirenz)","Alder Biopharmaceuticals Inc",121.63,107
+108,"Synagis (palivizumab)","Alder Biopharmaceuticals Inc",105.91,108
+109,"Tamiflu (oseltamivir 30mg)","Alder Biopharmaceuticals Inc",105.35,109
+110,Temixys,"Alder Biopharmaceuticals Inc",120.05,110
+111,"Tivicay (dolutegravir tablet)","Alder Biopharmaceuticals Inc",126.25,111
+112,"Tivicay PD","Alder Biopharmaceuticals Inc",103.95,112
+113,"Tpoxx (tecovirimat)","Alder Biopharmaceuticals Inc",102.60,113
+114,Triumeq,"Alder Biopharmaceuticals Inc",127.66,114
+115,"Trogarzo (ibalizumab-uiyk)","Alder Biopharmaceuticals Inc",91.90,115
+116,"Tybost (cobicistat)","Alder Biopharmaceuticals Inc",110.12,116
+117,"Valcyte (valganciclovir)","Alder Biopharmaceuticals Inc",92.46,117
+118,"Valtrex (valacyclovir)","Alder Biopharmaceuticals Inc",121.02,118
+119,"Vemlidy (tenofovir alafenamide)","Alder Biopharmaceuticals Inc",103.36,119
+120,"Veregen (sinecatechins)","Alimera Sciences",111.52,120
+121,"Viekira Pak","ALK-Abello Inc",128.81,121
+122,"Viracept (nelfinavir)",Allergan,113.18,122
+123,"Viramune (nevirapine)","Almatica Pharma",111.57,123
+124,"Viramune XR","AMAG Pharmaceuticals",116.90,124
+125,Viread,"AMAG Pharmaceuticals",99.17,125
+126,Vocabria,"AMAG Pharmaceuticals",114.77,126
+127,Vosevi,"AMAG Pharmaceuticals",110.14,127
+128,Amitriptyline,"AMAG Pharmaceuticals",127.85,128
+129,"Xofluza (baloxavir)","AMAG Pharmaceuticals",97.02,129
+130,Zepatier,"AMAG Pharmaceuticals",126.87,130
+131,"Ziagen (abacavir)","AMAG Pharmaceuticals",102.49,131
+132,"Zovirax (acyclovir cream)","AMAG Pharmaceuticals",122.26,132
+133,"Zovirax (acyclovir ointment)","Ambit Biosciences",112.66,133
+134,Ambien,"Ambit Biosciences",92.99,134
+135,"Edluar ","Ambit Biosciences",104.72,135
+136,Intermezzo,"Ambit Biosciences",111.35,136
+137,Lunesta,"Ambit Biosciences",91.83,137
+138,"Silenor ","Ambit Biosciences",124.15,138
+139,Xyrem,"Ambit Biosciences",118.29,139
+140,zaleplon,"Ambit Biosciences",117.47,140
+141,"Rozerem (ramelteon)","Ambit Biosciences",93.66,141
+142,Accuneb,"Ambit Biosciences",117.73,142

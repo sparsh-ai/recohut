@@ -1,6 +1,8 @@
 connect:
 	psql --host=<> --port=5432 --username=<> --dbname=<>
 	psql -h localhost -p 5432 -d <db_name> -U <user_name> -W
+	PGPASSWORD=student createdb -h 127.0.0.1 -U student pagila
+	PGPASSWORD=student psql -q -h 127.0.0.1 -U student -d pagila -f Data/pagila-schema.sql
 
 connect_database:
 	\connect <database_name>;

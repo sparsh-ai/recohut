@@ -1,0 +1,1880 @@
+Id,Doctor_Id,Hospital_Affiliations
+1,1,Tewksbury Hospital
+2,1,Private Practice
+3,2,Private Office
+4,2,People Care Clinic
+5,2,Vinfen Corporation
+6,3,Mount Auburn Hospital
+7,3,Brigham & Women's Hospital
+8,3,Private Practice
+9,3,Beth Israel Deaconess Medical Center
+10,4,Quest Diagnostics
+11,4,Inc.
+12,5,Cambridge Health Alliance - Somerville Campus
+13,5,Cambridge Health Alliance - Cambridge Campus
+14,6,Cambridge Health Alliance
+15,7,Private Office
+16,8,Lahey Hospital & Medical Center
+17,8,Part of Beth Israel Lahey Health
+18,9,Cambridge Health Alliance - Somerville Campus
+19,10,Lahey Clinic
+20,11,Lahey Clinic
+21,12,Mental Health Clinic
+22,12,Other
+23,13,Lahey Clinic
+24,13,Lahey Clinic
+25,14,Cape Cod Hospital
+26,14,Lahey Clinic
+27,15,Lahey Clinic
+28,16,Lahey Clinic
+29,16,Newton-Wellesley Hospital
+30,17,Beth Israel Deaconess Medical Center
+31,18,Mount Auburn Hospital
+32,18,Children's Hospital Boston
+33,18,Massachusetts General Hospital
+34,18,Brigham & Women's Hospital
+35,18,Beth Israel Deaconess Medical Center
+36,18,Cambridge Public Hlth Commission (The)
+37,18,Floating Hospital
+38,18,TUFTS-NEMC
+39,19,South Shore Hospital
+40,19,South Shore Hospital
+41,19,Milton Hospital
+42,20,Cambridge Health Alliance - Cambridge Campus
+43,21,Cambridge Health Alliance
+44,22,Lahey Hospital & Medical Center
+45,22,Part of Beth Israel Lahey Health
+46,22,Winchester Hospital
+47,22,Beverly Hospital
+48,23,Massachusetts General Hospital
+49,24,Lahey Clinic
+50,25,Lahey Clinic
+51,26,Lahey Clinic
+52,27,Cambridge Health Alliance - Whidden Campus
+53,27,Cambridge Health Alliance
+54,28,Cambridge Health Alliance - Cambridge Campus
+55,29,Lahey Clinic
+56,29,Harvard Vanguard Medical Associates
+57,29,Lahey Clinic
+58,30,Cambridge Health Alliance
+59,30,Private Office
+60,30,Cambridge Health Alliance
+61,31,Lahey Clinic
+62,31,Lahey Clinic
+63,32,Harvard University Health Services
+64,33,Lahey Clinic
+65,33,Lahey Clinic
+66,34,Harvard University Health Services
+67,35,Cambridge Health Alliance
+68,36,Baystate Medical Center
+69,37,Lahey Clinic
+70,38,Beth Israel Deaconess Medical Center
+71,38,Private Practice
+72,39,Cambridge Health Alliance
+73,40,McLean Hospital
+74,41,Lahey Clinic
+75,42,Private Office
+76,42,Cambridge Health Alliance - Cambridge Campus
+77,43,Cambridge Health Alliance - Cambridge Campus
+78,44,Out of State Hospital
+79,44,Mental Health Clinic
+80,45,Tufts Medical Center
+81,46,Other
+82,46,Cambridge Public Hlth Commission (The)
+83,46,Office-Solo Practice
+84,47,Private Office
+85,47,Children's Hospital Boston
+86,48,Cambridge Health Alliance
+87,49,Private Practice
+88,50,Lahey Clinic
+89,50,Cape Cod Hospital
+90,51,Mount Auburn Hospital
+91,51,Beth Israel Deaconess Medical Center
+92,51,Offfice/private practice
+93,52,Private Office
+94,52,Human Relations Services
+95,53,Harvard Vanguard Medical Assoc. Kenmore
+96,53,Harvard Vanguard Wellesley
+97,54,McLean Hospital
+98,55,Lahey Clinic
+99,56,Mount Auburn Hospital
+100,57,Other
+101,57,MIT
+102,57,Mount Auburn Hospital
+103,57,Brigham & Women's Hospital
+104,58,Cambridge Health Alliance - Cambridge Campus
+105,59,Lahey Clinic
+106,60,Mount Auburn Hospital
+107,60,Quincy Hospital
+108,60,Steward Carney Hospital
+109,60,Taunton State Hospital
+110,60,Saint Vincent Hospital
+111,61,Massachusetts General Hospital
+112,62,Lahey Clinic
+113,62,Lahey Clinic
+114,63,Cambridge Health Alliance
+115,63,Private Office
+116,64,Lahey Clinic
+117,64,Other
+118,64,Lahey Clinic
+119,65,Faulkner Hospital
+120,65,Brigham & Women's Hospital
+121,65,Dana Farber Cancer Institute
+122,65,Lahey Clinic
+123,65,Cape Cod Hospital
+124,66,Hallmark Health -Lawrence Memorial Hospital
+125,67,Lahey Clinic
+126,68,Out of State Hospital
+127,69,Cambridge Public Hlth Commission (The)
+128,70,Cooley Dickinson Hospital (The)
+129,70,Baystate Medical Center
+130,70,Private Office
+131,71,Beth Israel Deaconess Medical Center
+132,72,Cambridge Health Alliance
+133,73,New England Baptist Hospital
+134,73,Mount Auburn Hospital
+135,73,Winchester Hospital
+136,74,Lahey Clinic
+137,75,Cambridge Health Alliance
+138,76,McLean Hospital
+139,76,McLean Hospital
+140,77,Mount Auburn Hospital
+141,77,Mount Auburn Hospital
+142,77,Other
+143,78,Cambridge Health Alliance
+144,79,Private Office
+145,80,Lahey Clinic
+146,81,UMass Medical School
+147,81,Private Practice
+148,81,Other
+149,81,Dept of Mental Health
+150,82,Lahey Clinic
+151,83,Massachusetts General Hospital
+152,83,Beth Israel Deaconess Medical Center
+153,84,M.I.T. Medical Department
+154,85,Cambridge Health Alliance
+155,86,Private Practice
+156,87,Cambridge Health Alliance
+157,88,Lahey Clinic
+158,89,Cambridge Health Alliance - Whidden Campus
+159,89,Cambridge Health Alliance - Cambridge Campus
+160,89,M.I.T. Medical Department
+161,90,Harvard Vanguard Medical Assoc. Kenmore
+162,91,Emerson Hospital
+163,91,Lowell General Hospital
+164,92,Cambridge Health Alliance - Cambridge Campus
+165,92,Private Practice
+166,93,Cambridge Health Alliance - Cambridge Campus
+167,94,Cambridge Health Alliance
+168,95,Private Office
+169,95,Private Office
+170,96,Cambridge Health Alliance - Cambridge Campus
+171,96,McLean Hospital
+172,97,Beth Israel Deaconess Medical Center
+173,97,Cambridge Health Alliance - Cambridge Campus
+174,98,Lahey Clinic
+175,98,Lahey Clinic
+176,99,Private Practice
+177,99,Harvard University Health Services
+178,100,Cambridge Health Alliance
+179,100,Private Office
+180,100,Dept of Mental Health
+181,100,University of Massachusetts Med Center
+182,101,Lahey Clinic
+183,102,Cambridge Public Hlth Commission (The)
+184,102,Private Practice
+185,103,Lahey Clinic
+186,104,Cambridge Health Alliance
+187,105,Cambridge Health Alliance - Cambridge Campus
+188,106,Mount Auburn Hospital
+189,106,Mount Auburn Hospital
+190,107,Cambridge Health Alliance - Cambridge Campus
+191,108,Office-Solo Practice
+192,109,Private Office
+193,110,Cambridge Health Alliance - Cambridge Campus
+194,110,Charles River Hospital
+195,110,The Arbour
+196,110,Bournewood Hospital
+197,110,Caulfield Ctr (Choate Health Systems)
+198,110,Human Resource Institute of Boston
+199,111,Other
+200,112,Lahey Clinic
+201,113,Cambridge Health Alliance
+202,114,Cambridge Health Alliance
+203,115,Cambridge Health Alliance
+204,116,Boston College Counseling Services
+205,116,Brandeis University Health Services
+206,117,Private Office
+207,117,Boston College Counseling Svc- Chestnut Hill
+208,117,Steward St. Elizabeth's Medical Center of Boston
+209,118,Lahey Clinic
+210,119,Cambridge Health Alliance
+211,120,Cambridge Health Alliance - Cambridge Campus
+212,120,Private Practice
+213,121,Children's Hospital Boston
+214,121,Cambridge Public Hlth Commission (The)
+215,121,Private Practice
+216,121,Advocates Community Counseling
+217,122,Private Practice
+218,123,UMass Health System/Clinton Hospital
+219,123,UMass Memorial Medical Center
+220,123,Beaumont Rehab & Skilled Nursing Ctr
+221,123,Christopher House of Worcester
+222,123,Coleman House
+223,123,Notre Dame Long Term Care Center
+224,123,Shrewsbury Nursing Home
+225,123,St. Camillus Nursing Home
+226,123,Community HealthLINK
+227,123,Inc
+228,123,St. Mary Health Care Center
+229,123,Beaumont Nothbridge Skilled Nursing Facility
+230,124,Cambridge Health Alliance
+231,125,Private Practice
+232,126,Baystate Medical Center
+233,126,Cooley Dickinson Hospital (The)
+234,126,Holyoke Medical Center
+235,126,Private Practice
+236,127,Cambridge Health Alliance - Somerville Campus
+237,127,Cambridge Health Alliance - Whidden Campus
+238,127,Cambridge Health Alliance - Cambridge Campus
+239,128,McLean Hospital
+240,128,Harvard Vanguard Medical Assoc.- Burlington
+241,129,Lahey Clinic
+242,130,Lahey Clinic
+243,130,Lahey Clinic
+244,131,Cambridge Health Alliance
+245,132,Lahey Clinic
+246,133,Marlborough Hospital
+247,134,Cambridge Health Alliance
+248,134,Private Practice
+249,134,Beth Israel Deaconess Medical Center
+250,135,Clinic
+251,135,Private Practice
+252,136,Cambridge Health Alliance
+253,137,Massachusetts General Hospital
+254,137,Private Office
+255,137,M.I.T. Medical Department
+256,138,Private Practice
+257,139,Lahey Clinic
+258,140,McLean Hospital
+259,140,Cambridge Health Alliance - Somerville Campus
+260,140,Cambridge Health Alliance - Cambridge Campus
+261,141,Other
+262,142,Cambridge Health Alliance - Cambridge Campus
+263,142,Cambridge Health Alliance - Somerville Campus
+264,143,Lahey Clinic
+265,144,Lahey Clinic
+266,144,Lahey Clinic (HMO)
+267,145,Mount Auburn Hospital
+268,146,Boston Medical Center
+269,147,Cooley Dickinson Hospital (The)
+270,148,Cambridge Health Alliance
+271,149,Lahey Clinic
+272,150,Lahey Clinic
+273,150,Lahey Clinic
+274,151,Lahey Clinic
+275,151,Lahey Clinic
+276,152,Winchester Hospital
+277,152,Lahey Clinic
+278,152,Winchester Hospital Oncology Center
+279,153,Cambridge Health Alliance - Cambridge Campus
+280,153,Massachusetts General Hospital
+281,153,Beth Israel Deaconess Medical Center
+282,154,Melrose-Wakefield Hospital
+283,154,Mount Auburn Hospital
+284,154,Boston Medical Center
+285,155,Lahey Clinic
+286,155,Out of State Hospital
+287,156,Children's Hospital Boston
+288,157,Mount Auburn Hospital
+289,157,Newton-Wellesley Hospital
+290,157,Beth Israel Deaconess Medical Center
+291,158,New England Baptist Hospital
+292,158,Mount Auburn Hospital
+293,158,Boston Outpatient Surgical Suites
+294,158,ProSports Orthopedics
+295,158,MIT Health Services
+296,159,Lahey Clinic
+297,159,Lahey Clinic
+298,160,Cambridge Health Alliance - Somerville Campus
+299,160,Cambridge Health Alliance - Whidden Campus
+300,160,Mount Auburn Hospital
+301,160,Cambridge Health Alliance - Cambridge Campus
+302,161,Beverly Hospital
+303,161,Lahey Clinic
+304,162,Lahey Clinic
+305,163,South Shore Hospital
+306,163,Children's Hospital Boston
+307,164,Lahey Clinic
+308,165,Lahey Clinic
+309,166,Other
+310,167,Winchester Hospital
+311,168,Lahey Clinic
+312,169,Newton-Wellesley Hospital
+313,169,South Shore Hospital
+314,169,Beth Israel Deaconess Medical Center
+315,169,South Shore Center
+316,169,The Surgery Center Of Waltham
+317,170,Mount Auburn Hospital
+318,171,Lahey Clinic
+319,172,South Shore Hospital
+320,173,Harvard Vanguard Medical Assoc.- Burlington
+321,174,Cambridge Health Alliance - Cambridge Campus
+322,174,Cambridge Health Alliance - Cambridge Campus
+323,175,Private Office
+324,176,Lahey Clinic
+325,177,Winchester Hospital
+326,178,Harvard Vanguard Medical Assoc. Kenmore
+327,178,Beth Israel Deaconess Medical Center
+328,178,Boston IVF
+329,179,Qvest Diagnostics
+330,180,Spaulding Rehabilitation Hospital
+331,180,Faulkner Hospital
+332,180,Lahey Clinic
+333,181,Cooley Dickinson Hospital (The)
+334,181,Baystate Medical Center
+335,182,South Shore Hospital
+336,182,Children's Hospital Boston
+337,182,Massachusetts General Hospital
+338,182,Tufts - New England Medical Center Hospitals
+339,183,Lahey Clinic
+340,184,Beth Israel Deaconess Medical Center
+341,184,Beth Israel Deaconess Hospital - Milton
+342,184,Beth Israel Deaconess Hospital Needham
+343,185,Mount Auburn Hospital
+344,185,Children's Hospital Boston
+345,185,Private Office
+346,186,Cambridge Health Alliance - Somerville Campus
+347,186,Cambridge Health Alliance - Cambridge Campus
+348,186,Cambridge Health Alliance
+349,186,Cambridge Health Alliance - Whidden Campus
+350,187,Mount Auburn Hospital
+351,188,Cooley Dickinson Hospital (The)
+352,188,Baystate Medical Center
+353,189,Massachusetts General Hospital
+354,189,Children's Hospital Boston
+355,189,Lahey Clinic
+356,189,Beth Israel Deaconess Medical Center
+357,190,Cambridge Health Alliance
+358,191,Quincy Hospital
+359,192,U Mass Health System
+360,192,Marlborough Hosp
+361,192,Wing Memorial Hospital
+362,192,UMass Memorial Medical Center
+363,192,UMass Health System/Clinton Hospital
+364,193,Lincoln Pediatrics
+365,194,Beverly Hospital
+366,194,Lahey Clinic
+367,195,Lahey Clinic
+368,196,Cambridge Health Alliance - Somerville Campus
+369,196,Cambridge Health Alliance - Whidden Campus
+370,196,Youville Hospital & Rehabilitation Ctr
+371,196,Cambridge Health Alliance - Cambridge Campus
+372,196,Massachusetts General Hospital
+373,196,Cambridge Health Alliance
+374,197,Mount Auburn Hospital
+375,197,Beth Israel Deaconess Medical Center
+376,198,Quest Diagnostics
+377,198,Inc.
+378,199,Lahey Clinic
+379,200,Cambridge Health Alliance - Cambridge Campus
+380,200,Massachusetts General Hospital
+381,200,Beth Israel Deaconess Medical Center
+382,201,Lahey Clinic
+383,202,Beverly Hospital
+384,202,Lahey Clinic
+385,202,Addison Gilbert Hospital
+386,203,Cambridge Health Alliance - Cambridge Campus
+387,203,Cambridge Public Hlth Commission (The)
+388,204,Children's Hospital Boston
+389,205,Brigham & Women's Hospital
+390,205,Cambridge Health Alliance - Somerville Campus
+391,205,Martha's Vineyard Hospital
+392,205,Cambridge Health Alliance - Whidden Campus
+393,205,Sturdy Memorial Hospital
+394,205,Inc.
+395,205,Cambridge Health Alliance - Cambridge Campus
+396,206,Lahey Clinic
+397,206,Winchester Hospital
+398,207,Clinic
+399,208,Cambridge Health Alliance
+400,209,Cambridge Health Alliance - Cambridge Campus
+401,209,Cambridge Health Alliance
+402,210,Lahey Clinic
+403,211,Children's Hospital Boston
+404,211,Lahey Clinic
+405,212,New England Baptist Hospital
+406,212,Part of Beth Israel Lahey Health
+407,212,Mount Auburn Hospital
+408,212,Lahey Hospital & Medical Center
+409,213,New England Baptist Hospital
+410,213,Mount Auburn Hospital
+411,213,Boston Outpatient Surgical Suites
+412,214,Mount Auburn Hospital
+413,215,Beth Israel Deaconess Medical Center
+414,215,BID Needham
+415,215,Harvard Vanguard Medical Assoc. Kenmore
+416,215,Newton-Wellesley Hospital
+417,215,Beth Israel Deaconess Hospital - Milton
+418,216,Mount Auburn Hospital
+419,217,Lahey Clinic
+420,218,Cambridge Health Alliance - Somerville Campus
+421,218,Cambridge Health Alliance - Whidden Campus
+422,218,Cambridge Health Alliance - Cambridge Campus
+423,219,Lahey Clinic
+424,219,Lahey Clinic
+425,220,Cooley Dickinson Hospital (The)
+426,221,Genzyme Corporation- Cambridge
+427,222,Lahey Clinic
+428,223,Children's Hospital Boston
+429,224,Newton-Wellesley Hospital
+430,224,Mount Auburn Hospital
+431,224,New England Baptist Hospital
+432,225,Barton Center for Diabetes
+433,225,Inc.
+434,226,Children's Hospital Boston
+435,226,Lahey Clinic
+436,226,Beth Israel Deaconess Medical Center
+437,227,Lahey Clinic
+438,228,Lahey Clinic
+439,229,Lahey Clinic
+440,230,Mount Auburn Hospital
+441,230,Massachusetts General Hospital
+442,231,Massachusetts General Hospital
+443,231,Cambridge Public Hlth Commission (The)
+444,231,Spaulding Rehabilitation Hospital
+445,231,MIT Health Services
+446,232,Lahey Clinic
+447,233,Cooley Dickinson Hospital (The)
+448,233,University Health Services
+449,234,Lahey Clinic
+450,234,Other
+451,235,Lahey Clinic
+452,236,Massachusetts General Hospital
+453,237,Lahey Clinic
+454,237,Lahey Clinic
+455,238,Lahey Clinic
+456,239,Lahey Clinic
+457,240,Cambridge Health Alliance - Cambridge Campus
+458,240,Beth Israel Deaconess Medical Center
+459,241,Tufts Medical Center
+460,242,Lahey Clinic
+461,242,Lahey Clinic
+462,243,Winchester Hospital
+463,244,Lahey Clinic
+464,244,Beverly Hospital
+465,245,Telemedicine
+466,246,Cambridge Public Hlth Commission (The)
+467,247,Cambridge Health Alliance - Cambridge Campus
+468,248,Cambridge Public Hlth Commission (The)
+469,249,Lahey Clinic
+470,250,Cambridge Health Alliance - Whidden Campus
+471,251,Cooley Dickinson Hospital (The)
+472,252,Lahey Clinic
+473,253,Lahey Clinic
+474,253,Lahey Clinic
+475,254,South Shore Hospital
+476,254,Children's Hospital Boston
+477,255,Cambridge Public Hlth Commission (The)
+478,256,Lahey Clinic
+479,257,Cooley Dickinson Hospital (The)
+480,258,Lahey Clinic
+481,258,Beverly Hospital
+482,259,Massachusetts General Hospital
+483,260,Cambridge Health Alliance
+484,261,Lahey Clinic
+485,262,Novartis Institute for Biomedical Research
+486,263,Lahey Clinic
+487,263,Lahey Clinic
+488,263,Lahey Clinic (HMO)
+489,264,Mount Auburn Hospital
+490,265,Cambridge Health Alliance - Cambridge Campus
+491,266,Other
+492,266,Lincoln Pediatrics
+493,267,Cooley Dickinson Hospital (The)
+494,268,Cambridge Health Alliance - Cambridge Campus
+495,268,Cambridge Health Alliance - Somerville Campus
+496,268,Cambridge Health Alliance
+497,269,Noble Hospital
+498,269,Holyoke Hospital
+499,269,Mercy Medical Center
+500,269,Cooley Dickinson Hospital (The)
+501,270,Brigham & Women's Hospital
+502,271,Winchester Hospital
+503,271,Lahey Clinic
+504,272,Lahey Clinic
+505,273,Lahey Clinic
+506,274,Massachusetts Eye & Ear Infirmary
+507,274,Harvard Vanguard- Boston
+508,274,Shields Health Care Group
+509,275,Private Practice
+510,276,UMass Memorial Medical Center
+511,276,Mount Auburn Hospital
+512,277,Cooley Dickinson Hospital (The)
+513,278,Other
+514,278,Other
+515,279,Cambridge Health Alliance - Cambridge Campus
+516,279,Cambridge Health Alliance
+517,280,South Shore Hospital
+518,280,Milton Hospital
+519,281,Mount Auburn Hospital
+520,281,Beth Israel Deaconess Medical Center
+521,282,Lahey Clinic
+522,283,Lahey Clinic
+523,284,Mount Auburn Hospital
+524,284,Newton-Wellesley Hospital
+525,284,Tufts Medical Center
+526,284,Beth Israel Deaconess Medical Center
+527,285,Lahey Clinic
+528,286,South Shore Hospital
+529,286,Children's Hospital Boston
+530,287,Mount Auburn Hospital
+531,287,Newton-Wellesley Hospital
+532,287,Beth Israel Deaconess Medical Center
+533,288,Out of State Hospital
+534,288,Lahey Clinic
+535,289,Brigham & Women's Hospital
+536,289,Lahey Clinic
+537,290,Lahey Clinic
+538,291,Cambridge Health Alliance - Cambridge Campus
+539,292,Lahey Clinic
+540,293,Emerson Hospital
+541,293,Other
+542,294,Massachusetts General Hospital
+543,294,Cambridge Public Hlth Commission (The)
+544,294,Spaulding Rehabilitation Hospital
+545,294,M.I.T. Medical Department
+546,295,Mount Auburn Hospital
+547,296,Massachusetts General Hospital
+548,296,Cambridge Health Alliance
+549,297,Lahey Clinic
+550,298,Emerson Hospital
+551,298,Lahey Clinic
+552,298,Mount Auburn Hospital
+553,299,Winchester Hospital
+554,299,Lahey Clinic
+555,300,Lahey Clinic
+556,300,North Shore Medical Center - Salem Hospital
+557,301,Lahey Clinic
+558,301,Emerson Hospital
+559,302,Cambridge Health Alliance
+560,303,MIT
+561,304,Mount Auburn Hospital
+562,304,Mount Auburn Hospital
+563,304,Boston IVF
+564,304,Beth Israel Deaconess Medical Center
+565,305,Lahey Clinic
+566,306,Harvard University Health Services
+567,306,Quest Diagnostics
+568,306,Inc.
+569,307,Lahey Clinic
+570,308,Mount Auburn Hospital
+571,309,Cambridge Health Alliance - Somerville Campus
+572,309,Cambridge Health Alliance - Whidden Campus
+573,309,Cambridge Health Alliance - Cambridge Campus
+574,310,Cambridge Health Alliance - Cambridge Campus
+575,311,Lahey Clinic
+576,312,Out of State Hospital
+577,313,Lahey Clinic
+578,314,Lahey Clinic
+579,315,Mount Auburn Hospital
+580,316,Mount Auburn Hospital
+581,316,Beth Israel Deaconess Medical Center
+582,317,Lahey Clinic
+583,318,Lahey Clinic
+584,319,Cambridge Health Alliance
+585,320,Mount Auburn Hospital
+586,321,Lahey Clinic
+587,322,Mount Auburn Hospital
+588,322,M.I.T. Medical Department
+589,322,New England Baptist Hospital
+590,322,Boston Outpatient Surgical Suites
+591,323,Children's Hospital Boston
+592,323,Massachusetts General Hospital
+593,323,Cambridge Health Alliance
+594,324,Lahey Clinic
+595,325,Lahey Clinic
+596,325,Out of State Hospital
+597,326,Mount Auburn Hospital
+598,326,Mount Auburn Hospital
+599,326,Cambridge Health Alliance
+600,326,MetroWest Medical Center
+601,326,Beth Israel Deaconess Medical Center
+602,327,Winchester Hospital
+603,328,Quest Diagnostics
+604,328,Inc.
+605,329,Mount Auburn Hospital
+606,330,Lahey Clinic
+607,331,Massachusetts General Hospital
+608,331,Brigham & Women's Hospital
+609,332,Quest Diagnostics
+610,332,Inc.
+611,333,Beth Israel Deaconess Medical Center
+612,334,Lahey Clinic
+613,335,Cambridge Health Alliance
+614,336,Cambridge Health Alliance - Cambridge Campus
+615,337,Cooley Dickinson Hospital (The)
+616,337,Holyoke Medical Center
+617,338,Ball Square DCI
+618,338,Lahey Clinic
+619,339,Lahey Clinic
+620,340,Mount Auburn Hospital
+621,341,Vetarans Admin.Bostn Hlthcare Sys.
+622,342,Emerson Hospital
+623,343,Lahey Clinic
+624,344,Mount Auburn Hospital
+625,345,McLean Hospital
+626,346,Lahey Clinic
+627,347,Cambridge Health Alliance
+628,348,Cooley Dickinson Hospital (The)
+629,349,Lahey Clinic
+630,350,Mount Auburn Hospital
+631,350,Newton-Wellesley Hospital
+632,350,Beth Israel Deaconess Medical Center
+633,351,Steward Carney Hospital
+634,351,Milton Hospital
+635,351,Good Samaritan Medical Center
+636,351,New England Sinai Hospital
+637,351,Caritas Good Samaritan Medical Center
+638,351,Beth Israel Deaconess Hospital - Milton
+639,352,Emerson Hospital
+640,353,Biogen Idec
+641,354,Other
+642,354,Lahey Clinic
+643,354,Emerson Hospital
+644,355,Lahey Clinic
+645,355,Lahey Clinic
+646,356,Children's Hospital Boston
+647,356,Lahey Clinic
+648,356,Beth Israel Deaconess Medical Center
+649,357,Biogen Idec
+650,358,Vinfen Corporation
+651,359,Cambridge Health Alliance
+652,360,Lahey Medical Center
+653,360,Emerson Health
+654,361,Lahey Clinic
+655,362,Cooley Dickinson Hospital (The)
+656,363,South Shore Hospital
+657,364,Cambridge Health Alliance
+658,365,Cambridge Health Alliance - Cambridge Campus
+659,366,Steward St. Elizabeth's Medical Center of Boston
+660,366,Cambridge Health Alliance
+661,366,Steward St. Elizabeth's Medical Center of Boston
+662,367,Cambridge Health Alliance - Cambridge Campus
+663,367,East Cambridge Health Center
+664,368,Cooley Dickinson Hospital (The)
+665,368,VA Medical Center Northampton
+666,369,Steward Carney Hospital
+667,369,South Shore Hospital
+668,369,Children's Hospital Boston
+669,370,U Mass Health System
+670,370,Marlborough Hosp
+671,371,MIT Health Services
+672,372,Cambridge Health Alliance - Cambridge Campus
+673,373,Children's Hospital Boston
+674,373,Lahey Clinic
+675,373,Brigham & Women's Hospital
+676,373,Out of State Hospital
+677,374,University of Massachusetts Med Center
+678,374,University of Massachusetts Med Center
+679,374,Dept of Mental Health
+680,375,Cooley Dickinson Hospital (The)
+681,376,Cambridge Health Alliance - Cambridge Campus
+682,377,M.I.T. Medical Department
+683,378,Lahey Clinic
+684,379,Mount Auburn Hospital
+685,379,Symmes Hospital
+686,380,Cooley Dickinson Hospital (The)
+687,381,Lahey Clinic
+688,382,Lahey Clinic
+689,383,Lahey Clinic
+690,383,Winchester Hospital
+691,384,Cooley Dickinson Hospital (The)
+692,385,South Shore Hospital
+693,386,McLean Hospital
+694,387,Lahey Clinic
+695,388,Boston University Medical Ctr Hospital
+696,388,Boston City Hospital
+697,388,Steward Carney Hospital
+698,388,Steward Medical Group
+699,389,Lahey Clinic
+700,390,Harvard Vanguard- Somerville
+701,390,Mount Auburn Hospital
+702,390,Harvard Vanguard Medical Associates
+703,391,Brigham & Women's Hospital
+704,392,Winchester Hospital
+705,392,Part of Beth Israel Lahey Health
+706,393,Cambridge Health Alliance
+707,394,Mount Auburn Hospital
+708,395,Cambridge Public Hlth Commission (The)
+709,396,Mount Auburn Hospital
+710,396,M.I.T. Medical Department
+711,396,Brigham & Women's Hospital
+712,397,Cambridge Health Alliance
+713,398,Beth Israel Deaconess Medical Center
+714,398,Harvard Medical School
+715,399,M.I.T. Medical Department
+716,399,Private Practice
+717,400,Mount Auburn Hospital
+718,401,Private Office
+719,401,MIT Health Services
+720,402,Mount Auburn Hospital
+721,402,Harvard Vanguard- Kenmore Square
+722,403,Harvard University Health Services
+723,404,Lahey Clinic
+724,405,Out of State Hospital
+725,406,Massachusetts Eye & Ear Infirmary
+726,407,Massachusetts General Hospital
+727,407,Westwood Lodge Hospital AMI
+728,407,Pembroke Hospital AMI
+729,408,Lahey Clinic
+730,408,Lahey Clinic
+731,409,Beth Israel Deaconess Medical Center
+732,409,Cambridge Health Alliance
+733,410,Lahey Clinic
+734,410,Lahey Clinic
+735,411,U Mass Health System
+736,411,Marlborough Hosp
+737,411,UMass Memorial Medical Center
+738,411,Worcester Medical Center
+739,412,South Shore Hospital
+740,412,Children's Hospital Boston
+741,413,Lahey Clinic
+742,413,Lahey Clinic
+743,414,Massachusetts General Hospital
+744,414,Private Practice
+745,415,Private Practice
+746,415,McLean Hospital
+747,416,Lahey Clinic
+748,417,Beth Israel Deaconess Medical Center
+749,417,Private Office
+750,418,South Shore Hospital
+751,419,Lahey Clinic
+752,419,Beverly Hospital
+753,420,Beth Israel Deaconess Medical Center
+754,420,HVMA
+755,421,Mount Auburn Hospital
+756,422,Mount Auburn Hospital
+757,423,Cambridge Health Alliance
+758,423,Cambridge Health Alliance
+759,424,Tufts - New England Medical Center Hospitals
+760,425,Lahey Clinic
+761,426,Salem Hospital
+762,426,Lahey Clinic
+763,426,Union Hospital
+764,426,Beth Israel Deaconess Medical Center
+765,427,Lahey Clinic
+766,427,UMass Memorial Medical Center
+767,428,Nashoba Valley Medical Center
+768,429,Lahey Clinic
+769,429,Lahey Clinic
+770,429,Winchester Hospital
+771,430,Beth Israel Deaconess Medical Center
+772,430,Beth Israel Deaconess Medical Center
+773,431,Lahey Clinic
+774,432,Lahey Clinic
+775,432,Lahey Clinic
+776,433,Children's Hospital Boston
+777,433,Harvard Vanguard Medical Assoc.- Burlington
+778,434,Lahey Clinic
+779,435,Mount Auburn Hospital
+780,435,MVA Center Rehabilitation
+781,436,Cambridge Health Alliance - Cambridge Campus
+782,436,Cambridge Health Alliance
+783,436,Home Office
+784,437,Cambridge Health Alliance - Somerville Campus
+785,437,Cambridge Health Alliance - Cambridge Campus
+786,438,Emerson Hospital
+787,439,Private Office
+788,439,Cambridge Health Alliance
+789,440,Lahey Hospital & Medical Center
+790,440,Part of Beth Israel Lahey Health
+791,441,Lahey Clinic
+792,442,Lahey Clinic
+793,442,Lahey Clinic
+794,443,Lahey Clinic
+795,444,328 Broadway
+796,445,MGH - Revere Health Care Center
+797,446,Cambridge Health Alliance - Cambridge Campus
+798,447,Emerson Hospital
+799,448,Mount Auburn Hospital
+800,448,Cambridge Health Alliance
+801,449,Lahey Clinic
+802,449,Lahey Clinic
+803,450,Cambridge Health Alliance
+804,451,Cooley Dickinson Hospital (The)
+805,451,Valley Medical Group
+806,452,Cooley Dickinson Hospital (The)
+807,453,Massachusetts Eye & Ear Infirmary
+808,454,MIT Health Services
+809,455,Mount Auburn Hospital
+810,456,Lahey Clinic
+811,457,Mount Auburn Hospital
+812,457,M.I.T. Medical Department
+813,458,Lahey Clinic
+814,459,Lahey Clinic
+815,460,Private Office
+816,461,Offfice/private practice
+817,462,Mount Auburn Hospital
+818,463,Lahey Clinic
+819,464,Lahey Clinic
+820,465,Lahey Clinic
+821,466,Baystate Franklin Medical Center
+822,466,Mercy Medical Center
+823,466,Out of State Hospital
+824,467,Mount Auburn Hospital
+825,467,Mount Auburn Hospital
+826,468,Lahey Clinic
+827,469,Emerson Hospital
+828,470,Brockton Hospital
+829,470,Beverly Hospital
+830,470,Winchester Hospital
+831,470,Lahey Clinic
+832,471,Cambridge Health Alliance
+833,472,Tufts Medical Center
+834,472,Mount Auburn Hospital
+835,472,Winchester Hospital
+836,472,Surgisite  Boston
+837,473,Lahey Clinic
+838,474,McLean Hospital
+839,474,Private Office
+840,475,Steward Carney Hospital
+841,475,South Shore Hospital
+842,475,Massachusetts Eye & Ear Infirmary
+843,475,New England Eye Surgical Center
+844,475,Good Samaritan Medical Center
+845,475,Massachusetts General Hospital
+846,475,Beth Israel Deaconess Hospital - Milton
+847,476,Cambridge Health Alliance - Cambridge Campus
+848,476,Cambridge Health Alliance
+849,477,Southcoast Hosps Group-Charlton Campus
+850,478,Harvard Vanguard Medical Assoc.- Burlington
+851,478,Harvard Vanguard- Somerville
+852,479,Lahey Clinic
+853,479,Lahey Clinic
+854,480,Cambridge Health Alliance - Cambridge Campus
+855,481,Cambridge Health Alliance - Cambridge Campus
+856,481,Cambridge Health Alliance
+857,482,Harvard Vanguard Medical Assoc.- Burlington
+858,483,Mount Auburn Hospital
+859,483,Belmont Medical Associates Inc.- Cambridge
+860,484,Lahey Clinic
+861,485,Mount Auburn Hospital
+862,486,Private Office
+863,487,MIT Health Services
+864,488,Children's Hospital Boston
+865,489,Lahey Clinic
+866,490,Home Office
+867,490,Cambridge Health Alliance - Cambridge Campus
+868,491,Cambridge Health Alliance
+869,492,Harvard University Health Services
+870,493,Children's Hospital Boston
+871,493,Massachusetts General Hospital
+872,493,Brigham & Women's Hospital
+873,493,Beth Israel Deaconess Medical Center
+874,494,Lahey Clinic
+875,495,Lahey Clinic
+876,496,Cambridge Health Alliance - Cambridge Campus
+877,496,Tewksbury Hospital
+878,497,South Shore Hospital
+879,498,Lahey Clinic
+880,498,Lahey Clinic
+881,498,Beverly Hospital
+882,499,Lahey Clinic
+883,499,Lahey Clinic
+884,500,Cambridge Public Hlth Commission (The)
+885,501,Hallmark Health -Lawrence Memorial Hospital
+886,501,Winchester Hospital
+887,502,Mercy Medical Center
+888,502,Baystate Medical Center
+889,502,Other
+890,503,Cambridge Health Alliance
+891,504,Boston Medical Center
+892,505,Massachusetts General Hospital
+893,505,Brigham & Women's Hospital
+894,506,Massachusetts Eye & Ear Infirmary
+895,507,Out of State Hospital
+896,508,Lahey Clinic
+897,509,Out of State Hospital
+898,510,Cambridge Health Alliance - Somerville Campus
+899,510,Cambridge Health Alliance
+900,511,Massachusetts General Hospital
+901,511,Cambridge Public Hlth Commission (The)
+902,512,Emerson Hospital
+903,513,Hallmark Health -Lawrence Memorial Hospital
+904,513,Winchester Hospital
+905,514,Lahey Clinic
+906,515,Lahey Clinic
+907,515,Lahey Clinic
+908,516,Cambridge Health Alliance
+909,516,Massachusetts General Hospital
+910,517,U Mass Health System
+911,517,Marlborough Hosp
+912,517,UMass Memorial Medical Center
+913,517,St Vincent Hospital at Worcester Medical Center
+914,518,Cambridge Health Alliance - Cambridge Campus
+915,519,Partners HealthCare
+916,520,Lahey Clinic (HMO)
+917,520,Lahey Clinic
+918,521,Steward Carney Hospital
+919,521,South Shore Hospital
+920,521,New England Eye Surgical Center
+921,521,Beth Israel Deaconess Hospital - Milton
+922,522,Cooley Dickinson Hospital (The)
+923,523,Private Office
+924,524,Harvard University Health Services
+925,525,Children's Hospital Boston
+926,525,Lahey Clinic
+927,525,North Shore Medical Center - Salem Hospital
+928,525,North Shore Medical Center-Union Hosp
+929,526,Lahey Clinic
+930,527,MIT Health Services
+931,528,Cooley Dickinson Hospital (The)
+932,529,Other
+933,530,South Shore Hospital
+934,531,Lahey Clinic
+935,531,Davila Dialysis Center
+936,532,Mount Auburn Hospital
+937,533,Mount Auburn Hospital
+938,534,Lahey Clinic
+939,535,Cambridge Health Alliance
+940,536,Cambridge Health Alliance - Somerville Campus
+941,536,Cambridge Health Alliance - Cambridge Campus
+942,536,Cambridge Health Alliance
+943,537,Baystate Medical Center
+944,537,Noble Hospital
+945,537,Baystate Franklin Medical Center
+946,537,Cooley Dickinson Hospital (The)
+947,538,Private Practice
+948,538,Private Practice
+949,539,Lahey Clinic
+950,540,Baystate Medical Center
+951,540,Baystate Medical Center
+952,541,Mount Auburn Hospital
+953,542,Mount Auburn Hospital
+954,542,Mount Auburn Hospital
+955,543,South Shore Hospital
+956,544,Cambridge Health Alliance - Cambridge Campus
+957,545,Harvard Vanguard Medical Associates
+958,546,Cambridge Public Hlth Commission (The)
+959,547,Lahey Clinic
+960,547,Winchester Hospital
+961,548,Mount Auburn Hospital
+962,549,Mount Auburn Hospital
+963,549,Cambridge Health Alliance - Cambridge Campus
+964,550,Private Office
+965,551,Beth Israel Deaconess Medical Center
+966,552,Children's Hospital Boston
+967,552,Harvard University Health Services
+968,552,M.I.T. Medical Department
+969,552,Brigham & Women's Hospital
+970,553,Massachusetts General Hospital
+971,553,Cambridge Health Alliance
+972,554,Beverly Hospital
+973,554,Winchester Hospital
+974,554,Lahey Clinic
+975,554,Mount Auburn Hospital
+976,555,Mount Auburn Hospital
+977,555,Massachusetts General Hospital
+978,555,M.I.T. Medical Department
+979,556,U Mass Health System
+980,556,Marlborough Hosp
+981,556,Columbia/MetroWest Medical Center
+982,557,Lahey Clinic
+983,558,Cambridge Health Alliance
+984,559,Emerson Hospital
+985,560,Harvard Vanguard Medical Associates
+986,561,Mount Auburn Hospital
+987,561,Harvard Vanguard- Somerville
+988,561,Beth Israel Deaconess Medical Center
+989,561,Harvard Vanguard Medical Associates
+990,561,Beth Israel Deaconess Hospital - Milton
+991,562,Mount Auburn Hospital
+992,562,Private Office
+993,563,Children's Hospital Boston
+994,563,Harvard Vanguard Medical Associates
+995,564,Sturdy Memorial Hospital
+996,564,Inc.
+997,565,Cooley Dickinson Hospital (The)
+998,566,Beth Israel Deaconess Medical Center
+999,566,Cambridge Health Alliance - Cambridge Campus
+1000,567,Mount Auburn Hospital
+1001,568,Bridgewater State Hospital
+1002,569,Cambridge Health Alliance - Cambridge Campus
+1003,570,Massachusetts General Hospital
+1004,570,Private Office
+1005,571,Cooley Dickinson Hospital (The)
+1006,572,Massachusetts General Hospital
+1007,572,Cambridge Public Hlth Commission (The)
+1008,572,Spaulding Rehabilitation Hospital
+1009,573,Mount Auburn Hospital
+1010,573,Joseph M Smith Community Health Center
+1011,574,Lahey Clinic
+1012,575,Other
+1013,575,Quest Diagnostics
+1014,575,Inc.
+1015,576,Harvard University Health Services
+1016,577,Lahey Clinic
+1017,578,Lahey Clinic
+1018,579,Cooley Dickinson Health (Hospital)
+1019,580,Steward Carney Hospital
+1020,580,St. Elizabeth's Medical Ctr of Boston
+1021,581,Lahey Clinic
+1022,582,Mount Auburn Hospital
+1023,582,Harvard Vanguard Medical Associates
+1024,583,Lahey Clinic
+1025,583,Lahey Clinic
+1026,584,Winchester Hospital
+1027,584,New England Pediatric Care
+1028,584,Other
+1029,585,Mental Health Clinic
+1030,585,North River Counseling
+1031,585,Inc.
+1032,585,Bayview Associates
+1033,586,Quincy Hospital
+1034,586,Tufts - New England Medical Center Hospitals
+1035,587,Brockton Hospital
+1036,587,Quincy Hospital
+1037,588,Mount Auburn Hospital
+1038,589,Baystate Medical Center
+1039,590,Cambridge Health Alliance
+1040,591,Mount Auburn Hospital
+1041,592,Harvard Vanguard Medical Associates
+1042,593,Cambridge Health Alliance - Cambridge Campus
+1043,594,Lahey Clinic
+1044,594,Children's Hospital Boston
+1045,594,North Shore Medical Center - Salem Hospital
+1046,594,Union Hospital
+1047,595,Children's Hospital Boston
+1048,596,Mount Auburn Hospital
+1049,597,Faulkner Hospital
+1050,597,Faulkner Hospital
+1051,597,Brigham & Women's Hospital
+1052,597,Beth Israel Deaconess Medical Center
+1053,597,Blue Cross/Blue Shield of Mass
+1054,597,Offfice/private practice
+1055,598,Cambridge Health Alliance - Somerville Campus
+1056,598,Cambridge Health Alliance - Cambridge Campus
+1057,598,Massachusetts General Hospital
+1058,598,Cambridge Health Alliance
+1059,599,Lahey Clinic
+1060,600,Cooley Dickinson Hospital (The)
+1061,600,Baystate Franklin Medical Center
+1062,601,Lahey Clinic
+1063,601,Lahey Clinic
+1064,602,Lahey Clinic
+1065,602,Lahey Clinic
+1066,603,Lahey Clinic
+1067,604,MIT Health Services
+1068,605,Massachusetts Eye & Ear Infirmary
+1069,606,Cambridge Health Alliance - Somerville Campus
+1070,606,Cambridge Health Alliance - Whidden Campus
+1071,606,Cambridge Health Alliance - Cambridge Campus
+1072,607,Mental Health Clinic
+1073,608,Cambridge Public Hlth Commission (The)
+1074,609,Lahey Clinic
+1075,610,Lahey Clinic
+1076,611,Winchester Hospital
+1077,612,Cooley Dickinson Hospital (The)
+1078,613,Cooley Dickinson Hospital (The)
+1079,613,Berkshire Medical Center
+1080,613,Baystate Franklin Medical Center
+1081,614,Winchester Hospital
+1082,615,South Shore Hospital
+1083,616,Cooley Dickinson Hospital (The)
+1084,617,Boston Medical Center
+1085,618,Lahey Clinic
+1086,619,U Mass Health System
+1087,619,Marlborough Hosp
+1088,619,Milford-Whitinsville Regional Hospital
+1089,619,MetroWest Medical Center
+1090,619,Other
+1091,619,Fresenius Medical Care
+1092,620,Private Office
+1093,620,Cambridge Health Alliance - Cambridge Campus
+1094,621,Mount Auburn Hospital
+1095,621,Newton-Wellesley Hospital
+1096,621,Lemuel Shattuck Hospital
+1097,621,Cambridge Health Alliance
+1098,621,Solomon Carter Fuller Mental Health Center
+1099,622,Lahey Clinic
+1100,623,Massachusetts Eye & Ear Infirmary
+1101,623,Tufts - New England Medical Center Hospitals
+1102,624,Lahey Clinic
+1103,625,Mental Health Clinic
+1104,626,Massachusetts General Hospital
+1105,626,Other
+1106,627,Lahey Clinic
+1107,628,Baystate Medical Center
+1108,628,Other
+1109,628,Holyoke Rehab Center
+1110,629,Vinfen Corporation
+1111,630,Lahey Clinic
+1112,631,Lahey Clinic
+1113,632,Children's Hospital Boston
+1114,633,Mount Auburn Hospital
+1115,634,Lahey Clinic
+1116,634,Lahey Clinic
+1117,635,South Shore Hospital
+1118,636,Boston Psychoanalytic Society & Inst
+1119,637,Lahey Clinic
+1120,638,Office-Solo Practice
+1121,639,Lahey Clinic
+1122,640,Lahey Clinic
+1123,641,Lahey Clinic
+1124,642,Emerson Hospital
+1125,642,Mount Auburn Hospital
+1126,643,Emerson Hospital
+1127,644,Holy Family Hospital & Medical Center
+1128,644,Out of State Hospital
+1129,645,Cooley Dickinson Hospital (The)
+1130,646,Cambridge Public Hlth Commission (The)
+1131,647,Cambridge Health Alliance
+1132,647,Walden Behavioral Care
+1133,647,LLC
+1134,648,Cambridge Health Alliance - Somerville Campus
+1135,649,Lahey Clinic
+1136,649,Beverly Hospital
+1137,649,Brockton Hospital
+1138,649,Steward Medical Group
+1139,650,Baystate Medical Center
+1140,650,Holyoke Pediatric Assoc.
+1141,650,Cooley Dickinson Hospital (The)
+1142,651,Children's Hospital Boston
+1143,651,Harvard University Health Services
+1144,651,M.I.T. Medical Department
+1145,651,Brigham & Women's Hospital
+1146,652,Lowell Community Health Center
+1147,652,Lowell General Hospital
+1148,652,Cambridge Health Alliance - Cambridge Campus
+1149,653,Emerson Hospital
+1150,654,Cooley Dickinson Hospital (The)
+1151,655,Cambridge Public Hlth Commission (The)
+1152,655,Dept. Of Youth Services
+1153,656,Mount Auburn Hospital
+1154,656,Harvard University Health Services
+1155,657,Mount Auburn Hospital
+1156,657,Mount Auburn Hospital
+1157,657,Harvard Vanguard- Kenmore Square
+1158,657,Beth Israel Deaconess Medical Center
+1159,658,Massachusetts Eye & Ear Infirmary
+1160,658,Harvard University Health Services
+1161,659,Massachusetts General Hospital
+1162,659,Harvard Medical School
+1163,659,Harvard University Medical School
+1164,659,Massachusetts General Hospital
+1165,660,Lahey Clinic
+1166,661,Blue Cross/Blue Shield of Mass
+1167,662,Beth Israel Deaconess Medical Center
+1168,662,Harvard Vanguard Medical Associates
+1169,662,Harvard Vanguard- Somerville
+1170,662,Beth Israel Deaconess Hospital - Milton
+1171,663,Massachusetts General Hospital
+1172,664,Lahey Clinic
+1173,664,Lahey Clinic
+1174,665,Cambridge Health Alliance
+1175,666,Lahey Clinic
+1176,667,Massachusetts General Hospital
+1177,668,Lahey Clinic
+1178,669,South Shore Hospital
+1179,670,Lahey Clinic
+1180,671,Mount Auburn Hospital
+1181,671,Cambridge Health Alliance - Cambridge Campus
+1182,671,Davita Northeast Cambridge Dialysis
+1183,672,South Shore Hospital
+1184,673,Lahey Clinic
+1185,674,Other
+1186,674,Private Office
+1187,675,Cambridge Health Alliance
+1188,676,South Shore Hospital
+1189,677,Cambridge Health Alliance
+1190,677,Cambridge Health Alliance
+1191,678,Lahey Clinic
+1192,679,Emerson Hospital
+1193,680,Mental Health Clinic
+1194,680,Mental Health Clinic
+1195,681,M.I.T. Medical Department
+1196,681,Private Office
+1197,682,Mount Auburn Hospital
+1198,682,Private Practice
+1199,683,Lahey Clinic
+1200,684,Massachusetts Eye & Ear Infirmary
+1201,684,Surgisite  Boston
+1202,685,Cooley Dickinson Hospital (The)
+1203,685,Baystate Medical Center
+1204,686,Mount Auburn Hospital
+1205,687,Lahey Clinic
+1206,687,Lahey Clinic
+1207,688,Cooley Dickinson Hospital (The)
+1208,689,Beth Israel Deaconess Hospital
+1209,689,Mount Auburn Hospital
+1210,689,Children's Hospital Boston
+1211,689,Massachusetts General Hospital
+1212,689,Other
+1213,690,Lahey Hospital & Medical Center
+1214,690,Part of Beth Israel Lahey Health
+1215,691,Children's Hospital Boston
+1216,691,Mount Auburn Hospital
+1217,691,Beth Israel Deaconess Medical Center
+1218,692,Massachusetts General Hospital
+1219,693,Mount Auburn Hospital
+1220,693,Morton Hospital & Medical Center
+1221,693,Cambridge Health Alliance - Cambridge Campus
+1222,693,Brockton Hospital
+1223,693,Good Samaritan Medical Center
+1224,693,Davita Northeast Cambridge Dialysis
+1225,693,New England Sinai Hospital
+1226,693,Spaulding Rehabilitation Hospital
+1227,694,Mount Auburn Hospital
+1228,694,Harvard Vanguard Medical Assoc.- Burlington
+1229,695,Other
+1230,696,Cooley Dickinson Hospital (The)
+1231,697,U Mass Health System
+1232,697,Marlborough Hosp
+1233,697,Columbia/MetroWest Medical Center
+1234,697,UMass Memorial Medical Center
+1235,698,Lahey Clinic
+1236,698,Beth Israel Deaconess Medical Center
+1237,699,Lahey Clinic
+1238,700,Private Office
+1239,701,Marlborough Hospital
+1240,701,VA West Roxbury
+1241,701,VA Hospital - Jamaica Plain
+1242,702,Mount Auburn Hospital
+1243,702,Massachusetts General Hospital
+1244,702,Other
+1245,702,Cambridge Public Hlth Commission (The)
+1246,703,Children's Hospital Boston
+1247,703,Tufts - New England Medical Center Hospitals
+1248,703,Other
+1249,703,Beth Israel Deaconess Medical Center
+1250,704,Clinton Hospital
+1251,705,Newton-Wellesley Hospital
+1252,705,Cambridge Health Alliance
+1253,706,Faulkner Hospital
+1254,706,Cambridge Health Alliance - Cambridge Campus
+1255,706,Tufts - New England Medical Center Hospitals
+1256,707,Lahey Clinic
+1257,708,Cambridge Health Alliance
+1258,708,Cambridge Health Alliance
+1259,709,South Shore Hospital
+1260,709,Physician's Office
+1261,710,Winchester Hospital
+1262,710,Burlington OB-GYN Assoc.
+1263,710,Inc.
+1264,711,Lahey Clinic
+1265,711,Lahey Clinic
+1266,712,Biogen Idec
+1267,713,Marlborough Hospital
+1268,714,Brigham & Women's Hospital
+1269,715,Cambridge Health Alliance - Cambridge Campus
+1270,715,Cambridge Health Alliance
+1271,715,Women's Health Center
+1272,715,Revere Broadway Health Center
+1273,716,Lahey Clinic
+1274,716,Harvard Vanguard Medical Assoc.- Burlington
+1275,717,Lahey Clinic
+1276,718,Lahey Clinic
+1277,719,Mount Auburn Hospital
+1278,720,Winchester Hospital
+1279,720,Harvard Vanguard- Somerville
+1280,720,Harvard Vanguard Medical Assoc.- Burlington
+1281,720,Harvard Vanguard Medical Associates-Chelmsford
+1282,721,Harvard University Health Services
+1283,721,Telemedicine
+1284,722,Lahey Clinic
+1285,722,Lahey Clinic
+1286,723,South Shore Hospital
+1287,724,Lahey Clinic
+1288,725,Lahey Clinic
+1289,726,Cambridge Health Alliance - Whidden Campus
+1290,726,Cambridge Health Alliance - Cambridge Campus
+1291,726,Emerson Hospital
+1292,727,Cooley Dickinson Hospital (The)
+1293,728,Mount Auburn Hospital
+1294,728,Massachusetts General Hospital
+1295,728,Clinic
+1296,728,Other
+1297,728,Cambridge Public Hlth Commission (The)
+1298,729,Mount Auburn Hospital
+1299,729,Beth Israel Deaconess Medical Center
+1300,730,Out of State Hospital
+1301,731,UMass Health System/Clinton Hospital
+1302,731,UMass Memorial Medical Center
+1303,732,Cambridge Public Hlth Commission (The)
+1304,732,Cambridge Health Alliance - Cambridge Campus
+1305,733,U Mass Health System
+1306,733,Marlborough Hosp
+1307,734,Lahey Clinic
+1308,735,Lahey Clinic
+1309,736,Lahey Clinic
+1310,737,Mount Auburn Hospital
+1311,737,Opthalmic Consultants of Boston
+1312,738,Lahey Clinic
+1313,739,Lahey Clinic
+1314,739,Beverly Hospital
+1315,740,Beth Israel Deaconess Medical Center
+1316,741,Cambridge Health Alliance - Cambridge Campus
+1317,742,Cambridge Health Alliance - Cambridge Campus
+1318,743,Other
+1319,744,Cooley Dickinson Hospital (The)
+1320,745,Baystate Medical Center
+1321,746,Children's Hospital Boston
+1322,746,Harvard University Health Services
+1323,746,Brigham & Women's Hospital
+1324,747,Lahey Clinic
+1325,748,Salem Hospital
+1326,748,Massachusetts General Hospital
+1327,749,Lahey Clinic
+1328,750,Qvest Diagnostics
+1329,750,Qvest Diagnostics
+1330,751,Lahey Clinic
+1331,752,Cambridge Health Alliance
+1332,753,Massachusetts General Hospital
+1333,754,Lahey Clinic
+1334,755,Lahey Clinic
+1335,756,South Shore Hospital
+1336,757,Cambridge Health Alliance
+1337,757,Cambridge Health Alliance
+1338,757,Private Practice
+1339,758,M.I.T. Medical Department
+1340,759,Cambridge Health Alliance - Cambridge Campus
+1341,760,Harvard Vanguard Medical Associates
+1342,760,Children's Hospital Boston
+1343,761,Lahey Clinic
+1344,762,Massachusetts General Hospital
+1345,763,Harvard University Health Services
+1346,764,Tufts Medical Center
+1347,764,Self Employed
+1348,765,Mount Auburn Hospital
+1349,766,Tufts Medical Center
+1350,767,Lahey Clinic
+1351,768,Mount Auburn Hospital
+1352,769,Lahey Clinic
+1353,770,St. Elizabeth's Medical Ctr of Boston
+1354,770,Lemuel Shattuck Hospital
+1355,770,Steward Carney Hospital
+1356,770,Mount Auburn Hospital
+1357,771,Lahey Clinic
+1358,772,Cooley Dickinson Hospital (The)
+1359,773,Mount Auburn Hospital
+1360,774,Cambridge Health Alliance
+1361,775,Beth Israel Deaconess Medical Center
+1362,775,South Cove Community Health Center
+1363,775,Beth Israel Deaconess Medical Center
+1364,776,Emerson Hospital
+1365,777,Spaulding Rehabilitation Hospital
+1366,777,Spaulding Rehabilitation Hospital
+1367,778,Mount Auburn Hospital
+1368,779,Mount Auburn Hospital
+1369,779,Private Office
+1370,780,MIT Health Services
+1371,781,Beth Israel Deaconess Medical Center
+1372,781,Cambridge Health Alliance - Whidden Campus
+1373,781,Cambridge Health Alliance - Cambridge Campus
+1374,782,HVMA
+1375,783,Cooley Dickinson Hospital (The)
+1376,784,Children's Hospital Boston
+1377,784,Children's Hospital Boston
+1378,785,Private Office
+1379,786,Lahey Clinic
+1380,786,Lahey Clinic
+1381,787,Massachusetts General Hospital
+1382,787,Tewksbury Hospital
+1383,788,Out of State Hospital
+1384,789,Cambridge Health Alliance - Somerville Campus
+1385,789,Cambridge Health Alliance - Whidden Campus
+1386,789,Cambridge Health Alliance - Cambridge Campus
+1387,790,South Shore Hospital
+1388,791,Mount Auburn Hospital
+1389,792,Clinic
+1390,792,South Cove Community Health Center
+1391,793,Mary Pat Roy
+1392,793,MD
+1393,793,LLC
+1394,794,Cambridge Health Alliance
+1395,794,Edinburg Center- Lexington
+1396,794,Private Office
+1397,795,Mount Auburn Hospital
+1398,796,Lahey Clinic
+1399,797,Mount Auburn Hospital
+1400,797,Beth Israel Deaconess Medical Center
+1401,798,Cambridge Health Alliance - Cambridge Campus
+1402,799,Massachusetts Eye & Ear Infirmary
+1403,799,Massachusetts General Hospital
+1404,800,Other
+1405,801,Out of State Hospital
+1406,802,Cambridge Health Alliance - Cambridge Campus
+1407,803,Burlington OB-GYN Assoc.
+1408,803,Inc.
+1409,804,Children's Hospital Boston
+1410,804,Winchester Hospital
+1411,804,Harvard Vanguard Medical Assoc.- Burlington
+1412,805,Lahey Clinic
+1413,806,Cambridge Health Alliance
+1414,807,Children's Hospital Boston
+1415,807,Harvard Vanguard Medical Associates
+1416,808,McLean Hospital
+1417,808,Cambridge Health Alliance
+1418,809,Baystate Medical Center
+1419,810,Lahey Clinic
+1420,810,Out of State Hospital
+1421,811,Lahey Clinic
+1422,811,Lahey Clinic
+1423,812,Massachusetts General Hospital
+1424,813,Cambridge Health Alliance
+1425,814,Emerson Hospital
+1426,815,Mount Auburn Hospital
+1427,816,Massachusetts Eye & Ear Infirmary
+1428,817,Harvard Vanguard Medical Assoc.- Burlington
+1429,818,Massachusetts Eye & Ear Infirmary
+1430,819,Harvard University Health Services
+1431,820,Cambridge Health Alliance
+1432,821,Cambridge Health Alliance - Whidden Campus
+1433,821,Cambridge Health Alliance - Cambridge Campus
+1434,821,Cambridge Health Alliance - Somerville Campus
+1435,822,Lahey Clinic
+1436,823,Cooley Dickinson Hospital (The)
+1437,824,Emerson Hospital
+1438,825,McLean Hospital
+1439,826,U Mass Health System
+1440,826,Marlborough Hosp
+1441,826,U-Mass Memorial Medical Center
+1442,827,Lahey Clinic
+1443,827,Lahey Clinic
+1444,827,Beverly Hospital
+1445,827,Winchester Hospital
+1446,828,Cooley Dickinson Hospital (The)
+1447,828,Valley Medical Group
+1448,829,Children's Hospital Boston
+1449,829,Massachusetts General Hospital
+1450,829,Brigham & Women's Hospital
+1451,829,Beth Israel Deaconess Medical Center
+1452,830,Harvard University Health Services
+1453,830,Brigham & Women's Hospital
+1454,830,Beth Israel Deaconess Medical Center
+1455,831,Private Office
+1456,832,Cambridge Health Alliance
+1457,833,Beth Israel Deaconess Hospital-Milton
+1458,833,Part of Beth Israel Lahey Health
+1459,834,Mount Auburn Hospital
+1460,835,Mount Auburn Hospital
+1461,836,Children's Hospital Boston
+1462,836,Children's Hospital Boston
+1463,836,Physician's Office
+1464,837,Lahey Clinic
+1465,838,Harvard Pilgrim Health Care
+1466,838,Private Office
+1467,838,Harvard Vanguard Medical Associates
+1468,838,Massachusetts Eye & Ear Infirmary
+1469,838,Harvard Vanguard- Somerville
+1470,838,Harvard Vanguard Medical Assoc. Kenmore
+1471,839,South Shore Hospital
+1472,839,Private Practice
+1473,840,Lahey Clinic
+1474,841,Baystate Medical Center
+1475,841,Other
+1476,841,University Health Services
+1477,842,Mount Auburn Hospital
+1478,843,Waltham Hospital
+1479,843,Mount Auburn Hospital
+1480,843,Newton-Wellesley Hospital
+1481,844,Lahey Clinic
+1482,845,Mount Auburn Hospital
+1483,845,Belmont Medical Associates Inc.- Cambridge
+1484,846,Mount Auburn Hospital
+1485,846,Cambridge Public Hlth Commission (The)
+1486,846,Cambridge Health Alliance
+1487,847,Cooley Dickinson Health (Hospital)
+1488,848,Lowell Community Health Center
+1489,849,Cambridge Health Alliance
+1490,850,Cambridge Health Alliance - Cambridge Campus
+1491,850,Cambridge Health Alliance
+1492,851,Milton Hospital
+1493,852,MIT Health Services
+1494,853,Salem Hospital
+1495,853,Lahey Clinic
+1496,853,Union Hospital
+1497,854,Beth Israel Deaconess Medical Center
+1498,854,Beth Israel Deaconess Medical Center
+1499,854,Private Practice
+1500,855,Marlborough Hospital
+1501,855,Lawrence Memorial Hospital
+1502,856,Private Practice
+1503,856,North Suffolk Mental Health Boston
+1504,857,McLean Hospital
+1505,857,Private Office
+1506,858,Lahey Clinic
+1507,859,Cambridge Health Alliance - Cambridge Campus
+1508,860,South Shore Hospital
+1509,860,Quincy Hospital
+1510,860,Massachusetts Eye & Ear Infirmary
+1511,861,Lahey Clinic
+1512,861,Beverly Hospital
+1513,862,Lahey Clinic
+1514,863,Lemuel Shattuck Hospital
+1515,863,Cambridge Public Hlth Commission (The)
+1516,864,Lahey Clinic
+1517,864,Children's Hospital Boston
+1518,865,Mount Auburn Hospital
+1519,866,Cooley Dickinson Hospital (The)
+1520,867,Emerson Hospital
+1521,868,Mount Auburn Hospital
+1522,869,Mount Auburn Hospital
+1523,870,Lahey Clinic
+1524,871,Cooley Dickinson Hospital (The)
+1525,871,Baystate Medical Center
+1526,871,Holyoke Hospital
+1527,871,Noble Hospital
+1528,871,Wing Memorial Hospital
+1529,871,Baystate Mary Lane Hospital
+1530,872,Lahey Clinic
+1531,872,Lahey Clinic
+1532,873,Harvard University Health Services
+1533,873,Private Practice
+1534,874,Mount Auburn Hospital
+1535,874,Beth Israel Deaconess Medical Center
+1536,875,Other
+1537,875,Mount Auburn Hospital
+1538,876,South Shore Hospital
+1539,876,Beth Israel Deaconess Medical Center
+1540,876,Newton-Wellesley Hospital
+1541,876,Harvard Vanguard- Somerville
+1542,876,Harvard Vanguard Medical Associates
+1543,876,Beth Israel Deaconess Hospital - Milton
+1544,877,Cambridge Health Alliance
+1545,878,Mount Auburn Hospital
+1546,879,Mount Auburn Hospital
+1547,880,Massachusetts General Hospital
+1548,881,Lahey Clinic
+1549,882,Cambridge Health Alliance
+1550,883,Lahey Clinic
+1551,883,Beth Israel Deaconess Medical Center
+1552,884,Clara Barton Camp
+1553,885,Cambridge Health Alliance - Cambridge Campus
+1554,885,North Shore Medical Center - Salem Hospital
+1555,885,North Shore Medical Center-Union Hosp
+1556,886,Massachusetts General Hospital
+1557,887,Lahey Clinic
+1558,888,Lahey Clinic
+1559,889,Cambridge Health Alliance - Cambridge Campus
+1560,889,Beth Israel Deaconess Medical Center
+1561,890,Lahey Clinic
+1562,890,Winchester Hospital
+1563,891,U Mass Health System
+1564,891,Marlborough Hosp
+1565,891,Columbia/MetroWest Medical Center
+1566,892,Brigham & Women's Hospital
+1567,893,Winchester Hospital
+1568,893,Children's Hospital Boston
+1569,893,Harvard Vanguard Medical Assoc.
+1570,894,Lahey Clinic
+1571,895,Cambridge Health Alliance
+1572,895,Revere Broadway Health Center
+1573,895,Cambridge Health Alliance - Cambridge Campus
+1574,896,Lahey Clinic
+1575,897,Harvard University Health Services
+1576,898,Hallmark Health -Lawrence Memorial Hospital
+1577,899,Massachusetts General Hospital
+1578,899,Private Practice
+1579,900,Quincy Hospital
+1580,900,Tufts - New England Medical Center Hospitals
+1581,901,Lahey Clinic
+1582,902,Cambridge Public Hlth Commission (The)
+1583,903,Lahey Clinic
+1584,904,Cooley Dickinson Hospital (The)
+1585,905,U Mass Health System
+1586,905,Marlborough Hosp
+1587,905,U-Mass Memorial Medical Center
+1588,906,Other
+1589,907,Mount Auburn Hospital
+1590,907,Children's Hospital Boston
+1591,907,Beth Israel Deaconess Medical Center
+1592,908,Cambridge Health Alliance
+1593,909,Cooley Dickinson Hospital (The)
+1594,909,Cooley Dickinson Hospital (The)
+1595,909,Baystate Healthcare
+1596,909,Children's Hospital Boston
+1597,910,Lahey Clinic
+1598,911,Cooley Dickinson Hospital (The)
+1599,912,Cooley Dickinson Hospital (The)
+1600,912,Children's Hospital Boston
+1601,912,Cooley Dickinson Hospital (The)
+1602,913,UMass Memorial Medical Center
+1603,913,U Mass Health System
+1604,913,Marlborough Hosp
+1605,914,Lahey Clinic
+1606,915,Massachusetts General Hospital
+1607,916,Lahey Clinic
+1608,917,Cambridge Health Alliance - Cambridge Campus
+1609,918,Mount Auburn Hospital
+1610,918,St. Elizabeth's Medical Ctr of Boston
+1611,918,Tufts - New England Medical Center Hospitals
+1612,919,Hallmark Health -Lawrence Memorial Hospital
+1613,919,St. Elizabeth's Medical Ctr of Boston
+1614,919,Winchester Hospital
+1615,920,Private Practice
+1616,921,U Mass Health System
+1617,921,Marlborough Hosp
+1618,921,Columbia/MetroWest Medical Center
+1619,922,Lahey Clinic
+1620,923,Lahey Clinic
+1621,924,UMass Memorial Health Care
+1622,924,UMass Memorial Medical Center
+1623,925,Cambridge Health Alliance
+1624,926,Charles River Hospital
+1625,927,Lahey Clinic
+1626,928,Nursing Home
+1627,929,Children's Hospital Boston
+1628,930,Novartis Institute for Biomedical Research
+1629,931,MIT Health Services
+1630,932,Other
+1631,932,Cape Cod Eye Surgery & Laser Center
+1632,933,Mount Auburn Hospital
+1633,933,Mount Auburn Hospital
+1634,934,Lahey Clinic
+1635,935,Riverside Community Care
+1636,936,Private Office
+1637,937,Out of State Hospital
+1638,937,Harvard Pilgrim Health Care
+1639,938,Winchester Hospital
+1640,938,Other
+1641,938,Winchester Hospital
+1642,939,Lahey Clinic
+1643,940,Tewksbury Hospital
+1644,940,Cambridge Public Hlth Commission (The)
+1645,941,Lahey Clinic
+1646,942,Lahey Clinic
+1647,943,Steward Carney Hospital
+1648,943,South Shore Hospital
+1649,943,Brockton Hospital
+1650,943,Massachusetts Eye & Ear Infirmary
+1651,943,Milton Hospital
+1652,943,Good Samaritan Medical Center
+1653,943,New England Eye Surgical Center
+1654,943,Eye Health Services
+1655,943,Quincy Medical Center
+1656,944,Massachusetts General Hospital
+1657,945,Cooley Dickinson Hospital (The)
+1658,946,Cambridge Health Alliance - Cambridge Campus
+1659,947,Offfice/private practice
+1660,948,Mount Auburn Hospital
+1661,949,Lahey Clinic (HMO)
+1662,949,Emerson Hospital
+1663,950,Mount Auburn Hospital
+1664,950,Brigham & Women's Hospital
+1665,950,Beth Israel Deaconess Medical Center
+1666,951,Lahey Clinic
+1667,952,Other
+1668,953,Hallmark Health -Lawrence Memorial Hospital
+1669,953,St. Elizabeth's Medical Ctr of Boston
+1670,953,Winchester Hospital
+1671,953,Other
+1672,954,Emerson Hospital
+1673,954,Mount Auburn Hospital
+1674,954,Harvard Vanguard Medical Associates
+1675,955,Lahey Clinic
+1676,956,Mount Auburn Hospital
+1677,957,Faulkner Hospital
+1678,957,New England Sinai Hosp & Rehab Center
+1679,957,Boston Medical Center
+1680,958,Out of State Hospital
+1681,959,Massachusetts General Hospital
+1682,959,Cambridge Health Alliance
+1683,960,Mount Auburn Hospital
+1684,961,Cambridge Health Alliance
+1685,962,South Shore Hospital
+1686,963,Lahey Clinic
+1687,963,Other
+1688,964,U-Mass Memorial Medical Center
+1689,965,U Mass Health System
+1690,965,Marlborough Hosp
+1691,965,UMass Memorial Medical Center
+1692,965,Columbia/MetroWest Medical Center
+1693,966,Compass Medical
+1694,967,Milton Hospital
+1695,967,Beth Israel Deaconess Medical Center
+1696,967,Harvard Vanguard Medical Associates
+1697,967,Beverly Hospital
+1698,967,BID Needham
+1699,967,Quality Care Dialysis Ctr
+1700,967,South Suburban Dialysis
+1701,968,Massachusetts General Hospital
+1702,968,Cambridge Health Alliance - Cambridge Campus
+1703,968,Cambridge Health Alliance - Somerville Campus
+1704,968,Cambridge Health Alliance - Whidden Campus
+1705,968,Cambridge Health Alliance
+1706,969,Lahey Clinic
+1707,969,Lahey Clinic
+1708,970,Mount Auburn Hospital
+1709,971,Private Office
+1710,972,Lahey Clinic
+1711,973,Lahey Clinic
+1712,974,South Shore Hospital
+1713,975,Children's Hospital Boston
+1714,976,Mount Auburn Hospital
+1715,976,Beth Israel Deaconess Medical Center
+1716,977,Cambridge Health Alliance
+1717,978,Lahey Clinic
+1718,979,Cooley Dickinson Hospital (The)
+1719,980,Massachusetts Eye & Ear Infirmary
+1720,980,Tufts - New England Medical Center Hospitals
+1721,980,Lahey Clinic
+1722,981,Lahey Clinic
+1723,981,Lahey Clinic
+1724,982,Lahey Clinic
+1725,983,Winchester Hospital
+1726,984,Lahey Clinic
+1727,985,Massachusetts General Hospital
+1728,986,Melrose-Wakefield Hospital
+1729,986,Mount Auburn Hospital
+1730,986,Winchester Hospital
+1731,986,New England Surgicare
+1732,986,Hallmark Health System
+1733,986,Inc.
+1734,987,Mount Auburn Hospital
+1735,988,Quincy Hospital
+1736,989,Children's Hospital Boston
+1737,989,Harvard University Health Services
+1738,989,Brigham & Women's Hospital
+1739,990,Beverly Hospital
+1740,990,Lahey Clinic
+1741,991,Telemedicine
+1742,991,Harvard University Health Services
+1743,992,Massachusetts General Hospital
+1744,992,Cambridge Health Alliance - Somerville Campus
+1745,992,Cambridge Health Alliance - Cambridge Campus
+1746,993,Lahey Clinic
+1747,994,Harvard University Health Services
+1748,994,Brigham & Women's Hospital
+1749,995,Children's Hospital Boston
+1750,995,Franciscan Hospital for Children
+1751,995,Inc
+1752,995,Brigham & Women's Hospital
+1753,996,Mount Auburn Hospital
+1754,996,Harvard Vanguard Medical Associates
+1755,997,Private Office
+1756,997,Private Office
+1757,997,Primary Office
+1758,998,Mount Auburn Hospital
+1759,998,Part of Beth Israel Lahey Health
+1760,999,Private Office
+1761,999,Cambridge Health Alliance
+1762,1000,Mount Auburn Hospital
+1763,1001,Melrose-Wakefield Hospital
+1764,1001,Mount Auburn Hospital
+1765,1002,South Shore Hospital
+1766,1003,Steward Carney Hospital
+1767,1003,South Shore Hospital
+1768,1003,New England Eye Surgical Center
+1769,1003,Steward St. Elizabeth's Medical Center of Boston
+1770,1003,Beth Israel Deaconess Hospital - Milton
+1771,1004,U Mass Health System
+1772,1004,Marlborough Hosp
+1773,1005,Lahey Clinic
+1774,1006,East Cambridge Health Center
+1775,1007,Massachusetts General Hospital
+1776,1007,Bay State Community Health Services
+1777,1007,Massachusetts General Hospital
+1778,1008,Harvard University Health Services
+1779,1009,Private Practice
+1780,1009,Private Practice
+1781,1010,MIT
+1782,1011,U Mass Health System
+1783,1011,Marlborough Hosp
+1784,1011,Saint Vincent Hospital
+1785,1011,U-Mass Memorial Medical Center
+1786,1011,office
+1787,1011,Offfice/private practice
+1788,1012,Mount Auburn Hospital
+1789,1013,Steward St. Elizabeth's Medical Center of Boston
+1790,1013,Steward Medical Group
+1791,1014,Cambridge Health Alliance - Cambridge Campus
+1792,1014,Tewksbury Hospital
+1793,1014,Columbia/MetroWest Medical Center
+1794,1015,Cambridge Health Alliance - Somerville Campus
+1795,1015,Cambridge Health Alliance - Whidden Campus
+1796,1015,Cambridge Health Alliance - Cambridge Campus
+1797,1016,Tufts Medical Center
+1798,1017,Mount Auburn Hospital
+1799,1017,Beth Israel Deaconess Medical Center
+1800,1018,Cambridge Health Alliance - Cambridge Campus
+1801,1019,Children's Hospital Boston
+1802,1020,Other
+1803,1021,Beverly Hospital
+1804,1021,Addison Gilbert Hospital
+1805,1021,Cambridge Health Alliance
+1806,1022,Harvard Vanguard Medical Associates
+1807,1023,Massachusetts General Hospital
+1808,1023,Cambridge Public Hlth Commission (The)
+1809,1024,Baystate Medical Center
+1810,1025,Cambridge Health Alliance - Cambridge Campus
+1811,1026,Lahey Clinic
+1812,1027,Lahey Clinic
+1813,1028,Cooley Dickinson Hospital (The)
+1814,1029,Lahey Clinic
+1815,1030,Children's Hospital Boston
+1816,1030,Lahey Clinic
+1817,1031,Dana Farber Cancer Institute
+1818,1032,Lahey Clinic
+1819,1033,Children's Hospital Boston
+1820,1033,Harvard Vanguard Medical Associates
+1821,1034,South Shore Hospital
+1822,1034,Harvard Vanguard Medical Associates
+1823,1035,Cooley Dickinson Hospital (The)
+1824,1036,Cooley Dickinson Hospital (The)
+1825,1037,Lahey Clinic
+1826,1038,Massachusetts General Hospital
+1827,1038,Cambridge Health Alliance
+1828,1039,Harvard Vanguard Medical Associates
+1829,1039,Harvard Vanguard- Somerville
+1830,1039,Beth Israel Deaconess Medical Center
+1831,1040,Newton-Wellesley Hospital
+1832,1040,Baystate Medical Center
+1833,1041,Offfice/private practice
+1834,1042,Private Office
+1835,1043,Baystate Franklin Medical Center
+1836,1043,Cooley Dickinson Hospital (The)
+1837,1043,Berkshire Medical Center
+1838,1044,Massachusetts General Hospital
+1839,1044,Erich Lindemann Mental Health Center
+1840,1045,Offfice/private practice
+1841,1046,Cambridge Health Alliance - Whidden Campus
+1842,1046,Cambridge Health Alliance - Cambridge Campus
+1843,1047,Lahey Clinic
+1844,1047,Harvard Vanguard- Peabody
+1845,1047,Winchester Hospital
+1846,1048,Lahey Clinic
+1847,1049,Lahey Clinic
+1848,1050,Other
+1849,1051,Cambridge Health Alliance - Whidden Campus
+1850,1051,Cambridge Health Alliance - Cambridge Campus
+1851,1052,Winchester Hospital
+1852,1052,Winchester Hospital
+1853,1052,Blue Cross/Blue Shield of Mass
+1854,1053,Mental Health Clinic
+1855,1054,Milton Hospital
+1856,1054,South Shore Hospital
+1857,1055,Winchester Hospital
+1858,1055,Children's Hospital Boston
+1859,1056,Lahey Clinic
+1860,1057,Other
+1861,1057,Cambridge Public Hlth Commission (The)
+1862,1058,Harvard Vanguard Medical Associates
+1863,1059,Burlington OB-GYN Assoc.
+1864,1059,Inc.
+1865,1060,Lahey Clinic
+1866,1060,VA Boston Health Care System
+1867,1060,Lahey Clinic
+1868,1061,Cambridge Health Alliance - Whidden Campus
+1869,1061,Mount Auburn Hospital
+1870,1061,Cambridge Health Alliance - Cambridge Campus
+1871,1061,Winchester Hospital
+1872,1062,Lahey Clinic
+1873,1063,Mount Auburn Hospital
+1874,1064,South Shore Hospital
+1875,1065,Beth Israel Deaconess Medical Center
+1876,1065,Cambridge Health Alliance
+1877,1065,Mount Auburn Hospital
+1878,1065,South Cove Community Health Center
+1879,1066,Mount Auburn Hospital

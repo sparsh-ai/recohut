@@ -1,0 +1,252 @@
+Disease_Id,Disease_name,Signs_and_symptoms,Diagnosis,Treatment
+1,Acinetobacter infections,Blood infection: Fever chills vomiting confusionUrinary tract infection: bloody urine cloudy urinePneumonia: Fever chills coughing,Culture,Supportive care
+2,Actinomycosis,Painful abscesses,Histologic findings,Penicillin doxycycline and sulfonamides
+3,Adenovirus infection,high fever that lasts 4 to 6 dayspharyngitis (sore throat)conjunctivitis (inflamed eyes usually without pus formation like pink eye)enlargement of the lymph nodes of the neckheadache malaise and weaknessIncubation period of 5 to 9 days,Antigen detection polymerase chain reaction assay virus isolation and serology,Most infections are mild and require no therapy or only symptomatic treatment.
+4,African sleeping sickness (African trypanosomiasis),Hemolymphatic phase: Fever lymphadenopathyNeurological phase: Sleep disorders neurological symptoms psychiatric symptoms,Identification of trypanosomes in a sample by microscopic examination,Fexinidazole by mouth or pentamidine by injection for T. b. gambiense.Suramin by injection is used for T. b. rhodesiense
+5,AIDS (acquired immunodeficiency syndrome),Opportunistic infections,Antibody test p24 antigen test PCR,Treatment is typically a non-nucleoside reverse transcriptase inhibitor (NNRTI) plus two nucleoside analog reverse transcriptase inhibitors (NRTIs)
+6,Amoebiasis,Most are asymptomatic.,Microscopy,Those with symptoms require treatment with an amoebicidal tissue-active agent and a luminal cysticidal agent. Individuals that are asymptomatic only need a luminal cysticidal agent.
+7,Anaplasmosis,Fever leukopenia abnormally elevated levels of liver enzymes,indirect immunofluorescence antibody assay for IgG,Tetracycline drugs (including tetracycline chlortetracycline oxytetracycline rolitetracycline doxycycline and minocycline) and imidocarb
+8,Angiostrongyliasis,Abdominal pain nausea vomiting and weakness fever central nervous system (CNS) symptoms,Lumbar puncture brain imaging serology,Albendazole
+9,Anisakiasis,Severe abdominal pain malnutrition and vomiting,Gastroscopic examination or histopathologic examination,Albendazole
+10,Anthrax,boil-like skin lesion that eventually forms an ulcer with a black center (eschar),Culture PCR,Large doses of intravenous and oral antibiotics such as fluoroquinolones (ciprofloxacin) doxycycline erythromycin vancomycin or penicillin
+11,Arcanobacterium haemolyticum infection,Head and neck infections pharyngitis and sinusitis,Culture in human blood agar plates,erythromycin (proposed as the first-line drug) clindamycin gentamicin and cephalosporins
+12,Argentine hemorrhagic fever,No symptoms found,No diagnosis found,No treatment found
+13,Ascariasis,Migrating larvae intestinal blockage and bowel obstruction,Fecal smear,Albendazole mebendazole levamisole and pyrantel pamoate
+14,Aspergillosis,Hemoptysis chest pain,Chest X-ray and CT  microscopy by silver stains,Voriconazole and liposomal amphotericin B in combination with surgical debridement
+15,Astrovirus infection,Diarrhoea followed by nausea vomiting fever malaise and abdominal pain,Electron microscopy enzyme-immunoassay (ELISA) immunofluorescence and polymerase chain reaction,Supportive care
+16,Babesiosis,Fever and hemolytic anemia,Giemsa-stained thin-film blood smear,Atovaquone and azithromycin. In life-threatening cases exchange transfusion is performed.
+17,Bacillus cereus infection,Nausea vomiting and diarrhea,Culture,Vancomycin
+18,Bacterial meningitis,neck stiffness sudden high fever and altered mental status,Lumbar puncture (contraindicated if there is a mass in the brain or the intracranial pressure is elevated) CT or MRI,Antibiotics
+19,Bacterial pneumonia,Fever rigors cough and runny nose chest pain,Sputum Gram stain and culture Chest radiography,Antibiotics
+20,Bacterial vaginosis,Increased vaginal discharge that usually smells like fish,Gram stain and whiff test,Metronidazole or clindamycin
+21,Bacteroides infection,No symptoms found,No diagnosis found,No treatment found
+22,Balantidiasis,Intermittent diarrhea constipation vomiting abdominal pain anorexia weight loss headache colitis and marked fluid loss,microscopic examination of stools or colonoscopy or sigmoidoscopy,Tetracycline metronidazole or iodoquinol
+23,Bartonellosis,Carrion's disease trench fever cat-scratch disease bacillary angiomatosis peliosis hepatis chronic bacteremia endocarditis chronic lymphadenopathy and neurological disorders,microscopy serology and PCR,Antibiotics
+24,Baylisascaris infection,No symptoms found,No diagnosis found,No treatment found
+25,BK virus infection,No symptoms found,No diagnosis found,No treatment found
+26,Black piedra,formation of nodules on the scalp moustache and pubic hair,Stain or culture,Antifungal shampoos such as pyrithione zinc formaldehyde and salicylic acid
+27,Blastocystosis,abdominal pain itching usually anal itching constipation diarrhea watery or loose stool,microscopic examination of a chemically preserved stool specimen,Lack of scientific study to support the efficacy of any particular treatment
+28,Blastomycosis,fever chills arthralgia (joint pain) myalgia (muscle pain) headache and a nonproductive cough,KOH prep cytology or histology,Itraconazole or ketoconazole
+29,Bolivian hemorrhagic fever,No symptoms found,No diagnosis found,No treatment found
+30,Botulism (and Infant botulism),Double vision drooping of both eyelids loss of facial expression and swallowing problems,Enzyme-linked immunosorbent assays (ELISAs) electrochemiluminescent (ECL) tests,Botulism antitoxin and supportive care
+31,Brazilian hemorrhagic fever,No symptoms found,No diagnosis found,No treatment found
+32,Brucellosis,fevers sweating (often with characteristic foul moldy smell sometimes likened to wet hay) and migratory arthralgia and myalgia (joint and muscle pain),Culture,Tetracyclines rifampicin and the aminoglycosides streptomycin and gentamicin
+33,Bubonic plague,Chills malaise high fever muscle cramps seizures,Culture,Aminoglycosides such as streptomycin and gentamicin tetracyclines (especially doxycycline) and the fluoroquinolone ciprofloxacin
+34,Burkholderia infection,No symptoms found,No diagnosis found,No treatment found
+35,Buruli ulcer,Swollen bump,real-time PCR,The most widely used antibiotic regimen is once daily oral rifampicin plus twice daily oral clarithromycin.
+36,Calicivirus infection (Norovirus and Sapovirus),Vomiting diarrhea stomach pain,No diagnosis found,No treatment found
+37,Campylobacteriosis,Fever headache and myalgia followed by diarrhea,Stool culture,Erythromycin can be used in children and tetracycline in adults.
+38,Candidiasis (Moniliasis Thrush),Redness itching and discomfort,In oral candidiasis simply inspecting the person's mouth for white patches and irritation may make the diagnosis.Symptoms of vaginal candidiasis are vaginal itching or soreness pain during sexual intercourse,Antifungal medications
+39,Capillariasis,No symptoms found,No diagnosis found,No treatment found
+40,Dental caries,Tooth pain difficulty eating discoloration tooth loss,No diagnosis found,No treatment found
+41,Carrion's disease,Fever pale appearance malaise painless liver enlargement jaundice enlarged lymph nodes and enlarged spleen,Peripheral blood smear with Giemsa stain Columbia blood agar cultures immunoblot indirect immunofluorescence and PCR,Fluoroquinolones (such as ciprofloxacin) or chloramphenicol in adults and chloramphenicol plus beta-lactams in children are the antibiotic regimens of choice during the acute phase of Carrion's disease.
+42,Cat-scratch disease,Malaise decreased appetite and aches,Polymerase chain reaction,Azithromycin
+43,Cellulitis,An area that is red hot and painful,By history and physical examination,Penicillinase-resistant semisynthetic penicillin or a first-generation cephalosporin
+44,Chagas disease (American trypanosomiasis),Fever malaise headache and enlargement of the liver spleen and lymph nodes,Microscopic examination of fresh anticoagulated blood or its buffy coat for motile parasites; or by preparation of thin and thick blood smears stained with Giemsa for direct visualization of parasites,Benznidazole and nifurtimox (though benznidazole is the only drug available in most of Latin America)
+45,Chancroid,Painful sores on the genitalia,Clinical diagnosis,The CDC recommendation is either a single oral dose (1 gram) of azithromycin a single IM dose (250mg) of ceftriaxone oral (500mg) of erythromycin three times a day for seven days or oral (500mg) of ciprofloxacin twice a day for three days.
+46,Chickenpox,nausea loss of appetite aching muscles and headache followed by the characteristic rash or oral sores malaise and a low-grade fever,The diagnosis of chickenpox is primarily based on the signs and symptoms with typical early symptoms followed by a characteristic rash. Confirmation of the diagnosis is by examination of the fluid within the vesicles of the rash or by testing blood for evidence of an acute immunologic response.,Aciclovir
+47,Chikungunya,sudden onset combining high fever joint pain and rash,Laboratory criteria include a decreased lymphocyte count consistent with viremia. However a definitive laboratory diagnosis can be accomplished through viral isolation RT-PCR or serological diagnosis.,Supportive care
+48,Chlamydia,In women those who have an asymptomatic infection that is not detected by their doctor approximately half will develop pelvic inflammatory disease (PID)In men painful or burning sensation when urinating,Nucleic acid amplification tests (NAAT) such as polymerase chain reaction (PCR) transcription mediated amplification (TMA) and the DNA strand displacement amplification (SDA),azithromycin doxycycline erythromycin levofloxacin or ofloxacin
+49,Chlamydophila pneumoniae infection (Taiwan acute respiratory agent or TWAR),No symptoms found,No diagnosis found,No treatment found
+50,Cholera,Profuse diarrhea and vomiting of clear fluid,A rapid dipstick test is available.,oral rehydration therapy (ORT)
+51,Chromoblastomycosis,Usually the infection slowly spreads to the surrounding tissue while still remaining localized to the area around the original wound.,microscopy (KOH scrapings),Itraconazole an antifungal azole is given orally with or without flucytosine.
+52,Chytridiomycosis,No symptoms found,No diagnosis found,No treatment found
+53,Clonorchiasis,No symptoms found,No diagnosis found,No treatment found
+54,Clostridium difficile colitis,diarrhea recent antibiotic exposure abdominal pain fever and a distinctive foul odor,Colonoscopy or sigmoidoscopy cytotoxicity assay toxin ELISA,Vancomycin or fidaxomicin by mouth
+55,Coccidioidomycosis,No symptoms found,No diagnosis found,No treatment found
+56,Colorado tick fever (CTF),No symptoms found,No diagnosis found,No treatment found
+57,Common cold (Acute viral rhinopharyngitis Acute coryza),Cough runny nose sneezing nasal congestion and a sore throa,Based on symptoms,Supportive care
+58,Coronavirus disease 2019 (COVID-19),Fever cough loss of taste and smell,No diagnosis found,No treatment found
+59,Coxsackie B virus infection,Fever headache sore throat gastrointestinal distress extreme fatigue as well as chest and muscle pain,Enterovirus infection is diagnosed mainly via serological tests such as ELISA and from cell culture.,There is no well-accepted treatment for the Coxsackie B group of viruses.
+60,CreutzfeldtJakob disease (CJD),Memory loss behavioral changes poor coordination,No diagnosis found,No treatment found
+61,Crimean-Congo hemorrhagic fever (CCHF),No symptoms found,No diagnosis found,No treatment found
+62,Cryptococcosis,Cough shortness of breath chest pain and fever,India ink of the cerebrospinal fluid (CSF),Intravenous Amphotericin B combined with flucytosine by mouth
+63,Cryptosporidiosis,Gastrointestinal and respiratory symptoms,No diagnosis found,No treatment found
+64,Cutaneous larva migrans (CLM),No symptoms found,No diagnosis found,No treatment found
+65,Cyclosporiasis,No symptoms found,No diagnosis found,No treatment found
+66,Cysticercosis,No symptoms found,No diagnosis found,No treatment found
+67,Cytomegalovirus infection,Fatigue swollen glands fever sore throat muscle aches,Blood and urine tests biopsy,Cidofovir foscarnet ganciclovir valganciclovir
+68,Dengue fever,Sudden-onset fever headache muscle and joint pains and a rash,Clinical diagnosis,Treatment depends on the symptoms.
+69,Desmodesmus infection,No symptoms found,No diagnosis found,No treatment found
+70,Dientamoebiasis,No symptoms found,No diagnosis found,No treatment found
+71,Diphtheria,fever of 38 degrees C (100.4 degrees F) or above; chills; fatigue; bluish skin coloration (cyanosis); sore throat; hoarseness; cough; headache; difficulty swallowing; painful swallowing; difficulty breathing; rapid breathing; foul-smelling and bloodstained nasal discharge; and lymphadenopathy,Laboratory criteriaIsolation of C. diphtheriae cultureHistopathologic diagnosisToxin demonstrationIn vivo tests (guinea pig inoculation)In vitro test: Elek's gel precipitation test PCR ELISA ICAClinical criteriaURT illness with sore throatLow-grade feverAn adherent dense grey pseudomembrane covering the posterior aspect of the pharynx,Metronidazole Erythromycin Procaine penicillin G
+72,Diphyllobothriasis,No symptoms found,No diagnosis found,No treatment found
+73,Dracunculiasis,Burning pain blister from which worm emerges,No diagnosis found,No treatment found
+74,Eastern equine encephalitis (EEE),High fever muscle pain altered mental status headache meningeal irritation photophobia and seizures,Blood tests,Corticosteroids anticonvulsants and supportive measures (treating symptoms)
+75,Ebola hemorrhagic fever,Flu-like symptoms severe internal and external bleeding,No diagnosis found,No treatment found
+76,Echinococcosis,No symptoms found,Imaging Serology test,Surgical removal of the cysts combined with chemotherapy
+77,Ehrlichiosis,No symptoms found,No diagnosis found,No treatment found
+78,Enterobiasis (Pinworm infection),Anal itching that gets worse at night disturbed sleep,No diagnosis found,No treatment found
+79,Enterococcus infection,No symptoms found,No diagnosis found,No treatment found
+80,Enterovirus infection,No symptoms found,No diagnosis found,No treatment found
+81,Epidemic typhus,No symptoms found,No diagnosis found,No treatment found
+82,Erythema infectiosum (Fifth disease),No symptoms found,No diagnosis found,No treatment found
+83,Exanthem subitum (Sixth disease),No symptoms found,No diagnosis found,No treatment found
+84,Fasciolasis,No symptoms found,No diagnosis found,No treatment found
+85,Fasciolopsiasis,No symptoms found,No diagnosis found,No treatment found
+86,Fatal familial insomnia (FFI),Severe insomnia followed by dementia hallucinations and death,No diagnosis found,No treatment found
+87,Filariasis,No symptoms found,No diagnosis found,No treatment found
+88,Food poisoning by Clostridium perfringens,Diarrhea vomiting and fever,Stool test,Supportive care
+89,Free-living amebic infection,No symptoms found,No diagnosis found,No treatment found
+90,Fusobacterium infection,No symptoms found,No diagnosis found,No treatment found
+91,Gas gangrene (Clostridial myonecrosis),Discoloration large black blisters foul odor pain and numbness,No diagnosis found,No treatment found
+92,Geotrichosis,No symptoms found,No diagnosis found,No treatment found
+93,Gerstmann-Straussler-Scheinker syndrome (GSS),No symptoms found,No diagnosis found,No treatment found
+94,Giardiasis,Symptoms vary from none to severe diarrhea with poor absorption of nutrients.,Detection of antigens on the surface of organisms in stool,Treatment is not always necessary. If medications are needed a nitroimidazole medication is used such as metronidazole tinidazole secnidazole or ornidazole.
+95,Glanders,No symptoms found,No diagnosis found,No treatment found
+96,Gnathostomiasis,No symptoms found,No diagnosis found,No treatment found
+97,Gonorrhea,Swelling itching pain and the formation of pus,Gram stain and culture,Ceftriaxone by injection and azithromycin by mouth
+98,Granuloma inguinale (Donovanosis),No symptoms found,No diagnosis found,No treatment found
+99,Group A streptococcal infection,impetigo cellulitis and erysipelas  to  infections of the skin which can be complicated by necrotizing fasciitis  to  skin fascia and musclestrep throat AKA strep pharyngitis  to  pharynx,Culture,Penicillin
+100,Group B streptococcal infection,Pneumonia: fever lung consolidation pleural effusion tachypnea tachycardia or hypotensionMeningitis: fever confusion hypotension headache nuchal rigidity or changing mental statusBacteremia: fever murmur evidence of an embolic event hypotension phlebitis tachycardia tachypnea splenomegaly or evidence of heart failureSkin and soft tissue infection osteomyelitis septic arthritis or discitis: fever cellulitis arthritis arthralgia localized pain decubitus ulcer vascular insufficiency of the lower extremity back pain wound infection or neurologic dysfunctionUrinary tract infection or pelvic abscess: fever flank pain pelvic pain or abdominal pain,Gram stain,Penicillin and ampicillin
+101,Haemophilus influenzae infection,Pain fever,Gram stain,In severe cases cefotaxime and ceftriaxone delivered directly into the bloodstream are the elected antibiotics and for the less severe cases an association of ampicillin and sulbactam cephalosporins of the second and third generation or fluoroquinolones are preferred.
+102,Hand foot and mouth disease (HFMD),Fever rash small blisters,A diagnosis usually can be made by the presenting signs and symptoms alone. If the diagnosis is unclear a throat swab or stool specimen may be taken to identify the virus by culture.,Medications are usually not needed as hand foot and mouth disease is a viral disease that typically resolves on its own. Currently there is no specific curative treatment for hand foot and mouth disease.
+103,Hantavirus Pulmonary Syndrome (HPS),No symptoms found,No diagnosis found,No treatment found
+104,Heartland virus disease,No symptoms found,No diagnosis found,No treatment found
+105,Helicobacter pylori infection,Stomach ulcers,No diagnosis found,No treatment found
+106,Hemolytic-uremic syndrome (HUS),thrombocytopenia and microangiopathic hemolysis plus one or more of the following: neurological symptoms (e.g. confusion cerebral convulsions seizures); renal impairment (e.g. elevated creatinine decreased estimated glomerular filtration rate [eGFR] abnormal urinalysis); and gastrointestinal (GI) symptoms (e.g. diarrhea nausea/vomiting abdominal pain gastroenteritis).,First diagnosis of aHUS is often made in the context of an initial complement-triggering infection and Shiga-toxin has also been implicated as a trigger that identifies patients with aHUS.,Treatment involves supportive care and may include dialysis steroids blood transfusions and plasmapheresis.
+107,Hemorrhagic fever with renal syndrome (HFRS),Redness of cheeks and nose fever chills sweaty palms diarrhea malaise headaches nausea abdominal and back pain respiratory problems,HFRS is difficult to diagnose on clinical grounds alone and serological evidence is often needed.,There is no cure for HFRS. Treatment involves supportive therapy including renal dialysis.
+108,Hendra virus infection,No symptoms found,No diagnosis found,No treatment found
+109,Hepatitis A,Nausea vomiting diarrhea dark urine jaundice fever abdominal pain,Blood tests,Supportive care liver transplantation
+110,Hepatitis B,None yellowish skin tiredness dark urine abdominal pain,Blood tests,Antiviral medication (tenofovir interferon) liver transplantation
+111,Hepatitis C,Typically none,Blood testing for antibodies or viral RNA,Antivirals (sofosbuvir simeprevir others)
+112,Hepatitis D,Feeling tired nausea and vomiting,Immunoglobulin G,Antivirals pegylated interferon alpha
+113,Hepatitis E,Nausea jaundice,Hepatitis E virus (HEV),Rest ribavirin (if chronic)
+114,Herpes simplex,Blisters on genitalia and lips,Based on symptoms PCR  viral culture,Aciclovir valaciclovir paracetamol (acetaminophen) topical lidocaine
+115,Histoplasmosis,Nonspecific respiratory symptoms often cough or flu-like,Histoplasmosis can be diagnosed by samples containing the fungus taken from sputum (via bronchoalveolar lavage) blood or infected organs.  It can also be diagnosed by detection of antigens in blood or urine samples by ELISA or polymerase chain reaction.,In the majority of immunocompetent individuals histoplasmosis resolves without any treatment. Antifungal medications are used to treat severe cases of acute histoplasmosis and all cases of chronic and disseminated disease. Typical treatment of severe disease first involves treatment with amphotericin B followed by oral itraconazole.
+116,Hookworm infection,No symptoms found,No diagnosis found,No treatment found
+117,Human bocavirus infection,No symptoms found,No diagnosis found,No treatment found
+118,Human ewingii ehrlichiosis,Fever headache myalgias and malaise,The diagnosis can be confirmed by using PCR. A peripheral blood smear can also be examined for intracytoplasmic inclusions called morulae.,Doxycycline
+119,Human granulocytic anaplasmosis (HGA),feversevere headachemuscle aches (myalgia)chills and shaking similar to the symptoms of influenzanauseavomitingloss of appetiteunintentional weight lossabdominal paincough,PCR,Doxycycline
+120,Human metapneumovirus infection,No symptoms found,No diagnosis found,No treatment found
+121,Human monocytic ehrlichiosis,Fever headache malaise and muscle aches (myalgia).,PCR,Doxycycline
+122,Human papillomavirus (HPV) infection,Warts,No diagnosis found,No treatment found
+123,Human parainfluenza virus infection,No symptoms found,No diagnosis found,No treatment found
+124,Human T-lymphotropic virus 1 infection,No symptoms found,No diagnosis found,No treatment found
+125,Hymenolepiasis,Abdominal pain loss of appetite itching around the anus irritability and diarrhea,Examination of the stool for eggs and parasites,Praziquantel niclosamide
+126,EpsteinBarr virus infectious mononucleosis (Mono),Fever  to  usually lasting 14 days; often mildSore throat  to  usually severe for 3 to 5 days before resolving in the next 7 to 10 days.Swollen glands  to  mobile; usually located around the back of the neck (posterior cervical lymph nodes) and sometimes throughout the body.,"Diagnostic modalities for infectious mononucleosis include:Person's age with highest risk at 10 to 30 years.Medical history such as close contact with other people with infectious mononucleosis and the presence and time of onset of ""mononucleosis-like symptoms"" such as fever and sore throat.[citation needed]Physical examination including palpation of any enlarged lymph nodes in the neck or enlarged spleen.The heterophile antibody test is a screening test that gives results within a day but has significantly less than full sensitivity (70–92%) in the first two weeks after clinical symptoms begin.Serological tests take longer time than the heterophile antibody test but are more accurate.",Infectious mononucleosis is generally self-limiting so only symptomatic or supportive treatments are used.
+127,Influenza (flu),The onset of symptoms is sudden and initial symptoms are predominately non-specific including fever chills headaches muscle pain or aching a feeling of discomfort loss of appetite lack of energy/fatigue and confusion. These symptoms are usually accompanied by respiratory symptoms such as a dry cough sore or dry throat hoarse voice and a stuffy or runny nose.,Diagnostic methods that can identify influenza include viral cultures antibody- and antigen-detecting tests and nucleic acid-based tests.,Treatment of influenza in cases of mild or moderate illness is supportive and includes anti-fever medications such as acetaminophen and ibuprofen adequate fluid intake to avoid dehydration and resting at home.
+128,NA,NA,NA,NA
+129,Isosporiasis,Infection causes acute non-bloody diarrhea with crampy abdominal pain which can last for weeks and result in malabsorption and weight loss,Microscopic demonstration of the large typically shaped oocysts is the basis for diagnosis. Because the oocysts may be passed in small amounts and intermittently repeated stool examinations and concentration procedures are recommended. If stool examinations are negative examination of duodenal specimens by biopsy or string test (Enterotest) may be needed. The oocysts can be visualized on wet mounts by microscopy with bright-field differential interference contrast (DIC) and epifluorescence. They can also be stained by modified acid-fast stain.,Trimethoprim-sulfamethoxazole
+130,Japanese encephalitis,Fever headache and malaise cachexia hemiparesis convulsions and a raised body temperature between 38 to 41 degrees C (100.4 to 105.8 degrees F) Mental retardation,Available tests detecting JE virus-specific IgM antibodies in serum and/or cerebrospinal fluid for example by IgM capture ELISA.,Supportive
+131,Kawasaki disease,Fever > 5 days large lymph nodes rash sore throat diarrhea,Based on symptoms ultrasound of the heart,Aspirin immunoglobulin
+132,Keratitis,No symptoms found,No diagnosis found,Treatment depends on the cause of the keratitis. Infectious keratitis can progress rapidly and generally requires urgent antibacterial antifungal or antiviral therapy to eliminate the pathogen. Antibacterial solutions include levofloxacin gatifloxacin moxifloxacin ofloxacin. It is unclear if steroid eye drops are useful or not
+133,Kingella kingae infection,No symptoms found,No diagnosis found,No treatment found
+134,Kuru,Body tremors random outbursts of laughter gradual loss of coordination,Autopsy,None
+135,Lassa fever,Partial or complete temporary or permanent hearing loss,Laboratory testing,Supportive
+136,Legionellosis (Legionnaires' disease),Cough shortness of breath fever muscle pains headaches,Urinary antigen test sputum culture,Effective antibiotics include most macrolides tetracyclines ketolides and quinolones.
+137,Pontiac fever,No symptoms found,No diagnosis found,No treatment found
+138,Leishmaniasis,Skin ulcers fever low red blood cells enlarged liver,Leishmaniasis is diagnosed in the hematology laboratory by direct visualization of the amastigotes (Leishman–Donovan bodies). Buffy-coat preparations of peripheral blood or aspirates from marrow spleen lymph nodes or skin lesions should be spread on a slide to make a thin smear and stained with Leishman stain or Giemsa stain (pH 7.2) for 20 minutes.,For visceral leishmaniasis in India South America and the Mediterranean liposomal amphotericin B is the recommended treatment and is often used as a single dose. Rates of cure with a single dose of amphotericin have been reported as 95%. In India almost all infections are resistant to pentavalent antimonials. In Africa a combination of pentavalent antimonials and paromomycin is recommended. These however can have significant side effects. Miltefosine an oral medication is effective against both visceral and cutaneous leishmaniasis.
+139,Leprosy,Numbness small nodules deformation of extremities,In countries where people are frequently infected a person is considered to have leprosy if they have one of the following two signs:Skin lesion consistent with leprosy and with definite sensory loss.Positive skin smears.,Rifampicin dapsone clofazimine
+140,Leptospirosis,None headaches muscle pains fevers,Testing blood for antibodies against the bacterium or its DNA,Doxycycline penicillin ceftriaxone
+141,Listeriosis,Diarrhea fever headache,Culture of blood or spinal fluid,Ampicillin gentamicin
+142,Lyme disease (Lyme borreliosis),Expanding area of redness at the site of a tick bite fever headache tiredness,Based on symptoms tick exposure blood tests,Doxycycline amoxicillin ceftriaxone cefuroxime
+143,Lymphatic filariasis (Elephantiasis),Severe swelling of extremities thickened skin,Microscopic examination of blood,Albendazole with ivermectin or diethylcarbamazine
+144,Lymphocytic choriomeningitis,Fever lack of appetite headache muscle aches malaise nausea and/or vomiting,Blood test,Symptomatic and supportive
+145,Malaria,Headache fever shivering joint pain vomiting hemolytic anemia jaundice hemoglobin in the urine retinal damage and convulsions,Examination of the blood antigen detection tests,Antimalarial medication
+146,Marburg hemorrhagic fever (MHF),Fever weakness myalgias,Blood test,Supportive
+147,Measles,Fever cough runny nose red Fever cough runny nose inflamed eyes rash,Typically clinical diagnosis begins with the onset of fever and malaise about 10 days after exposure to the measles virus followed by the emergence of cough coryza and conjunctivitis that worsen in severity over 4 days of appearing. Observation of Koplik's spots is also diagnostic.,Supportive care
+148,Middle East respiratory syndrome (MERS),Fever cough shortness of breath,rRT-PCR testing,Symptomatic and supportive
+149,Melioidosis (Whitmore's disease),None fever pneumonia multiple abscesses,Growing the bacteria in culture mediums,Ceftazidime meropenem co-trimoxazole
+150,Meningitis,Fever headache neck stiffness,Lumbar puncture,Antibiotics antivirals steroids
+151,Meningococcal disease,Flu-like symptoms stiff neck altered mental status seizures purpura,No diagnosis found,Treatment in primary care usually involves prompt intramuscular administration of benzylpenicillin and then an urgent transfer to hospital (hopefully an academic level I medical center or at least a hospital with round the clock neurological care ideally with neurological intensive and critical care units) for further care. Once in the hospital the antibiotics of choice are usually IV broad spectrum 3rd generation cephalosporins e.g. cefotaxime or ceftriaxone. Benzylpenicillin and chloramphenicol are also effective.
+152,Metagonimiasis,Diarrhea and colicky abdominal pain,Metagonimiasis is diagnosed by eggs seen in feces.,Praziquantel
+153,Microsporidiosis,No symptoms found,PCR,Fumagillin has been used in the treatment. Another agent used is albendazole.
+154,Molluscum contagiosum (MC),Small raised pink lesions with a dimple in the center,Based on appearance,Cimetidine podophyllotoxin
+155,Monkeypox,Fever headache muscle pains shivering blistering rash swollen lymph nodes,Testing for viral DNA,Supportive antivirals vaccinia immune globulin
+156,Mumps,Parotitis and non-specific symptoms such as fever headache malaise muscle pain and loss of appetite,Antibody testing viral cultures and reverse transcription polymerase chain reaction,Supportive
+157,Murine typhus (Endemic typhus),Headache fever muscle pain joint pain nausea and vomiting,Early diagnosis continued to be based on clinical suspicion.,The most effective antibiotics include tetracycline and chloramphenicol.
+158,Mycoplasma pneumonia,No symptoms found,No diagnosis found,No treatment found
+159,Mycoplasma genitalium infection,No symptoms found,No diagnosis found,No treatment found
+160,Mycetoma,No symptoms found,No diagnosis found,No treatment found
+161,Myiasis,Boil with larva inside,No diagnosis found,No treatment found
+162,Neonatal conjunctivitis (Ophthalmia neonatorum),No symptoms found,No diagnosis found,No treatment found
+163,Nipah virus infection,No symptoms found,No diagnosis found,No treatment found
+164,Norovirus,No symptoms found,No diagnosis found,No treatment found
+165,(New) Variant CreutzfeldtJakob disease (vCJD nvCJD),No symptoms found,No diagnosis found,No treatment found
+166,Nocardiosis,No symptoms found,No diagnosis found,No treatment found
+167,Onchocerciasis (River blindness),No symptoms found,No diagnosis found,No treatment found
+168,Opisthorchiasis,No symptoms found,No diagnosis found,No treatment found
+169,Paracoccidioidomycosis (South American blastomycosis),No symptoms found,No diagnosis found,No treatment found
+170,Paragonimiasis,No symptoms found,No diagnosis found,No treatment found
+171,Pasteurellosis,No symptoms found,No diagnosis found,No treatment found
+172,Pediculosis capitis (Head lice),Itching nits attached to hair,No diagnosis found,No treatment found
+173,Pediculosis corporis (Body lice),No symptoms found,No diagnosis found,No treatment found
+174,Pediculosis pubis (pubic lice crab lice),No symptoms found,No diagnosis found,No treatment found
+175,Pelvic inflammatory disease (PID),No symptoms found,No diagnosis found,No treatment found
+176,Pertussis (whooping cough),Severe coughing fits ending in gasps,No diagnosis found,No treatment found
+177,Plague,No symptoms found,No diagnosis found,No treatment found
+178,Pneumococcal infection,No symptoms found,No diagnosis found,No treatment found
+179,Pneumocystis pneumonia (PCP),No symptoms found,No diagnosis found,No treatment found
+180,Pneumonia,No symptoms found,No diagnosis found,No treatment found
+181,Poliomyelitis,No symptoms found,No diagnosis found,No treatment found
+182,Prevotella infection,No symptoms found,No diagnosis found,No treatment found
+183,Primary amoebic meningoencephalitis (PAM),No symptoms found,No diagnosis found,No treatment found
+184,Progressive multifocal leukoencephalopathy,No symptoms found,No diagnosis found,No treatment found
+185,Psittacosis,No symptoms found,No diagnosis found,No treatment found
+186,Q fever,No symptoms found,No diagnosis found,No treatment found
+187,Rabies,No symptoms found,No diagnosis found,No treatment found
+188,Relapsing fever,No symptoms found,No diagnosis found,No treatment found
+189,Respiratory syncytial virus infection,No symptoms found,No diagnosis found,No treatment found
+190,Rhinosporidiosis,No symptoms found,No diagnosis found,No treatment found
+191,Rhinovirus infection,No symptoms found,No diagnosis found,No treatment found
+192,Rickettsial infection,No symptoms found,No diagnosis found,No treatment found
+193,Rickettsialpox,No symptoms found,No diagnosis found,No treatment found
+194,Rift Valley fever (RVF),No symptoms found,No diagnosis found,No treatment found
+195,Rocky Mountain spotted fever (RMSF),No symptoms found,No diagnosis found,No treatment found
+196,Rotavirus infection,No symptoms found,No diagnosis found,No treatment found
+197,Rubella,No symptoms found,No diagnosis found,No treatment found
+198,Salmonellosis,No symptoms found,No diagnosis found,No treatment found
+199,Severe acute respiratory syndrome (SARS),No symptoms found,No diagnosis found,No treatment found
+200,Scabies,No symptoms found,No diagnosis found,No treatment found
+201,Scarlet fever,No symptoms found,No diagnosis found,No treatment found
+202,Schistosomiasis,No symptoms found,No diagnosis found,No treatment found
+203,Sepsis,No symptoms found,No diagnosis found,No treatment found
+204,Shigellosis (bacillary dysentery),No symptoms found,No diagnosis found,No treatment found
+205,Shingles (Herpes zoster),No symptoms found,No diagnosis found,No treatment found
+206,Smallpox (variola),No symptoms found,No diagnosis found,No treatment found
+207,Sporotrichosis,No symptoms found,No diagnosis found,No treatment found
+208,Staphylococcal food poisoning,No symptoms found,No diagnosis found,No treatment found
+209,Staphylococcal infection,No symptoms found,No diagnosis found,No treatment found
+210,Strongyloidiasis,No symptoms found,No diagnosis found,No treatment found
+211,Subacute sclerosing panencephalitis,No symptoms found,No diagnosis found,No treatment found
+212,Bejel Syphilis and Yaws,No symptoms found,No diagnosis found,No treatment found
+213,Taeniasis,No symptoms found,No diagnosis found,No treatment found
+214,Tetanus (lockjaw),No symptoms found,No diagnosis found,No treatment found
+215,Tick-borne encephalitis,No symptoms found,No diagnosis found,No treatment found
+216,Tinea barbae (barber's itch),No symptoms found,No diagnosis found,No treatment found
+217,Tinea capitis (ringworm of the scalp),No symptoms found,No diagnosis found,No treatment found
+218,Tinea corporis (ringworm of the body),No symptoms found,No diagnosis found,No treatment found
+219,Tinea cruris (Jock itch),No symptoms found,No diagnosis found,No treatment found
+220,Tinea manum (ringworm of the hand),No symptoms found,No diagnosis found,No treatment found
+221,Tinea nigra,No symptoms found,No diagnosis found,No treatment found
+222,Tinea pedis (athletes foot),No symptoms found,No diagnosis found,No treatment found
+223,Tinea unguium (onychomycosis),No symptoms found,No diagnosis found,No treatment found
+224,Tinea versicolor (Pityriasis versicolor),No symptoms found,No diagnosis found,No treatment found
+225,Toxic shock syndrome (TSS),No symptoms found,No diagnosis found,No treatment found
+226,Toxocariasis (ocular larva migrans (OLM)),No symptoms found,No diagnosis found,No treatment found
+227,Toxocariasis (visceral larva migrans (VLM)),No symptoms found,No diagnosis found,No treatment found
+228,Toxoplasmosis,No symptoms found,No diagnosis found,No treatment found
+229,Trachoma,No symptoms found,No diagnosis found,No treatment found
+230,Trichinosis,No symptoms found,No diagnosis found,No treatment found
+231,Trichomoniasis,No symptoms found,No diagnosis found,No treatment found
+232,Trichuriasis (whipworm infection),No symptoms found,No diagnosis found,No treatment found
+233,Tuberculosis,No symptoms found,No diagnosis found,No treatment found
+234,Tularemia,No symptoms found,No diagnosis found,No treatment found
+235,Typhoid fever,No symptoms found,No diagnosis found,No treatment found
+236,Typhus fever,No symptoms found,No diagnosis found,No treatment found
+237,Ureaplasma urealyticum infection,No symptoms found,No diagnosis found,No treatment found
+238,Valley fever,No symptoms found,No diagnosis found,No treatment found
+239,Venezuelan equine encephalitis,No symptoms found,No diagnosis found,No treatment found
+240,Venezuelan hemorrhagic fever,No symptoms found,No diagnosis found,No treatment found
+241,Vibrio vulnificus infection,No symptoms found,No diagnosis found,No treatment found
+242,Vibrio parahaemolyticus enteritis,No symptoms found,No diagnosis found,No treatment found
+243,Viral pneumonia,No symptoms found,No diagnosis found,No treatment found
+244,West Nile fever,No symptoms found,No diagnosis found,No treatment found
+245,White piedra (tinea blanca),No symptoms found,No diagnosis found,No treatment found
+246,Yersinia pseudotuberculosis infection,No symptoms found,No diagnosis found,No treatment found
+247,Yersiniosis,No symptoms found,No diagnosis found,No treatment found
+248,Yellow fever,No symptoms found,No diagnosis found,No treatment found
+249,Zeaspora,No symptoms found,No diagnosis found,No treatment found
+250,Zika fever,No symptoms found,No diagnosis found,No treatment found
+251,Zygomycosis,No symptoms found,No diagnosis found,No treatment found
