@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: trips_with_borough_name_model
+    description: "Combines taxi rides with the borough names for pickup and dropoff locations."
+    columns:
+      - name: vendor_id
+      - name: pickup_datetime
+      - name: dropoff_datetime
+      - name: pickup_borough
+      - name: dropoff_borough
+      - name: passenger_count
+      - name: fare_amount
+  - name: trips_vendor_model
+    description: "Shows the pickup datetime and vendor id."
+    columns:
+      - name: vendor_id
+      - name: pickup_datetime

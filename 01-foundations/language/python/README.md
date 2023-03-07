@@ -123,7 +123,14 @@ Writing python code to be run as Airflow DAG.
 
 ### Joins and Aggregations
 
-Using pandas for advanced joins and aggregation operations.
+Using pandas and polars for advanced joins and aggregation operations.
+
+Resources - Stratascratch
+
+### Developer Best Practices
+
+- Testing - Unittest and Pytest
+- Logging
 
 ## Advantages of using Python for Data engineering
 
@@ -139,3 +146,4 @@ Data engineering using Python only gets better, and here is a list of points if 
 ## References
 
 1. [Python Data Engineer Interview Questions](https://www.stratascratch.com/blog/python-data-engineer-interview-questions/)
+2. https://scrimba.com/learn/python

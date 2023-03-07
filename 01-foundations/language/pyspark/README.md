@@ -1,8 +1,8 @@
 # Apache Spark
 
-> Apache Spark is an open-source, multi-language, in-memory, large-scale data processing engine. It provides high-level APIs in Java, Scala, Python & R programming languages. It works on the concept of in-memory computation, making it around 100x faster than Hadoop MapReduce. It also provides tools & libraries like Spark SQL(for structured data processing), MLlib (Machine Learning), Streaming (Stream processing) & GraphX (Graph processing).
+Apache Spark is an open-source, multi-language, in-memory, large-scale data processing engine. It provides high-level APIs in Java, Scala, Python & R programming languages. It works on the concept of in-memory computation, making it around 100x faster than Hadoop MapReduce. It also provides tools & libraries like Spark SQL(for structured data processing), MLlib (Machine Learning), Streaming (Stream processing) & GraphX (Graph processing).
 
-Apache Spark is an Open source analytical processing engine for large scale powerful distributed data processing and machine learning applications. Spark is Originally developed at the University of California, Berkeley’s, and later donated to Apache Software Foundation. In February 2014, Spark became a Top-Level Apache Project and has been contributed by thousands of engineers and made Spark one of the most active open-source projects in Apache.
+Apache Spark is an analytical processing engine for large scale powerful distributed data processing and machine learning applications. Spark is Originally developed at the University of California, Berkeley’s, and later donated to Apache Software Foundation. In February 2014, Spark became a Top-Level Apache Project and has been contributed by thousands of engineers and made Spark one of the most active open-source projects in Apache.
 
 Spark is a distributed data processing engine meaning its components work collaboratively on a cluster of machines to run your tasks. It can be run on a single machine (standalone mode) as well for testing purposes. Spark is an open-source project that was originally developed in 2009 by Matei Zaharia as a replacement/alternative to MapReduce.
 
@@ -26,7 +26,7 @@ Spark consists of several components that work together to provide a comprehensi
 - Spark MLlib: A library for machine learning tasks.
 - Spark GraphX: A library for graph processing.
 
-**Features:**
+**Features**
 
 - In-memory computation
 - Distributed processing using parallelize
@@ -48,13 +48,22 @@ Spark consists of several components that work together to provide a comprehensi
 - Using Spark Streaming you can also stream files from the file system and also stream from the socket.
 - Spark natively has machine learning and graph libraries.
 
-Watch this video: https://www.youtube.com/watch?v=Hciruu3Gb3E
+Watch these videos
 
-Watch this video: https://www.youtube.com/watch?v=QaoJNXW6SQo
-
-![](https://user-images.githubusercontent.com/62965911/214256759-3ebd302e-8d9f-4f29-98ae-1841dacf9cd3.jpeg)
+- https://www.youtube.com/watch?v=Hciruu3Gb3E
+- https://www.youtube.com/watch?v=QaoJNXW6SQo
 
 Apache Spark supports transformations with three different **Application Programming Interfaces** (**APIs**): **Resilient Distributed Datasets** (**RDDs**), **DataFrames**, and **Datasets**. We will learn about RDDs and DataFrame transformations in this chapter. Datasets are just extensions of DataFrames, with additional features like being type-safe (where the compiler will strictly check for data types) and providing an **object-oriented** (**OO**) interface.
+
+## Spark Architecture
+
+Apache Spark works in a master-slave architecture where the master is called “Driver” and slaves are called “Workers”. When you run a Spark application, Spark Driver creates a context that is an entry point to your application, and all operations (transformations and actions) are executed on worker nodes, and the resources are managed by Cluster Manager.
+
+![img](https://user-images.githubusercontent.com/62965911/214256759-3ebd302e-8d9f-4f29-98ae-1841dacf9cd3.jpeg)
+
+## Spark Ecosystem
+
+![1_TK3eaVzHplkaHS6rLIciTA](https://user-images.githubusercontent.com/62965911/223375021-2db8e20b-4b2c-4ea2-bfb9-744620d186e3.png)
 
 ## The Genesis of Spark
 
