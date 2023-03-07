@@ -6,7 +6,7 @@
 
 Join the 55-hour intensive training program now.
 
-Price is $175 /- 
+Price is $175 /-
 
 [*USE DEITP30 coupon fo 30% discount.* *OFFER VALID FOR LIMITED TIME ONLY]*
 
@@ -15,6 +15,8 @@ Price is $175 /-
 ## Curriculum
 
 ### Developer Foundations
+
+#### [VSCode](01-foundations/developer/vscode/)
 
 * [ ] Visual Studio Code (vscode) [[link to note](01-foundations/developer/vscode/)]
   * [ ] Download and Install vscode
