@@ -1,0 +1,4 @@
+apache-airflow-providers-amazon
+pandas
+boto3
+geohash2
