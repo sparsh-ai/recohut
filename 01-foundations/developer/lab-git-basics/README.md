@@ -1,5 +1,9 @@
 # Getting Started with Git
 
+## Process Flow
+
+![process-flow drawio](https://user-images.githubusercontent.com/62965911/223728022-28f18b0e-b5ce-413c-b4e4-db9a5dd9585d.svg)
+
 ## Objective
 
 In this lab, we will learn how to perform the following activities:
@@ -19,10 +23,12 @@ In this lab, we will learn how to perform the following activities:
 ## Quiz
 
 Which git command sets up a git tracking of a project?
+
 - [ ] A. init
 - [ ] B. status
 - [ ] C. add
 - [ ] D. commit
+
 <details><summary>Show answer</summary>
 A. This initializes a git respository.
 </details>
@@ -30,10 +36,12 @@ A. This initializes a git respository.
 <br/>
 
 Which git command is used to tell git to track a file
+
 - [ ] A. init
 - [ ] B. status
 - [ ] C. add
 - [ ] D. commit
+
 <details><summary>Show answer</summary>
 C. This adds a file to gits control.
 </details>
@@ -41,10 +49,12 @@ C. This adds a file to gits control.
 <br/>
 
 Which git command is used to record changes?
+
 - [ ] A. init
 - [ ] B. status
 - [ ] C. add
 - [ ] D. commit
+
 <details><summary>Show answer</summary>
 D. This records tracked changes.
 </details>
@@ -52,10 +62,12 @@ D. This records tracked changes.
 <br/>
 
 Which git command is used to switch branches?
+
 - [ ] A. log
 - [ ] B. diff
 - [ ] C. checkout
 - [ ] D. merge
+
 <details><summary>Show answer</summary>
 C. Yes, this changes to the specified branch.
 </details>

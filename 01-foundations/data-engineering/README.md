@@ -891,7 +891,14 @@ Designing and implementing a data lake involves selecting the appropriate hardwa
 
 Data modeling is the process of designing and implementing a logical structure for storing and organizing data in a database or other data storage system. It involves identifying the entities and relationships in the data, and defining the attributes and data types for each entity. Data modeling is an important part of data engineering, as it helps to ensure the efficiency and scalability of data processing and analysis.
 
-## More
+## Advanced Topics
+
+1. [System Design](01-foundations/data-engineering/system-design.md)
+2. [Data Quality](01-foundations/data-engineering/data-quality.md)
+3. [Data Management](01-foundations/data-engineering/data-management.md)
+4. [Data Contract](01-foundations/data-engineering/data-contract.md)
+
+## Explore Further
 
 1. [Data Engineering Roadmap](https://knowledgetree.notion.site/Data-Engineering-Roadmap-6e543497f9074aba89520b45b678d32f)
 2. [Approaching the data pipeline architecture](https://knowledgetree.notion.site/Approaching-the-data-pipeline-architecture-214bdf596037454ca3f879894035c83f)
@@ -899,7 +906,7 @@ Data modeling is the process of designing and implementing a logical structure f
 4. [How to gather requirements for your data project](https://www.startdataengineering.com/post/n-questions-data-pipeline-req/)
 5. [Five Steps to land a high paying data engineering job](https://www.startdataengineering.com/post/n-steps-high-pay-de-job/)
 6. [Functional Data Engineering - A Set of Best Practices](https://youtu.be/4Spo2QRTz1k)
-7. [4 Key Aspects for Designing Distributed Systems [`medium`]](https://betterprogramming.pub/4-key-aspects-for-designing-distributed-systems-dc8fec7b8c5b)
+7. [4 Key Aspects for Designing Distributed Systems](https://betterprogramming.pub/4-key-aspects-for-designing-distributed-systems-dc8fec7b8c5b)
 8. [Big Data](https://www.alura.com.br/artigos/big-data)
 9. [Data Lake vs Data Warehouse](https://www.alura.com.br/artigos/data-lake-vs-data-warehouse)
 10. [Data Mesh: indo além do Data Lake e Data Warehouse](https://medium.com/data-hackers/data-mesh-indo-al%C3%A9m-do-data-lake-e-data-warehouse-465d57539d89)

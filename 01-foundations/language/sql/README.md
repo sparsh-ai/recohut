@@ -30,17 +30,16 @@ We will now list some of the additional advantages that made the SQL language th
 
 ## Key Concepts
 
-1. *Data definition:* The ability to create and modify the structure of a database, including creating tables, defining columns and data types, and setting constraints.
-2. *Data manipulation:* The ability to add, update, and delete data within a database, as well as retrieve specific data using SELECT statements.
-3. *Data integrity:* Ensuring that the data within a database is accurate, consistent, and free of errors, through the use of constraints, keys, and indexes.
-4. *Data querying:* Retrieving specific data from a database using SELECT statements, filtering and sorting the data, and joining tables to combine data from multiple sources.
-5. *Data modeling: *The ability to represent real-world entities and relationships in a database through the use of tables, columns, and keys.*
-6. *Data normalization: *The process of organizing data in a database to minimize data redundancy and improve data integrity.*
-7. *Data security:* Techniques for protecting a database from unauthorized access, such as through the use of user accounts, passwords, and access controls.
-8. *Data maintenance: *The ability to backup, restore, and optimize a database to ensure its ongoing performance and stability.*
+1. **Data definition:** The ability to create and modify the structure of a database, including creating tables, defining columns and data types, and setting constraints.
+2. **Data manipulation:** The ability to add, update, and delete data within a database, as well as retrieve specific data using SELECT statements.
+3. **Data integrity:** Ensuring that the data within a database is accurate, consistent, and free of errors, through the use of constraints, keys, and indexes.
+4. **Data querying:** Retrieving specific data from a database using SELECT statements, filtering and sorting the data, and joining tables to combine data from multiple sources.
+5. **Data modeling:** The ability to represent real-world entities and relationships in a database through the use of tables, columns, and keys.*
+6. **Data normalization:** The process of organizing data in a database to minimize data redundancy and improve data integrity.*
+7. **Data security:** Techniques for protecting a database from unauthorized access, such as through the use of user accounts, passwords, and access controls.
+8. **Data maintenance:** The ability to backup, restore, and optimize a database to ensure its ongoing performance and stability.*
 
-Key Advantages of SQL
----------------------
+## Advantages
 
 The list of advantages is very long, but the main points are as follows:
 
@@ -49,8 +48,7 @@ The list of advantages is very long, but the main points are as follows:
 - **Portability**: Because it is standard in several *DBMSs*, SQL is portable between these different types of database managers, even though there are some particularities in the SQL of each.
 - **Multiple data views**: With SQL, it is possible to define different views of the database structure for different user needs. For example, you might have users who are only allowed to explore the data and perform **SELECT** commands, whereas other users can add columns in tables but cannot delete any columns. This granularity of permissions makes databases more fully configurable.
 
-Key Disadvantages of SQL
-------------------------
+## Disadvantages
 
 Of course, we can find more disadvantages when we know about NoSQL databases, but the disadvantages most encountered by data architects to justify an analysis of other databases are these:
 
@@ -59,10 +57,7 @@ Of course, we can find more disadvantages when we know about NoSQL databases, b
 
 This generates a lack of flexibility and more time spent at the beginning of a project in the planning and implementation of the database.
 
-Let's now get to know the categories of SQL commands.
-
-Understanding the categories of SQL commands
---------------------------------------------
+## Understanding the categories of SQL commands
 
 To understand the structure of SQL, it is subdivided into five categories of commands:
 
@@ -77,6 +72,40 @@ The following diagram demonstrates the categories of the SQL language and their
 ![B18569_03_03](https://user-images.githubusercontent.com/62965911/218838205-321df2ab-06b7-4737-8570-6d8c52e5e543.jpeg)
 
 These five categories contain all the necessary syntaxes of SQL commands for operations in a database.
+
+SQL was initially created to be the language for generating, manipulating, and retrieving data from relational databases, which have been around for more than 40 years. Over the past decade or so, however, other data platforms such as Hadoop, Spark, and NoSQL have gained a great deal of traction, eating away at the relational database market. However, the SQL language has been evolving to facilitate the retrieval of data from various platforms, regardless of whether the data is stored in tables, documents, or flat files.
+
+Whether you will be using a relational database or not, if you are working in data engineering, business intelligence, or some other facet of data analysis, you will likely need to know SQL, along with other languages/platforms such as Python and R. Data is everywhere, in huge quantities, and arriving at a rapid pace, and people who can extract meaningful information from all this data are in big demand.
+
+### Aggregation, Grouping, Ordering & Filtering
+
+The aggregation functions perform calculations on multiple rows and return the result as one value, collapsing the individual rows in the process. When an aggregation function is used, you need to group the data on fields which are not aggregated by using a GROUP BY clause.
+
+Filtering is used when you need to extract a subset of data by using a specific condition. You can use WHERE and HAVING clauses to filter the data as per your needs.
+
+### Joins and Unions
+
+Data Engineers are typically responsible for collating different data sources together and providing a cleaner source of information for the Data Scientists or Data Analysts. In order to collate data from different sources, they need a good understanding of SQL Joins and Unions.
+
+### CTEs, Sub Queries, and Window Functions
+
+As the queries become more complex, it’s not always possible to write a single query and do all the analysis. Sometimes, it’s necessary to create a temporary table and use the results in a new query to perform analysis at different levels. We can use a subquery, a CTE (Common Table Expression), or a TEMP (Temporary) table for this. As a Data Engineer, you need to understand these concepts to write better and optimized SQL queries.
+
+### Query breakdown
+
+| Statement | How to Use It               | Other Details                                         |
+| --------- | --------------------------- | ----------------------------------------------------- |
+| SELECT    | SELECT Col1, Col2, ...      | Provide the columns you want                          |
+| FROM      | FROM Table                  | Provide the table where the columns exist             |
+| LIMIT     | LIMIT 10                    | Limits based number of rows returned                  |
+| ORDER BY  | ORDER BY Col                | Orders table based on the column. Used with DESC.     |
+| WHERE     | WHERE Col > 5               | A conditional statement to filter your results        |
+| LIKE      | WHERE Col LIKE '%me%'       | Only pulls rows where column has 'me' within the text |
+| IN        | WHERE Col IN ('Y', 'N')     | A filter for only rows with column of 'Y' or 'N'      |
+| NOT       | WHERE Col NOT IN ('Y', 'N') | NOT is frequently used with LIKE and IN               |
+| AND       | WHERE Col1 > 5 AND Col2 < 3 | Filter rows where two or more conditions must be true |
+| OR        | WHERE Col1 > 5 OR Col2 < 3  | Filter rows where at least one condition must be true |
+| BETWEEN   | WHERE Col BETWEEN 3 AND 5   | Often easier syntax than using an AND                 |
 
 ## Key Commands
 
@@ -129,8 +158,7 @@ There are components in a relational database that are important to maintain th
 
 Let's take a look at each of them in detail in the following sections.
 
-Views
------
+### Views
 
 A *view* can be considered a virtual table because it is composed of rows and columns of data, the results of a **SELECT** SQL instruction in one or more database tables. Views are great resources for organizing information from different tables to create reports.
 
@@ -155,8 +183,7 @@ IMPORTANT NOTE
 
 Imagine you have 5 upstream raw tables, each 1 PB in size, and your downstream consists of 1,000 views accessing the 5 tables. You may end up processing the PBs of data repeatedly, and that's bad in terms of both cost and performance.
 
-Stored procedures
------------------
+### Stored procedures
 
 A *stored procedure* is a set of SQL statements stored in a database. These statements can request data entry parameters, which are used as variables during execution, and can constitute a data output.
 
@@ -172,8 +199,7 @@ GO;
 
 Objects in a database need a trigger to be called and start executing. For this reason, there is an object in relational databases called a *trigger*. Let's analyze it now.
 
-Triggers
---------
+### Triggers
 
 *Triggers* are a type of stored procedure, configured to call whenever an event occurs. This trigger can be used, for example, to signalize the execution of some statements whenever new data is included in a table, or a record is edited in the table.
 
@@ -195,8 +221,7 @@ This makes it possible for you to keep a history of this table and know exactly 
 
 Sometimes, tables become very large, with thousands and even millions of records. This size can cause performance problems in database operations, and one of the methods used to mitigate these problems was indexes, which we are going to look at now.
 
-Indexes
--------
+### Indexes
 
 An *index* is created by a table or view to define a field that can be used to optimize queries.
 
@@ -1093,70 +1118,20 @@ The SQL standard defines two types of triggers: row-level triggers and statement
 
 ## SQL vs. NoSQL
 
-SQL was initially created to be the language for generating, manipulating, and retrieving data from relational databases, which have been around for more than 40 years. Over the past decade or so, however, other data platforms such as Hadoop, Spark, and NoSQL have gained a great deal of traction, eating away at the relational database market. However, the SQL language has been evolving to facilitate the retrieval of data from various platforms, regardless of whether the data is stored in tables, documents, or flat files.
+**SQL**
 
-Whether you will be using a relational database or not, if you are working in data engineering, business intelligence, or some other facet of data analysis, you will likely need to know SQL, along with other languages/platforms such as Python and R. Data is everywhere, in huge quantities, and arriving at a rapid pace, and people who can extract meaningful information from all this data are in big demand.
+- Ensure ACID compliance.
+  - Reduce anomalies.
+  - Protect database integrity.
+- Data is structured and unchanging.
 
-### Aggregation, Grouping, Ordering & Filtering
+**NoSQL**
 
-The aggregation functions perform calculations on multiple rows and return the result as one value, collapsing the individual rows in the process. When an aggregation function is used, you need to group the data on fields which are not aggregated by using a GROUP BY clause.
-
-Filtering is used when you need to extract a subset of data by using a specific condition. You can use WHERE and HAVING clauses to filter the data as per your needs.
-
-### Joins and Unions
-
-Data Engineers are typically responsible for collating different data sources together and providing a cleaner source of information for the Data Scientists or Data Analysts. In order to collate data from different sources, they need a good understanding of SQL Joins and Unions.
-
-### CTEs, Sub Queries, and Window Functions
-
-As the queries become more complex, it’s not always possible to write a single query and do all the analysis. Sometimes, it’s necessary to create a temporary table and use the results in a new query to perform analysis at different levels. We can use a subquery, a CTE (Common Table Expression), or a TEMP (Temporary) table for this. As a Data Engineer, you need to understand these concepts to write better and optimized SQL queries.
-
-### Query breakdown
-
-| Statement | How to Use It               | Other Details                                         |
-| --------- | --------------------------- | ----------------------------------------------------- |
-| SELECT    | SELECT Col1, Col2, ...      | Provide the columns you want                          |
-| FROM      | FROM Table                  | Provide the table where the columns exist             |
-| LIMIT     | LIMIT 10                    | Limits based number of rows returned                  |
-| ORDER BY  | ORDER BY Col                | Orders table based on the column. Used with DESC.     |
-| WHERE     | WHERE Col > 5               | A conditional statement to filter your results        |
-| LIKE      | WHERE Col LIKE '%me%'       | Only pulls rows where column has 'me' within the text |
-| IN        | WHERE Col IN ('Y', 'N')     | A filter for only rows with column of 'Y' or 'N'      |
-| NOT       | WHERE Col NOT IN ('Y', 'N') | NOT is frequently used with LIKE and IN               |
-| AND       | WHERE Col1 > 5 AND Col2 < 3 | Filter rows where two or more conditions must be true |
-| OR        | WHERE Col1 > 5 OR Col2 < 3  | Filter rows where at least one condition must be true |
-| BETWEEN   | WHERE Col BETWEEN 3 AND 5   | Often easier syntax than using an AND                 |
-
-## Common types of NoSQL
-
-### Key-value stores
-
-- Array of key-value pairs. The "key" is an attribute name.
-- Redis, Vodemort, Dynamo.
-
-### Document databases
-
-- Data is stored in documents.
-- Documents are grouped in collections.
-- Each document can have an entirely different structure.
-- CouchDB, MongoDB.
-
-### Wide-column / columnar databases
-
-- Column families - containers for rows.
-- No need to know all the columns up front.
-- Each row can have different number of columns.
-- Cassandra, HBase.
-
-### Graph database
-
-- Data is stored in graph structures
-  - Nodes: entities
-  - Properties: information about the entities
-  - Lines: connections between the entities
-- Neo4J, InfiniteGraph
-
-## Differences between SQL and NoSQL
+- Data has little or no structure.
+- Make the most of cloud computing and storage.
+  - Cloud-based storage requires data to be easily spread across multiple servers to scale up.
+- Rapid development.
+  - Frequent updates to the data structure.
 
 ### Storage
 
@@ -1198,22 +1173,38 @@ As the queries become more complex, it’s not always possible to write a single
 - NoSQL
   - Most sacrifice ACID compliance for performance and scalability.
 
-## Which one to use?
+### Common types of NoSQL
 
-### SQL
+#### Key-value stores
 
-- Ensure ACID compliance.
-  - Reduce anomalies.
-  - Protect database integrity.
-- Data is structured and unchanging.
+- Array of key-value pairs. The "key" is an attribute name.
+- Redis, Vodemort, Dynamo.
 
-### NoSQL
+#### Document databases
 
-- Data has little or no structure.
-- Make the most of cloud computing and storage.
-  - Cloud-based storage requires data to be easily spread across multiple servers to scale up.
-- Rapid development.
-  - Frequent updates to the data structure.
+- Data is stored in documents.
+- Documents are grouped in collections.
+- Each document can have an entirely different structure.
+- CouchDB, MongoDB.
+
+#### Wide-column / columnar databases
+
+- Column families - containers for rows.
+- No need to know all the columns up front.
+- Each row can have different number of columns.
+- Cassandra, HBase.
+
+#### Graph database
+
+- Data is stored in graph structures
+  - Nodes: entities
+  - Properties: information about the entities
+  - Lines: connections between the entities
+- Neo4J, InfiniteGraph
+
+## SQL Interview Questions
+
+[Click here](01-foundations/language/sql/sql-interviews-questions.md)
 
 ## Resources
 
@@ -1254,5 +1245,3 @@ As the queries become more complex, it’s not always possible to write a single
 23. [https://pgexercises.com/](https://pgexercises.com/)
 24. [https://www.hackerrank.com/domains/sql](https://www.hackerrank.com/domains/sql)
 25. [https://www.hackerrank.com/domains/databases](https://www.hackerrank.com/domains/databases)
-
----
