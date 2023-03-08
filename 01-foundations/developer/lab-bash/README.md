@@ -1,4 +1,4 @@
-# Shell Commands
+# Getting Started with Bash
 
 - `pwd`: Display the current directory
 - `ls`: List the files and directories
