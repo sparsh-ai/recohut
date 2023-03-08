@@ -1,29 +1,5 @@
 # Interview Preparation
 
-1. [Master Guide](./master-guide.md)
-2. [Resume Buildup](./resume-buildup.md)
-
-## Techical
-
-1. [Basic Technical Questions](./basic-technical-questions.md)
-2. [Data Structures and Algorithms](./algorithm-problems.md)
-3. [Data Lakes](./data-lakes.md)
-4. [Data Warehouse](./data-warehouse.md)
-5. [Database 1](./database-problems.md)
-6. [Database 2](./database-mgmt-questions.md)
-
-## Miscellaneous
-
-1. [25 Most Common Questions](./twentyfive-most-common-questions.md)
-2. [50 Most Common Questions](./fifty-most-common-questions.md)
-
-## Behavioral
-
-1. [Behavioral Interview Questions 1](./behavioral-interview-questions.md)
-2. [Behavioral Interview Questions 2](./behavioral-questions.md)
-
-## Master Guide
-
 Whether you’re just getting into the data engineer job market or your interview is tomorrow, practice is an essential part of the interview preparation process for a data engineer. Data engineering interview questions assess your data engineering skills and domain expertise. They are based on a company’s tech stack and technology goals, and they test your ability to perform job functions. In an interview for any Engineering role, the interviewer wants to understand if you have good analytical skills, problem-solving ability, communication, work culture and ability to build technical solutions. Specific to Data Engineering, they also want to understand if you have the skills to handle large data and build scalable and robust systems.
 
 ## The typical Data Engineering interview process
