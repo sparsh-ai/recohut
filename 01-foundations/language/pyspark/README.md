@@ -61,6 +61,26 @@ Apache Spark works in a master-slave architecture where the master is called “
 
 ![img](https://user-images.githubusercontent.com/62965911/214256759-3ebd302e-8d9f-4f29-98ae-1841dacf9cd3.jpeg)
 
+### Driver program
+
+The driver program (aka Spark driver) is a dedicated process that runs on the driver machine. It is responsible for executing and holding the `SparkSession`, which encapsulates the `SparkContext`—this is considered the application’s entry point, or the “real program.” The `SparkContext` contains all the basic functions, context delivered at start time, and information about the cluster. The driver also holds the DAG scheduler, task scheduler, block manager, and everything that is needed to turn the code into jobs that the worker and executors can execute on the cluster. The driver program works in synergy with the cluster manager to find the existing machines and allocated resources.
+
+### Executor
+
+An executor is a process launched for a particular Spark application on a worker node. Multiple tasks can be assigned to each executor. A JVM process communicates with the cluster manager and receives tasks to execute. Tasks on the same executor can benefit from shared memory, such as the cache, and global parameters, which make the tasks run fast.
+
+NOTE
+
+> A task is the smallest unit of schedulable work in Spark. It runs the code assigned to it, with the data pieces assigned to it.
+
+### Worker node
+
+A worker node, as its name indicates, is responsible for executing the work. Multiple executors can run on a single worker node and serve multiple Spark applications.
+
+### Cluster manager
+
+Together with the driver program, the cluster manager is responsible for orchestrating the distributed system. It assigns executors to worker nodes, assigns resources, and communicates information about resource availability to the driver program. In addition to Spark’s standalone cluster manager, this can be any other cluster manager that can manage machines and network capacity, such as Kubernetes, Apache Mesos, or Hadoop YARN.
+
 ## Spark Ecosystem
 
 ![1_TK3eaVzHplkaHS6rLIciTA](https://user-images.githubusercontent.com/62965911/223375021-2db8e20b-4b2c-4ea2-bfb9-744620d186e3.png)
@@ -251,6 +271,20 @@ Follow [this](https://aws.amazon.com/emr/features/hadoop/) blog for more informa
 ## Hadoop vs Spark
 
 Watch this video: https://www.youtube.com/watch?v=xDpvyu0w0C8
+
+## PySpark vs Pandas
+
+Spark DataFrames were inspired by pandas, which also provides an abstraction on top of the data called a DataFrame. pandas is a widely adopted library for data manipulation and analytics. Many developers use it to extrapolate data using Python.
+
+It may seem easy to confuse the two at the beginning, but there are many key differences between pandas and Spark. Most importantly, pandas was not built for scale; it was built to operate on data that fits into one machine’s memory. Consequently, it does not have the distributed Spark architecture. It also does not adhere to functional programming principles: pandas DataFrames are mutable.
+
+|                                 | Spark DataFrame | pandas DataFrame   |
+| ------------------------------- | --------------- | ------------------ |
+| **Operation in parallel** | Yes             | Not out of the box |
+| **Lazy evaluation**       | Yes             | No                 |
+| **Immutable**             | Yes             | No                 |
+
+Although, as you can see, there is no out-of-the-box way to operate in parallel over a pandas DataFrame, that does not mean it is entirely impossible. It simply means that you have to create a solution and consider the possible problems you might encounter (thread locks, race conditions, etc.) and their impact on the end result. Other differences are that Spark supports lazy evaluation, while in pandas, operations take place immediately as soon as the Python code line is executed, and DataFrames in pandas are not immutable. This makes it easy to operate on pandas DataFrames, as you don’t need to remember or be aware of the lazy execution approach—when you call a function, it is executed immediately and you can interact with the results right away. However, it also makes it challenging to scale using parallel or distributed computing.
 
 ## PySpark Cheat Sheet
 

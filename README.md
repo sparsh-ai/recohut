@@ -4,19 +4,15 @@
 
 ## Join the Program
 
-Join the 55-hour intensive training program now.
-
-Price is $175 /-
-
-[*USE DEITP30 coupon fo 30% discount.* *OFFER VALID FOR LIMITED TIME ONLY]*
+Join the 55-hour intensive training program now. Price is $175 /-
 
 [Book your seat today!](https://sparshcloud.typeform.com/to/fX9s14Ir)
+
+For more information, read the [faqs](b3-misc/faq.md).
 
 ## Curriculum
 
 ### Developer Foundations
-
-#### [VSCode](01-foundations/developer/vscode/)
 
 * [ ] Visual Studio Code (vscode) [[link to note](01-foundations/developer/vscode/)]
   * [ ] Download and Install vscode

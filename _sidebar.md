@@ -3,14 +3,12 @@
   - [Developer Foundations](01-foundations/developer/)
   - [Data Engineering Foundations](01-foundations/data-engineering/)
   - [Cloud Essentials](01-foundations/cloud/)
-
 - Programming
 
   - [SQL](01-foundations/language/sql/)
   - [Python](01-foundations/language/python/)
   - [PySpark](01-foundations/language/pyspark/)
   - [Scala](01-foundations/language/scala/)
-
 - Data Storage
 
   - [Flat Files](02-storage/flat-files/)
@@ -18,7 +16,6 @@
   - [NoSQL Databases](02-storage/nosql-databases/)
   - [Data Warehouses](02-storage/warehouses/)
   - [Data Lakes and Lakehouses](02-storage/lakehouses/)
-
 - Batch Data Processing
 
   - [Databricks](03-processing/databricks/)
@@ -31,7 +28,6 @@
   - [GCP Dataprep](03-processing/gcp-dataprep/)
   - [AWS Lambda Function](03-processing/aws-lambda-function/)
   - [Snowpark](03-processing/snowpark/)
-
 - Stream and Unified Data Processing
 
   - [Druid](03-processing/druid/)
@@ -41,25 +37,21 @@
   - [AWS Kinesis](03-processing/kinesis/)
   - [GCP PubSub](03-processing/pubsub/)
   - [GCP Dataflow](03-processing/dataflow/)
-
 - Data Modeling
 
   - [Relational](04-serving/sql/)
   - [NoSQL](04-serving/nosql/)
-
 - Data Extraction
 
   - [API](05-extraction/api/)
   - [Faker](05-extraction/faker/)
   - [Web Scraping](05-extraction/webscraping/)
-
 - Data Pipelines
 
   - [Airflow](06-orchestration/airflow/)
   - [Azure Data Factory](06-orchestration/azure-data-factory/)
   - [GCP Cloud DataFusion](06-orchestration/datafusion/)
   - [AWS Step Functions](06-orchestration/stepfunctions/)
-
 - Data Visualization
 
   - [Flask](08-visualization/flask/)
@@ -67,13 +59,11 @@
   - [Preset](08-visualization/preset/)
   - [Streamlit](08-visualization/streamlit/)
   - AWS Quicksight
-
 - DevOps
 
   - [API](07-devops/api/)
   - [Containers](07-devops/containers/)
   - [Infra as Code](07-devops/iac/)
-
 - Data Science & Machine Learning
 
   - [Data Science Foundations](15-datascience/data-science/)
@@ -83,7 +73,6 @@
   - [Computer Vision](19-computer-vision/)
   - [Recommender Systems](20-recommender-systems/)
   - [MLOps](21-mlops/)
-
 - Capstones
 
   - [ACLED](12-capstones/acled/)
@@ -103,5 +92,4 @@
   - [Sparkify](12-capstones/sparkify/)
   - [Spotify](12-capstones/spotify/)
   - [US Immigration](12-capstones/us-immigration/)
-
-- [Interview Preparation](a1-interviewprep)
+- [Interview Preparation](a1-interviewprep/)
