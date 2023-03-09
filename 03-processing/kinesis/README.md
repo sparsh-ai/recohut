@@ -57,6 +57,11 @@ The KDG simplifies the task of generating data and sending it to Amazon Kinesis.
 - Save the templates for future use
 - Continuously send thousands of records per second to your Amazon Kinesis data stream or Firehose delivery stream
 
+## Labs
+
+1. Real Time Apache Log Analytics with Kinesis [[source code](03-processing/kinesis/lab-kinesis-apache-logs/)]
+2. Real-Time Clickstream Anomaly Detection with Kinesis [[source code](03-processing/kinesis/lab-kinesis-clickstream-anomaly/)]
+
 ## Explore further
 
 1. [Kinesis Data Firehose](https://knowledgetree.notion.site/Amazon-Kinesis-Data-Firehose-Shared-62cfabe200004bcf8a92db6d814aba9c)

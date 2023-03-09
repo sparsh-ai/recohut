@@ -1202,6 +1202,19 @@ The SQL standard defines two types of triggers: row-level triggers and statement
   - Lines: connections between the entities
 - Neo4J, InfiniteGraph
 
+## Labs
+
+1. [Ingest data from CSV file into MySQL database table](01-foundations/language/sql/lab-mysql-data-ingestion/)
+2. [SQL Basics to Advanced Primer](01-foundations/language/sql/lab-basic-to-advanced/)
+   1. SQL Basics - Select, Limit, Where, Comparison and Logical operators, Order by
+   2. SQL Intermediate - Aggregations, Group by, Case statements, Joins
+   3. SQL Advanced - Dates, Text, Subqueries, Window functions, Optimizations
+3. [Postgres SQL basics to advanced](01-foundations/language/sql/lab-postgres-queries/)
+4. [Running Dates, String and Advanced queries in Postgres on Sales data](01-foundations/language/sql/lab-postgres-sales/)
+5. [Working with Book dataset on SQLite database](01-foundations/language/sql/lab-sqlite-basics/)
+6. [Challenge - Yammer Advanced Analytics](01-foundations/language/sql/challenges/yammer/)
+7. [Challenge - BrainTree SQL Code Challenge](01-foundations/language/sql/challenges/braintree/)
+
 ## SQL Interview Questions
 
 [Click here](01-foundations/language/sql/sql-interviews-questions.md)

@@ -143,6 +143,24 @@ Data engineering using Python only gets better, and here is a list of points if 
 5. Luigi! No, not the Mario character by Nintendo; we are referring to the Python module that is widely considered a fantastic tool for data engineering.
 6. Apart from all the points mentioned above, it is common knowledge that Python is easy to learn and is free to use for the masses. An active community of developers strongly supports it.
 
+## Labs
+
+1. Python Basics
+   1. Lists and dictionaries
+   2. For loops and while loops
+   3. Functions and Inline functions
+   4. Reading data from flat files - csv, json, parquet, avro, excel, txt
+2. Python Intermediate
+   1. Read/Write and Manipulate Data using Pandas
+3. Python Advanced
+   1. Pulling data from APIs using requests library
+   2. Reading and writing data to databases using psycopg2 and sqlalchemy library
+   3. Reading data from S3 and athena using aws data wrangler library
+   4. Pull credentials from Secrets Manager using boto3 library
+4. [ETL process and reading/writing CSV, JSON and XML files in panda](01-foundations/language/python/lab-etl-csv-json-xml/)
+5. [Exchange Rate ETL process](01-foundations/language/python/lab-exchange-rate-etl/)
+6. [Basic Text Handling with Python](18-nlp/lab-basic-text-handlng-python/)
+
 ## References
 
 1. [Python Data Engineer Interview Questions](https://www.stratascratch.com/blog/python-data-engineer-interview-questions/)

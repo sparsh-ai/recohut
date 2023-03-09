@@ -165,7 +165,21 @@ Follow [this](https://www.acceldata.io/blog/data-engineering-optimize-apache-kaf
 
 Real-time data analytics has grown exponentially, becoming the new normal. Increasingly, more data is now stored or transported via data streaming platforms such as Apache Kafka, Apache Pulsar, or Amazon Kinesis. In a traditional data stack, streaming data gets imported into a database or data warehouse for users to further analyze or process. However, it is actually possible to run SQL directly on streaming data.
 
-### Explore Further
+## Labs
+
+1. Getting started with Kafka and CLI [[source code](03-processing/kafka/lab-kafka-cli/)]
+2. Getting started with Kafka and Python [[source code](03-processing/kafka/lab-kafka-python/)]
+3. Getting started with Confluent Kafka and Python [[source code](03-processing/kafka/lab-confluent-python/)]
+4. Real-time CDC-enabled Extract and Load Pipeline with Kafka on Cloud [[source code](03-processing/kafka/lab-confluent-kafka-faker/)]
+5. Real-time fraud detection by applying filter in Kafka topic [[source code](03-processing/kafka/lab-kafka-fraud-detection/)]
+6. Kafka Streams for NYC Taxi data [[source code](03-processing/kafka/lab-kafka-nyctaxi/)]
+7. Kafka on Cloud with Amazon ECS and Container Orchestration [[source code](03-processing/kafka/lab-kafka-python-ecs/)]
+8. Realtime Streaming analytics with Apache Kafka and Spark Streaming [[source code](03-processing/kafka/lab-kafka-spark-streaming/)]
+9. Stock Market Kafka Real Time [[source code](03-processing/kafka/lab-kafka-stock-market/)]
+10. Data Streaming Pipeline with Kafka for livetolldata [[source code](03-processing/kafka/lab-kafka-toll-analysis/)]
+11. Building an event-driven IKEA app with Kafka [[source code](03-processing/kafka/project-ikea/)]
+
+## Explore Further
 
 1. [Kafka: The Definitive Guide, 2nd Edition](https://learning.oreilly.com/library/view/kafka-the-definitive/9781492043072/)
 2. [Streaming data pipelines @ Slack](https://speakerdeck.com/vananth22/streaming-data-pipelines-at-slack)

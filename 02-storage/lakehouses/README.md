@@ -144,3 +144,8 @@ Some companies also use these workspace or presentation layers for sharing data 
 ### Medallion architecture and data mesh
 
 The Medallion architecture is compatible with the concept of a data mesh. Bronze and silver tables can be joined together in a "one-to-many" fashion, meaning that the data in a single upstream table could be used to generate multiple downstream tables.
+
+## Labs
+
+1. Introduction to Data Lakehouses - Delta, Iceberg and Hudi
+2. Working with AWS S3 and Delta lake in Databricks

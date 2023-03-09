@@ -152,8 +152,22 @@ Watch and follow this video: https://youtu.be/NWTX0W-WgzE
 
 ## Labs
 
-1. [Getting Started with Github](01-foundations/developer/lab-git-basics/)
-2. [Getting Started with Bash](01-foundations/developer/lab-bash/)
+1. Visual Studio Code (vscode)
+   1. Download and Install vscode
+   2. Understand vscode features
+   3. Install extensions in vscode
+3. Anaconda
+   1. Download and Install Anaconda
+   2. Create virtual environment in anaconda
+   3. Create jupyter notebook in vscode and connect to venv
+4. Github
+   1. Create github account
+   2. Install git cli
+   3. Create git repo and add students as collaborator
+   4. Connect local workspace to git repo
+5. [Learn git command](01-foundations/developer/lab-git-basics/)
+6. [Learn bash command](01-foundations/developer/lab-bash/)
+7. Download and Install DBeaver
 
 ## Note for Windows users
 

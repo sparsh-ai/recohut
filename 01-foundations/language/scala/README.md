@@ -1,6 +1,6 @@
 # Scala
 
-### Why Scala?
+## Why Scala?
 
 - Expressive
   - First-class functions
@@ -13,14 +13,14 @@
   - Can reuse java tools
   - No performance penalty
 
-### How Scala?
+## How Scala?
 
 - Compiles to java bytecode
 - Works with any standard JVM
   - Or even some non-standard JVMs like Dalvik
   - Scala compiler written by author of Java compiler
 
-### How to install
+## How to install
 
 ```
 pip install spylon-kernel
@@ -34,3 +34,9 @@ conda create -n env-scala
 conda install -c anaconda-cluster scala
 conda install -c conda-forge spylon-kernel
 ```
+
+## Labs
+
+1. Introduction to Scala programming
+2. Getting started with Spark Scala
+3. [Building extract and load pipeline with Scala, S3 and Postgres](03-processing/databricks/lab-databricks-scala-postgres-s3/)
