@@ -59,6 +59,23 @@ dbt is one of the most popular data transformation tools today. And until now db
 
 dbt Python ("dbt-py") models will help you solve use cases that can't be solved with SQL. You can perform analyses using tools available in the open source Python ecosystem, including state-of-the-art packages for data science and statistics. Before, you would have needed separate infrastructure and orchestration to run Python transformations in production. By defining your Python transformations in dbt, they're just models in your project, with all the same capabilities around testing, documentation, and lineage. ([dbt Python models](https://docs.getdbt.com/docs/building-a-dbt-project/building-models/python-models)). Python based dbt models are made possible by Snowflake's new native Python support and Snowpark API for Python. With Snowflake's native Python support and DataFrame API, you no longer need to maintain and pay for separate infrastructure/services to run Python code, it can be run directly within Snowflake's Enterprise grade data platform!
 
+## Labs
+
+1. [Building an ELT pipeline for a cab service company using dbt and Postgres](03-processing/dbt/lab-nyctaxi/)
+2. [dbt Postgres on Jaffle Shop data](03-processing/dbt/lab-jaffle-shop/)
+3. [dbt Snowflake on Knoema data](03-processing/dbt/lab-knoema/)
+4. [dbt Postgres on Olist Retail data](03-processing/dbt/lab-olist/)
+5. [dbt BigQuery on Stack Exchange data](03-processing/dbt/lab-stackexchnge/)
+6. [Building an ELT Pipeline with dbt and Amazon Redshift on TICKIT data](03-processing/dbt/lab-tickit/)
+7. [dbt Snowflake on TPCH data](03-processing/dbt/lab-tpch/)
+8. [Creating a Data Transformation Pipeline with Cloud Dataprep](03-processing/gcp-dataprep/lab-gcp-dataprep/)
+9. [Running Apache Spark jobs on Cloud Dataproc](03-processing/gcp-dataproc/lab-gcp-dataproc/)
+10. [Churn Analytics Demo with dbt Snowpark Python models](03-processing/snowpark/churnpark/)
+11. [Getting started with dbt and Snowpark](03-processing/snowpark/dbtsnowpy/)
+12. [FIFA prediction model with dbt and Snowpark](03-processing/snowpark/fifapark/)
+13. [Jaffle shop analytics modeling with dbt and Snowpark](03-processing/snowpark/jafflepark/)
+14. [Knoema Regression with dbt Snowpark and Streamlit](03-processing/snowpark/knoema-regression/)
+
 ## More Resources
 
 3. [Transform your data with dbt and Serverless architecture](https://platform.deloitte.com.au/articles/transform-your-data-with-dbt-and-serverless-architecture)

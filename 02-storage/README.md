@@ -1,4 +1,4 @@
-# Data Storages
+# Data Storage
 
 Storage is the core piece of a data platform around which everything else is built. Data gets ingested into the storage layer and is distributed from there. All workloads (data processing, analytics, and machine learning) access this layer.
 

@@ -891,6 +891,12 @@ Designing and implementing a data lake involves selecting the appropriate hardwa
 
 Data modeling is the process of designing and implementing a logical structure for storing and organizing data in a database or other data storage system. It involves identifying the entities and relationships in the data, and defining the attributes and data types for each entity. Data modeling is an important part of data engineering, as it helps to ensure the efficiency and scalability of data processing and analysis.
 
+## Case Studies
+
+1. [Fair - Data Ingestion with a Cloud Data Platform](a3-casestudies/fair.md)
+2. [Harmony - Responsive Data Pipeline](a3-casestudies/harmony.md)
+3. [Panoramic - Simplifying Data Ingestion, Transformation, And Delivery](a3-casestudies/panoramic.md)
+
 ## Advanced Topics
 
 1. [System Design](01-foundations/data-engineering/system-design.md)

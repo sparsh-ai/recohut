@@ -10,6 +10,10 @@ With EMR Serverless, you'll continue to get the benefits of Amazon EMR, such as 
 
 EMR Serverless is suitable for customers who want ease in operating applications using open source frameworks. It offers quick job startup, automatic capacity management, and straightforward cost controls.
 
+## Labs
+
+1. [Creating and submitting Word count Spark Job in EMR Serverless](03-processing/aws-emr/lab-emr-serverless/)
+
 ## References
 
 1. [Introduction to EMR Server](https://youtu.be/iBDi6qFqG68)

@@ -5,8 +5,8 @@ Storage formats are a way to define how data is stored in a file. Hadoop doesn't
 - Text files
 - Sequence files
 - Parquet files
-- **Record-columnar (RC)** files
-- **Optimized row columnar (ORC)** files
+- Record-columnar (RC) files
+- Optimized row columnar (ORC) files
 - Avro files
 
 Choosing a write file format will provide significant advantages, such as the following:
@@ -18,13 +18,19 @@ Choosing a write file format will provide significant advantages, such as the f
 
 Let's focus on columnar storage formats as they are widely used in big data applications because of how they store data and can be queried by the SQL engine. The columnar format is very useful when a subset of data needs to be referred to. However, when most of the columns in a dataset need to be fetched, then row-oriented storage formats are beneficial.
 
-The following are some columnar file formats:
+## Serialization Formats
 
-- **RC files**: This stands for **record columnar files**. They provide many advantages over non-columnar files, such as fast data loading, quick query processing, and highly efficient storage space utilization. RC files are a good option for querying data, but writing them requires more memory and computation. Also, they don't support schema evolution.
-- **ORC files**: This stands for **optimized row columnar files**. They have almost the same advantages and disadvantages as RC files. However, ORC files have better compression. They were designed for Hive and cannot be used with non-Hive MapReduce interfaces such as Pig, Java, or Impala.
-- **Parquet files**: Parquet is a columnar data format that is suitable for large-scale queries. Parquet is just as good as RC and ORC in terms of performance while reading data, but it is slower when writing compared to other columnar file formats. Parquet supports schema evolution, which is not supported in RC and ORC file formats. Parquet also supports column pruning and predicate pushdown, which are not supported in CSV or JSON.
+Many serialization algorithms and formats are available to data engineers. While the abundance of options is a significant source of pain in data engineering, they are also a massive opportunity for performance improvements. We’ve sometimes seen job performance improve by a factor of 100 simply by switching from CSV to Parquet serialization. As data moves through a pipeline, engineers will also manage reserialization—conversion from one format to another. Sometimes data engineers have no choice but to accept data in an ancient, nasty form; they must design processes to deserialize this format and handle exceptions, and then clean up and convert data for consistent, fast downstream processing and consumption.
 
-## CSV
+### Row-Based Serialization
+
+As its name suggests, row-based serialization organizes data by row. CSV format is an archetypal row-based format. For semistructured data (data objects that support nesting and schema variation), row-oriented serialization entails storing each object as a unit.
+
+#### CSV: The nonstandard standard
+
+CSV is a serialization format that data engineers love to hate. The term CSV is essentially a catchall for delimited text, but there is flexibility in conventions of escaping, quote characters, delimiter, and more.
+
+Data engineers should avoid using CSV files in pipelines because they are highly error-prone and deliver poor performance. Engineers are often required to use CSV format to exchange data with systems and business processes outside their control. CSV is a common format for data archival. If you use CSV for archival, include a complete technical description of the serialization configuration for your files so that future consumers can ingest the data.
 
 CSV (Comma Separated Values) is a simple file format used for storing tabular data, where each line of the file represents a single row and each value in a row is separated by a comma.
 
@@ -51,7 +57,15 @@ Jane,32,F
 Bob,45,M
 ```
 
-## JSON
+#### XML
+
+Extensible Markup Language (XML) was popular when HTML and the internet were new, but it is now viewed as legacy; it is generally slow to deserialize and serialize for data engineering applications. XML is another standard that data engineers are often forced to interact with as they exchange data with legacy systems and software. JSON has largely replaced XML for plain-text object serialization.
+
+#### JSON and JSONL
+
+JavaScript Object Notation (JSON) has emerged as the new standard for data exchange over APIs, and it has also become an extremely popular format for data storage. In the context of databases, the popularity of JSON has grown apace with the rise of MongoDB and other document stores. Databases such as Snowflake, BigQuery, and SQL Server also offer extensive native support, facilitating easy data exchange between applications, APIs, and database systems.
+
+JSON Lines (JSONL) is a specialized version of JSON for storing bulk semistructured data in files. JSONL stores a sequence of JSON objects, with objects delimited by line breaks. From our perspective, JSONL is an extremely useful format for storing data right after it is ingested from API or applications. However, many columnar formats offer significantly better performance. Consider moving to another format for intermediate pipeline stages and serving.
 
 JSON (JavaScript Object Notation) is a lightweight file format used for storing and exchanging data, which is based on the JavaScript programming language. It is a text-based format that uses a key-value structure to represent data.
 
@@ -88,7 +102,75 @@ Example:
 }
 ```
 
-## Parquet
+#### Avro
+
+Avro is a row-oriented data format designed for RPCs and data serialization. Avro encodes data into a binary format, with schema metadata specified in JSON. Avro is popular in the Hadoop ecosystem and is also supported by various cloud data tools.
+
+Avro is a data serialization system that was developed by Apache Software Foundation in 2009. It is a row-based format that is designed to be fast, compact, and extensible. Avro is often used in Hadoop-based big data processing systems like Hive and HBase, as well as in other distributed systems like Kafka and Cassandra.
+
+Advantages:
+
+- Compact format: Avro is a compact format that uses binary encoding to reduce storage requirements and improve performance. This makes it ideal for use cases where storage and performance are critical.
+- Schema evolution: Avro supports schema evolution, which means that you can add, remove, or modify fields without breaking compatibility with existing data. This makes it easy to update data models over time.
+- Dynamic typing: Avro supports dynamic typing, which means that you can change the data type of a field at runtime. This makes it easier to handle changes to data models and to work with data from multiple sources.
+- Language-agnostic: Avro is designed to be language-agnostic, which means that it can be used with a variety of programming languages.
+
+Disadvantages:
+
+- Lack of built-in compression: Unlike some other big data file formats, Avro does not include built-in compression. This means that you'll need to use external compression libraries to compress data.
+- Slower performance than columnar storage: Avro's row-based storage format can be slower than columnar storage formats like Parquet for analytical queries that involve reading only a subset of columns.
+- No support for indexing:
+
+Applications:
+
+1. Distributed computing: Avro is often used in distributed computing environments such as Apache Hadoop, where it is used to serialize data for use in MapReduce jobs.
+2. Data storage: Avro is often used as a data storage format for log files, message queues, and other data sources.
+3. High-throughput systems: Avro's compactness and support for compression make it ideal for use in high-throughput systems such as web applications and real-time data processing pipelines.
+
+Example of Avro data and schema:
+
+Avro Data
+
+```
+{
+  "name": "John",
+  "age": 30,
+  "email": "john@example.com"
+}
+```
+
+Avro Schema
+
+```
+{
+  "type": "record",
+  "name": "Person",
+  "namespace": "example.avro",
+  "fields": [
+    {"name": "name", "type": "string"},
+    {"name": "age", "type": "int"},
+    {"name": "email", "type": "string"}
+  ]
+}
+```
+
+### Columnar Serialization
+
+The serialization formats we’ve discussed so far are row-oriented. Data is encoded as complete relations (CSV) or documents (XML and JSON), and these are written into files sequentially.
+
+With columnar serialization, data organization is essentially pivoted by storing each column into its own set of files. One obvious advantage to columnar storage is that it allows us to read data from only a subset of fields rather than having to read full rows at once. This is a common scenario in analytics applications and can dramatically reduce the amount of data that must be scanned to execute a query.
+
+Storing data as columns also puts similar values next to each other, allowing us to encode columnar data efficiently. One common technique involves looking for repeated values and tokenizing these, a simple but highly efficient compression method for columns with large numbers of repeats.
+
+Even when columns don’t contain large numbers of repeated values, they may manifest high redundancy. Suppose that we organized customer support messages into a single column of data. We likely see the same themes and verbiage again and again across these messages, allowing data compression algorithms to realize a high ratio. For this reason, columnar storage is usually combined with compression, allowing us to maximize disk and network bandwidth resources.
+
+Columnar storage and compression come with some disadvantages too. We cannot easily access individual data records; we must reconstruct records by reading data from several column files. Record updates are also challenging. To change one field in one record, we must decompress the column file, modify it, recompress it, and write it back to storage. To avoid rewriting full columns on each update, columns are broken into many files, typically using partitioning and clustering strategies that organize data according to query and update patterns for the table. Even so, the overhead for updating a single row is horrendous. Columnar databases are a terrible fit for transactional workloads, so transactional databases generally utilize some form of row- or record-oriented storage.
+
+#### Parquet
+
+Parquet stores data in a columnar format and is designed to realize excellent read and write performance in a data lake environment. Parquet solves a few problems that frequently bedevil data engineers. Parquet-encoded data builds in schema information and natively supports nested data, unlike CSV. Furthermore, Parquet is portable; while databases such as BigQuery and Snowflake serialize data in proprietary columnar formats and offer excellent query performance on data stored internally, a huge performance hit occurs when interoperating with external tools. Data must be deserialized, reserialized into an exchangeable format, and exported to use data lake tools such as Spark and Presto. Parquet files in a data lake may be a superior option to proprietary cloud data warehouses in a polyglot tool environment.
+
+Parquet format is used with various compression algorithms; speed optimized compression algorithms such as Snappy (discussed later in this appendix) are especially popular.
 
 Parquet is a *columnar* storage format that is optimized for big data workloads. It was developed by Cloudera and Twitter in 2013 as an open-source project. Parquet is built on a compressed columnar data representation, which makes it highly efficient for analytical queries that involve large amounts of data. Parquet is often used in Hadoop-based big data processing systems like Hive, Impala, and Spark.
 
@@ -148,59 +230,11 @@ Read more about parquet here:
 
 - https://www.databricks.com/glossary/what-is-parquet
 
-## Avro
+#### ORC
 
-Avro is a data serialization system that was developed by Apache Software Foundation in 2009. It is a row-based format that is designed to be fast, compact, and extensible. Avro is often used in Hadoop-based big data processing systems like Hive and HBase, as well as in other distributed systems like Kafka and Cassandra.
+Optimized Row Columnar (ORC) is a columnar storage format similar to Parquet. ORC was very popular for use with Apache Hive; while still widely used, we generally see it much less than Apache Parquet, and it enjoys somewhat less support in modern cloud ecosystem tools. For example, Snowflake and BigQuery support Parquet file import and export; while they can read from ORC files, neither tool can export to ORC.
 
-Advantages:
-
-- Compact format: Avro is a compact format that uses binary encoding to reduce storage requirements and improve performance. This makes it ideal for use cases where storage and performance are critical.
-- Schema evolution: Avro supports schema evolution, which means that you can add, remove, or modify fields without breaking compatibility with existing data. This makes it easy to update data models over time.
-- Dynamic typing: Avro supports dynamic typing, which means that you can change the data type of a field at runtime. This makes it easier to handle changes to data models and to work with data from multiple sources.
-- Language-agnostic: Avro is designed to be language-agnostic, which means that it can be used with a variety of programming languages.
-
-Disadvantages:
-
-- Lack of built-in compression: Unlike some other big data file formats, Avro does not include built-in compression. This means that you'll need to use external compression libraries to compress data.
-- Slower performance than columnar storage: Avro's row-based storage format can be slower than columnar storage formats like Parquet for analytical queries that involve reading only a subset of columns.
-- No support for indexing:
-
-Applications:
-
-1. Distributed computing: Avro is often used in distributed computing environments such as Apache Hadoop, where it is used to serialize data for use in MapReduce jobs.
-2. Data storage: Avro is often used as a data storage format for log files, message queues, and other data sources.
-3. High-throughput systems: Avro's compactness and support for compression make it ideal for use in high-throughput systems such as web applications and real-time data processing pipelines.
-
-Example of Avro data and schema:
-
-Avro Data
-
-```
-{
-  "name": "John",
-  "age": 30,
-  "email": "john@example.com"
-}
-```
-
-Avro Schema
-
-```
-{
-  "type": "record",
-  "name": "Person",
-  "namespace": "example.avro",
-  "fields": [
-    {"name": "name", "type": "string"},
-    {"name": "age", "type": "int"},
-    {"name": "email", "type": "string"}
-  ]
-}
-```
-
-## ORC
-
-ORC (Optimized Row Columnar) is an open-source, *columnar *storage format for Hadoop-based data processing systems, such as Hive and Pig. It is designed to provide better performance for large-scale data processing, especially for queries that involve reading or filtering large subsets of columns in a dataset.
+ORC is an open-source, columnar storage format for Hadoop-based data processing systems, such as Hive and Pig. It is designed to provide better performance for large-scale data processing, especially for queries that involve reading or filtering large subsets of columns in a dataset.
 
 Advantages:
 
@@ -247,78 +281,6 @@ Note that ORC files are binary files, so the data appears as binary data in the 
 </ORC>
 ```
 
-## Comparison
-
-#### Comparing Avro, Parquet, and ORC
-
-![B17525_02_010](https://user-images.githubusercontent.com/62965911/218276979-736b26a9-cb5b-41ed-a43a-fa6b23f29b08.jpeg)
-
-#### Comparing Parquet and CSV
-
-While CSV is simple and the most widely used data format (Excel, Google Sheets), there are several distinct advantages for Parquet, including:
-
-- Parquet is column oriented and CSV is row oriented. Row-oriented formats are optimized for OLTP workloads while column-oriented formats are better suited for analytical workloads.
-- Column-oriented databases such as AWS Redshift Spectrum bill by the amount data scanned per query
-- Therefore, converting CSV to Parquet with partitioning and compression lowers overall costs and improves performance
-
-Parquet has helped its users reduce storage requirements by at least one-third on large datasets, in addition, it greatly improves scan and deserialization time, hence the overall costs.
-
-## Serialization and Compression
-
-> Converting a data object into a series of bytes
-
-Data engineers working in the cloud are generally freed from the complexities of managing object storage systems. Still, they need to understand details of serialization and deserialization formats.
-
-## Serialization Formats
-
-Many serialization algorithms and formats are available to data engineers. While the abundance of options is a significant source of pain in data engineering, they are also a massive opportunity for performance improvements. We’ve sometimes seen job performance improve by a factor of 100 simply by switching from CSV to Parquet serialization. As data moves through a pipeline, engineers will also manage reserialization—conversion from one format to another. Sometimes data engineers have no choice but to accept data in an ancient, nasty form; they must design processes to deserialize this format and handle exceptions, and then clean up and convert data for consistent, fast downstream processing and consumption.
-
-### Row-Based Serialization
-
-As its name suggests, row-based serialization organizes data by row. CSV format is an archetypal row-based format. For semistructured data (data objects that support nesting and schema variation), row-oriented serialization entails storing each object as a unit.
-
-#### CSV: The nonstandard standard
-
-CSV is a serialization format that data engineers love to hate. The term CSV is essentially a catchall for delimited text, but there is flexibility in conventions of escaping, quote characters, delimiter, and more.
-
-Data engineers should avoid using CSV files in pipelines because they are highly error-prone and deliver poor performance. Engineers are often required to use CSV format to exchange data with systems and business processes outside their control. CSV is a common format for data archival. If you use CSV for archival, include a complete technical description of the serialization configuration for your files so that future consumers can ingest the data.
-
-#### XML
-
-Extensible Markup Language (XML) was popular when HTML and the internet were new, but it is now viewed as legacy; it is generally slow to deserialize and serialize for data engineering applications. XML is another standard that data engineers are often forced to interact with as they exchange data with legacy systems and software. JSON has largely replaced XML for plain-text object serialization.
-
-#### JSON and JSONL
-
-JavaScript Object Notation (JSON) has emerged as the new standard for data exchange over APIs, and it has also become an extremely popular format for data storage. In the context of databases, the popularity of JSON has grown apace with the rise of MongoDB and other document stores. Databases such as Snowflake, BigQuery, and SQL Server also offer extensive native support, facilitating easy data exchange between applications, APIs, and database systems.
-
-JSON Lines (JSONL) is a specialized version of JSON for storing bulk semistructured data in files. JSONL stores a sequence of JSON objects, with objects delimited by line breaks. From our perspective, JSONL is an extremely useful format for storing data right after it is ingested from API or applications. However, many columnar formats offer significantly better performance. Consider moving to another format for intermediate pipeline stages and serving.
-
-#### Avro
-
-Avro is a row-oriented data format designed for RPCs and data serialization. Avro encodes data into a binary format, with schema metadata specified in JSON. Avro is popular in the Hadoop ecosystem and is also supported by various cloud data tools.
-
-### Columnar Serialization
-
-The serialization formats we’ve discussed so far are row-oriented. Data is encoded as complete relations (CSV) or documents (XML and JSON), and these are written into files sequentially.
-
-With columnar serialization, data organization is essentially pivoted by storing each column into its own set of files. One obvious advantage to columnar storage is that it allows us to read data from only a subset of fields rather than having to read full rows at once. This is a common scenario in analytics applications and can dramatically reduce the amount of data that must be scanned to execute a query.
-
-Storing data as columns also puts similar values next to each other, allowing us to encode columnar data efficiently. One common technique involves looking for repeated values and tokenizing these, a simple but highly efficient compression method for columns with large numbers of repeats.
-
-Even when columns don’t contain large numbers of repeated values, they may manifest high redundancy. Suppose that we organized customer support messages into a single column of data. We likely see the same themes and verbiage again and again across these messages, allowing data compression algorithms to realize a high ratio. For this reason, columnar storage is usually combined with compression, allowing us to maximize disk and network bandwidth resources.
-
-Columnar storage and compression come with some disadvantages too. We cannot easily access individual data records; we must reconstruct records by reading data from several column files. Record updates are also challenging. To change one field in one record, we must decompress the column file, modify it, recompress it, and write it back to storage. To avoid rewriting full columns on each update, columns are broken into many files, typically using partitioning and clustering strategies that organize data according to query and update patterns for the table. Even so, the overhead for updating a single row is horrendous. Columnar databases are a terrible fit for transactional workloads, so transactional databases generally utilize some form of row- or record-oriented storage.
-
-#### Parquet
-
-Parquet stores data in a columnar format and is designed to realize excellent read and write performance in a data lake environment. Parquet solves a few problems that frequently bedevil data engineers. Parquet-encoded data builds in schema information and natively supports nested data, unlike CSV. Furthermore, Parquet is portable; while databases such as BigQuery and Snowflake serialize data in proprietary columnar formats and offer excellent query performance on data stored internally, a huge performance hit occurs when interoperating with external tools. Data must be deserialized, reserialized into an exchangeable format, and exported to use data lake tools such as Spark and Presto. Parquet files in a data lake may be a superior option to proprietary cloud data warehouses in a polyglot tool environment.
-
-Parquet format is used with various compression algorithms; speed optimized compression algorithms such as Snappy (discussed later in this appendix) are especially popular.
-
-#### ORC
-
-Optimized Row Columnar (ORC) is a columnar storage format similar to Parquet. ORC was very popular for use with Apache Hive; while still widely used, we generally see it much less than Apache Parquet, and it enjoys somewhat less support in modern cloud ecosystem tools. For example, Snowflake and BigQuery support Parquet file import and export; while they can read from ORC files, neither tool can export to ORC.
-
 #### Apache Arrow or in-memory serialization
 
 When we introduced serialization as a storage raw ingredient at the beginning of this chapter, we mentioned that software could store data in complex objects scattered in memory and connected by pointers, or more orderly, densely packed structures such as Fortran and C arrays. Generally, densely packed in-memory data structures were limited to simple types (e.g., INT64) or fixed-width data structures (e.g., fixed-width strings). More complex structures (e.g., JSON documents) could not be densely stored in memory and required serialization for storage and transfer between systems.
@@ -343,6 +305,34 @@ Hudi stands for Hadoop Update Delete Incremental. This table management technolo
 
 Like Hudi, Iceberg is a table management technology. Iceberg can track all files that make up a table. It can also track files in each table snapshot over time, allowing table time travel in a data lake environment. Iceberg supports schema evolution and can readily manage tables at a petabyte scale.
 
+The following are some columnar file formats:
+
+- **RC files**: This stands for **record columnar files**. They provide many advantages over non-columnar files, such as fast data loading, quick query processing, and highly efficient storage space utilization. RC files are a good option for querying data, but writing them requires more memory and computation. Also, they don't support schema evolution.
+- **ORC files**: This stands for **optimized row columnar files**. They have almost the same advantages and disadvantages as RC files. However, ORC files have better compression. They were designed for Hive and cannot be used with non-Hive MapReduce interfaces such as Pig, Java, or Impala.
+- **Parquet files**: Parquet is a columnar data format that is suitable for large-scale queries. Parquet is just as good as RC and ORC in terms of performance while reading data, but it is slower when writing compared to other columnar file formats. Parquet supports schema evolution, which is not supported in RC and ORC file formats. Parquet also supports column pruning and predicate pushdown, which are not supported in CSV or JSON.
+
+## Comparison
+
+#### Comparing Avro, Parquet, and ORC
+
+![B17525_02_010](https://user-images.githubusercontent.com/62965911/218276979-736b26a9-cb5b-41ed-a43a-fa6b23f29b08.jpeg)
+
+#### Comparing Parquet and CSV
+
+While CSV is simple and the most widely used data format (Excel, Google Sheets), there are several distinct advantages for Parquet, including:
+
+- Parquet is column oriented and CSV is row oriented. Row-oriented formats are optimized for OLTP workloads while column-oriented formats are better suited for analytical workloads.
+- Column-oriented databases such as AWS Redshift Spectrum bill by the amount data scanned per query
+- Therefore, converting CSV to Parquet with partitioning and compression lowers overall costs and improves performance
+
+Parquet has helped its users reduce storage requirements by at least one-third on large datasets, in addition, it greatly improves scan and deserialization time, hence the overall costs.
+
+## Serialization and Compression
+
+> Converting a data object into a series of bytes
+
+Data engineers working in the cloud are generally freed from the complexities of managing object storage systems. Still, they need to understand details of serialization and deserialization formats.
+
 ## Database Storage Engines
 
 To round out the discussion of serialization, we briefly discuss database storage engines. All databases have an underlying storage engine; many don’t expose their storage engines as a separate abstraction (for example, BigQuery, Snowflake). Some (notably, MySQL) support fully pluggable storage engines. Others (e.g., SQL Server) offer major storage engine configuration options (columnar versus row-based storage) that dramatically affect database behavior.
@@ -364,3 +354,9 @@ Perhaps we could use this naive technique to realize a compression ratio of 2:1 
 Note that we’re talking about lossless compression algorithms. Decompressing data encoded with a lossless algorithm recovers a bit-for-bit exact copy of the original data. Lossy compression algorithms for audio, images, and video aim for sensory fidelity; decompression recovers something that sounds like or looks like the original but is not an exact copy. Data engineers might deal with lossy compression algorithms in media processing pipelines but not in serialization for analytics, where exact data fidelity is required.
 
 Traditional compression engines such as gzip and bzip2 compress text data extremely well; they are frequently applied to JSON, JSONL, XML, CSV, and other text-based data formats. Engineers have created a new generation of compression algorithms that prioritize speed and CPU efficiency over compression ratio in recent years. Major examples are Snappy, Zstandard, LZFSE, and LZ4. These algorithms are frequently used to compress data in data lakes or columnar databases to optimize for fast query performance.
+
+## Labs
+
+1. Introduction to various file formats - CSV, Parquet, JSON, Avro, and ORC
+2. [Loading Data in Python](02-storage/flat-files/lab-data-loading-python/)
+3. [Processing JSON data in Python](02-storage/flat-files/lab-processing-json-data/)

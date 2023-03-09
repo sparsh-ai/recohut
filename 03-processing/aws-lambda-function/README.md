@@ -10,3 +10,7 @@ AWS Lambda layers allow the Lambda functions to import additional code or data w
 A layer is a zip file that contains all the additional code. A layer can contain some third-party libraries, custom runtimes, or data, and you can refer to that layer from any lambda function.
 
 Follow [this](https://aws.plainenglish.io/everything-you-need-to-know-about-aws-lambda-layers-bf1aea363289) link to learn more about lambda layers.
+
+## Labs
+
+1. [Building a near real-time serverless data pipeline with AWS lambda function](03-processing/aws-lambda-function/lab-lambda-csv-parquet/)

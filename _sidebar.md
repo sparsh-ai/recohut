@@ -11,13 +11,16 @@
   - [Scala](01-foundations/language/scala/)
 - Data Storage
 
+  - [Concepts](02-storage/README.md)
   - [Flat Files](02-storage/flat-files/)
   - [Relational Databases](02-storage/databases/)
   - [NoSQL Databases](02-storage/nosql-databases/)
   - [Data Warehouses](02-storage/warehouses/)
-  - [Data Lakes and Lakehouses](02-storage/lakehouses/)
+  - [Data Lakes](02-storage/datalakes/)
+  - [Data Lakehouses](02-storage/lakehouses/)
 - Batch Data Processing
 
+  - [Concepts](01-foundations/data-engineering/batch-data-processing.md)
   - [Databricks](03-processing/databricks/)
   - [AWS EMR](03-processing/aws-emr/)
   - [AWS Glue Studio](03-processing/aws-glue/)
@@ -30,6 +33,7 @@
   - [Snowpark](03-processing/snowpark/)
 - Stream and Unified Data Processing
 
+  - [Concepts](01-foundations/data-engineering/stream-data-processing.md)
   - [Druid](03-processing/druid/)
   - [Flink](03-processing/flink/)
   - [Beam](03-processing/beam/)

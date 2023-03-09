@@ -865,3 +865,41 @@ Data is ingested into the system and persisted in a storage layer. Processing ag
 The following figure shows Microsoft’s learning path for the Azure Data Engineer, which covers designing and implementing the management, monitoring, security, and privacy of data using Azure data resources.
 
 ![511918_1_En_1_Fig4_HTML](https://user-images.githubusercontent.com/62965911/218317540-0307de7b-9f19-4778-86e1-2fa961a0ef51.png)
+
+## Labs
+
+1. Create Cloud Accounts
+   1. Create AWS Account
+   2. Create GCP Account
+   3. Create Azure Account
+2. AWS Services Walkthrough
+   1. Storage Services - S3, RDS, Redshift, Keyspace
+   2. ETL Services - Glue
+   3. Compute Services - Lambda, EMR, EC2, Athena
+   4. DevOps Services - Cloudformation, IAM, Secrets Manager
+3. GCP Services Walkthrough
+   1. Storage Services - GCS, Cloud SQL, BigQuery, BigTable
+   2. Compute Services - Cloud Functions, Dataproc, Cloud Compute, Dataflow
+   3. DevOps Services - IAM
+4. Azure Services Walkthrough
+   1. Storage Services - Blob Storge, DataLake Gen2 buckets, Azure SQL Databases
+   2. Compute Services - Databricks/Synapse Analytics, Azure Data Factory
+   3. DevOps Services - IAM
+5. [AWS Account Setup](01-foundations/cloud/lab-aws-setup/)
+   1. Install AWS CLI
+   2. Create IAM user and generate credentials
+   3. Setup AWS credentials
+6. [AWS IAM Service](01-foundations/cloud/lab-create-iam-policy-role/)
+   1. Create policies and roles
+   2. Attach policies to the roles
+7. AWS S3 Service
+   1. Learn AWS CLI S3 essential commands
+   2. Copy and Sync data to/from S3 with AWS CLI
+8. AWS RDS Service
+   1. Create database in RDS DBMS and generate credentials
+   2. Connect to RDS DBMS in DBeaver
+9. [AWS Secrets Manager Service](01-foundations/cloud/lab-aws-secrets-manager/)
+   1. Create a Secret in Secrets Manager Vault
+   2. Get the credential using AWS CLI
+10. [Create VPC](01-foundations/cloud/lab-create-your-first-vpc/)
+11. [Create EC2 instance](01-foundations/cloud/lab-create-your-first-ec2-instance-linux/)

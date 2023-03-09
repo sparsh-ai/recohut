@@ -22,7 +22,7 @@ This graph provides a rough representation of the speed vs. granularity tradeoff
 
 To drive the point home, consider the OLAP cube. OLAP cubes have largely fallen out of favor because recent advancements make denormalized tables a pretty good balance of performance and flexibility for most teams today.
 
-### Data Warehouse Options
+## Data Warehouse Options
 
 #### Traditional Solutions for Data Warehouse
 
@@ -41,7 +41,7 @@ To drive the point home, consider the OLAP cube. OLAP cubes have largely fallen 
 - AWS Athena
 - Hadoop Hive
 
-### Building a Data Warehouse/Lake solution on Cloud
+## Building a Data Warehouse/Lake solution on Cloud
 
 #### 1. Data Warehouse Management (Strong SQL and Data Modeling Skills)
 
@@ -60,7 +60,7 @@ To drive the point home, consider the OLAP cube. OLAP cubes have largely fallen 
 - Know-how of best solutions for deploying scalable pipelines
 - Logging, alerting and notifications
 
-### Designing a data warehouse from the ground up
+## Designing a data warehouse from the ground up
 
 In general, the process of designing a data warehouse may involve the following steps:
 
@@ -129,1529 +129,732 @@ There are several factors to consider when selecting measures for your data ware
 4. Consistency: Make sure the measures you choose are consistent over time. If you are tracking a metric that fluctuates significantly from one time period to the next, it may be difficult to identify trends or patterns.
 5. Comparability: Consider whether the measures you choose can be compared to other data sources or to past performance. This can help you understand how your business is performing relative to other companies or to its own performance over time.
 
+## Amazon Redshift
+
+Amazon Redshift is a data warehousing service optimized for **online analytical processing** (**OLAP**) applications. You can start with just a few hundred **gigabytes** (**GB**) of data and scale to a **petabyte** (**PB**) or more. Designing your database for analytical processing lets you take full advantage of Amazon Redshift's columnar architecture.
+
+An analytical schema forms the foundation of your data model. You can choose a star or snowflake schema by using Normalized, Denormalized, or Data Vault data modeling techniques. Redshift is a relational database management system (RDBMS) that supports a number of data model structures, including dimensional, denormalized, and aggregate (rollup) structures. This makes it optimal for analytics.
+
+Watch this video: https://www.youtube.com/watch?v=lWwFJV_9PoE
+
+### Data Ingestion in Amazon Redshift
+
+Data ingestion is the process of getting data from the source system to Amazon Redshift. This can be done by using one of many AWS cloud-based ETL tools like AWS Glue, Amazon EMR, or AWS Step Functions, or you can simply load data from Amazon Simple Storage Service (Amazon S3) to Amazon Redshift using the COPY command. A COPY command is the most efficient way to load a table because it uses the Amazon Redshift massively parallel processing (MPP) architecture to read and load data in parallel from a file or multiple files in an S3 bucket.
+
+Now SQL users can easily automate data ingestion from Amazon S3 to Amazon Redshift with a simple SQL command using the Amazon Redshift auto-copy feature. COPY statements are triggered and start loading data when Amazon Redshift auto-copy detects new files in the specified Amazon S3 paths. This also ensures end-users have the latest data available in Amazon Redshift shortly after the source data is available.
+
+Copy jobs have the following benefits:
+
+- SQL users such as data analysts can now load data from Amazon S3 automatically without having to build a pipeline or using an external framework
+- Copy jobs offer continuous and incremental data ingestion from an Amazon S3 location without the need to implement a custom solution
+- This functionality comes at no additional cost
+- Existing COPY statements can be converted into copy jobs by appending the JOB CREATE <job_name> parameter
+- It keeps track of all loaded files and prevents data duplication
+- It can be easily set up using a simple SQL statement and any JDBC or ODBC client
+
+### Explore further
+
+1. [Accelerate Application Development with Real Time Streams in Amazon Redshift](https://bit.ly/3Se99Ur)
+2. [Data Engineering at Udem](https://www.slideshare.net/ankarabigdata/data-engineering-at-udemy?qid=d835f0e3-f290-4445-bd19-d6ac6824e24c&v=&b=&from_search=5)
+3. [Implement a slowly changing dimension in Amazon Redshift](https://aws.amazon.com/blogs/big-data/implement-a-slowly-changing-dimension-in-amazon-redshift/)
+
+### Makefile
+
+```makefile
+# Redshift Cluster Management
+
+Connect to Redshift using Python:
+	import pandas as pd
+	import psycopg2
+	import boto3
+	import json
+	from sqlalchemy import create_engine
+	from sqlalchemy import text
+
+	def get_secret(secret_name='wysde'):
+		region_name = "us-east-1"
+		session = boto3.session.Session()
+		client = session.client(
+			service_name='secretsmanager',
+			region_name=region_name)
+		get_secret_value_response = client.get_secret_value(SecretId=secret_name)
+		get_secret_value_response = json.loads(get_secret_value_response['SecretString'])
+		return get_secret_value_response
+
+	secret_vals = get_secret()
+
+	redshift_endpoint = secret_vals['REDSHIFT_HOST']
+	redshift_user = secret_vals['REDSHIFT_USERNAME']
+	redshift_pass = secret_vals['REDSHIFT_PASSWORD']
+	port = 5439
+	dbname = "dev"
+
+	engine_string = "postgresql+psycopg2://%s:%s@%s:%d/%s" \
+	% (redshift_user, redshift_pass, redshift_endpoint, port, dbname)
+	engine = create_engine(engine_string)
+
+	query = """
+	SELECT *
+	FROM pg_catalog.pg_tables
+	WHERE schemaname != 'pg_catalog' AND 
+		schemaname != 'information_schema';
+	"""
+	df = pd.read_sql_query(text(query), engine)
+
+	query = """
+	SELECT * FROM "dev"."public"."users";
+	"""
+	df = pd.read_sql_query(text(query), engine)
+
+Create AWS Redshift Cluster:
+	import pandas as pd
+	import boto3
+	import json
+	import psycopg2
+
+	from botocore.exceptions import ClientError
+	import configparser
+
+	from random import random
+	import threading
+	import time
+
+	# Tracking Cluster Creation Progress
+	progress = 0
+	cluster_status = ''
+	cluster_event = threading.Event()
+
+	def initialize():
+		"""
+		Summary line. 
+		This function starts the create_cluster function. 
+
+		Parameters: 
+		NONE
+
+		Returns: 
+		None
+		"""  
+		# Get the config properties from dwh.cfg file
+		config = configparser.ConfigParser()
+		config.read_file(open('./aws/aws-capstone.cfg'))
+
+		KEY                    = config.get('AWS','KEY')
+		SECRET                 = config.get('AWS','SECRET')
+
+		DWH_CLUSTER_TYPE       = config.get("CLUSTER","DWH_CLUSTER_TYPE")
+		DWH_NUM_NODES          = config.get("CLUSTER","DWH_NUM_NODES")
+		DWH_NODE_TYPE          = config.get("CLUSTER","DWH_NODE_TYPE")
+
+		DWH_CLUSTER_IDENTIFIER = config.get("CLUSTER","DWH_CLUSTER_IDENTIFIER")
+		DWH_DB                 = config.get("CLUSTER","DWH_DB")
+		DWH_DB_USER            = config.get("CLUSTER","DWH_DB_USER")
+		DWH_DB_PASSWORD        = config.get("CLUSTER","DWH_DB_PASSWORD")
+		DWH_PORT               = config.get("CLUSTER","DWH_PORT")
+
+		DWH_IAM_ROLE_NAME      = config.get("IAM_ROLE", "DWH_IAM_ROLE_NAME")
+
+
+		df = pd.DataFrame({"Param":
+						["DWH_CLUSTER_TYPE", "DWH_NUM_NODES", "DWH_NODE_TYPE", "DWH_CLUSTER_IDENTIFIER", "DWH_DB", "DWH_DB_USER", "DWH_DB_PASSWORD", "DWH_PORT", "DWH_IAM_ROLE_NAME"],
+					"Value":
+						[DWH_CLUSTER_TYPE, DWH_NUM_NODES, DWH_NODE_TYPE, DWH_CLUSTER_IDENTIFIER, DWH_DB, DWH_DB_USER, DWH_DB_PASSWORD, DWH_PORT, DWH_IAM_ROLE_NAME]
+					})
+
+		print(df)
+
+
+		ec2 = boto3.resource('ec2',
+							region_name="us-west-2",
+							aws_access_key_id=KEY,
+							aws_secret_access_key=SECRET
+							)
+
+		s3 = boto3.resource('s3',
+							region_name="us-west-2",
+							aws_access_key_id=KEY,
+							aws_secret_access_key=SECRET
+						)
+
+		iam = boto3.client('iam',aws_access_key_id=KEY,
+							aws_secret_access_key=SECRET,
+							region_name='us-west-2'
+						)
+
+		redshift = boto3.client('redshift',
+							region_name="us-west-2",
+							aws_access_key_id=KEY,
+							aws_secret_access_key=SECRET
+							)
+
+
+		roleArn = create_iam_role(iam, DWH_IAM_ROLE_NAME)
+
+		create_cluster(redshift, roleArn, DWH_CLUSTER_TYPE, DWH_NODE_TYPE, DWH_NUM_NODES, DWH_DB, DWH_CLUSTER_IDENTIFIER, DWH_DB_USER, DWH_DB_PASSWORD)
+
+		#thread = threading.Thread(target=check_cluster_status)
+		thread = threading.Thread(target=lambda : check_cluster_status(redshift, DWH_CLUSTER_IDENTIFIER, 'create', 'available'))
+		#thread = threading.Thread(target=lambda : check_cluster_status(redshift, DWH_CLUSTER_IDENTIFIER, 'available'))
+		thread.start()
+
+		# wait here for the result to be available before continuing
+		while not cluster_event.wait(timeout=5):  
+			print('\r{:5}Waited for {} seconds. Redshift Cluster Creation in-progress...'.format('', progress), end='', flush=True)
+		print('\r{:5}Cluster creation completed. Took {} seconds.'.format('', progress))  
+
+		myClusterProps = get_cluster_properties(redshift, DWH_CLUSTER_IDENTIFIER)
+		#print(myClusterProps)
+		prettyRedshiftProps(myClusterProps[0])
+		DWH_ENDPOINT = myClusterProps[1]
+		DWH_ROLE_ARN = myClusterProps[2]
+		print('DWH_ENDPOINT = {}'.format(DWH_ENDPOINT))
+		print('DWH_ROLE_ARN = {}'.format(DWH_ROLE_ARN))
+
+		open_ports(ec2, myClusterProps[0], DWH_PORT)
+
+		conn = psycopg2.connect("host={} dbname={} user={} password={} port={}".format( DWH_ENDPOINT, DWH_DB, DWH_DB_USER, DWH_DB_PASSWORD, DWH_PORT ))
+		cur = conn.cursor()
+
+		print('Connected')  
+
+		conn.close()
+		print('Done!')
+
+	def create_iam_role(iam, DWH_IAM_ROLE_NAME):
+		"""
+		Summary line. 
+		Creates IAM Role that allows Redshift clusters to call AWS services on your behalf
+
+		Parameters: 
+		arg1 : IAM Object
+		arg2 : IAM Role name
+
+		Returns: 
+		NONE
+		"""  
+		try:
+			print("1.1 Creating a new IAM Role") 
+			dwhRole = iam.create_role(
+				Path='/',
+				RoleName=DWH_IAM_ROLE_NAME,
+				Description = "Allows Redshift clusters to call AWS services on your behalf.",
+				AssumeRolePolicyDocument=json.dumps(
+					{'Statement': [{'Action': 'sts:AssumeRole',
+					'Effect': 'Allow',
+					'Principal': {'Service': 'redshift.amazonaws.com'}}],
+					'Version': '2012-10-17'})
+			)  
+		except Exception as e:
+			print(e)
+
+		print("1.2 Attaching Policy")
+		iam.attach_role_policy(RoleName=DWH_IAM_ROLE_NAME,
+							PolicyArn="arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess"
+							)['ResponseMetadata']['HTTPStatusCode']
+
+		print("1.3 Get the IAM role ARN")
+		roleArn = iam.get_role(RoleName=DWH_IAM_ROLE_NAME)['Role']['Arn']
+
+		print('{:5} ARN : {}'.format('',roleArn))
+		return roleArn
+
+	def create_cluster(redshift, roleArn, DWH_CLUSTER_TYPE, DWH_NODE_TYPE, DWH_NUM_NODES, DWH_DB, DWH_CLUSTER_IDENTIFIER, DWH_DB_USER, DWH_DB_PASSWORD):
+		"""
+		Summary line. 
+		Creates Redshift Cluster
+
+		Parameters: 
+		arg1 : Redshift Object
+		arg2 : Cluster Name
+
+		Returns: 
+		None
+		"""  
+		print('1.4 Starting Redshift Cluster Creation')
+		try:
+			response = redshift.create_cluster(  
+				#HW
+				ClusterType=DWH_CLUSTER_TYPE,
+				NodeType=DWH_NODE_TYPE,
+				NumberOfNodes=int(DWH_NUM_NODES),
+
+				#Identifiers & Credentials
+				DBName=DWH_DB,
+				ClusterIdentifier=DWH_CLUSTER_IDENTIFIER,
+				MasterUsername=DWH_DB_USER,
+				MasterUserPassword=DWH_DB_PASSWORD,
+
+				#Roles (for s3 access)
+				IamRoles=[roleArn]  
+			)
+		except Exception as e:
+			print(e)
+
+	def prettyRedshiftProps(props):
+		"""
+		Summary line. 
+		Returns the Redshift Cluster Properties in a dataframe
+
+		Parameters: 
+		arg1 : Redshift Properties
+
+		Returns: 
+		dataframe with column key, value
+		"""  
+
+		pd.set_option('display.max_colwidth', -1)
+		keysToShow = ["ClusterIdentifier", "NodeType", "ClusterStatus", "MasterUsername", "DBName", "Endpoint", "NumberOfNodes", 'VpcId']
+		#print(props)
+		x = [(k, v) for k,v in props.items() if k in keysToShow]
+		'''
+		#(OR) Below is longer version above is shorter version
+		xx = []
+		for k in props:
+			if k in keysToShow:
+				v = props.get(k)
+				xx.append((k,v))
+				print('{} : {}'.format(k, v))  
+		print('XX = ',xx)
+		'''
+		#print('X = ',x)
+		return pd.DataFrame(data=x, columns=["Key", "Value"])
+
+	def check_cluster_status(redshift, DWH_CLUSTER_IDENTIFIER, action, status):
+		"""
+		Summary line. 
+		Check the cluster status in a loop till it becomes available/none. 
+		Once the desired status is set, updates the threading event variable
+
+		Parameters: 
+		arg1 : Redshift Object
+		arg2 : Cluster Name
+		arg3 : action which can be (create or delete)
+		arg4 : status value to check 
+
+		Returns: 
+		NONE
+		"""  
+
+		global progress
+		global cluster_status
+
+		# wait here for the result to be available before continuing  
+		while cluster_status.lower() != status:
+			time.sleep(5)
+			progress+=5
+			if action == 'create':
+				myClusterProps = redshift.describe_clusters(ClusterIdentifier=DWH_CLUSTER_IDENTIFIER)['Clusters'][0]
+				#print(myClusterProps)
+				df = prettyRedshiftProps(myClusterProps)
+				#print(df)
+				#In keysToShow 2 is ClusterStatus
+				cluster_status = df.at[2, 'Value']    
+			elif action =='delete':
+				myClusterProps = redshift.describe_clusters()
+				#print(myClusterProps)
+				if len(myClusterProps['Clusters']) == 0 :
+					cluster_status = 'none'
+				else:
+					myClusterProps = redshift.describe_clusters(ClusterIdentifier=DWH_CLUSTER_IDENTIFIER)['Clusters'][0]
+					#print(myClusterProps)
+					df = prettyRedshiftProps(myClusterProps)
+					#print(df)
+					#In keysToShow 2 is ClusterStatus
+					cluster_status = df.at[2, 'Value']                    
+
+			print('Cluster Status = ',cluster_status)  
+	
+		# when the calculation is done, the result is stored in a global variable
+		cluster_event.set()
+		# Thats it
+
+	def get_cluster_properties(redshift, DWH_CLUSTER_IDENTIFIER):
+		"""
+		Summary line. 
+		Retrieve Redshift clusters properties
+
+		Parameters: 
+		arg1 : Redshift Object
+		arg2 : Cluster Name
+
+		Returns: 
+		myClusterProps=Cluster Properties, DWH_ENDPOINT=Host URL, DWH_ROLE_ARN=Role Amazon Resource Name
+		"""  
+		myClusterProps = redshift.describe_clusters(ClusterIdentifier=DWH_CLUSTER_IDENTIFIER)['Clusters'][0]
+		DWH_ENDPOINT = myClusterProps['Endpoint']['Address']
+		DWH_ROLE_ARN = myClusterProps['IamRoles'][0]['IamRoleArn']
+		print("DWH_ENDPOINT :: ", DWH_ENDPOINT)
+		print("DWH_ROLE_ARN :: ", DWH_ROLE_ARN)
+		return myClusterProps, DWH_ENDPOINT, DWH_ROLE_ARN
+
+	def open_ports(ec2, myClusterProps, DWH_PORT):
+		"""
+		Summary line. 
+		Update clusters security group to allow access through redshift port
+
+		Parameters: 
+		arg1 : ec2 Object
+		arg2 : Cluster Properties
+		arg3 : Redshift Port
+
+		Returns: 
+		NONE
+		"""  
+		try:
+			vpc = ec2.Vpc(id=myClusterProps['VpcId'])
+			defaultSg = list(vpc.security_groups.all())[0]
+			print(defaultSg)
+			defaultSg.authorize_ingress(
+				GroupName=defaultSg.group_name,
+				CidrIp='0.0.0.0/0',
+				IpProtocol='TCP',
+				FromPort=int(DWH_PORT),
+				ToPort=int(DWH_PORT)
+			)
+		except Exception as e:
+			print(e)
+
+	def main():
+		initialize()
+
+	if __name__ == "__main__":
+		main()
+```
+
+## Amazon Athena
+
+> Athena is a Serverless Query Service from Amazon based on Presto engine
+
+Amazon Athena is an interactive query service that makes it easy to analyze data in Amazon S3 using standard SQL. Athena is serverless, so there is no infrastructure to manage, and you pay only for the queries that you run.
+
+Athena is easy to use. Simply point to your data in Amazon S3, define the schema, and start querying using standard SQL. Most results are delivered within seconds. With Athena, there’s no need for complex ETL jobs to prepare your data for analysis. This makes it easy for anyone with SQL skills to quickly analyze large-scale datasets.
+
+![](https://user-images.githubusercontent.com/62965911/214001856-3d835c43-3eef-42a0-8e6f-ad1eca4e807f.png)
+
+Athena is out-of-the-box integrated with AWS Glue Data Catalog, allowing you to create a unified metadata repository across various services, crawl data sources to discover schemas and populate your Catalog with new and modified table and partition definitions, and maintain schema versioning.
+
+Presto (or PrestoDB) is an open source, distributed SQL query engine, designed from the ground up for fast analytic queries against data of any size. It supports both non-relational sources, such as the Hadoop Distributed File System (HDFS), Amazon S3, Cassandra, MongoDB, and HBase, and relational data sources such as MySQL, PostgreSQL, Amazon Redshift, Microsoft SQL Server, and Teradata.
+
+Presto can query data where it is stored, without needing to move data into a separate analytics system. Query execution runs in parallel over a pure memory-based architecture, with most results returning in seconds. You’ll find it used by many well-known companies like Facebook, Airbnb, Netflix, Atlassian, and Nasdaq.
+
+Amazon Athena lets you deploy Presto using the AWS Serverless platform, with no servers, virtual machines, or clusters to setup, manage, or tune. Simply point to your data at Amazon S3, define the schema, and start querying using the built-in query editor, or with your existing Business Intelligence (BI) tools. Athena automatically parallelizes your query, and dynamically scales resources for queries to run quickly. You pay only for the queries that you run.
+
+Athena is "Managed Presto"
+
+Athena doesn't support
+
+1. DML Operations
+2. Stored Procedures or MQT
+
+### Benefits
+
+#### Start querying instantly
+
+**Serverless, no ETL**
+
+Athena is serverless. You can quickly query your data without having to setup and manage any servers or data warehouses. Just point to your data in Amazon S3, define the schema, and start querying using the built-in query editor. Amazon Athena allows you to tap into all your data in S3 without the need to set up complex processes to extract, transform, and load the data (ETL).
+
+#### Open, powerful, standard
+
+**Built on Presto, runs standard SQL**
+
+Amazon Athena uses Presto with ANSI SQL support and works with a variety of standard data formats, including CSV, JSON, ORC, Avro, and Parquet. Athena is ideal for interactive querying and can also handle complex analysis, including large joins, window functions, and arrays. Amazon Athena is highly available; and executes queries using compute resources across multiple facilities and multiple devices in each facility. Amazon Athena uses Amazon S3 as its underlying data store, making your data highly available and durable.
+
+tip:
+
+Presto: Released as open source by Facebook, it’s an open source distributed SQL query engine for running interactive analytic queries against data sources of all sizes. Presto allows querying data where it lives, including Hive, Cassandra, relational databases and file systems. It can perform queries on large data sets in a manner of seconds. It is independent of Hadoop but integrates with most of its tools, especially Hive to run SQL queries.
+
+#### Pay per query
+
+**Only pay for data scanned**
+
+With Amazon Athena, you pay only for the queries that you run. You are charged $5 per terabyte scanned by your queries. You can save from 30% to 90% on your per-query costs and get better performance by compressing, partitioning, and converting your data into columnar formats. Athena queries data directly in Amazon S3. There are no additional storage charges beyond S3.
+
+#### Fast, really fast
+
+**Interactive performance even for large datasets**
+
+With Amazon Athena, you don't have to worry about having enough compute resources to get fast, interactive query performance. Amazon Athena automatically executes queries in parallel, so most results come back within seconds.
+
+### Athena Federation
+
+Run federated queries against relational databases, data warehouses, object stores, and non-relational data stores. Federated SQL queries allow you to query the data in-place from wherever it resides. You can use familiar SQL to JOIN data across multiple data sources for quick analysis, and store results in Amazon S3 for subsequent use. Athena federated query also introduces a new Query Federation SDK that allows you to write your own data source connectors to query custom data stores.
+
+Athena uses data source connectors that run on AWS Lambda to execute federated queries. A data source connector is a piece of code that can translate between your target data source and Athena. You can think of a connector as an extension of Athena's query engine. When a query is submitted against a data source, Athena invokes the corresponding connector to identify parts of the tables that need to be read, manages parallelism, and pushes down filter predicates. Based on the user submitting the query, connectors can provide or restrict access to specific data elements.
+
+### Athena ACID Transactions
+
+ACID transactions enable multiple users to concurrently and reliably add and delete Amazon S3 objects in an atomic manner, while isolating any existing queries by maintaining read consistency for queries against the data lake. Athena ACID transactions add single-table support for write, delete, update, and time travel operations to the Athena SQL data manipulation language (DML). You and multiple concurrent users can use Athena ACID transactions to make reliable, row-level modifications to Amazon S3 data. Athena transactions automatically manage locking semantics and coordination and do not require a custom record locking solution.
+
+Athena ACID transactions and familiar SQL syntax simplify updates to your business and regulatory data. For example, to respond to a data erasure request, you can perform a SQL DELETE operation. To make manual record corrections, you can use a single UPDATE statement. To recover data that was recently deleted, you can issue time travel queries using a SELECT statement.
+
+Athena supports read, time travel, and write queries for Apache Iceberg tables that use the Apache Parquet format for data and the AWS Glue catalog for their metastore.
+
+### Watch these videos
+
+- https://www.youtube.com/watch?v=whR4J5Arj78
+- https://www.youtube.com/watch?v=M5ptG0YaqAs
+- https://www.youtube.com/watch?v=1lzpeVV2hDQ
+
+## BigQuery
+
+BigQuery is server-less, highly scalable, and cost-effective Data warehouse designed for Google cloud Platform (GCP) to store and query petabytes of data. The query engine is capable of running SQL queries on terabytes of data in a matter of seconds, and petabytes in only minutes. You get this performance without having to manage any infrastructure and without having to create or rebuild indexes.
+
+BigQuery supports standard SQL, so if you ever develop with relational database like Oracle, PostgreSQL, MySQL, Microsoft SQL Server, etc, it is easy to familiarize yourself with BigQuery. There are a few BigQuery functions to support modern-day requirements, and learning about them will make your job easier.
+
+There is no infrastructure required. We don’t need to worry about the size of storage, number of processors, or memory allocation for processing query. BigQuery scales automatically to run query, and then release the resource when it is done. We don't even charged for memory or processor allocation.
+
+Storing and querying massive datasets can be time consuming and expensive without the right hardware and infrastructure. BigQuery is a serverless, highly scalable [cloud data warehouse](https://cloud.google.com/solutions/bigquery-data-warehouse) that solves this problem by enabling super-fast SQL queries using the processing power of Google's infrastructure. Simply move your data into BigQuery and let us handle the hard work. You can control access to both the project and your data based on your business needs, such as giving others the ability to view or query your data.
+
+### ETL, EL, and ELT
+
+The traditional way to work with data warehouses is to start with an Extract, Transform, and Load (ETL) process, wherein raw data is extracted from its source location, transformed, and then loaded into the data warehouse. Indeed, BigQuery has a native, highly efficient columnar storage format9 that makes ETL an attractive methodology. The data pipeline, typically written in either Apache Beam or Apache Spark, extracts the necessary bits from the raw data (either streaming data or batch files), transforms what it has extracted to do any necessary cleanup or aggregation, and then loads it into BigQuery. The reference architecture for ETL into BigQuery uses Apache Beam pipelines executed on Cloud Dataflow and can handle both streaming and batch data using the same code.
+
+Even though building an ETL pipeline in Apache Beam or Apache Spark tends to be quite common, it is possible to implement an ETL pipeline purely within BigQuery. Because BigQuery separates compute and storage, it is possible to run BigQuery SQL queries against CSV (or JSON or Avro) files that are stored as-is on Google Cloud Storage; this capability is called federated querying. You can take advantage of federated queries to extract the data using SQL queries against data stored in Google Cloud Storage, transform the data within those SQL queries, and then materialize the results into a BigQuery native table.
+
+If transformation is not necessary, BigQuery can directly ingest standard formats like CSV, JSON, or Avro into its native storage—an EL (Extract and Load) workflow, if you will. The reason to end up with the data loaded into the data warehouse is that having the data in native storage provides the most efficient querying performance.
+
+We strongly recommend that you design for an EL workflow if possible, and drop to an ETL workflow only if transformations are needed. If possible, do those transformations in SQL, and keep the entire ETL pipeline within BigQuery. If the transforms will be difficult to implement purely in SQL, or if the pipeline needs to stream data into BigQuery as it arrives, build an Apache Beam pipeline and have it executed in a serverless fashion using Cloud Dataflow. Another advantage of implementing ETL pipelines in Beam/Dataflow is that, because this is programmatic code, such pipelines integrate better with Continuous Integration (CI) and unit testing systems.
+
+Besides the ETL and EL workflows, BigQuery makes it possible to do an Extract, Load, and Transform (ELT) workflow. The idea is to extract and load the raw data as-is and rely on BigQuery views to transform the data on the fly. An ELT workflow is particularly useful if the schema of the raw data is in flux. For example, you might still be carrying out exploratory work to determine whether a particular timestamp needs to be corrected for the local time zone. The ELT workflow is useful in prototyping and allows an organization to start deriving insights from the data without having to make potentially irreversible decisions too early.
+
+### Where does BigQuery fit in the data lifecycle?
+
+BigQuery is part of Google Cloud’s comprehensive data analytics platform that covers the entire analytics value chain including ingesting, processing, and storing data, followed by advanced analytics and collaboration. BigQuery is deeply integrated with GCP analytical and data processing offerings, allowing customers to set up an enterprise ready cloud-native data warehouse.
+
+At each stage of the data lifecycle, GCP provides multiple services to manage data. This means customers can select a set of services tailored to their data and workflow.
+
+![](https://user-images.githubusercontent.com/62965911/214002602-9d841ba2-318e-4688-aa9c-f524671590e3.png)
+
+### Ingesting data into BigQuery
+
+BigQuery supports several ways to ingest data into its managed storage. The specific ingestion method depends on the origin of the data. For example, some data sources in GCP, like Cloud Logging and Google Analytics, support direct exports to BigQuery.
+
+BigQuery Data Transfer Service enables data transfer to BigQuery from Google SaaS apps (Google Ads, Cloud Storage), Amazon S3, and other data warehouses (Teradata, Redshift).
+
+Streaming data, such as logs or IoT device data, can be written to BigQuery using Cloud Dataflow pipelines, Cloud Dataproc jobs, or directly using the BigQuery stream ingestion API.
+
+You can access BigQuery by using the [Console](https://cloud.google.com/bigquery/docs/quickstarts/quickstart-web-ui), [Web UI](https://console.cloud.google.com/bigquery?utm_source=bqui&utm_medium=link&utm_campaign=classic&project=cloud-solutions-group) or a [command-line tool](https://cloud.google.com/bigquery/docs/cli_tool) using a variety of [client libraries](https://cloud.google.com/bigquery/docs/reference/libraries) such as Java, .NET, or Python. There are also a variety of [solution providers](https://cloud.google.com/bigquery/providers) that you can use to interact with BigQuery.
+
+### BigQuery Architecture
+
+BigQuery’s serverless architecture decouples storage and compute and allows them to scale independently on demand. This structure offers both immense flexibility and cost controls for customers because they don’t need to keep their expensive compute resources up and running all the time. This is very different from traditional node-based cloud data warehouse solutions or on-premise massively parallel processing (MPP) systems. This approach also allows customers of any size to bring their data into the data warehouse and start analyzing their data using Standard SQL without worrying about database operations and system engineering.
+
+![](https://user-images.githubusercontent.com/62965911/214002594-10e8a071-7a25-4bc7-94d1-57d111cc114a.png)
+
 ### Watch the video
 
-#### Transactional databases versus data warehouses
+Watch this video: https://www.youtube.com/watch?v=2UGA6b5MFI0
 
-Watch this video: https://www.youtube.com/watch?v=GIAEAzoclgU
+### Introducing BigQuery partitioning
 
-#### The modern data warehouse
+There is one essential feature in BigQuery called a BigQuery partitioned table. A BigQuery partitioned table will logically divide the data in the BigQuery table by partitioning it into segments using a key.
 
-Watch this video: https://www.youtube.com/watch?v=EsvenuliSsc
+There are three partition key options, outlined as follows:
 
-## What is the Main Difference between View and Materialized View?
+- **Time-unit columns**: Based on a column containing **TIMESTAMP**, **DATE**, or **DATETIME** value
+- **Ingestion time**: Based on the timestamp when BigQuery ingests data to the table
+- **Integer range**: Based on a column containing the integer value
 
-The main difference between view and materialized view is as follows:
+The most common scenario is using either a time-unit column or ingestion time, and even though you can partition up to an hourly granular level, the most common scenario is still partitioning at a daily level. This feature will benefit mainly cost and performance optimization, but other than those two factors, using BigQuery partitioned tables can help our load jobs.
 
-+ View:
-  + Data representation is provided by view where the data is accessed from its table.
-  + View has a logical structure which does not occupy space
-  + All the changes are affected in corresponding tables.
-+ Materialized View:
-  + Within materialized view, pre-calculated data is available
-  + The materialized view has a physical structure which does occupy space
-  + All the changes are not reflected in the corresponding tables.
+Take a look at the next example.
 
-## What is Junk Dimension?
+We create a table with **PARTITION BY** (column), as follows:
 
-A junk dimension is nothing but a dimension where a certain type of data is stored which is not appropriate to store in the schema. The nature of the junk dimension is usually a Boolean has flag values.
-A single dimension is formed by a group of small dimensions got together. This can be considered as junk dimension.
+```sql
+CREATE TABLE example_table
+(
+val1 INT64,
+val2  STRING,
+date  DATE,
+)
+PARTITION BY (date);
+```
 
-## What is Data Warehouse architecture?
+Under the hood of BigQuery storage, the **example_table** table will be divided based on the **Date** column.
 
-The data warehouse architecture is a three-tier architecture.
-The following is the three-tier architecture:
+Every table record will be stored in a separate storage location. With this, it's theoretically the same as having multiple tables with the same schemas. But you don't need to worry about this, as BigQuery will handle this seamlessly. What you can do as a user is to access the table, and filter the table using the **partition** column, like this:
 
-+ Bottom Tier
-+ Middle Tier
-+ Upper Tier
+```sql
+SELECT val1
+FROM example_table
+WHERE date = '2018-01-03';
+```
 
-It is nothing but a repository of integrating data which is extracted from different data sources.
+The query will only access a partial amount of data from the table, which is the **val1** column at **2021-01-03**.
 
-## What is an integrity constraints and what are different types of integrity constraints?
+This is the idea of partitioned tables in BigQuery. The other main reason why people use partitioned tables in BigQuery is for cost optimization.
 
-An integrity constraint is nothing but a specific requirement that the data in the database has to meet. It is nothing but a business rule for a particular column in a table. In the data warehouse concept, they are 5 integrity constraints.
-The following are the integrity constraints:
+### Exploring a BigQuery Public Dataset
 
-+ Null
-+ Unique key
-+ Primary key
-+ Foreign key
-+ Check
+Storing and querying massive datasets can be time consuming and expensive without the right hardware and infrastructure. BigQuery is an enterprise data warehouse that solves this problem by enabling super-fast SQL queries using the processing power of Google's infrastructure. Simply move your data into BigQuery and let it handle the hard work. You can control access to both the project and your data based on your business needs, such as giving others the ability to view or query your data.
 
-## Why is that Data Architect actually monitor and enforce compliance data standards?
+You access BigQuery through the Cloud Console, the command-line tool, or by making calls to the BigQuery REST API using a variety of client libraries such as Java, .NET, or Python. There are also a variety of third-party tools that you can use to interact with BigQuery, such as visualizing the data or loading the data. In this lab, you access BigQuery using the web UI.
 
-The primary idea of keeping the standards high on compliance for data standards is because it will help to reduce the data redundancy and helps the team to have a quality data. As this information is actually carried out or used throughout the organization.
+You can use the BigQuery web UI in the Cloud Console as a visual interface to complete tasks like running queries, loading data, and exporting data. This hands-on lab shows you how to query tables in a public dataset and how to load sample data into BigQuery through the Cloud Console.
 
-## Explain the different data models that are available in detail?
+Given all the advantages of BigQuery, keep in mind that BigQuery is not a transactional database. BigQuery is not designed for millisecond query latency. It can process 1 TB of data in 5 seconds, but this doesn't mean you can process 1 MB of data in 0.0005 seconds. It is simply not designed for that purpose.
 
-There are three different kinds of data models that are available and they are as follows:
+### Watch these videos
 
-+ Conceptual
-+ Logical
-+ Physical
+- Introduction to BigQuery - https://www.youtube.com/watch?v=xuuXXmvRLWQ
+- Demo: Querying TB of data in seconds - https://www.youtube.com/watch?v=DAPiUo3sAFA
+- Analytic window functions - https://www.youtube.com/watch?v=B6FhilGH6NA
+- GIS functions - https://www.youtube.com/watch?v=9K2hTGv3SSc
 
-Conceptual data model:
+### Connect to BigQuery from Google Colab
 
-+ As the name itself implies that this data model depicts the high-level design of the available physical data.
+```py
+from google.colab import auth
+auth.authenticate_user()
+print('Authenticated')
 
-Logical data model:
+############################################
 
-+ Within the logical model, the entity names, entity relationships, attributes, primary keys and foreign keys will show up.
+query = """SELECT
+    source_year AS year,
+    COUNT(is_male) AS birth_count
+FROM `bigquery-public-data.samples.natality`
+GROUP BY year
+ORDER BY year DESC
+LIMIT 15""" 
 
-Physical data model:
+project_id = 'silken-psyxxx-xxxxxx'
 
-+ Based on this data model, the view will give out more information and showcases how the model is implemented in the database. All the primary keys, foreign keys, tables names and column names will be showing up.
+import pandas as pd
+df = pd.read_gbq(query, project_id=project_id, dialect='standard')
+df.head()
 
-## Differentiate between dimension and attribute?
+from google.cloud import bigquery
+client = bigquery.Client(project=project_id)
+df = client.query(query).to_dataframe()
+df.head()
+```
 
-In short, dimensions are nothing but which represents qualitative data. For example data like a plan, product, class are all considered as dimensions.
-The attribute is nothing but a subset of a dimension. Within a dimension table, we will have attributes. The attributes can be textual or descriptive. For example, product name and product category are nothing but an attribute of product dimensions.
+## Snowflake
 
-## Differentiate between Oltp and Olap?
+Snowflake is the Data Cloud that enables you to build data-intensive applications without operational burden, so you can focus on data and analytics instead of infrastructure management.
 
-OLTP stands for Online Transaction Process System
-OLTP is known for maintaining transactional level data of the organization and generally, they are highly normalized. If it is OLTP route then it is going to be a star schema design.
-OLAP stands for Online Analytical process system.
-OLAP is known for a lot of analysis and fulfills reporting purposes. It is de-normalized form.
-If it is an OLAP route then it is going to be a snowflake schema design.
+> Snowflake is the next big thing, and it is becoming a full-blown data ecosystem. With the level of scalability and efficiency in handling massive volumes of data and also with several new concepts in it, this is the right time to wrap your head around Snowflake and have it in your toolkit.
 
-## What is a Real time Data Warehouse and how is it different from near to Real time Data Warehouse?
+Snowflake started out because its founders understood and knew the truth about how users suffered with traditional relational OLAP solutions. Makes sense, they came from Oracle. They also understood how the cloud works. The founders didn't want to port an Oracle-like database over to the cloud as is. That would not solve the problems that the user base was experiencing. What were users suffering from: scale, performance, concurrency, and tons of expensive resources to keep the lights on! So they built Snowflake to solve these problems by taking all the good of a relational database platform and applying it to the cloud. The cloud allows for simple manifestation of environments with elasticity for size or scale.
 
-As the term suggests, a real-time data warehouse is a system, which reflects all changes to its sources in real time. As simple as it sounds, this is still an area of active research in the field. In traditional DWH, the operational system(s) are kept separate from the DWH for a good reason.
-The Operational systems are designed to accept inputs or changes to data regularly, hence have a good chance of being regularly queried. On the other hand, a DWH is supposed to do just the opposite - it is used to query data for reports only. No changes to data, through user actions is expected (or designed). The only inputs could come from the ETL feed at stipulated times.
-The ETL would source its data from the Operational systems just explained above.
-To create a real-time DWH we would have to merge both systems (several ways are being explored), a concept that is against the reason of creating a DWH. Bigger challenges occur in terms of updating aggregated data in facts at real time, still maintaining the surrogate keys.
-Besides, we would need lightening fast hardware to try this.Near Real time DWH is a trade-off between the conventional design and the dream of all clients today. The frequency of ETL updates in higher in this case for e.g. once in 2 hours. We can also analyze and use selective refreshes at shorter time intervals, while complete refreshes may still be kept further apart. Selective refreshes would look at only those tables that get updated regularly.
+Who competes with Snowflake directly? All cloud-based OLAP databases like: Redshift, Teradata, Oracle, Synapse, and Databricks. Yes, dare I say it Cloudera. Snowflake is starting to blur the lines a bit with Iceberg (Data Lake), SnowPark(Data Science/Data Engineering), Data Sharing/Marketplace(Third Party Data), and coming soon: Unistore (OLTP).
 
-## What is Type 2 Version Dimension?
+### Architecture
 
-Version dimension is the SCD type II in real time it using because of it will maintain the current data and full historical data.
+Even the improved traditional data platforms, especially those that were implemented on premises, couldn’t adequately address modern data problems or solve the long-standing scalability issue. The Snowflake team made the decision to take a unique approach. Rather than trying to incrementally improve or transform existing software architectures, they built an entirely new, modern data platform, just for the cloud, that allows multiple users to concurrently share live data.
 
-## What are Data Modeling and Data Mining?
+The unique Snowflake design physically separates but logically integrates storage and compute along with providing services such as security and management. As we explore the many unique Snowflake features throughout the upcoming chapters, you’ll be able to see for yourself why the Snowflake architecture is the only architecture that can enable the Data Cloud.
 
-Data modeling is the process of designing a data base model. In this data model data will be stored in two types of table fact table and dimension table.
-Fact table contains the transaction data and dimension table contains the master data. Data mining is process of finding the hidden trends is called the data mining.
+The Snowflake hybrid-model architecture is composed of three layers, which are shown in the following image: the cloud services layer, the compute layer, and the data storage layer.
 
-## Where the Data Cube Technology is used?
+![](https://user-images.githubusercontent.com/62965911/214011273-c6c43e89-1b73-4d0f-9a59-4b42f3a9933e.png)
 
-A multi-dimensional structure called the data cube. A data abstraction allows one to view aggregated data from a number of perspectives. Conceptually, the cube consists of a core or base cuboids, surrounded by a collection of sub-cubes/cuboids that represent the aggregation of the base cuboids along one or more dimensions. We refer to the dimension to be aggregated as the measure attribute, while the remaining dimensions are known as the feature attributes.
+Watch this video: https://www.youtube.com/watch?v=ZOqmqfe8WvM
 
-## How can you implement many relations in Star Schema Model?
+### Object hierarchy
 
-Many-many relations can be implemented by using snowflake schema .With a max of n dimensions.
+![](https://user-images.githubusercontent.com/62965911/214011288-13335fff-954f-40fd-9b26-ea4cb231cfea.png)
 
-## What is Critical Column?
+### Snowpark
 
-Let us take one ex: Suppose 'XYZ' is customer in Bangalore, he was residing in the city from the last 5 years, in the period of 5 years he has made purchases worth of 3 lacs. Now, he moved to 'HYD'. When you update the 'XYZ' city to 'HYD' in your Warehouse, all the purchases by him will show in city 'HYD' only. This makes warehouse inconsistent. Here CITY is the Critical Column. Solution is use Surrogate Key.
+With Snowpark, developers can program using a familiar construct like the DataFrame, and bring in complex transformation logic through UDFs, and then execute directly against Snowflake’s processing engine, leveraging all of its performance and scalability characteristics in the Data Cloud.
 
-## What is the main difference between Star and Snowflake Star Schema and which one is better and why?
+Snowpark provides several benefits over how developers have designed and coded data-driven solutions in the past:
 
-If u have one to may relation ship in the data then only we choose snowflake schema, as per the performance-wise every-one go for the Star schema. Moreover, if the ETL is concerned with reporting means choose for snowflake because this schema provides more browsing capability than the former schema.
+- Simplifies architecture and data pipelines by bringing different data users to the same data platform, and processes against the same data without moving it around.
+- Accelerates data pipeline workloads by executing with performance, reliability, and scalability with Snowflake’s elastic performance engine.
+- Eliminates maintenance and overhead with managed services and near-zero maintenance.
+- Creates a single governance framework and a single set of policies to maintain by using a single platform.
+- Provides a highly secure environment with administrators having full control over which libraries are allowed to execute inside the Java/Scala runtimes for Snowpark.
 
-## What is the difference between Dependent Data Warehouse and Independent Data Warehouse?
+### Snowflake Data Ingestion/Loading and Extraction
 
-Dependent departments are those, which depend on a data ware to for their data.Independent department are those, which get their data directly from the operational data sources in the organization.
+![](https://user-images.githubusercontent.com/62965911/214011557-32f11577-390b-45e0-85b1-7ca33afdafee.png)
 
-## Which technology should be used for interactive Data Querying across multiple dimensions for a decision making for a Dw?
+As the diagram above shows, Snowflake supports a wide range of use-cases including:
 
-MOLAP
+- Data File Loading: Which is the most common and highly efficient data loading method in Snowflake. This involves using SnowSQL to execute SQL commands to rapidly load data into a landing table. Using this technique it’s possible to quickly load terabytes of data, and this can be executed on a batch or micro-batch basis. Once the data files are held in a cloud stage (EG. S3 buckets), the COPY command can be used to load the data into Snowflake. For the majority of large volume batch data ingestion this is the most common method, and it’s normally good practice to size data files at around 100–250 megabytes of compressed data optionally breaking up very large data files were appropriate.
+- Replication from on Premises Databases: Snowflake supports a range of data replication and ETL tools including HVR, Stitch, Fivetran and Qlik Replicate which will seamlessly replicate changes from operational or legacy warehouse systems with zero impact upon the source system. Equally there are a huge range of data integration tools which support Snowflake in addition to other database platforms and these can be used to extract and load data. Equally, some customers choose to write their own data extract routines and use the Data File Loading and COPY technique described above.
+- Data Streaming: Options to stream data into Snowflake include using the Snowflake Kafka Connector to automatically ingest data directly from a Kafka topic as demonstrated by this video demonstration. Unlike the COPY command which needs a virtual warehouse, Snowpipe is an entirely serverless process, and Snowflake manages the operation entirely, scaling out the compute as needed. Equally, the option exists to simply trigger Snowpipe to automatically load data files when they arrive on cloud storage.
+- Inserts using JDBC and ODBC: Although not the most efficient way to bulk load data into Snowflake (using COPY or Snowpipe is always faster and more efficient), the Snowflake JDBC and ODBC connectors are available in addition to a range of Connectors and Drivers including Python, Node.js and Go.
+- Ingestion from a Data Lake: While Snowflake can be used to host a Data Lake, customers with an existing investment in a cloud data lake can make use of Snowflake External Tables to provide a transparent interface to data in the lake. From a Snowflake perspective, the data appears to be held in a read-only table, but the data is transparently read from the underlying files on cloud storage.
+- Data Sharing: For customers with multiple Snowflake deployments, the Data Exchange provides a seamless way to share data across the globe. Using the underlying Snowflake Data Sharing technology, customers can query and join data in real time from multiple sources without the need to copy. Existing in-house data can also be enriched with additional attributes from externally sourced data using the Snowflake Data Marketplace.
 
-## What is Virtual Data Warehousing?
+**Batch/Bulk Data Ingestion**
 
-A virtual or point-to-point data warehousing strategy means that end-users are allowed to get at operational databases directly using whatever tools are enabled to the "data access network".
+1. Write/load the data into your staging location (S3 bucket)
+2. Ingest the data into Snowflake in batches at frequent time intervals using:
+   1. Snowflake copy commands scheduled using Snowflake tasks
+   2. Trigger copy commands using Python/Glue/Airflow running at specified time intervals
 
-## What is the difference between Metadata and Data Dictionary?
+**Real-time Data Ingestion**
 
-Meta data is nothing but information about data. It contains the information (i.e. data) about the graphs, its related files, abinitio commands, server information etc i.e. all kinds of information about project related information etc.
+1. Write/load the data into your staging location (S3 bucket) and ingest the data in real-time using:
+   1. Snowpipe (continuous data ingestion)
+   2. Airflow S3 sensors/triggers
+2. Kafka-Snowflake Connector for real-time data ingestion
 
-## What is the difference between Mapping Parameter and Mapping Variable in Data Warehousing?
+### SnowSQL
 
-Mapping Parameter defines the constant value and it cannot change the value throughout the session. Mapping Variables defines the value and it can be change throughout the session.
+SnowSQL is the command line client for connecting to Snowflake to execute SQL queries and perform all DDL and DML operations, including loading data into and unloading data out of database tables. It is a modern command line tool designed for Snowflake Cloud data warehouse that is built on high security standards and has tight integration with Snowflake core architecture. It has very powerful scripting capability, and it can be further enhanced when used along with Python. Also, to upload/download any files to Snowflake internal stage you need SnowSql as put and get command work only with command line and not Web UI.
 
-## Explain the advantages Of Raid 1 and 1/0 And 5 and what type of Raid setup would you put your Tx Logs.
+### SnowPipe
 
-The basic advantage of RAID is to speed up the data reading from permanent storage device (hard disk).
+> Getting the volume and variety of today’s data into your data warehouse is paramount to obtain immediate, data-driven insight. Unfortunately, legacy data warehouses require batch-oriented loading and scheduling at off-peak times to avoid contention with the crucial needs of data analytics users. Snowpipe is a new data loading service for Snowflake that significantly improves the process of making data available for analysis.
 
-## What are the characteristics of data files?
+Snowpipe is an event based data ingest tool. Snowpipe provides two main methods for triggering a data loading event. This trigger could be a cloud storage notification (i.e. AWS S3 ObjectCreated event) or by directly calling the Snowpipe insertFiles REST API.
 
-A data file can be associated with only one database. Once created a data file can't change size. One or more data files form a logical unit of database storage called a table space.
+When building data applications, your users count on seeing the latest. Stale data is less actionable and could lead to costly errors. That's why continuously generated data is essential. Snowflake provides a data loading tool to drive updates, ensuring your databases are accurate by updating tables in micro-batches.
 
-## What is Rollback Segment?
+### Best Practices for Data Engineering on Snowflake
 
-A Database contains one or more Rollback Segments to temporarily store "undo" information.
+1. Follow the standard ingestion pattern: This involves the multi-stage process of landing the data files in cloud storage and then loading to a landing table before transforming the data. Breaking the overall process into predefined steps makes it easier to orchestrate and test.
+2. Retain history of raw data: Unless your data is sourced from a raw data lake, it makes sense to keep the raw data history which should ideally be stored using the [VARIANT](https://docs.snowflake.com/en/sql-reference/data-types-semistructured.html#variant) data type to benefit from automatic schema evolution. This means you have the option of truncating and re-processing data if bugs are found in the transformation pipeline and provides an excellent raw data source for Data Scientists. While you may not yet have any machine learning requirements, it's almost certain you will, if not now, then in the years to come. Keep in mind that Snowflake data storage is remarkably cheap, unlike on-premises solutions.
+3. Use multiple data models: On-premises data storage was so expensive it was not feasible to store multiple copies of data with each using a different data model to match the need. However, using Snowflake it makes sense to store raw data history in either structured or variant format, cleaned and conformed data in [3rd Normal Form](https://dwbi1.wordpress.com/2011/03/28/storing-history-on-3rd-normal-form/) or using a [Data Vault](https://www.analytics.today/blog/when-should-i-use-data-vault) model and finally data ready for consumption in a [Kimball Dimensional Data model](https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/). Each data model has unique benefits and storing the results of intermediate steps has huge architectural benefits, not least, the ability to reload and reprocess the data in the event of mistakes.
+4. Use the right tool: As the quote above implies, if you only know one tool, you'll use it inappropriately. The decision should be based upon a range of factors including, the existing skill set in the team, whether you need rapid near real-time delivery, whether you're doing a once off data load or a regular repeating process. Be aware, Snowflake can natively handle a range of file formats including Avro, Parquet, ORC, JSON and CSV and there is extensive guidance on [loading data into Snowflake](https://docs.snowflake.com/en/user-guide-data-load.html#loading-data-into-snowflake) on the online documentation.
+5. Use COPY or SNOWPIPE to load data: Around 80% of data loaded into a data warehouse is either ingested using a regular batch process or increasingly, immediately the data files arrive. By far the fastest, most cost efficient way to load data is using COPY and SNOWPIPE, so avoid the temptation to use other methods (for example queries against external tables) for regular data loads. Effectively, this is another example of *use the right tool*.
+6. Avoid JDBC or ODBC for regular large data loads: Another *right tool* recommendation. While a JDBC or ODBC interface may be fine to load a few megabytes of data, these interfaces will not scale to the massive throughput of COPY and SNOWPIPE. Use them by all means, but not for large regular data loads.
+7. Avoid Scanning Files: When using the COPY command to ingest data, use [partitioned staged data](https://docs.snowflake.com/en/user-guide/data-load-considerations-manage.html#partitioning-staged-data-files) files which is described as step 1 in the [Top 3 Snowflake Performance Tuning Tactics](https://www.analytics.today/blog/top-3-snowflake-performance-tuning-tactics). This reduces the effort of scanning large numbers of data files in cloud storage.
+8. Choose a sensible Virtual Warehouse size: Another tip from the [Top 3 Snowflake Performance Tuning Tactics](https://www.analytics.today/blog/top-3-snowflake-performance-tuning-tactics), don't assume an X6-LARGE virtual warehouse will load massive data files any faster than an X-SMALL. Each physical file is loaded sequentially, and it therefore pays to follow the [Snowflake File Sizing Recommendations](https://docs.snowflake.com/en/user-guide/data-load-considerations-prepare.html#general-file-sizing-recommendations) and either split multi-gigabyte files into chunks of 100--250Mb or load multiple concurrent data files in parallel.
+9. Ensure 3rd party tools push down: ETL tools like Ab Initio, Talend and Informatica were originally designed to extract data from source systems into an ETL server, transform the data and write them to the warehouse. As Snowflake can draw upon massive on-demand compute resources and automatically scale out, it makes no sense to use have data copied to an external server. Instead, use the ELT (Extract, Load and Transform) method, and ensure the tools generate and execute SQL statements on Snowflake to maximise throughput and reduce costs.
+10. Transform data in Steps: A common mistake by inexperienced data engineers is to write huge SQL statements that join, summarise and process lots of tables in the mistaken belief this is an efficient way of working. In reality the code becomes over-complex and difficult to maintain and worst still, often performs poorly. Instead, break the transformation pipeline into multiple steps and write results to intermediate tables. This makes it easier to test intermediate results, simplifies the code and often produces simple SQL code that runs faster.
+11. Use Transient tables for intermediate results: During a complex ELT pipeline, write intermediate results to a [transient table](https://docs.snowflake.com/en/user-guide/tables-temp-transient.html#transient-tables) which may be truncated prior to the next load. This reduces the time-travel storage to just one day and avoids an additional 7 days of fail-safe storage. By all means use [temporary tables](https://docs.snowflake.com/en/user-guide/tables-temp-transient.html#temporary-tables) if sensible, but it's often helpful to check the results of intermediate steps in a complex ELT pipeline.
+12. Avoid row-by-row processing: Modern analytics platforms like Snowflake are designed to ingest, process and analyse billions of rows at amazing speed using simple SQL statements which act upon the data *set-at-a-time*. However, people tend to think in terms of row-by-row processing and this sometimes leads to programming loops which fetch and update rows, one at a time. Be aware, [row-by-row processing](https://www.sqlskills.com/blogs/paul/reconciling-set-based-operations-with-row-by-row-iterative-processing/) is by far the single biggest way of killing query performance. Use SQL statements to process all table entries at a time and avoid row-by-row processing at all cost.
+13. Use Query Tags: When you start any multi-step transformation task set the [session query tag using](https://docs.snowflake.com/en/sql-reference/sql/alter-session.html#alter-session): ALTER SESSION SET QUERY_TAG = 'XXXXXX' and ALTER SESSION UNSET QUERY_TAG. This stamps every SQL statement until reset with an identifier and is invaluable to System Administrators. As every SQL statement (and QUERY_TAG) is recorded in the [QUERY_HISTORY](https://docs.snowflake.com/en/sql-reference/account-usage/query_history.html#query-history-view) view you can then track the job performance over time. This can be used to quickly identify when a task change has resulted in poor performance, identify inefficient transformation jobs or indicate when a job would be better executed on a larger or smaller warehouse.
+14. Keep it Simple: Probably the best indicator of an experienced data engineer is the value they place on *simplicity*. You can always make a job 10% faster or generic or more elegant and it *may* be beneficial but it's *always* beneficial to simplify a solution. Simple solutions are easier to understand, easier to diagnose problems and are therefore easier to maintain. Around 50% of the performance challenges I face are difficult to resolve because the solution is a single, monolithic complex block of code. The first thing I do, is to break down the solution into steps and only then identify the root cause.
 
-## What is a Table Space?
+Watch this video: https://www.youtube.com/watch?v=jKJTqfvwFOg
 
-A database is divided into Logical Storage Unit called table spaces. A table space is used to grouped related logical structures together.
+## Labs
 
-## What is Database Link?
+1. [Copying Data from S3 into Redshift](02-storage/warehouses/lab-redshift-copy-from-s3/)
+2. [Redshift with Python](02-storage/warehouses/lab-redshift-python/)
+3. [Implement a slowly changing dimension in Amazon Redshift](02-storage/warehouses/lab-redshift-scd/)
+4. [Taxi Data Process and Save to Redshift using AWS Wrangler](02-storage/warehouses/lab-redshift-taxi/)
+5. [Sales Analytics with Redhshift](02-storage/warehouses/project-redshift-sale/)
+6. [Building Federated Query System using Amazon Athena](02-storage/warehouses/project-athena-federated/)
+7. [Getting Started with Snowflake](02-storage/warehouses/lab-snowflake-getting-started/)
+8. [Snowflake with Python](02-storage/warehouses/lab-snowflake-connect-python/)
+9. [Snowpark Churn](02-storage/warehouses/lab-snowpark-churn/)
+10. [Snowpark Streamlit](02-storage/warehouses/lab-snowpark-streamlit/)
+11. [Snowflake SnowSQL](02-storage/warehouses/lab-snowflake-snowsql/)
+12. [Using BigQuery to do analysis](02-storage/warehouses/lab-bigquery-analysis/)
+13. [Bigquery basics command line operations](02-storage/warehouses/lab-bigquery-commandline/)
+14. [Creating a Data Warehouse Through Joins and Unions](02-storage/warehouses/lab-bigquery-data-warehousing/)
+15. [Build and Optimize Data Warehouses with BigQuery](02-storage/warehouses/lab-bigquery-optimization/)
+16. [Optimizing your BigQuery Queries for Performance](02-storage/warehouses/lab-bigquery-query-optimization/)
+17. [Building a BigQuery Data Warehouse](02-storage/warehouses/lab-biqeury-building-warehouse/)
+18. [Predict Visitor Purchases with a Classification Model in BigQuery ML](02-storage/warehouses/lab-bigquery-ml/)
+19. [NYC Cab Prediction Model in BigQuery ML](02-storage/warehouses/lab-bigquery-nyctaxi/)
 
-A database link is a named object that describes a "path" from one database to another.
+## Interview Questions
 
-## What is a Hash Cluster?
+[Read here](02-storage/warehouses/interview-questions.md)
 
-A row is stored in a hash cluster based on the result of applying a hash function to the row's cluster key value. All rows with the same hash key value are stores together on disk.
+## Explore Further
 
-## Describe referential Integrity?
-
-A rule defined on a column (or set of columns) in one table that allows the insert or update of a row only if the value for the column or set of columns (the dependent value) matches a value in a column of a related table (the referenced value). It also specifies the type of data manipulation allowed on referenced data and the action to be performed on dependent data as a result of any action on referenced data.
-
-## What is Schema?
-
-A schema is collection of database objects of a User.
-
-## What is Table?
-
-A table is the basic unit of data storage in an ORACLE database. The tables of a database hold all of the user accessible data. Table data is stored in rows and columns.
-
-## What is a View?
-
-A view is a virtual table. Every view has a Query attached to it. (The Query is a SELECT statement that identifies the columns and rows of the table(s) the view uses.)
-
-## What is an Extent?
-
-An Extent is a specific number of contiguous data blocks, obtained in a single allocation, and used to store a specific type of information.
-
-## What is an Index?
-
-An Index is an optional structure associated with a table to have direct access to rows, which can be created to increase the performance of data retrieval. Index can be created on one or more columns of a table.
-
-## What is an Integrity Constrains?
-
-An integrity constraint is a declarative way to define a business rule for a column of a table.
-
-## What are Clusters?
-
-Clusters are groups of one or more tables physically stores together to share common columns and are often used together.
-
-## What are the different types of Segments?
-
-Data Segment,
-Index Segment,
-Rollback Segment and Temporary Segment.
-
-## Explain the Relationship among database and Table Space and Data File?
-
-Each database logically divided into one or more table spaces one or more data files are explicitly created for each table space.
-
-## What is an Index Segment?
-
-Each Index has an Index segment that stores all of its data.
-
-## What are the Referential Actions supported by Foreign Key integrity constraint?
-
-Update And Delete Restrict - A referential integrity rule that disallows the update or deletion of referenced data. DELETE Cascade - When a referenced row is deleted all associated dependent rows are deleted.
-
-## Do you View contain Data?
-
-Views do not contain or store data.
-
-## What is the use of Control File?
-
-When an instance of an ORACLE database is started, its control file is used to identify the database and redo log files that must be opened for database operation to proceed. It is also used in database recovery.
-
-## Can Objects of the same Schema reside in different Table Spaces?
-
-Yes
-
-## Can a Table Space hold objects from different Schemes?
-
-Yes
-
-## Can a View based on another View?
-
-Yes
-
-## What is a full Backup?
-
-A full backup is an operating system backup of all data files, on- line redo log files and control file that constitute ORACLE database and the parameter.
-
-## What is Mirrored on line redo Log?
-
-A mirrored on-line redo log consists of copies of on-line redo log files physically located on separate disks; changes made to one member of the group are made to all members.
-
-## What is Partial Backup?
-
-A Partial Backup is any operating system backup short of a full backup, taken while the database is open or shut down.
-
-## What is Restricted Mode of Instance Startup?
-
-An instance can be started in (or later altered to be in) restricted mode so that when the database is open connections are limited only to those whose user accounts have been granted the RESTRICTED SESSION system privilege.
-
-## What are the steps involved in Database Shutdown?
-
-Close the Database; Dismount the Database and Shutdown the Instance.
-
-## What are the advantages of Operating a Database in archivelog mode over operating it in no Archivelog Mode?
-
-Complete database recovery from disk failure is possible only in ARCHIVELOG mode. Online database backup is possible only in ARCHIVELOG mode.
-
-## What are the different modes of Mounting a Database with the Parallel Server?
-
-Exclusive Mode If the first instance that mounts a database does so in exclusive mode, only that Instance can mount the database. Parallel Mode If the first instance that mounts a database is started in parallel mode, other instances that are started in parallel mode can also mount the database.
-
-## Can Full Backup be performed when the Database is Open?
-
-No
-
-## What are the steps involved in instance Recovery?
-
-Rolling forward to recover data that has not been recorded in data files yet has been recorded in the on-line redo log, including the contents of rollback segments. Rolling back transactions that have been explicitly rolled back or have not been committed as indicated by the rollback segments regenerated in step a.
-
-1) Releasing any resources (locks) held by transactions in process at the time of the failure.
-2) Resolving any pending distributed transactions undergoing a two-phase commit at the time of the instance failure.
-
-## What are the steps involved in Database Startup?
-
-Start an instance, Mount the Database and Open the Database.
-
-## Which parameter specified in the Default Storage Clause of create Tablespace cannot be Altered after creating the Table Space?
-
-All the default storage parameters defined for the table space can be changed using the ALTER TABLESPACE command. When objects are created their INITIAL and MINEXTENS values cannot be changed.
-
-## What is Online redo Log?
-
-The On-line Redo Log is a set of tow or more on-line redo files that record all committed changes made to the database. Whenever a transaction is committed, the corresponding redo entries temporarily stores in redo log buffers of the SGA are written to an on-line redo log file by the background process LGWR. The on-line redo log files are used in cyclical fashion.
-
-## What is Log Switch?
-
-The point at which ORACLE ends writing to one online redo log file and begins writing to another is called a log switch.
-
-## What is Dimensional Modelling?
-
-Dimensional Modelling is a design concept used by many data warehouse designers to build their data warehouse. In this design model all the data is stored in two types of tables - Facts table and Dimension table. Fact table contains the facts/measurements of the business and the dimension table contains the context of measurements i.e., the dimensions on which the facts are calculated.
-
-## What are the difference between snow Flake and Star Schema and what are situations where Snow Flake Schema is better than Star Schema to use and when the opposite is True?
-
-Star schema contains the dimension tables mapped around one or more fact tables. It is a renormalized model and no need to use complicated joins. Also queries results fast.Snowflake schema: It is the normalized form of Star schema. It contains in-depth joins, because the tables are split in to many pieces. We can easily do modification directly in the tables. We have to use complicated joins, since we have more tables.There will be some delay in processing the query.
-
-## What is a Cube in Data Warehousing concept?
-
-Cubes are logical representation of multidimensional data. The edge of the cube contains dimension members and the body of the cube contains data values.
-
-## What are the differences between Star and Snowflake Schema?
-
-Star schema: A single fact table with N number of DimensionSnowflake schema: Any dimensions with extended dimensions are known as snowflake schema.
-
-## What are Data Marts?
-
-A data mart is a collection of tables focused on specific business group/department. It may have multi-dimensional or normalized. Data marts are usually built from a bigger data warehouse or from operational data.
-
-## What is the Data Type of the Surrogate Key?
-
-There is no data type for a Surrogate Key. Requirement of a surrogate Key: UNIQUE Recommended data type of a Surrogate key is NUMERIC.
-
-## What are Fact and Dimension and Measure?
-
-Fact is key performance indicator to analyze the business. Dimension is used to analyze the fact. Without dimension there is no meaning for fact.
-
-## What are the different Types of Data Warehousing?
-
-Types of data warehousing are:
-
-1. Enterprise Data warehousing
-2. ODS (Operational Data Store)
-3. Data Mart
-
-## What do you mean by Static and Local Variable?
-
-Static variable is not created on function stack but is created in the initialized data segment and hence the variable can be shared across the multiple call of the same function. Usage of static variables within a function is not thread safe.On the other hand, local variable or auto variable is created on function stack and valid only in the context of the function call and is not shared across function calls.
-
-## What is a Source Qualifier?
-
-When you add a relational or a flat file source definition to a mapping, you need to connect it to a Source Qualifier transformation. The Source Qualifier represents the rows that the Informatica Server reads when it executes a session.
-
-## What are the Steps to Build the Data Warehouse?
-
-Gathering business requirements>>Identifying Sources>>Identifying Facts>>Defining Dimensions>>Define Attributes>>Redefine Dimensions / Attributes>>Organize Attribute Hierarchy>>Define Relationship>>Assign Unique Identifiers.
-
-## What is the advantages Data Mining over Traditional approaches?
-
-Data Mining is used for the estimation of future. For example, if we take a company/business organization, by using the concept of Data Mining, we can predict the future of business in terms of Revenue (or) Employees (or) Customers (or) Orders etc.Traditional approaches use simple algorithms for estimating the future. However, it does not give accurate results when compared to Data Mining.
-
-## What is the difference between View and Materialized View?
-
-View - store the SQL statement in the database and let you use it as a table. Every time you access the view, the SQL statement executes. Materialized view - stores the results of the SQL in table form in the database. SQL statement only executes once and after that every time you run the query, the stored result set is used. Pros include quick query results.
-
-## What is the main difference between Inmon and Kimball Philosophies of Data Warehousing?
-
-Both differed in the concept of building the data warehouse.According to Kimball, Kimball views data warehousing as a constituency of data marts. Data marts are focused on delivering business objectives for departments in the organization. And the data warehouse is a conformed dimension of the data marts. Hence, a unified view of the enterprise can be obtained from the dimension modeling on a local departmental level.Inmon beliefs in creating a data warehouse on a subject-by-subject area basis. Hence, the development of the data warehouse can start with data from the online store. Other subject areas can be added to the data warehouse as their needs arise. Point-of-sale (POS) data can be added later if management decides it is necessary.
-
-## What is Junk Dimension and what is the difference between Junk Dimension and Degenerated Dimension?
-
-Junk dimension: Grouping of Random flags and text attributes in a dimension and moving them to a separate sub dimension. Degenerate Dimension: Keeping the control information on Fact table ex: Consider a Dimension table with fields like order number and order line number and have 1:1 relationship with Fact table, In this case this dimension is removed and the order information will be directly store.
-
-## Why Fact Table is in Normal Form?
-
-The fact table consists of the Index keys of the dimension/look up tables and the measures. So whenever we have the keys in a table. That it implies that the table is in the normal form.
-
-## What is difference between Er Modeling and Dimensional Modeling?
-
-Basic difference is E-R modeling will have logical and physical model. Dimensional model will have only physical model. E-R modeling is used for normalizing the OLTP database design.Dimensional modeling is used for de-normalizing the ROLAP/MOLAP design.
-
-## What is Conformed Fact?
-
-Conformed dimensions are the dimensions, which can be used across multiple Data Marts in combination with multiple facts tables accordingly.
-
-## What are the Methodologies of Data Warehousing?
-
-Every company has methodology of their own. However, to name a few SDLC Methodology, AIM methodology is standard used.
-
-## What is Bus Schema?
-
-BUS Schema is composed of a master suite of confirmed dimension and standardized definition if facts.
-
-## What is Data Warehousing Hierarchy?
-
-Hierarchies are logical structures that use ordered levels as a means of organizing data. A hierarchy can be used to define data aggregation. For example, in a time dimension, a hierarchy might aggregate data from the month level to the quarter level to the year level. A hierarchy can also be used to define a navigational drill path and to establish a family structure.Within a hierarchy, each level is logically connected to the levels above and below it. Data values at lower levels aggregate into the data values at higher levels. A dimension can be composed of more than one hierarchy. For example, in the product dimension, there might be two hierarchies--one for product categories and one for product suppliers.Dimension hierarchies also group levels from general to granular. Query tools use hierarchies to enable you to drill down into your data to view different levels of granularity. This is one of the key benefits of a data warehouse.When designing hierarchies, you must consider the relationships in business structures. Hierarchies impose a family structure on dimension values. For a particular level value, a value at the next higher level is its parent, and values at the next lower level are its children. These familial relationships enable analysts to access data quickly.
-
-## What are Data Validation Strategies for Data Mart Validation after loading process?
-
-Data validation is to make sure that the loaded data is accurate and meets the business requirements. Strategies are different methods followed to meet the validation requirements.
-
-## What are the Data Types present in Bo and what happens if we implement View in the Designer N Report?
-
-Three different data types: Dimensions, Measure, and DetailView is nothing but an alias and it can be used to resolve the loops in the universe.
-
-## What is Surrogate Key and where we use it?
-
-Surrogate key is a substitution for the natural primary key.It is just a unique identifier or number for each row that can be used for the primary key to the table. The only requirement for a surrogate primary key is that it is unique for each row in the table.
-Data warehouses typically use a surrogate, (also known as artificial or identity key), key for the dimension tables primary keys. They can use Info sequence generator, or Oracle sequence, or SQL Server Identity values for the surrogate key.
-It is useful because the natural primary key (i.e. Customer Number in Customer table) can change and this makes updates more difficult.
-Some tables have columns such as AIRPORT_NAME OR CITY_NAME which are stated as the primary keys (according to the business users) but ,not only can these change, indexing on a numerical value is probably better and you could consider creating a surrogate key called, say, AIRPORT_ID. This would be internal to the system and as far as the client is concerned, you may display only the AIRPORT_NAME.
-
-## What is a Linked Cube?
-
-Linked cube in which a sub-set of the data can be analyzed into detail. The linking ensures that the data in the cubes remain consistent.
-
-## What is meant by Metadata in Context of a Data Warehouse and how it is important?
-
-Metadata is the data about data; Business Analyst or data modeler usually capture information about data - the source (where and how the data is originated), nature of data (char, varchar, nullable, existence, valid values etc) and behavior of data (how it is modified / derived and the life cycle) in data dictionary.
-Metadata is also presented at the Datamart level, subsets, fact and dimensions, ODS etc. For a DW user, metadata provides vital information for analysis / DSS.
-
-## What are the possible Data Marts in Retail Sales?
-
-Product information and sales information.
-
-## What are the various Etl Tools in the market?
-
-Various ETL tools used in market are Informatica Data Stage Oracle Warehouse Builder Ab Initio Data Junction.
-
-## What is Dimensional Modeling?
-
-Dimensional Modeling is a design concept used by many data warehouse designers to build their data warehouse. In this design model all the data is stored in two types of tables - Facts table and Dimension table. Fact table contains the facts/measurements of the business and the dimension table contains the context of measurements i.e., the dimensions on which the facts are calculated.Dimension modeling is a method for designing data warehouse. Three types of modeling are there
-
-1. Conceptual modeling
-2. Logical modeling
-3. Physical modeling.
-
-## What is Vldb?
-
-The perception of what constitutes a VLDB continues to grow. A one-terabyte database would normally be considered VLDB.Degenerate dimension: it does not have any link with dimensions and it will not have any attribute.
-
-## What is Degenerate Dimension Table?
-
-Degenerate Dimensions: If a table contains the values, which r neither dimension nor measures is called degenerate dimensions. For example invoice id, employee no.A degenerate dimension is data that is dimensional in nature but stored in a fact table.
-
-## What is Er Diagram?
-
-The Entity-Relationship (ER) model was originally proposed in 1976 as a way to unify the network and relational database views. Simply stated the ER model is a conceptual data model that views the real world as entities and relationships. A basic component of the model is the Entity-Relationship diagram, which is used to visually represent data objects. Since Chen wrote his paper the model has been extended and today it is commonly used for database design for the database designer, the utility of the ER model is: it maps well to the relational model. The constructs used in the ER model can easily be transformed into relational tables. It is simple and easy to understand with a minimum of training. Therefore, the database designer to communicate the design to the end user can use the model. In addition, the model can be used as a design plan by the database developer to implement a data model in specific database management software.
-
-## What is the difference between Snowflake and Star Schema and what are situations where Snowflake Schema is better than Star Schema?
-
-Star schema contains the dimension tables mapped around one or more fact tables.It is a renormalized model and no need to use complicated joins. Also Queries results fast.Snowflake schema is the normalized form of Star schema. It contains in-depth joins, because the tables are spited in to many pieces. We can easily do modification directly in the tables.We have to use complicated joins, since we have more tables. There will be some delay in processing the Query.
-
-## Can a Dimension Table contain numeric values?
-
-Yes. However, those data type will be char (only the values can numeric/char).Yes, dimensions even contain numerical because these are descriptive elements of our business.
-
-## What is Hybrid Slowly Changing Dimension?
-
-Hybrid SCDs are combination of both SCD 1 and SCD 2.It may happen that in a table, some columns are important and we need to track changes for them i.e. capture the historical data for them whereas in some columns even if the data changes, we don't care.For such tables we implement Hybrid SCDs, where in some columns are Type 1 and some are Type 2.You can add that it is not an intelligent key but similar to a sequence number and tied to a timestamp typically!
-
-## How many clustered indexes can you create for a table in Dwh and in case Of Truncate and Delete command what happens to table which has unique Id.
-
-You can have only one clustered index per table. If you use delete command, you can rollback... it fills your redo log files.
-If you do not want records, you may use truncate command, which will be faster and does not fill your redo log file.
-
-## What is Loop in Data Warehousing?
-
-In DWH loops may exist between the tables. If loops exist, then query generation will take more time, because more than one path is available. It creates ambiguity also. Loops can be avoided by creating aliases of the table or by context.
-Example: 4 Tables - Customer, Product, Time, Cost forming a close loop. Create alias for the cost to avoid loop.
-
-## What is an Error Log Table in Informatica occurs and how to maintain it in mapping?
-
-Error Log in Informatica is a one of output file created by Informatica Server while running the session for error messages. It is created in Informatica home directory.
-
-## What is Drilling Across?
-
-Drill across corresponds to switching from 1 classification in 1 dimension to a different classification in different dimension.
-
-## Where the Cache Files stored?
-
-Caches are stored in Repository.
-
-## What is Dimension Modeling?
-
-A logical design technique that seeks to present the data in a standard, intuitive framework that allows for high-performance access. There are different data modeling concepts like ER Modeling (Entity Relationship modeling), DM (Dimensional modeling), Hierarchal Modeling, Network modeling. However, popular are ER and DM only.
-
-## What is Data Cleaning?
-
-Data cleaning is a self-explanatory term. Most of the data warehouses in the world source data from multiple systems - systems that were created long before data warehousing was well understood, and hence without the vision to consolidate the same in a single repository of information. In such a scenario, the possibilities of the following are there:
-► Missing information for a column from one of the data sources;
-► Inconsistent information among different data sources;
-► Orphan records;
-► Outlier data points;
-► Different data types for the same information among various data sources, leading to improper conversion;
-► Data breaching business rules
-In order to ensure that the data warehouse is not infected by any of these discrepancies, it is important to cleanse the data using a set of business rules, before it makes its way into the data warehouse.
-
-## Can you explain the Hierarchies Level Data Warehousing?
-
-In Data warehousing, levels are columns available in dimension table. Levels are having attributes. Hierarchies are used for navigational purpose; there are two types of Hierarchies. You can define hierarchies in top down or bottom up.
-
-1. Natural Hierarchy: Best example is Time Dimension - Year, Month, Day etc. In natural Hierarchy definite relationship exists between each level
-2. Navigational Hierarchy: You can have levels like
-   Ex - Production cost of Product, Sales Cost of Product.
-   Ex - Lead Time defined to procure, Actual Procurement time,
-   In this, two levels need not to have relationship. This Hierarchy is created for navigational purpose.
-
-## Can you explain about Core Dimension and Balanced Dimension and Dirty Dimension?
-
-Dirty Dimension is nothing but Junk Dimensions. Core Dimensions are dedicated for a fact table or Data mart. Conformed Dimensions are used across fact tables or Data marts.
-
-## What is Core Dimension?
-
-Core Dimension is a Dimension table, which is used dedicated for single fact table or Datamart. Conform Dimension is a Dimension table which is used across fact tables or Data marts.
-
-## After we create a Scd Table can we use that Particular Dimension as a Dimension Table for Star Schema?
-
-Yes.
-
-## Suppose you are filtering rows using a Filter Transformation and only rows meet the condition pass to the Target so tell me where rows will go that does not meet condition.
-
-Informatica filter transformation default value is 1 i.e. true. If you place a break point on filter transformation and run the mapping in a debugger mode, you will find these values 1 or 0 for each row passing through filter. If you change 0 to 1, the particular row will be passed to next stage.
-
-## What is Galaxy Schema?
-
-Galaxy schema is also known as fact constellation scheme. It requires no of fact tables to share dimension tables. In data, wares housing mainly the people are using the conceptual hierarchy.
-
-## Briefly state different between Data Ware House and Data Mart?
-
-Data warehouse is made up of many datamarts. DWH contain many subject areas. However, data mart focuses on one subject area generally. E.g. If there will be DHW of bank then there can be one data mart for accounts, one for Loans etc. This is high-level definitions.
-
-## What is MetaData?
-
-Metadata is data about data. E.g. if in data mart we are receiving any file. Then metadata will contain information like how many columns, file is fix width/limited, ordering of fields, data types of field etc.
-
-## What is the Definitions for Datawarehose And Datamart?
-
-Datamart is subset of Datawarehouse we can say a datamart is collection of individual departmental information...Where as datawarehouse in collection of datamart.
-Data mart is a single subject and datawarehouse is a integration of multiple subjects.
-
-## What is Data Validation Strategies for Data Mart validation after Loading Process
-
-Data validation is generally done manually in DWH in this case if source and TGT are relational you need to create SQL scripts to validate source and target data and if source isFlat file or non relational database you can use excel if data is very less or create dummy tables to validate your ETL code.
-
-## What is Data Mining?
-
-Data Mining is the process of analyzing data from different perspectives and summarizing it into useful information.
-
-## What is Ods?
-
-ODS is abbreviation of Operational Data Store. A database structure that is a repository for near real-time operational data rather than long term trend data. The ODS may further become the enterprise shared operational database, allowing operational systems that are being re-engineered to use the ODS as there operation databases.
-
-## What is Etl?
-
-ETL is abbreviation of extract, transform, and load. ETL is software that enables businesses to consolidate their disparate data while moving it from place to place, and it doesn’t really matter that that data is in different forms or formats. The data can come from any source.ETL is powerful enough to handle such data disparities. First, the extract function reads data from a specified source database and extracts a desired subset of data. Next, the transform function works with the acquired data – using rules orlookup tables, or creating combinations with other data – to convert it to the desired state. Finally, the load function is used to write the resulting data to a target database.
-
-## Is Oltp Database is design optimal for Data Warehouse?
-
-No. OLTP database tables are normalized, and it will add additional time to query to return results. Additionally, OLTP database is smaller, and it does not contain longer period (many years) data, which needs to be analyzed. A OLTP system is basically ER model and not Dimensional Model. If a complex query is executed on a OLTP system, it may cause a heavy overhead on the OLTP server that will affect the normal business processes.
-
-## If Denormalized is improves Data Warehouse Processes and why Fact Table is in Normal Form?
-
-Foreign keys of facts tables are primary keys of Dimension tables. It is clear that fact table contains columns which are primary key to other table that itself make normal form table.
-
-## What are Lookup Tables?
-
-A lookup table is the table placed on the target table based upon the primary key of the target, it just updates the table by allowing only modified (new or updated) records based on lookup condition.
-
-## What are Aggregate Tables?
-
-Aggregate table contains the summary of existing warehouse data which is grouped to certain levels of dimensions. It is always easy to retrieve data from aggregated tables than visiting original table which has million records. Aggregate tables reduces the load in the database server and increases the performance of the query and can retrieve the result quickly.
-
-## What is real time Datawarehousing?
-
-Data warehousing captures business activity data. Real-time data warehousing captures business activity data as it occurs. As soon as the business activity is complete and there is data about it, the completed activity data flows into the data warehouse and becomes available instantly.
-
-## What are Conformed Dimensions?
-
-Conformed dimensions mean the exact same thing with every possible fact table to which they are joined. They are common to the cubes.
-
-## How do you load the Time Dimension?
-
-Time dimensions are usually loaded by a program that loops through all possible dates that may appear in the data. 100 years may be represented in a time dimension, with one row per day.
-
-## What is a Level of Granularity of a Fact Table?
-
-Level of granularity means level of detail that you put into the fact table in a data warehouse. Level of granularity would mean what detail are you willing to put for each transactional fact.
-
-## What are Non additive facts?
-
-Non-additive facts are facts that cannot be summed up for any of the dimensions present in the fact table. However, they are not considered as useless. If there is changes in dimensions the same facts can be useful.
-
-## What is Factless Facts Table?
-
-A fact table which does not contain numeric fact columns it is called factless facts table.
-
-## Explain about Olap?
-
-OLAP is known as online analytical processing which provides answers to queries which are multi dimensional in nature. It composes relational reporting and data mining for providing solutions to business intelligence. This term OLAP is created from the term OLTP.
-
-## Explain about the Functionality of Olap?
-
-Hyper cube or multidimensional cube forms the core of OLAP system. This consists of measures which are arranged according to dimensions. Hyper cube Meta data is created by star or snow flake schema of tables in RDBMS. Dimensions are extracted from dimension table and measures from the fact table.
-
-## Explain about Molap?
-
-Classic form of OLAP is known as MOLAP and it is often called as OLAP. Simple database structures such as time period, product, location, etc. are used. Functioning of each and every dimension or data structure is defined by one or more hierarchies.
-
-## Explain about Rolap?
-
-Functioning of ROLAP occurs simultaneously with relational databases. Data and tables are stored as relational tables. To hold new information or data new tables are created. Functioning of ROLAP depends upon specialized schema design.
-
-## Explain about Aggregations?
-
-OLAP can process complex queries and give the output in less than 0.1 seconds, for it to achieve such a performance OLAP uses aggregations. Aggregations are built by aggregating and changing the data along the dimensions. Possible combination of aggregations can be determined by the combination possibilities of dimension granularities.
-
-## Explain about the View Selection problem?
-
-Often calculating all the data is not possible by aggregations for this reason some complex data problems are solved. In order to determine which data should be solved and calculated, developers use View selection application. This solution is often used to reduce calculation problem.
-
-## Explain about the role of Bitmap Indexes to solve Aggregation Problems?
-
-Bitmaps are very useful in start schema to join large databases to small databases. Answer queries and bit arrays are used to perform logical operations on the databases. Bit map indexes are very efficient in handling Gender differentiation; also repetitive tasks are performed with much larger efficiency.
-
-## Explain about Encoding Technique used in Bitmaps Indexes?
-
-Bitmaps commonly use one bitmap for every single distinct value. Number of bitmaps used can be reduced by opting for a different type of encoding. Space can be optimized but when a query is generated bitmaps have to be accessed.
-
-## Explain about Binning?
-
-Binning process is very useful to save space. Performance may vary depending upon the query generated sometimes solution to a query can come within few seconds and sometimes it may take longer time. Binning process holds multiple values in the same bin.
-
-## Explain about Hybrid Olap?
-
-When a database developer uses Hybrid OLAP it divides the data between relational and specialized storage. In some particular modifications a HOLAP database may store huge amounts of data in its relational tables. Specialized data storage is used to store data which is less detailed and more aggregate.
-
-## Explain about Shared Features of Olap?
-
-Shared implements most of the security features into OLAP. If multiple accesses are required admin can make necessary changes. The default security level for all OLAP products is read only. For multiple updates it is predominant to make necessary security changes.
-
-## Explain about Analysis?
-
-Analysis defines about the logical and statistical analysis required for an efficient output. This involves writing of code and performing calculations, but most part of these languages does not require complex programming language knowledge. There are many specific features which are included such as time analysis, currency translation, etc.
-
-## Explain about Multidimensional Features present in Olap?
-
-Multidimensional support is very essential if we are to include multiple hierarchies in our data analysis. Multidimensional feature allows a user to analyze business and organization. OLAP efficiently handles support for multidimensional features.
-
-## Explain about the Database Marketing Application of Olap?
-
-Database marketing tool or application helps a user or marketing professional in determining the right tool or strategy for his valuable add campaign. This tool collects data from all sources and gives relevant information the specialist with their add campaign. It gives a complete picture to the developer.
-
-## Compare Data Warehouse Database and Oltp Database.
-
-The data warehouse and the OLTP data base are bothrelational databases. However, the objectives of both these databases are different.
-The OLTP database records transactions in real time and aims to automate clerical data entry processes of a business entity. Addition, modification and deletion of data in the OLTP database is essential and the semantics of the applicationused in the front end impact on the organization of the data in the database.
-The data warehouse on the other hand does not cater to real time operational requirements of the enterprise. It is more a storehouse of current and historical data and may alsocontain data extracted from external data sources.
-
-## What is the difference between Etl Tool and Olap Tool and what are various Etl in the Market?
-
-ETL is an extraction,transformation,loading tool i.e u can extract , u can transform using different transformations available in tool and aggreagte the data. The output of thisETL tool is used as input to OLAP tool.
-OLAP is online analytical process, where u can get online reports after doing some joines,creating some cubes
-
-ETL tools in market
-1 INFORMATICA-- univeral tool ,good market
-2 ABINITO -- fastest loading tool,very good market
-3 DATASTAGE-- difficult work, no good market
-4 BODI-- good market
-5 ORACLE WAREHOUSE BUILDER-- good market.
-
-## Steps in building the Data Model.
-
-While ER model lists and defines the constructs required to build a data model, there is no standard process for doing so. Some methodologies, such as IDEFIX, specify a bottom-up.
-
-## Why is Data Modeling important?
-
-Data modeling is probably the most labor-intensive and time-consuming part of the development process. Why bother especially if you are pressed for time? A common.
-
-## What Type of Indexing Mechanism do we need use for a typical Datawarehouse?
-
-On the fact table it is best to use bitmap indexes. Dimension tables can use bitmap and/or the other types of clustered/non-clustered, unique/non-unique indexes.
-To my knowledge, SQLServer does not support bitmap indexes. Only Oracle supports bitmaps.
-
-## What are Semi additive and Factless Facts?
-
-Semi-Additive: Semi-additive facts are facts that can be summed up for some dimensions in the fact table, but not the others. For example:
-Current_Balance and Profit_Margin are the facts. Current_Balance is a semi-additive fact, as it makes sense to add them up for all accounts (what's the total current balance for all accounts in the bank?), but it does not make sense to add them up through time (adding up all current balances for a given account for each day of the month does not give us any useful information A factless fact table captures the many-to-many relationships between dimensions, but contains no numeric or textual facts. They are often used to record events or coverage information.
-Common examples of factless fact tables include:
-
-- Identifying product promotion events (to determine promoted products that didn?t sell)
-- Tracking student attendance or registration events
-- Tracking insurance-related accident events
-- Identifying building, facility, and equipment schedules for a hospital or university.
-
-## Is it correct develop a Data Mart using an Ods?
-
-Yes it is correct to develop a Data Mart using an ODS.becoz ODS which is used to?store transaction data and few Days (less historical data) this is what datamart is required, so it is coct to develop datamart using ODS .
-
-## Explain degenerated dimension.
-
-A Degenerate dimension?is a?Dimension which has only a single attribute.
-This dimension is typically represented as a single field in a fact table.
-The data items thar are not facts and data items that do not fit into the existing dimensions are termed as Degenerate Dimensions.
-Degenerate Dimensions are the fastest way to group similar transactions.
-Degenerate Dimensions are used when fact tables represent transactional data.
-They can be used as primary key for the fact table but they cannot act as foreign keys.
-
-## What are the different methods of loading Dimension Tables?
-
-Conventional Load:
-Before loading the data, all the Table constraints will be checked against the data.
-Direct load:(Faster Loading)
-All the Constraints will be disabled. Data will be loaded directly.Later the data will be checked against the table constraints and the bad data won't be indexed.
-
-## What are Slowly Changing Dimensions?
-
-Dimensions that change over time are called Slowly Changing Dimensions. For instance, a product price changes over time; People change their names for some reason; Country and State names may change over time. These are a few examples of Slowly Changing Dimensions since some changes are happening to them over a period of time.
-If the data in the Dimension table happen to change very rarely,then it is called as slowly changing dimension.
-ex: changing the name and address of a person,which happens rerely.
-
-## What is meant by Metadata in context of a Datawarehouse?
-
-Metadata or Meta Data Metadata is data about data. Examples of metadata include data element descriptions, data type descriptions, attribute/property descriptions, range/domain descriptions, and process/method descriptions. The repository environment encompasses all corporate metadata resources: database catalogs, data dictionaries, and navigation services. Metadata includes things like the name, length, valid values, and description of a data element. Metadata is stored in a data dictionary and repository. It insulates the data warehouse from changes in the schema of operational systems. Metadata Synchronization The process of consolidating, relating and synchronizing data elements with the same or similar meaning from different systems. Metadata synchronization joins these differing elements together in the data warehouse to allow for easier access.
-
-## What are Modeling Tools available in the Market
-
-These tools are used for Data/dimension modeling
-Oracle Designer
-ERWin (Entity Relationship for windows)
-Informatica (Cubes/Dimensions)
-Embarcadero
-Power Designer Sybase.
-
-## What is the main difference between Schema in Rdbms and Schemas in Datawarehouse?
-
-RDBMS Schema
-
-* Used for OLTP systems
-* Traditional and old schema
-* Normalized
-* Difficult to understand and navigate
-* Cannot solve extract and complex problems
-* Poorly modelled
-  DWH Schema
-* Used for OLAP systems
-* New generation schema
-* De Normalized
-* Easy to understand and navigate
-* Extract and complex problems can be easily solved
-* Very good model.
-
-## What is a general purpose Scheduling Tool?
-
-The basic purpose of the scheduling tool in a DW Application is to streamline the flow of data from Source To Target at specific time or based on some condition.
-
-## What is the need of Surrogate Key and why Primary Key not used as Surrogate Key?
-
-Surrogate Key is an artificial identifier for an entity. In surrogate key values are generated by the system sequentially(Like Identity property in SQL Server and Sequence in Oracle). They do not describe anything. Primary Key is a natural identifier for an entity. In Primary keys all the values are entered manually by the user which are uniquely identified. There will be no repetition of data.
-
-## What is Snow Flake Schema?
-
-Snowflake schemas normalize dimensions to eliminate redundancy. That is, the dimension data has been grouped into multiple tables instead of one large table. For example, a product dimension table in a star schema might be normalized into a products table, a product_category table, and a product_manufacturer table in a snowflake schema. While this saves space, it increases the number of dimension tables and requires more foreign key joins. The result is more complex queries and reduced query performance.
-
-## What is the difference between Oltp and Olap?
-
-OLTP is nothing but OnLine Transaction Processing ,which contains a normalised tables and online data,which have frequent insert/updates/delete.
-
-## How are the Dimension Tables designed?
-
-Find where data for this dimension are located.
-Figure out how to extract this data.
-Determine how to maintain changes to this dimension.
-Change fact table and DW population routines.
-
-## What are the advantages Data Mining over traditional approaches?
-
-Data Mining is used for?the estimation of future. For example,?if we take a company/business organization, by using the concept of Data Mining, we can predict the future of business interms of Revenue (or) Employees (or) Cutomers (or) Orders etc.
-Traditional approaches use?simple algorithms?for estimating the future. But, it does not give accurate results when compared to Data Mining.
-
-## Which automation tool is used in Data Warehouse testing?
-
-No Tool testing in done in DWH, only manual testing is done.
-
-## Give examples of Degenerated Dimensions.
-
-Degenerated Dimension is a dimension key without corresponding dimension. Example:
-In the PointOfSale Transaction Fact table, we have:
-Date Key (FK), Product Key (FK), Store Key (FK), Promotion Key?(FP),?and POS Transaction Number?? Date Dimension corresponds to Date Key, Production Dimension corresponds to Production Key. In a traditional parent-child database, POS Transactional Number would be?the key to the transaction header record that contains all the info valid for the transaction as a whole, such as the transaction date and store?identifier.?But in this?dimensional model, we have already extracted this info into other dimension. Therefore, POS Transaction Number?looks like a dimension key in the fact table but does not have the corresponding dimension table.
-Therefore, POS Transaction Number is a degenerated dimension.
-
-## What is the datatype of the Surrogate Key?
-
-Normally Surrogate keys are sequencers which keep on increasing with new records being injected into the table. The standard datatype is integer.
-
-## What is the difference between scan Component and Rollup Component?
-
-Rollup is for group by and Scan is for successive total. Basically, when we need to produce summary then we use scan. Rollup is used to aggregate data.
-
-## What is M_dump?
-
-m_dump command prints the data in a formatted way.
-
-## What is Brodcasting and Replicate?
-
-Broadcast - Takes data from multiple inputs, combines it and sends it to all the output ports.
-Eg - You have 2 incoming flows (This can be data parallelism or component parallelism) on Broadcast component, one with 10 records & other with 20 records. Then on all the outgoing flows (it can be any number of flows) will have 10 + 20 = 30 records.
-Replicate - It replicates the data for a particular partition and send it out to multiple out ports of the component, but maintains the partition integrity.
-Eg - Your incoming flow to replicate has a data parallelism level of 2. with one partition having 10 recs & other one having 20 recs. Now suppose you have 3 output flos from replicate. Then each flow will have 2 data partitions with 10 & 20 records respectively.
-
-## What is Local and Formal Parameter?
-
-Two are graph level parameters but in local you need to initialize the value at the time of declaration where as globle no need to initialize the data it will promt at the time of running the graph for that parameter.
-
-## What is the difference between Dml Expression and Xfr Expression?
-
-The main difference b/w dml & xfr is that
-DML represent format of the metadata.
-XFR represent the tranform functions.which will contain business rules
-
-## Have you used Rollup Component?
-
-If the user wants to group the records on particular field values then rollup is best way to do that. Rollup is a multi-stage transform function and it contains the following mandatory functions.
-
-1. initialise
-2. rollup
-3. finalise
-   Also need to declare one temporary variable if you want to get counts of a particular group.
-
-For each of the group, first it does call the initialise function once, followed by rollup function calls for each of the records in the group and finally calls the finalise function once at the end of last rollup call.
-
-## What are Primary Keys and Foreign Keys?
-
-In RDBMS the relationship between the two tables is represented as Primary key and foreign key relationship. Whereas the primary key table is the parent table and foreignkey table is the child table.The criteria for both the tables is there should be a matching column.
-
-## What is Outer Join?
-
-An outer join is used when one wants to select all the records from a port - whether it has satisfied the join criteria or not.
-
-## What are Cartesian Joins?
-
-A Cartesian join will get you a Cartesian product. A Cartesian join is when you join every row of one table to every row of another table. You can also get one by joining every row of a table to every row of itself.
-
-## What is the purpose of having Stored Procedures in a Database?
-
-Main Purpose of Stored Procedure for reduse the network trafic and all sql statement executing in cursor so speed too high.
-
-## Why might you create a Stored Procedure with Recompile Option?
-
-Recompile is useful when the tables referenced by the stored proc undergoes a lot of modification/ deletion/ addition of data. Due to the heavy modification activity the execute plan becomes outdated and hence the stored proc performance goes down. If we create the stored proc with recompile option, the sql server wont cache a plan for this stored proc and it will be recompiled every time it is run.
-
-## What is Cursor?
-
-The oracle engine uses work areas for internal processing in order to the execute sql statement is called cursor.There are two types of cursors like Implecit cursor and Explicit cursor.Implicit cursor is using for internal processing and Explicit cursor is using for user open for data required.
-
-## Describe process steps you would perform when Defragmenting a Data Table and this table contains mission critical Data?
-
-There are several ways to do this:
-
-1) We can move the table in the same or other tablespace and rebuild all the indexes on the table.
-   alter table move this activity reclaims the defragmented space in the table
-   analyze table table_name compute statistics to capture the updated statistics.
-   2)Reorg could be done by taking a dump of the table, truncate the table and import the dump back into the table.
-
-## Explain the difference between Truncate and Delete Commands?
-
-Truncate :
-
-+ It is a DDL command, used to delete tables or clusters. Since it is a DDL command hence it is auto commit and Rollback can't be performed. It is faster than delete.
-
-Delete:
-
-+ It is DML command, generally used to delete a record, clusters or tables. Rollback command can be performed , in order to retrieve the earlier deleted things. To make deleted things permanently, "commit" command should be used.
-
-## How would you find out whether Sql Query is using Indices you Expect?
-
-Explain plan can be reviewed to check the execution plan of the query. This would guide if the expected indexes are used or not.
-
-## What are the Security Level used in Bo?
-
-We have securities in business objects
-Like
-1.Windows authentication
-2.RDBMS securities
-3.supervisor level securities, ie Username/ password.
-
-## What are the Functional and Architectural differences between Business Objects and Web Intelligence Reports?
-
-Functional differences
-• Business objects, for building or accessing reports, needs to be installed on every pc. On the other hand, Web intelligence reports needs a browser and a URL of the server from where Business objects will be accessed.
-• BOMain.key needs to be copied on every pc using BO client. This is not required for Web Intelligence Reports.
-• Business objects expect you to use the same pc where they are installed. Web Intelligence reports can be accessed from anywhere, provided internet is available.
-
-Architectural differences
-For BO client, for sending info to BO Server BOMain.key, uses the key of the local drive. Once the information is sent, it is validated and checked into the repository upon which the user can access the BO services. On the other hand, Web Intelligence the web servers BOMain.key is used to check privilege of the user and then sending information to the BO Server BOMain.key.
-
-## What is batch processing in Business Objects?
-
-Batch processing can be used to schedule reports. Objects can be also be used for batch processing. Batch processing can be used to also select the objects to be processed. The batch can be run as a transaction in which if one process fails, the entire batch is rolled back or it can be run as a series of jobs.
-
-## What is Data Cardinality?
-
-Cardinality is the term used in database relations to denote the occurrences of data on either side of the relation.
-There are 3 basic types of cardinality:
-High data cardinality:
-Values of a data column are very uncommon.
-e.g.: email ids and the user names
-
-Normal data cardinality:
-Values of a data column are somewhat uncommon but never unique.
-e.g.: A data column containing LAST_NAME (there may be several entries of the same last name)
-
-Low data cardinality:
-Values of a data column are very usual.
-e.g.: flag statuses: 0/1
-
-## What is Chained Data Replication?
-
-In Chain Data Replication, the non-official data set distributed among many disks provides for load balancing among the servers within the data warehouse.
-Blocks of data are spread across clusters and each cluster can contain a complete set of replicated data. All data block in every cluster is a unique permutation of the data in other clusters.
-When a disk fails then all the calls made to the data in that disk are redirected to the other disks when the data has been replicated.
-At times replicas and disks are added online without having to move around the data in the existing copy or affect the arm movement of the disk.
-In load balancing, Chain Data Replication has multiple servers within the data warehouse share data request processing since data already have replicas in each server disk.
-
-## Explain in brief various fundamental stages of Data Warehousing.
-
-The following are the stages of data warehousing:
-Offline Operational Database: It is the stage where copying the data off an operational system to another server where the report processing load against the copied data takes place and OS performance does not impact.
-Offline Data Warehouse: In this stage, data warehouses are updated from data in the OS and the data of data warehouse is stored in a data structure that is designed for facilitating reports.
-Real time Data Warehouse: The data warehouses are updated often when an OS performs a transaction.
-Integrated Data Warehouse: The data warehouses are updated by OS, at the time of performing a transaction. Then transactions are generated which are passed back into the operational systems.
-
-## What is the difference between Enterprise Data Warehouse and Data Warehouse?
-
-Big Organizations have a lot of diversified sources of data.There might be a dataware house exclusively for transport and others for data related to the project the company runs.In such case the complete enterprise's(company's) date ware house is a big combination of all and is known the Enterprise data Warehouse(EDW)
-
-## Give me any example of Semi and Non Additive Measures?
-
-Semi-Additive: Semi-additive facts are facts that can be summed up for some dimensions in the fact table, but not the others. Non-Additive: Non-additive facts are facts that cannot be summed up for any of the dimensions present in the fact table. Current Balance and Profit Margin are the facts.Current Balance is a semi-additive fact, as it makes sense to add them up for all accounts (what's the total current balance for all accounts in the bank?), but it does not make sense to add them up through time (adding up all current balances for a given account for each day of the month does not give us any useful information). Profit Margin is a non-additive fact, for it does not make sense to add them up for the account level or the day level.
-
-## What are the options in the Target Session of Update Strategy Transformations?
-
-+ Insert
-+ Delete
-+ Update
-+ Update as update
-+ Update as insert
-+ Update else insert
-+ Truncate table
-
-## What are the Various Types of Transformation?
-
-Various types of transformation are: Aggregator Transformation, Expression Transformation, Filter
-Transformation, Joiner Transformation, Lookup Transformation, Normalizer Transformation, Rank Transformation,
-Router Transformation, Sequence Generator Transformation, Stored Procedure Transformation, Sorter
-Transformation, Update Strategy Transformation, XML Source Qualifier Transformation, Advanced External
-Procedure Transformation, External Transformation.
-
-## What is the difference between Active Transformation and Passive Transformation?
-
-An active transformation can change the number of rows that pass through it, but a passive transformation can not change the number of rows that pass through it.
-
-## What is the difference between Static Cache and Dynamic Cache?
-
-In case of dynamic cache, when we are inserting a new row it checks the lookup cache to see if it exists, if not inserts it into the target as well as the cache but in case of static cache the new row is written only in the target and not the lookup cache. The lookup cache remains static and does not change during the session but incase of dynamic cache the server inserts, updates in the cache during session.
-
-## How do we join Two tables without Joiner or Sql Override?
-
-We can join the tables using lookup transformation and making a cartesian product.
-
-## Differences between Normalizer and Normalizer Transformation.
-
-Normalizer: It is a transformation mainly using for cobol sources,
-it's change the rows into columns and columns into rows
-Normalization:To remove the redundancy and inconsistency.
-
-What Is The Use Of Incremental Aggregation? Explain Me In Brief With An Example.
-It's a session option. when the informatica server performs incremental aggr. it passes new source data through the mapping and uses historical cache data to perform new aggregation caluculations incrementaly. for performance we will use it.
-
-## What is Business Intelligence?
-
-Business Intelligence is a process for increasing the competitive advantage of a business by intelligent use of available data in decision-making.
-The five key stages of Business Intelligence:
-► Data Sourcing
-► Data Analysis
-► Situation Awareness
-► Risk Assessment
-► Decision Support.
-
-## What is a Universe in Business Intelligence?
-
-"universe" is a "Business object" terminology. Business objects also happens to be the name of the company. The universe is the interfacing layer between the client and the datawarehouse . The universe defines the relationship among the various tables in the datawarehouse.
-Or Universe is a semantic layer between the database and the user interface (reports).
-
-## What is Olap in Business Intelligence?
-
-Online Analytical Processing, a category of software tools that provides analysis of data stored in a database. OLAP tools enable users to analyze different dimensions of multidimensional data. For example, it provides time series and trend analysis views. The chief component of OLAP is the OLAP server, which sits between a client and a database management systems (DBMS). The OLAP server understands how data is organized in the database and has special functions analyzing the data.
-A good OLAP interface has writes an efficient sql and reads an accurate data from db.To design and architect having good knowledge on DB understanding the report requirements.
-
-## What are various Modules in Business Objects Product?
-
-► Business Objects Reporter
-► Reporting & Analyzing tool
-► Designer
-► Universe creation
-► database interaction
-► connectivity
-Supervisor - For Administrative purposes
-Webintelligence - Access of report data through internet
-BroadCast Agent - For scheduling the reports
-Data Integrator - The ETL tool of Business Objects, designed to handle huge amounts of data.
-
-## What is Olap Molap Rolap Dolap Holap?
-
-OLAP - On-Line Analytical Processing.
-Designates a category of applications and technologies that allow the collection, storage, manipulation and reproduction of multidimensional data, with the goal of analysis.
-
-MOLAP - Multidimensional OLAP.
-This term designates a cartesian data structure more specifically. In effect, MOLAP contrasts with ROLAP. Inb the former, joins between tables are already suitable, which enhances performances. In the latter, joins are computed during the request.
-Targeted at groups of users because it's a shared environment. Data is stored in an exclusive server-based format. It performs more complex analysis of data.
-
-DOLAP - Desktop OLAP.
-Small OLAP products for local multidimensional analysis Desktop OLAP. There can be a mini multidimensional database (using Personal Express), or extraction of a datacube (using Business Objects).
-Designed for low-end, single, departmental user. Data is stored in cubes on the desktop. It's like having your own spreadsheet. Since the data is local, end users dont have to worry about performance hits against the server.
-ROLAP - Relational OLAP.
-Designates one or several star schemas stored in relational databases. This technology permits multidimensional analysis with data stored in relational databases.
-Used for large departments or groups because it supports large amounts of data and users.
-HOLAP:Hybridization of OLAP, which can include any of the above.
-
-## Why an Infocube has maximum of 16 dimensions?
-
-It depends upon the Database limits provided to define the Foreign key constraint, e.g. in Sql Server 2005, the recommended max limit for foreign keys is 253, but you can define more.
-
-## Name some standard Business Intelligence Tools in the Market?
-
-Some standard Business Intelligence tools in the market According to their performance
-► MICROSTRATEGY
-► BUSINESS OBJECTS,CRYSTAL REPORTS
-► COGNOS REPORT NET
-► MS-OLAP SERVICES
-Or
-► Seagate Crystal report
-► SAS
-► Business objects
-► Microstrategy
-► Cognos
-► Microsoft OLAP
-Hyperion
-Microsoft integrated services.
-
-## What are Dashboards?
-
-A management reporting tool to gauge how well the organization company is performing. It normally uses "traffic-lights" or "smiley faces" to determine the status.
-
-## What is Hierarchy Relationship in a Dimension.
-
-whether it is:
-
-1. 1:1
-2. 1:m
-3. m:m
-   1:M
-
-## What are Adhoc reports and Static Reports?
-
-Adhoc reports run in real time based on the input parameters provided by the user at the run time.In Microstrategy, adhoc reports are created using Prompts.
-In static reports, users won't be provide any input parameters.These reports are usaully schedule to run overnight and ready to view immediatley in the mornings using cache.
-
-## What is the Importance of Surrogate Key in Data Warehousing?
-
-Surrogate Key is a Primary Key for a Dimension table. Most importance of using it is it is independent of underlying database. i.e Surrogate Key is not affected by the changes going on with a database.
-
-## What is a Query?
-
-A query is one or more statements that request data from a database. If the data is available, then the requested data returns in the form of a table which contains rows and columns. Queries are sent to the databases in a language called SQL. However, when using the Report Panel, SQL knowledge is not required.
-
-## What are the Features of a Physical Data Model?
-
-Features of a physical data model include:
-
-+ Specification all tables and columns.
-+ Foreign keys are used to identify relationships between tables.
-+ Denormalization may occur based on user requirements.
-+ Physical considerations may cause the physical data model to be quite different from the logical data model.
-+ Physical data model will be different for different RDBMS. For example, data type for a column may be different between MySQL and SQL Server.
-
-## What are the steps to design a Physical Model?
-
-The steps for physical data model design are as follows:
-Convert entities into tables.
-Convert relationships into foreign keys.
-Convert attributes into columns.
-Modify the physical data model based on physical constraints / requirements.
-IDMS (Integrated Database Management System) Interview Questions
-
-## What are the Features of Conceptual Data Model?
-
-Features of conceptual data model include:
-Includes the important entities and the relationships among them.
-No attribute is specified.
-No primary key is specified.
-
-## What are the difference between Logical Data Model and Conceptual Data Model?
-
-In a logical data model, primary keys are present, whereas in a conceptual data model, no primary key is present.
-In a logical data model, all attributes are specified within an entity. No attributes are specified in a conceptual data model.
-Relationships between entities are specified using primary keys and foreign keys in a logical data model. In a conceptual data model, the relationships are simply stated, not specified, so we simply know that two entities are related, but we do not specify what attributes are used for this relationship.
-
-## What are the steps to design Logical Data Model?
-
-The steps for designing the logical data model are as follows:
-
-+ Specify primary keys for all entities.
-+ Find the relationships between different entities.
-+ Find all attributes for each entity.
-+ Resolve many-to-many relationships.
-+ Normalization.
-
-## What is Etl?
-
-ETL stands for extraction transformation and loading
-ETL provide developers with an interface for designing source-to-target mappings, transformation and job control parameter
-
-* Extraction
-  + Take data from an external source and move it to the warehouse pre-processor database
-* Transformation
-  + Transform data task allows point-to-point generating, modifying and transforming data
-* Loading
-  + Load data task adds records to a database table in a warehouse.
-
-## What is a Three Tier Data Warehouse?
-
-A data warehouse can be thought of as a three-tier system in which a middle system provides usable data in a secure way to end users. On either side of this middle system are the end users and the back-end data stores.
-
-## What is Etl Process and how many steps Etl contains?
-
-ETL is extraction , transforming , loading process , you will extract data from the source and apply the business role on it then you will load it in the target
-The steps are :
-
-+ 1-define the source (create the odbc and the connection to the source DB)
-+ 2-define the target (create the odbc and the connection to the target DB)
-+ 3-create the mapping ( you will apply the business role here by adding transformations , and define how the data flow will go from the source to the target )
-+ 4-create the session (its a set of instruction that run the mapping )
-+ 5-create the work flow (instruction that run the session)
-
-## What is Full Load and Incremental or Refresh Load?
-
-Full Load: completely erasing the contents of one or more tables and reloading with fresh data.
-Incremental Load: applying ongoing changes to one or more tables based on a predefined schedule.
-
-## What is a Staging Area?
-
-Data staging is actually a collection of processes used to prepare source system data for loading a data warehouse. Staging includes the following steps:
-Source data extraction, Data transformation (restructuring),
-Data transformation (data cleansing, value transformations),
-Surrogate key assignments
-
-## Compare Etl and Manual Development.
-
-ETL - The process of extracting data from multiple sources.(ex. flat files, XML, COBOL, SAP etc) is simpler with the help of tools.
-Manual - Loading the data other than flat files and oracle table need more effort.
-ETL - High and clear visibility of logic.
-Manual - complex and not so user friendly visibility of logic.
-ETL - Contains Meta data and changes can be done easily.
-Manual - No Meta data concept and changes needs more effort.
-ETL- Error handling, log summary and load progress makes life easier for developer and maintainer.
-Manual - need maximum effort from maintenance point of view.
-ETL - Can handle Historic data very well.
-Manual - as data grows the processing time degrades.
-
-## What is Rdbms?
-
-Relational Data Base Management Systems (RDBMS) are database management systems that maintain data records and indices in tables. Relationships may be created and maintained across and among the data and tables. In a relational database, relationships between data items are expressed by means of tables. Interdependencies among these tables are expressed by data values rather than by pointers. This allows a high degree of data independence. An RDBMS has the capability to recombine the data items from different files, providing powerful tools for data usage.
-
-## What is Normalization?
-
-Database normalization is a data design and organization process applied to data structures based on rules that help build relational databases. In relational database design, the process of organizing data to minimize redundancy. Normalization usually involves dividing a database into two or more tables and defining relationships between the tables. The objective is to isolate data so that additions, deletions, and modifications of a field can be made in just one table and then propagated through the rest of the database via the defined relationships.
-
-## What are different Normalization Forms?
-
-+ 1NF: Eliminate Repeating Groups Make a separate table for each set of related attributes, and give each table a primary key. Each field contains at most one value from its attribute domain.
-+ 2NF: Eliminate Redundant Data If an attribute depends on only part of a multi-valued key, remove it to a separate table.
-+ 3NF: Eliminate Columns Not Dependent On Key If attributes do not contribute to a description of the key, remove them to a separate table. All attributes must be directly dependent on the primary key.
-+ BCNF: Boyce-Codd Normal Form If there are non-trivial dependencies between candidate key attributes, separate them out into distinct tables.
-+ 4NF: Isolate Independent Multiple Relationships No table may contain two or more 1:n or n:m relationships that are not directly related.
-+ 5NF: Isolate Semantically Related Multiple Relationships There may be practical constrains on information that justify separating logically related many-to-many relationships.
-+ ONF: Optimal Normal Form A model limited to only simple (elemental) facts, as expressed in Object Role Model notation.
-+ DKNF: Domain-Key Normal Form A model free from all modification anomalies. Remember, these normalization guidelines are cumulative. For a database to be in 3NF, it must first fulfill all the criteria of a 2NF and 1NF database.
-
-## What is Stored Procedure?
-
-A stored procedure is a named group of SQL statements that have been previously created and stored in the server database. Stored procedures accept input parameters so that a single procedure can be used over the network by several clients using different input data. And when the procedure is modified, all clients automatically get the new version. Stored procedures reduce network traffic and improve performance. Stored procedures can be used to help ensure the integrity of the database.
-e.g. sp_helpdb, sp_renamedb, sp_depends etc.
-
-## What is Trigger?
-
-A trigger is an SQL procedure that initiates an action when an event (INSERT, DELETE or UPDATE) occurs. Triggers are stored in and managed by the DBMS. Triggers are used to maintain the referential integrity of data by changing the data in a systematic fashion. A trigger cannot be called or executed; the DBMS automatically fires the trigger as a result of a data modification to the associated table. Triggers can be viewed as similar to stored procedures in that both consist of procedural logic that is stored at the database level. Stored procedures, however, are not event-drive and are not attached to a specific table as triggers are. Stored procedures are explicitly executed by invoking a CALL to the procedure while triggers are implicitly executed. In addition, triggers can also execute stored procedures.
-
-## What is View?
-
-A simple view can be thought of as a subset of a table. It can be used for retrieving data, as well as updating or deleting rows. Rows updated or deleted in the view are updated or deleted in the table the view was created with. It should also be noted that as data in the original table changes, so does data in the view, as views are the way to look at part of the original table. The results of using a view are not permanently stored in the database. The data accessed through a view is actually constructed using standard T-SQL select command and can come from one to many different base tables or even other views.
-
-## Advantages of Dbms?
-
-+ Redundancy is controlled.
-+ Unauthorised access is restricted.
-+ Providing multiple user interfaces.
-+ Enforcing integrity constraints.
-+ Providing backup and recovery.
-
-## Disadvantage in File Processing System?
-
-+ Data redundancy & inconsistency.
-+ Difficult in accessing data.
-+ Data isolation.
-+ Data integrity.
-+ Concurrent access is not possible.
-+ Security Problems.
-
-## Describe Three Levels of Data Abstraction?
-
-There are three levels of abstraction:
-Physical level: The lowest level of abstraction describes how data are stored.
-Logical level: The next higher level of abstraction, describes what data are stored in database and what relationship among those data.
-View level: The highest level of abstraction describes only part of entire database.
-Oracle 11g Tutorial
-
-## Define integrity Rules?
-
-There are two Integrity rules.
-
-+ Entity Integrity: States that “Primary key cannot have NULL value”.
-+ Referential Integrity: States that “Foreign Key can be either a NULL value or should be Primary Key value of other relation.
-
-## What is Extension and Intention?
-
-+ Extension : It is the number of tuples present in a table at any instance. This is time dependent.
-+ Intention : It is a constant value that gives the name, structure of table and the constraints laid on it.
-
-## What is Data Independence?
-
-Data independence means that “the application is independent of the storage structure and access strategy of data”. In other words, The ability to modify the schema definition in one level should not affect the schema definition in the next higher level.
-Two types of Data Independence:
-Physical Data Independence: Modification in physical level should not affect the logical level.
-Logical Data Independence: Modification in logical level should affect the view level.
-
-## What is a View and how it is related to Data Independence?
-
-A view may be thought of as a virtual table, that is, a table that does not really exist in its own right but is instead derived from one or more underlying base table. In other words, there is no stored file that direct represents the view instead a definition of view is stored in data dictionary. Growth and restructuring of base tables is not reflected in views. Thus the view can insulate users from the effects of restructuring and growth in the database. Hence accounts for logical data independence.
-
-## What is Data Model?
-
-A collection of conceptual tools for describing data, data relationships data semantics and constraints.
-
-## What is Object Oriented Model?
-
-This model is based on collection of objects. An object contains values stored in instance variables with in the object. An object also contains bodies of code that operate on the object. These bodies of code are called methods. Objects that contain same types of values and the same methods are grouped together into classes.
-
-## What is an Entity?
-
-It is a 'thing' in the real world with an independent existence.
-
-## What is an Entity Type?
-
-It is a collection (set) of entities that have same attributes.
-
-## What is an Entity Set?
-
-It is a collection of all entities of particular entity type in the database.
-
-## What is an Attribute?
-
-It is a particular property, which describes the entity.
-
-## What is Relation Schema and Relation?
-
-A relation Schema denoted by R(A1, A2, …, An) is made up of the relation name R and the list of attributes Ai that it contains.
-A relation is defined as a set of tuples. Let r be the relation which contains set tuples (t1, t2, t3, ..., tn). Each tuple is an ordered list of n-values t=(v1,v2, ..., vn).
-
-## What is Degree of Relation?
-
-It is the number of attribute of its relation schema.
-
-## What is Relationship?
-
-It is an association among two or more entities.
-
-## What is Relationship Set?
-
-The collection (or set) of similar relationships.
-
-## What is Relationship Type?
-
-Relationship type defines a set of associations or a relationship set among a given set of entity types.
-
-## What Is DDL?
-
-A data base schema is specifies by a set of definitions expressed by a special language called DDL.
-
-## What Is Vdl?
-
-It specifies user views and their mappings to the conceptual schema.  (view Definition Language)
-
-## What is Sdl?
-
-This language is to specify the internal schema. This language may specify the mapping between two schemas. (storage Definition Language)
-
-## What Is Data Storage Definition Language?
-
-The storage structures and access methods used by database system are specified by a set of definition in a special type of DDL called data storage-definition language.
-
-## What Is Dml?
-
-This language that enable user to access or manipulate data as organized by appropriate data model.
-Procedural DML or Low level: DML requires a user to specify what data are needed and how to get those data.
-Non-Procedural DML or High level: DML requires a user to specify what data are needed without specifying how to get those data.
-(data Manipulation Language)
-
-## What is Query Evaluation Engine?
-
-It executes low-level instruction generated by compiler.
-
-## What is Ddl Interpreter?
-
-It interprets DDL statements and record them in tables containing metadata.
-
-## What is Record at a time?
-
-The Low level or Procedural DML can specify and retrieve each record from a set of records. This retrieve of a record is said to be Record-at-a-time.
-
-## What is Set at a time or Set oriented?
-
-The High level or Non-procedural DML can specify and retrieve many records in a single DML statement. This retrieve of a record is said to be Set-at-a-time or Set-oriented.
-
-## What is Relational Algebra?
-
-It is procedural query language. It consists of a set of operations that take one or two relations as input and produce a new relation.
-
-## What is Relational Calculus?
-
-It is an applied predicate calculus specifically tailored for relational databases proposed by E.F. Codd.
-E.g. of languages based on it are DSL ALPHA, QUEL.
-
-## How does Tuple oriented Relational calculus differ from Domain oriented Relational Calculus?
-
-The tuple-oriented calculus uses a tuple variables i.e., variable whose only permitted values are tuples of that relation. E.g. QUEL
-The domain-oriented calculus has domain variables i.e., variables that range over the underlying domains instead of over relation. E.g. ILL, DEDUCE.
-
-## What is Functional Dependency?
-
-A Functional dependency is denoted by X Y between two sets of attributes X and Y that are subsets of R specifies a constraint on the possible tuple that can form a relation state r of R. The constraint is for any two tuples t1 and t2 in r if t1[X] = t2[X] then they have t1[Y] = t2[Y]. This means the value of X component of a tuple uniquely determines the value of component Y.
-
-## What is Multivalued Dependency?
-
-Multivalued dependency denoted by X Y specified on relation schema R, where X and Y are both subsets of R, specifies the following constraint on any relation r of R: if two tuples t1 and t2 exist in r such that t1[X] = t2[X] then t3 and t4 should also exist in r with the following properties
-
-t3[x] = t4[X] = t1[X] = t2[X]
-t3[Y] = t1[Y] and t4[Y] = t2[Y]
-t3[Z] = t2[Z] and t4[Z] = t1[Z]
-where [Z = (R-(X U Y)) ]
-
-## What is Lossless Join Property?
-
-It guarantees that the spurious tuple generation does not occur with respect to relation schemas after decomposition.
-
-## What Is 1 Nf?
-
-The domain of attribute must include only atomic (simple, indivisible) values.
-
-## What is Fully Functional Dependency?
-
-It is based on concept of full functional dependency. A functional dependency X Y is full functional dependency if removal of any attribute A from X means that the dependency does not hold any more.
-
-## What is 2nf?
-
-A relation schema R is in 2NF if it is in 1NF and every non-prime attribute A in R is fully functionally dependent on primary key.
-
-## What is 3nf?
-
-A relation schema R is in 3NF if it is in 2NF and for every FD X A either of the following is true
-
-X is a Super-key of R.
-A is a prime attribute of R.
-In other words, if every non prime attribute is non-transitively dependent on primary key.
-
-What Is Bcnf (boyce-codd Normal Form)?
-A relation schema R is in BCNF if it is in 3NF and satisfies an additional constraint that for every FD X A, X must be a candidate key.
-
-## What is 4nf?
-
-A relation schema R is said to be in 4NF if for every Multivalued dependency X Y that holds over R, one of following is true
-X is subset or equal to (or) XY = R.
-X is a super key.
-
-## What is 5nf?
-
-A Relation schema R is said to be 5NF if for every join dependency {R1, R2, ..., Rn} that holds R, one the following is true
-Ri = R for some i.
-The join dependency is implied by the set of FD, over R in which the left side is key of R.
-
-## What is Domain key NF?
-
-A relation is said to be in DKNF if all constraints and dependencies that should hold on the constraint can be enforced by simply enforcing the domain constraint and key constraint on the relation.
-
-## What are Partial Alternate Artificial Compound and Natural Key?
-
-+ Partial Key:
-  + It is a set of attributes that can uniquely identify weak entities and that are related to same owner entity. It is sometime called as Discriminator.
-+ Alternate Key:
-  + All Candidate Keys excluding the Primary Key are known as Alternate Keys.
-+ Artificial Key:
-  + If no obvious key, either stand alone or compound is available, then the last resort is to simply create a key, by assigning a unique number to each record or occurrence. Then this is known as developing an artificial key.
-+ Compound Key:
-  + If no single data element uniquely identifies occurrences within a construct, then combining multiple elements to create a unique identifier for the construct is known as creating a compound key.
-+ Natural Key:
-  + When one of the data elements stored within a construct is utilized as the primary key, then it is called the natural key.
-
-## What is Indexing and what are the different kinds of Indexing?
-
-Indexing is a technique for determining how quickly specific data can be found.
-Types:
-
-+ Binary search style indexing
-+ B-Tree indexing
-+ Inverted list indexing
-  M+ emory resident table
-+ Table indexing
-
-## What is meant by Query Optimization?
-
-The phase that identifies an efficient execution plan for evaluating a query that has the least estimated cost is referred to as query optimization.
-
-## What is Join Dependency and Inclusion Dependency?
-
-Join Dependency:
-A Join dependency is generalization of Multivalued dependency.A JD {R1, R2, ..., Rn} is said to hold over a relation R if R1, R2, R3, ..., Rn is a lossless-join decomposition of R . There is no set of sound and complete inference rules for JD.
-Inclusion Dependency:
-An Inclusion Dependency is a statement of the form that some columns of a relation are contained in other columns. A foreign key constraint is an example of inclusion dependency.
-
-## What is Durability in Dbms?
-
-Once the DBMS informs the user that a transaction has successfully completed, its effects should persist even if the system crashes before all its changes are reflected on disk. This property is called durability.
-
-## What do you mean by Atomicity and Aggregation?
-
-Atomicity:
-Either all actions are carried out or none are. Users should not have to worry about the effect of incomplete transactions. DBMS ensures this by undoing the actions of incomplete transactions.
-Aggregation:
-A concept which is used to model a relationship between a collection of entities and relationships. It is used when we need to express a relationship among relationships.
-
-## What is Phantom Deadlock?
-
-In distributed deadlock detection, the delay in propagating local information might cause the deadlock detection algorithms to identify deadlocks that do not really exist. Such situations are called phantom deadlocks and they lead to unnecessary aborts.
-
-## What is Checkpoint and when does it cccur?
-
-A Checkpoint is like a snapshot of the DBMS state. By taking checkpoints, the DBMS can reduce the amount of work to be done during restart in the event of subsequent crashes.
-
-## What are different Phases of Transaction?
-
-Different phases are
-Analysis phase
-Redo Phase
-Undo phase
-
-## What do you mean by Flat File Database?
-
-It is a database in which there are no programs or user access languages. It has no cross-file capabilities but is user-friendly and provides user-interface management.
-
-## What is transparent Dbms?
-
-It is one, which keeps its Physical Structure hidden from user.
-
-## What do you mean by Correlated Subquery?
-
-Subqueries, or nested queries, are used to bring back a set of rows to be used by the parent query. Depending on how the subquery is written, it can be executed once for the parent query or it can be executed once for each row returned by the parent query. If the subquery is executed for each row of the parent, this is called a correlated subquery.
-A correlated subquery can be easily identified if it contains any references to the parent subquery columns in its WHERE clause. Columns from the subquery cannot be referenced anywhere else in the parent query. The following example demonstrates a non-correlated subquery.
-E.g. Select * From CUST Where '10/03/1990' IN (Select ODATE From ORDER Where CUST.CNUM = ORDER.CNUM)
-
-## What are the Primitive Operations common to all record management systems?
-
-Addition, deletion and modification.
-
-## What are Unary Operations in Relational Algebra?
-
-PROJECTION and SELECTION.
-
-## Are resulting Relations of Product and Join Operation the same?
-
-No.
-PRODUCT: Concatenation of every row in one relation with every row in another.
-JOIN: Concatenation of rows from one relation and related rows from another.
-
-## What is Rdbms Kernel?
-
-Two important pieces of RDBMS architecture are the kernel, which is the software, and the data dictionary, which consists of the system-level data structures used by the kernel to manage the database
-You might think of an RDBMS as an operating system (or set of subsystems), designed specifically for controlling data access; its primary functions are storing, retrieving, and securing data. An RDBMS maintains its own list of authorized users and their associated privileges; manages memory caches and paging; controls locking for concurrent resource usage; dispatches and schedules user requests; and manages space usage within its table-space structures.
-
-## Name the Sub systems of Rdbms?
-
-I/O, Security, Language Processing, Process Control, Storage Management, Logging and Recovery, Distribution Control, Transaction Control, Memory Management, Lock Management.
-
-## What is Rowid?
-
-The ROWID is a unique database-wide physical address for every row on every table. Once assigned (when the row is first inserted into the database), it never changes until the row is deleted or the table is dropped.
-The ROWID consists of the following three components, the combination of which uniquely identifies the physical storage location of the row.
-Oracle database file number, which contains the block with the rows
-Oracle block address, which contains the row
-The row within the block (because each block can hold many rows)
-The ROWID is used internally in indexes as a quick means of retrieving rows with a particular key value. Application developers also use it in SQL statements as a quick way to access a row once they know the ROWID.
-
-## What is Storage Manager?
-
-It is a program module that provides the interface between the low-level data stored in database, application programs and queries submitted to the system.
-
-## What is Buffer Manager?
-
-It is a program module, which is responsible for fetching data from disk storage into main memory and deciding what data to be cache in memory.
-
-## What is Transaction Manager?
-
-It is a program module, which ensures that database, remains in a consistent state despite system failures and concurrent transaction execution proceeds without conflicting.
-
-## What is File Manager?
-
-It is a program module, which manages the allocation of space on disk storage and data structure used to represent information stored on a disk.
-
-## What is Authorization and Integrity Manager?
-
-It is the program module, which tests for the satisfaction of integrity constraint and checks the authority of user to access data.
-
-## What are Stand alone procedures?
-
-Procedures that are not part of a package are known as stand-alone because they independently defined. A good example of a stand-alone procedure is one written in a SQL*Forms application. These types of procedures are not available for reference from other Oracle tools. Another limitation of stand-alone procedures is that they are compiled at run time, which slows execution.
-
-## What are the different methods of loading dimension tables?
-
-There are two different methods to load data in dimension tables:
-
-+ Conventional (slow): All the constraints and keys are validated against the information before, it is loaded, and this method data integrity is maintained.
-+ Direct (fast): All the constraints and keys are disabled before the information is loaded. Once the information is loaded, it is validated against all the constraints and keys. If the data is found invalid, it is not contained in the index, and all the future processes are skipped in this data.
-
-## Describe the foreign key columns in fact tables and dimension tables?
-
-Foreign keys of dimension tables are the primary key of entity tables.
-Foreign keys of fact tables are the primary key of dimension tables.
+1. Transactional databases versus data warehouses - https://www.youtube.com/watch?v=GIAEAzoclgU
+2. The modern data warehouse - https://www.youtube.com/watch?v=EsvenuliSsc

@@ -45,3 +45,10 @@ Here are the names of the services represented by the icons in the preceding dia
 ### Zones, Directories, and Files
 
 ![511918_1_En_3_Fig5_HTML](https://user-images.githubusercontent.com/62965911/218318356-d6c84b3d-ac10-41b5-8fb9-c741042cec03.png)
+
+## Labs
+
+1. Working with S3 using Boto3 in Python
+2. [Building a data lake for a healthcare](02-storage/datalakes/lab-datalake-healthcare-s3-glue-athena/) [company with AWS, S3 and Athena](02-storage/datalakes/lab-datalake-healthcare-s3-glue-athena/)
+3. [Creating and Managing Data in Azure Data Lake](02-storage/datalakes/lab-adl-create-manage-data/)
+4. [Securing and Monitoring Data in Azure Data Lake](02-storage/datalakes/lab-adl-securing-monitoring-lakes/)
