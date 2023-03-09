@@ -1,6 +1,6 @@
 # Prefect
 
-## Steps
+## Labs
 
-1. [Lab: Prefect Getting Started](./lab-prefect-getting-started/)
-1. [Lab: Prefect Streaming](./lab-prefect-streaming/)
+1. [Prefect Getting Started](./lab-prefect-getting-started/)
+2. [Prefect Streaming](./lab-prefect-streaming/)

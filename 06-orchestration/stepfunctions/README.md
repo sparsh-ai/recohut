@@ -1,6 +1,6 @@
 # Step Functions
 
-## Steps
+## Labs
 
-1. [Lab: Execute multiple queries (Amazon Athena, Amazon SNS)](./lab-stepfunction-athena-sns/)
-1. [Lab: Orchestrate Queue-based Microservices](./lab-stepfunction-ecomm-sqs/)
+1. Athena Query Orchestration with AWS Step Functions with SNS notifications [[source code](06-orchestration/stepfunctions/lab-stepfunction-athena-sns/)]
+2. AWS Step Functions and Amazon SQS to design and run a serverless workflow that orchestrates a message queue-based microservice [[source code](06-orchestration/stepfunctions/lab-stepfunction-ecomm-sqs/)]

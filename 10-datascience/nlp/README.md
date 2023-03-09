@@ -1,11 +1,11 @@
 # Natural Language Processing (NLP)
 
-## Steps
+## Labs
 
 1. [Natural Language Processing 101](https://nbviewer.org/github/sparsh-ai/notebooks/blob/main/2021-07-09-concept-nlp-basics.ipynb)
-1. [Training Embeddings Using Gensim and FastText](https://nbviewer.org/github/sparsh-ai/notebooks/blob/main/2021-07-10-concept-embedding-gensim-fasttext.ipynb)
-1. [NLP Playground](https://nbviewer.org/github/sparsh-ai/notebooks/blob/main/2022-01-29-nlp.ipynb)
-1. [Email Classification](https://nbviewer.org/github/recohut/notebook/blob/master/_notebooks/2022-01-02-email-classification.ipynb)
+2. [Training Embeddings Using Gensim and FastText](https://nbviewer.org/github/sparsh-ai/notebooks/blob/main/2021-07-10-concept-embedding-gensim-fasttext.ipynb)
+3. [NLP Playground](https://nbviewer.org/github/sparsh-ai/notebooks/blob/main/2022-01-29-nlp.ipynb)
+4. [Email Classification](https://nbviewer.org/github/recohut/notebook/blob/master/_notebooks/2022-01-02-email-classification.ipynb)
 
 ## Text Preprocessing and Cleaning
 

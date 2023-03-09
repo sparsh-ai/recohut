@@ -65,18 +65,17 @@
   - AWS Quicksight
 - DevOps
 
-  - [API](07-devops/api/)
+  - [FastAPI](07-devops/fastapi/)
   - [Containers](07-devops/containers/)
   - [Infra as Code](07-devops/iac/)
 - Data Science & Machine Learning
 
-  - [Data Science Foundations](15-datascience/data-science/)
-  - [ML Basics](15-datascience/machine-learning/)
-  - [Regression](16-regression/)
-  - [NLP](18-nlp/)
-  - [Computer Vision](19-computer-vision/)
-  - [Recommender Systems](20-recommender-systems/)
-  - [MLOps](21-mlops/)
+  - [Fundamentals](10-datascience/basics/)
+  - [Regression](10-datascience/regression/)
+  - [NLP](10-datascience/nlp/)
+  - [Computer Vision](10-datascience/computer-vision/)
+  - [Recommender Systems](10-datascience/recsys/)
+  - [MLOps](10-datascience/mlops/)
 - Capstones
 
   - [ACLED](12-capstones/acled/)

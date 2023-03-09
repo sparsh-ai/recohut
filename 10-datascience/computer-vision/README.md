@@ -52,7 +52,6 @@ Siamese networks are incredibly powerful networks, responsible for significant i
 
 Use image similarity to recommend users visually similar products based on what they searched. Checkout the notion [here](https://www.notion.so/Image-Similarity-Detection-in-Action-with-Tensorflow-2-0-c2b4421d75dd42a3a1becf9c98251ccb).
 
-
 ### Object Detection
 
 Object detection is a computer vision technique that allows us to identify and locate objects in an image or video.
@@ -128,8 +127,6 @@ Fine-tune YOLO4 model on new classes. Checkout the notion [here](https://www.not
 
 Fine-tune Detectron2 Mask R-CNN (with PointRend) model on new classes. Checkout the notion [here](https://www.notion.so/YOLO-4-b32c2d2a4b8644b59f1c05e6887ffcca).
 
-
-
 ### Image Segmentation
 
 Image segmentation is the task of assigning labels to each pixel of an image.
@@ -186,7 +183,6 @@ Thresholding with Otsu and Riddler–Calvard, Image segmentation with self-organ
 
 FCN-ResNet and DeepLabV3 (both are available in TorchVision library) inference. Available as a streamlit app. Checkout [this](https://www.notion.so/FCN-ResNet-vs-DeepLab-App-FF841-5168fac2ed0b42b1ad95a0b9e8b26d53) notion.
 
-
 ### Face Detection and Recognition
 
 Analyze the facial features like age, gender, emotion, and identity.
@@ -224,7 +220,6 @@ We use Face Recognition library and OpenCV to create a real-time webcam-based at
 **Detectron2 Fine-tuning for face detection**
 
 Fine-tuned detectron2 on human face dataset to detect the faces in images and videos. Check out [this](https://www.notion.so/Detectron-2-D281D-bb7f769860fa434d923feef3a99f9cbb) notion.
-
 
 ### Object Tracking
 
@@ -274,7 +269,6 @@ Tested out 5 algorithms on videos - OpticalFlow, DenseFlow, Camshift, MeanShift 
 
 **People and Vehicle Counter Detection**
 
-
 ### Pose Estimation
 
 Pose estimation is a computer vision task that infers the pose of a person or object in an image or video. This is typically done by identifying, locating, and tracking the number of key points on a given object or person. For objects, this could be corners or other significant features. And for humans, these key points represent major joints like an elbow or knee.
@@ -319,7 +313,6 @@ Train the pose detector using Teachable machine, employing the PoseNet model (mu
 **Pose Detection on the Edge using OpenVINO**
 
 Optimize the pre-trained pose estimation model using the OpenVINO toolkit to make it ready to serve at the edge (e.g. small embedded devices) and create an OpenVINO inference engine for real-time inference. Check out [this](https://www.notion.so/OpenVINO-4c4fc4f167cc4601ade5795a241a60da) notion.
-
 
 ### Scene Text Recognition
 
@@ -373,7 +366,6 @@ Experiments with three OCR tools - Tesseract OCR, Easy OCR, and Arabic OCR. Chec
 
 Experiments with state of the art lightweight and multi-lingual OCR. Check out [this](https://www.notion.so/Paddle-OCR-5ab56a38a594478da92314f246159193) notion.
 
-
 ### Video Action Recognition
 
 This is the task of identifying human activities/actions (e.g. eating, playing) in videos. In other words, this task classifies segments of videos into a set of pre-defined categories.
@@ -412,3 +404,7 @@ This dataset consists of 400 human activity recognition classes, at least 400 vi
 **Action Recognition using R(2+1)D Model**
 
 VGA Annotator was used for creating the video annotation for training. Check out [this](https://www.notion.so/Action-Recognition-using-R-2-1-D-Model-4c796f308aed40f29fc230a757af98e8) notion.
+
+## Labs
+
+1. Video Classification Modeling with X3D Model [[source code](10-datascience/computer-vision/lab-video-classification/)]

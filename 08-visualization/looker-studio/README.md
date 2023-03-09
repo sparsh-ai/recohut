@@ -1,5 +1,5 @@
 # Looker Studio
 
-## Steps
+## Labs
 
-1. [Lab: Streaming Analytics and Dashboards](./lab-gcp-streaming-analytics.md)
+1. [Streaming Analytics and Dashboards](08-visualization/looker-studio/lab-gcp-streaming-analytics.md)

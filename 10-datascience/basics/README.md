@@ -1,6 +1,12 @@
-# Data Science
+# Data Science and Machine Learning
 
 Data science is used in a variety of ways. Some data scientists focus on the analytics side of things, pulling out hidden patterns and insights from data, then communicating these results with visualizations and statistics. Others work on creating predictive models in order to predict future events, such as predicting whether someone will put solar panels on their house. Yet others work on models for classification; for example, classifying the make and model of a car in an image. One thing ties all applications of data science together: the data. Anywhere you have enough data, you can use data science to accomplish things that seem like magic to the casual observer.
+
+## Use Cases
+
+Some of the many uses of machine learning across industries:
+
+![smls_0101](https://user-images.githubusercontent.com/62965911/223616499-f68e16e9-56ff-4cb6-8d79-3580ee6d33a1.png)
 
 ## The data science origin story
 
@@ -33,7 +39,6 @@ A brief timeline of key historical data science events is as follows:
 **CRISP-DM** stands for **Cross-Industry Standard Process for Data Mining** and has been around since the late 1990s. It's a six-step process, illustrated in the diagram below.
 
 ![content-concepts-raw-data-science-untitled](https://user-images.githubusercontent.com/62965911/219950480-67e6d155-de43-4c10-9c19-75d390376bc5.png)
-
 
 ### **TDSP**
 
@@ -71,18 +76,30 @@ Scikit, Tensorflow, and Pytorch are good frameworks for model building. [Teachab
 
 ### Step 3: Container
 
-**Prototype:** For some use cases (privacy reasons), I use the local machine. Otherwise, I prefer to use Colab as my container. 
+**Prototype:** For some use cases (privacy reasons), I use the local machine. Otherwise, I prefer to use Colab as my container.
 
 **Production:** Docker is my favorite container for shipping out ML models.
 
 ### Step 4: Hosting (on cloud)
 
-**Prototype:** Again colab for privacy-free use cases. It can host for half a day. Heroku is my favorite if multi-day hosting is required for prototype testing.  
+**Prototype:** Again colab for privacy-free use cases. It can host for half a day. Heroku is my favorite if multi-day hosting is required for prototype testing.
 
-**Production:** EBS is nice. I use it hosting my APIs. Kubernetes is good for the orchestration of these APIs. 
+**Production:** EBS is nice. I use it hosting my APIs. Kubernetes is good for the orchestration of these APIs.
 
 ### Step 5: Hosting (on edge)
 
 **Prototype:** ml5.js allows me to directly serve ML models on the browser.
 
 **Production:** TF.js and TFLite are my favorites for serving on the browser and on mobile respectively.
+
+## Mathematics
+
+## Labs
+
+1. [Probability Theory and the Sample Space Analysis](https://nbviewer.org/github/recohut/notebook/blob/master/_notebooks/2022-01-21-probability.ipynb)
+2. [Cool Stats Visuals](https://nbviewer.org/github/recohut/notebook/blob/master/_notebooks/2022-01-21-stat-visuals.ipynb)
+3. [Statistics and Linear Algebra for Data Science](https://nbviewer.org/github/recohut/notebook/blob/master/_notebooks/2022-01-22-statistics.ipynb)
+
+## Coding Notebooks
+
+1. https://nbviewer.org/github/adipola/ml-with-apache-spark/tree/main/notebooks/
