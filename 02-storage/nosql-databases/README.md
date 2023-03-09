@@ -251,3 +251,4 @@ export_data:
 4. [Cassandra on Cloud with Amazon Keyspaces](02-storage/nosql-databases/lab-amazon-keyspaces/)
 5. [Fundamentals of DynamoDB](02-storage/nosql-databases/lab-intro-to-dynamodb/)
 6. [Getting started with MongoDB](02-storage/nosql-databases/lab-mongodb-basics/)
+7. [Ingest Movies data into CouchDB database](02-storage/nosql-databases/lab-couchdb-movies-data-migration/)

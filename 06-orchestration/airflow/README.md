@@ -426,9 +426,9 @@ By default, Airflow adds the dags/ and plugins/ directories in a project to the 
 
 ```
 .
-├── dags/      
+├── dags/  
 │   ├── example-dag.py
-├── Dockerfile    
+├── Dockerfile  
 ├── include/   
 │   └── sql/
 │       └── transforms.sql
@@ -494,6 +494,84 @@ Explore the Airflow db (in SQLite by default) in your database client line `DBea
 ### Encryption
 
 Instead of storing credentials in plain text, you can use encryption.
+
+## Makefile
+
+```Makefile
+install:
+	export AIRFLOW_HOME=$(pwd)
+	export AIRFLOW_PLUGINS=$(pwd)/airflow/plugins
+	export AIRFLOW__CORE__LOAD_EXAMPLES=False
+	export AIRFLOW__CORE__ENABLE_XCOM_PICKLING=True
+	airflow db init
+	airflow users create \
+		--username admin \
+		--password admin \
+		--firstname Sparsh \
+		--lastname Agarwal \
+		--role Admin \
+		--email sparsh@example.com
+
+set_variable:
+	airflow variables set 'key' 'value'
+
+start:
+	airflow standalone
+
+start_webserver:
+	airflow webserver -p 8081
+
+start_scheduler:
+	airflow scheduler
+
+list:
+	airflow dags list
+
+db:
+	airflow db reset
+	airflow db init
+
+docker:
+#!/bin/bash
+# Note: this script is a bit of a "hack" to run Airflow in a single container.
+# This is obviously not ideal, but convenient for demonstration purposes.
+# In a production setting, run Airflow in separate containers, as explained in Chapter 10.
+	set -x
+	SCRIPT_DIR=$(cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd)
+	docker run \
+	-ti \
+	-p 8080:8080 \
+	-v ${SCRIPT_DIR}/../dags/download_rocket_launches.py:/opt/airflow/dags/download_rocket_launches.py \
+	--name airflow
+	--entrypoint=/bin/bash \
+	apache/airflow:2.0.0-python3.8 \
+	-c '( \
+	airflow db init && \
+	airflow users create --username admin --password admin --firstname Anonymous --lastname Admin --role Admin --email admin@example.org \
+	); \
+	airflow webserver & \
+	airflow scheduler \
+	'
+```
+
+## Labs
+
+1. [Getting started with Airflow](06-orchestration/airflow/lab-airflow-getting-started/)
+   1. Install Airflow in local system
+   2. Starting Airflow Web server and Scheduler
+   3. Building a BASH commands execution pipeline in Airflow
+   4. Building a CSV to JSON pipeline in Airflow
+2. [Integrate email notifications in Airflow with AWS SNS/SES service](06-orchestration/airflow/lab-airflow-email-notifications/)
+3. [Copying BigQuery Tables Across Different Locations using Cloud Composer](02-storage/warehouses/lab-gcp-bigquery-composer/)
+4. [Bike Sharing Service Data Pipeline using Cloud Composer](06-orchestration/airflow/lab-bike-sharing-service-pipeline/)
+5. [Forex ETL with Airflow](06-orchestration/airflow/lab-forex-etl/)
+6. [Building an Airflow ETL pipeline to pull NFT data from Github and store in SQLite database](06-orchestration/airflow/github-nft/)
+7. [IMDB Spark ETL](06-orchestration/airflow/lab-imdb-spark-etl/)
+   1. Build a data pipeline that download data
+   2. Process it
+   3. Calculate the hight profit movies
+   4. Save the processed data into Postgres database
+8. Assignment - Build ETL Pipeline in Airflow using Toll data [[source code](06-orchestration/airflow/lab-tolldata/)]
 
 ## Explore further
 

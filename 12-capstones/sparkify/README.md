@@ -1,10 +1,10 @@
-# Spectrum
+# Sparkify
 
-## Spectrum SQL Data Modeling with Postgres
+## Sparkify SQL Data Modeling with Postgres
 
 In this, we will model the data with Postgres and build an ETL pipeline using Python. The fact and dimension tables for a star database schema for a particular analytic focus is defined, and an ETL pipeline that transfers data from files in two local directories into these tables in Postgres using Python and SQL was developed.
 
-A startup called Spectrum wants to analyze the data they've been collecting on songs and user activity on their new music streaming application. The analytics team is particularly interested in understanding what songs users are listening to. Currently, they don't have an easy way to query their data, which resides in a directory of JSON logs on user activity on the application, as well as a directory with JSON meta-data on the songs in their application.
+A startup called Sparkify wants to analyze the data they've been collecting on songs and user activity on their new music streaming application. The analytics team is particularly interested in understanding what songs users are listening to. Currently, they don't have an easy way to query their data, which resides in a directory of JSON logs on user activity on the application, as well as a directory with JSON meta-data on the songs in their application.
 
 They'd like a data engineer to create a Postgres database with tables designed to optimize queries on song play analysis. The role of this project is to create a database schema and ETL pipeline for this analysis.
 
@@ -51,11 +51,11 @@ The Star Database Schema used for data modeling in this ETL pipeline. There is o
 
 ![data_schema](https://user-images.githubusercontent.com/62965911/215310998-b894e4b2-b6ba-4a2d-a84b-531e67a32cbc.png)
 
-## Spectrum NoSQL Data Modeling with Cassandra
+## Sparkify NoSQL Data Modeling with Cassandra
 
 In this, we will model the data with Apache Cassandra and build an ETL pipeline using Python. The ETL pipeline transfers data from a set of CSV files within a directory to create a streamlined CSV file to model and insert data into Apache Cassandra tables. We will create separate denormalized tables for answering specific queries, properly using partition keys and clustering columns.
 
-A startup called Spectrum wants to analyze the data they've been collecting on songs and user activity on their new music streaming application. The analytics team is particularly interested in understanding what songs users are listening to. Currently, they don't have an easy way to query their data, which resides in a directory of JSON logs on user activity on the application, as well as a directory with JSON meta-data on the songs in their application.
+A startup called Sparkify wants to analyze the data they've been collecting on songs and user activity on their new music streaming application. The analytics team is particularly interested in understanding what songs users are listening to. Currently, they don't have an easy way to query their data, which resides in a directory of JSON logs on user activity on the application, as well as a directory with JSON meta-data on the songs in their application.
 
 They'd like a data engineer to create a Apache Cassandra database which can create queries on song play data to answer the questions and make meaningful insights. The role of this project is to create a database schema and ETL pipeline for this analysis.
 
@@ -77,13 +77,13 @@ The keyspace design is shown in the image below. Each table is modeled to answer
 
 ![keyspace](https://user-images.githubusercontent.com/62965911/215310889-b8b76e08-346b-4607-b3ac-a732dd83c442.png)
 
-## Spectrum Data Lake with AWS and PySpark
+## Sparkify Data Lake with AWS and PySpark
 
 In this lab, we will build a data lake on AWS S3 and build an ETL pipeline for a data lake hosted on S3. The data is loaded from S3 and processed into analytics tables using Spark and the processed data is loaded back into S3 in the form of parquet files.
 
 The data stored on S3 buckets is extracted and processed using Spark, and is then inserted into the fact and dimensional tables.
 
-A startup called Spectrum wants to analyze the data they've been collecting on songs and user activity on their new music streaming application. Spectrum has grown their user base and song database large and want to move their data warehouse to a data lake. Their data resides in S3, in a directory of JSON logs on user activity on the application, as well as a directory with JSON metadata on the songs in their application.
+A startup called Sparkify wants to analyze the data they've been collecting on songs and user activity on their new music streaming application. Sparkify has grown their user base and song database large and want to move their data warehouse to a data lake. Their data resides in S3, in a directory of JSON logs on user activity on the application, as well as a directory with JSON metadata on the songs in their application.
 
 They'd like a data engineer to build an ETL pipeline that extracts their data from S3,  processes them using Spark, and loads the data back into S3 as a set of fact and dimensional tables. This will allow their analytics team to continue finding insights in what songs their users are listening to. The role of this project is to create a data lake on cloud (AWS S3) and build ETL pipeline for this process.
 
@@ -127,15 +127,15 @@ The data stored on S3 buckets is extracted and processed using Spark, and is the
 ![database](https://user-images.githubusercontent.com/62965911/215310795-2ba21d81-1c32-4e7b-b6d6-9de37c5d002e.png)
 
 In this project (Py)Spark is used to process large amount of data for a
-fictional music streaming service, which is called Spectrum.
+fictional music streaming service, which is called Sparkify.
 
 ### Problem
 
 The scenario that should be solved in this project is:
-Spectrum has gained a lot new users and the song database as well as the
+Sparkify has gained a lot new users and the song database as well as the
 recorded song plays have increased over time.
 
-Spectrum has created a dump of the data in Amazon S3 storage.
+Sparkify has created a dump of the data in Amazon S3 storage.
 This dump currently consists of JSON logs of the user activity and metadata
 on the songs.
 
@@ -189,18 +189,18 @@ python etl.py remote --s3-bucket-target s3a://your-bucket-id
 When running in remote mode, make sure to enter AWS credentials in the
 `dl.cfg` file first.
 
-## Spectrum Data Warehouse with Redshift
+## Sparkify Data Warehouse with Redshift
 
 Sharpen your data warehousing skills and deepen your understanding of data infrastructure. Create cloud-based data warehouses on Amazon Web Services (AWS). Build a data warehouse on AWS and build an ETL pipeline for a database hosted on Redshift. The data is loaded from S3 buckets to staging tables on Redshift and modeled into fact and dimensions tables to perform analytics and obtain meaningful insights.
 
-In this lab AWS Redshift is used as a Data Warehouse for a fictional music streaming service, which is called Spectrum.
+In this lab AWS Redshift is used as a Data Warehouse for a fictional music streaming service, which is called Sparkify.
 
 ### Problem
 
 The scenario that should be solved in this lab is:
-Spectrum has gained a lot new users and the song database as well as the recorded song plays have increased over time.
+Sparkify has gained a lot new users and the song database as well as the recorded song plays have increased over time.
 
-Spectrum has created a dump of the data in Amazon S3 storage.
+Sparkify has created a dump of the data in Amazon S3 storage.
 This dump currently consists of JSON logs of the user activity and metadata on the songs.
 
 ### Solution
@@ -252,15 +252,15 @@ I don't want to have empty values in this column, so I replace the missing value
 
 As usual various values are extracted from the timestamp, such as `hour`, `day`, `week`, etc.
 
-## Spectrum Data Pipeline with Airflow
+## Sparkify Data Pipeline with Airflow
 
-Spectrum wants to analyze the data they've been collecting on songs and user activity on their new music streaming application. Spectrum has decided that it is time to introduce more automation and monitoring to their data warehouse ETL pipelines and have come to the conclusion that the best tool to achieve this is Apache Airflow.
+Sparkify wants to analyze the data they've been collecting on songs and user activity on their new music streaming application. Sparkify has decided that it is time to introduce more automation and monitoring to their data warehouse ETL pipelines and have come to the conclusion that the best tool to achieve this is Apache Airflow.
 
-Spectrum has decided that it is time to introduce more automation and monitoring to their data warehouse ETL pipelines and have come to the conclusion that the best tool to achieve this is Apache Airflow.
+Sparkify has decided that it is time to introduce more automation and monitoring to their data warehouse ETL pipelines and have come to the conclusion that the best tool to achieve this is Apache Airflow.
 
 They'd like a data engineer to create high grade data pipelines that are dynamic and built from reusable tasks, can be monitored, and allow easy backfills. They have also noted that the data quality plays a big part when analyses are executed on top the data warehouse and want to run data quality tests against their datasets after the ETL steps have been executed to catch any discrepancies in the datasets.
 
-The source data resides in S3 and needs to be processed in Spectrum's data warehouse in Amazon Redshift. The source datasets consist of JSON logs that tell about user activity in the application and JSON metadata about the songs the users listen to.
+The source data resides in S3 and needs to be processed in Sparkify's data warehouse in Amazon Redshift. The source datasets consist of JSON logs that tell about user activity in the application and JSON metadata about the songs the users listen to.
 
 Schedule, automate, and monitor data pipelines using Apache Airflow. Run data quality checks, track data lineage, and work with data pipelines in production.
 
@@ -268,11 +268,11 @@ In this milestone, we will build data pipelines using Apache Airflow using custo
 
 The data stored on S3 buckets is staged and then inserted to fact and dimensional tables on Redshift using Airflow pipelines.
 
-[Read this for more information](https://knowledgetree.notion.site/Building-a-Data-Pipeline-for-Spectrum-Music-Company-Data-Pipelines-with-Airflow-Shared-bc7d6c79c5be426ba75e2cb2501fb663)
+[Read this for more information](https://knowledgetree.notion.site/Building-a-Data-Pipeline-for-Sparkify-Music-Company-Data-Pipelines-with-Airflow-Shared-bc7d6c79c5be426ba75e2cb2501fb663)
 
 They'd like a data engineer to create high grade data pipelines that are dynamic and built from reusable tasks, can be monitored, and allow easy backfills. They have also noted that the data quality plays a big part when analyses are executed on top the data warehouse and want to run data quality tests against their datasets after the ETL steps have been executed to catch any discrepancies in the datasets.
 
-The source data resides in S3 and needs to be processed in Spectrum's data warehouse in Amazon Redshift. The source datasets consist of JSON logs that tell about user activity in the application and JSON metadata about the songs the users listen to.
+The source data resides in S3 and needs to be processed in Sparkify's data warehouse in Amazon Redshift. The source datasets consist of JSON logs that tell about user activity in the application and JSON metadata about the songs the users listen to.
 
 Schedule, automate, and monitor data pipelines using Apache Airflow. Run data quality checks, track data lineage, and work with data pipelines in production.
 
@@ -282,7 +282,7 @@ Build data pipeline using Apache Airflow using custom defined operators to perfo
 
 Process steps:
 
-1. Upload the Spectrum data to S3 Bucket
+1. Upload the Sparkify data to S3 Bucket
 2. Update the Bucket and Path information in DAG
 3. Add the helpers and operators in airflow plugins directory
 4. Add connection: {'connection_id':'aws_default', 'connection_type':'amazon_web_services', 'aws_access_key_id':{AWS_ACCESS_KEY}, 'aws_secret_access_key':{AWS_SECRET_KEY}}
@@ -291,15 +291,15 @@ Process steps:
 
 In this project Airflow is used to coordinate tasks that process large
 amounts of data for a fictional music streaming service, which is called
-Spectrum.
+Sparkify.
 
 ### Problem
 
 The scenario that should be solved in this project is:
-Spectrum has gained a lot new users and the song database as well as the
+Sparkify has gained a lot new users and the song database as well as the
 recorded song plays have increased over time.
 
-Spectrum has created a dump of the data in Amazon S3 storage.
+Sparkify has created a dump of the data in Amazon S3 storage.
 This dump currently consists of JSON logs of the user activity and metadata
 on the songs.
 
@@ -354,8 +354,8 @@ The setup requires you to have two credentials stored in your Airflow
 instance as connections:
 
 | Credentials Name | Description                                                                                                                                          |
-| :--------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------- |
-| aws_credentials  | Credentials for your AWS user. Use fields `login` and `password` and set your `access_key` and `secret_access_key` here.                     |
+|:-----------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| aws_credentials  | Credentials for your AWS user. Use fields `login` and `password` and set your `access_key` and `secret_access_key` here.                             |
 | redshift         | Choose "Postgres" as the connection type. Enter your AWS Redshift credentials here. Your database name should be stored in the field named "Schema". |
 
 ![airflow-credentials-1](https://user-images.githubusercontent.com/62965911/215310782-b43e1286-aacb-497e-aa41-945388fec290.png)
@@ -369,11 +369,11 @@ Then go to https://localhost:8080 and enable the DAG `udac_project_dag` to start
 
 ### About The Project
 
-A startup called Spectrum wants to analyze the data they've been collecting on songs and user activity on their new music streaming application. Spectrum has decided that it is time to introduce more automation and monitoring to their data warehouse ETL pipelines and have come to the conclusion that the best tool to achieve this is Apache Airflow.
+A startup called Sparkify wants to analyze the data they've been collecting on songs and user activity on their new music streaming application. Sparkify has decided that it is time to introduce more automation and monitoring to their data warehouse ETL pipelines and have come to the conclusion that the best tool to achieve this is Apache Airflow.
 
 They'd like a data engineer to create high grade data pipelines that are dynamic and built from reusable tasks, can be monitored, and allow easy backfills. They have also noted that the data quality plays a big part when analyses are executed on top the data warehouse and want to run data quality tests against their datasets after the ETL steps have been executed to catch any discrepancies in the datasets.
 
-The source data resides in S3 and needs to be processed in Spectrum's data warehouse in Amazon Redshift. The source datasets consist of JSON logs that tell about user activity in the application and JSON metadata about the songs the users listen to.
+The source data resides in S3 and needs to be processed in Sparkify's data warehouse in Amazon Redshift. The source datasets consist of JSON logs that tell about user activity in the application and JSON metadata about the songs the users listen to.
 
 ### Project Description
 
@@ -476,14 +476,14 @@ The DAG follows the data flow provided in the instructions, all the tasks have a
 
 Files in this repository:
 
-|   File / Folder   |                             Description                             |
-| :---------------: | :------------------------------------------------------------------: |
-|       dags       | Folder at the root of the project, where DAGs and SubDAGS are stored |
-|      images      |      Folder at the root of the project, where images are stored      |
-|  plugins/helpers  |            Contains a SQL helper class for easy querying            |
-| plugins/operators |        Contains the custom operator to perform the DAG tasks        |
+|   File / Folder   |                             Description                              |
+|:-----------------:|:--------------------------------------------------------------------:|
+|       dags        | Folder at the root of the project, where DAGs and SubDAGS are stored |
+|      images       |      Folder at the root of the project, where images are stored      |
+|  plugins/helpers  |            Contains a SQL helper class for easy querying             |
+| plugins/operators |        Contains the custom operator to perform the DAG tasks         |
 | create_tables.sql |   Contains SQL commands to create the necessary tables on Redshift   |
-|      README      |                             Readme file                             |
+|      README       |                             Readme file                              |
 
 <!-- GETTING STARTED -->
 

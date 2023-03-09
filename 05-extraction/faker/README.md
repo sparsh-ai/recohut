@@ -1,3 +1,5 @@
 # Faker
 
-1. [Lab: Generate Clinic data with Faker](./lab-generate-data-with-faker/)
+## Labs
+
+1. [Extract synthetic data using Faker library in python](05-extraction/faker/lab-generate-data-with-faker/)
