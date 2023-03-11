@@ -15,9 +15,9 @@ The company receives information about their classic movies being streamed from 
 
 For Batch data - Load data into RDS Postgrs, Create AWS Data Migration Service Endpoints, Replication Instances and Tasks, Start the Task, Verify the Ingestion with Athena. For Stream data - Create Kinesis Firehose, Create Kinesis Data Generator and Push data to Firehose, Create and run Glue crawler on the streamed file in S3 and verify the ingestion with Athena.
 
-:::note fact
-The Sakila sample database is made available by MySQL and is licensed via the New BSD license. Sakila contains data for a fictitious movie rental company, and includes tables such as store, inventory, film, customer, and payment. While actual movie rental stores are largely a thing of the past, with a little imagination we could rebrand it as a movie-streaming company by ignoring the staff and address tables and renaming store to streaming_service.
-:::
+NOTE
+
+> The Sakila sample database is made available by MySQL and is licensed via the New BSD license. Sakila contains data for a fictitious movie rental company, and includes tables such as store, inventory, film, customer, and payment. While actual movie rental stores are largely a thing of the past, with a little imagination we could rebrand it as a movie-streaming company by ignoring the staff and address tables and renaming store to streaming_service.
 
 ## Architecture Diagram
 
@@ -27,9 +27,9 @@ In the following diagram, we can see that there are multiple teams responsible f
 
 ![batch-stream-aws](https://user-images.githubusercontent.com/62965911/215260810-dfd352f1-b4aa-4809-8b53-3e8e29bd266f.png)
 
-:::tip
-It is a challenge to work in these kinds of complex environments, and an organized approach is required to be successful. Part of understanding the bigger picture of data analytics is to understand these types of challenges and how to overcome them.
-:::
+TIP
+
+> It is a challenge to work in these kinds of complex environments, and an organized approach is required to be successful. Part of understanding the bigger picture of data analytics is to understand these types of challenges and how to overcome them.
 
 ## References
 

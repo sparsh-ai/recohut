@@ -404,6 +404,7 @@ Azure SQL Database, a fundamental relational database as a service offered in Az
 9. [Configuring and Securing Azure SQL Database](02-storage/databases/lab-azure-sql-securing-databases/)
 10. [db2 BookShop and PetSale Data Ingestion and Stored Procedure](02-storage/databases/db2/lab-dbt-bookshop-petsale-data-ingestion/)
 11. [OLAP Analytics on bank, TPCH and NYC Taxi datasets using DuckDB](02-storage/databases/duckdb/lab-analytics-bank-tpch-nyctaxi/)
+12. [Extract from Hipolabs API, Transform and Load into SQLite database](02-storage/databases/lab-sqlite-hipolabs-api/)
 
 ## Interview Questions
 
