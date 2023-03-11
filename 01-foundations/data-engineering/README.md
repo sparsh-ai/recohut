@@ -66,6 +66,28 @@ The following are some examples of tasks that are the responsibility of the dat
 
 This is just a short list of the responsibilities of the data engineer. This role is usually very flexible in most organizations, and more specialized in organizations that have more people and greater demand, where there is a need for assembling integration pipelines or data modeling.
 
+### What Roles does a Data Engineer Play?
+
+#### Big Data Engineer
+
+They design and build complex data pipelines and have expert knowledge in coding using Python, etc. These professionals collaborate and work closely with data scientists to run the code using various tools such as the Hadoop ecosystem, etc.
+
+#### Data Architect
+
+They are typically the database administrators and are responsible for data management. These professionals have in-depth knowledge in databases, and they also help in business operations.
+
+#### Business Intelligence Engineer
+
+They are skilled in data warehousing and create dimension models for loading data for large scale enterprise reporting solutions. These professionals are experts in using ELT tools and SQL.
+
+#### Data Warehouse Engineer
+
+They are responsible for looking after the ETL processes, performance administration, dimensional design, etc. These professionals take care of the full back-end development and dimensional design of the table structure.
+
+#### Technical Architect
+
+They design and define the overall structure of a system with an aim to improve the business of an organization. The job role of these professionals involves breaking large projects into manageable pieces.
+
 Explore further on this topic:
 
 - https://www.youtube.com/watch?v=m5hLUknIi5c
@@ -76,11 +98,9 @@ Explore further on this topic:
 
 **SQL**
 
-Querying data using SQL is an essential skill for anyone who works with data.
+Querying data using SQL is an essential skill for anyone who works with data. Listed as one of the top technologies on data engineer job listings, SQL is a standardized programming language used to manage relational databases (not exclusively) and perform various operations on the data in them. Data Engineering using Spark SQL.
 
-Listed as one of the top technologies on data engineer job listings, SQL is a standardized programming language used to manage relational databases (not exclusively) and perform various operations on the data in them. Data Engineering using Spark SQL.
-
-**Programming Language**
+**Python Programming**
 
 As a data engineer you'll be writing a lot of code to handle various business cases such as ETLs, data pipelines, etc. The de facto standard language for data engineering is Python (not to be confused with R or nim that are used for data science, they have no use in data engineering).
 
@@ -95,14 +115,6 @@ Data engineers need to meet various requirements to build data pipelines. This i
 **Shell Scripting**
 
 Unix machines are used everywhere these days and as a data engineer, they are something we interact with every single day. Understanding common shell tools and how to use them to manipulate data will increase your flexibility and speed when dealing with day to day data activities.
-
-**Developer tools - Git, VSCode and Jupyter Notebook**
-
-Git is one of the skills that every software engineer needs to manage the code base efficiently. GitHub or any version control software is important for any software development projects, including those which are data driven. GitHub allows version control of your projects through Git.
-
-The VSCode provides rich functionalities, extensions (plugins), built-in Git, ability to run and debug code, and complete customization for the workspace. You can build, test, deploy, and monitor your data engineering applications and pipelines without leaving the application.
-
-Jupyter Notebook is one of the most widely used tool in data engineering that use Python. This is due to the fact, that it is an ideal environment for developing reproducible data pipelines with Python. Colaboratory, or “Colab” for short, is a provide Jupyter-like environment on the cloud.
 
 **Relational and NoSQL Databases**
 
@@ -128,7 +140,7 @@ Stream Data Processing is the data processing on the fly. Suggested to get a goo
 
 Data engineers should have experience with data pipeline and ETL (extract, transform, load) tools, such as Apache NiFi, Apache Kafka, Apache Airflow, Talend etc. These tools are used to build data pipelines that collect, store, and process data. Airflow is considered to be the defacto standard, but any understanding of DAGs - directed acyclical graphs for tasks will be good.
 
-**Distributed Systems**
+**Spark and Distributed Computing**
 
 Data engineers should understand distributed systems, such as how data is stored and processed across multiple machines. This knowledge is essential for designing and implementing big data systems that can handle large amounts of data.
 
@@ -137,6 +149,16 @@ Data engineers should understand distributed systems, such as how data is stored
 1. Strong analytical and problem-solving skills: Data engineers should have strong analytical and problem-solving skills, as they are responsible for designing and implementing data pipelines, troubleshooting issues, and ensuring data quality.
 2. Understanding of data governance and security: Data engineers should be familiar with the best practices and how to implement them in the data pipeline, such as data encryption, access control, and data masking.
 3. Strong communication and collaboration skills: Data engineers often work with cross-functional teams and must be able to communicate effectively with data scientists, analysts, internal and external customers and other stakeholders.
+
+### Other Skills
+
+**Developer tools - Git, VSCode and Jupyter Notebook**
+
+Git is one of the skills that every software engineer needs to manage the code base efficiently. GitHub or any version control software is important for any software development projects, including those which are data driven. GitHub allows version control of your projects through Git.
+
+The VSCode provides rich functionalities, extensions (plugins), built-in Git, ability to run and debug code, and complete customization for the workspace. You can build, test, deploy, and monitor your data engineering applications and pipelines without leaving the application.
+
+Jupyter Notebook is one of the most widely used tool in data engineering that use Python. This is due to the fact, that it is an ideal environment for developing reproducible data pipelines with Python. Colaboratory, or “Colab” for short, is a provide Jupyter-like environment on the cloud.
 
 **DevOps Skills**
 
@@ -239,21 +261,19 @@ On the other hand, when you want to deploy big data architecture using less expe
 
 Check out [this whitepaper](https://www.qlik.com/us/resource-library/modernizing-your-data-architecture-to-unlock-business-value) and [related webinar](https://videos.qlik.com/watch/mm2p55sd3zvdYHqkzhqRaH?_ga=2.269188596.401343546.1664008674-358725923.1664008674) to deep dive into this topic.
 
-## Most Common Questions
+## Most Common Interview Questions
 
-### 50 Most Common Questions
-
-#### 1. What is data engineering?
+#### What is data engineering?
 
 Data engineering is the practice of designing, building, and maintaining systems for storing, processing, and analyzing large volumes of data. Data engineers work on the infrastructure and architecture needed to support data science and analytics projects, and are responsible for designing, building, and maintaining the data pipelines that extract, transform, and load data from various sources into a data storage and processing platform.
 
-#### 2. What is the difference between data engineering and data science?
+#### What is the difference between data engineering and data science?
 
 Data engineering and data science are two distinct fields that often work closely together. Data engineering focuses on the infrastructure and architecture needed to support data science and analytics projects, while data science involves using statistical and machine learning techniques to analyze and interpret data.
 
 Data engineers are responsible for designing, building, and maintaining the data pipelines and data storage and processing systems that enable data science and analytics projects. Data scientists, on the other hand, are responsible for using these systems to analyze and interpret data, identify trends and patterns, and make predictions or recommendations based on their findings.
 
-#### 3. What are some common tools used in data engineering?
+#### What are some common tools used in data engineering?
 
 There are many tools and technologies used in data engineering, depending on the specific needs and requirements of a project. Some common tools and technologies include:
 
@@ -262,7 +282,7 @@ There are many tools and technologies used in data engineering, depending on the
 - Data processing and analytics platforms: These include technologies such as Hadoop, Apache Spark, and other big data processing and analytics frameworks.
 - Data visualization tools: These include technologies such as Tableau, Power BI, and other tools for creating charts, graphs, and other visualizations of data.
 
-#### 4. What is ETL (extract, transform, load)?
+#### What is ETL (extract, transform, load)?
 
 ETL (extract, transform, load) is a process for extracting data from various sources, transforming it into a format that is suitable for analysis and storage, and loading it into a data storage or processing platform.
 
@@ -274,13 +294,13 @@ ETL typically involves three steps:
 
 ETL is a common process in data engineering and is used to extract and prepare data for analysis and reporting. ETL tools and technologies are used to automate the ETL process and make it more efficient and scalable.
 
-#### 5. What is a data pipeline?
+#### What is a data pipeline?
 
 A data pipeline is a series of processes or steps that are used to extract, transform, and load data from various sources into a data storage or processing platform. Data pipelines typically involve extracting data from various sources, cleaning and transforming the data, and then loading the data into a data storage or processing platform such as a database, data warehouse, or data lake.
 
 Data pipelines can be used to extract and prepare data for a variety of purposes, such as analytics, reporting, machine learning, or data science projects. They can be designed to process small or large volumes of data, and can be used to extract data from a variety of sources such as databases, files, APIs, or streaming data.
 
-#### 6. How do you design and build data pipelines?
+#### How do you design and build data pipelines?
 
 There are several steps involved in designing and building data pipelines:
 
@@ -290,7 +310,7 @@ There are several steps involved in designing and building data pipelines:
 4. Determine the scheduling and frequency of the data pipeline (e.g. daily, hourly, real-time).
 5. Select the tools and technologies that will be used
 
-#### 7. What are some common challenges in data engineering?
+#### What are some common challenges in data engineering?
 
 There are many challenges that data engineers may face when designing and building data pipelines and data storage and processing systems. Some common challenges include:
 
@@ -300,13 +320,13 @@ There are many challenges that data engineers may face when designing and buildi
 - Ensuring data scalability: As data volumes grow, data pipelines and data storage and processing systems must be able to scale to meet the demand, which can be a challenge.
 - Ensuring data availability: Data pipelines and data storage and processing systems must be highly available to ensure that data is always accessible when needed, which can be a challenge due to the complexity of the systems.
 
-#### 8. What is data modeling?
+#### What is data modeling?
 
 Data modeling is the process of designing and creating a logical and physical representation of data. Data modeling involves defining the structure and relationships of data, as well as the rules and constraints that apply to the data.
 
 Data models are used to represent the data in a way that is easy to understand, query, and analyze. They are typically used in the design of databases and data warehouses, and are an important part of data engineering.
 
-#### 9. How do you design and build data models?
+#### How do you design and build data models?
 
 There are several steps involved in designing and building data models:
 
@@ -324,13 +344,13 @@ There are several steps involved in designing and building data models:
 
 Data modeling is an important part of data engineering and is used to represent data in a way that is easy to understand, query, and analyze. Data models are typically used in the design of databases and data warehouses, and are an important part of data engineering.
 
-#### 10. What is data warehousing?
+#### What is data warehousing?
 
 Data warehousing is the process of designing, building, and maintaining a database or system for storing, processing, and analyzing large volumes of data. A data warehouse is a centralized repository of data that is designed for fast querying and analysis.
 
 Data warehouses are typically designed to store large amounts of historical data, and are used to support business intelligence and analytics applications. They are designed to be efficient and scalable, and are often used to support real-time data analytics and reporting.
 
-#### 11. How do you design and build data warehouses?
+#### How do you design and build data warehouses?
 
 There are several steps involved in designing and building data warehouses:
 
@@ -343,15 +363,15 @@ There are several steps involved in designing and building data warehouses:
 7. Test and validate the data warehouse to ensure that it meets the requirements and performs as expected.
 8. Maintain and update the data warehouse as needed to ensure that it continues to meet the needs of the organization.
 
-#### 12. What is a data lake?
+#### What is a data lake?
 
 A data lake is a centralized repository that allows you to store all your structured and unstructured data at any scale. It is a flexible and scalable data storage platform that enables you to store and process data from a variety of sources, such as databases, files, and streaming data. Data lakes are designed to handle large volumes of data and support a wide range of data types and formats, and are often used for big data analytics and machine learning projects. Data lakes provide a single source of truth for data, and allow you to store data in its raw format, so that it can be transformed and processed as needed.
 
-#### 13. How do you design and implement a data lake?
+#### How do you design and implement a data lake?
 
 Designing and implementing a data lake involves selecting the appropriate hardware and software components, designing the logical and physical structure of the lake, and implementing the ETL processes to populate the lake with data from various sources. It also involves defining the data model and schema for the lake, and designing the queries and reports that will be used to access and analyze the data.
 
-#### 14. what is data governance?
+#### what is data governance?
 
 Data governance is the overall management of the availability, usability, integrity, and security of data. It involves establishing policies, standards, and processes to ensure that data is properly managed, protected, and used in accordance with legal, regulatory, and organizational requirements.
 
@@ -359,7 +379,7 @@ Data governance involves defining roles and responsibilities for data management
 
 Data governance is an important part of data engineering and is critical for ensuring that data is properly managed, protected, and used in a way that aligns with the needs and goals of the organization.
 
-#### 15. What is data quality?
+#### What is data quality?
 
 Data quality refers to the accuracy, completeness, consistency, and reliability of data. It is an important aspect of data engineering and is critical to the success of data-driven projects and initiatives.
 
@@ -367,7 +387,7 @@ Data quality is important because poor quality data can lead to incorrect or mis
 
 Data quality is often assessed using metrics such as data accuracy, data completeness, data consistency, and data reliability. Data engineers and other professionals are responsible for ensuring data quality in the data pipelines and data storage and processing systems they design and build.
 
-#### 16. How do you ensure data quality in your data pipelines and data models?
+#### How do you ensure data quality in your data pipelines and data models?
 
 There are several steps that can be taken to ensure data quality in data pipelines and data models:
 
@@ -380,7 +400,7 @@ There are several steps that can be taken to ensure data quality in data pipelin
 
 By following these steps, data engineers and other professionals can ensure that the data in their data pipelines and data models is of high quality and can be trusted for analysis and decision-making.
 
-#### 17. What is data security?
+#### What is data security?
 
 Data security refers to the measures and practices that are used to protect data from unauthorized access, use, disclosure, disruption, modification, or destruction. Data security is an important aspect of data engineering and is critical to the integrity and confidentiality of data.
 
@@ -394,7 +414,7 @@ There are several types of data security measures that can be used to protect da
 
 By implementing these and other data security measures, data engineers and other professionals can help to ensure that data is protected and secure.
 
-#### 18. How do you ensure data security in your data pipelines and data models?
+#### How do you ensure data security in your data pipelines and data models?
 
 There are several steps that can be taken to ensure data security in data pipelines and data models:
 
@@ -407,7 +427,7 @@ There are several steps that can be taken to ensure data security in data pipeli
 
 By following these steps, data engineers and other professionals can ensure that the data in their data pipelines and data models is secure and protected against unauthorized access or use.
 
-#### 19. What is data privacy?
+#### What is data privacy?
 
 Data privacy refers to the protection of personal data and the privacy of individuals. It is an important aspect of data engineering and is governed by laws and regulations that vary by region and industry.
 
@@ -422,7 +442,7 @@ There are several types of data privacy measures that can be used to protect per
 
 By implementing these and other data privacy measures, data engineers and other professionals can help to ensure that personal data is protected and the privacy of individuals is respected.
 
-#### 20. How do you ensure data privacy in your data pipelines and data models?
+#### How do you ensure data privacy in your data pipelines and data models?
 
 Ensuring data privacy is an important aspect of working with data, and there are several measures that can be taken to protect the privacy of individuals whose data is being used in a data pipeline or model. Here are a few best practices that can help ensure data privacy:
 
@@ -432,7 +452,7 @@ Ensuring data privacy is an important aspect of working with data, and there are
 4. Implement access controls: Access to data should be restricted to only those individuals who need it for authorized purposes. Implementing access controls, such as login credentials and permissions, can help ensure that only authorized individuals have access to the data.
 5. Regularly review and audit data practices: It is important to regularly review and audit data practices to ensure that data privacy is being maintained. This can include conducting privacy impact assessments and conducting regular audits of data access and use.
 
-#### 21. What is data scalability?
+#### What is data scalability?
 
 Data scalability refers to the ability of a system, process, or application to handle an increasing amount of data or workload without experiencing a decline in performance. A system that is scalable can handle a growing amount of data or workload without requiring significant additional resources or time.
 
@@ -447,7 +467,7 @@ There are several ways to achieve scalability in data systems, including:
 5. Indexing: This involves creating a separate structure that allows for faster searches and access to data.
 6. Asynchronous processing: This involves separating long-running tasks from the main application and running them in the background, which can improve the performance and scalability of the system.
 
-#### 22. How do you ensure data scalability in your data pipelines and data models?
+#### How do you ensure data scalability in your data pipelines and data models?
 
 There are several ways to ensure data scalability in data pipelines and data models:
 
@@ -459,13 +479,13 @@ There are several ways to ensure data scalability in data pipelines and data mod
 6. Use a cache: A cache can be used to store frequently accessed data in memory, reducing the need to read from slower storage systems and improving the performance of the data pipeline and data model.
 7. Use a load balancer: A load balancer can be used to distribute incoming requests across multiple machines, improving the scalability and performance of the data pipeline and data model.
 
-#### 23. What is data availability?
+#### What is data availability?
 
 Data availability refers to the ability of a computer system or network to provide access to data and services to authorized users. It is a measure of the reliability and performance of a system or network in providing access to data and services. Data availability is an important aspect of data management, as it ensures that data and services are available to users when they need them.
 
 There are several factors that can impact data availability, including hardware and software failures, network outages, and natural disasters. To ensure data availability, organizations often implement measures such as redundant hardware and software, backup and recovery systems, and disaster recovery plans. These measures help to minimize the risk of data loss and ensure that users can access the data and services they need, even in the event of an outage or other disruption.
 
-#### 24. How do you ensure data availability in your data pipelines and data models?
+#### How do you ensure data availability in your data pipelines and data models?
 
 Ensuring data availability is an important aspect of working with data, as it ensures that data is accessible and can be used when needed. Here are a few best practices that can help ensure data availability in data pipelines and data models:
 
@@ -476,7 +496,7 @@ Ensuring data availability is an important aspect of working with data, as it en
 5. Use a distributed database: A distributed database is a database that is spread across multiple servers or locations, which can help ensure data availability by allowing multiple copies of the data to be stored in different locations.
 6. Use a database with high availability features: Some databases, such as MySQL and Oracle, have built-in features that help ensure data availability, such as replication and failover capabilities. Using a database with these features can help ensure data availability in the event of a failure or outage.
 
-#### 25. What is data reliability?
+#### What is data reliability?
 
 Data reliability refers to the ability of a system to retain data in a consistent and accurate state over a period of time. In other words, it is the ability of a system to store and retrieve data correctly, even in the face of failures or errors.
 
@@ -488,7 +508,7 @@ There are several ways to ensure data reliability:
 4. Use data validation: Data validation involves checking the data for correctness and completeness before storing it or using it in any way. This can help ensure that the data is reliable.
 5. Use data cleansing: Data cleansing involves identifying and correcting errors or inconsistencies in the data. This can help improve the reliability of the data.
 
-#### 26. How do you ensure data reliability in your data pipelines and data models?
+#### How do you ensure data reliability in your data pipelines and data models?
 
 There are several steps that can be taken to ensure the reliability of data pipelines and data models:
 
@@ -498,7 +518,7 @@ There are several steps that can be taken to ensure the reliability of data pipe
 4. Monitoring and maintenance: Regular monitoring of data pipelines and models is important to ensure that they are operating correctly and that any issues are detected and addressed in a timely manner. It is also important to have a plan in place for ongoing maintenance and updates to the pipeline or model as needed.
 5. Backup and recovery: Implementing backup and recovery systems can help to ensure that data is not lost in the event of a failure or outage. This can include creating regular backups of the data and implementing disaster recovery plans to ensure that the data and systems can be restored in the event of a disaster.
 
-#### 27. What is data latency?
+#### What is data latency?
 
 Data latency refers to the amount of time it takes for data to be transferred or processed. In a data system, latency is the delay between when a request for data is made and when the data is received.
 
@@ -514,7 +534,7 @@ There are several factors that can impact data latency, including:
 
 Reducing data latency is often a key goal in data systems design, as it can help improve system performance and efficiency. There are several approaches that can be taken to reduce data latency, including optimizing network infrastructure, optimizing data processing, and using faster hardware and software.
 
-#### 28. How do you minimize data latency in your data pipelines and data models?
+#### How do you minimize data latency in your data pipelines and data models?
 
 There are several ways to minimize data latency in data pipelines and data models:
 
@@ -526,7 +546,7 @@ There are several ways to minimize data latency in data pipelines and data model
 6. Optimize queries: Optimizing queries by using indexes and other techniques can help reduce the time it takes to retrieve data from a database.
 7. Use a distributed file system: A distributed file system, such as HDFS (Hadoop Distributed File System) or S3 (Amazon Simple Storage Service), can be used to store and process large volumes of data in a distributed manner, allowing the data to be processed and analyzed in a scalable and efficient manner.
 
-#### 29. What is data integration?
+#### What is data integration?
 
 Data integration is the process of combining data from multiple sources into a single, coherent view. This can involve extracting data from various sources, transforming the data to fit a specific format or structure, and loading the data into a target system or database.
 
@@ -540,7 +560,7 @@ There are several methods for integrating data, including:
 4. Data warehousing: A data warehouse is a centralized repository of data that is used to support decision-making and analytics. Data integration is often used to populate a data warehouse with data from various sources.
 5. API-based integration: APIs (Application Programming Interfaces) can be used to enable data integration by allowing systems to communicate and exchange data with each other.
 
-#### 30. How do you handle data integration challenges in your data pipelines and data models?
+#### How do you handle data integration challenges in your data pipelines and data models?
 
 Data integration can be a challenging task, as it often involves combining data from multiple sources, which can have different structures, formats, and schemas. Here are a few best practices for handling data integration challenges in data pipelines and data models:
 
@@ -551,7 +571,7 @@ Data integration can be a challenging task, as it often involves combining data 
 5. Test and validate the data: After the data has been integrated, it is important to test and validate it to ensure that it has been correctly integrated and that there are no issues with the data.
 6. Monitor and maintain the data: Ongoing monitoring and maintenance of the integrated data is important to ensure that it remains accurate and up-to-date. This can involve regularly checking the data for accuracy and fixing any issues that are identified.
 
-#### 31. What is data transformation?
+#### What is data transformation?
 
 Data transformation is the process of converting data from one format or structure to another. It is an essential part of the data processing pipeline and is often used to prepare data for analysis or to integrate data from multiple sources.
 
@@ -564,7 +584,7 @@ There are several types of data transformations that may be performed:
 5. Data enrichment: Data enrichment involves adding additional information or context to the data, such as geographical coordinates or demographic data.
 6. Data normalization: Data normalization involves transforming the data into a consistent format or structure, such as scaling numerical values to a common range or standardizing categorical values.
 
-#### 32. How do you handle data transformation challenges in your data pipelines and data models?
+#### How do you handle data transformation challenges in your data pipelines and data models?
 
 There are several common challenges that can arise during the data transformation process in data pipelines and data models, and there are several approaches that can be taken to address these challenges:
 
@@ -574,7 +594,7 @@ There are several common challenges that can arise during the data transformatio
 4. Data quality issues: Ensuring the quality of the data being used in the pipeline or model is essential for reliable results. To address data quality issues, it may be necessary to implement processes to validate and clean the data, as well as to monitor data quality over time.
 5. Scalability: As data volumes and complexity increase, it can be challenging to scale data pipelines and models to meet the demands of the organization. To address this challenge, it may be necessary to implement distributed systems and architectures, as well as to optimize the pipeline or model for performance.
 
-#### 33. What is data cleansing?
+#### What is data cleansing?
 
 Data cleansing, also known as data cleaning or data scrubbing, is the process of identifying and correcting or removing inaccurate, incomplete, or inconsistent data from a database or data set. It is an important step in the data management process, as it helps to ensure that the data is accurate and reliable.
 
@@ -587,7 +607,7 @@ There are several methods that can be used to clean data, including:
 
 Data cleansing is an ongoing process, as data can become inaccurate or incomplete over time. It is important to regularly review and clean data to ensure that it is accurate and up-to-date.
 
-#### 34. How do you handle data cleansing challenges in your data pipelines and data models?
+#### How do you handle data cleansing challenges in your data pipelines and data models?
 
 Data cleansing is the process of identifying and correcting or removing inaccuracies, inconsistencies, and other issues with data. Data cleansing can be a challenging task, as it often involves working with large volumes of data that may have a variety of issues. Here are a few best practices for handling data cleansing challenges in data pipelines and data models:
 
@@ -598,7 +618,7 @@ Data cleansing is the process of identifying and correcting or removing inaccura
 5. Test and validate the data: After the data has been cleansed, it is important to test and validate it to ensure that it has been correctly cleansed and that there are no remaining issues with the data.
 6. Monitor and maintain the data: Ongoing monitoring and maintenance of the cleansed data is important to ensure that it remains accurate and up-to-date. This can involve regularly checking the data for accuracy and fixing any issues that are identified.
 
-#### 35. What is data enrichment?
+#### What is data enrichment?
 
 Data enrichment is the process of adding additional information or context to the data. This can be used to enhance the value of the data and make it more useful for analysis or decision-making.
 
@@ -611,7 +631,7 @@ There are several ways to enrich data:
 
 Data enrichment is an important step in the data processing pipeline and can help improve the value and usefulness of the data.
 
-#### 36. How do you handle data enrichment challenges in your data pipelines and data models?
+#### How do you handle data enrichment challenges in your data pipelines and data models?
 
 Data enrichment is the process of adding additional data to a data set in order to make it more complete or accurate. It is an important step in the data management process, as it can help to improve the quality and usefulness of the data. However, there are several challenges that can arise during the data enrichment process in data pipelines and data models:
 
@@ -622,7 +642,7 @@ Data enrichment is the process of adding additional data to a data set in order 
 
 To address these challenges, it may be necessary to use a combination of techniques, such as data integration and data cleansing, as well as to establish processes and policies for data enrichment that ensure compliance with data privacy and security laws and regulations.
 
-#### 37. What is data consolidation?
+#### What is data consolidation?
 
 Data consolidation is the process of combining data from multiple sources into a single, coherent data set. This can be done for a variety of purposes, such as:
 
@@ -632,7 +652,7 @@ Data consolidation is the process of combining data from multiple sources into a
 
 There are various techniques and tools that can be used to consolidate data, depending on the specific needs and requirements of your project. Some common methods include using pivot tables in spreadsheet software, using database queries or scripts to combine data, or using specialized data consolidation software.
 
-#### 38. How do you handle data consolidation challenges in your data pipelines and data models?
+#### How do you handle data consolidation challenges in your data pipelines and data models?
 
 Consolidating data from multiple sources can be challenging, as the data may be in different formats or structures, or may contain errors or inconsistencies. Here are some strategies for handling data consolidation challenges in data pipelines and data models:
 
@@ -642,7 +662,7 @@ Consolidating data from multiple sources can be challenging, as the data may be 
 4. Use data cleansing: Data cleansing involves identifying and correcting errors or inconsistencies in the data. This can be done using data cleansing tools or by manually reviewing the data.
 5. Use data governance: Data governance involves establishing policies and procedures for managing data, including how data is collected, stored, and used. This can help ensure that the data is consistent and of high quality, making it easier to consolidate and integrate data from multiple sources.
 
-#### 39. What is data aggregation?
+#### What is data aggregation?
 
 Data aggregation is the process of combining data from multiple sources or points into a single, summarized view. This can involve a variety of techniques, such as summarizing data, averaging data, and calculating totals or other statistical measures.
 
@@ -655,7 +675,7 @@ There are several methods that can be used to perform data aggregation, includin
 3. Data visualization tools: Data visualization tools, such as Tableau and Power BI, can be used to create interactive charts and graphs that provide a summary view of data.
 4. Programming languages: Data aggregation can also be performed using programming languages such as Python or R, which offer a wide range of libraries and tools for data manipulation and analysis.
 
-#### 40. How do you handle data aggregation challenges in your data pipelines and data models?
+#### How do you handle data aggregation challenges in your data pipelines and data models?
 
 There are several challenges that can arise when aggregating data in a data pipeline or model, and different approaches can be taken to address these challenges. Some common challenges and potential solutions include:
 
@@ -665,7 +685,7 @@ There are several challenges that can arise when aggregating data in a data pipe
 4. Performance: If the data being aggregated is very large, it can take a long time to process and aggregate it, which can impact the performance of your data pipeline or model. To address this challenge, you may need to optimize your data aggregation process or consider using distributed or parallel processing techniques to speed up the process.
 5. Scalability: As your data grows over time, your data aggregation process may need to scale up to handle the increased volume and complexity of the data. You may need to consider using more powerful hardware or software, or implementing a more scalable data architecture, to ensure that your data aggregation process can keep up with the demands of your business.
 
-#### 41. What is data partitioning?
+#### What is data partitioning?
 
 Data partitioning is the process of dividing a large dataset into smaller chunks or partitions. This can be useful for several reasons:
 
@@ -682,7 +702,7 @@ There are several ways to partition data:
 
 Data partitioning is an important technique for improving the performance, scalability, and availability of data pipelines and data models.
 
-#### 42. How do you handle data partitioning challenges in your data pipelines and data models?
+#### How do you handle data partitioning challenges in your data pipelines and data models?
 
 Data partitioning is the process of dividing a large data set into smaller chunks or partitions, typically for the purpose of improving the performance and scalability of a system. It is a common technique used in data pipelines and data models to manage large volumes of data.
 
@@ -695,7 +715,7 @@ There are several challenges that can arise during the data partitioning process
 
 To address these challenges, it may be necessary to carefully plan the data partitioning strategy, including determining the appropriate partition size and implementing processes to ensure the data is evenly distributed and of high quality. It may also be necessary to implement systems to handle data updates and to monitor the performance and quality of the data in each partition.
 
-#### 43. What is data sampling?
+#### What is data sampling?
 
 Data sampling is the process of selecting a subset of data from a larger dataset for analysis or processing. Data sampling is often used when working with large datasets, as it allows for faster and more efficient analysis or processing.
 
@@ -708,7 +728,7 @@ There are several types of data sampling techniques:
 
 Data sampling can be an effective way to reduce the size of a dataset and speed up analysis, but it is important to ensure that the sample is representative of the entire dataset to avoid biases or errors in the analysis.
 
-#### 44. How do you handle data sampling challenges in your data pipelines and data models?
+#### How do you handle data sampling challenges in your data pipelines and data models?
 
 Data sampling is the process of selecting a representative subset of data from a larger dataset for the purpose of analysis. Data sampling can be useful when working with very large datasets, as it can allow you to work with a smaller and more manageable data set while still gaining useful insights. However, there are several challenges that can arise when sampling data in a data pipeline or model, and different approaches can be taken to address these challenges. Some common challenges and potential solutions include:
 
@@ -718,7 +738,7 @@ Data sampling is the process of selecting a representative subset of data from a
 4. Data quality: The quality of the data in the sample can also impact the accuracy and reliability of the results. To address this challenge, you may need to perform data cleansing and data quality checks on the sample to identify and correct any issues with the data.
 5. Data security: When sampling data, it is important to ensure that the data is secure and protected from unauthorized access or tampering. You may need to implement security measures such as encryption, authentication, and access control to protect the data as it is being sampled.
 
-#### 45. What is data masking?
+#### What is data masking?
 
 Data masking is the process of obscuring or altering sensitive or personal data in order to protect it from unauthorized access or use. It is often used to protect data when it is being shared or used for testing or development purposes.
 
@@ -731,7 +751,7 @@ There are several methods that can be used to mask data, including:
 
 Data masking is an important aspect of data privacy and security, as it helps to protect sensitive data from unauthorized access or use. It is important to carefully plan and implement data masking processes in order to ensure that the data is effectively protected.
 
-#### 46. How do you handle data masking challenges in your data pipelines and data models?
+#### How do you handle data masking challenges in your data pipelines and data models?
 
 Data masking is the process of obscuring sensitive or personally identifiable information (PII) in a dataset by replacing it with fake or dummy data. Data masking can be useful for protecting the privacy of individuals and complying with data protection regulations, such as the General Data Protection Regulation (GDPR) in the European Union. However, there are several challenges that can arise when masking data in a data pipeline or model, and different approaches can be taken to address these challenges. Some common challenges and potential solutions include:
 
@@ -741,7 +761,7 @@ Data masking is the process of obscuring sensitive or personally identifiable in
 4. Performance: Data masking can be a resource-intensive process, especially if the data being masked is very large. To address this challenge, you may need to optimize the data masking process or consider using more powerful hardware or software to speed up the process.
 5. Scalability: As your data grows over time, your data masking process may need to scale up to handle the increased volume and complexity of the data. You may need to consider using more powerful hardware or software, or implementing a more scalable data architecture, to ensure that your data masking process can keep up with the demands of your business.
 
-#### 47. What is data anonymization?
+#### What is data anonymization?
 
 Data anonymization is the process of removing personally identifiable information (PII) from data. The goal of data anonymization is to protect the privacy of individuals by making it difficult or impossible to identify them from the data.
 
@@ -754,7 +774,7 @@ There are several techniques for anonymizing data:
 
 Data anonymization is an important consideration when working with sensitive data, as it helps protect the privacy of individuals and comply with data protection regulations.
 
-#### 48. How do you handle data anonymization challenges in your data pipelines and data models?
+#### How do you handle data anonymization challenges in your data pipelines and data models?
 
 Data anonymization is the process of removing or obscuring personal or identifying information from data sets in order to protect the privacy of individuals. It is often used when data is being shared or used for research or testing purposes.
 
@@ -767,7 +787,7 @@ There are several challenges that can arise during the data anonymization proces
 
 To address these challenges, it may be necessary to use a combination of techniques, such as data masking and data aggregation, as well as to establish processes and policies for data anonymization that ensure compliance with data privacy laws and regulations.
 
-#### 49. What is data lineage?
+#### What is data lineage?
 
 Data lineage is the process of tracing the origin and evolution of data as it moves through various systems and transformations. It is often used to understand how data is transformed and used throughout an organization, and to identify any potential errors or inconsistencies in the data.
 
@@ -775,7 +795,7 @@ Data lineage can be traced manually or through the use of specialized software t
 
 Data lineage is important for a number of reasons. It can help organizations to improve the quality and accuracy of their data by identifying and addressing any issues with data integrity. It can also help organizations to comply with regulatory requirements, as many regulations require organizations to maintain accurate and complete records of their data processing activities. In addition, data lineage can be used to optimize data flow and improve the efficiency of data-driven processes.
 
-#### 50. How do you handle data lineage challenges in your data pipelines and data models?
+#### How do you handle data lineage challenges in your data pipelines and data models?
 
 Data lineage refers to the history of data as it moves through a system, including how it is transformed and used. It is an important aspect of data management because it helps organizations understand the provenance of their data and how it has been used, which can be useful for tasks such as debugging, compliance, and data governance.
 
@@ -787,107 +807,103 @@ There are several ways to handle data lineage challenges in data pipelines and d
 4. Implementing data quality checks: Ensuring that data is accurate and consistent is an important aspect of data lineage. Organizations can implement data quality checks at various points in the pipeline to ensure that the data being used is of high quality.
 5. Using data modeling techniques: Data modeling techniques, such as entity-relationship modeling, can be used to help understand the relationships between different data elements and how they are transformed as they move through the pipeline.
 
-### 25 Most Common Questions
-
-Here I try to summarize my observations from all the interviews I've been part of so far. I picked the 25 most common questions you might come across as a DE. I try to expand on this topic later and add more questions, but for now, let's focus on the 25 most common ones.
-
-#### 1. What is data engineering, and how does it differ from data science?
+### 1. What is data engineering, and how does it differ from data science?
 
 Data engineering is the practice of building, maintaining, and optimizing the data infrastructure that enables organizations to store, process, and analyze data. It involves designing, constructing, and maintaining data pipelines to extract, transform, and load data from various sources, as well as designing and implementing data models to store and process the data efficiently. Data engineering differs from data science in that it focuses on the technical aspects of managing and manipulating data, whereas data science focuses on using statistical and machine learning techniques to extract insights and knowledge from data.
 
-#### 2. Can you explain the different types of data pipelines?
+#### Can you explain the different types of data pipelines?
 
 There are several types of data pipelines, including batch pipelines, which process data in large chunks at regular intervals, and stream pipelines, which process data in real-time as it is generated. Other types of pipelines include extract-load-transform (ELT) pipelines, which extract data from various sources, load it into a central repository, and then transform it as needed, and extract-transform-load (ETL) pipelines, which extract data from various sources, transform it, and then load it into a central repository.
 
-#### 3. How do you handle missing or corrupted data in a dataset?
+#### How do you handle missing or corrupted data in a dataset?
 
 Missing or corrupted data can be handled in a variety of ways, depending on the nature of the data and the goals of the analysis. One approach is to simply exclude the missing or corrupted data from the analysis, although this can introduce bias if the missing data is not randomly distributed. Another approach is to impute the missing values, either by using statistical techniques to estimate the missing values based on the available data, or by using machine learning algorithms to predict the missing values based on patterns in the data.
 
-#### 4. How do you optimize the performance of a data pipeline?
+#### How do you optimize the performance of a data pipeline?
 
 There are several ways to optimize the performance of a data pipeline, including using efficient data structures and algorithms, using parallel processing to distribute the workload across multiple processors or machines, and using indexing and caching to improve access to data. Other techniques include optimizing network and disk I/O, using compression to reduce the size of data, and using in-memory data stores to improve access speeds.
 
-#### 5. Can you explain the concept of data lake and data warehouse?
+#### Can you explain the concept of data lake and data warehouse?
 
 A data lake is a centralized repository that allows organizations to store all their structured and unstructured data at any scale. It provides a single source of truth for data that can be accessed and analyzed by various data consumers, including data scientists, data engineers, and business analysts. A data warehouse is a specialized database designed for fast querying and analysis of data, typically used to support business intelligence and analytics applications.
 
-#### 6. How do you design and implement a data model?
+#### How do you design and implement a data model?
 
 Data modeling involves designing and implementing a logical structure for storing and organizing data in a database or other data storage system. This involves identifying the entities and relationships in the data, and defining the attributes and data types for each entity. Data modeling also involves deciding on the appropriate level of granularity for the data and the most efficient data structures for storing and querying the data.
 
-#### 7. What is the role of ETL in data engineering?
+#### What is the role of ETL in data engineering?
 
 ETL (extract, transform, load) is a process in data engineering that involves extracting data from various sources, transforming it to fit the needs of the target system or application, and then loading it into the target system. ETL is often used to integrate data from multiple sources and to prepare data for analysis or reporting.
 
-#### 8. Can you explain the difference between batch and stream processing?
+#### Can you explain the difference between batch and stream processing?
 
 Batch processing involves processing data in large chunks at regular intervals, while stream processing involves processing data in real-time as it is generated. Batch processing is typically used for data that is not time-sensitive and can be processed in bulk, while stream processing is used for data that needs to be processed and analyzed as quickly as possible, such as real-time sensor data or social media feeds.
 
-#### 9. How do you handle data integration from multiple sources?
+#### How do you handle data integration from multiple sources?
 
 To handle data integration from multiple sources, you need to identify the data sources, determine the relationships between them, extract and transform the data, load the data into a central repository, and monitor and maintain the integration on an ongoing basis.
 
-#### 10. What is a data mart and how does it differ from a data warehouse?
+#### What is a data mart and how does it differ from a data warehouse?
 
 A data mart is a subset of a data warehouse that is designed to support the reporting and analysis needs of a specific department or business unit. It typically contains a subset of the data in the data warehouse and is optimized for fast querying and analysis. A data mart differs from a data warehouse in that it is focused on a specific business area or function, whereas a data warehouse is designed to support the overall data needs of an organization.
 
-#### 11. Can you explain the concept of data governance?
+#### Can you explain the concept of data governance?
 
 Data governance is the process of defining and enforcing policies, procedures, and standards for managing and securing data within an organization. It involves establishing roles and responsibilities for data management, defining data quality and security standards, and establishing processes for data integration, access, and retention.
 
-#### 12. How do you handle security and privacy in data engineering?
+#### How do you handle security and privacy in data engineering?
 
 Ensuring the security and privacy of data is an important part of data engineering. This involves implementing measures such as access controls, encryption, and data masking to protect data from unauthorized access or disclosure. It also involves ensuring that data is stored and processed in compliance with relevant laws and regulations, such as the General Data Protection Regulation (GDPR) in the EU.
 
-#### 13. Can you explain the concept of data lineage?
+#### Can you explain the concept of data lineage?
 
 Data lineage is the process of tracking the origin and history of data as it moves through the various stages of a data pipeline. It involves documenting the sources of the data, the transformations applied to the data, and the destinations where the data is stored or used. Data lineage is important for understanding the reliability and accuracy of data, as well as for tracing the impact of data on downstream processes and systems.
 
-#### 14. How do you ensure data quality in a data pipeline?
+#### How do you ensure data quality in a data pipeline?
 
 Ensuring data quality in a data pipeline involves implementing processes and controls to ensure that the data being processed is accurate, complete, and consistent. This may involve validating the data against defined standards, cleansing the data to remove errors or inconsistencies, and monitoring the data for changes or deviations from expected values.
 
-#### 15. Can you explain the concept of data normalization and denormalization?
+#### Can you explain the concept of data normalization and denormalization?
 
 Data normalization is the process of organizing a database in a way that minimizes redundancy and dependency, while denormalization is the process of optimizing a database for faster querying and reporting by introducing redundancy. Normalization is typically used to improve the integrity and reliability of data, while denormalization is used to improve query performance.
 
-#### 16. How do you handle version control for data pipelines and data models?
+#### How do you handle version control for data pipelines and data models?
 
 Version control is an important part of data engineering, as it allows data engineers to track and manage changes to data pipelines and data models over time. This can involve using version control systems such as Git to track changes to code and configuration files, as well as using techniques such as data tagging and snapshotting to track changes to data itself.
 
-#### 17. Can you explain the concept of data partitioning and how it is used in data engineering?
+#### Can you explain the concept of data partitioning and how it is used in data engineering?
 
 Data partitioning is the process of dividing a large dataset into smaller chunks, or partitions, in order to improve the performance and scalability of data processing and analysis. Data partitioning can be based on various criteria, such as time, location, or value range, and can be used to distribute the workload across multiple processors or machines.
 
-#### 18. How do you handle data migration between systems?
+#### How do you handle data migration between systems?
 
 Data migration is the process of moving data from one system to another, either within the same organization or between different organizations. Data migration can be complex, as it involves extracting data from the source system, transforming it to fit the requirements of the target system, and then loading it into the target system. Data engineers may use ETL tools or custom scripts to automate the data migration process.
 
-#### 19. Can you explain the concept of data catalog and how it is used in data engineering?
+#### Can you explain the concept of data catalog and how it is used in data engineering?
 
 A data catalog is a centralized repository that stores metadata and other information about data assets within an organization. It allows data consumers to discover, understand, and access data assets, and provides a single source of truth for data definitions and relationships. Data catalogs can be used to improve data governance and data quality, as well as to facilitate data collaboration and reuse.
 
-#### 20. How do you design and implement a data mart?
+#### How do you design and implement a data mart?
 
 To design and implement a data mart, you need to identify the business need, determine the scope and data sources, extract and transform the data, design the data model, implement the data mart using a database management system, test and validate the data mart, and monitor and maintain it on an ongoing basis.
 
-#### 21. Can you explain the concept of data warehousing and how it is used in data engineering?
+#### Can you explain the concept of data warehousing and how it is used in data engineering?
 
 Data warehousing is the process of constructing and maintaining a centralized repository of data that is designed for fast querying and analysis. It involves extracting data from various sources, transforming it to fit the needs of the data warehouse, and then loading it into the warehouse. Data warehousing is typically used to support business intelligence and analytics applications.
 
-#### 22. How do you design and implement a data warehouse?
+#### How do you design and implement a data warehouse?
 
 Designing and implementing a data warehouse involves selecting the appropriate hardware and software components, designing the logical and physical structure of the warehouse, and implementing the ETL processes to populate the warehouse with data from various sources. It also involves defining the data model and schema for the warehouse, and designing the queries and reports that will be used to access and analyze the data.
 
-#### 23. Can you explain the concept of data integration and how it is used in data engineering?
+#### Can you explain the concept of data integration and how it is used in data engineering?
 
 Data integration is the process of combining data from multiple sources and systems into a single, coherent view. It involves extracting data from various sources, transforming it to fit the needs of the target system, and then loading it into the target system. Data integration is often used to support business intelligence and analytics applications, as well as to enable data-driven decision making within organizations.
 
-#### 24. How do you design and implement a data lake?
+#### How do you design and implement a data lake?
 
 Designing and implementing a data lake involves selecting the appropriate hardware and software components, designing the logical and physical structure of the lake, and implementing the ETL processes to populate the lake with data from various sources. It also involves defining the data model and schema for the lake, and designing the queries and reports that will be used to access and analyze the data.
 
-#### 25. Can you explain the concept of data modeling and how it is used in data engineering?
+#### Can you explain the concept of data modeling and how it is used in data engineering?
 
 Data modeling is the process of designing and implementing a logical structure for storing and organizing data in a database or other data storage system. It involves identifying the entities and relationships in the data, and defining the attributes and data types for each entity. Data modeling is an important part of data engineering, as it helps to ensure the efficiency and scalability of data processing and analysis.
 
