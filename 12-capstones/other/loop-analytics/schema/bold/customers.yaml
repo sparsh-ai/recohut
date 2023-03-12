@@ -1,0 +1,20 @@
+customers:
+  fields:
+    - name: cashier_public_id
+      type: text
+    - name: default_address
+      type: text
+    - name: email
+      type: text
+    - name: first_name
+      type: text
+    - name: id
+      type: text
+    - name: last_name
+      type: text
+    - name: notes
+      type: text
+    - name: phone
+      type: text
+    - name: platform_id
+      type: text

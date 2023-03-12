@@ -1,0 +1,14 @@
+accounts_prod:
+  fields:
+    - name: authProviderCustomerId
+      type: TEXT
+    - name: bigCommerceCustomerId
+      type: TEXT
+    - name: emailAddress
+      type: TEXT
+    - name: loopCustomerId
+      type: TEXT
+    - name: shopifyCustomerId
+      type: TEXT
+    - name: stripeCustomerId
+      type: TEXT

@@ -1,0 +1,20 @@
+brands:
+  fields:
+  - name: id
+    type: int
+  - name: name
+    type: varchar(255)
+  - name: page_title
+    type: varchar(255)
+  - name: meta_keywords
+    type: varchar(255)
+  - name: meta_description
+    type: varchar(max)
+  - name: search_keywords
+    type: varchar(max)
+  - name: image_url
+    type: varchar(max)
+  - name: custom_url
+    type: varchar(max)
+  pk: [id]
+

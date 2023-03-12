@@ -1,0 +1,83 @@
+purchase_master:
+  descr: Googlesheet with Loop purchase data
+  fields:
+  - name: bin
+    type: text
+  - name: sku
+    type: text
+  - name: shopify_item_name
+    type: text
+  - name: manufacturer
+    type: text
+  - name: model
+    type: text
+  - name: genre
+    type: text
+  - name: category
+    type: text
+  - name: loops
+    type: text
+  - name: bin_status
+    type: text
+  - name: location
+    type: text
+  - name: color
+    type: text
+  - name: store
+    type: text
+  - name: purchase_method
+    type: text
+  - name: new_used
+    type: text
+  - name: purchase_date
+    type: text
+  - name: retail_price_new
+    type: text
+  - name: actual_purchase_price
+    type: text
+  - name: actual_item_tax
+    type: text
+  - name: actual_shipping_cost
+    type: text
+  - name: savings_amt
+    type: text
+  - name: savings_pct
+    type: text
+  - name: actual_total_cost
+    type: text
+  - name: first_delivered_date
+    type: text
+  - name: recieved
+    type: text
+  - name: estimated_actual_arrival
+    type: text
+  - name: tracking_info
+    type: text
+  - name: order_number
+    type: text
+  - name: assembly_time
+    type: text
+  - name: never_pay_more_than_retail
+    type: text
+  - name: member_is_keeping_item
+    type: text
+  - name: sold_scrapped
+    type: text
+  - name: sold_scrap_date
+    type: text
+  - name: price
+    type: text
+  - name: owned_time
+    type: text
+  - name: repeat_bin
+    type: text
+  - name: last_looped
+    type: text
+  - name: storage1
+    type: text
+  - name: storage2
+    type: text
+  - name: counted_in
+    type: text
+  - name: is_different_sku
+    type: text

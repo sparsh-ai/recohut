@@ -1,0 +1,34 @@
+categories:
+  fields:
+  - name: id
+    type: int
+  - name: parent_id
+    type: int
+  - name: name
+    type: varchar(255)
+  - name: description
+    type: varchar(255)
+  - name: views
+    type: varchar(max)
+  - name: sort_order
+    type: varchar(max)
+  - name: page_title
+    type: varchar(max)
+  - name: meta_keywords
+    type: varchar(max)
+  - name: meta_description
+    type: varchar(max)
+  - name: layout_file
+    type: varchar(500)
+  - name: image_url
+    type: varchar(max)
+  - name: is_visible
+    type: varchar(5)
+  - name: search_keywords
+    type: varchar(1000)
+  - name: default_product_sort
+    type: varchar(255)
+  - name: url
+    type: varchar(max)
+  pk: [id]
+  

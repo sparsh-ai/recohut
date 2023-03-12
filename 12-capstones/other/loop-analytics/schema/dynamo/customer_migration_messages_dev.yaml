@@ -1,0 +1,6 @@
+customer_migration_messages_dev:
+  fields:
+    - name: emailAddress
+      type: TEXT
+    - name: timestamp
+      type: TEXT

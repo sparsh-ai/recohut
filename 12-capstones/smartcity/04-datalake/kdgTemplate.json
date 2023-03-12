@@ -1,0 +1,23 @@
+{
+  "stationId":{{random.arrayElement(["100","110","120","130","140","150","160","170","180","190"])}},
+  "tripDuration":{{random.number(250)}},
+  "price":{{finance.amount}},
+  "bikeDetail":
+  {
+     "bikeNum":"a33492a7-d59f-4484-bb37-7431252d8099",
+     "bikeAttributes":[
+           {
+                "attribName": "color",
+                "attribValue" : "{{commerce.color}}"
+           },
+           {
+                "attribName": "manufacturer",
+                "attribValue" : "{{random.arrayElement(["SCHIWN","JAMIS","TREK","MOUNTIN"])}}"
+           },
+           {
+               "attribName": "bikeType",
+               "attribValue" : "{{random.arrayElement(["ADVANCED","SIMPLE"])}}"
+           }
+      ]
+  }
+}

@@ -1,0 +1,25 @@
+﻿channel_source_id,channel_source,channel_name
+gen_sc,Generic Sponsored Content,Sponsored Content
+gen_ref,Generic Referal,Referal
+gen_aff,Generic Affiliate,Affiliate
+google_search,Google Search,Organic Search
+bing_search,Bing Search,Organic Search
+adwords_search,Google Ads,Paid Search
+adwords_display,Google Ads,Paid Display
+facebook_organic,Facebook Organic,Organic Social
+instagram_organic,Instagram Organic,Organic Social
+facebook_ads,Facebook Ads,Paid Social
+instagram_ads,Instagram Ads,Paid Social
+shareasale,Shareasale,Affiliate
+internal,loop.baby,Internal
+sc_bayareaparent,bayareaparent,Sponsored Content
+sc_ironhorsemothersclub,ironhorsemothersclub,Sponsored Content
+sc_midpeninsulamultiples,midpeninsulamultiples,Sponsored Content
+sc_mtdiablomothersclub,mtdiablomothersclub,Sponsored Content
+sc_earthdiaper,earthdiaper,Sponsored Content
+sc_cvmc,cvmc,Sponsored Content
+sc_sanmateoparentsclub,sanmateoparentsclub,Sponsored Content
+direct,direct,Direct
+referral,referral,Referral
+tapjoy_ads,Tapjoy Ads,Mobile Advertising
+liveintent,LiveIntent,LiveIntent

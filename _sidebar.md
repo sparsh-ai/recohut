@@ -95,4 +95,7 @@
   - [Sparkify](12-capstones/sparkify/)
   - [Spotify](12-capstones/spotify/)
   - [US Immigration](12-capstones/us-immigration/)
-- [Interview Preparation](a1-interviewprep/)
+- Extras
+
+  - [Interview Preparation](a1-interviewprep/)
+  - [Resources](b3-misc/resources.md)

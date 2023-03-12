@@ -1,0 +1,106 @@
+pick_deliveries:
+  fields:
+  - name: record_id
+    type: text
+  - name: pick_status
+    type: text
+  - name: scheduled_delivery_related_order_line
+    type: text
+  - name: scheduled_delivery_date
+    type: text
+  - name: scheduled_delivery_order_line_item_sku
+    type: text
+  - name: asset_tag_association_asset_tag
+    type: text
+  - name: asset_tag_association_related_asset
+    type: text
+  - name: inventory_location_inventory_location_name
+    type: text
+  - name: pick_cancellations
+    type: text
+  - name: delivery_performances
+    type: text
+  - name: asset_item_sku
+    type: text
+  - name: asset_related_item
+    type: text
+  - name: asset_tag
+    type: text
+  - name: date_created
+    type: timestamp
+  - name: date_modified
+    type: timestamp
+  - name: deliveries_reportlink
+    type: text
+  - name: inventory_reportlink
+    type: text
+  - name: last_modified_by
+    type: text
+  - name: ol_reportlink
+    type: text
+  - name: record_owner
+    type: text
+  - name: related_asset
+    type: text
+  - name: related_asset_tag_association
+    type: text
+  - name: related_inventory_location
+    type: text
+  - name: related_scheduled_delivery
+    type: text
+  - name: scheduled_delivery_order_line_related_order
+    type: text
+  - name: scheduled_delivery_customer_firstname
+    type: text
+  - name: scheduled_delivery_customer_lastname
+    type: text
+  - name: scheduled_delivery_order_line_customer_address_address
+    type: text
+  - name: scheduled_delivery_related_order_line_ref
+    type: text
+  - name: scheduled_delivery_related_order_line_ref_qb_order_
+    type: text
+  - name: scheduled_delivery_related_order_line_ref_qb_item_name
+    type: text
+  - name: scheduled_delivery_related_order_line_ref_order_id_address_id_address
+    type: text
+  - name: scheduled_delivery_related_order_line_ref_order_id_address_id_address2
+    type: text
+  - name: scheduled_delivery_delivery_notes
+    type: text
+  - name: concat_loc_sku
+    type: text
+  - name: scheduled_delivery_delivery_time
+    type: text
+  - name: scheduled_delivery_related_order_line_ref_order_id_address_concat
+    type: text
+  - name: scheduled_delivery_related_order_line_ref_order_id_address_id_address_line_1
+    type: text
+  - name: scheduled_delivery_related_order_line_ref_order_id_address_id_address_line_2
+    type: text
+  - name: scheduled_delivery_related_order_line_ref_order_id_address_id_state
+    type: text
+  - name: scheduled_delivery_related_order_line_ref_order_id_address_id_zip
+    type: text
+  - name: scheduled_delivery_related_order_line_ref_order_id_customer_address_city
+    type: text
+  - name: scheduled_delivery_related_order_line_ref_order_id_customer_id_hubspot_id
+    type: text
+  - name: scheduled_delivery_related_order_line_ref_qb_related_item
+    type: text
+  - name: import_id
+    type: text
+  - name: asset_tag_association_asset_item_name
+    type: text
+  - name: cust_id_lookup
+    type: text
+  - name: cust_id_lookup_first_name
+    type: text
+  - name: cust_id_lookup_last_name
+    type: text
+  - name: cust_id_lookup_email
+    type: text
+  - name: scheduled_delivery_order_line_order_related_customer
+    type: text
+  - name: asset_tag_association_asset_item_sku
+    type: text

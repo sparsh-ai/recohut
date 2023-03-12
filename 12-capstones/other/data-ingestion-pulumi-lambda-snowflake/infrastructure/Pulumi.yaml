@@ -1,0 +1,6 @@
+name: paas_data_ingestion
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: Ingesting data with AWS lambdas and Snowflake in a scalable, fully replayable manner

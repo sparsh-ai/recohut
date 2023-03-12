@@ -1,0 +1,4 @@
+customers_prod:
+  fields:
+    - name: loopCustomerId
+      type: TEXT

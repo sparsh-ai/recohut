@@ -1,0 +1,4 @@
+cdk deploy --parameters bucketNameParm=kda-upload-tmak\
+--parameters kdaoutputbucketname=kda-output-tmak\
+--parameters sourceStreamName=ProducerStream\
+--parmeters deliveryStreamName=AnalyticsOutput 

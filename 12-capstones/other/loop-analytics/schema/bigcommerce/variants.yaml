@@ -1,0 +1,49 @@
+variants:
+  fields:
+  - name: id
+    type: int
+  - name: product_id
+    type: int
+  - name: sku
+    type: varchar(20)
+  - name: price
+    type: float
+  - name: calculated_price
+    type: float
+  - name: sale_price
+    type: float
+  - name: retail_price
+    type: float
+  - name: map_price
+    type: float
+  - name: weight
+    type: float
+  - name: calculated_weight
+    type: float
+  - name: width
+    type: float
+  - name: height
+    type: float
+  - name: depth
+    type: float
+  - name: is_free_shipping
+    type: varchar(10)
+  - name: purchasing_disabled
+    type: varchar(10)
+  - name: purchasing_disabled_message
+    type: varchar(255)
+  - name: image_url
+    type: varchar(1000)
+  - name: cost_price
+    type: float
+  - name: upc
+    type: varchar(255)
+  - name: gtin
+    type: varchar(255)
+  - name: inventory_level
+    type: float
+  - name: bin_picking_number
+    type: int
+  - name: option_values
+    type: varchar(max)
+  pk: [id]

@@ -1,0 +1,60 @@
+line_items:
+  fields:
+    - name: id
+      type: text
+    - name: order_id
+      type: text
+    - name: admin_graphql_api_id
+      type: text
+    - name: fulfillable_quantity
+      type: int
+    - name: fulfillment_service
+      type: text
+    - name: fulfillment_status
+      type: text
+    - name: gift_card
+      type: bool
+    - name: grams
+      type: int
+    - name: name
+      type: text
+    - name: origin_location
+      type: text
+    - name: price
+      type: float
+    - name: price_set
+      type: text
+    - name: product_exists
+      type: bool
+    - name: product_id
+      type: text
+    - name: properties
+      type: text
+    - name: quantity
+      type: int
+    - name: requires_shipping
+      type: bool
+    - name: sku
+      type: text
+    - name: taxable
+      type: bool
+    - name: title
+      type: text
+    - name: total_discount
+      type: float
+    - name: total_discount_set
+      type: text
+    - name: variant_id
+      type: text
+    - name: variant_inventory_management
+      type: text
+    - name: variant_title
+      type: text
+    - name: vendor
+      type: text
+    - name: tax_lines
+      type: text
+    - name: duties
+      type: text
+    - name: discount_allocations
+      type: text

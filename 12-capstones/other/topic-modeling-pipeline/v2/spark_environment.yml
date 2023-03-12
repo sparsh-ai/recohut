@@ -1,0 +1,19 @@
+name: spark
+dependencies:
+  - python=3.10
+  - pip==22.2.2
+  - pip:
+    - nb_black==1.0.7
+    - boto3
+    - s3fs
+    - nltk==3.7
+    - scikit-learn==1.1.2
+    - distributed==2022.8.0
+    - dask[dataframe]==2022.8.0
+    - dask[distributed]==2022.8.0
+    - dask-ml==2022.5.27
+  - conda==4.3.16
+  - conda:
+    - ipykernel==6.15.1
+    - openjdk==17.0.3
+    - pyspark==3.3.0

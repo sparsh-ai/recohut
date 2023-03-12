@@ -1,0 +1,31 @@
+WITH
+ orders_completed as (
+  SELECT session_id, fwa.timestamp, event, coalesce(fwa.member_id, mim.member_id, fwa.anonymous_id, fwa.user_id) as user_identifier,
+    row_number() OVER (PARTITION BY session_id ORDER BY timestamp) as order_rn
+  FROM {{ref('fact_web_activity')}} as fwa
+  LEFT JOIN {{ref('member_id_map_shopify')}} as mim on mim.src_id = anonymous_id and mim.src = 'segment'
+  WHERE event = 'order_completed'
+)
+  SELECT
+    cast(lprt.live_date as date) as go_live_date
+  , CAST(fwa.timestamp as date) AS event_date
+  , CASE
+      WHEN CAST(FWA.timestamp as date) < CAST(LPRT.live_date as date) THEN 'PRE'
+      ELSE 'POST'
+    END AS period
+  , lprt.product
+  , LOWER(REGEXP_REPLACE(REGEXP_REPLACE(lprt.url, '^https://[^\/]*/', '/'), '\\?.*', '')) as url
+  , count(DISTINCT fwa.session_id) distinct_sessions
+  , count(DISTINCT coalesce(fwa.member_id, member_id_map.member_id, fwa.anonymous_id, fwa.user_id)) as distinct_members
+  , count(DISTINCT case when fwa.event = 'product_added' then fwa.session_id end) as num_add_to_cart_events
+  , count(DISTINCT oc.user_identifier) as num_orders_completed
+  FROM
+  {{ ref ('fact_web_activity')}} as fwa
+      JOIN {{ source('googlesheets', 'loop_pdp_rewrite_tracker')}} as lprt
+        on LOWER(REGEXP_REPLACE(REGEXP_REPLACE(lprt.url, '^https://[^\/]*/', '/'), '\\?.*', ''))  =
+           LOWER(REGEXP_REPLACE(REGEXP_REPLACE(fwa.url, '^https://[^\/]*/', '/' ), '\\?.*', ''))
+           and fwa.timestamp between CAST(lprt.live_date AS DATE) - INTERVAL '30 days' and CAST(lprt.live_date AS DATE) + INTERVAL '30 days'
+      LEFT JOIN {{ref('member_id_map_shopify')}} as mim on mim.src_id = anonymous_id and mim.src = 'segment'
+      LEFT JOIN orders_completed as oc on fwa.session_id = oc.session_id and oc.order_rn = 1
+  WHERE 1 = 1
+  GROUP BY cast(fwa.timestamp as date), product, lprt.url, lprt.live_date

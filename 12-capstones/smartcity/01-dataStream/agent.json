@@ -1,0 +1,13 @@
+{
+    "cloudwatch.emitMetrics": true,
+    "cloudwatch.endpoint": "",
+    "kinesis.endpoint": "",
+    
+    "flows": [
+      {
+        "filePattern": "/tmp/messages/*",
+        "kinesisStream": "smartcity-emergency-system-events",
+        "partitionKeyOption": "RANDOM"
+      }
+    ]
+  }

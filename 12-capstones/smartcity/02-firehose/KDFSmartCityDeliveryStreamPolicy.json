@@ -1,0 +1,61 @@
+{
+    "Version": "2012-10-17",  
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "glue:GetTable",
+                "glue:GetTableVersion",
+                "glue:GetTableVersions"
+            ],
+            "Resource": [
+                "arn:aws:glue:<your-aws-region>:<your-aws-account-id>:catalog",
+                "arn:aws:glue:<your-aws-region>:<your-aws-account-id>:database/smartcitybikes",
+                "arn:aws:glue:<your-aws-region>:<your-aws-account-id>:table/smartcitybikes/bikestationsdata"
+            ]
+        },
+        {      
+            "Effect": "Allow",      
+            "Action": [
+                "s3:AbortMultipartUpload",
+                "s3:GetBucketLocation",
+                "s3:GetObject",
+                "s3:ListBucket",
+                "s3:ListBucketMultipartUploads",
+                "s3:PutObject"
+            ],      
+            "Resource": [        
+                "arn:aws:s3:::<prefix>-kdf-smartcitybikes-data",
+                "arn:aws:s3:::<prefix>-kdf-smartcitybikes-data/*"    
+            ]    
+        },        
+        {
+            "Effect": "Allow",
+            "Action": [
+                "kinesis:DescribeStream",
+                "kinesis:GetShardIterator",
+                "kinesis:GetRecords",
+                "kinesis:ListShards"
+            ],
+            "Resource": ["arn:aws:kinesis:<your-aws-region>:<your-aws-account-id>:stream/KDSSmartCityBikesStream"]
+        },
+        {
+           "Effect": "Allow",
+           "Action": [
+               "logs:PutLogEvents"
+           ],
+           "Resource": [
+               "arn:aws:logs:<your-aws-region>:<your-aws-account-id>:log-group:/aws/kinesisfirehose/KDFSmartCityBikesDelivery:log-stream:S3Delivery",
+               "arn:aws:logs:<your-aws-region>:<your-aws-account-id>:log-group:/aws/kinesisfirehose/KDFSmartCityBikesDeliveryBackup:log-stream:S3Delivery"
+           ]
+        },
+        {
+           "Effect": "Allow", 
+           "Action": [
+               "lambda:InvokeFunction", 
+               "lambda:GetFunctionConfiguration" 
+           ],
+           "Resource": "arn:aws:lambda:<your-aws-region>:<your-aws-account-id>:function:KDFLookupAddressTransform:$LATEST"
+        }
+    ]
+}

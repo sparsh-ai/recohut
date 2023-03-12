@@ -1,0 +1,45 @@
+{
+    "Name": "bikestationsdata",
+    "Description": "",
+    "StorageDescriptor": {
+        "Columns": [
+            {"Name":"stationid", "Type":"int"}, 
+            {"Name":"action", "Type":"string"}, 
+            {"Name":"tripduration", "Type":"int"}, 
+            {"Name":"price", "Type":"double"}, 
+            {"Name":"bikedetail", "Type":"struct<bikeNum:string,bikeType:string>"}, 
+            {"Name":"eventutctime", "Type":"string"}, 
+            {"Name":"stationaddress", "Type":"string"}
+        ],
+        "Location":"s3://<prefix>-kdf-smartcitybikes-data/smartcityparquet/",
+        "InputFormat": "org.apache.hadoop.hive.ql.io.parquet.MapredParquetInputFormat",
+        "OutputFormat": "org.apache.hadoop.hive.ql.io.parquet.MapredParquetOutputFormat",
+        "Compressed": false,
+        "NumberOfBuckets": -1,
+        "SerdeInfo": { 
+            "SerializationLibrary": "org.apache.hadoop.hive.ql.io.parquet.serde.ParquetHiveSerDe", 
+            "Parameters": { 
+                "serialization.format": "1" 
+            } 
+        }
+    },
+    "PartitionKeys": [ 
+        {
+            "Name": "year", 
+            "Type": "string" 
+        }, 
+        {
+            "Name": "month", 
+            "Type": "string" 
+        }, 
+        {
+            "Name": "day", 
+            "Type": "string" 
+        }, 
+        { 
+            "Name": "hour", 
+            "Type": "string" 
+        } 
+    ],
+    "TableType": "EXTERNAL_TABLE"
+}

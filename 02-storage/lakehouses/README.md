@@ -160,3 +160,4 @@ The Medallion architecture is compatible with the concept of a data mesh. Bronze
 
 1. Introduction to Data Lakehouses - Delta, Iceberg and Hudi
 2. Working with AWS S3 and Delta lake in Databricks
+3. Build a serverless transactional data lake with Apache Iceberg, Amazon EMR Serverless, and Amazon Athena [[source code](02-storage/lakehouses/lab-glue-emr-iceberg-serverless-lakehouse/)]

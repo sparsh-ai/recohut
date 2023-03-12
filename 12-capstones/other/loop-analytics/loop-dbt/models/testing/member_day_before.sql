@@ -1,0 +1,1 @@
+select * from dw2.members

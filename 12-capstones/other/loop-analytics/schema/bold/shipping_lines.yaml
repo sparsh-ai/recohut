@@ -1,0 +1,24 @@
+shipping_lines:
+  fields:
+    - name: code
+      type: int
+    - name: created_at
+      type: TIMESTAMP
+    - name: id
+      type: text
+    - name: name
+      type: text
+    - name: price
+      type: int
+    - name: price_charged
+      type: int
+    - name: subscription_id
+      type: text
+    - name: tag
+      type: text
+    - name: updated_at
+      type: TIMESTAMP
+    - name: value
+      type: int
+    - name: value_charged
+      type: int

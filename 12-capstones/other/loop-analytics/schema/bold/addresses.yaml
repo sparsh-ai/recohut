@@ -1,0 +1,49 @@
+addresses:
+  fields:
+    - name: address_use
+      type: text
+    - name: address_function
+      type: text
+      descr: shipping | billing
+    - name: city
+      type: text
+    - name: company
+      type: text
+    - name: country
+      type: text
+    - name: country_code
+      type: text
+    - name: created_at
+      type: TIMESTAMP
+    - name: customer_id
+      type: text
+    - name: first_name
+      type: text
+    - name: id
+      type: text
+    - name: is_default
+      type: BOOL
+    - name: last_name
+      type: text
+    - name: phone
+      type: text
+    - name: platform_customer_id
+      type: text
+    - name: platform_id
+      type: text
+    - name: platform_type
+      type: text
+    - name: province
+      type: text
+    - name: province_code
+      type: text
+    - name: shop_identifier
+      type: text
+    - name: street1
+      type: text
+    - name: street2
+      type: text
+    - name: updated_at
+      type: TIMESTAMP
+    - name: zip
+      type: text

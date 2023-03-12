@@ -1,0 +1,92 @@
+inventory:
+  fields:
+  - name: quickbase_asset_id
+    type: text
+  - name: inventory_status
+    type: text
+  - name: item_sku
+    type: text
+  - name: item_name
+    type: text
+  - name: item_category
+    type: text
+  - name: asset_tag
+    type: text
+  - name: cost_pretax_price
+    type: text
+  - name: cost_sales_tax
+    type: text
+  - name: cost_shipping
+    type: text
+  - name: cost_total
+    type: text
+  - name: retail_price_new
+    type: numeric
+  - name: inventory_location_inventory_location_name
+    type: text
+  - name: inventory_location_locality
+    type: text
+  - name: asset_receipts
+    type: text
+  - name: date_asset_received
+    type: text
+  - name: receipt_date
+    type: text
+  - name: asset_tag_associations
+    type: text
+  - name: pick_cancellations
+    type: text
+  - name: asset_tag_status
+    type: text
+  - name: receipt_document
+    type: text
+  - name: date_created
+    type: timestamp
+  - name: date_modified
+    type: timestamp
+  - name: last_modified_by
+    type: text
+  - name: pickings
+    type: text
+  - name: record_owner
+    type: text
+  - name: related_inventory_location
+    type: text
+  - name: related_item
+    type: text
+  - name: related_item_ref
+    type: text
+  - name: purchase_date
+    type: text
+  - name: import_id
+    type: text
+  - name: related_item_ref_qb_item_sku
+    type: text
+  - name: item_purchased_flag
+    type: text
+  - name: payment_method
+    type: text
+  - name: not_purchased_note
+    type: text
+  - name: merchant
+    type: text
+  - name: estimated_arrival_date
+    type: text
+  - name: repair_elaboration_from_qa
+    type: text
+  - name: price_paid_variance
+    type: numeric
+  - name: total_cost_including_store_credit
+    type: numeric
+  - name: pretax_price_net_of_discount
+    type: numeric
+  - name: oem__of_retail_price
+    type: numeric
+  - name: store_credit_issued
+    type: numeric
+  - name: oem_discount_flatno_discountqty_tiering
+    type: text
+  - name: oem_vendor_name
+    type: text
+  - name: order_
+    type: text

@@ -1,0 +1,5 @@
+---
+# '' (do not export to local CSV) or 'CSV_FILE_TWEETS_LOCAL.csv' (CSV name)
+local_csv_fpath: ''
+# '' (do not use Firehose stream) or twitter_delivery_stream (stream name)
+delivery_stream_name: twitter_delivery_stream

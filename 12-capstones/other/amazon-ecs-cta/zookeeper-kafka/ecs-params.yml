@@ -1,0 +1,28 @@
+version: 1
+task_definition:
+  ecs_network_mode: awsvpc
+  task_execution_role: ecsTaskExecutionRole
+  task_size:
+    cpu_limit: 1024
+    mem_limit: 4GB
+  services:
+    zookeeper:
+      essential: true
+      healthcheck:
+        test: ["CMD-SHELL", "echo success"]
+        interval: 5s
+        timeout: 10s
+        retries: 2
+        start_period: 30s
+    kafka:
+      essential: true
+      depends_on:
+        - container_name: zookeeper
+          condition: HEALTHY
+run_params:
+  network_configuration:
+    awsvpc_configuration:
+      subnets:
+        - subnet-01d9e2586224248fa
+        - subnet-04fd502776bdf4c60
+      assign_public_ip: ENABLED

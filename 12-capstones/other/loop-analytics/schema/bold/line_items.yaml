@@ -1,0 +1,58 @@
+line_items:
+  fields:
+    - name: created_at
+      type: TIMESTAMP
+    - name: discounted_price
+      type: int
+    - name: discounted_price_charged
+      type: int
+    - name: full_price
+      type: int
+    - name: full_price_charged
+      type: int
+    - name: grams
+      type: int
+    - name: id
+      type: text
+    - name: image
+      type: text
+    - name: platform_id
+      type: text
+    - name: platform_product_id
+      type: text
+    - name: platform_variant_id
+      type: text
+    - name: prepaid_metadata
+      type: text
+    - name: price
+      type: int
+    - name: price_charged
+      type: int
+    - name: product_name
+      type: text
+    - name: quantity
+      type: int
+    - name: requires_shipping
+      type: BOOL
+    - name: sku
+      type: text
+    - name: subscription_group_billing_rules_id
+      type: text
+    - name: subscription_group_id
+      type: text
+    - name: subscription_id
+      type: text
+    - name: taxable
+      type: BOOL
+    - name: title
+      type: text
+    - name: updated_at
+      type: TIMESTAMP
+    - name: url
+      type: text
+    - name: variant_name
+      type: text
+    - name: weight
+      type: text
+    - name: weight_unit
+      type: text

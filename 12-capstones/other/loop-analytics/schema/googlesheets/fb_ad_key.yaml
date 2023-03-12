@@ -1,0 +1,9 @@
+fb_ad_key:
+  descr: Googlesheet with FB ad key for Snoo and NY
+  fields:
+  - name: ad_name
+    type: text
+  - name: snoop
+    type: text
+  - name: ny
+    type: text

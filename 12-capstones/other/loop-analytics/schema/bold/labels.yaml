@@ -1,0 +1,14 @@
+labels:
+  fields:
+    - name: id
+      type: text
+    - name: customer_id
+      type: text
+    - name: name
+      type: text
+    - name: created_at
+      type: TIMESTAMP
+    - name: updated_at
+      type: TIMESTAMP
+    - name: deleted_at
+      type: TIMESTAMP

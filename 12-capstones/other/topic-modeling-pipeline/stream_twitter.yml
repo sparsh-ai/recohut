@@ -1,0 +1,72 @@
+---
+- name: Manage execution of Python twitter streaming script
+  # connection: local
+  # hosts: localhost
+  hosts: ec2host
+  become: false
+  any_errors_fatal: "{{ any_errors_fatal | default(true) }}"
+  gather_facts: true
+
+  tasks:
+    - name: Ping local host
+      ansible.builtin.ping:
+      register: ping_output
+      tags:
+        - stop
+        - start
+        - check
+    - name: Show output of ping
+      debug:
+        var: ping_output['ping']
+      tags:
+        - stop
+        - start
+        - check
+    - name: Show required environment variables
+      debug:
+        msg: "{{ item }}: {{ lookup('env', item) }}"
+      loop:
+        - 'AWS_ACCESS_KEY_ID'
+        - 'AWS_SECRET_ACCESS_KEY'
+        - 'AWS_REGION'
+        - 'TWITTER_API_KEY'
+        - 'TWITTER_API_KEY_SECRET'
+        - 'TWITTER_ACCESS_TOKEN'
+        - 'TWITTER_ACCESS_TOKEN_SECRET'
+      tags:
+        - check
+    - name: Run Python twitter script in background
+      ansible.builtin.shell: >
+          nohup python3 {{ ansible_env.HOME }}/twitter_s3.py \
+          --local-csv-fpath="{{ local_csv_fpath }}" \
+          --delivery-stream-name="{{ delivery_stream_name }}" \
+          2> /dev/null &
+      environment:
+          AWS_ACCESS_KEY_ID: "{{ lookup('env', 'AWS_ACCESS_KEY_ID') }}"
+          AWS_SECRET_ACCESS_KEY: "{{ lookup('env', 'AWS_SECRET_ACCESS_KEY') }}"
+          AWS_REGION: "{{ lookup('env', 'AWS_REGION') }}"
+          TWITTER_API_KEY: "{{ lookup('env', 'TWITTER_API_KEY') }}"
+          TWITTER_API_KEY_SECRET: "{{ lookup('env', 'TWITTER_API_KEY_SECRET') }}"
+          TWITTER_ACCESS_TOKEN: "{{ lookup('env', 'TWITTER_ACCESS_TOKEN') }}"
+          TWITTER_ACCESS_TOKEN_SECRET: "{{ lookup('env', 'TWITTER_ACCESS_TOKEN_SECRET') }}"
+      register: py_out
+      tags:
+        - start
+    - name: Getting process IDs of Python script process
+      community.general.pids:
+        pattern: twitter_s3.py
+      register: py_script_pid
+      tags:
+        - stop
+        - start
+    - name: Show PIDs for Python script process
+      debug:
+        msg: "PIDs for Python twitter script: {{ py_script_pid['pids'] }}"
+      tags:
+        - stop
+        - start
+    - name: Kill background process for Python twitter script
+      ansible.builtin.shell: "kill -9 {{ py_script_pid['pids'][0] }}"
+      when: py_script_pid['pids']|length > 0
+      tags:
+        - stop

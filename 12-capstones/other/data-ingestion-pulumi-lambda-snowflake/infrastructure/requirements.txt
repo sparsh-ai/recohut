@@ -1,0 +1,6 @@
+pulumi>=3.0.0,<4.0.0
+pulumi-aws>=4.0.0,<5.0.0
+pulumi-snowflake==0.2.1
+mypy
+pyright
+autopep8

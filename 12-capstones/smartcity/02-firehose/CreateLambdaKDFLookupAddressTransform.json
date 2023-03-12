@@ -1,0 +1,18 @@
+{
+   "FunctionName": "KDFLookupAddressTransform",
+    "Runtime": "python3.8",
+    "Role": "arn:aws:iam::<your-aws-accound-id>:role/KDFSmartCityLambdaRole",
+    "Handler": "KDFLookupAddressTransform.lambda_handler",
+    "Description": "An Amazon Kinesis Firehose lambda transform that decorates the incoming record with address information.",
+    "Timeout": 10,
+    "MemorySize": 128,
+    "Publish": false,
+    "Environment": {
+        "Variables": {
+            "dynamodb_table_name": "BikeStationAddress"
+        }
+    },
+    "Tags": {
+        "Purpose": "Firehose Lambda Transform"
+    }
+}

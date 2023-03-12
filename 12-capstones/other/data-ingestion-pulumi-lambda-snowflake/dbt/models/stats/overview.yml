@@ -1,0 +1,195 @@
+version: 2
+
+
+tests:
+  gte_zero: &gte_zero
+    dbt_utils.expression_is_true:
+      expression: '>= 0'
+
+colum_definitions:
+  timestamp: &timestamp
+    name: timestamp
+    description: Data analysis period
+  count_active_sessions: &count_active_sessions
+    name: count_active_sessions
+    description: The number of SESSIONS (distinct session_id) who were still exploring the website
+  count_new_sessions: &count_new_sessions
+    name: count_new_sessions
+    description: Any session started in the timeframe
+  count_active_users: &count_active_users
+    name: count_active_users
+    description: The number of LOGGED IN unique users (distinct user_id) who were still exploring the website
+  count_new_users: &count_new_users
+    name: count_new_users
+    description: Any session for a LOGGED IN USER started in the timeframe
+  count_active_clients: &count_active_clients
+    name: count_active_clients
+    description: The number of clients/browsers (distinct client_id) who were still exploring the website
+  count_new_clients: &count_new_clients
+    name: count_new_clients
+    description: The number of clients/browsers start visiting the website in the timeframe
+  pageviews: &pageviews
+    name: pageviews
+    description: Total number of pageviews
+  sum_of_product_clicks: &sum_of_product_clicks
+    name: sum_of_product_clicks
+    description: Count of ALL product clicks
+  product_clicks: &product_clicks
+    name: product_clicks
+    description: The number of distinct clicked products (session-based) in the timeframe
+  sum_of_product_details: &sum_of_product_details
+    name: sum_of_product_details
+    description: Count of ALL product details
+  product_details: &product_details
+    name: product_details
+    description: The number of distinct viewed products (session-based) in the timeframe
+  sum_of_add_to_cart: &sum_of_add_to_cart
+    name: sum_of_add_to_cart
+    description: Count of ALL the product added to the cart
+  add_to_cart: &add_to_cart
+    name: add_to_cart
+    description: The number of distinct added products (session-based) in the timeframe
+  sum_of_remove_from_cart: &sum_of_remove_from_cart
+    name: sum_of_remove_from_cart
+    description: Count of ALL the product removed frmo the cart
+  remove_from_cart: &remove_from_cart
+    name: remove_from_cart
+    description: The number of distinct removed products (session-based) in the timeframe
+  transactions: &transactions
+    name: transactions
+    description: Total number of transactions
+  transaction_revenue: &transaction_revenue
+    name: transaction_revenue
+    description: The total revenue for all the transactions in the timeframe
+  transaction_tax: &transaction_tax
+    name: transaction_tax
+    description: The total taxes for all the transactions in the timeframe
+  transaction_shipping: &transaction_shipping
+    name: transaction_shipping
+    description: The total shipping costs for all the transactions in the timeframe
+  purchased_items: &purchased_items
+    name: purchased_items
+    description: Total number of items (quantities) purchased in the timeframe
+  purchased_products: &purchased_products
+    name: purchased_products
+    description: Total number of unique products purchased in the timeframe
+
+
+models:
+
+  - name: overview_1d
+    description: Daily overview stats
+    config:
+      sort: timestamp
+    columns: &overview_columns
+      - <<: *timestamp
+        tests:
+          - unique
+          - not_null
+      - <<: *count_active_sessions
+        tests:
+          - not_null
+          - <<: *gte_zero
+      - <<: *count_new_sessions
+        tests:
+          - not_null
+          - <<: *gte_zero
+      - <<: *count_active_users
+        tests:
+          - not_null
+          - <<: *gte_zero
+      - <<: *count_new_users
+        tests:
+          - not_null
+          - <<: *gte_zero
+      - <<: *count_active_clients
+        tests:
+          - not_null
+          - <<: *gte_zero
+      - <<: *count_new_clients
+        tests:
+          - not_null
+          - <<: *gte_zero
+      - <<: *pageviews
+        tests:
+          - not_null
+          - <<: *gte_zero
+      - <<: *sum_of_product_clicks
+        tests:
+          - not_null
+          - <<: *gte_zero
+      - <<: *product_clicks
+        tests:
+          - not_null
+          - <<: *gte_zero
+      - <<: *sum_of_product_details
+        tests:
+          - not_null
+          - <<: *gte_zero
+      - <<: *product_details
+        tests:
+          - not_null
+          - <<: *gte_zero
+      - <<: *sum_of_add_to_cart
+        tests:
+          - not_null
+          - <<: *gte_zero
+      - <<: *add_to_cart
+        tests:
+          - not_null
+          - <<: *gte_zero
+      - <<: *sum_of_remove_from_cart
+        tests:
+          - not_null
+          - <<: *gte_zero
+      - <<: *remove_from_cart
+        tests:
+          - not_null
+          - <<: *gte_zero
+      - <<: *transactions
+        tests:
+          - not_null
+          - <<: *gte_zero
+      - <<: *transaction_revenue
+        tests:
+          - not_null
+          - <<: *gte_zero
+      - <<: *transaction_tax
+        tests:
+          - not_null
+          - <<: *gte_zero
+      - <<: *transaction_shipping
+        tests:
+          - not_null
+          - <<: *gte_zero
+      - <<: *purchased_items
+        tests:
+          - not_null
+          - <<: *gte_zero
+      - <<: *purchased_products
+        tests:
+          - not_null
+          - <<: *gte_zero
+
+
+  - name: overview_1h
+    description: Hourly overview stats
+    config:
+      sort: timestamp
+    columns: *overview_columns
+    tests:
+      - compare_models:
+          column: count_new_sessions
+          with_model: ref('overview_1d')
+          with_column: count_active_sessions
+          date_agg: TO_DATE(timestamp)
+      - compare_models:
+          column: count_new_users
+          with_model: ref('overview_1d')
+          with_column: count_active_users
+          date_agg: TO_DATE(timestamp)
+      - compare_models:
+          column: count_new_clients
+          with_model: ref('overview_1d')
+          with_column: count_active_clients
+          date_agg: TO_DATE(timestamp)

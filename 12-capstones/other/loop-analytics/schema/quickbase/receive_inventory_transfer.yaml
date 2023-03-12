@@ -1,0 +1,38 @@
+receive_inventory_transfer:
+  fields:
+  - name: record_id
+    type: text
+  - name: regional_inv_trnsfr_receipt_status
+    type: text
+  - name: transfer_receipt_date
+    type: text
+  - name: inventory_location_inventory_location_name
+    type: text
+  - name: regional_inventory_transfer_initiation_destination_location
+    type: text
+  - name: regional_inventory_transfer_initiation_asset_tag_association_related_asset
+    type: text
+  - name: regional_inventory_transfer_initiation_asset_tag_association_asset_item_sku
+    type: text
+  - name: regional_inventory_transfer_initiation_asset_tag_association_asset_item_name
+    type: text
+  - name: regional_inventory_transfer_initiation_date_transfer_initiated
+    type: text
+  - name: date_created
+    type: timestamp
+  - name: date_modified
+    type: timestamp
+  - name: inventory_reportlink
+    type: text
+  - name: last_modified_by
+    type: text
+  - name: record_owner
+    type: text
+  - name: regional_inv_trnsfr_reportlink
+    type: text
+  - name: related_inventory_location
+    type: text
+  - name: related_regional_inventory_transfer_initiation
+    type: text
+  - name: regional_inventory_transfer_initiation_asset_tag_association_asset_tag
+    type: text

@@ -1,0 +1,52 @@
+associate_customer_address_to_order:
+  fields:
+  - name: related_order_line
+    type: text
+  - name: related_customer_address
+    type: text
+  - name: customer_address_address
+    type: text
+  - name: customer_address_related_customer
+    type: text
+  - name: ol_reportlink
+    type: text
+  - name: related_order_line_ref
+    type: text
+  - name: related_customer_address_lookup
+    type: text
+  - name: related_order
+    type: text
+  - name: order_number
+    type: text
+  - name: related_order_line_ref_qb_order_
+    type: text
+  - name: related_order_line_ref_qb_related_order_ref
+    type: text
+  - name: related_order_line_ref_qb_order_related_customer
+    type: text
+  - name: qb_orders_reportlink
+    type: text
+  - name: related_order_line_ref_qb_order_2
+    type: text
+  - name: related_order_line_ref_qb_first
+    type: text
+  - name: related_order_line_ref_qb_last
+    type: text
+  - name: related_customer_address_ref
+    type: text
+  - name: order_id
+    type: text
+  - name: order_address_id
+    type: text
+  - name: related_order_line_ref_order_id_address_concat
+    type: text
+  - name: date_created
+    type: timestamp
+  - name: date_modified
+    type: timestamp
+  - name: record_id
+    type: text
+  - name: record_owner
+    type: text
+  - name: last_modified_by
+    type: text

@@ -1,0 +1,36 @@
+customers:
+  fields:
+  - name: id
+    type: int
+  - name: authentication
+    type: varchar(max)
+  - name: company
+    type: text
+  - name: customer_group_id
+    type: int
+  - name: email
+    type: text
+  - name: first_name
+    type: text
+  - name: last_name
+    type: text
+  - name: notes
+    type: text
+  - name: phone
+    type: text
+  - name: registration_ip_address
+    type: text
+  - name: tax_exempt_category
+    type: text
+  - name: date_created
+    type: timestamp
+  - name: date_modified
+    type: timestamp
+  - name: accepts_product_review_abandoned_cart_emails
+    type: boolean
+  - name: origin_channel_id
+    type: int
+  - name: channel_ids
+    type: text
+  pk: [id]
+  audit_cols: [date_created]

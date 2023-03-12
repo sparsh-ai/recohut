@@ -1,0 +1,5 @@
+numpy==1.23.2
+pandas==1.4.3
+python-dotenv==0.20.0
+emoji==2.0.0
+boto3==1.24.57

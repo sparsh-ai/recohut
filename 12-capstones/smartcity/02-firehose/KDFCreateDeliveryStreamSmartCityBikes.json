@@ -1,0 +1,87 @@
+{
+	"DeliveryStreamName": "KDFSmartCityBikesDelivery",
+    "DeliveryStreamType": "KinesisStreamAsSource",
+    "KinesisStreamSourceConfiguration": {
+        "KinesisStreamARN": "arn:aws:kinesis:<your-aws-region>:<your-aws-accound-id>:stream/KDSSmartCityBikesStream",
+        "RoleARN": "arn:aws:iam::<your-aws-accound-id>:role/service-role/KDFSmartCityDeliveryRole"
+    },
+	"ExtendedS3DestinationConfiguration": {
+		"RoleARN": "arn:aws:iam::<your-aws-accound-id>:role/service-role/KDFSmartCityDeliveryRole",
+		"BucketARN": "arn:aws:s3:::://<prefix>-kdf-smartcitybikes-data",
+		"Prefix": "smartcitybikes/year=!{timestamp:YYYY}/month=!{timestamp:MM}/day=!{timestamp:dd}/hour=!{timestamp:HH}/",
+        "ErrorOutputPrefix": "smartcitybikeserror/!{firehose:error-output-type}/!{timestamp:YYYY}/month=!{timestamp:MM}/day=!{timestamp:dd}/hour=!{timestamp:HH}/",
+		"BufferingHints": {
+			"SizeInMBs": 128,
+			"IntervalInSeconds": 900
+		},
+		"CompressionFormat": "UNCOMPRESSED",
+		"CloudWatchLoggingOptions": {
+			"Enabled": true,
+			"LogGroupName": "/aws/kinesisfirehose/KDFSmartCityBikesDelivery",
+			"LogStreamName": "S3Delivery"
+		},
+		"ProcessingConfiguration": {
+            "Enabled": true,
+            "Processors": [
+                {
+                    "Type": "Lambda",
+                    "Parameters":  [
+                        {
+                            "ParameterName": "LambdaArn",
+                            "ParameterValue": "arn:aws:lambda:<your-aws-region>:<your-aws-accound-id>:function:KDFLookupAddressTransform:$LATEST"
+                        },
+                        {
+                            "ParameterName": "NumberOfRetries",
+                            "ParameterValue": "3"
+                        },
+                        {
+                            "ParameterName": "BufferSizeInMBs",
+                            "ParameterValue": "3"
+                        },
+                        {
+                            "ParameterName": "BufferIntervalInSeconds",
+                            "ParameterValue": "60"
+                        }
+                    ]
+                }
+            ]
+        },
+		"S3BackupMode": "Enabled",
+        "S3BackupConfiguration": {
+            "RoleARN": "arn:aws:iam::<your-aws-accound-id>:role/service-role/KDFSmartCityDeliveryRole",
+            "BucketARN": "arn:aws:s3:::://<prefix>-kdf-smartcitybikes-data",
+            "Prefix": "smartcitybikesbackup/year=!{timestamp:YYYY}/month=!{timestamp:MM}/day=!{timestamp:dd}/hour=!{timestamp:HH}/",
+            "ErrorOutputPrefix": "smartcitybikesbackuperror/!{firehose:error-output-type}/!{timestamp:YYYY}/month=!{timestamp:MM}/day=!{timestamp:dd}/hour=!{timestamp:HH}/",
+            "BufferingHints": {
+                "SizeInMBs": 128,
+                "IntervalInSeconds": 900
+            },
+            "CompressionFormat": "GZIP",
+            "CloudWatchLoggingOptions": {
+                "Enabled": true,
+                "LogGroupName": "/aws/kinesisfirehose/KDFSmartCityBikesDeliveryBackup",
+			    "LogStreamName": "S3Delivery"
+            }
+        },
+        "DataFormatConversionConfiguration": {
+            "SchemaConfiguration": {
+                "RoleARN": "arn:aws:iam::<your-aws-accound-id>:role/service-role/KDFSmartCityDeliveryRole",
+                "DatabaseName": "smartcitybikes",
+                "TableName": "bikestationsdata",
+                "Region": "<your-aws-region>",
+                "VersionId": "LATEST"
+            },
+            "InputFormatConfiguration": {
+                "Deserializer": {
+                    "OpenXJsonSerDe": {}
+                }
+            },
+            "OutputFormatConfiguration": {
+                "Serializer": {
+                    "ParquetSerDe": {}
+                }
+            },
+            "Enabled": true
+        }
+    }
+}

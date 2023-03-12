@@ -1,0 +1,70 @@
+pick_cancellation:
+  fields:
+  - name: related_order_line
+    type: text
+  - name: related_scheduled_delivery
+    type: text
+  - name: related_asset
+    type: text
+  - name: asset_related_item
+    type: text
+  - name: related_picking
+    type: text
+  - name: picking_related_scheduled_delivery
+    type: text
+  - name: ol_reportlink
+    type: text
+  - name: pickings_reportlink
+    type: text
+  - name: deliveries_reportlink
+    type: text
+  - name: inventory_reportlink
+    type: text
+  - name: picking_scheduled_delivery_related_order_line
+    type: text
+  - name: picking_scheduled_delivery_date
+    type: text
+  - name: picking_scheduled_delivery_order_line_item_sku
+    type: text
+  - name: picking_asset_tag_association_related_asset
+    type: text
+  - name: related_inventory_location
+    type: text
+  - name: inventory_location_inventory_location_name
+    type: text
+  - name: scheduled_delivery_related_order_line
+    type: text
+  - name: scheduled_delivery_order_line_related_customer_address
+    type: text
+  - name: scheduled_delivery_order_line_item_sku
+    type: text
+  - name: scheduled_delivery_order_line_customer_address_address
+    type: text
+  - name: picking_inventory_location_inventory_location_name
+    type: text
+  - name: related_order_line_ref
+    type: text
+  - name: picking_scheduled_delivery_related_order_line_ref
+    type: text
+  - name: picking_scheduled_delivery_related_order_line_ref_order_id_address_concat
+    type: text
+  - name: picking_scheduled_delivery_related_order_line_ref_qb_item_name
+    type: text
+  - name: picking_scheduled_delivery_related_order_line_ref_qb_order_
+    type: text
+  - name: picking_scheduled_delivery_customer_firstname
+    type: text
+  - name: picking_scheduled_delivery_customer_lastname
+    type: text
+  - name: picking_scheduled_delivery_related_order_line_ref_order_id_customer_id_hubspot_id
+    type: text
+  - name: date_created
+    type: timestamp
+  - name: date_modified
+    type: timestamp
+  - name: record_id
+    type: text
+  - name: record_owner
+    type: text
+  - name: last_modified_by
+    type: text

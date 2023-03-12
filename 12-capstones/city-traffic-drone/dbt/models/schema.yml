@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: source
+    schema: vehicle_trajectory
+    tables:
+      - name: endpoints_location
+      - name: endpoints_trafficinfo
+
+models:
+  - name: dim_types
+    columns:
+      - name: Id
+        tests:
+          - unique

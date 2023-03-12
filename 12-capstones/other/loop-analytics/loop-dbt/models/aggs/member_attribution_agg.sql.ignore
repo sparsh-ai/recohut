@@ -1,0 +1,54 @@
+WITH attribution_window as (
+    -- 30 day window
+    SELECT 24*180  AS attribution_window_hrs
+)
+, member_signups as (
+    SELECT
+        member_id as member_id
+        , membership_start_dt as event_ts
+    FROM {{ ref('dim_members_shopify') }}
+    WHERE membership_start_dt <= CURRENT_DATE
+), marketing_events as (
+    select distinct
+        'traffic'::text as event_type
+        , fwa.session_id as event_id
+        , fwa.member_id
+        , session_start_ts as event_ts
+        , session_channel_id as channel_id
+        , session_campaign_name as campaign_id
+    from {{ ref('fact_web_activity') }} fwa
+), event_window AS (
+    SELECT
+        member_signups.member_id
+        , member_signups.event_ts as order_ts
+        , marketing_events.event_type
+        , marketing_events.event_id
+        , marketing_events.event_ts
+        , marketing_events.channel_id
+        , marketing_events.campaign_id
+        , row_number() over(partition by member_signups.member_id order by marketing_events.event_ts asc, marketing_events.event_id asc) as rn_asc
+        , row_number() over(partition by member_signups.member_id order by marketing_events.event_ts desc, marketing_events.event_id desc) as rn_desc
+        , COUNT(*) OVER(PARTITION BY member_signups.member_id) as event_ct
+    FROM member_signups
+    CROSS JOIN attribution_window
+    LEFT JOIN marketing_events
+        ON marketing_events.member_id = member_signups.member_id
+        AND DATEADD('days', 1, member_signups.event_ts) >= marketing_events.event_ts  -- timezones & latency
+        AND DATEADD( hour, -1*attribution_window_hrs, member_signups.event_ts ) <= marketing_events.event_ts
+)
+SELECT
+    member_id
+    , event_id
+    , order_ts
+    , event_ts
+    , COALESCE(channel_id, 'direct') AS channel_id
+    , COALESCE(campaign_id, 'no campaign') AS campaign_id
+    , case when rn_asc = 1 then 1.0 else 0.0 end as first_touch_weighting
+    , case when rn_desc = 1 then 1.0 else 0.0 end as last_touch_weighting
+    , case
+        when event_ct = 1 then 1.0
+        when event_ct = 2 then 0.5
+        when rn_desc = 1 or rn_asc = 1 then 0.25
+        else 0.5/(event_ct - 2.0)
+    end as multi_touch_weighting
+FROM event_window

@@ -1,0 +1,4 @@
+carts_dev:
+  fields:
+    - name: loopCustomerId
+      type: TEXT

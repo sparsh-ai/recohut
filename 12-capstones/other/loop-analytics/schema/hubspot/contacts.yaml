@@ -1,0 +1,382 @@
+contacts:
+  fields:
+    - name: hs_sa_first_engagement_descr
+      type: text
+    - name: ip__shopify__verified_email
+      type: text
+    - name: hs_analytics_first_visit_timestamp
+      type: text
+    - name: hs_ip_timezone
+      type: text
+    - name: hs_analytics_average_page_views
+      type: text
+    - name: phone
+      type: text
+    - name: hs_is_unworked
+      type: text
+    - name: ip__shopify__accepts_marketing
+      type: text
+    - name: hs_analytics_last_timestamp
+      type: text
+    - name: ip__shopify__tags
+      type: text
+    - name: city
+      type: text
+    - name: hs_time_to_move_from_lead_to_customer
+      type: text
+    - name: ip__sync_extension__external_source_app_id
+      type: text
+    - name: hs_email_last_click_date
+      type: timestamp
+    - name: firstname
+      type: text
+    - name: calendly_question_5
+      type: text
+    - name: first_conversion_event_name
+      type: text
+    - name: membership_type
+      type: text
+    - name: jobtitle
+      type: text
+    - name: hs_email_last_reply_date
+      type: timestamp
+    - name: hs_analytics_first_url
+      type: text
+    - name: hs_is_contact
+      type: text
+    - name: ip_city
+      type: text
+    - name: hs_searchable_calculated_phone_number
+      type: text
+    - name: hs_lifecyclestage_salesqualifiedlead_date
+      type: timestamp
+    - name: recent_conversion_event_name
+      type: text
+    - name: product_7
+      type: text
+    - name: ip_state
+      type: text
+    - name: hs_last_sales_activity_date
+      type: timestamp
+    - name: ip__shopify__tax_exempt
+      type: text
+    - name: hs_analytics_last_referrer
+      type: text
+    - name: ip__sync_extension__external_source_account_id
+      type: text
+    - name: hs_lifecyclestage_subscriber_date
+      type: text
+    - name: created_at
+      type: timestamp
+    - name: calendly_answer_5
+      type: text
+    - name: hs_calculated_form_submissions
+      type: text
+    - name: hs_email_hard_bounce_reason_enum
+      type: text
+    - name: hs_time_to_move_from_subscriber_to_customer
+      type: text
+    - name: calendly_question_1
+      type: text
+    - name: hs_lead_status
+      type: text
+    - name: hs_first_engagement_object_id
+      type: text
+    - name: product_3
+      type: text
+    - name: days_to_close
+      type: text
+    - name: hs_lifecyclestage_lead_date
+      type: text
+    - name: calendly_answer_3
+      type: text
+    - name: hs_sales_email_last_replied
+      type: text
+    - name: hs_marketable_reason_type
+      type: text
+    - name: hs_analytics_last_url
+      type: text
+    - name: hs_latest_meeting_activity
+      type: text
+    - name: email
+      type: text
+    - name: ip__ecomm_bridge__source_app_id
+      type: text
+    - name: hs_social_num_broadcast_clicks
+      type: text
+    - name: hs_user_ids_of_all_owners
+      type: text
+    - name: hs_email_first_click_date
+      type: text
+    - name: ip_country
+      type: text
+    - name: calendly_answer_4
+      type: text
+    - name: mobilephone
+      type: text
+    - name: hs_analytics_first_timestamp
+      type: text
+    - name: createdate
+      type: text
+    - name: hs_time_to_first_engagement
+      type: text
+    - name: ip__shopify__account_state
+      type: text
+    - name: hs_sa_first_engagement_date
+      type: text
+    - name: lifecyclestage
+      type: text
+    - name: num_notes
+      type: text
+    - name: hs_object_id
+      type: text
+    - name: message
+      type: text
+    - name: hs_marketable_reason_id
+      type: text
+    - name: calendly_question_3
+      type: text
+    - name: hs_email_bounce
+      type: text
+    - name: total_revenue
+      type: text
+    - name: hs_marketable_until_renewal
+      type: text
+    - name: product_6
+      type: text
+    - name: first_deal_created_date
+      type: text
+    - name: hs_time_between_contact_creation_and_deal_close
+      type: text
+    - name: hs_searchable_calculated_mobile_number
+      type: text
+    - name: first_conversion_date
+      type: text
+    - name: product_1
+      type: text
+    - name: hs_lifecyclestage_opportunity_date
+      type: text
+    - name: hs_social_twitter_clicks
+      type: text
+    - name: hs_all_owner_ids
+      type: text
+    - name: hs_all_assigned_business_unit_ids
+      type: text
+    - name: hs_email_last_email_name
+      type: text
+    - name: hs_analytics_source
+      type: text
+    - name: hs_last_sales_activity_timestamp
+      type: text
+    - name: hs_social_linkedin_clicks
+      type: text
+    - name: hs_email_delivered
+      type: text
+    - name: ip_state_code
+      type: text
+    - name: hs_content_membership_notes
+      type: text
+    - name: product_2
+      type: text
+    - name: hs_email_open
+      type: text
+    - name: hs_email_sends_since_last_engagement
+      type: text
+    - name: hs_email_bad_address
+      type: text
+    - name: leaddyno_affiliate_type
+      type: text
+    - name: recent_conversion_date
+      type: text
+    - name: hs_lifecyclestage_other_date
+      type: text
+    - name: notes_last_contacted
+      type: text
+    - name: calendly_answer_2
+      type: text
+    - name: hs_persona
+      type: text
+    - name: hs_email_first_reply_date
+      type: text
+    - name: hs_email_first_send_date
+      type: text
+    - name: hs_marketable_status
+      type: text
+    - name: hs_email_first_open_date
+      type: text
+    - name: hs_time_to_move_from_opportunity_to_customer
+      type: text
+    - name: hs_analytics_num_visits
+      type: text
+    - name: hs_calculated_phone_number
+      type: text
+    - name: state
+      type: text
+    - name: hs_calculated_merged_vids
+      type: text
+    - name: ip__shopify__orders_count
+      type: text
+    - name: email_engagement
+      type: text
+    - name: hs_time_between_contact_creation_and_deal_creation
+      type: text
+    - name: monthly_charge
+      type: text
+    - name: hs_email_optout
+      type: text
+    - name: hs_calculated_mobile_number
+      type: text
+    - name: calendly_answer_1
+      type: text
+    - name: hs_created_by_conversations
+      type: text
+    - name: num_associated_deals
+      type: text
+    - name: address
+      type: text
+    - name: leaddyno_affiliate_desktop_url
+      type: text
+    - name: hs_facebook_click_id
+      type: text
+    - name: hubspot_owner_id
+      type: text
+    - name: hs_email_click
+      type: text
+    - name: notes_next_activity_date
+      type: text
+    - name: ip__shopify__shopify_created_at
+      type: text
+    - name: hs_email_domain
+      type: text
+    - name: calendly_question_4
+      type: text
+    - name: hs_lifecyclestage_customer_date
+      type: text
+    - name: recent_deal_amount
+      type: text
+    - name: hs_sales_email_last_opened
+      type: text
+    - name: ip__ecomm_bridge__source_store_id
+      type: text
+    - name: hubspot_owner_assigneddate
+      type: text
+    - name: id
+      type: text
+    - name: hs_all_contact_vids
+      type: text
+    - name: calendly_question_2
+      type: text
+    - name: leaddyno_contact_type
+      type: text
+    - name: hs_sa_first_engagement_object_type
+      type: text
+    - name: updated_at
+      type: datetime
+    - name: zip
+      type: text
+    - name: hs_analytics_source_data_2
+      type: text
+    - name: hs_sales_email_last_clicked
+      type: text
+    - name: num_conversion_events
+      type: text
+    - name: hs_email_optout_12002944
+      type: text
+    - name: country
+      type: text
+    - name: ip_country_code
+      type: text
+    - name: hs_social_facebook_clicks
+      type: text
+    - name: hs_email_last_open_date
+      type: text
+    - name: hs_social_google_plus_clicks
+      type: text
+    - name: hs_additional_emails
+      type: text
+    - name: hs_calculated_phone_number_country_code
+      type: text
+    - name: notes_last_updated
+      type: text
+    - name: hs_analytics_last_visit_timestamp
+      type: text
+    - name: lastmodifieddate
+      type: timestamp
+    - name: recent_deal_close_date
+      type: text
+    - name: hs_email_replied
+      type: text
+    - name: hs_analytics_source_data_1
+      type: text
+    - name: hs_analytics_first_referrer
+      type: text
+    - name: surveymonkeyeventlastupdated
+      type: text
+    - name: closedate
+      type: timestamp
+    - name: hs_count_is_unworked
+      type: text
+    - name: hs_lifecyclestage_evangelist_date
+      type: timestamp
+    - name: hs_time_to_move_from_salesqualifiedlead_to_customer
+      type: text
+    - name: lastname
+      type: text
+    - name: hs_analytics_num_event_completions
+      type: text
+    - name: hs_email_optout_10970748
+      type: text
+    - name: product_5
+      type: text
+    - name: num_unique_conversion_events
+      type: text
+    - name: hs_count_is_worked
+      type: text
+    - name: product_4
+      type: text
+    - name: ip__ecomm_bridge__ecomm_synced
+      type: text
+    - name: hs_analytics_revenue
+      type: text
+    - name: leaddyno_affiliate_share_url
+      type: text
+    - name: num_contacted_notes
+      type: text
+    - name: currentlyinworkflow
+      type: text
+    - name: hs_analytics_num_page_views
+      type: text
+    - name: hs_email_last_send_date
+      type: timestamp
+    - name: child_1_dob
+      type: date
+    - name: child_1_gender
+      type: text
+    - name: child_1_name
+      type: text
+    - name: child_2_dob
+      type: date
+    - name: child_2_gender
+      type: text
+    - name: child_2_name
+      type: text
+    - name: child_3_dob
+      type: date
+    - name: child_3_gender
+      type: text
+    - name: child_3_name
+      type: text
+    - name: expecting_at_sign_up
+      type: text
+    - name: annual_membership_end_date
+      type: date
+    - name: annual_membership_start_date
+      type: date
+    - name: monthly_membership_end_date
+      type: date
+    - name: monthly_membership_start_date
+      type: date
+    - name: reason_for_canceling
+      type: text
+  pk: [id]
+  audit_cols: [lastmodifieddate]

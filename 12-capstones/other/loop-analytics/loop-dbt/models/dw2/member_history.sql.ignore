@@ -1,0 +1,17 @@
+/*needed columns
+    loop_customer_id
+    membership_type
+    membership_subtype
+    start_date
+    first_membership_payment_date
+    last_membership_payment_date
+    end_date
+    most_recent_flag
+*/
+with membership_payments as (
+    select 
+)
+select 
+    a.loop_customer_id,
+    case when li.
+    

@@ -1,0 +1,64 @@
+inventory_locations:
+  fields:
+  - name: record_id
+    type: text
+  - name: inventory_location_name
+    type: text
+  - name: locality
+    type: text
+  - name: valid_for_picking
+    type: text
+  - name: inventory_location_associations
+    type: text
+  - name: order_lines
+    type: text
+  - name: asset_tag_associations
+    type: text
+  - name: scheduled_deliveries
+    type: text
+  - name: pickings
+    type: text
+  - name: pick_cancellations
+    type: text
+  - name: scheduled_delivery_cancellations
+    type: text
+  - name: delivery_performances
+    type: text
+  - name: performed_delivery_cancellations
+    type: text
+  - name: scheduled_pickups
+    type: text
+  - name: scheduled_pickup_cancellations
+    type: text
+  - name: pickups
+    type: text
+  - name: performed_pickup_cancellations
+    type: text
+  - name: qa_performances
+    type: text
+  - name: regional_inventory_transfer_initiations
+    type: text
+  - name: inventory_transfer_receipts
+    type: text
+  - name: add_inventory_transfer_receipt
+    type: text
+  - name: local_inventory_transfers
+    type: text
+  - name: add_local_inventory_transfer
+    type: text
+  - name: orders
+    type: text
+  - name: add_order
+    type: text
+  - name: asset_receipts
+    type: text
+  - name: assets
+    type: text
+  - name: date_created
+    type: timestamp
+  - name: date_modified
+    type: timestamp
+  - name: last_modified_by
+    type: text
+  - name: record_owner
+    type: text
