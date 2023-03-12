@@ -1,0 +1,24 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "DatalakeBucketAccess",
+            "Effect": "Allow",
+            "Action": "s3:*",
+            "Resource": [
+                "arn:aws:s3:::tarik-dl-bucket",
+                "arn:aws:s3:::tarik-dl-bucket/*"
+            ]
+        },
+        {
+            "Sid": "CWLogs",
+            "Effect": "Allow",
+            "Action": [
+                "logs:PutLogEvents"
+            ],
+            "Resource": [
+                "arn:aws:logs:[AWS-REGION]:[AWS-ACCOUNT-NUMBER]:log-group:/aws/kinesisfirehose/dl-delivery-stream:log-stream:*"
+            ]
+        }
+    ]
+}

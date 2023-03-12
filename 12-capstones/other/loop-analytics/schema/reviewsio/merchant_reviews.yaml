@@ -1,0 +1,39 @@
+merchant_reviews:
+  descr: |
+    Merchant reviews recorded in reviews.io
+  fields:
+    - name: store_review_id
+      type: text
+    - name: title
+      type: text
+    - name: comments
+      type: text
+    - name: date_created
+      type: timestamp
+    - name: rating
+      type: int
+    - name: user_id
+      type: text
+    - name: store_branch_id
+      type: text
+    - name: invitation_id
+      type: text
+    - name: order_number
+      type: text
+    - name: timeago
+      type: text
+    - name: date_formatted
+      type: text
+    - name: branch
+      type: text
+    - name: reviewer_first_name
+      type: text
+    - name: reviewer_last_name
+      type: text
+    - name: reviewer_verified_buyer
+      type: text
+    - name: reviewer_address
+      type: text
+    - name: reviewer_email
+      type: text
+  pk: [store_review_id]

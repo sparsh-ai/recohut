@@ -1,0 +1,34 @@
+perform_local_inventory_transfer:
+  fields:
+  - name: inventory_reportlink
+    type: text
+  - name: local_inventory_transfer_date
+    type: text
+  - name: related_inventory_location
+    type: text
+  - name: inventory_location_inventory_location_name
+    type: text
+  - name: inventory_location_locality
+    type: text
+  - name: related_asset_tag_association
+    type: text
+  - name: asset_tag_association_related_asset
+    type: text
+  - name: asset_tag_association_asset_inventory_location_inventory_location_name
+    type: text
+  - name: asset_tag_association_asset_item_sku
+    type: text
+  - name: asset_tag_association_asset_item_name
+    type: text
+  - name: asset_tag_association_asset_inventory_location_locality
+    type: text
+  - name: date_created
+    type: timestamp
+  - name: date_modified
+    type: timestamp
+  - name: record_id
+    type: text
+  - name: record_owner
+    type: text
+  - name: last_modified_by
+    type: text

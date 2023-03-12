@@ -1,0 +1,62 @@
+subscriptions:
+  fields:
+    - name: base_currency
+      type: text
+    - name: base_to_charged_exchange_rate
+      type: FLOAT
+    - name: billing_address_id
+      type: text
+    - name: charged_currency
+      type: text
+    - name: created_at
+      type: TIMESTAMP
+    - name: current_retries
+      type: int
+    - name: customer_id
+      type: text
+    - name: discount_code
+      type: text
+    - name: external_id
+      type: text
+    - name: id
+      type: text
+    - name: idempotency_key
+      type: text
+    - name: last_order_datetime
+      type: TIMESTAMP
+    - name: last_payment_datetime
+      type: TIMESTAMP
+    - name: last_processed_datetime
+      type: TIMESTAMP
+    - name: next_order_datetime
+      type: TIMESTAMP
+    - name: next_payment_datetime
+      type: TIMESTAMP
+    - name: next_processing_datetime
+      type: TIMESTAMP
+    - name: note
+      type: text
+    - name: order_rrule
+      type: text
+    - name: order_rrule_text
+      type: text
+    - name: payment_gateway_public_id
+      type: text
+    - name: payment_method_token
+      type: text
+    - name: payment_rrule
+      type: text
+    - name: payment_rrule_text
+      type: text
+    - name: percent_discount
+      type: text
+    - name: shipping_address_id
+      type: text
+    - name: shop_id
+      type: text
+    - name: status_changed_at
+      type: TIMESTAMP
+    - name: subscription_status
+      type: text
+    - name: updated_at
+      type: TIMESTAMP

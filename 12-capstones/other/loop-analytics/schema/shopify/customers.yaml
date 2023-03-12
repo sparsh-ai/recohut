@@ -1,0 +1,50 @@
+customers:
+  fields:
+    - name: id
+      type: text
+    - name: email
+      type: text
+    - name: accepts_marketing
+      type: bool
+    - name: created_at
+      type: text
+    - name: updated_at
+      type: text
+    - name: first_name
+      type: text
+    - name: last_name
+      type: text
+    - name: orders_count
+      type: int
+    - name: state
+      type: text
+    - name: total_spent
+      type: text
+    - name: last_order_id
+      type: text
+    - name: note
+      type: text
+    - name: verified_email
+      type: bool
+    - name: multipass_identifier
+      type: text
+    - name: tax_exempt
+      type: bool
+    - name: phone
+      type: text
+    - name: tags
+      type: text
+    - name: last_order_name
+      type: text
+    - name: currency
+      type: text
+    - name: addresses
+      type: text
+    - name: accepts_marketing_updated_at
+      type: text
+    - name: marketing_opt_in_level
+      type: text
+    - name: tax_exemptions
+      type: text
+    - name: admin_graphql_api_id
+      type: text

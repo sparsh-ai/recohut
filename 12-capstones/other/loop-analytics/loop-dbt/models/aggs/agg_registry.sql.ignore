@@ -1,0 +1,36 @@
+with base as (
+select
+	COALESCE( registry_customer_id, user_id) as user_id
+	, member_id
+	, dm.first_name
+	, dm.last_initial
+	, dm.hubspot_customer_id
+	, min(case when src_tbl = 'add_to_registry_product_added' then "timestamp" end) as registry_creation_ts
+	, max(case when src_tbl ilike '%registry%' then "timestamp" end) as last_registry_activity_ts
+	, min(case when src_tbl = 'registry_registry_viewed' then "timestamp" end) as first_registry_view_ts
+	, max(case when src_tbl = 'registry_registry_viewed' then "timestamp" end) as last_registry_view_ts
+	, sum(case when src_tbl = 'registry_registry_viewed' then 1 end) as total_registry_views
+	, min(case when src_tbl = 'registry_checkout_started' then "timestamp" end) as first_registry_checkout_ts
+	, max(case when src_tbl = 'registry_checkout_started' then "timestamp" end) as last_registry_checkout_ts
+	, sum(case when src_tbl = 'registry_checkout_started' then 1 end) as total_registry_checkouts
+from {{ref('fact_web_activity')}} fwa 
+left join {{ref('dim_members_shopify')}} dm 
+	using(member_id)
+group by 1, 2, 3, 4, 5
+), order_completed_reg as (
+	select
+		user_id 
+		, max(case when src_tbl='order_completed' then 1 else 0 end) as order_completed
+	from base
+	left join {{ref('fact_web_activity')}} fwa2
+		using(user_id)
+	where first_registry_checkout_ts is not null
+	group by 1
+)
+select
+	b.*
+	, c.order_completed
+from base b 
+left join order_completed_reg c
+	using(user_id)
+where registry_creation_ts is not null

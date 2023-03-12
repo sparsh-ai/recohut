@@ -1,0 +1,4 @@
+-e .
+pytest
+aws-cdk.aws-kinesis
+aws-cdk.aws_kinesisfirehose

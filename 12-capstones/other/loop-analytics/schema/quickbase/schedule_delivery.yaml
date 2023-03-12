@@ -1,0 +1,78 @@
+schedule_delivery:
+  fields:
+  - name: record_id
+    type: text
+  - name: delivery_status
+    type: text
+  - name: order_line_related_order
+    type: text
+  - name: order_line_item_sku
+    type: text
+  - name: order_line_order_related_customer
+    type: text
+  - name: lastname
+    type: text
+  - name: scheduled_delivery_date
+    type: text
+  - name: inventory_location_inventory_location_name
+    type: text
+  - name: related_order_line_ref
+    type: text
+  - name: date_created
+    type: timestamp
+  - name: date_modified
+    type: timestamp
+  - name: delivery_performances
+    type: text
+  - name: firstname
+    type: text
+  - name: last_modified_by
+    type: text
+  - name: ol_reportlink
+    type: text
+  - name: order_line_customer_address_address
+    type: text
+  - name: order_line_related_customer_address
+    type: text
+  - name: pick_cancellations
+    type: text
+  - name: pickings
+    type: text
+  - name: record_owner
+    type: text
+  - name: related_inventory_location
+    type: text
+  - name: related_order_line
+    type: text
+  - name: scheduled_delivery_cancellations
+    type: text
+  - name: related_order_line_ref_qb_order_
+    type: text
+  - name: related_order_line_ref_qb_item_name
+    type: text
+  - name: related_order_line_ref_order_id_address_id_address
+    type: text
+  - name: delivery_notes
+    type: text
+  - name: delivery_time
+    type: text
+  - name: related_order_line_ref_order_id_address_id_address_line_1
+    type: text
+  - name: related_order_line_ref_order_id_address_id_address_line_2
+    type: text
+  - name: related_order_line_ref_order_id_address_id_state
+    type: text
+  - name: related_order_line_ref_order_id_address_id_zip
+    type: text
+  - name: related_order_line_ref_order_id_customer_address_city
+    type: text
+  - name: related_order_line_ref_order_id_address_concat
+    type: text
+  - name: related_order_line_ref_order_id_customer_id_hubspot_id
+    type: text
+  - name: related_order_line_ref_qb_related_item
+    type: text
+  - name: related_order_line_ref_qb_order_related_customer
+    type: text
+  - name: import_id
+    type: text

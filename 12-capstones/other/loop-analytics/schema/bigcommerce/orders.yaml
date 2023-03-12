@@ -1,0 +1,144 @@
+orders:
+  fields:
+  - name: id
+    type: int
+  - name: customer_id
+    type: int
+  - name: date_created
+    type: timestamp
+  - name: date_modified
+    type: timestamp
+  - name: date_shipped
+    type: text
+  - name: status_id
+    type: int
+  - name: status
+    type: text
+  - name: subtotal_ex_tax
+    type: float
+  - name: subtotal_inc_tax
+    type: float
+  - name: subtotal_tax
+    type: float
+  - name: base_shipping_cost
+    type: float
+  - name: shipping_cost_ex_tax
+    type: float
+  - name: shipping_cost_inc_tax
+    type: float
+  - name: shipping_cost_tax
+    type: float
+  - name: shipping_cost_tax_class_id
+    type: int
+  - name: base_handling_cost
+    type: float
+  - name: handling_cost_ex_tax
+    type: float
+  - name: handling_cost_inc_tax
+    type: float
+  - name: handling_cost_tax
+    type: float
+  - name: handling_cost_tax_class_id
+    type: int
+  - name: base_wrapping_cost
+    type: float
+  - name: wrapping_cost_ex_tax
+    type: float
+  - name: wrapping_cost_inc_tax
+    type: float
+  - name: wrapping_cost_tax
+    type: float
+  - name: wrapping_cost_tax_class_id
+    type: int
+  - name: total_ex_tax
+    type: float
+  - name: total_inc_tax
+    type: float
+  - name: total_tax
+    type: float
+  - name: items_total
+    type: int
+  - name: items_shipped
+    type: int
+  - name: payment_method
+    type: text
+  - name: payment_provider_id
+    type: text
+  - name: payment_status
+    type: text
+  - name: refunded_amount
+    type: float
+  - name: order_is_digital
+    type: boolean
+  - name: store_credit_amount
+    type: float
+  - name: gift_certificate_amount
+    type: float
+  - name: ip_address
+    type: text
+  - name: ip_address_v6
+    type: text
+  - name: geoip_country
+    type: text
+  - name: geoip_country_iso2
+    type: text
+  - name: currency_id
+    type: int
+  - name: currency_code
+    type: text
+  - name: currency_exchange_rate
+    type: float
+  - name: default_currency_id
+    type: int
+  - name: default_currency_code
+    type: text
+  - name: staff_notes
+    type: text
+  - name: customer_message
+    type: text
+  - name: discount_amount
+    type: float
+  - name: coupon_discount
+    type: float
+  - name: shipping_address_count
+    type: int
+  - name: is_deleted
+    type: boolean
+  - name: ebay_order_id
+    type: float
+  - name: cart_id
+    type: text
+  - name: billing_address
+    type: varchar(max)
+  - name: is_email_opt_in
+    type: boolean
+  - name: credit_card_type
+    type: text
+  - name: order_source
+    type: text
+  - name: channel_id
+    type: int
+  - name: external_source
+    type: text
+  - name: products
+    type: varchar(max)
+  - name: shipping_addresses
+    type: varchar(max)
+  - name: coupons
+    type: varchar(max)
+  - name: external_id
+    type: text
+  - name: external_merchant_id
+    type: text
+  - name: tax_provider_id
+    type: text
+  - name: customer_locale
+    type: text
+  - name: store_default_currency_code
+    type: text
+  - name: store_default_to_transactional_exchange_rate
+    type: float
+  - name: custom_status
+    type: text
+  pk: [id]
+  audit_cols: [date_modified]

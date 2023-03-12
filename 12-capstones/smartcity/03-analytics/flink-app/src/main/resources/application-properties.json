@@ -1,0 +1,17 @@
+[
+  {
+    "PropertyGroupId": "ConsumerConfigProperties",
+    "PropertyMap": {
+      "AWS_REGION": "us-east-1",
+      "INPUT_STREAM": "BikeRideGenerator",
+      "flink.inputstream.initpos": "LATEST"
+    }
+  },
+  {
+    "PropertyGroupId": "OutputConfigProperties",
+    "PropertyMap": {
+      "AWS_REGION": "us-east-1",
+      "OUTPUT_KDF": "station_data_kdf"
+    }
+  }
+]

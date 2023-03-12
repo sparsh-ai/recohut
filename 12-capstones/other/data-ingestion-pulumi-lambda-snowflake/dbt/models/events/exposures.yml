@@ -1,0 +1,38 @@
+version: 2
+
+
+exposures:
+
+  - name: commerce_events
+    type: application
+    maturity: high
+
+    depends_on:
+      - ref('events')
+      - ref('logs')
+      - ref('logs_staged')
+      - ref('pageviews')
+      - ref('product_actions')
+      - ref('purchases')
+      - ref('user_agents')
+
+    owner:
+      name: John Doe
+      email: john@doe.com
+
+  - name: commerce_events_live
+    type: application
+    maturity: high
+
+    depends_on:
+      - ref('events_live')
+      - ref('logs_live')
+      - ref('logs_staged')
+      - ref('pageviews_live')
+      - ref('product_actions_live')
+      - ref('purchases_live')
+      - ref('user_agents_live')
+
+    owner:
+      name: John Doe
+      email: john@doe.com

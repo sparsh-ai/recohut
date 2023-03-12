@@ -1,0 +1,93 @@
+inventory_reporting_base:
+  descr: Googlesheet with inventory info
+  fields:
+  - name: _recordCt
+    type: int
+  - name: loop_number
+    type: int
+  - name: bin
+    type: text
+  - name: category
+    type: text
+  - name: manufacturer
+    type: text
+  - name: model
+    type: text
+  - name: product_name
+    type: text
+  - name: color
+    type: text
+  - name: model_num
+    type: text
+  - name: manufacturer_date
+    type: text
+  - name: serial_num
+    type: text
+  - name: sku
+    type: text
+  - name: store
+    type: text
+  - name: purchase_method
+    type: text
+  - name: useful_life_months
+    type: int
+  - name: new_or_used
+    type: text
+  - name: item_age_at_purchase
+    type: text
+  - name: purchase_date
+    type: date
+  - name: retail_price
+    type: text
+  - name: actual_purchase_price
+    type: float
+  - name: savings_dollars
+    type: float
+  - name: savings_pct
+    type: float
+  - name: actual_item_tax
+    type: float
+  - name: actual_shipping_cost
+    type: float
+  - name: actual_total_cost
+    type: float
+  - name: assembly_time
+    type: float
+  - name: stock_location
+    type: text
+  - name: sale_date
+    type: date
+  - name: sale_price
+    type: float
+  - name: customer_name
+    type: text
+  - name: hubspot_customer_id
+    type: text
+  - name: shopify_order_id
+    type: text
+  - name: current_loop_status
+    type: text
+  - name: order_date
+    type: date
+  - name: delivery_date
+    type: date
+  - name: delivery_time
+    type: text
+  - name: delivery_person
+    type: text
+  - name: delivery_vehicle
+    type: text
+  - name: pick_up_date
+    type: date
+  - name: pick_up_person
+    type: text
+  - name: intake_date
+    type: date
+  - name: cleaned_date
+    type: date
+  - name: QA
+    type: text
+  - name: restocking_time
+    type: float
+  - name: stock_location_
+    type: text

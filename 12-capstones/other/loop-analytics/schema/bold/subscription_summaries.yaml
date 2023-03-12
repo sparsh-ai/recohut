@@ -1,0 +1,14 @@
+subscription_summaries:
+  fields:
+    - name: bold_platform_customer_id
+      type: text
+    - name: next_order_date
+      type: TIMESTAMP
+    - name: last_order_date
+      type: TIMESTAMP
+    - name: active_subscription_count
+      type: int
+    - name: inactive_subscription_count
+      type: int
+    - name: subscription_order_count
+      type: int

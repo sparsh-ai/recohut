@@ -1,0 +1,32 @@
+sell_asset:
+  fields:
+  - name: asset_sale_event_status
+    type: text
+  - name: inventory_reportlink
+    type: text
+  - name: asset_sale_date
+    type: text
+  - name: asset_sale_reason
+    type: text
+  - name: sale_amount
+    type: text
+  - name: sale_payment_method
+    type: text
+  - name: related_asset_tag_association
+    type: text
+  - name: asset_tag_association_asset_tag
+    type: text
+  - name: asset_tag_association_asset_inventory_location_inventory_location_name
+    type: text
+  - name: asset_tag_association_related_asset
+    type: text
+  - name: date_created
+    type: timestamp
+  - name: date_modified
+    type: timestamp
+  - name: record_id
+    type: text
+  - name: record_owner
+    type: text
+  - name: last_modified_by
+    type: text

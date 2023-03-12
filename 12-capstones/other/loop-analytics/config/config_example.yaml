@@ -1,0 +1,32 @@
+ToolConfig:
+    scratch_space: '/tmp/'
+Resources:
+    s3:
+        type: s3
+        bucket: empiricalroot
+    facebookads:
+        type: facebookads
+        app_id: 'my-app-id'
+        app_secret: 'my-secret'
+        access_token: 'access_token'
+        s3_path: clients/ojolabs/data/conversion_dashboard/facebookads
+        accounts:
+          - name: OJO
+            account_id: act_<id on fb>
+          - name: HomeCity
+            account_id: act_<id on fb>
+    mixpanel:
+        type: mixpanel
+        secret: <mixpanel secret >
+        s3_prefix: clients/ojolabs/data/conversion_dashboard/mixpanel
+    googlesheets:
+        type: googlesheets
+        key_file_path: path/to/google-datawarehouse-extract-keys.json
+        s3_prefix: clients/ojolabs/data/conversion_dashboard/googlesheets
+    redshift:
+        iam_role: <iam_role>
+        database: <db name>
+        host: <host name>
+        password: <password>
+        user: admin
+        port: 5439

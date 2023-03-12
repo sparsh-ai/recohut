@@ -1,0 +1,24 @@
+refunds:
+  fields:
+  - name: id
+    type: int
+  - name: order_id
+    type: int
+  - name: user_id
+    type: int
+  - name: created
+    type: text
+  - name: reason
+    type: text
+  - name: total_amount
+    type: float
+  - name: total_tax
+    type: int
+  - name: uses_merchant_override_values
+    type: boolean
+  - name: items
+    type: varchar(max)
+  - name: payments
+    type: varchar(max)
+  pk: [id]
+  #audit_cols: [date_modified] # doesnt exist on api docs and no data to verify if it exists on repsponse object

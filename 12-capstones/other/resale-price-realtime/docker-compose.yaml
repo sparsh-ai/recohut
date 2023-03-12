@@ -1,0 +1,62 @@
+version: '2'
+services:
+  zookeeper:
+    container_name: zookeper-car-data
+    image: quay.io/debezium/zookeeper:latest
+  kafka:
+    container_name: kafka-car-data
+    image: quay.io/debezium/kafka:latest
+    ports:
+     - 9092:9092
+    links:
+     - zookeeper
+    environment:
+     - ZOOKEEPER_CONNECT=zookeeper:2181
+  postgres:
+    container_name: postgres-car-data
+    build: ./postgres
+    ports:
+     - 5432:5432
+    environment:
+     - POSTGRES_USER=postgres
+     - POSTGRES_PASSWORD=postgres
+     - POSTGRES_DB=database
+    volumes:
+      - ./postgres/data:/var/lib/postgresql/data
+  adminer:
+    image: adminer
+    ports:
+      - 8080:8080
+  connect:
+    container_name: debezium-car-data
+    image: debezium/connect-jdbc-es:latest
+    build:
+      context: debezium-jdbc-es
+      args:
+        DEBEZIUM_VERSION: latest
+    ports:
+     - 8083:8083
+     - 5005:5005
+    links:
+     - kafka:kafka
+     - postgres:postgres
+    environment:
+     - BOOTSTRAP_SERVERS=kafka:9092
+     - GROUP_ID=1
+     - CONFIG_STORAGE_TOPIC=_connect_configs
+     - OFFSET_STORAGE_TOPIC=_connect_offsets
+     - STATUS_STORAGE_TOPIC=_source_connect_statuses
+     - CONNECT_JDBC_URL=jdbc:postgresql://postgres:5432/database
+  python-app:
+    container_name: ml-main-app
+    build: ./src
+    command: > 
+      bash -c "python configure_connectors.py
+      && python ./app/price_predictor.py"
+    volumes:
+      - ./src/app:/src/app/
+  bento:
+    image: ford_price_predictor:1.0.0
+    ports:
+      - 3000:3000
+  

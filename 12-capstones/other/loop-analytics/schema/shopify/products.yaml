@@ -1,0 +1,38 @@
+products:
+  fields:
+    - name: id
+      type: text
+    - name: title
+      type: text
+    - name: body_html
+      type: text
+    - name: vendor
+      type: text
+    - name: product_type
+      type: text
+    - name: created_at
+      type: timestamp
+    - name: handle
+      type: text
+    - name: updated_at
+      type: timestamp
+    - name: published_at
+      type: timestamp
+    - name: template_suffix
+      type: text
+    - name: status
+      type: text
+    - name: published_scope
+      type: text
+    - name: tags
+      type: text
+    - name: admin_graphql_api_id
+      type: text
+    - name: variants
+      type: text
+    - name: options
+      type: text
+    - name: images
+      type: text
+    - name: image
+      type: text

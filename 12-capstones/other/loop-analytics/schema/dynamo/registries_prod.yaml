@@ -1,0 +1,4 @@
+registries_prod:
+  fields:
+    - name: loopCustomerId
+      type: TEXT

@@ -1,0 +1,30 @@
+scrap_asset:
+  fields:
+  - name: scrap_event_status
+    type: text
+  - name: inventory_reportlink
+    type: text
+  - name: scrap_date
+    type: text
+  - name: scrap_reason
+    type: text
+  - name: related_asset_tag_association
+    type: text
+  - name: asset_tag_association_related_asset
+    type: text
+  - name: asset_tag_association_asset_item_sku
+    type: text
+  - name: asset_tag_association_asset_item_name
+    type: text
+  - name: asset_tag_association_asset_tag
+    type: text
+  - name: date_created
+    type: timestamp
+  - name: date_modified
+    type: timestamp
+  - name: record_id
+    type: text
+  - name: record_owner
+    type: text
+  - name: last_modified_by
+    type: text

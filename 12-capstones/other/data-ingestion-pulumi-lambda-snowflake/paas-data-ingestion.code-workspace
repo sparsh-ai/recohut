@@ -1,0 +1,27 @@
+{
+    "folders": [
+        {
+            "name": "DBT",
+            "path": "dbt"
+        },
+        {
+            "name": "Infrastructure",
+            "path": "infrastructure"
+        },
+        {
+            "name": "API: collect",
+            "path": "api/collect"
+        },
+        {
+            "name": "Utils: pumper",
+            "path": "utils/pumper"
+        },
+        {
+            "name": "Root",
+            "path": "."
+        }
+    ],
+    "settings": {
+        "explorer.autoReveal": false
+    }
+}

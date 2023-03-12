@@ -1,0 +1,29 @@
+loop_daily_targets:
+  descr: Googlesheet with Loop Daily Targets
+  fields:
+  - name: date
+    type: text
+  - name: gross_new_bay
+    type: text
+  - name: churn_bay
+    type: text
+  - name: net_new_bay
+    type: text
+  - name: total_members_bay
+    type: text
+  - name: active_bay
+    type: text
+  - name: gross_new_nyc
+    type: text
+  - name: churn_nyc
+    type: text
+  - name: net_new_nyc
+    type: text
+  - name: total_members_nyc
+    type: text
+  - name: active_nyc
+    type: text
+  - name: net_mrr_bay
+    type: text
+  - name: net_mrr_nyc
+    type: text

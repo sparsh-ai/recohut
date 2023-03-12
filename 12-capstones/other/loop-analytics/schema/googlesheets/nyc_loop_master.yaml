@@ -1,0 +1,51 @@
+nyc_loop_master:
+  descr: Googlesheet with Loop master data
+  fields:
+  - name: hubspot_customer_id
+    type: text
+  - name: shopify_order_id
+    type: text
+  - name: item_id
+    type: text
+  - name: customer_email
+    type: text
+  - name: short_name
+    type: text
+  - name: item_description
+    type: text
+  - name: loop_id
+    type: text
+  - name: order_date
+    type: text
+  - name: delivery_date
+    type: text
+  - name: bin_status
+    type: text
+  - name: loop_status
+    type: text
+  - name: bin
+    type: text
+  - name: bin_is_correct_item
+    type: text
+  - name: bin_location
+    type: text
+  - name: bin_loop_number
+    type: text
+  - name: days_to_delivery
+    type: text
+  - name: days_to_pickup
+    type: text
+  - name: pick_up_date
+    type: text
+  - name: qa_pass_fail
+    type: text
+  - name: qa_date
+    type: text
+  - name: restocking_clean_repair_time
+    type: text
+  - name: notes
+    type: text
+  - name: inventory_tracker_name
+    type: text
+  - name: placeholder_calc
+    type: text

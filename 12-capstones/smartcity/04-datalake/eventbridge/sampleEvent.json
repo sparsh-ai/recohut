@@ -1,0 +1,11 @@
+[
+    {
+      "Source": "com.smartbike.maintenance",
+      "Detail": "{\"stationId\":\"200\"}",
+      "Resources": [
+          "unlock-key-34534"
+      ],
+      "DetailType": "unlockDockingStation",
+      "EventBusName": "bike-ride-unlock »
+    }
+]

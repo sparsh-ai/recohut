@@ -28,17 +28,20 @@
 ### Key Characteristics of Distributed Systems
 
 **Scalability**
+
 - The capability of a system to grow and manage increased demand.
 - A system that can continuously evolve to support growing amount of work is scalable.
 - Horizontal scaling: by adding more servers into the pool of resources.
 - Vertical scaling: by adding more resource (CPU, RAM, storage, etc) to an existing server. This approach comes with downtime and an upper limit.
 
 **Reliability**
+
 - Reliability is the probability that a system will fail in a given period.
 - A distributed system is reliable if it keeps delivering its service even when one or multiple components fail.
 - Reliability is achieved through redundancy of components and data (remove every single point of failure).
 
 **Availability**
+
 - Availability is the time a system remains operational to perform its required function in a specific period.
 - Measured by the percentage of time that a system remains operational under normal conditions.
 - A reliable system is available.
@@ -46,10 +49,12 @@
   - A system with a security hole is available when there is no security attack.
 
 **Efficiency**
+
 - Latency: response time, the delay to obtain the first piece of data.
 - Bandwidth: throughput, amount of data delivered in a given time.
 
 **Serviceability / Manageability**
+
 - Easiness to operate and maintain the system.
 - Simplicity and spend with which a system can be repaired or maintained.
 
@@ -58,11 +63,13 @@
 Help scale horizontally across an ever-increasing number of servers.
 
 **LB locations**
+
 - Between user and web server
 - Between web servers and an internal platform layer (application servers, cache servers)
 - Between internal platform layer and database
 
 **Algorithms**
+
 - Least connection
 - Least response time
 - Least bandwidth
@@ -71,6 +78,7 @@ Help scale horizontally across an ever-increasing number of servers.
 - IP hash
 
 **Implementation**
+
 - Smart clients
 - Hardware load balancers
 - Software load balancers
@@ -81,6 +89,7 @@ Help scale horizontally across an ever-increasing number of servers.
 - Exist at all levels in architecture, but often found at the level nearest to the front end.
 
 **Application server cache**
+
 - Cache placed on a request layer node.
 - When a request layer node is expanded to many nodes
   - Load balancer randomly distributes requests across the nodes.
@@ -91,6 +100,7 @@ Help scale horizontally across an ever-increasing number of servers.
     - Distributed caches
 
 **Distributed cache**
+
 - Each request layer node owns part of the cached data.
 - Entire cache is divided up using a consistent hashing function.
 - Pro
@@ -99,6 +109,7 @@ Help scale horizontally across an ever-increasing number of servers.
   - A missing node leads to cache lost.
 
 **Global cache**
+
 - A server or file store that is faster than original store, and accessible by all request layer nodes.
 - Two common forms
   - Cache server handles cache miss.
@@ -109,6 +120,7 @@ Help scale horizontally across an ever-increasing number of servers.
     - The application logic understands the eviction strategy or hot spots better than the cache
 
 **Content distributed network (CDN)**
+
 - For sites serving large amounts of static media.
 - Process
   - A request first asks the CDN for a piece of static media.
@@ -119,6 +131,7 @@ Help scale horizontally across an ever-increasing number of servers.
   - Cutover the DNS from this subdomain to a CDN later.
 
 **Cache invalidation**
+
 - Keep cache coherent with the source of truth. Invalidate cache when source of truth has changed.
 - Write-through cache
   - Data is written into the cache and permanent storage at the same time.
@@ -141,6 +154,7 @@ Help scale horizontally across an ever-increasing number of servers.
     - Risk of data loss in case of system disruptions.
 
 **Cache eviction policies**
+
 - FIFO: first in first out
 - LIFO: last in first out
 - LRU: least recently used
@@ -151,6 +165,7 @@ Help scale horizontally across an ever-increasing number of servers.
 ### Sharding / Data Partitioning
 
 **Partitioning methods**
+
 - Horizontal partitioning
   - Range based sharding.
   - Put different rows into different tables.
@@ -170,6 +185,7 @@ Help scale horizontally across an ever-increasing number of servers.
     - Can be a single point of failure.
 
 **Partitioning criteria**
+
 - Key or hash-based partitioning
   - Apply a hash function to some key attribute of the entry to get the partition number.
   - Problem
@@ -237,6 +253,7 @@ Most of the constraints are due to the fact that operations across multiple tabl
 ### Client-Server Communication
 
 **Standard HTTP Web Request**
+
 1. Client opens a connection and requests data from server.
 2. Server calculates the response.
 3. Server sends the response back to the client on the opened request.
@@ -250,6 +267,7 @@ The client repeatedly polls (or requests) a server for data, and waits for the s
 4. Client repeats the above three steps periodically to get updates from the server.
 
 Problems
+
 - Client has to keep asking the server for any new data.
 - A lot of responses are empty, creating HTTP overhead.
 
@@ -264,12 +282,14 @@ The client requests information from the server exactly as in normal polling, bu
 Each Long-Poll request has a timeout. The client has to reconnect periodically after the connection is closed, due to timeouts.
 
 **WebSockets**
+
 - A persistent full duplex communication channels over a single TCP connection. Both server and client can send data at any time.
 - A connection is established through WebSocket handshake.
 - Low communication overhead.
 - Real-time data transfer.
 
 **Server-Sent Event (SSE)**
+
 1. Client requests data from a server using regular HTTP.
 2. The requested webpage opens a connection to the server.
 3. Server sends the data to the client whenever there’s new information available.
@@ -358,162 +378,172 @@ Ex: Twitter, Whatsapp, Instagram
 
 <iframe width="100%" height="480" src="https://www.youtube.com/embed/bUHFg8CZFws" title="System Design Interview – Step By Step Guide" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
 ## Common System Design Questions
 
 1. Design a Credit Card Authorization System
-1. Design a chat service
-1. Design a ride-sharing service
-1. Design a URL shortening service
-1. Design a social media service
-1. Design a social message board
-1. Design a system to store time series data
-1. Design a concurrent Hashmap
-1. Design an ATM Machine system which can support massive amount of transactions
-1. Design Airport Baggage system
-1. Design Flight Information Display system
-1. Design a conference room booking system
-1. Design newsfeed feature of Facebook
-1. Design an efficient Mail delivery system
-1. Design like/dislike feature at Youtube scale
-1. Design Instagram
-1. Design Tik-Tok
-1. Design twitter
-1. Design Uber
-1. Design a logging system
-1. Design Google Maps
-1. Design a Video Conferencing System
-1. Design a file storage service
-1. Design a video streaming service
-1. Design a smart meter system
-Build Cart as a service
-1. Design metas newsfeed with live posts
-1. Design a Limited Time Deals
-1. Design Twitter’s trending topics
-1. Design a system that counts the number of clicks on YouTube videos
-1. Design Gmail
-1. Design a global system to upgrade software on a fleet of machines
-1. Design a recommendation system
-1. Design a food sharing application
-1. Design an API for a tic tac toe game
-1. Design payment module for Uber app
-1. Design Truecaller type of system
-1. Design performance management system (appraisal workflow system) that can be used across companies.
-1. Design comment system
-1. Design flight system
-1. Design Tinder
-1. Design survey site like surveymonkey
-1. Design a geographically partitioned multi-player card game.
-1. Design a kind of kindle fire application
-1. Design a realtime Video chat like Google Duo
-1. Design News paper & Magazine subscription system
-1. Design a system like Hackerrank/Top Coder
-1. Design an API Rate Limiter
-1. Design a proximity server
-1. Design a Type-Ahead service
-1. Design a traffic control system
-1. Design amazon’s frequently viewed product page
-1. Design a toll system for highways.
-1. Design URL Shortener.
-1. Design Instant Messenger.
-1. Design a CDN network
-1. Design a Google document system
-1. Design a random ID generation system
-1. Design a key-value database
-1. Design the Facebook news feed function
-1. Design a forum-like systems like Quora, Reddit or HackerNews.
-1. Design the Facebook timeline function
-1. Design a function to return the top k requests during past time interval
-1. Design an online multiplayer card game
-1. Design an online poker game for multiplayer.
-1. Design a graph search function
-1. Design a picture sharing system
-1. Design an API Rate Limiter system for GitHub or Firebase sites
-1. Design a search engine
-1. Design a recommendation system
-1. Design What’s up
-1. Design a garbage collection system.
-1. Design a system to capture unique addresses in the entire world.
-1. Design a recommendation system for products.
-1. Design a tinyurl system
-1. Design Paypal
-1. Design Air traffic control system
-1. Design Google Maps
-1. Design Grammarly
-1. Design AirBNB
-1. Design a vending machine in Java
-1. Design a traffic control system
-1. Design a limit order book for trading systems
-1. Design an elevator system?
-1. Design an e-commerce website
-1. Design an e-commerce website using microservices
-1. Design a website like Pastebin.
-1. Design Google’s Web Crawler
-1. Design Zoom
-1. Design Twitter
-1. Design Online Examination Portal
-1. Design RedBus
-1. Design BookMyShow
-1. Design Domain Backdooring system
-1. Design Amazon Locker
-1. Design Movies Review Aggregator System
-1. Design offline caching system for Ecommerce platform
-1. Design Amazon E-commerce
-1. Design Online chess game/Multiplayer game
-1. Design gaming platform.
-1. Design a last-mile delivery platform
-1. Design Foodpanda/Zomato/Swiggy/
-1. Design Meeting Calendar system
-1. Design Spotify
-1. Design Promo Code API
-1. Design Vending machine
-1. Design splitwise
-1. Design Google pay at scale
-1. Design a Job schedular
-1. Design Meeting Scheduler
-1. Design Debugger
-1. Design Automatic Parking System
-1. Design malloc, free and garbage collection system.
-1. Design a system for collaborating over a document
-1. Design election commission architecture
-1. Design a garbage collection system
-1. Design a scalable web crawling system
-1. Design the Facebook chat function
-1. Design a trending topic system
-1. Design a url compression system
-1. Design Elevator system.
-1. Design distributed caching system.
-1. Design Amazon Locker Service.
-1. Design Amazon Best Seller Item Service
-1. Design a global chat service like Whatsapp or a facebook messenger.
-1. Design dropbox’s architecture.
-1. Design a picture sharing website.
-1. Design a news feed
-1. Design a product based on maps
-1. Design commenting system
-1. Design a ranking system.
-1. Design Amazon Cart system
-1. Design Google Search
-1. Design Twitter
-1. Design Facebook
-1. Design Snapchat
-1. Design Instagram
-1. Design App-store
-1. Design a music player application
-1. Design a distributed LRU Cache
-1. Design Dropbox or Google Drive
-1. Design subscription based sports website
-1. Design Netflix
-1. Design a Latency Management System
-1. Design a Library Management System
-1. Design a Notification service
-1. Design ESPN/Cricinfo/Cricbuzz
-1. Design Uber
-1. Design Whatsapp
-1. Design Quora
-1. Design Lookahead system
-1. Design Google Docs/ Collaborative Editing service
-1. Design URL Shortner service
+2. Design a chat service
+3. Design a ride-sharing service
+4. Design a URL shortening service
+5. Design a social media service
+6. Design a social message board
+7. Design a system to store time series data
+8. Design a concurrent Hashmap
+9. Design an ATM Machine system which can support massive amount of transactions
+10. Design Airport Baggage system
+11. Design Flight Information Display system
+12. Design a conference room booking system
+13. Design newsfeed feature of Facebook
+14. Design an efficient Mail delivery system
+15. Design like/dislike feature at Youtube scale
+16. Design Instagram
+17. Design Tik-Tok
+18. Design twitter
+19. Design Uber
+20. Design a logging system
+21. Design Google Maps
+22. Design a Video Conferencing System
+23. Design a file storage service
+24. Design a video streaming service
+25. Design a smart meter system
+    Build Cart as a service
+26. Design metas newsfeed with live posts
+27. Design a Limited Time Deals
+28. Design Twitter’s trending topics
+29. Design a system that counts the number of clicks on YouTube videos
+30. Design Gmail
+31. Design a global system to upgrade software on a fleet of machines
+32. Design a recommendation system
+33. Design a food sharing application
+34. Design an API for a tic tac toe game
+35. Design payment module for Uber app
+36. Design Truecaller type of system
+37. Design performance management system (appraisal workflow system) that can be used across companies.
+38. Design comment system
+39. Design flight system
+40. Design Tinder
+41. Design survey site like surveymonkey
+42. Design a geographically partitioned multi-player card game.
+43. Design a kind of kindle fire application
+44. Design a realtime Video chat like Google Duo
+45. Design News paper & Magazine subscription system
+46. Design a system like Hackerrank/Top Coder
+47. Design an API Rate Limiter
+48. Design a proximity server
+49. Design a Type-Ahead service
+50. Design a traffic control system
+51. Design amazon’s frequently viewed product page
+52. Design a toll system for highways.
+53. Design URL Shortener.
+54. Design Instant Messenger.
+55. Design a CDN network
+56. Design a Google document system
+57. Design a random ID generation system
+58. Design a key-value database
+59. Design the Facebook news feed function
+60. Design a forum-like systems like Quora, Reddit or HackerNews.
+61. Design the Facebook timeline function
+62. Design a function to return the top k requests during past time interval
+63. Design an online multiplayer card game
+64. Design an online poker game for multiplayer.
+65. Design a graph search function
+66. Design a picture sharing system
+67. Design an API Rate Limiter system for GitHub or Firebase sites
+68. Design a search engine
+69. Design a recommendation system
+70. Design What’s up
+71. Design a garbage collection system.
+72. Design a system to capture unique addresses in the entire world.
+73. Design a recommendation system for products.
+74. Design a tinyurl system
+75. Design Paypal
+76. Design Air traffic control system
+77. Design Google Maps
+78. Design Grammarly
+79. Design AirBNB
+80. Design a vending machine in Java
+81. Design a traffic control system
+82. Design a limit order book for trading systems
+83. Design an elevator system?
+84. Design an e-commerce website
+85. Design an e-commerce website using microservices
+86. Design a website like Pastebin.
+87. Design Google’s Web Crawler
+88. Design Zoom
+89. Design Twitter
+90. Design Online Examination Portal
+91. Design RedBus
+92. Design BookMyShow
+93. Design Domain Backdooring system
+94. Design Amazon Locker
+95. Design Movies Review Aggregator System
+96. Design offline caching system for Ecommerce platform
+97. Design Amazon E-commerce
+98. Design Online chess game/Multiplayer game
+99. Design gaming platform.
+100. Design a last-mile delivery platform
+101. Design Foodpanda/Zomato/Swiggy/
+102. Design Meeting Calendar system
+103. Design Spotify
+104. Design Promo Code API
+105. Design Vending machine
+106. Design splitwise
+107. Design Google pay at scale
+108. Design a Job schedular
+109. Design Meeting Scheduler
+110. Design Debugger
+111. Design Automatic Parking System
+112. Design malloc, free and garbage collection system.
+113. Design a system for collaborating over a document
+114. Design election commission architecture
+115. Design a garbage collection system
+116. Design a scalable web crawling system
+117. Design the Facebook chat function
+118. Design a trending topic system
+119. Design a url compression system
+120. Design Elevator system.
+121. Design distributed caching system.
+122. Design Amazon Locker Service.
+123. Design Amazon Best Seller Item Service
+124. Design a global chat service like Whatsapp or a facebook messenger.
+125. Design dropbox’s architecture.
+126. Design a picture sharing website.
+127. Design a news feed
+128. Design a product based on maps
+129. Design commenting system
+130. Design a ranking system.
+131. Design Amazon Cart system
+132. Design Google Search
+133. Design Twitter
+134. Design Facebook
+135. Design Snapchat
+136. Design Instagram
+137. Design App-store
+138. Design a music player application
+139. Design a distributed LRU Cache
+140. Design Dropbox or Google Drive
+141. Design subscription based sports website
+142. Design Netflix
+143. Design a Latency Management System
+144. Design a Library Management System
+145. Design a Notification service
+146. Design ESPN/Cricinfo/Cricbuzz
+147. Design Uber
+148. Design Whatsapp
+149. Design Quora
+150. Design Lookahead system
+151. Design Google Docs/ Collaborative Editing service
+152. Design URL Shortner service
+
+## System Design Whiteboards
+
+### Template
+
+![template drawio](https://user-images.githubusercontent.com/62965911/224528001-fd664573-1192-4896-b977-a75f10f1a93f.svg)
+
+### Completed
+
+![Data-Engineering-Completed-Whiteboard drawio](https://user-images.githubusercontent.com/62965911/224527901-9f630e05-6d0b-4f13-a8f8-9a9200d0ab0d.svg)
+![Data-Engineering-Whiteboard-Completed-Notes drawio](https://user-images.githubusercontent.com/62965911/224527933-9e102268-e03c-4b76-a249-a9f1aa00cd52.svg)
 
 ## Resources
 
@@ -524,7 +554,7 @@ Build Cart as a service
 5. [https://www.karanpratapsingh.com/courses/system-design/system-design-interviews](https://www.karanpratapsingh.com/courses/system-design/system-design-interviews)
 6. [Most Popular System Design Questions](https://medium.com/coders-mojo/most-popular-system-design-questions-mega-compilation-45218129fe26?sk=6432dd01c067dd28bc81da1dfceccdab)
 7. [Mega Compilation : Solved System Design Case studies](https://medium.com/coders-mojo/quick-roundup-solved-system-design-case-studies-6ad776d437cf?sk=e42f56968e1b592382f484c222e7c111)
-9. [How to Prepare for System Design Interviews | Top System Design Interview Concepts](https://youtu.be/-m5cMzm9R-s)
-11. [YouTube | Google Data Engineer Interview](https://youtu.be/rL2YASP04eQ)
-12. https://igotanoffer.com/blogs/tech/system-design-interviews
-13. https://blog.tryexponent.com/how-to-nail-the-system-design-interview/
+8. [How to Prepare for System Design Interviews | Top System Design Interview Concepts](https://youtu.be/-m5cMzm9R-s)
+9. [YouTube | Google Data Engineer Interview](https://youtu.be/rL2YASP04eQ)
+10. https://igotanoffer.com/blogs/tech/system-design-interviews
+11. https://blog.tryexponent.com/how-to-nail-the-system-design-interview/

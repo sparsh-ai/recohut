@@ -1,0 +1,112 @@
+order_lines:
+  fields:
+  - name: record_id
+    type: text
+  - name: qb_ol_status
+    type: text
+  - name: date_created
+    type: timestamp
+  - name: qb_related_order_
+    type: text
+  - name: qb_order_related_customer
+    type: text
+  - name: order_id_address_concat
+    type: text
+  - name: qb_first
+    type: text
+  - name: qb_last
+    type: text
+  - name: qb_item_sku
+    type: text
+  - name: id
+    type: text
+  - name: gift_card
+    type: text
+  - name: price
+    type: text
+  - name: quantity
+    type: text
+  - name: title
+    type: text
+  - name: total_discount
+    type: text
+  - name: variant_id
+    type: text
+  - name: name
+    type: text
+  - name: product_id
+    type: text
+  - name: qb_customer_address
+    type: text
+  - name: qb_order_
+    type: text
+  - name: order_id
+    type: text
+  - name: date_modified
+    type: timestamp
+  - name: last_modified_by
+    type: text
+  - name: order_id_qb_inventory_location_inventory_location_name
+    type: text
+  - name: qb_customer_address_address
+    type: text
+  - name: qb_delivery_cancellations_rl
+    type: text
+  - name: qb_inventory_location_inventory_location_name
+    type: text
+  - name: qb_inventory_location_associations
+    type: text
+  - name: qb_inventory_location_locality
+    type: text
+  - name: qb_item_name
+    type: text
+  - name: qb_order_line_customer_address_associations_rl
+    type: text
+  - name: qb_order_date
+    type: text
+  - name: qb_order_id_address_id
+    type: text
+  - name: qb_order_id_qb_related_inventory_location
+    type: text
+  - name: qb_pick_cancellations_rl
+    type: text
+  - name: qb_related_inventory_location
+    type: text
+  - name: qb_related_item
+    type: text
+  - name: qb_scheduled_deliveries
+    type: text
+  - name: qb_customer_address_lookup
+    type: text
+  - name: qb_customer_address_ref
+    type: text
+  - name: record_owner
+    type: text
+  - name: order_id_address_id_address
+    type: text
+  - name: order_id_order_number
+    type: text
+  - name: qb_related_customer_address
+    type: text
+  - name: order_id_address_id_address_line_1
+    type: text
+  - name: order_id_address_id_address_line_2
+    type: text
+  - name: order_id_address_id_state
+    type: text
+  - name: order_id_address_id_zip
+    type: text
+  - name: order_id_customer_address_city
+    type: text
+  - name: product_id_noninventory_item_flag
+    type: text
+  - name: order_id_customer_id_hubspot_id
+    type: text
+  - name: order_line_closures
+    type: text
+  - name: add_order_line_closure
+    type: text
+  - name: scheduled_pickup_date
+    type: text
+  - name: scheduled_delivery_date
+    type: text

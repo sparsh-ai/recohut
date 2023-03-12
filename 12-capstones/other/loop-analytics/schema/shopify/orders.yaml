@@ -1,0 +1,167 @@
+orders:
+  fields:
+  - name: id
+    type: text
+  - name: admin_graphql_api_id
+    type: text
+  - name: app_id
+    type: int
+  - name: browser_ip
+    type: text
+  - name: buyer_accepts_marketing
+    type: bool
+  - name: cancel_reason
+    type: text
+  - name: cancelled_at
+    type: timestamp
+  - name: cart_token
+    type: text
+  - name: checkout_id
+    type: text
+  - name: checkout_token
+    type: text
+  - name: client_details
+    type: varchar(max)
+  - name: closed_at
+    type: timestamp
+  - name: confirmed
+    type: bool
+  - name: contact_email
+    type: text
+  - name: created_at
+    type: timestamp
+  - name: currency
+    type: text
+  - name: current_subtotal_price
+    type: float
+  - name: current_subtotal_price_set
+    type: text
+  - name: current_total_discounts
+    type: float
+  - name: current_total_discounts_set
+    type: text
+  - name: current_total_duties_set
+    type: text
+  - name: current_total_price
+    type: float
+  - name: current_total_price_set
+    type: text
+  - name: current_total_tax
+    type: float
+  - name: current_total_tax_set
+    type: text
+  - name: customer_locale
+    type: text
+  - name: device_id
+    type: text
+  - name: discount_codes
+    type: text
+  - name: email
+    type: text
+  - name: financial_status
+    type: text
+  - name: fulfillment_status
+    type: text
+  - name: gateway
+    type: text
+  - name: landing_site
+    type: text
+  - name: landing_site_ref
+    type: text
+  - name: location_id
+    type: text
+  - name: name
+    type: text
+  - name: note
+    type: text
+  - name: note_attributes
+    type: varchar(max)
+  - name: number
+    type: int
+  - name: order_number
+    type: int
+  - name: order_status_url
+    type: text
+  - name: original_total_duties_set
+    type: text
+  - name: payment_gateway_names
+    type: varchar(max)
+  - name: phone
+    type: text
+  - name: presentment_currency
+    type: text
+  - name: processed_at
+    type: timestamp
+  - name: processing_method
+    type: text
+  - name: reference
+    type: text
+  - name: referring_site
+    type: text
+  - name: source_identifier
+    type: text
+  - name: source_name
+    type: text
+  - name: source_url
+    type: text
+  - name: subtotal_price
+    type: text
+  - name: subtotal_price_set
+    type: varchar(max)
+  - name: tags
+    type: text
+  - name: tax_lines
+    type: varchar(max)
+  - name: taxes_included
+    type: bool
+  - name: test
+    type: bool
+  - name: token
+    type: text
+  - name: total_discounts
+    type: text
+  - name: total_discounts_set
+    type: varchar(max)
+  - name: total_line_items_price
+    type: text
+  - name: total_line_items_price_set
+    type: varchar(max)
+  - name: total_outstanding
+    type: text
+  - name: total_price
+    type: text
+  - name: total_price_set
+    type: varchar(max)
+  - name: total_price_usd
+    type: text
+  - name: total_shipping_price_set
+    type: varchar(max)
+  - name: total_tax
+    type: text
+  - name: total_tax_set
+    type: varchar(max)
+  - name: total_tip_received
+    type: text
+  - name: total_weight
+    type: int
+  - name: updated_at
+    type: timestamp
+  - name: user_id
+    type: text
+  - name: billing_address
+    type: varchar(max)
+  - name: customer
+    type: varchar(max)
+  - name: discount_applications
+    type: varchar(max)
+  - name: fulfillments
+    type: varchar(max)
+  - name: line_items
+    type: varchar(max)
+  - name: refunds
+    type: varchar(max)
+  - name: shipping_lines
+    type: varchar(max)
+  - name: shipping_address
+    type: varchar(max)
+  pk: [id]

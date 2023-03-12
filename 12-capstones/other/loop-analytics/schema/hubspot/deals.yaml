@@ -1,0 +1,210 @@
+deals:
+  fields:
+    - name: ip__shopify__processing_method
+      type: text
+    - name: hs_closed_amount
+      type: text
+    - name: ip__shopify__buyer_accepts_marketing
+      type: text
+    - name: ip__shopify__fulfillment_status
+      type: text
+    - name: hs_date_entered_shipped
+      type: timestamp
+    - name: hs_date_exited_qualifiedtobuy
+      type: timestamp
+    - name: ip__sync_extension__external_source_app_id
+      type: text
+    - name: hs_all_owner_ids
+      type: text
+    - name: ip__shopify__token
+      type: text
+    - name: ip__shopify__currency
+      type: text
+    - name: hs_user_ids_of_all_owners
+      type: text
+    - name: hs_deal_stage_probability
+      type: text
+    - name: ip__ecomm_bridge__ecomm_synced
+      type: text
+    - name: hs_date_entered_qualifiedtobuy
+      type: timestamp
+    - name: hs_is_closed
+      type: text
+    - name: hs_sales_email_last_replied
+      type: text
+    - name: ip__shopify__subtotal_price
+      type: text
+    - name: days_to_close
+      type: text
+    - name: num_associated_contacts
+      type: text
+    - name: hs_date_exited_checkout_pending
+      type: timestamp
+    - name: hs_date_exited_checkout_completed
+      type: timestamp
+    - name: notes_last_contacted
+      type: text
+    - name: hs_date_entered_checkout_pending
+      type: timestamp
+    - name: hs_updated_by_user_id
+      type: text
+    - name: hubspot_owner_id
+      type: text
+    - name: ip__shopify__total_weight
+      type: text
+    - name: ip__shopify__taxes_included
+      type: text
+    - name: hs_date_entered_cancelled
+      type: timestamp
+    - name: dealname
+      type: text
+    - name: notes_next_activity_date
+      type: timestamp
+    - name: hs_projected_amount_in_home_currency
+      type: text
+    - name: hs_time_in_shipped
+      type: text
+    - name: closed_won_reason
+      type: text
+    - name: hs_date_exited_checkout_abandoned
+      type: text
+    - name: hs_date_exited_appointmentscheduled
+      type: text
+    - name: hs_lastmodifieddate
+      type: timestamp
+    - name: updated_at
+      type: timestamp
+    - name: description
+      type: text
+    - name: createdate
+      type: timestamp
+    - name: hs_date_entered_closedwon
+      type: timestamp
+    - name: dealstage
+      type: text
+    - name: hs_date_entered_checkout_abandoned
+      type: timestamp
+    - name: ip__shopify__cart_token
+      type: text
+    - name: pickup_status
+      type: text
+    - name: hs_date_entered_processed
+      type: timestamp
+    - name: num_contacted_notes
+      type: text
+    - name: ip__ecomm_bridge__source_app_id
+      type: text
+    - name: hs_mrr
+      type: text
+    - name: ip__shopify__checkout_token
+      type: text
+    - name: hs_analytics_source
+      type: text
+    - name: ip__shopify__processed_at
+      type: text
+    - name: ip__shopify__source_name
+      type: text
+    - name: hs_analytics_source_data_1
+      type: text
+    - name: hs_time_in_appointmentscheduled
+      type: text
+    - name: hs_num_associated_deal_splits
+      type: text
+    - name: hs_created_by_user_id
+      type: text
+    - name: hs_tcv
+      type: text
+    - name: num_notes
+      type: text
+    - name: hs_time_in_cancelled
+      type: text
+    - name: notes_last_updated
+      type: timestamp
+    - name: ip__shopify__total_line_items_price
+      type: text
+    - name: hs_date_entered_appointmentscheduled
+      type: timestamp
+    - name: date_stage____invoice_paid_
+      type: timestamp
+    - name: ip__ecomm_bridge__order_number
+      type: text
+    - name: ip__shopify__landing_site
+      type: text
+    - name: hs_time_in_checkout_completed
+      type: text
+    - name: hs_createdate
+      type: timestamp
+    - name: hs_time_in_12191689
+      type: text
+    - name: ip__ecomm_bridge__tax_amount
+      type: text
+    - name: hs_time_in_processed
+      type: text
+    - name: hs_time_in_qualifiedtobuy
+      type: text
+    - name: hs_object_id
+      type: text
+    - name: closedate
+      type: timestamp
+    - name: dealtype
+      type: text
+    - name: ip__shopify__financial_status
+      type: text
+    - name: ip__ecomm_bridge__abandoned_cart_url
+      type: text
+    - name: hs_time_in_checkout_pending
+      type: text
+    - name: hs_analytics_source_data_2
+      type: text
+    - name: hs_date_exited_12191689
+      type: timestamp
+    - name: hs_projected_amount
+      type: text
+    - name: amount
+      type: text
+    - name: ip__ecomm_bridge__discount_amount
+      type: text
+    - name: created_at
+      type: timestamp
+    - name: ip__ecomm_bridge__source_store_id
+      type: text
+    - name: pipeline
+      type: text
+    - name: id
+      type: text
+    - name: ip__sync_extension__external_source_account_id
+      type: text
+    - name: hs_arr
+      type: text
+    - name: ip__shopify__referring_site
+      type: text
+    - name: amount_in_home_currency
+      type: text
+    - name: hs_closed_amount_in_home_currency
+      type: text
+    - name: hs_time_in_closedwon
+      type: text
+    - name: hs_num_target_accounts
+      type: text
+    - name: hs_date_entered_checkout_completed
+      type: timestamp
+    - name: hubspot_owner_assigneddate
+      type: timestamp
+    - name: delivery_status
+      type: text
+    - name: hs_acv
+      type: text
+    - name: hs_is_closed_won
+      type: text
+    - name: hs_deal_stage_probability_shadow
+      type: text
+    - name: hs_time_in_checkout_abandoned
+      type: text
+    - name: hs_latest_meeting_activity
+      type: text
+    - name: hs_date_entered_12191689
+      type: timestamp
+    - name: hs_forecast_amount
+      type: text
+  pk: [id]
+  audit_cols: [hs_lastmodifieddate]

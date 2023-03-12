@@ -1,0 +1,15 @@
+name: big-data-ml
+channels:
+  - conda-forge
+dependencies:
+  - python==3.9.5
+  - pip==21.2.4
+  - pip:
+    - jupyter==1.0.0
+    - nb_black==1.0.7
+    - papermill==2.3.3
+    - numpy==1.21.2
+    - pandas==1.3.3
+    - python-dotenv==0.19.1
+    - emoji==1.6.1
+    - boto3==1.20.29

@@ -1,0 +1,66 @@
+shipping_addresses:
+  fields:
+  - name: id
+    type: int
+  - name: order_id
+    type: int
+  - name: items_total
+    type: int
+  - name: items_shipped
+    type: int
+  - name: base_cost
+    type: float
+  - name: cost_ex_tax
+    type: float
+  - name: cost_inc_tax
+    type: float
+  - name: cost_tax
+    type: float
+  - name: cost_tax_class_id
+    type: int
+  - name: base_handling_cost
+    type: float
+  - name: handling_cost_ex_tax
+    type: float
+  - name: handling_cost_inc_tax
+    type: float
+  - name: handling_cost_tax
+    type: float
+  - name: handling_cost_tax_class_id
+    type: int
+  - name: shipping_zone_id
+    type: int
+  - name: shipping_zone_name
+    type: varchar(50)
+  - name: form_fields
+    type: varchar(max)
+  - name: shipping_quotes
+    type: varchar(max)
+  - name: first_name
+    type: varchar(50)
+  - name: last_name
+    type: varchar(50)
+  - name: company
+    type: varchar(100)
+  - name: street_1
+    type: varchar(100)
+  - name: street_2
+    type: varchar(100)
+  - name: city
+    type: varchar(50)  
+  - name: state
+    type: varchar(50)
+  - name: country
+    type: varchar(50)
+  - name: country_iso2
+    type: varchar(2)
+  - name: phone
+    type: varchar(100)
+  - name: email
+    type: varchar(100)
+  - name: shipping_method
+    type: varchar(100) 
+  - name: zip
+    type: varchar(5) 
+  pk: [id]
+  parent_key: [order_id]

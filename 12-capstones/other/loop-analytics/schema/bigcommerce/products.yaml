@@ -1,0 +1,155 @@
+products:
+  fields:
+  - name: id
+    type: int
+  - name: name
+    type: text
+  - name: type
+    type: text
+  - name: sku
+    type: text
+  - name: description
+    type: varchar(max)
+  - name: weight
+    type: int
+  - name: width
+    type: float
+  - name: depth
+    type: float
+  - name: height
+    type: float
+  - name: price
+    type: int
+  - name: cost_price
+    type: int
+  - name: retail_price
+    type: float
+  - name: sale_price
+    type: int
+  - name: map_price
+    type: int
+  - name: tax_class_id
+    type: int
+  - name: product_tax_code
+    type: text
+  - name: categories
+    type: varchar(max)
+  - name: brand_id
+    type: int
+  - name: inventory_level
+    type: int
+  - name: inventory_warning_level
+    type: int
+  - name: inventory_tracking
+    type: text
+  - name: fixed_cost_shipping_price
+    type: int
+  - name: is_free_shipping
+    type: boolean
+  - name: is_visible
+    type: boolean
+  - name: is_featured
+    type: boolean
+  - name: related_products
+    type: varchar(max)
+  - name: warranty
+    type: text
+  - name: bin_picking_number
+    type: text
+  - name: layout_file
+    type: text
+  - name: upc
+    type: text
+  - name: search_keywords
+    type: text
+  - name: availability
+    type: text
+  - name: availability_description
+    type: text
+  - name: gift_wrapping_options_type
+    type: text
+  - name: gift_wrapping_options_list
+    type: varchar(max)
+  - name: sort_order
+    type: int
+  - name: condition
+    type: text
+  - name: is_condition_shown
+    type: boolean
+  - name: order_quantity_minimum
+    type: int
+  - name: order_quantity_maximum
+    type: int
+  - name: page_title
+    type: text
+  - name: meta_keywords
+    type: varchar(max)
+  - name: meta_description
+    type: text
+  - name: view_count
+    type: int
+  - name: preorder_release_date
+    type: text
+  - name: preorder_message
+    type: text
+  - name: is_preorder_only
+    type: boolean
+  - name: is_price_hidden
+    type: boolean
+  - name: price_hidden_label
+    type: text
+  - name: custom_url
+    type: varchar(max)
+  - name: open_graph_type
+    type: text
+  - name: open_graph_title
+    type: text
+  - name: open_graph_description
+    type: text
+  - name: open_graph_use_meta_description
+    type: boolean
+  - name: open_graph_use_product_name
+    type: int
+    type: boolean
+  - name: open_graph_use_image
+    type: boolean
+  - name: brand_name
+    type: text
+  - name: gtin
+    type: text
+  - name: mpn
+    type: text
+  - name: reviews_rating_sum
+    type: float
+  - name: reviews_count
+    type: int
+  - name: total_sold
+    type: int
+  - name: custom_fields
+    type: varchar(max)
+  - name: bulk_pricing_rules
+    type: varchar(max)
+  - name: images
+    type: varchar(max)
+  - name: videos
+    type: varchar(max)
+  - name: date_created
+    type: timestamp
+  - name: date_modified
+    type: timestamp
+  - name: base_variant_id
+    type: int
+  - name: calculated_price
+    type: int
+  - name: options
+    type: varchar(max)
+  - name: modifiers
+    type: varchar(max)
+  - name: option_set_id
+    type: int
+  - name: option_set_display
+    type: text
+  - name: variants
+    type: varchar(max)
+  pk: [id]
+  audit_cols: [date_modified]

@@ -1,0 +1,16 @@
+{
+	"Version": "2012-10-17",
+	"Statement": [{
+		"Effect": "Allow",
+		"Action": "logs:CreateLogGroup",
+		"Resource": "arn:aws:logs:<your-aws-region>:<your-aws-account-id>:*"
+	}, {
+		"Effect": "Allow",
+		"Action": ["logs:CreateLogStream", "logs:PutLogEvents"],
+		"Resource": ["arn:aws:logs:<your-aws-region>:<your-aws-account-id>:log-group:/aws/lambda/KDFLookupAddressTransform:*"]
+	}, {
+		"Effect": "Allow",
+		"Action": "dynamodb:Scan",
+		"Resource": "arn:aws:dynamodb:<your-aws-region>:<your-aws-account-id>:table/BikeStationAddress"
+	}]
+}

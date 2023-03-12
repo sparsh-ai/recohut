@@ -1,0 +1,108 @@
+---
+- name: Manage EC2 instance
+  hosts: ec2host
+  become: false
+  any_errors_fatal: "{{ any_errors_fatal | default(true) }}"
+  gather_facts: true
+
+  tasks:
+    - name: Ping remote EC2 instance
+      ansible.builtin.ping:
+      register: ping_output
+      tags:
+        - pre-python
+        - post-python
+    - name: Show output of ping
+      debug:
+        var: ping_output['ping']
+      tags:
+        - pre-python
+        - post-python
+    - name: Get version of yum package manager
+      ansible.builtin.shell: |
+          grep ^__version__ /usr/lib/python*/site-packages/yum/__init__.py
+      register: yum_version_out
+      changed_when: false
+      tags:
+        - pre-python
+    - name: Show yum version
+      debug: msg="yum version check - {{ yum_version_out.stdout }}"
+      tags:
+        - pre-python
+    - name: Get version of python
+      ansible.builtin.shell: python --version
+      register: py_version_out
+      changed_when: false
+      tags:
+        - pre-python
+    - name: Show python version
+      debug: msg="python version = {{ py_version_out.stdout }}"
+      tags:
+        - pre-python
+    - name: Show remote user home directory
+      debug: var=ansible_env.HOME
+      tags:
+        - pre-python
+    - name: Ensure python3 is installed
+      yum:
+        name: python3
+        state: present
+      become: true
+      tags:
+        - pre-python
+    - name: Ensure python3-pip is installed
+      yum:
+        name: python3-pip
+        state: present
+      become: true
+      tags:
+        - pre-python
+    - name: Get version of python3
+      ansible.builtin.shell: python3 --version
+      register: python_ver
+      changed_when: false
+      tags:
+        - pre-python
+    - name: Show python3 version
+      debug: msg="python3 version = {{ python_ver.stdout }}"
+      tags:
+        - pre-python
+    - name: Get version of python3-pip
+      ansible.builtin.shell: pip3 --version
+      register: pip_version_out
+      changed_when: false
+      tags:
+        - pre-python
+    - name: Show python3-pip version
+      debug: msg="{{ pip_version_out.stdout }}"
+      tags:
+        - pre-python
+    - name: Install Python packages
+      pip:
+        name: "{{ item }}"
+        state: present
+        executable: pip3
+      with_items:
+        - tweepy==4.4.0
+        - emoji==1.6.1
+        - psutil==5.8.0
+        - boto3==1.20.26
+      tags:
+        - post-python
+    - name: Get all installed python packages
+      ansible.builtin.shell: pip3 freeze
+      register: py_pkgs_out
+      changed_when: false
+      tags:
+        - post-python
+    - name: Show all installed python packages
+      debug: msg="{{ py_pkgs_out.stdout }}"
+      tags:
+        - post-python
+    - name: Ensure Python twitter streamer script is present
+      ansible.builtin.copy:
+        src: twitter_s3.py
+        dest: "{{ ansible_env.HOME }}/twitter_s3.py"
+        force: yes
+      tags:
+        - post-python

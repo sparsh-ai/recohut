@@ -1,0 +1,19 @@
+cdk deploy --parameters kdasrcbucketname=kda-upload-tmak --parameters kdaoutputbucketname=kda-output-tmak --parameters sourceStreamName=ProducerStream --parmeters deliveryStreamName=AnalyticsOutput --region=us-east-1
+
+
+cd /home/ssm-user
+
+git init
+git remote add origin -f https://github.com/tmakota/kinesis-book.git
+git config core.sparsecheckout true
+echo "chapter6/producer-app/*" >> .git/info/sparse-checkout
+git pull --depth=2 origin master
+
+cd chapter6/producer-app/ride-producer
+echo $KINESIS_STREAM
+
+source /etc/profile
+
+./gradlew build
+
+./gradlew run -i

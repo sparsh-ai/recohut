@@ -1,0 +1,4 @@
+bold_subscription_notification_prod:
+  fields:
+    - name: boldCustomerId
+      type: TEXT

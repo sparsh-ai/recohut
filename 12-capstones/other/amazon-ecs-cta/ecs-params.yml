@@ -1,0 +1,35 @@
+version: 1
+task_definition:
+  ecs_network_mode: awsvpc
+  task_execution_role: ecsTaskExecutionRole
+  task_size:
+    cpu_limit: 4096
+    mem_limit: 25GB
+  services:
+    zookeeper:
+      essential: true
+    kafka0:
+      essential: true
+    schema-registry:
+      essential: true
+    rest-proxy:
+      essential: true
+    connect:
+      essential: true
+    ksql:
+      essential: true
+    connect-ui:
+      essential: true
+    topics-ui:
+      essential: true
+    schema-registry-ui:
+      essential: true
+    postgres:
+      essential: true
+run_params:
+  network_configuration:
+    awsvpc_configuration:
+      subnets:
+        - subnet-01d9e2586224248fa
+        - subnet-04fd502776bdf4c60
+      assign_public_ip: ENABLED

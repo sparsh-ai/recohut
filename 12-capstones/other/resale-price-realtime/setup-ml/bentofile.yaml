@@ -1,0 +1,11 @@
+service: "deploy:service"
+labels:
+  owner: "JP"
+  stage: "prod"
+include:
+  - "*.py"
+python:
+  requirements_txt: "requirements.txt"
+docker:
+    distro: debian
+    python_version: "3.8.12"

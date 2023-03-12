@@ -1,0 +1,7 @@
+-e .
+aws-cdk.core==1.81.0
+aws-cdk.aws_iam==1.81.0
+aws-cdk.aws_s3==1.81.0
+aws-cdk.aws-kinesis==1.81.0
+aws-cdk.aws_kinesisfirehose==1.81.0
+aws-cdk.aws_kinesisanalytics==1.81.0

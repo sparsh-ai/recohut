@@ -1,0 +1,6 @@
+customer_migrations_prod:
+  fields:
+    - name: emailAddress
+      type: TEXT
+    - name: runNumber
+      type: FLOAT

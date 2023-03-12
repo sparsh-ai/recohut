@@ -1,0 +1,16 @@
+version: 2
+
+
+exposures:
+
+  - name: commerce_dashboard
+    type: dashboard
+    maturity: high
+
+    depends_on:
+      - ref('overview_1h')
+      - ref('overview_1d')
+
+    owner:
+      name: John Doe
+      email: john@doe.com

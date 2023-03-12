@@ -1,0 +1,52 @@
+with most_recent_delivery as (
+	select 
+		fl.member_id 
+		, max(delivery_date) as most_recent_delivery_date
+	from {{ref('fact_loop')}} fl
+	where delivery_date  <= current_date
+	group by fl.member_id
+),	next_delivery as (
+		select
+			member_id
+			, min(delivery_date) as next_delivery_date
+		from {{ref('fact_loop')}} fl 
+		where delivery_date > current_date 
+		group by member_id
+), inactive_members as (
+	select
+	member_id 
+	, max(pick_up_date) as inactive_date
+	from {{ref('dim_members')}} dm
+	left join {{ref('fact_loop')}} fl using(member_id)
+	where LTRIM(regexp_replace(member_status, '[0-9].', '')) = 'inactive'
+	group by member_id 
+)
+select
+	dm.member_id 
+	, dm.email
+	, nd.next_delivery_date
+	, mrd.most_recent_delivery_date
+	, regexp_replace(member_status, '[0-9].', '') as status
+	, dm.membership_type
+	, dm.membership_start_dt as membership_start_date
+	, case when dm.membership_end_dt != '9999-12-31' then dm.membership_end_dt else null end as membership_end_date
+	, im.inactive_date
+	, case when agr.is_reg is not null then 1 else 0 end as registry_user
+from {{ref('dim_members')}} dm
+left join most_recent_delivery mrd
+	using(member_id)
+left join next_delivery nd 
+	using(member_id)
+left join inactive_members im
+	using(member_id)
+left join ( --will need to change once registry added
+	select distinct
+		mim.member_id
+        , 1 as is_reg
+	from {{ref('agg_registry')}} ar 
+	join {{ref('member_id_map')}} mim 
+		on ar.user_id = mim.src_id
+	where mim.member_id is not null and mim.src = 'shopify'
+) agr
+	using(member_id)
+where membership_start_date <= current_date

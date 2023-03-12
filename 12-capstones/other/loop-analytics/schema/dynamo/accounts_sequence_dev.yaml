@@ -1,0 +1,4 @@
+accounts_sequence_dev:
+  fields:
+    - name: id
+      type: FLOAT

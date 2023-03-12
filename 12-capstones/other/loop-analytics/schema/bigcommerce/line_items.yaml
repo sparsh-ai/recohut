@@ -1,0 +1,74 @@
+line_items:
+  fields:
+  - name: id
+    type: int
+  - name: order_id
+    type: int
+  - name: product_id
+    type: int
+  - name: order_address_id
+    type: int
+  - name: name
+    type: varchar(max)
+  - name: sku
+    type: varchar(50)
+  - name: type
+    type: varchar(10)
+  - name: base_price
+    type: float
+  - name: price_ex_tax
+    type: float
+  - name: price_inc_tax
+    type: float
+  - name: price_tax
+    type: float
+  - name: base_total
+    type: float
+  - name: total_ex_tax
+    type: float
+  - name: total_inc_tax
+    type: float
+  - name: total_tax
+    type: float
+  - name: quantity
+    type: int
+  - name: base_cost_price
+    type: float
+  - name: cost_price_inc_tax
+    type: float
+  - name: cost_price_ex_tax
+    type: float
+  - name: weight
+    type: float
+  - name: cost_price_tax
+    type: float
+  - name: is_refunded
+    type: bool
+  - name: refunded_amount
+    type: float
+  - name: return_id
+    type: float
+  - name: quantity_shipped
+    type: int
+  - name: event_name
+    type: varchar(100)
+  - name: event_date
+    type: date
+  - name: option_set_id
+    type: int
+  - name: parent_order_product_id
+    type: int
+  - name: is_bundled_product
+    type: bool
+  - name: applied_discounts
+    type: varchar(max)
+  - name: product_options
+    type: varchar(max)
+  - name: external_id
+    type: varchar(50)
+  - name: variant_id
+    type: int
+  - name: name_customer
+    type: varchar(100)
+  pk: [id]
+  parent_key: [order_id]

@@ -1,0 +1,26 @@
+shipments:
+  fields:
+  - name: id
+    type: int
+  - name: order_id
+    type: int
+  - name: customer_id
+    type: int
+  - name: date_created
+    type: date
+  - name: tracking_number
+    type: text
+  - name: shipping_method
+    type: text
+  - name: comments
+    type: varchar(max)
+  - name: tracking_carrier
+    type: text
+  - name: billing_address
+    type: varchar(max)
+  - name: shipping_address
+    type: varchar(max)
+  - name: items
+    type: varchar(max)
+  pk: [id]
+  parent_key: [order_id]

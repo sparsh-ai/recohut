@@ -1,0 +1,64 @@
+version: 2
+
+seeds:
+  - name: _duplicates
+    config:
+      quote_columns: true
+      column_types:
+        src_id: VARCHAR
+        email: VARCHAR
+        email_key: VARCHAR
+        member_id: VARCHAR
+        src: VARCHAR
+  - name: _duplicate_emails
+    config:
+      quote_columns: true 
+      column_types:
+        secondary_email: VARCHAR
+        primary_email: VARCHAR
+  - name: _manual_products
+    config:
+      quote_columns: true
+      column_types:
+        sku: VARCHAR
+        product_name: VARCHAR
+        product_created_ts: TIMESTAMP
+        product_updated_ts: TIMESTAMP
+        product_published_ts: TIMESTAMP
+        product_page_handle: VARCHAR
+        product_status: VARCHAR
+        product_tags: VARCHAR
+  - name: _line_item_sku_override
+    config:
+      quote_columns: true
+      column_types:
+        line_item_id: VARCHAR
+        sku: VARCHAR
+        variant_id: VARCHAR
+  - name: _transaction_sku_override
+    config:
+      quote_columns: true
+      column_types:
+        order_id: VARCHAR
+        line_item_id: VARCHAR
+        sales_type: VARCHAR
+        sku: VARCHAR
+        product_name: VARCHAR
+  - name: _bundled_products
+    config:
+      quote_columns: true
+      column_types:
+        bundled_product_id: VARCHAR
+        unbundled_product_id: VARCHAR
+        unbundled_product_name: VARCHAR
+  - name: _member_exceptions
+    config:
+      quote_columns: true
+      column_types:
+        email: VARCHAR
+        shopify_id: VARCHAR
+        service_area: VARCHAR
+        exception_type: VARCHAR
+        membership_status: VARCHAR
+        member_start_date: DATE
+        member_end_date: DATE

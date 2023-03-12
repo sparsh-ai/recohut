@@ -1,0 +1,417 @@
+version: 2
+
+sources:
+  - name: klaviyo
+    tables:
+      - name: email_link_clicked
+        columns:
+          - name: id
+            description: Primary key of the  table
+            tests:
+              - unique
+              - not_null
+      - name: email_delivered
+        columns:
+          - name: id
+            description: Primary key of the  table
+            tests:
+              - unique
+              - not_null
+      - name: email_opened
+        columns:
+          - name: id
+            description: Primary key of the  table
+            tests:
+              - unique
+              - not_null
+  - name: bold
+    tables:
+      - name: subscriptions
+      - name: line_items
+      - name: customers
+  - name: googlesheets
+    description: spreadsheets ftw
+    tables:
+      - name: inventory_reporting_base
+      - name: loop_master
+      - name: purchase_master
+      - name: nyc_loop_master
+      - name: nyc_purchase_master
+      - name: fb_ad_key
+      - name: loop_daily_targets
+      - name: loop_pdp_rewrite_tracker
+      - name: membership_exceptions
+  - name: shopify
+    description: Selling things on the internet
+    tables:
+      - name: orders
+        columns:
+          - name: id
+            description: Primary key of the  table
+            tests:
+              - unique
+              - not_null
+      - name: customers
+        columns:
+          - name: id
+            description: Primary key of the  table
+            tests:
+              - unique
+              - not_null
+      - name: products
+        columns:
+          - name: id
+            description: Primary key of the  table
+            tests:
+              - unique
+              - not_null
+      - name: variants
+        columns:
+          - name: id
+            description: Primary key of the  table
+            tests:
+              - unique
+              - not_null
+      - name: line_items
+        columns:
+          - name: id
+            description: Primary key of the  table
+            tests:
+              - unique
+              - not_null
+  - name: hubspot
+    description: CRM to the stars
+    tables:
+      - name: contacts
+        columns:
+          - name: id
+            description: Primary key of the  table
+            tests:
+              - unique
+              - not_null
+      - name: deals
+        columns:
+          - name: id
+            description: Primary key of the  table
+            tests:
+              - unique
+              - not_null
+  - name: facebook_ads
+    description: Facebook Ads to the stars
+    tables:
+      - name: campaigns
+        columns:
+          - name: id
+            description: Primary key of the  table
+            tests:
+              - unique
+              - not_null
+      - name: insights
+        columns:
+          - name: id
+            description: Primary key of the  table
+            tests:
+              - unique
+              - not_null
+      - name: ads
+        columns:
+          - name: id
+            description: Primary key of the  table
+            tests:
+              - unique
+              - not_null
+  - name: google_ads
+    description: google ads to the stars
+    tables:
+      - name: campaigns
+        columns:
+          - name: id
+            description: Primary key of the  table
+            tests:
+              - unique
+              - not_null
+      - name: ad_performance_reports
+        columns:
+          - name: id
+            description: Primary key of the  table
+            tests:
+              - unique
+              - not_null
+      - name: ads
+        columns:
+          - name: id
+            description: Primary key of the  table
+            tests:
+              - unique
+              - not_null
+      - name: ad_groups
+        columns:
+          - name: id
+            description: Primary key of the  table
+            tests:
+              - unique
+              - not_null
+      - name: click_performance_reports
+        columns:
+          - name: id
+            description: Primary key of the  table
+            tests:
+              - unique
+              - not_null
+  - name: ip_api
+    description: holds IP geo location information
+    tables:
+      - name: ip_location
+  - name: quickbase
+    description: Tables integrated from quickbase
+    tables:
+      - name: order_lines
+        columns:
+          - name: record_id
+            description: Primary key of the  table
+            tests:
+              - unique
+              - not_null
+      - name: pick_deliveries
+        columns:
+          - name: record_id
+            description: Primary key of the  table
+            tests:
+              - unique
+              - not_null
+      - name: customers
+        columns:
+          - name: record_id
+            description: Primary key of the  table
+            tests:
+              - unique
+              - not_null
+      - name: schedule_delivery
+        columns:
+          - name: record_id
+            description: Primary key of the  table
+            tests:
+              - unique
+              - not_null
+      - name: schedule_pickup
+        columns:
+          - name: record_id
+            description: Primary key of the  table
+            tests:
+              - unique
+              - not_null
+      - name: inventory
+        columns:
+          - name: quickbase_asset_id
+            description: Primary key of the  table
+            tests:
+              - unique
+              - not_null
+      - name: associate_asset_tag
+        columns:
+          - name: record_id
+            description: Primary key of the  table
+            tests:
+              - unique
+              - not_null
+      - name: sell_asset
+        columns:
+          - name: record_id
+            description: Primary key of the  table
+            tests:
+              - unique
+              - not_null
+      - name: scrap_asset
+        columns:
+          - name: record_id
+            description: Primary key of the  table
+            tests:
+              - unique
+              - not_null
+  - name: shopify_littledata_prod
+    description: holds segment data from shopify
+    tables:
+      - name: add_to_registry_product_added
+  - name: bigcommerce
+    description: holds bigcommerce data
+    tables:
+      - name: customers
+        columns: 
+        - name: id
+          tests:
+            - unique
+            - not_null
+      - name: orders
+        columns: 
+        - name: id
+          tests:
+            - unique
+            - not_null
+      - name: products
+        columns:
+        - name: id
+          tests:
+            - unique
+            - not_null
+      - name: refunds
+        columns:
+        - name: id
+          tests:
+            - unique
+            - not_null  
+      - name: line_items
+        columns:
+        - name: id
+          tests:
+            - unique
+            - not_null 
+      - name: shipping_addresses
+        columns:
+        - name: id
+          tests:
+            - unique
+            - not_null   
+      - name: brands
+        columns:
+        - name: id
+          tests:
+            - unique
+            - not_null  
+      - name: categories
+        columns:
+        - name: id
+          tests:
+            - unique
+            - not_null 
+      - name: variants
+        columns:
+        - name: id
+          tests:
+            - unique
+            - not_null 
+      - name: shipments
+        columns:
+        - name: id
+          tests:
+            - unique
+            - not_null 
+  - name: stripe
+    description: holds stripe data payment and subscription data
+    tables:
+      - name: customers
+        columns: 
+        - name: id
+          tests:
+            - unique
+            - not_null      
+      - name: subscriptions
+        columns: 
+        - name: id
+          tests:
+            - unique
+            - not_null 
+      - name: invoices
+        columns: 
+        - name: id
+          tests:
+            - unique
+            - not_null 
+      - name: invoice_items
+        columns: 
+        - name: id
+          tests:
+            - unique
+            - not_null 
+      - name: invoice_lines
+        columns: 
+        - name: id
+          tests:
+            - unique
+            - not_null 
+      - name: charges
+        columns: 
+        - name: id
+          tests:
+            - unique
+            - not_null       
+      - name: refunds
+        columns: 
+        - name: id
+          tests:
+            - unique
+            - not_null 
+      - name: products
+        columns: 
+        - name: id
+          tests:
+            - unique
+            - not_null 
+      - name: balance_transactions
+        columns: 
+        - name: id
+          tests:
+            - unique
+            - not_null 
+      - name: discounts
+        columns: 
+        - name: id
+          tests:
+            - unique
+            - not_null 
+      - name: coupons
+        columns: 
+        - name: id
+          tests:
+            - unique
+            - not_null
+      - name: plans
+        columns: 
+        - name: id
+          tests:
+            - unique
+            - not_null
+  - name: loop_baby_prod
+    description: holds bigcommerce session data
+    tables:
+      - name: tracks
+      - name: product_clicked
+      - name: product_removed
+      - name: checkout_started
+      - name: zip_code_validation
+      - name: product_list_viewed
+      - name: checkout_completed
+      - name: order_completed
+      - name: be_signed_up
+      - name: checkout_delivery_address
+      - name: checkout_completion_failed
+      - name: checkout_membership_selection
+      - name: password_changed
+      - name: page_viewed
+      - name: users
+  - name: dw2
+    tables:
+      - name: account
+  - name: stripe_fivetran
+    tables:
+      - name: invoice
+      - name: balance_transaction
+      - name: charge
+      - name: subscription_history
+      - name: invoice_line_item
+      - name: refund
+      - name: product
+      - name: price
+      - name: subscription_item
+      - name: customer
+      - name: subscription_discount
+      - name: coupon
+  - name: loop_server_prod
+    tables:
+      - name: checkout_started
+      - name: customer_created
+      - name: order_completed
+      - name: order_created
+      - name: pre_create_order
+      - name: signed_up
+      - name: tracks
+      - name: users

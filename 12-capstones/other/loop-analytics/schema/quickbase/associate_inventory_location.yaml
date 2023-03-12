@@ -1,0 +1,52 @@
+associate_inventory_location:
+  fields:
+  - name: related_order_line_ref
+    type: text
+  - name: related_order
+    type: text
+  - name: order_number
+    type: text
+  - name: date_created
+    type: timestamp
+  - name: date_modified
+    type: timestamp
+  - name: last_modified_by
+    type: text
+  - name: order_reportlink
+    type: text
+  - name: record_id
+    type: text
+  - name: record_owner
+    type: text
+  - name: related_inventory_location
+    type: text
+  - name: related_order_line
+    type: text
+  - name: related_order_line_ref_order_id
+    type: text
+  - name: related_order_line_ref_qb_order_
+    type: text
+  - name: related_order_line_ref_qb_order_related_customer
+    type: text
+  - name: order_qb_first
+    type: text
+  - name: order_qb_last
+    type: text
+  - name: order_address_id_address
+    type: text
+  - name: order_address_id_address_line_1
+    type: text
+  - name: order_address_id_address_line_2
+    type: text
+  - name: order_customer_address_city
+    type: text
+  - name: order_address_id_state
+    type: text
+  - name: order_address_id_zip
+    type: text
+  - name: inventory_location_inventory_location_name
+    type: text
+  - name: inventory_location_valid_for_picking
+    type: text
+  - name: ol_reportlink
+    type: text

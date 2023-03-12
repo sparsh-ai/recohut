@@ -1,0 +1,12 @@
+default:
+  outputs:
+    dev:
+      type: postgres
+      threads: 2
+      host: database-1.cy8ltogyfgas.us-east-1.rds.amazonaws.com
+      port: 5432
+      user: postgres
+      pass: "!60^pcnC5E88"
+      dbname: postgres
+      schema: vehicle_trajectory
+  target: dev

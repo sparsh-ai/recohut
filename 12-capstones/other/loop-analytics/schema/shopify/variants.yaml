@@ -1,0 +1,54 @@
+variants:
+  fields:
+    - name: id
+      type: text
+    - name: product_id
+      type: text
+    - name: title
+      type: text
+    - name: price
+      type: float
+    - name: sku
+      type: text
+    - name: position
+      type: int
+    - name: inventory_policy
+      type: text
+    - name: compare_at_price
+      type: float
+    - name: fulfillment_service
+      type: text
+    - name: inventory_management
+      type: text
+    - name: option1
+      type: text
+    - name: option2
+      type: text
+    - name: option3
+      type: text
+    - name: created_at
+      type: timestamp
+    - name: updated_at
+      type: timestamp
+    - name: taxable
+      type: bool
+    - name: barcode
+      type: text
+    - name: grams
+      type: int
+    - name: image_id
+      type: text
+    - name: weight
+      type: float
+    - name: weight_unit
+      type: text
+    - name: inventory_item_id
+      type: text
+    - name: inventory_quantity
+      type: int
+    - name: old_inventory_quantity
+      type: int
+    - name: requires_shipping
+      type: bool
+    - name: admin_graphql_api_id
+      type: text
