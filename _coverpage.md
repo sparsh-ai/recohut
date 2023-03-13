@@ -4,7 +4,7 @@
 
 > Data Engineering Intensive Training Program
 
-Join the 55-hour intensive training program now
+Free Training and Bootcamp material
 
 [GitHub](https://github.com/datalaker/data-engineering-bootcamp)
 [Getting Started](#data-engineering-intensive-training-program)
