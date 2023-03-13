@@ -317,6 +317,8 @@ Every data warehouse has different naming/implementation/caveats concerning the 
 
 ### Designing SCDs
 
+Whereas operational source systems contain only the latest version of [master data](https://en.wikipedia.org/wiki/Master_data), the star schema enables time travel queries to reproduce dimension attribute values on past dates when the fact transaction or event actually happened. The star schema data model allows analytical users to query historical data tying metrics to corresponding dimensional attribute values over time. Time travel is possible because dimension tables contain the exact version of the associated attributes at different time ranges. Relative to the metrics data that keeps changing on a daily or even hourly basis, the dimension attributes change less frequently. Therefore, dimensions in a star schema that keeps track of changes over time are referred to as [slowly changing dimensions](https://en.wikipedia.org/wiki/Slowly_changing_dimension) (SCDs).
+
 SCDs refer to data in dimension tables that changes slowly over time and not at a regular cadence. A common example for SCDs is customer profiles—for example, an email address or the phone number of a customer doesn't change that often, and these are perfect candidates for SCD.
 
 Here are some of the main aspects we will need to consider while designing an SCD:
