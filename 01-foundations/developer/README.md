@@ -1,27 +1,11 @@
 # Developer Foundations
 
-## Objective
-
-Learn the processes you need to know, and the tools you need to have as a developer
-
 ## Anaconda
 
-### Setup
+1. Download the file from https://www.anaconda.com/products/distribution and install it
+2. Create Virtual Environment by executing this command in the terminal: `conda create -n env anaconda`. This will create a viirtual environment (venv) named `env` and install all the basic packages in that environment.
 
-1. Download from https://www.anaconda.com/products/distribution.
-2. Install the downloaded package
-
-### Create Virtual Environment
-
-Open terminal and write:
-
-```bash
-conda create -n env anaconda
-```
-
-This command will create a viirtual environment (venv) named `env` and install all the basic packages in that environment.
-
-### Makefile
+#### Makefile
 
 ```makefile
 install:
@@ -32,19 +16,18 @@ install:
 	conda activate env
 ```
 
-## Jupyter Notebooks
+## Jupyter Notebook
 
-### Alternatives
+There are many free options to run jupyter notebooks:
 
-- Anaconda Jupyter Notebooks - Here we install Anaconda IDE and it provides acceess to Jupyter lab and Jupyter notebooks in local machine
-- Google Colab - https://colab.research.google.com/
+- Jupyter lab and Jupyter notebook - Anaconda also provide Jupyter lab and Jupyter notebook tools in local machine
+- Google colab - https://colab.research.google.com
 - Amazon SageMaker Studio Lab - https://studiolab.sagemaker.aws
 - Databricks - For free community edition, use this: https://community.cloud.databricks.com
 - Jupyter-try - https://jupyter.org/try
 - VS Code Jupyter notebook - This can be accessed by installing `Jupyter` extension in VS code
-- Amazon SageMaker Studio - This is a paid tool
 
-### Makefile
+#### Makefile
 
 ```makefile
 writefile_custom:
@@ -68,32 +51,13 @@ watermark:
 	%watermark -a "Sparsh A." -m -iv -u -t -d
 ```
 
-## Visual Studio Code
+## Visual Studio Code (VS Code)
 
-### Install
-
-Follow [this](https://code.visualstudio.com/docs/setup/setup-overview) guide to install VS code in your system.
-
-### Extensions
-
-Once the VS code is installed, also install [this](https://marketplace.visualstudio.com/items?itemName=ms-python.python) extension.
-
-* [ ] Python Extensions Pack
-* [ ] Office Viewer
-
-### Understanding VSCode Features
-
-* [ ] Left-panel icons - Explorer, Search & replace, Git, Extensions
-* [ ] Primary Side bar
-* [ ] Main window and tabs
-* [ ] Top central bar - Search and commands, opening a file, changing theme
-* [ ] Top right bar - Toggle feature
-* [ ] Command bar - opening and closing terminals, starting multiple terminals
-* [ ] Bottom bar - notifications
-
-### Optional: Git Multi-branch Environment Setup
-
-You can setup a main/feature dual branch environment linked to two different folders in your system. I have seen that the git branch navigation is a bit confusing for begineers and until you gets familiar with it (~2-3 weeks), this multi-branch setup would be helpful.
+1. Follow [this](https://code.visualstudio.com/docs/setup/setup-overview) guide to install VS code in your system. Alternatively, go to https://code.visualstudio.com/download and download the VS Code
+1. Install the following extensions
+   1. [Python Extensions Pack](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+   1. Office Viewer
+1. [Optional] Git Multi-branch Environment Setup - You can setup a main/feature dual branch environment linked to two different folders in your system. I have seen that the git branch navigation is a bit confusing for begineers and until you gets familiar with it (~2-3 weeks), this multi-branch setup would be helpful.
 
 ## Github
 
@@ -101,16 +65,11 @@ Why this is important: One of the major problems with coding is to keep track of
 
 ### Setup
 
-1. Download [Git SCM](https://git-scm.com/downloads)
-2. Install the downloaded file
-3. Create GitHub Account - https://www.youtube.com/embed/QUtk-Uuq9nE
-4. Setup Git Credentials - https://www.youtube.com/embed/WgZIv5HI44o
-
-### Git commands
-
-![atlassian-git-cheatsheet-1](https://user-images.githubusercontent.com/62965911/212006609-a871bf80-a26e-4ab6-996b-eaab0a14f5b4.png)
-
-![atlassian-git-cheatsheet-2](https://user-images.githubusercontent.com/62965911/212006617-88e6eb6b-b6d3-4a25-8827-4cfa0ab63d41.png)
+1. Create GitHub Account - https://www.youtube.com/embed/QUtk-Uuq9nE
+1. Install git cli by downloading [Git SCM](https://git-scm.com/downloads) and install it
+1. Setup Git Credentials - https://www.youtube.com/embed/WgZIv5HI44o
+1. Connect local workspace to git repo
+1. Add collaborators
 
 ### Makefile
 
@@ -144,39 +103,23 @@ git-sim --animate reset HEAD^
 
 References - https://initialcommit.com/blog/git-sim
 
+## Bash
+
+In Mac/Linux, Bash comes pre-installed. And in Windows, git will also install bash terminal.
+
 ## DBeaver
 
-### Setup
-
-Watch and follow this video: https://youtu.be/NWTX0W-WgzE
+Go to https://dbeaver.io/download and click on Windows installer to download DBeaver. Follow https://youtu.be/NWTX0W-WgzE for more information.
 
 ## Labs
 
-1. Visual Studio Code (vscode)
-   1. Download and Install vscode
-   2. Understand vscode features
-   3. Install extensions in vscode
-3. Anaconda
-   1. Download and Install Anaconda
-   2. Create virtual environment in anaconda
-   3. Create jupyter notebook in vscode and connect to venv
-4. Github
-   1. Create github account
-   2. Install git cli
-   3. Create git repo and add students as collaborator
-   4. Connect local workspace to git repo
-5. [Learn git command](01-foundations/developer/lab-git-basics/)
-6. [Learn bash command](01-foundations/developer/lab-bash/)
-7. Download and Install DBeaver
-
-## Note for Windows users
-
-1. Go to https://code.visualstudio.com/download and click on Windows icon to download the VS Code
-2. Install the VS Code by following instructions
-3. Go to https://git-scm.com/download/win and click on the Windows installer to download git
-4. Install the git by following instructions
-5. Bash - Git will also install the Bash shell
-6. Go to https://www.anaconda.com/products/distribution and click on the download button
-7. Install the Anaconda by following instructions
-8. Go to https://dbeaver.io/download and click on Windows installer to download DBeaver
-9. Install the DBeaver by following instructions
+1. Explore VS Code features
+	- Left-panel icons - Explorer, Search & replace, Git, Extensions
+	- Primary Side bar
+	- Main window and tabs
+	- Top central bar - Search and commands, opening a file, changing theme
+	- Top right bar - Toggle feature
+	- Command bar - opening and closing terminals, starting multiple terminals
+	- Bottom bar - notifications
+1. [Learn git commands](01-foundations/developer/lab-git-basics/)
+1. [Learn bash commands](01-foundations/developer/lab-bash/)

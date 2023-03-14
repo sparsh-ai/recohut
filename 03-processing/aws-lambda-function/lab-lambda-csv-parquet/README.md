@@ -34,3 +34,7 @@ Your goal is to design and develop a data pipeline which solves the same purpose
 - Add the layer to the function
 - Add trigger in Lambda for automation
 - Query with Athena
+
+## Code
+
+[![](https://img.shields.io/badge/download-notebook-blueviolet)](https://nbviewer.org/github/datalaker/data-engineering-bootcamp/blob/main/03-processing/aws-lambda-function/lab-lambda-csv-parquet/01-sa-etl-lambda.ipynb)
