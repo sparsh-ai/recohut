@@ -20,6 +20,12 @@ In this lab, we will learn how to perform the following activities:
 - Merge the branches
 - Create the issues
 
+## Git Commands
+
+![atlassian-git-cheatsheet-1](https://user-images.githubusercontent.com/62965911/212006609-a871bf80-a26e-4ab6-996b-eaab0a14f5b4.png)
+
+![atlassian-git-cheatsheet-2](https://user-images.githubusercontent.com/62965911/212006617-88e6eb6b-b6d3-4a25-8827-4cfa0ab63d41.png)
+
 ## Quiz
 
 Which git command sets up a git tracking of a project?

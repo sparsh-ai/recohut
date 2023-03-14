@@ -666,12 +666,6 @@ Following these 9 best practices for database design will help ensure that your 
 36. What is Data Mart?
 37. Explain how the Cargo Shipping Company Created its Data Model?
 
-## Case Studies
-
-1. [Spotify](https://medium.com/towards-data-engineering/design-the-database-for-a-system-like-spotify-95ffd1fb5927)
-2. [LinkedIn](https://medium.com/towards-data-engineering/database-design-for-a-system-like-linkedin-3c52a5ab28c0)
-3. [Zomato/Swiggy](https://medium.com/towards-data-engineering/database-design-for-a-food-delivery-app-like-zomato-swiggy-86c16319b5c5)
-
 ## Labs
 
 1. Build a Star Schema based Data Model in Postgres on the AirBnB dataset [[source code](04-serving/sql/lab-airbnb-postgres-datamodel/)]
@@ -687,6 +681,31 @@ Following these 9 best practices for database design will help ensure that your 
 11. Housing Data Model with CDC and SCD Type 2 [[source code](04-serving/sql/lab-postgres-housing-cdc-scd/)]
 12. Credit Debit Finance Data Model in Snowflake [[source code](04-serving/sql/lab-snowflake-creditdebit-datamodel/)]
 13. Sparkify Music Company Data Model in Postgres [[source code](04-serving/sql/lab-sparkify-data-model-postgres/)]
+
+## Case Studies
+
+1. [Spotify](https://medium.com/towards-data-engineering/design-the-database-for-a-system-like-spotify-95ffd1fb5927)
+2. [LinkedIn](https://medium.com/towards-data-engineering/database-design-for-a-system-like-linkedin-3c52a5ab28c0)
+3. [Zomato/Swiggy](https://medium.com/towards-data-engineering/database-design-for-a-food-delivery-app-like-zomato-swiggy-86c16319b5c5)
+
+### Whatnot Dimensional Data Modeling
+
+![img](https://user-images.githubusercontent.com/62965911/224901453-45944e6b-4467-4f3c-89c2-c5b1a8f6040f.png)
+
+**Data model types:**
+
+- **Facts** are (generally) transaction-like records that should not change after the transaction is completed. They tend to be high velocity (there are a lot of them) and have measurements associated with them, such as price or duration.
+- **Dimensions** describe the objects in a fact table. For example, many orders might come from the same livestream, so the livestream would be considered a “dimension” of the order.
+- **Bridge Tables** — map two entities together when they have a one-to-many or many-to-many relationship. For example, we will have a category dimension and a livestream watches fact. Live streams can have many categories.
+- **Map Tables** — Different from bridge tables, map tables can be thought of as upstream of facts and dimensions. These are intermediary tables that map an ID to a categorization.
+
+**Slowly Changing Dimensions:**
+
+SCDs are dimensions with tracked changes using `valid_from` and `valid_to columns`. For example, a user’s address can change over time and each time a change occurs, a new record is created (Type 2 SCD).
+
+**Natural Keys vs Surrogate Keys:**
+
+Earlier, data users relied on a model’s natural keys to join, which is intuitive and simple, but sometimes confusing — string or int? — and, with the introduction of SCD, could lead to exploding joins. Whatnot decided all data models in their core schema would have a `varchar` surrogate key. They generate this for each table using  `dbt_utils.generate_surrogate_key([entity_id, valid_from])`. By always using a hashed surrogate key, we avoid potential integer-to-varchar join issues. The downside to surrogate keys is that they can be confusing for developers, who are used to joining on “id” columns rather than “keys”.
 
 ## Resources
 
