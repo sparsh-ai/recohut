@@ -7,11 +7,9 @@
 
   - [SQL](01-foundations/language/sql/)
   - [Python](01-foundations/language/python/)
-  - [PySpark](01-foundations/language/pyspark/)
-  - [Scala](01-foundations/language/scala/)
+  - [Spark](01-foundations/language/spark/)
 - Data Storage
 
-  - [Concepts](02-storage/README.md)
   - [Flat Files](02-storage/flat-files/)
   - [Relational Databases](02-storage/databases/)
   - [NoSQL Databases](02-storage/nosql-databases/)

@@ -1,4 +1,4 @@
-# Apache Spark
+# Spark
 
 Apache Spark is an open-source, multi-language, in-memory, large-scale data processing engine. It provides high-level APIs in Java, Scala, Python & R programming languages. It works on the concept of in-memory computation, making it around 100x faster than Hadoop MapReduce. It also provides tools & libraries like Spark SQL(for structured data processing), MLlib (Machine Learning), Streaming (Stream processing) & GraphX (Graph processing).
 
@@ -862,6 +862,38 @@ Below are a few questions that should come handy in the first go :
 - Iterate through eachrow of dataframe in pyspark ?
 - How to handle NULL values ?
 
+## Spark Scala
+
+- Expressive
+  - First-class functions
+  - Closures
+- Concise
+  - Type inference
+  - Literal syntax for function creation
+- Java interoperability
+  - Can reuse java libraries
+  - Can reuse java tools
+  - No performance penalty
+- Compiles to java bytecode
+- Works with any standard JVM
+  - Or even some non-standard JVMs like Dalvik
+  - Scala compiler written by author of Java compiler
+
+### How to install
+
+```
+pip install spylon-kernel
+python -m spylon_kernel install
+```
+
+To install scala in Anaconda, first create an empty venv (`env-scala` in our case) and then install the scala from `anaconda-cluster` channel.
+
+```
+conda create -n env-scala
+conda install -c anaconda-cluster scala
+conda install -c conda-forge spylon-kernel
+```
+
 ## Labs
 
 1. Create databricks account
@@ -878,6 +910,9 @@ Below are a few questions that should come handy in the first go :
 12. [Understand Spark Query Execution](01-foundations/language/pyspark/lab-understand-spark-query-execution/)
 13. [Window Functions](01-foundations/language/pyspark/lab-window-functions/)
 14. [BCG Case Study](01-foundations/language/pyspark/lab-bcg/)
+15. Introduction to Scala programming
+16. Getting started with Spark Scala
+17. [Building extract and load pipeline with Scala, S3 and Postgres](03-processing/databricks/lab-databricks-scala-postgres-s3/)
 
 ## References
 

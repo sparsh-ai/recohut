@@ -1,14 +1,15 @@
 # Python
 
-Python is a high-level, general-purpose programming language.
+A strong understanding of Python syntax, data types, operators, and control structures is essential. Data engineering using Python only gets better, and here is a list of points if you are beginning to think otherwise.
 
-## Basics
+1. The role of a data engineer involves working with different types of data formats. For such cases, Python is best suited. Its standard library supports easy handling of .csv files, one of the most common data file formats.
+2. A data engineer is often required to use APIs to retrieve data from databases. The data in such cases is usually stored in JSON (JavaScript Object Notation) format, and Python has a library named JSON-JSON to handle such type of data.
+3. The responsibility of a data engineer is not only to obtain data from different sources but also to process it. One of the most popular data process engines is Apache Spark which works with Python DataFrames and even offers an API, PySpark, to build scalable big data projects.
+4. Data engineering tools use Directed Acyclic Graphs like Apache Airflow, Apache NiFi, etc. DAGs are nothing but Python codes used for specifying tasks. Thus, learning Python will help data engineers use these tools efficiently.
+5. Luigi! No, not the Mario character by Nintendo; we are referring to the Python module that is widely considered a fantastic tool for data engineering.
+6. Apart from all the points mentioned above, it is common knowledge that Python is easy to learn and is free to use for the masses. An active community of developers strongly supports it.
 
-### Fundamentals
-
-A strong understanding of Python syntax, data types, operators, and control structures is essential.
-
-Some key concepts under Basic Python that data engineers should be familiar :
+Some key concepts under Basic Python that data engineers should be familiar:
 
 1. Variables and Data Types: Data engineers should know how to create and manipulate variables of different data types such as integers, floats, strings, and Booleans.
 2. Control Structures: Control structures such as if-else statements, loops, and functions are essential for writing efficient and reusable code.
@@ -17,7 +18,7 @@ Some key concepts under Basic Python that data engineers should be familiar :
 5. Exception Handling: Exception handling is important for dealing with errors and unexpected events that may occur during code execution.
 6. Python Built-in Functions: Data engineers should be familiar with commonly used built-in functions in Python such as Len(), range(), print(), and type().
 
-### Data Structures
+## Data Structures
 
 Data engineers should be proficient in working with data structures like lists, tuples, sets, and dictionaries.
 
@@ -32,7 +33,7 @@ Data engineers should be familiar with the operations that can be performed on t
 
 Knowledge of data structures is important for efficient data manipulation and analysis in data engineering. In addition to the built-in data structures, data engineers should also be familiar with external libraries that provide specialized data structures for specific use cases.
 
-### Object-Oriented Programming (OOP)
+## Object-Oriented Programming (OOP)
 
 Knowledge of OOP concepts like classes, objects, inheritance, encapsulation, and polymorphism is important.
 
@@ -50,9 +51,7 @@ Data engineers should be able to define and use classes, create objects, and imp
 
 In addition to OOP, data engineers should also be familiar with other programming paradigms like functional programming, which emphasizes the use of pure functions and immutable data structures. A strong understanding of both OOP and functional programming can help data engineers write more efficient and scalable code.
 
-## Intermediate
-
-### File handling
+## File handling
 
 Data engineers should be able to read from and write to files using Python's built-in functions.
 
@@ -68,7 +67,7 @@ Some key concepts related to file handling that data engineers should be familia
 
 In addition to the basic concepts of file handling, data engineers should also be familiar with common file formats used in data engineering, such as CSV, JSON, and XML. They should know how to read and write data in these formats using Python's built-in functions or third-party libraries like `csv`, `json`, and `xml.etree.ElementTree`. Being proficient in file handling can help data engineers work with large amounts of data efficiently and effectively.
 
-### Regular expressions
+## Regular expressions
 
 Regular expressions are essential for working with text data, so data engineers should be comfortable using them.
 
@@ -82,7 +81,7 @@ Some important concepts related to a regex that data engineers should be familia
 4. Lookarounds: Lookarounds are advanced regular expression concepts that allow data engineers to search for patterns that are preceded or followed by specific text patterns.
 5. Greedy vs. non-greedy matching: Regular expressions use a greedy matching strategy by default, which matches the longest possible text pattern. Data engineers should be familiar with non-greedy matching strategies, which match the shortest possible text pattern.
 
-### Libraries
+## Libraries
 
 * **os, pathlib, glob, re (regex)** — These packages serve as building blocks as we start the data engineering journey. These packages allow us to walk the directories and find files.
 * **configparser & argparser** — Often we deal with taking user input while running scripts, these package help us in parsing dynamic input and static configurations.
@@ -94,9 +93,7 @@ Some important concepts related to a regex that data engineers should be familia
 * **pydoop / pyspark / dbt** — As a advanced data engineers we need to interact with big data ecosystem and these packages allow us to work with the distributed frameworks and get the most out of them.
 * **sqlalchemy** — As data engineers, we need to constantly interact with different databases. To code for each dialect separately becomes a tedioud jobs. Packages like sqlAlchemy help us out here as an ORM.
 
-## Advanced
-
-### Database connectivity
+## Database connectivity
 
 Data engineers should know how to connect to databases, perform CRUD operations, and write efficient SQL queries using libraries like SQLAlchemy.
 
@@ -107,61 +104,47 @@ Data engineers often work with databases, so it's important for them to be profi
 3. PyMySQL: is a MySQL adapter for Python that provides a simple and easy-to-use interface for working with MySQL databases. It supports all MySQL database versions from 3.23 to 8.0.
 4. sqlite3 provides a simple and lightweight interface for working with SQLite databases. It allows you to execute SQL statements, manage transactions, and retrieve results.
 
-### Parallel processing
+## Parallel processing
 
 Familiarity with parallel processing libraries like Multiprocessing and Threading is essential for optimizing code performance.
 
 Parallel processing is the technique of executing multiple processes or threads simultaneously to achieve better performance and efficiency. In data engineering, parallel processing can be useful for optimizing code performance when working with large datasets, running multiple computations at once, or performing multiple I/O operations.
 
-### Lambda Functions
+## Lambda Functions
 
 Writing python code to run in AWS Lambda functions.
 
-### Data Pipelines
+## Data Pipelines
 
 Writing python code to be run as Airflow DAG.
 
-### Joins and Aggregations
+## Joins and Aggregations
 
 Using pandas and polars for advanced joins and aggregation operations.
 
 Resources - Stratascratch
 
-### Developer Best Practices
+## Developer Best Practices
 
 - Testing - Unittest and Pytest
 - Logging
 
-## Advantages of using Python for Data engineering
-
-Data engineering using Python only gets better, and here is a list of points if you are beginning to think otherwise.
-
-1. The role of a data engineer involves working with different types of data formats. For such cases, Python is best suited. Its standard library supports easy handling of .csv files, one of the most common data file formats.
-2. A data engineer is often required to use APIs to retrieve data from databases. The data in such cases is usually stored in JSON (JavaScript Object Notation) format, and Python has a library named JSON-JSON to handle such type of data.
-3. The responsibility of a data engineer is not only to obtain data from different sources but also to process it. One of the most popular data process engines is Apache Spark which works with Python DataFrames and even offers an API, PySpark, to build scalable big data projects.
-4. Data engineering tools use Directed Acyclic Graphs like Apache Airflow, Apache NiFi, etc. DAGs are nothing but Python codes used for specifying tasks. Thus, learning Python will help data engineers use these tools efficiently.
-5. Luigi! No, not the Mario character by Nintendo; we are referring to the Python module that is widely considered a fantastic tool for data engineering.
-6. Apart from all the points mentioned above, it is common knowledge that Python is easy to learn and is free to use for the masses. An active community of developers strongly supports it.
-
 ## Labs
 
-1. Python Basics
-   1. Lists and dictionaries
-   2. For loops and while loops
-   3. Functions and Inline functions
-   4. Reading data from flat files - csv, json, parquet, avro, excel, txt
-2. Python Intermediate
-   1. Read/Write and Manipulate Data using Pandas
-3. Python Advanced
-   1. Pulling data from APIs using requests library
-   2. Reading and writing data to databases using psycopg2 and sqlalchemy library
-   3. Reading data from S3 and athena using aws data wrangler library
-   4. Pull credentials from Secrets Manager using boto3 library
-4. [ETL process and reading/writing CSV, JSON and XML files in panda](01-foundations/language/python/lab-etl-csv-json-xml/)
-5. [Exchange Rate ETL process](01-foundations/language/python/lab-exchange-rate-etl/)
-6. [Basic Text Handling with Python](18-nlp/lab-basic-text-handlng-python/)
+1. Lists and dictionaries
+2. For loops and while loops
+3. Functions and Inline functions
+4. Reading data from flat files - csv, json, parquet, avro, excel, txt
+5. Read/Write and Manipulate Data using Pandas
+6. Pulling data from APIs using requests library
+7. Reading and writing data to databases using psycopg2 and sqlalchemy library
+8. Reading data from S3 and athena using aws data wrangler library
+9. Pull credentials from Secrets Manager using boto3 library
+10. [ETL process and reading/writing CSV, JSON and XML files in panda](01-foundations/language/python/lab-etl-csv-json-xml/)
+11. [Exchange Rate ETL process](01-foundations/language/python/lab-exchange-rate-etl/)
+12. [Basic Text Handling with Python](18-nlp/lab-basic-text-handlng-python/)
 
-## References
+## Explore Further
 
 1. [Python Data Engineer Interview Questions](https://www.stratascratch.com/blog/python-data-engineer-interview-questions/)
 2. https://scrimba.com/learn/python

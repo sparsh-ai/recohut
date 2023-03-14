@@ -391,6 +391,12 @@ CloudSQL is a fully managed relational database service for MySQL, PostgreSQL, a
 
 Azure SQL Database, a fundamental relational database as a service offered in Azure, acts as a source, destination, or even as an intermediate storage layer in data engineering pipelines. Azure SQL Database can be used to consolidate data coming from several relational data sources and build mini data warehouses or data marts. With the introduction of Hyperscale tier in Azure SQL Database, the capacity of Azure SQL Database has increased leaps and bounds too. Securing Azure SQL Database is also pivotal in protecting access to the database. Having a strong understanding of Azure SQL Database's capabilities and security options is essential for any data engineer.
 
+## Postgres vs MySQL
+
+When it comes to choosing a relational database management system (RDBMS), two popular options are PostgreSQL and MySQL. Both have been around for decades and have proven to be highly reliable, secure, and scalable. However, they have different strengths and weaknesses that make one more suitable for certain use cases than the other.
+
+Follow [this](https://dbconvert.com/blog/mysql-vs-postgresql/?utm_source=pocket_reader) link for more information.
+
 ## Labs
 
 1. [CSV Data Ingestion into MySQL](02-storage/databases/lab-mysql-data-ingestion/)
