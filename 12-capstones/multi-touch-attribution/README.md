@@ -36,7 +36,7 @@ More often than not, companies usually invest in the last channel which customer
 
 ## Code
 
-[![](https://img.shields.io/badge/download-notebook-blueviolet)](https://nbviewer.org/github/recohut/notebook/blob/master/_notebooks/2022-01-29-mta.ipynb)
+[![](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/recohut/notebook/blob/master/_notebooks/2022-01-29-mta.ipynb)
 
 ## List of variables and Data dictionary
 

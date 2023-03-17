@@ -7,17 +7,20 @@
 
   - [SQL](01-foundations/language/sql/)
   - [Python](01-foundations/language/python/)
-  - [PySpark](01-foundations/language/pyspark/)
-  - [Scala](01-foundations/language/scala/)
+  - [Spark](01-foundations/language/spark/)
 - Data Storage
 
-  - [Concepts](02-storage/README.md)
   - [Flat Files](02-storage/flat-files/)
   - [Relational Databases](02-storage/databases/)
   - [NoSQL Databases](02-storage/nosql-databases/)
   - [Data Warehouses](02-storage/warehouses/)
   - [Data Lakes](02-storage/datalakes/)
   - [Data Lakehouses](02-storage/lakehouses/)
+
+- Data Warehouses
+
+  - [Amazon Redshift](02-storage/warehouses/amazon-redshift/)
+
 - Batch Data Processing
 
   - [Concepts](01-foundations/data-engineering/batch-data-processing.md)
@@ -75,7 +78,7 @@
   - [NLP](10-datascience/nlp/)
   - [Computer Vision](10-datascience/computer-vision/)
   - [Recommender Systems](10-datascience/recsys/)
-  - [MLOps](10-datascience/mlops/)
+
 - Capstones
 
   - [ACLED](12-capstones/acled/)
@@ -95,7 +98,14 @@
   - [Sparkify](12-capstones/sparkify/)
   - [Spotify](12-capstones/spotify/)
   - [US Immigration](12-capstones/us-immigration/)
+
+- MLOps
+
+  - [Concepts](17-mlops/)
+  - [Code Snippets](17-mlops/code-snippets.md)
+
 - Extras
 
   - [Interview Preparation](a1-interviewprep/)
+  - [System Design](01-foundations/data-engineering/system-design.md)
   - [Resources](b3-misc/resources.md)

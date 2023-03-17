@@ -59,11 +59,25 @@ watermark:
    1. Office Viewer
 1. [Optional] Git Multi-branch Environment Setup - You can setup a main/feature dual branch environment linked to two different folders in your system. I have seen that the git branch navigation is a bit confusing for begineers and until you gets familiar with it (~2-3 weeks), this multi-branch setup would be helpful.
 
+#### :microscope: Lab: Explore VS Code features
+
+In this lab, we will explore the following features:
+
+- Left-panel icons - Explorer, Search & replace, Git, Extensions
+- Primary Side bar
+- Main window and tabs
+- Top central bar - Search and commands, opening a file, changing theme
+- Top right bar - Toggle feature
+- Command bar - opening and closing terminals, starting multiple terminals
+- Bottom bar - notifications
+
 ## Github
 
-Why this is important: One of the major problems with coding is to keep track of changes. It is also almost impossible to maintain a program you have multiple versions of. Another is the topic of collaboration and documentation. Which is super Important. Let’s say you work on a Spark application and your colleges need to make changes while you are on holiday. Without some code management they are in huge trouble: Where is the code? What have you changed last? Where is the documentation? How do we mark what we have changed? But if you put your code on GitHub your colleges can find your code. They can understand it through your documentation (please also have in-line comments) Developers can pull your code, make a new branch and do the changes. After your holiday you can inspect what they have done and merge it with your original code. and you end up having only one application.
+One of the major problems with coding is to keep track of changes. It is also almost impossible to maintain a program you have multiple versions of. Another is the topic of collaboration and documentation. Which is super Important. Let’s say you work on a Spark application and your colleges need to make changes while you are on holiday. Without some code management they are in huge trouble: Where is the code? What have you changed last? Where is the documentation? How do we mark what we have changed? But if you put your code on GitHub your colleges can find your code. They can understand it through your documentation (please also have in-line comments) Developers can pull your code, make a new branch and do the changes. After your holiday you can inspect what they have done and merge it with your original code. and you end up having only one application.
 
-### Setup
+> :microscope: Lab: <a href="#/01-foundations/developer/lab-git-commands/" target="_blank">Learn git commands</a>
+
+#### Setup
 
 1. Create GitHub Account - https://www.youtube.com/embed/QUtk-Uuq9nE
 1. Install git cli by downloading [Git SCM](https://git-scm.com/downloads) and install it
@@ -71,7 +85,7 @@ Why this is important: One of the major problems with coding is to keep track of
 1. Connect local workspace to git repo
 1. Add collaborators
 
-### Makefile
+#### Makefile
 
 ```makefile
 general:
@@ -89,7 +103,7 @@ ssh-connect:
 	cat ~/.ssh/id_rsa.pub
 ```
 
-### Git-sim `[Research]`
+#### Git-sim `[Research]`
 
 Install - `pip install git-sim`
 
@@ -107,19 +121,10 @@ References - https://initialcommit.com/blog/git-sim
 
 In Mac/Linux, Bash comes pre-installed. And in Windows, git will also install bash terminal.
 
+> :microscope: Lab: <a href="#/01-foundations/developer/lab-bash-commands/" target="_blank">Learn bash commands</a>
+
 ## DBeaver
 
-Go to https://dbeaver.io/download and click on Windows installer to download DBeaver. Follow https://youtu.be/NWTX0W-WgzE for more information.
+Go to https://dbeaver.io/download to download DBeaver.
 
-## Labs
-
-1. Explore VS Code features
-	- Left-panel icons - Explorer, Search & replace, Git, Extensions
-	- Primary Side bar
-	- Main window and tabs
-	- Top central bar - Search and commands, opening a file, changing theme
-	- Top right bar - Toggle feature
-	- Command bar - opening and closing terminals, starting multiple terminals
-	- Bottom bar - notifications
-1. [Learn git commands](01-foundations/developer/lab-git-basics/)
-1. [Learn bash commands](01-foundations/developer/lab-bash/)
+Follow https://youtu.be/NWTX0W-WgzE for more information.

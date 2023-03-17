@@ -1215,21 +1215,18 @@ The SQL standard defines two types of triggers: row-level triggers and statement
 6. [Challenge - Yammer Advanced Analytics](01-foundations/language/sql/challenges/yammer/)
 7. [Challenge - BrainTree SQL Code Challenge](01-foundations/language/sql/challenges/braintree/)
 
-## SQL Interview Questions
+## Explore Further
 
-[Click here](01-foundations/language/sql/sql-interviews-questions.md)
-
-## Resources
-
-1. [SQL Cheat Sheet](https://www.interviewbit.com/sql-cheat-sheet/)
-2. [What I realized after solving 100 leetcode SQL questions](https://towardsdatascience.com/sql-questions-summary-df90bfe4c9c)
-3. [LeetCode SQL Problem Solving Questions With Solutions](https://www.dsfaisal.com/articles/sql/leetcode-sql-problem-solving)
-4. [HackerRank SQL Problem Solving Questions With Solutions](https://www.dsfaisal.com/articles/sql/hackerrank-sql-problem-solving#1-revising-the-select-query-i--easy--hackerrank)
-5. [SQL Interview Questions](https://knowledgetree.notion.site/SQL-Interview-Questions-04a1196192a24eb2848e8454af1bd9c7)
-6. [Data Engineer Interview Questions](https://www.stratascratch.com/blog/data-engineer-interview-questions/)
-7. [10 SQL Queries You Should Know as a Data Engineer](https://knowledgetree.notion.site/10-SQL-Queries-You-Should-Know-as-a-Data-Engineer-4e157d42c4ce4ae08050e99f3b33b82b)
-8. [SQL JOIN Interview Questions](https://www.stratascratch.com/blog/sql-join-interview-questions/)
-9. [The Ultimate Guide to SQL Window Functions](https://www.stratascratch.com/blog/the-ultimate-guide-to-sql-window-functions/)
+1. [SQL Interview Questions](01-foundations/language/sql/sql-interviews-questions.md)
+2. [SQL Cheat Sheet](https://www.interviewbit.com/sql-cheat-sheet/)
+3. [What I realized after solving 100 leetcode SQL questions](https://towardsdatascience.com/sql-questions-summary-df90bfe4c9c)
+4. [LeetCode SQL Problem Solving Questions With Solutions](https://www.dsfaisal.com/articles/sql/leetcode-sql-problem-solving)
+5. [HackerRank SQL Problem Solving Questions With Solutions](https://www.dsfaisal.com/articles/sql/hackerrank-sql-problem-solving#1-revising-the-select-query-i--easy--hackerrank)
+6. [SQL Interview Questions](https://knowledgetree.notion.site/SQL-Interview-Questions-04a1196192a24eb2848e8454af1bd9c7)
+7. [Data Engineer Interview Questions](https://www.stratascratch.com/blog/data-engineer-interview-questions/)
+8. [10 SQL Queries You Should Know as a Data Engineer](https://knowledgetree.notion.site/10-SQL-Queries-You-Should-Know-as-a-Data-Engineer-4e157d42c4ce4ae08050e99f3b33b82b)
+9. [SQL JOIN Interview Questions](https://www.stratascratch.com/blog/sql-join-interview-questions/)
+10. [The Ultimate Guide to SQL Window Functions](https://www.stratascratch.com/blog/the-ultimate-guide-to-sql-window-functions/)
 
 ## Database Questions
 

@@ -1,4 +1,4 @@
-# Getting Started with Bash
+# :microscope: Lab: Learn Bash Commands
 
 - `pwd`: Display the current directory
 - `ls`: List the files and directories

@@ -1,11 +1,7 @@
-# Recohut Bootcamps - Data Engineering
+# Data Science & Engineering Training
 
-- It is a free Data Engineering Intensive Training Program (DE-ITP)
-- Hit the ⭐️ button if you like the repo
-- Visit [Documentation site](https://www.recohut.com/) to start learning
-- Support me by donation
+Hit the ⭐️ button if you like the repo
 
-Happy learning!
 
 **Outline:**
 

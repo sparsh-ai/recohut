@@ -8,15 +8,20 @@ Cloud computing is the on-demand delivery of IT resources over the Internet with
 
 <iframe width="100%" height="480" src="https://www.youtube.com/embed/mxT233EdY5c" title="What is Cloud Computing? | Amazon Web Services" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+**The evolution of the generations**:
+
+- Gen 1: On-Premises and Traditional IT Ops
+- Gen 2: Hybrid cloud, infrastructure (VM) focused
+- Gen 3: Cloud first, agile operations
+- Gen 4: Cloud native, born in cloud
+
 ## Who is using cloud computing?
 
 Organizations of every type, size, and industry are using the cloud for a wide variety of use cases, such as data backup, disaster recovery, email, virtual desktops, software development and testing, big data analytics, and customer-facing web applications. For example, healthcare companies are using the cloud to develop more personalized treatments for patients. Financial services companies are using the cloud to power real-time fraud detection and prevention. And video game makers are using the cloud to deliver online games to millions of players around the world.
 
 ## Benefits of cloud computing
 
-![511918_1_En_1_Fig7_HTML](https://user-images.githubusercontent.com/62965911/218317770-983bb98a-0d1e-4365-a795-c0ae15474ef9.jpeg)
-
-### Agility
+#### Agility
 
 The cloud gives you easy access to a broad range of technologies so that you can innovate faster and build nearly anything that you can imagine. You can quickly spin up resources as you need them–from infrastructure services, such as compute, storage, and databases, to Internet of Things, machine learning, data lakes and analytics, and much more.
 
@@ -24,17 +29,17 @@ You can deploy technology services in a matter of minutes, and get from idea to 
 
 Cloud providers are constantly innovating and adding new services and technologies to their offerings depending on what they learn from multiple customers. Leveraging state-of-the-art services and technologies helps you innovate faster for your business scenarios, compared with having in-house developers who might not have the necessary breadth of knowledge across the industry.
 
-### Elasticity
+#### Elasticity
 
 With cloud computing, you don’t have to over-provision resources up front to handle peak levels of business activity in the future. Instead, you provision the amount of resources that you actually need. You can scale these resources up or down to instantly grow and shrink capacity as your business needs change.
 
 The resources that you need for your business are highly dynamic in nature, and there are times when you need to provision resources for planned and unplanned increases in usage. When you maintain and run your hardware, you are tied to the hardware you have as the ceiling for the growth you can support in your business. Cloud resources have an elastic scale, and you can burst into high demand by leveraging additional resources in a few clicks.
 
-### Cost savings
+#### Cost savings
 
 The cloud allows you to trade fixed expenses (such as data centers and physical servers) for variable expenses, and only pay for IT as you consume it. Plus, the variable expenses are much lower than what you would pay to do it yourself because of the economies of scale.
 
-### Lowered TCO
+#### Lowered TCO
 
 TCO refers to the total cost of ownership of the technical solution you maintain, including the datacenter costs, the software costs, and the salaries of people who need to be employed to manage the operations. In almost all cases, barring a few exceptions, the TCO is significantly lower for building solutions on the cloud compared with the solutions that are built in house and deployed in your on-premises datacenter. This is because you can focus on hiring software teams to write code for your business logic while the cloud providers take care of all other hardware and software needs for you. Some of the contributors to this lowered cost include the following:
 
@@ -50,30 +55,23 @@ In addition to building and maintaining hardware, one of the key efforts for an 
 
 Most of the cloud services work on a subscription-based billing model, which means that you pay for what you use. If you have resources that are used for certain hours of the day or certain days of the week, you only pay for that time, which is a lot less expensive than having hardware all the time even if you don’t use it.
 
-### Deploy globally in minutes
+#### Deploy globally in minutes
 
 With the cloud, you can expand to new geographic regions and deploy globally in minutes. For example, AWS has infrastructure all over the world, so you can deploy your application in multiple physical locations with just a few clicks. Putting applications in closer proximity to end users reduces latency and improves their experience.
-
-## The evolution of the generations
-
-- Gen 1: On-Premises and Traditional IT Ops
-- Gen 2: Hybrid cloud, infrastructure (VM) focused
-- Gen 3: Cloud first, agile operations
-- Gen 4: Cloud native, born in cloud
 
 ## Types of cloud computing
 
 The three main types of cloud computing include Infrastructure as a Service, Platform as a Service, and Software as a Service. Each type of cloud computing provides different levels of control, flexibility, and management so that you can select the right set of services for your needs.
 
-### Infrastructure as a Service (IaaS)
+#### Infrastructure as a Service (IaaS)
 
 IaaS contains the basic building blocks for cloud IT. It typically provides access to networking features, computers (virtual or on dedicated hardware), and data storage space. IaaS gives you the highest level of flexibility and management control over your IT resources. It is most similar to the existing IT resources with which many IT departments and developers are familiar.
 
-### Platform as a Service (PaaS)
+#### Platform as a Service (PaaS)
 
 PaaS removes the need for you to manage underlying infrastructure (usually hardware and operating systems), and allows you to focus on the deployment and management of your applications. This helps you be more efficient as you don’t need to worry about resource procurement, capacity planning, software maintenance, patching, or any of the other undifferentiated heavy lifting involved in running your application.
 
-### Software as a Service (SaaS)
+#### Software as a Service (SaaS)
 
 SaaS provides you with a complete product that is run and managed by the service provider. In most cases, people referring to SaaS are referring to end-user applications (such as web-based email). With a SaaS offering, you don’t have to think about how the service is maintained or how the underlying infrastructure is managed. You only need to think about how you will use that particular software.
 
@@ -194,11 +192,9 @@ SaaS provides you with a complete product that is run and managed by the service
 
 ![cloud](https://user-images.githubusercontent.com/62965911/221352820-d1b634a7-ddd2-4976-bc2c-2c8cb4ad19e6.png)
 
-## Amazon Web Services (AWS) Cloud
+## AWS Cloud
 
-### What is AWS?
-
-- AWS (Amazon Web Ser vices) is a Cloud Provider
+- AWS (Amazon Web Services) is a Cloud Provider
 - They provide you with servers and services that you can use on demand and  scale easily
 - AWS has revolutionized IT over time
 - AWS power s some of the biggest websites in the world
@@ -400,6 +396,8 @@ Amazon S3 also has analytics capabilities, including S3 Storage Lens and S3 Stor
 
 Amazon S3 has various security measures and features. These features include blocking unauthorized users from accessing data, locking objects to prevent deletions, modifying object ownership for access control, identity and access management, discovery and protection of sensitive data, server-side and client-side encryption, the inspection of an AWS environment, and connection to S3 from on-premise or in the cloud using private IP addresses.
 
+> :microscope: Lab: Learn S3 Commands
+
 #### Commands
 
 Documentation - https://docs.aws.amazon.com/cli/latest/reference/s3/
@@ -513,9 +511,9 @@ AWS Database Migration Service (AWS DMS) helps you migrate databases to AWS quic
 
 AWS Database Migration Service supports homogeneous migrations such as Oracle to Oracle, as well as heterogeneous migrations between different database platforms, such as Oracle or Microsoft SQL Server to Amazon Aurora. With AWS Database Migration Service, you can also continuously replicate data with low latency from any supported source to any supported target. For example, you can replicate from multiple sources to Amazon Simple Storage Service (Amazon S3) to build a highly available and scalable data lake solution. You can also consolidate databases into a petabyte-scale data warehouse by streaming data to Amazon Redshift.
 
-### Containers on AWS
+### Container Services
 
-#### Watch the following videos
+#### Watch these videos
 
 1. [Containers on AWS Overview: ECS | EKS | Fargate | ECR](https://youtu.be/AYAh6YDXuho)
 2. [An Overview of AWS Elastic Container Service (ECS)](https://youtu.be/I9VAMGEjW-Q)
@@ -647,9 +645,7 @@ Download the slides from S3 using `sh resources/download.sh` command and learn t
 
 ## GCP Cloud
 
-### A quick overview of GCP services for data engineering
-
-As you can see in the GCP Console navigation bar, there are a lot of services in GCP. The services are not only limited to data and analytics. They also cover other areas such as application development, machine learning, networks, source repositories, and many more. As a data engineer working on GCP, you will face situations when you need to decide which services you need to use for your organization.
+There are a lot of services in GCP. The services are not only limited to data and analytics. They also cover other areas such as application development, machine learning, networks, source repositories, and many more. As a data engineer working on GCP, you will face situations when you need to decide which services you need to use for your organization.
 
 You might be wondering, who in an organization should decide on the services to use? Is it the CTO, IT manager, solution architect, or data engineers? The answer depends on the experience of using GCP of each of them. But most of the time, data engineers need to be involved in the decision.
 

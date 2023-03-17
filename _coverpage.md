@@ -2,11 +2,11 @@
 
 ## Recohut Bootcamps
 
-> Data Engineering Intensive Training Program
+> Data Science & Engineering Intensive Training Program (DSE-ITP)
 
 - It is a free training program
 - Hit the ⭐️ button if you like the repo
 - Support me by donation
 
 [GitHub](https://github.com/datalaker/data-engineering-bootcamp)
-[Getting Started](#recohut-bootcamps-data-engineering)
+[Getting Started](#data-science-amp-engineering-training)
