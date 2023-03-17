@@ -688,6 +688,10 @@ Following these 9 best practices for database design will help ensure that your 
 2. [LinkedIn](https://medium.com/towards-data-engineering/database-design-for-a-system-like-linkedin-3c52a5ab28c0)
 3. [Zomato/Swiggy](https://medium.com/towards-data-engineering/database-design-for-a-food-delivery-app-like-zomato-swiggy-86c16319b5c5)
 
+### Mobile Phone Billing System Relational Model
+
+![](./img/mobilephone-billing-system-data-model.svg)
+
 ### Whatnot Dimensional Data Modeling
 
 ![img](https://user-images.githubusercontent.com/62965911/224901453-45944e6b-4467-4f3c-89c2-c5b1a8f6040f.png)

@@ -1,6 +1,6 @@
 # PDF to Wordcloud via Email
 
-[![](https://img.shields.io/badge/download-notebook-blueviolet)](https://nbviewer.org/github/datalaker/jupyter/blob/main/pdf-to-wordcloud-mail.ipyn)
+[![](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/datalaker/jupyter/blob/main/pdf-to-wordcloud-mail.ipyn)
 
 Receive a pdf via outlook mail and send back the wordcloud of that pdf in the reply
 

@@ -1,8 +1,4 @@
-# Getting Started with Git
-
-## Process Flow
-
-![process-flow drawio](https://user-images.githubusercontent.com/62965911/223728022-28f18b0e-b5ce-413c-b4e4-db9a5dd9585d.svg)
+# :microscope: Lab: Learn git commands
 
 ## Objective
 
@@ -19,6 +15,10 @@ In this lab, we will learn how to perform the following activities:
 - Peer review the code
 - Merge the branches
 - Create the issues
+
+## Process Flow
+
+![process-flow drawio](https://user-images.githubusercontent.com/62965911/223728022-28f18b0e-b5ce-413c-b4e4-db9a5dd9585d.svg)
 
 ## Git Commands
 

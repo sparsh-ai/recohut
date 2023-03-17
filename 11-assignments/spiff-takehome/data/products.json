@@ -1,0 +1,62 @@
+[
+  {
+    "id": 20001,
+    "name": "Product_1",
+    "product_amount": 1000,
+    "commission_rate": 0.05
+  },
+  {
+    "id": 20002,
+    "name": "Product_2",
+    "product_amount": 1000,
+    "commission_rate": 0.06
+  },
+  {
+    "id": 20003,
+    "name": "Product_3",
+    "product_amount": 2000,
+    "commission_rate": 0.07
+  },
+  {
+    "id": 20004,
+    "name": "Product_4",
+    "product_amount": 3000,
+    "commission_rate": 0.08
+  },
+  {
+    "id": 20005,
+    "name": "Product_5",
+    "product_amount": 5000,
+    "commission_rate": 0.09
+  },
+  {
+    "id": 20006,
+    "name": "Product_6",
+    "product_amount": 8000,
+    "commission_rate": 0.1
+  },
+  {
+    "id": 20007,
+    "name": "Product_7",
+    "product_amount": 13000,
+    "commission_rate": 0.11
+  },
+  {
+    "id": 20008,
+    "name": "Product_8",
+    "product_amount": 21000,
+    "commission_rate": 0.12
+  },
+  {
+    "id": 20009,
+    "name": "Product_9",
+    "product_amount": 34000,
+    "commission_rate": 0.13
+  },
+  {
+    "id": 20010,
+    "name": "Product_10",
+    "product_amount": 55000,
+    "commission_rate": 0.14
+  }
+]

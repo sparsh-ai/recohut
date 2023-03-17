@@ -1,0 +1,402 @@
+[
+  {
+    "id": 10001,
+    "sales_rep_name": "David",
+    "date": "2023-04-15",
+    "quantity_products_sold": 3,
+    "product_id": 20007,
+    "has_2x_multiplier": 0
+  },
+  {
+    "id": 10002,
+    "sales_rep_name": "Ian",
+    "date": "2023-01-15",
+    "quantity_products_sold": 3,
+    "product_id": 20001,
+    "has_2x_multiplier": 0
+  },
+  {
+    "id": 10003,
+    "sales_rep_name": "Ian",
+    "date": "2023-01-15",
+    "quantity_products_sold": 5,
+    "product_id": 20002,
+    "has_2x_multiplier": 0
+  },
+  {
+    "id": 10004,
+    "sales_rep_name": "David",
+    "date": "2023-01-15",
+    "quantity_products_sold": 3,
+    "product_id": 20003,
+    "has_2x_multiplier": 0
+  },
+  {
+    "id": 10005,
+    "sales_rep_name": "Jo",
+    "date": "2023-03-15",
+    "quantity_products_sold": 3,
+    "product_id": 20004,
+    "has_2x_multiplier": 1
+  },
+  {
+    "id": 10006,
+    "sales_rep_name": "Ian",
+    "date": "2023-05-15",
+    "quantity_products_sold": 2,
+    "product_id": 20001,
+    "has_2x_multiplier": 1
+  },
+  {
+    "id": 10007,
+    "sales_rep_name": "Brad",
+    "date": "2023-01-15",
+    "quantity_products_sold": 3,
+    "product_id": 20001,
+    "has_2x_multiplier": 0
+  },
+  {
+    "id": 10008,
+    "sales_rep_name": "Brad",
+    "date": "2023-03-15",
+    "quantity_products_sold": 3,
+    "product_id": 20003,
+    "has_2x_multiplier": 1
+  },
+  {
+    "id": 10009,
+    "sales_rep_name": "Brad",
+    "date": "2023-04-15",
+    "quantity_products_sold": 2,
+    "product_id": 20009,
+    "has_2x_multiplier": 0
+  },
+  {
+    "id": 10010,
+    "sales_rep_name": "Brad",
+    "date": "2023-01-15",
+    "quantity_products_sold": 2,
+    "product_id": 20008,
+    "has_2x_multiplier": 0
+  },
+  {
+    "id": 10011,
+    "sales_rep_name": "Jo",
+    "date": "2023-02-15",
+    "quantity_products_sold": 7,
+    "product_id": 20010,
+    "has_2x_multiplier": 1
+  },
+  {
+    "id": 10012,
+    "sales_rep_name": "Poppy",
+    "date": "2023-02-15",
+    "quantity_products_sold": 11,
+    "product_id": 20008,
+    "has_2x_multiplier": 1
+  },
+  {
+    "id": 10013,
+    "sales_rep_name": "Ian",
+    "date": "2023-05-15",
+    "quantity_products_sold": 11,
+    "product_id": 20006,
+    "has_2x_multiplier": 1
+  },
+  {
+    "id": 10014,
+    "sales_rep_name": "Brad",
+    "date": "2023-01-15",
+    "quantity_products_sold": 1,
+    "product_id": 20005,
+    "has_2x_multiplier": 0
+  },
+  {
+    "id": 10015,
+    "sales_rep_name": "Ian",
+    "date": "2023-01-15",
+    "quantity_products_sold": 11,
+    "product_id": 20003,
+    "has_2x_multiplier": 1
+  },
+  {
+    "id": 10016,
+    "sales_rep_name": "Jo",
+    "date": "2023-03-15",
+    "quantity_products_sold": 1,
+    "product_id": 20003,
+    "has_2x_multiplier": 1
+  },
+  {
+    "id": 10017,
+    "sales_rep_name": "Jo",
+    "date": "2023-02-15",
+    "quantity_products_sold": 11,
+    "product_id": 20006,
+    "has_2x_multiplier": 1
+  },
+  {
+    "id": 10018,
+    "sales_rep_name": "Brad",
+    "date": "2023-04-15",
+    "quantity_products_sold": 3,
+    "product_id": 20002,
+    "has_2x_multiplier": 1
+  },
+  {
+    "id": 10019,
+    "sales_rep_name": "Ian",
+    "date": "2023-01-15",
+    "quantity_products_sold": 7,
+    "product_id": 20008,
+    "has_2x_multiplier": 0
+  },
+  {
+    "id": 10020,
+    "sales_rep_name": "Brad",
+    "date": "2023-03-15",
+    "quantity_products_sold": 7,
+    "product_id": 20004,
+    "has_2x_multiplier": 1
+  },
+  {
+    "id": 10021,
+    "sales_rep_name": "Ian",
+    "date": "2023-03-15",
+    "quantity_products_sold": 5,
+    "product_id": 20004,
+    "has_2x_multiplier": 0
+  },
+  {
+    "id": 10022,
+    "sales_rep_name": "Poppy",
+    "date": "2023-04-15",
+    "quantity_products_sold": 11,
+    "product_id": 20010,
+    "has_2x_multiplier": 0
+  },
+  {
+    "id": 10023,
+    "sales_rep_name": "David",
+    "date": "2023-01-15",
+    "quantity_products_sold": 2,
+    "product_id": 20004,
+    "has_2x_multiplier": 1
+  },
+  {
+    "id": 10024,
+    "sales_rep_name": "Poppy",
+    "date": "2023-01-15",
+    "quantity_products_sold": 7,
+    "product_id": 20010,
+    "has_2x_multiplier": 0
+  },
+  {
+    "id": 10025,
+    "sales_rep_name": "Brad",
+    "date": "2023-06-15",
+    "quantity_products_sold": 5,
+    "product_id": 20002,
+    "has_2x_multiplier": 1
+  },
+  {
+    "id": 10026,
+    "sales_rep_name": "Poppy",
+    "date": "2023-03-15",
+    "quantity_products_sold": 2,
+    "product_id": 20010,
+    "has_2x_multiplier": 0
+  },
+  {
+    "id": 10027,
+    "sales_rep_name": "Carol",
+    "date": "2023-01-15",
+    "quantity_products_sold": 5,
+    "product_id": 20006,
+    "has_2x_multiplier": 0
+  },
+  {
+    "id": 10028,
+    "sales_rep_name": "Jo",
+    "date": "2023-02-15",
+    "quantity_products_sold": 5,
+    "product_id": 20010,
+    "has_2x_multiplier": 1
+  },
+  {
+    "id": 10029,
+    "sales_rep_name": "Ian",
+    "date": "2023-04-15",
+    "quantity_products_sold": 2,
+    "product_id": 20009,
+    "has_2x_multiplier": 0
+  },
+  {
+    "id": 10030,
+    "sales_rep_name": "David",
+    "date": "2023-03-15",
+    "quantity_products_sold": 2,
+    "product_id": 20003,
+    "has_2x_multiplier": 1
+  },
+  {
+    "id": 10031,
+    "sales_rep_name": "Poppy",
+    "date": "2023-06-15",
+    "quantity_products_sold": 2,
+    "product_id": 20006,
+    "has_2x_multiplier": 0
+  },
+  {
+    "id": 10032,
+    "sales_rep_name": "Poppy",
+    "date": "2023-05-15",
+    "quantity_products_sold": 1,
+    "product_id": 20005,
+    "has_2x_multiplier": 1
+  },
+  {
+    "id": 10033,
+    "sales_rep_name": "Jo",
+    "date": "2023-01-15",
+    "quantity_products_sold": 1,
+    "product_id": 20006,
+    "has_2x_multiplier": 0
+  },
+  {
+    "id": 10034,
+    "sales_rep_name": "Ian",
+    "date": "2023-04-15",
+    "quantity_products_sold": 7,
+    "product_id": 20006,
+    "has_2x_multiplier": 0
+  },
+  {
+    "id": 10035,
+    "sales_rep_name": "Jo",
+    "date": "2023-02-15",
+    "quantity_products_sold": 11,
+    "product_id": 20010,
+    "has_2x_multiplier": 0
+  },
+  {
+    "id": 10036,
+    "sales_rep_name": "Brad",
+    "date": "2023-01-15",
+    "quantity_products_sold": 11,
+    "product_id": 20009,
+    "has_2x_multiplier": 1
+  },
+  {
+    "id": 10037,
+    "sales_rep_name": "Carol",
+    "date": "2023-01-15",
+    "quantity_products_sold": 2,
+    "product_id": 20004,
+    "has_2x_multiplier": 0
+  },
+  {
+    "id": 10038,
+    "sales_rep_name": "Jo",
+    "date": "2023-04-15",
+    "quantity_products_sold": 2,
+    "product_id": 20009,
+    "has_2x_multiplier": 0
+  },
+  {
+    "id": 10039,
+    "sales_rep_name": "Ian",
+    "date": "2023-03-15",
+    "quantity_products_sold": 1,
+    "product_id": 20009,
+    "has_2x_multiplier": 1
+  },
+  {
+    "id": 10040,
+    "sales_rep_name": "Jo",
+    "date": "2023-04-15",
+    "quantity_products_sold": 3,
+    "product_id": 20002,
+    "has_2x_multiplier": 1
+  },
+  {
+    "id": 10041,
+    "sales_rep_name": "David",
+    "date": "2023-03-15",
+    "quantity_products_sold": 11,
+    "product_id": 20010,
+    "has_2x_multiplier": 1
+  },
+  {
+    "id": 10042,
+    "sales_rep_name": "Ian",
+    "date": "2023-01-15",
+    "quantity_products_sold": 3,
+    "product_id": 20006,
+    "has_2x_multiplier": 0
+  },
+  {
+    "id": 10043,
+    "sales_rep_name": "Poppy",
+    "date": "2023-04-15",
+    "quantity_products_sold": 7,
+    "product_id": 20008,
+    "has_2x_multiplier": 1
+  },
+  {
+    "id": 10044,
+    "sales_rep_name": "Jo",
+    "date": "2023-04-15",
+    "quantity_products_sold": 5,
+    "product_id": 20003,
+    "has_2x_multiplier": 0
+  },
+  {
+    "id": 10045,
+    "sales_rep_name": "David",
+    "date": "2023-06-15",
+    "quantity_products_sold": 11,
+    "product_id": 20001,
+    "has_2x_multiplier": 1
+  },
+  {
+    "id": 10046,
+    "sales_rep_name": "Ian",
+    "date": "2023-03-15",
+    "quantity_products_sold": 3,
+    "product_id": 20009,
+    "has_2x_multiplier": 1
+  },
+  {
+    "id": 10047,
+    "sales_rep_name": "Carol",
+    "date": "2023-01-15",
+    "quantity_products_sold": 1,
+    "product_id": 20002,
+    "has_2x_multiplier": 1
+  },
+  {
+    "id": 10048,
+    "sales_rep_name": "Carol",
+    "date": "2023-06-15",
+    "quantity_products_sold": 7,
+    "product_id": 20003,
+    "has_2x_multiplier": 0
+  },
+  {
+    "id": 10049,
+    "sales_rep_name": "David",
+    "date": "2023-05-15",
+    "quantity_products_sold": 11,
+    "product_id": 20010,
+    "has_2x_multiplier": 0
+  },
+  {
+    "id": 10050,
+    "sales_rep_name": "Jo",
+    "date": "2023-01-15",
+    "quantity_products_sold": 5,
+    "product_id": 20009,
+    "has_2x_multiplier": 1
+  }
+]

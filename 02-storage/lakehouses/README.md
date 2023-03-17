@@ -248,6 +248,9 @@ NOTE
 
 ## Labs
 
-1. Introduction to Data Lakehouses - Delta, Iceberg and Hudi
-2. Working with AWS S3 and Delta lake in Databricks
-3. Build a serverless transactional data lake with Apache Iceberg, Amazon EMR Serverless, and Amazon Athena [[source code](02-storage/lakehouses/lab-glue-emr-iceberg-serverless-lakehouse/)]
+> :microscope: Lab: <a href="#/02-storage/lakehouses/lab-read-s3-delta-in-python/" target="_blank">Read Delta Tables stored in Amazon S3 with Python</a>
+
+> :microscope: Lab: <a href="#/02-storage/lakehouses/lab-glue-emr-iceberg-serverless-lakehouse/" target="_blank">Build a serverless transactional data lake with Apache Iceberg, Amazon EMR Serverless, and Amazon Athena</a>
+
+> :microscope: Lab: <a href="#/02-storage/lakehouses/lab-production-cleaning-deltalake/" target="_blank">The Easy Ways to Clean Up Production Messes</a>
+
