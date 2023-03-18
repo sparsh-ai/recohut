@@ -52,13 +52,17 @@ default_args = {
 }
 
 
-with DAG('MyCSVDAG',
+with DAG('CSV-to-JSON-Pipeline',
          default_args=default_args,
-         schedule_interval=timedelta(minutes=50),      # '0 * * * *',
+         schedule_interval=None,
+         catchup=False,
          ) as dag:
     
     raw_path="{{ dag_run.conf['raw_path'] }}"
     refined_path="{{ dag_run.conf['refined_path'] }}"
+    
+    start_task = EmptyOperator(task_id="start")
+    end_task = EmptyOperator(task_id="end")
     
     generateCSV = PythonOperator(task_id='generateCSV',
                                       python_callable=generate_csv,
@@ -70,7 +74,7 @@ with DAG('MyCSVDAG',
                                                  "save_path": refined_path})
 
 
-generateCSV >> convertCSVtoJson
+start_task >> generateCSV >> convertCSVtoJson >> end_task
 
 # config in gcs composer
 # {"raw_path":"/home/airflow/gcs/data/raw", "refined_path":"/home/airflow/gcs/data/refined"}

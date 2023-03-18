@@ -57,18 +57,41 @@ Boost runs the VACUUM command with additional compute resources, as they're avai
 
 [![](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/datalaker/data-engineering-bootcamp/blob/main/02-storage/warehouses/amazon-redshift/lab-redshift-immersion/01-data-loading.ipynb)
 
-1. Create 8 Tables on TPCH data model
-1. Load data into these tables from S3 bucket using COPY command
-1. See the effect of different VACUUM commands
+1. Create 8 Tables based on TPCH data model in Redshift (DDL)
+2. Load data into these tables from S3 bucket using COPY command (DML)
+3. See the effect of different VACUUM commands
+
+### Data Loading using Python
+
+[![](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/datalaker/data-engineering-bootcamp/blob/main/02-storage/warehouses/amazon-redshift/lab-redshift-taxi.ipynb)
+
+1. Connect to Redshift and Read data using Psycopg2 library
+2. Taxi Data Process and Save to Redshift using AWS Wrangler library
+
+### Data Loading and Analysis
+
+[![](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/datalaker/data-engineering-bootcamp/blob/main/02-storage/warehouses/amazon-redshift/lab-redshift-retail.ipynb)
+
+1. Load csv and json data from S3 into Redshift using COPY command
+2. Running Joins and aggregation queries in Redshift
 
 ### Table Design and Query Tuning
 
 [![](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/datalaker/data-engineering-bootcamp/blob/main/02-storage/warehouses/amazon-redshift/lab-redshift-immersion/02-query-tuning.ipynb)
 
 1. Setting distribution and sort keys
-1. Deep copy
-1. Explain plans
-1. System table queries
+2. Deep copy
+3. Explain plans
+4. System table queries
+
+### Implement a slowly changing dimension
+
+[![](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/datalaker/data-engineering-bootcamp/blob/main/02-storage/warehouses/amazon-redshift/lab-redshift-scd.ipynb)
+
+1. Learn how to create a type 2 dimension table by adding slowly changing tracking columns
+2. Dataset: customer table from the TPC-DS benchmark dataset
+3. Uses the best practices and anti-patterns
+4. Go over the extract, transform, and load (ETL) merge technique, demonstrating the SCD process
 
 ### Ongoing Load - ELT
 

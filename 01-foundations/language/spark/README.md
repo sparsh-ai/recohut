@@ -131,6 +131,8 @@ Databricks and the community of open source developers worked to release Apache 
 
 It was designed for large-scale data processing ETLs, streaming pipelines, and complex data exploration activities. It can be integrated with a wide range of databases and technologies such as HDFS, JDBC, MongoDB, Kafka, and more! It supports different data formats such as Parquet (recommended), ORC, CSV.
 
+![img]()
+
 It was designed to be developer-friendly. You can use your favorite programming language: Python, Scala, R, and you can even run SQL-like queries!
 
 It is a unified stack that offers Speed, Ease of Use, Modularity, and Extensibility.
