@@ -4,7 +4,7 @@ Hit the ⭐️ button if you like the repo
 
 **Outline:**
 
-![img](00-curriculum/img/overview.drawio.svg)
+![bigpicture drawio](https://user-images.githubusercontent.com/62965911/226115094-3ca039b1-0ee6-48f6-85b2-7303bb9c9cf8.svg)
 
 
 - Getting started
