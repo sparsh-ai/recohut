@@ -77,6 +77,10 @@ SQL was initially created to be the language for generating, manipulating, and r
 
 Whether you will be using a relational database or not, if you are working in data engineering, business intelligence, or some other facet of data analysis, you will likely need to know SQL, along with other languages/platforms such as Python and R. Data is everywhere, in huge quantities, and arriving at a rapid pace, and people who can extract meaningful information from all this data are in big demand.
 
+### Execution path of a query
+
+![](https://user-images.githubusercontent.com/62965911/226103358-b131be3c-09e7-44a3-8582-a2f2c9084cb3.png)
+
 ### Aggregation, Grouping, Ordering & Filtering
 
 The aggregation functions perform calculations on multiple rows and return the result as one value, collapsing the individual rows in the process. When an aggregation function is used, you need to group the data on fields which are not aggregated by using a GROUP BY clause.

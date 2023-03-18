@@ -3,27 +3,30 @@
   - [Developer Foundations](01-foundations/developer/)
   - [Data Engineering Foundations](01-foundations/data-engineering/)
   - [Cloud Essentials](01-foundations/cloud/)
+
 - Programming
 
   - [SQL](01-foundations/language/sql/)
   - [Python](01-foundations/language/python/)
   - [Spark](01-foundations/language/spark/)
+
 - Data Storage
 
   - [Flat Files](02-storage/flat-files/)
   - [Relational Databases](02-storage/databases/)
   - [NoSQL Databases](02-storage/nosql-databases/)
-  - [Data Warehouses](02-storage/warehouses/)
   - [Data Lakes](02-storage/datalakes/)
   - [Data Lakehouses](02-storage/lakehouses/)
 
 - Data Warehouses
 
+  - [Getting Started](02-storage/warehouses/)
   - [Amazon Redshift](02-storage/warehouses/amazon-redshift/)
+  - [Google BigQuery](02-storage/warehouses/google-bigquery/)
 
 - Batch Data Processing
 
-  - [Concepts](01-foundations/data-engineering/batch-data-processing.md)
+  - [Getting Started](01-foundations/data-engineering/batch-data-processing.md)
   - [Databricks](03-processing/databricks/)
   - [AWS EMR](03-processing/aws-emr/)
   - [AWS Glue Studio](03-processing/aws-glue/)
@@ -34,31 +37,37 @@
   - [GCP Dataprep](03-processing/gcp-dataprep/)
   - [AWS Lambda Function](03-processing/aws-lambda-function/)
   - [Snowpark](03-processing/snowpark/)
+  - [Ray](03-processing/ray/)
+
 - Stream and Unified Data Processing
 
-  - [Concepts](01-foundations/data-engineering/stream-data-processing.md)
+  - [Getting Started](01-foundations/data-engineering/stream-data-processing.md)
   - [Druid](03-processing/druid/)
   - [Flink](03-processing/flink/)
   - [Beam](03-processing/beam/)
-  - [Kafka](03-processing/kafka/)
-  - [AWS Kinesis](03-processing/kinesis/)
+  - [Apache Kafka](03-processing/kafka/)
+  - [Amazon Kinesis](03-processing/kinesis/)
   - [GCP PubSub](03-processing/pubsub/)
   - [GCP Dataflow](03-processing/dataflow/)
+
 - Data Modeling
 
   - [Relational](04-serving/sql/)
   - [NoSQL](04-serving/nosql/)
+
 - Data Extraction
 
   - [API](05-extraction/api/)
   - [Faker](05-extraction/faker/)
   - [Web Scraping](05-extraction/webscraping/)
+
 - Data Pipelines
 
   - [Airflow](06-orchestration/airflow/)
   - [Azure Data Factory](06-orchestration/azure-data-factory/)
   - [GCP Cloud DataFusion](06-orchestration/datafusion/)
   - [AWS Step Functions](06-orchestration/stepfunctions/)
+
 - Data Visualization
 
   - [Flask](08-visualization/flask/)
@@ -66,11 +75,13 @@
   - [Preset](08-visualization/preset/)
   - [Streamlit](08-visualization/streamlit/)
   - AWS Quicksight
+
 - DevOps
 
   - [FastAPI](07-devops/fastapi/)
   - [Containers](07-devops/containers/)
   - [Infra as Code](07-devops/iac/)
+
 - Data Science & Machine Learning
 
   - [Fundamentals](10-datascience/basics/)
