@@ -21,8 +21,9 @@
 - Data Warehouses
 
   - [Getting Started](02-storage/warehouses/)
+  - [Snowflake](02-storage/warehouses/snowflake/)
   - [Amazon Redshift](02-storage/warehouses/amazon-redshift/)
-  - [Google BigQuery](02-storage/warehouses/google-bigquery/)
+  - [Google BigQuery](02-storage/warehouses/bigquery/)
 
 - Batch Data Processing
 
