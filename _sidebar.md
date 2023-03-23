@@ -1,14 +1,17 @@
 - Getting started
 
-  - [Developer Foundations](01-foundations/developer/)
-  - [Data Engineering Foundations](01-foundations/data-engineering/)
-  - [Cloud Essentials](01-foundations/cloud/)
+  - [Workspace Setup](01-foundations/developer/)
+  - [Data Engineering](01-foundations/data-engineering/)
+  - [Hadoop and Spark](01-foundations/data-engineering/spark-hadoop.md)
+  - [Cloud](01-foundations/cloud/)
+  - [Data Science](10-datascience/basics/)
 
 - Programming
 
   - [SQL](01-foundations/language/sql/)
   - [Python](01-foundations/language/python/)
-  - [Spark](01-foundations/language/spark/)
+  - [PySpark](01-foundations/language/pyspark/)
+  - [Scala](01-foundations/language/scala/)
 
 - Data Storage
 
@@ -53,8 +56,8 @@
 
 - Data Modeling
 
-  - [Relational](04-serving/sql/)
-  - [NoSQL](04-serving/nosql/)
+  - [Relational (SQL) Data Modeling](04-serving/sql/)
+  - [NoSQL Data Modeling](04-serving/nosql/)
 
 - Data Extraction
 
@@ -83,13 +86,26 @@
   - [Containers](07-devops/containers/)
   - [Infra as Code](07-devops/iac/)
 
-- Data Science & Machine Learning
+- Regression and Classification
 
-  - [Fundamentals](10-datascience/basics/)
   - [Regression](10-datascience/regression/)
-  - [NLP](10-datascience/nlp/)
-  - [Computer Vision](10-datascience/computer-vision/)
-  - [Recommender Systems](10-datascience/recsys/)
+  
+- NLP
+
+  - [Getting Started](10-datascience/nlp/)
+
+- Computer Vision
+
+  - [Getting Started](10-datascience/computer-vision/)
+
+- Recommender Systems
+
+  - [Getting Started](10-datascience/recsys/)
+
+- MLOps
+
+  - [Concepts](17-mlops/)
+  - [Code Snippets](17-mlops/code-snippets.md)
 
 - Capstones
 
@@ -110,11 +126,6 @@
   - [Sparkify](12-capstones/sparkify/)
   - [Spotify](12-capstones/spotify/)
   - [US Immigration](12-capstones/us-immigration/)
-
-- MLOps
-
-  - [Concepts](17-mlops/)
-  - [Code Snippets](17-mlops/code-snippets.md)
 
 - Extras
 

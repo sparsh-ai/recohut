@@ -1,4 +1,6 @@
-# Data Engineering Foundations
+# Fundamentals
+
+## What is Data Engineering?
 
 ![](https://user-images.githubusercontent.com/62965911/213917818-65a2146a-5eb3-4818-861f-5bad0155b8d0.svg)
 
@@ -22,29 +24,32 @@ Data engineers are in the business of moving data—either getting it from one l
 
 ## How It Works?
 
-![](https://user-images.githubusercontent.com/62965911/213917819-7afbfc9c-b35b-4459-a86c-c28c09f4a429.svg)
-
-> Check out animated flow [here](https://user-images.githubusercontent.com/62965911/213917792-c61931fb-c440-4ea3-b133-edf8bfbc40e0.gif)
+<iframe width="80%" height="280" src="https://www.youtube.com/embed/qWru-b6m030" title="How Data Engineering Works" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 A typical Data Engineering lifecycle includes architecting data platforms, designing data stores, and gathering, importing, wrangling, querying, and analyzing data. It also includes performance monitoring and finetuning to ensure systems are performing at optimal levels.
 
-![img](https://user-images.githubusercontent.com/62965911/213917834-967b67bb-89e6-483a-bbbe-db8cf5ddf36c.svg)
-
-> For more info - https://youtu.be/bFC1MBijB-c
-
-Let's expand it and analyze the complete ecosystem from a wider perspective:
-
 ![](./img/bigpicture.drawio.svg)
-
-The first type of data engineering is SQL-focused. The work and primary storage of the data is in relational databases. All of the data processing is done with SQL or a SQL-based language. Sometimes, this data processing is done with an ETL tool. The second type of data engineering is Big Data–focused. The work and primary storage of the data is in Big Data technologies like Hadoop, Cassandra, and HBase. All of the data processing is done in Big Data frameworks like MapReduce, Spark, and Flink. While SQL is used, the primary processing is done with programming languages like Java, Scala, and Python.
-
-<iframe width="1440" height="595" src="https://www.youtube.com/embed/qWru-b6m030" title="How Data Engineering Works" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Data engineering is the part of data science that deals with the practical applications of collecting and analyzing data. It aims to bring engineering rigor to the process of building and supporting reliable data systems.
 
 The ML part of data science deals with building a model. In the Netflix scenario, the data model recommends, based on your viewing history, which movies you are likely to enjoy next. The data engineering part of the discipline deals with building a system that continuously gathers and cleans up the viewing history, then runs the model at scale on the data of all users and distributes the results to the recommendation user interface. All of this provided in an automated fashion with monitoring and alerting build around each step of the process.
 
 Data engineering deals with building and operating big data platforms to support all data science scenarios. There are various other terms used for some of these aspects: DataOps refers to moving data in a data system, MLOps refers to running ML at scale as in our Netflix example. (ML combined with DevOps is also known as MLOps.) Our definition of data engineering encompasses all of these and looks at how we can implement DevOps for data science.
+
+![](https://user-images.githubusercontent.com/62965911/213917819-7afbfc9c-b35b-4459-a86c-c28c09f4a429.svg)
+
+> Check out animated flow [here](https://user-images.githubusercontent.com/62965911/213917792-c61931fb-c440-4ea3-b133-edf8bfbc40e0.gif)
+
+
+![img](https://user-images.githubusercontent.com/62965911/213917834-967b67bb-89e6-483a-bbbe-db8cf5ddf36c.svg)
+
+> For more info - https://youtu.be/bFC1MBijB-c
+
+The first type of data engineering is SQL-focused. The work and primary storage of the data is in relational databases. All of the data processing is done with SQL or a SQL-based language. Sometimes, this data processing is done with an ETL tool. The second type of data engineering is Big Data–focused. The work and primary storage of the data is in Big Data technologies like Hadoop, Cassandra, and HBase. All of the data processing is done in Big Data frameworks like MapReduce, Spark, and Flink. While SQL is used, the primary processing is done with programming languages like Java, Scala, and Python.
+
+
+
+
 
 ## Role of a Data Engineer
 
@@ -182,7 +187,7 @@ Jupyter Notebook is one of the most widely used tool in data engineering that us
 7. Data Processing: The process of applying algorithms and other methods to extract insights and value from data. Data processing is a critical step in the data warehousing process, as it allows organizations to extract insights and value from their data. This includes tasks such as data analysis, data mining, and machine learning.
 8. Data Visualization: The process of creating graphical representations of data to help users understand and explore the data. Data visualization is an important step in the data warehousing process, as it allows users to easily explore and understand their data. This includes creating charts, graphs, and other visualizations that make it easy to see patterns and trends in the data.
 
-### OLTP vs OLAP
+## OLTP vs OLAP
 
 Storage is the core piece of a data platform around which everything else is built. Data gets ingested into the storage layer and is distributed from there. All workloads (data processing, analytics, and machine learning) access this layer.
 
@@ -272,7 +277,7 @@ To create an analytical database, it is necessary to perform data ingestion, a p
 In the preceding diagram, we can see that transactional databases are storages of information systems that automate business processes. Analytical databases act on simple and advanced data analysis, using, for example, statistical models with the application of machine learning, a branch of artificial intelligence. The data ingestion process is an important process for assembling an analytical database that meets the data solution.
 
 
-#### What is the right architecture for me?
+## Data Storage Solutions
 
 | **Architecture**          | **Total cost of solution**                                                                                                                                                  | **Flexibility of scenarios**                                                                                                                                                                      | **Complexity of development**                                                                                                                                                     | **Maturity of ecosystem**                                                                                                                                                                         | **Organizational maturity required**                                                                                                                                                            |
 | ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -285,7 +290,7 @@ In the preceding diagram, we can see that transactional databases are storages o
 
 ![](https://user-images.githubusercontent.com/62965911/213930648-3e63ea81-b214-411a-9e4a-39a403ed35df.png)
 
-### SQL vs NoSQL
+## SQL vs NoSQL
 
 As you design large systems ( or even smaller ones), you need to decide the inflow-processing and outflow of data coming- and getting processed in the system.
 
@@ -321,7 +326,7 @@ Some examples - Wide-column use Cassandra and HBase, Graph use Neo4j, Document u
 | ACID vs. BASE model       | ACID (Atomicity, Consistency, Isolation, and Durability) is a standard for RDBMS.                                               | BASE (Basically Available, Soft state, Eventually consistent) is a model of many NoSQL systems.                                                                                              |
 
 
-### Big Data
+## Big Data
 
 ![Six Vs of big data](https://user-images.githubusercontent.com/62965911/213918079-10af46d9-f906-4c3e-9b84-ddc47708bd15.png)
 

@@ -1,34 +1,17 @@
 # SQL
 
-**Structured Query Language** (**SQL**) is the most widely used language in relational database platforms for recording, editing, re-editing, and querying operations. SQL was created by Donald D. Chamberlin and Raymond F. Boyce in 1974 in an innovation lab at IBM and has since evolved with DBMSs that use it with Microsoft SQL Server, Oracle Database, MySQL, PostgreSQL, and MariaDB.
+## What is SQL?
 
-SQL has been standardized by ANSI and the **International Organization for Standardization** (**ISO**), but each of the RDBMS has some exclusive extended SQL standard instructions, primarily for administration, monitoring, and other operations unique to that RDM.
+**Structured Query Language** (**SQL**) is the most widely used language in relational database platforms for recording, editing, re-editing, and querying operations. It is a must-have skill for data engineers. They use the querying language to perform essential tasks like modeling data, extracting performance metrics, and developing reusable data structures.
 
-These unique patterns have names such as the following:
-
-- T-SQL or Transact-SQL is the version used by Microsoft SQL Server and Azure SQL versions
-- pgSQL is the default of PostgreSQL databases
-
-SQL is a must-have skill for data engineers. They use the querying language to perform essential tasks like modeling data, extracting performance metrics, and developing reusable data structures.
-
-Data engineer SQL questions tend to mirror the work that engineers do.
-
-Therefore, data engineers need to be proficient not just in querying data and pulling metrics, but also in data structures, manipulation and security within SQL. Broadly, a data engineer may face SQL questions in these categories:
+Data engineers need to be proficient not just in querying data and pulling metrics, but also in data structures, manipulation and security within SQL. Broadly, a data engineer may face SQL questions in these categories:
 
 - SQL queries - Using SQL data query language (DQL) statements to pull metrics and analyze data. Commands to know: SELECT
 - Data modeling - Using DDL commands to create database schema and define data structures. Commands to know: CREATE, ALTER, DROP, RENAME, TRUNCATE, COMMENT
 - Data manipulation - Using DML statements to retrieve and manipulate data. Commands to know: INSERT, UPDATE, DELETE, MERGE, CALL, EXPLAIN PLAN, LOCK TABLE
 - Data security - Using DCL (data control language) commands to manage database security. Commands to know: GRANT, REVOKE
 
-This data engineering SQL questions guide provides an overview of the types of questions you might face, as well as an example data engineer interview questions to help you prepare for your interview.
-
-Watch this video: https://www.youtube.com/embed/AK7_m-aThfw
-
-[This](https://techtfq.com/blog/top-20-sql-interview-questions) is the blog link for the above video.
-
-We will now list some of the additional advantages that made the SQL language the standard used in relational databases.
-
-## Key Concepts
+> https://www.youtube.com/embed/AK7_m-aThfw
 
 1. **Data definition:** The ability to create and modify the structure of a database, including creating tables, defining columns and data types, and setting constraints.
 2. **Data manipulation:** The ability to add, update, and delete data within a database, as well as retrieve specific data using SELECT statements.
@@ -39,7 +22,7 @@ We will now list some of the additional advantages that made the SQL language th
 7. **Data security:** Techniques for protecting a database from unauthorized access, such as through the use of user accounts, passwords, and access controls.
 8. **Data maintenance:** The ability to backup, restore, and optimize a database to ensure its ongoing performance and stability.*
 
-## Advantages
+#### Advantages
 
 The list of advantages is very long, but the main points are as follows:
 
@@ -48,16 +31,24 @@ The list of advantages is very long, but the main points are as follows:
 - **Portability**: Because it is standard in several *DBMSs*, SQL is portable between these different types of database managers, even though there are some particularities in the SQL of each.
 - **Multiple data views**: With SQL, it is possible to define different views of the database structure for different user needs. For example, you might have users who are only allowed to explore the data and perform **SELECT** commands, whereas other users can add columns in tables but cannot delete any columns. This granularity of permissions makes databases more fully configurable.
 
-## Disadvantages
+#### Disadvantages
 
 Of course, we can find more disadvantages when we know about NoSQL databases, but the disadvantages most encountered by data architects to justify an analysis of other databases are these:
 
 - **Database processing cost**: In general, the cost of processing a database that uses the SQL language is high compared to more modern database languages. This means that the database needs a robust infrastructure for data processing. Compared to a NoSQL database, a SQL database uses compute power, RAM, and storage speed more intensively.
 - **Pre-build and fixed schema**: A SQL database must be planned and implemented (the creation of tables, columns, relationships, and so on) before implementing the software. Your schema should be created and, once created, only changed upon a general impact analysis of the database.
 
-This generates a lack of flexibility and more time spent at the beginning of a project in the planning and implementation of the database.
+## Flavors of SQL
 
-## Understanding the categories of SQL commands
+![](./img/flavors.drawio.svg)
+
+What is the extent of your knowledge of SQL? Basic, intermediate or advanced?
+
+- Basic: simple select queries with filtering, inner and left joins, aggregation, confident use of date functions, CASE statement, UNIONs etc., then state that you can create SQL queries to a basic level.
+- Intermediate: CTEs and temp tables, window functions, string handling functions (like REPLACE, SUBSTRING, LEFT, RIGHT, CHARINDEX), do numeric calculations, handle NULLs (with ISNULL, COALESCE and NULLIF), CAST and CONVERT data types, use derived tables and subqueries, then make it clear that you have intermediate SQL skills.
+- If you can handle all the above plus strong data manipulation knowledge including PIVOT, recursion, use correlated subqueries, build ETL processes in code, create stored procs, functions and views, indexing, loops, dynamic SQL and have a good understanding of collation and optimisation, then let them know that you have advanced SQL knowledge and skills.
+
+## SQL commands categories
 
 To understand the structure of SQL, it is subdivided into five categories of commands:
 
@@ -246,8 +237,6 @@ This way, we create an index called **IDX_CUSTOMERNAME** in the **CUSTOMERS**
 
 So, we close the main SQL commands used in relational databases. Of course, all commands are used in a large database, but by understanding the statement and how they work, you will surely be able to implement your commands at the right time.
 
-## Basics
-
 ### SQL SELECT
 
 There are two required ingredients in any SQL query: `SELECT` and `FROM`---and they have to be in that order. `SELECT` indicates which columns you'd like to view, and `FROM` identifies the table that they live in.
@@ -371,8 +360,6 @@ You can "comment out" pieces of code by adding combinations of characters. In ot
 You can use-- (two dashes) to comment out everything to the right of them on a given line.
 
 You can also leave comments across multiple lines using /* to begin the comment and */ to close it.
-
-## Intermediate
 
 ### SQL Aggregate Functions
 
@@ -538,8 +525,6 @@ SQL has strict rules for appending data:
 - The columns must have the same data types in the same order as the first table
 
 While the column names don't necessarily have to be the same, you will find that they typically are. This is because most of the instances in which you'd want to use UNION involve stitching together different parts of the same dataset.
-
-## Advanced
 
 ### SQL Date
 

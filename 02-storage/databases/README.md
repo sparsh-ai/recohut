@@ -1,5 +1,10 @@
 # Databases
 
+## <a href="#/" target="_blank">Lab: AWS RDS Service ⤻</a>
+
+1. Create database in RDS DBMS and generate credentials
+2. Connect to RDS DBMS in DBeaver
+
 ## Postgres
 
 Picking the right database management system is a difficult task due to the vast number of options on the market. Depending on the business model, you can pick a commercial database or an open source database with commercial support. In addition to this, there are several technical and non-technical factors to assess. When it comes to picking a relational database management system, PostgreSQL stands at the top for several reasons. The PostgreSQL slogan, "*The world's most advanced open source database*," emphasizes the sophistication of its features and the high degree of community confidence.
