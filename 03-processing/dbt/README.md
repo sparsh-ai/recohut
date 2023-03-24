@@ -53,6 +53,12 @@ With a combination of dbt **and** Airflow, each member of a data team can focu
 
 ![](https://user-images.githubusercontent.com/62965911/214275903-c30fbcbc-febb-4c4a-a3ab-499ef4688e7c.png)
 
+## Case Studies
+
+### 99 Group
+
+![99-group](https://user-images.githubusercontent.com/62965911/215028713-24229628-977d-4c0a-94bf-7620380b9ceb.png)
+
 ## Data Transformation with Snowpark Python and dbt
 
 dbt is one of the most popular data transformation tools today. And until now dbt has been entirely a SQL-based transformation tool. But with the announcement of dbt Python models, things have changed. It's now possible to create both SQL and Python based models in dbt! Here's how dbt explains it:

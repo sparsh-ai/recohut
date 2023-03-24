@@ -1,11 +1,9 @@
-# Developer Foundations
+# Workspace Setup
 
-## Anaconda
+## Install Anaconda
 
 1. Download the file from https://www.anaconda.com/products/distribution and install it
 2. Create Virtual Environment by executing this command in the terminal: `conda create -n env anaconda`. This will create a viirtual environment (venv) named `env` and install all the basic packages in that environment.
-
-#### Makefile
 
 ```makefile
 install:
@@ -16,7 +14,7 @@ install:
 	conda activate env
 ```
 
-## Jupyter Notebook
+## Install Jupyter Notebook
 
 There are many free options to run jupyter notebooks:
 
@@ -26,8 +24,6 @@ There are many free options to run jupyter notebooks:
 - Databricks - For free community edition, use this: https://community.cloud.databricks.com
 - Jupyter-try - https://jupyter.org/try
 - VS Code Jupyter notebook - This can be accessed by installing `Jupyter` extension in VS code
-
-#### Makefile
 
 ```makefile
 writefile_custom:
@@ -51,7 +47,7 @@ watermark:
 	%watermark -a "Sparsh A." -m -iv -u -t -d
 ```
 
-## Visual Studio Code (VS Code)
+## Install VS Code
 
 1. Follow [this](https://code.visualstudio.com/docs/setup/setup-overview) guide to install VS code in your system. Alternatively, go to https://code.visualstudio.com/download and download the VS Code
 1. Install the following extensions
@@ -59,7 +55,7 @@ watermark:
    1. Office Viewer
 1. [Optional] Git Multi-branch Environment Setup - You can setup a main/feature dual branch environment linked to two different folders in your system. I have seen that the git branch navigation is a bit confusing for begineers and until you gets familiar with it (~2-3 weeks), this multi-branch setup would be helpful.
 
-#### :microscope: Lab: Explore VS Code features
+## Lab: Explore VS Code features
 
 In this lab, we will explore the following features:
 
@@ -71,11 +67,9 @@ In this lab, we will explore the following features:
 - Command bar - opening and closing terminals, starting multiple terminals
 - Bottom bar - notifications
 
-## Github
+## Setup Github
 
 One of the major problems with coding is to keep track of changes. It is also almost impossible to maintain a program you have multiple versions of. Another is the topic of collaboration and documentation. Which is super Important. Let’s say you work on a Spark application and your colleges need to make changes while you are on holiday. Without some code management they are in huge trouble: Where is the code? What have you changed last? Where is the documentation? How do we mark what we have changed? But if you put your code on GitHub your colleges can find your code. They can understand it through your documentation (please also have in-line comments) Developers can pull your code, make a new branch and do the changes. After your holiday you can inspect what they have done and merge it with your original code. and you end up having only one application.
-
-> :microscope: Lab: <a href="#/01-foundations/developer/lab-git-commands/" target="_blank">Learn git commands</a>
 
 #### Setup
 
@@ -117,13 +111,15 @@ git-sim --animate reset HEAD^
 
 References - https://initialcommit.com/blog/git-sim
 
-## Bash
+## <a href="#/01-foundations/developer/lab-git-commands/" target="_blank">Lab: Learn git commands ⤻</a>
 
-In Mac/Linux, Bash comes pre-installed. And in Windows, git will also install bash terminal.
+NOTE
 
-> :microscope: Lab: <a href="#/01-foundations/developer/lab-bash-commands/" target="_blank">Learn bash commands</a>
+> In Mac/Linux, Bash comes pre-installed. And in Windows, git will also install bash terminal.
 
-## DBeaver
+## <a href="#/01-foundations/developer/lab-bash-commands/" target="_blank">Lab: Learn bash commands ⤻</a>
+
+## Install DBeaver
 
 Go to https://dbeaver.io/download to download DBeaver.
 

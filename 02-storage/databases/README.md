@@ -397,20 +397,34 @@ When it comes to choosing a relational database management system (RDBMS), two p
 
 Follow [this](https://dbconvert.com/blog/mysql-vs-postgresql/?utm_source=pocket_reader) link for more information.
 
-## Labs
+## <a href="#/" target="_blank">Lab: AWS RDS Service ⤻</a>
 
-1. [CSV Data Ingestion into MySQL](02-storage/databases/lab-mysql-data-ingestion/)
-2. [SQLite Basics](02-storage/databases/lab-sqlite-basics/)
-3. [Getting Started with Postgres](02-storage/databases/lab-postgres-getting-started/)
-4. [Use bash shell commands to extract, transform and load data into Postgre](02-storage/databases/lab-postgres-bash-etl/)
-5. [Building a Database for Crime Reports using Postgres](02-storage/databases/lab-postgres-crime-reports/)
-6. [Generate Trips Data using Stored Procedure](02-storage/databases/lab-postgres-trips-stored-procedure/)
-7. [Police API Data Engineering Task](02-storage/databases/lab-mysql-police-api-etl/)
-8. [Loading Taxi Data into Google Cloud SQL](02-storage/databases/lab-gcp-cloudsql-nyctaxi/)
-9. [Configuring and Securing Azure SQL Database](02-storage/databases/lab-azure-sql-securing-databases/)
-10. [db2 BookShop and PetSale Data Ingestion and Stored Procedure](02-storage/databases/db2/lab-dbt-bookshop-petsale-data-ingestion/)
-11. [OLAP Analytics on bank, TPCH and NYC Taxi datasets using DuckDB](02-storage/databases/duckdb/lab-analytics-bank-tpch-nyctaxi/)
-12. [Extract from Hipolabs API, Transform and Load into SQLite database](02-storage/databases/lab-sqlite-hipolabs-api/)
+1. Create database in RDS DBMS and generate credentials
+2. Connect to RDS DBMS in DBeaver
+
+## <a href="#/02-storage/databases/lab-mysql-data-ingestion/" target="_blank">Lab: CSV Data Ingestion into MySQL ⤻</a>
+
+## <a href="#/02-storage/databases/lab-sqlite-basics/" target="_blank">Lab: SQLite Basics ⤻</a>
+
+## <a href="#/02-storage/databases/lab-postgres-getting-started/" target="_blank">Lab: Getting Started with Postgres ⤻</a>
+
+## <a href="#/02-storage/databases/lab-postgres-bash-etl/" target="_blank">Lab: Use bash shell commands to extract, transform and load data into Postgres ⤻</a>
+
+## <a href="#/02-storage/databases/lab-postgres-crime-reports/" target="_blank">Lab: Building a Database for Crime Reports using Postgres ⤻</a>
+
+## <a href="#/02-storage/databases/lab-postgres-trips-stored-procedure/" target="_blank">Lab: Generate Trips Data using Stored Procedure ⤻</a>
+
+## <a href="#/02-storage/databases/lab-mysql-police-api-etl/" target="_blank">Lab: Police API Data Engineering Task ⤻</a>
+
+## <a href="#/02-storage/databases/lab-gcp-cloudsql-nyctaxi/" target="_blank">Lab: Loading Taxi Data into Google Cloud SQL ⤻</a>
+
+## <a href="#/02-storage/databases/lab-azure-sql-securing-databases/" target="_blank">Lab: Configuring and Securing Azure SQL Database ⤻</a>
+
+## <a href="#/02-storage/databases/db2/lab-dbt-bookshop-petsale-data-ingestion/" target="_blank">Lab: db2 BookShop and PetSale Data Ingestion and Stored Procedure ⤻</a>
+
+## <a href="#/02-storage/databases/duckdb/lab-analytics-bank-tpch-nyctaxi/" target="_blank">Lab: OLAP Analytics on bank, TPCH and NYC Taxi datasets using DuckDB ⤻</a>
+
+## <a href="#/02-storage/databases/lab-sqlite-hipolabs-api/" target="_blank">Lab: Extract from Hipolabs API, Transform and Load into SQLite database ⤻</a>
 
 ## Interview Questions
 

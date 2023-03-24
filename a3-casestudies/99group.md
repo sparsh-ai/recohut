@@ -1,7 +1,5 @@
 # 99 Group
 
-![99-group](https://user-images.githubusercontent.com/62965911/215028713-24229628-977d-4c0a-94bf-7620380b9ceb.png)
-
 ## References
 
 1. [Modernizing the Data Engineering Stack in 99 Group](https://medium.com/99dotco/modernizing-the-data-engineering-stack-in-99-group-579aa5eb5246)

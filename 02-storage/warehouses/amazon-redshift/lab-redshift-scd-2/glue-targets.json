@@ -1,0 +1,7 @@
+{
+    "S3Targets": [
+        {
+            "Path": "s3://wysde-datasets/customers"
+        }
+    ]
+}
