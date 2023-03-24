@@ -80,6 +80,12 @@
   - [Streamlit](08-visualization/streamlit/)
   - AWS Quicksight
 
+- System Design
+
+  - [Getting Started](system-design/README.md)
+  - [System Design Examples](system-design/examples.md)
+  - [Databricks Case Studies](system-design/databricks-case-studies.md)
+
 - DevOps
 
   - [FastAPI](07-devops/fastapi/)
@@ -107,28 +113,27 @@
   - [Concepts](17-mlops/)
   - [Code Snippets](17-mlops/code-snippets.md)
 
-- Capstones
+- Projects
 
-  - [ACLED](12-capstones/acled/)
+  - [ETL - ACLED](12-capstones/acled/)
+  - [ELT - dbt-Redshift](12-capstones/dbt-redshift/)
+  - [dbt+Airflow+GrExp](12-capstones/robust-data-pipeline/)
+  - [End-to-End AWS Pipeline](12-capstones/cloudmaze/)
+  - [HMC](12-capstones/hmc/)
+  - [Recofront](12-capstones/recofront/)
+  - [Sparkify](12-capstones/sparkify/)
   - [Citibike Trips](12-capstones/citibike-trip-histories/)
   - [Climate](12-capstones/climate/)
-  - [Cloudmaze](12-capstones/cloudmaze/)
-  - [dbt-Redshift](12-capstones/dbt-redshift/)
   - [Funflix](12-capstones/funflix/)
-  - [HMC](12-capstones/hmc/)
   - [Kinesis Flink Beam](12-capstones/kinesis-flink-beam/)
   - [Kinesis Flink ETL](12-capstones/kinesis-flink-etl/)
   - [Kortex](12-capstones/kortex/)
   - [Movie Sentiment](12-capstones/movie-sentiment/)
-  - [Recofront](12-capstones/recofront/)
   - [Reddit](12-capstones/reddit/)
-  - [Robust Data Pipeline](12-capstones/robust-data-pipeline/)
-  - [Sparkify](12-capstones/sparkify/)
   - [Spotify](12-capstones/spotify/)
   - [US Immigration](12-capstones/us-immigration/)
 
-- Extras
+- Add-ons
 
   - [Interview Preparation](a1-interviewprep/)
-  - [System Design](01-foundations/data-engineering/system-design.md)
   - [Resources](b3-misc/resources.md)

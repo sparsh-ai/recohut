@@ -1,5 +1,7 @@
 # Flat Files
 
+## Introduction
+
 Storage formats are a way to define how data is stored in a file. Hadoop doesn't have a default file format, but it supports multiple file formats for storing data. Some of the common storage formats for Hadoop are as follows:
 
 - Text files
@@ -18,11 +20,9 @@ Choosing a write file format will provide significant advantages, such as the f
 
 Let's focus on columnar storage formats as they are widely used in big data applications because of how they store data and can be queried by the SQL engine. The columnar format is very useful when a subset of data needs to be referred to. However, when most of the columns in a dataset need to be fetched, then row-oriented storage formats are beneficial.
 
-## Serialization Formats
-
 Many serialization algorithms and formats are available to data engineers. While the abundance of options is a significant source of pain in data engineering, they are also a massive opportunity for performance improvements. We’ve sometimes seen job performance improve by a factor of 100 simply by switching from CSV to Parquet serialization. As data moves through a pipeline, engineers will also manage reserialization—conversion from one format to another. Sometimes data engineers have no choice but to accept data in an ancient, nasty form; they must design processes to deserialize this format and handle exceptions, and then clean up and convert data for consistent, fast downstream processing and consumption.
 
-### Row-Based Serialization
+## Row-Based Serialization
 
 As its name suggests, row-based serialization organizes data by row. CSV format is an archetypal row-based format. For semistructured data (data objects that support nesting and schema variation), row-oriented serialization entails storing each object as a unit.
 
@@ -154,7 +154,7 @@ Avro Schema
 }
 ```
 
-### Columnar Serialization
+## Columnar Serialization
 
 The serialization formats we’ve discussed so far are row-oriented. Data is encoded as complete relations (CSV) or documents (XML and JSON), and these are written into files sequentially.
 
@@ -293,7 +293,7 @@ One obvious headache with this approach is that different programming languages 
 
 Arrow is seeing rapid uptake with a variety of popular frameworks such as Apache Spark. Arrow has also spanned a new data warehouse product; Dremio is a query engine and data warehouse built around Arrow serialization to support fast queries.
 
-### Hybrid Serialization
+## Hybrid Serialization
 
 We use the term hybrid serialization to refer to technologies that combine multiple serialization techniques or integrate serialization with additional abstraction layers, such as schema management. We cite as examples Apache Hudi and Apache Iceberg.
 
@@ -311,13 +311,11 @@ The following are some columnar file formats:
 - **ORC files**: This stands for **optimized row columnar files**. They have almost the same advantages and disadvantages as RC files. However, ORC files have better compression. They were designed for Hive and cannot be used with non-Hive MapReduce interfaces such as Pig, Java, or Impala.
 - **Parquet files**: Parquet is a columnar data format that is suitable for large-scale queries. Parquet is just as good as RC and ORC in terms of performance while reading data, but it is slower when writing compared to other columnar file formats. Parquet supports schema evolution, which is not supported in RC and ORC file formats. Parquet also supports column pruning and predicate pushdown, which are not supported in CSV or JSON.
 
-## Comparison
-
-#### Comparing Avro, Parquet, and ORC
+## Comparing Avro, Parquet, and ORC
 
 ![B17525_02_010](https://user-images.githubusercontent.com/62965911/218276979-736b26a9-cb5b-41ed-a43a-fa6b23f29b08.jpeg)
 
-#### Comparing Parquet and CSV
+## Comparing Parquet and CSV
 
 While CSV is simple and the most widely used data format (Excel, Google Sheets), there are several distinct advantages for Parquet, including:
 
@@ -326,12 +324,6 @@ While CSV is simple and the most widely used data format (Excel, Google Sheets),
 - Therefore, converting CSV to Parquet with partitioning and compression lowers overall costs and improves performance
 
 Parquet has helped its users reduce storage requirements by at least one-third on large datasets, in addition, it greatly improves scan and deserialization time, hence the overall costs.
-
-## Serialization and Compression
-
-> Converting a data object into a series of bytes
-
-Data engineers working in the cloud are generally freed from the complexities of managing object storage systems. Still, they need to understand details of serialization and deserialization formats.
 
 ## Database Storage Engines
 
@@ -343,7 +335,7 @@ Storage engines have seen significant innovation in the 2000s and 2010s. While s
 
 Another major change in storage engines is a shift toward columnar storage for analytics and data warehouse applications. SQL Server, PostgreSQL, and MySQL offer robust columnar storage support.
 
-## Compression: gzip, bzip2, Snappy, Etc.
+## gzip, bzip2, Snappy
 
 The math behind compression algorithms is complex, but the basic idea is easy to understand: compression algorithms look for redundancy and repetition in data, then reencode data to reduce redundancy. When we want to read the raw data, we decompress it by reversing the algorithm and putting the redundancy back in.
 
@@ -355,8 +347,6 @@ Note that we’re talking about lossless compression algorithms. Decompressing d
 
 Traditional compression engines such as gzip and bzip2 compress text data extremely well; they are frequently applied to JSON, JSONL, XML, CSV, and other text-based data formats. Engineers have created a new generation of compression algorithms that prioritize speed and CPU efficiency over compression ratio in recent years. Major examples are Snappy, Zstandard, LZFSE, and LZ4. These algorithms are frequently used to compress data in data lakes or columnar databases to optimize for fast query performance.
 
-## Labs
+## <a href="#/02-storage/flat-files/lab-data-loading-python/" target="_blank">Lab: Loading Data in Python ⤻</a>
 
-1. Introduction to various file formats - CSV, Parquet, JSON, Avro, and ORC
-2. [Loading Data in Python](02-storage/flat-files/lab-data-loading-python/)
-3. [Processing JSON data in Python](02-storage/flat-files/lab-processing-json-data/)
+## <a href="#/02-storage/flat-files/lab-processing-json-data/" target="_blank">Lab: Processing JSON data in Python ⤻</a>

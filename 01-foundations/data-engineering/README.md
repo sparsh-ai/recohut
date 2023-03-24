@@ -395,6 +395,12 @@ On the other hand, when you want to deploy big data architecture using less expe
 
 Check out [this whitepaper](https://www.qlik.com/us/resource-library/modernizing-your-data-architecture-to-unlock-business-value) and [related webinar](https://videos.qlik.com/watch/mm2p55sd3zvdYHqkzhqRaH?_ga=2.269188596.401343546.1664008674-358725923.1664008674) to deep dive into this topic.
 
+## Batch vs Incremental Data Processing
+
+The idea behind incremental processing is quite simple. Incremental processing extends the semantics of processing streaming data to batch processing pipelines by processing only new data each run and then incrementally updating the new results. This unlocks great cost savings due to much shorter batch pipelines as well as data freshness speedups due to being able to run them much more frequently as well. 
+
+> :eyeglasses: Case Study: <a href="https://www.uber.com/en-IN/blog/ubers-lakehouse-architecture/" target="_blank">Setting Uber’s Transactional Data Lake in Motion with Incremental ETL Using Apache Hudi</a>
+
 ## Quizzes
 
 > :game_die: Quiz: <a href="#/a1-interviewprep/50-most-common-interview-questions.md" target="_blank">50 Most Common Interview Questions</a>
