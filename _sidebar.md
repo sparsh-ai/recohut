@@ -92,9 +92,11 @@
   - [Containers](07-devops/containers/)
   - [Infra as Code](07-devops/iac/)
 
-- Regression and Classification
+- Data Science Basics
 
   - [Regression](10-datascience/regression/)
+  - [Probability](10-datascience/probability/)
+  - [Statistics](10-datascience/statistics/)
   
 - NLP
 
@@ -119,8 +121,8 @@
   - [ELT - dbt-Redshift](12-capstones/dbt-redshift/)
   - [dbt+Airflow+GrExp](12-capstones/robust-data-pipeline/)
   - [End-to-End AWS Pipeline](12-capstones/cloudmaze/)
-  - [HMC](12-capstones/hmc/)
-  - [Recofront](12-capstones/recofront/)
+  - [Datalake Schema Correction](12-capstones/hmc/)
+  - [End-to-end Recommender System](12-capstones/recofront/)
   - [Sparkify](12-capstones/sparkify/)
   - [Citibike Trips](12-capstones/citibike-trip-histories/)
   - [Climate](12-capstones/climate/)

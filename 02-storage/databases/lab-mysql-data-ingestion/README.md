@@ -6,4 +6,4 @@
 
 ## Code
 
-Follow [this](https://nbviewer.org/github/datalaker/data-engineering-bootcamp/blob/main/02-storage/databases/lab-mysql-data-ingestion/01-sa-ingest-data-mysql.ipynb) notebook
+Follow [this](https://nbviewer.org/github/sparsh-ai/data-science-engineering-bootcamp/blob/main/02-storage/databases/lab-mysql-data-ingestion/01-sa-ingest-data-mysql.ipynb) notebook

@@ -123,11 +123,11 @@ WARNING
 
 ### Getting started with Kafka and CLI
 
-[![](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/datalaker/data-engineering-bootcamp/blob/main/03-processing/kafka/lab-kafka-cli/main.ipynb)
+[![](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/data-science-engineering-bootcamp/blob/main/03-processing/kafka/lab-kafka-cli/main.ipynb)
 
 ### Getting started with Kafka and Python
 
-[![](https://img.shields.io/badge/github-code-green?logo=github)](https://github.com/datalaker/data-engineering-bootcamp/tree/main/03-processing/kafka/lab-kafka-python)
+[![](https://img.shields.io/badge/github-code-green?logo=github)](https://github.com/sparsh-ai/data-science-engineering-bootcamp/tree/main/03-processing/kafka/lab-kafka-python)
 
 ### Query Your Data in Kafka Using SQL
 
