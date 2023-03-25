@@ -6,5 +6,5 @@
 
 - Hit the ⭐️ button if you like the repo
 
-[GitHub](https://github.com/datalaker/data-engineering-bootcamp)
+[GitHub](https://github.com/sparsh-ai/data-science-engineering-bootcamp)
 [Getting Started](#data-science-data-engineering-bootcamp)

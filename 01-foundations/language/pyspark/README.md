@@ -194,7 +194,7 @@ Also, To use bucket join for tables having buckets multiple of each other we nee
 
 * _spark.sql.bucketing.coalesceBucketsInJoin.enabled_
 
-> 🔬 Lab: [Calculating Spark Partitions](https://nbviewer.org/github/datalaker/data-engineering-bootcamp/blob/main/01-foundations/language/spark/lab-calculating-partitions.ipynb)
+> 🔬 Lab: [Calculating Spark Partitions](https://nbviewer.org/github/sparsh-ai/data-science-engineering-bootcamp/blob/main/01-foundations/language/spark/lab-calculating-partitions.ipynb)
 
 ## Lazy Processing
 
@@ -484,8 +484,8 @@ Spark DataFrames were inspired by pandas, which also provides an abstraction on 
 
 It may seem easy to confuse the two at the beginning, but there are many key differences between pandas and Spark. Most importantly, pandas was not built for scale; it was built to operate on data that fits into one machine’s memory. Consequently, it does not have the distributed Spark architecture. It also does not adhere to functional programming principles: pandas DataFrames are mutable.
 
-|                                 | Spark DataFrame | pandas DataFrame   |
-| ------------------------------- | --------------- | ------------------ |
+|                           | Spark DataFrame | pandas DataFrame   |
+|---------------------------|-----------------|--------------------|
 | **Operation in parallel** | Yes             | Not out of the box |
 | **Lazy evaluation**       | Yes             | No                 |
 | **Immutable**             | Yes             | No                 |

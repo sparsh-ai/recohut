@@ -38,7 +38,7 @@ Dimension-based models have been used extensively to build data warehouses. In t
 
 ## Code
 
-[![](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/datalaker/data-engineering-bootcamp/blob/main/02-storage/lakehouses/lab-glue-emr-iceberg-serverless-lakehouse/main.ipynb)
+[![](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/data-science-engineering-bootcamp/blob/main/02-storage/lakehouses/lab-glue-emr-iceberg-serverless-lakehouse/main.ipynb)
 
 ## Conclusion
 

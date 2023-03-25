@@ -90,6 +90,10 @@ There are several benefits of using a workflow orchestration tool:
 
 Overall, workflow orchestration tools can help businesses to optimize their operations, reduce errors, and increase productivity, leading to better outcomes for customers and stakeholders.
 
+## Comparison
+
+https://miro.medium.com/v2/resize:fit:720/format:webp/1*6GoJDWHhPkPLJyyKd61lRQ.png
+
 Select the Right Workflow Orchestration Tool for Your Business
 --------------------------------------------------------------
 
