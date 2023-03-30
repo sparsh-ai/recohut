@@ -1,0 +1,26 @@
+%%writefile fake_emp_data.json
+{"emp_id":1,"first_name":"Melissa","last_name":"Parks","Address":"24385 Chad Springs\nGarciabury, NH 97545","phone_number":"443-656-9602","isContractor":true}
+{"emp_id":2,"first_name":"Laura","last_name":"Delgado","Address":"6184 Douglas Square\nWandaland, NY 09750","phone_number":"9794790414","isContractor":false}
+{"emp_id":3,"first_name":"Luis","last_name":"Barnes","Address":"479 Cross Harbor\nNorth Virginiashire, MA 61515","phone_number":"332-798-7199x8890","isContractor":true}
+{"emp_id":4,"first_name":"Jonathan","last_name":"Wilson","Address":"8895 Laura Burgs\nAndrewview, VA 60923","phone_number":"2573071875","isContractor":true}
+{"emp_id":5,"first_name":"Kelly","last_name":"Gomez","Address":"921 Padilla Route Apt. 747\nEast Kristinabury, WI 79952","phone_number":"651.491.8654","isContractor":true}
+{"emp_id":6,"first_name":"Robert","last_name":"Smith","Address":"79708 Taylor Streets Suite 869\nSmithland, PA 95389","phone_number":"985-959-3869","isContractor":false}
+{"emp_id":7,"first_name":"Glenn","last_name":"Martinez","Address":"1233 Ramos Tunnel Apt. 823\nBlanchardfurt, ID 23700","phone_number":"524.011.0553","isContractor":true}
+{"emp_id":9,"first_name":"Karen","last_name":"Spencer","Address":"7892 Kayla Passage\nEast Erica, DC 53807","phone_number":"001-835-207-5623x0184","isContractor":false}
+{"emp_id":10,"first_name":"Daniel","last_name":"Foley","Address":"24180 Thomas Shores Suite 761\nWeavertown, UT 25979","phone_number":"784.467.2738x437","isContractor":true}
+{"emp_id":11,"first_name":"Amy","last_name":"Stevens","Address":"390 Bradley Shoals\nSouth Rachelville, WA 38963","phone_number":"790.557.7066x5704","isContractor":true}
+{"emp_id":12,"first_name":"Nicholas","last_name":"Aguirre","Address":"8115 Miller Keys Suite 156\nSoniaborough, UT 82244","phone_number":"575-772-3211x40798","isContractor":false}
+{"emp_id":13,"first_name":"John","last_name":"Valdez","Address":"249 Taylor Highway Apt. 433\nJeanettetown, TN 45093","phone_number":"(656)503-4253x839","isContractor":true}
+{"emp_id":14,"first_name":"Michael","last_name":"West","Address":"57112 Jody Crossing Suite 957\nPort Billyfort, KS 27324","phone_number":"(928)743-3623x7403","isContractor":false}
+{"emp_id":15,"first_name":"Perry","last_name":"Mcguire","Address":"91023 Powell Mill Suite 655\nJamesbury, DE 62571","phone_number":"923-949-8460x97575","isContractor":true}
+{"emp_id":16,"first_name":"James","last_name":"Munoz","Address":"81410 Wright Place\nKristinechester, SD 35936","phone_number":"001-925-703-4024x43486","isContractor":true}
+{"emp_id":17,"first_name":"Todd","last_name":"Barton","Address":"61063 Yu Meadows Suite 139\nSmithfurt, DC 10938","phone_number":"+1-685-090-8059x146","isContractor":true}
+{"emp_id":18,"first_name":"Christopher","last_name":"Noble","Address":"3583 Patterson Unions Suite 601\nCarlosport, IL 71203","phone_number":"001-667-565-5446x616","isContractor":true}
+{"emp_id":19,"first_name":"Sandy","last_name":"Hunter","Address":"14076 Moore Tunnel Apt. 382\nAlvarezstad, WI 02628","phone_number":"+1-838-795-7914x3698","isContractor":true}
+{"emp_id":20,"first_name":"Jennifer","last_name":"Ballard","Address":"7537 Johnson Forest\nEast Frances, WY 19474","phone_number":"+1-820-278-5664x2131","isContractor":false}
+{"emp_id":21,"first_name":"David","last_name":"Morris","Address":"742 Baker Ways Apt. 948\nSouth Joshua, MI 65461","phone_number":"4195487426","isContractor":false}
+{"emp_id":22,"first_name":"Paula","last_name":"Jones","Address":"75701 Alexander Summit\nChambersside, NJ 08133","phone_number":"001-004-314-9492x3798","isContractor":true}
+{"emp_id":23,"first_name":"Lisa","last_name":"Thompson","Address":"072 Kyle Alley\nSouth Omarburgh, GA 16645","phone_number":"(401)442-0263x68049","isContractor":true}
+{"emp_id":24,"first_name":"Vickie","last_name":"Johnson","Address":"57405 Justin Knoll\nSouth Stevenburgh, IL 41148","phone_number":"199-457-6725","isContractor":true}
+{"emp_id":25,"first_name":"John","last_name":"Hamilton","Address":"29077 Porter Park\nMaryburgh, LA 68931","phone_number":"001-806-212-1499","isContractor":true}
+{"emp_id":26,"first_name":"Sparsh","last_name":"A","Address":"29077 Porter Park\nMaryburgh, LA 68931","phone_number":"001-806-212-1499","isContractor":false}

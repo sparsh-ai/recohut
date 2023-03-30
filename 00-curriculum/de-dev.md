@@ -192,28 +192,28 @@
 
 ### Serving Layer - SQL Data Modeling
 
-* [ ] Build a Star Schema based Data Model in Postgres on the AirBnB dataset [[source code](../04-serving/lab-airbnb-postgres-datamodel)]
-* [ ] Car company Data Model in MySQL [[source code](../04-serving/lab-cars-mysql-datamodel)]
-* [ ] Create a star schema from 3NF schema on DVD rental Pagila dataset [[source code](../04-serving/lab-dvd-rental-datamodel)]
-* [ ] Create a Postgres data model of Google Playstore dataset [[source code](../04-serving/lab-google-playstore-datamodel)]
-* [ ] Inegi Snowflake Data Model [[source code](../04-serving/lab-inegi-snowflake-datamodel)]
-* [ ] Northwind Data Model in MySQL [[source code](../04-serving/lab-mysql-northwind-datamodel)]
-* [ ] Retail Store Data Model in MySQL [[source code](../04-serving/lab-mysql-retail-store-datamodel)]
-* [ ] Creating a Bus Rapid Transit (BRT) Database in Postgres [[source code](../04-serving/lab-postgres-busrapid-transit)]
-* [ ] Create Fact and Dimension Tables from Denormalized Raw Data [[source code](../04-serving/lab-postgres-elt-datamodel)]
-* [ ] Postgres e-Wallet Data Model [[source code](../04-serving/lab-postgres-ewallet-datamodel)]
-* [ ] Housing Data Model with CDC and SCD Type 2 [[source code](../04-serving/lab-postgres-housing-cdc-scd)]
-* [ ] Credit Debit Finance Data Model in Snowflake [[source code](../04-serving/lab-snowflake-creditdebit-datamodel)]
-* [ ] Sparkify Music Company Data Model in Postgres [[source code](../04-serving/lab-sparkify-data-model-postgres)]
+* [ ] Build a Star Schema based Data Model in Postgres on the AirBnB dataset [[source code](../04-data-modeling/lab-airbnb-postgres-datamodel)]
+* [ ] Car company Data Model in MySQL [[source code](../04-data-modeling/lab-cars-mysql-datamodel)]
+* [ ] Create a star schema from 3NF schema on DVD rental Pagila dataset [[source code](../04-data-modeling/lab-dvd-rental-datamodel)]
+* [ ] Create a Postgres data model of Google Playstore dataset [[source code](../04-data-modeling/lab-google-playstore-datamodel)]
+* [ ] Inegi Snowflake Data Model [[source code](../04-data-modeling/lab-inegi-snowflake-datamodel)]
+* [ ] Northwind Data Model in MySQL [[source code](../04-data-modeling/lab-mysql-northwind-datamodel)]
+* [ ] Retail Store Data Model in MySQL [[source code](../04-data-modeling/lab-mysql-retail-store-datamodel)]
+* [ ] Creating a Bus Rapid Transit (BRT) Database in Postgres [[source code](../04-data-modeling/lab-postgres-busrapid-transit)]
+* [ ] Create Fact and Dimension Tables from Denormalized Raw Data [[source code](../04-data-modeling/lab-postgres-elt-datamodel)]
+* [ ] Postgres e-Wallet Data Model [[source code](../04-data-modeling/lab-postgres-ewallet-datamodel)]
+* [ ] Housing Data Model with CDC and SCD Type 2 [[source code](../04-data-modeling/lab-postgres-housing-cdc-scd)]
+* [ ] Credit Debit Finance Data Model in Snowflake [[source code](../04-data-modeling/lab-snowflake-creditdebit-datamodel)]
+* [ ] Sparkify Music Company Data Model in Postgres [[source code](../04-data-modeling/lab-sparkify-data-model-postgres)]
 
 ### Serving Layer - NoSQL Data Modeling
 
 * [ ] Create a NoSQL Data Model for a Digital Music Library using Cassandra [[source code](../02-storage/datalakes/lab-adl-securing-monitoring-lakes)]
-* [ ] Create a NoSQL Data Model for an Email System using Cassandra [[source code](../04-serving/cassandra-email-data-model)]
-* [ ] Create a NoSQL Data Model for Hotel Reservations using Cassandra [[source code](../04-serving/cassandra-hotel-reservations)]
-* [ ] Create a NoSQL Data Model for Investment Accounts or Portfolios using Cassandra [[source code](../04-serving/cassandra-investment-data-model)]
-* [ ] Create a NoSQL Data Model for Temperature Monitoring Sensor Networks using Cassandra [[source code](../04-serving/cassandra-sensor-data-model)]
-* [ ] Create a NoSQL Data Model for Online Shopping Carts using Cassandra [[source code](../04-serving/cassandra-shopping-cart-data-model)]
+* [ ] Create a NoSQL Data Model for an Email System using Cassandra [[source code](../04-data-modeling/cassandra-email-data-model)]
+* [ ] Create a NoSQL Data Model for Hotel Reservations using Cassandra [[source code](../04-data-modeling/cassandra-hotel-reservations)]
+* [ ] Create a NoSQL Data Model for Investment Accounts or Portfolios using Cassandra [[source code](../04-data-modeling/cassandra-investment-data-model)]
+* [ ] Create a NoSQL Data Model for Temperature Monitoring Sensor Networks using Cassandra [[source code](../04-data-modeling/cassandra-sensor-data-model)]
+* [ ] Create a NoSQL Data Model for Online Shopping Carts using Cassandra [[source code](../04-data-modeling/cassandra-shopping-cart-data-model)]
 
 ### Processing Layer - Batch Data Processing
 

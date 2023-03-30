@@ -335,11 +335,11 @@ Among these, SCD1, SCD2, SCD3, SCD4, and SCD6 are the most important ones.
 In SCD type 1, the values are overwritten and no history is maintained, so once the data is updated, there is no way []()to find out what the previous value was. The new queries will always return the most recent value. Here is an example of an SCD1 table:
 
 | Customer ID | Name | City     | Email | ... |
-| ----------- | ---- | -------- | ----- | --- |
+|-------------|------|----------|-------|-----|
 | 1           | Adam | New York | Adam  | ... |
 
 | Customer ID | Name | City       | Email | ... |
-| ----------- | ---- | ---------- | ----- | --- |
+|-------------|------|------------|-------|-----|
 | 1           | Adam | New Jersey | Adam  | ... |
 
 In this example, the value of the City column is changing from New York to New Jersey. The value just gets overwritten.
@@ -353,11 +353,11 @@ In SCD2, we maintain a complete history of changes. Every time there is a change
 In this approach, we use a flag to indicate if a particular value is active or if it is current. Here is an example of this:
 
 | SurrogateID | CustomerID | Name | City     | isActive | ... |
-| ----------- | ---------- | ---- | -------- | -------- | --- |
+|-------------|------------|------|----------|----------|-----|
 | 1           | 1          | Adam | New York | True     | ... |
 
 | SurrogateID | CustomerID | Name | City       | isActive | ... |
-| ----------- | ---------- | ---- | ---------- | -------- | --- |
+|-------------|------------|------|------------|----------|-----|
 | 1           | 1          | Adam | New York   | False    | ... |
 | 2           | 1          | Adam | New Jersey | False    | ... |
 | 3           | 1          | Adam | Miami      | True     | ... |
@@ -373,11 +373,11 @@ NOTE
 In this approach, we use version numbers to keep track of changes. The row with the highest version is the most current value. Here is an example of this:
 
 | SurrogateID | CustomerID | Name | City     | Version | ... |
-| ----------- | ---------- | ---- | -------- | ------- | --- |
+|-------------|------------|------|----------|---------|-----|
 | 1           | 1          | Adam | New York | 0       | ... |
 
 | SurrogateID | CustomerID | Name | City       | Version | ... |
-| ----------- | ---------- | ---- | ---------- | ------- | --- |
+|-------------|------------|------|------------|---------|-----|
 | 1           | 1          | Adam | New York   | 0       | ... |
 | 2           | 1          | Adam | New Jersey | 1       | ... |
 | 3           | 1          | Adam | Miami      | 2       | ... |
@@ -389,11 +389,11 @@ In the previous example, we need to filter on the MAX(Version) column to get the
 In this approach, we use date ranges to show the period a particular record (row) was active, as illustrated in the following example:
 
 | SurrogateID | CustomerID | Name | City     | StartDate   | EndDate | ... |
-| ----------- | ---------- | ---- | -------- | ----------- | ------- | --- |
+|-------------|------------|------|----------|-------------|---------|-----|
 | 1           | 1          | Adam | New York | 01-Jan-2020 | NULL    | ... |
 
 | SurrogateID | CustomerID | Name | City       | StartDate   | EndDate     | ... |
-| ----------- | ---------- | ---- | ---------- | ----------- | ----------- | --- |
+|-------------|------------|------|------------|-------------|-------------|-----|
 | 1           | 1          | Adam | New York   | 01-Jan-2020 | 25-Mar-2020 | ... |
 | 2           | 1          | Adam | New Jersey | 25-Mar-2020 | 01-Dec-2020 | ... |
 | 3           | 1          | Adam | Miami      | 01-Dec-2020 | NULL        | ... |
@@ -403,7 +403,7 @@ In the previous example, every time we change a field, we add a new record to th
 As a variation to the date-range approach, we could also add a flag column to easily identify active or current records. The following example shows this approach:
 
 | SurrogateID | CustomerID | Name | City       | StartDate   | EndDate     | isActive | ... |
-| ----------- | ---------- | ---- | ---------- | ----------- | ----------- | -------- | --- |
+|-------------|------------|------|------------|-------------|-------------|----------|-----|
 | 1           | 1          | Adam | New York   | 01-Jan-2020 | 25-Mar-2020 | False    | ... |
 | 2           | 1          | Adam | New Jersey | 25-Mar-2020 | 01-Dec-2020 | False    | ... |
 | 3           | 1          | Adam | Miami      | 01-Dec-2020 | NULL        | True     | ... |
@@ -413,11 +413,11 @@ As a variation to the date-range approach, we could also add a flag column to ea
 In SCD3, we maintain only a partial history and not a complete history. Instead of adding additional rows, we add an extra column that stores the previous value, so only one version of historic data will be preserved. As with the SCD2 option, here again, we can choose to add date columns to keep track of modified dates, but we don't need surrogate keys in this case as the identification key of the record doesn't change. Here is an example of this:
 
 | CustomerID | Name | City     | PrevCity | ... |
-| ---------- | ---- | -------- | -------- | --- |
+|------------|------|----------|----------|-----|
 | 1          | Adam | New York | NULL     | ... |
 
 | CustomerID | Name | City       | PrevCity | ... |
-| ---------- | ---- | ---------- | -------- | --- |
+|------------|------|------------|----------|-----|
 | 1          | Adam | New Jersey | New York | ... |
 
 In the previous example, we have added a new column called PrevCity. Every time the value of City changes, we add the previous value to PrevCity and update the City column with the current city.
@@ -445,7 +445,7 @@ The rest of the SCDs—SCD5, SCD6, and SCD7—are derivatives of the previous fo
 Type 6 is a combination of 1, 2, and 3. In this type, along with the addition of new rows, we also update the latest value in all the rows, as illustrated below:
 
 | SurrogateID | CustomerID | Name | CurrCity | PrevCity   | StartDate   | EndDate     | isActive | ... |
-| ----------- | ---------- | ---- | -------- | ---------- | ----------- | ----------- | -------- | --- |
+|-------------|------------|------|----------|------------|-------------|-------------|----------|-----|
 | 1           | 1          | Adam | Miami    | NULL       | 01-Jan-2020 | 25-Mar-2020 | False    | ... |
 | 2           | 1          | Adam | Miami    | New York   | 25-Mar-2020 | 01-Dec-2020 | False    | ... |
 | 3           | 1          | Adam | Miami    | New Jersey | 01-Dec-2020 | NULL        | True     | ... |
@@ -668,19 +668,19 @@ Following these 9 best practices for database design will help ensure that your 
 
 ## Labs
 
-1. Build a Star Schema based Data Model in Postgres on the AirBnB dataset [[source code](04-serving/sql/lab-airbnb-postgres-datamodel/)]
-2. Car company Data Model in MySQL [[source code](04-serving/sql/lab-cars-mysql-datamodel/)]
-3. Create a star schema from 3NF schema on DVD rental Pagila dataset [[source code](04-serving/sql/lab-dvd-rental-datamodel/)]
-4. Create a Postgres data model of Google Playstore dataset [[source code](04-serving/sql/lab-google-playstore-datamodel/)]
-5. Inegi Snowflake Data Model [[source code](04-serving/sql/lab-inegi-snowflake-datamodel/)]
-6. Northwind Data Model in MySQL [[source code](04-serving/sql/lab-mysql-northwind-datamodel/)]
-7. Retail Store Data Model in MySQL [[source code](04-serving/sql/lab-mysql-retail-store-datamodel/)]
-8. Creating a Bus Rapid Transit (BRT) Database in Postgres [[source code](04-serving/sql/lab-postgres-busrapid-transit/)]
-9. Create Fact and Dimension Tables from Denormalized Raw Data [[source code](04-serving/sql/lab-postgres-elt-datamodel/)]
-10. Postgres e-Wallet Data Model [[source code](04-serving/sql/lab-postgres-ewallet-datamodel/)]
-11. Housing Data Model with CDC and SCD Type 2 [[source code](04-serving/sql/lab-postgres-housing-cdc-scd/)]
-12. Credit Debit Finance Data Model in Snowflake [[source code](04-serving/sql/lab-snowflake-creditdebit-datamodel/)]
-13. Sparkify Music Company Data Model in Postgres [[source code](04-serving/sql/lab-sparkify-data-model-postgres/)]
+1. Build a Star Schema based Data Model in Postgres on the AirBnB dataset [[source code](04-data-modeling/sql/lab-airbnb-postgres-datamodel/)]
+2. Car company Data Model in MySQL [[source code](04-data-modeling/sql/lab-cars-mysql-datamodel/)]
+3. Create a star schema from 3NF schema on DVD rental Pagila dataset [[source code](04-data-modeling/sql/lab-dvd-rental-datamodel/)]
+4. Create a Postgres data model of Google Playstore dataset [[source code](04-data-modeling/sql/lab-google-playstore-datamodel/)]
+5. Inegi Snowflake Data Model [[source code](04-data-modeling/sql/lab-inegi-snowflake-datamodel/)]
+6. Northwind Data Model in MySQL [[source code](04-data-modeling/sql/lab-mysql-northwind-datamodel/)]
+7. Retail Store Data Model in MySQL [[source code](04-data-modeling/sql/lab-mysql-retail-store-datamodel/)]
+8. Creating a Bus Rapid Transit (BRT) Database in Postgres [[source code](04-data-modeling/sql/lab-postgres-busrapid-transit/)]
+9. Create Fact and Dimension Tables from Denormalized Raw Data [[source code](04-data-modeling/sql/lab-postgres-elt-datamodel/)]
+10. Postgres e-Wallet Data Model [[source code](04-data-modeling/sql/lab-postgres-ewallet-datamodel/)]
+11. Housing Data Model with CDC and SCD Type 2 [[source code](04-data-modeling/sql/lab-postgres-housing-cdc-scd/)]
+12. Credit Debit Finance Data Model in Snowflake [[source code](04-data-modeling/sql/lab-snowflake-creditdebit-datamodel/)]
+13. Sparkify Music Company Data Model in Postgres [[source code](04-data-modeling/sql/lab-sparkify-data-model-postgres/)]
 
 ## Case Studies
 

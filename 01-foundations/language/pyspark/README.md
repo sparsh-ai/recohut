@@ -194,7 +194,7 @@ Also, To use bucket join for tables having buckets multiple of each other we nee
 
 * _spark.sql.bucketing.coalesceBucketsInJoin.enabled_
 
-> 🔬 Lab: [Calculating Spark Partitions](https://nbviewer.org/github/sparsh-ai/data-science-engineering-bootcamp/blob/main/01-foundations/language/spark/lab-calculating-partitions.ipynb)
+> 🔬 Lab: [Calculating Spark Partitions](https://nbviewer.org/github/sparsh-ai/bootcamp/blob/main/01-foundations/language/spark/lab-calculating-partitions.ipynb)
 
 ## Lazy Processing
 

@@ -1,0 +1,501 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: This template deploys the required resources for the SCD CDC Big Data blog.
+
+Resources:
+  # IAM Roles
+  LambdaExecutionRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: !Join
+        - "-"
+        - - !Sub "scd-blog-lambda-role"
+          - !Select
+            - 0
+            - !Split
+              - "-"
+              - !Select
+                - 2
+                - !Split
+                  - "/"
+                  - !Ref "AWS::StackId"
+      AssumeRolePolicyDocument:
+        Statement:
+          - Action: sts:AssumeRole
+            Effect: Allow
+            Principal:
+              Service: lambda.amazonaws.com
+        Version: "2012-10-17"
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/CloudWatchFullAccess
+
+  GlueExecutionRole:
+    Type: "AWS::IAM::Role"
+    Properties:
+      RoleName: !Join
+        - "-"
+        - - !Sub "scd-blog-glue-role"
+          - !Select
+            - 0
+            - !Split
+              - "-"
+              - !Select
+                - 2
+                - !Split
+                  - "/"
+                  - !Ref "AWS::StackId"
+      AssumeRolePolicyDocument:
+        Statement:
+          - Action:
+              - sts:AssumeRole
+            Effect: Allow
+            Principal:
+              Service:
+                - glue.amazonaws.com
+        Version: "2012-10-17"
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/service-role/AWSGlueServiceRole
+      Path: /
+      Policies:
+        - PolicyName: GlueKMSLogsAccessPolicy
+          PolicyDocument:
+            Version: 2012-10-17
+            Statement:
+              - Effect: Allow
+                Action:
+                  - "kms:GetParametersForImport"
+                  - "kms:GetPublicKey"
+                  - "kms:Decrypt"
+                  - "kms:ListKeyPolicies"
+                  - "kms:ListRetirableGrants"
+                  - "kms:Encrypt"
+                  - "kms:GetKeyRotationStatus"
+                  - "kms:GetKeyPolicy"
+                  - "kms:GenerateDataKey"
+                  - "kms:DescribeKey"
+                  - "kms:ListResourceTags"
+                  - "kms:ListGrants"
+                  - "kms:DescribeCustomKeyStores"
+                  - "kms:ListKeys"
+                  - "kms:ListAliases"
+                Resource: !GetAtt KMSKey.Arn
+              - Effect: Allow
+                Action:
+                  - "kms:DescribeCustomKeyStores"
+                  - "kms:ListKeys"
+                  - "kms:ListAliases"
+                Resource: !GetAtt KMSKey.Arn
+
+              - Effect: Allow
+                Action:
+                  - "logs:AssociateKmsKey"
+                Resource: !Sub "arn:aws:logs:${AWS::Region}:${AWS::AccountId}:log-group:/*"
+
+  KMSKey:
+    Type: "AWS::KMS::Key"
+    DeletionPolicy: Retain
+    Properties:
+      Description: "KMS Key for Glue"
+      Enabled: "True"
+      EnableKeyRotation: "True"
+      KeyPolicy:
+        Version: "2012-10-17"
+        Id: scd-blog-kms-key
+        Statement:
+          - Sid: "Give AWS account:root full control over the KMS key"
+            Effect: Allow
+            Principal:
+              AWS: !Sub "arn:${AWS::Partition}:iam::${AWS::AccountId}:root"
+            Action:
+              - kms:*
+            Resource: "*"
+
+          - Sid: "Allow Glue to use the key"
+            Effect: Allow
+            Principal:
+              Service: "glue.amazonaws.com"
+            Action:
+              - "kms:Encrypt"
+              - "kms:Decrypt"
+              - "kms:ReEncrypt"
+              - "kms:GenerateDataKey*"
+              - "kms:DescribeKey"
+            Resource: "*"
+            Condition:
+              StringEquals:
+                "aws:SourceAccount": !Ref "AWS::AccountId"
+
+          - Sid: "Allow Kinesis to use the key"
+            Effect: Allow
+            Principal:
+              Service: "kinesis.amazonaws.com"
+            Action:
+              - "kms:Encrypt"
+              - "kms:Decrypt"
+              - "kms:ReEncrypt"
+              - "kms:GenerateDataKey*"
+              - "kms:DescribeKey"
+            Resource: !Sub arn:${AWS::Partition}:kinesis:${AWS::Region}:${AWS::AccountId}:*
+
+          - Sid: "Allow firehose to use the key"
+            Effect: Allow
+            Principal:
+              Service: "firehose.amazonaws.com"
+            Action:
+              - "kms:Encrypt"
+              - "kms:Decrypt"
+              - "kms:ReEncrypt"
+              - "kms:GenerateDataKey*"
+              - "kms:DescribeKey"
+            Resource: !Sub arn:${AWS::Partition}:firehose:${AWS::Region}:${AWS::AccountId}:deliverystream/*
+
+          - Sid: "Allow CloudWatch Logs to use the key"
+            Effect: Allow
+            Principal:
+              Service: !Sub "logs.${AWS::Region}.amazonaws.com"
+            Action:
+              - "kms:Encrypt"
+              - "kms:Decrypt"
+              - "kms:ReEncrypt"
+              - "kms:GenerateDataKey*"
+              - "kms:DescribeKey"
+            Resource: "*"
+
+  ## IAM Policies
+  KMSAccessPolicy:
+    Type: AWS::IAM::Policy
+    Properties:
+      PolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Action:
+              - kms:Decrypt
+              - kms:Encrypt
+              - kms:GenerateDataKey
+              - kms:AssociateKmsKey
+            Resource:
+              - !GetAtt KMSKey.Arn
+      Roles:
+        - !Ref GlueExecutionRole
+        - !Ref LambdaExecutionRole
+      PolicyName: !Join
+        - "-"
+        - - !Sub "scd-blog-lambda-kms-access-policy-"
+          - !Select
+            - 0
+            - !Split
+              - "-"
+              - !Select
+                - 2
+                - !Split
+                  - "/"
+                  - !Ref "AWS::StackId"
+
+  PassRoleAccessPolicy:
+    Type: AWS::IAM::Policy
+    Properties:
+      PolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Action:
+              - iam:PassRole
+            Resource: "*"
+      Roles:
+        - !Ref LambdaExecutionRole
+      PolicyName: !Join
+        - "-"
+        - - !Sub "scd-blog-pass-role-access-policy-"
+          - !Select
+            - 0
+            - !Split
+              - "-"
+              - !Select
+                - 2
+                - !Split
+                  - "/"
+                  - !Ref "AWS::StackId"
+
+  S3AccessPolicy:
+    Type: AWS::IAM::Policy
+    Properties:
+      PolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Action:
+              - s3:PutObject
+              - s3:GetObject
+              - s3:ListBucketMultipartUploads
+              - s3:DeleteObjectVersion
+              - s3:ListBucketVersions
+              - s3:ListBucket
+              - s3:GetBucketVersioning
+              - s3:DeleteObject
+              - s3:GetObjectVersion
+              - s3:ListMultipartUploadParts
+            Resource:
+              - !Sub "arn:${AWS::Partition}:s3:::${DataLakeBucketLanding}"
+              - !Sub "arn:${AWS::Partition}:s3:::${DataLakeBucketLanding}/*"
+              - !Sub "arn:${AWS::Partition}:s3:::${DataLakeBucketProcessed}"
+              - !Sub "arn:${AWS::Partition}:s3:::${DataLakeBucketProcessed}/*"
+          - Effect: Allow
+            Action:
+              - s3:GetObject
+            Resource:
+              - !Sub "arn:${AWS::Partition}:s3:::aws-blogs-artifacts-public"
+              - !Sub "arn:${AWS::Partition}:s3:::aws-blogs-artifacts-public/artifacts/BDB-2547/*"
+
+      Roles:
+        - !Ref GlueExecutionRole
+        - !Ref LambdaExecutionRole
+      PolicyName: !Join
+        - "-"
+        - - !Sub "scd-blog-lambda-S3AccessPolicy-"
+          - !Select
+            - 0
+            - !Split
+              - "-"
+              - !Select
+                - 2
+                - !Split
+                  - "/"
+                  - !Ref "AWS::StackId"
+
+  # S3
+  DataLakeBucketLanding:
+    Type: "AWS::S3::Bucket"
+    Properties:
+      BucketName: !Join
+        - "-"
+        - - !Sub "scd-blog-landing"
+          - !Select
+            - 0
+            - !Split
+              - "-"
+              - !Select
+                - 2
+                - !Split
+                  - "/"
+                  - !Ref "AWS::StackId"
+
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+      AccessControl: BucketOwnerFullControl
+      OwnershipControls:
+        Rules:
+          - ObjectOwnership: BucketOwnerEnforced
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+          - ServerSideEncryptionByDefault:
+              SSEAlgorithm: aws:kms
+              KMSMasterKeyID: !GetAtt KMSKey.Arn
+
+  DataLakeBucketProcessed:
+    Type: "AWS::S3::Bucket"
+    Properties:
+      BucketName: !Join
+        - "-"
+        - - !Sub "scd-blog-processed"
+          - !Select
+            - 0
+            - !Split
+              - "-"
+              - !Select
+                - 2
+                - !Split
+                  - "/"
+                  - !Ref "AWS::StackId"
+
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+      AccessControl: BucketOwnerFullControl
+      OwnershipControls:
+        Rules:
+          - ObjectOwnership: BucketOwnerEnforced
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+          - ServerSideEncryptionByDefault:
+              SSEAlgorithm: aws:kms
+              KMSMasterKeyID: !GetAtt KMSKey.Arn
+
+  # Glue
+  GlueDatabase:
+    Type: AWS::Glue::Database
+    Properties:
+      DatabaseInput:
+        Name: !Join
+          - ""
+          - - !Sub "deltalake_"
+            - !Select
+              - 0
+              - !Split
+                - "-"
+                - !Select
+                  - 2
+                  - !Split
+                    - "/"
+                    - !Ref "AWS::StackId"
+        LocationUri: !Sub "s3://${DataLakeBucketProcessed}/"
+      CatalogId: !Ref AWS::AccountId
+
+  DeltaLakeGlueJob:
+    Type: AWS::Glue::Job
+    Properties:
+      ExecutionProperty:
+        MaxConcurrentRuns: 1
+      NumberOfWorkers: 2
+      Name: !Sub "${AWS::StackName}-src-to-processed"
+      Timeout: 2880
+      GlueVersion: "4.0"
+      WorkerType: G.1X
+      Command:
+        ScriptLocation: s3://aws-blogs-artifacts-public/artifacts/BDB-2547/glue/scd-deltalake-employee-etl-job.py
+        Name: glueetl
+        PythonVersion: "3"
+      Role: !Ref GlueExecutionRole
+      MaxRetries: 0
+      DefaultArguments:
+        "--enable-continuous-cloudwatch-log": True
+        "--job-language": python
+        "--enable-spark-ui": True
+        "--enable-job-insights": True
+        "--enable-glue-datacatalog": True
+        "--enable-metrics": True
+        "--job-bookmark-option": "job-bookmark-enable"
+        "--conf": "spark.sql.extensions=io.delta.sql.DeltaSparkSessionExtension  --conf spark.sql.catalog.spark_catalog=org.apache.spark.sql.delta.catalog.DeltaCatalog"
+        "--datalake-formats": "delta"
+        "--enable-s3-parquet-optimized-committer": "true"
+        "--raw_s3_path": !Sub "s3://${DataLakeBucketLanding}/dataset/employee/"
+        "--stage_s3_path": !Sub "s3://${DataLakeBucketLanding}/stage/employee/"
+        "--processed_s3_bucket_name": !Ref DataLakeBucketProcessed
+        "--processed_s3_prefix": "employee/"
+        "--dbname": "default"
+        "--tblname": "deltalake_stg_emp_tbl"
+
+  SampleDataGeneratorLambda:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: !Sub "SampleDataGeneratorLambda-${AWS::StackName}"
+      Handler: emp_data_generator.lambda_handler
+      Runtime: python3.9
+      Role: !GetAtt LambdaExecutionRole.Arn
+      Timeout: 899
+      Environment:
+        Variables:
+          s3_artifacts_bucket: !Ref DataLakeBucketLanding
+      Code:
+        S3Bucket: "aws-blogs-artifacts-public"
+        S3Key: "artifacts/BDB-2547/lambda/emp_data_generator.zip"
+      Layers:
+        - "arn:aws:lambda:us-east-1:336392948345:layer:AWSSDKPandas-Python39:1"
+        - !Ref SampleDataGenaratorLayer
+
+  SampleDataGenaratorLayer:
+    Type: AWS::Lambda::LayerVersion
+    Properties:
+      CompatibleRuntimes:
+        - python3.9
+      Content:
+        S3Bucket: "aws-blogs-artifacts-public"
+        S3Key: "artifacts/BDB-2547/lambda-layer/custom_data_layer.zip"
+      Description: SQL alchemy layer for tables with hexidecimals
+      LayerName: !Join
+        - "-"
+        - - !Sub "SampleDataGenaratorLayer-${AWS::Region}"
+          - !Select
+            - 0
+            - !Split
+              - "-"
+              - !Select
+                - 2
+                - !Split
+                  - "/"
+                  - !Ref "AWS::StackId"
+
+Outputs:
+  DataLakeBucketLanding:
+    Value: !Ref DataLakeBucketLanding
+    Export:
+      Name: !Join
+        - "-"
+        - - !Sub "DataLakeBucketLanding"
+          - !Select
+            - 0
+            - !Split
+              - "-"
+              - !Select
+                - 2
+                - !Split
+                  - "/"
+                  - !Ref "AWS::StackId"
+
+  DataLakeBucketProcessed:
+    Value: !Ref DataLakeBucketProcessed
+    Export:
+      Name: !Join
+        - "-"
+        - - !Sub "DataLakeBucketProcessed"
+          - !Select
+            - 0
+            - !Split
+              - "-"
+              - !Select
+                - 2
+                - !Split
+                  - "/"
+                  - !Ref "AWS::StackId"
+
+  GlueDatabase:
+    Value: !Ref GlueDatabase
+    Export:
+      Name: !Join
+        - "-"
+        - - !Sub "GlueDatabase"
+          - !Select
+            - 0
+            - !Split
+              - "-"
+              - !Select
+                - 2
+                - !Split
+                  - "/"
+                  - !Ref "AWS::StackId"
+
+  DeltaLakeGlueJob:
+    Value: !Ref DeltaLakeGlueJob
+    Export:
+      Name: !Join
+        - "-"
+        - - !Sub "DeltaLakeGlueJob"
+          - !Select
+            - 0
+            - !Split
+              - "-"
+              - !Select
+                - 2
+                - !Split
+                  - "/"
+                  - !Ref "AWS::StackId"
+
+  SampleDataGeneratorLambda:
+    Value: !Ref SampleDataGeneratorLambda
+    Export:
+      Name: !Join
+        - "-"
+        - - !Sub "SampleDataGeneratorLambda"
+          - !Select
+            - 0
+            - !Split
+              - "-"
+              - !Select
+                - 2
+                - !Split
+                  - "/"
+                  - !Ref "AWS::StackId"
