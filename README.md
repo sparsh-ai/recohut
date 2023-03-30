@@ -2,22 +2,21 @@
 
 Hit the ⭐️ button if you like the repo
 
-**Outline:**
-
 ![bigpicture drawio](https://user-images.githubusercontent.com/62965911/226115094-3ca039b1-0ee6-48f6-85b2-7303bb9c9cf8.svg)
 
+- Basic Concepts
 
-- Getting started
-
-  - [Developer Foundations](01-foundations/developer/)
-  - [Data Engineering Foundations](01-foundations/data-engineering/)
-  - [Cloud Essentials](01-foundations/cloud/)
+  - [Data Engineering](01-foundations/data-engineering/)
+  - [Data Science](10-datascience/basics/)
+  - [Hadoop and Spark](01-foundations/data-engineering/spark-hadoop.md)
+  - [Cloud](01-foundations/cloud/)
 
 - Programming
 
   - [SQL](01-foundations/language/sql/)
   - [Python](01-foundations/language/python/)
-  - [Spark](01-foundations/language/spark/)
+  - [PySpark](01-foundations/language/pyspark/)
+  - [Scala](01-foundations/language/scala/)
 
 - Data Storage
 
@@ -62,8 +61,8 @@ Hit the ⭐️ button if you like the repo
 
 - Data Modeling
 
-  - [Relational](04-serving/sql/)
-  - [NoSQL](04-serving/nosql/)
+  - [Relational (SQL) Data Modeling](04-data-modeling/sql/)
+  - [NoSQL Data Modeling](04-data-modeling/nosql/)
 
 - Data Extraction
 
@@ -86,48 +85,66 @@ Hit the ⭐️ button if you like the repo
   - [Streamlit](08-visualization/streamlit/)
   - AWS Quicksight
 
+- System Design
+
+  - [Getting Started](system-design/README.md)
+  - [System Design Examples](system-design/examples.md)
+  - [Databricks Case Studies](system-design/databricks-case-studies.md)
+
 - DevOps
 
   - [FastAPI](07-devops/fastapi/)
   - [Containers](07-devops/containers/)
   - [Infra as Code](07-devops/iac/)
 
-- Data Science & Machine Learning
+- Regression and Classification
 
-  - [Fundamentals](10-datascience/basics/)
   - [Regression](10-datascience/regression/)
-  - [NLP](10-datascience/nlp/)
-  - [Computer Vision](10-datascience/computer-vision/)
-  - [Recommender Systems](10-datascience/recsys/)
 
-- Capstones
+- Mathematics
+  - [Getting Started](mathematics/)
+  - [Probability](mathematics/probability/)
+  - [Statistics](mathematics/statistics/)
+  
+- NLP
 
-  - [ACLED](12-capstones/acled/)
-  - [Citibike Trips](12-capstones/citibike-trip-histories/)
-  - [Climate](12-capstones/climate/)
-  - [Cloudmaze](12-capstones/cloudmaze/)
-  - [dbt-Redshift](12-capstones/dbt-redshift/)
-  - [Funflix](12-capstones/funflix/)
-  - [HMC](12-capstones/hmc/)
-  - [Kinesis Flink Beam](12-capstones/kinesis-flink-beam/)
-  - [Kinesis Flink ETL](12-capstones/kinesis-flink-etl/)
-  - [Kortex](12-capstones/kortex/)
-  - [Movie Sentiment](12-capstones/movie-sentiment/)
-  - [Recofront](12-capstones/recofront/)
-  - [Reddit](12-capstones/reddit/)
-  - [Robust Data Pipeline](12-capstones/robust-data-pipeline/)
-  - [Sparkify](12-capstones/sparkify/)
-  - [Spotify](12-capstones/spotify/)
-  - [US Immigration](12-capstones/us-immigration/)
+  - [Getting Started](10-datascience/nlp/)
+
+- Computer Vision
+
+  - [Getting Started](10-datascience/computer-vision/)
+
+- Recommender Systems
+
+  - [Getting Started](10-datascience/recsys/)
 
 - MLOps
 
   - [Concepts](17-mlops/)
   - [Code Snippets](17-mlops/code-snippets.md)
 
-- Extras
+- Projects
 
+  - [ETL - ACLED](12-capstones/acled/)
+  - [ELT - dbt-Redshift](12-capstones/dbt-redshift/)
+  - [dbt+Airflow+GrExp](12-capstones/robust-data-pipeline/)
+  - [End-to-End AWS Pipeline](12-capstones/cloudmaze/)
+  - [Datalake Schema Correction](12-capstones/hmc/)
+  - [End-to-end Recommender System](12-capstones/recofront/)
+  - [Sparkify](12-capstones/sparkify/)
+  - [Citibike Trips](12-capstones/citibike-trip-histories/)
+  - [Climate](12-capstones/climate/)
+  - [Funflix](12-capstones/funflix/)
+  - [Kinesis Flink Beam](12-capstones/kinesis-flink-beam/)
+  - [Kinesis Flink ETL](12-capstones/kinesis-flink-etl/)
+  - [Kortex](12-capstones/kortex/)
+  - [Movie Sentiment](12-capstones/movie-sentiment/)
+  - [Reddit](12-capstones/reddit/)
+  - [Spotify](12-capstones/spotify/)
+  - [US Immigration](12-capstones/us-immigration/)
+
+- Add-ons
+
+  - [Workspace Setup](01-foundations/developer/)
   - [Interview Preparation](a1-interviewprep/)
-  - [System Design](01-foundations/data-engineering/system-design.md)
   - [Resources](b3-misc/resources.md)
-

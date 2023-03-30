@@ -32,31 +32,67 @@ A brief timeline of key historical data science events is as follows:
 - **2018**: Google releases cloud AutoML, democratizing a new automatic technique for machine learning and data science.
 - **2020**: Amazon SageMaker Studio is released, which is a cloud tool for building, training, deploying, and analyzing machine learning models.
 
-## Frameworks
+## Deep Learning
 
-### **CRISP-DM**
+### What is Deep Learning?
 
-**CRISP-DM** stands for **Cross-Industry Standard Process for Data Mining** and has been around since the late 1990s. It's a six-step process, illustrated in the diagram below.
+![pg3_Image_3](https://user-images.githubusercontent.com/62965911/228470889-e20467b0-d506-473d-99eb-c6c7898b90ee.jpeg)
 
-![content-concepts-raw-data-science-untitled](https://user-images.githubusercontent.com/62965911/219950480-67e6d155-de43-4c10-9c19-75d390376bc5.png)
+### The Rosenblatt Perceptron
 
-### **TDSP**
+The perceptron is an artificial neuron, that is, a model of a biological neuron.
 
-**TDSP**, or the **Team Data Science Process**, was developed by Microsoft and launched in 2016. It's obviously much more modern than CRISP-DM, and so is almost certainly a better choice for running a data science project today.
+![pg30_Image_6](https://user-images.githubusercontent.com/62965911/228531087-492b9509-3168-4bb5-a82a-9dbdcf25eddc.jpeg)
 
-The five steps of the process are similar to CRISP-DM, as shown in the figure below.
+The neuron receives stimuli on the dendrites, and in cases of sufficient stimuli, the neuron fires (also known as getting activated or excited) and outputs stimulus on its axon, which is transmitted to other neurons that have synaptic connections to the excited neuron. Synaptic signals can be excitatory or inhibitory; that is, some signals can prevent a neuron from firing instead of causing it to fire.
 
-![content-concepts-raw-data-science-untitled-1](https://user-images.githubusercontent.com/62965911/219950476-16e44757-2da1-469b-bf22-8fac13b58ed2.png)
+A **perceptron** is a type of **artificial neuron**. It sums up the inputs to compute an intermediate value _z_, which is fed to an **activation function**. The perceptron uses the **sign function** as an activation function, but **other artificial neurons use other functions**.
 
-A reproduction of the TDSP process flow diagram.
+The perceptron consists of a computational unit, a number of inputs, each with an associated input weight, and a single output:
 
-Although the life cycle graphic looks quite different,  TDSP’s project lifecycle is like CRISP-DM and includes five iterative stages:
+![pg31_Image_7](https://user-images.githubusercontent.com/62965911/228531930-d901d5a1-a63e-41e8-8757-74e6147c8f95.jpeg)
 
-1. **Business Understanding:** define objectives and identify data sources
-2. **Data Acquisition and Understanding:** ingest data and determine if it can answer the presenting question (effectively combines *Data Understanding* and *Data Cleaning* from CRISP-DM)
-3. **Modeling:** feature engineering and model training (combines *Modeling* and *Evaluation*)
-4. **Deployment:** deploy into a production environment
-5. **Customer Acceptance:** customer validation if the system meets business needs (a phase not explicitly covered by CRISP-DM)
+#### Code snippet
+
+```py
+# First element in vector x must be 1.
+# Length of w and x must be n+1 for neuron with n inputs.
+def compute_output(w, x):
+    z = 0.0
+    for i in range(len(w)):
+        z += x[i] * w[i] # Compute sum of weighted inputs
+    if z < 0: # Apply sign function
+        return -1
+    else:
+        return 1
+```
+
+#### Example of a Two-Input Perceptron
+
+![pg34_Image_11](https://user-images.githubusercontent.com/62965911/228533452-755225d2-dab5-4e6b-b835-3d23d80ce92d.jpeg)
+
+#### Perceptron and the NAND Gate
+
+Behavior of a Perceptron with Two Inputs:
+
+| X0 | X1              | X2              | W0\*X0 | W1\*X1 | W2\*X2 | _Z_  | _Y_             |
+|----|-----------------|-----------------|--------|--------|--------|------|-----------------|
+| 1  | −1<br>`(False)` | −1<br>`(False)` | 0.9    | 0.6    | 0.5    | 2.0  | 1<br>`(True)`   |
+| 1  | 1<br>`(True)`   | −1<br>`(False)` | 0.9    | −0.6   | 0.5    | 0.8  | 1<br>`(True)`   |
+| 1  | −1<br>`(False)` | 1<br>`(True)`   | 0.9    | 0.6    | −0.5   | 1.0  | 1<br>`(True)`   |
+| 1  | 1<br>`(True)`   | 1<br>`(True)`   | 0.9    | −0.6   | −0.5   | −0.2 | −1<br>`(False)` |
+
+The table shows the inputs and the outputs, the intermediate values after applying the weights, as well as the sum before applying the activation function. Note what happens if we interpret the inputs and outputs as Boolean values, where –1 represents `False` and +1 represents `True`. The perceptron with these specific weights implements a `NAND` gate! Paraphrasing Nielsen, this is comforting because we know that by combining multiple `NAND` gates, we can build any logical function, but it is also kind of disappointing because we thought that neural networks were going to be something much more exciting than just Boolean logic (Nielsen, 2015).
+
+#### Perceptron Learning Algorithm
+
+<a target="_blank" href="https://colab.research.google.com/gist/sparsh-ai/2f9831067b06b1adfa49455f893b2211/perceptron-learning.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
+#### Limitation of Perceptron
+
+Perceptron can learn straight line functions (e.g. NAND) but unable to learn curved line functions (e.g. XOR). One suggested solution for this is to use multi-level perceptron, which is close to a deep neural network because of its hidden-layer approach.
 
 ## Model Deployment
 
@@ -91,15 +127,3 @@ Scikit, Tensorflow, and Pytorch are good frameworks for model building. [Teachab
 **Prototype:** ml5.js allows me to directly serve ML models on the browser.
 
 **Production:** TF.js and TFLite are my favorites for serving on the browser and on mobile respectively.
-
-## Mathematics
-
-## Labs
-
-1. [Probability Theory and the Sample Space Analysis](https://nbviewer.org/github/recohut/notebook/blob/master/_notebooks/2022-01-21-probability.ipynb)
-2. [Cool Stats Visuals](https://nbviewer.org/github/recohut/notebook/blob/master/_notebooks/2022-01-21-stat-visuals.ipynb)
-3. [Statistics and Linear Algebra for Data Science](https://nbviewer.org/github/recohut/notebook/blob/master/_notebooks/2022-01-22-statistics.ipynb)
-
-## Coding Notebooks
-
-1. https://nbviewer.org/github/adipola/ml-with-apache-spark/tree/main/notebooks/

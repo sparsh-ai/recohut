@@ -1,10 +1,9 @@
-- Getting started
+- Basic Concepts
 
-  - [Workspace Setup](01-foundations/developer/)
   - [Data Engineering](01-foundations/data-engineering/)
+  - [Data Science](10-datascience/basics/)
   - [Hadoop and Spark](01-foundations/data-engineering/spark-hadoop.md)
   - [Cloud](01-foundations/cloud/)
-  - [Data Science](10-datascience/basics/)
 
 - Programming
 
@@ -56,8 +55,8 @@
 
 - Data Modeling
 
-  - [Relational (SQL) Data Modeling](04-serving/sql/)
-  - [NoSQL Data Modeling](04-serving/nosql/)
+  - [Relational (SQL) Data Modeling](04-data-modeling/sql/)
+  - [NoSQL Data Modeling](04-data-modeling/nosql/)
 
 - Data Extraction
 
@@ -92,11 +91,14 @@
   - [Containers](07-devops/containers/)
   - [Infra as Code](07-devops/iac/)
 
-- Data Science Basics
+- Regression and Classification
 
   - [Regression](10-datascience/regression/)
-  - [Probability](10-datascience/probability/)
-  - [Statistics](10-datascience/statistics/)
+
+- Mathematics
+  - [Getting Started](mathematics/)
+  - [Probability](mathematics/probability/)
+  - [Statistics](mathematics/statistics/)
   
 - NLP
 
@@ -115,27 +117,13 @@
   - [Concepts](17-mlops/)
   - [Code Snippets](17-mlops/code-snippets.md)
 
-- Projects
+- Hands-on
 
-  - [ETL - ACLED](12-capstones/acled/)
-  - [ELT - dbt-Redshift](12-capstones/dbt-redshift/)
-  - [dbt+Airflow+GrExp](12-capstones/robust-data-pipeline/)
-  - [End-to-End AWS Pipeline](12-capstones/cloudmaze/)
-  - [Datalake Schema Correction](12-capstones/hmc/)
-  - [End-to-end Recommender System](12-capstones/recofront/)
-  - [Sparkify](12-capstones/sparkify/)
-  - [Citibike Trips](12-capstones/citibike-trip-histories/)
-  - [Climate](12-capstones/climate/)
-  - [Funflix](12-capstones/funflix/)
-  - [Kinesis Flink Beam](12-capstones/kinesis-flink-beam/)
-  - [Kinesis Flink ETL](12-capstones/kinesis-flink-etl/)
-  - [Kortex](12-capstones/kortex/)
-  - [Movie Sentiment](12-capstones/movie-sentiment/)
-  - [Reddit](12-capstones/reddit/)
-  - [Spotify](12-capstones/spotify/)
-  - [US Immigration](12-capstones/us-immigration/)
+  - [Labs](12-capstones/labs.md)
+  - [Capstones](12-capstones/README.md)
 
 - Add-ons
 
+  - [Workspace Setup](01-foundations/developer/)
   - [Interview Preparation](a1-interviewprep/)
   - [Resources](b3-misc/resources.md)

@@ -79,8 +79,8 @@ There are a seven hierarchy modeling techniques for NoSQL data:
 ## Labs
 
 1. Create a NoSQL Data Model for a Digital Music Library using Cassandra
-1. Create a NoSQL Data Model for an Email System using Cassandra [[source code](04-serving/nosql/cassandra-email-data-model/)]
-1. Create a NoSQL Data Model for Hotel Reservations using Cassandra [[source code](04-serving/nosql/cassandra-hotel-reservations/)]
-1. Create a NoSQL Data Model for Investment Accounts or Portfolios using Cassandra [[source code](04-serving/nosql/cassandra-investment-data-model/)]
-1. Create a NoSQL Data Model for Temperature Monitoring Sensor Networks using Cassandra [[source code](04-serving/nosql/cassandra-sensor-data-model/)]
-1. Create a NoSQL Data Model for Online Shopping Carts using Cassandra [[source code](04-serving/nosql/cassandra-shopping-cart-data-model/)]
+1. Create a NoSQL Data Model for an Email System using Cassandra [[source code](04-data-modeling/nosql/cassandra-email-data-model/)]
+1. Create a NoSQL Data Model for Hotel Reservations using Cassandra [[source code](04-data-modeling/nosql/cassandra-hotel-reservations/)]
+1. Create a NoSQL Data Model for Investment Accounts or Portfolios using Cassandra [[source code](04-data-modeling/nosql/cassandra-investment-data-model/)]
+1. Create a NoSQL Data Model for Temperature Monitoring Sensor Networks using Cassandra [[source code](04-data-modeling/nosql/cassandra-sensor-data-model/)]
+1. Create a NoSQL Data Model for Online Shopping Carts using Cassandra [[source code](04-data-modeling/nosql/cassandra-shopping-cart-data-model/)]

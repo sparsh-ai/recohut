@@ -1,0 +1,158 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: This template deploys the required resources for the SCD CDC.
+
+Resources:
+  GlueExecutionRole:
+    Type: "AWS::IAM::Role"
+    Properties:
+      RoleName: !Join
+        - "-"
+        - - !Sub "scd-glue-role"
+          - !Select
+            - 0
+            - !Split
+              - "-"
+              - !Select
+                - 2
+                - !Split
+                  - "/"
+                  - !Ref "AWS::StackId"
+      AssumeRolePolicyDocument:
+        Statement:
+          - Action:
+              - sts:AssumeRole
+            Effect: Allow
+            Principal:
+              Service:
+                - glue.amazonaws.com
+        Version: "2012-10-17"
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/AdministratorAccess
+      Path: /
+
+  KMSKey:
+    Type: "AWS::KMS::Key"
+    DeletionPolicy: Retain
+    Properties:
+      Description: "KMS Key for Glue"
+      Enabled: "True"
+      EnableKeyRotation: "True"
+      KeyPolicy:
+        Version: "2012-10-17"
+        Id: scd-kms-key
+        Statement:
+          - Sid: "Give AWS account:root full control over the KMS key"
+            Effect: Allow
+            Principal:
+              AWS: !Sub "arn:${AWS::Partition}:iam::${AWS::AccountId}:root"
+            Action:
+              - kms:*
+            Resource: "*"
+
+          - Sid: "Allow Glue to use the key"
+            Effect: Allow
+            Principal:
+              Service: "glue.amazonaws.com"
+            Action:
+              - "kms:Encrypt"
+              - "kms:Decrypt"
+              - "kms:ReEncrypt"
+              - "kms:GenerateDataKey*"
+              - "kms:DescribeKey"
+            Resource: "*"
+            Condition:
+              StringEquals:
+                "aws:SourceAccount": !Ref "AWS::AccountId"
+
+          - Sid: "Allow CloudWatch Logs to use the key"
+            Effect: Allow
+            Principal:
+              Service: !Sub "logs.${AWS::Region}.amazonaws.com"
+            Action:
+              - "kms:Encrypt"
+              - "kms:Decrypt"
+              - "kms:ReEncrypt"
+              - "kms:GenerateDataKey*"
+              - "kms:DescribeKey"
+            Resource: "*"
+
+  ## IAM Policies
+  KMSAccessPolicy:
+    Type: AWS::IAM::Policy
+    Properties:
+      PolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Action:
+              - kms:Decrypt
+              - kms:Encrypt
+              - kms:GenerateDataKey
+              - kms:AssociateKmsKey
+            Resource:
+              - !GetAtt KMSKey.Arn
+      Roles:
+        - !Ref GlueExecutionRole
+      PolicyName: !Join
+        - "-"
+        - - !Sub "scd--kms-access-policy-"
+          - !Select
+            - 0
+            - !Split
+              - "-"
+              - !Select
+                - 2
+                - !Split
+                  - "/"
+                  - !Ref "AWS::StackId"
+
+  DeltaLakeGlueJob:
+    Type: AWS::Glue::Job
+    Properties:
+      ExecutionProperty:
+        MaxConcurrentRuns: 1
+      NumberOfWorkers: 2
+      Name: !Sub "${AWS::StackName}-src-to-processed"
+      Timeout: 2880
+      GlueVersion: "4.0"
+      WorkerType: G.1X
+      Command:
+        ScriptLocation: s3://wysde-assets/glue/scd-deltalake-employee-etl-job.py
+        Name: glueetl
+        PythonVersion: "3"
+      Role: !Ref GlueExecutionRole
+      MaxRetries: 0
+      DefaultArguments:
+        "--enable-continuous-cloudwatch-log": True
+        "--job-language": python
+        "--enable-spark-ui": True
+        "--enable-job-insights": True
+        "--enable-glue-datacatalog": True
+        "--enable-metrics": True
+        "--job-bookmark-option": "job-bookmark-enable"
+        "--conf": "spark.sql.extensions=io.delta.sql.DeltaSparkSessionExtension  --conf spark.sql.catalog.spark_catalog=org.apache.spark.sql.delta.catalog.DeltaCatalog"
+        "--datalake-formats": "delta"
+        "--enable-s3-parquet-optimized-committer": "true"
+        "--raw_s3_path": !Sub "s3://wysde-assets/glue/dataset/employee/"
+        "--stage_s3_path": !Sub "s3://wysde-assets/glue/stage/employee/"
+        "--processed_s3_bucket_name": "wysde-assets"
+        "--processed_s3_prefix": "glue/processed/"
+        "--dbname": "default"
+        "--tblname": "deltalake_stg_emp_tbl"
+
+Outputs:
+  DeltaLakeGlueJob:
+    Value: !Ref DeltaLakeGlueJob
+    Export:
+      Name: !Join
+        - "-"
+        - - !Sub "DeltaLakeGlueJob"
+          - !Select
+            - 0
+            - !Split
+              - "-"
+              - !Select
+                - 2
+                - !Split
+                  - "/"
+                  - !Ref "AWS::StackId"

@@ -2,9 +2,9 @@
 
 ## Recohut Bootcamps
 
-> Data Science + Data Engineering Bootcamp
+> Data Science + Data Engineering
 
 - Hit the ⭐️ button if you like the repo
 
-[GitHub](https://github.com/sparsh-ai/data-science-engineering-bootcamp)
+[GitHub](https://github.com/sparsh-ai/bootcamp)
 [Getting Started](#data-science-data-engineering-bootcamp)
