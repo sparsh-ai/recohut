@@ -246,11 +246,23 @@ NOTE
 
 > While distributed file systems can be used for the storage layer, objects stores are more commonly used in lakehouses. Object stores provide low cost, highly available storage, that excel at massively parallel reads – an essential requirement for modern data warehouses.
 
-## Labs
+## Lab: Read Delta Tables stored in Amazon S3 with Python
 
-> :microscope: Lab: <a href="#/02-storage/lakehouses/lab-read-s3-delta-in-python/" target="_blank">Read Delta Tables stored in Amazon S3 with Python</a>
+[![](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/bootcamp/blob/main/02-storage/lakehouses/lab-read-s3-delta-in-python/main.ipynb)
 
-> :microscope: Lab: <a href="#/02-storage/lakehouses/lab-glue-emr-iceberg-serverless-lakehouse/" target="_blank">Build a serverless transactional data lake with Apache Iceberg, Amazon EMR Serverless, and Amazon Athena</a>
+## <a href="#/02-storage/lakehouses/lab-glue-emr-iceberg-serverless-lakehouse/" target="_blank">Lab: Build a serverless transactional data lake with Apache Iceberg, Amazon EMR Serverless, and Amazon Athena ⤻</a>
 
-> :microscope: Lab: <a href="#/02-storage/lakehouses/lab-production-cleaning-deltalake/" target="_blank">The Easy Ways to Clean Up Production Messes</a>
+## <a href="#/02-storage/lakehouses/lab-production-cleaning-deltalake/" target="_blank">Lab: The Easy Ways to Clean Up Production Messes ⤻</a>
 
+## Lab: Implement slowly changing dimensions in a data lake using AWS Glue and Delta
+
+[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sparsh-ai/bootcamp/tree/main/02-storage/lakehouses/lab-scd-glue-delta)
+
+![process-flow drawio](https://user-images.githubusercontent.com/62965911/228874138-525c0572-d3f3-4cdc-a122-4f09997d3f8d.svg)
+
+1. Upload initial JSON data into S3 Raw layer
+1. Process the data from raw JSON to Delta format using Glue ETL Job
+1. Load the processed data locally and read in pandas dataframe
+1. Change the raw json by deleting, updating and creating some records
+1. Process the data again from changed raw JSON to Delta format using Glue ETL Job
+1. Load the processed data locally and read in pandas dataframe, compare changes and run SQL queries

@@ -119,7 +119,6 @@
 
 - Hands-on
 
-  - [Labs](12-capstones/labs.md)
   - [Capstones](12-capstones/README.md)
 
 - Add-ons

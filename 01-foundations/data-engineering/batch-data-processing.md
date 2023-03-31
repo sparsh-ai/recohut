@@ -4,62 +4,56 @@ Data processing involves taking source data which has been ingested into your da
 
 ![](https://user-images.githubusercontent.com/62965911/214255202-0563b49c-1708-4dbb-ac2f-cca3843055d6.gif)
 
-### Transformation in the Warehouse using SQL
+**Few examples or situations where data transformation are used...**
 
-It’s time to transform the raw data into the end-user data model. Transformations can affect
+- Your transactional data might be stored in a NoSQL database like MongoDB, in such cases you have to convert the JSON object into relational database with rows and columns and only then you will be able to analyze the data.
+- When you want to filter only a handful of events or move some of the data into your data warehouse. For example, you may want to analyze data of only the customer who are born after 1990.
+- Anonymize sensitive information before loading it into data warehouse. For example, details like customers’ phone number and email address might have to be masked before making the data accessible to your business users.
+- Map data from different sources to a common definition. For example, assume that you have two sales information from different store locations. The first store stores the sales amount in US dollar and the other is in Euro. Transformation can help you deal with this inconsistency by standardizing the sales amount (currency) into US dollar.
 
-- Data processing time.
-- Data warehouse cost. Modern data warehouses usually charge based on the amount of data scanned.
-- Data pipeline development speed and issues.
+## Data transformation techniques
 
-#### Transformation types
+There are various techniques to do data transformation and the more complex your data is, the more techniques you would need to apply on the data. Here are the most common data transformation techniques used by data and analytics engineers:
 
-The ultimate goal for optimizing transformations is to reduce the movement of data within your data warehouse. Data warehouses are distributed systems with the data stored as chunks across the cluster. Reducing the movement of data across the machines within the distributed system significantly speeds up the processing of data.
+### Data cleansing
 
-There are two major types of transformations as explained below.
+Most of the data (raw) from source systems are dirty, incomplete and inconsistent. They may have unexpected format (such as JSON object), incorrect data types, missing values, duplicate records, repeated columns, inappropriate column names, etc. Data cleansing is the set of activities that you take to **detect the inaccurate parts** of the data and **correcting all the issues** found to arrive at a much cleaner datasets.
 
-1. Narrow transformations: These are transformations that do not involve the movement of data across machines within the warehouse. The transformations are applied to the rows without having to move these rows to other machines within the warehouse.
+![img](https://miro.medium.com/v2/resize:fit:700/1*rry1VwNSd02Jt7TxcESE_Q.png)
 
-E.g. Lower(), Concat(), etc are functions that are applied directly to the data in memory
+### Data splitting
 
-2. Wide transformations: These are transformations that involve the movement of data across machines within the warehouse.
+The objective of data splitting is to **separate data** into groups and structured format that is relevant to analyst or business user’s requirements. This may involve **filtering** out irrelevant columns and rows and also **splitting information** in a column that contains multiple categorical values.
 
-E.g. When you join 2 tables, the warehouse engine will move the smaller table’s data to the same machine(s) as the larger table’s data. This is so that these 2 tables can be joined. Moving data around is a high-cost operation in a distributed system, and as such, the warehouse engine will optimize to keep the data movement to a minimum.
+![img](https://miro.medium.com/v2/resize:fit:700/1*GmeCdRUR5RNx9nFf3Iww5A.png)
 
-When self-joining, it’s beneficial to join on the partitioned column(s) as this will keep data movement within the system to a minimum.
+### Data manipulation
 
-Some common transformations to know are
+Data manipulation is the process of modifying the existing data to make it more organized and readable for analysts and business users. Some examples of data manipulation are **sorting** the data in alphabetically for easy comprehension, **masking** confidential information such as bank account number and **grouping data into bins, interval or categories** for easier analysis.
 
-- Joins, anti joins
-- String, numeric, and date functions
-- Group by, aggregates, order by, union, having
-- CTEs
-- Window functions
-- Parsing JSON
-- Stored procedures, sub queries and functions
+![img](https://miro.medium.com/v2/resize:fit:700/1*hyLn5dsyotpLgNXP32SZZQ.png)
 
-Some points you need answered/explored are
+### Data integration
 
-1. How does transformation time increase with an increase in the data size? Is it linear or worse? Hint: A cross join will not scale linearly
-2. Read the data warehouse documentation to know what features exist. This allows you to go back to the docs in case you need to use a feature. Most transformations can be done within your data warehouse.
-3. When evaluating performance be aware of cached reads on subsequent queries.
-4. When possible, filter the data before or during the transformation query.
-5. Most SQL queries are a mix of wide and narrow transformations.
+A common task in data transformation is to **combine data from multiple sources, to create a unified view of the data**. Data integration may involve **joining** different data or tables into a single unified table and **appending** records or rows into a table.
 
-#### Query planner
+![img](https://miro.medium.com/v2/resize:fit:700/1*kEA2FB7qEqrbn6wuzzncWQ.png)
 
-The query planner lets you see what steps the warehouse engine will take to run your query. You can use the EXPLAIN command to see the query plan.
+### Data aggregation
 
-Most data warehouse documentation has steps you can take to optimize your queries. E.G. Snowflake’s common query issues, Redshift’s query plan and execution
+Data aggregation is used when there is a need for data to be summarized for statistical analysis and reporting. This technique **summarizes the measures** (metrics) of your data **against the dimensions** (categorical information) in your data using aggregation functions such as SUM, COUNT and AVERAGE (in SQL). This allows business users to compare a wide range of data points, such as how sales differs across gender and country.
 
-In short
+![img](https://miro.medium.com/v2/resize:fit:500/1*gk3lIJjsRidl5ZLpdGZu_g.png)
 
-1. Use explain to see the query plan.
-2. Optimize the steps that have the highest costs. Use available warehouse documentation for optimization help.
+### Data derivation
 
-### Most Common Data Transformations
+This technique creates a new data value from one or more contribution data values. As an example, a customer’s average spending is derived from his/her total spend divided by total transactions.
 
-#### File format optimizations
+### Data normalization
+
+This technique is used on continuous data to scale the values into a smaller range so that they can be compared with each other. There are 2 popular methods to normalize your continuous data; [Z-score normalization](https://en.wikipedia.org/wiki/Standard_score) and [Min-Max normalization](https://www.geeksforgeeks.org/data-normalization-in-data-mining/).
+
+### File format optimizations
 
 CSV, XML, JSON, and other types of plaintext files are commonly used to store structured and semi-structured data. These file formats are useful when manually exploring data, but there are much better, binary-based file formats to use for computer-based analytics. A common binary format that is optimized for read-heavy analytics is the Apache Parquet format. A common transformation is to convert plaintext files into an optimized format, such as Apache Parquet.
 
@@ -81,17 +75,17 @@ Or, if your query is for where the sales amount is above a specific value, the a
 
 Because of these performance improvements and cost savings, a very common transformation is to convert incoming files from their original format (such as CSV, JSON, XML, and so on) into the analytics-optimized Parquet format.
 
-#### Data standardization
+### Data standardization
 
 When building out a pipeline, we often load data from multiple different data sources, and each of those data sources may have different naming conventions for referring to the same item. For example, a field containing someone's birth date may be called *DOB*, *dateOfBirth*, *birth_date*, and so on. The format of the birth date may also be stored as *mm/dd/yy*, *dd/mm/yyyy*, or in a multitude of other formats.
 
 One of the tasks we may want to do when optimizing data for analytics is to standardize column names, types, and formats. By having a corporate-wide analytic program, standard definitions can be created and adopted across all analytic projects in the organization.
 
-#### Data quality checks
+### Data quality checks
 
 Another aspect of data transformation may be the process of verifying data quality and highlighting any ingested data that does not meet the expected quality standards.
 
-#### Data partitioning
+### Data partitioning
 
 Partitioning and bucketing are used to maximize benefits while minimizing adverse effects. It can reduce the overhead of shuffling, the need for serialization, and network traffic. In the end, it improves performance, cluster utilization, and cost-efficiency.
 
@@ -107,7 +101,7 @@ Partition helps in localizing data and reducing data shuffling across the networ
 - Choose the columns used frequently in filtering conditions.
 - Use at most 2 partition columns as each partition column creates a new layer of directory.
 
-##### Different methods that exist in PySpark
+#### Different methods that exist in PySpark
 
 **1. Repartitioning**
 
@@ -143,7 +137,7 @@ green_df \
     .csv("data/partitions/partitionBy.csv", header=True)
 ```
 
-##### Benefits of partitioning
+#### Benefits of partitioning
 
 Partitioning has several benefits apart from just query performance. Let's take a look at a few important ones.
 
@@ -191,7 +185,7 @@ If our data is split into multiple partitions that are stored in different mach
 
 In general, if we plan our partition strategy correctly, the returns could be significant. I hope you have now understood the benefits of partitioning data. Let's next look at some partition strategies from a storage/files perspective.
 
-##### Key Points
+#### Key Points
 
 1. Do not partition by columns with high cardinality.
 2. Partition by specific columns that are mostly used during filter and groupBy operations.
@@ -209,13 +203,12 @@ Another common approach for optimizing datasets for analytics is to **partition*
 
 For example, suppose you had sales data for the past four years from around the country, and you had columns in the dataset for **Day**, **Month** and **Year**. In this scenario, you could select to partition the data based on the **Year** column. When the data was written to storage, all the data for each of the past few years would be grouped together with the following structure:
 
+```
 datalake_bucket/year=2021/file1.parquet
-
 datalake_bucket/year=2020/file1.parquet
-
 datalake_bucket/year=2019/file1.parquet
-
 datalake_bucket/year=2018/file1.parquet
+```
 
 If you then run a SQL query and include a **WHERE Year = 2018** clause, for example, the analytics engine only needs to open up the single file in the **datalake_bucket/year=2018** folder. Because less data needs to be scanned by the query, it costs less and completes quicker.
 
@@ -231,13 +224,13 @@ This significantly reduces the amount of data to be scanned when queries are run
 
 Partitioning is an important data optimization strategy and is based on how the data is expected to be used, either for the next transformation stage or for the final analytics stage. Determining the best partitioning strategy requires that you understand how the data will be used next.
 
-#### Data denormalization
+### Data denormalization
 
 In traditional relational database systems, the data is normalized, meaning that each table contains information on a specific focused topic, and associated, or related, information is contained in a separate table. The tables can then be linked through the use of foreign keys.
 
 For data lakes, combining the data from multiple tables into a single table can often improve query performance. Data denormalization takes two (or more) tables and creates a new table with data from both tables.
 
-#### Data cataloging
+### Data cataloging
 
 Another important component that we should include in the transformation section of our pipeline architecture is the process of cataloging the dataset. During this process, we ensure all the datasets in the data lake are referenced in the data catalog and can add additional business metadata.
 
