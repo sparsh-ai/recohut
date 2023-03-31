@@ -1,5 +1,7 @@
 # PySpark
 
+## Install
+
 To get started with PySpark, you will need to have the Spark software installed on your machine. You can download the latest version of Spark from the Apache Spark website. Once you have Spark installed, you can start using it to process data.
 
 One of the most common ways to use Spark is through the PySpark library, which allows you to use Python to interact with Spark. The following code snippet shows how to create a SparkSession and read it in a CSV file:
@@ -17,11 +19,11 @@ spark = SparkSession.builder.appName("MyApp").getOrCreate()
 
 In this example, we are creating a SparkSession and setting the appName to “MyApp”. We then use the read.csv() function to read in a CSV file and store it in a DataFrame. The header and inferSchema options are set to True, which tells Spark to use the first row of the CSV file as the header and to infer the schema of the data.
 
-## DataFrames
+## Creating a DataFrame in PySpark
 
-A DataFrame is a distributed collection of data organized into named columns. It is similar to a table in a relational database or a data frame in R/Python. DataFrames are built on top of RDDs and provide a higher-level abstraction for data processing. They also support a more powerful query optimizer, known as the Catalyst Optimizer, which can greatly improve the performance of Spark queries.
+The DataFrames are a fundamental data structure in PySpark, and they provide a powerful and flexible way to work with structured and semi-structured data. A DataFrame is a distributed collection of data organized into named columns. It is similar to a table in a relational database or a data frame in R/Python. DataFrames are built on top of RDDs and provide a higher-level abstraction for data processing. They also support a more powerful query optimizer, known as the Catalyst Optimizer, which can greatly improve the performance of Spark queries.
 
-The following code snippet shows how to create a DataFrame from a CSV file:
+DataFrames can be created from a variety of data sources, including structured data files, Hive tables, external databases, and streaming data sources. The following code snippet shows how to create a DataFrame from a CSV file:
 
 ```py
 df = spark.read.csv("path/to/file.csv", header=True, inferSchema=True)
@@ -29,7 +31,7 @@ df = spark.read.csv("path/to/file.csv", header=True, inferSchema=True)
 
 Once a DataFrame has been created, it can be transformed and processed using the same functions as an RDD, as well as additional functions specific to DataFrames.
 
-## Methods
+## Methods, Operations and Functions
 
 PySpark provides a variety of methods to work with data, some of the most commonly used are:
 
@@ -42,8 +44,6 @@ PySpark provides a variety of methods to work with data, some of the most common
 - `.groupBy()`: Groups the rows of a DataFrame by a specific column
 - `.orderBy()`: Sorts the rows of a DataFrame by one or more columns
 
-## Operations
-
 PySpark also provides a variety of operations for transforming and processing data, such as:
 
 - `.map()`: Applies a function to each element of an RDD or DataFrame
@@ -52,8 +52,6 @@ PySpark also provides a variety of operations for transforming and processing da
 - `.filter()`: Filters the elements of an RDD or DataFrame based on a condition
 - `.distinct()`: Returns a new RDD or DataFrame with distinct elements
 - `.union()`: Returns a new RDD or DataFrame with elements from both the source RDD or DataFrame and another RDD or DataFrame
-
-## Functions
 
 PySpark provides a variety of built-in functions for data manipulation, such as:
 
@@ -220,6 +218,94 @@ df.count()
 ```
 
 In this example, the filter operation on the DataFrame is not executed until the count() action is called. This allows Spark to optimize the execution plan by analyzing the entire lineage of operations before executing them.
+
+## Using Filter and Where on DataFrame
+
+The `where()` and `filter()` methods are used to select rows from a DataFrame based on one or more conditions. Both methods are used to filter data based on a specified condition, and they are often used interchangeably.
+
+The `where()` method is a synonym for the `filter()` method, and they have the same syntax.
+
+## Different Types of Joins in PySpark
+
+There are several types of joins in PySpark, including inner join, outer join, left join, right join, and cross join.
+
+The most commonly used join in PySpark is the inner join, which returns only the rows that have matching keys in both DataFrames.
+
+## Using Union and Union All on DataFrames
+
+In PySpark, `union()` and `unionAll()` are methods used to combine two or more DataFrames vertically, i.e., they stack rows from one DataFrame on top of another.
+
+The main difference between the two methods is that `union()` removes duplicate rows, while `unionAll()` retains all rows.
+
+## Working with Columns Using withColumn
+
+In PySpark, `withColumn()` is a method used to add a new column to a DataFrame or replace an existing column with a modified version.
+
+The method takes two parameters: the name of the new column, and an expression that defines the values for the new column.
+
+## Where to Use withColumnRenamed
+
+In PySpark, `withColumnRenamed()` is a method used to rename a column in a DataFrame.
+
+The method takes two parameters: the current name of the column, and the new name of the column.
+
+## Aggregation and Filtering Using groupBy
+
+In PySpark, `groupBy()` is a method used to group rows of a DataFrame based on one or more columns, and apply aggregation functions on each group.
+
+This method is useful for summarizing and analyzing data based on certain criteria.
+
+## How to Clean your Data Using drop
+
+In PySpark, `drop()` is a method used to remove one or more columns from a DataFrame.
+
+The method takes one or more column names as parameters and returns a new DataFrame with the specified columns removed.
+
+## How to Pivot in PySpark
+
+In PySpark, `pivot()` is a method used to transform a DataFrame from a long format to a wide format, by rotating values from a column into separate columns.
+
+This method is useful for summarizing and analyzing data in a different format.
+
+## Eliminate Duplicate Data with distinct
+
+In PySpark, `distinct()` is a method used to return a DataFrame with distinct rows based on all columns or a subset of columns.
+
+## How to Use map and mapPartitions
+
+In PySpark, `map()` and `mapPartitions()` are methods used to transform the data in an RDD (Resilient Distributed Dataset).
+
+The `map()` method applies a function to each element of an RDD and returns a new RDD with the transformed elements.
+
+The `mapPartitions()` method applies a function to each partition of an RDD and returns a new RDD with the transformed partitions. This method is more efficient than `map()` when the function you're applying to each element of the RDD requires some setup or teardown work.
+
+## What are foreach and foreachPartition
+
+In PySpark, `foreach()` and `foreachPartition()` are methods used to perform actions on each element of an RDD.
+
+The `foreach()` method applies a function to each element of an RDD, without returning any result. It is typically used for side effects, such as writing the elements to a file or a database.
+
+The `foreachPartition()` method applies a function to each partition of an RDD, instead of each element. This method is useful when you need to perform some expensive initialization or teardown work for each partition, such as establishing a database connection or opening a file.
+
+## Understanding Data Structures Using StructType and StructField
+
+In PySpark, `StructType` and `StructField` are classes used to define the schema of a DataFrame.
+
+`StructType` is a class that represents a schema, which is a collection of `StructField` objects. A schema defines the structure of a DataFrame, including the names, data types, and nullable flags of its columns.
+
+## What are UDFs in PySpark
+
+In PySpark, `UDF` stands for User-Defined Function, which is a feature that allows users to define their own functions and apply them to Spark data frames or RDDs.
+
+UDFs are useful when you need to apply a custom transformation to your data that is not available in Spark’s built-in functions. For example, you might want to apply a complex calculation or perform a text processing task that is not covered by Spark’s standard library.
+
+## Collect vs Select in PySpark Best Practices
+
+In PySpark, `collect()` and `select()` are methods used to extract data from a DataFrame or RDD.
+
+`collect()` is a method that returns all the data from a DataFrame or RDD as a list in the driver program. This method should be used with caution because it can potentially cause the driver program to run out of memory if the data is too large.
+
+`select()` is a method that returns a new DataFrame with only the specified columns. This method is used to filter the data and reduce the amount of data that needs to be processed.
 
 ## Caching
 
@@ -484,8 +570,8 @@ Spark DataFrames were inspired by pandas, which also provides an abstraction on 
 
 It may seem easy to confuse the two at the beginning, but there are many key differences between pandas and Spark. Most importantly, pandas was not built for scale; it was built to operate on data that fits into one machine’s memory. Consequently, it does not have the distributed Spark architecture. It also does not adhere to functional programming principles: pandas DataFrames are mutable.
 
-|                           | Spark DataFrame | pandas DataFrame   |
-|---------------------------|-----------------|--------------------|
+|                                 | Spark DataFrame | pandas DataFrame   |
+| ------------------------------- | --------------- | ------------------ |
 | **Operation in parallel** | Yes             | Not out of the box |
 | **Lazy evaluation**       | Yes             | No                 |
 | **Immutable**             | Yes             | No                 |

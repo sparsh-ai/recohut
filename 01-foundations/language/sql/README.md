@@ -1204,6 +1204,15 @@ The SQL standard defines two types of triggers: row-level triggers and statement
 6. [Challenge - Yammer Advanced Analytics](01-foundations/language/sql/challenges/yammer/)
 7. [Challenge - BrainTree SQL Code Challenge](01-foundations/language/sql/challenges/braintree/)
 
+## Challenge - Employee Analytics
+
+Small dataset | 6 Questions
+
+[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sparsh-ai/bootcamp/tree/main/01-foundations/language/sql/lab-employee/main.ipynb)
+[![Google Colab](https://img.shields.io/static/v1?style=for-the-badge&message=Google+Colab&color=222222&logo=Google+Colab&logoColor=F9AB00&label=)](https://colab.research.google.com/github/sparsh-ai/bootcamp/tree/main/01-foundations/language/sql/lab-employee/main.ipynb)
+
+
+
 ## Explore Further
 
 1. [SQL Interview Questions](01-foundations/language/sql/sql-interviews-questions.md)
