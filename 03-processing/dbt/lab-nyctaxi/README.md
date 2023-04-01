@@ -10,4 +10,4 @@ dbt and Data sources with NYC Taxi Dataset
 
 ## Code
 
-[![](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/bootcamp/blob/main/03-processing/dbt/lab-nyctaxi/01-sa-dbt.ipynb)
+[![](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/de-bootcamp-2023/blob/main/03-processing/dbt/lab-nyctaxi/01-sa-dbt.ipynb)

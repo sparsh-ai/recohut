@@ -1,4 +1,4 @@
-# Data Science + Data Engineering Bootcamp
+# DE Bootcamp 2023
 
 Hit the ⭐️ button if you like the repo
 
