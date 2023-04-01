@@ -1,5 +1,9 @@
 # SQL
 
+## Concepts
+
+1. <a href="#/01-foundations/language/sql/window-functions.md" target="_blank">Window Functions ⤻</a>
+
 ## What is SQL?
 
 **Structured Query Language** (**SQL**) is the most widely used language in relational database platforms for recording, editing, re-editing, and querying operations. It is a must-have skill for data engineers. They use the querying language to perform essential tasks like modeling data, extracting performance metrics, and developing reusable data structures.
@@ -82,14 +86,10 @@ Filtering is used when you need to extract a subset of data by using a specific 
 
 Data Engineers are typically responsible for collating different data sources together and providing a cleaner source of information for the Data Scientists or Data Analysts. In order to collate data from different sources, they need a good understanding of SQL Joins and Unions.
 
-### CTEs, Sub Queries, and Window Functions
-
-As the queries become more complex, it’s not always possible to write a single query and do all the analysis. Sometimes, it’s necessary to create a temporary table and use the results in a new query to perform analysis at different levels. We can use a subquery, a CTE (Common Table Expression), or a TEMP (Temporary) table for this. As a Data Engineer, you need to understand these concepts to write better and optimized SQL queries.
-
 ### Query breakdown
 
 | Statement | How to Use It               | Other Details                                         |
-| --------- | --------------------------- | ----------------------------------------------------- |
+|-----------|-----------------------------|-------------------------------------------------------|
 | SELECT    | SELECT Col1, Col2, ...      | Provide the columns you want                          |
 | FROM      | FROM Table                  | Provide the table where the columns exist             |
 | LIMIT     | LIMIT 10                    | Limits based number of rows returned                  |
@@ -259,13 +259,13 @@ Once you know how to view some data using SELECT and FROM, the next step is filt
 
 The most basic way to filter data is using comparison operators. The easiest way to understand them is to start by looking at a list of them:
 
-| Equal to                 | `=`              |
-| ------------------------ | ------------------ |
+| Equal to                 | `=`          |
+|--------------------------|--------------|
 | Not equal to             | `<>` or `!=` |
-| Greater than             | `>`              |
-| Less than                | `<`              |
-| Greater than or equal to | `>=`             |
-| Less than or equal to    | `<=`             |
+| Greater than             | `>`          |
+| Less than                | `<`          |
+| Greater than or equal to | `>=`         |
+| Less than or equal to    | `<=`         |
 
 These comparison operators make the most sense when applied to numerical columns.
 
@@ -363,25 +363,25 @@ You can also leave comments across multiple lines using /* to begin the comment 
 
 ### SQL Aggregate Functions
 
-| Aggregate function                                               | Description                                                            |
-| ---------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| Aggregate function                                                  | Description                                                            |
+|---------------------------------------------------------------------|------------------------------------------------------------------------|
 | [AVG()](https://www.mysqltutorial.org/mysql-avg/)                   | Return the average of non-NULL values.                                 |
-| BIT_AND()                                                        | Return bitwise AND.                                                    |
-| BIT_OR()                                                         | Return bitwise OR.                                                     |
-| BIT_XOR()                                                        | Return bitwise XOR.                                                    |
+| BIT_AND()                                                           | Return bitwise AND.                                                    |
+| BIT_OR()                                                            | Return bitwise OR.                                                     |
+| BIT_XOR()                                                           | Return bitwise XOR.                                                    |
 | [COUNT()](https://www.mysqltutorial.org/mysql-count/)               | Return the number of rows in a group, including rows with NULL values. |
 | [GROUP_CONCAT()](https://www.mysqltutorial.org/mysql-group_concat/) | Return a concatenated string.                                          |
-| JSON_ARRAYAGG()                                                  | Return result set as a single JSON array.                              |
-| JSON_OBJECTAGG()                                                 | Return result set as a single JSON object.                             |
+| JSON_ARRAYAGG()                                                     | Return result set as a single JSON array.                              |
+| JSON_OBJECTAGG()                                                    | Return result set as a single JSON object.                             |
 | [MAX()](https://www.mysqltutorial.org/mysql-max-function/)          | Return the highest value (maximum) in a set of non-NULL values.        |
 | [MIN()](https://www.mysqltutorial.org/mysql-min/)                   | Return the lowest value (minimum) in a set of non-NULL values.         |
 | [STDEV()](https://www.mysqltutorial.org/mysql-standard-deviation/)  | Return the population standard deviation.                              |
-| STDDEV_POP()                                                     | Return the population standard deviation.                              |
-| STDDEV_SAMP()                                                    | Return the sample standard deviation.                                  |
+| STDDEV_POP()                                                        | Return the population standard deviation.                              |
+| STDDEV_SAMP()                                                       | Return the sample standard deviation.                                  |
 | [SUM()](https://www.mysqltutorial.org/mysql-sum/)                   | Return the summation of all non-NULL values a set.                     |
-| VAR_POP()                                                        | Return the population standard variance.                               |
-| VARP_SAM()                                                       | Return the sample variance.                                            |
-| VARIANCE()                                                       | Return the population standard variance.                               |
+| VAR_POP()                                                           | Return the population standard variance.                               |
+| VARP_SAM()                                                          | Return the sample variance.                                            |
+| VARIANCE()                                                          | Return the population standard variance.                               |
 
 SQL is excellent at aggregating data the way you might in a pivot table in Excel. You will use aggregate functions all the time, so it's important to get comfortable with them. The functions themselves are the same ones you will find in Excel or any other analytics program.
 
@@ -532,8 +532,8 @@ Assuming you've got some dates properly stored as a date or time data type, you 
 
 When you perform arithmetic on dates (such as subtracting one date from another), the results are often stored as the interval data type—a series of integers that represent a period of time.
 
-| Function                                                         | Description                                                               |
-| ---------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| Function                                                            | Description                                                               |
+|---------------------------------------------------------------------|---------------------------------------------------------------------------|
 | [CURDATE](https://www.mysqltutorial.org/mysql-curdate/)             | Returns the current date.                                                 |
 | [DATEDIFF](https://www.mysqltutorial.org/mysql-datediff.aspx)       | Calculates the number of days between two DATE values.                    |
 | [DAY](https://www.mysqltutorial.org/mysql-day/)                     | Gets the day of the month of a specified date.                            |
@@ -556,8 +556,8 @@ When you perform arithmetic on dates (such as subtracting one date from another)
 
 ### Using SQL String Functions to Clean Data
 
-| Name                                                                                                 | Description                                                                              |
-| ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| Name                                                                                                    | Description                                                                              |
+|---------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
 | [CONCAT](https://www.mysqltutorial.org/sql-concat-in-mysql.aspx)                                        | Concatenate two or more strings into a single string                                     |
 | [INSTR](https://www.mysqltutorial.org/mysql-instr/)                                                     | Return the position of the first occurrence of a substring in a string                   |
 | [LENGTH](https://www.mysqltutorial.org/mysql-string-length/)                                            | Get the length of a string in bytes and in characters                                    |
@@ -633,60 +633,6 @@ Subqueries can be used in several places within a query, but it's easiest to sta
 Subqueries are required to have names, which are added after parentheses the same way you would add an alias to a normal table.
 
 A quick note on formatting: The important thing to remember when using subqueries is to provide some way for the reader to easily determine which parts of the query will be executed together. Most people do this by indenting the subquery in some way.
-
-### Window Functions
-
-| Name                                                                                           | Description                                                                                                                                                                                                                                      |
-| ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [CUME_DIST](https://www.mysqltutorial.org/mysql-window-functions/mysql-cume_dist-function/)       | Calculates the cumulative distribution of a value in a set of values.                                                                                                                                                                            |
-| [DENSE_RANK](https://www.mysqltutorial.org/mysql-window-functions/mysql-dense_rank-function/)     | Assigns a rank to every row within its partition based on the `ORDER BY` clause. It assigns the same rank to the rows with equal values. If two or more rows have the same rank, then there will be no gaps in the sequence of ranked values. |
-| [FIRST_VALUE](https://www.mysqltutorial.org/mysql-window-functions/mysql-first_value-function/)   | Returns the value of the specified expression with respect to the first row in the window frame.                                                                                                                                                 |
-| [LAG](https://www.mysqltutorial.org/mysql-window-functions/mysql-lag-function/)                   | Returns the value of the Nth row before the current row in a partition. It returns NULL if no preceding row exists.                                                                                                                             |
-| [LAST_VALUE](https://www.mysqltutorial.org/mysql-window-functions/mysql-last_value-function/)     | Returns the value of the specified expression with respect to the last row in the window frame.                                                                                                                                                  |
-| [LEAD](https://www.mysqltutorial.org/mysql-window-functions/mysql-lead-function/)                 | Returns the value of the Nth row after the current row in a partition. It returns NULL if no subsequent row exists.                                                                                                                             |
-| [NTH_VALUE](https://www.mysqltutorial.org/mysql-window-functions/mysql-nth_value-function/)       | Returns value of argument from Nth row of the window frame                                                                                                                                                                                       |
-| [NTILE](https://www.mysqltutorial.org/mysql-window-functions/mysql-ntile-function/)               | Distributes the rows for each window partition into a specified number of ranked groups.                                                                                                                                                         |
-| [PERCENT_RANK](https://www.mysqltutorial.org/mysql-window-functions/mysql-percent_rank-function/) | Calculates the percentile rank of a row in a partition or result set                                                                                                                                                                             |
-| [RANK](https://www.mysqltutorial.org/mysql-window-functions/mysql-rank-function/)                 | Similar to the `DENSE_RANK()` function except that there are gaps in the sequence of ranked values when two or more rows have the same rank.                                                                                                  |
-| [ROW_NUMBER](https://www.mysqltutorial.org/mysql-window-functions/mysql-row_number-function/)     | Assigns a sequential integer to every row within its partition                                                                                                                                                                                   |
-
-A window function performs a calculation across a set of table rows that are somehow related to the current row. This is comparable to the type of calculation that can be done with an aggregate function. But unlike regular aggregate functions, use of a window function does not cause rows to become grouped into a single output row — the rows retain their separate identities. Behind the scenes, the window function is able to access more than just the current row of the query result.
-
-If you'd like to narrow the window from the entire dataset to individual groups within the dataset, you can use PARTITION BY to do so.
-
-Note: You can't use window functions and standard aggregations in the same query. More specifically, you can't include window functions in a GROUP BY clause.
-
-**The usual suspects: SUM, COUNT, and AVG**
-
-When using window functions, you can apply the same aggregates that you would under normal circumstances—SUM, COUNT, and AVG.
-
-**ROW_NUMBER()**
-
-ROW_NUMBER() does just what it sounds like—displays the number of a given row. It starts with 1 and numbers the rows according to the ORDER BY part of the window statement. ROW_NUMBER() does not require you to specify a variable within the parentheses.
-
-Using the PARTITION BY clause will allow you to begin counting 1 again in each partition. The following query starts the count over again for each terminal:
-
-**RANK() and DENSE_RANK()**
-
-RANK() is slightly different from ROW_NUMBER().
-
-You can also use DENSE_RANK() instead of RANK() depending on your application. Imagine a situation in which three entries have the same value. Using either command, they will all get the same rank.
-
-**NTILE**
-
-You can use window functions to identify what percentile (or quartile, or any other subdivision) a given row falls into. The syntax is NTILE(*# of buckets*). In this case, ORDER BY determines which column to use to determine the quartiles (or whatever number of 'tiles you specify). For example:
-
-**LAG and LEAD**
-
-It can often be useful to compare rows to preceding or following rows, especially if you've got the data in an order that makes sense. You can use LAG or LEAD to create columns that pull values from other rows—all you need to do is enter which column to pull from and how many rows away you'd like to do the pull. LAG pulls from previous rows and LEAD pulls from following rows.
-
-This is especially useful if you want to calculate differences between rows.
-
-**Defining a window alias**
-
-If you're planning to write several window functions in to the same query, using the same window, you can create an alias.
-
-The WINDOW clause, if included, should always come after the WHERE clause.
 
 ### CTE (Common Table Expressions)
 
@@ -1208,10 +1154,8 @@ The SQL standard defines two types of triggers: row-level triggers and statement
 
 Small dataset | 6 Questions
 
-[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sparsh-ai/bootcamp/tree/main/01-foundations/language/sql/lab-employee/main.ipynb)
-[![Google Colab](https://img.shields.io/static/v1?style=for-the-badge&message=Google+Colab&color=222222&logo=Google+Colab&logoColor=F9AB00&label=)](https://colab.research.google.com/github/sparsh-ai/bootcamp/tree/main/01-foundations/language/sql/lab-employee/main.ipynb)
-
-
+[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sparsh-ai/de-bootcamp-2023/tree/main/01-foundations/language/sql/lab-employee/main.ipynb)
+[![Google Colab](https://img.shields.io/static/v1?style=for-the-badge&message=Google+Colab&color=222222&logo=Google+Colab&logoColor=F9AB00&label=)](https://colab.research.google.com/github/sparsh-ai/de-bootcamp-2023/blob/main/tree/main/01-foundations/language/sql/lab-employee/main.ipynb)
 
 ## Explore Further
 
@@ -1224,7 +1168,6 @@ Small dataset | 6 Questions
 7. [Data Engineer Interview Questions](https://www.stratascratch.com/blog/data-engineer-interview-questions/)
 8. [10 SQL Queries You Should Know as a Data Engineer](https://knowledgetree.notion.site/10-SQL-Queries-You-Should-Know-as-a-Data-Engineer-4e157d42c4ce4ae08050e99f3b33b82b)
 9. [SQL JOIN Interview Questions](https://www.stratascratch.com/blog/sql-join-interview-questions/)
-10. [The Ultimate Guide to SQL Window Functions](https://www.stratascratch.com/blog/the-ultimate-guide-to-sql-window-functions/)
 
 ## Database Questions
 

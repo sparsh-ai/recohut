@@ -91,38 +91,27 @@
   - [Containers](07-devops/containers/)
   - [Infra as Code](07-devops/iac/)
 
-- Regression and Classification
-
-  - [Regression](10-datascience/regression/)
-
 - Mathematics
+
   - [Getting Started](mathematics/)
   - [Probability](mathematics/probability/)
   - [Statistics](mathematics/statistics/)
   
-- NLP
+- Machine Learning
 
-  - [Getting Started](10-datascience/nlp/)
-
-- Computer Vision
-
-  - [Getting Started](10-datascience/computer-vision/)
-
-- Recommender Systems
-
-  - [Getting Started](10-datascience/recsys/)
+  - [Regression](10-datascience/regression/)
+  - [NLP](10-datascience/nlp/)
+  - [Computer Vision](10-datascience/computer-vision/)
+  - [Recommender Systems](10-datascience/recsys/)
 
 - MLOps
 
   - [Concepts](17-mlops/)
   - [Code Snippets](17-mlops/code-snippets.md)
 
-- Hands-on
-
-  - [Capstones](12-capstones/README.md)
-
 - Add-ons
 
+  - [Capstones](12-capstones/README.md)
   - [Workspace Setup](01-foundations/developer/)
   - [Interview Preparation](a1-interviewprep/)
   - [Resources](b3-misc/resources.md)
