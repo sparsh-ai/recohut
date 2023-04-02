@@ -1,0 +1,7 @@
+# Azure Data Ingestion
+
+This is the process of getting all the raw data into the data lake. Data from various sources lands in the raw zone of the data lake. Based on where the data is coming from, such as on-premise systems, other cloud systems, and so on, we could use different ingestion tools. Let's look at some of the options available in Azure:
+
+- **Azure Data Factory** -- It provides data ingestion support from hundreds of data sources, and even from other clouds such as AWS, GCP, Oracle, and so on.
+- **Azure Copy** (**AzCopy**) -- This is a command-line tool that can be used to copy data over the internet and is ideally suited for smaller data sizes (preferably in the 10--15 TB range). You can learn more about AzCopy here: [https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10.](https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10%0D)
+- **Azure ExpressRoute** -- If you need a secure way to transfer data into Azure, then use ExpressRoute. It routes your data through dedicated private connections to Azure instead of the public internet. This is also the preferred option if you want to have a dedicated pipeline with a faster data transfer speed. You can learn more about Azure ExpressRoute here: [https://docs.microsoft.com/en-us/azure/expressroute/expressroute-introduction.](https://docs.microsoft.com/en-us/azure/expressroute/expressroute-introduction%0D)

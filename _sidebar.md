@@ -2,7 +2,6 @@
 
   - [Data Engineering](01-foundations/data-engineering/)
   - [Data Science](10-datascience/basics/)
-  - [Hadoop and Spark](01-foundations/data-engineering/spark-hadoop.md)
   - [Cloud](01-foundations/cloud/)
 
 - Programming

@@ -1,6 +1,6 @@
-# DE Concepts
+# Data Engineering
 
-## Data Engineering Basics
+## Fundamentals
 
 1. <a href="#/01-foundations/data-engineering/de-basics.md" target="_blank">Data Engineering Basics ⤻</a>
 1. <a href="#/01-foundations/data-engineering/data-pipelines.md" target="_blank">Data Pipelines ⤻</a>

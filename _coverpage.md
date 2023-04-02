@@ -7,4 +7,4 @@
 - Hit the ⭐️ button if you like the repo
 
 [GitHub](https://github.com/sparsh-ai/recohut-bootcamps)
-[Getting Started](#de-bootcamp-2023)
+[Getting Started](#recohut-bootcamps)
