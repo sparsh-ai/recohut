@@ -1,4 +1,7 @@
-# DE Bootcamp 2023
+# Recohut Bootcamps
+
+- [x] Data Engineering
+- [x] Data Science
 
 Hit the ⭐️ button if you like the repo
 
@@ -97,54 +100,27 @@ Hit the ⭐️ button if you like the repo
   - [Containers](07-devops/containers/)
   - [Infra as Code](07-devops/iac/)
 
-- Regression and Classification
-
-  - [Regression](10-datascience/regression/)
-
 - Mathematics
+
   - [Getting Started](mathematics/)
   - [Probability](mathematics/probability/)
   - [Statistics](mathematics/statistics/)
   
-- NLP
+- Machine Learning
 
-  - [Getting Started](10-datascience/nlp/)
-
-- Computer Vision
-
-  - [Getting Started](10-datascience/computer-vision/)
-
-- Recommender Systems
-
-  - [Getting Started](10-datascience/recsys/)
+  - [Regression](10-datascience/regression/)
+  - [NLP](10-datascience/nlp/)
+  - [Computer Vision](10-datascience/computer-vision/)
+  - [Recommender Systems](10-datascience/recsys/)
 
 - MLOps
 
   - [Concepts](17-mlops/)
   - [Code Snippets](17-mlops/code-snippets.md)
 
-- Projects
-
-  - [ETL - ACLED](12-capstones/acled/)
-  - [ELT - dbt-Redshift](12-capstones/dbt-redshift/)
-  - [dbt+Airflow+GrExp](12-capstones/robust-data-pipeline/)
-  - [End-to-End AWS Pipeline](12-capstones/cloudmaze/)
-  - [Datalake Schema Correction](12-capstones/hmc/)
-  - [End-to-end Recommender System](12-capstones/recofront/)
-  - [Sparkify](12-capstones/sparkify/)
-  - [Citibike Trips](12-capstones/citibike-trip-histories/)
-  - [Climate](12-capstones/climate/)
-  - [Funflix](12-capstones/funflix/)
-  - [Kinesis Flink Beam](12-capstones/kinesis-flink-beam/)
-  - [Kinesis Flink ETL](12-capstones/kinesis-flink-etl/)
-  - [Kortex](12-capstones/kortex/)
-  - [Movie Sentiment](12-capstones/movie-sentiment/)
-  - [Reddit](12-capstones/reddit/)
-  - [Spotify](12-capstones/spotify/)
-  - [US Immigration](12-capstones/us-immigration/)
-
 - Add-ons
 
+  - [Capstones](12-capstones/README.md)
   - [Workspace Setup](01-foundations/developer/)
   - [Interview Preparation](a1-interviewprep/)
   - [Resources](b3-misc/resources.md)

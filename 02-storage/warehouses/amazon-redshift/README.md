@@ -55,7 +55,7 @@ Boost runs the VACUUM command with additional compute resources, as they're avai
 
 ### Data Loading
 
-[![](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/de-bootcamp-2023/blob/main/02-storage/warehouses/amazon-redshift/lab-redshift-immersion/01-data-loading.ipynb)
+[![](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/recohut-bootcamps/blob/main/02-storage/warehouses/amazon-redshift/lab-redshift-immersion/01-data-loading.ipynb)
 
 1. Create 8 Tables based on TPCH data model in Redshift (DDL)
 2. Load data into these tables from S3 bucket using COPY command (DML)
@@ -63,21 +63,21 @@ Boost runs the VACUUM command with additional compute resources, as they're avai
 
 ### Data Loading using Python
 
-[![](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/de-bootcamp-2023/blob/main/02-storage/warehouses/amazon-redshift/lab-redshift-taxi.ipynb)
+[![](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/recohut-bootcamps/blob/main/02-storage/warehouses/amazon-redshift/lab-redshift-taxi.ipynb)
 
 1. Connect to Redshift and Read data using Psycopg2 library
 2. Taxi Data Process and Save to Redshift using AWS Wrangler library
 
 ### Data Loading and Analysis
 
-[![](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/de-bootcamp-2023/blob/main/02-storage/warehouses/amazon-redshift/lab-redshift-retail.ipynb)
+[![](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/recohut-bootcamps/blob/main/02-storage/warehouses/amazon-redshift/lab-redshift-retail.ipynb)
 
 1. Load csv and json data from S3 into Redshift using COPY command
 2. Running Joins and aggregation queries in Redshift
 
 ### Table Design and Query Tuning
 
-[![](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/de-bootcamp-2023/blob/main/02-storage/warehouses/amazon-redshift/lab-redshift-immersion/02-query-tuning.ipynb)
+[![](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/recohut-bootcamps/blob/main/02-storage/warehouses/amazon-redshift/lab-redshift-immersion/02-query-tuning.ipynb)
 
 1. Setting distribution and sort keys
 2. Deep copy
@@ -86,7 +86,7 @@ Boost runs the VACUUM command with additional compute resources, as they're avai
 
 ### Implement a slowly changing dimension
 
-[![](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/de-bootcamp-2023/blob/main/02-storage/warehouses/amazon-redshift/lab-redshift-scd.ipynb)
+[![](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/recohut-bootcamps/blob/main/02-storage/warehouses/amazon-redshift/lab-redshift-scd.ipynb)
 
 1. Learn how to create a type 2 dimension table by adding slowly changing tracking columns
 2. Dataset: customer table from the TPC-DS benchmark dataset
@@ -95,25 +95,25 @@ Boost runs the VACUUM command with additional compute resources, as they're avai
 
 ### Ongoing Load - ELT
 
-[![](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/de-bootcamp-2023/blob/main/02-storage/warehouses/amazon-redshift/lab-redshift-immersion/03-ongoing-load-elt.ipynb)
+[![](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/recohut-bootcamps/blob/main/02-storage/warehouses/amazon-redshift/lab-redshift-immersion/03-ongoing-load-elt.ipynb)
 
 This lab demonstrates how you can modernize your ongoing data loads using `Stored Procedures`, `Materialized Views` and `Pre-defined Functions` to transform data within Redshift.
 
 ### Query Data Lake - Redshift Spectrum
 
-[![](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/de-bootcamp-2023/blob/main/02-storage/warehouses/amazon-redshift/lab-redshift-immersion/04-query-data-lake-spectrum.ipynb)
+[![](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/recohut-bootcamps/blob/main/02-storage/warehouses/amazon-redshift/lab-redshift-immersion/04-query-data-lake-spectrum.ipynb)
 
 In this lab, we show you how to query data in your Amazon S3 data lake with Amazon Redshift without loading or moving data. We will also demonstrate how you can leverage views which union data in Redshift Managed storage with data in S3. You can query structured and semi-structured data from files in Amazon S3 without having to copy or move data into Amazon Redshift tables.
 
 ### Spectrum Query Tuning
 
-[![](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/de-bootcamp-2023/blob/main/02-storage/warehouses/amazon-redshift/lab-redshift-immersion/05-spectrum-query-tuning.ipynb)
+[![](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/recohut-bootcamps/blob/main/02-storage/warehouses/amazon-redshift/lab-redshift-immersion/05-spectrum-query-tuning.ipynb)
 
 In this lab, we show you how to diagnose your Redshift Spectrum query performance and optimize performance by leveraging partitions, optimizing storage, and predicate pushdown.
 
 ### Slowly Changing Dimension
 
-[![](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/de-bootcamp-2023/blob/main/02-storage/warehouses/amazon-redshift/lab-redshift-scd-2/main.ipynb)
+[![](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/recohut-bootcamps/blob/main/02-storage/warehouses/amazon-redshift/lab-redshift-scd-2/main.ipynb)
 
 Data loading into a SCD table involves a first-time bulk data loading, referred to as the _initial data load_. This is followed by continuous or regular data loading, referred to as an _incremental data load_, to keep the records up to date with changes in the source tables.
 

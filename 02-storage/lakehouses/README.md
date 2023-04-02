@@ -248,7 +248,7 @@ NOTE
 
 ## Lab: Read Delta Tables stored in Amazon S3 with Python
 
-[![](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/de-bootcamp-2023/blob/main/02-storage/lakehouses/lab-read-s3-delta-in-python/main.ipynb)
+[![](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/recohut-bootcamps/blob/main/02-storage/lakehouses/lab-read-s3-delta-in-python/main.ipynb)
 
 ## <a href="#/02-storage/lakehouses/lab-glue-emr-iceberg-serverless-lakehouse/" target="_blank">Lab: Build a serverless transactional data lake with Apache Iceberg, Amazon EMR Serverless, and Amazon Athena ⤻</a>
 
@@ -256,7 +256,7 @@ NOTE
 
 ## Lab: Implement slowly changing dimensions in a data lake using AWS Glue and Delta
 
-[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sparsh-ai/de-bootcamp-2023/tree/main/02-storage/lakehouses/lab-scd-glue-delta)
+[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sparsh-ai/recohut-bootcamps/tree/main/02-storage/lakehouses/lab-scd-glue-delta)
 
 ![process-flow drawio](https://user-images.githubusercontent.com/62965911/228874138-525c0572-d3f3-4cdc-a122-4f09997d3f8d.svg)
 
