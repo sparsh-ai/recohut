@@ -51,7 +51,7 @@ The last of Ray’s high-level libraries we’ll discuss specializes in model se
 
 ### :microscope: Lab: Ray AIR Basics
 
-[![](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/de-bootcamp-2023/blob/main/03-processing/ray/lab-ray-air-basics.ipynb)
+[![](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/recohut-bootcamps/blob/main/03-processing/ray/lab-ray-air-basics.ipynb)
 
 In this lab, we are learning all 4 high-level APIs of Ray AIR with some examples.
 
@@ -74,7 +74,7 @@ In this lab, we are learning all 4 high-level APIs of Ray AIR with some examples
 
 ### :microscope: Lab: Ray Core Basics
 
-[![](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/de-bootcamp-2023/blob/main/03-processing/ray/lab-ray-api-basics.ipynb)
+[![](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/recohut-bootcamps/blob/main/03-processing/ray/lab-ray-api-basics.ipynb)
 
 - Recipe 1: Your first Ray API example
 - Recipe 2: Running A MapReduce Example
