@@ -1,8 +1,7 @@
 - Basic Concepts
 
-  - [Data Engineering](01-foundations/data-engineering/)
-  - [Data Science](10-datascience/basics/)
-  - [Hadoop and Spark](01-foundations/data-engineering/spark-hadoop.md)
+  - [Data Engineering](01-foundations/basics/)
+  - [Data Science](01-foundations/basics/)
   - [Cloud](01-foundations/cloud/)
 
 - Programming
@@ -29,7 +28,7 @@
 
 - Batch Data Processing
 
-  - [Getting Started](01-foundations/data-engineering/batch-data-processing.md)
+  - [Getting Started](01-foundations/basics/batch-data-processing.md)
   - [Databricks](03-processing/databricks/)
   - [AWS EMR](03-processing/aws-emr/)
   - [AWS Glue Studio](03-processing/aws-glue/)
@@ -44,7 +43,7 @@
 
 - Stream and Unified Data Processing
 
-  - [Getting Started](01-foundations/data-engineering/stream-data-processing.md)
+  - [Getting Started](01-foundations/basics/stream-data-processing.md)
   - [Druid](03-processing/druid/)
   - [Flink](03-processing/flink/)
   - [Beam](03-processing/beam/)

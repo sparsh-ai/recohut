@@ -26,7 +26,7 @@
 
 ### Data Engineering Foundations
 
-* [ ] Data Engineering Must-to-know concepts [[link to note](01-foundations/data-engineering/README.md)]
+* [ ] Data Engineering Must-to-know concepts [[link to note](01-foundations/basics/README.md)]
   * [ ] What is Data Engineering?
   * [ ] Role of Data Engineering in Organizations
   * [ ] Skills required to become a Data Engineer
@@ -34,7 +34,7 @@
   * [ ] What is data lake and data warehouse?
   * [ ] What is medallion architecture?
   * [ ] What is EL, ETL and ELT?
-* [ ] Data Engineering most common interview questions [[link to note](01-foundations/data-engineering/README.md)]
+* [ ] Data Engineering most common interview questions [[link to note](01-foundations/basics/README.md)]
 
 ### AWS Cloud Essentials
 

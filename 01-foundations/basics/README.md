@@ -1,27 +1,46 @@
-# DE Concepts
+# Data Engineering
 
-## Data Engineering Basics
+## Fundamentals
 
-1. <a href="#/01-foundations/data-engineering/de-basics.md" target="_blank">Data Engineering Basics ⤻</a>
-1. <a href="#/01-foundations/data-engineering/data-pipelines.md" target="_blank">Data Pipelines ⤻</a>
-1. <a href="#/01-foundations/data-engineering/oltp-vs-olap.md" target="_blank">OLTP vs OLAP ⤻</a>
-1. <a href="#/01-foundations/data-engineering/data-storages.md" target="_blank">Data Storages ⤻</a>
-1. <a href="#/01-foundations/data-engineering/sql-vs-nosql.md" target="_blank">SQL vs NoSQL ⤻</a>
-1. <a href="#/01-foundations/data-engineering/big-data.md" target="_blank">Big Data ⤻</a>
-1. <a href="#/01-foundations/data-engineering/batch-vs-incremental.md" target="_blank">Batch vs Incremental Data Processing ⤻</a>
-1. <a href="#/01-foundations/data-engineering/data-contract.md" target="_blank">Data Contract ⤻</a>
-1. <a href="#/01-foundations/data-engineering/data-management.md" target="_blank">Data Management ⤻</a>
-1. <a href="#/01-foundations/data-engineering/data-quality.md" target="_blank">Data Quality ⤻</a>
+1. <a href="#/01-foundations/basics/de-basics.md" target="_blank">Data Engineering Basics ⤻</a>
+1. <a href="#/01-foundations/basics/data-pipelines.md" target="_blank">Data Pipelines ⤻</a>
+1. <a href="#/01-foundations/basics/oltp-vs-olap.md" target="_blank">OLTP vs OLAP ⤻</a>
+1. <a href="#/01-foundations/basics/data-storages.md" target="_blank">Data Storages ⤻</a>
+1. <a href="#/01-foundations/basics/sql-vs-nosql.md" target="_blank">SQL vs NoSQL ⤻</a>
+1. <a href="#/01-foundations/basics/big-data.md" target="_blank">Big Data ⤻</a>
+1. <a href="#/01-foundations/basics/batch-vs-incremental.md" target="_blank">Batch vs Incremental Data Processing ⤻</a>
+1. <a href="#/01-foundations/basics/data-contract.md" target="_blank">Data Contract ⤻</a>
+1. <a href="#/01-foundations/basics/data-management.md" target="_blank">Data Management ⤻</a>
+1. <a href="#/01-foundations/basics/data-quality.md" target="_blank">Data Quality ⤻</a>
 
 ## Spark and Hadoop
 
-1. <a href="#/01-foundations/data-engineering/spark-basics.md" target="_blank">Apache Spark Basics ⤻</a>
-1. <a href="#/01-foundations/data-engineering/spark-origin.md" target="_blank">Origin of Spark ⤻</a>
-1. <a href="#/01-foundations/data-engineering/hadoop-basics.md" target="_blank">Hadoop Basics ⤻</a>
-1. <a href="#/01-foundations/data-engineering/map-reduce.md" target="_blank">Map Reduce ⤻</a>
-1. <a href="#/01-foundations/data-engineering/hadoop-vs-spark.md" target="_blank">Hadoop vs Spark ⤻</a>
-1. <a href="#/01-foundations/data-engineering/spark-dag.md" target="_blank">Interpreting a Spark DAG ⤻</a>
-1. <a href="#/01-foundations/data-engineering/rdd.md" target="_blank">Spark RDDs ⤻</a>
+1. <a href="#/01-foundations/basics/spark-basics.md" target="_blank">Apache Spark Basics ⤻</a>
+1. <a href="#/01-foundations/basics/spark-origin.md" target="_blank">Origin of Spark ⤻</a>
+1. <a href="#/01-foundations/basics/hadoop-basics.md" target="_blank">Hadoop Basics ⤻</a>
+1. <a href="#/01-foundations/basics/map-reduce.md" target="_blank">Map Reduce ⤻</a>
+1. <a href="#/01-foundations/basics/hadoop-vs-spark.md" target="_blank">Hadoop vs Spark ⤻</a>
+1. <a href="#/01-foundations/basics/spark-dag.md" target="_blank">Interpreting a Spark DAG ⤻</a>
+1. <a href="#/01-foundations/basics/rdd.md" target="_blank">Spark RDDs ⤻</a>
+
+## Data Science
+
+Data science is used in a variety of ways. Some data scientists focus on the analytics side of things, pulling out hidden patterns and insights from data, then communicating these results with visualizations and statistics. Others work on creating predictive models in order to predict future events, such as predicting whether someone will put solar panels on their house. Yet others work on models for classification; for example, classifying the make and model of a car in an image. One thing ties all applications of data science together: the data. Anywhere you have enough data, you can use data science to accomplish things that seem like magic to the casual observer.
+
+1. <a href="#/01-foundations/basics/use-cases.md" target="_blank">Use Cases ⤻</a>
+1. <a href="#/01-foundations/basics/origin.md" target="_blank">The data science origin story ⤻</a>
+1. <a href="#/01-foundations/basics/perceptron.md" target="_blank">The Rosenblatt Perceptron ⤻</a>
+1. <a href="#/01-foundations/basics/deployment.md" target="_blank">Model Deployment ⤻</a>
+
+### Data, analytics and AI maturity curve
+
+![](https://user-images.githubusercontent.com/62965911/229352743-e6fb3c2d-cea8-4677-a008-7af76352ee6b.png)
+
+![](https://user-images.githubusercontent.com/62965911/229352823-fc3addd1-b492-463a-ad26-96888af2ce16.png)
+
+## Deep Learning
+
+![pg3_Image_3](https://user-images.githubusercontent.com/62965911/228470889-e20467b0-d506-473d-99eb-c6c7898b90ee.jpeg)
 
 ## Quizzes
 
