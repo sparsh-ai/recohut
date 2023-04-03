@@ -1,4 +1,4 @@
-# Recohut Bootcamps
+# Recohut
 
 - [x] Data Engineering
 - [x] Data Science
