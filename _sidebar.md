@@ -101,6 +101,7 @@
   - [NLP](10-datascience/nlp/)
   - [Computer Vision](10-datascience/computer-vision/)
   - [Recommender Systems](10-datascience/recsys/)
+  - [Challenges](10-datascience/challenges/)
 
 - MLOps
 
