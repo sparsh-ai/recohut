@@ -1,0 +1,37 @@
+digraph Tree {
+node [shape=box, style="filled", color="black"] ;
+graph [ranksep=equally, splines=polyline] ;
+0 [label="Desktop <= 0.5\ngini = 0.01\nsamples = 100.0%\nvalue = [0.995, 0.005]\nclass = NotConvert", fillcolor="#e58139fe"] ;
+1 [label="weekday_Monday <= 0.5\ngini = 0.02\nsamples = 33.4%\nvalue = [0.99, 0.01]\nclass = NotConvert", fillcolor="#e58139fc"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="Male <= 0.5\ngini = 0.019\nsamples = 28.6%\nvalue = [0.99, 0.01]\nclass = NotConvert", fillcolor="#e58139fd"] ;
+1 -> 2 ;
+3 [label="gini = 0.021\nsamples = 14.3%\nvalue = [0.989, 0.011]\nclass = NotConvert", fillcolor="#e58139fc"] ;
+2 -> 3 ;
+4 [label="gini = 0.016\nsamples = 14.3%\nvalue = [0.992, 0.008]\nclass = NotConvert", fillcolor="#e58139fd"] ;
+2 -> 4 ;
+5 [label="Female <= 0.5\ngini = 0.025\nsamples = 4.8%\nvalue = [0.987, 0.013]\nclass = NotConvert", fillcolor="#e58139fc"] ;
+1 -> 5 ;
+6 [label="gini = 0.025\nsamples = 2.4%\nvalue = [0.987, 0.013]\nclass = NotConvert", fillcolor="#e58139fc"] ;
+5 -> 6 ;
+7 [label="gini = 0.025\nsamples = 2.4%\nvalue = [0.987, 0.013]\nclass = NotConvert", fillcolor="#e58139fc"] ;
+5 -> 7 ;
+8 [label="weekday_Wednesday <= 0.5\ngini = 0.005\nsamples = 66.6%\nvalue = [0.998, 0.002]\nclass = NotConvert", fillcolor="#e58139fe"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="weekday_Sunday <= 0.5\ngini = 0.005\nsamples = 57.2%\nvalue = [0.997, 0.003]\nclass = NotConvert", fillcolor="#e58139fe"] ;
+8 -> 9 ;
+10 [label="gini = 0.005\nsamples = 47.7%\nvalue = [0.997, 0.003]\nclass = NotConvert", fillcolor="#e58139fe"] ;
+9 -> 10 ;
+11 [label="gini = 0.004\nsamples = 9.5%\nvalue = [0.998, 0.002]\nclass = NotConvert", fillcolor="#e58139fe"] ;
+9 -> 11 ;
+12 [label="Male <= 0.5\ngini = 0.004\nsamples = 9.4%\nvalue = [0.998, 0.002]\nclass = NotConvert", fillcolor="#e58139ff"] ;
+8 -> 12 ;
+13 [label="gini = 0.002\nsamples = 4.7%\nvalue = [0.999, 0.001]\nclass = NotConvert", fillcolor="#e58139ff"] ;
+12 -> 13 ;
+14 [label="gini = 0.005\nsamples = 4.8%\nvalue = [0.997, 0.003]\nclass = NotConvert", fillcolor="#e58139fe"] ;
+12 -> 14 ;
+{rank=same ; 0} ;
+{rank=same ; 1; 8} ;
+{rank=same ; 2; 5; 9; 12} ;
+{rank=same ; 3; 4; 6; 7; 10; 11; 13; 14} ;
+}

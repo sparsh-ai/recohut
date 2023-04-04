@@ -1,0 +1,1 @@
+wget -q --show-progress https://github.com/sparsh-ai/assets/releases/download/data-v1/city_search.json
