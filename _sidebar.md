@@ -1,7 +1,6 @@
-- Basic Concepts
+- Getting Started
 
-  - [Data Engineering](01-foundations/basics/)
-  - [Data Science](01-foundations/basics/)
+  - [Basic Concepts](01-foundations/basics/)
   - [Cloud](01-foundations/cloud/)
 
 - Programming
@@ -102,6 +101,7 @@
   - [NLP](10-datascience/nlp/)
   - [Computer Vision](10-datascience/computer-vision/)
   - [Recommender Systems](10-datascience/recsys/)
+  - [Challenges](10-datascience/challenges/)
 
 - MLOps
 
@@ -113,4 +113,5 @@
   - [Capstones](12-capstones/README.md)
   - [Workspace Setup](01-foundations/developer/)
   - [Interview Preparation](a1-interviewprep/)
+  - [Extras](b3-misc/extras.md)
   - [Resources](b3-misc/resources.md)
