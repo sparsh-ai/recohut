@@ -79,7 +79,7 @@
 
 ### Programming - SQL
 
-* [ ] Ingest data from CSV file into MySQL database table [[source code](02-storage/databases/mysql/lab-data-ingestion-to-mysql)]
+* [ ] Ingest data from CSV file into MySQL database table [[source code](02-storage/mysql/lab-data-ingestion-to-mysql)]
 * [ ] SQL Basics to Advanced Primer [[source code](01-foundations/language/sql/mode)]
   * [ ] SQL Basics - Select, Limit, Where, Comparison and Logical operators, Order by
   * [ ] SQL Intermediate - Aggregations, Group by, Case statements, Joins
@@ -124,7 +124,7 @@
 
 ### Data Lakes and Lakehouses
 
-* [ ] Building a data lake for a healthcare company with AWS, S3 and Athena [[source code](02-storage/datalakes/lab-datalake-healthcare-s3-glue-athena)]
+* [ ] Building a data lake for a healthcare company with AWS, S3 and Athena [[source code](02-storage/lab-datalake-healthcare-s3-glue-athena)]
 * [ ] Working with AWS S3 and Delta lake in Databricks
 
 ### Big Data Processing

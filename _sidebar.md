@@ -1,29 +1,18 @@
-- Getting Started
-
-  - [Basic Concepts](01-foundations/basics/)
-  - [Cloud](01-foundations/cloud/)
-
-- Programming
-
-  - [SQL](01-foundations/language/sql/)
-  - [Python](01-foundations/language/python/)
-  - [PySpark](01-foundations/language/pyspark/)
-  - [Scala](01-foundations/language/scala/)
-
 - Data Storage
 
   - [Flat Files](02-storage/flat-files/)
-  - [Relational Databases](02-storage/databases/)
-  - [NoSQL Databases](02-storage/nosql-databases/)
-  - [Data Lakes](02-storage/datalakes/)
-  - [Data Lakehouses](02-storage/lakehouses/)
+  - [Relational Databases](02-storage/)
+  - [NoSQL Databases](02-storage/)
+  - [Data Lakes](02-storage/)
+  - [Data Lakehouses](02-storage/)
+  - [Data Meshes](02-storage/)
 
 - Data Warehouses
 
-  - [Getting Started](02-storage/warehouses/)
-  - [Snowflake](02-storage/warehouses/snowflake/)
-  - [Amazon Redshift](02-storage/warehouses/amazon-redshift/)
-  - [Google BigQuery](02-storage/warehouses/bigquery/)
+  - [Getting Started](02-storage/)
+  - [Snowflake](02-storage/)
+  - [Amazon Redshift](02-storage/)
+  - [Google BigQuery](02-storage/)
 
 - Batch Data Processing
 

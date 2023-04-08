@@ -64,7 +64,7 @@
 
 ### Programming - SQL
 
-* [ ] Ingest data from CSV file into MySQL database table [[source code](../02-storage/databases/mysql/lab-data-ingestion-to-mysql)]
+* [ ] Ingest data from CSV file into MySQL database table [[source code](../02-storage/mysql/lab-data-ingestion-to-mysql)]
 * [ ] SQL Basics - Select, Limit, Where, Comparison and Logical operators, Order by
 * [ ] SQL Intermediate - Aggregations, Group by, Case statements, Joins
 * [ ] SQL Advanced - Dates, Text, Subqueries, Window functions, Optimizations
@@ -107,7 +107,7 @@
 
 ### Data Lakes and Lakehouses
 
-* [ ] Building a data lake for a healthcare company with AWS, S3 and Athena [[source code](../02-storage/datalakes/lab-datalake-healthcare-s3-glue-athena)]
+* [ ] Building a data lake for a healthcare company with AWS, S3 and Athena [[source code](../02-storage/lab-datalake-healthcare-s3-glue-athena)]
 * [ ] Working with AWS S3 and Delta lake in Databricks
 
 ### Big Data Processing
@@ -134,8 +134,8 @@
 ### Language - SQL
 
 * [ ] Postgres SQL basics to advanced [[source code](../01-foundations/language/sql/lab-postgres-queries)]
-* [ ] Running Dates, String and Advanced queries in Postgres on Sales data [[source code](../02-storage/databases/postgres/lab-postgres-sales)]
-* [ ] Working with Book dataset on SQLite database [[source code](../02-storage/databases/sqlite/lab-sqlite-basics)]
+* [ ] Running Dates, String and Advanced queries in Postgres on Sales data [[source code](../02-storage/postgres/lab-postgres-sales)]
+* [ ] Working with Book dataset on SQLite database [[source code](../02-storage/sqlite/lab-sqlite-basics)]
 
 ### Storage Layer - Flat Files
 
@@ -144,51 +144,51 @@
 
 ### Storage Layer - Databases
 
-* [ ] Configuring and Securing Azure SQL Database - This lab covers configuring a Serverless SQL database, Hyperscale SQL database, and securing Azure SQL Database using virtual networks and private links. Recipe 1 - Provisioning and connecting to an Azure SQL database using PowerShell. Recipe 2 - Implementing an Azure SQL Database elastic pool using PowerShell [[source code](../02-storage/databases/azure-sql/lab-securing-azure-sql-databases)]
-* [ ] Load CSV data from on-premise to GCP CloudSQL [[source code](../02-storage/databases/cloudsql/lab-gcp-cloudsql-nyctaxi)]
-* [ ] db2 BookShop and PetSale Data Ingestion and Stored Procedure [[source code](../02-storage/databases/db2/lab-dbt-bookshop-petsale-data-ingestion)]
-* [ ] OLAP Analytics on bank, TPCH and NYC Taxi datasets using DuckDB [[source code](../02-storage/databases/duckdb/lab-analytics-bank-tpch-nyctaxi)]
-* [ ] Getting started with Postgres and Python [[source code](../02-storage/databases/postgres/lab-postgres-getting-started)]
-* [ ] Use bash shell commands to extract, transform and load data into Postgres [[source code](../02-storage/databases/postgres/lab-bash-etl)]
-* [ ] Extract and load food data into Postgres using Python [[source code](../02-storage/databases/postgres/lab-extract-and-load-food-data)]
-* [ ] Build a database for crime reports in Postgres [[source code](../02-storage/databases/postgres/lab-postgres-crime-reports)]
+* [ ] Configuring and Securing Azure SQL Database - This lab covers configuring a Serverless SQL database, Hyperscale SQL database, and securing Azure SQL Database using virtual networks and private links. Recipe 1 - Provisioning and connecting to an Azure SQL database using PowerShell. Recipe 2 - Implementing an Azure SQL Database elastic pool using PowerShell [[source code](../02-storage/azure-sql/lab-securing-azure-sql-databases)]
+* [ ] Load CSV data from on-premise to GCP CloudSQL [[source code](../02-storage/cloudsql/lab-gcp-cloudsql-nyctaxi)]
+* [ ] db2 BookShop and PetSale Data Ingestion and Stored Procedure [[source code](../02-storage/db2/lab-dbt-bookshop-petsale-data-ingestion)]
+* [ ] OLAP Analytics on bank, TPCH and NYC Taxi datasets using DuckDB [[source code](../02-storage/duckdb/lab-analytics-bank-tpch-nyctaxi)]
+* [ ] Getting started with Postgres and Python [[source code](../02-storage/postgres/lab-postgres-getting-started)]
+* [ ] Use bash shell commands to extract, transform and load data into Postgres [[source code](../02-storage/postgres/lab-bash-etl)]
+* [ ] Extract and load food data into Postgres using Python [[source code](../02-storage/postgres/lab-extract-and-load-food-data)]
+* [ ] Build a database for crime reports in Postgres [[source code](../02-storage/postgres/lab-postgres-crime-reports)]
 
 ### Storage Layer - NoSQL Databases
 
-* [ ] Streaming Data Processing - Streaming Data Pipelines into GCP Bigtable [[source code](../02-storage/nosql-databases/bigtable/lab-gcp-streaming-bigtable)]
-* [ ] Fundamentals of Apache Cassandra  [[link to note](../02-storage/nosql-databases/cassandra/README.md)]
-* [ ] Setup Cassandra in local system [[source code](../02-storage/nosql-databases/cassandra/lab-getting-started-with-cassandra)]
-* [ ] Getting started with Cassandra [[source code](../02-storage/nosql-databases/cassandra/lab-getting-started-with-cassandra)]
-* [ ] Cassandra on Cloud with Amazon Keyspaces [[source code](../02-storage/nosql-databases/cassandra/lab-amazon-keyspaces)]
-* [ ] Fundamentals of DynamoDB [[link to note](../02-storage/nosql-databases/dynamodb/README.md)]
-* [ ] Getting started with MongoDB [[source code](../02-storage/nosql-databases/mongodb/lab-mongodb-basics)]
+* [ ] Streaming Data Processing - Streaming Data Pipelines into GCP Bigtable [[source code](../02-storage/bigtable/lab-gcp-streaming-bigtable)]
+* [ ] Fundamentals of Apache Cassandra  [[link to note](../02-storage/cassandra/README.md)]
+* [ ] Setup Cassandra in local system [[source code](../02-storage/cassandra/lab-getting-started-with-cassandra)]
+* [ ] Getting started with Cassandra [[source code](../02-storage/cassandra/lab-getting-started-with-cassandra)]
+* [ ] Cassandra on Cloud with Amazon Keyspaces [[source code](../02-storage/cassandra/lab-amazon-keyspaces)]
+* [ ] Fundamentals of DynamoDB [[link to note](../02-storage/dynamodb/README.md)]
+* [ ] Getting started with MongoDB [[source code](../02-storage/mongodb/lab-mongodb-basics)]
 
 ### Storage Layer - Data Warehouses
 
-* [ ] Amazon Athena Basics [[link to note](../02-storage/warehouses/athena/README.md)]
-* [ ] Building Federated Query System using Amazon Athena [[source code](../02-storage/warehouses/athena/project-athena-federated)]
-* [ ] GCP BigQuery Basics [[link to note](../02-storage/warehouses/bigquery/README.md)]
-* [ ] Using BigQuery to do analysis [[source code](../02-storage/warehouses/bigquery/lab-bigquery-analysis)]
-* [ ] Bigquery basics command line operations [[source code](../02-storage/warehouses/bigquery/lab-bigquery-commandline)]
-* [ ] Creating a Data Warehouse Through Joins and Unions [[source code](../02-storage/warehouses/bigquery/lab-bigquery-data-warehousing)]
-* [ ] Build and Optimize Data Warehouses with BigQuery [[source code](../02-storage/warehouses/bigquery/lab-bigquery-optimization)]
-* [ ] Optimizing your BigQuery Queries for Performance [[source code](../02-storage/warehouses/bigquery/lab-bigquery-query-optimization)]
-* [ ] Building a BigQuery Data Warehouse [[source code](../02-storage/warehouses/bigquery/lab-biqeury-building-warehouse)]
-* [ ] Predict Visitor Purchases with a Classification Model in BigQuery ML [[source code](../02-storage/warehouses/bigquery/lab-gcp-bigquery-ml)]
-* [ ] NYC Cab Prediction Model in BigQuery ML [[source code](../02-storage/warehouses/bigquery/lab-gcp-bigquery-nyctaxi)]
-* [ ] Copy data from S3 into Amazon Redshift [[source code](../02-storage/warehouses/redshift/lab-copy-from-s3)]
-* [ ] Create, Train and Deploy Multi Layer Perceptron (MLP) models using Amazon Redshift ML [[source code](../02-storage/warehouses/redshift/lab-redshift-ml)]
-* [ ] Connect and Query Redshift with Python [[source code](../02-storage/warehouses/redshift/lab-redshift-python)]
-* [ ] Implement a slowly changing dimension in Amazon Redshift [[source code](../02-storage/warehouses/redshift/lab-redshift-scd)]
-* [ ] Load NYC Taxi csv data into Redshift using Python AWS Data Wrangler [[source code](../02-storage/warehouses/redshift/lab-redshift-taxi)]
-* [ ] Advanced Data Analytics on TPCH Sales data in Redshift [[source code](../02-storage/warehouses/redshift/project-redshift-sales)]
+* [ ] Amazon Athena Basics [[link to note](../02-storage/README.md)]
+* [ ] Building Federated Query System using Amazon Athena [[source code](../02-storage/project-athena-federated)]
+* [ ] GCP BigQuery Basics [[link to note](../02-storage/README.md)]
+* [ ] Using BigQuery to do analysis [[source code](../02-storage/lab-bigquery-analysis)]
+* [ ] Bigquery basics command line operations [[source code](../02-storage/lab-bigquery-commandline)]
+* [ ] Creating a Data Warehouse Through Joins and Unions [[source code](../02-storage/lab-bigquery-data-warehousing)]
+* [ ] Build and Optimize Data Warehouses with BigQuery [[source code](../02-storage/lab-bigquery-optimization)]
+* [ ] Optimizing your BigQuery Queries for Performance [[source code](../02-storage/lab-bigquery-query-optimization)]
+* [ ] Building a BigQuery Data Warehouse [[source code](../02-storage/lab-biqeury-building-warehouse)]
+* [ ] Predict Visitor Purchases with a Classification Model in BigQuery ML [[source code](../02-storage/lab-gcp-bigquery-ml)]
+* [ ] NYC Cab Prediction Model in BigQuery ML [[source code](../02-storage/lab-gcp-bigquery-nyctaxi)]
+* [ ] Copy data from S3 into Amazon Redshift [[source code](../02-storage//lab-copy-from-s3)]
+* [ ] Create, Train and Deploy Multi Layer Perceptron (MLP) models using Amazon Redshift ML [[source code](../02-storage//lab-redshift-ml)]
+* [ ] Connect and Query Redshift with Python [[source code](../02-storage//lab-redshift-python)]
+* [ ] Implement a slowly changing dimension in Amazon Redshift [[source code](../02-storage//lab-redshift-scd)]
+* [ ] Load NYC Taxi csv data into Redshift using Python AWS Data Wrangler [[source code](../02-storage//lab-redshift-taxi)]
+* [ ] Advanced Data Analytics on TPCH Sales data in Redshift [[source code](../02-storage//project-redshift-sales)]
 
 ### Storage Layer - Data Lakes and Lakehouses
 
-* [ ] Working with S3 using Boto3 in Python [[source code](../02-storage/datalakes/lab-s3-boto3)]
-* [ ] Creating and Managing Data in Azure Data Lake [[source code](../02-storage/datalakes/lab-adl-create-manage-data)]
-* [ ] Securing and Monitoring Data in Azure Data Lake [[source code](../02-storage/datalakes/lab-adl-securing-monitoring-lakes)]
-* [ ] Introduction to Data Lakehouses - Delta, Iceberg and Hudi [[link to note](../02-storage/lakehouses/README.md)]
+* [ ] Working with S3 using Boto3 in Python [[source code](../02-storage/lab-s3-boto3)]
+* [ ] Creating and Managing Data in Azure Data Lake [[source code](../02-storage/lab-adl-create-manage-data)]
+* [ ] Securing and Monitoring Data in Azure Data Lake [[source code](../02-storage/lab-adl-securing-monitoring-lakes)]
+* [ ] Introduction to Data Lakehouses - Delta, Iceberg and Hudi [[link to note](../02-storage/README.md)]
 
 ### Serving Layer - SQL Data Modeling
 
@@ -208,7 +208,7 @@
 
 ### Serving Layer - NoSQL Data Modeling
 
-* [ ] Create a NoSQL Data Model for a Digital Music Library using Cassandra [[source code](../02-storage/datalakes/lab-adl-securing-monitoring-lakes)]
+* [ ] Create a NoSQL Data Model for a Digital Music Library using Cassandra [[source code](../02-storage/lab-adl-securing-monitoring-lakes)]
 * [ ] Create a NoSQL Data Model for an Email System using Cassandra [[source code](../04-data-modeling/cassandra-email-data-model)]
 * [ ] Create a NoSQL Data Model for Hotel Reservations using Cassandra [[source code](../04-data-modeling/cassandra-hotel-reservations)]
 * [ ] Create a NoSQL Data Model for Investment Accounts or Portfolios using Cassandra [[source code](../04-data-modeling/cassandra-investment-data-model)]
@@ -305,7 +305,7 @@
 
 ### Workflow Orchestration
 
-* [ ] Copying BigQuery Tables Across Different Locations using Cloud Composer [[source code](../02-storage/warehouses/bigquery/lab-gcp-bigquery-composer)]
+* [ ] Copying BigQuery Tables Across Different Locations using Cloud Composer [[source code](../02-storage/lab-gcp-bigquery-composer)]
 * [ ] Bike Sharing Service Data Pipeline using Cloud Composer [[source code](../06-orchestration/airflow/lab-bike-sharing-service-pipeline)]
 * [ ] Forex ETL with Airflow [[source code](../06-orchestration/airflow/lab-forex-etl)]
 * [ ] Building an Airflow ETL pipeline to pull NFT data from Github and store in SQLite database [[source code](../06-orchestration/airflow/github-nft)]

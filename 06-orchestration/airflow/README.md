@@ -235,7 +235,7 @@ Although this cron-based representation may seem a bit convoluted, it provides u
 Airflow also provides support for several macros that represent shorthand for commonly used scheduling intervals:
 
 | @once    | Schedule once and only once.                                |
-| -------- | ----------------------------------------------------------- |
+|----------|-------------------------------------------------------------|
 | @hourly  | Run once an hour at the beginning of the hour.              |
 | @daily   | Run once a day at midnight.                                 |
 | @weekly  | Run once a week at midnight on Sunday morning.              |
@@ -562,7 +562,7 @@ docker:
    3. Building a BASH commands execution pipeline in Airflow
    4. Building a CSV to JSON pipeline in Airflow
 2. [Integrate email notifications in Airflow with AWS SNS/SES service](06-orchestration/airflow/lab-airflow-email-notifications/)
-3. [Copying BigQuery Tables Across Different Locations using Cloud Composer](02-storage/warehouses/lab-gcp-bigquery-composer/)
+3. [Copying BigQuery Tables Across Different Locations using Cloud Composer](02-storage/lab-gcp-bigquery-composer/)
 4. [Bike Sharing Service Data Pipeline using Cloud Composer](06-orchestration/airflow/lab-bike-sharing-service-pipeline/)
 5. [Forex ETL with Airflow](06-orchestration/airflow/lab-forex-etl/)
 6. [Building an Airflow ETL pipeline to pull NFT data from Github and store in SQLite database](06-orchestration/airflow/github-nft/)

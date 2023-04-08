@@ -1,4 +1,4 @@
-# Data Engineering Basics
+# Data Engineering Getting Started Guide
 
 ## What is Data Engineering?
 
