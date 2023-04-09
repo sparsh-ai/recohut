@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/cloudmaze/README",
+  "id": "capstones/cloudmaze/README",
+  "title": "Building End to end data pipeline in AWS",
+  "description": "Architecture Diagram",
+  "source": "@site/docs/12-capstones/cloudmaze/README.md",
+  "sourceDirName": "12-capstones/cloudmaze",
+  "slug": "/capstones/cloudmaze/",
+  "permalink": "/docs/capstones/cloudmaze/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Global Historical Climatology Network Daily Data Pipeline",
+    "permalink": "/docs/capstones/climate/"
+  },
+  "next": {
+    "title": "README",
+    "permalink": "/docs/capstones/dbt-redshift/"
+  }
+}

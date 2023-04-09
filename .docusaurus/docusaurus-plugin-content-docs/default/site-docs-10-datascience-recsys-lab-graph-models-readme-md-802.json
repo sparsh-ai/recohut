@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/recsys/lab-graph-models/README",
+  "id": "datascience/recsys/lab-graph-models/README",
+  "title": "Graph RecSys Models",
+  "description": "General",
+  "source": "@site/docs/10-datascience/recsys/lab-graph-models/README.md",
+  "sourceDirName": "10-datascience/recsys/lab-graph-models",
+  "slug": "/datascience/recsys/lab-graph-models/",
+  "permalink": "/docs/datascience/recsys/lab-graph-models/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Amazon Personalize",
+    "permalink": "/docs/datascience/recsys/amazon-personalize"
+  },
+  "next": {
+    "title": "Neural Matrix Factorization from scratch in PyTorch",
+    "permalink": "/docs/datascience/recsys/lab-movielens-nmf-pytorch/"
+  }
+}

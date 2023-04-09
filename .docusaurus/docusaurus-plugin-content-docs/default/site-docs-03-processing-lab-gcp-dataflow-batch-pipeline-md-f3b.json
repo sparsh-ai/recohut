@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/lab-gcp-dataflow-batch-pipeline",
+  "id": "processing/lab-gcp-dataflow-batch-pipeline",
+  "title": "GCP Dataflow Batch Pipeline",
+  "description": "Objective: Serverless Data Processing with Dataflow - Batch Analytics Pipelines with Cloud Dataflow (Python)",
+  "source": "@site/docs/03-processing/lab-gcp-dataflow-batch-pipeline.md",
+  "sourceDirName": "03-processing",
+  "slug": "/processing/lab-gcp-dataflow-batch-pipeline",
+  "permalink": "/docs/processing/lab-gcp-dataflow-batch-pipeline",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "MapReduce in Beam using Python",
+    "permalink": "/docs/processing/lab-gcp-beam-mapreduce/"
+  },
+  "next": {
+    "title": "GCP Dataflow Pipeline - A Simple Dataflow Pipeline (Python)",
+    "permalink": "/docs/processing/lab-gcp-dataflow-pipeline"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/lab-adl-securing-monitoring-lakes/README",
+  "id": "storage/lab-adl-securing-monitoring-lakes/README",
+  "title": "Azure Data Lake - Securing and Monitoring",
+  "description": "Data Lake forms the key storage layer for data engineering pipelines. Security and the monitoring of Data Lake accounts are key aspects of Data Lake maintenance. This lab will focus on configuring security controls such as firewalls, encryption, and creating private links to a Data Lake account. By the end of this lab, you will have learned how to configure a firewall, virtual network, and private link to secure the Data Lake, encrypt Data Lake using Azure Key Vault, and monitor key user actions in Data Lake.",
+  "source": "@site/docs/02-storage/lab-adl-securing-monitoring-lakes/README.md",
+  "sourceDirName": "02-storage/lab-adl-securing-monitoring-lakes",
+  "slug": "/storage/lab-adl-securing-monitoring-lakes/",
+  "permalink": "/docs/storage/lab-adl-securing-monitoring-lakes/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "JSON and JSONL",
+    "permalink": "/docs/storage/json"
+  },
+  "next": {
+    "title": "Amazon Keyspaces",
+    "permalink": "/docs/storage/lab-amazon-keyspaces/"
+  }
+}

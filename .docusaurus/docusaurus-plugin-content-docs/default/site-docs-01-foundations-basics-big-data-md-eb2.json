@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/basics/big-data",
+  "id": "foundations/basics/big-data",
+  "title": "Big Data",
+  "description": "Six Vs of big data",
+  "source": "@site/docs/01-foundations/basics/big-data.md",
+  "sourceDirName": "01-foundations/basics",
+  "slug": "/foundations/basics/big-data",
+  "permalink": "/docs/foundations/basics/big-data",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Batch vs Incremental Data Processing",
+    "permalink": "/docs/foundations/basics/batch-vs-incremental"
+  },
+  "next": {
+    "title": "Data Contract",
+    "permalink": "/docs/foundations/basics/data-contract"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/challenges/funnel-analysis/README",
+  "id": "datascience/challenges/funnel-analysis/README",
+  "title": "README",
+  "description": "https://github.com/araj2/Funnel-Analysis/tree/master",
+  "source": "@site/docs/10-datascience/challenges/funnel-analysis/README.md",
+  "sourceDirName": "10-datascience/challenges/funnel-analysis",
+  "slug": "/datascience/challenges/funnel-analysis/",
+  "permalink": "/docs/datascience/challenges/funnel-analysis/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Fraud Detection",
+    "permalink": "/docs/datascience/challenges/fraud-activity/"
+  },
+  "next": {
+    "title": "README",
+    "permalink": "/docs/datascience/challenges/loan-grant/"
+  }
+}

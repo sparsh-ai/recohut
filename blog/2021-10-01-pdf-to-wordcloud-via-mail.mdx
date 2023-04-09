@@ -1,0 +1,28 @@
+---
+title: PDF to Wordcloud via Mail
+authors: sparsh
+---
+
+![/img/content-blog-raw-blog-pdf-to-wordcloud-via-mail-untitled.png](/img/content-blog-raw-blog-pdf-to-wordcloud-via-mail-untitled.png)
+
+## Objective
+
+Integrating PDF, Text, Wordcloud and Email functionalities in Python
+
+## Process Flow
+
+- Step 1 - I use PyPDF2 library to read PDF text in Python
+- Step 2 - Import the supporting libraries
+- Step 3 - Count No. of Pages for this pdf and extract text for each page using loop
+- Step 4 - Build Text corpus by simply attaching text of next page to all the previous ones
+- Step 5 - Creating word frequency dataframe by first splitting text into words and counting the frequency of each word
+- Step 6.1 - Pre-process text i.e. removing stopwords (using nltk library), grouping common words.
+- Step 6.2 - used regex to extract alphabets only, lower all chracters, and sorting as per decreasing order of frequency.
+- Step 7 - Creating Wordcloud using matplotlib and wordcloud libraries
+- Step 8 - Importing required libraries like smtplib, MIME, win32 for sending the mail
+- Step 9 - Create outlook mail object with supporting data like filepath attachment, recepient address, mail body etc.
+- Step 10 - Sending the mail with required wordcloud image file attached and checking if mail is received or not!
+
+## Code
+
+[Notebook on nbviewer](https://nbviewer.jupyter.org/gist/sparsh-ai/f1de48fd4fac199bcc95e1d136fbdfd0)

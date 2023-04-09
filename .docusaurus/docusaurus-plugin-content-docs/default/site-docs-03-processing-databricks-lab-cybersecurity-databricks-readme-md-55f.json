@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/databricks/lab-cybersecurity-databricks/README",
+  "id": "processing/databricks/lab-cybersecurity-databricks/README",
+  "title": "Cybersecurity Databricks",
+  "description": "Objective",
+  "source": "@site/docs/03-processing/databricks/lab-cybersecurity-databricks/README.md",
+  "sourceDirName": "03-processing/databricks/lab-cybersecurity-databricks",
+  "slug": "/processing/databricks/lab-cybersecurity-databricks/",
+  "permalink": "/docs/processing/databricks/lab-cybersecurity-databricks/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Boston Crime Analysis",
+    "permalink": "/docs/processing/databricks/boston-crime-analysis/"
+  },
+  "next": {
+    "title": "Databricks AWS Integration and Clickstream Analysis",
+    "permalink": "/docs/processing/databricks/lab-databricks-clickstream/"
+  }
+}

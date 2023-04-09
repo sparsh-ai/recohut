@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/azure-synapse-analytics",
+  "id": "processing/azure-synapse-analytics",
+  "title": "Azure Synapse Analytics",
+  "description": "Azure Synapse Analytics workspaces generation 2, formally released in December 2020, is the industry-leading big data solution for processing and consolidating data of business value. Azure Synapse Analytics has three important components:",
+  "source": "@site/docs/03-processing/azure-synapse-analytics.md",
+  "sourceDirName": "03-processing",
+  "slug": "/processing/azure-synapse-analytics",
+  "permalink": "/docs/processing/azure-synapse-analytics",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "AWS Lambda",
+    "permalink": "/docs/processing/aws-lambda"
+  },
+  "next": {
+    "title": "Databricks",
+    "permalink": "/docs/processing/databricks/"
+  }
+}

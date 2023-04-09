@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/nlp/lab-pdf-wordcloud-mail/README",
+  "id": "datascience/nlp/lab-pdf-wordcloud-mail/README",
+  "title": "PDF to Wordcloud via Email",
+  "description": "Receive a pdf via outlook mail and send back the wordcloud of that pdf in the reply",
+  "source": "@site/docs/10-datascience/nlp/lab-pdf-wordcloud-mail/README.md",
+  "sourceDirName": "10-datascience/nlp/lab-pdf-wordcloud-mail",
+  "slug": "/datascience/nlp/lab-pdf-wordcloud-mail/",
+  "permalink": "/docs/datascience/nlp/lab-pdf-wordcloud-mail/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Lab 162 - Word2vec",
+    "permalink": "/docs/datascience/nlp/word2vec"
+  },
+  "next": {
+    "title": "Text Analysis",
+    "permalink": "/docs/datascience/nlp/text-analysis"
+  }
+}

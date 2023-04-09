@@ -1,0 +1,22 @@
+{
+  "unversionedId": "curriculum/archived/de-1",
+  "id": "curriculum/archived/de-1",
+  "title": "Curriculum",
+  "description": "| S. No. | Module Name                                       | No. of Hrs | Tools                                                    |",
+  "source": "@site/docs/00-curriculum/archived/de-1.md",
+  "sourceDirName": "00-curriculum/archived",
+  "slug": "/curriculum/archived/de-1",
+  "permalink": "/docs/curriculum/archived/de-1",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Curriculum",
+    "permalink": "/docs/curriculum/archived/de-2"
+  }
+}

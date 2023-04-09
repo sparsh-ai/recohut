@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/lab-gcp-serverless-dataflow",
+  "id": "processing/lab-gcp-serverless-dataflow",
+  "title": "GCP Serverless Dataflow",
+  "description": "Objective",
+  "source": "@site/docs/03-processing/lab-gcp-serverless-dataflow.md",
+  "sourceDirName": "03-processing",
+  "slug": "/processing/lab-gcp-serverless-dataflow",
+  "permalink": "/docs/processing/lab-gcp-serverless-dataflow",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Streaming Data Processing - Publish Streaming Data into PubSub",
+    "permalink": "/docs/processing/lab-gcp-pubsub"
+  },
+  "next": {
+    "title": "Apache Beam Getting Started",
+    "permalink": "/docs/processing/lab-getting-started-with-beam/"
+  }
+}

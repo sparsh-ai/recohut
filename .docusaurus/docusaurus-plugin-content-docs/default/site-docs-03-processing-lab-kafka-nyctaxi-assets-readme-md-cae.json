@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/lab-kafka-nyctaxi/assets/README",
+  "id": "processing/lab-kafka-nyctaxi/assets/README",
+  "title": "Kafka with Docker Compose",
+  "description": "- zookeeper: a centralized service for maintaining configuration info. Kafka uses it for maintaining metadata knowledge such as topic partitions, etc. Zookeeper is being phased out as a dependency, but for easier deployment we will use it in the lesson.",
+  "source": "@site/docs/03-processing/lab-kafka-nyctaxi/assets/README.md",
+  "sourceDirName": "03-processing/lab-kafka-nyctaxi/assets",
+  "slug": "/processing/lab-kafka-nyctaxi/assets/",
+  "permalink": "/docs/processing/lab-kafka-nyctaxi/assets/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Kafka Streams for NYC Taxi data",
+    "permalink": "/docs/processing/lab-kafka-nyctaxi/"
+  },
+  "next": {
+    "title": "Getting started with Kafka and Python",
+    "permalink": "/docs/processing/lab-kafka-python/"
+  }
+}

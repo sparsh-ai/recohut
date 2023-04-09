@@ -1,0 +1,26 @@
+{
+  "unversionedId": "mlops/code-snippets",
+  "id": "mlops/code-snippets",
+  "title": "MLOps Code Snippets",
+  "description": "1. Dask-ML-Parallelize model training:",
+  "source": "@site/docs/17-mlops/code-snippets.md",
+  "sourceDirName": "17-mlops",
+  "slug": "/mlops/code-snippets",
+  "permalink": "/docs/mlops/code-snippets",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "MLOps",
+    "permalink": "/docs/mlops/"
+  },
+  "next": {
+    "title": "Experiments Tracking, Model Management, and Dataset Versioning",
+    "permalink": "/docs/mlops/ml-lab-tracking/"
+  }
+}

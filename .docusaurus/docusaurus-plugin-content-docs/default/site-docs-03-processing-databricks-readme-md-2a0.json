@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/databricks/README",
+  "id": "processing/databricks/README",
+  "title": "Databricks",
+  "description": "Databricks is a platform that enables enterprises to quickly build their Data Lakehouse infrastructure and enable all data personas – data engineers, data scientists, and business intelligence personnel – in their organization to extract and deliver insights from the data. The platform provides a curated experience for each data persona, enabling them to execute their daily workflows. The foundational technologies that enable these experiences are open source – Apache Spark, Delta lake, MLflow, and more.",
+  "source": "@site/docs/03-processing/databricks/README.md",
+  "sourceDirName": "03-processing/databricks",
+  "slug": "/processing/databricks/",
+  "permalink": "/docs/processing/databricks/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Azure Synapse Analytics",
+    "permalink": "/docs/processing/azure-synapse-analytics"
+  },
+  "next": {
+    "title": "Boston Crime Analysis",
+    "permalink": "/docs/processing/databricks/boston-crime-analysis/"
+  }
+}

@@ -1,0 +1,46 @@
+---
+title: Semantic Similarity
+authors: sparsh
+tags: [nlp, similarity]
+---
+
+![/img/content-blog-raw-blog-semantic-similarity-untitled.png](/img/content-blog-raw-blog-semantic-similarity-untitled.png)
+
+# Introduction
+
+Deliverable - Two paragraph-level distance outputs for L and Q, each has 35 columns. 
+
+For each paragraph, we need to calculate the L1 distance of consecutive sentences in this paragraph, and then generate the mean and standard deviation of all these distances for this paragraph. For example, say the paragraph 1 starts from sentence1 and ends with sentence 5. First, calculate the L1 distances for L1(1,2), L1(2,3), L1(3,4) and L1(4,5) and then calculate the mean and standard deviation of the 4 distances. In the end we got two measures for this paragraph: L1_m and L1_std. Similarly, we need to calculate the mean and standard deviation using L2 distance, plus a simple mean and deviation of the distances. We use 6 different embeddings: all dimensions of BERT embeddings, 100,200 and 300 dimensions of PCA Bert embeddings (PCA is a dimension reduction technique 
+
+In the end, we will have 35 columns for each paragraph : Paragraph ID +#sentences in the paragraph +(cosine_m, cosine_std,cossimillarity_m, cosimmilarity_std, L1_m, L1_std, L2_m, L2_std ) – by- ( all, 100, 200, 300)= 3+8*4. 
+
+Note: for paragraph that only has 1 sentence, the std measures are empty.
+
+# Modeling Approach
+
+### Process Flow for Use Case 1
+
+1. Splitting paragraphs into sentences using 1) NLTK Sentence Tokenizer, 2) Spacy Sentence Tokenizer and, on two additional symbols `:` and `...`
+2. Text Preprocessing: Lowercasing, Removing Non-alphanumeric characters, Removing Null records, Removing sentence records (rows) having less than 3 words.
+3. TF-IDF vectorization
+4. LSA over document-term matrix
+5. Cosine distance calculation of adjacent sentences (rows)
+
+### Process Flow for Use Case 2
+
+- Split paragraphs into sentences
+- Text cleaning
+- BERT Sentence Encoding
+- BERT PCA 100
+- BERT PCA 200
+- BERT PCA 300
+- Calculate distance between consecutive sentences in the paragraph
+- Distances: L1, L2 and Cosine and Cosine similarity
+- Statistics: Mean, SD
+
+# Experimental Setup
+
+1. #IncrementalPCA
+2. GPU to speed up
+3. Data chunking
+4. Calculate BERT for a chunk and store in disk

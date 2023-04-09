@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/lab-aws-rds-service/README",
+  "id": "storage/lab-aws-rds-service/README",
+  "title": "Lab: AWS RDS Service",
+  "description": "1. Create database in RDS DBMS and generate credentials",
+  "source": "@site/docs/02-storage/lab-aws-rds-service/README.md",
+  "sourceDirName": "02-storage/lab-aws-rds-service",
+  "slug": "/storage/lab-aws-rds-service/",
+  "permalink": "/docs/storage/lab-aws-rds-service/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Amazon Keyspaces",
+    "permalink": "/docs/storage/lab-amazon-keyspaces/"
+  },
+  "next": {
+    "title": "Configuring and Securing Azure SQL Database",
+    "permalink": "/docs/storage/lab-azure-sql-securing-databases/"
+  }
+}

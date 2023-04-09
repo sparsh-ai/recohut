@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/cloud-essentials/azure-fullstack-solutions",
+  "id": "foundations/cloud-essentials/azure-fullstack-solutions",
+  "title": "Azure Full-stack Solutions",
+  "description": "Modern Azure Data Architecture Platform",
+  "source": "@site/docs/01-foundations/03-cloud-essentials/azure-fullstack-solutions.md",
+  "sourceDirName": "01-foundations/03-cloud-essentials",
+  "slug": "/foundations/cloud-essentials/azure-fullstack-solutions",
+  "permalink": "/docs/foundations/cloud-essentials/azure-fullstack-solutions",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Azure Data Ingestion",
+    "permalink": "/docs/foundations/cloud-essentials/azure-data-ingestion"
+  },
+  "next": {
+    "title": "Cloud Computing Basics",
+    "permalink": "/docs/foundations/cloud-essentials/cloud-basics"
+  }
+}

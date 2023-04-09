@@ -1,0 +1,26 @@
+{
+  "unversionedId": "mlops/ml-lab-tracking/README",
+  "id": "mlops/ml-lab-tracking/README",
+  "title": "Experiments Tracking, Model Management, and Dataset Versioning",
+  "description": "Training DL models is an iterative process that consumes a lot of time and resources. Therefore, keeping track of all experiments and consistently organizing them can prevent us from wasting our time on unnecessary operations such as training similar models repeatedly on the same set of data. In other words, having well-documented records of all model architectures and their hyperparameter sets, as well as the version of data used during experiments, can help us derive the right conclusion from the experiments, which naturally leads to the project being successful.",
+  "source": "@site/docs/17-mlops/ml-lab-tracking/README.md",
+  "sourceDirName": "17-mlops/ml-lab-tracking",
+  "slug": "/mlops/ml-lab-tracking/",
+  "permalink": "/docs/mlops/ml-lab-tracking/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "MLOps Code Snippets",
+    "permalink": "/docs/mlops/code-snippets"
+  },
+  "next": {
+    "title": "MLflow",
+    "permalink": "/docs/mlops/mlflow/"
+  }
+}

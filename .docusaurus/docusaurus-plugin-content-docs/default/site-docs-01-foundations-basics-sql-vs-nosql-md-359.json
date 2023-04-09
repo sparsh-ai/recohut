@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/basics/sql-vs-nosql",
+  "id": "foundations/basics/sql-vs-nosql",
+  "title": "SQL vs NoSQL",
+  "description": "As you design large systems ( or even smaller ones), you need to decide the inflow-processing and outflow of data coming- and getting processed in the system.",
+  "source": "@site/docs/01-foundations/basics/sql-vs-nosql.md",
+  "sourceDirName": "01-foundations/basics",
+  "slug": "/foundations/basics/sql-vs-nosql",
+  "permalink": "/docs/foundations/basics/sql-vs-nosql",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Spark Quiz",
+    "permalink": "/docs/foundations/basics/spark-quiz"
+  },
+  "next": {
+    "title": "Real-Time Analytics",
+    "permalink": "/docs/foundations/basics/stream-data-processing"
+  }
+}

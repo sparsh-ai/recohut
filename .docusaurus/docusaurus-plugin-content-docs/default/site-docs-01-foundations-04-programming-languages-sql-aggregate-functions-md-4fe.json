@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/programming-languages/sql/aggregate-functions",
+  "id": "foundations/programming-languages/sql/aggregate-functions",
+  "title": "SQL Aggregate Functions",
+  "description": "| Aggregate function                                                  | Description                                                            |",
+  "source": "@site/docs/01-foundations/04-programming-languages/sql/aggregate-functions.md",
+  "sourceDirName": "01-foundations/04-programming-languages/sql",
+  "slug": "/foundations/programming-languages/sql/aggregate-functions",
+  "permalink": "/docs/foundations/programming-languages/sql/aggregate-functions",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Getting Started with Scala",
+    "permalink": "/docs/foundations/programming-languages/scala/lab-scala-getting-started/"
+  },
+  "next": {
+    "title": "SQL AND",
+    "permalink": "/docs/foundations/programming-languages/sql/and"
+  }
+}

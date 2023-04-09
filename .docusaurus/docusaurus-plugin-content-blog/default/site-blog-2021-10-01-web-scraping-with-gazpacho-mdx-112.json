@@ -1,0 +1,41 @@
+{
+  "permalink": "/blog/2021/10/01/web-scraping-with-gazpacho",
+  "source": "@site/blog/2021-10-01-web-scraping-with-gazpacho.mdx",
+  "title": "Web Scraping with Gazpacho",
+  "description": "Using gazpacho to Download and Parse the Contents of a Website. Scrape the names of the three \"Gorgons\".",
+  "date": "2021-10-01T00:00:00.000Z",
+  "formattedDate": "October 1, 2021",
+  "tags": [
+    {
+      "label": "scraping",
+      "permalink": "/blog/tags/scraping"
+    }
+  ],
+  "readingTime": 0.52,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Sparsh Agarwal",
+      "title": "Data Scientist & Engineer",
+      "url": "https://github.com/sparsh-ai",
+      "email": "sprsag@gmail.com",
+      "imageURL": "https://github.com/sparsh-ai.png",
+      "key": "sparsh"
+    }
+  ],
+  "frontMatter": {
+    "title": "Web Scraping with Gazpacho",
+    "authors": "sparsh",
+    "tags": [
+      "scraping"
+    ]
+  },
+  "prevItem": {
+    "title": "Web Scraping using Scrapy, BS4, and Selenium",
+    "permalink": "/blog/2021/10/01/web-scraping-using-scrapy-bs4-and-selenium"
+  },
+  "nextItem": {
+    "title": "Wellness tracker chatbot",
+    "permalink": "/blog/2021/10/01/wellness-tracker-chatbot"
+  }
+}

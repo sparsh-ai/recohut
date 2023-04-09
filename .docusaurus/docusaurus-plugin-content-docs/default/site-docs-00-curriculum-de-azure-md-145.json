@@ -1,0 +1,26 @@
+{
+  "unversionedId": "curriculum/de-azure",
+  "id": "curriculum/de-azure",
+  "title": "Curriculum - Data Engineering Training (Azure)",
+  "description": "Estimated Time: 55 hours",
+  "source": "@site/docs/00-curriculum/de-azure.md",
+  "sourceDirName": "00-curriculum",
+  "slug": "/curriculum/de-azure",
+  "permalink": "/docs/curriculum/de-azure",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Curriculum - Data Engineering Training (Azure)",
+    "permalink": "/docs/curriculum/de-azure-outline"
+  },
+  "next": {
+    "title": "Curriculum - Data Engineering Training",
+    "permalink": "/docs/curriculum/de-dev"
+  }
+}

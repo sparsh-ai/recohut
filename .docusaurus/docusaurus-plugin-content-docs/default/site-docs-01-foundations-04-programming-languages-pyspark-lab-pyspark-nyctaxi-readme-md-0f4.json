@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/programming-languages/pyspark/lab-pyspark-nyctaxi/README",
+  "id": "foundations/programming-languages/pyspark/lab-pyspark-nyctaxi/README",
+  "title": "Pyspark NYC Taxi",
+  "description": "",
+  "source": "@site/docs/01-foundations/04-programming-languages/pyspark/lab-pyspark-nyctaxi/README.md",
+  "sourceDirName": "01-foundations/04-programming-languages/pyspark/lab-pyspark-nyctaxi",
+  "slug": "/foundations/programming-languages/pyspark/lab-pyspark-nyctaxi/",
+  "permalink": "/docs/foundations/programming-languages/pyspark/lab-pyspark-nyctaxi/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Pyspark Basics",
+    "permalink": "/docs/foundations/programming-languages/pyspark/lab-pyspark-basics/"
+  },
+  "next": {
+    "title": "Spark Optimizations for Analytics Workloads",
+    "permalink": "/docs/foundations/programming-languages/pyspark/lab-spark-optimizations/"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/parquet-vs-csv",
+  "id": "storage/parquet-vs-csv",
+  "title": "Parquet vs CSV",
+  "description": "While CSV is simple and the most widely used data format (Excel, Google Sheets), there are several distinct advantages for Parquet, including:",
+  "source": "@site/docs/02-storage/parquet-vs-csv.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/parquet-vs-csv",
+  "permalink": "/docs/storage/parquet-vs-csv",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ORC",
+    "permalink": "/docs/storage/orc"
+  },
+  "next": {
+    "title": "Parquet",
+    "permalink": "/docs/storage/parquet"
+  }
+}

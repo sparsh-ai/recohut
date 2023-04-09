@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/other/star-jeans-etl/README",
+  "id": "capstones/other/star-jeans-etl/README",
+  "title": "ETL Building for an E-commerce Jeans Company",
+  "description": "Obs: The company and business problem are both fictitious, although the data is real.",
+  "source": "@site/docs/12-capstones/other/star-jeans-etl/README.md",
+  "sourceDirName": "12-capstones/other/star-jeans-etl",
+  "slug": "/capstones/other/star-jeans-etl/",
+  "permalink": "/docs/capstones/other/star-jeans-etl/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data Engineering Take Home - ETL off a SQS Qeueue",
+    "permalink": "/docs/capstones/other/sqs-postgres-etl/"
+  },
+  "next": {
+    "title": "NYC Taxi Fare Prediction",
+    "permalink": "/docs/capstones/other/taxi-fare-prediction/"
+  }
+}

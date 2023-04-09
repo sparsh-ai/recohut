@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/language/pyspark/cheat-sheet",
+  "id": "foundations/language/pyspark/cheat-sheet",
+  "title": "cheat-sheet",
+  "description": "PySpark Cheat Sheet",
+  "source": "@site/docs/01-foundations/language/pyspark/cheat-sheet.md",
+  "sourceDirName": "01-foundations/language/pyspark",
+  "slug": "/foundations/language/pyspark/cheat-sheet",
+  "permalink": "/docs/foundations/language/pyspark/cheat-sheet",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Caching",
+    "permalink": "/docs/foundations/language/pyspark/caching"
+  },
+  "next": {
+    "title": "PySpark DataFrame",
+    "permalink": "/docs/foundations/language/pyspark/dataframe"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "orchestration/airflow/README",
+  "id": "orchestration/airflow/README",
+  "title": "Airflow",
+  "description": "Apache Airflow is an open source tool for programmatically authoring, scheduling, and monitoring data pipelines. It has over 9 million downloads per month and an active OSS community. Airflow allows data practitioners to define their data pipelines as Python code in a highly extensible and infinitely scalable way.",
+  "source": "@site/docs/06-orchestration/airflow/README.md",
+  "sourceDirName": "06-orchestration/airflow",
+  "slug": "/orchestration/airflow/",
+  "permalink": "/docs/orchestration/airflow/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Orchestration",
+    "permalink": "/docs/orchestration/"
+  },
+  "next": {
+    "title": "Github NFT Pipeline",
+    "permalink": "/docs/orchestration/airflow/github-nft/"
+  }
+}

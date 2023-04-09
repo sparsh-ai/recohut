@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/other/covid19-datalake/README",
+  "id": "capstones/other/covid19-datalake/README",
+  "title": "Covid-19 Data Pipeline",
+  "description": "Objective",
+  "source": "@site/docs/12-capstones/other/covid19-datalake/README.md",
+  "sourceDirName": "12-capstones/other/covid19-datalake",
+  "slug": "/capstones/other/covid19-datalake/",
+  "permalink": "/docs/capstones/other/covid19-datalake/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Multi-touch Attribution",
+    "permalink": "/docs/capstones/multi-touch-attribution/"
+  },
+  "next": {
+    "title": "paas-data-ingestion",
+    "permalink": "/docs/capstones/other/data-ingestion-pulumi-lambda-snowflake/"
+  }
+}

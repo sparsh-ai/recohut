@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/programming-languages/pyspark/lab-bcg/README",
+  "id": "foundations/programming-languages/pyspark/lab-bcg/README",
+  "title": "BCG Case Study",
+  "description": "Dataset",
+  "source": "@site/docs/01-foundations/04-programming-languages/pyspark/lab-bcg/README.md",
+  "sourceDirName": "01-foundations/04-programming-languages/pyspark/lab-bcg",
+  "slug": "/foundations/programming-languages/pyspark/lab-bcg/",
+  "permalink": "/docs/foundations/programming-languages/pyspark/lab-bcg/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Installing Spark",
+    "permalink": "/docs/foundations/programming-languages/pyspark/install"
+  },
+  "next": {
+    "title": "Pyspark Basics",
+    "permalink": "/docs/foundations/programming-languages/pyspark/lab-pyspark-basics/"
+  }
+}

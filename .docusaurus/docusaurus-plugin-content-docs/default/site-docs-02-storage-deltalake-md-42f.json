@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/deltalake",
+  "id": "storage/deltalake",
+  "title": "Deltalake",
+  "description": "An open format storage layer for your lakehouses",
+  "source": "@site/docs/02-storage/deltalake.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/deltalake",
+  "permalink": "/docs/storage/deltalake",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data Lakes",
+    "permalink": "/docs/storage/datalakes"
+  },
+  "next": {
+    "title": "DuckDB",
+    "permalink": "/docs/storage/duckdb"
+  }
+}

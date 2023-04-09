@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/developer/install-anaconda",
+  "id": "foundations/developer/install-anaconda",
+  "title": "Install Anaconda",
+  "description": "1. Download the file from https://www.anaconda.com/products/distribution and install it",
+  "source": "@site/docs/01-foundations/developer/install-anaconda.md",
+  "sourceDirName": "01-foundations/developer",
+  "slug": "/foundations/developer/install-anaconda",
+  "permalink": "/docs/foundations/developer/install-anaconda",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Secrets Manager",
+    "permalink": "/docs/foundations/cloud/secrets-manager"
+  },
+  "next": {
+    "title": "Install DBeaver",
+    "permalink": "/docs/foundations/developer/install-dbeaver"
+  }
+}

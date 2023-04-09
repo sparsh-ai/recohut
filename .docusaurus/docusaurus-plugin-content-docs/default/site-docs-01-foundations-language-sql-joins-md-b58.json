@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/language/sql/joins",
+  "id": "foundations/language/sql/joins",
+  "title": "SQL Joins",
+  "description": "It might be helpful to refer to this JOIN visualization by Patrik Spathon.",
+  "source": "@site/docs/01-foundations/language/sql/joins.md",
+  "sourceDirName": "01-foundations/language/sql",
+  "slug": "/foundations/language/sql/joins",
+  "permalink": "/docs/foundations/language/sql/joins",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SQL IS NULL",
+    "permalink": "/docs/foundations/language/sql/isnull"
+  },
+  "next": {
+    "title": "Lab: Data Ingestion to MySQL",
+    "permalink": "/docs/foundations/language/sql/lab-mysql-data-ingestion/"
+  }
+}

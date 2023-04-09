@@ -1,0 +1,56 @@
+{
+  "permalink": "/blog/2021/10/01/name-&-address-parsing",
+  "source": "@site/blog/2021-10-01-name-&-address-parsing.mdx",
+  "title": "Name & Address Parsing",
+  "description": "/img/content-blog-raw-blog-name-&-address-parsing-untitled.png",
+  "date": "2021-10-01T00:00:00.000Z",
+  "formattedDate": "October 1, 2021",
+  "tags": [
+    {
+      "label": "app",
+      "permalink": "/blog/tags/app"
+    },
+    {
+      "label": "flask",
+      "permalink": "/blog/tags/flask"
+    },
+    {
+      "label": "ner",
+      "permalink": "/blog/tags/ner"
+    },
+    {
+      "label": "nlp",
+      "permalink": "/blog/tags/nlp"
+    }
+  ],
+  "readingTime": 3.8,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Sparsh Agarwal",
+      "title": "Data Scientist & Engineer",
+      "url": "https://github.com/sparsh-ai",
+      "email": "sprsag@gmail.com",
+      "imageURL": "https://github.com/sparsh-ai.png",
+      "key": "sparsh"
+    }
+  ],
+  "frontMatter": {
+    "title": "Name & Address Parsing",
+    "authors": "sparsh",
+    "tags": [
+      "app",
+      "flask",
+      "ner",
+      "nlp"
+    ]
+  },
+  "prevItem": {
+    "title": "Insurance Personalization",
+    "permalink": "/blog/2021/10/01/insurance-personalization"
+  },
+  "nextItem": {
+    "title": "Object Detection Hands-on Exercises",
+    "permalink": "/blog/2021/10/01/object-detection-hands-on-exercises"
+  }
+}

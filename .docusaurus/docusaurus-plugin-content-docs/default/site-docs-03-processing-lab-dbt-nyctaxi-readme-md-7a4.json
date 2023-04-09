@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/lab-dbt-nyctaxi/README",
+  "id": "processing/lab-dbt-nyctaxi/README",
+  "title": "dbt NYC Taxi",
+  "description": "Objective",
+  "source": "@site/docs/03-processing/lab-dbt-nyctaxi/README.md",
+  "sourceDirName": "03-processing/lab-dbt-nyctaxi",
+  "slug": "/processing/lab-dbt-nyctaxi/",
+  "permalink": "/docs/processing/lab-dbt-nyctaxi/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Snowflake dbt Knoema",
+    "permalink": "/docs/processing/lab-dbt-knoema/"
+  },
+  "next": {
+    "title": "NYC Taxi Analtics and ELT Pipeline with dbt and Postgres",
+    "permalink": "/docs/processing/lab-dbt-nyctaxi-lookup/"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/json",
+  "id": "storage/json",
+  "title": "JSON and JSONL",
+  "description": "JavaScript Object Notation (JSON) has emerged as the new standard for data exchange over APIs, and it has also become an extremely popular format for data storage. In the context of databases, the popularity of JSON has grown apace with the rise of MongoDB and other document stores. Databases such as Snowflake, BigQuery, and SQL Server also offer extensive native support, facilitating easy data exchange between applications, APIs, and database systems.",
+  "source": "@site/docs/02-storage/json.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/json",
+  "permalink": "/docs/storage/json",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Interview Questions",
+    "permalink": "/docs/storage/interview-questions"
+  },
+  "next": {
+    "title": "Azure Data Lake - Securing and Monitoring",
+    "permalink": "/docs/storage/lab-adl-securing-monitoring-lakes/"
+  }
+}

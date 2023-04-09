@@ -1,0 +1,26 @@
+{
+  "unversionedId": "visualization/looker-studio/lab-gcp-streaming-analytics",
+  "id": "visualization/looker-studio/lab-gcp-streaming-analytics",
+  "title": "Streaming Analytics and Dashboards",
+  "description": "Objective",
+  "source": "@site/docs/08-visualization/looker-studio/lab-gcp-streaming-analytics.md",
+  "sourceDirName": "08-visualization/looker-studio",
+  "slug": "/visualization/looker-studio/lab-gcp-streaming-analytics",
+  "permalink": "/docs/visualization/looker-studio/lab-gcp-streaming-analytics",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Looker Studio",
+    "permalink": "/docs/visualization/looker-studio/"
+  },
+  "next": {
+    "title": "Setup Preset",
+    "permalink": "/docs/visualization/preset/"
+  }
+}

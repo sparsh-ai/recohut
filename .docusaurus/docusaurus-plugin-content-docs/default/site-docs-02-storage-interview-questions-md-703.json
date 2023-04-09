@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/interview-questions",
+  "id": "storage/interview-questions",
+  "title": "Interview Questions",
+  "description": "What is a relational database?",
+  "source": "@site/docs/02-storage/interview-questions.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/interview-questions",
+  "permalink": "/docs/storage/interview-questions",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Iceberg",
+    "permalink": "/docs/storage/iceberg"
+  },
+  "next": {
+    "title": "JSON and JSONL",
+    "permalink": "/docs/storage/json"
+  }
+}

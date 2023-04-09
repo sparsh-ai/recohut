@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/lab-data-loading-python/README",
+  "id": "storage/lab-data-loading-python/README",
+  "title": "Loading Data in Python",
+  "description": "In this lab, we will learn how to load various file formats in Python.",
+  "source": "@site/docs/02-storage/lab-data-loading-python/README.md",
+  "sourceDirName": "02-storage/lab-data-loading-python",
+  "slug": "/storage/lab-data-loading-python/",
+  "permalink": "/docs/storage/lab-data-loading-python/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Couchdb Movies Data Migration",
+    "permalink": "/docs/storage/lab-couchdb-movies-data-migration/"
+  },
+  "next": {
+    "title": "Data Lake on S3",
+    "permalink": "/docs/storage/lab-datalake-healthcare-s3-glue-athena/"
+  }
+}

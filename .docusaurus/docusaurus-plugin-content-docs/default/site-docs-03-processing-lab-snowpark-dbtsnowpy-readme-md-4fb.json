@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/lab-snowpark-dbtsnowpy/README",
+  "id": "processing/lab-snowpark-dbtsnowpy/README",
+  "title": "Modeling with dbt and Snowpark",
+  "description": "",
+  "source": "@site/docs/03-processing/lab-snowpark-dbtsnowpy/README.md",
+  "sourceDirName": "03-processing/lab-snowpark-dbtsnowpy",
+  "slug": "/processing/lab-snowpark-dbtsnowpy/",
+  "permalink": "/docs/processing/lab-snowpark-dbtsnowpy/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Churn Analytics Demo with dbt Snowpark Python models",
+    "permalink": "/docs/processing/lab-snowpark-churnpark/"
+  },
+  "next": {
+    "title": "FIFA modeling with Snowpark",
+    "permalink": "/docs/processing/lab-snowpark-fifapark/"
+  }
+}

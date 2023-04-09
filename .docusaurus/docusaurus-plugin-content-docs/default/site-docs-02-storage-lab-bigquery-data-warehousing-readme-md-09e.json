@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/lab-bigquery-data-warehousing/README",
+  "id": "storage/lab-bigquery-data-warehousing/README",
+  "title": "BigQuery Data Warehousing",
+  "description": "Objective",
+  "source": "@site/docs/02-storage/lab-bigquery-data-warehousing/README.md",
+  "sourceDirName": "02-storage/lab-bigquery-data-warehousing",
+  "slug": "/storage/lab-bigquery-data-warehousing/",
+  "permalink": "/docs/storage/lab-bigquery-data-warehousing/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "GCP BigQuery Composer",
+    "permalink": "/docs/storage/lab-bigquery-composer/"
+  },
+  "next": {
+    "title": "GCP BigQuery ML",
+    "permalink": "/docs/storage/lab-bigquery-ml/"
+  }
+}

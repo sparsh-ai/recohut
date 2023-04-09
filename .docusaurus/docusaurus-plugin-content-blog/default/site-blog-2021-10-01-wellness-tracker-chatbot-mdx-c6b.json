@@ -1,0 +1,51 @@
+{
+  "permalink": "/blog/2021/10/01/wellness-tracker-chatbot",
+  "source": "@site/blog/2021-10-01-wellness-tracker-chatbot.mdx",
+  "title": "Wellness tracker chatbot",
+  "description": "/img/content-blog-raw-blog-wellness-tracker-chatbot-untitled.png",
+  "date": "2021-10-01T00:00:00.000Z",
+  "formattedDate": "October 1, 2021",
+  "tags": [
+    {
+      "label": "chatbot",
+      "permalink": "/blog/tags/chatbot"
+    },
+    {
+      "label": "healthcare",
+      "permalink": "/blog/tags/healthcare"
+    },
+    {
+      "label": "nlp",
+      "permalink": "/blog/tags/nlp"
+    }
+  ],
+  "readingTime": 0.455,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Sparsh Agarwal",
+      "title": "Data Scientist & Engineer",
+      "url": "https://github.com/sparsh-ai",
+      "email": "sprsag@gmail.com",
+      "imageURL": "https://github.com/sparsh-ai.png",
+      "key": "sparsh"
+    }
+  ],
+  "frontMatter": {
+    "title": "Wellness tracker chatbot",
+    "authors": "sparsh",
+    "tags": [
+      "chatbot",
+      "healthcare",
+      "nlp"
+    ]
+  },
+  "prevItem": {
+    "title": "Web Scraping with Gazpacho",
+    "permalink": "/blog/2021/10/01/web-scraping-with-gazpacho"
+  },
+  "nextItem": {
+    "title": "What is Livestream Ecommerce",
+    "permalink": "/blog/2021/10/01/what-is-livestream-ecommerce"
+  }
+}

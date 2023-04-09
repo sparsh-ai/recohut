@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/lab-redshift-data-loading",
+  "id": "storage/lab-redshift-data-loading",
+  "title": "Data Loading into Redshift",
+  "description": "1. Create 8 Tables based on TPCH data model in Redshift (DDL)",
+  "source": "@site/docs/02-storage/lab-redshift-data-loading.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/lab-redshift-data-loading",
+  "permalink": "/docs/storage/lab-redshift-data-loading",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data Loading using Python",
+    "permalink": "/docs/storage/lab-redshift-data-loading-python"
+  },
+  "next": {
+    "title": "Redshift Advanced",
+    "permalink": "/docs/storage/lab-redshift-immersion/"
+  }
+}

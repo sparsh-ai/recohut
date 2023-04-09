@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/lab-dataflow-bigquery-etl",
+  "id": "processing/lab-dataflow-bigquery-etl",
+  "title": "ETL Processing on Google Cloud Using Dataflow and BigQuery",
+  "description": "Objective",
+  "source": "@site/docs/03-processing/lab-dataflow-bigquery-etl.md",
+  "sourceDirName": "03-processing",
+  "slug": "/processing/lab-dataflow-bigquery-etl",
+  "permalink": "/docs/processing/lab-dataflow-bigquery-etl",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "CSV to Parquet Transformation with Glue Studio",
+    "permalink": "/docs/processing/lab-csv-to-parquet-conversion/"
+  },
+  "next": {
+    "title": "dbt Jaffle Shop",
+    "permalink": "/docs/processing/lab-dbt-jaffle-shop/"
+  }
+}

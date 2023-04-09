@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/data-engineering-foundations/outliers-handling",
+  "id": "foundations/data-engineering-foundations/outliers-handling",
+  "title": "Outliers Handling",
+  "description": "Remove categorical outliers",
+  "source": "@site/docs/01-foundations/02-data-engineering-foundations/outliers-handling.md",
+  "sourceDirName": "01-foundations/02-data-engineering-foundations",
+  "slug": "/foundations/data-engineering-foundations/outliers-handling",
+  "permalink": "/docs/foundations/data-engineering-foundations/outliers-handling",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "The data science origin story",
+    "permalink": "/docs/foundations/data-engineering-foundations/origin"
+  },
+  "next": {
+    "title": "Spark RDDs",
+    "permalink": "/docs/foundations/data-engineering-foundations/rdd"
+  }
+}

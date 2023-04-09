@@ -1,0 +1,26 @@
+{
+  "unversionedId": "a3-casestudies/expedia",
+  "id": "a3-casestudies/expedia",
+  "title": "Expedia",
+  "description": "Technology company that powers travel",
+  "source": "@site/docs/a3-casestudies/expedia.md",
+  "sourceDirName": "a3-casestudies",
+  "slug": "/a3-casestudies/expedia",
+  "permalink": "/docs/a3-casestudies/expedia",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Booking.com",
+    "permalink": "/docs/a3-casestudies/bookingdotcom"
+  },
+  "next": {
+    "title": "FAIR - Data Ingestion with a Cloud Data Platform",
+    "permalink": "/docs/a3-casestudies/fair"
+  }
+}

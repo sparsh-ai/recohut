@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/lab-bigquery-optimization/README",
+  "id": "storage/lab-bigquery-optimization/README",
+  "title": "BigQuery Optimization",
+  "description": "Objective",
+  "source": "@site/docs/02-storage/lab-bigquery-optimization/README.md",
+  "sourceDirName": "02-storage/lab-bigquery-optimization",
+  "slug": "/storage/lab-bigquery-optimization/",
+  "permalink": "/docs/storage/lab-bigquery-optimization/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "GCP BigQuery NYC Taxi",
+    "permalink": "/docs/storage/lab-bigquery-nyctaxi/"
+  },
+  "next": {
+    "title": "GCP Bigquery Query Optimization",
+    "permalink": "/docs/storage/lab-bigquery-query-optimization/"
+  }
+}

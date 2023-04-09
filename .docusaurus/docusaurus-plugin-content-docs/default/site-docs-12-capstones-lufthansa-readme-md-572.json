@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/lufthansa/README",
+  "id": "capstones/lufthansa/README",
+  "title": "Lufthansa API",
+  "description": "Objective",
+  "source": "@site/docs/12-capstones/lufthansa/README.md",
+  "sourceDirName": "12-capstones/lufthansa",
+  "slug": "/capstones/lufthansa/",
+  "permalink": "/docs/capstones/lufthansa/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Kortex",
+    "permalink": "/docs/capstones/kortex/"
+  },
+  "next": {
+    "title": "Movie Review Sentiment Analysis Pipeline",
+    "permalink": "/docs/capstones/movie-sentiment/"
+  }
+}

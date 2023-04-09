@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/sagemaker/README",
+  "id": "datascience/sagemaker/README",
+  "title": "Amazon Sagemaker",
+  "description": "Amazon SageMaker helps data scientists and developers to prepare, build, train, and deploy machine learning models quickly by bringing together a broad set of purpose-built capabilities. In this demo, learn about how SageMaker can accelerate machine learning development by way of an example where we build the perfect musical playlist tailored to a user's tastes.",
+  "source": "@site/docs/10-datascience/sagemaker/README.md",
+  "sourceDirName": "10-datascience/sagemaker",
+  "slug": "/datascience/sagemaker/",
+  "permalink": "/docs/datascience/sagemaker/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Causal Inference",
+    "permalink": "/docs/datascience/reinforcement-learning/causal-inference"
+  },
+  "next": {
+    "title": "Assignments",
+    "permalink": "/docs/assignments/"
+  }
+}

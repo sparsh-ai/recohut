@@ -1,0 +1,26 @@
+{
+  "unversionedId": "orchestration/airflow/lab-bike-sharing-service-pipeline/README",
+  "id": "orchestration/airflow/lab-bike-sharing-service-pipeline/README",
+  "title": "Bike Sharing Service Data Pipeline",
+  "description": "This lab will be divided into five different DAG levels. Each DAG level will have specific learning objectives, as follows:",
+  "source": "@site/docs/06-orchestration/airflow/lab-bike-sharing-service-pipeline/README.md",
+  "sourceDirName": "06-orchestration/airflow/lab-bike-sharing-service-pipeline",
+  "slug": "/orchestration/airflow/lab-bike-sharing-service-pipeline/",
+  "permalink": "/docs/orchestration/airflow/lab-bike-sharing-service-pipeline/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Getting Started with Airflow",
+    "permalink": "/docs/orchestration/airflow/lab-airflow-getting-started/"
+  },
+  "next": {
+    "title": "Airflow Forex ETL",
+    "permalink": "/docs/orchestration/airflow/lab-forex-etl/"
+  }
+}

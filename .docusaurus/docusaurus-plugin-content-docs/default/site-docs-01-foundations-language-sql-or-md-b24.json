@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/language/sql/or",
+  "id": "foundations/language/sql/or",
+  "title": "SQL OR",
+  "description": "OR is a logical operator in SQL that allows you to select rows that satisfy either of two conditions. It works the same way as AND, which selects the rows that satisfy both of two conditions.",
+  "source": "@site/docs/01-foundations/language/sql/or.md",
+  "sourceDirName": "01-foundations/language/sql",
+  "slug": "/foundations/language/sql/or",
+  "permalink": "/docs/foundations/language/sql/or",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SQL NOT",
+    "permalink": "/docs/foundations/language/sql/not"
+  },
+  "next": {
+    "title": "SQL ORDER BY",
+    "permalink": "/docs/foundations/language/sql/orderby"
+  }
+}

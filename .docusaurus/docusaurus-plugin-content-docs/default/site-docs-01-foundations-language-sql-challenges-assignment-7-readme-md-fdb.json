@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/language/sql/challenges/assignment7/README",
+  "id": "foundations/language/sql/challenges/assignment7/README",
+  "title": "Patients SQL Assignment",
+  "description": "Queries",
+  "source": "@site/docs/01-foundations/language/sql/challenges/assignment7/README.md",
+  "sourceDirName": "01-foundations/language/sql/challenges/assignment7",
+  "slug": "/foundations/language/sql/challenges/assignment7/",
+  "permalink": "/docs/foundations/language/sql/challenges/assignment7/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SQL Pizza Runner Assignment",
+    "permalink": "/docs/foundations/language/sql/challenges/assignment6/"
+  },
+  "next": {
+    "title": "README",
+    "permalink": "/docs/foundations/language/sql/challenges/braintree/"
+  }
+}

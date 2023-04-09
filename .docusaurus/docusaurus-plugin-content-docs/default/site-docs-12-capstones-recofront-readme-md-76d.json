@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/recofront/README",
+  "id": "capstones/recofront/README",
+  "title": "Building Recommender System from Scratch",
+  "description": "Overview",
+  "source": "@site/docs/12-capstones/recofront/README.md",
+  "sourceDirName": "12-capstones/recofront",
+  "slug": "/capstones/recofront/",
+  "permalink": "/docs/capstones/recofront/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "YouTube Trend Analysis Workshop",
+    "permalink": "/docs/capstones/other/youtube-insights/"
+  },
+  "next": {
+    "title": "Reddit Submissions, Authors and Subreddits analysis",
+    "permalink": "/docs/capstones/reddit/"
+  }
+}

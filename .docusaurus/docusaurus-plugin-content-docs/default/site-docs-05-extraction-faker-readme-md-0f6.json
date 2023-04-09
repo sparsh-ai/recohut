@@ -1,0 +1,26 @@
+{
+  "unversionedId": "extraction/faker/README",
+  "id": "extraction/faker/README",
+  "title": "Faker",
+  "description": "Labs",
+  "source": "@site/docs/05-extraction/faker/README.md",
+  "sourceDirName": "05-extraction/faker",
+  "slug": "/extraction/faker/",
+  "permalink": "/docs/extraction/faker/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Extract data from multiple sources and load into database",
+    "permalink": "/docs/extraction/api/lab-scoota/"
+  },
+  "next": {
+    "title": "Web Scraping",
+    "permalink": "/docs/extraction/webscraping/"
+  }
+}

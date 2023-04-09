@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/databricks/setup",
+  "id": "processing/databricks/setup",
+  "title": "Setup Databricks",
+  "description": "Watch and follow this video.",
+  "source": "@site/docs/03-processing/databricks/setup.md",
+  "sourceDirName": "03-processing/databricks",
+  "slug": "/processing/databricks/setup",
+  "permalink": "/docs/processing/databricks/setup",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data Engineer Learner Path with Databricks",
+    "permalink": "/docs/processing/databricks/project-learnerbricks/"
+  },
+  "next": {
+    "title": "dbt",
+    "permalink": "/docs/processing/dbt"
+  }
+}

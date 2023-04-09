@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/lab-mongodb-pandas/README",
+  "id": "storage/lab-mongodb-pandas/README",
+  "title": "MongoDB to CSV conversion",
+  "description": "Pull a noSQL data from MongoDB and convert into Pandas dataframe",
+  "source": "@site/docs/02-storage/lab-mongodb-pandas/README.md",
+  "sourceDirName": "02-storage/lab-mongodb-pandas",
+  "slug": "/storage/lab-mongodb-pandas/",
+  "permalink": "/docs/storage/lab-mongodb-pandas/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Lab - MongoDB Basics",
+    "permalink": "/docs/storage/lab-mongodb-basics/"
+  },
+  "next": {
+    "title": "Lab: Data Ingestion to MySQL",
+    "permalink": "/docs/storage/lab-mysql-data-ingestion/"
+  }
+}

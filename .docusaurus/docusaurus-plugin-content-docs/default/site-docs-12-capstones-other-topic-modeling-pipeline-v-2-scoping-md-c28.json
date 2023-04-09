@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/other/topic-modeling-pipeline/v2/scoping",
+  "id": "capstones/other/topic-modeling-pipeline/v2/scoping",
+  "title": "Scoping",
+  "description": "Objective",
+  "source": "@site/docs/12-capstones/other/topic-modeling-pipeline/v2/scoping.md",
+  "sourceDirName": "12-capstones/other/topic-modeling-pipeline/v2",
+  "slug": "/capstones/other/topic-modeling-pipeline/v2/scoping",
+  "permalink": "/docs/capstones/other/topic-modeling-pipeline/v2/scoping",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Machine Learning with Big Data",
+    "permalink": "/docs/capstones/other/topic-modeling-pipeline/"
+  },
+  "next": {
+    "title": "Twitter Sentiment Realtime",
+    "permalink": "/docs/capstones/other/twitter-sentiment-realtime/"
+  }
+}

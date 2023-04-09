@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/hadoop-vs-datalake",
+  "id": "storage/hadoop-vs-datalake",
+  "title": "On-premises Hadoop cluster vs Cloud data lakes",
+  "description": "On-premises versus cloud architectures",
+  "source": "@site/docs/02-storage/hadoop-vs-datalake.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/hadoop-vs-datalake",
+  "permalink": "/docs/storage/hadoop-vs-datalake",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Google Cloud Storage (GCS)",
+    "permalink": "/docs/storage/gcs"
+  },
+  "next": {
+    "title": "Hudi",
+    "permalink": "/docs/storage/hudi"
+  }
+}

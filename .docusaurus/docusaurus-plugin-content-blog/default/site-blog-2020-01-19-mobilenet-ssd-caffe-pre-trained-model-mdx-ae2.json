@@ -1,0 +1,49 @@
+{
+  "permalink": "/blog/2020/01/19/mobilenet-ssd-caffe-pre-trained-model",
+  "source": "@site/blog/2020-01-19-mobilenet-ssd-caffe-pre-trained-model.mdx",
+  "title": "MobileNet SSD Caffe Pre-trained model",
+  "description": "You can play with the live app here. Souce code is available here on Github.",
+  "date": "2020-01-19T00:00:00.000Z",
+  "formattedDate": "January 19, 2020",
+  "tags": [
+    {
+      "label": "app",
+      "permalink": "/blog/tags/app"
+    },
+    {
+      "label": "vision",
+      "permalink": "/blog/tags/vision"
+    },
+    {
+      "label": "streamlit",
+      "permalink": "/blog/tags/streamlit"
+    }
+  ],
+  "readingTime": 0.74,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Sparsh Agarwal",
+      "title": "Data Scientist & Engineer",
+      "url": "https://github.com/sparsh-ai",
+      "email": "sprsag@gmail.com",
+      "imageURL": "https://github.com/sparsh-ai.png",
+      "key": "sparsh"
+    }
+  ],
+  "frontMatter": {
+    "title": "MobileNet SSD Caffe Pre-trained model",
+    "authors": [
+      "sparsh"
+    ],
+    "tags": [
+      "app",
+      "vision",
+      "streamlit"
+    ]
+  },
+  "prevItem": {
+    "title": "Object detection with YOLO3",
+    "permalink": "/blog/2021/01/23/object-detection-with-yolo3"
+  }
+}

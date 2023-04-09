@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/lab-couchdb-movies-data-migration/README",
+  "id": "storage/lab-couchdb-movies-data-migration/README",
+  "title": "Couchdb Movies Data Migration",
+  "description": "Objective",
+  "source": "@site/docs/02-storage/lab-couchdb-movies-data-migration/README.md",
+  "sourceDirName": "02-storage/lab-couchdb-movies-data-migration",
+  "slug": "/storage/lab-couchdb-movies-data-migration/",
+  "permalink": "/docs/storage/lab-couchdb-movies-data-migration/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Building a BigQuery Data Warehouse",
+    "permalink": "/docs/storage/lab-biqeury-building-warehouse/"
+  },
+  "next": {
+    "title": "Loading Data in Python",
+    "permalink": "/docs/storage/lab-data-loading-python/"
+  }
+}

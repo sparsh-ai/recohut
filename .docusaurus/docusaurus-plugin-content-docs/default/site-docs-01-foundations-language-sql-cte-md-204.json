@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/language/sql/cte",
+  "id": "foundations/language/sql/cte",
+  "title": "cte",
+  "description": "CTE (Common Table Expressions)",
+  "source": "@site/docs/01-foundations/language/sql/cte.md",
+  "sourceDirName": "01-foundations/language/sql",
+  "slug": "/foundations/language/sql/cte",
+  "permalink": "/docs/foundations/language/sql/cte",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SQL Comparison Operators",
+    "permalink": "/docs/foundations/language/sql/comparison-operators"
+  },
+  "next": {
+    "title": "Cursor",
+    "permalink": "/docs/foundations/language/sql/cursor"
+  }
+}

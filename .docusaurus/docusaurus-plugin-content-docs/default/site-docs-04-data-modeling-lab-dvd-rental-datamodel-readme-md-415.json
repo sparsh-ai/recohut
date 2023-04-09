@@ -1,0 +1,26 @@
+{
+  "unversionedId": "data-modeling/lab-dvd-rental-datamodel/README",
+  "id": "data-modeling/lab-dvd-rental-datamodel/README",
+  "title": "Postgres Pagila",
+  "description": "Objective",
+  "source": "@site/docs/04-data-modeling/lab-dvd-rental-datamodel/README.md",
+  "sourceDirName": "04-data-modeling/lab-dvd-rental-datamodel",
+  "slug": "/data-modeling/lab-dvd-rental-datamodel/",
+  "permalink": "/docs/data-modeling/lab-dvd-rental-datamodel/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Disease Diagnosis and Medic Recommendation System",
+    "permalink": "/docs/data-modeling/lab-disease-diagnosis/"
+  },
+  "next": {
+    "title": "Google Platstore Data Modeling",
+    "permalink": "/docs/data-modeling/lab-google-playstore-datamodel/"
+  }
+}

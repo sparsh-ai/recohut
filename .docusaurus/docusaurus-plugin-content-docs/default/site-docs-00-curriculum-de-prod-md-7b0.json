@@ -1,0 +1,26 @@
+{
+  "unversionedId": "curriculum/de-prod",
+  "id": "curriculum/de-prod",
+  "title": "Curriculum - Data Engineering Training",
+  "description": "Level 100",
+  "source": "@site/docs/00-curriculum/de-prod.md",
+  "sourceDirName": "00-curriculum",
+  "slug": "/curriculum/de-prod",
+  "permalink": "/docs/curriculum/de-prod",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Curriculum - Data Engineering Training (GCP)",
+    "permalink": "/docs/curriculum/de-gcp"
+  },
+  "next": {
+    "title": "Bootcamp Instructions",
+    "permalink": "/docs/curriculum/instructions"
+  }
+}

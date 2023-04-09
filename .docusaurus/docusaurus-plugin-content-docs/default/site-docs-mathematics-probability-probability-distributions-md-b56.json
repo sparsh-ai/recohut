@@ -1,0 +1,26 @@
+{
+  "unversionedId": "mathematics/probability/probability-distributions",
+  "id": "mathematics/probability/probability-distributions",
+  "title": "Probability Distributions",
+  "description": "Random variables are important in analysis. Probability distributions depict the distribution of the values of a random variable. The distributions can help in selecting the right algorithms, and hence plotting the distribution of the data is an important part of the analytical process; this is performed as a part of exploratory data analysis (EDA). The following are some important probability distributions:",
+  "source": "@site/docs/mathematics/probability/probability-distributions.md",
+  "sourceDirName": "mathematics/probability",
+  "slug": "/mathematics/probability/probability-distributions",
+  "permalink": "/docs/mathematics/probability/probability-distributions",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Probability",
+    "permalink": "/docs/mathematics/probability/"
+  },
+  "next": {
+    "title": "Rules of Probability",
+    "permalink": "/docs/mathematics/probability/rules-of-probability"
+  }
+}

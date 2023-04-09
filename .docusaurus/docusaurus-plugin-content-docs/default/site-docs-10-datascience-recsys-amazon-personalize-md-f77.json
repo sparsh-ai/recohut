@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/recsys/amazon-personalize",
+  "id": "datascience/recsys/amazon-personalize",
+  "title": "Amazon Personalize",
+  "description": "Amazon Personalize is a machine learning service that makes it easy for developers to create individualized recommendations for customers using their applications. With Amazon Personalize, you provide an activity stream from your application – clicks, page views, signups, purchases, and so forth – as well as an inventory of the items you want to recommend, such as articles, products, videos, or music. You can also choose to provide Amazon Personalize with additional demographic information from your users such as age, or geographic location. Amazon Personalize will process and examine the data, identify what is meaningful, select the right algorithms, and train and optimize a personalization model that is customized for your data. All data analyzed by Amazon Personalize is kept private and secure, and only used for your customized recommendations. You can start serving personalized recommendations via a simple API call. You pay only for what you use, and there are no minimum fees and no upfront commitments.",
+  "source": "@site/docs/10-datascience/recsys/amazon-personalize.md",
+  "sourceDirName": "10-datascience/recsys",
+  "slug": "/datascience/recsys/amazon-personalize",
+  "permalink": "/docs/datascience/recsys/amazon-personalize",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Recommender Systems",
+    "permalink": "/docs/datascience/recsys/"
+  },
+  "next": {
+    "title": "Graph RecSys Models",
+    "permalink": "/docs/datascience/recsys/lab-graph-models/"
+  }
+}

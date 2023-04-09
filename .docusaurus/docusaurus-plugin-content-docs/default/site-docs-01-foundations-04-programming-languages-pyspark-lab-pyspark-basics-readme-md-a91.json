@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/programming-languages/pyspark/lab-pyspark-basics/README",
+  "id": "foundations/programming-languages/pyspark/lab-pyspark-basics/README",
+  "title": "Pyspark Basics",
+  "description": "In this lab, we will use the power of PySpark to perform various activities in databricks environment.",
+  "source": "@site/docs/01-foundations/04-programming-languages/pyspark/lab-pyspark-basics/README.md",
+  "sourceDirName": "01-foundations/04-programming-languages/pyspark/lab-pyspark-basics",
+  "slug": "/foundations/programming-languages/pyspark/lab-pyspark-basics/",
+  "permalink": "/docs/foundations/programming-languages/pyspark/lab-pyspark-basics/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "BCG Case Study",
+    "permalink": "/docs/foundations/programming-languages/pyspark/lab-bcg/"
+  },
+  "next": {
+    "title": "Pyspark NYC Taxi",
+    "permalink": "/docs/foundations/programming-languages/pyspark/lab-pyspark-nyctaxi/"
+  }
+}

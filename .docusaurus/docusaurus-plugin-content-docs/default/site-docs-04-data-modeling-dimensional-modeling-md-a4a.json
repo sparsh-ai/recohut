@@ -1,0 +1,26 @@
+{
+  "unversionedId": "data-modeling/dimensional-modeling",
+  "id": "data-modeling/dimensional-modeling",
+  "title": "Dimensional Modeling",
+  "description": "Dimensional modeling is a bottom-up approach to designing data warehouses in order to optimize them for analytics. Dimensional models are used to denormalize business data into dimensions (like time and product) and facts (like transactions in amounts and quantities), and different subject areas are connected via conformed dimensions to navigate to different fact tables. It is usually found in OLAP systems.",
+  "source": "@site/docs/04-data-modeling/dimensional-modeling.md",
+  "sourceDirName": "04-data-modeling",
+  "slug": "/data-modeling/dimensional-modeling",
+  "permalink": "/docs/data-modeling/dimensional-modeling",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Designing SCDs",
+    "permalink": "/docs/data-modeling/designing-scd"
+  },
+  "next": {
+    "title": "Inmon versus the Kimball data model",
+    "permalink": "/docs/data-modeling/inmon-vs-kimball"
+  }
+}

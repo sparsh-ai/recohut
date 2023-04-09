@@ -1,0 +1,26 @@
+{
+  "unversionedId": "orchestration/modern-data-stack/README",
+  "id": "orchestration/modern-data-stack/README",
+  "title": "Modern Data Stack (MDS)",
+  "description": "Big Data Systems with Modern Data Stack",
+  "source": "@site/docs/06-orchestration/modern-data-stack/README.md",
+  "sourceDirName": "06-orchestration/modern-data-stack",
+  "slug": "/orchestration/modern-data-stack/",
+  "permalink": "/docs/orchestration/modern-data-stack/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Building and Executing a Pipeline Graph with Data Fusion",
+    "permalink": "/docs/orchestration/datafusion/lab-datafusion-pipeline/"
+  },
+  "next": {
+    "title": "Analyze and Compare the Modern Data Stacks",
+    "permalink": "/docs/orchestration/modern-data-stack/lab-analyse-stacks/"
+  }
+}

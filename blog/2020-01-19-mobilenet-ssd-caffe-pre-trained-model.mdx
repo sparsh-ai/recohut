@@ -1,0 +1,67 @@
+---
+title: MobileNet SSD Caffe Pre-trained model
+authors: [sparsh]
+tags: [app, vision, streamlit]
+---
+
+*You can play with the live app [here](https://share.streamlit.io/sparsh-ai/streamlit-5a407279/app.py). Souce code is available* [here](https://github.com/sparsh-ai/streamlit-489fbbb7) *on Github.*
+
+## Live app
+
+![/img/content-blog-raw-mobilenet-ssd-caffe-pre-trained-model-untitled.png](/img/content-blog-raw-mobilenet-ssd-caffe-pre-trained-model-untitled.png)
+
+## Code
+
+```python
+#------------------------------------------------------#
+# Import libraries
+#------------------------------------------------------#
+
+import datetime
+import urllib
+import time
+import cv2 as cv
+import streamlit as st
+
+from plugins import Motion_Detection
+from utils import GUI, AppManager, DataManager
+
+#------------------------------------------------------#
+#------------------------------------------------------#
+
+def imageWebApp(guiParam):
+    """
+    """
+    # Load the image according to the selected option
+    conf = DataManager(guiParam)
+    image = conf.load_image_or_video()
+    
+    # GUI
+    switchProcessing = st.button('* Start Processing *')
+
+    # Apply the selected plugin on the image
+    bboxed_frame, output = AppManager(guiParam).process(image, True)
+
+    # Display results
+    st.image(bboxed_frame, channels="BGR",  use_column_width=True)
+
+def main():
+    """
+    """
+    # Get the parameter entered by the user from the GUI
+    guiParam = GUI().getGuiParameters()
+
+    # Check if the application if it is Empty
+    if guiParam['appType'] == 'Image Applications':
+        if guiParam["selectedApp"] is not 'Empty':
+            imageWebApp(guiParam)
+
+    else:
+        raise st.ScriptRunner.StopException
+
+#------------------------------------------------------#
+#------------------------------------------------------#
+
+if __name__ == "__main__":
+    main()
+```

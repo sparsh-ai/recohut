@@ -1,0 +1,26 @@
+{
+  "unversionedId": "data-modeling/3nf-data-modeling",
+  "id": "data-modeling/3nf-data-modeling",
+  "title": "3NF/ Relational Modeling",
+  "description": "Owing its origins to the entity-relationship modeling methodology, 3NF is also widely used in data warehousing to serve as a normalized layer to the further layers. It provides tremendous flexibility but can end up having really verbose queries. It is usually found in OLTP systems.",
+  "source": "@site/docs/04-data-modeling/3nf-data-modeling.md",
+  "sourceDirName": "04-data-modeling",
+  "slug": "/data-modeling/3nf-data-modeling",
+  "permalink": "/docs/data-modeling/3nf-data-modeling",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Snowpark",
+    "permalink": "/docs/processing/snowpark"
+  },
+  "next": {
+    "title": "CAP Theorem",
+    "permalink": "/docs/data-modeling/cap-theorem"
+  }
+}

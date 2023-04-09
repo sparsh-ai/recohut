@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/duckdb",
+  "id": "storage/duckdb",
+  "title": "DuckDB",
+  "description": "DuckDB is a really interesting project aimed at being a SQLite style database with a focus on OLAP (online analytical processing). OLAP is typically associated with analytics due to its design catering to long running queries over large datasets or aggregations over joins of multiple tables with vast amounts of data. DuckDB is an open source project developed by the non-profit organization, DuckDB Labs based in Amsterdam, Netherlands and takes donations and contracting work around their database.",
+  "source": "@site/docs/02-storage/duckdb.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/duckdb",
+  "permalink": "/docs/storage/duckdb",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Deltalake",
+    "permalink": "/docs/storage/deltalake"
+  },
+  "next": {
+    "title": "BigTable",
+    "permalink": "/docs/storage/gcp-bigtable"
+  }
+}

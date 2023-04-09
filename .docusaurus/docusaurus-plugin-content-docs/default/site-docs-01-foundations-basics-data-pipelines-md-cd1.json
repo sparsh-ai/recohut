@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/basics/data-pipelines",
+  "id": "foundations/basics/data-pipelines",
+  "title": "Data Pipelines",
+  "description": "img",
+  "source": "@site/docs/01-foundations/basics/data-pipelines.md",
+  "sourceDirName": "01-foundations/basics",
+  "slug": "/foundations/basics/data-pipelines",
+  "permalink": "/docs/foundations/basics/data-pipelines",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data Management",
+    "permalink": "/docs/foundations/basics/data-management"
+  },
+  "next": {
+    "title": "Data Quality",
+    "permalink": "/docs/foundations/basics/data-quality"
+  }
+}

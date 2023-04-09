@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/digitalskola/README",
+  "id": "capstones/digitalskola/README",
+  "title": "DigitalSkola",
+  "description": "Objective",
+  "source": "@site/docs/12-capstones/digitalskola/README.md",
+  "sourceDirName": "12-capstones/digitalskola",
+  "slug": "/capstones/digitalskola/",
+  "permalink": "/docs/capstones/digitalskola/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "README",
+    "permalink": "/docs/capstones/dbt-redshift/"
+  },
+  "next": {
+    "title": "Disaster Response Pipeline",
+    "permalink": "/docs/capstones/disaster-response/"
+  }
+}

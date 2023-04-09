@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/snowflake",
+  "id": "storage/snowflake",
+  "title": "Snowflake",
+  "description": "Snowflake is the Data Cloud that enables you to build data-intensive applications without operational burden, so you can focus on data and analytics instead of infrastructure management.",
+  "source": "@site/docs/02-storage/snowflake.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/snowflake",
+  "permalink": "/docs/storage/snowflake",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Serialization",
+    "permalink": "/docs/storage/serialization"
+  },
+  "next": {
+    "title": "SQLite",
+    "permalink": "/docs/storage/sqlite"
+  }
+}

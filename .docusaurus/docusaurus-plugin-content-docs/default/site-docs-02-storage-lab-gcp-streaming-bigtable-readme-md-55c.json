@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/lab-gcp-streaming-bigtable/README",
+  "id": "storage/lab-gcp-streaming-bigtable/README",
+  "title": "Lab - GCP Streaming Bigtable",
+  "description": "Objective",
+  "source": "@site/docs/02-storage/lab-gcp-streaming-bigtable/README.md",
+  "sourceDirName": "02-storage/lab-gcp-streaming-bigtable",
+  "slug": "/storage/lab-gcp-streaming-bigtable/",
+  "permalink": "/docs/storage/lab-gcp-streaming-bigtable/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Loading Taxi Data into Google Cloud SQL",
+    "permalink": "/docs/storage/lab-gcp-cloudsql-nyctaxi/"
+  },
+  "next": {
+    "title": "Working with Cassandra and CLI",
+    "permalink": "/docs/storage/lab-getting-started-with-cassandra/cassandra-cli"
+  }
+}

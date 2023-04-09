@@ -1,0 +1,26 @@
+{
+  "unversionedId": "b3-misc/extras",
+  "id": "b3-misc/extras",
+  "title": "Extras",
+  "description": "Data, analytics and AI maturity curve",
+  "source": "@site/docs/b3-misc/extras.md",
+  "sourceDirName": "b3-misc",
+  "slug": "/b3-misc/extras",
+  "permalink": "/docs/b3-misc/extras",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Explore Further",
+    "permalink": "/docs/b3-misc/explore-further"
+  },
+  "next": {
+    "title": "Data Engineering Intensive Training Program",
+    "permalink": "/docs/b3-misc/readme_archive"
+  }
+}

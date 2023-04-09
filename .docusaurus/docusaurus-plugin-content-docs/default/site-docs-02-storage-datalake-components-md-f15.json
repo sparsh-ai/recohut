@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/datalake-components",
+  "id": "storage/datalake-components",
+  "title": "Components of the cloud data lake architecture",
+  "description": "There are four key components that create the foundation and serve as building blocks for the cloud data lake architecture. These components are:",
+  "source": "@site/docs/02-storage/datalake-components.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/datalake-components",
+  "permalink": "/docs/storage/datalake-components",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Database Storage Engines",
+    "permalink": "/docs/storage/database-storage-engines"
+  },
+  "next": {
+    "title": "Data Lakes",
+    "permalink": "/docs/storage/datalakes"
+  }
+}

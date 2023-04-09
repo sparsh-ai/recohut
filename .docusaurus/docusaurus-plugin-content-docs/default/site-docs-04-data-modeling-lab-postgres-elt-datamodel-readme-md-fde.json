@@ -1,0 +1,26 @@
+{
+  "unversionedId": "data-modeling/lab-postgres-elt-datamodel/README",
+  "id": "data-modeling/lab-postgres-elt-datamodel/README",
+  "title": "Postgres ELT Datamodel with PSQL",
+  "description": "Create Fact and Dimension Tables from Denormalized Raw Data",
+  "source": "@site/docs/04-data-modeling/lab-postgres-elt-datamodel/README.md",
+  "sourceDirName": "04-data-modeling/lab-postgres-elt-datamodel",
+  "slug": "/data-modeling/lab-postgres-elt-datamodel/",
+  "permalink": "/docs/data-modeling/lab-postgres-elt-datamodel/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "lab-postgres-demographics-datamodel",
+    "permalink": "/docs/data-modeling/lab-postgres-demographics-datamodel"
+  },
+  "next": {
+    "title": "Postgres ewallet Datamodel",
+    "permalink": "/docs/data-modeling/lab-postgres-ewallet-datamodel/"
+  }
+}

@@ -1,0 +1,149 @@
+---
+title: Object detection with YOLO3
+authors: sparsh
+tags: [app, streamlit, vision]
+---
+
+## Live app
+
+This app can detect COCO 80-classes using three different models - Caffe MobileNet SSD, Yolo3-tiny, and Yolo3. It can also detect faces using two different models - SSD Res10 and OpenCV face detector.  Yolo3-tiny can also detect fires.
+
+![/img/content-blog-raw-blog-object-detection-with-yolo3-untitled.png](/img/content-blog-raw-blog-object-detection-with-yolo3-untitled.png)
+
+![/img/content-blog-raw-blog-object-detection-with-yolo3-untitled-1.png](/img/content-blog-raw-blog-object-detection-with-yolo3-untitled-1.png)
+
+## Code
+
+```python
+import streamlit as st
+import cv2
+from PIL import Image
+import numpy as np
+import os
+
+from tempfile import NamedTemporaryFile
+from tensorflow.keras.preprocessing.image import img_to_array, load_img
+
+temp_file = NamedTemporaryFile(delete=False)
+
+DEFAULT_CONFIDENCE_THRESHOLD = 0.5
+DEMO_IMAGE = "test_images/demo.jpg"
+MODEL = "model/MobileNetSSD_deploy.caffemodel"
+PROTOTXT = "model/MobileNetSSD_deploy.prototxt.txt"
+
+CLASSES = [
+    "background",
+    "aeroplane",
+    "bicycle",
+    "bird",
+    "boat",
+    "bottle",
+    "bus",
+    "car",
+    "cat",
+    "chair",
+    "cow",
+    "diningtable",
+    "dog",
+    "horse",
+    "motorbike",
+    "person",
+    "pottedplant",
+    "sheep",
+    "sofa",
+    "train",
+    "tvmonitor",
+]
+COLORS = np.random.uniform(0, 255, size=(len(CLASSES), 3))
+
+@st.cache
+def process_image(image):
+    blob = cv2.dnn.blobFromImage(
+        cv2.resize(image, (300, 300)), 0.007843, (300, 300), 127.5
+    )
+    net = cv2.dnn.readNetFromCaffe(PROTOTXT, MODEL)
+    net.setInput(blob)
+    detections = net.forward()
+    return detections
+
+@st.cache
+def annotate_image(
+    image, detections, confidence_threshold=DEFAULT_CONFIDENCE_THRESHOLD
+):
+    # loop over the detections
+    (h, w) = image.shape[:2]
+    labels = []
+    for i in np.arange(0, detections.shape[2]):
+        confidence = detections[0, 0, i, 2]
+
+        if confidence > confidence_threshold:
+            # extract the index of the class label from the `detections`,
+            # then compute the (x, y)-coordinates of the bounding box for
+            # the object
+            idx = int(detections[0, 0, i, 1])
+            box = detections[0, 0, i, 3:7] * np.array([w, h, w, h])
+            (startX, startY, endX, endY) = box.astype("int")
+
+            # display the prediction
+            label = f"{CLASSES[idx]}: {round(confidence * 100, 2)}%"
+            labels.append(label)
+            cv2.rectangle(image, (startX, startY), (endX, endY), COLORS[idx], 2)
+            y = startY - 15 if startY - 15 > 15 else startY + 15
+            cv2.putText(
+                image, label, (startX, y), cv2.FONT_HERSHEY_SIMPLEX, 0.5, COLORS[idx], 2
+            )
+    return image, labels
+
+def main():
+  selected_box = st.sidebar.selectbox(
+    'Choose one of the following',
+    ('Welcome', 'Object Detection')
+    )
+    
+  if selected_box == 'Welcome':
+      welcome()
+  if selected_box == 'Object Detection':
+      object_detection() 
+
+def welcome():
+  st.title('Object Detection using Streamlit')
+  st.subheader('A simple app for object detection')
+  st.image('test_images/demo.jpg',use_column_width=True)
+
+def object_detection():
+  
+  st.title("Object detection with MobileNet SSD")
+
+  confidence_threshold = st.sidebar.slider(
+    "Confidence threshold", 0.0, 1.0, DEFAULT_CONFIDENCE_THRESHOLD, 0.05)
+
+  st.sidebar.multiselect("Select object classes to include",
+  options=CLASSES,
+  default=CLASSES
+  )
+
+  img_file_buffer = st.file_uploader("Upload an image", type=["png", "jpg", "jpeg"])
+
+  if img_file_buffer is not None:
+      temp_file.write(img_file_buffer.getvalue())
+      image = load_img(temp_file.name)
+      image = img_to_array(image)
+      image = image/255.0
+
+  else:
+      demo_image = DEMO_IMAGE
+      image = np.array(Image.open(demo_image))
+
+  detections = process_image(image)
+  image, labels = annotate_image(image, detections, confidence_threshold)
+
+  st.image(
+      image, caption=f"Processed image", use_column_width=True,
+  )
+
+  st.write(labels)
+
+main()
+```
+
+*You can play with the live app* [*here](https://share.streamlit.io/sparsh-ai/streamlit-489fbbb7/app.py). Source code is available [here](https://github.com/sparsh-ai/streamlit-5a407279/tree/master) on Github.*

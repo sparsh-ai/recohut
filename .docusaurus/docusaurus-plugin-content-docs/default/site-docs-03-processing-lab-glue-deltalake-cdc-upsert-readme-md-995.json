@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/lab-glue-deltalake-cdc-upsert/README",
+  "id": "processing/lab-glue-deltalake-cdc-upsert/README",
+  "title": "Handle UPSERT data operations using open-source Delta Lake and AWS Glue",
+  "description": "Many customers need an ACID transaction (atomic, consistent, isolated, durable) data lake that can log change data capture (CDC) from operational data sources. There is also demand for merging real-time data into batch data. Delta Lake framework provides these two capabilities. In this lab, we learn how to handle UPSERTs (updates and inserts) of the operational data using natively integrated Delta Lake with AWS Glue, and query the Delta Lake using Amazon Athena.",
+  "source": "@site/docs/03-processing/lab-glue-deltalake-cdc-upsert/README.md",
+  "sourceDirName": "03-processing/lab-glue-deltalake-cdc-upsert",
+  "slug": "/processing/lab-glue-deltalake-cdc-upsert/",
+  "permalink": "/docs/processing/lab-glue-deltalake-cdc-upsert/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Advanced Data Engineering and Data Processing with AWS Glue Jobs",
+    "permalink": "/docs/processing/lab-glue-advanced/"
+  },
+  "next": {
+    "title": "Glue Studio Custom Transforms",
+    "permalink": "/docs/processing/lab-glue-studio-custom-transforms/"
+  }
+}

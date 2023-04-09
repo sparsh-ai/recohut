@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/data-warehouses",
+  "id": "storage/data-warehouses",
+  "title": "Data Warehouses",
+  "description": "Enterprises are becoming increasingly data driven, and a key component of any enterprise’s data strategy is a data warehouse—a central repository of integrated data from all across the company. Traditionally, the data warehouse was used by data analysts to create analytical reports. But now it is also increasingly used to populate real-time dashboards, to make ad hoc queries, and to provide decision-making guidance through predictive analytics. Because of these business requirements for advanced analytics and a trend toward cost control, agility, and self-service data access, many organizations are moving to cloud-based data warehouses such as Snowfkake, Amazon Redshift and Google BigQuery.",
+  "source": "@site/docs/02-storage/data-warehouses.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/data-warehouses",
+  "permalink": "/docs/storage/data-warehouses",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data Mesh Basics",
+    "permalink": "/docs/storage/data-mesh-basics"
+  },
+  "next": {
+    "title": "Database Storage Engines",
+    "permalink": "/docs/storage/database-storage-engines"
+  }
+}

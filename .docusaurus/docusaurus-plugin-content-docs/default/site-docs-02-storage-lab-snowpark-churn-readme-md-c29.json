@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/lab-snowpark-churn/README",
+  "id": "storage/lab-snowpark-churn/README",
+  "title": "Snowpark Churn",
+  "description": "Links",
+  "source": "@site/docs/02-storage/lab-snowpark-churn/README.md",
+  "sourceDirName": "02-storage/lab-snowpark-churn",
+  "slug": "/storage/lab-snowpark-churn/",
+  "permalink": "/docs/storage/lab-snowpark-churn/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Snowflake SnowSQL",
+    "permalink": "/docs/storage/lab-snowflake-snowsql/"
+  },
+  "next": {
+    "title": "SQLite Basics",
+    "permalink": "/docs/storage/lab-sqlite-basics/"
+  }
+}

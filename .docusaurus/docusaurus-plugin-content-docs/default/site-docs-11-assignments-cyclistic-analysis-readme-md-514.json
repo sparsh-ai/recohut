@@ -1,0 +1,26 @@
+{
+  "unversionedId": "assignments/cyclistic-analysis/README",
+  "id": "assignments/cyclistic-analysis/README",
+  "title": "Cyclistic Case Study",
+  "description": "How does a bike-share navigate speedy success?",
+  "source": "@site/docs/11-assignments/cyclistic-analysis/README.md",
+  "sourceDirName": "11-assignments/cyclistic-analysis",
+  "slug": "/assignments/cyclistic-analysis/",
+  "permalink": "/docs/assignments/cyclistic-analysis/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Bellabeat Case Study",
+    "permalink": "/docs/assignments/bellabeat-analysis/"
+  },
+  "next": {
+    "title": "NHLAPI - SQL and Python Assignment",
+    "permalink": "/docs/assignments/florida-panthers/"
+  }
+}

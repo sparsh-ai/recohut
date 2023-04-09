@@ -1,0 +1,51 @@
+{
+  "permalink": "/blog/2021/10/01/object-detection-with-opencv",
+  "source": "@site/blog/2021-10-01-object-detection-with-opencv.mdx",
+  "title": "Object detection with OpenCV",
+  "description": "Face detection",
+  "date": "2021-10-01T00:00:00.000Z",
+  "formattedDate": "October 1, 2021",
+  "tags": [
+    {
+      "label": "object detection",
+      "permalink": "/blog/tags/object-detection"
+    },
+    {
+      "label": "opencv",
+      "permalink": "/blog/tags/opencv"
+    },
+    {
+      "label": "vision",
+      "permalink": "/blog/tags/vision"
+    }
+  ],
+  "readingTime": 1.565,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Sparsh Agarwal",
+      "title": "Data Scientist & Engineer",
+      "url": "https://github.com/sparsh-ai",
+      "email": "sprsag@gmail.com",
+      "imageURL": "https://github.com/sparsh-ai.png",
+      "key": "sparsh"
+    }
+  ],
+  "frontMatter": {
+    "title": "Object detection with OpenCV",
+    "authors": "sparsh",
+    "tags": [
+      "object detection",
+      "opencv",
+      "vision"
+    ]
+  },
+  "prevItem": {
+    "title": "Object Detection Hands-on Exercises",
+    "permalink": "/blog/2021/10/01/object-detection-hands-on-exercises"
+  },
+  "nextItem": {
+    "title": "Object detection with YOLO3",
+    "permalink": "/blog/2021/10/01/object-detection-with-yolo3"
+  }
+}

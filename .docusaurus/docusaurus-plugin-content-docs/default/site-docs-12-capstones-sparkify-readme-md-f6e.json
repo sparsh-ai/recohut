@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/sparkify/README",
+  "id": "capstones/sparkify/README",
+  "title": "Sparkify",
+  "description": "Sparkify SQL Data Modeling with Postgres",
+  "source": "@site/docs/12-capstones/sparkify/README.md",
+  "sourceDirName": "12-capstones/sparkify",
+  "slug": "/capstones/sparkify/",
+  "permalink": "/docs/capstones/sparkify/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "README",
+    "permalink": "/docs/capstones/smartcity/analytics/producer-cdk/"
+  },
+  "next": {
+    "title": "Spotify",
+    "permalink": "/docs/capstones/spotify/"
+  }
+}

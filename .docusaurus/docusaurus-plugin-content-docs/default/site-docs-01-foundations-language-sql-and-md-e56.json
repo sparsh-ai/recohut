@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/language/sql/and",
+  "id": "foundations/language/sql/and",
+  "title": "SQL AND",
+  "description": "AND is a logical operator in SQL that allows you to select only rows that satisfy two conditions.",
+  "source": "@site/docs/01-foundations/language/sql/and.md",
+  "sourceDirName": "01-foundations/language/sql",
+  "slug": "/foundations/language/sql/and",
+  "permalink": "/docs/foundations/language/sql/and",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SQL Aggregate Functions",
+    "permalink": "/docs/foundations/language/sql/aggregate-functions"
+  },
+  "next": {
+    "title": "SQL BETWEEN",
+    "permalink": "/docs/foundations/language/sql/between"
+  }
+}

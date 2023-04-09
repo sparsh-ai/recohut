@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/code-snippets",
+  "id": "storage/code-snippets",
+  "title": "Code Snippets",
+  "description": "Connect to Redshift using Python",
+  "source": "@site/docs/02-storage/code-snippets.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/code-snippets",
+  "permalink": "/docs/storage/code-snippets",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Cassandra",
+    "permalink": "/docs/storage/cassandra"
+  },
+  "next": {
+    "title": "Compression",
+    "permalink": "/docs/storage/compression"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "data-modeling/lab-cassandra-shopping-cart-data-model/README",
+  "id": "data-modeling/lab-cassandra-shopping-cart-data-model/README",
+  "title": "Create a Data Model for Online Shopping Carts",
+  "description": "Conceptual Data Model",
+  "source": "@site/docs/04-data-modeling/lab-cassandra-shopping-cart-data-model/README.md",
+  "sourceDirName": "04-data-modeling/lab-cassandra-shopping-cart-data-model",
+  "slug": "/data-modeling/lab-cassandra-shopping-cart-data-model/",
+  "permalink": "/docs/data-modeling/lab-cassandra-shopping-cart-data-model/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Create a Data Model for Temperature Monitoring Sensor Networks",
+    "permalink": "/docs/data-modeling/lab-cassandra-sensor-data-model/"
+  },
+  "next": {
+    "title": "Disease Diagnosis and Medic Recommendation System",
+    "permalink": "/docs/data-modeling/lab-disease-diagnosis/"
+  }
+}

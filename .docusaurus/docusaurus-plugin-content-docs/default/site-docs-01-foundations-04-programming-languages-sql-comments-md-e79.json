@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/programming-languages/sql/comments",
+  "id": "foundations/programming-languages/sql/comments",
+  "title": "Comments",
+  "description": "You can \"comment out\" pieces of code by adding combinations of characters. In other words, you can specify parts of your query that will not actually be treated like SQL code. It can be helpful to include comments that explain your thinking so that you can easily remember what you intended to do if you ever want to revisit your work. Commenting can also be useful if you want to test variations on your query while keeping all of your code intact.",
+  "source": "@site/docs/01-foundations/04-programming-languages/sql/comments.md",
+  "sourceDirName": "01-foundations/04-programming-languages/sql",
+  "slug": "/foundations/programming-languages/sql/comments",
+  "permalink": "/docs/foundations/programming-languages/sql/comments",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Yammer Analytics",
+    "permalink": "/docs/foundations/programming-languages/sql/challenges/yammer/"
+  },
+  "next": {
+    "title": "SQL Comparison Operators",
+    "permalink": "/docs/foundations/programming-languages/sql/comparison-operators"
+  }
+}

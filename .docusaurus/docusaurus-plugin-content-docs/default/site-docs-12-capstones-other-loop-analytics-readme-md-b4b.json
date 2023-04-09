@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/other/loop-analytics/README",
+  "id": "capstones/other/loop-analytics/README",
+  "title": "Loop Analytics",
+  "description": "Extracing data and loading it to Redshift, and a dbt project for transforming it.",
+  "source": "@site/docs/12-capstones/other/loop-analytics/README.md",
+  "sourceDirName": "12-capstones/other/loop-analytics",
+  "slug": "/capstones/other/loop-analytics/",
+  "permalink": "/docs/capstones/other/loop-analytics/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "notes",
+    "permalink": "/docs/capstones/other/fireflow/airflow/notes"
+  },
+  "next": {
+    "title": "Patent Analytics Data Pipeline",
+    "permalink": "/docs/capstones/other/patent-analytics/"
+  }
+}

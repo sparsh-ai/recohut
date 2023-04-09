@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/azure-datalake",
+  "id": "storage/azure-datalake",
+  "title": "Azure Data Lakes",
+  "description": "Azure Data Lake is a highly scalable and durable object-based cloud storage solution from Microsoft. It is optimized to store large amounts of structured and semi-structured data such as logs, application data, and documents.",
+  "source": "@site/docs/02-storage/azure-datalake.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/azure-datalake",
+  "permalink": "/docs/storage/azure-datalake",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DynamoDB",
+    "permalink": "/docs/storage/aws-dynamodb"
+  },
+  "next": {
+    "title": "Azure SQL Databases",
+    "permalink": "/docs/storage/azure-sql"
+  }
+}

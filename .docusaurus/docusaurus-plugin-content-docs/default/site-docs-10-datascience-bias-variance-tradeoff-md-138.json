@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/bias-variance-tradeoff",
+  "id": "datascience/bias-variance-tradeoff",
+  "title": "Bias-Variance Trade-Off",
+  "description": "Bias is a model’s ability to identify general trends and ideas in the dataset, whereas variance is the ability to model data with high precision. Since we think of bias and variance in terms of error, a lower bias or variance is better. The bias-variance relationship is often visualized as a set of dart throws on a bull’s-eye. The ideal set of throws is a cluster of hits all around the center ring, which is low bias (the general “center” of the throws is not shifted off/biased) and low variance (the collection of hits are clustered together rather than far out, indicating consistently good performance).",
+  "source": "@site/docs/10-datascience/bias-variance-tradeoff.md",
+  "sourceDirName": "10-datascience",
+  "slug": "/datascience/bias-variance-tradeoff",
+  "permalink": "/docs/datascience/bias-variance-tradeoff",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Bayesian Optimization",
+    "permalink": "/docs/datascience/bayesian-optimization"
+  },
+  "next": {
+    "title": "Challenges",
+    "permalink": "/docs/datascience/challenges/"
+  }
+}

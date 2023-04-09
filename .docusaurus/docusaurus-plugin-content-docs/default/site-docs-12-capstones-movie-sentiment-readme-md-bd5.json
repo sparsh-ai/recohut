@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/movie-sentiment/README",
+  "id": "capstones/movie-sentiment/README",
+  "title": "Movie Review Sentiment Analysis Pipeline",
+  "description": "Build a pipeline that expresses the fact artist review sentiment and film review sentiment, based on the data provided by IMDb and TMDb.",
+  "source": "@site/docs/12-capstones/movie-sentiment/README.md",
+  "sourceDirName": "12-capstones/movie-sentiment",
+  "slug": "/capstones/movie-sentiment/",
+  "permalink": "/docs/capstones/movie-sentiment/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Lufthansa API",
+    "permalink": "/docs/capstones/lufthansa/"
+  },
+  "next": {
+    "title": "Multi-touch Attribution",
+    "permalink": "/docs/capstones/multi-touch-attribution/"
+  }
+}

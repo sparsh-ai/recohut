@@ -1,0 +1,33 @@
+{
+  "permalink": "/blog/2021/10/01/pdf-to-wordcloud-via-mail",
+  "source": "@site/blog/2021-10-01-pdf-to-wordcloud-via-mail.mdx",
+  "title": "PDF to Wordcloud via Mail",
+  "description": "/img/content-blog-raw-blog-pdf-to-wordcloud-via-mail-untitled.png",
+  "date": "2021-10-01T00:00:00.000Z",
+  "formattedDate": "October 1, 2021",
+  "tags": [],
+  "readingTime": 1.015,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Sparsh Agarwal",
+      "title": "Data Scientist & Engineer",
+      "url": "https://github.com/sparsh-ai",
+      "email": "sprsag@gmail.com",
+      "imageURL": "https://github.com/sparsh-ai.png",
+      "key": "sparsh"
+    }
+  ],
+  "frontMatter": {
+    "title": "PDF to Wordcloud via Mail",
+    "authors": "sparsh"
+  },
+  "prevItem": {
+    "title": "OCR experiments",
+    "permalink": "/blog/2021/10/01/ocr-experiments"
+  },
+  "nextItem": {
+    "title": "Personalized Unexpectedness in  Recommender Systems",
+    "permalink": "/blog/2021/10/01/personalized-unexpectedness-in-recommender-systems"
+  }
+}

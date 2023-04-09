@@ -1,0 +1,26 @@
+{
+  "unversionedId": "data-modeling/lab-cassandra-email-data-model/README",
+  "id": "data-modeling/lab-cassandra-email-data-model/README",
+  "title": "Create a Data Model for an Email System",
+  "description": "Conceptual Data Model",
+  "source": "@site/docs/04-data-modeling/lab-cassandra-email-data-model/README.md",
+  "sourceDirName": "04-data-modeling/lab-cassandra-email-data-model",
+  "slug": "/data-modeling/lab-cassandra-email-data-model/",
+  "permalink": "/docs/data-modeling/lab-cassandra-email-data-model/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Create a Data Model for a Digital Music Library",
+    "permalink": "/docs/data-modeling/lab-cassandra-digital-music-library/"
+  },
+  "next": {
+    "title": "Hotel Reservations Data Modeling with Cassandra",
+    "permalink": "/docs/data-modeling/lab-cassandra-hotel-reservations/"
+  }
+}

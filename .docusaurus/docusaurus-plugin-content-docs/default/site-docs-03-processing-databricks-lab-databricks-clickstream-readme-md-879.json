@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/databricks/lab-databricks-clickstream/README",
+  "id": "processing/databricks/lab-databricks-clickstream/README",
+  "title": "Databricks AWS Integration and Clickstream Analysis",
+  "description": "Objective",
+  "source": "@site/docs/03-processing/databricks/lab-databricks-clickstream/README.md",
+  "sourceDirName": "03-processing/databricks/lab-databricks-clickstream",
+  "slug": "/processing/databricks/lab-databricks-clickstream/",
+  "permalink": "/docs/processing/databricks/lab-databricks-clickstream/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Cybersecurity Databricks",
+    "permalink": "/docs/processing/databricks/lab-cybersecurity-databricks/"
+  },
+  "next": {
+    "title": "Databricks Deltalake",
+    "permalink": "/docs/processing/databricks/lab-databricks-deltalake/"
+  }
+}

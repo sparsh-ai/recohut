@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/apache-druid",
+  "id": "processing/apache-druid",
+  "title": "Druid",
+  "description": "One database that meets all the criteria for real-time analytics application is Apache Druid. It enables subsecond performance at scale, provides high concurrency at the best value, and easily ingests and combines real-time streaming data and historical batch data. It is a high-performance, real-time analytics database that is flexible, efficient, and resilient.",
+  "source": "@site/docs/03-processing/apache-druid.md",
+  "sourceDirName": "03-processing",
+  "slug": "/processing/apache-druid",
+  "permalink": "/docs/processing/apache-druid",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Apache Beam",
+    "permalink": "/docs/processing/apache-beam"
+  },
+  "next": {
+    "title": "Apache Flink",
+    "permalink": "/docs/processing/apache-flink"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/acled/README",
+  "id": "capstones/acled/README",
+  "title": "ACLED",
+  "description": "Objective",
+  "source": "@site/docs/12-capstones/acled/README.md",
+  "sourceDirName": "12-capstones/acled",
+  "slug": "/capstones/acled/",
+  "permalink": "/docs/capstones/acled/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Serverless Streaming Data on AWS",
+    "permalink": "/docs/capstones/ServerlessStreamingApp/"
+  },
+  "next": {
+    "title": "Citi Bike Trip Histories",
+    "permalink": "/docs/capstones/citibike-trip-histories/"
+  }
+}

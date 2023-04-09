@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/smartcity/analytics/producer-cdk/README",
+  "id": "capstones/smartcity/analytics/producer-cdk/README",
+  "title": "README",
+  "description": "<<<<<<< HEAD",
+  "source": "@site/docs/12-capstones/smartcity/03-analytics/producer-cdk/README.md",
+  "sourceDirName": "12-capstones/smartcity/03-analytics/producer-cdk",
+  "slug": "/capstones/smartcity/analytics/producer-cdk/",
+  "permalink": "/docs/capstones/smartcity/analytics/producer-cdk/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "readme",
+    "permalink": "/docs/capstones/smartcity/analytics/producer-app/"
+  },
+  "next": {
+    "title": "Sparkify",
+    "permalink": "/docs/capstones/sparkify/"
+  }
+}

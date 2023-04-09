@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/orc",
+  "id": "storage/orc",
+  "title": "ORC",
+  "description": "Optimized Row Columnar (ORC) is a columnar storage format similar to Parquet. ORC was very popular for use with Apache Hive; while still widely used, we generally see it much less than Apache Parquet, and it enjoys somewhat less support in modern cloud ecosystem tools. For example, Snowflake and BigQuery support Parquet file import and export; while they can read from ORC files, neither tool can export to ORC.",
+  "source": "@site/docs/02-storage/orc.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/orc",
+  "permalink": "/docs/storage/orc",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "MySQL",
+    "permalink": "/docs/storage/mysql"
+  },
+  "next": {
+    "title": "Parquet vs CSV",
+    "permalink": "/docs/storage/parquet-vs-csv"
+  }
+}

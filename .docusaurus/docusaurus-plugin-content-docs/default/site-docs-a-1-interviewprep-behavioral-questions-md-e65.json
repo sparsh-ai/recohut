@@ -1,0 +1,26 @@
+{
+  "unversionedId": "a1-interviewprep/behavioral-questions",
+  "id": "a1-interviewprep/behavioral-questions",
+  "title": "Behavioral Questions",
+  "description": "Tell me about yourself",
+  "source": "@site/docs/a1-interviewprep/behavioral-questions.md",
+  "sourceDirName": "a1-interviewprep",
+  "slug": "/a1-interviewprep/behavioral-questions",
+  "permalink": "/docs/a1-interviewprep/behavioral-questions",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Behavioral Interview Questions",
+    "permalink": "/docs/a1-interviewprep/behavioral-interview-questions"
+  },
+  "next": {
+    "title": "Resume Buildup",
+    "permalink": "/docs/a1-interviewprep/resume-buildup"
+  }
+}

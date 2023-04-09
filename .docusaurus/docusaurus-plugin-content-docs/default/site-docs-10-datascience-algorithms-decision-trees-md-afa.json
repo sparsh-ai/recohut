@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/algorithms/decision-trees",
+  "id": "datascience/algorithms/decision-trees",
+  "title": "Decision Trees",
+  "description": "The concept of Decision Trees appeared in the 1960s in the field of psychology for modeling the concept of human learning, visually presenting possible outcomes to potential situations that stem from one prompt. It was around that time when people discovered the usefulness of Decision Trees in programming and mathematics. The first paper that was able to develop a concept of “Decision Tree” mathematically was published by William Belson in 1959. In 1977, various professors from Berkley and Stanford developed an algorithm known as Classification and Regression Trees (CART), which, true to its name, consisted of Classification and Regression Trees. To this day, CART still stands as an important algorithm for data analysis. In the field of ML, Decision Tree serves as one of the most popular algorithms for real-world data science problems.",
+  "source": "@site/docs/10-datascience/algorithms/decision-trees.md",
+  "sourceDirName": "10-datascience/algorithms",
+  "slug": "/datascience/algorithms/decision-trees",
+  "permalink": "/docs/datascience/algorithms/decision-trees",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Streamlit",
+    "permalink": "/docs/visualization/streamlit/"
+  },
+  "next": {
+    "title": "Gradient Boosting",
+    "permalink": "/docs/datascience/algorithms/gradient-boosting"
+  }
+}

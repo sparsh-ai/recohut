@@ -1,0 +1,26 @@
+{
+  "unversionedId": "a3-casestudies/README",
+  "id": "a3-casestudies/README",
+  "title": "Case Studies",
+  "description": "Steps",
+  "source": "@site/docs/a3-casestudies/README.md",
+  "sourceDirName": "a3-casestudies",
+  "slug": "/a3-casestudies/",
+  "permalink": "/docs/a3-casestudies/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Resume Buildup",
+    "permalink": "/docs/a1-interviewprep/resume-buildup"
+  },
+  "next": {
+    "title": "99 Group",
+    "permalink": "/docs/a3-casestudies/99group"
+  }
+}

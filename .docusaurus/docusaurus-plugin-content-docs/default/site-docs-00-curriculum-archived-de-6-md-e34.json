@@ -1,0 +1,26 @@
+{
+  "unversionedId": "curriculum/archived/de-6",
+  "id": "curriculum/archived/de-6",
+  "title": "Data Engineering Training | WeHire2100",
+  "description": "Topics",
+  "source": "@site/docs/00-curriculum/archived/de-6.md",
+  "sourceDirName": "00-curriculum/archived",
+  "slug": "/curriculum/archived/de-6",
+  "permalink": "/docs/curriculum/archived/de-6",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Curriculum",
+    "permalink": "/docs/curriculum/archived/de-5"
+  },
+  "next": {
+    "title": "Curriculum - Data Engineering Training (AWS)",
+    "permalink": "/docs/curriculum/de-aws-outline"
+  }
+}

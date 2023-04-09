@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/metrics-and-evaluation",
+  "id": "datascience/metrics-and-evaluation",
+  "title": "Metrics and Evaluation",
+  "description": "In general terms, metrics are tools to set standards and evaluate the performance of models. In the field of machine learning and data science, obtaining a functional model is far from enough. We need to develop methods and assessment metrics to determine how well models perform on tasks that are given. Metrics used in machine learning are formulas and equations that provide specific quantitative measurements as to how well the developed methods perform on the data provided. Evaluation refers to the process of distinguishing between the better and the worse models by comparing metrics.",
+  "source": "@site/docs/10-datascience/metrics-and-evaluation.md",
+  "sourceDirName": "10-datascience",
+  "slug": "/datascience/metrics-and-evaluation",
+  "permalink": "/docs/datascience/metrics-and-evaluation",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Feature Selection",
+    "permalink": "/docs/datascience/feature-selection"
+  },
+  "next": {
+    "title": "Natural Language Processing (NLP)",
+    "permalink": "/docs/datascience/nlp/"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "devops/containers/README",
+  "id": "devops/containers/README",
+  "title": "Containers",
+  "description": "Docker",
+  "source": "@site/docs/07-devops/containers/README.md",
+  "sourceDirName": "07-devops/containers",
+  "slug": "/devops/containers/",
+  "permalink": "/docs/devops/containers/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DevOps",
+    "permalink": "/docs/devops/"
+  },
+  "next": {
+    "title": "ETL Docker",
+    "permalink": "/docs/devops/containers/lab-assignment-etl-docker/"
+  }
+}

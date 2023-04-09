@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/basics/outliers-handling",
+  "id": "foundations/basics/outliers-handling",
+  "title": "Outliers Handling",
+  "description": "Remove categorical outliers",
+  "source": "@site/docs/01-foundations/basics/outliers-handling.md",
+  "sourceDirName": "01-foundations/basics",
+  "slug": "/foundations/basics/outliers-handling",
+  "permalink": "/docs/foundations/basics/outliers-handling",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "The data science origin story",
+    "permalink": "/docs/foundations/basics/origin"
+  },
+  "next": {
+    "title": "Spark RDDs",
+    "permalink": "/docs/foundations/basics/rdd"
+  }
+}

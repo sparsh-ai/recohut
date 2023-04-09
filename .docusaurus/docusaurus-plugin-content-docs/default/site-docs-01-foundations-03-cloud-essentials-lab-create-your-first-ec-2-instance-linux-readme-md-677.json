@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/cloud-essentials/lab-create-your-first-ec2-instance-linux/README",
+  "id": "foundations/cloud-essentials/lab-create-your-first-ec2-instance-linux/README",
+  "title": "Create Your First Amazon EC2 Instance (Linux)",
+  "description": "Description",
+  "source": "@site/docs/01-foundations/03-cloud-essentials/lab-create-your-first-ec2-instance-linux/README.md",
+  "sourceDirName": "01-foundations/03-cloud-essentials/lab-create-your-first-ec2-instance-linux",
+  "slug": "/foundations/cloud-essentials/lab-create-your-first-ec2-instance-linux/",
+  "permalink": "/docs/foundations/cloud-essentials/lab-create-your-first-ec2-instance-linux/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Create IAM Role and Policy",
+    "permalink": "/docs/foundations/cloud-essentials/lab-create-iam-policy-role/"
+  },
+  "next": {
+    "title": "Introduction to Virtual Private Cloud (VPC)",
+    "permalink": "/docs/foundations/cloud-essentials/lab-create-your-first-vpc/"
+  }
+}

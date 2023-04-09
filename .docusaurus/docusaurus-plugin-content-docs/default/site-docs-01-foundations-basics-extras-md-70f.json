@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/basics/extras",
+  "id": "foundations/basics/extras",
+  "title": "Extras",
+  "description": "Unified Approach",
+  "source": "@site/docs/01-foundations/basics/extras.md",
+  "sourceDirName": "01-foundations/basics",
+  "slug": "/foundations/basics/extras",
+  "permalink": "/docs/foundations/basics/extras",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Model Deployment",
+    "permalink": "/docs/foundations/basics/deployment"
+  },
+  "next": {
+    "title": "Hadoop Basics",
+    "permalink": "/docs/foundations/basics/hadoop-basics"
+  }
+}

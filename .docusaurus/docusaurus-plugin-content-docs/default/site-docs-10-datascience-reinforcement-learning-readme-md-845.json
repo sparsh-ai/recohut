@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/reinforcement-learning/README",
+  "id": "datascience/reinforcement-learning/README",
+  "title": "Experimentation",
+  "description": "Common Engineering Workflow",
+  "source": "@site/docs/10-datascience/reinforcement-learning/README.md",
+  "sourceDirName": "10-datascience/reinforcement-learning",
+  "slug": "/datascience/reinforcement-learning/",
+  "permalink": "/docs/datascience/reinforcement-learning/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Regression",
+    "permalink": "/docs/datascience/regression/"
+  },
+  "next": {
+    "title": "Bias & Fairness",
+    "permalink": "/docs/datascience/reinforcement-learning/bias-&-fairness"
+  }
+}

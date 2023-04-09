@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/lab-redshift-data-loading-python",
+  "id": "storage/lab-redshift-data-loading-python",
+  "title": "Data Loading using Python",
+  "description": "1. Connect to Redshift and Read data using Psycopg2 library",
+  "source": "@site/docs/02-storage/lab-redshift-data-loading-python.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/lab-redshift-data-loading-python",
+  "permalink": "/docs/storage/lab-redshift-data-loading-python",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data Loading and Analysis",
+    "permalink": "/docs/storage/lab-redshift-data-loading-analysis"
+  },
+  "next": {
+    "title": "Data Loading into Redshift",
+    "permalink": "/docs/storage/lab-redshift-data-loading"
+  }
+}

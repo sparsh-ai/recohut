@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/data-engineering-foundations/de-basics",
+  "id": "foundations/data-engineering-foundations/de-basics",
+  "title": "Basics",
+  "description": "What is Data Engineering?",
+  "source": "@site/docs/01-foundations/02-data-engineering-foundations/de-basics.md",
+  "sourceDirName": "01-foundations/02-data-engineering-foundations",
+  "slug": "/foundations/data-engineering-foundations/de-basics",
+  "permalink": "/docs/foundations/data-engineering-foundations/de-basics",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data Storages",
+    "permalink": "/docs/foundations/data-engineering-foundations/data-storages"
+  },
+  "next": {
+    "title": "Model Deployment",
+    "permalink": "/docs/foundations/data-engineering-foundations/deployment"
+  }
+}

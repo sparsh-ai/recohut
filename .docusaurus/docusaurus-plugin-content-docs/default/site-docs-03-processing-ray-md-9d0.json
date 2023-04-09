@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/ray",
+  "id": "processing/ray",
+  "title": "Ray",
+  "description": "What is Ray?",
+  "source": "@site/docs/03-processing/ray.md",
+  "sourceDirName": "03-processing",
+  "slug": "/processing/ray",
+  "permalink": "/docs/processing/ray",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Building an event-driven IKEA app with Kafka",
+    "permalink": "/docs/processing/project-kafka-ikea/"
+  },
+  "next": {
+    "title": "Snowpark",
+    "permalink": "/docs/processing/snowpark"
+  }
+}

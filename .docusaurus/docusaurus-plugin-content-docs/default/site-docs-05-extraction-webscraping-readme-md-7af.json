@@ -1,0 +1,26 @@
+{
+  "unversionedId": "extraction/webscraping/README",
+  "id": "extraction/webscraping/README",
+  "title": "Web Scraping",
+  "description": "Labs",
+  "source": "@site/docs/05-extraction/webscraping/README.md",
+  "sourceDirName": "05-extraction/webscraping",
+  "slug": "/extraction/webscraping/",
+  "permalink": "/docs/extraction/webscraping/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Faker",
+    "permalink": "/docs/extraction/faker/"
+  },
+  "next": {
+    "title": "Financial Data Extraction and Storage",
+    "permalink": "/docs/extraction/webscraping/lab-finance-extract-load/"
+  }
+}

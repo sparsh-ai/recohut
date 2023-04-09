@@ -1,0 +1,26 @@
+{
+  "unversionedId": "data-modeling/data-vault-modeling",
+  "id": "data-modeling/data-vault-modeling",
+  "title": "Data Vault Modeling",
+  "description": "A hybrid between 3NF and dimensional modeling, the Data Vault model is much closer to 3NF than to the dimensional model. It tries to keep the best features of 3NF, such as ease of querying highly granular, historical data, and still restructures the data into new types of tables, such as satellites, links, hubs, bridges, and PITs. A Data Vault is a more recent data modeling design pattern used to build data warehouses for enterprise-scale analytics compared to Kimball and Inmon methods. Data Vaults organize data into three different types:  hubs ,  links , and  satellites . Hubs represent core business entities, links represent relationships between hubs, and satellites store attributes about hubs or links. Data Vault focuses on agile data warehouse development where scalability, data integration/ETL and development speed are important.",
+  "source": "@site/docs/04-data-modeling/data-vault-modeling.md",
+  "sourceDirName": "04-data-modeling",
+  "slug": "/data-modeling/data-vault-modeling",
+  "permalink": "/docs/data-modeling/data-vault-modeling",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Steps of Building Data Models",
+    "permalink": "/docs/data-modeling/data-modeling-steps"
+  },
+  "next": {
+    "title": "Data Warehousing",
+    "permalink": "/docs/data-modeling/data-warehousing"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/lab-azure-synapse-data-processing/README",
+  "id": "processing/lab-azure-synapse-data-processing/README",
+  "title": "Processing Data Using Azure Synapse Analytics",
+  "description": "This lab covers exploring data using Synapse Serverless SQL pool, processing data using Synapse Spark Pools, Working with Synapse Lake database, and integrating Synapse Analytics with Power BI",
+  "source": "@site/docs/03-processing/lab-azure-synapse-data-processing/README.md",
+  "sourceDirName": "03-processing/lab-azure-synapse-data-processing",
+  "slug": "/processing/lab-azure-synapse-data-processing/",
+  "permalink": "/docs/processing/lab-azure-synapse-data-processing/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Simple Data Pipeline with HDInsight",
+    "permalink": "/docs/processing/lab-azure-hdinsight-simple-data-processing/"
+  },
+  "next": {
+    "title": "Transforming Data Using Azure Synapse Dataflows",
+    "permalink": "/docs/processing/lab-azure-synapse-dataflows/"
+  }
+}

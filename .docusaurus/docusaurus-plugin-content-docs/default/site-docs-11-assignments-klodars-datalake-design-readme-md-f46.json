@@ -1,0 +1,26 @@
+{
+  "unversionedId": "assignments/klodars-datalake-design/README",
+  "id": "assignments/klodars-datalake-design/README",
+  "title": "Klodars Datalake Design",
+  "description": "Problem Statement",
+  "source": "@site/docs/11-assignments/klodars-datalake-design/README.md",
+  "sourceDirName": "11-assignments/klodars-datalake-design",
+  "slug": "/assignments/klodars-datalake-design/",
+  "permalink": "/docs/assignments/klodars-datalake-design/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "HealthVerity",
+    "permalink": "/docs/assignments/healthverity/"
+  },
+  "next": {
+    "title": "Logsense",
+    "permalink": "/docs/assignments/logsense/"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/language/pyspark/lab-sql-to-pyspark/README",
+  "id": "foundations/language/pyspark/lab-sql-to-pyspark/README",
+  "title": "SQL to PySpark Code Conversion",
+  "description": "Output:",
+  "source": "@site/docs/01-foundations/language/pyspark/lab-sql-to-pyspark/README.md",
+  "sourceDirName": "01-foundations/language/pyspark/lab-sql-to-pyspark",
+  "slug": "/foundations/language/pyspark/lab-sql-to-pyspark/",
+  "permalink": "/docs/foundations/language/pyspark/lab-sql-to-pyspark/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Spark Optimizations",
+    "permalink": "/docs/foundations/language/pyspark/lab-spark-optimizations-2/"
+  },
+  "next": {
+    "title": "Uber Data Analysis in Pyspark",
+    "permalink": "/docs/foundations/language/pyspark/lab-uber-analysis/"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "orchestration/airflow/labdev-spotify/README",
+  "id": "orchestration/airflow/labdev-spotify/README",
+  "title": "Spotify-Data-Engineering-and-Analysis",
+  "description": "Data Engineering and Analysis using Spotify API to get statistical insights about played music",
+  "source": "@site/docs/06-orchestration/airflow/labdev-spotify/README.md",
+  "sourceDirName": "06-orchestration/airflow/labdev-spotify",
+  "slug": "/orchestration/airflow/labdev-spotify/",
+  "permalink": "/docs/orchestration/airflow/labdev-spotify/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Creating ETL Data Pipelines using Apache Airflow",
+    "permalink": "/docs/orchestration/airflow/lab-tolldata/"
+  },
+  "next": {
+    "title": "Azure Data Factory",
+    "permalink": "/docs/orchestration/azure-data-factory/"
+  }
+}

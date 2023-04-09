@@ -1,0 +1,26 @@
+{
+  "unversionedId": "mlops/README",
+  "id": "mlops/README",
+  "title": "MLOps",
+  "description": "The boom in AI has seen a rising demand for better AI infrastructure — both in the compute hardware layer and AI framework optimizations that make optimal use of accelerated compute. Unfortunately, organizations often overlook the critical importance of a middle tier: infrastructure software that standardizes the ML life cycle, adding a common platform for teams of data scientists and researchers to standardize their approach and eliminate distracting DevOps work. This process of building the ML life cycle is increasingly known as MLOps, with end-to-end platforms being built to automate and standardize repeatable manual processes. Although dozens of MLOps platforms exist, adopting one can be confusing and cumbersome. What should be considered when employing MLOps? What are the core pillars to MLOps, and which features are most critical?",
+  "source": "@site/docs/17-mlops/README.md",
+  "sourceDirName": "17-mlops",
+  "slug": "/mlops/",
+  "permalink": "/docs/mlops/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "US Immigration analysis and data pipeline",
+    "permalink": "/docs/capstones/us-immigration/"
+  },
+  "next": {
+    "title": "MLOps Code Snippets",
+    "permalink": "/docs/mlops/code-snippets"
+  }
+}

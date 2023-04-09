@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/redshield/README",
+  "id": "capstones/redshield/README",
+  "title": "AWS Kafka and DynamoDB for real time fraud detection",
+  "description": "Problem Statement",
+  "source": "@site/docs/12-capstones/redshield/README.md",
+  "sourceDirName": "12-capstones/redshield",
+  "slug": "/capstones/redshield/",
+  "permalink": "/docs/capstones/redshield/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Reddit Submissions, Authors and Subreddits analysis",
+    "permalink": "/docs/capstones/reddit/"
+  },
+  "next": {
+    "title": "Data Pipeline with dbt, Airflow and Great Expectations",
+    "permalink": "/docs/capstones/robust-data-pipeline/"
+  }
+}

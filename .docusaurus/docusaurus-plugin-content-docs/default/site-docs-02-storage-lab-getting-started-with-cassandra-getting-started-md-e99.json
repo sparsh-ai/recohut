@@ -1,0 +1,47 @@
+{
+  "unversionedId": "storage/lab-getting-started-with-cassandra/getting-started",
+  "id": "storage/lab-getting-started-with-cassandra/getting-started",
+  "title": "Cassandra Getting Started",
+  "description": "NoSQL data modeling and analysis with Apache Cassandra",
+  "source": "@site/docs/02-storage/lab-getting-started-with-cassandra/getting-started.md",
+  "sourceDirName": "02-storage/lab-getting-started-with-cassandra",
+  "slug": "/storage/lab-getting-started-with-cassandra/getting-started",
+  "permalink": "/docs/storage/lab-getting-started-with-cassandra/getting-started",
+  "draft": false,
+  "tags": [
+    {
+      "label": "cassandra",
+      "permalink": "/docs/tags/cassandra"
+    },
+    {
+      "label": "cql",
+      "permalink": "/docs/tags/cql"
+    },
+    {
+      "label": "keyspaces",
+      "permalink": "/docs/tags/keyspaces"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "title": "Cassandra Getting Started",
+    "description": "NoSQL data modeling and analysis with Apache Cassandra",
+    "tags": [
+      "cassandra",
+      "cql",
+      "keyspaces"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Working with Cassandra and CLI",
+    "permalink": "/docs/storage/lab-getting-started-with-cassandra/cassandra-cli"
+  },
+  "next": {
+    "title": "Build a serverless transactional data lake with Apache Iceberg, Amazon EMR Serverless, and Amazon Athena",
+    "permalink": "/docs/storage/lab-glue-emr-iceberg-serverless-lakehouse/"
+  }
+}

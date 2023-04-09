@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/other/twitter-sentiment-realtime/README",
+  "id": "capstones/other/twitter-sentiment-realtime/README",
+  "title": "Twitter Sentiment Realtime",
+  "description": "Objective",
+  "source": "@site/docs/12-capstones/other/twitter-sentiment-realtime/README.md",
+  "sourceDirName": "12-capstones/other/twitter-sentiment-realtime",
+  "slug": "/capstones/other/twitter-sentiment-realtime/",
+  "permalink": "/docs/capstones/other/twitter-sentiment-realtime/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Scoping",
+    "permalink": "/docs/capstones/other/topic-modeling-pipeline/v2/scoping"
+  },
+  "next": {
+    "title": "Auto-Ingest Twitter Data into Snowflake",
+    "permalink": "/docs/capstones/other/twitter-snowpipe/"
+  }
+}

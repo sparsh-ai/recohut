@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/developer-foundations/install-anaconda",
+  "id": "foundations/developer-foundations/install-anaconda",
+  "title": "Install Anaconda",
+  "description": "1. Download the file from https://www.anaconda.com/products/distribution and install it",
+  "source": "@site/docs/01-foundations/01-developer-foundations/install-anaconda.md",
+  "sourceDirName": "01-foundations/01-developer-foundations",
+  "slug": "/foundations/developer-foundations/install-anaconda",
+  "permalink": "/docs/foundations/developer-foundations/install-anaconda",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Recohut Data Bootcamps",
+    "permalink": "/docs/bootcamp"
+  },
+  "next": {
+    "title": "Install DBeaver",
+    "permalink": "/docs/foundations/developer-foundations/install-dbeaver"
+  }
+}

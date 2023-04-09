@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/language/sql/stored-procedures",
+  "id": "foundations/language/sql/stored-procedures",
+  "title": "Stored Procedures",
+  "description": "A stored procedure is a set of SQL statements stored in a database. These statements can request data entry parameters, which are used as variables during execution, and can constitute a data output.",
+  "source": "@site/docs/01-foundations/language/sql/stored-procedures.md",
+  "sourceDirName": "01-foundations/language/sql",
+  "slug": "/foundations/language/sql/stored-procedures",
+  "permalink": "/docs/foundations/language/sql/stored-procedures",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SQL Query",
+    "permalink": "/docs/foundations/language/sql/sql-query"
+  },
+  "next": {
+    "title": "SQL String Functions",
+    "permalink": "/docs/foundations/language/sql/string-functions"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/recsys/movielens-mf-node2vec-graph-embeddings/README",
+  "id": "datascience/recsys/movielens-mf-node2vec-graph-embeddings/README",
+  "title": "Recommender System with Node2vec Graph Embeddings",
+  "description": "Building a movie recommender system that will learn user-item representation using graph embedding and comparing performance with other methods like matrix factorization",
+  "source": "@site/docs/10-datascience/recsys/movielens-mf-node2vec-graph-embeddings/README.md",
+  "sourceDirName": "10-datascience/recsys/movielens-mf-node2vec-graph-embeddings",
+  "slug": "/datascience/recsys/movielens-mf-node2vec-graph-embeddings/",
+  "permalink": "/docs/datascience/recsys/movielens-mf-node2vec-graph-embeddings/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Most Prominent Architectures",
+    "permalink": "/docs/datascience/recsys/most-prominent-architectures"
+  },
+  "next": {
+    "title": "Regression",
+    "permalink": "/docs/datascience/regression/"
+  }
+}

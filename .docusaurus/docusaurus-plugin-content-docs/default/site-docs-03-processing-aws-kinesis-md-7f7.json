@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/aws-kinesis",
+  "id": "processing/aws-kinesis",
+  "title": "Kinesis",
+  "description": "Easily collect, process, and analyze video and data streams in real time",
+  "source": "@site/docs/03-processing/aws-kinesis.md",
+  "sourceDirName": "03-processing",
+  "slug": "/processing/aws-kinesis",
+  "permalink": "/docs/processing/aws-kinesis",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Amazon EMR",
+    "permalink": "/docs/processing/aws-emr"
+  },
+  "next": {
+    "title": "Snippets related to Lambda function",
+    "permalink": "/docs/processing/aws-lambda-snippets"
+  }
+}

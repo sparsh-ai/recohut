@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/arrow",
+  "id": "storage/arrow",
+  "title": "Apache Arrow or in-memory serialization",
+  "description": "When we introduced serialization as a storage raw ingredient at the beginning of this chapter, we mentioned that software could store data in complex objects scattered in memory and connected by pointers, or more orderly, densely packed structures such as Fortran and C arrays. Generally, densely packed in-memory data structures were limited to simple types (e.g., INT64) or fixed-width data structures (e.g., fixed-width strings). More complex structures (e.g., JSON documents) could not be densely stored in memory and required serialization for storage and transfer between systems.",
+  "source": "@site/docs/02-storage/arrow.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/arrow",
+  "permalink": "/docs/storage/arrow",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Apache Iceberg",
+    "permalink": "/docs/storage/apache-iceberg"
+  },
+  "next": {
+    "title": "Amazon Athena",
+    "permalink": "/docs/storage/athena"
+  }
+}

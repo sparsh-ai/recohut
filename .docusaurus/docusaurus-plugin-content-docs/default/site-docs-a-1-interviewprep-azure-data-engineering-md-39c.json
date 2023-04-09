@@ -1,0 +1,26 @@
+{
+  "unversionedId": "a1-interviewprep/azure-data-engineering",
+  "id": "a1-interviewprep/azure-data-engineering",
+  "title": "Azure Data Engineering",
+  "description": "Case study - data lake",
+  "source": "@site/docs/a1-interviewprep/azure-data-engineering.md",
+  "sourceDirName": "a1-interviewprep",
+  "slug": "/a1-interviewprep/azure-data-engineering",
+  "permalink": "/docs/a1-interviewprep/azure-data-engineering",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Algorithm Problems",
+    "permalink": "/docs/a1-interviewprep/algorithm-problems"
+  },
+  "next": {
+    "title": "Basic Technical Questions",
+    "permalink": "/docs/a1-interviewprep/basic-technical-questions"
+  }
+}

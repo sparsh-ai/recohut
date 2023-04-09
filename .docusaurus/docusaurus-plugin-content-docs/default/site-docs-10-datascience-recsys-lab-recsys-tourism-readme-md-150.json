@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/recsys/lab-recsys-tourism/README",
+  "id": "datascience/recsys/lab-recsys-tourism/README",
+  "title": "Travel Recommendation System",
+  "description": "TravelBuddy is a startup working on building am AI-based recommendation system that will recommend travel products (e.g. hotels, destination places, restaurants) to its users. You are hired as an AI developer that will handle the end-to-end development and maintenance of this AI system.",
+  "source": "@site/docs/10-datascience/recsys/lab-recsys-tourism/README.md",
+  "sourceDirName": "10-datascience/recsys/lab-recsys-tourism",
+  "slug": "/datascience/recsys/lab-recsys-tourism/",
+  "permalink": "/docs/datascience/recsys/lab-recsys-tourism/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "RecSys Matrix Factorizations",
+    "permalink": "/docs/datascience/recsys/lab-recsys-matrix-factorizations/"
+  },
+  "next": {
+    "title": "Retail Product Recommendations using word2vec",
+    "permalink": "/docs/datascience/recsys/lab-retail-product-recommend-word2vec/"
+  }
+}

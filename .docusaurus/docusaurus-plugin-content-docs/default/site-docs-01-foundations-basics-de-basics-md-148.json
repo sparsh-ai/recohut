@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/basics/de-basics",
+  "id": "foundations/basics/de-basics",
+  "title": "Data Engineering Getting Started Guide",
+  "description": "What is Data Engineering?",
+  "source": "@site/docs/01-foundations/basics/de-basics.md",
+  "sourceDirName": "01-foundations/basics",
+  "slug": "/foundations/basics/de-basics",
+  "permalink": "/docs/foundations/basics/de-basics",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data Storages",
+    "permalink": "/docs/foundations/basics/data-storages"
+  },
+  "next": {
+    "title": "Model Deployment",
+    "permalink": "/docs/foundations/basics/deployment"
+  }
+}

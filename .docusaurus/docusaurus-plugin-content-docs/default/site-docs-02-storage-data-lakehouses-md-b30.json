@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/data-lakehouses",
+  "id": "storage/data-lakehouses",
+  "title": "Data Lakehouses",
+  "description": "We have been collecting data for decades. The flat file storages of the 60s led to the data warehouses of the 80s to Massively Parallel Processing (MPP) and NoSQL databases, and eventually to data lakes and now the lakehouses. New paradigms continue to be coined but it would be fair to say that most enterprise organizations have settled on some variation of a data lake and lakehouse:",
+  "source": "@site/docs/02-storage/data-lakehouses.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/data-lakehouses",
+  "permalink": "/docs/storage/data-lakehouses",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "CSV: The nonstandard standard",
+    "permalink": "/docs/storage/csv"
+  },
+  "next": {
+    "title": "Data Mesh Basics",
+    "permalink": "/docs/storage/data-mesh-basics"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "orchestration/airflow/lab-tolldata/README",
+  "id": "orchestration/airflow/lab-tolldata/README",
+  "title": "Creating ETL Data Pipelines using Apache Airflow",
+  "description": "Objective",
+  "source": "@site/docs/06-orchestration/airflow/lab-tolldata/README.md",
+  "sourceDirName": "06-orchestration/airflow/lab-tolldata",
+  "slug": "/orchestration/airflow/lab-tolldata/",
+  "permalink": "/docs/orchestration/airflow/lab-tolldata/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "IMDB data procesing and Airflow pipeline",
+    "permalink": "/docs/orchestration/airflow/lab-imdb-spark-etl/"
+  },
+  "next": {
+    "title": "Spotify-Data-Engineering-and-Analysis",
+    "permalink": "/docs/orchestration/airflow/labdev-spotify/"
+  }
+}

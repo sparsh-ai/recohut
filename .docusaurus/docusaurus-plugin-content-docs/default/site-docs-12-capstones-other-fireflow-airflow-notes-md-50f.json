@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/other/fireflow/airflow/notes",
+  "id": "capstones/other/fireflow/airflow/notes",
+  "title": "notes",
+  "description": "1. How to set project",
+  "source": "@site/docs/12-capstones/other/fireflow/airflow/notes.md",
+  "sourceDirName": "12-capstones/other/fireflow/airflow",
+  "slug": "/capstones/other/fireflow/airflow/notes",
+  "permalink": "/docs/capstones/other/fireflow/airflow/notes",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Build an ELT pipeline with NYC Taxi dataset",
+    "permalink": "/docs/capstones/other/fireflow/"
+  },
+  "next": {
+    "title": "Loop Analytics",
+    "permalink": "/docs/capstones/other/loop-analytics/"
+  }
+}

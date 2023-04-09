@@ -1,0 +1,26 @@
+{
+  "unversionedId": "extraction/api/lab-hackernews-git-api/README",
+  "id": "extraction/api/lab-hackernews-git-api/README",
+  "title": "API HackerNews Github",
+  "description": "GitHub API",
+  "source": "@site/docs/05-extraction/api/lab-hackernews-git-api/README.md",
+  "sourceDirName": "05-extraction/api/lab-hackernews-git-api",
+  "slug": "/extraction/api/lab-hackernews-git-api/",
+  "permalink": "/docs/extraction/api/lab-hackernews-git-api/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data Extraction from APIs",
+    "permalink": "/docs/extraction/api/"
+  },
+  "next": {
+    "title": "Extract data from multiple sources and load into database",
+    "permalink": "/docs/extraction/api/lab-scoota/"
+  }
+}

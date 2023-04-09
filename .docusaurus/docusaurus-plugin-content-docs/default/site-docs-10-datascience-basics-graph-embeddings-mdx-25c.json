@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/basics/graph-embeddings",
+  "id": "datascience/basics/graph-embeddings",
+  "title": "Graph Embeddings",
+  "description": "Due to their nature, graphs can be analyzed at different levels of granularity: at the node, edge, and graph level (the whole graph), as depicted in the following figure. For each of those levels, different problems could be faced and, as a consequence, specific algorithms should be used.",
+  "source": "@site/docs/10-datascience/basics/graph-embeddings.mdx",
+  "sourceDirName": "10-datascience/basics",
+  "slug": "/datascience/basics/graph-embeddings",
+  "permalink": "/docs/datascience/basics/graph-embeddings",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Cross-domain",
+    "permalink": "/docs/datascience/basics/cross-domain"
+  },
+  "next": {
+    "title": "Graph Networks",
+    "permalink": "/docs/datascience/basics/graph-networks"
+  }
+}

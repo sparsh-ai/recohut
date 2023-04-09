@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/basics/multi-objective-optimization",
+  "id": "datascience/basics/multi-objective-optimization",
+  "title": "Multi-Objective Optimization",
+  "description": "Recommender systems have been widely applied to several domains and applications. Traditional recommender systems usually deal with a single objective, such as minimizing the prediction errors or maximizing the ranking of the recommendation list. There is an emerging demand for multi-objective optimization so that the development of recommendation models can take multiple objectives into consideration, especially in the area of multi-stakeholder and multi-task recommender systems.",
+  "source": "@site/docs/10-datascience/basics/multi-objective-optimization.mdx",
+  "sourceDirName": "10-datascience/basics",
+  "slug": "/datascience/basics/multi-objective-optimization",
+  "permalink": "/docs/datascience/basics/multi-objective-optimization",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Model Retraining",
+    "permalink": "/docs/datascience/basics/model-retraining"
+  },
+  "next": {
+    "title": "Multi-Task Learning",
+    "permalink": "/docs/datascience/basics/multitask-learning"
+  }
+}

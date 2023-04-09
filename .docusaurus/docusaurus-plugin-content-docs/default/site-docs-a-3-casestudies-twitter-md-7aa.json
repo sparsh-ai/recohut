@@ -1,0 +1,26 @@
+{
+  "unversionedId": "a3-casestudies/twitter",
+  "id": "a3-casestudies/twitter",
+  "title": "Twitter",
+  "description": "Watch this video//www.youtube.com/watch?v=OQPpEEMm6Gg",
+  "source": "@site/docs/a3-casestudies/twitter.md",
+  "sourceDirName": "a3-casestudies",
+  "slug": "/a3-casestudies/twitter",
+  "permalink": "/docs/a3-casestudies/twitter",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Twilio",
+    "permalink": "/docs/a3-casestudies/twilio"
+  },
+  "next": {
+    "title": "Uber",
+    "permalink": "/docs/a3-casestudies/uber"
+  }
+}

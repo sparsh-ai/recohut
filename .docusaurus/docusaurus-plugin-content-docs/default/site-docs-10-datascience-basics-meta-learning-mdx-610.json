@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/basics/meta-learning",
+  "id": "datascience/basics/meta-learning",
+  "title": "Meta Learning",
+  "description": "Meta learning covers a wide range of topics and has contributed to a booming study trend. Few-shot learning is one of successful branches of meta learning. We retrospect some representative meta-learning models with strong connections to our work.",
+  "source": "@site/docs/10-datascience/basics/meta-learning.mdx",
+  "sourceDirName": "10-datascience/basics",
+  "slug": "/datascience/basics/meta-learning",
+  "permalink": "/docs/datascience/basics/meta-learning",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Incremental Learning",
+    "permalink": "/docs/datascience/basics/incremental-learning"
+  },
+  "next": {
+    "title": "Model Retraining",
+    "permalink": "/docs/datascience/basics/model-retraining"
+  }
+}

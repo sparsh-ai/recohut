@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/programming-languages/sql/sql-basics",
+  "id": "foundations/programming-languages/sql/sql-basics",
+  "title": "SQL Basics",
+  "description": "What is SQL?",
+  "source": "@site/docs/01-foundations/04-programming-languages/sql/sql-basics.md",
+  "sourceDirName": "01-foundations/04-programming-languages/sql",
+  "slug": "/foundations/programming-languages/sql/sql-basics",
+  "permalink": "/docs/foundations/programming-languages/sql/sql-basics",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SQL SELECT",
+    "permalink": "/docs/foundations/programming-languages/sql/select"
+  },
+  "next": {
+    "title": "SQL Interview Questions",
+    "permalink": "/docs/foundations/programming-languages/sql/sql-interviews-questions"
+  }
+}

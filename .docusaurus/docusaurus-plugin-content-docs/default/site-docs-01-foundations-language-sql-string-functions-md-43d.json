@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/language/sql/string-functions",
+  "id": "foundations/language/sql/string-functions",
+  "title": "SQL String Functions",
+  "description": "| Name                                                                                                    | Description                                                                              |",
+  "source": "@site/docs/01-foundations/language/sql/string-functions.md",
+  "sourceDirName": "01-foundations/language/sql",
+  "slug": "/foundations/language/sql/string-functions",
+  "permalink": "/docs/foundations/language/sql/string-functions",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Stored Procedures",
+    "permalink": "/docs/foundations/language/sql/stored-procedures"
+  },
+  "next": {
+    "title": "Subquery",
+    "permalink": "/docs/foundations/language/sql/subquery"
+  }
+}

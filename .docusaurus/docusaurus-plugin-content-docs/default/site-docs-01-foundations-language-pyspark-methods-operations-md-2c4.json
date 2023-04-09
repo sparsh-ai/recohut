@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/language/pyspark/methods-operations",
+  "id": "foundations/language/pyspark/methods-operations",
+  "title": "Methods, Operations and Functions",
+  "description": "PySpark provides a variety of methods to work with data, some of the most commonly used are:",
+  "source": "@site/docs/01-foundations/language/pyspark/methods-operations.md",
+  "sourceDirName": "01-foundations/language/pyspark",
+  "slug": "/foundations/language/pyspark/methods-operations",
+  "permalink": "/docs/foundations/language/pyspark/methods-operations",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Lazy Processing",
+    "permalink": "/docs/foundations/language/pyspark/lazy-processing"
+  },
+  "next": {
+    "title": "Partitioning",
+    "permalink": "/docs/foundations/language/pyspark/partitioning"
+  }
+}

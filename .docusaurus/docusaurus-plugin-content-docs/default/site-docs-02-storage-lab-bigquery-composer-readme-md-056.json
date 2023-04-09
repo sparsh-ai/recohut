@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/lab-bigquery-composer/README",
+  "id": "storage/lab-bigquery-composer/README",
+  "title": "GCP BigQuery Composer",
+  "description": "Cloud Composer - Copying BigQuery Tables Across Different Locations",
+  "source": "@site/docs/02-storage/lab-bigquery-composer/README.md",
+  "sourceDirName": "02-storage/lab-bigquery-composer",
+  "slug": "/storage/lab-bigquery-composer/",
+  "permalink": "/docs/storage/lab-bigquery-composer/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "BigQuery Commandline",
+    "permalink": "/docs/storage/lab-bigquery-commandline/"
+  },
+  "next": {
+    "title": "BigQuery Data Warehousing",
+    "permalink": "/docs/storage/lab-bigquery-data-warehousing/"
+  }
+}

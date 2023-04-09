@@ -1,0 +1,14 @@
+{
+  "label": "keyspaces",
+  "permalink": "/docs/tags/keyspaces",
+  "allTagsPath": "/docs/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "storage/lab-getting-started-with-cassandra/getting-started",
+      "title": "Cassandra Getting Started",
+      "description": "NoSQL data modeling and analysis with Apache Cassandra",
+      "permalink": "/docs/storage/lab-getting-started-with-cassandra/getting-started"
+    }
+  ]
+}

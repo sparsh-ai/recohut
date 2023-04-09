@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/nlp/text-analysis",
+  "id": "datascience/nlp/text-analysis",
+  "title": "Text Analysis",
+  "description": "Rapid text analysis can save lives. Let’s consider a real-world incident when US soldiers stormed a terrorist compound. In the compound, they discovered a computer containing terabytes of archived data. The data included documents, text messages, and emails pertaining to terrorist activities. The documents were too numerous to be read by any single human being. Fortunately, the soldiers were equipped with special software that could perform very fast text analysis. The software allowed the soldiers to process all of the text data without even having to leave the compound. The onsite analysis immediately revealed an active terrorist plot in a nearby neighborhood. The soldiers instantly responded to the plot and prevented a terrorist attack.",
+  "source": "@site/docs/10-datascience/nlp/text-analysis.md",
+  "sourceDirName": "10-datascience/nlp",
+  "slug": "/datascience/nlp/text-analysis",
+  "permalink": "/docs/datascience/nlp/text-analysis",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "PDF to Wordcloud via Email",
+    "permalink": "/docs/datascience/nlp/lab-pdf-wordcloud-mail/"
+  },
+  "next": {
+    "title": "Text Cleaning",
+    "permalink": "/docs/datascience/nlp/text-cleaning"
+  }
+}

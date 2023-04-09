@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/cloud/gcp-setup",
+  "id": "foundations/cloud/gcp-setup",
+  "title": "GCP Setup",
+  "description": "To set up GCP, please follow the steps below:",
+  "source": "@site/docs/01-foundations/cloud/gcp-setup.md",
+  "sourceDirName": "01-foundations/cloud",
+  "slug": "/foundations/cloud/gcp-setup",
+  "permalink": "/docs/foundations/cloud/gcp-setup",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "GCP Basics",
+    "permalink": "/docs/foundations/cloud/gcp-basics"
+  },
+  "next": {
+    "title": "Glue",
+    "permalink": "/docs/foundations/cloud/glue"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "extraction/webscraping/lab-finance-extract-load/README",
+  "id": "extraction/webscraping/lab-finance-extract-load/README",
+  "title": "Financial Data Extraction and Storage",
+  "description": "For this lab, you will assume the role of data engineer working for an international financial analysis company. Your company tracks stock prices, commodities, forex rates, inflation rates.  Your job is to extract financial data from various sources like websites, APIs and files provided by various financial analysis firms. After you collect the data, you extract the data of interest to your company and transform it based on the requirements given to you. Once the transformation is complete you load that data into a database.",
+  "source": "@site/docs/05-extraction/webscraping/lab-finance-extract-load/README.md",
+  "sourceDirName": "05-extraction/webscraping/lab-finance-extract-load",
+  "slug": "/extraction/webscraping/lab-finance-extract-load/",
+  "permalink": "/docs/extraction/webscraping/lab-finance-extract-load/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Web Scraping",
+    "permalink": "/docs/extraction/webscraping/"
+  },
+  "next": {
+    "title": "Orchestration",
+    "permalink": "/docs/orchestration/"
+  }
+}

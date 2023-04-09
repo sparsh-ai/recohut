@@ -1,0 +1,26 @@
+{
+  "unversionedId": "data-modeling/lab-mysql-retail-store-datamodel/README",
+  "id": "data-modeling/lab-mysql-retail-store-datamodel/README",
+  "title": "Data Modeling",
+  "description": "Process Flow",
+  "source": "@site/docs/04-data-modeling/lab-mysql-retail-store-datamodel/README.md",
+  "sourceDirName": "04-data-modeling/lab-mysql-retail-store-datamodel",
+  "slug": "/data-modeling/lab-mysql-retail-store-datamodel/",
+  "permalink": "/docs/data-modeling/lab-mysql-retail-store-datamodel/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data Modeling",
+    "permalink": "/docs/data-modeling/lab-mysql-northwind-datamodel/"
+  },
+  "next": {
+    "title": "Postgres Bus Rapid Transit",
+    "permalink": "/docs/data-modeling/lab-postgres-busrapid-transit/"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/language/pyspark/lazy-processing",
+  "id": "foundations/language/pyspark/lazy-processing",
+  "title": "Lazy Processing",
+  "description": "PySpark uses a concept called lazy processing, which means that operations on DataFrames and RDDs are not executed immediately, but rather are recorded in a lineage. The actual execution of the operations is delayed until an action is called. This allows Spark to optimize the execution plan by analyzing the entire lineage of operations, rather than executing each operation individually.",
+  "source": "@site/docs/01-foundations/language/pyspark/lazy-processing.md",
+  "sourceDirName": "01-foundations/language/pyspark",
+  "slug": "/foundations/language/pyspark/lazy-processing",
+  "permalink": "/docs/foundations/language/pyspark/lazy-processing",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Window Functions in Spark",
+    "permalink": "/docs/foundations/language/pyspark/lab-window-functions/"
+  },
+  "next": {
+    "title": "Methods, Operations and Functions",
+    "permalink": "/docs/foundations/language/pyspark/methods-operations"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "orchestration/prefect/README",
+  "id": "orchestration/prefect/README",
+  "title": "Prefect",
+  "description": "Labs",
+  "source": "@site/docs/06-orchestration/prefect/README.md",
+  "sourceDirName": "06-orchestration/prefect",
+  "slug": "/orchestration/prefect/",
+  "permalink": "/docs/orchestration/prefect/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "NiFi",
+    "permalink": "/docs/orchestration/nifi/"
+  },
+  "next": {
+    "title": "prefect-streaming",
+    "permalink": "/docs/orchestration/prefect/lab-prefect-streaming/"
+  }
+}

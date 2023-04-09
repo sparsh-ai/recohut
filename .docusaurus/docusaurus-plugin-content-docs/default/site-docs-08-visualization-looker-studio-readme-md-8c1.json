@@ -1,0 +1,26 @@
+{
+  "unversionedId": "visualization/looker-studio/README",
+  "id": "visualization/looker-studio/README",
+  "title": "Looker Studio",
+  "description": "Labs",
+  "source": "@site/docs/08-visualization/looker-studio/README.md",
+  "sourceDirName": "08-visualization/looker-studio",
+  "slug": "/visualization/looker-studio/",
+  "permalink": "/docs/visualization/looker-studio/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Flask",
+    "permalink": "/docs/visualization/flask/"
+  },
+  "next": {
+    "title": "Streaming Analytics and Dashboards",
+    "permalink": "/docs/visualization/looker-studio/lab-gcp-streaming-analytics"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/basics/data-contract",
+  "id": "foundations/basics/data-contract",
+  "title": "Data Contract",
+  "description": "Example",
+  "source": "@site/docs/01-foundations/basics/data-contract.md",
+  "sourceDirName": "01-foundations/basics",
+  "slug": "/foundations/basics/data-contract",
+  "permalink": "/docs/foundations/basics/data-contract",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Big Data",
+    "permalink": "/docs/foundations/basics/big-data"
+  },
+  "next": {
+    "title": "Data Governance",
+    "permalink": "/docs/foundations/basics/data-governance"
+  }
+}

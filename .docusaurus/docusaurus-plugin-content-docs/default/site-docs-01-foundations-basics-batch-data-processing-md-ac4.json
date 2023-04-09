@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/basics/batch-data-processing",
+  "id": "foundations/basics/batch-data-processing",
+  "title": "Batch Data Processing",
+  "description": "Data processing involves taking source data which has been ingested into your data platform and cleansing it, combining it, and modeling it for downstream use. Historically the most popular way to transform data has been with the SQL language and data engineers have built data transformation pipelines using SQL often with the help of ETL/ELT tools. But recently many folks have also begun adopting the DataFrame API in languages like Python/Spark for this task. For the most part a data engineer can accomplish the same data transformations with either approach, and deciding between the two is mostly a matter of preference and particular use cases. That being said, there are use cases where a particular data transform can't be expressed in SQL and a different approach is needed. The most popular approach for these use cases is Python/Spark along with a DataFrame API.",
+  "source": "@site/docs/01-foundations/basics/batch-data-processing.md",
+  "sourceDirName": "01-foundations/basics",
+  "slug": "/foundations/basics/batch-data-processing",
+  "permalink": "/docs/foundations/basics/batch-data-processing",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Setup Git",
+    "permalink": "/docs/foundations/developer-foundations/setup-git"
+  },
+  "next": {
+    "title": "Batch vs Incremental Data Processing",
+    "permalink": "/docs/foundations/basics/batch-vs-incremental"
+  }
+}

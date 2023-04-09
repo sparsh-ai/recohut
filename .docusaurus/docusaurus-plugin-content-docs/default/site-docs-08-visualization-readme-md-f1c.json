@@ -1,0 +1,26 @@
+{
+  "unversionedId": "visualization/README",
+  "id": "visualization/README",
+  "title": "Visualization",
+  "description": "Steps",
+  "source": "@site/docs/08-visualization/README.md",
+  "sourceDirName": "08-visualization",
+  "slug": "/visualization/",
+  "permalink": "/docs/visualization/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Infra as Code (IaC)",
+    "permalink": "/docs/devops/iac/"
+  },
+  "next": {
+    "title": "Flask",
+    "permalink": "/docs/visualization/flask/"
+  }
+}

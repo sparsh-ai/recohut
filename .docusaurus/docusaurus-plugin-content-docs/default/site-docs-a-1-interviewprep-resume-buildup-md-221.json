@@ -1,0 +1,26 @@
+{
+  "unversionedId": "a1-interviewprep/resume-buildup",
+  "id": "a1-interviewprep/resume-buildup",
+  "title": "Resume Buildup",
+  "description": "Expert Tips to Perfect Your Data Engineer Resume",
+  "source": "@site/docs/a1-interviewprep/resume-buildup.md",
+  "sourceDirName": "a1-interviewprep",
+  "slug": "/a1-interviewprep/resume-buildup",
+  "permalink": "/docs/a1-interviewprep/resume-buildup",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Behavioral Questions",
+    "permalink": "/docs/a1-interviewprep/behavioral-questions"
+  },
+  "next": {
+    "title": "Case Studies",
+    "permalink": "/docs/a3-casestudies/"
+  }
+}

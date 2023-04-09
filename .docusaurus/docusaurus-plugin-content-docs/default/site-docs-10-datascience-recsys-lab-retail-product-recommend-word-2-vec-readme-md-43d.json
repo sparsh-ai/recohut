@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/recsys/lab-retail-product-recommend-word2vec/README",
+  "id": "datascience/recsys/lab-retail-product-recommend-word2vec/README",
+  "title": "Retail Product Recommendations using word2vec",
+  "description": "Creating a system that automatically recommends a certain number of products to the consumers on an E-commerce website based on the past purchase behavior of the consumers.",
+  "source": "@site/docs/10-datascience/recsys/lab-retail-product-recommend-word2vec/README.md",
+  "sourceDirName": "10-datascience/recsys/lab-retail-product-recommend-word2vec",
+  "slug": "/datascience/recsys/lab-retail-product-recommend-word2vec/",
+  "permalink": "/docs/datascience/recsys/lab-retail-product-recommend-word2vec/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Travel Recommendation System",
+    "permalink": "/docs/datascience/recsys/lab-recsys-tourism/"
+  },
+  "next": {
+    "title": "Similar Shirt Image Recommender",
+    "permalink": "/docs/datascience/recsys/lab-similar-shirt-image-recommender/"
+  }
+}

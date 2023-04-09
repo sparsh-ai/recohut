@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/developer-foundations/lab-explore-vscode-features",
+  "id": "foundations/developer-foundations/lab-explore-vscode-features",
+  "title": "Lab: Explore VS Code features",
+  "description": "In this lab, we will explore the following features:",
+  "source": "@site/docs/01-foundations/01-developer-foundations/lab-explore-vscode-features.md",
+  "sourceDirName": "01-foundations/01-developer-foundations",
+  "slug": "/foundations/developer-foundations/lab-explore-vscode-features",
+  "permalink": "/docs/foundations/developer-foundations/lab-explore-vscode-features",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Lab: Learn Bash Commands",
+    "permalink": "/docs/foundations/developer-foundations/lab-bash-commands/"
+  },
+  "next": {
+    "title": "Lab: Learn git commands",
+    "permalink": "/docs/foundations/developer-foundations/lab-learn-git-commands"
+  }
+}

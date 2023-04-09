@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/lab-redshift-ml/README",
+  "id": "storage/lab-redshift-ml/README",
+  "title": "Amazon Redshift ML",
+  "description": "In this Lab, we will Create, Train and Deploy Multi Layer Perceptron (MLP) models using Amazon Redshift ML.",
+  "source": "@site/docs/02-storage/lab-redshift-ml/README.md",
+  "sourceDirName": "02-storage/lab-redshift-ml",
+  "slug": "/storage/lab-redshift-ml/",
+  "permalink": "/docs/storage/lab-redshift-ml/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Redshift Advanced",
+    "permalink": "/docs/storage/lab-redshift-immersion/"
+  },
+  "next": {
+    "title": "Redshift Ongoing Load - ELT",
+    "permalink": "/docs/storage/lab-redshift-ongoing-load-elt"
+  }
+}

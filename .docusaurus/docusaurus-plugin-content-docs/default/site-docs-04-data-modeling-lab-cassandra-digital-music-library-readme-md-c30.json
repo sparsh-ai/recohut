@@ -1,0 +1,26 @@
+{
+  "unversionedId": "data-modeling/lab-cassandra-digital-music-library/README",
+  "id": "data-modeling/lab-cassandra-digital-music-library/README",
+  "title": "Create a Data Model for a Digital Music Library",
+  "description": "Conceptual Data Model",
+  "source": "@site/docs/04-data-modeling/lab-cassandra-digital-music-library/README.md",
+  "sourceDirName": "04-data-modeling/lab-cassandra-digital-music-library",
+  "slug": "/data-modeling/lab-cassandra-digital-music-library/",
+  "permalink": "/docs/data-modeling/lab-cassandra-digital-music-library/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Cars Data Modeling MySQL",
+    "permalink": "/docs/data-modeling/lab-cars-mysql-datamodel/datamodel-cars"
+  },
+  "next": {
+    "title": "Create a Data Model for an Email System",
+    "permalink": "/docs/data-modeling/lab-cassandra-email-data-model/"
+  }
+}

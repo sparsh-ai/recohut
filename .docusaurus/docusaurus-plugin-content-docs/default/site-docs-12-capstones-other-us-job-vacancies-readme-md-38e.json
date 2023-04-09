@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/other/us-job-vacancies/README",
+  "id": "capstones/other/us-job-vacancies/README",
+  "title": "Work around the world Job vacancies analysis",
+  "description": "Problem Statement",
+  "source": "@site/docs/12-capstones/other/us-job-vacancies/README.md",
+  "sourceDirName": "12-capstones/other/us-job-vacancies",
+  "slug": "/capstones/other/us-job-vacancies/",
+  "permalink": "/docs/capstones/other/us-job-vacancies/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Auto-Ingest Twitter Data into Snowflake",
+    "permalink": "/docs/capstones/other/twitter-snowpipe/"
+  },
+  "next": {
+    "title": "YouTube Trend Analysis Workshop",
+    "permalink": "/docs/capstones/other/youtube-insights/"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/databricks/lab-databricks-deltalake/README",
+  "id": "processing/databricks/lab-databricks-deltalake/README",
+  "title": "Databricks Deltalake",
+  "description": "Objective: Creation of an elementary Data Lakehouse using Databricks and the Delta lake technology",
+  "source": "@site/docs/03-processing/databricks/lab-databricks-deltalake/README.md",
+  "sourceDirName": "03-processing/databricks/lab-databricks-deltalake",
+  "slug": "/processing/databricks/lab-databricks-deltalake/",
+  "permalink": "/docs/processing/databricks/lab-databricks-deltalake/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Databricks AWS Integration and Clickstream Analysis",
+    "permalink": "/docs/processing/databricks/lab-databricks-clickstream/"
+  },
+  "next": {
+    "title": "S3 Postgres Scala",
+    "permalink": "/docs/processing/databricks/lab-databricks-scala-postgres-s3/"
+  }
+}

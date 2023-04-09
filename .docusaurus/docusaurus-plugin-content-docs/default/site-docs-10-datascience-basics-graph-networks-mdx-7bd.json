@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/basics/graph-networks",
+  "id": "datascience/basics/graph-networks",
+  "title": "Graph Networks",
+  "description": "Item-Item Co-Occurrence Graph",
+  "source": "@site/docs/10-datascience/basics/graph-networks.mdx",
+  "sourceDirName": "10-datascience/basics",
+  "slug": "/datascience/basics/graph-networks",
+  "permalink": "/docs/datascience/basics/graph-networks",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Graph Embeddings",
+    "permalink": "/docs/datascience/basics/graph-embeddings"
+  },
+  "next": {
+    "title": "Incremental Learning",
+    "permalink": "/docs/datascience/basics/incremental-learning"
+  }
+}

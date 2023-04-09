@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/challenges/video-sharing-analysis",
+  "id": "datascience/challenges/video-sharing-analysis",
+  "title": "Video Sharing Analysis",
+  "description": "Goal",
+  "source": "@site/docs/10-datascience/challenges/video-sharing-analysis.md",
+  "sourceDirName": "10-datascience/challenges",
+  "slug": "/datascience/challenges/video-sharing-analysis",
+  "permalink": "/docs/datascience/challenges/video-sharing-analysis",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "User Referral Program",
+    "permalink": "/docs/datascience/challenges/user-referral-program"
+  },
+  "next": {
+    "title": "Computer Vision",
+    "permalink": "/docs/datascience/computer-vision/"
+  }
+}

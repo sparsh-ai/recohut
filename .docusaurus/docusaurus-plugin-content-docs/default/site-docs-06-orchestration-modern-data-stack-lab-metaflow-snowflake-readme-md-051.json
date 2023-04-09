@@ -1,0 +1,26 @@
+{
+  "unversionedId": "orchestration/modern-data-stack/lab-metaflow-snowflake/README",
+  "id": "orchestration/modern-data-stack/lab-metaflow-snowflake/README",
+  "title": "Sequential Recommendation with the Modern Data Stack",
+  "description": "As a use case, we pick a popular RecSys challenge, session-based recommendation",
+  "source": "@site/docs/06-orchestration/modern-data-stack/lab-metaflow-snowflake/README.md",
+  "sourceDirName": "06-orchestration/modern-data-stack/lab-metaflow-snowflake",
+  "slug": "/orchestration/modern-data-stack/lab-metaflow-snowflake/",
+  "permalink": "/docs/orchestration/modern-data-stack/lab-metaflow-snowflake/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Analyze and Compare the Modern Data Stacks",
+    "permalink": "/docs/orchestration/modern-data-stack/lab-analyse-stacks/"
+  },
+  "next": {
+    "title": "Build a modern data stack",
+    "permalink": "/docs/orchestration/modern-data-stack/lab-terraform-gcp/"
+  }
+}

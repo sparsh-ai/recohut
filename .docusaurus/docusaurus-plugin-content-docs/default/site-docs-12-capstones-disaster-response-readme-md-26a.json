@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/disaster-response/README",
+  "id": "capstones/disaster-response/README",
+  "title": "Disaster Response Pipeline",
+  "description": "wall",
+  "source": "@site/docs/12-capstones/disaster-response/README.md",
+  "sourceDirName": "12-capstones/disaster-response",
+  "slug": "/capstones/disaster-response/",
+  "permalink": "/docs/capstones/disaster-response/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DigitalSkola",
+    "permalink": "/docs/capstones/digitalskola/"
+  },
+  "next": {
+    "title": "Funflix",
+    "permalink": "/docs/capstones/funflix/"
+  }
+}

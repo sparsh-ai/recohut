@@ -1,0 +1,26 @@
+{
+  "unversionedId": "a3-casestudies/myntra",
+  "id": "a3-casestudies/myntra",
+  "title": "Myntra",
+  "description": "1. Janus : Data processing framework at Myntra",
+  "source": "@site/docs/a3-casestudies/myntra.md",
+  "sourceDirName": "a3-casestudies",
+  "slug": "/a3-casestudies/myntra",
+  "permalink": "/docs/a3-casestudies/myntra",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "LinkedIn",
+    "permalink": "/docs/a3-casestudies/linkedin"
+  },
+  "next": {
+    "title": "Outfit7",
+    "permalink": "/docs/a3-casestudies/outfit7"
+  }
+}

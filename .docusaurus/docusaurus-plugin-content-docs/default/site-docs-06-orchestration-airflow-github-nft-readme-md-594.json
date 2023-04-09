@@ -1,0 +1,26 @@
+{
+  "unversionedId": "orchestration/airflow/github-nft/README",
+  "id": "orchestration/airflow/github-nft/README",
+  "title": "Github NFT Pipeline",
+  "description": "Objective",
+  "source": "@site/docs/06-orchestration/airflow/github-nft/README.md",
+  "sourceDirName": "06-orchestration/airflow/github-nft",
+  "slug": "/orchestration/airflow/github-nft/",
+  "permalink": "/docs/orchestration/airflow/github-nft/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Airflow",
+    "permalink": "/docs/orchestration/airflow/"
+  },
+  "next": {
+    "title": "Airflow connection using Python",
+    "permalink": "/docs/orchestration/airflow/lab-airflow-conn-py/"
+  }
+}

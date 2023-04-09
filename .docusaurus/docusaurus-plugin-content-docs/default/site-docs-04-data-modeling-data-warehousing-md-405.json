@@ -1,0 +1,26 @@
+{
+  "unversionedId": "data-modeling/data-warehousing",
+  "id": "data-modeling/data-warehousing",
+  "title": "Data Warehousing",
+  "description": "In today's data-driven world, businesses need to have the ability to store and analyze large amounts of data in order to make informed decisions. One way to achieve this is by designing and developing a data warehouse. A data warehouse is a centralized repository that allows organizations to store and manage data from various sources in a structured manner. In this note, we will discuss seven key steps involved in designing and developing a data warehouse.",
+  "source": "@site/docs/04-data-modeling/data-warehousing.md",
+  "sourceDirName": "04-data-modeling",
+  "slug": "/data-modeling/data-warehousing",
+  "permalink": "/docs/data-modeling/data-warehousing",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data Vault Modeling",
+    "permalink": "/docs/data-modeling/data-vault-modeling"
+  },
+  "next": {
+    "title": "Designing for incremental loading",
+    "permalink": "/docs/data-modeling/designing-incremental-loading"
+  }
+}

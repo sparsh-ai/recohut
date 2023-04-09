@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/deep-learning/perceptron",
+  "id": "datascience/deep-learning/perceptron",
+  "title": "The Rosenblatt Perceptron",
+  "description": "The perceptron is an artificial neuron, that is, a model of a biological neuron.",
+  "source": "@site/docs/10-datascience/deep-learning/perceptron.md",
+  "sourceDirName": "10-datascience/deep-learning",
+  "slug": "/datascience/deep-learning/perceptron",
+  "permalink": "/docs/datascience/deep-learning/perceptron",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Deep Learning Basics",
+    "permalink": "/docs/datascience/deep-learning/deep-learning-basics"
+  },
+  "next": {
+    "title": "Feature Selection",
+    "permalink": "/docs/datascience/feature-selection"
+  }
+}

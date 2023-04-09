@@ -1,0 +1,26 @@
+{
+  "unversionedId": "curriculum/de-gcp",
+  "id": "curriculum/de-gcp",
+  "title": "Curriculum - Data Engineering Training (GCP)",
+  "description": "Getting Started",
+  "source": "@site/docs/00-curriculum/de-gcp.md",
+  "sourceDirName": "00-curriculum",
+  "slug": "/curriculum/de-gcp",
+  "permalink": "/docs/curriculum/de-gcp",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Curriculum - Data Engineering Training (GCP)",
+    "permalink": "/docs/curriculum/de-gcp-outline"
+  },
+  "next": {
+    "title": "Curriculum - Data Engineering Training",
+    "permalink": "/docs/curriculum/de-prod"
+  }
+}

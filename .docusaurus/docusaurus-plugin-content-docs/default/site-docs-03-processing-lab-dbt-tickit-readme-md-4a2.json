@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/lab-dbt-tickit/README",
+  "id": "processing/lab-dbt-tickit/README",
+  "title": "dbt Redshift TICKIT",
+  "description": "Building an ELT Pipeline with dbt and Amazon Redshift",
+  "source": "@site/docs/03-processing/lab-dbt-tickit/README.md",
+  "sourceDirName": "03-processing/lab-dbt-tickit",
+  "slug": "/processing/lab-dbt-tickit/",
+  "permalink": "/docs/processing/lab-dbt-tickit/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Stackexchange dbt Bigquery",
+    "permalink": "/docs/processing/lab-dbt-stackexchnge/"
+  },
+  "next": {
+    "title": "Snowflake dbt cloud TPCH",
+    "permalink": "/docs/processing/lab-dbt-tpch/"
+  }
+}

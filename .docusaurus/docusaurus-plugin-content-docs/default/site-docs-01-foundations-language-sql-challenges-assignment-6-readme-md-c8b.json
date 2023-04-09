@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/language/sql/challenges/assignment6/README",
+  "id": "foundations/language/sql/challenges/assignment6/README",
+  "title": "SQL Pizza Runner Assignment",
+  "description": "Did you know that over 115 million kilograms of pizza is consumed daily worldwide??? (Well according to Wikipedia anyway…)",
+  "source": "@site/docs/01-foundations/language/sql/challenges/assignment6/README.md",
+  "sourceDirName": "01-foundations/language/sql/challenges/assignment6",
+  "slug": "/foundations/language/sql/challenges/assignment6/",
+  "permalink": "/docs/foundations/language/sql/challenges/assignment6/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SQL Danny's Diner Assignment",
+    "permalink": "/docs/foundations/language/sql/challenges/assignment5/"
+  },
+  "next": {
+    "title": "Patients SQL Assignment",
+    "permalink": "/docs/foundations/language/sql/challenges/assignment7/"
+  }
+}

@@ -1,0 +1,31 @@
+---
+title: Short-video Background Music Recommender
+authors: sparsh
+tags: [recsys]
+---
+
+Matching micro-videos with suitable background music can help uploaders better convey their contents and emotions, and increase the click-through rate of their uploaded videos. However, manually selecting the background music becomes a painstaking task due to the voluminous and ever-growing pool of candidate music. Therefore, automatically recommending background music to videos becomes an important task.
+
+In [this](https://arxiv.org/pdf/2107.07268.pdf) paper, Zhu et. al. shared their approach to solve this task. They first collected ~3,000 background music from popular TikTok videos and also ~150,000 video clips that used some kind of background music. They named this dataset `TT-150K`.
+
+![An exemplar subset of videos and their matched background music in the established TT-150k dataset](/img/content-blog-raw-blog-short-video-background-music-recommender-untitled.png)
+
+An exemplar subset of videos and their matched background music in the established TT-150k dataset
+
+After building the dataset, they worked on modeling and proposed the following architecture:
+
+![Proposed CMVAE (Cross-modal Variational Auto-encoder) framework](/img/content-blog-raw-blog-short-video-background-music-recommender-untitled-1.png)
+
+Proposed CMVAE (Cross-modal Variational Auto-encoder) framework
+
+The goal is to represent videos (`users` in recsys terminology) and music (`items`) in a shared latent space. To achieve this, CMVAE use pre-trained models to extract features from unstructured data - `vggish` model for audio2vec, `resnet` for video2vec and `bert-multilingual` for text2vec.  Text and video vectors are then fused using product-of-expert approach. 
+
+It uses the reconstruction power of variational autoencoders to 1) reconstruct video from music latent vector and, 2) reconstruct music from video latent vector. In layman terms, we are training a neural network that will try to guess the video activity just by listening background music, and also try to guess the background music just by seeing the video activities. 
+
+The joint training objective is $\mathcal{L}_{(z_m,z_v)} = \beta \cdot\mathcal{L}_{cross\_recon} - \mathcal{L}_{KL} + \gamma \cdot \mathcal{L}_{matching}$, where $\beta$ and $\gamma$ control the weight of the cross reconstruction loss and the matching loss, respectively.
+
+After training the model, they compared the model's performance with existing baselines and the results are as follows:
+
+![/img/content-blog-raw-blog-short-video-background-music-recommender-untitled-2.png](/img/content-blog-raw-blog-short-video-background-music-recommender-untitled-2.png)
+
+**Conclusion**: I don't make short videos myself but can easily imagine the difficulty in finding the right background music. If I have to do this task manually, I will try out 5-6 videos and select one that I like. But here, I will be assuming that my audience would also like this music. Moreover, feedback is not actionable because it will create kind of an implicit sub-conscious effect (because when I see a video, I mostly judge it at overall level and rarely notice that background music is the problem). So, this kind of recommender system will definitely help me in selecting a better background music. Excited to see this feature soon in TikTok, Youtube Shorts and other similar services.

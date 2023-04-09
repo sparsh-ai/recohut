@@ -1,0 +1,26 @@
+{
+  "unversionedId": "b3-misc/explore-further",
+  "id": "b3-misc/explore-further",
+  "title": "Explore Further",
+  "description": "Basic Concepts",
+  "source": "@site/docs/b3-misc/explore-further.md",
+  "sourceDirName": "b3-misc",
+  "slug": "/b3-misc/explore-further",
+  "permalink": "/docs/b3-misc/explore-further",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Woot.com",
+    "permalink": "/docs/a3-casestudies/woot"
+  },
+  "next": {
+    "title": "Extras",
+    "permalink": "/docs/b3-misc/extras"
+  }
+}

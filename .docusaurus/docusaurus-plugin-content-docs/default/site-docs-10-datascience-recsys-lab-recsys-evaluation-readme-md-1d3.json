@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/recsys/lab-recsys-evaluation/README",
+  "id": "datascience/recsys/lab-recsys-evaluation/README",
+  "title": "Recommender System Evaluation",
+  "description": "| Description | Notebook |",
+  "source": "@site/docs/10-datascience/recsys/lab-recsys-evaluation/README.md",
+  "sourceDirName": "10-datascience/recsys/lab-recsys-evaluation",
+  "slug": "/datascience/recsys/lab-recsys-evaluation/",
+  "permalink": "/docs/datascience/recsys/lab-recsys-evaluation/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Recsys Personalize Getting Started",
+    "permalink": "/docs/datascience/recsys/lab-recsys-amazon-personalize/"
+  },
+  "next": {
+    "title": "RecSys Matrix Factorizations",
+    "permalink": "/docs/datascience/recsys/lab-recsys-matrix-factorizations/"
+  }
+}

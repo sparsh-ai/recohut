@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/mysql",
+  "id": "storage/mysql",
+  "title": "MySQL",
+  "description": "",
+  "source": "@site/docs/02-storage/mysql.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/mysql",
+  "permalink": "/docs/storage/mysql",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "MongoDB",
+    "permalink": "/docs/storage/mongodb"
+  },
+  "next": {
+    "title": "ORC",
+    "permalink": "/docs/storage/orc"
+  }
+}

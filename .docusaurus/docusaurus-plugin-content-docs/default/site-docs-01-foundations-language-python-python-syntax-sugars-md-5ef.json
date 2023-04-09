@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/language/python/python-syntax-sugars",
+  "id": "foundations/language/python/python-syntax-sugars",
+  "title": "Sweet Python Syntax Sugar for Improving Your Coding Experience by Yang Zhou",
+  "description": "Github Google Colab",
+  "source": "@site/docs/01-foundations/language/python/python-syntax-sugars.md",
+  "sourceDirName": "01-foundations/language/python",
+  "slug": "/foundations/language/python/python-syntax-sugars",
+  "permalink": "/docs/foundations/language/python/python-syntax-sugars",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Python code",
+    "permalink": "/docs/foundations/language/python/python-snippets"
+  },
+  "next": {
+    "title": "Scala",
+    "permalink": "/docs/foundations/language/scala/"
+  }
+}

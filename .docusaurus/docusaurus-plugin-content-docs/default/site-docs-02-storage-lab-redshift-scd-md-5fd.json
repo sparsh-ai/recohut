@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/lab-redshift-scd",
+  "id": "storage/lab-redshift-scd",
+  "title": "Implement a slowly changing dimension in Redshift",
+  "description": "1. Learn how to create a type 2 dimension table by adding slowly changing tracking columns",
+  "source": "@site/docs/02-storage/lab-redshift-scd.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/lab-redshift-scd",
+  "permalink": "/docs/storage/lab-redshift-scd",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Redshift Slowly Changing Dimension",
+    "permalink": "/docs/storage/lab-redshift-scd-2"
+  },
+  "next": {
+    "title": "Redshift Spectrum Query Data Lake",
+    "permalink": "/docs/storage/lab-redshift-spectrum-query-datalake"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/lab-mysql-police-api-etl/README",
+  "id": "storage/lab-mysql-police-api-etl/README",
+  "title": "Police API Data Engineering Task",
+  "description": "Using the Police UK API extracted the data related to street-level crime and outcome data and nearest police stations",
+  "source": "@site/docs/02-storage/lab-mysql-police-api-etl/README.md",
+  "sourceDirName": "02-storage/lab-mysql-police-api-etl",
+  "slug": "/storage/lab-mysql-police-api-etl/",
+  "permalink": "/docs/storage/lab-mysql-police-api-etl/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Lab: Data Ingestion to MySQL",
+    "permalink": "/docs/storage/lab-mysql-data-ingestion/"
+  },
+  "next": {
+    "title": "ETL with bash script",
+    "permalink": "/docs/storage/lab-postgres-bash-etl/"
+  }
+}

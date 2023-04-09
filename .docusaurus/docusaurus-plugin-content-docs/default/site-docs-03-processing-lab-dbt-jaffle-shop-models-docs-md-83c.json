@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/lab-dbt-jaffle-shop/models/docs",
+  "id": "processing/lab-dbt-jaffle-shop/models/docs",
+  "title": "docs",
+  "description": "{% docs orders_status %}",
+  "source": "@site/docs/03-processing/lab-dbt-jaffle-shop/models/docs.md",
+  "sourceDirName": "03-processing/lab-dbt-jaffle-shop/models",
+  "slug": "/processing/lab-dbt-jaffle-shop/models/docs",
+  "permalink": "/docs/processing/lab-dbt-jaffle-shop/models/docs",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dbt Jaffle Shop",
+    "permalink": "/docs/processing/lab-dbt-jaffle-shop/"
+  },
+  "next": {
+    "title": "overview",
+    "permalink": "/docs/processing/lab-dbt-jaffle-shop/models/overview"
+  }
+}

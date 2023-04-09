@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/basics/incremental-learning",
+  "id": "datascience/basics/incremental-learning",
+  "title": "Incremental Learning",
+  "description": "Humans and animals have the ability to continually acquire, fine-tune, and transfer knowledge and skills throughout their lifespan. This ability, referred to as lifelong learning, is mediated by a rich set of neurocognitive mechanisms that together contribute to the development and specialization of our sensorimotor skills as well as to long-term memory consolidation and retrieval. Consequently, lifelong learning capabilities are crucial for autonomous agents interacting in the real world and processing continuous streams of information. However, lifelong learning remains a long-standing challenge for machine learning and neural network models since the continual acquisition of incrementally available information from non-stationary data distributions generally leads to catastrophic forgetting or interference.",
+  "source": "@site/docs/10-datascience/basics/incremental-learning.mdx",
+  "sourceDirName": "10-datascience/basics",
+  "slug": "/datascience/basics/incremental-learning",
+  "permalink": "/docs/datascience/basics/incremental-learning",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Graph Networks",
+    "permalink": "/docs/datascience/basics/graph-networks"
+  },
+  "next": {
+    "title": "Meta Learning",
+    "permalink": "/docs/datascience/basics/meta-learning"
+  }
+}

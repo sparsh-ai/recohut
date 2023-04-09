@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/apache-beam",
+  "id": "processing/apache-beam",
+  "title": "Apache Beam",
+  "description": "What is apache beam?",
+  "source": "@site/docs/03-processing/apache-beam.md",
+  "sourceDirName": "03-processing",
+  "slug": "/processing/apache-beam",
+  "permalink": "/docs/processing/apache-beam",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "XML",
+    "permalink": "/docs/storage/xml"
+  },
+  "next": {
+    "title": "Druid",
+    "permalink": "/docs/processing/apache-druid"
+  }
+}

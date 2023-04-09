@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/lab-dbt-jaffle-shop/models/overview",
+  "id": "processing/lab-dbt-jaffle-shop/models/overview",
+  "title": "overview",
+  "description": "{% docs overview %}",
+  "source": "@site/docs/03-processing/lab-dbt-jaffle-shop/models/overview.md",
+  "sourceDirName": "03-processing/lab-dbt-jaffle-shop/models",
+  "slug": "/processing/lab-dbt-jaffle-shop/models/overview",
+  "permalink": "/docs/processing/lab-dbt-jaffle-shop/models/overview",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "docs",
+    "permalink": "/docs/processing/lab-dbt-jaffle-shop/models/docs"
+  },
+  "next": {
+    "title": "Snowflake dbt Knoema",
+    "permalink": "/docs/processing/lab-dbt-knoema/"
+  }
+}

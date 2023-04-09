@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/avro-vs-parquet-vs-orc",
+  "id": "storage/avro-vs-parquet-vs-orc",
+  "title": "Avro vs Parquet vs ORC",
+  "description": "B1752502010",
+  "source": "@site/docs/02-storage/avro-vs-parquet-vs-orc.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/avro-vs-parquet-vs-orc",
+  "permalink": "/docs/storage/avro-vs-parquet-vs-orc",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Amazon Athena",
+    "permalink": "/docs/storage/athena"
+  },
+  "next": {
+    "title": "Avro",
+    "permalink": "/docs/storage/avro"
+  }
+}

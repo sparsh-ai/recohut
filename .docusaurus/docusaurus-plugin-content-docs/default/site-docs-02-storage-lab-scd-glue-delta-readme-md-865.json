@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/lab-scd-glue-delta/README",
+  "id": "storage/lab-scd-glue-delta/README",
+  "title": "Lab: Implement slowly changing dimensions in a data lake using AWS Glue and Delta",
+  "description": "process-flow drawio",
+  "source": "@site/docs/02-storage/lab-scd-glue-delta/README.md",
+  "sourceDirName": "02-storage/lab-scd-glue-delta",
+  "slug": "/storage/lab-scd-glue-delta/",
+  "permalink": "/docs/storage/lab-scd-glue-delta/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Redshift Table Design and Query Tuning",
+    "permalink": "/docs/storage/lab-redshift-table-design-query-tuning"
+  },
+  "next": {
+    "title": "Snowflake Getting Started",
+    "permalink": "/docs/storage/lab-snowflake-getting-started/"
+  }
+}

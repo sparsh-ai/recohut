@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/programming-languages/sql/challenges/employee",
+  "id": "foundations/programming-languages/sql/challenges/employee",
+  "title": "Challenge - Employee Analytics",
+  "description": "Small dataset | 6 Questions",
+  "source": "@site/docs/01-foundations/04-programming-languages/sql/challenges/employee.md",
+  "sourceDirName": "01-foundations/04-programming-languages/sql/challenges",
+  "slug": "/foundations/programming-languages/sql/challenges/employee",
+  "permalink": "/docs/foundations/programming-languages/sql/challenges/employee",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "README",
+    "permalink": "/docs/foundations/programming-languages/sql/challenges/braintree/"
+  },
+  "next": {
+    "title": "Yammer Analytics",
+    "permalink": "/docs/foundations/programming-languages/sql/challenges/yammer/"
+  }
+}

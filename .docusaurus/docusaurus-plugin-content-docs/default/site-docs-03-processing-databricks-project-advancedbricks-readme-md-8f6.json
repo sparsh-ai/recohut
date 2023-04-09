@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/databricks/project-advancedbricks/README",
+  "id": "processing/databricks/project-advancedbricks/README",
+  "title": "AdvancedBricks",
+  "description": "Advanced Data Engineering with Databricks",
+  "source": "@site/docs/03-processing/databricks/project-advancedbricks/README.md",
+  "sourceDirName": "03-processing/databricks/project-advancedbricks",
+  "slug": "/processing/databricks/project-advancedbricks/",
+  "permalink": "/docs/processing/databricks/project-advancedbricks/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Real-Time Point-of-Sale Analytics With the Data Lakehouse",
+    "permalink": "/docs/processing/databricks/lab-retail-pos-databricks/"
+  },
+  "next": {
+    "title": "BedBricks",
+    "permalink": "/docs/processing/databricks/project-bedbricks/"
+  }
+}

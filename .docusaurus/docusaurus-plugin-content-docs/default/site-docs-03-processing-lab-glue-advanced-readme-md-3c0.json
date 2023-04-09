@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/lab-glue-advanced/README",
+  "id": "processing/lab-glue-advanced/README",
+  "title": "Advanced Data Engineering and Data Processing with AWS Glue Jobs",
+  "description": "Objective",
+  "source": "@site/docs/03-processing/lab-glue-advanced/README.md",
+  "sourceDirName": "03-processing/lab-glue-advanced",
+  "slug": "/processing/lab-glue-advanced/",
+  "permalink": "/docs/processing/lab-glue-advanced/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Apache Beam Getting Started",
+    "permalink": "/docs/processing/lab-getting-started-with-beam/"
+  },
+  "next": {
+    "title": "Handle UPSERT data operations using open-source Delta Lake and AWS Glue",
+    "permalink": "/docs/processing/lab-glue-deltalake-cdc-upsert/"
+  }
+}

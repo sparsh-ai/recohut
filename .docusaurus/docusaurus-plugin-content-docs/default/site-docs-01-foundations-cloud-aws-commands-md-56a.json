@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/cloud/aws-commands",
+  "id": "foundations/cloud/aws-commands",
+  "title": "AWS Commands",
+  "description": "",
+  "source": "@site/docs/01-foundations/cloud/aws-commands.md",
+  "sourceDirName": "01-foundations/cloud",
+  "slug": "/foundations/cloud/aws-commands",
+  "permalink": "/docs/foundations/cloud/aws-commands",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Bayesian Optimization",
+    "permalink": "/docs/foundations/bayesian-optimization"
+  },
+  "next": {
+    "title": "AWS Container Services",
+    "permalink": "/docs/foundations/cloud/aws-containers"
+  }
+}

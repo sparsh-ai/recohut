@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/lab-gcp-pubsub-processing",
+  "id": "processing/lab-gcp-pubsub-processing",
+  "title": "Streaming Data Processing - Streaming Data Pipelines",
+  "description": "Objective",
+  "source": "@site/docs/03-processing/lab-gcp-pubsub-processing.md",
+  "sourceDirName": "03-processing",
+  "slug": "/processing/lab-gcp-pubsub-processing",
+  "permalink": "/docs/processing/lab-gcp-pubsub-processing",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Running Apache Spark jobs on Cloud Dataproc",
+    "permalink": "/docs/processing/lab-gcp-dataproc/"
+  },
+  "next": {
+    "title": "Streaming Data Processing - Publish Streaming Data into PubSub",
+    "permalink": "/docs/processing/lab-gcp-pubsub"
+  }
+}

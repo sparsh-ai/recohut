@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/gcp-bigtable",
+  "id": "storage/gcp-bigtable",
+  "title": "BigTable",
+  "description": "High-throughput streaming with Cloud Bigtable",
+  "source": "@site/docs/02-storage/gcp-bigtable.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/gcp-bigtable",
+  "permalink": "/docs/storage/gcp-bigtable",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DuckDB",
+    "permalink": "/docs/storage/duckdb"
+  },
+  "next": {
+    "title": "GCP CloudSQL",
+    "permalink": "/docs/storage/gcp-cloudsql"
+  }
+}

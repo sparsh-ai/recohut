@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/challenges/employee-shuttle-stops",
+  "id": "datascience/challenges/employee-shuttle-stops",
+  "title": "Optimization of Employee Shuttle Stops",
+  "description": "Goal",
+  "source": "@site/docs/10-datascience/challenges/employee-shuttle-stops.md",
+  "sourceDirName": "10-datascience/challenges",
+  "slug": "/datascience/challenges/employee-shuttle-stops",
+  "permalink": "/docs/datascience/challenges/employee-shuttle-stops",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "README",
+    "permalink": "/docs/datascience/challenges/employee-retention/"
+  },
+  "next": {
+    "title": "Fraud Detection",
+    "permalink": "/docs/datascience/challenges/fraud-activity/"
+  }
+}

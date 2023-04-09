@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/other/resale-price-realtime/README",
+  "id": "capstones/other/resale-price-realtime/README",
+  "title": "Machine Learning Streamming with Kafka, Debezium and BentoML",
+  "description": "This is a personal project created to simulate a Machine Learning real-time application.",
+  "source": "@site/docs/12-capstones/other/resale-price-realtime/README.md",
+  "sourceDirName": "12-capstones/other/resale-price-realtime",
+  "slug": "/capstones/other/resale-price-realtime/",
+  "permalink": "/docs/capstones/other/resale-price-realtime/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "reddit-data-engineering of r/FedEx",
+    "permalink": "/docs/capstones/other/reddit-kafka-sparkstream-bigquery/"
+  },
+  "next": {
+    "title": "Data Engineering Take Home - ETL off a SQS Qeueue",
+    "permalink": "/docs/capstones/other/sqs-postgres-etl/"
+  }
+}

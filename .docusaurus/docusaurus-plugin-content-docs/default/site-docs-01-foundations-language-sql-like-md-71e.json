@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/language/sql/like",
+  "id": "foundations/language/sql/like",
+  "title": "SQL LIKE",
+  "description": "LIKE is a logical operator in SQL that allows you to match on similar values rather than exact ones.",
+  "source": "@site/docs/01-foundations/language/sql/like.md",
+  "sourceDirName": "01-foundations/language/sql",
+  "slug": "/foundations/language/sql/like",
+  "permalink": "/docs/foundations/language/sql/like",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SQLite Basics",
+    "permalink": "/docs/foundations/language/sql/lab-sqlite-basics/"
+  },
+  "next": {
+    "title": "SQL LIMIT",
+    "permalink": "/docs/foundations/language/sql/limit"
+  }
+}

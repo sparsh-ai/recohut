@@ -1,0 +1,13 @@
+---
+title: Clinical Decision Making
+authors: sparsh
+tags: [classification, healthcare]
+---
+
+Health insurance can be complicated—especially when it comes to prior authorization (also referred to as pre-approval, pre-authorization, and pre-certification). The manual labor involved in obtaining prior authorizations (PAs) is a well-recognized burden among providers. Up to 46% of PA requests are still submitted by fax, and 60% require a telephone call, according to America’s Health Insurance Plans (AHIP). A 2018 survey by the American Medical Association (AMA) found that doctors and their staff spend an average of 2 days a week completing PAs. In addition to eating up time that physicians could spend with patients, PAs also contribute to burnout.
+
+The objective was to identify the patterns from data to create clinical decision making in Pre-Auth and improve the accuracy in a clinical decision based on historical data analysis. 
+
+Two use cases were identified. Use Case 1 - *Supervised Learning Model - to aid clinicians in UM decision making. Tasks -* Ingest Pre-authorization data from Mongo DB into the analytical environment, Exploratory Data Analysis and Feature Engineering, Train supervised analytical models, model validation and model selection, Create a web service to be plugged into the case processing flow to call the model, and Display the recommendation from the model on UI on the authorization review screen. Use Case 2 - *Unsupervised Learning Model - to generate insights from the pre-authorization data. Tasks -* Ingest Pre-authorization data from Mongo DB into the analytical environment, Cluster analysis, univariate and multivariate analysis, and Generate insights and display insights on the dashboard.
+
+Final Deliverables - Model re-training (batch mode), validation and deployment code (python scripts) with Unix command line support, Documentation - PPT, Recorded video, Technical document, Flask API backend system, HTML/PHP Web App frontend UI integration, and Plotly Dash Supervised/Unsupervised learning and insights generation dashboard.

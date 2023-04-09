@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/basics/spark-quiz",
+  "id": "foundations/basics/spark-quiz",
+  "title": "Spark Quiz",
+  "description": "Below are a few questions that should come handy in the first go :",
+  "source": "@site/docs/01-foundations/basics/spark-quiz.md",
+  "sourceDirName": "01-foundations/basics",
+  "slug": "/foundations/basics/spark-quiz",
+  "permalink": "/docs/foundations/basics/spark-quiz",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Origin of Spark",
+    "permalink": "/docs/foundations/basics/spark-origin"
+  },
+  "next": {
+    "title": "SQL vs NoSQL",
+    "permalink": "/docs/foundations/basics/sql-vs-nosql"
+  }
+}

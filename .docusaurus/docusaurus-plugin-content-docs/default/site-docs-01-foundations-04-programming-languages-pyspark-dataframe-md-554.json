@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/programming-languages/pyspark/dataframe",
+  "id": "foundations/programming-languages/pyspark/dataframe",
+  "title": "PySpark DataFrame",
+  "description": "Creating a DataFrame in PySpark",
+  "source": "@site/docs/01-foundations/04-programming-languages/pyspark/dataframe.md",
+  "sourceDirName": "01-foundations/04-programming-languages/pyspark",
+  "slug": "/foundations/programming-languages/pyspark/dataframe",
+  "permalink": "/docs/foundations/programming-languages/pyspark/dataframe",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "cheat-sheet",
+    "permalink": "/docs/foundations/programming-languages/pyspark/cheat-sheet"
+  },
+  "next": {
+    "title": "Spark Execution Plan",
+    "permalink": "/docs/foundations/programming-languages/pyspark/execution-plan"
+  }
+}

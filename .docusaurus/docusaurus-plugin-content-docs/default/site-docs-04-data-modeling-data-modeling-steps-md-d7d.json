@@ -1,0 +1,26 @@
+{
+  "unversionedId": "data-modeling/data-modeling-steps",
+  "id": "data-modeling/data-modeling-steps",
+  "title": "Steps of Building Data Models",
+  "description": "Gathering requirements",
+  "source": "@site/docs/04-data-modeling/data-modeling-steps.md",
+  "sourceDirName": "04-data-modeling",
+  "slug": "/data-modeling/data-modeling-steps",
+  "permalink": "/docs/data-modeling/data-modeling-steps",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Stages of Data Modeling",
+    "permalink": "/docs/data-modeling/data-modeling-stages"
+  },
+  "next": {
+    "title": "Data Vault Modeling",
+    "permalink": "/docs/data-modeling/data-vault-modeling"
+  }
+}

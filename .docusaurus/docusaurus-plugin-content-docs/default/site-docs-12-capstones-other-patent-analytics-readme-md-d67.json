@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/other/patent-analytics/README",
+  "id": "capstones/other/patent-analytics/README",
+  "title": "Patent Analytics Data Pipeline",
+  "description": "front",
+  "source": "@site/docs/12-capstones/other/patent-analytics/README.md",
+  "sourceDirName": "12-capstones/other/patent-analytics",
+  "slug": "/capstones/other/patent-analytics/",
+  "permalink": "/docs/capstones/other/patent-analytics/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Loop Analytics",
+    "permalink": "/docs/capstones/other/loop-analytics/"
+  },
+  "next": {
+    "title": "Patent Analytics Data Pipeline",
+    "permalink": "/docs/capstones/other/patent-analytics/REPORT"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "unversionedId": "datascience/nlp/word2vec",
+  "id": "datascience/nlp/word2vec",
+  "title": "Lab 162 - Word2vec",
+  "description": "Word2vec",
+  "source": "@site/docs/10-datascience/nlp/word2vec.md",
+  "sourceDirName": "10-datascience/nlp",
+  "slug": "/datascience/nlp/word2vec",
+  "permalink": "/docs/datascience/nlp/word2vec",
+  "draft": false,
+  "tags": [
+    {
+      "label": "nlp",
+      "permalink": "/docs/tags/nlp"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "sidebarPosition": 162,
+  "frontMatter": {
+    "title": "Lab 162 - Word2vec",
+    "description": "Word2vec",
+    "tags": [
+      "nlp"
+    ],
+    "sidebar_position": 162
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Natural Language Processing (NLP)",
+    "permalink": "/docs/datascience/nlp/"
+  },
+  "next": {
+    "title": "PDF to Wordcloud via Email",
+    "permalink": "/docs/datascience/nlp/lab-pdf-wordcloud-mail/"
+  }
+}

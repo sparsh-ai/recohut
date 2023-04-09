@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/language/sql/triggers",
+  "id": "foundations/language/sql/triggers",
+  "title": "Triggers",
+  "description": "Triggers are a type of stored procedure, configured to call whenever an event occurs. This trigger can be used, for example, to signalize the execution of some statements whenever new data is included in a table, or a record is edited in the table.",
+  "source": "@site/docs/01-foundations/language/sql/triggers.md",
+  "sourceDirName": "01-foundations/language/sql",
+  "slug": "/foundations/language/sql/triggers",
+  "permalink": "/docs/foundations/language/sql/triggers",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Subquery",
+    "permalink": "/docs/foundations/language/sql/subquery"
+  },
+  "next": {
+    "title": "SQL UNION",
+    "permalink": "/docs/foundations/language/sql/union"
+  }
+}

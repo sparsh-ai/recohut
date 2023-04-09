@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/lab-zero-to-snowflake",
+  "id": "storage/lab-zero-to-snowflake",
+  "title": "Getting Started with Snowflake - Zero to Snowflake",
+  "description": "Follow this:",
+  "source": "@site/docs/02-storage/lab-zero-to-snowflake.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/lab-zero-to-snowflake",
+  "permalink": "/docs/storage/lab-zero-to-snowflake",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Edu Hipolabs API",
+    "permalink": "/docs/storage/lab-sqlite-hipolabs-api/"
+  },
+  "next": {
+    "title": "MongoDB",
+    "permalink": "/docs/storage/mongodb"
+  }
+}

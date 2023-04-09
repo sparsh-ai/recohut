@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/reinforcement-learning/causal-inference",
+  "id": "datascience/reinforcement-learning/causal-inference",
+  "title": "Causal Inference",
+  "description": "Typical recommender systems frame the recommendation task as either a distance learning problem between pairs of products, or between pairs of users and products, or as a next item prediction problem. However, a recommender system should not only attempt to model organic user behavior but influence it. This is where causal techniques help, potentially via simple modifications of standard matrix factorization methods.",
+  "source": "@site/docs/10-datascience/reinforcement-learning/causal-inference.md",
+  "sourceDirName": "10-datascience/reinforcement-learning",
+  "slug": "/datascience/reinforcement-learning/causal-inference",
+  "permalink": "/docs/datascience/reinforcement-learning/causal-inference",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Bias & Fairness",
+    "permalink": "/docs/datascience/reinforcement-learning/bias-&-fairness"
+  },
+  "next": {
+    "title": "Amazon Sagemaker",
+    "permalink": "/docs/datascience/sagemaker/"
+  }
+}

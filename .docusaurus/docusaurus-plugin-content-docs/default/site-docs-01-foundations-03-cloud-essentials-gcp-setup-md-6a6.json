@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/cloud-essentials/gcp-setup",
+  "id": "foundations/cloud-essentials/gcp-setup",
+  "title": "GCP Setup",
+  "description": "To set up GCP, please follow the steps below:",
+  "source": "@site/docs/01-foundations/03-cloud-essentials/gcp-setup.md",
+  "sourceDirName": "01-foundations/03-cloud-essentials",
+  "slug": "/foundations/cloud-essentials/gcp-setup",
+  "permalink": "/docs/foundations/cloud-essentials/gcp-setup",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "GCP Basics",
+    "permalink": "/docs/foundations/cloud-essentials/gcp-basics"
+  },
+  "next": {
+    "title": "Glue",
+    "permalink": "/docs/foundations/cloud-essentials/glue"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/basics/origin",
+  "id": "foundations/basics/origin",
+  "title": "The data science origin story",
+  "description": "There's a saying in the data science community that's been around for a while, and it goes: \"A data scientist is better than any computer scientist at statistics, and better than any statistician at computer programming.\" This encapsulates the general skills of most data scientists, as well as the history of the field.",
+  "source": "@site/docs/01-foundations/basics/origin.md",
+  "sourceDirName": "01-foundations/basics",
+  "slug": "/foundations/basics/origin",
+  "permalink": "/docs/foundations/basics/origin",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "OLTP vs OLAP",
+    "permalink": "/docs/foundations/basics/oltp-vs-olap"
+  },
+  "next": {
+    "title": "Outliers Handling",
+    "permalink": "/docs/foundations/basics/outliers-handling"
+  }
+}

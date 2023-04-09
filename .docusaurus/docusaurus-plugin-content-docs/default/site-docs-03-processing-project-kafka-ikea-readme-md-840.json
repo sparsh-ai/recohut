@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/project-kafka-ikea/README",
+  "id": "processing/project-kafka-ikea/README",
+  "title": "Building an event-driven IKEA app with Kafka",
+  "description": "This app is designed to break down the event driven architecture for modern apps",
+  "source": "@site/docs/03-processing/project-kafka-ikea/README.md",
+  "sourceDirName": "03-processing/project-kafka-ikea",
+  "slug": "/processing/project-kafka-ikea/",
+  "permalink": "/docs/processing/project-kafka-ikea/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Knoema Regression Model with Snowpark",
+    "permalink": "/docs/processing/lab-snowpark-knoema-regression/"
+  },
+  "next": {
+    "title": "Ray",
+    "permalink": "/docs/processing/ray"
+  }
+}

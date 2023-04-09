@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/other/twitter-snowpipe/README",
+  "id": "capstones/other/twitter-snowpipe/README",
+  "title": "Auto-Ingest Twitter Data into Snowflake",
+  "description": "Follow this:",
+  "source": "@site/docs/12-capstones/other/twitter-snowpipe/README.md",
+  "sourceDirName": "12-capstones/other/twitter-snowpipe",
+  "slug": "/capstones/other/twitter-snowpipe/",
+  "permalink": "/docs/capstones/other/twitter-snowpipe/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Twitter Sentiment Realtime",
+    "permalink": "/docs/capstones/other/twitter-sentiment-realtime/"
+  },
+  "next": {
+    "title": "Work around the world Job vacancies analysis",
+    "permalink": "/docs/capstones/other/us-job-vacancies/"
+  }
+}

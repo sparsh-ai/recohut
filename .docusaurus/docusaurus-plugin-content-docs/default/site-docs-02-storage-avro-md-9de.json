@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/avro",
+  "id": "storage/avro",
+  "title": "Avro",
+  "description": "Avro is a row-oriented data format designed for RPCs and data serialization. Avro encodes data into a binary format, with schema metadata specified in JSON. Avro is popular in the Hadoop ecosystem and is also supported by various cloud data tools.",
+  "source": "@site/docs/02-storage/avro.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/avro",
+  "permalink": "/docs/storage/avro",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Avro vs Parquet vs ORC",
+    "permalink": "/docs/storage/avro-vs-parquet-vs-orc"
+  },
+  "next": {
+    "title": "DynamoDB",
+    "permalink": "/docs/storage/aws-dynamodb"
+  }
+}

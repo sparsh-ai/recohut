@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/README",
+  "id": "capstones/README",
+  "title": "Capstones",
+  "description": "ETL - ACLED",
+  "source": "@site/docs/12-capstones/README.md",
+  "sourceDirName": "12-capstones",
+  "slug": "/capstones/",
+  "permalink": "/docs/capstones/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Assignment: Extract Data from Twitter API and Load into AWS S3",
+    "permalink": "/docs/assignments/twitter-s3/"
+  },
+  "next": {
+    "title": "Serverless Streaming Data on AWS",
+    "permalink": "/docs/capstones/ServerlessStreamingApp/"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/programming-languages/pyspark/lab-understand-spark-query-execution/README",
+  "id": "foundations/programming-languages/pyspark/lab-understand-spark-query-execution/README",
+  "title": "Understanding Spark Query Execution",
+  "description": "To write efficient Spark applications, we need to have some understanding of how Spark executes queries. Having a good understanding of how Spark executes a given query helps big data developers/engineers work efficiently with large volumes of data.",
+  "source": "@site/docs/01-foundations/04-programming-languages/pyspark/lab-understand-spark-query-execution/README.md",
+  "sourceDirName": "01-foundations/04-programming-languages/pyspark/lab-understand-spark-query-execution",
+  "slug": "/foundations/programming-languages/pyspark/lab-understand-spark-query-execution/",
+  "permalink": "/docs/foundations/programming-languages/pyspark/lab-understand-spark-query-execution/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Uber Data Analysis in Pyspark",
+    "permalink": "/docs/foundations/programming-languages/pyspark/lab-uber-analysis/"
+  },
+  "next": {
+    "title": "Window Functions in Spark",
+    "permalink": "/docs/foundations/programming-languages/pyspark/lab-window-functions/"
+  }
+}

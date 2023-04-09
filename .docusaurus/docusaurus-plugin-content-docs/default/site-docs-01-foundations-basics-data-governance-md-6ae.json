@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/basics/data-governance",
+  "id": "foundations/basics/data-governance",
+  "title": "Data Governance",
+  "description": "What is Data Governance?",
+  "source": "@site/docs/01-foundations/basics/data-governance.md",
+  "sourceDirName": "01-foundations/basics",
+  "slug": "/foundations/basics/data-governance",
+  "permalink": "/docs/foundations/basics/data-governance",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data Contract",
+    "permalink": "/docs/foundations/basics/data-contract"
+  },
+  "next": {
+    "title": "Data Management",
+    "permalink": "/docs/foundations/basics/data-management"
+  }
+}

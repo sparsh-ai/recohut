@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/basics/spark-dag",
+  "id": "foundations/basics/spark-dag",
+  "title": "Interpreting a Spark DAG",
+  "description": "A DAG is just a regular graph with nodes and edges but with no cycles or loops. In order to understand a Spark DAG, we first have to understand where a DAG comes into the picture during the execution of a Spark job.",
+  "source": "@site/docs/01-foundations/basics/spark-dag.md",
+  "sourceDirName": "01-foundations/basics",
+  "slug": "/foundations/basics/spark-dag",
+  "permalink": "/docs/foundations/basics/spark-dag",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Apache Spark Basics",
+    "permalink": "/docs/foundations/basics/spark-basics"
+  },
+  "next": {
+    "title": "Origin of Spark",
+    "permalink": "/docs/foundations/basics/spark-origin"
+  }
+}

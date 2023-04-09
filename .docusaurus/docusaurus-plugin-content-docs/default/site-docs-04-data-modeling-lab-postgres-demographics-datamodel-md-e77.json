@@ -1,0 +1,26 @@
+{
+  "unversionedId": "data-modeling/lab-postgres-demographics-datamodel",
+  "id": "data-modeling/lab-postgres-demographics-datamodel",
+  "title": "lab-postgres-demographics-datamodel",
+  "description": "Create Fact and Dimension Tables from Denormalized Raw Data",
+  "source": "@site/docs/04-data-modeling/lab-postgres-demographics-datamodel.md",
+  "sourceDirName": "04-data-modeling",
+  "slug": "/data-modeling/lab-postgres-demographics-datamodel",
+  "permalink": "/docs/data-modeling/lab-postgres-demographics-datamodel",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Postgres Bus Rapid Transit",
+    "permalink": "/docs/data-modeling/lab-postgres-busrapid-transit/"
+  },
+  "next": {
+    "title": "Postgres ELT Datamodel with PSQL",
+    "permalink": "/docs/data-modeling/lab-postgres-elt-datamodel/"
+  }
+}

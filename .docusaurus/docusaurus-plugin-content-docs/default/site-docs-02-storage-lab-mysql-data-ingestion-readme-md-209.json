@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/lab-mysql-data-ingestion/README",
+  "id": "storage/lab-mysql-data-ingestion/README",
+  "title": "Lab: Data Ingestion to MySQL",
+  "description": "Process Flow",
+  "source": "@site/docs/02-storage/lab-mysql-data-ingestion/README.md",
+  "sourceDirName": "02-storage/lab-mysql-data-ingestion",
+  "slug": "/storage/lab-mysql-data-ingestion/",
+  "permalink": "/docs/storage/lab-mysql-data-ingestion/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "MongoDB to CSV conversion",
+    "permalink": "/docs/storage/lab-mongodb-pandas/"
+  },
+  "next": {
+    "title": "Police API Data Engineering Task",
+    "permalink": "/docs/storage/lab-mysql-police-api-etl/"
+  }
+}

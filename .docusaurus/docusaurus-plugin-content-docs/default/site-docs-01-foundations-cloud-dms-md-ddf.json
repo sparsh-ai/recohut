@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/cloud/dms",
+  "id": "foundations/cloud/dms",
+  "title": "DMS",
+  "description": "AWS Database Migration Service (AWS DMS) helps you migrate databases to AWS quickly and securely. The source database remains fully operational during the migration, minimizing downtime to applications that rely on the database. The AWS Database Migration Service can migrate your data to and from the most widely used commercial and open-source databases.",
+  "source": "@site/docs/01-foundations/cloud/dms.md",
+  "sourceDirName": "01-foundations/cloud",
+  "slug": "/foundations/cloud/dms",
+  "permalink": "/docs/foundations/cloud/dms",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Comparison of Cloud Services",
+    "permalink": "/docs/foundations/cloud/cloud-comparison"
+  },
+  "next": {
+    "title": "EC2",
+    "permalink": "/docs/foundations/cloud/ec2"
+  }
+}

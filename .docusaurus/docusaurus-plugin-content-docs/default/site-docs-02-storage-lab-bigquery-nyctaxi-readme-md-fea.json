@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/lab-bigquery-nyctaxi/README",
+  "id": "storage/lab-bigquery-nyctaxi/README",
+  "title": "GCP BigQuery NYC Taxi",
+  "description": "Objective",
+  "source": "@site/docs/02-storage/lab-bigquery-nyctaxi/README.md",
+  "sourceDirName": "02-storage/lab-bigquery-nyctaxi",
+  "slug": "/storage/lab-bigquery-nyctaxi/",
+  "permalink": "/docs/storage/lab-bigquery-nyctaxi/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "GCP BigQuery ML",
+    "permalink": "/docs/storage/lab-bigquery-ml/"
+  },
+  "next": {
+    "title": "BigQuery Optimization",
+    "permalink": "/docs/storage/lab-bigquery-optimization/"
+  }
+}

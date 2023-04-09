@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/basics/data-management",
+  "id": "foundations/basics/data-management",
+  "title": "Data Management",
+  "description": "Importance of data management",
+  "source": "@site/docs/01-foundations/basics/data-management.md",
+  "sourceDirName": "01-foundations/basics",
+  "slug": "/foundations/basics/data-management",
+  "permalink": "/docs/foundations/basics/data-management",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data Governance",
+    "permalink": "/docs/foundations/basics/data-governance"
+  },
+  "next": {
+    "title": "Data Pipelines",
+    "permalink": "/docs/foundations/basics/data-pipelines"
+  }
+}

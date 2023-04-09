@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/basics/oltp-vs-olap",
+  "id": "foundations/basics/oltp-vs-olap",
+  "title": "OLTP vs OLAP",
+  "description": "Transactional databases (OLTP)",
+  "source": "@site/docs/01-foundations/basics/oltp-vs-olap.md",
+  "sourceDirName": "01-foundations/basics",
+  "slug": "/foundations/basics/oltp-vs-olap",
+  "permalink": "/docs/foundations/basics/oltp-vs-olap",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Model Optimization",
+    "permalink": "/docs/foundations/basics/model-optimization"
+  },
+  "next": {
+    "title": "The data science origin story",
+    "permalink": "/docs/foundations/basics/origin"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/basics/spark-basics",
+  "id": "foundations/basics/spark-basics",
+  "title": "Apache Spark Basics",
+  "description": "What is Apache Spark?",
+  "source": "@site/docs/01-foundations/basics/spark-basics.md",
+  "sourceDirName": "01-foundations/basics",
+  "slug": "/foundations/basics/spark-basics",
+  "permalink": "/docs/foundations/basics/spark-basics",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Spark RDDs",
+    "permalink": "/docs/foundations/basics/rdd"
+  },
+  "next": {
+    "title": "Interpreting a Spark DAG",
+    "permalink": "/docs/foundations/basics/spark-dag"
+  }
+}

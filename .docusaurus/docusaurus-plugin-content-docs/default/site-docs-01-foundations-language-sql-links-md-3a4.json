@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/language/sql/links",
+  "id": "foundations/language/sql/links",
+  "title": "Explore Further",
+  "description": "1. SQL Cheat Sheet",
+  "source": "@site/docs/01-foundations/language/sql/links.md",
+  "sourceDirName": "01-foundations/language/sql",
+  "slug": "/foundations/language/sql/links",
+  "permalink": "/docs/foundations/language/sql/links",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SQL LIMIT",
+    "permalink": "/docs/foundations/language/sql/limit"
+  },
+  "next": {
+    "title": "SQL Logical Operators",
+    "permalink": "/docs/foundations/language/sql/logical-operators"
+  }
+}

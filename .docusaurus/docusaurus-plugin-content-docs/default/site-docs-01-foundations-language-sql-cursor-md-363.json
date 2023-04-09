@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/language/sql/cursor",
+  "id": "foundations/language/sql/cursor",
+  "title": "Cursor",
+  "description": "To handle a result set inside a stored procedure, you use a cursor. A cursor allows you to iterate a set of rows returned by a query and process each row individually.",
+  "source": "@site/docs/01-foundations/language/sql/cursor.md",
+  "sourceDirName": "01-foundations/language/sql",
+  "slug": "/foundations/language/sql/cursor",
+  "permalink": "/docs/foundations/language/sql/cursor",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "cte",
+    "permalink": "/docs/foundations/language/sql/cte"
+  },
+  "next": {
+    "title": "SQL Date Functions",
+    "permalink": "/docs/foundations/language/sql/date-functions"
+  }
+}

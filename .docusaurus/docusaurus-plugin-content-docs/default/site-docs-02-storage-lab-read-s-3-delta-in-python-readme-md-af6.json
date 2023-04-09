@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/lab-read-s3-delta-in-python/README",
+  "id": "storage/lab-read-s3-delta-in-python/README",
+  "title": "Lab: Read Delta Tables stored in Amazon S3 with Python",
+  "description": "",
+  "source": "@site/docs/02-storage/lab-read-s3-delta-in-python/README.md",
+  "sourceDirName": "02-storage/lab-read-s3-delta-in-python",
+  "slug": "/storage/lab-read-s3-delta-in-python/",
+  "permalink": "/docs/storage/lab-read-s3-delta-in-python/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "The Easy Ways to Clean Up Production Messes",
+    "permalink": "/docs/storage/lab-production-cleaning-deltalake/"
+  },
+  "next": {
+    "title": "Data Loading and Analysis",
+    "permalink": "/docs/storage/lab-redshift-data-loading-analysis"
+  }
+}

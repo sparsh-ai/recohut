@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/recsys/lab-recsys-amazon-personalize/README",
+  "id": "datascience/recsys/lab-recsys-amazon-personalize/README",
+  "title": "Recsys Personalize Getting Started",
+  "description": "| Description | Notebook |",
+  "source": "@site/docs/10-datascience/recsys/lab-recsys-amazon-personalize/README.md",
+  "sourceDirName": "10-datascience/recsys/lab-recsys-amazon-personalize",
+  "slug": "/datascience/recsys/lab-recsys-amazon-personalize/",
+  "permalink": "/docs/datascience/recsys/lab-recsys-amazon-personalize/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Neural Matrix Factorization from scratch in PyTorch",
+    "permalink": "/docs/datascience/recsys/lab-movielens-nmf-pytorch/"
+  },
+  "next": {
+    "title": "Recommender System Evaluation",
+    "permalink": "/docs/datascience/recsys/lab-recsys-evaluation/"
+  }
+}

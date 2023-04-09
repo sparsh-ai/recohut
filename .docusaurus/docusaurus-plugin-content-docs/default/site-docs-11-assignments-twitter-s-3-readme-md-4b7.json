@@ -1,0 +1,26 @@
+{
+  "unversionedId": "assignments/twitter-s3/README",
+  "id": "assignments/twitter-s3/README",
+  "title": "Assignment: Extract Data from Twitter API and Load into AWS S3",
+  "description": "",
+  "source": "@site/docs/11-assignments/twitter-s3/README.md",
+  "sourceDirName": "11-assignments/twitter-s3",
+  "slug": "/assignments/twitter-s3/",
+  "permalink": "/docs/assignments/twitter-s3/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Ternary",
+    "permalink": "/docs/assignments/ternary/"
+  },
+  "next": {
+    "title": "Capstones",
+    "permalink": "/docs/capstones/"
+  }
+}

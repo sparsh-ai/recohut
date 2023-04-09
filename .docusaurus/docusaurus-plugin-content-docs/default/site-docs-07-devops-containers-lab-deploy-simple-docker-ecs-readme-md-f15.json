@@ -1,0 +1,26 @@
+{
+  "unversionedId": "devops/containers/lab-deploy-simple-docker-ecs/README",
+  "id": "devops/containers/lab-deploy-simple-docker-ecs/README",
+  "title": "Deploy Docker in ECS",
+  "description": "Create a Docker image",
+  "source": "@site/docs/07-devops/containers/lab-deploy-simple-docker-ecs/README.md",
+  "sourceDirName": "07-devops/containers/lab-deploy-simple-docker-ecs",
+  "slug": "/devops/containers/lab-deploy-simple-docker-ecs/",
+  "permalink": "/docs/devops/containers/lab-deploy-simple-docker-ecs/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ETL Docker",
+    "permalink": "/docs/devops/containers/lab-assignment-etl-docker/"
+  },
+  "next": {
+    "title": "Deploying a NodeJS app in Kubernetes",
+    "permalink": "/docs/devops/containers/lab-kubernetes-kubia-app/"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/databricks/project-databricks-superset/README",
+  "id": "processing/databricks/project-databricks-superset/README",
+  "title": "Data Pipeline with Databricks PySpark and Superset",
+  "description": "Put on your data engineer hat! In this project, you’ll build a modern, cloud-based, three-layer data Lakehouse. First, you’ll set up your workspace on the Databricks platform, leveraging important Databricks features, before pushing the data into the first two layers of the data lake. Next, using Apache Spark, you’ll build the third layer, used to serve insights to different end-users. Then, you’ll use Delta Lake to turn your existing data lake into a Lakehouse. Finally, you’ll deliver an infrastructure that allows your end-users to perform specific queries, using Apache Superset, and build dashboards on top of the existing data. When you’re done with the projects in this series, you’ll have a complete big data pipeline for a cloud-based data lake—and you’ll understand why the three-layer architecture is so popular.",
+  "source": "@site/docs/03-processing/databricks/project-databricks-superset/README.md",
+  "sourceDirName": "03-processing/databricks/project-databricks-superset",
+  "slug": "/processing/databricks/project-databricks-superset/",
+  "permalink": "/docs/processing/databricks/project-databricks-superset/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data Engineering with Databricks",
+    "permalink": "/docs/processing/databricks/project-databricks-de/"
+  },
+  "next": {
+    "title": "Data Engineer Learner Path with Databricks",
+    "permalink": "/docs/processing/databricks/project-learnerbricks/"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "a3-casestudies/helpshift",
+  "id": "a3-casestudies/helpshift",
+  "title": "Helpshift",
+  "description": "Technology company that powers travel",
+  "source": "@site/docs/a3-casestudies/helpshift.md",
+  "sourceDirName": "a3-casestudies",
+  "slug": "/a3-casestudies/helpshift",
+  "permalink": "/docs/a3-casestudies/helpshift",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "HARMONY - Responsive Data Pipeline",
+    "permalink": "/docs/a3-casestudies/harmony"
+  },
+  "next": {
+    "title": "HomeToGo",
+    "permalink": "/docs/a3-casestudies/hometogo"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "permalink": "/blog/2021/10/01/image-similarity-system",
+  "source": "@site/blog/2021-10-01-image-similarity-system.mdx",
+  "title": "Image Similarity System",
+  "description": "/img/content-blog-raw-blog-image-similarity-system-untitled.png",
+  "date": "2021-10-01T00:00:00.000Z",
+  "formattedDate": "October 1, 2021",
+  "tags": [
+    {
+      "label": "aws beanstalk",
+      "permalink": "/blog/tags/aws-beanstalk"
+    },
+    {
+      "label": "flask",
+      "permalink": "/blog/tags/flask"
+    },
+    {
+      "label": "similarity",
+      "permalink": "/blog/tags/similarity"
+    },
+    {
+      "label": "vision",
+      "permalink": "/blog/tags/vision"
+    }
+  ],
+  "readingTime": 3.045,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Sparsh Agarwal",
+      "title": "Data Scientist & Engineer",
+      "url": "https://github.com/sparsh-ai",
+      "email": "sprsag@gmail.com",
+      "imageURL": "https://github.com/sparsh-ai.png",
+      "key": "sparsh"
+    }
+  ],
+  "frontMatter": {
+    "title": "Image Similarity System",
+    "authors": "sparsh",
+    "tags": [
+      "aws beanstalk",
+      "flask",
+      "similarity",
+      "vision"
+    ]
+  },
+  "prevItem": {
+    "title": "Fake Voice Detection",
+    "permalink": "/blog/2021/10/01/fake-voice-detection"
+  },
+  "nextItem": {
+    "title": "Insurance Personalization",
+    "permalink": "/blog/2021/10/01/insurance-personalization"
+  }
+}

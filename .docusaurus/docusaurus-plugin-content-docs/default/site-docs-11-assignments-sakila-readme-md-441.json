@@ -1,0 +1,26 @@
+{
+  "unversionedId": "assignments/sakila/README",
+  "id": "assignments/sakila/README",
+  "title": "Batch and Stream Unified analytics for Sakila Music Company",
+  "description": "Problem Statement",
+  "source": "@site/docs/11-assignments/sakila/README.md",
+  "sourceDirName": "11-assignments/sakila",
+  "slug": "/assignments/sakila/",
+  "permalink": "/docs/assignments/sakila/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "OLX Data Engineering Challenge",
+    "permalink": "/docs/assignments/olx-python/"
+  },
+  "next": {
+    "title": "Spiff Data Engineering Candidate Coding Exercises",
+    "permalink": "/docs/assignments/spiff-takehome/"
+  }
+}

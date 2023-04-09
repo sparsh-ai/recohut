@@ -1,0 +1,26 @@
+{
+  "unversionedId": "a3-casestudies/airbnb",
+  "id": "a3-casestudies/airbnb",
+  "title": "Airbnb",
+  "description": "Watch this video//www.youtube.com/watch?v=iokqkMfyIfo",
+  "source": "@site/docs/a3-casestudies/airbnb.md",
+  "sourceDirName": "a3-casestudies",
+  "slug": "/a3-casestudies/airbnb",
+  "permalink": "/docs/a3-casestudies/airbnb",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "99 Group",
+    "permalink": "/docs/a3-casestudies/99group"
+  },
+  "next": {
+    "title": "Amazon",
+    "permalink": "/docs/a3-casestudies/amazon"
+  }
+}

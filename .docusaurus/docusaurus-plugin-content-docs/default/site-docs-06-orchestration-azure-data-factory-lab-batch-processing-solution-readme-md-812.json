@@ -1,0 +1,26 @@
+{
+  "unversionedId": "orchestration/azure-data-factory/lab-batch-processing-solution/README",
+  "id": "orchestration/azure-data-factory/lab-batch-processing-solution/README",
+  "title": "Developing batch processing solutions by using Data Factory, Data Lake, Spark, Azure Synapse Pipelines, PolyBase, and Azure Databricks",
+  "description": "B1752509001",
+  "source": "@site/docs/06-orchestration/azure-data-factory/lab-batch-processing-solution/README.md",
+  "sourceDirName": "06-orchestration/azure-data-factory/lab-batch-processing-solution",
+  "slug": "/orchestration/azure-data-factory/lab-batch-processing-solution/",
+  "permalink": "/docs/orchestration/azure-data-factory/lab-batch-processing-solution/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Incremental Data Loading in Azure Data Factory",
+    "permalink": "/docs/orchestration/azure-data-factory/lab-adf-incremental-loading/"
+  },
+  "next": {
+    "title": "Cloud Data Fusion",
+    "permalink": "/docs/orchestration/datafusion/"
+  }
+}

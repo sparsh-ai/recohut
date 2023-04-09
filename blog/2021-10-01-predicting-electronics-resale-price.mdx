@@ -1,0 +1,64 @@
+---
+title: Predicting Electronics Resale Price
+authors: sparsh
+tags: [regression]
+---
+
+# Problem Statement
+
+![/img/content-blog-raw-blog-predicting-electronics-resale-price-untitled.png](/img/content-blog-raw-blog-predicting-electronics-resale-price-untitled.png)
+
+# Objective
+
+Predict the resale price based on brand, part id and purchase quantity
+
+# Milestones
+
+- Data analysis and discovery - What is the acceptable variance the model needs to meet in terms of similar part number and quantity?
+- Model research and validation - Does the model meet the variance requirement? (Variance of the model should meet or be below the variance of the sales history)
+- Model deployment - Traffic will increase 10 fold. So, model needs to be containerized or dockerized
+- Training - Model needs to be trainable on new sales data. Methodology to accept or reject the variance of the newly trained model documented.
+
+# Deliverables
+
+1. Data Analysis and Discovery (identify target variance for pricing model in terms of similar part numbers and quantities). Analysis should be done on the 12 following quantity ranges: 1-4, 5-9, 10-24, 25-49, 50-99, 100-249, 250-499, 500-999, 1000-2499, 2500-4999, 5000-9999, 10000+.
+
+2. ModelA Training (Resale Value Estimation [$] (Brand+PartNo.+Quantity)
+
+3. ModelA Validation (variance analysis and comparison with sales history variance in terms of similar part numbers and quantities)
+
+4. ModelA Containerization
+
+5. ModelA re-training based on new sales data
+
+6. ScriptA to calculate variance for new sales data (feedback for training results)
+
+7. Documentation for re-training
+
+8. ModelA deployment and API
+
+# Modeling Approach
+
+### Framework
+
+- Fully connected regression neural network
+- NLP feature extraction from part id
+- Batch generator to feed large data in batches
+- Hyperparameter tuning to find the best model fit
+
+### List of Variables
+
+- 2 years of sales history
+- PRC
+- PARTNO
+- ORDER_NUMBER
+- ORIG_ORDER_QTY
+- UNIT_COST
+- UNIT_REASLE
+- UOM (UNIT OF MEASUREMENT)
+
+# Bucket of Ideas
+
+1. Increase n-gram range; e.g. in part_id ABC-123-23, these are 4-grams: ABC-, BC-1, C-12, -123, 123-, 23-2, 3-23; Idea is to see if increasing this range further will increase the model's performance
+2. Employ Char-level LSTM to capture sequence information; e.g. in same part_id ABC-123-23, currently we are not maintaining sequence of grams, we don't know if 3-23 is coming at first or last; here, the idea is to see if lstm model can be employed to capture this sequence information to improve model's performance
+3. New Loss function - including cost based loss

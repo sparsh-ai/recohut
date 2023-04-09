@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/programming-languages/sql/logical-operators",
+  "id": "foundations/programming-languages/sql/logical-operators",
+  "title": "SQL Logical Operators",
+  "description": "You'll likely also want to filter data using several conditions---possibly more often than you'll want to filter by only one condition. Logical operators allow you to use multiple comparison operators in one query.",
+  "source": "@site/docs/01-foundations/04-programming-languages/sql/logical-operators.md",
+  "sourceDirName": "01-foundations/04-programming-languages/sql",
+  "slug": "/foundations/programming-languages/sql/logical-operators",
+  "permalink": "/docs/foundations/programming-languages/sql/logical-operators",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Explore Further",
+    "permalink": "/docs/foundations/programming-languages/sql/links"
+  },
+  "next": {
+    "title": "SQL NOT",
+    "permalink": "/docs/foundations/programming-languages/sql/not"
+  }
+}

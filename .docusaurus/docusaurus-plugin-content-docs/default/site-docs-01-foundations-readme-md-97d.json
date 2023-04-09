@@ -1,0 +1,22 @@
+{
+  "unversionedId": "foundations/README",
+  "id": "foundations/README",
+  "title": "Foundations",
+  "description": "1. Developer Foundations",
+  "source": "@site/docs/01-foundations/README.md",
+  "sourceDirName": "01-foundations",
+  "slug": "/foundations/",
+  "permalink": "/docs/foundations/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Install Anaconda",
+    "permalink": "/docs/foundations/developer-foundations/install-anaconda"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/cloud/rds",
+  "id": "foundations/cloud/rds",
+  "title": "RDS",
+  "description": "RDS stands for Relational Database Services",
+  "source": "@site/docs/01-foundations/cloud/rds.md",
+  "sourceDirName": "01-foundations/cloud",
+  "slug": "/foundations/cloud/rds",
+  "permalink": "/docs/foundations/cloud/rds",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction to Virtual Private Cloud (VPC)",
+    "permalink": "/docs/foundations/cloud/lab-create-your-first-vpc/"
+  },
+  "next": {
+    "title": "S3",
+    "permalink": "/docs/foundations/cloud/s3"
+  }
+}

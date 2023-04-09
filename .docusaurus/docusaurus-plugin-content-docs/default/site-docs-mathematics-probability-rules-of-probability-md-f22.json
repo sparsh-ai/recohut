@@ -1,0 +1,26 @@
+{
+  "unversionedId": "mathematics/probability/rules-of-probability",
+  "id": "mathematics/probability/rules-of-probability",
+  "title": "Rules of Probability",
+  "description": "Probability of Mutually Exclusive Events",
+  "source": "@site/docs/mathematics/probability/rules-of-probability.md",
+  "sourceDirName": "mathematics/probability",
+  "slug": "/mathematics/probability/rules-of-probability",
+  "permalink": "/docs/mathematics/probability/rules-of-probability",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Probability Distributions",
+    "permalink": "/docs/mathematics/probability/probability-distributions"
+  },
+  "next": {
+    "title": "Statistics",
+    "permalink": "/docs/mathematics/statistics/"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "orchestration/nifi/README",
+  "id": "orchestration/nifi/README",
+  "title": "NiFi",
+  "description": "Apache NiFi is a framework for building data engineering pipelines, and it utilizes DAGs. Apache NiFi was built by the National Security Agency and is used at several federal agencies. Apache NiFi is easier to set up and is useful for new data engineers. The GUI is excellent and while you can use Jython, Clojure, Scala, or Groovy to write processors, you can accomplish a lot with a simple configuration of existing processors.",
+  "source": "@site/docs/06-orchestration/nifi/README.md",
+  "sourceDirName": "06-orchestration/nifi",
+  "slug": "/orchestration/nifi/",
+  "permalink": "/docs/orchestration/nifi/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Build a modern data stack",
+    "permalink": "/docs/orchestration/modern-data-stack/lab-terraform-gcp/"
+  },
+  "next": {
+    "title": "Prefect",
+    "permalink": "/docs/orchestration/prefect/"
+  }
+}

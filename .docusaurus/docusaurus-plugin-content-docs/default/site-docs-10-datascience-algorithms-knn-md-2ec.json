@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/algorithms/knn",
+  "id": "datascience/algorithms/knn",
+  "title": "K-Nearest Neighbors",
+  "description": "K-Nearest Neighbors, or KNN, is one of the simplest and the most intuitive classical machine learning algorithms. KNN was first proposed by Evelyn Fix and Joseph Lawson Hodges Jr. during a technical analysis produced for USAF in 1951. It was unique at its time as the method proposed is nonparametric: the algorithm does not make any assumptions about the statistical properties of the data. Although the paper wasn’t ever published due to the confidential nature of the work, it laid out the groundwork for the first-ever nonparametric classification method, K-Nearest Neighbors. The beauty of KNN lies in its simplicity, and unlike most other algorithms, KNN does not contain a training phase. Additional data can be incorporated seamlessly as the algorithm is memory-based, easily adapting to any new data. Over seven decades later, KNN still stands as a popular classification algorithm, and innovations are still constantly being proposed surrounding it.",
+  "source": "@site/docs/10-datascience/algorithms/knn.md",
+  "sourceDirName": "10-datascience/algorithms",
+  "slug": "/datascience/algorithms/knn",
+  "permalink": "/docs/datascience/algorithms/knn",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Gradient Boosting",
+    "permalink": "/docs/datascience/algorithms/gradient-boosting"
+  },
+  "next": {
+    "title": "Linear Regression",
+    "permalink": "/docs/datascience/algorithms/linear-regression"
+  }
+}

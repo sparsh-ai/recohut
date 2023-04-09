@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/lab-emr-serverless/README",
+  "id": "processing/lab-emr-serverless/README",
+  "title": "EMR Serverless",
+  "description": "Objective",
+  "source": "@site/docs/03-processing/lab-emr-serverless/README.md",
+  "sourceDirName": "03-processing/lab-emr-serverless",
+  "slug": "/processing/lab-emr-serverless/",
+  "permalink": "/docs/processing/lab-emr-serverless/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Snowflake dbt cloud TPCH",
+    "permalink": "/docs/processing/lab-dbt-tpch/"
+  },
+  "next": {
+    "title": "MapReduce in Beam using Python",
+    "permalink": "/docs/processing/lab-gcp-beam-mapreduce/"
+  }
+}

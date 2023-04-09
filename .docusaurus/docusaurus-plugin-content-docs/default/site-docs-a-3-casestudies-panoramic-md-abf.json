@@ -1,0 +1,26 @@
+{
+  "unversionedId": "a3-casestudies/panoramic",
+  "id": "a3-casestudies/panoramic",
+  "title": "PANORAMIC - Simplifying Data Ingestion, Transformation, And Delivery",
+  "description": "Panoramic is a world leader in providing analytics to communications firms and media service providers. It helps marketers use consumer data to hone their creative strategies. Panoramic's data scientists and marketing analysts build customized data platforms that enable marketers to visualize consumer data for analysis, benchmarking, internal collaboration, and more. The company has built its business around ingesting and modeling marketing data as a foundation for generating meaningful insights.",
+  "source": "@site/docs/a3-casestudies/panoramic.md",
+  "sourceDirName": "a3-casestudies",
+  "slug": "/a3-casestudies/panoramic",
+  "permalink": "/docs/a3-casestudies/panoramic",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Outfit7",
+    "permalink": "/docs/a3-casestudies/outfit7"
+  },
+  "next": {
+    "title": "Plexure",
+    "permalink": "/docs/a3-casestudies/plexure"
+  }
+}

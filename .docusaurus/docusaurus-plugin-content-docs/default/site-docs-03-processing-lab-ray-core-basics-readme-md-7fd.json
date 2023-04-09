@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/lab-ray-core-basics/README",
+  "id": "processing/lab-ray-core-basics/README",
+  "title": "Lab: Ray Core Basics",
+  "description": "- Recipe 1: Your first Ray API example",
+  "source": "@site/docs/03-processing/lab-ray-core-basics/README.md",
+  "sourceDirName": "03-processing/lab-ray-core-basics",
+  "slug": "/processing/lab-ray-core-basics/",
+  "permalink": "/docs/processing/lab-ray-core-basics/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Lab: Ray AIR Basics",
+    "permalink": "/docs/processing/lab-ray-air-basics/"
+  },
+  "next": {
+    "title": "Churn Analytics Demo with dbt Snowpark Python models",
+    "permalink": "/docs/processing/lab-snowpark-churnpark/"
+  }
+}

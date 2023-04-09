@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/lab-kafka-spark-streaming/README",
+  "id": "processing/lab-kafka-spark-streaming/README",
+  "title": "Realtime Streaming analytics with Apache Kafka and Spark Streaming",
+  "description": "Activity 1",
+  "source": "@site/docs/03-processing/lab-kafka-spark-streaming/README.md",
+  "sourceDirName": "03-processing/lab-kafka-spark-streaming",
+  "slug": "/processing/lab-kafka-spark-streaming/",
+  "permalink": "/docs/processing/lab-kafka-spark-streaming/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Getting started with Kafka and Python",
+    "permalink": "/docs/processing/lab-kafka-python/"
+  },
+  "next": {
+    "title": "Stock Market Kafka Real Time",
+    "permalink": "/docs/processing/lab-kafka-stock-market/"
+  }
+}

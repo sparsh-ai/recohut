@@ -1,0 +1,26 @@
+{
+  "unversionedId": "assignments/mysql-s3-incremental/README",
+  "id": "assignments/mysql-s3-incremental/README",
+  "title": "Reading data from MySQL in CSV and saving into S3",
+  "description": "In this lab, we are loading the data from RDS MySQL Database into CSV and then saving that csv into S3 using Boto3.",
+  "source": "@site/docs/11-assignments/mysql-s3-incremental/README.md",
+  "sourceDirName": "11-assignments/mysql-s3-incremental",
+  "slug": "/assignments/mysql-s3-incremental/",
+  "permalink": "/docs/assignments/mysql-s3-incremental/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Mistplay Data Engineer Take Home Challenge",
+    "permalink": "/docs/assignments/mistplay-takehome/"
+  },
+  "next": {
+    "title": "OLX Data Engineering Challenge",
+    "permalink": "/docs/assignments/olx-python/"
+  }
+}

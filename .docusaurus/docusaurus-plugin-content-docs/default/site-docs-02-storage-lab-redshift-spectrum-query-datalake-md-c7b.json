@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/lab-redshift-spectrum-query-datalake",
+  "id": "storage/lab-redshift-spectrum-query-datalake",
+  "title": "Redshift Spectrum Query Data Lake",
+  "description": "In this lab, we show you how to query data in your Amazon S3 data lake with Amazon Redshift without loading or moving data. We will also demonstrate how you can leverage views which union data in Redshift Managed storage with data in S3. You can query structured and semi-structured data from files in Amazon S3 without having to copy or move data into Amazon Redshift tables.",
+  "source": "@site/docs/02-storage/lab-redshift-spectrum-query-datalake.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/lab-redshift-spectrum-query-datalake",
+  "permalink": "/docs/storage/lab-redshift-spectrum-query-datalake",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Implement a slowly changing dimension in Redshift",
+    "permalink": "/docs/storage/lab-redshift-scd"
+  },
+  "next": {
+    "title": "Redshift Spectrum Query Tuning",
+    "permalink": "/docs/storage/lab-redshift-spectrum-query-tuning"
+  }
+}

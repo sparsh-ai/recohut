@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/data-splits",
+  "id": "datascience/data-splits",
+  "title": "Data Splits",
+  "description": "Training and Validation sets",
+  "source": "@site/docs/10-datascience/data-splits.md",
+  "sourceDirName": "10-datascience",
+  "slug": "/datascience/data-splits",
+  "permalink": "/docs/datascience/data-splits",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data Preparation",
+    "permalink": "/docs/datascience/data-preparation"
+  },
+  "next": {
+    "title": "Deep Learning Basics",
+    "permalink": "/docs/datascience/deep-learning/deep-learning-basics"
+  }
+}

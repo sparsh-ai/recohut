@@ -1,0 +1,26 @@
+{
+  "unversionedId": "extraction/api/README",
+  "id": "extraction/api/README",
+  "title": "Data Extraction from APIs",
+  "description": "What is an API?",
+  "source": "@site/docs/05-extraction/api/README.md",
+  "sourceDirName": "05-extraction/api",
+  "slug": "/extraction/api/",
+  "permalink": "/docs/extraction/api/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data Extraction",
+    "permalink": "/docs/extraction/"
+  },
+  "next": {
+    "title": "API HackerNews Github",
+    "permalink": "/docs/extraction/api/lab-hackernews-git-api/"
+  }
+}

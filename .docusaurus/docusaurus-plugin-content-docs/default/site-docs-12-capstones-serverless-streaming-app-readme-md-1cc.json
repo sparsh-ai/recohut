@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/ServerlessStreamingApp/README",
+  "id": "capstones/ServerlessStreamingApp/README",
+  "title": "Serverless Streaming Data on AWS",
+  "description": "https://youtu.be/abaVSFFdU-c",
+  "source": "@site/docs/12-capstones/ServerlessStreamingApp/README.md",
+  "sourceDirName": "12-capstones/ServerlessStreamingApp",
+  "slug": "/capstones/ServerlessStreamingApp/",
+  "permalink": "/docs/capstones/ServerlessStreamingApp/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Capstones",
+    "permalink": "/docs/capstones/"
+  },
+  "next": {
+    "title": "ACLED",
+    "permalink": "/docs/capstones/acled/"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/smartcity/analytics/producer-app/readme",
+  "id": "capstones/smartcity/analytics/producer-app/readme",
+  "title": "readme",
+  "description": "",
+  "source": "@site/docs/12-capstones/smartcity/03-analytics/producer-app/readme.md",
+  "sourceDirName": "12-capstones/smartcity/03-analytics/producer-app",
+  "slug": "/capstones/smartcity/analytics/producer-app/",
+  "permalink": "/docs/capstones/smartcity/analytics/producer-app/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Welcome to your CDK Python project!",
+    "permalink": "/docs/capstones/smartcity/analytics/flink-cdk/"
+  },
+  "next": {
+    "title": "README",
+    "permalink": "/docs/capstones/smartcity/analytics/producer-cdk/"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/programming-languages/sql/challenges/assignment1/solution",
+  "id": "foundations/programming-languages/sql/challenges/assignment1/solution",
+  "title": "solution",
+  "description": "Solution",
+  "source": "@site/docs/01-foundations/04-programming-languages/sql/challenges/assignment1/solution.md",
+  "sourceDirName": "01-foundations/04-programming-languages/sql/challenges/assignment1",
+  "slug": "/foundations/programming-languages/sql/challenges/assignment1/solution",
+  "permalink": "/docs/foundations/programming-languages/sql/challenges/assignment1/solution",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Lab - SQL Assignment",
+    "permalink": "/docs/foundations/programming-languages/sql/challenges/assignment1/"
+  },
+  "next": {
+    "title": "SQL Assignment",
+    "permalink": "/docs/foundations/programming-languages/sql/challenges/assignment2/"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/programming-languages/scala/lab-scala-getting-started/README",
+  "id": "foundations/programming-languages/scala/lab-scala-getting-started/README",
+  "title": "Getting Started with Scala",
+  "description": "Why Scala?",
+  "source": "@site/docs/01-foundations/04-programming-languages/scala/lab-scala-getting-started/README.md",
+  "sourceDirName": "01-foundations/04-programming-languages/scala/lab-scala-getting-started",
+  "slug": "/foundations/programming-languages/scala/lab-scala-getting-started/",
+  "permalink": "/docs/foundations/programming-languages/scala/lab-scala-getting-started/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Scala",
+    "permalink": "/docs/foundations/programming-languages/scala/"
+  },
+  "next": {
+    "title": "SQL Aggregate Functions",
+    "permalink": "/docs/foundations/programming-languages/sql/aggregate-functions"
+  }
+}

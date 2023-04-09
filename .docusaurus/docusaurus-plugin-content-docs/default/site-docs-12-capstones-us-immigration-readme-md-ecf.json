@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/us-immigration/README",
+  "id": "capstones/us-immigration/README",
+  "title": "US Immigration analysis and data pipeline",
+  "description": "Problem Statement",
+  "source": "@site/docs/12-capstones/us-immigration/README.md",
+  "sourceDirName": "12-capstones/us-immigration",
+  "slug": "/capstones/us-immigration/",
+  "permalink": "/docs/capstones/us-immigration/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Twitter data Topic Analysis and Realtime Sentiment Analysis",
+    "permalink": "/docs/capstones/twitter-sentiment-glue/"
+  },
+  "next": {
+    "title": "MLOps",
+    "permalink": "/docs/mlops/"
+  }
+}

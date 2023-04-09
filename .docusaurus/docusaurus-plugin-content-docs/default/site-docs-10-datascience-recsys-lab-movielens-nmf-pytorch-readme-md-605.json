@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/recsys/lab-movielens-nmf-pytorch/README",
+  "id": "datascience/recsys/lab-movielens-nmf-pytorch/README",
+  "title": "Neural Matrix Factorization from scratch in PyTorch",
+  "description": "Building a Neural Matrix Factorization model from scratch in PyTorch on MovieLens-1M dataset.",
+  "source": "@site/docs/10-datascience/recsys/lab-movielens-nmf-pytorch/README.md",
+  "sourceDirName": "10-datascience/recsys/lab-movielens-nmf-pytorch",
+  "slug": "/datascience/recsys/lab-movielens-nmf-pytorch/",
+  "permalink": "/docs/datascience/recsys/lab-movielens-nmf-pytorch/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Graph RecSys Models",
+    "permalink": "/docs/datascience/recsys/lab-graph-models/"
+  },
+  "next": {
+    "title": "Recsys Personalize Getting Started",
+    "permalink": "/docs/datascience/recsys/lab-recsys-amazon-personalize/"
+  }
+}

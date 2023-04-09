@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/lab-dbt-stackexchnge/README",
+  "id": "processing/lab-dbt-stackexchnge/README",
+  "title": "Stackexchange dbt Bigquery",
+  "description": "Stack Exchange ELT pipeline with dbt and BigQuery",
+  "source": "@site/docs/03-processing/lab-dbt-stackexchnge/README.md",
+  "sourceDirName": "03-processing/lab-dbt-stackexchnge",
+  "slug": "/processing/lab-dbt-stackexchnge/",
+  "permalink": "/docs/processing/lab-dbt-stackexchnge/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "stg_ecommerce",
+    "permalink": "/docs/processing/lab-dbt-olist/models/staging/olist/stg_ecommerce"
+  },
+  "next": {
+    "title": "dbt Redshift TICKIT",
+    "permalink": "/docs/processing/lab-dbt-tickit/"
+  }
+}

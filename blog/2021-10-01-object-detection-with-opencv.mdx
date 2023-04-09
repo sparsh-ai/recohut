@@ -1,0 +1,76 @@
+---
+title: Object detection with OpenCV
+authors: sparsh
+tags: [object detection, opencv, vision]
+---
+
+## **Face detection**
+
+We will use the frontal face Haar cascade classifier model to detect faces in the given image. The following function first passes the given image into the classifier model to detect a list of face bounding boxes and then runs a loop to draw a red rectangle box around each detected face in the image:
+
+```python
+def detect_faces(fix_img):
+    face_rects = face_classifier.detectMultiScale(fix_img)
+    for (x, y, w, h) in face_rects:
+        cv2.rectangle(fix_img,
+                     (x,y),
+                     (x+w, y+h),
+                     (255,0,0),
+                     10)
+    return fix_img
+```
+
+## **Eyes detection**
+
+The process is almost similar to the face detection process. Instead of frontal face Haar cascade, we will use the eye detection Haar cascade model.
+
+![Input image](/img/content-blog-raw-blog-object-detection-with-opencv-untitled.png)
+
+Input image
+
+![detected faces and eyes in the image](/img/content-blog-raw-blog-object-detection-with-opencv-untitled-1.png)
+
+detected faces and eyes in the image
+
+## **Pedestrian detection**
+
+We will use the full-body Haar cascade classifier model for pedestrian detection. We will apply this model to a video this time. The following function will run the model on each frame of the video to detect the pedestrians:
+
+```python
+# While Loop
+while cap.isOpened():
+    # Read the capture
+		ret, frame = cap.read()
+    # Pass the Frame to the Classifier
+		bodies = body_classifier.detectMultiScale(frame, 1.2, 3)
+    # if Statement
+		if ret == True:
+        # Bound Boxes to Identified Bodies
+				for (x,y,w,h) in bodies:
+            cv2.rectangle(frame,
+                         (x,y),
+                         (x+w, y+h),
+                         (25,125,225),
+                         5)
+            cv2.imshow('Pedestrians', frame) 
+        # Exit with Esc button
+				if cv2.waitKey(1) == 27:
+            break  
+    # else Statement
+		else:
+        break
+    
+# Release the Capture & Destroy All Windows
+cap.release()
+cv2.destroyAllWindows()
+```
+
+## **Car detection**
+
+The process is almost similar to the pedestrian detection process. Again, we will use this model on a video. Instead of people Haar cascade, we will use the car cascade model.
+
+## **Car number plate detection**
+
+The process is almost similar to the face and eye detection process. We will use the car number plate cascade model.
+
+*You can find the code [here](https://github.com/sparsh-ai/0D7ACA15) on Github.*

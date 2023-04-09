@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/apache-couchdb",
+  "id": "storage/apache-couchdb",
+  "title": "Apache CouchDB",
+  "description": "Apache CouchDB is an open source NoSQL document database that collects and stores data in JSON-based document formats. Unlike relational databases, CouchDB uses a schema-free data model, which simplifies record management across various computing devices, mobile phones, and web browsers.",
+  "source": "@site/docs/02-storage/apache-couchdb.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/apache-couchdb",
+  "permalink": "/docs/storage/apache-couchdb",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Window Functions",
+    "permalink": "/docs/foundations/programming-languages/sql/window-functions"
+  },
+  "next": {
+    "title": "Apache Hudi",
+    "permalink": "/docs/storage/apache-hudi"
+  }
+}

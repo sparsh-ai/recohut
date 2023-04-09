@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/challenges/loan-grant/README",
+  "id": "datascience/challenges/loan-grant/README",
+  "title": "README",
+  "description": "https://github.com/pawachaitanya/Loan-Granting/tree/master",
+  "source": "@site/docs/10-datascience/challenges/loan-grant/README.md",
+  "sourceDirName": "10-datascience/challenges/loan-grant",
+  "slug": "/datascience/challenges/loan-grant/",
+  "permalink": "/docs/datascience/challenges/loan-grant/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "README",
+    "permalink": "/docs/datascience/challenges/funnel-analysis/"
+  },
+  "next": {
+    "title": "README",
+    "permalink": "/docs/datascience/challenges/marketing-email-campaign/"
+  }
+}

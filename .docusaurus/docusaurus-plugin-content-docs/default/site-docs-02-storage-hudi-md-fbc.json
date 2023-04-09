@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/hudi",
+  "id": "storage/hudi",
+  "title": "Hudi",
+  "description": "Hudi stands for Hadoop Update Delete Incremental. This table management technology combines multiple serialization techniques to allow columnar database performance for analytics queries while also supporting atomic, transactional updates. A typical Hudi application is a table that is updated from a CDC stream from a transactional application database. The stream is captured into a row-oriented serialization format, while the bulk of the table is retained in a columnar format. A query runs over both columnar and row-oriented files to return results for the current state of the table. Periodically, a repacking process runs that combines the row and columnar files into updated columnar files to maximize query efficiency.",
+  "source": "@site/docs/02-storage/hudi.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/hudi",
+  "permalink": "/docs/storage/hudi",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "On-premises Hadoop cluster vs Cloud data lakes",
+    "permalink": "/docs/storage/hadoop-vs-datalake"
+  },
+  "next": {
+    "title": "Iceberg",
+    "permalink": "/docs/storage/iceberg"
+  }
+}

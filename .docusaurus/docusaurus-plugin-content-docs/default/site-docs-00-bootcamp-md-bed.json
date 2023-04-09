@@ -1,0 +1,23 @@
+{
+  "unversionedId": "bootcamp",
+  "id": "bootcamp",
+  "title": "Recohut Data Bootcamps",
+  "description": "Hit the ⭐️ button if you like the repo",
+  "source": "@site/docs/00-bootcamp.md",
+  "sourceDirName": ".",
+  "slug": "/bootcamp",
+  "permalink": "/docs/bootcamp",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Install Anaconda",
+    "permalink": "/docs/foundations/developer-foundations/install-anaconda"
+  }
+}

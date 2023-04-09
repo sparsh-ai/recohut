@@ -1,0 +1,43 @@
+{
+  "permalink": "/blog/2022/12/13/sql-to-snowflake-schema-conversion",
+  "source": "@site/blog/2022-12-13-sql-to-snowflake-schema-conversion.mdx",
+  "title": "SQL Server to Snowflake Schema Conversion",
+  "description": "Last week, I was asked to migrate one view from the On-premises MS SQL Server to Snowflake. My first approach is to directly copy paste the DDL (Data Definition Language) and as I predicted, it didn't work. But my goal here was to follow TDD (Test Driven Development) - I ran the first version of DDL and Snowflake told me what the error is, I corrected the error and repeated the cycle 6-8 times until the code ran successfully without error and that's how I did the migration.",
+  "date": "2022-12-13T00:00:00.000Z",
+  "formattedDate": "December 13, 2022",
+  "tags": [
+    {
+      "label": "snowflake",
+      "permalink": "/blog/tags/snowflake"
+    }
+  ],
+  "readingTime": 1.235,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Sparsh Agarwal",
+      "title": "Data Scientist & Engineer",
+      "url": "https://github.com/sparsh-ai",
+      "email": "sprsag@gmail.com",
+      "imageURL": "https://github.com/sparsh-ai.png",
+      "key": "sparsh"
+    }
+  ],
+  "frontMatter": {
+    "title": "SQL Server to Snowflake Schema Conversion",
+    "authors": [
+      "sparsh"
+    ],
+    "tags": [
+      "snowflake"
+    ]
+  },
+  "prevItem": {
+    "title": "A/B and Multi-Armed Bandit Tests",
+    "permalink": "/blog/2022/12/24/ab-mab-tests"
+  },
+  "nextItem": {
+    "title": "The Complete Python Course (2022)",
+    "permalink": "/blog/2022/12/12/the-complete-python-course-2022"
+  }
+}

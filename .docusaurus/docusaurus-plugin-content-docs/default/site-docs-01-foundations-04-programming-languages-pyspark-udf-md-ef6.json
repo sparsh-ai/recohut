@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/programming-languages/pyspark/udf",
+  "id": "foundations/programming-languages/pyspark/udf",
+  "title": "What are UDFs in PySpark",
+  "description": "In PySpark, UDF stands for User-Defined Function, which is a feature that allows users to define their own functions and apply them to Spark data frames or RDDs.",
+  "source": "@site/docs/01-foundations/04-programming-languages/pyspark/udf.md",
+  "sourceDirName": "01-foundations/04-programming-languages/pyspark",
+  "slug": "/foundations/programming-languages/pyspark/udf",
+  "permalink": "/docs/foundations/programming-languages/pyspark/udf",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "PySpark vs Pandas",
+    "permalink": "/docs/foundations/programming-languages/pyspark/pyspark-vs-pandas"
+  },
+  "next": {
+    "title": "Python",
+    "permalink": "/docs/foundations/programming-languages/python/"
+  }
+}

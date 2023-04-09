@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/cloud-essentials/ec2",
+  "id": "foundations/cloud-essentials/ec2",
+  "title": "EC2",
+  "description": "The foundational service that provides compute resources for customers to build their applications on AWS is called Amazon EC2. Amazon EC2 provides customers with a choice of 500+ instance types. Customers can then tailor the right combination of instance types for their business applications.",
+  "source": "@site/docs/01-foundations/03-cloud-essentials/ec2.md",
+  "sourceDirName": "01-foundations/03-cloud-essentials",
+  "slug": "/foundations/cloud-essentials/ec2",
+  "permalink": "/docs/foundations/cloud-essentials/ec2",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DMS",
+    "permalink": "/docs/foundations/cloud-essentials/dms"
+  },
+  "next": {
+    "title": "GCP Basics",
+    "permalink": "/docs/foundations/cloud-essentials/gcp-basics"
+  }
+}

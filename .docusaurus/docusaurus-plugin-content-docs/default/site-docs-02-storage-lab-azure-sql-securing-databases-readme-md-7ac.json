@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/lab-azure-sql-securing-databases/README",
+  "id": "storage/lab-azure-sql-securing-databases/README",
+  "title": "Configuring and Securing Azure SQL Database",
+  "description": "Azure SQL Database, a fundamental relational database as a service offered in Azure, acts as a source, destination, or even as an intermediate storage layer in data engineering pipelines. Azure SQL Database can be used to consolidate data coming from several relational data sources and build mini data warehouses or data marts. With the introduction of Hyperscale tier in Azure SQL Database, the capacity of Azure SQL Database has increased leaps and bounds too. Securing Azure SQL Database is also pivotal in protecting access to the database. Having a strong understanding of Azure SQL Database's capabilities and security options is essential for any data engineer.",
+  "source": "@site/docs/02-storage/lab-azure-sql-securing-databases/README.md",
+  "sourceDirName": "02-storage/lab-azure-sql-securing-databases",
+  "slug": "/storage/lab-azure-sql-securing-databases/",
+  "permalink": "/docs/storage/lab-azure-sql-securing-databases/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Lab: AWS RDS Service",
+    "permalink": "/docs/storage/lab-aws-rds-service/"
+  },
+  "next": {
+    "title": "BigQuery Analysis",
+    "permalink": "/docs/storage/lab-bigquery-analysis/"
+  }
+}

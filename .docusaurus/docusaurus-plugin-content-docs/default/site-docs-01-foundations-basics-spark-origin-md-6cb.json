@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/basics/spark-origin",
+  "id": "foundations/basics/spark-origin",
+  "title": "Origin of Spark",
+  "description": "Big Data and Distributed Computing at Google",
+  "source": "@site/docs/01-foundations/basics/spark-origin.md",
+  "sourceDirName": "01-foundations/basics",
+  "slug": "/foundations/basics/spark-origin",
+  "permalink": "/docs/foundations/basics/spark-origin",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Interpreting a Spark DAG",
+    "permalink": "/docs/foundations/basics/spark-dag"
+  },
+  "next": {
+    "title": "Spark Quiz",
+    "permalink": "/docs/foundations/basics/spark-quiz"
+  }
+}

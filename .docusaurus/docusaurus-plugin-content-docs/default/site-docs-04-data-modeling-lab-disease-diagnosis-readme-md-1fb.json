@@ -1,0 +1,26 @@
+{
+  "unversionedId": "data-modeling/lab-disease-diagnosis/README",
+  "id": "data-modeling/lab-disease-diagnosis/README",
+  "title": "Disease Diagnosis and Medic Recommendation System",
+  "description": "In our ever-evolving world, there are those who frequently relocate to new locations, such as students like us, expats, who without giving a thought to their safety and well being engage in extensive social interaction, consume unusual delicacies, follow unhealthy lifestyles which includes erratic sleep activity, unsafe sexual practices, intense smoking and drinking, and little to no physical exercise. This may result in anumber of illnesses and other health issues that are difficult to treat promptly. Being away from one's own country is difficult but at times not knowing where to reach for the right medical care can even cause death. The main goal of this lab is to aid expats and students who are away from home in finding and obtaining medical care as soon as possible.",
+  "source": "@site/docs/04-data-modeling/lab-disease-diagnosis/README.md",
+  "sourceDirName": "04-data-modeling/lab-disease-diagnosis",
+  "slug": "/data-modeling/lab-disease-diagnosis/",
+  "permalink": "/docs/data-modeling/lab-disease-diagnosis/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Create a Data Model for Online Shopping Carts",
+    "permalink": "/docs/data-modeling/lab-cassandra-shopping-cart-data-model/"
+  },
+  "next": {
+    "title": "Postgres Pagila",
+    "permalink": "/docs/data-modeling/lab-dvd-rental-datamodel/"
+  }
+}

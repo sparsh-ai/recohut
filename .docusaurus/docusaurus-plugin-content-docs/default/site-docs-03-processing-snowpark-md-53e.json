@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/snowpark",
+  "id": "processing/snowpark",
+  "title": "Snowpark",
+  "description": "What is Snowpark",
+  "source": "@site/docs/03-processing/snowpark.md",
+  "sourceDirName": "03-processing",
+  "slug": "/processing/snowpark",
+  "permalink": "/docs/processing/snowpark",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Ray",
+    "permalink": "/docs/processing/ray"
+  },
+  "next": {
+    "title": "3NF/ Relational Modeling",
+    "permalink": "/docs/data-modeling/3nf-data-modeling"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/programming-languages/pyspark/broadcasting",
+  "id": "foundations/programming-languages/pyspark/broadcasting",
+  "title": "Broadcasting",
+  "description": "Broadcasting is the process of sending a read-only variable to the worker nodes, rather than sending a copy of the variable to each worker node. This can greatly improve the performance of Spark jobs by reducing the amount of data that needs to be sent over the network.",
+  "source": "@site/docs/01-foundations/04-programming-languages/pyspark/broadcasting.md",
+  "sourceDirName": "01-foundations/04-programming-languages/pyspark",
+  "slug": "/foundations/programming-languages/pyspark/broadcasting",
+  "permalink": "/docs/foundations/programming-languages/pyspark/broadcasting",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Secrets Manager",
+    "permalink": "/docs/foundations/cloud-essentials/secrets-manager"
+  },
+  "next": {
+    "title": "Caching",
+    "permalink": "/docs/foundations/programming-languages/pyspark/caching"
+  }
+}

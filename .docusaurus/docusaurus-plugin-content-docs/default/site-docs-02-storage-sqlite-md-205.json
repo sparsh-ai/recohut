@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/sqlite",
+  "id": "storage/sqlite",
+  "title": "SQLite",
+  "description": "SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine. SQLite is the most used database engine in the world.",
+  "source": "@site/docs/02-storage/sqlite.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/sqlite",
+  "permalink": "/docs/storage/sqlite",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Snowflake",
+    "permalink": "/docs/storage/snowflake"
+  },
+  "next": {
+    "title": "Why we need Data Lakes?",
+    "permalink": "/docs/storage/why-datalakes"
+  }
+}

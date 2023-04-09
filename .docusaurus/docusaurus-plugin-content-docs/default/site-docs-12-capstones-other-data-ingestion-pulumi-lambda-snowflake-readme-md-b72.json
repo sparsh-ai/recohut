@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/other/data-ingestion-pulumi-lambda-snowflake/README",
+  "id": "capstones/other/data-ingestion-pulumi-lambda-snowflake/README",
+  "title": "paas-data-ingestion",
+  "description": "Ingest and prepare data with AWS lambdas, Snowflake and dbt in a scalable, fully replayable manner.",
+  "source": "@site/docs/12-capstones/other/data-ingestion-pulumi-lambda-snowflake/README.md",
+  "sourceDirName": "12-capstones/other/data-ingestion-pulumi-lambda-snowflake",
+  "slug": "/capstones/other/data-ingestion-pulumi-lambda-snowflake/",
+  "permalink": "/docs/capstones/other/data-ingestion-pulumi-lambda-snowflake/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Covid-19 Data Pipeline",
+    "permalink": "/docs/capstones/other/covid19-datalake/"
+  },
+  "next": {
+    "title": "Equitize Data Migration",
+    "permalink": "/docs/capstones/other/equitize/"
+  }
+}

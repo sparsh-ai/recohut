@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/language/sql/isnull",
+  "id": "foundations/language/sql/isnull",
+  "title": "SQL IS NULL",
+  "description": "IS NULL is a logical operator in SQL that allows you to exclude rows with missing data from your results.",
+  "source": "@site/docs/01-foundations/language/sql/isnull.md",
+  "sourceDirName": "01-foundations/language/sql",
+  "slug": "/foundations/language/sql/isnull",
+  "permalink": "/docs/foundations/language/sql/isnull",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Indexes",
+    "permalink": "/docs/foundations/language/sql/indexes"
+  },
+  "next": {
+    "title": "SQL Joins",
+    "permalink": "/docs/foundations/language/sql/joins"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/basics/vector-search",
+  "id": "foundations/basics/vector-search",
+  "title": "Vector Search",
+  "description": "Faiss",
+  "source": "@site/docs/01-foundations/basics/vector-search.md",
+  "sourceDirName": "01-foundations/basics",
+  "slug": "/foundations/basics/vector-search",
+  "permalink": "/docs/foundations/basics/vector-search",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Use Cases",
+    "permalink": "/docs/foundations/basics/use-cases"
+  },
+  "next": {
+    "title": "Bayesian Optimization",
+    "permalink": "/docs/foundations/bayesian-optimization"
+  }
+}

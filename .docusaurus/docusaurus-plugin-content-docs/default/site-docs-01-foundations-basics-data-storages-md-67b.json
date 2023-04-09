@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/basics/data-storages",
+  "id": "foundations/basics/data-storages",
+  "title": "Data Storages",
+  "description": "| Architecture          | Total cost of solution                                                                                                                                                  | Flexibility of scenarios                                                                                                                                                                      | Complexity of development                                                                                                                                                     | Maturity of ecosystem                                                                                                                                                                         | Organizational maturity required                                                                                                                                                            |",
+  "source": "@site/docs/01-foundations/basics/data-storages.md",
+  "sourceDirName": "01-foundations/basics",
+  "slug": "/foundations/basics/data-storages",
+  "permalink": "/docs/foundations/basics/data-storages",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data Quality",
+    "permalink": "/docs/foundations/basics/data-quality"
+  },
+  "next": {
+    "title": "Data Engineering Getting Started Guide",
+    "permalink": "/docs/foundations/basics/de-basics"
+  }
+}

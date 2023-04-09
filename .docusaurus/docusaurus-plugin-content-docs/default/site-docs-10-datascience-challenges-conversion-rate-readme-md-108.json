@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/challenges/conversion-rate/README",
+  "id": "datascience/challenges/conversion-rate/README",
+  "title": "README",
+  "description": "https://github.com/Saadorj/DataScienceProjects/tree/master",
+  "source": "@site/docs/10-datascience/challenges/conversion-rate/README.md",
+  "sourceDirName": "10-datascience/challenges/conversion-rate",
+  "slug": "/datascience/challenges/conversion-rate/",
+  "permalink": "/docs/datascience/challenges/conversion-rate/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Ultimate Data Science Take Home Challenge Sample",
+    "permalink": "/docs/datascience/challenges/Ultimate-data-science-take-home-challenge-sample/"
+  },
+  "next": {
+    "title": "README",
+    "permalink": "/docs/datascience/challenges/creditcard-fraud/"
+  }
+}

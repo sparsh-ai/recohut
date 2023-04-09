@@ -1,0 +1,26 @@
+{
+  "unversionedId": "mlops/mlflow/README",
+  "id": "mlops/mlflow/README",
+  "title": "MLflow",
+  "description": "MLflow is a platform that makes it simpler to manage the entire machine learning lifecycle. It enables you to track your experiments and their results, deploy and manage your models, and package your machine learning code in a reusable, reproducible format. It provides a central model registry that supports versioning and annotating, as well as model serving capabilities. It does that by redefining experimentation logs and module structure.",
+  "source": "@site/docs/17-mlops/mlflow/README.md",
+  "sourceDirName": "17-mlops/mlflow",
+  "slug": "/mlops/mlflow/",
+  "permalink": "/docs/mlops/mlflow/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Experiments Tracking, Model Management, and Dataset Versioning",
+    "permalink": "/docs/mlops/ml-lab-tracking/"
+  },
+  "next": {
+    "title": "Interview Preparation",
+    "permalink": "/docs/a1-interviewprep/"
+  }
+}

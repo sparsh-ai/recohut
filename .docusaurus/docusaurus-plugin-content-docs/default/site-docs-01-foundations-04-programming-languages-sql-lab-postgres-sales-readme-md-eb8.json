@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/programming-languages/sql/lab-postgres-sales/README",
+  "id": "foundations/programming-languages/sql/lab-postgres-sales/README",
+  "title": "Postgres Sales",
+  "description": "Running Dates, String and Advanced queries in Postgres on Sales data",
+  "source": "@site/docs/01-foundations/04-programming-languages/sql/lab-postgres-sales/README.md",
+  "sourceDirName": "01-foundations/04-programming-languages/sql/lab-postgres-sales",
+  "slug": "/foundations/programming-languages/sql/lab-postgres-sales/",
+  "permalink": "/docs/foundations/programming-languages/sql/lab-postgres-sales/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Lab: Data Ingestion to MySQL",
+    "permalink": "/docs/foundations/programming-languages/sql/lab-mysql-data-ingestion/"
+  },
+  "next": {
+    "title": "SQLite Basics",
+    "permalink": "/docs/foundations/programming-languages/sql/lab-sqlite-basics/"
+  }
+}

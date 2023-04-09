@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/climate/README",
+  "id": "capstones/climate/README",
+  "title": "Global Historical Climatology Network Daily Data Pipeline",
+  "description": "Objective",
+  "source": "@site/docs/12-capstones/climate/README.md",
+  "sourceDirName": "12-capstones/climate",
+  "slug": "/capstones/climate/",
+  "permalink": "/docs/capstones/climate/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Airflow - City Traffic Drone",
+    "permalink": "/docs/capstones/city-traffic-drone/"
+  },
+  "next": {
+    "title": "Building End to end data pipeline in AWS",
+    "permalink": "/docs/capstones/cloudmaze/"
+  }
+}

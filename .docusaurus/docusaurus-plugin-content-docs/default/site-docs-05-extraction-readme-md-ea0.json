@@ -1,0 +1,26 @@
+{
+  "unversionedId": "extraction/README",
+  "id": "extraction/README",
+  "title": "Data Extraction",
+  "description": "Airbyte and Fivetran",
+  "source": "@site/docs/05-extraction/README.md",
+  "sourceDirName": "05-extraction",
+  "slug": "/extraction/",
+  "permalink": "/docs/extraction/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SQL Data Modeling",
+    "permalink": "/docs/data-modeling/sql-data-modeling"
+  },
+  "next": {
+    "title": "Data Extraction from APIs",
+    "permalink": "/docs/extraction/api/"
+  }
+}

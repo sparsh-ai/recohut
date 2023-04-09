@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/funflix/README",
+  "id": "capstones/funflix/README",
+  "title": "Funflix",
+  "description": "You are working as a data engineer in an Australian media company Funflix. You got the following requirements and tasks to solve.",
+  "source": "@site/docs/12-capstones/funflix/README.md",
+  "sourceDirName": "12-capstones/funflix",
+  "slug": "/capstones/funflix/",
+  "permalink": "/docs/capstones/funflix/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Disaster Response Pipeline",
+    "permalink": "/docs/capstones/disaster-response/"
+  },
+  "next": {
+    "title": "Datalake Schema Correction",
+    "permalink": "/docs/capstones/hmc/"
+  }
+}

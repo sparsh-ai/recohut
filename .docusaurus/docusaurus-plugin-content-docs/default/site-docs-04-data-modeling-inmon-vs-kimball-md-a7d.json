@@ -1,0 +1,26 @@
+{
+  "unversionedId": "data-modeling/inmon-vs-kimball",
+  "id": "data-modeling/inmon-vs-kimball",
+  "title": "Inmon versus the Kimball data model",
+  "description": "If you look at the internet, there will be many references to data modeling, but two of the most famous approaches are the Inmon method (data-driven) and the Kimball method (user-driven).",
+  "source": "@site/docs/04-data-modeling/inmon-vs-kimball.md",
+  "sourceDirName": "04-data-modeling",
+  "slug": "/data-modeling/inmon-vs-kimball",
+  "permalink": "/docs/data-modeling/inmon-vs-kimball",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Dimensional Modeling",
+    "permalink": "/docs/data-modeling/dimensional-modeling"
+  },
+  "next": {
+    "title": "AirBnB Postgres Datamodel",
+    "permalink": "/docs/data-modeling/lab-airbnb-postgres-datamodel/"
+  }
+}

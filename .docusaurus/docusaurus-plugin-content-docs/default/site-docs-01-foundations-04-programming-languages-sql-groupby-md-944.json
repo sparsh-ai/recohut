@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/programming-languages/sql/groupby",
+  "id": "foundations/programming-languages/sql/groupby",
+  "title": "SQL GROUP BY",
+  "description": "SQL aggregate function like COUNT, AVG, and SUM have something in common: they all aggregate across the entire table. But what if you want to aggregate only part of a table? For example, you might want to count the number of entries for each year.",
+  "source": "@site/docs/01-foundations/04-programming-languages/sql/groupby.md",
+  "sourceDirName": "01-foundations/04-programming-languages/sql",
+  "slug": "/foundations/programming-languages/sql/groupby",
+  "permalink": "/docs/foundations/programming-languages/sql/groupby",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SQL DISTINCT",
+    "permalink": "/docs/foundations/programming-languages/sql/distinct"
+  },
+  "next": {
+    "title": "SQL HAVING",
+    "permalink": "/docs/foundations/programming-languages/sql/having"
+  }
+}

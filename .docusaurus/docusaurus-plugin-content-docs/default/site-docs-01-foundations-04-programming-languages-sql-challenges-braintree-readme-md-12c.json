@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/programming-languages/sql/challenges/braintree/README",
+  "id": "foundations/programming-languages/sql/challenges/braintree/README",
+  "title": "README",
+  "description": "Welcome to the Braintree Analytics Code Challenge!",
+  "source": "@site/docs/01-foundations/04-programming-languages/sql/challenges/braintree/README.md",
+  "sourceDirName": "01-foundations/04-programming-languages/sql/challenges/braintree",
+  "slug": "/foundations/programming-languages/sql/challenges/braintree/",
+  "permalink": "/docs/foundations/programming-languages/sql/challenges/braintree/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Patients SQL Assignment",
+    "permalink": "/docs/foundations/programming-languages/sql/challenges/assignment7/"
+  },
+  "next": {
+    "title": "Challenge - Employee Analytics",
+    "permalink": "/docs/foundations/programming-languages/sql/challenges/employee"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/cloud-essentials/lab-aws-setup/README",
+  "id": "foundations/cloud-essentials/lab-aws-setup/README",
+  "title": "README",
+  "description": "Create AWS Account",
+  "source": "@site/docs/01-foundations/03-cloud-essentials/lab-aws-setup/README.md",
+  "sourceDirName": "01-foundations/03-cloud-essentials/lab-aws-setup",
+  "slug": "/foundations/cloud-essentials/lab-aws-setup/",
+  "permalink": "/docs/foundations/cloud-essentials/lab-aws-setup/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "AWS Secrets Manager",
+    "permalink": "/docs/foundations/cloud-essentials/lab-aws-secrets-manager/"
+  },
+  "next": {
+    "title": "Create IAM Role and Policy",
+    "permalink": "/docs/foundations/cloud-essentials/lab-create-iam-policy-role/"
+  }
+}

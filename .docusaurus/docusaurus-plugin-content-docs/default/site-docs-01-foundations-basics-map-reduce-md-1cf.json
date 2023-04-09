@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/basics/map-reduce",
+  "id": "foundations/basics/map-reduce",
+  "title": "Map Reduce",
+  "description": "Knowing that answering the how question is what is important to understanding big data, the first question we need to answer is how does it actually store the data? What makes it different from non-big data storage?",
+  "source": "@site/docs/01-foundations/basics/map-reduce.md",
+  "sourceDirName": "01-foundations/basics",
+  "slug": "/foundations/basics/map-reduce",
+  "permalink": "/docs/foundations/basics/map-reduce",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Hadoop vs Spark",
+    "permalink": "/docs/foundations/basics/hadoop-vs-spark"
+  },
+  "next": {
+    "title": "Model Optimization",
+    "permalink": "/docs/foundations/basics/model-optimization"
+  }
+}

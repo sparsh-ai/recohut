@@ -1,0 +1,44 @@
+{
+  "permalink": "/blog/2022/12/24/ab-mab-tests",
+  "source": "@site/blog/2022-12-24-ab-mab-tests.mdx",
+  "title": "A/B and Multi-Armed Bandit Tests",
+  "description": "Lab 1: Simple T-test",
+  "date": "2022-12-24T00:00:00.000Z",
+  "formattedDate": "December 24, 2022",
+  "tags": [
+    {
+      "label": "mab",
+      "permalink": "/blog/tags/mab"
+    },
+    {
+      "label": "ab",
+      "permalink": "/blog/tags/ab"
+    }
+  ],
+  "readingTime": 0.775,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Sparsh Agarwal",
+      "title": "Data Scientist & Engineer",
+      "url": "https://github.com/sparsh-ai",
+      "email": "sprsag@gmail.com",
+      "imageURL": "https://github.com/sparsh-ai.png",
+      "key": "sparsh"
+    }
+  ],
+  "frontMatter": {
+    "title": "A/B and Multi-Armed Bandit Tests",
+    "authors": [
+      "sparsh"
+    ],
+    "tags": [
+      "mab",
+      "ab"
+    ]
+  },
+  "nextItem": {
+    "title": "SQL Server to Snowflake Schema Conversion",
+    "permalink": "/blog/2022/12/13/sql-to-snowflake-schema-conversion"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/other/youtube-insights/README",
+  "id": "capstones/other/youtube-insights/README",
+  "title": "YouTube Trend Analysis Workshop",
+  "description": "youtube_trending",
+  "source": "@site/docs/12-capstones/other/youtube-insights/README.md",
+  "sourceDirName": "12-capstones/other/youtube-insights",
+  "slug": "/capstones/other/youtube-insights/",
+  "permalink": "/docs/capstones/other/youtube-insights/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Work around the world Job vacancies analysis",
+    "permalink": "/docs/capstones/other/us-job-vacancies/"
+  },
+  "next": {
+    "title": "Building Recommender System from Scratch",
+    "permalink": "/docs/capstones/recofront/"
+  }
+}

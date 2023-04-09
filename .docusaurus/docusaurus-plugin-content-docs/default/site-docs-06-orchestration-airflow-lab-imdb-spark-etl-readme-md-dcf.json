@@ -1,0 +1,26 @@
+{
+  "unversionedId": "orchestration/airflow/lab-imdb-spark-etl/README",
+  "id": "orchestration/airflow/lab-imdb-spark-etl/README",
+  "title": "IMDB data procesing and Airflow pipeline",
+  "description": "Objective",
+  "source": "@site/docs/06-orchestration/airflow/lab-imdb-spark-etl/README.md",
+  "sourceDirName": "06-orchestration/airflow/lab-imdb-spark-etl",
+  "slug": "/orchestration/airflow/lab-imdb-spark-etl/",
+  "permalink": "/docs/orchestration/airflow/lab-imdb-spark-etl/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Airflow Forex ETL",
+    "permalink": "/docs/orchestration/airflow/lab-forex-etl/"
+  },
+  "next": {
+    "title": "Creating ETL Data Pipelines using Apache Airflow",
+    "permalink": "/docs/orchestration/airflow/lab-tolldata/"
+  }
+}

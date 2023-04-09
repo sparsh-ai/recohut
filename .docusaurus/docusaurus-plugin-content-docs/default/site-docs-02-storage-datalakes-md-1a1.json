@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/datalakes",
+  "id": "storage/datalakes",
+  "title": "Data Lakes",
+  "description": "What is a Cloud Data Lake Architecture",
+  "source": "@site/docs/02-storage/datalakes.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/datalakes",
+  "permalink": "/docs/storage/datalakes",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Components of the cloud data lake architecture",
+    "permalink": "/docs/storage/datalake-components"
+  },
+  "next": {
+    "title": "Deltalake",
+    "permalink": "/docs/storage/deltalake"
+  }
+}

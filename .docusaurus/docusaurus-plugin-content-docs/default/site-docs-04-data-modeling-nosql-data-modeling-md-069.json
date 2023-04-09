@@ -1,0 +1,26 @@
+{
+  "unversionedId": "data-modeling/nosql-data-modeling",
+  "id": "data-modeling/nosql-data-modeling",
+  "title": "NoSQL Data Modeling",
+  "description": "What is a NoSQL data model?",
+  "source": "@site/docs/04-data-modeling/nosql-data-modeling.md",
+  "sourceDirName": "04-data-modeling",
+  "slug": "/data-modeling/nosql-data-modeling",
+  "permalink": "/docs/data-modeling/nosql-data-modeling",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Normalization vs Denormalization",
+    "permalink": "/docs/data-modeling/normalization-vs-denormalization"
+  },
+  "next": {
+    "title": "Quiz",
+    "permalink": "/docs/data-modeling/quiz"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/cloud-essentials/gcp-basics",
+  "id": "foundations/cloud-essentials/gcp-basics",
+  "title": "GCP Basics",
+  "description": "There are a lot of services in GCP. The services are not only limited to data and analytics. They also cover other areas such as application development, machine learning, networks, source repositories, and many more. As a data engineer working on GCP, you will face situations when you need to decide which services you need to use for your organization.",
+  "source": "@site/docs/01-foundations/03-cloud-essentials/gcp-basics.md",
+  "sourceDirName": "01-foundations/03-cloud-essentials",
+  "slug": "/foundations/cloud-essentials/gcp-basics",
+  "permalink": "/docs/foundations/cloud-essentials/gcp-basics",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "EC2",
+    "permalink": "/docs/foundations/cloud-essentials/ec2"
+  },
+  "next": {
+    "title": "GCP Setup",
+    "permalink": "/docs/foundations/cloud-essentials/gcp-setup"
+  }
+}
