@@ -1,4 +1,4 @@
-# :microscope: Lab: Learn git commands
+# Lab: Learn git commands
 
 ## Objective
 
@@ -25,6 +25,10 @@ In this lab, we will learn how to perform the following activities:
 ![atlassian-git-cheatsheet-1](https://user-images.githubusercontent.com/62965911/212006609-a871bf80-a26e-4ab6-996b-eaab0a14f5b4.png)
 
 ![atlassian-git-cheatsheet-2](https://user-images.githubusercontent.com/62965911/212006617-88e6eb6b-b6d3-4a25-8827-4cfa0ab63d41.png)
+
+NOTE
+
+> In Mac/Linux, Bash comes pre-installed. And in Windows, git will also install bash terminal.
 
 ## Quiz
 
