@@ -1,4 +1,4 @@
-# Recohut Data Bootcamps
+# Introduction
 
 Hit the ⭐️ button if you like the repo
 
