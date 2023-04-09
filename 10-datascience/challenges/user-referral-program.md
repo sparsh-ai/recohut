@@ -31,5 +31,4 @@ The program has been running for almost a month and the Growth Product Manager w
 
 ## Solution
 
-[![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/sparsh-ai/0a351138ace8c61a8ce36d934d7dbfa3/user-referral-program.ipynb)
 [![nbviewer](https://camo.githubusercontent.com/a2b8b49ec63c501c07f7f5d73ced6fdee58a337609d4a6962d6ec5b4fbd3fec9/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f72656e6465722d6e627669657765722d6f72616e67652e737667)](https://nbviewer.org/gist/sparsh-ai/0a351138ace8c61a8ce36d934d7dbfa3)

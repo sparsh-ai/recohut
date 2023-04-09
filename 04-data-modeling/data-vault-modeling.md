@@ -1,0 +1,5 @@
+# Data Vault Modeling
+
+A hybrid between 3NF and dimensional modeling, the Data Vault model is much closer to 3NF than to the dimensional model. It tries to keep the best features of 3NF, such as ease of querying highly granular, historical data, and still restructures the data into new types of tables, such as satellites, links, hubs, bridges, and PITs. A [Data Vault](https://www.databricks.com/glossary/data-vault) is a more recent data modeling design pattern used to build data warehouses for enterprise-scale analytics compared to Kimball and Inmon methods. Data Vaults organize data into three different types: ** hubs** ,  **links** , and  **satellites** . Hubs represent core business entities, links represent relationships between hubs, and satellites store attributes about hubs or links. Data Vault focuses on agile data warehouse development where scalability, data integration/ETL and development speed are important.
+
+![data-vault-datamodel](https://user-images.githubusercontent.com/62965911/216759991-593de2e9-2777-4ba1-8915-1674b97cbf37.png)

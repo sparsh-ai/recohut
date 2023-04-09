@@ -1,0 +1,1001 @@
+country,candy,sales
+DEU,gummy bears,8703059
+SAU,peanut butter pops,4893609
+ARE,chocolate cookies,7766397
+CAN,caramel popcorn,6795136
+TUR,lollipops,7085884
+TUR,chocolate cookies,8777983
+TUR,peanut butter pops,1248992
+TUR,gummy bears,3910859
+TUR,dark chocolate bar,7235349
+FRA,peanut butter pops,2312281
+CHN,chocolate cookies,3804240
+CHN,chocolate bar,5131463
+GBR,lollipops,8708922
+USA,butter cookies,8946090
+SAU,blueberry bubblegum,3681119
+SAU,peanut butter pops,276881
+CAN,butter cookies,9646049
+DEU,white chocolate bar,1960111
+CHN,chocolate bar,1054252
+IND,butter cookies,2910199
+GBR,butter cookies,8180369
+IND,gummy bears,2362218
+SAU,caramel popcorn,3374832
+CHN,white chocolate bar,826905
+ITA,lollipops,2162662
+CAN,blueberry bubblegum,6901011
+CHN,lollipops,5280682
+RUS,blueberry bubblegum,6920407
+BRA,blueberry bubblegum,9544954
+RUS,caramel popcorn,4089746
+FRA,peanut butter pops,2078097
+CAN,peanut butter pops,5497212
+CAN,caramel popcorn,6149406
+DEU,chocolate bar,705569
+IND,gummy bears,5922490
+SAU,blueberry bubblegum,729140
+IND,gummy bears,949130
+IND,lollipops,688585
+FRA,dark chocolate bar,1642747
+USA,caramel popcorn,4504172
+FRA,lollipops,1428420
+CHN,chocolate cookies,3563838
+RUS,gummy bears,963894
+DEU,chocolate cookies,771357
+BRA,peanut butter pops,3616886
+TUR,gummy bears,9635447
+BRA,caramel popcorn,1761802
+DEU,peanut butter pops,6416701
+SAU,peanut butter pops,6596535
+USA,chocolate bar,8134438
+CHN,dark chocolate bar,9465122
+FRA,dark chocolate bar,9687837
+GBR,caramel popcorn,5884118
+USA,gummy bears,6600969
+BRA,gummy bears,8090596
+MEX,chocolate cookies,5648438
+ARE,white chocolate bar,3550224
+USA,blueberry bubblegum,7409346
+BRA,lollipops,9629052
+CHN,peanut butter pops,7223362
+SAU,chocolate bar,5577876
+MEX,caramel popcorn,3579469
+GBR,chocolate bar,972333
+FRA,dark chocolate bar,7171695
+DEU,blueberry bubblegum,4375318
+IND,chocolate bar,4893983
+ITA,peanut butter pops,6717274
+FRA,caramel popcorn,7397026
+TUR,blueberry bubblegum,7520353
+FRA,dark chocolate bar,2962089
+SAU,white chocolate bar,538948
+DEU,white chocolate bar,7755495
+DEU,blueberry bubblegum,7379934
+BRA,peanut butter pops,7547313
+RUS,butter cookies,6509215
+FRA,caramel popcorn,9829663
+TUR,gummy bears,905190
+ITA,gummy bears,967246
+ARE,gummy bears,9111506
+FRA,peanut butter pops,3389167
+ITA,gummy bears,1283754
+RUS,chocolate cookies,5061285
+GBR,peanut butter pops,3306827
+BRA,blueberry bubblegum,7811495
+SAU,gummy bears,4184973
+SAU,lollipops,7986758
+BRA,peanut butter pops,1028901
+FRA,lollipops,7627832
+GBR,chocolate cookies,9694430
+CAN,blueberry bubblegum,8901373
+FRA,blueberry bubblegum,7502467
+FRA,caramel popcorn,9200148
+FRA,dark chocolate bar,2351628
+BRA,dark chocolate bar,2083322
+CHN,white chocolate bar,6269176
+FRA,chocolate cookies,4446677
+DEU,butter cookies,403613
+FRA,blueberry bubblegum,8782612
+DEU,dark chocolate bar,923320
+GBR,caramel popcorn,1831966
+DEU,dark chocolate bar,6488945
+BRA,chocolate cookies,3121118
+SAU,caramel popcorn,7123674
+SAU,chocolate bar,4203014
+CHN,white chocolate bar,8611729
+CHN,chocolate cookies,2766028
+FRA,chocolate bar,1064455
+BRA,blueberry bubblegum,1573283
+SAU,chocolate cookies,2466704
+GBR,gummy bears,8746837
+RUS,butter cookies,4826777
+FRA,blueberry bubblegum,1800377
+SAU,chocolate bar,8341495
+ARE,butter cookies,9116945
+DEU,peanut butter pops,366065
+RUS,caramel popcorn,2074508
+USA,gummy bears,3908017
+TUR,caramel popcorn,1823902
+MEX,caramel popcorn,5195851
+CAN,caramel popcorn,2568831
+CAN,chocolate bar,3219579
+ITA,dark chocolate bar,8812448
+ITA,chocolate cookies,4913109
+USA,chocolate bar,1674945
+USA,butter cookies,5489336
+FRA,dark chocolate bar,2876401
+TUR,lollipops,9422994
+BRA,chocolate bar,8327702
+TUR,lollipops,7003210
+CHN,dark chocolate bar,8809458
+SAU,lollipops,3178191
+CAN,gummy bears,7155058
+BRA,lollipops,4432391
+RUS,caramel popcorn,1236504
+DEU,white chocolate bar,8743780
+MEX,lollipops,9468376
+IND,peanut butter pops,8376907
+BRA,lollipops,1191057
+IND,gummy bears,358765
+FRA,gummy bears,6954515
+FRA,gummy bears,6499026
+IND,chocolate cookies,9823109
+DEU,blueberry bubblegum,3253925
+ITA,blueberry bubblegum,1467595
+CAN,chocolate bar,1140579
+ITA,gummy bears,1130316
+CAN,peanut butter pops,5803257
+FRA,chocolate cookies,4169590
+ARE,blueberry bubblegum,8537334
+CHN,chocolate bar,7117449
+IND,chocolate bar,9220969
+TUR,gummy bears,2213428
+DEU,peanut butter pops,8012860
+ITA,caramel popcorn,3245033
+FRA,peanut butter pops,3144144
+FRA,butter cookies,403895
+TUR,butter cookies,8795912
+CAN,lollipops,9582340
+ITA,white chocolate bar,371528
+CHN,white chocolate bar,1226513
+ARE,lollipops,9770414
+IND,peanut butter pops,6859870
+RUS,butter cookies,1104111
+SAU,chocolate bar,2774294
+USA,chocolate bar,6070439
+DEU,butter cookies,3324896
+SAU,gummy bears,8068685
+IND,peanut butter pops,9187185
+USA,chocolate cookies,7891666
+RUS,peanut butter pops,3123865
+RUS,chocolate bar,9600867
+BRA,dark chocolate bar,4795173
+IND,caramel popcorn,6189614
+DEU,butter cookies,8633830
+RUS,white chocolate bar,9035210
+RUS,peanut butter pops,4870576
+ARE,gummy bears,3686952
+ITA,caramel popcorn,3106453
+CAN,caramel popcorn,7109827
+RUS,blueberry bubblegum,5488913
+RUS,lollipops,9748999
+RUS,caramel popcorn,787047
+IND,dark chocolate bar,3161263
+GBR,butter cookies,8954951
+FRA,dark chocolate bar,1324373
+SAU,blueberry bubblegum,9395606
+CHN,peanut butter pops,8969503
+DEU,dark chocolate bar,2409294
+TUR,gummy bears,3927311
+MEX,chocolate cookies,8407981
+IND,caramel popcorn,7309692
+SAU,dark chocolate bar,3113934
+MEX,gummy bears,4392601
+BRA,butter cookies,9564679
+TUR,butter cookies,3770557
+IND,lollipops,9755779
+ITA,dark chocolate bar,3478714
+ITA,chocolate bar,6284696
+RUS,blueberry bubblegum,6565209
+TUR,chocolate bar,6683538
+CAN,butter cookies,2784055
+GBR,chocolate bar,7093593
+CAN,dark chocolate bar,9586732
+DEU,dark chocolate bar,9555881
+CAN,lollipops,7403230
+MEX,dark chocolate bar,3465385
+MEX,white chocolate bar,9242678
+DEU,caramel popcorn,5750187
+ITA,chocolate bar,5518522
+DEU,peanut butter pops,1367474
+FRA,dark chocolate bar,8249759
+ARE,white chocolate bar,8047449
+IND,butter cookies,4125418
+MEX,chocolate cookies,9777207
+ITA,caramel popcorn,7056297
+FRA,chocolate cookies,4240649
+DEU,blueberry bubblegum,4075888
+USA,caramel popcorn,9137400
+CAN,white chocolate bar,8979391
+GBR,white chocolate bar,497794
+FRA,dark chocolate bar,5510058
+FRA,caramel popcorn,4223079
+USA,blueberry bubblegum,1528984
+DEU,white chocolate bar,4281732
+RUS,dark chocolate bar,1485571
+FRA,chocolate cookies,6154226
+USA,butter cookies,7517645
+SAU,peanut butter pops,5312887
+TUR,butter cookies,999671
+DEU,peanut butter pops,4910815
+FRA,chocolate cookies,4675510
+GBR,chocolate cookies,5924582
+CAN,peanut butter pops,4617792
+GBR,dark chocolate bar,3435067
+IND,chocolate cookies,8309659
+GBR,chocolate cookies,3835274
+SAU,gummy bears,9939412
+MEX,chocolate cookies,6476278
+ARE,blueberry bubblegum,252899
+SAU,peanut butter pops,6891804
+TUR,chocolate cookies,6729430
+ITA,chocolate cookies,9987608
+ITA,peanut butter pops,2043351
+CHN,blueberry bubblegum,632335
+RUS,butter cookies,2539418
+RUS,peanut butter pops,8987161
+DEU,dark chocolate bar,9095890
+ARE,peanut butter pops,6272023
+BRA,chocolate cookies,6592029
+IND,peanut butter pops,3574115
+ARE,lollipops,4976277
+USA,dark chocolate bar,3119157
+BRA,white chocolate bar,903734
+BRA,gummy bears,3218162
+DEU,gummy bears,6923057
+IND,gummy bears,7095842
+FRA,peanut butter pops,5450212
+IND,blueberry bubblegum,2316651
+FRA,lollipops,3655058
+SAU,dark chocolate bar,8466561
+CAN,gummy bears,1614379
+CAN,peanut butter pops,6895478
+TUR,dark chocolate bar,3708975
+ARE,chocolate cookies,8444775
+TUR,chocolate bar,1620196
+SAU,blueberry bubblegum,8945638
+ITA,white chocolate bar,337144
+GBR,dark chocolate bar,3281998
+ARE,caramel popcorn,9674709
+CHN,peanut butter pops,169336
+FRA,gummy bears,798592
+ITA,butter cookies,6701554
+MEX,white chocolate bar,2250688
+SAU,dark chocolate bar,8887682
+RUS,white chocolate bar,1170894
+RUS,peanut butter pops,1479485
+BRA,chocolate cookies,2985939
+DEU,white chocolate bar,2648630
+FRA,lollipops,3182142
+DEU,dark chocolate bar,543402
+RUS,gummy bears,4371440
+TUR,lollipops,2992502
+ARE,peanut butter pops,9301090
+ARE,chocolate cookies,5193884
+ARE,chocolate bar,4506964
+CAN,peanut butter pops,4524846
+CAN,gummy bears,9036825
+IND,butter cookies,6236912
+FRA,dark chocolate bar,7772069
+BRA,caramel popcorn,1087904
+GBR,blueberry bubblegum,8979055
+DEU,dark chocolate bar,874797
+MEX,peanut butter pops,5165951
+BRA,lollipops,9217627
+CHN,lollipops,3895537
+ITA,peanut butter pops,1439920
+FRA,dark chocolate bar,729660
+CHN,caramel popcorn,9899523
+GBR,caramel popcorn,3622676
+ARE,peanut butter pops,4468165
+MEX,white chocolate bar,4199870
+RUS,caramel popcorn,7609845
+IND,butter cookies,1494722
+MEX,caramel popcorn,2371368
+CHN,butter cookies,9070454
+USA,lollipops,6569938
+SAU,chocolate cookies,5783739
+BRA,caramel popcorn,4482535
+FRA,white chocolate bar,5297968
+IND,chocolate bar,5255525
+DEU,blueberry bubblegum,1546908
+MEX,gummy bears,5673152
+USA,gummy bears,6089041
+ITA,white chocolate bar,6371258
+BRA,blueberry bubblegum,5876069
+CHN,peanut butter pops,4854566
+GBR,dark chocolate bar,3887416
+MEX,butter cookies,9088869
+CHN,lollipops,4440401
+FRA,caramel popcorn,9968577
+USA,gummy bears,2116100
+IND,white chocolate bar,4383106
+GBR,dark chocolate bar,6311816
+BRA,white chocolate bar,5145155
+DEU,lollipops,3119440
+ITA,white chocolate bar,1072299
+USA,chocolate cookies,7704842
+DEU,gummy bears,9226354
+BRA,caramel popcorn,6862286
+IND,peanut butter pops,6479695
+SAU,caramel popcorn,6781444
+USA,blueberry bubblegum,757201
+SAU,gummy bears,3065934
+SAU,lollipops,273699
+RUS,dark chocolate bar,3695312
+TUR,chocolate bar,6781470
+CAN,chocolate cookies,6911887
+TUR,peanut butter pops,6184584
+MEX,chocolate bar,9082997
+ITA,blueberry bubblegum,4248635
+RUS,peanut butter pops,2201906
+SAU,white chocolate bar,4834890
+ARE,gummy bears,8966211
+ARE,lollipops,3252881
+BRA,peanut butter pops,6473430
+CAN,white chocolate bar,8934452
+BRA,chocolate bar,5209312
+FRA,chocolate bar,8938070
+RUS,chocolate bar,7522064
+MEX,peanut butter pops,3644624
+IND,caramel popcorn,1727028
+GBR,butter cookies,9443657
+ITA,peanut butter pops,1791239
+CHN,chocolate cookies,6803736
+CAN,chocolate bar,2010738
+USA,chocolate cookies,9064935
+DEU,blueberry bubblegum,2007710
+RUS,chocolate bar,9051170
+ITA,chocolate cookies,8163530
+DEU,chocolate bar,7131755
+GBR,white chocolate bar,2712981
+FRA,caramel popcorn,3253247
+RUS,lollipops,8341263
+IND,dark chocolate bar,1179005
+FRA,lollipops,3685906
+TUR,chocolate bar,3806907
+SAU,peanut butter pops,1192208
+SAU,caramel popcorn,2989612
+DEU,caramel popcorn,2558529
+CAN,caramel popcorn,5465835
+CAN,chocolate bar,8271419
+ITA,blueberry bubblegum,9647059
+RUS,butter cookies,9736670
+TUR,blueberry bubblegum,6757821
+GBR,lollipops,9292771
+IND,chocolate bar,898408
+GBR,gummy bears,8393159
+DEU,butter cookies,7718785
+BRA,chocolate bar,8692216
+FRA,chocolate bar,2378624
+RUS,butter cookies,2278967
+CHN,white chocolate bar,5037222
+GBR,white chocolate bar,2827521
+BRA,peanut butter pops,9738467
+MEX,white chocolate bar,5693259
+MEX,lollipops,2559010
+ITA,lollipops,5120211
+FRA,chocolate bar,2135174
+CAN,lollipops,6820007
+SAU,chocolate bar,6089476
+IND,caramel popcorn,9022931
+DEU,dark chocolate bar,882123
+IND,gummy bears,6178470
+BRA,chocolate cookies,4806940
+GBR,butter cookies,8025366
+CHN,chocolate cookies,9376120
+CHN,chocolate cookies,9315513
+CHN,blueberry bubblegum,4055541
+BRA,blueberry bubblegum,8742795
+TUR,lollipops,4234692
+GBR,chocolate cookies,5079333
+IND,blueberry bubblegum,7677386
+SAU,gummy bears,9914817
+ITA,dark chocolate bar,536223
+GBR,white chocolate bar,3490394
+RUS,butter cookies,7353399
+FRA,chocolate cookies,4289947
+RUS,blueberry bubblegum,6713714
+CHN,chocolate cookies,9963847
+ITA,butter cookies,1782940
+USA,blueberry bubblegum,2768956
+DEU,peanut butter pops,5362480
+SAU,white chocolate bar,9622036
+GBR,blueberry bubblegum,5167341
+MEX,chocolate cookies,2976378
+BRA,white chocolate bar,7085964
+CHN,blueberry bubblegum,5827027
+FRA,gummy bears,2135670
+CHN,butter cookies,1804370
+CAN,chocolate bar,5533832
+FRA,chocolate cookies,1018845
+IND,butter cookies,3356570
+RUS,dark chocolate bar,2209259
+ARE,caramel popcorn,3583075
+FRA,white chocolate bar,1073108
+CHN,blueberry bubblegum,8942599
+BRA,chocolate cookies,3608711
+CHN,blueberry bubblegum,9010588
+RUS,blueberry bubblegum,1514311
+ARE,gummy bears,5626250
+CAN,butter cookies,7124268
+SAU,dark chocolate bar,9951725
+DEU,chocolate cookies,460069
+TUR,dark chocolate bar,8615889
+RUS,chocolate cookies,2438693
+DEU,gummy bears,4270686
+ITA,butter cookies,1076737
+ARE,gummy bears,5977909
+DEU,chocolate bar,9381984
+DEU,caramel popcorn,200376
+CHN,dark chocolate bar,5012156
+FRA,dark chocolate bar,2650362
+ITA,peanut butter pops,3717916
+ARE,caramel popcorn,3767242
+CAN,chocolate cookies,9730501
+IND,dark chocolate bar,9486007
+BRA,blueberry bubblegum,5211273
+DEU,white chocolate bar,907701
+TUR,butter cookies,5610481
+MEX,gummy bears,1854390
+IND,gummy bears,1117145
+RUS,dark chocolate bar,147574
+CAN,peanut butter pops,2529511
+RUS,dark chocolate bar,6569245
+USA,chocolate bar,4262938
+TUR,peanut butter pops,804469
+MEX,chocolate cookies,7718312
+ITA,blueberry bubblegum,9277909
+IND,chocolate cookies,1508442
+MEX,chocolate cookies,6881511
+FRA,gummy bears,4999475
+ITA,blueberry bubblegum,4977709
+BRA,chocolate bar,9235979
+MEX,chocolate bar,8007059
+RUS,chocolate bar,9522075
+MEX,gummy bears,9583502
+RUS,caramel popcorn,1013859
+CHN,butter cookies,159835
+FRA,chocolate cookies,4692374
+CAN,gummy bears,8444594
+USA,chocolate cookies,9928772
+SAU,caramel popcorn,246669
+USA,dark chocolate bar,8850771
+USA,chocolate bar,7353224
+MEX,chocolate bar,3136537
+DEU,caramel popcorn,7127095
+TUR,dark chocolate bar,4459066
+ITA,caramel popcorn,681720
+MEX,butter cookies,4419633
+MEX,chocolate cookies,9957969
+DEU,chocolate bar,4903327
+ARE,dark chocolate bar,2679791
+TUR,butter cookies,5580650
+CHN,gummy bears,6735954
+FRA,peanut butter pops,1778550
+TUR,dark chocolate bar,5612620
+SAU,chocolate bar,9561025
+ARE,caramel popcorn,3024443
+CAN,peanut butter pops,9677738
+TUR,blueberry bubblegum,972179
+IND,chocolate cookies,7020363
+RUS,chocolate cookies,179756
+SAU,butter cookies,8171075
+ARE,butter cookies,1116090
+TUR,chocolate bar,3233070
+GBR,dark chocolate bar,7970047
+BRA,gummy bears,3402530
+DEU,butter cookies,9956643
+RUS,chocolate cookies,9313506
+IND,blueberry bubblegum,3945246
+IND,blueberry bubblegum,3672638
+IND,caramel popcorn,2529839
+RUS,caramel popcorn,5518320
+SAU,gummy bears,9478737
+ITA,white chocolate bar,1212779
+DEU,chocolate bar,8957402
+CHN,blueberry bubblegum,3382224
+IND,blueberry bubblegum,4900982
+FRA,white chocolate bar,1384894
+USA,peanut butter pops,2693420
+USA,white chocolate bar,5767928
+DEU,chocolate bar,5721459
+IND,lollipops,4104510
+SAU,blueberry bubblegum,9146092
+MEX,butter cookies,956616
+USA,gummy bears,6961165
+SAU,gummy bears,7975000
+GBR,lollipops,8179122
+MEX,caramel popcorn,5385886
+ITA,lollipops,1445255
+ITA,gummy bears,6257157
+GBR,caramel popcorn,1938942
+ARE,chocolate cookies,3935795
+CHN,peanut butter pops,1395570
+USA,lollipops,6922961
+SAU,chocolate cookies,5366737
+IND,caramel popcorn,7288955
+CHN,caramel popcorn,3399442
+SAU,blueberry bubblegum,567564
+MEX,peanut butter pops,3459924
+DEU,white chocolate bar,8967886
+IND,caramel popcorn,9880538
+CAN,chocolate bar,9622444
+TUR,butter cookies,2498180
+TUR,chocolate bar,9249721
+MEX,blueberry bubblegum,5500661
+SAU,dark chocolate bar,2896111
+IND,lollipops,1433379
+TUR,blueberry bubblegum,9494806
+RUS,chocolate bar,5836456
+IND,chocolate cookies,4982604
+CAN,butter cookies,5364991
+CHN,dark chocolate bar,8495757
+MEX,caramel popcorn,9911268
+RUS,gummy bears,7940059
+CHN,chocolate bar,627810
+RUS,dark chocolate bar,2060537
+USA,chocolate cookies,9580213
+FRA,butter cookies,4151213
+RUS,gummy bears,1599527
+IND,butter cookies,7656423
+FRA,caramel popcorn,6883184
+GBR,gummy bears,5435456
+IND,lollipops,6996587
+IND,caramel popcorn,4659272
+MEX,chocolate bar,8638407
+CHN,gummy bears,2304814
+CHN,chocolate cookies,3732413
+TUR,blueberry bubblegum,7233450
+USA,chocolate cookies,8637540
+IND,gummy bears,6806300
+RUS,chocolate bar,2985669
+MEX,white chocolate bar,8288721
+BRA,white chocolate bar,472421
+CAN,lollipops,6313966
+TUR,blueberry bubblegum,8484452
+IND,gummy bears,797515
+FRA,lollipops,3214447
+ITA,gummy bears,5089049
+IND,caramel popcorn,6352135
+ITA,gummy bears,7154264
+TUR,peanut butter pops,7531618
+FRA,blueberry bubblegum,4411106
+CHN,caramel popcorn,7458596
+ARE,lollipops,1037624
+ARE,dark chocolate bar,626499
+USA,white chocolate bar,7279367
+MEX,lollipops,4244797
+GBR,lollipops,4136696
+RUS,caramel popcorn,9369083
+GBR,white chocolate bar,8996909
+BRA,chocolate cookies,5958590
+RUS,caramel popcorn,2358072
+MEX,chocolate bar,8321917
+CAN,blueberry bubblegum,3218913
+DEU,chocolate cookies,4391055
+ARE,blueberry bubblegum,5671331
+BRA,butter cookies,5398361
+SAU,chocolate bar,3335532
+ARE,peanut butter pops,5006582
+BRA,butter cookies,5723107
+FRA,chocolate bar,9780489
+FRA,butter cookies,2948325
+DEU,dark chocolate bar,6735726
+GBR,gummy bears,7092508
+FRA,chocolate bar,1904719
+CAN,lollipops,7682632
+CAN,caramel popcorn,9390106
+CAN,gummy bears,2108944
+GBR,blueberry bubblegum,8574441
+MEX,white chocolate bar,7689863
+USA,dark chocolate bar,9299655
+MEX,lollipops,9558515
+IND,caramel popcorn,2344487
+DEU,gummy bears,427168
+ITA,peanut butter pops,3841564
+CHN,lollipops,9901784
+CAN,chocolate cookies,5979656
+FRA,blueberry bubblegum,2664755
+IND,lollipops,8825580
+USA,gummy bears,8665481
+BRA,lollipops,8850999
+CAN,lollipops,9683111
+USA,butter cookies,2644914
+CAN,lollipops,3977898
+ITA,chocolate bar,4230543
+MEX,butter cookies,7233539
+BRA,chocolate cookies,1239876
+ITA,peanut butter pops,9722882
+USA,lollipops,6902187
+TUR,caramel popcorn,4718338
+TUR,caramel popcorn,6899329
+RUS,white chocolate bar,6038173
+MEX,blueberry bubblegum,4343134
+TUR,lollipops,403384
+MEX,chocolate cookies,2401987
+IND,butter cookies,3192536
+CAN,peanut butter pops,249678
+USA,lollipops,3136541
+TUR,white chocolate bar,5743481
+ITA,blueberry bubblegum,9838781
+BRA,gummy bears,8421758
+RUS,butter cookies,9947414
+ITA,chocolate cookies,4971243
+IND,chocolate cookies,694053
+DEU,peanut butter pops,7760784
+FRA,dark chocolate bar,7926226
+BRA,caramel popcorn,6809845
+MEX,chocolate cookies,7701025
+BRA,dark chocolate bar,1044465
+SAU,dark chocolate bar,4982851
+CAN,white chocolate bar,2867743
+SAU,chocolate bar,2097611
+TUR,butter cookies,5840406
+GBR,butter cookies,1689766
+CAN,dark chocolate bar,7724294
+ARE,gummy bears,4083946
+CAN,dark chocolate bar,7990422
+BRA,lollipops,6903224
+IND,peanut butter pops,975706
+CHN,chocolate cookies,5096356
+GBR,lollipops,7528469
+FRA,white chocolate bar,7487970
+ARE,butter cookies,5198102
+BRA,lollipops,364463
+USA,white chocolate bar,312619
+SAU,lollipops,360736
+DEU,chocolate cookies,1919503
+CAN,white chocolate bar,9861458
+USA,chocolate cookies,7349977
+BRA,caramel popcorn,6677181
+IND,dark chocolate bar,8234852
+RUS,chocolate cookies,7382413
+USA,caramel popcorn,7406283
+BRA,butter cookies,5530553
+FRA,chocolate bar,7606647
+RUS,caramel popcorn,2010113
+FRA,gummy bears,3108503
+CAN,chocolate bar,647398
+ITA,chocolate cookies,4272532
+IND,gummy bears,9017493
+GBR,caramel popcorn,7524122
+CAN,peanut butter pops,2277315
+ITA,peanut butter pops,6050744
+IND,chocolate cookies,4647572
+CAN,chocolate cookies,2182990
+BRA,blueberry bubblegum,5684889
+BRA,blueberry bubblegum,7345017
+RUS,peanut butter pops,7451830
+ITA,butter cookies,6524630
+CHN,blueberry bubblegum,4986729
+BRA,white chocolate bar,1656380
+TUR,chocolate bar,1171053
+DEU,peanut butter pops,8255946
+DEU,butter cookies,8582152
+BRA,white chocolate bar,971568
+SAU,gummy bears,8599706
+GBR,white chocolate bar,2052526
+RUS,butter cookies,2640235
+CAN,lollipops,8015992
+CHN,chocolate cookies,4952366
+FRA,white chocolate bar,6527430
+BRA,chocolate cookies,793438
+FRA,blueberry bubblegum,9493238
+USA,chocolate bar,3443097
+BRA,blueberry bubblegum,5109578
+MEX,peanut butter pops,6816681
+ARE,caramel popcorn,118736
+IND,lollipops,3468222
+MEX,chocolate cookies,8922473
+ITA,lollipops,8325285
+CAN,gummy bears,1394273
+ITA,white chocolate bar,5708992
+MEX,dark chocolate bar,1362428
+SAU,chocolate bar,5681949
+SAU,gummy bears,808487
+RUS,peanut butter pops,6531726
+MEX,peanut butter pops,7479510
+RUS,blueberry bubblegum,7812582
+ARE,caramel popcorn,5943435
+DEU,chocolate bar,8937252
+CHN,blueberry bubblegum,2300111
+GBR,white chocolate bar,2401999
+RUS,chocolate cookies,8893673
+ARE,butter cookies,3975779
+SAU,gummy bears,2245215
+ARE,lollipops,6310674
+CAN,peanut butter pops,5260640
+ITA,chocolate cookies,1790430
+ITA,dark chocolate bar,6285598
+ITA,peanut butter pops,3541133
+ARE,lollipops,8042520
+CHN,caramel popcorn,5910705
+ITA,dark chocolate bar,8484090
+CHN,chocolate bar,3815322
+GBR,lollipops,3404873
+FRA,white chocolate bar,3504346
+FRA,peanut butter pops,2049627
+SAU,chocolate bar,2859211
+MEX,butter cookies,9970632
+CAN,peanut butter pops,9905248
+CHN,lollipops,5129658
+SAU,chocolate bar,535050
+GBR,chocolate cookies,3502896
+RUS,dark chocolate bar,5325278
+ARE,caramel popcorn,5859439
+CAN,butter cookies,5376474
+SAU,lollipops,9867578
+IND,peanut butter pops,1053242
+ITA,peanut butter pops,5030812
+SAU,lollipops,5574533
+TUR,white chocolate bar,8265694
+BRA,gummy bears,8265429
+USA,lollipops,9946818
+MEX,white chocolate bar,9085759
+CHN,blueberry bubblegum,4962981
+RUS,blueberry bubblegum,2869806
+IND,dark chocolate bar,7271527
+SAU,chocolate bar,5880125
+MEX,butter cookies,9950055
+BRA,caramel popcorn,2183028
+GBR,white chocolate bar,6878371
+ITA,peanut butter pops,2313535
+FRA,white chocolate bar,3116128
+GBR,dark chocolate bar,3482766
+IND,blueberry bubblegum,923425
+FRA,blueberry bubblegum,6924713
+IND,lollipops,6289764
+GBR,caramel popcorn,9753349
+DEU,peanut butter pops,8941535
+DEU,butter cookies,2632468
+FRA,peanut butter pops,7252696
+USA,chocolate cookies,1767900
+ITA,peanut butter pops,7861378
+FRA,white chocolate bar,2127358
+GBR,chocolate cookies,6347970
+DEU,gummy bears,962134
+CHN,dark chocolate bar,2743252
+CHN,caramel popcorn,9430633
+RUS,caramel popcorn,4393727
+FRA,chocolate bar,1735219
+ARE,dark chocolate bar,5147864
+MEX,gummy bears,2438747
+GBR,butter cookies,2581418
+ARE,caramel popcorn,4102291
+RUS,butter cookies,9095514
+BRA,lollipops,5010690
+ARE,butter cookies,3965517
+RUS,dark chocolate bar,7770125
+FRA,chocolate cookies,6141080
+IND,gummy bears,5245773
+RUS,caramel popcorn,8887336
+SAU,peanut butter pops,8902834
+RUS,butter cookies,6528724
+RUS,chocolate cookies,7742392
+CHN,dark chocolate bar,3608086
+MEX,lollipops,624857
+USA,gummy bears,8168546
+GBR,butter cookies,4481153
+CAN,peanut butter pops,6489085
+BRA,gummy bears,4874262
+TUR,dark chocolate bar,4915690
+DEU,caramel popcorn,6960509
+MEX,gummy bears,8217556
+DEU,white chocolate bar,7838288
+IND,dark chocolate bar,1121800
+DEU,peanut butter pops,9289528
+ITA,lollipops,894341
+SAU,chocolate cookies,6864549
+ITA,lollipops,4555768
+MEX,white chocolate bar,7872084
+MEX,butter cookies,3937548
+TUR,gummy bears,381597
+TUR,chocolate cookies,4088471
+FRA,gummy bears,2283401
+TUR,chocolate cookies,9899908
+RUS,butter cookies,3078853
+CAN,caramel popcorn,2623129
+RUS,blueberry bubblegum,4095050
+ARE,lollipops,8608494
+FRA,white chocolate bar,5610260
+ARE,chocolate bar,9543795
+DEU,white chocolate bar,5957415
+FRA,gummy bears,5646557
+FRA,caramel popcorn,4060674
+FRA,blueberry bubblegum,6051257
+RUS,blueberry bubblegum,2644461
+CAN,dark chocolate bar,9084216
+MEX,white chocolate bar,6926899
+IND,butter cookies,2039020
+SAU,white chocolate bar,7744784
+GBR,butter cookies,6531525
+USA,caramel popcorn,3908100
+DEU,butter cookies,2817382
+SAU,dark chocolate bar,1555070
+IND,peanut butter pops,3520680
+IND,lollipops,7871138
+MEX,lollipops,5329373
+ARE,lollipops,3049254
+CHN,chocolate bar,6355339
+ARE,caramel popcorn,5747680
+ITA,lollipops,8751372
+RUS,gummy bears,4104504
+USA,butter cookies,7135667
+BRA,caramel popcorn,4986723
+CHN,white chocolate bar,806126
+DEU,chocolate bar,8598120
+CHN,lollipops,719240
+DEU,chocolate cookies,6141927
+ITA,blueberry bubblegum,2689393
+BRA,chocolate cookies,7719144
+IND,gummy bears,1461074
+TUR,caramel popcorn,3891532
+ITA,peanut butter pops,8230374
+MEX,white chocolate bar,6297345
+ARE,gummy bears,4528273
+RUS,chocolate bar,4913150
+USA,butter cookies,7822073
+DEU,lollipops,4161323
+RUS,chocolate bar,2556521
+FRA,butter cookies,1757426
+GBR,dark chocolate bar,8653881
+FRA,gummy bears,7467631
+FRA,dark chocolate bar,4917247
+SAU,caramel popcorn,8914643
+DEU,white chocolate bar,4595937
+MEX,caramel popcorn,5352589
+ARE,white chocolate bar,5892934
+ITA,gummy bears,3320554
+TUR,gummy bears,7147875
+ARE,chocolate cookies,3542107
+MEX,butter cookies,8422705
+TUR,peanut butter pops,962684
+MEX,chocolate bar,315602
+CHN,gummy bears,8529737
+GBR,butter cookies,1072098
+GBR,gummy bears,9366093
+CHN,white chocolate bar,8733454
+MEX,chocolate bar,6460315
+CAN,gummy bears,6446606
+CAN,caramel popcorn,1636079
+FRA,dark chocolate bar,3371530
+FRA,gummy bears,3812957
+ARE,white chocolate bar,5232658
+ITA,blueberry bubblegum,7512280
+TUR,peanut butter pops,8135782
+SAU,caramel popcorn,2261478
+TUR,chocolate cookies,4569663
+USA,peanut butter pops,7223459
+SAU,caramel popcorn,5544630
+FRA,blueberry bubblegum,5515843
+ARE,dark chocolate bar,4786434
+IND,blueberry bubblegum,896539
+ARE,chocolate cookies,2873577
+MEX,caramel popcorn,4367511
+MEX,white chocolate bar,3220484
+RUS,peanut butter pops,7095782
+DEU,caramel popcorn,6404319
+GBR,caramel popcorn,4604675
+RUS,caramel popcorn,4593934
+BRA,chocolate cookies,1956109
+MEX,caramel popcorn,988854
+USA,gummy bears,4864339
+CAN,gummy bears,9705973
+BRA,chocolate cookies,9916864
+IND,peanut butter pops,8235036
+USA,white chocolate bar,5266898
+MEX,blueberry bubblegum,1463543
+FRA,gummy bears,1413063
+MEX,caramel popcorn,2081628
+ARE,chocolate bar,190867
+SAU,chocolate cookies,8294716
+RUS,chocolate bar,8451344
+TUR,gummy bears,8241008
+BRA,butter cookies,1230314
+USA,blueberry bubblegum,4845767
+CAN,butter cookies,9419915
+FRA,lollipops,1503246
+IND,lollipops,9760031
+MEX,chocolate bar,2676082
+TUR,blueberry bubblegum,3197867
+BRA,chocolate cookies,9151159
+BRA,chocolate cookies,1838465
+TUR,caramel popcorn,1560315
+DEU,chocolate cookies,402838
+ITA,butter cookies,3996228
+DEU,peanut butter pops,3128722
+ITA,caramel popcorn,4268542
+SAU,gummy bears,2396248
+MEX,butter cookies,2320373
+FRA,gummy bears,5131660
+GBR,caramel popcorn,3517407
+MEX,blueberry bubblegum,6532180
+ARE,butter cookies,1483690
+TUR,chocolate cookies,8287596
+ITA,peanut butter pops,5780142
+CAN,white chocolate bar,1946824
+RUS,caramel popcorn,4236258
+IND,butter cookies,748774
+FRA,dark chocolate bar,2163251
+GBR,blueberry bubblegum,833652
+GBR,peanut butter pops,3558575
+ITA,white chocolate bar,6230356
+DEU,lollipops,6918335
+CHN,caramel popcorn,244809
+BRA,chocolate bar,3206095
+GBR,gummy bears,4093593
+ITA,caramel popcorn,9571655
+IND,caramel popcorn,3763320
+FRA,lollipops,8744087
+GBR,butter cookies,1492882
+DEU,chocolate cookies,8380734
+CHN,butter cookies,7939552
+MEX,white chocolate bar,8185301
+TUR,dark chocolate bar,7140143
+RUS,gummy bears,9521982
+CAN,chocolate cookies,3229450
+CHN,gummy bears,8494464
+MEX,butter cookies,6354785
+IND,butter cookies,2391243
+BRA,white chocolate bar,1601299
+BRA,butter cookies,574909
+RUS,blueberry bubblegum,3432235
+IND,chocolate cookies,8280128
+FRA,butter cookies,5200061
+CHN,lollipops,1588462
+TUR,peanut butter pops,9608971
+USA,chocolate bar,9500905
+TUR,peanut butter pops,3127127
+MEX,blueberry bubblegum,2172315
+DEU,blueberry bubblegum,5944167
+GBR,chocolate bar,7184071
+ITA,lollipops,1495751
+ARE,butter cookies,7685231
+ITA,blueberry bubblegum,9537519
+CHN,chocolate cookies,7648069
+RUS,white chocolate bar,8698165
+DEU,gummy bears,2189552
+GBR,dark chocolate bar,1520253
+ARE,caramel popcorn,3739205
+ITA,caramel popcorn,3831128
+CHN,peanut butter pops,4315862
+FRA,dark chocolate bar,3035890
+GBR,lollipops,1228349
+BRA,peanut butter pops,261742
+BRA,lollipops,4390751
+IND,peanut butter pops,1922474
+ARE,chocolate bar,8028549
+ITA,chocolate bar,5882634
+DEU,blueberry bubblegum,3524590
+DEU,chocolate cookies,8580619
+TUR,butter cookies,713098
+CAN,blueberry bubblegum,7247898
+DEU,chocolate bar,2750520
+MEX,caramel popcorn,4606108
+CHN,white chocolate bar,7277279
+DEU,blueberry bubblegum,4080740
+ARE,lollipops,3578669
+SAU,peanut butter pops,6552454
+CAN,butter cookies,9538692
+MEX,dark chocolate bar,1558948
+CHN,lollipops,9936982
+USA,lollipops,9462068
+GBR,dark chocolate bar,4243048
+MEX,butter cookies,9560307
+SAU,chocolate cookies,1273351
+RUS,butter cookies,237014
+USA,chocolate bar,4947321
+CAN,gummy bears,2087099
+CAN,butter cookies,6383722

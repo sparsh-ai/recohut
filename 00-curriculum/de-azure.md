@@ -355,7 +355,7 @@ In this lab, we design an end-to-end batch processing solution by using Data Fac
 
 ### Configuring and Securing Azure SQL Database
 
-[Source code](../02-storage/databases/azure-sql/lab-securing-azure-sql-databases)
+[Source code](../02-storage/azure-sql/lab-securing-azure-sql-databases)
 
 This lab covers configuring a Serverless SQL database, Hyperscale SQL database, and securing Azure SQL Database using virtual networks and private links.
 

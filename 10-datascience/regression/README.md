@@ -1,6 +1,5 @@
 # Regression
 
-
 ## Sklearn Regression Model
 
 ```py

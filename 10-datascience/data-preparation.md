@@ -1,0 +1,5 @@
+# Data Preparation
+
+Roughly, we can identify three primary components of data preprocessing: data encoding, feature extraction, and feature selection. Each of these components is somewhat interrelated: the goal of data encoding is to make raw data both readable and “true to its natural characteristics”; the goal of feature extraction is to identify abstracted or more relevant features from within the data space; the goal of feature selection is to identify if and which features are not relevant to the predictive process and can be removed. Generally, data encoding takes precedence over the latter two components because data must be readable and representative of itself before we can attempt to extract features from it or select which features are relevant.
+
+![525591_1_En_2_Fig2_HTML](https://user-images.githubusercontent.com/62965911/230727237-6e465702-1d63-4899-ab68-889e45cfff0e.png)

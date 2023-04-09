@@ -207,25 +207,6 @@ This brings us to the end of the case studies. To learn about more Databricks su
 
 In this section, we learned about several Databricks case studies, ranging from manufacturing and media to logistics and the supply chain. All these solution architectures have employed Databricks in different ways. Irrespective of its role in an organization's data journey, Databricks has always emerged as a game-changer in the world of big data analytics.
 
-## Labs
-
-1. [Building a Cybersecurity Lakehouse for CrowdStrike Falcon Events in Databricks](03-processing/databricks/lab-cybersecurity-databricks/)
-2. [Databricks AWS Integration and Clickstream Analysis](03-processing/databricks/lab-databricks-clickstream/)
-3. [Create an elementary Data Lakehouse using Databricks and the Delta lake technology](03-processing/databricks/lab-databricks-deltalake/)
-4. [Delta Lake Optimizations](03-processing/databricks/lab-deltalake-optimizations/)
-5. [Compare dbt and Delta Live Tables (dlt) for data transformation](03-processing/databricks/lab-dlt-dbt/)
-6. [Unlocking the Power of Health Data With a Modern Data Lakehouse](03-processing/databricks/lab-healthcare-databricks/)
-7. [Real-time Health Tracking and Monitoring System](03-processing/databricks/lab-iot-health-tracker/)
-8. [Simplifying Data Engineering and Analytics with Delta](03-processing/databricks/lab-loan-application/)
-9. [Real-Time Point-of-Sale Analytics With the Data Lakehouse](03-processing/databricks/lab-retail-pos-databricks/)
-10. [Data Engineering with Databricks](03-processing/databricks/project-databricks-de/)
-11. [Data Engineer Learner Path with Databricks](03-processing/databricks/project-learnerbricks/)
-12. [Advanced Data Engineering with Databricks](03-processing/databricks/project-advancedbricks/)
-13. [Databricks PySpark Ecommerce Data Processing Case Study](03-processing/databricks/project-bedbricks/)
-14. [Data Pipeline with Databricks PySpark and Superset](03-processing/databricks/project-databricks-superset/)
-15. Creating and Monitoring Production Data Processing Jobs in Databricks
-16. Processing Data Using Azure Databricks - Configuring the Azure Databricks environment, Integrate Databricks with Azure Key Vault, Mounting an Azure Data Lake container in Databricks, Processing data using notebooks, Scheduling notebooks using job clusters, Working with Delta Lake tables [[source code](03-processing/databricks/lab-data-processing-azure-db/)]
-
 ## Resources
 
 1. [Data Lakehouse Explained](https://youtu.be/yumysN3XwbQ)
