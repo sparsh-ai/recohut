@@ -11,7 +11,7 @@ const config = {
   title: 'Recohut Data Bootcamp',
   tagline: 'Embrace excellence, embrace changes, embrace data',
   url: 'https://www.recohut.com/',
-  baseUrl: '/recohut/',
+  baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   trailingSlash: false,
