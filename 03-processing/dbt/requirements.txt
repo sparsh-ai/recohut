@@ -1,5 +1,0 @@
-dbt-core
-dbt-databricks
-dbt-postgres
-dbt-snowflake
-dbt-bigquery
