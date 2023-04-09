@@ -8,12 +8,12 @@ export default {
   "tagline": "Embrace excellence, embrace changes, embrace data",
   "url": "https://www.recohut.com",
   "baseUrl": "/",
-  "onBrokenLinks": "ignore",
-  "onBrokenMarkdownLinks": "ignore",
+  "onBrokenLinks": "warn",
+  "onBrokenMarkdownLinks": "warn",
   "trailingSlash": false,
   "favicon": "/img/branding/favicon-black.svg",
-  "organizationName": "datalaker",
-  "projectName": "recohut-data-bootcamp",
+  "organizationName": "sparsh-ai",
+  "projectName": "recohut",
   "themes": [
     [
       "/Users/sparshagarwal/Desktop/projects/de/de-main/node_modules/@easyops-cn/docusaurus-search-local/dist/server/server/index.js",
@@ -87,7 +87,7 @@ export default {
           "label": "Blog"
         },
         {
-          "href": "https://github.com/datalaker/recohut-data-bootcamp",
+          "href": "https://github.com/sparsh-ai/recohut",
           "label": "GitHub",
           "position": "right"
         }

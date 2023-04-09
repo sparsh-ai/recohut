@@ -2,8 +2,11 @@ docsify:
 	docsify init
 	docsify serve
 
+docusaurus-start:
+	npx docusaurus start
+
 docusaurus-ghpages-deploy:
-	GIT_USER=<sparsh-ai yarn deploy
+	GIT_USER=sparsh-ai yarn deploy
 
 ## INSTALL JDK HADOOP
 

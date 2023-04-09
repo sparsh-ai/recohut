@@ -97,7 +97,7 @@ const config = {
           {
             label: "Docs",
             position: "left",
-            to: "docs/bootcamp"
+            to: "docs/intro"
           },
           {
             to: 'blog',
