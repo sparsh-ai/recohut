@@ -425,38 +425,44 @@
     - [Lab: Create a NoSQL Data Model for Temperature Monitoring Sensor Networks using Cassandra](04-data-modeling/lab-cassandra-sensor-data-model/)
     - [Lab: Create a NoSQL Data Model for Online Shopping Carts using Cassandra](04-data-modeling/lab-cassandra-shopping-cart-data-model/)
 
-  - Data Extraction
-    - [API](05-extraction/api/)
-    - [Faker](05-extraction/faker/)
-    - [Web Scraping](05-extraction/webscraping/)
+- Data Extraction
 
-  - Data Pipelines
-    - [Airflow](06-orchestration/airflow/)
-    - [Azure Data Factory](06-orchestration/azure-data-factory/)
-    - [GCP Cloud DataFusion](06-orchestration/datafusion/)
-    - [AWS Step Functions](06-orchestration/stepfunctions/)
+  - [API](05-extraction/api/)
+  - [Faker](05-extraction/faker/)
+  - [Web Scraping](05-extraction/webscraping/)
 
-  - Data Visualization
-    - [Flask](08-visualization/flask/)
-    - [Looker Studio](08-visualization/looker-studio/)
-    - [Preset](08-visualization/preset/)
-    - [Streamlit](08-visualization/streamlit/)
-    - AWS Quicksight
+- Data Pipelines
 
-  - System Design
-    - [Getting Started](system-design/README.md)
-    - [System Design Examples](system-design/examples.md)
-    - [Databricks Case Studies](system-design/databricks-case-studies.md)
+  - [Airflow](06-orchestration/airflow/)
+  - [Azure Data Factory](06-orchestration/azure-data-factory/)
+  - [GCP Cloud DataFusion](06-orchestration/datafusion/)
+  - [AWS Step Functions](06-orchestration/stepfunctions/)
 
-  - DevOps
-    - [FastAPI](07-devops/fastapi/)
-    - [Containers](07-devops/containers/)
-    - [Infra as Code](07-devops/iac/)
+- Data Visualization
 
-  - Mathematics
-    - [Getting Started](mathematics/)
-    - [Probability](mathematics/probability/)
-    - [Statistics](mathematics/statistics/)
+  - [Flask](08-visualization/flask/)
+  - [Looker Studio](08-visualization/looker-studio/)
+  - [Preset](08-visualization/preset/)
+  - [Streamlit](08-visualization/streamlit/)
+  - AWS Quicksight
+
+- System Design
+
+  - [Getting Started](system-design/README.md)
+  - [System Design Examples](system-design/examples.md)
+  - [Databricks Case Studies](system-design/databricks-case-studies.md)
+
+- DevOps
+
+  - [FastAPI](07-devops/fastapi/)
+  - [Containers](07-devops/containers/)
+  - [Infra as Code](07-devops/iac/)
+
+- Mathematics
+
+  - [Getting Started](mathematics/)
+  - [Probability](mathematics/probability/)
+  - [Statistics](mathematics/statistics/)
 
 - Data Science & Machine Learning
 
@@ -516,7 +522,7 @@
     - [Extras](b3-misc/extras.md)
     - [Resources](b3-misc/resources.md)
 
-  # Case Studies
+- Case Studies
 
   - [Data Engineering at Udem](https://www.slideshare.net/ankarabigdata/data-engineering-at-udemy?qid=d835f0e3-f290-4445-bd19-d6ac6824e24c&v=&b=&from_search=5)
   - [Fair - Data Ingestion with a Cloud Data Platform](a3-casestudies/fair.md)

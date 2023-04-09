@@ -39,3 +39,7 @@ Early papers published on Spark demonstrated that it was 10 to 20 times faster t
 By 2013 Spark had gained widespread use, and some of its original creators and researchers—Matei Zaharia, Ali Ghodsi, Reynold Xin, Patrick Wendell, Ion Stoica, and Andy Konwinski—donated the Spark project to the ASF and formed a company called Databricks.
 
 Databricks and the community of open source developers worked to release Apache Spark 1.0 in May 2014, under the governance of the ASF. This first major release established the momentum for frequent future releases and contributions of notable features to Apache Spark from Databricks and over 100 commercial vendors.
+
+## Hadoop to Spark
+
+![spark drawio](https://user-images.githubusercontent.com/62965911/230762109-8b7f68db-a88e-4521-a93d-b42d8e17a78a.svg)
