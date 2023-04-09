@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[42365],{27569:s=>{s.exports=JSON.parse('{"label":"opencv","permalink":"/blog/tags/opencv","allTagsPath":"/blog/tags","count":1}')}}]);

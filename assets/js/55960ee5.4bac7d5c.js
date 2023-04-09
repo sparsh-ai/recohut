@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[74121],{88070:s=>{s.exports=JSON.parse('[{"label":"nlp","permalink":"/docs/tags/nlp","count":1},{"label":"cassandra","permalink":"/docs/tags/cassandra","count":1},{"label":"cql","permalink":"/docs/tags/cql","count":1},{"label":"keyspaces","permalink":"/docs/tags/keyspaces","count":1}]')}}]);

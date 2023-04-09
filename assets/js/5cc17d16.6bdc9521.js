@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[44668],{36189:e=>{e.exports=JSON.parse('{"label":"dataengineering","permalink":"/blog/tags/dataengineering","allTagsPath":"/blog/tags","count":1}')}}]);

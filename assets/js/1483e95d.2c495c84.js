@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[93997],{36862:e=>{e.exports=JSON.parse('{"label":"nlp","permalink":"/docs/tags/nlp","allTagsPath":"/docs/tags","count":1,"items":[{"id":"datascience/nlp/word2vec","title":"Lab 162 - Word2vec","description":"Word2vec","permalink":"/docs/datascience/nlp/word2vec"}]}')}}]);

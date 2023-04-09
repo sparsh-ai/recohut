@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[95194],{59698:s=>{s.exports=JSON.parse('{"permalink":"/blog/tags/vision","page":1,"postsPerPage":10,"totalPages":1,"totalCount":9,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

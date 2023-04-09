@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[20147],{64148:s=>{s.exports=JSON.parse('{"label":"nlp","permalink":"/blog/tags/nlp","allTagsPath":"/blog/tags","count":5}')}}]);

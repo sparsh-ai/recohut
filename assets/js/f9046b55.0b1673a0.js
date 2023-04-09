@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[99945],{89319:a=>{a.exports=JSON.parse('{"label":"aws beanstalk","permalink":"/blog/tags/aws-beanstalk","allTagsPath":"/blog/tags","count":1}')}}]);

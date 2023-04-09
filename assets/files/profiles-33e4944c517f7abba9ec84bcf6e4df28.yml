@@ -1,0 +1,25 @@
+citibike_profile:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account
+      project: dtc-de-339112
+      dataset: citibike_dev
+      location: europe-west6
+      threads: 4
+      keyfile: /.google/credentials/google_credentials.json
+      priority: interactive
+      timeout_seconds: 600
+      retries: 1
+    prod:
+      type: bigquery
+      method: service-account
+      project: dtc-de-339112
+      dataset: citibike_prod
+      location: europe-west6
+      threads: 4
+      keyfile: /.google/credentials/google_credentials.json
+      priority: interactive
+      timeout_seconds: 600
+      retries: 1
