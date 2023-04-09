@@ -11,13 +11,13 @@ const config = {
   title: 'Recohut Data Bootcamp',
   tagline: 'Embrace excellence, embrace changes, embrace data',
   url: 'https://www.recohut.com/',
-  baseUrl: '/',
-  onBrokenLinks: 'ignore',
-  onBrokenMarkdownLinks: 'ignore',
+  baseUrl: '/recohut/',
+  onBrokenLinks: 'warn',
+  onBrokenMarkdownLinks: 'warn',
   trailingSlash: false,
   favicon: '/img/branding/favicon-black.svg',
-  organizationName: 'datalaker',
-  projectName: 'recohut-data-bootcamp',
+  organizationName: 'sparsh-ai',
+  projectName: 'recohut',
   themes: [
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
@@ -105,7 +105,7 @@ const config = {
             label: 'Blog',
           },
           {
-            href: 'https://github.com/datalaker/recohut-data-bootcamp',
+            href: 'https://github.com/sparsh-ai/recohut',
             label: 'GitHub',
             position: 'right',
           },

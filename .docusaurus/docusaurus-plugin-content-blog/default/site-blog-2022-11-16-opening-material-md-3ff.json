@@ -11,8 +11,8 @@
       "permalink": "/blog/tags/docusaurus"
     },
     {
-      "label": "wynisco",
-      "permalink": "/blog/tags/wynisco"
+      "label": "recohut",
+      "permalink": "/blog/tags/recohut"
     },
     {
       "label": "dataengineering",
@@ -36,7 +36,7 @@
     "authors": "sparsh",
     "tags": [
       "docusaurus",
-      "wynisco",
+      "recohut",
       "dataengineering",
       "dataengineering"
     ]

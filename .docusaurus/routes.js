@@ -393,8 +393,8 @@ export default [
     exact: true
   },
   {
-    path: '/blog/tags/wynisco',
-    component: ComponentCreator('/blog/tags/wynisco', '966'),
+    path: '/blog/tags/recohut',
+    component: ComponentCreator('/blog/tags/recohut', '966'),
     exact: true
   },
   {
