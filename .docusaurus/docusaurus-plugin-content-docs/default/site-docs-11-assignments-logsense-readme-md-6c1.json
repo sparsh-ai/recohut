@@ -1,0 +1,26 @@
+{
+  "unversionedId": "assignments/logsense/README",
+  "id": "assignments/logsense/README",
+  "title": "Logsense",
+  "description": "Lab 1: Apache Server Log Analysis",
+  "source": "@site/docs/11-assignments/logsense/README.md",
+  "sourceDirName": "11-assignments/logsense",
+  "slug": "/assignments/logsense/",
+  "permalink": "/docs/assignments/logsense/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Klodars Datalake Design",
+    "permalink": "/docs/assignments/klodars-datalake-design/"
+  },
+  "next": {
+    "title": "Mistplay Data Engineer Take Home Challenge",
+    "permalink": "/docs/assignments/mistplay-takehome/"
+  }
+}

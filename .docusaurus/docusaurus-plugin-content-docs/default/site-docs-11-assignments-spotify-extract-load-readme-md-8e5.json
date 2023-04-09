@@ -1,0 +1,26 @@
+{
+  "unversionedId": "assignments/spotify-extract-load/README",
+  "id": "assignments/spotify-extract-load/README",
+  "title": "Spotify Extract Load Airflow",
+  "description": "arch drawio",
+  "source": "@site/docs/11-assignments/spotify-extract-load/README.md",
+  "sourceDirName": "11-assignments/spotify-extract-load",
+  "slug": "/assignments/spotify-extract-load/",
+  "permalink": "/docs/assignments/spotify-extract-load/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Spiff Data Engineering Candidate Coding Exercises",
+    "permalink": "/docs/assignments/spiff-takehome/"
+  },
+  "next": {
+    "title": "Ternary",
+    "permalink": "/docs/assignments/ternary/"
+  }
+}

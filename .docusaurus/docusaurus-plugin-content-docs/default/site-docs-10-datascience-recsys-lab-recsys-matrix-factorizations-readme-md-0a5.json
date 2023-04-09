@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/recsys/lab-recsys-matrix-factorizations/README",
+  "id": "datascience/recsys/lab-recsys-matrix-factorizations/README",
+  "title": "RecSys Matrix Factorizations",
+  "description": "Neural Matrix Factorization (NMF)",
+  "source": "@site/docs/10-datascience/recsys/lab-recsys-matrix-factorizations/README.md",
+  "sourceDirName": "10-datascience/recsys/lab-recsys-matrix-factorizations",
+  "slug": "/datascience/recsys/lab-recsys-matrix-factorizations/",
+  "permalink": "/docs/datascience/recsys/lab-recsys-matrix-factorizations/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Recommender System Evaluation",
+    "permalink": "/docs/datascience/recsys/lab-recsys-evaluation/"
+  },
+  "next": {
+    "title": "Travel Recommendation System",
+    "permalink": "/docs/datascience/recsys/lab-recsys-tourism/"
+  }
+}

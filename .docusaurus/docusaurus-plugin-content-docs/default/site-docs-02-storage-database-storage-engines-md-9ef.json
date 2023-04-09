@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/database-storage-engines",
+  "id": "storage/database-storage-engines",
+  "title": "Database Storage Engines",
+  "description": "To round out the discussion of serialization, we briefly discuss database storage engines. All databases have an underlying storage engine; many don’t expose their storage engines as a separate abstraction (for example, BigQuery, Snowflake). Some (notably, MySQL) support fully pluggable storage engines. Others (e.g., SQL Server) offer major storage engine configuration options (columnar versus row-based storage) that dramatically affect database behavior.",
+  "source": "@site/docs/02-storage/database-storage-engines.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/database-storage-engines",
+  "permalink": "/docs/storage/database-storage-engines",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data Warehouses",
+    "permalink": "/docs/storage/data-warehouses"
+  },
+  "next": {
+    "title": "Components of the cloud data lake architecture",
+    "permalink": "/docs/storage/datalake-components"
+  }
+}

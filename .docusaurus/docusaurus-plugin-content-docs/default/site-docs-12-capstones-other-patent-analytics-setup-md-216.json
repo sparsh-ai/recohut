@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/other/patent-analytics/SETUP",
+  "id": "capstones/other/patent-analytics/SETUP",
+  "title": "Getting Started",
+  "description": "Prerequisites",
+  "source": "@site/docs/12-capstones/other/patent-analytics/SETUP.md",
+  "sourceDirName": "12-capstones/other/patent-analytics",
+  "slug": "/capstones/other/patent-analytics/SETUP",
+  "permalink": "/docs/capstones/other/patent-analytics/SETUP",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Patent Analytics Data Pipeline",
+    "permalink": "/docs/capstones/other/patent-analytics/REPORT"
+  },
+  "next": {
+    "title": "Patents Analytics Spark",
+    "permalink": "/docs/capstones/other/patent-analytics/spark/"
+  }
+}

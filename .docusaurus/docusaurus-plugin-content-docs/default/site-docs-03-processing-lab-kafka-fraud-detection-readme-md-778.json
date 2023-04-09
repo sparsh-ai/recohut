@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/lab-kafka-fraud-detection/README",
+  "id": "processing/lab-kafka-fraud-detection/README",
+  "title": "Real-time fraud detection by applying filter in Kafka topic",
+  "description": "In this lab, we will generate some transactions out of which some would be fraudulent and then at the consumer end, we will check if the transaction is legit or fraud.",
+  "source": "@site/docs/03-processing/lab-kafka-fraud-detection/README.md",
+  "sourceDirName": "03-processing/lab-kafka-fraud-detection",
+  "slug": "/processing/lab-kafka-fraud-detection/",
+  "permalink": "/docs/processing/lab-kafka-fraud-detection/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Getting started with Kafka and CLI",
+    "permalink": "/docs/processing/lab-kafka-cli/"
+  },
+  "next": {
+    "title": "Kafka Streams for NYC Taxi data",
+    "permalink": "/docs/processing/lab-kafka-nyctaxi/"
+  }
+}

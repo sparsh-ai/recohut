@@ -1,0 +1,53 @@
+{
+  "permalink": "/blog/2022/12/12/the-complete-python-course-2022",
+  "source": "@site/blog/2022-12-12-the-complete-python-course-2022.mdx",
+  "title": "The Complete Python Course (2022)",
+  "description": "Python is a powerful object-oriented programming language used in many development areas and is considered a perfect language for scripting. Python is a cross-platform programming language that allows you to code faster with lesser code writing required.",
+  "date": "2022-12-12T00:00:00.000Z",
+  "formattedDate": "December 12, 2022",
+  "tags": [
+    {
+      "label": "python",
+      "permalink": "/blog/tags/python"
+    },
+    {
+      "label": "course",
+      "permalink": "/blog/tags/course"
+    },
+    {
+      "label": "packtpublishing",
+      "permalink": "/blog/tags/packtpublishing"
+    }
+  ],
+  "readingTime": 2.17,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Sparsh Agarwal",
+      "title": "Data Scientist & Engineer",
+      "url": "https://github.com/sparsh-ai",
+      "email": "sprsag@gmail.com",
+      "imageURL": "https://github.com/sparsh-ai.png",
+      "key": "sparsh"
+    }
+  ],
+  "frontMatter": {
+    "title": "The Complete Python Course (2022)",
+    "authors": [
+      "sparsh"
+    ],
+    "tags": [
+      "python",
+      "course",
+      "packtpublishing"
+    ]
+  },
+  "prevItem": {
+    "title": "SQL Server to Snowflake Schema Conversion",
+    "permalink": "/blog/2022/12/13/sql-to-snowflake-schema-conversion"
+  },
+  "nextItem": {
+    "title": "Opening our Bootcamp material",
+    "permalink": "/blog/2022/11/16/opening-material"
+  }
+}

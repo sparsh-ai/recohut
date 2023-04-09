@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/language/sql/subquery",
+  "id": "foundations/language/sql/subquery",
+  "title": "Subquery",
+  "description": "Subqueries (also known as inner queries or nested queries) are a tool for performing operations in multiple steps. For example, if you wanted to take the sums of several columns, then average all of those values, you'd need to do each aggregation in a distinct step.",
+  "source": "@site/docs/01-foundations/language/sql/subquery.md",
+  "sourceDirName": "01-foundations/language/sql",
+  "slug": "/foundations/language/sql/subquery",
+  "permalink": "/docs/foundations/language/sql/subquery",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SQL String Functions",
+    "permalink": "/docs/foundations/language/sql/string-functions"
+  },
+  "next": {
+    "title": "Triggers",
+    "permalink": "/docs/foundations/language/sql/triggers"
+  }
+}

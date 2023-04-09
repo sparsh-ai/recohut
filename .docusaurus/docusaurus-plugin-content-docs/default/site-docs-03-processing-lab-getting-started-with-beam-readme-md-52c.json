@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/lab-getting-started-with-beam/README",
+  "id": "processing/lab-getting-started-with-beam/README",
+  "title": "Apache Beam Getting Started",
+  "description": "Pipeline 1 - Simple Ingest Data Pipeline",
+  "source": "@site/docs/03-processing/lab-getting-started-with-beam/README.md",
+  "sourceDirName": "03-processing/lab-getting-started-with-beam",
+  "slug": "/processing/lab-getting-started-with-beam/",
+  "permalink": "/docs/processing/lab-getting-started-with-beam/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "GCP Serverless Dataflow",
+    "permalink": "/docs/processing/lab-gcp-serverless-dataflow"
+  },
+  "next": {
+    "title": "Advanced Data Engineering and Data Processing with AWS Glue Jobs",
+    "permalink": "/docs/processing/lab-glue-advanced/"
+  }
+}

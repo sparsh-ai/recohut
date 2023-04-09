@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/cassandra",
+  "id": "storage/cassandra",
+  "title": "Cassandra",
+  "description": "Apache Cassandra is an open source, distributed, decentralized, elastically scalable, highly available, fault-tolerant, tuneably consistent, row-oriented database. Cassandra bases its distribution design on Amazon’s Dynamo and its data model on Google’s Bigtable, with a query language similar to SQL. Created at Facebook, it now powers cloud-scale applications across many industries.",
+  "source": "@site/docs/02-storage/cassandra.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/cassandra",
+  "permalink": "/docs/storage/cassandra",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Messflix (hypothetical)",
+    "permalink": "/docs/storage/casestudy-messflix-hypothetical"
+  },
+  "next": {
+    "title": "Code Snippets",
+    "permalink": "/docs/storage/code-snippets"
+  }
+}

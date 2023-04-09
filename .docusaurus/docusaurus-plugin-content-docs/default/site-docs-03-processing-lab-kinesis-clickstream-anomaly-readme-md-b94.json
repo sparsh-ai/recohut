@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/lab-kinesis-clickstream-anomaly/README",
+  "id": "processing/lab-kinesis-clickstream-anomaly/README",
+  "title": "Real-Time Clickstream Anomaly Detection with Kinesis",
+  "description": "Architecture",
+  "source": "@site/docs/03-processing/lab-kinesis-clickstream-anomaly/README.md",
+  "sourceDirName": "03-processing/lab-kinesis-clickstream-anomaly",
+  "slug": "/processing/lab-kinesis-clickstream-anomaly/",
+  "permalink": "/docs/processing/lab-kinesis-clickstream-anomaly/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Real Time Apache Log Analytics with Kinesis",
+    "permalink": "/docs/processing/lab-kinesis-apache-logs/"
+  },
+  "next": {
+    "title": "Lambda CSV to Parquet",
+    "permalink": "/docs/processing/lab-lambda-csv-parquet/"
+  }
+}

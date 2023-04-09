@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/computer-vision/lab-image-analytics-tensorflow/README",
+  "id": "datascience/computer-vision/lab-image-analytics-tensorflow/README",
+  "title": "Image Analytics with Tensorflow",
+  "description": "",
+  "source": "@site/docs/10-datascience/computer-vision/lab-image-analytics-tensorflow/README.md",
+  "sourceDirName": "10-datascience/computer-vision/lab-image-analytics-tensorflow",
+  "slug": "/datascience/computer-vision/lab-image-analytics-tensorflow/",
+  "permalink": "/docs/datascience/computer-vision/lab-image-analytics-tensorflow/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Agricultural Satellite Image Segmentation",
+    "permalink": "/docs/datascience/computer-vision/lab-agri-setallite-image-segmentation/"
+  },
+  "next": {
+    "title": "Data Encoding",
+    "permalink": "/docs/datascience/data-encoding"
+  }
+}

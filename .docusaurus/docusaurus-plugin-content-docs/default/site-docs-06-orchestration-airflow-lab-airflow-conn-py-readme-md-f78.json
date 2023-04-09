@@ -1,0 +1,26 @@
+{
+  "unversionedId": "orchestration/airflow/lab-airflow-conn-py/README",
+  "id": "orchestration/airflow/lab-airflow-conn-py/README",
+  "title": "Airflow connection using Python",
+  "description": "Set Airflow connection using Python",
+  "source": "@site/docs/06-orchestration/airflow/lab-airflow-conn-py/README.md",
+  "sourceDirName": "06-orchestration/airflow/lab-airflow-conn-py",
+  "slug": "/orchestration/airflow/lab-airflow-conn-py/",
+  "permalink": "/docs/orchestration/airflow/lab-airflow-conn-py/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Github NFT Pipeline",
+    "permalink": "/docs/orchestration/airflow/github-nft/"
+  },
+  "next": {
+    "title": "Airflow Email Notifications",
+    "permalink": "/docs/orchestration/airflow/lab-airflow-email-notifications/"
+  }
+}

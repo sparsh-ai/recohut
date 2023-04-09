@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/cloud/s3",
+  "id": "foundations/cloud/s3",
+  "title": "S3",
+  "description": "Amazon S3 is one of the most commonly used cloud data storage services for web applications, and high-performance compute use cases. It is Amazon's object storage service providing virtually unlimited data storage. Some of the advantages of using Amazon S3 include very high scalability, durability, data availability, security, and performance. Amazon S3 can be used for a variety of cloud-native applications, ranging from simple data storage to very large data lakes to web hosting and high-performance applications, such as training very advanced and compute-intensive ML models. Amazon S3 offers several classes of storage options with differences in terms of data access, resiliency, archival needs, and cost. We can choose the storage class that best suits our use case and business needs. There is also an option for cost saving when the access pattern is unknown or changes over time (S3 Intelligent-Tiering).",
+  "source": "@site/docs/01-foundations/cloud/s3.md",
+  "sourceDirName": "01-foundations/cloud",
+  "slug": "/foundations/cloud/s3",
+  "permalink": "/docs/foundations/cloud/s3",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "RDS",
+    "permalink": "/docs/foundations/cloud/rds"
+  },
+  "next": {
+    "title": "Secrets Manager",
+    "permalink": "/docs/foundations/cloud/secrets-manager"
+  }
+}

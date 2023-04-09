@@ -1,0 +1,62 @@
+---
+title: Fake Voice Detection
+authors: sparsh
+tags: [audio, deepfake]
+---
+
+![/img/content-blog-raw-blog-fake-voice-detection-untitled.png](/img/content-blog-raw-blog-fake-voice-detection-untitled.png)
+
+# Introduction
+
+Fake audio can be used for malicious purposes which affect directly or indirectly human life. The objective is to differentiate between fake and real voice. Python and deep learning has been used and implemented to achieve the objective. Audio files or video file are being used as an input of this work then model has been trained for uniquely identify features for voice creation and voice detection. Deep learning technique is used to find accuracy between real and fake.
+
+Speaker recognition usually refers to both speaker identification and speaker verification. A speaker identification system identifies who the speaker is, while an automatic speaker verification (ASV) system decides if an identity claim is true or false.
+A general ASV system is robust to zero-effort impostors, they are vulnerable to more sophisticated attacks. Such vulnerability represents one of the security concerns of ASV systems. Spoofing involves an adversary (attacker) who masquerades as the target speaker to gain the access to a system. Such spoofing attacks can happen to various biometric traits, such as fingerprints, iris, face, and voice patterns. We are focusing only on the voice-based spoofing and anti-spoofing techniques for ASV system. The spoofed speech samples can be obtained through speech synthesis, voice conversion, or replay of recorded speech. **Imagine the following scenario…**
+Your phone rings, you pick up. It’s your spouse asking you for details about your savings account — they don’t have the account information on hand, but want to deposit money there this afternoon. Later, you realize a bunch of money has went missing! After investigating, you find out that the person masquerading as them on the other line was a voice 100% generated with AI. You’ve just been scammed, and on top of that, can’t believe the voice you thought belonged to your spouse was actually a fake.
+
+To discern between real and fake audio, the detector uses visual representations of audio clips called spectrograms, which are also used to train speech synthesis models.
+Google’s 2019 [AVSSpoof dataset](https://www.blog.google/outreach-initiatives/google-news-initiative/advancing-research-fake-audio-detection/) contains over 25,000 clips of audio, featuring both real and fake clips of a variety of male and female speakers.**Temporal Convolution Model**
+
+# Modeling Approach
+
+First, raw audio is preprocessed and converted into a mel-frequency spectrogram — this is the input for the model. The model performs convolutions over the time dimension of the spectrogram, then uses masked pooling to prevent overfitting. Finally, the output is passed into a dense layer and a sigmoid activation function, which ultimately outputs a predicted probability between 0 (fake) and 1 (real).
+The baseline model achieved 99%, 95%, and 85% accuracy on the train, validation, and test sets respectively. The differing performance is caused by differences between the three datasets. While all three datasets feature distinct and different speakers, the test set uses a different set of fake audio generating algorithms that were not present in the train or validation set.
+
+# Proposed Framework
+
+# Process Flow
+
+- Voice detection
+    - Temporal Convolution model
+        - Install packages
+        - Download pretrained models
+        - Initialize the model
+        - Load data
+        - Detect DeepFakes
+    - GMM-UBG model
+        - Install packages
+        - Train the model
+        - Load data
+        - Detect DeepFakes
+    - Convolutional VAE model
+        - Install packages
+        - Train the model
+        - Load data
+        - Detect DeepFakes
+    - Voice Similarity
+        - Install packages
+        - Load data
+        - Voice similarity match
+        - Embedding visualization
+
+# Models Algorithms
+
+1. Temporal Convolution
+2. ResNet
+3. GMM
+4. Light CNN
+5. Fusion
+6. SincNet
+7. ASSERT
+8. HOSA
+9. CVAE

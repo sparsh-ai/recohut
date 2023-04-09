@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/programming-languages/pyspark/caching",
+  "id": "foundations/programming-languages/pyspark/caching",
+  "title": "Caching",
+  "description": "What is Caching?",
+  "source": "@site/docs/01-foundations/04-programming-languages/pyspark/caching.md",
+  "sourceDirName": "01-foundations/04-programming-languages/pyspark",
+  "slug": "/foundations/programming-languages/pyspark/caching",
+  "permalink": "/docs/foundations/programming-languages/pyspark/caching",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Broadcasting",
+    "permalink": "/docs/foundations/programming-languages/pyspark/broadcasting"
+  },
+  "next": {
+    "title": "cheat-sheet",
+    "permalink": "/docs/foundations/programming-languages/pyspark/cheat-sheet"
+  }
+}

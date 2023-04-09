@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/language/sql/limit",
+  "id": "foundations/language/sql/limit",
+  "title": "SQL LIMIT",
+  "description": "As you might expect, the limit restricts how many rows the SQL query returns.",
+  "source": "@site/docs/01-foundations/language/sql/limit.md",
+  "sourceDirName": "01-foundations/language/sql",
+  "slug": "/foundations/language/sql/limit",
+  "permalink": "/docs/foundations/language/sql/limit",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SQL LIKE",
+    "permalink": "/docs/foundations/language/sql/like"
+  },
+  "next": {
+    "title": "Explore Further",
+    "permalink": "/docs/foundations/language/sql/links"
+  }
+}

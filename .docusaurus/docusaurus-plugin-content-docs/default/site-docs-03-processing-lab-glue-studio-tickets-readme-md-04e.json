@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/lab-glue-studio-tickets/README",
+  "id": "processing/lab-glue-studio-tickets/README",
+  "title": "Tickets ETL with Glue Studio",
+  "description": "You can use AWS Glue Studio to create jobs that extract structured or semi-structured data from a data source, perform a transformation of that data, and save the result set in a data target.",
+  "source": "@site/docs/03-processing/lab-glue-studio-tickets/README.md",
+  "sourceDirName": "03-processing/lab-glue-studio-tickets",
+  "slug": "/processing/lab-glue-studio-tickets/",
+  "permalink": "/docs/processing/lab-glue-studio-tickets/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Glue Studio Custom Transforms",
+    "permalink": "/docs/processing/lab-glue-studio-custom-transforms/"
+  },
+  "next": {
+    "title": "Getting started with Kafka and CLI",
+    "permalink": "/docs/processing/lab-kafka-cli/"
+  }
+}

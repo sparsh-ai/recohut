@@ -1,0 +1,26 @@
+{
+  "unversionedId": "data-modeling/data-modeling-stages",
+  "id": "data-modeling/data-modeling-stages",
+  "title": "Stages of Data Modeling",
+  "description": "Conceptual Data Model",
+  "source": "@site/docs/04-data-modeling/data-modeling-stages.md",
+  "sourceDirName": "04-data-modeling",
+  "slug": "/data-modeling/data-modeling-stages",
+  "permalink": "/docs/data-modeling/data-modeling-stages",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "CAP Theorem",
+    "permalink": "/docs/data-modeling/cap-theorem"
+  },
+  "next": {
+    "title": "Steps of Building Data Models",
+    "permalink": "/docs/data-modeling/data-modeling-steps"
+  }
+}

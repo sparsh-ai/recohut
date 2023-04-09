@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/language/python/python-snippets",
+  "id": "foundations/language/python/python-snippets",
+  "title": "Python code",
+  "description": "Generating a hash for given string",
+  "source": "@site/docs/01-foundations/language/python/python-snippets.md",
+  "sourceDirName": "01-foundations/language/python",
+  "slug": "/foundations/language/python/python-snippets",
+  "permalink": "/docs/foundations/language/python/python-snippets",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Home",
+    "permalink": "/docs/foundations/language/python/packaging/docs/"
+  },
+  "next": {
+    "title": "Sweet Python Syntax Sugar for Improving Your Coding Experience by Yang Zhou",
+    "permalink": "/docs/foundations/language/python/python-syntax-sugars"
+  }
+}

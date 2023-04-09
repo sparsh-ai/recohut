@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/lab-snowpark-knoema-regression/README",
+  "id": "processing/lab-snowpark-knoema-regression/README",
+  "title": "Knoema Regression Model with Snowpark",
+  "description": "We are interested in the US Inflation data, so we will use this query to explore the data for the application: What is the US inflation over time?",
+  "source": "@site/docs/03-processing/lab-snowpark-knoema-regression/README.md",
+  "sourceDirName": "03-processing/lab-snowpark-knoema-regression",
+  "slug": "/processing/lab-snowpark-knoema-regression/",
+  "permalink": "/docs/processing/lab-snowpark-knoema-regression/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "docs",
+    "permalink": "/docs/processing/lab-snowpark-jafflepark/models/docs"
+  },
+  "next": {
+    "title": "Building an event-driven IKEA app with Kafka",
+    "permalink": "/docs/processing/project-kafka-ikea/"
+  }
+}

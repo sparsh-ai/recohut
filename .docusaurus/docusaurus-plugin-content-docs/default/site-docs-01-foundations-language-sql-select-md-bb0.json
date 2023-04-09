@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/language/sql/select",
+  "id": "foundations/language/sql/select",
+  "title": "SQL SELECT",
+  "description": "There are two required ingredients in any SQL query: SELECT and FROM---and they have to be in that order. SELECT indicates which columns you'd like to view, and FROM identifies the table that they live in.",
+  "source": "@site/docs/01-foundations/language/sql/select.md",
+  "sourceDirName": "01-foundations/language/sql",
+  "slug": "/foundations/language/sql/select",
+  "permalink": "/docs/foundations/language/sql/select",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Performance Tuning",
+    "permalink": "/docs/foundations/language/sql/performance-tuning"
+  },
+  "next": {
+    "title": "SQL Basics",
+    "permalink": "/docs/foundations/language/sql/sql-basics"
+  }
+}

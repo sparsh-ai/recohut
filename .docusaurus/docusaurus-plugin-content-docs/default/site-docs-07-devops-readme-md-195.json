@@ -1,0 +1,26 @@
+{
+  "unversionedId": "devops/README",
+  "id": "devops/README",
+  "title": "DevOps",
+  "description": "Infra-as-Code (IaC)",
+  "source": "@site/docs/07-devops/README.md",
+  "sourceDirName": "07-devops",
+  "slug": "/devops/",
+  "permalink": "/docs/devops/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Step Function Ecommerce SQL",
+    "permalink": "/docs/orchestration/stepfunctions/lab-stepfunction-ecomm-sqs/"
+  },
+  "next": {
+    "title": "Containers",
+    "permalink": "/docs/devops/containers/"
+  }
+}

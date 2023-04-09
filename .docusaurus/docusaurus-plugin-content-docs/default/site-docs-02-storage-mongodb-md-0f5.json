@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/mongodb",
+  "id": "storage/mongodb",
+  "title": "MongoDB",
+  "description": "",
+  "source": "@site/docs/02-storage/mongodb.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/mongodb",
+  "permalink": "/docs/storage/mongodb",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Getting Started with Snowflake - Zero to Snowflake",
+    "permalink": "/docs/storage/lab-zero-to-snowflake"
+  },
+  "next": {
+    "title": "MySQL",
+    "permalink": "/docs/storage/mysql"
+  }
+}

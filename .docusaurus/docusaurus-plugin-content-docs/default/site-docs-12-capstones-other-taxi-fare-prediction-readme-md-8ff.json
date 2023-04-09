@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/other/taxi-fare-prediction/README",
+  "id": "capstones/other/taxi-fare-prediction/README",
+  "title": "NYC Taxi Fare Prediction",
+  "description": "Objective",
+  "source": "@site/docs/12-capstones/other/taxi-fare-prediction/README.md",
+  "sourceDirName": "12-capstones/other/taxi-fare-prediction",
+  "slug": "/capstones/other/taxi-fare-prediction/",
+  "permalink": "/docs/capstones/other/taxi-fare-prediction/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ETL Building for an E-commerce Jeans Company",
+    "permalink": "/docs/capstones/other/star-jeans-etl/"
+  },
+  "next": {
+    "title": "Data Pipeline for Text to Speech translation model",
+    "permalink": "/docs/capstones/other/text-speech-data-pipeline/"
+  }
+}

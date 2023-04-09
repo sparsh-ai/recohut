@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/nlp/text-style-transfer",
+  "id": "datascience/nlp/text-style-transfer",
+  "title": "Text Style Transfer",
+  "description": "How to adapt the text to different situations, audiences and purposes by making some changes? The style of the text usually includes many aspects such as morphology, grammar, emotion, complexity, fluency, tense, tone and so on.",
+  "source": "@site/docs/10-datascience/nlp/text-style-transfer.md",
+  "sourceDirName": "10-datascience/nlp",
+  "slug": "/datascience/nlp/text-style-transfer",
+  "permalink": "/docs/datascience/nlp/text-style-transfer",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Text Processing",
+    "permalink": "/docs/datascience/nlp/text-processing"
+  },
+  "next": {
+    "title": "Recommender Systems",
+    "permalink": "/docs/datascience/recsys/"
+  }
+}

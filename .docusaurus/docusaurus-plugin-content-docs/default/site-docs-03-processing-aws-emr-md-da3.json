@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/aws-emr",
+  "id": "processing/aws-emr",
+  "title": "Amazon EMR",
+  "description": "EMR Serverless",
+  "source": "@site/docs/03-processing/aws-emr.md",
+  "sourceDirName": "03-processing",
+  "slug": "/processing/aws-emr",
+  "permalink": "/docs/processing/aws-emr",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Apache Kafka",
+    "permalink": "/docs/processing/apache-kafka"
+  },
+  "next": {
+    "title": "Kinesis",
+    "permalink": "/docs/processing/aws-kinesis"
+  }
+}

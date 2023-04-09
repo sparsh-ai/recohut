@@ -1,0 +1,26 @@
+{
+  "unversionedId": "data-modeling/designing-scd",
+  "id": "data-modeling/designing-scd",
+  "title": "Designing SCDs",
+  "description": "Whereas operational source systems contain only the latest version of master data, the star schema enables time travel queries to reproduce dimension attribute values on past dates when the fact transaction or event actually happened. The star schema data model allows analytical users to query historical data tying metrics to corresponding dimensional attribute values over time. Time travel is possible because dimension tables contain the exact version of the associated attributes at different time ranges. Relative to the metrics data that keeps changing on a daily or even hourly basis, the dimension attributes change less frequently. Therefore, dimensions in a star schema that keeps track of changes over time are referred to as slowly changing dimensions (SCDs).",
+  "source": "@site/docs/04-data-modeling/designing-scd.md",
+  "sourceDirName": "04-data-modeling",
+  "slug": "/data-modeling/designing-scd",
+  "permalink": "/docs/data-modeling/designing-scd",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Designing for incremental loading",
+    "permalink": "/docs/data-modeling/designing-incremental-loading"
+  },
+  "next": {
+    "title": "Dimensional Modeling",
+    "permalink": "/docs/data-modeling/dimensional-modeling"
+  }
+}

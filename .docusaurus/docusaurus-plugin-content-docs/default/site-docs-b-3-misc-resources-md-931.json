@@ -1,0 +1,26 @@
+{
+  "unversionedId": "b3-misc/resources",
+  "id": "b3-misc/resources",
+  "title": "Resources",
+  "description": "Courses",
+  "source": "@site/docs/b3-misc/resources.md",
+  "sourceDirName": "b3-misc",
+  "slug": "/b3-misc/resources",
+  "permalink": "/docs/b3-misc/resources",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data Engineering Intensive Training Program",
+    "permalink": "/docs/b3-misc/readme_archive"
+  },
+  "next": {
+    "title": "Mathematics",
+    "permalink": "/docs/mathematics/"
+  }
+}

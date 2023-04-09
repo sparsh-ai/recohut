@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/other/patent-analytics/spark/README",
+  "id": "capstones/other/patent-analytics/spark/README",
+  "title": "Patents Analytics Spark",
+  "description": "This folder contains the pyspark scripts used for cleaning, performing keyword extraction, and doing the ETL job for patents analytics data.",
+  "source": "@site/docs/12-capstones/other/patent-analytics/spark/README.md",
+  "sourceDirName": "12-capstones/other/patent-analytics/spark",
+  "slug": "/capstones/other/patent-analytics/spark/",
+  "permalink": "/docs/capstones/other/patent-analytics/spark/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Getting Started",
+    "permalink": "/docs/capstones/other/patent-analytics/SETUP"
+  },
+  "next": {
+    "title": "reddit-data-engineering of r/FedEx",
+    "permalink": "/docs/capstones/other/reddit-kafka-sparkstream-bigquery/"
+  }
+}

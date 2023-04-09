@@ -1,0 +1,26 @@
+{
+  "unversionedId": "a3-casestudies/starbucks",
+  "id": "a3-casestudies/starbucks",
+  "title": "Starbucks",
+  "description": "Multinational chain of coffeehouses and roastery reserves",
+  "source": "@site/docs/a3-casestudies/starbucks.md",
+  "sourceDirName": "a3-casestudies",
+  "slug": "/a3-casestudies/starbucks",
+  "permalink": "/docs/a3-casestudies/starbucks",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Spotify Discover Weekly Playlist",
+    "permalink": "/docs/a3-casestudies/spotify"
+  },
+  "next": {
+    "title": "Trivago",
+    "permalink": "/docs/a3-casestudies/trivago"
+  }
+}

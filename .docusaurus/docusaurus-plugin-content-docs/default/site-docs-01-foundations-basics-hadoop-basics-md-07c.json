@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/basics/hadoop-basics",
+  "id": "foundations/basics/hadoop-basics",
+  "title": "Hadoop Basics",
+  "description": "Apache Hadoop is an open source framework that is used to efficiently store and process large datasets ranging in size from gigabytes to petabytes of data. Instead of using one large computer to store and process the data, Hadoop allows clustering multiple computers to analyze massive datasets in parallel more quickly.",
+  "source": "@site/docs/01-foundations/basics/hadoop-basics.md",
+  "sourceDirName": "01-foundations/basics",
+  "slug": "/foundations/basics/hadoop-basics",
+  "permalink": "/docs/foundations/basics/hadoop-basics",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Extras",
+    "permalink": "/docs/foundations/basics/extras"
+  },
+  "next": {
+    "title": "Hadoop vs Spark",
+    "permalink": "/docs/foundations/basics/hadoop-vs-spark"
+  }
+}

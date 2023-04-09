@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/algorithms/random-forest",
+  "id": "datascience/algorithms/random-forest",
+  "title": "Random Forest",
+  "description": "Random Forest is an algorithm that provides some crucial improvements to the design of Decision Trees. Simply put, Random Forest is an ensemble of many smaller Decision Trees working together. Random Forest uses the simple concept that the wisdom of crowds is always better than one strong individual. By using lowly correlated small Decision Trees, their ensemble of predictions can outperform any single Decision Tree. The technique that Random Forest uses to ensemble smaller Decision Trees is called bagging. Bagging, also known as bootstrap aggregation, is randomly drawing different subsets, with replacements, from the training data, and the final prediction is decided by majority voting.",
+  "source": "@site/docs/10-datascience/algorithms/random-forest.md",
+  "sourceDirName": "10-datascience/algorithms",
+  "slug": "/datascience/algorithms/random-forest",
+  "permalink": "/docs/datascience/algorithms/random-forest",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "README",
+    "permalink": "/docs/datascience/algorithms/ml-eda/variable-distribution-analysis/"
+  },
+  "next": {
+    "title": "Cross-domain",
+    "permalink": "/docs/datascience/basics/cross-domain"
+  }
+}

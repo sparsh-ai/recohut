@@ -1,0 +1,887 @@
+---
+title: Vehicle Suggestions
+authors: sparsh
+tags: [nlp, similarity, vision]
+---
+
+![/img/content-blog-raw-blog-vehicle-suggestions-untitled.png](/img/content-blog-raw-blog-vehicle-suggestions-untitled.png)
+
+# Introduction
+
+The customer owns a franchise store for selling Tesla Automobiles. The objective is to predict user preferences using social media data.
+
+Task 1 - Suggest the best vehicle for the given description
+
+Task 2 - Suggest the best vehicle for the given social media id of the user
+
+## Customer queries
+
+```json
+// car or truck or no mention of vehicle type means Cyber Truck
+// SUV mention means Model X
+const one = "I'm looking for a fast suv that I can go camping without worrying about recharging".;
+const two = "cheap red car that is able to go long distances";
+const three = "i am looking for a daily driver that i can charge everyday, do not need any extras";
+const four = "i like to go offroading a lot on my jeep and i want to do the same with the truck";
+const five = "i want the most basic suv possible";
+const six = "I want all of the addons";
+// mentions of large family or many people means model x
+const seven = "I have a big family and want to be able to take them around town and run errands without worrying about charging";
+```
+
+- Expected output
+    
+    ```json
+    const oneJson = {
+    vehicle: 'Model X',
+    trim : 'adventure',
+    exteriorColor: 'whiteExterior',
+    wheels: "22Performance",
+    tonneau: "powerTonneau",
+    packages: "",
+    interiorAddons: "",
+    interiorColor: "blackInterior",
+    range: "extendedRange",
+    software: "",
+    }
+    
+    const twoJSON = {
+    vehicle: 'Cyber Truck',
+    trim : 'base',
+    exteriorColor: 'whiteExterior',
+    wheels: "21AllSeason",
+    tonneau: "powerTonneau",
+    packages: "",
+    interiorAddons: "",
+    interiorColor: "blackInterior",
+    range: "extendedRange",
+    software: "",
+    }
+    
+    const threeJSON = {
+    vehicle: 'Cyber Truck',
+    trim : 'base',
+    exteriorColor: 'whiteExterior',
+    wheels: "21AllSeason",
+    tonneau: "powerTonneau",
+    packages: "",
+    interiorAddons: "",
+    interiorColor: "blackInterior",
+    range: "standardRange",
+    software: "",
+    }
+    
+    const fourJSON = {
+    vehicle: 'Cyber Truck',
+    trim : 'adventure',
+    exteriorColor: 'whiteExterior',
+    wheels: "20AllTerrain",
+    tonneau: "powerTonneau",
+    packages: "offroadPackage,matchingSpareTire",
+    interiorAddons: "",
+    interiorColor: "blackInterior",
+    range: "extendedRange",
+    software: "",
+    }
+    
+    const fiveJSON = {
+    vehicle: 'Model X',
+    trim : 'base',
+    exteriorColor: 'whiteExterior',
+    wheels: "20AllTerrain",
+    tonneau: "manualTonneau",
+    packages: "",
+    interiorAddons: "",
+    interiorColor: "blackInterior",
+    range: "standardRange",
+    software: "",
+    }
+    
+    const sixJSON = {
+    vehicle: 'Cyber Truck',
+    trim : 'adventure',
+    exteriorColor: 'whiteExterior',
+    wheels: "20AllTerrain",
+    tonneau: "powerTonneau",
+    packages: "offroadPackage,matchingSpareTire",
+    interiorAddons: "wirelessCharger",
+    interiorColor: "blackInterior",
+    range: "extendedRange",
+    software: "selfDrivingPackage",
+    }
+    
+    const sevenJSON = {
+    vehicle: 'Model X',
+    trim : 'base',
+    exteriorColor: 'whiteExterior',
+    wheels: "21AllSeason",
+    tonneau: "powerTonneau",
+    packages: "",
+    interiorAddons: "",
+    interiorColor: "blackInterior",
+    range: "mediumRange",
+    software: "",
+    }
+    ```
+    
+- Vehicle model configurations
+    
+    ```json
+    const configuration = {
+    meta: {
+    configurationId: '???',
+    storeId: 'US_SALES',
+    country: 'US',
+    version: '1.0',
+    effectiveDate: '???',
+    currency: 'USD',
+    locale: 'en-US',
+    availableLocales: ['en-US'],
+    },
+    
+    defaults: {
+    basePrice: 50000,
+    deposit: 1000,
+    initialSelection: [
+    'adventure',
+    'whiteExterior',
+    '21AllSeason',
+    'powerTonneau',
+    'blackInterior',
+    'mediumRange',
+    ],
+    },
+    
+    groups: {
+    trim: {
+    name: { 'en-US': 'Choose trim' },
+    multiselect: false,
+    required: true,
+    options: ['base', 'adventure'],
+    },
+    exteriorColor: {
+    name: { 'en-US': 'Choose paint' },
+    multiselect: false,
+    required: true,
+    options: [
+    'whiteExterior',
+    'blueExterior',
+    'silverExterior',
+    'greyExterior',
+    'blackExterior',
+    'redExterior',
+    'greenExterior',
+    ],
+    },
+    wheels: {
+    name: { 'en-US': 'Choose wheels' },
+    multiselect: false,
+    required: true,
+    options: ['21AllSeason', '20AllTerrain', '22Performance'],
+    },
+    tonneau: {
+    name: { 'en-US': 'Choose tonneau cover' },
+    multiselect: false,
+    required: true,
+    options: ['manualTonneau', 'powerTonneau'],
+    },
+    packages: {
+    name: { 'en-US': 'Choose upgrades' },
+    multiselect: true,
+    required: false,
+    options: ['offroadPackage', 'matchingSpareTire'],
+    },
+    interiorColor: {
+    name: { 'en-US': 'Choose interior' },
+    multiselect: false,
+    required: true,
+    options: ['greyInterior', 'blackInterior', 'greenInterior'],
+    },
+    interiorAddons: {
+    name: { 'en-US': 'Choose upgrade' },
+    multiselect: true,
+    required: false,
+    options: ['wirelessCharger'],
+    },
+    range: {
+    name: { 'en-US': 'Choose range' },
+    multiselect: false,
+    required: true,
+    options: ['standardRange', 'mediumRange', 'extendedRange'],
+    },
+    software: {
+    name: { 'en-US': 'Choose upgrade' },
+    multiselect: true,
+    required: false,
+    options: ['selfDrivingPackage'],
+    },
+    specs: {
+    name: { 'en-US': 'Specs overview *' },
+    attrs: {
+    description: {
+    'en-US':
+    "* Options, specs and pricing may change as we approach production. We'll contact you to review any updates to your preferred build.",
+    },
+    },
+    multiselect: false,
+    required: false,
+    options: ['acceleration', 'power', 'towing', 'range'],
+    },
+    },
+    
+    options: {
+    base: {
+    name: { 'en-US': 'Base' },
+    attrs: {
+    description: { 'en-US': 'Production begins 2022' },
+    },
+    visual: true,
+    price: 0,
+    },
+    adventure: {
+    name: { 'en-US': 'Adventure' },
+    attrs: {
+    description: { 'en-US': 'Production begins 2021' },
+    },
+    visual: true,
+    price: 10000,
+    },
+    
+    standardRange: {
+    name: { 'en-US': 'Standard' },
+    attrs: {
+    description: { 'en-US': '230+ miles' },
+    },
+    price: 0,
+    },
+    mediumRange: {
+    name: { 'en-US': 'Medium' },
+    attrs: {
+    description: { 'en-US': '300+ miles' },
+    },
+    price: 3000,
+    },
+    extendedRange: {
+    name: { 'en-US': 'Extended' },
+    attrs: {
+    description: { 'en-US': '400+ miles' },
+    },
+    price: 8000,
+    },
+    
+    greenExterior: {
+    name: { 'en-US': 'Adirondack Green' },
+    attrs: {
+    imageUrl: '/public/images/configurationOptions/exteriorcolors/green.svg',
+    },
+    visual: true,
+    price: 2000,
+    },
+    blueExterior: {
+    name: { 'en-US': 'Trestles Blue' },
+    attrs: {
+    imageUrl: '/public/images/configurationOptions/exteriorcolors/blue.svg',
+    },
+    visual: true,
+    price: 1000,
+    },
+    whiteExterior: {
+    name: { 'en-US': 'Arctic White' },
+    attrs: {
+    imageUrl: '/public/images/configurationOptions/exteriorcolors/white.svg',
+    },
+    visual: true,
+    price: 0,
+    },
+    silverExterior: {
+    name: { 'en-US': 'Silver Gracier' },
+    attrs: {
+    imageUrl: '/public/images/configurationOptions/exteriorcolors/silver.svg',
+    },
+    visual: true,
+    price: 1000,
+    },
+    blackExterior: {
+    name: { 'en-US': 'Cosmic Black' },
+    attrs: {
+    imageUrl: '/public/images/configurationOptions/exteriorcolors/black.svg',
+    },
+    visual: true,
+    price: 1000,
+    },
+    redExterior: {
+    name: { 'en-US': 'Red Rocks' },
+    attrs: {
+    imageUrl: '/public/images/configurationOptions/exteriorcolors/red.svg',
+    },
+    visual: true,
+    price: 2000,
+    },
+    greyExterior: {
+    name: { 'en-US': 'Antracite Grey' },
+    attrs: {
+    imageUrl: '/public/images/configurationOptions/exteriorcolors/grey.svg',
+    },
+    visual: true,
+    price: 1000,
+    },
+    
+    '21AllSeason': {
+    name: { 'en-US': '21" Cast Wheel - All Season' },
+    attrs: {
+    imageUrl: '/public/images/configurationOptions/wheels/twentyone.svg',
+    },
+    visual: true,
+    price: 0,
+    },
+    '20AllTerrain': {
+    name: { 'en-US': '20" Forged Wheel - All Terrain' },
+    attrs: {
+    imageUrl: '/public/images/configurationOptions/wheels/twenty.svg',
+    },
+    visual: true,
+    price: 0,
+    },
+    '22Performance': {
+    name: { 'en-US': '22" Cast Wheel - Performance' },
+    attrs: {
+    imageUrl: '/public/images/configurationOptions/wheels/twentytwo.svg',
+    },
+    visual: true,
+    price: 2000,
+    },
+    
+    manualTonneau: {
+    name: { 'en-US': 'Manual' },
+    attrs: {
+    description: { 'en-US': 'Description here' },
+    },
+    price: 0,
+    },
+    powerTonneau: {
+    name: { 'en-US': 'Powered' },
+    attrs: {
+    description: { 'en-US': 'Description here' },
+    },
+    price: 0,
+    },
+    
+    blackInterior: {
+    name: { 'en-US': 'Black' },
+    attrs: {
+    imageUrl: '/public/images/configurationOptions/interiorcolors/black.svg',
+    },
+    visual: true,
+    price: 0,
+    },
+    greyInterior: {
+    name: { 'en-US': 'Grey' },
+    attrs: {
+    imageUrl: '/public/images/configurationOptions/interiorcolors/grey.svg',
+    },
+    visual: true,
+    price: 1000,
+    },
+    greenInterior: {
+    name: { 'en-US': 'Green' },
+    attrs: {
+    imageUrl: '/public/images/configurationOptions/interiorcolors/green.svg',
+    },
+    visual: true,
+    price: 2000,
+    },
+    
+    offroadPackage: {
+    name: { 'en-US': 'Off-Road' },
+    attrs: {
+    description: { 'en-US': '' },
+    imageUrl: '/public/images/configurationOptions/packages/offroad.png',
+    },
+    visual: true,
+    price: 5000,
+    },
+    matchingSpareTire: {
+    name: { 'en-US': 'Matching Spare Tire' },
+    attrs: {
+    description: { 'en-US': 'Full sized tire' },
+    imageUrl: '/public/images/configurationOptions/packages/spare.png',
+    },
+    price: 500,
+    },
+    
+    wirelessCharger: {
+    name: { 'en-US': 'Wireless charger' },
+    attrs: {
+    description: { 'en-US': '' },
+    imageUrl: '/public/images/configurationOptions/packages/wireless.png',
+    },
+    price: 100,
+    },
+    selfDrivingPackage: {
+    name: { 'en-US': 'Autonomy' },
+    attrs: {
+    description: { 'en-US': '' },
+    imageUrl: '/public/images/configurationOptions/packages/autonomy.png',
+    },
+    price: 7000,
+    },
+    
+    acceleration: {
+    name: { 'en-US': '0 - 60 mph' },
+    attrs: {
+    units: { 'en-US': 'sec' },
+    decimals: 1,
+    },
+    value: 3.4,
+    },
+    power: {
+    name: { 'en-US': 'Horsepower' },
+    attrs: {
+    units: { 'en-US': 'hp' },
+    },
+    value: 750,
+    },
+    towing: {
+    name: { 'en-US': 'Towing' },
+    attrs: {
+    units: { 'en-US': 'lbs' },
+    },
+    value: 10000,
+    },
+    range: {
+    name: { 'en-US': 'Range' },
+    attrs: {
+    units: { 'en-US': 'mi' },
+    },
+    value: 400,
+    },
+    }
+    };
+    ```
+    
+
+## Public datasets
+
+- Instagram: 16539 images from 972 Instagram influencers ([link](https://github.com/gvsi/instagram-like-predictor))
+- TechCrunchPosts: ([link](https://www.kaggle.com/thibalbo/techcrunch-posts-compilation))
+- Tweets: ([link](https://data.world/data-society/twitter-user-data))
+
+Primary (available for academic use only, need university affiliation for access)
+
+- [A Dataset and Benchmarks for Multimedia Social Analysis](https://arxiv.org/abs/2006.08335)
+
+Secondary (low quality data, not sure if can be used at all)
+
+- [Hacker News Posts](https://www.kaggle.com/hacker-news/hacker-news-posts)
+- [TechCrunch Posts Compilation](https://www.kaggle.com/thibalbo/techcrunch-posts-compilation)
+- Instagram image data [HowTo](https://towardsdatascience.com/predict-the-number-of-likes-on-instagram-a7ec5c020203)
+- Flikr Large with likes and comments
+- [The Images of Groups Dataset](http://chenlab.ece.cornell.edu/people/Andy/ImagesOfGroups.html)
+- [http://www.multimediaeval.org/datasets/](http://www.multimediaeval.org/datasets/)
+- [The InstaCities1M Dataset](https://gombru.github.io/2018/08/01/InstaCities1M/)
+- [Multimodal Meme Classification: Identifying Offensive Content in Image and Text](https://www.insight-centre.org/sites/default/files/publications/memes_classification_lrec_1.pdf)
+- [Understanding Police Social Media Usage Through Posts and Tweets](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/NRPHLC)
+- Topic clusters text
+    - Model X
+        - I like model X
+        - I want to buy model X
+        - Model X is my favorite car
+        - Tesla Modelx is my dream
+        - modelx tesla love
+    - Cyber Truck
+        - I like Cyber Truck
+        - I want to buy Cyber Truck
+        - Cyber Truck is my favorite car
+        - Tesla Cyber Truck is my dream
+        - CyberTruck tesla love
+    - Adventure
+        - I like adventure
+        - sports i play
+        - i went on trip
+        - I travels a lot
+        - car adventure
+        
+    - Exterior Color White
+        - I like white color
+        - White is my fav
+        - white car love
+        - I like white exterior
+    - Exterior Color Black
+        - I like Black color
+        - Black is my fav
+        - Black car love
+        - I like Black exterior
+    - Exterior Color Blue
+        - I like Blue color
+        - Blue is my fav
+        - Blue car love
+        - I like Blue exterior
+    - Exterior Color Green
+        - I like Green color
+        - Green is my fav
+        - Green car love
+        - I like Green exterior
+    - Exterior Color Red
+        - I like Red color
+        - Red is my fav
+        - Red car love
+        - I like Red exterior
+    - Exterior Color Grey
+        - I like Grey color
+        - Grey is my fav
+        - Grey car love
+        - I like Grey exterior
+    - Exterior Color Silver
+        - I like Silver color
+        - Silver is my fav
+        - Silver car love
+        - I like Silver exterior
+    - Self driving
+        - I like self driving technology
+        - selfDrivingPackage
+        - selfDrivingtech love
+        - self drive is my fav
+        - self driving car is amazing
+- Celebs
+    
+    ![/img/content-blog-raw-blog-vehicle-suggestions-untitled-1.png](/img/content-blog-raw-blog-vehicle-suggestions-untitled-1.png)
+    
+
+## Logical Reasoning
+
+- If I implicitly rate pictures of blue car, that means I might prefer a blue car.
+- If I like posts of self-driving, that means I might prefer a self-driving option.
+
+# Scope
+
+### Scope 1
+
+![/img/content-blog-raw-blog-vehicle-suggestions-untitled-2.png](/img/content-blog-raw-blog-vehicle-suggestions-untitled-2.png)
+
+### Scope 2
+
+media content categories: text and images
+
+platforms: facebook, twitter and instagram
+
+implicit rating categories: like, comment, share
+
+columns: userid, timestamp, platform, type, content, rating
+
+# Model Framework
+
+### Model framework 1
+
+1. Convert user's natural language query into vector using Universal Sentence Embedding model
+2. Create a product specs binary matrix based on different categories
+3. Find TopK similar query vectors using cosine distance
+4. For each TopK vector, Find TopM product specs using interaction table weights
+5. For each TopM specification, find TopN similar specs using binary matrix
+6. Show all the qualified product specifications
+
+### Model framework 2
+
+1. Seed data: 10 users with ground-truth persona, media content and implicit ratings
+2. Inflated data: 10 users with media content and implicit ratings
+3. media content → Implicit rating (A)
+4. media content → feature vector (B) + (A) → weighted pooling → similar users (C)
+5. media content → QA model → slot filling → global pooling → item associations (D)
+6. (C) → content-based filtering → item recommendations → (D) → top-k recommendations
+
+**User selection**
+
+- People who are connected to social media community of electric vehicles
+- Seed users are those who already have an electric vehicle
+- Inflated users are those who doesn't own an EV but inclined to purchase
+- Users having presense on all three sites or at least 2
+- List of common users
+    
+    [https://www.facebook.com/gossman](https://www.facebook.com/gossman)
+    
+    [https://www.facebook.com/ryanm06](https://www.facebook.com/ryanm06)
+    
+    [https://www.facebook.com/chad.turner.7146](https://www.facebook.com/chad.turner.7146)
+    
+    [https://www.facebook.com/cjacobs05](https://www.facebook.com/cjacobs05)
+    
+    [https://www.facebook.com/MafiaAllen](https://www.facebook.com/MafiaAllen)
+    
+    [https://www.facebook.com/rahul.mii.33](https://www.facebook.com/rahul.mii.33)
+    
+    [https://www.facebook.com/francisco.chavira.547](https://www.facebook.com/francisco.chavira.547)
+    
+    [https://www.facebook.com/JayTheillest74](https://www.facebook.com/JayTheillest74)
+    
+    [https://www.facebook.com/michael.creighton20](https://www.facebook.com/michael.creighton20)
+    
+    [https://www.facebook.com/darryl.grigggardening](https://www.facebook.com/darryl.grigggardening)
+    
+    [https://www.facebook.com/4X4Aus/](https://www.facebook.com/4X4Aus/)
+    
+    [https://www.instagram.com/minnyrc/](https://www.instagram.com/minnyrc/)
+    
+    [https://www.instagram.com/warnerbu7lt/](https://www.instagram.com/warnerbu7lt/)
+    
+- List of celebs
+    1. [https://en.wikipedia.org/wiki/List_of_most-followed_Instagram_accounts](https://en.wikipedia.org/wiki/List_of_most-followed_Instagram_accounts)
+    2. [https://en.wikipedia.org/wiki/List_of_most-followed_Twitter_accounts](https://en.wikipedia.org/wiki/List_of_most-followed_Twitter_accounts)
+    3. [https://en.wikipedia.org/wiki/List_of_most-followed_Facebook_pages](https://en.wikipedia.org/wiki/List_of_most-followed_Facebook_pages)
+    
+    ['Jennifer Lopez', 'Virat Kohli', 'Ariana Grande', 'Dwayne Johnson', 'Kylie Jenner', 'Lionel Messi', 'LeBron James', 'Beyoncé', 'Justin Bieber', 'Akshay Kumar', 'Demi Lovato', 'Kendall Jenner', 'Nicki Minaj', 'Khloé Kardashian', 'Kim Kardashian', 'Gigi Hadid', 'Ellen DeGeneres', 'Deepika Padukone', 'Rihanna', 'Shakira', 'Cardi B', 'Eminem', 'Drake', 'Chris Brown', 'Maluma', 'Vin Diesel', 'Ronaldinho', 'Kevin Hart', 'Emma Watson', 'Shawn Mendes', 'Neymar', 'Justin Timberlake', 'Katy Perry', 'Donald Trump', 'Lady Gaga', 'Amitabh Bachchan', 'Selena Gomez', 'Lil Wayne', 'Elon Musk', 'Britney Spears', 'Jimmy Fallon', 'Bill Gates', 'Ariana Grande', 'Miley Cyrus', 'Oprah Winfrey', 'Cristiano Ronaldo', 'Salman Khan', 'Shah Rukh Khan', 'Niall Horan']
+    
+
+### Model framework 3
+
+User-User Similarity (clustering)
+
+- User → Media content → Embedding → Average pooling
+- Cosine Similarity of user's social vector with other user's social vector
+
+User-Item Similarity (reranking)
+
+- **User → Implicit Rating on media content M → M's correlation with item features**
+- Item features: familySize
+- Cosine Similarity of user's social vector with item's feature vector
+
+User-User Similarity (clustering)
+
+- User → Media content → Embedding → Average pooling
+- Cosine Similarity of user's social vector with other user's social vector
+
+User-Item Similarity (reranking)
+
+- **User → Implicit Rating on media content M → M's correlation with item features**
+- Item features: familySize
+- Cosine Similarity of user's social vector with item's feature vector
+
+### Model framework 4
+
+![/img/content-blog-raw-blog-vehicle-suggestions-untitled-3.png](/img/content-blog-raw-blog-vehicle-suggestions-untitled-3.png)
+
+Text → Prepare → Vectorize → Average → Similar Users
+
+Image → Prepare → Vectorize → Average → Similar Users
+
+Text → Prepare → QA → Slot filling
+
+Image → Prepare → VQA → Slot filling
+
+Image → Similar Image from users → Detailed enquiry
+
+### Model framework 5
+
+1. Topic Clusters Text
+2. Topic Clusters Image
+3. Fetch raw text and images
+4. Combine, Clean and Store text in text dataframe
+5. Vectorize Texts
+6. Cosine similarities of texts with topic clusters
+7. Vectorize Images
+8. Cosine similarities of images with topic clusters
+
+# Experimental Setup
+
+- Experiment 1
+    
+    ```python
+    import numpy as np
+    import pandas as pd
+    import tensorflow_hub as hub
+    from itertools import product
+    from sklearn.preprocessing import OneHotEncoder
+    from sklearn.metrics.pairwise import cosine_similarity
+    
+    vehicle = ['modelX', 'cyberTruck']
+    trim = ['adventure', 'base']
+    exteriorColor = ['whiteExterior', 'blueExterior', 'silverExterior', 'greyExterior', 'blackExterior', 'redExterior', 'greenExterior']
+    wheels = ['20AllTerrain', '21AllSeason', '22Performance']
+    tonneau = ['powerTonneau', 'manualTonneau']
+    interiorColor = ['blackInterior', 'greyInterior', 'greenInterior']
+    range = ['standardRange', 'mediumRange', 'extendedRange']
+    packages = ['offroadPackage', 'matchingSpareTire', 'offroadPackage,matchingSpareTire', 'None']
+    interiorAddons = ['wirelessCharger', 'None']
+    software = ['selfDrivingPackage', 'None']
+    
+    specs_cols = ['vehicle', 'trim', 'exteriorColor', 'wheels', 'tonneau', 'interiorColor', 'range', 'packages', 'interiorAddons', 'software']
+    specs = pd.DataFrame(list(product(vehicle, trim, exteriorColor, wheels, tonneau, interiorColor, range, packages, interiorAddons, software)),
+                         columns=specs_cols)
+    
+    enc = OneHotEncoder(handle_unknown='error', sparse=False)
+    specs = pd.DataFrame(enc.fit_transform(specs))
+    
+    specs_ids = specs.index.tolist()
+    
+    query_list = ["I'm looking for a fast suv that I can go camping without worrying about recharging",
+                  "cheap red car that is able to go long distances",
+                  "i am looking for a daily driver that i can charge everyday, do not need any extras",
+                  "i like to go offroading a lot on my jeep and i want to do the same with the truck",
+                  "i want the most basic suv possible",
+                  "I want all of the addons", 
+                  "I have a big family and want to be able to take them around town and run errands without worrying about charging"]
+    
+    queries = pd.DataFrame(query_list, columns=['query'])
+    query_ids = queries.index.tolist()
+    
+    const_oneJSON = {
+    'vehicle': 'modelX',
+    'trim' : 'adventure',
+    'exteriorColor': 'whiteExterior',
+    'wheels': "22Performance",
+    'tonneau': "powerTonneau",
+    'packages': "None",
+    'interiorAddons': "None",
+    'interiorColor': "blackInterior",
+    'range': "extendedRange",
+    'software': "None",
+    }
+    
+    const_twoJSON = {
+    'vehicle': 'cyberTruck',
+    'trim' : 'base',
+    'exteriorColor': 'whiteExterior',
+    'wheels': "21AllSeason",
+    'tonneau': "powerTonneau",
+    'packages': "None",
+    'interiorAddons': "None",
+    'interiorColor': "blackInterior",
+    'range': "extendedRange",
+    'software': "None",
+    }
+    
+    const_threeJSON = {
+    'vehicle': 'cyberTruck',
+    'trim' : 'base',
+    'exteriorColor': 'whiteExterior',
+    'wheels': "21AllSeason",
+    'tonneau': "powerTonneau",
+    'packages': "None",
+    'interiorAddons': "None",
+    'interiorColor': "blackInterior",
+    'range': "standardRange",
+    'software': "None",
+    }
+    
+    const_fourJSON = {
+    'vehicle': 'cyberTruck',
+    'trim' : 'adventure',
+    'exteriorColor': 'whiteExterior',
+    'wheels': "20AllTerrain",
+    'tonneau': "powerTonneau",
+    'packages': "offroadPackage,matchingSpareTire",
+    'interiorAddons': "None",
+    'interiorColor': "blackInterior",
+    'range': "extendedRange",
+    'software': "None",
+    }
+    
+    const_fiveJSON = {
+    'vehicle': 'modelX',
+    'trim' : 'base',
+    'exteriorColor': 'whiteExterior',
+    'wheels': "20AllTerrain",
+    'tonneau': "manualTonneau",
+    'packages': "None",
+    'interiorAddons': "None",
+    'interiorColor': "blackInterior",
+    'range': "standardRange",
+    'software': "None",
+    }
+    
+    const_sixJSON = {
+    'vehicle': 'cyberTruck',
+    'trim' : 'adventure',
+    'exteriorColor': 'whiteExterior',
+    'wheels': "20AllTerrain",
+    'tonneau': "powerTonneau",
+    'packages': "offroadPackage,matchingSpareTire",
+    'interiorAddons': "wirelessCharger",
+    'interiorColor': "blackInterior",
+    'range': "extendedRange",
+    'software': "selfDrivingPackage",
+    }
+    
+    const_sevenJSON = {
+    'vehicle': 'modelX',
+    'trim' : 'base',
+    'exteriorColor': 'whiteExterior',
+    'wheels': "21AllSeason",
+    'tonneau': "powerTonneau",
+    'packages': "None",
+    'interiorAddons': "None",
+    'interiorColor': "blackInterior",
+    'range': "mediumRange",
+    'software': "None",
+    }
+    
+    historical_data = pd.DataFrame([const_oneJSON, const_twoJSON, const_threeJSON, const_fourJSON, const_fiveJSON, const_sixJSON, const_sevenJSON])
+    
+    input_vec = enc.transform([specs_frame.append(historical_data.iloc[0], sort=False).iloc[-1]])
+    idx = np.argsort(-cosine_similarity(input_vec, specs.values))[0,:][:1]
+    rslt = enc.inverse_transform([specs.iloc[idx]])
+    
+    interactions = pd.DataFrame(columns=['query_id','specs_id'])
+    interactions['query_id'] = queries.index.tolist()
+    input_vecs = enc.transform(specs_frame.append(historical_data, sort=False).iloc[-len(historical_data):])
+    interactions['specs_id'] = np.argsort(-cosine_similarity(input_vecs, specs.values))[:,0]
+    
+    module_url = "https://tfhub.dev/google/universal-sentence-encoder/4" 
+    embed_model = hub.load(module_url)
+    def embed(input):
+      return embed_model(input)
+    query_vecs = embed(queries['query'].tolist()).numpy()
+    
+    _query = input('Please enter query: ') or 'i want the most basic suv possible'
+    _query_vec = embed([_query]).numpy()
+    _match_qid = np.argsort(-cosine_similarity(_query_vec, query_vecs))[0,:][:1]
+    _match_sid = interactions.loc[interactions['query_id']==_match_qid[0], 'specs_id'].values[0]
+    input_vec = enc.transform([specs_frame.append(historical_data.iloc[0], sort=False).iloc[-1]])
+    idx = np.argsort(-cosine_similarity([specs.iloc[_match_sid].values], specs.values))[0,:][:5]
+    results = []
+    for x in idx:
+      results.append(enc.inverse_transform([specs.iloc[x]]))
+    _temp = np.array(results).reshape(5,-1)
+    _temp = pd.DataFrame(_temp, columns=specs_frame.columns)
+    print(_temp)
+    ```
+    
+
+## Experiment 2
+
+Celeb Scraping
+
+### Facebook Scraping
+
+![/img/content-blog-raw-blog-vehicle-suggestions-untitled-4.png](/img/content-blog-raw-blog-vehicle-suggestions-untitled-4.png)
+
+### Twitter Scraping
+
+![/img/content-blog-raw-blog-vehicle-suggestions-untitled-5.png](/img/content-blog-raw-blog-vehicle-suggestions-untitled-5.png)
+
+### Dataframe
+
+![/img/content-blog-raw-blog-vehicle-suggestions-untitled-6.png](/img/content-blog-raw-blog-vehicle-suggestions-untitled-6.png)
+
+### Insta Image Grid
+
+![/img/content-blog-raw-blog-vehicle-suggestions-untitled-7.png](/img/content-blog-raw-blog-vehicle-suggestions-untitled-7.png)
+
+### User Text NER
+
+![/img/content-blog-raw-blog-vehicle-suggestions-untitled-8.png](/img/content-blog-raw-blog-vehicle-suggestions-untitled-8.png)
+
+## Experiment 3
+
+Topic model
+
+### Topic scores
+
+![/img/content-blog-raw-blog-vehicle-suggestions-untitled-9.png](/img/content-blog-raw-blog-vehicle-suggestions-untitled-9.png)
+
+### JSON rules
+
+![/img/content-blog-raw-blog-vehicle-suggestions-untitled-10.png](/img/content-blog-raw-blog-vehicle-suggestions-untitled-10.png)
+
+# Results and Discussion
+
+- API with 3 input fields - Facebook username, Twitter handle & Instagram username
+- The system will automatically scrap the user's publicly available text and images from these 3 social media platforms and provide a list of recommendations from most to least preferred product

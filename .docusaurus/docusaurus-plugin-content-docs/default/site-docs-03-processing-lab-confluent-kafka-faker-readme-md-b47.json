@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/lab-confluent-kafka-faker/README",
+  "id": "processing/lab-confluent-kafka-faker/README",
+  "title": "Real-time CDC-enabled Extract and Load Pipeline with Kafka on Cloud",
+  "description": "Introduction",
+  "source": "@site/docs/03-processing/lab-confluent-kafka-faker/README.md",
+  "sourceDirName": "03-processing/lab-confluent-kafka-faker",
+  "slug": "/processing/lab-confluent-kafka-faker/",
+  "permalink": "/docs/processing/lab-confluent-kafka-faker/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Implementing the Serving Layer Star Schema",
+    "permalink": "/docs/processing/lab-azure-synapse-implementing-star-schema/"
+  },
+  "next": {
+    "title": "CSV to Parquet Transformation with Glue Studio",
+    "permalink": "/docs/processing/lab-csv-to-parquet-conversion/"
+  }
+}

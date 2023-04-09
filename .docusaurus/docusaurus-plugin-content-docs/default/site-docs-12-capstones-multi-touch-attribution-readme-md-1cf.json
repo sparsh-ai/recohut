@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/multi-touch-attribution/README",
+  "id": "capstones/multi-touch-attribution/README",
+  "title": "Multi-touch Attribution",
+  "description": "Abstract",
+  "source": "@site/docs/12-capstones/multi-touch-attribution/README.md",
+  "sourceDirName": "12-capstones/multi-touch-attribution",
+  "slug": "/capstones/multi-touch-attribution/",
+  "permalink": "/docs/capstones/multi-touch-attribution/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Movie Review Sentiment Analysis Pipeline",
+    "permalink": "/docs/capstones/movie-sentiment/"
+  },
+  "next": {
+    "title": "Covid-19 Data Pipeline",
+    "permalink": "/docs/capstones/other/covid19-datalake/"
+  }
+}

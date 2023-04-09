@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/lab-bigquery-query-optimization/README",
+  "id": "storage/lab-bigquery-query-optimization/README",
+  "title": "GCP Bigquery Query Optimization",
+  "description": "Objective",
+  "source": "@site/docs/02-storage/lab-bigquery-query-optimization/README.md",
+  "sourceDirName": "02-storage/lab-bigquery-query-optimization",
+  "slug": "/storage/lab-bigquery-query-optimization/",
+  "permalink": "/docs/storage/lab-bigquery-query-optimization/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "BigQuery Optimization",
+    "permalink": "/docs/storage/lab-bigquery-optimization/"
+  },
+  "next": {
+    "title": "Building a BigQuery Data Warehouse",
+    "permalink": "/docs/storage/lab-biqeury-building-warehouse/"
+  }
+}

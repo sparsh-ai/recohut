@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/bigquery",
+  "id": "storage/bigquery",
+  "title": "BigQuery",
+  "description": "BigQuery is server-less, highly scalable, and cost-effective Data warehouse designed for Google cloud Platform (GCP) to store and query petabytes of data. The query engine is capable of running SQL queries on terabytes of data in a matter of seconds, and petabytes in only minutes. You get this performance without having to manage any infrastructure and without having to create or rebuild indexes.",
+  "source": "@site/docs/02-storage/bigquery.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/bigquery",
+  "permalink": "/docs/storage/bigquery",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Azure SQL Databases",
+    "permalink": "/docs/storage/azure-sql"
+  },
+  "next": {
+    "title": "Messflix (hypothetical)",
+    "permalink": "/docs/storage/casestudy-messflix-hypothetical"
+  }
+}

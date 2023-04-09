@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/other/topic-modeling-pipeline/README",
+  "id": "capstones/other/topic-modeling-pipeline/README",
+  "title": "Machine Learning with Big Data",
+  "description": "Use big-data tools (PySpark) to run topic modeling (unsupervised machine learning) on Twitter data streamed using AWS Kinesis Firehose.",
+  "source": "@site/docs/12-capstones/other/topic-modeling-pipeline/README.md",
+  "sourceDirName": "12-capstones/other/topic-modeling-pipeline",
+  "slug": "/capstones/other/topic-modeling-pipeline/",
+  "permalink": "/docs/capstones/other/topic-modeling-pipeline/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data Pipeline for Text to Speech translation model",
+    "permalink": "/docs/capstones/other/text-speech-data-pipeline/"
+  },
+  "next": {
+    "title": "Scoping",
+    "permalink": "/docs/capstones/other/topic-modeling-pipeline/v2/scoping"
+  }
+}

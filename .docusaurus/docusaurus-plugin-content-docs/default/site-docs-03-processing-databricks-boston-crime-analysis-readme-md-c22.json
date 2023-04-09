@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/databricks/boston-crime-analysis/README",
+  "id": "processing/databricks/boston-crime-analysis/README",
+  "title": "Boston Crime Analysis",
+  "description": "Perform data cleansing, transformation and load 300,000+ records in a PySpark dataframe using PySpark and process the resultant data to CSV, reducing data redundancy by 15% and improving data accuracy by 90%",
+  "source": "@site/docs/03-processing/databricks/boston-crime-analysis/README.md",
+  "sourceDirName": "03-processing/databricks/boston-crime-analysis",
+  "slug": "/processing/databricks/boston-crime-analysis/",
+  "permalink": "/docs/processing/databricks/boston-crime-analysis/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Databricks",
+    "permalink": "/docs/processing/databricks/"
+  },
+  "next": {
+    "title": "Cybersecurity Databricks",
+    "permalink": "/docs/processing/databricks/lab-cybersecurity-databricks/"
+  }
+}

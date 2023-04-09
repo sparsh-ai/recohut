@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/language/python/links",
+  "id": "foundations/language/python/links",
+  "title": "Explore Further",
+  "description": "1. https://scrimba.com/learn/python",
+  "source": "@site/docs/01-foundations/language/python/links.md",
+  "sourceDirName": "01-foundations/language/python",
+  "slug": "/foundations/language/python/links",
+  "permalink": "/docs/foundations/language/python/links",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction to Python",
+    "permalink": "/docs/foundations/language/python/introduction-to-python"
+  },
+  "next": {
+    "title": "Home",
+    "permalink": "/docs/foundations/language/python/packaging/docs/"
+  }
+}

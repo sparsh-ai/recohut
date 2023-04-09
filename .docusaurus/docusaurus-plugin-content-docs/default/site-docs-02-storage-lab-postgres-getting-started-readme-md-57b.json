@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/lab-postgres-getting-started/README",
+  "id": "storage/lab-postgres-getting-started/README",
+  "title": "Getting Started with Postgres",
+  "description": "",
+  "source": "@site/docs/02-storage/lab-postgres-getting-started/README.md",
+  "sourceDirName": "02-storage/lab-postgres-getting-started",
+  "slug": "/storage/lab-postgres-getting-started/",
+  "permalink": "/docs/storage/lab-postgres-getting-started/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Postgres Crime Reports",
+    "permalink": "/docs/storage/lab-postgres-crime-reports/"
+  },
+  "next": {
+    "title": "Generate Trips Data using Stored Procedure",
+    "permalink": "/docs/storage/lab-postgres-trips-stored-procedure/"
+  }
+}

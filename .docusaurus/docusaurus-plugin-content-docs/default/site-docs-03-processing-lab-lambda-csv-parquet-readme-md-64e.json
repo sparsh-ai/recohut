@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/lab-lambda-csv-parquet/README",
+  "id": "processing/lab-lambda-csv-parquet/README",
+  "title": "Lambda CSV to Parquet",
+  "description": "Create an S3 bucket and IAM user with user-defined policy. Create Lambda layer and lambda function and add the layer to the function. Add S3 trigger for auto-transformation from csv to parquet and query with Glue.",
+  "source": "@site/docs/03-processing/lab-lambda-csv-parquet/README.md",
+  "sourceDirName": "03-processing/lab-lambda-csv-parquet",
+  "slug": "/processing/lab-lambda-csv-parquet/",
+  "permalink": "/docs/processing/lab-lambda-csv-parquet/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Real-Time Clickstream Anomaly Detection with Kinesis",
+    "permalink": "/docs/processing/lab-kinesis-clickstream-anomaly/"
+  },
+  "next": {
+    "title": "Lab: Ray AIR Basics",
+    "permalink": "/docs/processing/lab-ray-air-basics/"
+  }
+}

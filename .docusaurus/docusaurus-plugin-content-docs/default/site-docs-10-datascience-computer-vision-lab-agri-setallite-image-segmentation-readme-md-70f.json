@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/computer-vision/lab-agri-setallite-image-segmentation/README",
+  "id": "datascience/computer-vision/lab-agri-setallite-image-segmentation/README",
+  "title": "Agricultural Satellite Image Segmentation",
+  "description": "",
+  "source": "@site/docs/10-datascience/computer-vision/lab-agri-setallite-image-segmentation/README.md",
+  "sourceDirName": "10-datascience/computer-vision/lab-agri-setallite-image-segmentation",
+  "slug": "/datascience/computer-vision/lab-agri-setallite-image-segmentation/",
+  "permalink": "/docs/datascience/computer-vision/lab-agri-setallite-image-segmentation/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Computer Vision",
+    "permalink": "/docs/datascience/computer-vision/"
+  },
+  "next": {
+    "title": "Image Analytics with Tensorflow",
+    "permalink": "/docs/datascience/computer-vision/lab-image-analytics-tensorflow/"
+  }
+}

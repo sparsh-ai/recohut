@@ -1,0 +1,26 @@
+{
+  "unversionedId": "data-modeling/lab-postgres-busrapid-transit/README",
+  "id": "data-modeling/lab-postgres-busrapid-transit/README",
+  "title": "Postgres Bus Rapid Transit",
+  "description": "Creating a Bus Rapid Transit (BRT) Database",
+  "source": "@site/docs/04-data-modeling/lab-postgres-busrapid-transit/README.md",
+  "sourceDirName": "04-data-modeling/lab-postgres-busrapid-transit",
+  "slug": "/data-modeling/lab-postgres-busrapid-transit/",
+  "permalink": "/docs/data-modeling/lab-postgres-busrapid-transit/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data Modeling",
+    "permalink": "/docs/data-modeling/lab-mysql-retail-store-datamodel/"
+  },
+  "next": {
+    "title": "lab-postgres-demographics-datamodel",
+    "permalink": "/docs/data-modeling/lab-postgres-demographics-datamodel"
+  }
+}

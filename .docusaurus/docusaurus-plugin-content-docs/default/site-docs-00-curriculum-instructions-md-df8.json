@@ -1,0 +1,26 @@
+{
+  "unversionedId": "curriculum/instructions",
+  "id": "curriculum/instructions",
+  "title": "Bootcamp Instructions",
+  "description": "Training methods",
+  "source": "@site/docs/00-curriculum/instructions.md",
+  "sourceDirName": "00-curriculum",
+  "slug": "/curriculum/instructions",
+  "permalink": "/docs/curriculum/instructions",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Curriculum - Data Engineering Training",
+    "permalink": "/docs/curriculum/de-prod"
+  },
+  "next": {
+    "title": "Foundations",
+    "permalink": "/docs/foundations/"
+  }
+}

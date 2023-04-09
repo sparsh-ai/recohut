@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/computer-vision/README",
+  "id": "datascience/computer-vision/README",
+  "title": "Computer Vision",
+  "description": "Categories",
+  "source": "@site/docs/10-datascience/computer-vision/README.md",
+  "sourceDirName": "10-datascience/computer-vision",
+  "slug": "/datascience/computer-vision/",
+  "permalink": "/docs/datascience/computer-vision/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Video Sharing Analysis",
+    "permalink": "/docs/datascience/challenges/video-sharing-analysis"
+  },
+  "next": {
+    "title": "Agricultural Satellite Image Segmentation",
+    "permalink": "/docs/datascience/computer-vision/lab-agri-setallite-image-segmentation/"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/lab-bigquery-ml/README",
+  "id": "storage/lab-bigquery-ml/README",
+  "title": "GCP BigQuery ML",
+  "description": "Predict Visitor Purchases with a Classification Model in BigQuery ML",
+  "source": "@site/docs/02-storage/lab-bigquery-ml/README.md",
+  "sourceDirName": "02-storage/lab-bigquery-ml",
+  "slug": "/storage/lab-bigquery-ml/",
+  "permalink": "/docs/storage/lab-bigquery-ml/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "BigQuery Data Warehousing",
+    "permalink": "/docs/storage/lab-bigquery-data-warehousing/"
+  },
+  "next": {
+    "title": "GCP BigQuery NYC Taxi",
+    "permalink": "/docs/storage/lab-bigquery-nyctaxi/"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/cloud/cloud-comparison",
+  "id": "foundations/cloud/cloud-comparison",
+  "title": "Comparison of Cloud Services",
+  "description": "Service",
+  "source": "@site/docs/01-foundations/cloud/cloud-comparison.md",
+  "sourceDirName": "01-foundations/cloud",
+  "slug": "/foundations/cloud/cloud-comparison",
+  "permalink": "/docs/foundations/cloud/cloud-comparison",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Cloud Computing Basics",
+    "permalink": "/docs/foundations/cloud/cloud-basics"
+  },
+  "next": {
+    "title": "DMS",
+    "permalink": "/docs/foundations/cloud/dms"
+  }
+}

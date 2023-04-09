@@ -1,0 +1,26 @@
+{
+  "unversionedId": "data-modeling/cap-theorem",
+  "id": "data-modeling/cap-theorem",
+  "title": "CAP Theorem",
+  "description": "https://en.wikipedia.org/wiki/CAP_theorem",
+  "source": "@site/docs/04-data-modeling/cap-theorem.md",
+  "sourceDirName": "04-data-modeling",
+  "slug": "/data-modeling/cap-theorem",
+  "permalink": "/docs/data-modeling/cap-theorem",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "3NF/ Relational Modeling",
+    "permalink": "/docs/data-modeling/3nf-data-modeling"
+  },
+  "next": {
+    "title": "Stages of Data Modeling",
+    "permalink": "/docs/data-modeling/data-modeling-stages"
+  }
+}

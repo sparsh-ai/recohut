@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/parquet",
+  "id": "storage/parquet",
+  "title": "Parquet",
+  "description": "Parquet stores data in a columnar format and is designed to realize excellent read and write performance in a data lake environment. Parquet solves a few problems that frequently bedevil data engineers. Parquet-encoded data builds in schema information and natively supports nested data, unlike CSV. Furthermore, Parquet is portable; while databases such as BigQuery and Snowflake serialize data in proprietary columnar formats and offer excellent query performance on data stored internally, a huge performance hit occurs when interoperating with external tools. Data must be deserialized, reserialized into an exchangeable format, and exported to use data lake tools such as Spark and Presto. Parquet files in a data lake may be a superior option to proprietary cloud data warehouses in a polyglot tool environment.",
+  "source": "@site/docs/02-storage/parquet.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/parquet",
+  "permalink": "/docs/storage/parquet",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Parquet vs CSV",
+    "permalink": "/docs/storage/parquet-vs-csv"
+  },
+  "next": {
+    "title": "Postgres vs MySQL",
+    "permalink": "/docs/storage/postgres-vs-mysql"
+  }
+}

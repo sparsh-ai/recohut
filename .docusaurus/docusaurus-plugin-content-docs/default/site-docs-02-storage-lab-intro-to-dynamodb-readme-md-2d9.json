@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/lab-intro-to-dynamodb/README",
+  "id": "storage/lab-intro-to-dynamodb/README",
+  "title": "Introduction to DynamoDB",
+  "description": "Description",
+  "source": "@site/docs/02-storage/lab-intro-to-dynamodb/README.md",
+  "sourceDirName": "02-storage/lab-intro-to-dynamodb",
+  "slug": "/storage/lab-intro-to-dynamodb/",
+  "permalink": "/docs/storage/lab-intro-to-dynamodb/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Build a serverless transactional data lake with Apache Iceberg, Amazon EMR Serverless, and Amazon Athena",
+    "permalink": "/docs/storage/lab-glue-emr-iceberg-serverless-lakehouse/"
+  },
+  "next": {
+    "title": "Lab - MongoDB Basics",
+    "permalink": "/docs/storage/lab-mongodb-basics/"
+  }
+}

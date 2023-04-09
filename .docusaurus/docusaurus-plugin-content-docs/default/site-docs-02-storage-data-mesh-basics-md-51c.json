@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/data-mesh-basics",
+  "id": "storage/data-mesh-basics",
+  "title": "Data Mesh Basics",
+  "description": "The data mesh is to data as agile is to software engineering, or as microservices are to architecture patterns.",
+  "source": "@site/docs/02-storage/data-mesh-basics.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/data-mesh-basics",
+  "permalink": "/docs/storage/data-mesh-basics",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data Lakehouses",
+    "permalink": "/docs/storage/data-lakehouses"
+  },
+  "next": {
+    "title": "Data Warehouses",
+    "permalink": "/docs/storage/data-warehouses"
+  }
+}

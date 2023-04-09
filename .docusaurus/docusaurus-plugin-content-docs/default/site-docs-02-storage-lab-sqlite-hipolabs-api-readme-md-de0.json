@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/lab-sqlite-hipolabs-api/README",
+  "id": "storage/lab-sqlite-hipolabs-api/README",
+  "title": "Edu Hipolabs API",
+  "description": "Objective",
+  "source": "@site/docs/02-storage/lab-sqlite-hipolabs-api/README.md",
+  "sourceDirName": "02-storage/lab-sqlite-hipolabs-api",
+  "slug": "/storage/lab-sqlite-hipolabs-api/",
+  "permalink": "/docs/storage/lab-sqlite-hipolabs-api/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SQLite Basics",
+    "permalink": "/docs/storage/lab-sqlite-basics/"
+  },
+  "next": {
+    "title": "Getting Started with Snowflake - Zero to Snowflake",
+    "permalink": "/docs/storage/lab-zero-to-snowflake"
+  }
+}

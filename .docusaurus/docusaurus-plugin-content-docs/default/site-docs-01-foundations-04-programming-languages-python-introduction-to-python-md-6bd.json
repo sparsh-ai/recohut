@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/programming-languages/python/introduction-to-python",
+  "id": "foundations/programming-languages/python/introduction-to-python",
+  "title": "Introduction to Python",
+  "description": "A strong understanding of Python syntax, data types, operators, and control structures is essential. Data engineering using Python only gets better, and here is a list of points if you are beginning to think otherwise.",
+  "source": "@site/docs/01-foundations/04-programming-languages/python/introduction-to-python.md",
+  "sourceDirName": "01-foundations/04-programming-languages/python",
+  "slug": "/foundations/programming-languages/python/introduction-to-python",
+  "permalink": "/docs/foundations/programming-languages/python/introduction-to-python",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Python",
+    "permalink": "/docs/foundations/programming-languages/python/"
+  },
+  "next": {
+    "title": "Explore Further",
+    "permalink": "/docs/foundations/programming-languages/python/links"
+  }
+}

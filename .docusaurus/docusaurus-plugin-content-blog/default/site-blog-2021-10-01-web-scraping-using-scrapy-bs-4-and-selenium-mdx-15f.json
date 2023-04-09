@@ -1,0 +1,41 @@
+{
+  "permalink": "/blog/2021/10/01/web-scraping-using-scrapy-bs4-and-selenium",
+  "source": "@site/blog/2021-10-01-web-scraping-using-scrapy-bs4-and-selenium.mdx",
+  "title": "Web Scraping using Scrapy, BS4, and Selenium",
+  "description": "1. Handling single request & response by extracting a city’s weather from a weather site using Scrapy",
+  "date": "2021-10-01T00:00:00.000Z",
+  "formattedDate": "October 1, 2021",
+  "tags": [
+    {
+      "label": "scraping",
+      "permalink": "/blog/tags/scraping"
+    }
+  ],
+  "readingTime": 3.78,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Sparsh Agarwal",
+      "title": "Data Scientist & Engineer",
+      "url": "https://github.com/sparsh-ai",
+      "email": "sprsag@gmail.com",
+      "imageURL": "https://github.com/sparsh-ai.png",
+      "key": "sparsh"
+    }
+  ],
+  "frontMatter": {
+    "title": "Web Scraping using Scrapy, BS4, and Selenium",
+    "authors": "sparsh",
+    "tags": [
+      "scraping"
+    ]
+  },
+  "prevItem": {
+    "title": "Vehicle Suggestions",
+    "permalink": "/blog/2021/10/01/vehicle-suggestions"
+  },
+  "nextItem": {
+    "title": "Web Scraping with Gazpacho",
+    "permalink": "/blog/2021/10/01/web-scraping-with-gazpacho"
+  }
+}

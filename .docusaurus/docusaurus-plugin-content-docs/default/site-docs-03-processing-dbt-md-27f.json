@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/dbt",
+  "id": "processing/dbt",
+  "title": "dbt",
+  "description": "Transform your data in warehouse",
+  "source": "@site/docs/03-processing/dbt.md",
+  "sourceDirName": "03-processing",
+  "slug": "/processing/dbt",
+  "permalink": "/docs/processing/dbt",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Setup Databricks",
+    "permalink": "/docs/processing/databricks/setup"
+  },
+  "next": {
+    "title": "Dataproc",
+    "permalink": "/docs/processing/gcp-dataproc"
+  }
+}

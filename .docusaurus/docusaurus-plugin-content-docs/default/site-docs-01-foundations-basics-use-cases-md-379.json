@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/basics/use-cases",
+  "id": "foundations/basics/use-cases",
+  "title": "Use Cases",
+  "description": "Some of the many uses of machine learning across industries:",
+  "source": "@site/docs/01-foundations/basics/use-cases.md",
+  "sourceDirName": "01-foundations/basics",
+  "slug": "/foundations/basics/use-cases",
+  "permalink": "/docs/foundations/basics/use-cases",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Real-Time Analytics",
+    "permalink": "/docs/foundations/basics/stream-data-processing"
+  },
+  "next": {
+    "title": "Vector Search",
+    "permalink": "/docs/foundations/basics/vector-search"
+  }
+}

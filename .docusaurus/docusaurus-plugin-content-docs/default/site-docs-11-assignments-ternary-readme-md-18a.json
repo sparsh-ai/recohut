@@ -1,0 +1,26 @@
+{
+  "unversionedId": "assignments/ternary/README",
+  "id": "assignments/ternary/README",
+  "title": "Ternary",
+  "description": "Prompt",
+  "source": "@site/docs/11-assignments/ternary/README.md",
+  "sourceDirName": "11-assignments/ternary",
+  "slug": "/assignments/ternary/",
+  "permalink": "/docs/assignments/ternary/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Spotify Extract Load Airflow",
+    "permalink": "/docs/assignments/spotify-extract-load/"
+  },
+  "next": {
+    "title": "Assignment: Extract Data from Twitter API and Load into AWS S3",
+    "permalink": "/docs/assignments/twitter-s3/"
+  }
+}

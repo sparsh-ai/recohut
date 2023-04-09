@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/project-athena-federated/README",
+  "id": "storage/project-athena-federated/README",
+  "title": "Building Federated Query System using Amazon Athena",
+  "description": "Activity 1: Athena Lab Environment Setup",
+  "source": "@site/docs/02-storage/project-athena-federated/README.md",
+  "sourceDirName": "02-storage/project-athena-federated",
+  "slug": "/storage/project-athena-federated/",
+  "permalink": "/docs/storage/project-athena-federated/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Postgres",
+    "permalink": "/docs/storage/postgres"
+  },
+  "next": {
+    "title": "Amazon Redshift",
+    "permalink": "/docs/storage/redshift"
+  }
+}

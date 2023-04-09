@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/recsys/lab-similar-shirt-image-recommender/README",
+  "id": "datascience/recsys/lab-similar-shirt-image-recommender/README",
+  "title": "Similar Shirt Image Recommender",
+  "description": "Recommender system using Deep Learning for an online e-commerce store",
+  "source": "@site/docs/10-datascience/recsys/lab-similar-shirt-image-recommender/README.md",
+  "sourceDirName": "10-datascience/recsys/lab-similar-shirt-image-recommender",
+  "slug": "/datascience/recsys/lab-similar-shirt-image-recommender/",
+  "permalink": "/docs/datascience/recsys/lab-similar-shirt-image-recommender/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Retail Product Recommendations using word2vec",
+    "permalink": "/docs/datascience/recsys/lab-retail-product-recommend-word2vec/"
+  },
+  "next": {
+    "title": "Most Prominent Architectures",
+    "permalink": "/docs/datascience/recsys/most-prominent-architectures"
+  }
+}

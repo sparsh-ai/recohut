@@ -1,0 +1,26 @@
+{
+  "unversionedId": "curriculum/de-dev",
+  "id": "curriculum/de-dev",
+  "title": "Curriculum - Data Engineering Training",
+  "description": "Level 100",
+  "source": "@site/docs/00-curriculum/de-dev.md",
+  "sourceDirName": "00-curriculum",
+  "slug": "/curriculum/de-dev",
+  "permalink": "/docs/curriculum/de-dev",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Curriculum - Data Engineering Training (Azure)",
+    "permalink": "/docs/curriculum/de-azure"
+  },
+  "next": {
+    "title": "Important details",
+    "permalink": "/docs/curriculum/de-direct-plan"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "orchestration/prefect/lab-prefect-streaming/README",
+  "id": "orchestration/prefect/lab-prefect-streaming/README",
+  "title": "prefect-streaming",
+  "description": "Example project demonstrating deployment patterns for real-time streaming workflows",
+  "source": "@site/docs/06-orchestration/prefect/lab-prefect-streaming/README.md",
+  "sourceDirName": "06-orchestration/prefect/lab-prefect-streaming",
+  "slug": "/orchestration/prefect/lab-prefect-streaming/",
+  "permalink": "/docs/orchestration/prefect/lab-prefect-streaming/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Prefect",
+    "permalink": "/docs/orchestration/prefect/"
+  },
+  "next": {
+    "title": "Step Functions",
+    "permalink": "/docs/orchestration/stepfunctions/"
+  }
+}

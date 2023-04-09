@@ -1,0 +1,50 @@
+---
+title: Document Recommendation
+authors: sparsh
+tags: [nlp, similarity]
+---
+
+![/img/content-blog-raw-blog-document-recommendation-untitled.png](/img/content-blog-raw-blog-document-recommendation-untitled.png)
+
+## **Introduction**
+
+### Business objective
+
+For the given user query, recommend relevant documents (BRM_ifam)
+
+### Technical objective
+
+1-to-N mapping of given input text
+
+## **Proposed Framework 1 — Hybrid Recommender System**
+
+- Text → Vector (Universal Sentence Embedding with TF Hub)
+- Vector → Content-based Filtering Recommendation
+- Index → Interaction Matrix
+- Interaction Matrix → Collaborative Filtering Recommendation
+- Collaborative + Content-based → Hybrid Recommendation
+- Evaluation: Area-under-curve
+
+## **Proposed Framework 2 — Content-based Recommender System**
+
+1. Find A most similar user → Cosine similarity
+2. For each user in A, find TopK Most Similar Items → Map Argsort
+3. For each item Find TopL Most Similar Items → Cosine similarity
+4. Display
+5. Implement an evaluation metric
+6. Evaluate
+
+## **Results and Discussion**
+
+- build.py → this script will take the training data as input and save all the required files in the same working directory
+- recommend.py → this script will take the user query as input and predict top-K BRM recommendations
+
+Variables (during recommendation, you will be asked 2–3 choices, the meaning of those choices are as following)
+
+- top-K — how many top items you want to get in recommendation
+- secondary items: this will determine how many similar items you would like to add in consideration, for each primary matching item
+- sorted by frequency: since multiple input queries might point to same output, therefore this option allows to take that frequence count of outputs in consideration and will move the more frequent items at the top.
+
+### **Code**
+
+[https://gist.github.com/sparsh-ai/4e5f06ba3c55192b33a276ee67dbd42c#file-text-recommendations-ipynb](https://gist.github.com/sparsh-ai/4e5f06ba3c55192b33a276ee67dbd42c#file-text-recommendations-ipynb)

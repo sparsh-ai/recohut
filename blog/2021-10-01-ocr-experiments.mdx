@@ -1,0 +1,31 @@
+---
+title: OCR experiments
+authors: sparsh
+tags: [ocr, vision]
+---
+
+![/img/content-blog-raw-blog-ocr-experiments-untitled.png](/img/content-blog-raw-blog-ocr-experiments-untitled.png)
+
+## 1. Tesseract
+
+Tesseract is an open-source text recognition engine that is available under the Apache 2.0 license and its development has been sponsored by Google since 2006.
+
+[Notebook on nbviewer](https://nbviewer.jupyter.org/gist/sparsh-ai/2d1f533048a3655de625298c3dd32d47)
+
+## 2. EasyOCR
+
+Ready-to-use OCR with 70+ languages supported including Chinese, Japanese, Korean and Thai. EasyOCR is built with Python and Pytorch deep learning library, having a GPU could speed up the whole process of detection. The detection part is using the CRAFT algorithm and the Recognition model is CRNN. It is composed of 3 main components, feature extraction (we are currently using Resnet), sequence labelling (LSTM) and decoding (CTC). EasyOCR doesn’t have much software dependencies, it can directly be used with its API.
+
+[Notebook on nbviewer](https://nbviewer.jupyter.org/gist/sparsh-ai/12359606ee4127513c66fc3b4ff18e5b)
+
+## 3. KerasOCR
+
+This is a slightly polished and packaged version of the Keras CRNN implementation and the published CRAFT text detection model. It provides a high-level API for training a text detection and OCR pipeline and out-of-the-box OCR models, and an end-to-end training pipeline to build new OCR models.
+
+[Notebook on nbviewer](https://nbviewer.jupyter.org/gist/sparsh-ai/2fcb764619baf5f56cf7122b1b2c527c)
+
+## 4. ArabicOCR
+
+It is an OCR system for the Arabic language that converts images of typed text to machine-encoded text. It currently supports only letters (29 letters).  ArabicOCR aims to solve a simpler problem of OCR with images that contain only Arabic characters (check the dataset link below to see a sample of the images).
+
+[Notebook on nbviewer](https://nbviewer.jupyter.org/gist/sparsh-ai/26df76b78f8cd2018a068b284b7cfe56)

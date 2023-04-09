@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/language/sql/window-functions",
+  "id": "foundations/language/sql/window-functions",
+  "title": "Window Functions",
+  "description": "There is no official categorisation of Window Functions but based on the usage, we can briefly categorise them in 3 ways:",
+  "source": "@site/docs/01-foundations/language/sql/window-functions.md",
+  "sourceDirName": "01-foundations/language/sql",
+  "slug": "/foundations/language/sql/window-functions",
+  "permalink": "/docs/foundations/language/sql/window-functions",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SQL WHERE",
+    "permalink": "/docs/foundations/language/sql/where"
+  },
+  "next": {
+    "title": "Apache CouchDB",
+    "permalink": "/docs/storage/apache-couchdb"
+  }
+}

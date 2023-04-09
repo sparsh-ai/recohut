@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/databricks/project-databricks-de/README",
+  "id": "processing/databricks/project-databricks-de/README",
+  "title": "Data Engineering with Databricks",
+  "description": "In this project, we will learn basic to advanced concepts of databricks:",
+  "source": "@site/docs/03-processing/databricks/project-databricks-de/README.md",
+  "sourceDirName": "03-processing/databricks/project-databricks-de",
+  "slug": "/processing/databricks/project-databricks-de/",
+  "permalink": "/docs/processing/databricks/project-databricks-de/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "BedBricks",
+    "permalink": "/docs/processing/databricks/project-bedbricks/"
+  },
+  "next": {
+    "title": "Data Pipeline with Databricks PySpark and Superset",
+    "permalink": "/docs/processing/databricks/project-databricks-superset/"
+  }
+}

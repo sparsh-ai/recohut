@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/databricks/project-bedbricks/README",
+  "id": "processing/databricks/project-bedbricks/README",
+  "title": "BedBricks",
+  "description": "Databricks PySpark Ecommerce Data Processing Case Study",
+  "source": "@site/docs/03-processing/databricks/project-bedbricks/README.md",
+  "sourceDirName": "03-processing/databricks/project-bedbricks",
+  "slug": "/processing/databricks/project-bedbricks/",
+  "permalink": "/docs/processing/databricks/project-bedbricks/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "AdvancedBricks",
+    "permalink": "/docs/processing/databricks/project-advancedbricks/"
+  },
+  "next": {
+    "title": "Data Engineering with Databricks",
+    "permalink": "/docs/processing/databricks/project-databricks-de/"
+  }
+}

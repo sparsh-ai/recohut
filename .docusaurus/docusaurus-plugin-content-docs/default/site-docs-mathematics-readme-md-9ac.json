@@ -1,0 +1,26 @@
+{
+  "unversionedId": "mathematics/README",
+  "id": "mathematics/README",
+  "title": "Mathematics",
+  "description": "For data science, 4 topics are important:",
+  "source": "@site/docs/mathematics/README.md",
+  "sourceDirName": "mathematics",
+  "slug": "/mathematics/",
+  "permalink": "/docs/mathematics/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Resources",
+    "permalink": "/docs/b3-misc/resources"
+  },
+  "next": {
+    "title": "Probability",
+    "permalink": "/docs/mathematics/probability/"
+  }
+}

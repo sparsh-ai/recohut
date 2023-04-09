@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/kinesis-flink-beam/README",
+  "id": "capstones/kinesis-flink-beam/README",
+  "title": "Log Analytics and Processing in Real-Time",
+  "description": "Lab 1: Apache Flink on Amazon Kinesis Data Analytics",
+  "source": "@site/docs/12-capstones/kinesis-flink-beam/README.md",
+  "sourceDirName": "12-capstones/kinesis-flink-beam",
+  "slug": "/capstones/kinesis-flink-beam/",
+  "permalink": "/docs/capstones/kinesis-flink-beam/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Datalake Schema Correction",
+    "permalink": "/docs/capstones/hmc/"
+  },
+  "next": {
+    "title": "Streaming ETL pipeline with Apache Flink and Amazon Kinesis Data Analytics",
+    "permalink": "/docs/capstones/kinesis-flink-etl/"
+  }
+}

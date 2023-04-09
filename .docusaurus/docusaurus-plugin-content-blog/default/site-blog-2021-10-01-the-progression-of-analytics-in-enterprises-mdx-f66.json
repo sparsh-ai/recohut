@@ -1,0 +1,41 @@
+{
+  "permalink": "/blog/2021/10/01/the-progression-of-analytics-in-enterprises",
+  "source": "@site/blog/2021-10-01-the-progression-of-analytics-in-enterprises.mdx",
+  "title": "The progression of analytics in enterprises",
+  "description": "An organization’s analytics strategy is how its people, processes, tools, and data work together to collect, store, and analyze data. Processes refers to how analytics are produced, consumed, and maintained. A more modern approach to analytics is intended to support greater business agility at scale. This requires faster data preparation from a wider variety of sources, rapid prototyping and analytics model building, and cross-team collaboration processes. Tools, or technologies, are the raw programs and applications used to prepare for and perform analyses, such as the provisioning, flow, and automation of tasks and resources. As an analytics strategy matures, the technologies used to implement it tend to move from monolithic structures to composable microservices. The last element is data. A modern analytics architecture supports a growing volume and variety of data sources, which may include data from data warehouses and data lakes—streaming data, relational databases, graph databases, unstructured or semi-structured data, text data, and images.",
+  "date": "2021-10-01T00:00:00.000Z",
+  "formattedDate": "October 1, 2021",
+  "tags": [
+    {
+      "label": "insight",
+      "permalink": "/blog/tags/insight"
+    }
+  ],
+  "readingTime": 12.09,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Sparsh Agarwal",
+      "title": "Data Scientist & Engineer",
+      "url": "https://github.com/sparsh-ai",
+      "email": "sprsag@gmail.com",
+      "imageURL": "https://github.com/sparsh-ai.png",
+      "key": "sparsh"
+    }
+  ],
+  "frontMatter": {
+    "title": "The progression of analytics in enterprises",
+    "authors": "sparsh",
+    "tags": [
+      "insight"
+    ]
+  },
+  "prevItem": {
+    "title": "Short-video Background Music Recommender",
+    "permalink": "/blog/2021/10/01/short-video-background-music-recommender"
+  },
+  "nextItem": {
+    "title": "Tools for building recommender systems",
+    "permalink": "/blog/2021/10/01/tools-for-building-recommender-systems"
+  }
+}

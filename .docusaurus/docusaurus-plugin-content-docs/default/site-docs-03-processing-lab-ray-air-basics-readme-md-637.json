@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/lab-ray-air-basics/README",
+  "id": "processing/lab-ray-air-basics/README",
+  "title": "Lab: Ray AIR Basics",
+  "description": "In this lab, we are learning all 4 high-level APIs of Ray AIR with some examples.",
+  "source": "@site/docs/03-processing/lab-ray-air-basics/README.md",
+  "sourceDirName": "03-processing/lab-ray-air-basics",
+  "slug": "/processing/lab-ray-air-basics/",
+  "permalink": "/docs/processing/lab-ray-air-basics/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Lambda CSV to Parquet",
+    "permalink": "/docs/processing/lab-lambda-csv-parquet/"
+  },
+  "next": {
+    "title": "Lab: Ray Core Basics",
+    "permalink": "/docs/processing/lab-ray-core-basics/"
+  }
+}

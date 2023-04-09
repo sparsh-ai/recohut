@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/cloud-essentials/azure-basics",
+  "id": "foundations/cloud-essentials/azure-basics",
+  "title": "Azure Basics",
+  "description": "Learning Path",
+  "source": "@site/docs/01-foundations/03-cloud-essentials/azure-basics.md",
+  "sourceDirName": "01-foundations/03-cloud-essentials",
+  "slug": "/foundations/cloud-essentials/azure-basics",
+  "permalink": "/docs/foundations/cloud-essentials/azure-basics",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "AWS Container Services",
+    "permalink": "/docs/foundations/cloud-essentials/aws-containers"
+  },
+  "next": {
+    "title": "Azure Batch Processing",
+    "permalink": "/docs/foundations/cloud-essentials/azure-batch-processing"
+  }
+}

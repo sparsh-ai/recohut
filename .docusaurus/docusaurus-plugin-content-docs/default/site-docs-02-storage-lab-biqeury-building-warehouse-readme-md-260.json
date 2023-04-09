@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/lab-biqeury-building-warehouse/README",
+  "id": "storage/lab-biqeury-building-warehouse/README",
+  "title": "Building a BigQuery Data Warehouse",
+  "description": "Introduction",
+  "source": "@site/docs/02-storage/lab-biqeury-building-warehouse/README.md",
+  "sourceDirName": "02-storage/lab-biqeury-building-warehouse",
+  "slug": "/storage/lab-biqeury-building-warehouse/",
+  "permalink": "/docs/storage/lab-biqeury-building-warehouse/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "GCP Bigquery Query Optimization",
+    "permalink": "/docs/storage/lab-bigquery-query-optimization/"
+  },
+  "next": {
+    "title": "Couchdb Movies Data Migration",
+    "permalink": "/docs/storage/lab-couchdb-movies-data-migration/"
+  }
+}

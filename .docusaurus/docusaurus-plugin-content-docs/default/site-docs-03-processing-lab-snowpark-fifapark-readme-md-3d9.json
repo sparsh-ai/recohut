@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/lab-snowpark-fifapark/README",
+  "id": "processing/lab-snowpark-fifapark/README",
+  "title": "FIFA modeling with Snowpark",
+  "description": "",
+  "source": "@site/docs/03-processing/lab-snowpark-fifapark/README.md",
+  "sourceDirName": "03-processing/lab-snowpark-fifapark",
+  "slug": "/processing/lab-snowpark-fifapark/",
+  "permalink": "/docs/processing/lab-snowpark-fifapark/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Modeling with dbt and Snowpark",
+    "permalink": "/docs/processing/lab-snowpark-dbtsnowpy/"
+  },
+  "next": {
+    "title": "Jaffle Shop Modeling with Snowpark",
+    "permalink": "/docs/processing/lab-snowpark-jafflepark/"
+  }
+}

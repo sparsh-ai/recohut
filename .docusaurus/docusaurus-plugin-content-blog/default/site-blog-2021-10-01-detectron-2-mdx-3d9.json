@@ -1,0 +1,46 @@
+{
+  "permalink": "/blog/2021/10/01/detectron-2",
+  "source": "@site/blog/2021-10-01-detectron-2.mdx",
+  "title": "Detectron 2",
+  "description": "/img/content-blog-raw-blog-detectron-2-untitled.png",
+  "date": "2021-10-01T00:00:00.000Z",
+  "formattedDate": "October 1, 2021",
+  "tags": [
+    {
+      "label": "tool",
+      "permalink": "/blog/tags/tool"
+    },
+    {
+      "label": "vision",
+      "permalink": "/blog/tags/vision"
+    }
+  ],
+  "readingTime": 6.13,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Sparsh Agarwal",
+      "title": "Data Scientist & Engineer",
+      "url": "https://github.com/sparsh-ai",
+      "email": "sprsag@gmail.com",
+      "imageURL": "https://github.com/sparsh-ai.png",
+      "key": "sparsh"
+    }
+  ],
+  "frontMatter": {
+    "title": "Detectron 2",
+    "authors": "sparsh",
+    "tags": [
+      "tool",
+      "vision"
+    ]
+  },
+  "prevItem": {
+    "title": "Clinical Decision Making",
+    "permalink": "/blog/2021/10/01/clinical-decision-making"
+  },
+  "nextItem": {
+    "title": "Distributed Training of Recommender Systems",
+    "permalink": "/blog/2021/10/01/distributed-training-of-recommender-systems"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/databricks/lab-loan-application/README",
+  "id": "processing/databricks/lab-loan-application/README",
+  "title": "Simplifying Data Engineering and Analytics with Delta",
+  "description": "Objective",
+  "source": "@site/docs/03-processing/databricks/lab-loan-application/README.md",
+  "sourceDirName": "03-processing/databricks/lab-loan-application",
+  "slug": "/processing/databricks/lab-loan-application/",
+  "permalink": "/docs/processing/databricks/lab-loan-application/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Real-time Health Tracking and Monitoring System",
+    "permalink": "/docs/processing/databricks/lab-iot-health-tracker/"
+  },
+  "next": {
+    "title": "Pyspark Itversity - Hadoop and Spark Hands-on Practical Exercises",
+    "permalink": "/docs/processing/databricks/lab-pyspark-itversity/"
+  }
+}

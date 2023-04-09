@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/data-engineering-foundations/stream-data-processing",
+  "id": "foundations/data-engineering-foundations/stream-data-processing",
+  "title": "Real-Time Analytics",
+  "description": "What is an event stream?",
+  "source": "@site/docs/01-foundations/02-data-engineering-foundations/stream-data-processing.md",
+  "sourceDirName": "01-foundations/02-data-engineering-foundations",
+  "slug": "/foundations/data-engineering-foundations/stream-data-processing",
+  "permalink": "/docs/foundations/data-engineering-foundations/stream-data-processing",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SQL vs NoSQL",
+    "permalink": "/docs/foundations/data-engineering-foundations/sql-vs-nosql"
+  },
+  "next": {
+    "title": "Use Cases",
+    "permalink": "/docs/foundations/data-engineering-foundations/use-cases"
+  }
+}

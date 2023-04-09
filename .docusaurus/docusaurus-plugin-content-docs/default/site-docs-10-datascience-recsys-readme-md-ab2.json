@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/recsys/README",
+  "id": "datascience/recsys/README",
+  "title": "Recommender Systems",
+  "description": "Models",
+  "source": "@site/docs/10-datascience/recsys/README.md",
+  "sourceDirName": "10-datascience/recsys",
+  "slug": "/datascience/recsys/",
+  "permalink": "/docs/datascience/recsys/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Text Style Transfer",
+    "permalink": "/docs/datascience/nlp/text-style-transfer"
+  },
+  "next": {
+    "title": "Amazon Personalize",
+    "permalink": "/docs/datascience/recsys/amazon-personalize"
+  }
+}

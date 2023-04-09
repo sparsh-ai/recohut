@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/algorithms/gradient-boosting",
+  "id": "datascience/algorithms/gradient-boosting",
+  "title": "Gradient Boosting",
+  "description": "Gradient Boosting describes a certain technique in modeling with a variety of different algorithms that are based upon it. The first successful algorithm that utilizes Gradient Boosting is AdaBoost (Adaptive Gradient Boosting) in 1998 formulated by Leo Breiman. In 1999, Jerome Friedman composed the generalization of boosting algorithms emerging at this time, such as AdaBoost, into a single method: Gradient Boosting Machines. Quickly, the idea of Gradient Boosting Machines became extremely popular and proved to be high performing in many real-life tabular datasets. To this day, various Gradient Boosting algorithms such as AdaBoost, XGBoost, and LightGBM are the first choice for many data scientists operating on large, difficult datasets.",
+  "source": "@site/docs/10-datascience/algorithms/gradient-boosting.md",
+  "sourceDirName": "10-datascience/algorithms",
+  "slug": "/datascience/algorithms/gradient-boosting",
+  "permalink": "/docs/datascience/algorithms/gradient-boosting",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Decision Trees",
+    "permalink": "/docs/datascience/algorithms/decision-trees"
+  },
+  "next": {
+    "title": "K-Nearest Neighbors",
+    "permalink": "/docs/datascience/algorithms/knn"
+  }
+}

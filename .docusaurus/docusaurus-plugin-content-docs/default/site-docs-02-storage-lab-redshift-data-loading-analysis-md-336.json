@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/lab-redshift-data-loading-analysis",
+  "id": "storage/lab-redshift-data-loading-analysis",
+  "title": "Data Loading and Analysis",
+  "description": "1. Load csv and json data from S3 into Redshift using COPY command",
+  "source": "@site/docs/02-storage/lab-redshift-data-loading-analysis.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/lab-redshift-data-loading-analysis",
+  "permalink": "/docs/storage/lab-redshift-data-loading-analysis",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Lab: Read Delta Tables stored in Amazon S3 with Python",
+    "permalink": "/docs/storage/lab-read-s3-delta-in-python/"
+  },
+  "next": {
+    "title": "Data Loading using Python",
+    "permalink": "/docs/storage/lab-redshift-data-loading-python"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/lab-csv-to-parquet-conversion/README",
+  "id": "processing/lab-csv-to-parquet-conversion/README",
+  "title": "CSV to Parquet Transformation with Glue Studio",
+  "description": "Task: Process raw (CSV or JSON) data from the Landing S3 bucket and save it into another S3 bucket in a Columnar format with partitioning",
+  "source": "@site/docs/03-processing/lab-csv-to-parquet-conversion/README.md",
+  "sourceDirName": "03-processing/lab-csv-to-parquet-conversion",
+  "slug": "/processing/lab-csv-to-parquet-conversion/",
+  "permalink": "/docs/processing/lab-csv-to-parquet-conversion/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Real-time CDC-enabled Extract and Load Pipeline with Kafka on Cloud",
+    "permalink": "/docs/processing/lab-confluent-kafka-faker/"
+  },
+  "next": {
+    "title": "ETL Processing on Google Cloud Using Dataflow and BigQuery",
+    "permalink": "/docs/processing/lab-dataflow-bigquery-etl"
+  }
+}

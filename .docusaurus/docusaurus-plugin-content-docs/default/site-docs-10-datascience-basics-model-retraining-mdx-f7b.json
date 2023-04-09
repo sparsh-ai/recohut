@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/basics/model-retraining",
+  "id": "datascience/basics/model-retraining",
+  "title": "Model Retraining",
+  "description": "Concept Drift",
+  "source": "@site/docs/10-datascience/basics/model-retraining.mdx",
+  "sourceDirName": "10-datascience/basics",
+  "slug": "/datascience/basics/model-retraining",
+  "permalink": "/docs/datascience/basics/model-retraining",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Meta Learning",
+    "permalink": "/docs/datascience/basics/meta-learning"
+  },
+  "next": {
+    "title": "Multi-Objective Optimization",
+    "permalink": "/docs/datascience/basics/multi-objective-optimization"
+  }
+}

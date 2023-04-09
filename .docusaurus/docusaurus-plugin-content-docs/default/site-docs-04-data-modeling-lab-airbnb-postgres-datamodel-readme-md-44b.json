@@ -1,0 +1,26 @@
+{
+  "unversionedId": "data-modeling/lab-airbnb-postgres-datamodel/README",
+  "id": "data-modeling/lab-airbnb-postgres-datamodel/README",
+  "title": "AirBnB Postgres Datamodel",
+  "description": "Objective",
+  "source": "@site/docs/04-data-modeling/lab-airbnb-postgres-datamodel/README.md",
+  "sourceDirName": "04-data-modeling/lab-airbnb-postgres-datamodel",
+  "slug": "/data-modeling/lab-airbnb-postgres-datamodel/",
+  "permalink": "/docs/data-modeling/lab-airbnb-postgres-datamodel/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Inmon versus the Kimball data model",
+    "permalink": "/docs/data-modeling/inmon-vs-kimball"
+  },
+  "next": {
+    "title": "Cars Data Modeling MySQL",
+    "permalink": "/docs/data-modeling/lab-cars-mysql-datamodel/datamodel-cars"
+  }
+}

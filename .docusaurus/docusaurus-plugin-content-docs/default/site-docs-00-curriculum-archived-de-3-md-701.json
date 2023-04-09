@@ -1,0 +1,26 @@
+{
+  "unversionedId": "curriculum/archived/de-3",
+  "id": "curriculum/archived/de-3",
+  "title": "Curriculum",
+  "description": "Foundations",
+  "source": "@site/docs/00-curriculum/archived/de-3.md",
+  "sourceDirName": "00-curriculum/archived",
+  "slug": "/curriculum/archived/de-3",
+  "permalink": "/docs/curriculum/archived/de-3",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Curriculum",
+    "permalink": "/docs/curriculum/archived/de-2"
+  },
+  "next": {
+    "title": "Data Engineering Training",
+    "permalink": "/docs/curriculum/archived/de-4"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/hmc/README",
+  "id": "capstones/hmc/README",
+  "title": "Datalake Schema Correction",
+  "description": "Objective",
+  "source": "@site/docs/12-capstones/hmc/README.md",
+  "sourceDirName": "12-capstones/hmc",
+  "slug": "/capstones/hmc/",
+  "permalink": "/docs/capstones/hmc/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Funflix",
+    "permalink": "/docs/capstones/funflix/"
+  },
+  "next": {
+    "title": "Log Analytics and Processing in Real-Time",
+    "permalink": "/docs/capstones/kinesis-flink-beam/"
+  }
+}

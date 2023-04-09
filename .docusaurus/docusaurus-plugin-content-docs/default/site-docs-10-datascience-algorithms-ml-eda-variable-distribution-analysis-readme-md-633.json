@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/algorithms/ml-eda/variable-distribution-analysis/README",
+  "id": "datascience/algorithms/ml-eda/variable-distribution-analysis/README",
+  "title": "README",
+  "description": "We looked at some common techniques for exploring data. We learned how to retrieve subsets of data when that is required for our analysis. We also used pandas methods to generate key statistics on features such as mean, interquartile range, and skew. This gave us a better sense of the central tendency, spread, and shape of the distribution of each feature. It also put us in a better position to identify outliers. Finally, we used the Matplotlib and Seaborn libraries to create histograms, boxplots, and violin plots. This yielded additional insights about the distribution of features, such as the length of the tail and divergence from the normal distribution.",
+  "source": "@site/docs/10-datascience/algorithms/ml-eda/variable-distribution-analysis/README.md",
+  "sourceDirName": "10-datascience/algorithms/ml-eda/variable-distribution-analysis",
+  "slug": "/datascience/algorithms/ml-eda/variable-distribution-analysis/",
+  "permalink": "/docs/datascience/algorithms/ml-eda/variable-distribution-analysis/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ml-eda",
+    "permalink": "/docs/datascience/algorithms/ml-eda/"
+  },
+  "next": {
+    "title": "Random Forest",
+    "permalink": "/docs/datascience/algorithms/random-forest"
+  }
+}

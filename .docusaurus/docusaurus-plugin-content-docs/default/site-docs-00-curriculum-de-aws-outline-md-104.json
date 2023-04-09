@@ -1,0 +1,26 @@
+{
+  "unversionedId": "curriculum/de-aws-outline",
+  "id": "curriculum/de-aws-outline",
+  "title": "Curriculum - Data Engineering Training (AWS)",
+  "description": "Estimated Time: 55 hours",
+  "source": "@site/docs/00-curriculum/de-aws-outline.md",
+  "sourceDirName": "00-curriculum",
+  "slug": "/curriculum/de-aws-outline",
+  "permalink": "/docs/curriculum/de-aws-outline",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data Engineering Training | WeHire2100",
+    "permalink": "/docs/curriculum/archived/de-6"
+  },
+  "next": {
+    "title": "Curriculum - Data Engineering Training (AWS)",
+    "permalink": "/docs/curriculum/de-aws"
+  }
+}

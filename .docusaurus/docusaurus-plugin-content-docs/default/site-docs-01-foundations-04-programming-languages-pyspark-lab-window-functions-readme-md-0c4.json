@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/programming-languages/pyspark/lab-window-functions/README",
+  "id": "foundations/programming-languages/pyspark/lab-window-functions/README",
+  "title": "Window Functions in Spark",
+  "description": "",
+  "source": "@site/docs/01-foundations/04-programming-languages/pyspark/lab-window-functions/README.md",
+  "sourceDirName": "01-foundations/04-programming-languages/pyspark/lab-window-functions",
+  "slug": "/foundations/programming-languages/pyspark/lab-window-functions/",
+  "permalink": "/docs/foundations/programming-languages/pyspark/lab-window-functions/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Understanding Spark Query Execution",
+    "permalink": "/docs/foundations/programming-languages/pyspark/lab-understand-spark-query-execution/"
+  },
+  "next": {
+    "title": "Lazy Processing",
+    "permalink": "/docs/foundations/programming-languages/pyspark/lazy-processing"
+  }
+}

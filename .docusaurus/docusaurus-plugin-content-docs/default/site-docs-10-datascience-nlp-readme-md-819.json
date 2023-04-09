@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/nlp/README",
+  "id": "datascience/nlp/README",
+  "title": "Natural Language Processing (NLP)",
+  "description": "Text Classification",
+  "source": "@site/docs/10-datascience/nlp/README.md",
+  "sourceDirName": "10-datascience/nlp",
+  "slug": "/datascience/nlp/",
+  "permalink": "/docs/datascience/nlp/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Metrics and Evaluation",
+    "permalink": "/docs/datascience/metrics-and-evaluation"
+  },
+  "next": {
+    "title": "Lab 162 - Word2vec",
+    "permalink": "/docs/datascience/nlp/word2vec"
+  }
+}

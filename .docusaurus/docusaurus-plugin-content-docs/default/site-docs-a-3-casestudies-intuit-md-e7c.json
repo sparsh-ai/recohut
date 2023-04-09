@@ -1,0 +1,26 @@
+{
+  "unversionedId": "a3-casestudies/intuit",
+  "id": "a3-casestudies/intuit",
+  "title": "Intuit",
+  "description": "Complete Financial Confidence",
+  "source": "@site/docs/a3-casestudies/intuit.md",
+  "sourceDirName": "a3-casestudies",
+  "slug": "/a3-casestudies/intuit",
+  "permalink": "/docs/a3-casestudies/intuit",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "HomeToGo",
+    "permalink": "/docs/a3-casestudies/hometogo"
+  },
+  "next": {
+    "title": "LinkedIn",
+    "permalink": "/docs/a3-casestudies/linkedin"
+  }
+}

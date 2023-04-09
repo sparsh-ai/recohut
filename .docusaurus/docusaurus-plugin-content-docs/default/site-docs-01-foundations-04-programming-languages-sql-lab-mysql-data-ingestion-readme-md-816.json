@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/programming-languages/sql/lab-mysql-data-ingestion/README",
+  "id": "foundations/programming-languages/sql/lab-mysql-data-ingestion/README",
+  "title": "Lab: Data Ingestion to MySQL",
+  "description": "Process Flow",
+  "source": "@site/docs/01-foundations/04-programming-languages/sql/lab-mysql-data-ingestion/README.md",
+  "sourceDirName": "01-foundations/04-programming-languages/sql/lab-mysql-data-ingestion",
+  "slug": "/foundations/programming-languages/sql/lab-mysql-data-ingestion/",
+  "permalink": "/docs/foundations/programming-languages/sql/lab-mysql-data-ingestion/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SQL Joins",
+    "permalink": "/docs/foundations/programming-languages/sql/joins"
+  },
+  "next": {
+    "title": "Postgres Sales",
+    "permalink": "/docs/foundations/programming-languages/sql/lab-postgres-sales/"
+  }
+}

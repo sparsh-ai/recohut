@@ -1,0 +1,26 @@
+{
+  "unversionedId": "data-modeling/normalization-vs-denormalization",
+  "id": "data-modeling/normalization-vs-denormalization",
+  "title": "Normalization vs Denormalization",
+  "description": "Normalization is Trying to increase data integrity by reducing the number of copies of the data. Data that needs to be added or updated will be done in as few places as possible. Denormalization is Trying to increase performance by reducing the number of joins between tables (as joins can be slow). Data integrity will take a bit of a potential hit, as there will be more copies of the data (to reduce JOINS).",
+  "source": "@site/docs/04-data-modeling/normalization-vs-denormalization.md",
+  "sourceDirName": "04-data-modeling",
+  "slug": "/data-modeling/normalization-vs-denormalization",
+  "permalink": "/docs/data-modeling/normalization-vs-denormalization",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Sparkify Music Company Data Model in Postgres",
+    "permalink": "/docs/data-modeling/lab-sparkify-data-model-postgres/"
+  },
+  "next": {
+    "title": "NoSQL Data Modeling",
+    "permalink": "/docs/data-modeling/nosql-data-modeling"
+  }
+}

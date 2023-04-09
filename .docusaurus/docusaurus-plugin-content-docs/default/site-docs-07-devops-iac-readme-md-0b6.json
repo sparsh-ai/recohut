@@ -1,0 +1,26 @@
+{
+  "unversionedId": "devops/iac/README",
+  "id": "devops/iac/README",
+  "title": "Infra as Code (IaC)",
+  "description": "Amazon Cloudformation",
+  "source": "@site/docs/07-devops/iac/README.md",
+  "sourceDirName": "07-devops/iac",
+  "slug": "/devops/iac/",
+  "permalink": "/docs/devops/iac/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Railway API",
+    "permalink": "/docs/devops/fastapi/project-railway-api/"
+  },
+  "next": {
+    "title": "Visualization",
+    "permalink": "/docs/visualization/"
+  }
+}

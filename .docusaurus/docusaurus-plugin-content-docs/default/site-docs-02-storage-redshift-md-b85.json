@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/redshift",
+  "id": "storage/redshift",
+  "title": "Amazon Redshift",
+  "description": "Amazon Redshift is a data warehousing service optimized for online analytical processing (OLAP) applications. You can start with just a few hundred gigabytes (GB) of data and scale to a petabyte (PB) or more. Designing your database for analytical processing lets you take full advantage of Amazon Redshift's columnar architecture.",
+  "source": "@site/docs/02-storage/redshift.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/redshift",
+  "permalink": "/docs/storage/redshift",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Building Federated Query System using Amazon Athena",
+    "permalink": "/docs/storage/project-athena-federated/"
+  },
+  "next": {
+    "title": "Serialization",
+    "permalink": "/docs/storage/serialization"
+  }
+}

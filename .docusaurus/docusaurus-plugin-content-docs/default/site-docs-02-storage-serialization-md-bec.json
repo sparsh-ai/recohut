@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/serialization",
+  "id": "storage/serialization",
+  "title": "Serialization",
+  "description": "Many serialization algorithms and formats are available to data engineers. While the abundance of options is a significant source of pain in data engineering, they are also a massive opportunity for performance improvements. We’ve sometimes seen job performance improve by a factor of 100 simply by switching from CSV to Parquet serialization. As data moves through a pipeline, engineers will also manage reserialization—conversion from one format to another. Sometimes data engineers have no choice but to accept data in an ancient, nasty form; they must design processes to deserialize this format and handle exceptions, and then clean up and convert data for consistent, fast downstream processing and consumption.",
+  "source": "@site/docs/02-storage/serialization.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/serialization",
+  "permalink": "/docs/storage/serialization",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Amazon Redshift",
+    "permalink": "/docs/storage/redshift"
+  },
+  "next": {
+    "title": "Snowflake",
+    "permalink": "/docs/storage/snowflake"
+  }
+}

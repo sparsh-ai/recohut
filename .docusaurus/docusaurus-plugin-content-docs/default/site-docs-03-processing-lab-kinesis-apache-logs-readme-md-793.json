@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/lab-kinesis-apache-logs/README",
+  "id": "processing/lab-kinesis-apache-logs/README",
+  "title": "Real Time Apache Log Analytics with Kinesis",
+  "description": "Objective",
+  "source": "@site/docs/03-processing/lab-kinesis-apache-logs/README.md",
+  "sourceDirName": "03-processing/lab-kinesis-apache-logs",
+  "slug": "/processing/lab-kinesis-apache-logs/",
+  "permalink": "/docs/processing/lab-kinesis-apache-logs/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data Streaming Pipeline with Kafka for livetolldata",
+    "permalink": "/docs/processing/lab-kafka-toll-analysis/"
+  },
+  "next": {
+    "title": "Real-Time Clickstream Anomaly Detection with Kinesis",
+    "permalink": "/docs/processing/lab-kinesis-clickstream-anomaly/"
+  }
+}

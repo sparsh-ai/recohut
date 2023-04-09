@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/athena",
+  "id": "storage/athena",
+  "title": "Amazon Athena",
+  "description": "Athena is a Serverless Query Service from Amazon based on Presto engine",
+  "source": "@site/docs/02-storage/athena.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/athena",
+  "permalink": "/docs/storage/athena",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Apache Arrow or in-memory serialization",
+    "permalink": "/docs/storage/arrow"
+  },
+  "next": {
+    "title": "Avro vs Parquet vs ORC",
+    "permalink": "/docs/storage/avro-vs-parquet-vs-orc"
+  }
+}

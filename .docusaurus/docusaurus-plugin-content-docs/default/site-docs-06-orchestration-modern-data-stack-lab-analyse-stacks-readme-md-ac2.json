@@ -1,0 +1,26 @@
+{
+  "unversionedId": "orchestration/modern-data-stack/lab-analyse-stacks/README",
+  "id": "orchestration/modern-data-stack/lab-analyse-stacks/README",
+  "title": "Analyze and Compare the Modern Data Stacks",
+  "description": "1. Go to https://www.moderndatastack.xyz/stacks and select any 5 MDS (Modern Data Stacks).",
+  "source": "@site/docs/06-orchestration/modern-data-stack/lab-analyse-stacks/README.md",
+  "sourceDirName": "06-orchestration/modern-data-stack/lab-analyse-stacks",
+  "slug": "/orchestration/modern-data-stack/lab-analyse-stacks/",
+  "permalink": "/docs/orchestration/modern-data-stack/lab-analyse-stacks/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Modern Data Stack (MDS)",
+    "permalink": "/docs/orchestration/modern-data-stack/"
+  },
+  "next": {
+    "title": "Sequential Recommendation with the Modern Data Stack",
+    "permalink": "/docs/orchestration/modern-data-stack/lab-metaflow-snowflake/"
+  }
+}

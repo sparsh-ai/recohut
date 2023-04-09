@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/language/sql/where",
+  "id": "foundations/language/sql/where",
+  "title": "SQL WHERE",
+  "description": "Once you know how to view some data using SELECT and FROM, the next step is filtering the data using the WHERE clause.",
+  "source": "@site/docs/01-foundations/language/sql/where.md",
+  "sourceDirName": "01-foundations/language/sql",
+  "slug": "/foundations/language/sql/where",
+  "permalink": "/docs/foundations/language/sql/where",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Views",
+    "permalink": "/docs/foundations/language/sql/views"
+  },
+  "next": {
+    "title": "Window Functions",
+    "permalink": "/docs/foundations/language/sql/window-functions"
+  }
+}

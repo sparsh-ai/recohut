@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/algorithms/logistic-regression",
+  "id": "datascience/algorithms/logistic-regression",
+  "title": "Logistic Regression",
+  "description": "The logistic function first appeared in Pierre Francois Verhulst’s publication “Correspondance mathmematique et physique” in 1838. Then later in 1845, a more detailed version of the logistic function was published by him. However, the first practical application of such a function wasn’t apparent until 1943 when Wilson and Worcester used the logistic function in bioassay. In the following years, various advances were made toward the function, but the original logistic function is used for Logistic Regression. The Logistic Regression model found its use not only in areas related to biology but also widely in social science.",
+  "source": "@site/docs/10-datascience/algorithms/logistic-regression.md",
+  "sourceDirName": "10-datascience/algorithms",
+  "slug": "/datascience/algorithms/logistic-regression",
+  "permalink": "/docs/datascience/algorithms/logistic-regression",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Linear Regression",
+    "permalink": "/docs/datascience/algorithms/linear-regression"
+  },
+  "next": {
+    "title": "ml-eda",
+    "permalink": "/docs/datascience/algorithms/ml-eda/"
+  }
+}

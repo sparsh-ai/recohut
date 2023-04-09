@@ -1,0 +1,26 @@
+{
+  "unversionedId": "devops/fastapi/project-railway-api/README",
+  "id": "devops/fastapi/project-railway-api/README",
+  "title": "Railway API",
+  "description": "Data Model",
+  "source": "@site/docs/07-devops/fastapi/project-railway-api/README.md",
+  "sourceDirName": "07-devops/fastapi/project-railway-api",
+  "slug": "/devops/fastapi/project-railway-api/",
+  "permalink": "/docs/devops/fastapi/project-railway-api/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "README",
+    "permalink": "/docs/devops/fastapi/lab-fastapi-applications/"
+  },
+  "next": {
+    "title": "Infra as Code (IaC)",
+    "permalink": "/docs/devops/iac/"
+  }
+}

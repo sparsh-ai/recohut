@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/basics/scalarization",
+  "id": "datascience/basics/scalarization",
+  "title": "Scalarization",
+  "description": "| Method | Idea | Scalarization | Characteristic |",
+  "source": "@site/docs/10-datascience/basics/scalarization.mdx",
+  "sourceDirName": "10-datascience/basics",
+  "slug": "/datascience/basics/scalarization",
+  "permalink": "/docs/datascience/basics/scalarization",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "River",
+    "permalink": "/docs/datascience/basics/river"
+  },
+  "next": {
+    "title": "Bayesian Optimization",
+    "permalink": "/docs/datascience/bayesian-optimization"
+  }
+}

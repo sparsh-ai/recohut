@@ -1,0 +1,22 @@
+[
+  {
+    "label": "nlp",
+    "permalink": "/docs/tags/nlp",
+    "count": 1
+  },
+  {
+    "label": "cassandra",
+    "permalink": "/docs/tags/cassandra",
+    "count": 1
+  },
+  {
+    "label": "cql",
+    "permalink": "/docs/tags/cql",
+    "count": 1
+  },
+  {
+    "label": "keyspaces",
+    "permalink": "/docs/tags/keyspaces",
+    "count": 1
+  }
+]

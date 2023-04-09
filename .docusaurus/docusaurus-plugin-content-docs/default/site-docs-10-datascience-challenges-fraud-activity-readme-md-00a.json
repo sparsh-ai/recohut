@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/challenges/fraud-activity/README",
+  "id": "datascience/challenges/fraud-activity/README",
+  "title": "Fraud Detection",
+  "description": "https://github.com/jkvalentine/Fraud_Detection/tree/master",
+  "source": "@site/docs/10-datascience/challenges/fraud-activity/README.md",
+  "sourceDirName": "10-datascience/challenges/fraud-activity",
+  "slug": "/datascience/challenges/fraud-activity/",
+  "permalink": "/docs/datascience/challenges/fraud-activity/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Optimization of Employee Shuttle Stops",
+    "permalink": "/docs/datascience/challenges/employee-shuttle-stops"
+  },
+  "next": {
+    "title": "README",
+    "permalink": "/docs/datascience/challenges/funnel-analysis/"
+  }
+}

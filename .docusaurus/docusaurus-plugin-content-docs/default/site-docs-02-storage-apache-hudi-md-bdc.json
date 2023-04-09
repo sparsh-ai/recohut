@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/apache-hudi",
+  "id": "storage/apache-hudi",
+  "title": "Apache Hudi",
+  "description": "Bring transactions, record-level updates/deletes and change streams to data lakes",
+  "source": "@site/docs/02-storage/apache-hudi.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/apache-hudi",
+  "permalink": "/docs/storage/apache-hudi",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Apache CouchDB",
+    "permalink": "/docs/storage/apache-couchdb"
+  },
+  "next": {
+    "title": "Apache Iceberg",
+    "permalink": "/docs/storage/apache-iceberg"
+  }
+}

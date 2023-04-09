@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/cloud/azure-batch-processing",
+  "id": "foundations/cloud/azure-batch-processing",
+  "title": "Azure Batch Processing",
+  "description": "Here is a useful table reproduced from Azure that can help you decide on the technologies to use for your batch scenarios:",
+  "source": "@site/docs/01-foundations/cloud/azure-batch-processing.md",
+  "sourceDirName": "01-foundations/cloud",
+  "slug": "/foundations/cloud/azure-batch-processing",
+  "permalink": "/docs/foundations/cloud/azure-batch-processing",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Azure Basics",
+    "permalink": "/docs/foundations/cloud/azure-basics"
+  },
+  "next": {
+    "title": "Azure Data Ingestion",
+    "permalink": "/docs/foundations/cloud/azure-data-ingestion"
+  }
+}

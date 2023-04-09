@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/lab-snowflake-snowsql/README",
+  "id": "storage/lab-snowflake-snowsql/README",
+  "title": "Snowflake SnowSQL",
+  "description": "Objective",
+  "source": "@site/docs/02-storage/lab-snowflake-snowsql/README.md",
+  "sourceDirName": "02-storage/lab-snowflake-snowsql",
+  "slug": "/storage/lab-snowflake-snowsql/",
+  "permalink": "/docs/storage/lab-snowflake-snowsql/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Snowflake Getting Started",
+    "permalink": "/docs/storage/lab-snowflake-getting-started/"
+  },
+  "next": {
+    "title": "Snowpark Churn",
+    "permalink": "/docs/storage/lab-snowpark-churn/"
+  }
+}

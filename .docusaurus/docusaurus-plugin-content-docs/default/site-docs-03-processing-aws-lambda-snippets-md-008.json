@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/aws-lambda-snippets",
+  "id": "processing/aws-lambda-snippets",
+  "title": "Snippets related to Lambda function",
+  "description": "Create a CloudFormation template for creating a Lambda function that writes to an S3 bucket",
+  "source": "@site/docs/03-processing/aws-lambda-snippets.md",
+  "sourceDirName": "03-processing",
+  "slug": "/processing/aws-lambda-snippets",
+  "permalink": "/docs/processing/aws-lambda-snippets",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Kinesis",
+    "permalink": "/docs/processing/aws-kinesis"
+  },
+  "next": {
+    "title": "AWS Lambda",
+    "permalink": "/docs/processing/aws-lambda"
+  }
+}

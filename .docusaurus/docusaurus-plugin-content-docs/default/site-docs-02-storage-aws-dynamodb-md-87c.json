@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/aws-dynamodb",
+  "id": "storage/aws-dynamodb",
+  "title": "DynamoDB",
+  "description": "Getting Started with DynamoDB",
+  "source": "@site/docs/02-storage/aws-dynamodb.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/aws-dynamodb",
+  "permalink": "/docs/storage/aws-dynamodb",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Avro",
+    "permalink": "/docs/storage/avro"
+  },
+  "next": {
+    "title": "Azure Data Lakes",
+    "permalink": "/docs/storage/azure-datalake"
+  }
+}

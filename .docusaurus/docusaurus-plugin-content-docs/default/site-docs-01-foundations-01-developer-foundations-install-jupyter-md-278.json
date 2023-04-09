@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/developer-foundations/install-jupyter",
+  "id": "foundations/developer-foundations/install-jupyter",
+  "title": "Install Jupyter Notebook",
+  "description": "There are many free options to run jupyter notebooks:",
+  "source": "@site/docs/01-foundations/01-developer-foundations/install-jupyter.md",
+  "sourceDirName": "01-foundations/01-developer-foundations",
+  "slug": "/foundations/developer-foundations/install-jupyter",
+  "permalink": "/docs/foundations/developer-foundations/install-jupyter",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Install DBeaver",
+    "permalink": "/docs/foundations/developer-foundations/install-dbeaver"
+  },
+  "next": {
+    "title": "Install VS Code",
+    "permalink": "/docs/foundations/developer-foundations/install-vscode"
+  }
+}

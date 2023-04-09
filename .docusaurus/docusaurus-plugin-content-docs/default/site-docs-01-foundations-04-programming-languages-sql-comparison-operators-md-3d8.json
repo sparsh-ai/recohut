@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/programming-languages/sql/comparison-operators",
+  "id": "foundations/programming-languages/sql/comparison-operators",
+  "title": "SQL Comparison Operators",
+  "description": "Comparison operators on numerical data",
+  "source": "@site/docs/01-foundations/04-programming-languages/sql/comparison-operators.md",
+  "sourceDirName": "01-foundations/04-programming-languages/sql",
+  "slug": "/foundations/programming-languages/sql/comparison-operators",
+  "permalink": "/docs/foundations/programming-languages/sql/comparison-operators",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Comments",
+    "permalink": "/docs/foundations/programming-languages/sql/comments"
+  },
+  "next": {
+    "title": "cte",
+    "permalink": "/docs/foundations/programming-languages/sql/cte"
+  }
+}

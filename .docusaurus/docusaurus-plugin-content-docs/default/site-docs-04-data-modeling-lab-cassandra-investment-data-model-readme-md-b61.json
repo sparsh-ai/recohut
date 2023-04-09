@@ -1,0 +1,26 @@
+{
+  "unversionedId": "data-modeling/lab-cassandra-investment-data-model/README",
+  "id": "data-modeling/lab-cassandra-investment-data-model/README",
+  "title": "Create a Data Model for Investment Accounts or Portfolios",
+  "description": "Conceptual Data Model",
+  "source": "@site/docs/04-data-modeling/lab-cassandra-investment-data-model/README.md",
+  "sourceDirName": "04-data-modeling/lab-cassandra-investment-data-model",
+  "slug": "/data-modeling/lab-cassandra-investment-data-model/",
+  "permalink": "/docs/data-modeling/lab-cassandra-investment-data-model/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Hotel Reservations Data Modeling with Cassandra",
+    "permalink": "/docs/data-modeling/lab-cassandra-hotel-reservations/"
+  },
+  "next": {
+    "title": "Create a Data Model for Temperature Monitoring Sensor Networks",
+    "permalink": "/docs/data-modeling/lab-cassandra-sensor-data-model/"
+  }
+}

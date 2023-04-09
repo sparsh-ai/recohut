@@ -1,0 +1,26 @@
+{
+  "unversionedId": "curriculum/de-azure-outline",
+  "id": "curriculum/de-azure-outline",
+  "title": "Curriculum - Data Engineering Training (Azure)",
+  "description": "Estimated Time: 55 hours",
+  "source": "@site/docs/00-curriculum/de-azure-outline.md",
+  "sourceDirName": "00-curriculum",
+  "slug": "/curriculum/de-azure-outline",
+  "permalink": "/docs/curriculum/de-azure-outline",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Curriculum - Data Engineering Training (AWS)",
+    "permalink": "/docs/curriculum/de-aws"
+  },
+  "next": {
+    "title": "Curriculum - Data Engineering Training (Azure)",
+    "permalink": "/docs/curriculum/de-azure"
+  }
+}

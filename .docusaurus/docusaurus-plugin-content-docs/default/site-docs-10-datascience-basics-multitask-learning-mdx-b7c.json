@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/basics/multitask-learning",
+  "id": "datascience/basics/multitask-learning",
+  "title": "Multi-Task Learning",
+  "description": "Generally, as soon as you find yourself optimizing more than one loss function, you are effectively doing multi-task learning (in contrast to single-task learning). In those scenarios, it helps to think about what you are trying to do explicitly in terms of MTL and to draw insights from it.",
+  "source": "@site/docs/10-datascience/basics/multitask-learning.mdx",
+  "sourceDirName": "10-datascience/basics",
+  "slug": "/datascience/basics/multitask-learning",
+  "permalink": "/docs/datascience/basics/multitask-learning",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Multi-Objective Optimization",
+    "permalink": "/docs/datascience/basics/multi-objective-optimization"
+  },
+  "next": {
+    "title": "Off-Policy Learning",
+    "permalink": "/docs/datascience/basics/offline-learning"
+  }
+}

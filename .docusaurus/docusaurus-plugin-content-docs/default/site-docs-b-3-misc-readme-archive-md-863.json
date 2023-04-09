@@ -1,0 +1,26 @@
+{
+  "unversionedId": "b3-misc/readme_archive",
+  "id": "b3-misc/readme_archive",
+  "title": "Data Engineering Intensive Training Program",
+  "description": "Hit the ⭐️ button if you like the repo.",
+  "source": "@site/docs/b3-misc/readme_archive.md",
+  "sourceDirName": "b3-misc",
+  "slug": "/b3-misc/readme_archive",
+  "permalink": "/docs/b3-misc/readme_archive",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Extras",
+    "permalink": "/docs/b3-misc/extras"
+  },
+  "next": {
+    "title": "Resources",
+    "permalink": "/docs/b3-misc/resources"
+  }
+}

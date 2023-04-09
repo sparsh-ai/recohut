@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/lab-postgres-crime-reports/README",
+  "id": "storage/lab-postgres-crime-reports/README",
+  "title": "Postgres Crime Reports",
+  "description": "Building a Database for Crime Reports",
+  "source": "@site/docs/02-storage/lab-postgres-crime-reports/README.md",
+  "sourceDirName": "02-storage/lab-postgres-crime-reports",
+  "slug": "/storage/lab-postgres-crime-reports/",
+  "permalink": "/docs/storage/lab-postgres-crime-reports/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ETL with bash script",
+    "permalink": "/docs/storage/lab-postgres-bash-etl/"
+  },
+  "next": {
+    "title": "Getting Started with Postgres",
+    "permalink": "/docs/storage/lab-postgres-getting-started/"
+  }
+}

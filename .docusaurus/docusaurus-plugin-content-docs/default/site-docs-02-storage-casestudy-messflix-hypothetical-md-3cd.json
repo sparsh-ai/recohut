@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/casestudy-messflix-hypothetical",
+  "id": "storage/casestudy-messflix-hypothetical",
+  "title": "Messflix (hypothetical)",
+  "description": "Messflix, a movie- and TV-show streaming platform, just hit a wall. A data wall. The company has all the data in the world but complains about not even being able to build a proper recommendation system for its movies and shows. The competition seems to be able to get it done; in fact, the competition is famous for being the first movers in a lot of technology sectors.",
+  "source": "@site/docs/02-storage/casestudy-messflix-hypothetical.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/casestudy-messflix-hypothetical",
+  "permalink": "/docs/storage/casestudy-messflix-hypothetical",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "BigQuery",
+    "permalink": "/docs/storage/bigquery"
+  },
+  "next": {
+    "title": "Cassandra",
+    "permalink": "/docs/storage/cassandra"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/gcs",
+  "id": "storage/gcs",
+  "title": "Google Cloud Storage (GCS)",
+  "description": "Google Cloud Storage (GCS) is object storage. It's a service that is fully managed by GCP, which means we don't need to think about any underlying infrastructure for GCS. For example, we don't need to think about pre-sizing the storage, the network bandwidth, number of nodes, or any other infrastructure-related stuff.",
+  "source": "@site/docs/02-storage/gcs.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/gcs",
+  "permalink": "/docs/storage/gcs",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "GCP CloudSQL",
+    "permalink": "/docs/storage/gcp-cloudsql"
+  },
+  "next": {
+    "title": "On-premises Hadoop cluster vs Cloud data lakes",
+    "permalink": "/docs/storage/hadoop-vs-datalake"
+  }
+}

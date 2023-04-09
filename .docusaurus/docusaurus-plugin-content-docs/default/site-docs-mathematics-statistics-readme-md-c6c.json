@@ -1,0 +1,26 @@
+{
+  "unversionedId": "mathematics/statistics/README",
+  "id": "mathematics/statistics/README",
+  "title": "Statistics",
+  "description": "Concepts",
+  "source": "@site/docs/mathematics/statistics/README.md",
+  "sourceDirName": "mathematics/statistics",
+  "slug": "/mathematics/statistics/",
+  "permalink": "/docs/mathematics/statistics/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Rules of Probability",
+    "permalink": "/docs/mathematics/probability/rules-of-probability"
+  },
+  "next": {
+    "title": "Sampling",
+    "permalink": "/docs/mathematics/statistics/sampling"
+  }
+}

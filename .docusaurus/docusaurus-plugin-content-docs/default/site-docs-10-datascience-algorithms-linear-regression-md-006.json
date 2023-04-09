@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/algorithms/linear-regression",
+  "id": "datascience/algorithms/linear-regression",
+  "title": "Linear Regression",
+  "description": "The earliest form of regression analysis, Linear Regression using Least Squares, was first published by Adrien-Marie Legendre in 1805 and then again by Carl Friedrich Gauss in 1809. Both used them to predict astronomical orbitals, specifically bodies that orbit the sun. Later in 1821, Gauss published his continued work on the Least Square Theory; however, the term regression wasn’t coined until the late nineteenth century by Francis Galton. Galton discovered a linear relationship between the weights of mother and daughter seeds across generations. To Galton, regression was merely a term to describe a biological phenomenon. It was not until Udny Yule and Karl Pearson expanded this method to a more general statistics view.",
+  "source": "@site/docs/10-datascience/algorithms/linear-regression.md",
+  "sourceDirName": "10-datascience/algorithms",
+  "slug": "/datascience/algorithms/linear-regression",
+  "permalink": "/docs/datascience/algorithms/linear-regression",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "K-Nearest Neighbors",
+    "permalink": "/docs/datascience/algorithms/knn"
+  },
+  "next": {
+    "title": "Logistic Regression",
+    "permalink": "/docs/datascience/algorithms/logistic-regression"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/other/fireflow/README",
+  "id": "capstones/other/fireflow/README",
+  "title": "Build an ELT pipeline with NYC Taxi dataset",
+  "description": "Objective",
+  "source": "@site/docs/12-capstones/other/fireflow/README.md",
+  "sourceDirName": "12-capstones/other/fireflow",
+  "slug": "/capstones/other/fireflow/",
+  "permalink": "/docs/capstones/other/fireflow/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Equitize Data Migration",
+    "permalink": "/docs/capstones/other/equitize/"
+  },
+  "next": {
+    "title": "notes",
+    "permalink": "/docs/capstones/other/fireflow/airflow/notes"
+  }
+}

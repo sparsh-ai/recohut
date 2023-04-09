@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/programming-languages/sql/challenges/assignment1/README",
+  "id": "foundations/programming-languages/sql/challenges/assignment1/README",
+  "title": "Lab - SQL Assignment",
+  "description": "Activity",
+  "source": "@site/docs/01-foundations/04-programming-languages/sql/challenges/assignment1/README.md",
+  "sourceDirName": "01-foundations/04-programming-languages/sql/challenges/assignment1",
+  "slug": "/foundations/programming-languages/sql/challenges/assignment1/",
+  "permalink": "/docs/foundations/programming-languages/sql/challenges/assignment1/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SQL CASE",
+    "permalink": "/docs/foundations/programming-languages/sql/case"
+  },
+  "next": {
+    "title": "solution",
+    "permalink": "/docs/foundations/programming-languages/sql/challenges/assignment1/solution"
+  }
+}

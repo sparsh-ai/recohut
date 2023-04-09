@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/city-pollution/README",
+  "id": "capstones/city-pollution/README",
+  "title": "Air Pollution Pipeline",
+  "description": "",
+  "source": "@site/docs/12-capstones/city-pollution/README.md",
+  "sourceDirName": "12-capstones/city-pollution",
+  "slug": "/capstones/city-pollution/",
+  "permalink": "/docs/capstones/city-pollution/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Citi Bike Trip Histories",
+    "permalink": "/docs/capstones/citibike-trip-histories/"
+  },
+  "next": {
+    "title": "Airflow - City Traffic Drone",
+    "permalink": "/docs/capstones/city-traffic-drone/"
+  }
+}

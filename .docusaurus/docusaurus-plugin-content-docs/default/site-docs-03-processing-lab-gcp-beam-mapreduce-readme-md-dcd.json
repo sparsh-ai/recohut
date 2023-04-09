@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/lab-gcp-beam-mapreduce/README",
+  "id": "processing/lab-gcp-beam-mapreduce/README",
+  "title": "MapReduce in Beam using Python",
+  "description": "Objective",
+  "source": "@site/docs/03-processing/lab-gcp-beam-mapreduce/README.md",
+  "sourceDirName": "03-processing/lab-gcp-beam-mapreduce",
+  "slug": "/processing/lab-gcp-beam-mapreduce/",
+  "permalink": "/docs/processing/lab-gcp-beam-mapreduce/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "EMR Serverless",
+    "permalink": "/docs/processing/lab-emr-serverless/"
+  },
+  "next": {
+    "title": "GCP Dataflow Batch Pipeline",
+    "permalink": "/docs/processing/lab-gcp-dataflow-batch-pipeline"
+  }
+}

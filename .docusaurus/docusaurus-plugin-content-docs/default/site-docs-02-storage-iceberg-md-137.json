@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/iceberg",
+  "id": "storage/iceberg",
+  "title": "Iceberg",
+  "description": "Like Hudi, Iceberg is a table management technology. Iceberg can track all files that make up a table. It can also track files in each table snapshot over time, allowing table time travel in a data lake environment. Iceberg supports schema evolution and can readily manage tables at a petabyte scale.",
+  "source": "@site/docs/02-storage/iceberg.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/iceberg",
+  "permalink": "/docs/storage/iceberg",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Hudi",
+    "permalink": "/docs/storage/hudi"
+  },
+  "next": {
+    "title": "Interview Questions",
+    "permalink": "/docs/storage/interview-questions"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "data-modeling/quiz",
+  "id": "data-modeling/quiz",
+  "title": "Quiz",
+  "description": "1. What is Data Normalization?",
+  "source": "@site/docs/04-data-modeling/quiz.md",
+  "sourceDirName": "04-data-modeling",
+  "slug": "/data-modeling/quiz",
+  "permalink": "/docs/data-modeling/quiz",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "NoSQL Data Modeling",
+    "permalink": "/docs/data-modeling/nosql-data-modeling"
+  },
+  "next": {
+    "title": "SQL Data Modeling",
+    "permalink": "/docs/data-modeling/sql-data-modeling"
+  }
+}

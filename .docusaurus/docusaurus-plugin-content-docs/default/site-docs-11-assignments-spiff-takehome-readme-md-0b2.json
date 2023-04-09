@@ -1,0 +1,26 @@
+{
+  "unversionedId": "assignments/spiff-takehome/README",
+  "id": "assignments/spiff-takehome/README",
+  "title": "Spiff Data Engineering Candidate Coding Exercises",
+  "description": "This is the repo for the data engineering exercise that is part of the interview process for a data engineering role at Spiff.",
+  "source": "@site/docs/11-assignments/spiff-takehome/README.md",
+  "sourceDirName": "11-assignments/spiff-takehome",
+  "slug": "/assignments/spiff-takehome/",
+  "permalink": "/docs/assignments/spiff-takehome/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Batch and Stream Unified analytics for Sakila Music Company",
+    "permalink": "/docs/assignments/sakila/"
+  },
+  "next": {
+    "title": "Spotify Extract Load Airflow",
+    "permalink": "/docs/assignments/spotify-extract-load/"
+  }
+}

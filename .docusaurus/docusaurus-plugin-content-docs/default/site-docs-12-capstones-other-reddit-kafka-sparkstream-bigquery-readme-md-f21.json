@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/other/reddit-kafka-sparkstream-bigquery/README",
+  "id": "capstones/other/reddit-kafka-sparkstream-bigquery/README",
+  "title": "reddit-data-engineering of r/FedEx",
+  "description": "- Create Kafka cluster using docker-compose hosted on GCP VM",
+  "source": "@site/docs/12-capstones/other/reddit-kafka-sparkstream-bigquery/README.md",
+  "sourceDirName": "12-capstones/other/reddit-kafka-sparkstream-bigquery",
+  "slug": "/capstones/other/reddit-kafka-sparkstream-bigquery/",
+  "permalink": "/docs/capstones/other/reddit-kafka-sparkstream-bigquery/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Patents Analytics Spark",
+    "permalink": "/docs/capstones/other/patent-analytics/spark/"
+  },
+  "next": {
+    "title": "Machine Learning Streamming with Kafka, Debezium and BentoML",
+    "permalink": "/docs/capstones/other/resale-price-realtime/"
+  }
+}

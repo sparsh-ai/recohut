@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/lab-gcp-dataprep",
+  "id": "processing/lab-gcp-dataprep",
+  "title": "GCP Dataprep",
+  "description": "Creating a Data Transformation Pipeline with Cloud Dataprep",
+  "source": "@site/docs/03-processing/lab-gcp-dataprep.md",
+  "sourceDirName": "03-processing",
+  "slug": "/processing/lab-gcp-dataprep",
+  "permalink": "/docs/processing/lab-gcp-dataprep",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "GCP Dataflow Streaming Pipeline",
+    "permalink": "/docs/processing/lab-gcp-dataflow-stream-pipeline"
+  },
+  "next": {
+    "title": "Running Apache Spark jobs on Cloud Dataproc",
+    "permalink": "/docs/processing/lab-gcp-dataproc/"
+  }
+}

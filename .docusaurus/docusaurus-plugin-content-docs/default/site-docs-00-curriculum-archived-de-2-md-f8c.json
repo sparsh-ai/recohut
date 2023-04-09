@@ -1,0 +1,26 @@
+{
+  "unversionedId": "curriculum/archived/de-2",
+  "id": "curriculum/archived/de-2",
+  "title": "Curriculum",
+  "description": "1. Development Foundations - VSCode, Anaconda, Github, Bash, Jupyter",
+  "source": "@site/docs/00-curriculum/archived/de-2.md",
+  "sourceDirName": "00-curriculum/archived",
+  "slug": "/curriculum/archived/de-2",
+  "permalink": "/docs/curriculum/archived/de-2",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Curriculum",
+    "permalink": "/docs/curriculum/archived/de-1"
+  },
+  "next": {
+    "title": "Curriculum",
+    "permalink": "/docs/curriculum/archived/de-3"
+  }
+}

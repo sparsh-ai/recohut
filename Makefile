@@ -88,3 +88,77 @@ logging:
 						datefmt='%d-%b-%y %H:%M:%S')
 
 	logger = logging.getLogger('IEEE21 Logger')
+
+init:
+	pip install --upgrade pip &&\
+		pip install -r requirements.txt
+
+test:
+	pytest tests
+
+.PHONY: api
+api:
+	uvicorn app:app --port 5000 --reload
+	nohup uvicorn app:app --port 5000 --reload > logs.out 2>&1 &
+	kill -9 $(lsof -t -i:5000)
+
+.PHONY: format
+format:
+	black $$(git ls-files '*.py')
+
+dvc-init:
+	dvc init
+	dvc remote add -d storage s3://s3bucket/dvcstore
+	dvc config core.autostage true
+
+lint:
+	pylint --disable=R,C src
+
+test:
+	python -m pytest -vv tests
+	python -m pytest -vv --cov=src
+
+parallel-test:
+	python -m pytest -n auto --dist loadgroup -vv --cov=mylib tests/ 
+
+profile-test-code:
+	python -m pytest -vv --durations=1 --durations-min=1.0
+	
+glossary:
+	yarn docusaurus parse --dry-run
+	yarn docusaurus parse
+	yarn docusaurus glossary
+
+dbt-init:
+	dbt init ${PROJECT_NAME}
+dbt-debug:
+	dbt debug --profiles-dir .
+dbt-run:
+	dbt run
+	dbt run --profiles-dir .
+	dbt run --profiles-dir path/to/directory
+	export DBT_PROFILES_DIR=path/to/directory
+dbt-test:
+	dbt test -m model1 [model2]
+	dbt test --profiles-dir .
+dbt-seed:
+	dbt seed
+
+venv:
+	pipenv --python 3.9.7
+	pipenv install
+	pipenv shell
+	pipenv --venv
+	pipenv --rm
+
+.PHONY: dependencies
+pip-install:
+	python -m ensurepip --upgrade && pip install -r requirements.txt
+
+.PHONY: docker
+start:
+	docker-compose up -d
+stop:
+	docker-compose down --remove-orphans
+clean:
+	docker system prune -f

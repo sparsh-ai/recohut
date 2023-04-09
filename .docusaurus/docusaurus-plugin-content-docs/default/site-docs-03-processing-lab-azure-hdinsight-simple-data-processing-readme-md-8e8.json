@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/lab-azure-hdinsight-simple-data-processing/README",
+  "id": "processing/lab-azure-hdinsight-simple-data-processing/README",
+  "title": "Simple Data Pipeline with HDInsight",
+  "description": "Pre-requisites",
+  "source": "@site/docs/03-processing/lab-azure-hdinsight-simple-data-processing/README.md",
+  "sourceDirName": "03-processing/lab-azure-hdinsight-simple-data-processing",
+  "slug": "/processing/lab-azure-hdinsight-simple-data-processing/",
+  "permalink": "/docs/processing/lab-azure-hdinsight-simple-data-processing/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Pub/Sub",
+    "permalink": "/docs/processing/gcp-pubsub"
+  },
+  "next": {
+    "title": "Processing Data Using Azure Synapse Analytics",
+    "permalink": "/docs/processing/lab-azure-synapse-data-processing/"
+  }
+}

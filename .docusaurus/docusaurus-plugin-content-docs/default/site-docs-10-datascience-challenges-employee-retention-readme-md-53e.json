@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/challenges/employee-retention/README",
+  "id": "datascience/challenges/employee-retention/README",
+  "title": "README",
+  "description": "https://github.com/rebeccak1/employee-retention",
+  "source": "@site/docs/10-datascience/challenges/employee-retention/README.md",
+  "sourceDirName": "10-datascience/challenges/employee-retention",
+  "slug": "/datascience/challenges/employee-retention/",
+  "permalink": "/docs/datascience/challenges/employee-retention/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "README",
+    "permalink": "/docs/datascience/challenges/creditcard-fraud/"
+  },
+  "next": {
+    "title": "Optimization of Employee Shuttle Stops",
+    "permalink": "/docs/datascience/challenges/employee-shuttle-stops"
+  }
+}

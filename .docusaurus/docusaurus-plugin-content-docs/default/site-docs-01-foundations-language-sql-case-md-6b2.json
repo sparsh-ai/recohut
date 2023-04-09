@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/language/sql/case",
+  "id": "foundations/language/sql/case",
+  "title": "SQL CASE",
+  "description": "The CASE statement is SQL's way of handling if/then logic. The CASE statement is followed by at least one pair of WHEN and THEN statements—SQL's equivalent of IF/THEN in Excel. Because of this pairing, you might be tempted to call this SQL CASE WHEN, but CASE is the accepted term.",
+  "source": "@site/docs/01-foundations/language/sql/case.md",
+  "sourceDirName": "01-foundations/language/sql",
+  "slug": "/foundations/language/sql/case",
+  "permalink": "/docs/foundations/language/sql/case",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SQL BETWEEN",
+    "permalink": "/docs/foundations/language/sql/between"
+  },
+  "next": {
+    "title": "Lab - SQL Assignment",
+    "permalink": "/docs/foundations/language/sql/challenges/assignment1/"
+  }
+}

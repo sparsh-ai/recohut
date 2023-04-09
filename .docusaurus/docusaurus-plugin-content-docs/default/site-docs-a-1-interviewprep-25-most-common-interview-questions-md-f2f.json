@@ -1,0 +1,31 @@
+{
+  "unversionedId": "a1-interviewprep/most-common-interview-questions",
+  "id": "a1-interviewprep/most-common-interview-questions",
+  "title": "25 Most Common Interview Questions",
+  "description": "25 Most Common Interview Questions",
+  "source": "@site/docs/a1-interviewprep/25-most-common-interview-questions.md",
+  "sourceDirName": "a1-interviewprep",
+  "slug": "/a1-interviewprep/25-most-common-interview-questions",
+  "permalink": "/docs/a1-interviewprep/25-most-common-interview-questions",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "sidebarPosition": 25,
+  "frontMatter": {
+    "title": "25 Most Common Interview Questions",
+    "description": "25 Most Common Interview Questions",
+    "slug": "25-most-common-interview-questions"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Interview Preparation",
+    "permalink": "/docs/a1-interviewprep/"
+  },
+  "next": {
+    "title": "50 Most Asked Data Engineer Interview Questions and Answers in 2023",
+    "permalink": "/docs/a1-interviewprep/most-common-interview-questions-2023"
+  }
+}

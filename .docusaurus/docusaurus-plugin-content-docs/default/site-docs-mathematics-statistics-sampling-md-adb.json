@@ -1,0 +1,22 @@
+{
+  "unversionedId": "mathematics/statistics/sampling",
+  "id": "mathematics/statistics/sampling",
+  "title": "Sampling",
+  "description": "- Random sampling: This is the most common probability sampling technique as every single sample is selected randomly from the population data set. This gives an opportunity for each record in the data set an equal chance (probability) to be chosen to be a part of the sample. For example, the HR department wants to conduct a social event. Therefore, it wants to select 50 people out of 300. To provide an equal opportunity to everyone, HR picks the names randomly from a jar containing all the names of employees.",
+  "source": "@site/docs/mathematics/statistics/sampling.md",
+  "sourceDirName": "mathematics/statistics",
+  "slug": "/mathematics/statistics/sampling",
+  "permalink": "/docs/mathematics/statistics/sampling",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Statistics",
+    "permalink": "/docs/mathematics/statistics/"
+  }
+}

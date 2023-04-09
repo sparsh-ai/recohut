@@ -1,0 +1,26 @@
+{
+  "unversionedId": "orchestration/datafusion/README",
+  "id": "orchestration/datafusion/README",
+  "title": "Cloud Data Fusion",
+  "description": "Watch this video//youtu.be/ySMexrnxfSg",
+  "source": "@site/docs/06-orchestration/datafusion/README.md",
+  "sourceDirName": "06-orchestration/datafusion",
+  "slug": "/orchestration/datafusion/",
+  "permalink": "/docs/orchestration/datafusion/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Developing batch processing solutions by using Data Factory, Data Lake, Spark, Azure Synapse Pipelines, PolyBase, and Azure Databricks",
+    "permalink": "/docs/orchestration/azure-data-factory/lab-batch-processing-solution/"
+  },
+  "next": {
+    "title": "Building and Executing a Pipeline Graph with Data Fusion",
+    "permalink": "/docs/orchestration/datafusion/lab-datafusion-pipeline/"
+  }
+}

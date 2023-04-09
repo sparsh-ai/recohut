@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/lab-gcp-dataflow-pipeline",
+  "id": "processing/lab-gcp-dataflow-pipeline",
+  "title": "GCP Dataflow Pipeline - A Simple Dataflow Pipeline (Python)",
+  "description": "Objective",
+  "source": "@site/docs/03-processing/lab-gcp-dataflow-pipeline.md",
+  "sourceDirName": "03-processing",
+  "slug": "/processing/lab-gcp-dataflow-pipeline",
+  "permalink": "/docs/processing/lab-gcp-dataflow-pipeline",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "GCP Dataflow Batch Pipeline",
+    "permalink": "/docs/processing/lab-gcp-dataflow-batch-pipeline"
+  },
+  "next": {
+    "title": "GCP Dataflow Size Inputs",
+    "permalink": "/docs/processing/lab-gcp-dataflow-side-inputs"
+  }
+}

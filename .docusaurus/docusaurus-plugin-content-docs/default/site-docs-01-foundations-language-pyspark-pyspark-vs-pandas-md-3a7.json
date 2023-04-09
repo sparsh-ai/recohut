@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/language/pyspark/pyspark-vs-pandas",
+  "id": "foundations/language/pyspark/pyspark-vs-pandas",
+  "title": "PySpark vs Pandas",
+  "description": "Spark DataFrames were inspired by pandas, which also provides an abstraction on top of the data called a DataFrame. pandas is a widely adopted library for data manipulation and analytics. Many developers use it to extrapolate data using Python.",
+  "source": "@site/docs/01-foundations/language/pyspark/pyspark-vs-pandas.md",
+  "sourceDirName": "01-foundations/language/pyspark",
+  "slug": "/foundations/language/pyspark/pyspark-vs-pandas",
+  "permalink": "/docs/foundations/language/pyspark/pyspark-vs-pandas",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Partitioning",
+    "permalink": "/docs/foundations/language/pyspark/partitioning"
+  },
+  "next": {
+    "title": "What are UDFs in PySpark",
+    "permalink": "/docs/foundations/language/pyspark/udf"
+  }
+}

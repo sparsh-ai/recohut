@@ -1,0 +1,41 @@
+{
+  "permalink": "/blog/2021/10/01/short-video-background-music-recommender",
+  "source": "@site/blog/2021-10-01-short-video-background-music-recommender.mdx",
+  "title": "Short-video Background Music Recommender",
+  "description": "Matching micro-videos with suitable background music can help uploaders better convey their contents and emotions, and increase the click-through rate of their uploaded videos. However, manually selecting the background music becomes a painstaking task due to the voluminous and ever-growing pool of candidate music. Therefore, automatically recommending background music to videos becomes an important task.",
+  "date": "2021-10-01T00:00:00.000Z",
+  "formattedDate": "October 1, 2021",
+  "tags": [
+    {
+      "label": "recsys",
+      "permalink": "/blog/tags/recsys"
+    }
+  ],
+  "readingTime": 2.17,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Sparsh Agarwal",
+      "title": "Data Scientist & Engineer",
+      "url": "https://github.com/sparsh-ai",
+      "email": "sprsag@gmail.com",
+      "imageURL": "https://github.com/sparsh-ai.png",
+      "key": "sparsh"
+    }
+  ],
+  "frontMatter": {
+    "title": "Short-video Background Music Recommender",
+    "authors": "sparsh",
+    "tags": [
+      "recsys"
+    ]
+  },
+  "prevItem": {
+    "title": "Semantic Similarity",
+    "permalink": "/blog/2021/10/01/semantic-similarity"
+  },
+  "nextItem": {
+    "title": "The progression of analytics in enterprises",
+    "permalink": "/blog/2021/10/01/the-progression-of-analytics-in-enterprises"
+  }
+}

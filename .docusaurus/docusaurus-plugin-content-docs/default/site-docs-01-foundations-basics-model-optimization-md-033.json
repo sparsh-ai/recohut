@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/basics/model-optimization",
+  "id": "foundations/basics/model-optimization",
+  "title": "Model Optimization",
+  "description": "Keras Model Pruning",
+  "source": "@site/docs/01-foundations/basics/model-optimization.md",
+  "sourceDirName": "01-foundations/basics",
+  "slug": "/foundations/basics/model-optimization",
+  "permalink": "/docs/foundations/basics/model-optimization",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Map Reduce",
+    "permalink": "/docs/foundations/basics/map-reduce"
+  },
+  "next": {
+    "title": "OLTP vs OLAP",
+    "permalink": "/docs/foundations/basics/oltp-vs-olap"
+  }
+}

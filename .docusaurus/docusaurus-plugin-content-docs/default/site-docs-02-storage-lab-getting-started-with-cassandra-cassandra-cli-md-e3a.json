@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/lab-getting-started-with-cassandra/cassandra-cli",
+  "id": "storage/lab-getting-started-with-cassandra/cassandra-cli",
+  "title": "Working with Cassandra and CLI",
+  "description": "Cassandra and Shell",
+  "source": "@site/docs/02-storage/lab-getting-started-with-cassandra/cassandra-cli.md",
+  "sourceDirName": "02-storage/lab-getting-started-with-cassandra",
+  "slug": "/storage/lab-getting-started-with-cassandra/cassandra-cli",
+  "permalink": "/docs/storage/lab-getting-started-with-cassandra/cassandra-cli",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Lab - GCP Streaming Bigtable",
+    "permalink": "/docs/storage/lab-gcp-streaming-bigtable/"
+  },
+  "next": {
+    "title": "Cassandra Getting Started",
+    "permalink": "/docs/storage/lab-getting-started-with-cassandra/getting-started"
+  }
+}

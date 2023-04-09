@@ -1,0 +1,26 @@
+{
+  "unversionedId": "orchestration/airflow/lab-airflow-getting-started/README",
+  "id": "orchestration/airflow/lab-airflow-getting-started/README",
+  "title": "Getting Started with Airflow",
+  "description": "In this lab, we will learn the followings:",
+  "source": "@site/docs/06-orchestration/airflow/lab-airflow-getting-started/README.md",
+  "sourceDirName": "06-orchestration/airflow/lab-airflow-getting-started",
+  "slug": "/orchestration/airflow/lab-airflow-getting-started/",
+  "permalink": "/docs/orchestration/airflow/lab-airflow-getting-started/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Airflow Email Notifications",
+    "permalink": "/docs/orchestration/airflow/lab-airflow-email-notifications/"
+  },
+  "next": {
+    "title": "Bike Sharing Service Data Pipeline",
+    "permalink": "/docs/orchestration/airflow/lab-bike-sharing-service-pipeline/"
+  }
+}

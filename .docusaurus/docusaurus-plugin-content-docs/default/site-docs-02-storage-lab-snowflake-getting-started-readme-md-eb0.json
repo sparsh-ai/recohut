@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/lab-snowflake-getting-started/README",
+  "id": "storage/lab-snowflake-getting-started/README",
+  "title": "Snowflake Getting Started",
+  "description": "Connect to Snowflake using Python",
+  "source": "@site/docs/02-storage/lab-snowflake-getting-started/README.md",
+  "sourceDirName": "02-storage/lab-snowflake-getting-started",
+  "slug": "/storage/lab-snowflake-getting-started/",
+  "permalink": "/docs/storage/lab-snowflake-getting-started/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Lab: Implement slowly changing dimensions in a data lake using AWS Glue and Delta",
+    "permalink": "/docs/storage/lab-scd-glue-delta/"
+  },
+  "next": {
+    "title": "Snowflake SnowSQL",
+    "permalink": "/docs/storage/lab-snowflake-snowsql/"
+  }
+}

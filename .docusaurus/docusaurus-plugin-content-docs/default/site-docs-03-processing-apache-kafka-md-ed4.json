@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/apache-kafka",
+  "id": "processing/apache-kafka",
+  "title": "Apache Kafka",
+  "description": "What is Apache Kafka?",
+  "source": "@site/docs/03-processing/apache-kafka.md",
+  "sourceDirName": "03-processing",
+  "slug": "/processing/apache-kafka",
+  "permalink": "/docs/processing/apache-kafka",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Apache Flink",
+    "permalink": "/docs/processing/apache-flink"
+  },
+  "next": {
+    "title": "Amazon EMR",
+    "permalink": "/docs/processing/aws-emr"
+  }
+}

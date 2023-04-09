@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/csv",
+  "id": "storage/csv",
+  "title": "CSV: The nonstandard standard",
+  "description": "CSV is a serialization format that data engineers love to hate. The term CSV is essentially a catchall for delimited text, but there is flexibility in conventions of escaping, quote characters, delimiter, and more.",
+  "source": "@site/docs/02-storage/csv.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/csv",
+  "permalink": "/docs/storage/csv",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Compression",
+    "permalink": "/docs/storage/compression"
+  },
+  "next": {
+    "title": "Data Lakehouses",
+    "permalink": "/docs/storage/data-lakehouses"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/lab-gcp-cloudsql-nyctaxi/README",
+  "id": "storage/lab-gcp-cloudsql-nyctaxi/README",
+  "title": "Loading Taxi Data into Google Cloud SQL",
+  "description": "Objective",
+  "source": "@site/docs/02-storage/lab-gcp-cloudsql-nyctaxi/README.md",
+  "sourceDirName": "02-storage/lab-gcp-cloudsql-nyctaxi",
+  "slug": "/storage/lab-gcp-cloudsql-nyctaxi/",
+  "permalink": "/docs/storage/lab-gcp-cloudsql-nyctaxi/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "db2",
+    "permalink": "/docs/storage/lab-db2-bookshop-petsale-data-ingestion/"
+  },
+  "next": {
+    "title": "Lab - GCP Streaming Bigtable",
+    "permalink": "/docs/storage/lab-gcp-streaming-bigtable/"
+  }
+}

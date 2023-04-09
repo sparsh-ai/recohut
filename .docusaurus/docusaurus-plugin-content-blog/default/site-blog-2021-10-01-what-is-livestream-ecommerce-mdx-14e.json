@@ -1,0 +1,46 @@
+{
+  "permalink": "/blog/2021/10/01/what-is-livestream-ecommerce",
+  "source": "@site/blog/2021-10-01-what-is-livestream-ecommerce.mdx",
+  "title": "What is Livestream Ecommerce",
+  "description": "/img/content-blog-raw-blog-what-is-livestream-ecommerce-untitled.png",
+  "date": "2021-10-01T00:00:00.000Z",
+  "formattedDate": "October 1, 2021",
+  "tags": [
+    {
+      "label": "personalization",
+      "permalink": "/blog/tags/personalization"
+    },
+    {
+      "label": "trend",
+      "permalink": "/blog/tags/trend"
+    }
+  ],
+  "readingTime": 3.385,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Sparsh Agarwal",
+      "title": "Data Scientist & Engineer",
+      "url": "https://github.com/sparsh-ai",
+      "email": "sprsag@gmail.com",
+      "imageURL": "https://github.com/sparsh-ai.png",
+      "key": "sparsh"
+    }
+  ],
+  "frontMatter": {
+    "title": "What is Livestream Ecommerce",
+    "authors": "sparsh",
+    "tags": [
+      "personalization",
+      "trend"
+    ]
+  },
+  "prevItem": {
+    "title": "Wellness tracker chatbot",
+    "permalink": "/blog/2021/10/01/wellness-tracker-chatbot"
+  },
+  "nextItem": {
+    "title": "Object detection with YOLO3",
+    "permalink": "/blog/2021/01/23/object-detection-with-yolo3"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/lab-dbt-nyctaxi-lookup/README",
+  "id": "processing/lab-dbt-nyctaxi-lookup/README",
+  "title": "NYC Taxi Analtics and ELT Pipeline with dbt and Postgres",
+  "description": "Lineage Graph",
+  "source": "@site/docs/03-processing/lab-dbt-nyctaxi-lookup/README.md",
+  "sourceDirName": "03-processing/lab-dbt-nyctaxi-lookup",
+  "slug": "/processing/lab-dbt-nyctaxi-lookup/",
+  "permalink": "/docs/processing/lab-dbt-nyctaxi-lookup/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dbt NYC Taxi",
+    "permalink": "/docs/processing/lab-dbt-nyctaxi/"
+  },
+  "next": {
+    "title": "dbt Olist",
+    "permalink": "/docs/processing/lab-dbt-olist/"
+  }
+}

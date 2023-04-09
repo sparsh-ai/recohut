@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/challenges/user-referral-program",
+  "id": "datascience/challenges/user-referral-program",
+  "title": "User Referral Program",
+  "description": "Goal",
+  "source": "@site/docs/10-datascience/challenges/user-referral-program.md",
+  "sourceDirName": "10-datascience/challenges",
+  "slug": "/datascience/challenges/user-referral-program",
+  "permalink": "/docs/datascience/challenges/user-referral-program",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "README",
+    "permalink": "/docs/datascience/challenges/translate-ab-test/"
+  },
+  "next": {
+    "title": "Video Sharing Analysis",
+    "permalink": "/docs/datascience/challenges/video-sharing-analysis"
+  }
+}

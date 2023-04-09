@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/lab-datalake-healthcare-s3-glue-athena/readme",
+  "id": "storage/lab-datalake-healthcare-s3-glue-athena/readme",
+  "title": "Data Lake on S3",
+  "description": "Process flow",
+  "source": "@site/docs/02-storage/lab-datalake-healthcare-s3-glue-athena/readme.md",
+  "sourceDirName": "02-storage/lab-datalake-healthcare-s3-glue-athena",
+  "slug": "/storage/lab-datalake-healthcare-s3-glue-athena/",
+  "permalink": "/docs/storage/lab-datalake-healthcare-s3-glue-athena/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Loading Data in Python",
+    "permalink": "/docs/storage/lab-data-loading-python/"
+  },
+  "next": {
+    "title": "db2",
+    "permalink": "/docs/storage/lab-db2-bookshop-petsale-data-ingestion/"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/dbt-redshift/README",
+  "id": "capstones/dbt-redshift/README",
+  "title": "README",
+  "description": "Objective",
+  "source": "@site/docs/12-capstones/dbt-redshift/README.md",
+  "sourceDirName": "12-capstones/dbt-redshift",
+  "slug": "/capstones/dbt-redshift/",
+  "permalink": "/docs/capstones/dbt-redshift/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Building End to end data pipeline in AWS",
+    "permalink": "/docs/capstones/cloudmaze/"
+  },
+  "next": {
+    "title": "DigitalSkola",
+    "permalink": "/docs/capstones/digitalskola/"
+  }
+}

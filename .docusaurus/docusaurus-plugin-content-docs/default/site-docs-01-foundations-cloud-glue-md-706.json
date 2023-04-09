@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/cloud/glue",
+  "id": "foundations/cloud/glue",
+  "title": "Glue",
+  "description": "AWS Glue is a serverless data integration service that makes it easy to discover, prepare, and combine data for analytics, machine learning, and application development. AWS Glue provides all the capabilities needed for data integration so that you can start analyzing your data and put it to use in minutes instead of months.",
+  "source": "@site/docs/01-foundations/cloud/glue.md",
+  "sourceDirName": "01-foundations/cloud",
+  "slug": "/foundations/cloud/glue",
+  "permalink": "/docs/foundations/cloud/glue",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "GCP Setup",
+    "permalink": "/docs/foundations/cloud/gcp-setup"
+  },
+  "next": {
+    "title": "IAM",
+    "permalink": "/docs/foundations/cloud/iam"
+  }
+}

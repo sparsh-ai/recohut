@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/data-engineering-foundations/sql-vs-nosql",
+  "id": "foundations/data-engineering-foundations/sql-vs-nosql",
+  "title": "SQL vs NoSQL",
+  "description": "As you design large systems ( or even smaller ones), you need to decide the inflow-processing and outflow of data coming- and getting processed in the system.",
+  "source": "@site/docs/01-foundations/02-data-engineering-foundations/sql-vs-nosql.md",
+  "sourceDirName": "01-foundations/02-data-engineering-foundations",
+  "slug": "/foundations/data-engineering-foundations/sql-vs-nosql",
+  "permalink": "/docs/foundations/data-engineering-foundations/sql-vs-nosql",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Spark Quiz",
+    "permalink": "/docs/foundations/data-engineering-foundations/spark-quiz"
+  },
+  "next": {
+    "title": "Real-Time Analytics",
+    "permalink": "/docs/foundations/data-engineering-foundations/stream-data-processing"
+  }
+}

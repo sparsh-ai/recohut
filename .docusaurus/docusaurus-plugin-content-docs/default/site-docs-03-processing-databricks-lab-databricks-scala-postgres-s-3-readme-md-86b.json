@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/databricks/lab-databricks-scala-postgres-s3/README",
+  "id": "processing/databricks/lab-databricks-scala-postgres-s3/README",
+  "title": "S3 Postgres Scala",
+  "description": "Objective",
+  "source": "@site/docs/03-processing/databricks/lab-databricks-scala-postgres-s3/README.md",
+  "sourceDirName": "03-processing/databricks/lab-databricks-scala-postgres-s3",
+  "slug": "/processing/databricks/lab-databricks-scala-postgres-s3/",
+  "permalink": "/docs/processing/databricks/lab-databricks-scala-postgres-s3/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Databricks Deltalake",
+    "permalink": "/docs/processing/databricks/lab-databricks-deltalake/"
+  },
+  "next": {
+    "title": "Delta Lake Optimizations",
+    "permalink": "/docs/processing/databricks/lab-deltalake-optimizations/"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/language/scala/README",
+  "id": "foundations/language/scala/README",
+  "title": "Scala",
+  "description": "- Expressive",
+  "source": "@site/docs/01-foundations/language/scala/README.md",
+  "sourceDirName": "01-foundations/language/scala",
+  "slug": "/foundations/language/scala/",
+  "permalink": "/docs/foundations/language/scala/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Sweet Python Syntax Sugar for Improving Your Coding Experience by Yang Zhou",
+    "permalink": "/docs/foundations/language/python/python-syntax-sugars"
+  },
+  "next": {
+    "title": "Getting Started with Scala",
+    "permalink": "/docs/foundations/language/scala/lab-scala-getting-started/"
+  }
+}

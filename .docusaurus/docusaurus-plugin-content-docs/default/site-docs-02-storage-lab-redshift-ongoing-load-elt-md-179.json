@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/lab-redshift-ongoing-load-elt",
+  "id": "storage/lab-redshift-ongoing-load-elt",
+  "title": "Redshift Ongoing Load - ELT",
+  "description": "This lab demonstrates how you can modernize your ongoing data loads using Stored Procedures, Materialized Views and Pre-defined Functions to transform data within Redshift.",
+  "source": "@site/docs/02-storage/lab-redshift-ongoing-load-elt.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/lab-redshift-ongoing-load-elt",
+  "permalink": "/docs/storage/lab-redshift-ongoing-load-elt",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Amazon Redshift ML",
+    "permalink": "/docs/storage/lab-redshift-ml/"
+  },
+  "next": {
+    "title": "Redshift Slowly Changing Dimension",
+    "permalink": "/docs/storage/lab-redshift-scd-2"
+  }
+}

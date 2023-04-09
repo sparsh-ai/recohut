@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/language/sql/date-functions",
+  "id": "foundations/language/sql/date-functions",
+  "title": "SQL Date Functions",
+  "description": "Assuming you've got some dates properly stored as a date or time data type, you can do some pretty powerful things. Maybe you'd like to calculate a field of dates a week after an existing field. Or maybe you'd like to create a field that indicates how many days apart the values in two other date fields are. These are trivially simple, but it's important to keep in mind that the data type of your results will depend on exactly what you are doing to the dates.",
+  "source": "@site/docs/01-foundations/language/sql/date-functions.md",
+  "sourceDirName": "01-foundations/language/sql",
+  "slug": "/foundations/language/sql/date-functions",
+  "permalink": "/docs/foundations/language/sql/date-functions",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Cursor",
+    "permalink": "/docs/foundations/language/sql/cursor"
+  },
+  "next": {
+    "title": "SQL DISTINCT",
+    "permalink": "/docs/foundations/language/sql/distinct"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "assignments/healthverity/README",
+  "id": "assignments/healthverity/README",
+  "title": "HealthVerity",
+  "description": "Thank you for taking the time to consider HealthVerity and our Data QA Engineer position. Your skills and experience line up well with what we are seeking in this role and we'd like to have you move forward in the process. Below are a few questions we'd invite you to consider and respond to in a separate text document.",
+  "source": "@site/docs/11-assignments/healthverity/README.md",
+  "sourceDirName": "11-assignments/healthverity",
+  "slug": "/assignments/healthverity/",
+  "permalink": "/docs/assignments/healthverity/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "NHLAPI - SQL and Python Assignment",
+    "permalink": "/docs/assignments/florida-panthers/"
+  },
+  "next": {
+    "title": "Klodars Datalake Design",
+    "permalink": "/docs/assignments/klodars-datalake-design/"
+  }
+}

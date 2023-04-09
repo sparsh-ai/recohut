@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/basics/offline-learning",
+  "id": "datascience/basics/offline-learning",
+  "title": "Off-Policy Learning",
+  "description": "Offline Reinforcement Learning",
+  "source": "@site/docs/10-datascience/basics/offline-learning.mdx",
+  "sourceDirName": "10-datascience/basics",
+  "slug": "/datascience/basics/offline-learning",
+  "permalink": "/docs/datascience/basics/offline-learning",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Multi-Task Learning",
+    "permalink": "/docs/datascience/basics/multitask-learning"
+  },
+  "next": {
+    "title": "River",
+    "permalink": "/docs/datascience/basics/river"
+  }
+}

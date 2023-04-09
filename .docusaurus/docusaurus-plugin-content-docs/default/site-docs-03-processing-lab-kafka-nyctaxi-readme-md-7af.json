@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/lab-kafka-nyctaxi/README",
+  "id": "processing/lab-kafka-nyctaxi/README",
+  "title": "Kafka Streams for NYC Taxi data",
+  "description": "Objective",
+  "source": "@site/docs/03-processing/lab-kafka-nyctaxi/README.md",
+  "sourceDirName": "03-processing/lab-kafka-nyctaxi",
+  "slug": "/processing/lab-kafka-nyctaxi/",
+  "permalink": "/docs/processing/lab-kafka-nyctaxi/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Real-time fraud detection by applying filter in Kafka topic",
+    "permalink": "/docs/processing/lab-kafka-fraud-detection/"
+  },
+  "next": {
+    "title": "Kafka with Docker Compose",
+    "permalink": "/docs/processing/lab-kafka-nyctaxi/assets/"
+  }
+}

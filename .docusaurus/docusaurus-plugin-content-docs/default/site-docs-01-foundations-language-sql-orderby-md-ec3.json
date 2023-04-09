@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/language/sql/orderby",
+  "id": "foundations/language/sql/orderby",
+  "title": "SQL ORDER BY",
+  "description": "The ORDER BY clause allows you to reorder your results based on the data in one or more columns.",
+  "source": "@site/docs/01-foundations/language/sql/orderby.md",
+  "sourceDirName": "01-foundations/language/sql",
+  "slug": "/foundations/language/sql/orderby",
+  "permalink": "/docs/foundations/language/sql/orderby",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SQL OR",
+    "permalink": "/docs/foundations/language/sql/or"
+  },
+  "next": {
+    "title": "Performance Tuning",
+    "permalink": "/docs/foundations/language/sql/performance-tuning"
+  }
+}

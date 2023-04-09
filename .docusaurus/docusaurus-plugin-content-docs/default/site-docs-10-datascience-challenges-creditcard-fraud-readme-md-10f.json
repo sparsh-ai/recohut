@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/challenges/creditcard-fraud/README",
+  "id": "datascience/challenges/creditcard-fraud/README",
+  "title": "README",
+  "description": "https://github.com/sunjoshi1991/DATA-SCIENCE-CHALLENGES/tree/master",
+  "source": "@site/docs/10-datascience/challenges/creditcard-fraud/README.md",
+  "sourceDirName": "10-datascience/challenges/creditcard-fraud",
+  "slug": "/datascience/challenges/creditcard-fraud/",
+  "permalink": "/docs/datascience/challenges/creditcard-fraud/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "README",
+    "permalink": "/docs/datascience/challenges/conversion-rate/"
+  },
+  "next": {
+    "title": "README",
+    "permalink": "/docs/datascience/challenges/employee-retention/"
+  }
+}

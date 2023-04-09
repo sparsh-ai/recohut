@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/programming-languages/pyspark/install",
+  "id": "foundations/programming-languages/pyspark/install",
+  "title": "Installing Spark",
+  "description": "To get started with PySpark, you will need to have the Spark software installed on your machine. You can download the latest version of Spark from the Apache Spark website. Once you have Spark installed, you can start using it to process data.",
+  "source": "@site/docs/01-foundations/04-programming-languages/pyspark/install.md",
+  "sourceDirName": "01-foundations/04-programming-languages/pyspark",
+  "slug": "/foundations/programming-languages/pyspark/install",
+  "permalink": "/docs/foundations/programming-languages/pyspark/install",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Spark Execution Plan",
+    "permalink": "/docs/foundations/programming-languages/pyspark/execution-plan"
+  },
+  "next": {
+    "title": "BCG Case Study",
+    "permalink": "/docs/foundations/programming-languages/pyspark/lab-bcg/"
+  }
+}

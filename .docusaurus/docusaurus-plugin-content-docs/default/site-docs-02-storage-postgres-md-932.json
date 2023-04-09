@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/postgres",
+  "id": "storage/postgres",
+  "title": "Postgres",
+  "description": "Picking the right database management system is a difficult task due to the vast number of options on the market. Depending on the business model, you can pick a commercial database or an open source database with commercial support. In addition to this, there are several technical and non-technical factors to assess. When it comes to picking a relational database management system, PostgreSQL stands at the top for several reasons. The PostgreSQL slogan, \"The world's most advanced open source database,\" emphasizes the sophistication of its features and the high degree of community confidence.",
+  "source": "@site/docs/02-storage/postgres.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/postgres",
+  "permalink": "/docs/storage/postgres",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Postgres vs MySQL",
+    "permalink": "/docs/storage/postgres-vs-mysql"
+  },
+  "next": {
+    "title": "Building Federated Query System using Amazon Athena",
+    "permalink": "/docs/storage/project-athena-federated/"
+  }
+}

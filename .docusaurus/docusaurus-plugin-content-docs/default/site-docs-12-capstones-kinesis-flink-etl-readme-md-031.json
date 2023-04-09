@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/kinesis-flink-etl/README",
+  "id": "capstones/kinesis-flink-etl/README",
+  "title": "Streaming ETL pipeline with Apache Flink and Amazon Kinesis Data Analytics",
+  "description": "We will create an Amazon Kinesis Data Analytics for Apache Flink application with Amazon Kinesis Data Streams as a source and a Amazon S3 bucket as a sink. Random data is ingested using Amazon Kinesis Data Generator. The Apache Flink application code performs a word count on the streaming random data using a tumbling window of 5 minutes. The generated word count is then stored in the specified Amazon S3 bucket. Amazon Athena is used to query data generated in the Amazon S3 bucket to validate the end results.",
+  "source": "@site/docs/12-capstones/kinesis-flink-etl/README.md",
+  "sourceDirName": "12-capstones/kinesis-flink-etl",
+  "slug": "/capstones/kinesis-flink-etl/",
+  "permalink": "/docs/capstones/kinesis-flink-etl/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Log Analytics and Processing in Real-Time",
+    "permalink": "/docs/capstones/kinesis-flink-beam/"
+  },
+  "next": {
+    "title": "Kortex",
+    "permalink": "/docs/capstones/kortex/"
+  }
+}

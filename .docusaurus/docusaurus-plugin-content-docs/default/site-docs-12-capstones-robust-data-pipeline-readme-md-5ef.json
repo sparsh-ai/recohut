@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/robust-data-pipeline/README",
+  "id": "capstones/robust-data-pipeline/README",
+  "title": "Data Pipeline with dbt, Airflow and Great Expectations",
+  "description": "In this project, we will learn how to combine the functions of three open source tools - Airflow, dbt and Great expectations - to build, test, validate, document, and orchestrate an entire pipeline, end to end, from scratch. We are going to load the NYC Taxi data into Redshift warehouse and then transform + validate the data using dbt and great expectations.",
+  "source": "@site/docs/12-capstones/robust-data-pipeline/README.md",
+  "sourceDirName": "12-capstones/robust-data-pipeline",
+  "slug": "/capstones/robust-data-pipeline/",
+  "permalink": "/docs/capstones/robust-data-pipeline/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "AWS Kafka and DynamoDB for real time fraud detection",
+    "permalink": "/docs/capstones/redshield/"
+  },
+  "next": {
+    "title": "Amazon Kinesis Data Streams",
+    "permalink": "/docs/capstones/smartcity/dataStream/"
+  }
+}

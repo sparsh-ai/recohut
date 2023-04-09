@@ -1,0 +1,14 @@
+{
+  "label": "nlp",
+  "permalink": "/docs/tags/nlp",
+  "allTagsPath": "/docs/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "datascience/nlp/word2vec",
+      "title": "Lab 162 - Word2vec",
+      "description": "Word2vec",
+      "permalink": "/docs/datascience/nlp/word2vec"
+    }
+  ]
+}

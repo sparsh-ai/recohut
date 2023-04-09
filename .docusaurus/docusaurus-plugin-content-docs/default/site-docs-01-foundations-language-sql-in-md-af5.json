@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/language/sql/in",
+  "id": "foundations/language/sql/in",
+  "title": "SQL IN",
+  "description": "IN is a logical operator in SQL that allows you to specify a list of values that you'd like to include in the results.",
+  "source": "@site/docs/01-foundations/language/sql/in.md",
+  "sourceDirName": "01-foundations/language/sql",
+  "slug": "/foundations/language/sql/in",
+  "permalink": "/docs/foundations/language/sql/in",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SQL HAVING",
+    "permalink": "/docs/foundations/language/sql/having"
+  },
+  "next": {
+    "title": "Indexes",
+    "permalink": "/docs/foundations/language/sql/indexes"
+  }
+}

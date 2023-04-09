@@ -1,0 +1,46 @@
+{
+  "permalink": "/blog/2021/10/01/insurance-personalization",
+  "source": "@site/blog/2021-10-01-insurance-personalization.mdx",
+  "title": "Insurance Personalization",
+  "description": "Author: Alexsoft",
+  "date": "2021-10-01T00:00:00.000Z",
+  "formattedDate": "October 1, 2021",
+  "tags": [
+    {
+      "label": "insurance",
+      "permalink": "/blog/tags/insurance"
+    },
+    {
+      "label": "personalization",
+      "permalink": "/blog/tags/personalization"
+    }
+  ],
+  "readingTime": 9.355,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Sparsh Agarwal",
+      "title": "Data Scientist & Engineer",
+      "url": "https://github.com/sparsh-ai",
+      "email": "sprsag@gmail.com",
+      "imageURL": "https://github.com/sparsh-ai.png",
+      "key": "sparsh"
+    }
+  ],
+  "frontMatter": {
+    "title": "Insurance Personalization",
+    "authors": "sparsh",
+    "tags": [
+      "insurance",
+      "personalization"
+    ]
+  },
+  "prevItem": {
+    "title": "Image Similarity System",
+    "permalink": "/blog/2021/10/01/image-similarity-system"
+  },
+  "nextItem": {
+    "title": "Name & Address Parsing",
+    "permalink": "/blog/2021/10/01/name-&-address-parsing"
+  }
+}

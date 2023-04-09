@@ -1,0 +1,26 @@
+{
+  "unversionedId": "extraction/api/lab-scoota/README",
+  "id": "extraction/api/lab-scoota/README",
+  "title": "Extract data from multiple sources and load into database",
+  "description": "You are working in a startup developing an e-scooter-sharing system called Scoota. It aspires to operate in the most populous cities all around the world. In each city, your company will have hundreds of e-scooters parked in the streets and allow users to rent them by the minute.",
+  "source": "@site/docs/05-extraction/api/lab-scoota/README.md",
+  "sourceDirName": "05-extraction/api/lab-scoota",
+  "slug": "/extraction/api/lab-scoota/",
+  "permalink": "/docs/extraction/api/lab-scoota/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "API HackerNews Github",
+    "permalink": "/docs/extraction/api/lab-hackernews-git-api/"
+  },
+  "next": {
+    "title": "Faker",
+    "permalink": "/docs/extraction/faker/"
+  }
+}

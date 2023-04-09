@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/lab-dbt-jaffle-shop/README",
+  "id": "processing/lab-dbt-jaffle-shop/README",
+  "title": "dbt Jaffle Shop",
+  "description": "Objective",
+  "source": "@site/docs/03-processing/lab-dbt-jaffle-shop/README.md",
+  "sourceDirName": "03-processing/lab-dbt-jaffle-shop",
+  "slug": "/processing/lab-dbt-jaffle-shop/",
+  "permalink": "/docs/processing/lab-dbt-jaffle-shop/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ETL Processing on Google Cloud Using Dataflow and BigQuery",
+    "permalink": "/docs/processing/lab-dataflow-bigquery-etl"
+  },
+  "next": {
+    "title": "docs",
+    "permalink": "/docs/processing/lab-dbt-jaffle-shop/models/docs"
+  }
+}

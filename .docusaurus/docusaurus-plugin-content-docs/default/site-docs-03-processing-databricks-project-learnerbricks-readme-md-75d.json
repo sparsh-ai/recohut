@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/databricks/project-learnerbricks/README",
+  "id": "processing/databricks/project-learnerbricks/README",
+  "title": "Data Engineer Learner Path with Databricks",
+  "description": "The Data Engineering with Databricks (DEWD) course is designed to prepare students for the Databricks Certified Associate Data Engineer certification exam. The content for this course consists of the Associate-level modules of the Data Engineer Learning Path, and can be delivered as an instructor-led training (ILT) or self-paced (SP) course.",
+  "source": "@site/docs/03-processing/databricks/project-learnerbricks/README.md",
+  "sourceDirName": "03-processing/databricks/project-learnerbricks",
+  "slug": "/processing/databricks/project-learnerbricks/",
+  "permalink": "/docs/processing/databricks/project-learnerbricks/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data Pipeline with Databricks PySpark and Superset",
+    "permalink": "/docs/processing/databricks/project-databricks-superset/"
+  },
+  "next": {
+    "title": "Setup Databricks",
+    "permalink": "/docs/processing/databricks/setup"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "visualization/flask/README",
+  "id": "visualization/flask/README",
+  "title": "Flask",
+  "description": "Shazam API Song Analytics",
+  "source": "@site/docs/08-visualization/flask/README.md",
+  "sourceDirName": "08-visualization/flask",
+  "slug": "/visualization/flask/",
+  "permalink": "/docs/visualization/flask/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Visualization",
+    "permalink": "/docs/visualization/"
+  },
+  "next": {
+    "title": "Looker Studio",
+    "permalink": "/docs/visualization/looker-studio/"
+  }
+}

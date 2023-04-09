@@ -1,0 +1,46 @@
+{
+  "permalink": "/blog/2021/10/01/semantic-similarity",
+  "source": "@site/blog/2021-10-01-semantic-similarity.mdx",
+  "title": "Semantic Similarity",
+  "description": "/img/content-blog-raw-blog-semantic-similarity-untitled.png",
+  "date": "2021-10-01T00:00:00.000Z",
+  "formattedDate": "October 1, 2021",
+  "tags": [
+    {
+      "label": "nlp",
+      "permalink": "/blog/tags/nlp"
+    },
+    {
+      "label": "similarity",
+      "permalink": "/blog/tags/similarity"
+    }
+  ],
+  "readingTime": 1.67,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Sparsh Agarwal",
+      "title": "Data Scientist & Engineer",
+      "url": "https://github.com/sparsh-ai",
+      "email": "sprsag@gmail.com",
+      "imageURL": "https://github.com/sparsh-ai.png",
+      "key": "sparsh"
+    }
+  ],
+  "frontMatter": {
+    "title": "Semantic Similarity",
+    "authors": "sparsh",
+    "tags": [
+      "nlp",
+      "similarity"
+    ]
+  },
+  "prevItem": {
+    "title": "Real-time news personalization with Flink",
+    "permalink": "/blog/2021/10/01/real-time-news-personalization-with-flink"
+  },
+  "nextItem": {
+    "title": "Short-video Background Music Recommender",
+    "permalink": "/blog/2021/10/01/short-video-background-music-recommender"
+  }
+}

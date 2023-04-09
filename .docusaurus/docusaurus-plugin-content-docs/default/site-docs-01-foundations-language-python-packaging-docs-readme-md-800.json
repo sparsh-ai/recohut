@@ -1,0 +1,32 @@
+{
+  "unversionedId": "foundations/language/python/packaging/docs/README",
+  "id": "foundations/language/python/packaging/docs/README",
+  "title": "Home",
+  "description": "Standards - AI/ML boilerplates and snippets",
+  "source": "@site/docs/01-foundations/language/python/packaging/docs/README.md",
+  "sourceDirName": "01-foundations/language/python/packaging/docs",
+  "slug": "/foundations/language/python/packaging/docs/",
+  "permalink": "/docs/foundations/language/python/packaging/docs/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "layout": "default",
+    "title": "Home",
+    "nav_order": 1,
+    "description": "Standards - AI/ML boilerplates and snippets",
+    "permalink": "/"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Explore Further",
+    "permalink": "/docs/foundations/language/python/links"
+  },
+  "next": {
+    "title": "Python code",
+    "permalink": "/docs/foundations/language/python/python-snippets"
+  }
+}

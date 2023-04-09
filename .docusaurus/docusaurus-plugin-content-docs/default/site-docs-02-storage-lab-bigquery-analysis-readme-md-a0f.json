@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/lab-bigquery-analysis/README",
+  "id": "storage/lab-bigquery-analysis/README",
+  "title": "BigQuery Analysis",
+  "description": "Objective",
+  "source": "@site/docs/02-storage/lab-bigquery-analysis/README.md",
+  "sourceDirName": "02-storage/lab-bigquery-analysis",
+  "slug": "/storage/lab-bigquery-analysis/",
+  "permalink": "/docs/storage/lab-bigquery-analysis/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Configuring and Securing Azure SQL Database",
+    "permalink": "/docs/storage/lab-azure-sql-securing-databases/"
+  },
+  "next": {
+    "title": "BigQuery Commandline",
+    "permalink": "/docs/storage/lab-bigquery-commandline/"
+  }
+}

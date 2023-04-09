@@ -1,0 +1,25 @@
+{
+  "title": "Recent posts",
+  "items": [
+    {
+      "title": "A/B and Multi-Armed Bandit Tests",
+      "permalink": "/blog/2022/12/24/ab-mab-tests"
+    },
+    {
+      "title": "SQL Server to Snowflake Schema Conversion",
+      "permalink": "/blog/2022/12/13/sql-to-snowflake-schema-conversion"
+    },
+    {
+      "title": "The Complete Python Course (2022)",
+      "permalink": "/blog/2022/12/12/the-complete-python-course-2022"
+    },
+    {
+      "title": "Opening our Bootcamp material",
+      "permalink": "/blog/2022/11/16/opening-material"
+    },
+    {
+      "title": "Clinical Decision Making",
+      "permalink": "/blog/2021/10/01/clinical-decision-making"
+    }
+  ]
+}

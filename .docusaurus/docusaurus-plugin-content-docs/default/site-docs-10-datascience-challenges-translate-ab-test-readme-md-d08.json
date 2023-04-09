@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/challenges/translate-ab-test/README",
+  "id": "datascience/challenges/translate-ab-test/README",
+  "title": "README",
+  "description": "https://github.com/commit-live-students/feature-engineering-for-translation-test-dataset/tree/master",
+  "source": "@site/docs/10-datascience/challenges/translate-ab-test/README.md",
+  "sourceDirName": "10-datascience/challenges/translate-ab-test",
+  "slug": "/datascience/challenges/translate-ab-test/",
+  "permalink": "/docs/datascience/challenges/translate-ab-test/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "README",
+    "permalink": "/docs/datascience/challenges/price-test/"
+  },
+  "next": {
+    "title": "User Referral Program",
+    "permalink": "/docs/datascience/challenges/user-referral-program"
+  }
+}

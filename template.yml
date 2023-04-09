@@ -1,0 +1,124 @@
+AWSTemplateFormatVersion: 2010-09-09
+
+Description: Stack for AWS Amplify App
+
+Parameters:
+  ProjectName:
+    Type: String
+    Default: data-engineering-docs
+  ENV:
+    Type: String
+    Default: dev
+  GithubBranch:
+    Type: String
+    Default: main
+  GithubOAuthToken:
+    Type: String
+    NoEcho: true
+  Repository:
+    Type: String
+    Default: https://github.com/datalaker/data-engineering-docs
+    Description: Github Repository URL
+  Domain:
+    Type: String
+    Default: recohut.com
+    Description: Custom Domain Name
+
+Resources:
+
+  S3Bucket:
+    Type: 'AWS::S3::Bucket'
+    Properties:
+      BucketName: !Join 
+        - '-'
+        - - !Ref ProjectName
+          - !Ref ENV
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+          - ServerSideEncryptionByDefault:
+              SSEAlgorithm: AES256
+    UpdateReplacePolicy: Retain
+    DeletionPolicy: Retain
+
+  AmplifyRole:
+    Type: 'AWS::IAM::Role'
+    Properties:
+      AssumeRolePolicyDocument:
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: amplify.amazonaws.com
+            Action: 'sts:AssumeRole'
+      ManagedPolicyArns:
+        - 'arn:aws:iam::aws:policy/AdministratorAccess'
+
+  AmplifyApp:
+    Type: "AWS::Amplify::App"
+    Properties:
+      Name: !Join 
+        - '-'
+        - - !Ref ProjectName
+          - !Ref ENV
+      Repository: !Ref Repository
+      Description: Documentation for Data Engineering
+      OauthToken: !Ref GithubOAuthToken
+      BuildSpec: |-
+        version: 1
+        backend:
+          phases:
+            build:
+              commands:
+                - amplifyPush --simple
+        frontend:
+          phases:
+            preBuild:
+              commands:
+                - nvm install 16.14
+                - nvm use 16.14
+                - yarn install
+            build:
+              commands:
+                - nvm use 16.14
+                - yarn docusaurus parse
+                - yarn docusaurus glossary
+                - yarn run build
+          artifacts:
+            baseDirectory: build
+            files:
+              - '**/*'
+          cache:
+            paths:
+              - node_modules/**/*
+      Tags:
+        - Key: Name
+          Value: DE
+      IAMServiceRole: !GetAtt AmplifyRole.Arn
+
+  AmplifyBranch:
+    Type: AWS::Amplify::Branch
+    Properties:
+      BranchName: !Ref GithubBranch
+      AppId: !GetAtt AmplifyApp.AppId
+      Description: Docs
+      EnableAutoBuild: true
+      Tags:
+        - Key: Name
+          Value: main
+        - Key: Branch
+          Value: !Ref GithubBranch
+
+  AmplifyDomain:
+    Type: AWS::Amplify::Domain
+    Properties:
+      DomainName: !Ref Domain
+      AppId: !GetAtt AmplifyApp.AppId
+      SubDomainSettings:
+        - Prefix: !Ref GithubBranch
+          BranchName: !GetAtt AmplifyBranch.BranchName
+
+Outputs:
+  DefaultDomain:
+    Value: !GetAtt AmplifyApp.DefaultDomain
+
+  DocsBranchUrl:
+    Value: !Join [ ".", [ !GetAtt AmplifyBranch.BranchName, !GetAtt AmplifyDomain.DomainName ]]

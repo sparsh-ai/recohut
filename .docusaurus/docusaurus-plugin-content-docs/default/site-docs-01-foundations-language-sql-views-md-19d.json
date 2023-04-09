@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/language/sql/views",
+  "id": "foundations/language/sql/views",
+  "title": "Views",
+  "description": "A view can be considered a virtual table because it is composed of rows and columns of data, the results of a SELECT SQL instruction in one or more database tables. Views are great resources for organizing information from different tables to create reports.",
+  "source": "@site/docs/01-foundations/language/sql/views.md",
+  "sourceDirName": "01-foundations/language/sql",
+  "slug": "/foundations/language/sql/views",
+  "permalink": "/docs/foundations/language/sql/views",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SQL UNION",
+    "permalink": "/docs/foundations/language/sql/union"
+  },
+  "next": {
+    "title": "SQL WHERE",
+    "permalink": "/docs/foundations/language/sql/where"
+  }
+}

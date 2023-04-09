@@ -1,0 +1,26 @@
+{
+  "unversionedId": "assignments/florida-panthers/README",
+  "id": "assignments/florida-panthers/README",
+  "title": "NHLAPI - SQL and Python Assignment",
+  "description": "Objective",
+  "source": "@site/docs/11-assignments/florida-panthers/README.md",
+  "sourceDirName": "11-assignments/florida-panthers",
+  "slug": "/assignments/florida-panthers/",
+  "permalink": "/docs/assignments/florida-panthers/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Cyclistic Case Study",
+    "permalink": "/docs/assignments/cyclistic-analysis/"
+  },
+  "next": {
+    "title": "HealthVerity",
+    "permalink": "/docs/assignments/healthverity/"
+  }
+}

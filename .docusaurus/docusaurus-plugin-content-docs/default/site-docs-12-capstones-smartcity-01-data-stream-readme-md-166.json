@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/smartcity/dataStream/README",
+  "id": "capstones/smartcity/dataStream/README",
+  "title": "Amazon Kinesis Data Streams",
+  "description": "Register Enhanced Fan-Out Consumer",
+  "source": "@site/docs/12-capstones/smartcity/01-dataStream/README.md",
+  "sourceDirName": "12-capstones/smartcity/01-dataStream",
+  "slug": "/capstones/smartcity/dataStream/",
+  "permalink": "/docs/capstones/smartcity/dataStream/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data Pipeline with dbt, Airflow and Great Expectations",
+    "permalink": "/docs/capstones/robust-data-pipeline/"
+  },
+  "next": {
+    "title": "Amazon Kinesis Data Firehose",
+    "permalink": "/docs/capstones/smartcity/firehose/"
+  }
+}

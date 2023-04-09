@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/programming-languages/sql/challenges/assignment5/README",
+  "id": "foundations/programming-languages/sql/challenges/assignment5/README",
+  "title": "SQL Danny's Diner Assignment",
+  "description": "Danny seriously loves Japanese food so in the beginning of 2021, he decides to embark upon a risky venture and opens up a cute little restaurant that sells his 3 favourite foods: sushi, curry and ramen.",
+  "source": "@site/docs/01-foundations/04-programming-languages/sql/challenges/assignment5/README.md",
+  "sourceDirName": "01-foundations/04-programming-languages/sql/challenges/assignment5",
+  "slug": "/foundations/programming-languages/sql/challenges/assignment5/",
+  "permalink": "/docs/foundations/programming-languages/sql/challenges/assignment5/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SQL Assignment",
+    "permalink": "/docs/foundations/programming-languages/sql/challenges/assignment4/"
+  },
+  "next": {
+    "title": "SQL Pizza Runner Assignment",
+    "permalink": "/docs/foundations/programming-languages/sql/challenges/assignment6/"
+  }
+}

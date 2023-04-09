@@ -1,0 +1,26 @@
+{
+  "unversionedId": "data-modeling/designing-incremental-loading",
+  "id": "data-modeling/designing-incremental-loading",
+  "title": "Designing for incremental loading",
+  "description": "Incremental loading or delta loading refers to the process of loading smaller increments of data into a storage solution—for example, we could have daily data that is being loaded into a data lake or hourly data flowing into an extract, transform, load (ETL) pipeline, and so on. During data-ingestion scenarios, it is very common to do a bulk upload followed by scheduled incremental loads.",
+  "source": "@site/docs/04-data-modeling/designing-incremental-loading.md",
+  "sourceDirName": "04-data-modeling",
+  "slug": "/data-modeling/designing-incremental-loading",
+  "permalink": "/docs/data-modeling/designing-incremental-loading",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data Warehousing",
+    "permalink": "/docs/data-modeling/data-warehousing"
+  },
+  "next": {
+    "title": "Designing SCDs",
+    "permalink": "/docs/data-modeling/designing-scd"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/developer/lab-learn-git-commands",
+  "id": "foundations/developer/lab-learn-git-commands",
+  "title": "Lab: Learn git commands",
+  "description": "Objective",
+  "source": "@site/docs/01-foundations/developer/lab-learn-git-commands.md",
+  "sourceDirName": "01-foundations/developer",
+  "slug": "/foundations/developer/lab-learn-git-commands",
+  "permalink": "/docs/foundations/developer/lab-learn-git-commands",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Lab: Explore VS Code features",
+    "permalink": "/docs/foundations/developer/lab-explore-vscode-features"
+  },
+  "next": {
+    "title": "Setup Git",
+    "permalink": "/docs/foundations/developer/setup-git"
+  }
+}

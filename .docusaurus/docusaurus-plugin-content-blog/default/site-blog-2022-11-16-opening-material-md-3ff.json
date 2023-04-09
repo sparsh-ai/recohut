@@ -1,0 +1,52 @@
+{
+  "permalink": "/blog/2022/11/16/opening-material",
+  "source": "@site/blog/2022-11-16-opening-material.md",
+  "title": "Opening our Bootcamp material",
+  "description": "For short period of time, to help laid off job seekers, We have decided to open source our data engineering bootcamp material. It's the same website we use for students",
+  "date": "2022-11-16T00:00:00.000Z",
+  "formattedDate": "November 16, 2022",
+  "tags": [
+    {
+      "label": "docusaurus",
+      "permalink": "/blog/tags/docusaurus"
+    },
+    {
+      "label": "wynisco",
+      "permalink": "/blog/tags/wynisco"
+    },
+    {
+      "label": "dataengineering",
+      "permalink": "/blog/tags/dataengineering"
+    }
+  ],
+  "readingTime": 0.495,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Sparsh Agarwal",
+      "title": "Data Scientist & Engineer",
+      "url": "https://github.com/sparsh-ai",
+      "email": "sprsag@gmail.com",
+      "imageURL": "https://github.com/sparsh-ai.png",
+      "key": "sparsh"
+    }
+  ],
+  "frontMatter": {
+    "title": "Opening our Bootcamp material",
+    "authors": "sparsh",
+    "tags": [
+      "docusaurus",
+      "wynisco",
+      "dataengineering",
+      "dataengineering"
+    ]
+  },
+  "prevItem": {
+    "title": "The Complete Python Course (2022)",
+    "permalink": "/blog/2022/12/12/the-complete-python-course-2022"
+  },
+  "nextItem": {
+    "title": "Clinical Decision Making",
+    "permalink": "/blog/2021/10/01/clinical-decision-making"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/data-engineering-foundations/spark-quiz",
+  "id": "foundations/data-engineering-foundations/spark-quiz",
+  "title": "Spark Quiz",
+  "description": "Below are a few questions that should come handy in the first go :",
+  "source": "@site/docs/01-foundations/02-data-engineering-foundations/spark-quiz.md",
+  "sourceDirName": "01-foundations/02-data-engineering-foundations",
+  "slug": "/foundations/data-engineering-foundations/spark-quiz",
+  "permalink": "/docs/foundations/data-engineering-foundations/spark-quiz",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Origin of Spark",
+    "permalink": "/docs/foundations/data-engineering-foundations/spark-origin"
+  },
+  "next": {
+    "title": "SQL vs NoSQL",
+    "permalink": "/docs/foundations/data-engineering-foundations/sql-vs-nosql"
+  }
+}

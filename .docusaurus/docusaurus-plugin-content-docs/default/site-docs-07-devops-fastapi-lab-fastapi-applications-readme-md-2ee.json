@@ -1,0 +1,26 @@
+{
+  "unversionedId": "devops/fastapi/lab-fastapi-applications/README",
+  "id": "devops/fastapi/lab-fastapi-applications/README",
+  "title": "README",
+  "description": "Download by running command sh download.sh",
+  "source": "@site/docs/07-devops/fastapi/lab-fastapi-applications/README.md",
+  "sourceDirName": "07-devops/fastapi/lab-fastapi-applications",
+  "slug": "/devops/fastapi/lab-fastapi-applications/",
+  "permalink": "/docs/devops/fastapi/lab-fastapi-applications/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "FastAPI",
+    "permalink": "/docs/devops/fastapi/"
+  },
+  "next": {
+    "title": "Railway API",
+    "permalink": "/docs/devops/fastapi/project-railway-api/"
+  }
+}

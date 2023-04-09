@@ -1,0 +1,26 @@
+{
+  "unversionedId": "orchestration/azure-data-factory/README",
+  "id": "orchestration/azure-data-factory/README",
+  "title": "Azure Data Factory",
+  "description": "Azure Data Factory is the data orchestration service in Azure. Using Azure Data Factory, you can build pipelines that are capable of reading data from multiple sources, transforming the data, and loading the data into data stores to be consumed by reporting applications such as Power BI. Azure Data Factory much like SQL Server Integration Services (SSIS) in an on-premises world, provides a code-free UI for developing, managing, and maintaining data engineering pipelines.",
+  "source": "@site/docs/06-orchestration/azure-data-factory/README.md",
+  "sourceDirName": "06-orchestration/azure-data-factory",
+  "slug": "/orchestration/azure-data-factory/",
+  "permalink": "/docs/orchestration/azure-data-factory/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Spotify-Data-Engineering-and-Analysis",
+    "permalink": "/docs/orchestration/airflow/labdev-spotify/"
+  },
+  "next": {
+    "title": "Incremental Data Loading in Azure Data Factory",
+    "permalink": "/docs/orchestration/azure-data-factory/lab-adf-incremental-loading/"
+  }
+}

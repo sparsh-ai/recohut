@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/lab-redshift-scd-2",
+  "id": "storage/lab-redshift-scd-2",
+  "title": "Redshift Slowly Changing Dimension",
+  "description": "Data loading into a SCD table involves a first-time bulk data loading, referred to as the initial data load. This is followed by continuous or regular data loading, referred to as an incremental data load, to keep the records up to date with changes in the source tables.",
+  "source": "@site/docs/02-storage/lab-redshift-scd-2.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/lab-redshift-scd-2",
+  "permalink": "/docs/storage/lab-redshift-scd-2",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Redshift Ongoing Load - ELT",
+    "permalink": "/docs/storage/lab-redshift-ongoing-load-elt"
+  },
+  "next": {
+    "title": "Implement a slowly changing dimension in Redshift",
+    "permalink": "/docs/storage/lab-redshift-scd"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "orchestration/airflow/lab-airflow-email-notifications/README",
+  "id": "orchestration/airflow/lab-airflow-email-notifications/README",
+  "title": "Airflow Email Notifications",
+  "description": "1. Create AWS SES Identity with Email here.",
+  "source": "@site/docs/06-orchestration/airflow/lab-airflow-email-notifications/README.md",
+  "sourceDirName": "06-orchestration/airflow/lab-airflow-email-notifications",
+  "slug": "/orchestration/airflow/lab-airflow-email-notifications/",
+  "permalink": "/docs/orchestration/airflow/lab-airflow-email-notifications/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Airflow connection using Python",
+    "permalink": "/docs/orchestration/airflow/lab-airflow-conn-py/"
+  },
+  "next": {
+    "title": "Getting Started with Airflow",
+    "permalink": "/docs/orchestration/airflow/lab-airflow-getting-started/"
+  }
+}

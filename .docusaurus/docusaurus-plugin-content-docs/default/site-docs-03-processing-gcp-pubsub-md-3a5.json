@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/gcp-pubsub",
+  "id": "processing/gcp-pubsub",
+  "title": "Pub/Sub",
+  "description": "Introduction to Pub/Sub",
+  "source": "@site/docs/03-processing/gcp-pubsub.md",
+  "sourceDirName": "03-processing",
+  "slug": "/processing/gcp-pubsub",
+  "permalink": "/docs/processing/gcp-pubsub",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Dataproc",
+    "permalink": "/docs/processing/gcp-dataproc"
+  },
+  "next": {
+    "title": "Simple Data Pipeline with HDInsight",
+    "permalink": "/docs/processing/lab-azure-hdinsight-simple-data-processing/"
+  }
+}

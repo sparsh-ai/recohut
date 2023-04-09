@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/cloud/aws-containers",
+  "id": "foundations/cloud/aws-containers",
+  "title": "AWS Container Services",
+  "description": "1. Containers on AWS Overview: ECS | EKS | Fargate | ECR",
+  "source": "@site/docs/01-foundations/cloud/aws-containers.md",
+  "sourceDirName": "01-foundations/cloud",
+  "slug": "/foundations/cloud/aws-containers",
+  "permalink": "/docs/foundations/cloud/aws-containers",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "AWS Commands",
+    "permalink": "/docs/foundations/cloud/aws-commands"
+  },
+  "next": {
+    "title": "Azure Basics",
+    "permalink": "/docs/foundations/cloud/azure-basics"
+  }
+}

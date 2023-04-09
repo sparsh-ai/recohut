@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/data-engineering-foundations/data-quality",
+  "id": "foundations/data-engineering-foundations/data-quality",
+  "title": "Data Quality",
+  "description": "Do your product dashboards look funky? Are your quarterly reports stale? Is the data set you're using broken or just plain wrong? Have you ever been about to sign off after a long day running queries or building data pipelines only to get pinged by your head of marketing that “the data is missing” from a critical report? What about a frantic email from your CTO about “duplicate data” in a business intelligence dashboard? Or a memo from your CEO, the same one who is so bullish on data, about a confusing or inaccurate number in his latest board deck? If any of these situations hit home for you, you’re not alone. These problems affect almost every team, yet they're usually addressed on an ad hoc basis and in a reactive manner.",
+  "source": "@site/docs/01-foundations/02-data-engineering-foundations/data-quality.md",
+  "sourceDirName": "01-foundations/02-data-engineering-foundations",
+  "slug": "/foundations/data-engineering-foundations/data-quality",
+  "permalink": "/docs/foundations/data-engineering-foundations/data-quality",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data Pipelines",
+    "permalink": "/docs/foundations/data-engineering-foundations/data-pipelines"
+  },
+  "next": {
+    "title": "Data Storages",
+    "permalink": "/docs/foundations/data-engineering-foundations/data-storages"
+  }
+}

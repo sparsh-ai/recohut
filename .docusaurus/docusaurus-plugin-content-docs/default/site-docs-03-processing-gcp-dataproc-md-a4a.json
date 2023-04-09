@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/gcp-dataproc",
+  "id": "processing/gcp-dataproc",
+  "title": "Dataproc",
+  "description": "Running Hadoop on Dataproc",
+  "source": "@site/docs/03-processing/gcp-dataproc.md",
+  "sourceDirName": "03-processing",
+  "slug": "/processing/gcp-dataproc",
+  "permalink": "/docs/processing/gcp-dataproc",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dbt",
+    "permalink": "/docs/processing/dbt"
+  },
+  "next": {
+    "title": "Pub/Sub",
+    "permalink": "/docs/processing/gcp-pubsub"
+  }
+}

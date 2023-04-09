@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/lab-dbt-olist/README",
+  "id": "processing/lab-dbt-olist/README",
+  "title": "dbt Olist",
+  "description": "Objective",
+  "source": "@site/docs/03-processing/lab-dbt-olist/README.md",
+  "sourceDirName": "03-processing/lab-dbt-olist",
+  "slug": "/processing/lab-dbt-olist/",
+  "permalink": "/docs/processing/lab-dbt-olist/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "NYC Taxi Analtics and ELT Pipeline with dbt and Postgres",
+    "permalink": "/docs/processing/lab-dbt-nyctaxi-lookup/"
+  },
+  "next": {
+    "title": "stg_ecommerce",
+    "permalink": "/docs/processing/lab-dbt-olist/models/staging/olist/stg_ecommerce"
+  }
+}

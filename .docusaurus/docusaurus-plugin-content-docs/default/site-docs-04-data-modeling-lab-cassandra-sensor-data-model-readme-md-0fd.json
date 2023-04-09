@@ -1,0 +1,26 @@
+{
+  "unversionedId": "data-modeling/lab-cassandra-sensor-data-model/README",
+  "id": "data-modeling/lab-cassandra-sensor-data-model/README",
+  "title": "Create a Data Model for Temperature Monitoring Sensor Networks",
+  "description": "Conceptual Data Model",
+  "source": "@site/docs/04-data-modeling/lab-cassandra-sensor-data-model/README.md",
+  "sourceDirName": "04-data-modeling/lab-cassandra-sensor-data-model",
+  "slug": "/data-modeling/lab-cassandra-sensor-data-model/",
+  "permalink": "/docs/data-modeling/lab-cassandra-sensor-data-model/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Create a Data Model for Investment Accounts or Portfolios",
+    "permalink": "/docs/data-modeling/lab-cassandra-investment-data-model/"
+  },
+  "next": {
+    "title": "Create a Data Model for Online Shopping Carts",
+    "permalink": "/docs/data-modeling/lab-cassandra-shopping-cart-data-model/"
+  }
+}

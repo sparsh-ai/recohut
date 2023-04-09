@@ -1,0 +1,26 @@
+{
+  "unversionedId": "data-modeling/lab-sparkify-data-model-postgres/README",
+  "id": "data-modeling/lab-sparkify-data-model-postgres/README",
+  "title": "Sparkify Music Company Data Model in Postgres",
+  "description": "In this, we will model the data with Postgres and build an ETL pipeline using Python. The fact and dimension tables for a star database schema for a particular analytic focus is defined, and an ETL pipeline that transfers data from files in two local directories into these tables in Postgres using Python and SQL was developed.",
+  "source": "@site/docs/04-data-modeling/lab-sparkify-data-model-postgres/README.md",
+  "sourceDirName": "04-data-modeling/lab-sparkify-data-model-postgres",
+  "slug": "/data-modeling/lab-sparkify-data-model-postgres/",
+  "permalink": "/docs/data-modeling/lab-sparkify-data-model-postgres/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Sales Datamodel",
+    "permalink": "/docs/data-modeling/lab-sales-datamodel/"
+  },
+  "next": {
+    "title": "Normalization vs Denormalization",
+    "permalink": "/docs/data-modeling/normalization-vs-denormalization"
+  }
+}

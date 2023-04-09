@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/nlp/text-cleaning",
+  "id": "datascience/nlp/text-cleaning",
+  "title": "Text Cleaning",
+  "description": "",
+  "source": "@site/docs/10-datascience/nlp/text-cleaning.md",
+  "sourceDirName": "10-datascience/nlp",
+  "slug": "/datascience/nlp/text-cleaning",
+  "permalink": "/docs/datascience/nlp/text-cleaning",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Text Analysis",
+    "permalink": "/docs/datascience/nlp/text-analysis"
+  },
+  "next": {
+    "title": "Text Processing",
+    "permalink": "/docs/datascience/nlp/text-processing"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/programming-languages/sql/indexes",
+  "id": "foundations/programming-languages/sql/indexes",
+  "title": "Indexes",
+  "description": "An index is created by a table or view to define a field that can be used to optimize queries.",
+  "source": "@site/docs/01-foundations/04-programming-languages/sql/indexes.md",
+  "sourceDirName": "01-foundations/04-programming-languages/sql",
+  "slug": "/foundations/programming-languages/sql/indexes",
+  "permalink": "/docs/foundations/programming-languages/sql/indexes",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SQL IN",
+    "permalink": "/docs/foundations/programming-languages/sql/in"
+  },
+  "next": {
+    "title": "SQL IS NULL",
+    "permalink": "/docs/foundations/programming-languages/sql/isnull"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "visualization/streamlit/README",
+  "id": "visualization/streamlit/README",
+  "title": "Streamlit",
+  "description": "Amazon Fashion Recommender",
+  "source": "@site/docs/08-visualization/streamlit/README.md",
+  "sourceDirName": "08-visualization/streamlit",
+  "slug": "/visualization/streamlit/",
+  "permalink": "/docs/visualization/streamlit/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Setup Preset",
+    "permalink": "/docs/visualization/preset/"
+  },
+  "next": {
+    "title": "Decision Trees",
+    "permalink": "/docs/datascience/algorithms/decision-trees"
+  }
+}

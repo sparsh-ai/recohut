@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/lab-db2-bookshop-petsale-data-ingestion/README",
+  "id": "storage/lab-db2-bookshop-petsale-data-ingestion/README",
+  "title": "db2",
+  "description": "db2 BookShop and PetSale Data Ingestion and Stored Procedure",
+  "source": "@site/docs/02-storage/lab-db2-bookshop-petsale-data-ingestion/README.md",
+  "sourceDirName": "02-storage/lab-db2-bookshop-petsale-data-ingestion",
+  "slug": "/storage/lab-db2-bookshop-petsale-data-ingestion/",
+  "permalink": "/docs/storage/lab-db2-bookshop-petsale-data-ingestion/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data Lake on S3",
+    "permalink": "/docs/storage/lab-datalake-healthcare-s3-glue-athena/"
+  },
+  "next": {
+    "title": "Loading Taxi Data into Google Cloud SQL",
+    "permalink": "/docs/storage/lab-gcp-cloudsql-nyctaxi/"
+  }
+}

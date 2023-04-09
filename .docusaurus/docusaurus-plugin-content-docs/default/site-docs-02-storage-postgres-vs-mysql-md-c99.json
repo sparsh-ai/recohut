@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/postgres-vs-mysql",
+  "id": "storage/postgres-vs-mysql",
+  "title": "Postgres vs MySQL",
+  "description": "When it comes to choosing a relational database management system (RDBMS), two popular options are PostgreSQL and MySQL. Both have been around for decades and have proven to be highly reliable, secure, and scalable. However, they have different strengths and weaknesses that make one more suitable for certain use cases than the other.",
+  "source": "@site/docs/02-storage/postgres-vs-mysql.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/postgres-vs-mysql",
+  "permalink": "/docs/storage/postgres-vs-mysql",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Parquet",
+    "permalink": "/docs/storage/parquet"
+  },
+  "next": {
+    "title": "Postgres",
+    "permalink": "/docs/storage/postgres"
+  }
+}

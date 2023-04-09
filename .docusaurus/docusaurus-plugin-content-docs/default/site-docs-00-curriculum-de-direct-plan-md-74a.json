@@ -1,0 +1,26 @@
+{
+  "unversionedId": "curriculum/de-direct-plan",
+  "id": "curriculum/de-direct-plan",
+  "title": "Important details",
+  "description": "- Duration - 40 hrs (2 hrs per day classes x 20 sessions)",
+  "source": "@site/docs/00-curriculum/de-direct-plan.md",
+  "sourceDirName": "00-curriculum",
+  "slug": "/curriculum/de-direct-plan",
+  "permalink": "/docs/curriculum/de-direct-plan",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Curriculum - Data Engineering Training",
+    "permalink": "/docs/curriculum/de-dev"
+  },
+  "next": {
+    "title": "Curriculum - Data Engineering Training (GCP)",
+    "permalink": "/docs/curriculum/de-gcp-outline"
+  }
+}

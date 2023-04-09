@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/programming-languages/sql/performance-tuning",
+  "id": "foundations/programming-languages/sql/performance-tuning",
+  "title": "Performance Tuning",
+  "description": "SQL tuning is the process of improving SQL queries to accelerate your servers performance. It's general purpose is to reduce the amount of time it takes a user to receive a result after issuing a query, and to reduce the amount of resources used to process a query.",
+  "source": "@site/docs/01-foundations/04-programming-languages/sql/performance-tuning.md",
+  "sourceDirName": "01-foundations/04-programming-languages/sql",
+  "slug": "/foundations/programming-languages/sql/performance-tuning",
+  "permalink": "/docs/foundations/programming-languages/sql/performance-tuning",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SQL ORDER BY",
+    "permalink": "/docs/foundations/programming-languages/sql/orderby"
+  },
+  "next": {
+    "title": "SQL SELECT",
+    "permalink": "/docs/foundations/programming-languages/sql/select"
+  }
+}

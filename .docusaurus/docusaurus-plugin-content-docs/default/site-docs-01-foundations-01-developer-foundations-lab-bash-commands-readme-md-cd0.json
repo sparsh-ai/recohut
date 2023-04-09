@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/developer-foundations/lab-bash-commands/README",
+  "id": "foundations/developer-foundations/lab-bash-commands/README",
+  "title": "Lab: Learn Bash Commands",
+  "description": "- pwd: Display the current directory",
+  "source": "@site/docs/01-foundations/01-developer-foundations/lab-bash-commands/README.md",
+  "sourceDirName": "01-foundations/01-developer-foundations/lab-bash-commands",
+  "slug": "/foundations/developer-foundations/lab-bash-commands/",
+  "permalink": "/docs/foundations/developer-foundations/lab-bash-commands/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Install VS Code",
+    "permalink": "/docs/foundations/developer-foundations/install-vscode"
+  },
+  "next": {
+    "title": "Lab: Explore VS Code features",
+    "permalink": "/docs/foundations/developer-foundations/lab-explore-vscode-features"
+  }
+}

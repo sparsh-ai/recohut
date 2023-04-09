@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/lab-postgres-bash-etl/README",
+  "id": "storage/lab-postgres-bash-etl/README",
+  "title": "ETL with bash script",
+  "description": "Objective",
+  "source": "@site/docs/02-storage/lab-postgres-bash-etl/README.md",
+  "sourceDirName": "02-storage/lab-postgres-bash-etl",
+  "slug": "/storage/lab-postgres-bash-etl/",
+  "permalink": "/docs/storage/lab-postgres-bash-etl/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Police API Data Engineering Task",
+    "permalink": "/docs/storage/lab-mysql-police-api-etl/"
+  },
+  "next": {
+    "title": "Postgres Crime Reports",
+    "permalink": "/docs/storage/lab-postgres-crime-reports/"
+  }
+}

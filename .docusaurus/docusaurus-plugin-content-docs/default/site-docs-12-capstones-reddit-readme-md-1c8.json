@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/reddit/README",
+  "id": "capstones/reddit/README",
+  "title": "Reddit Submissions, Authors and Subreddits analysis",
+  "description": "Problem Statement",
+  "source": "@site/docs/12-capstones/reddit/README.md",
+  "sourceDirName": "12-capstones/reddit",
+  "slug": "/capstones/reddit/",
+  "permalink": "/docs/capstones/reddit/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Building Recommender System from Scratch",
+    "permalink": "/docs/capstones/recofront/"
+  },
+  "next": {
+    "title": "AWS Kafka and DynamoDB for real time fraud detection",
+    "permalink": "/docs/capstones/redshield/"
+  }
+}

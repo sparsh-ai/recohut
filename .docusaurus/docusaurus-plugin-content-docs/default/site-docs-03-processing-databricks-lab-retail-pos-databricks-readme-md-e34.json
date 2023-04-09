@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/databricks/lab-retail-pos-databricks/README",
+  "id": "processing/databricks/lab-retail-pos-databricks/README",
+  "title": "Real-Time Point-of-Sale Analytics With the Data Lakehouse",
+  "description": "Introduction",
+  "source": "@site/docs/03-processing/databricks/lab-retail-pos-databricks/README.md",
+  "sourceDirName": "03-processing/databricks/lab-retail-pos-databricks",
+  "slug": "/processing/databricks/lab-retail-pos-databricks/",
+  "permalink": "/docs/processing/databricks/lab-retail-pos-databricks/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Pyspark Itversity - Hadoop and Spark Hands-on Practical Exercises",
+    "permalink": "/docs/processing/databricks/lab-pyspark-itversity/"
+  },
+  "next": {
+    "title": "AdvancedBricks",
+    "permalink": "/docs/processing/databricks/project-advancedbricks/"
+  }
+}

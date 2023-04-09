@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/other/patent-analytics/REPORT",
+  "id": "capstones/other/patent-analytics/REPORT",
+  "title": "Patent Analytics Data Pipeline",
+  "description": "Introduction",
+  "source": "@site/docs/12-capstones/other/patent-analytics/REPORT.md",
+  "sourceDirName": "12-capstones/other/patent-analytics",
+  "slug": "/capstones/other/patent-analytics/REPORT",
+  "permalink": "/docs/capstones/other/patent-analytics/REPORT",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Patent Analytics Data Pipeline",
+    "permalink": "/docs/capstones/other/patent-analytics/"
+  },
+  "next": {
+    "title": "Getting Started",
+    "permalink": "/docs/capstones/other/patent-analytics/SETUP"
+  }
+}

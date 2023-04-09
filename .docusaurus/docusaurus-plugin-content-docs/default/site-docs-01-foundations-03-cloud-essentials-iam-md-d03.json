@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/cloud-essentials/iam",
+  "id": "foundations/cloud-essentials/iam",
+  "title": "IAM",
+  "description": "Securely manage identities and access to AWS services and resources",
+  "source": "@site/docs/01-foundations/03-cloud-essentials/iam.md",
+  "sourceDirName": "01-foundations/03-cloud-essentials",
+  "slug": "/foundations/cloud-essentials/iam",
+  "permalink": "/docs/foundations/cloud-essentials/iam",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Glue",
+    "permalink": "/docs/foundations/cloud-essentials/glue"
+  },
+  "next": {
+    "title": "AWS Secrets Manager",
+    "permalink": "/docs/foundations/cloud-essentials/lab-aws-secrets-manager/"
+  }
+}

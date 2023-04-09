@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/programming-languages/python/README",
+  "id": "foundations/programming-languages/python/README",
+  "title": "Python",
+  "description": "Concepts",
+  "source": "@site/docs/01-foundations/04-programming-languages/python/README.md",
+  "sourceDirName": "01-foundations/04-programming-languages/python",
+  "slug": "/foundations/programming-languages/python/",
+  "permalink": "/docs/foundations/programming-languages/python/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "What are UDFs in PySpark",
+    "permalink": "/docs/foundations/programming-languages/pyspark/udf"
+  },
+  "next": {
+    "title": "Introduction to Python",
+    "permalink": "/docs/foundations/programming-languages/python/introduction-to-python"
+  }
+}

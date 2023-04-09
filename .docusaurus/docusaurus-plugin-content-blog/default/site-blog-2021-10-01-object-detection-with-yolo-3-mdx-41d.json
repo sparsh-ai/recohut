@@ -1,0 +1,51 @@
+{
+  "permalink": "/blog/2021/10/01/object-detection-with-yolo3",
+  "source": "@site/blog/2021-10-01-object-detection-with-yolo3.mdx",
+  "title": "Object detection with YOLO3",
+  "description": "Live app",
+  "date": "2021-10-01T00:00:00.000Z",
+  "formattedDate": "October 1, 2021",
+  "tags": [
+    {
+      "label": "app",
+      "permalink": "/blog/tags/app"
+    },
+    {
+      "label": "streamlit",
+      "permalink": "/blog/tags/streamlit"
+    },
+    {
+      "label": "vision",
+      "permalink": "/blog/tags/vision"
+    }
+  ],
+  "readingTime": 1.975,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Sparsh Agarwal",
+      "title": "Data Scientist & Engineer",
+      "url": "https://github.com/sparsh-ai",
+      "email": "sprsag@gmail.com",
+      "imageURL": "https://github.com/sparsh-ai.png",
+      "key": "sparsh"
+    }
+  ],
+  "frontMatter": {
+    "title": "Object detection with YOLO3",
+    "authors": "sparsh",
+    "tags": [
+      "app",
+      "streamlit",
+      "vision"
+    ]
+  },
+  "prevItem": {
+    "title": "Object detection with OpenCV",
+    "permalink": "/blog/2021/10/01/object-detection-with-opencv"
+  },
+  "nextItem": {
+    "title": "OCR experiments",
+    "permalink": "/blog/2021/10/01/ocr-experiments"
+  }
+}

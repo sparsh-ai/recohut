@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/deep-learning/deep-learning-basics",
+  "id": "datascience/deep-learning/deep-learning-basics",
+  "title": "Deep Learning Basics",
+  "description": "What is Deep Learning?",
+  "source": "@site/docs/10-datascience/deep-learning/deep-learning-basics.md",
+  "sourceDirName": "10-datascience/deep-learning",
+  "slug": "/datascience/deep-learning/deep-learning-basics",
+  "permalink": "/docs/datascience/deep-learning/deep-learning-basics",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data Splits",
+    "permalink": "/docs/datascience/data-splits"
+  },
+  "next": {
+    "title": "The Rosenblatt Perceptron",
+    "permalink": "/docs/datascience/deep-learning/perceptron"
+  }
+}

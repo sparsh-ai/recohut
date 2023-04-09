@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/other/equitize/README",
+  "id": "capstones/other/equitize/README",
+  "title": "Equitize Data Migration",
+  "description": "Financial Data Extraction and Storage",
+  "source": "@site/docs/12-capstones/other/equitize/README.md",
+  "sourceDirName": "12-capstones/other/equitize",
+  "slug": "/capstones/other/equitize/",
+  "permalink": "/docs/capstones/other/equitize/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "paas-data-ingestion",
+    "permalink": "/docs/capstones/other/data-ingestion-pulumi-lambda-snowflake/"
+  },
+  "next": {
+    "title": "Build an ELT pipeline with NYC Taxi dataset",
+    "permalink": "/docs/capstones/other/fireflow/"
+  }
+}

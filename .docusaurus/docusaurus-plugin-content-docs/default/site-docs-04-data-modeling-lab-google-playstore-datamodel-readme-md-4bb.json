@@ -1,0 +1,26 @@
+{
+  "unversionedId": "data-modeling/lab-google-playstore-datamodel/README",
+  "id": "data-modeling/lab-google-playstore-datamodel/README",
+  "title": "Google Platstore Data Modeling",
+  "description": "Objective",
+  "source": "@site/docs/04-data-modeling/lab-google-playstore-datamodel/README.md",
+  "sourceDirName": "04-data-modeling/lab-google-playstore-datamodel",
+  "slug": "/data-modeling/lab-google-playstore-datamodel/",
+  "permalink": "/docs/data-modeling/lab-google-playstore-datamodel/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Postgres Pagila",
+    "permalink": "/docs/data-modeling/lab-dvd-rental-datamodel/"
+  },
+  "next": {
+    "title": "Inegi Snowflake Datamodel",
+    "permalink": "/docs/data-modeling/lab-inegi-snowflake-datamodel/"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "data-modeling/lab-cars-mysql-datamodel/datamodel-cars",
+  "id": "data-modeling/lab-cars-mysql-datamodel/datamodel-cars",
+  "title": "Cars Data Modeling MySQL",
+  "description": "ETL, data modeling and Data quality runs on cars and dealership dataset",
+  "source": "@site/docs/04-data-modeling/lab-cars-mysql-datamodel/datamodel-cars.md",
+  "sourceDirName": "04-data-modeling/lab-cars-mysql-datamodel",
+  "slug": "/data-modeling/lab-cars-mysql-datamodel/datamodel-cars",
+  "permalink": "/docs/data-modeling/lab-cars-mysql-datamodel/datamodel-cars",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "AirBnB Postgres Datamodel",
+    "permalink": "/docs/data-modeling/lab-airbnb-postgres-datamodel/"
+  },
+  "next": {
+    "title": "Create a Data Model for a Digital Music Library",
+    "permalink": "/docs/data-modeling/lab-cassandra-digital-music-library/"
+  }
+}

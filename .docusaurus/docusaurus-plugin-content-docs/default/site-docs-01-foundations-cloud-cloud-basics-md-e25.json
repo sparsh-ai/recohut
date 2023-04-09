@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/cloud/cloud-basics",
+  "id": "foundations/cloud/cloud-basics",
+  "title": "Cloud Computing Basics",
+  "description": "What is Cloud Computing?",
+  "source": "@site/docs/01-foundations/cloud/cloud-basics.md",
+  "sourceDirName": "01-foundations/cloud",
+  "slug": "/foundations/cloud/cloud-basics",
+  "permalink": "/docs/foundations/cloud/cloud-basics",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Azure Full-stack Solutions",
+    "permalink": "/docs/foundations/cloud/azure-fullstack-solutions"
+  },
+  "next": {
+    "title": "Comparison of Cloud Services",
+    "permalink": "/docs/foundations/cloud/cloud-comparison"
+  }
+}

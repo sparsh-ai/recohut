@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/citibike-trip-histories/README",
+  "id": "capstones/citibike-trip-histories/README",
+  "title": "Citi Bike Trip Histories",
+  "description": "The goal of this capstone is to build an end-to-end data pipeline:",
+  "source": "@site/docs/12-capstones/citibike-trip-histories/README.md",
+  "sourceDirName": "12-capstones/citibike-trip-histories",
+  "slug": "/capstones/citibike-trip-histories/",
+  "permalink": "/docs/capstones/citibike-trip-histories/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ACLED",
+    "permalink": "/docs/capstones/acled/"
+  },
+  "next": {
+    "title": "Air Pollution Pipeline",
+    "permalink": "/docs/capstones/city-pollution/"
+  }
+}

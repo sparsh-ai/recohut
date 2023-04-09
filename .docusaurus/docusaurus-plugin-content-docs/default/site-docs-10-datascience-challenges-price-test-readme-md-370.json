@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/challenges/price-test/README",
+  "id": "datascience/challenges/price-test/README",
+  "title": "README",
+  "description": "https://www.kaggle.com/code/ffxiaozhi/data-science-take-home-challenges-pricing-test",
+  "source": "@site/docs/10-datascience/challenges/price-test/README.md",
+  "sourceDirName": "10-datascience/challenges/price-test",
+  "slug": "/datascience/challenges/price-test/",
+  "permalink": "/docs/datascience/challenges/price-test/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "README",
+    "permalink": "/docs/datascience/challenges/marketing-email-campaign/"
+  },
+  "next": {
+    "title": "README",
+    "permalink": "/docs/datascience/challenges/translate-ab-test/"
+  }
+}

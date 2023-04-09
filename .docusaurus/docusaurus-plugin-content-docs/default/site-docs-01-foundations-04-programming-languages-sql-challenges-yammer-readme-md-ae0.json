@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/programming-languages/sql/challenges/yammer/README",
+  "id": "foundations/programming-languages/sql/challenges/yammer/README",
+  "title": "Yammer Analytics",
+  "description": "Yammer is a social network for communicating with coworkers. Individuals share documents, updates, and ideas by posting them in groups. Yammer is free to use indefinitely, but companies must pay license fees if they want access to administrative controls, including integration with user management systems like ActiveDirectory.",
+  "source": "@site/docs/01-foundations/04-programming-languages/sql/challenges/yammer/README.md",
+  "sourceDirName": "01-foundations/04-programming-languages/sql/challenges/yammer",
+  "slug": "/foundations/programming-languages/sql/challenges/yammer/",
+  "permalink": "/docs/foundations/programming-languages/sql/challenges/yammer/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Challenge - Employee Analytics",
+    "permalink": "/docs/foundations/programming-languages/sql/challenges/employee"
+  },
+  "next": {
+    "title": "Comments",
+    "permalink": "/docs/foundations/programming-languages/sql/comments"
+  }
+}

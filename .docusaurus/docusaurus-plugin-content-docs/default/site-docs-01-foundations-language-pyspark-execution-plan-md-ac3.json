@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/language/pyspark/execution-plan",
+  "id": "foundations/language/pyspark/execution-plan",
+  "title": "Spark Execution Plan",
+  "description": "Spark uses a query optimizer known as Catalyst to optimize the execution plan of Spark jobs. The execution plan is a representation of the physical execution of a query and it can be used to understand how Spark is processing data.",
+  "source": "@site/docs/01-foundations/language/pyspark/execution-plan.md",
+  "sourceDirName": "01-foundations/language/pyspark",
+  "slug": "/foundations/language/pyspark/execution-plan",
+  "permalink": "/docs/foundations/language/pyspark/execution-plan",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "PySpark DataFrame",
+    "permalink": "/docs/foundations/language/pyspark/dataframe"
+  },
+  "next": {
+    "title": "Installing Spark",
+    "permalink": "/docs/foundations/language/pyspark/install"
+  }
+}

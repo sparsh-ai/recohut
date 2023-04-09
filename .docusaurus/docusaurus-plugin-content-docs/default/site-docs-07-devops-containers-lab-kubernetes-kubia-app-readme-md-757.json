@@ -1,0 +1,26 @@
+{
+  "unversionedId": "devops/containers/lab-kubernetes-kubia-app/README",
+  "id": "devops/containers/lab-kubernetes-kubia-app/README",
+  "title": "Deploying a NodeJS app in Kubernetes",
+  "description": "NodeJS App",
+  "source": "@site/docs/07-devops/containers/lab-kubernetes-kubia-app/README.md",
+  "sourceDirName": "07-devops/containers/lab-kubernetes-kubia-app",
+  "slug": "/devops/containers/lab-kubernetes-kubia-app/",
+  "permalink": "/docs/devops/containers/lab-kubernetes-kubia-app/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Deploy Docker in ECS",
+    "permalink": "/docs/devops/containers/lab-deploy-simple-docker-ecs/"
+  },
+  "next": {
+    "title": "FastAPI",
+    "permalink": "/docs/devops/fastapi/"
+  }
+}

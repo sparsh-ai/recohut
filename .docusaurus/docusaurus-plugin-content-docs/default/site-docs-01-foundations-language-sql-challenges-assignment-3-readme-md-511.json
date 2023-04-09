@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/language/sql/challenges/assignment3/README",
+  "id": "foundations/language/sql/challenges/assignment3/README",
+  "title": "SQL Assignment",
+  "description": "Part 1: Deforestation Exploration",
+  "source": "@site/docs/01-foundations/language/sql/challenges/assignment3/README.md",
+  "sourceDirName": "01-foundations/language/sql/challenges/assignment3",
+  "slug": "/foundations/language/sql/challenges/assignment3/",
+  "permalink": "/docs/foundations/language/sql/challenges/assignment3/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SQL Assignment",
+    "permalink": "/docs/foundations/language/sql/challenges/assignment2/"
+  },
+  "next": {
+    "title": "SQL Assignment",
+    "permalink": "/docs/foundations/language/sql/challenges/assignment4/"
+  }
+}

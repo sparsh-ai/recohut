@@ -1,0 +1,26 @@
+{
+  "unversionedId": "orchestration/README",
+  "id": "orchestration/README",
+  "title": "Orchestration",
+  "description": "Workflow orchestration tools are software platforms that help organizations manage and automate complex business processes across different systems and teams. These tools allow businesses to define, schedule, monitor, and manage workflows, which can help streamline operations, reduce errors, and increase productivity.",
+  "source": "@site/docs/06-orchestration/README.md",
+  "sourceDirName": "06-orchestration",
+  "slug": "/orchestration/",
+  "permalink": "/docs/orchestration/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Financial Data Extraction and Storage",
+    "permalink": "/docs/extraction/webscraping/lab-finance-extract-load/"
+  },
+  "next": {
+    "title": "Airflow",
+    "permalink": "/docs/orchestration/airflow/"
+  }
+}

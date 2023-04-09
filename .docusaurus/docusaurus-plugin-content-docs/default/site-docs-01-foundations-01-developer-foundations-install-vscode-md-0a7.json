@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/developer-foundations/install-vscode",
+  "id": "foundations/developer-foundations/install-vscode",
+  "title": "Install VS Code",
+  "description": "1. Follow this guide to install VS code in your system. Alternatively, go to https://code.visualstudio.com/download and download the VS Code",
+  "source": "@site/docs/01-foundations/01-developer-foundations/install-vscode.md",
+  "sourceDirName": "01-foundations/01-developer-foundations",
+  "slug": "/foundations/developer-foundations/install-vscode",
+  "permalink": "/docs/foundations/developer-foundations/install-vscode",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Install Jupyter Notebook",
+    "permalink": "/docs/foundations/developer-foundations/install-jupyter"
+  },
+  "next": {
+    "title": "Lab: Learn Bash Commands",
+    "permalink": "/docs/foundations/developer-foundations/lab-bash-commands/"
+  }
+}

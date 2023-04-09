@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/databricks/lab-pyspark-itversity/README",
+  "id": "processing/databricks/lab-pyspark-itversity/README",
+  "title": "Pyspark Itversity - Hadoop and Spark Hands-on Practical Exercises",
+  "description": "References",
+  "source": "@site/docs/03-processing/databricks/lab-pyspark-itversity/README.md",
+  "sourceDirName": "03-processing/databricks/lab-pyspark-itversity",
+  "slug": "/processing/databricks/lab-pyspark-itversity/",
+  "permalink": "/docs/processing/databricks/lab-pyspark-itversity/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Simplifying Data Engineering and Analytics with Delta",
+    "permalink": "/docs/processing/databricks/lab-loan-application/"
+  },
+  "next": {
+    "title": "Real-Time Point-of-Sale Analytics With the Data Lakehouse",
+    "permalink": "/docs/processing/databricks/lab-retail-pos-databricks/"
+  }
+}

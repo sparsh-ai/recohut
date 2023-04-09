@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/gcp-cloudsql",
+  "id": "storage/gcp-cloudsql",
+  "title": "GCP CloudSQL",
+  "description": "CloudSQL is a fully managed relational database service for MySQL, PostgreSQL, and SQL Server with rich extension collections, configuration flags, and developer ecosystems.",
+  "source": "@site/docs/02-storage/gcp-cloudsql.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/gcp-cloudsql",
+  "permalink": "/docs/storage/gcp-cloudsql",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "BigTable",
+    "permalink": "/docs/storage/gcp-bigtable"
+  },
+  "next": {
+    "title": "Google Cloud Storage (GCS)",
+    "permalink": "/docs/storage/gcs"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/xml",
+  "id": "storage/xml",
+  "title": "XML",
+  "description": "Extensible Markup Language (XML) was popular when HTML and the internet were new, but it is now viewed as legacy; it is generally slow to deserialize and serialize for data engineering applications. XML is another standard that data engineers are often forced to interact with as they exchange data with legacy systems and software. JSON has largely replaced XML for plain-text object serialization.",
+  "source": "@site/docs/02-storage/xml.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/xml",
+  "permalink": "/docs/storage/xml",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Why we need Data Lakes?",
+    "permalink": "/docs/storage/why-datalakes"
+  },
+  "next": {
+    "title": "Apache Beam",
+    "permalink": "/docs/processing/apache-beam"
+  }
+}

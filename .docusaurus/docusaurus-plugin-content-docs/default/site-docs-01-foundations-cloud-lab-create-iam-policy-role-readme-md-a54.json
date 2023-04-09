@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/cloud/lab-create-iam-policy-role/README",
+  "id": "foundations/cloud/lab-create-iam-policy-role/README",
+  "title": "Create IAM Role and Policy",
+  "description": "In this lab, we will learn about AWS IAM service. We will perform the following activities:",
+  "source": "@site/docs/01-foundations/cloud/lab-create-iam-policy-role/README.md",
+  "sourceDirName": "01-foundations/cloud/lab-create-iam-policy-role",
+  "slug": "/foundations/cloud/lab-create-iam-policy-role/",
+  "permalink": "/docs/foundations/cloud/lab-create-iam-policy-role/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "README",
+    "permalink": "/docs/foundations/cloud/lab-aws-setup/"
+  },
+  "next": {
+    "title": "Create Your First Amazon EC2 Instance (Linux)",
+    "permalink": "/docs/foundations/cloud/lab-create-your-first-ec2-instance-linux/"
+  }
+}

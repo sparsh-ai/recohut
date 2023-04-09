@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/lab-azure-synapse-implementing-star-schema/README",
+  "id": "processing/lab-azure-synapse-implementing-star-schema/README",
+  "title": "Implementing the Serving Layer Star Schema",
+  "description": "In this lab, we will learn about implementing the serving layer, which involves implementing star schemas, techniques to read and write different data formats, sharing data between services such as SQL and Spark, and more. Once you complete this lab, you should be able to understand the differences between a Synapse dedicated SQL pool versus traditional SQL systems for implementing the Star schema, the various ways of accessing Parquet data using technologies such as Spark and SQL, and the details involved in storing metadata across services. All this knowledge should help you build a practical and maintainable serving layer in a data lake.",
+  "source": "@site/docs/03-processing/lab-azure-synapse-implementing-star-schema/README.md",
+  "sourceDirName": "03-processing/lab-azure-synapse-implementing-star-schema",
+  "slug": "/processing/lab-azure-synapse-implementing-star-schema/",
+  "permalink": "/docs/processing/lab-azure-synapse-implementing-star-schema/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Transforming Data Using Azure Synapse Dataflows",
+    "permalink": "/docs/processing/lab-azure-synapse-dataflows/"
+  },
+  "next": {
+    "title": "Real-time CDC-enabled Extract and Load Pipeline with Kafka on Cloud",
+    "permalink": "/docs/processing/lab-confluent-kafka-faker/"
+  }
+}

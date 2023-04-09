@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/lab-postgres-trips-stored-procedure/README",
+  "id": "storage/lab-postgres-trips-stored-procedure/README",
+  "title": "Generate Trips Data using Stored Procedure",
+  "description": "- Step 1 - Connect to the database",
+  "source": "@site/docs/02-storage/lab-postgres-trips-stored-procedure/README.md",
+  "sourceDirName": "02-storage/lab-postgres-trips-stored-procedure",
+  "slug": "/storage/lab-postgres-trips-stored-procedure/",
+  "permalink": "/docs/storage/lab-postgres-trips-stored-procedure/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Getting Started with Postgres",
+    "permalink": "/docs/storage/lab-postgres-getting-started/"
+  },
+  "next": {
+    "title": "JSON Data Processing",
+    "permalink": "/docs/storage/lab-processing-json-data/"
+  }
+}

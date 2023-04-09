@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/lab-redshift-table-design-query-tuning",
+  "id": "storage/lab-redshift-table-design-query-tuning",
+  "title": "Redshift Table Design and Query Tuning",
+  "description": "1. Setting distribution and sort keys",
+  "source": "@site/docs/02-storage/lab-redshift-table-design-query-tuning.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/lab-redshift-table-design-query-tuning",
+  "permalink": "/docs/storage/lab-redshift-table-design-query-tuning",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Redshift Spectrum Query Tuning",
+    "permalink": "/docs/storage/lab-redshift-spectrum-query-tuning"
+  },
+  "next": {
+    "title": "Lab: Implement slowly changing dimensions in a data lake using AWS Glue and Delta",
+    "permalink": "/docs/storage/lab-scd-glue-delta/"
+  }
+}

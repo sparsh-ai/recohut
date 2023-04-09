@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/lab-snowpark-jafflepark/models/docs",
+  "id": "processing/lab-snowpark-jafflepark/models/docs",
+  "title": "docs",
+  "description": "{% docs orders_status %}",
+  "source": "@site/docs/03-processing/lab-snowpark-jafflepark/models/docs.md",
+  "sourceDirName": "03-processing/lab-snowpark-jafflepark/models",
+  "slug": "/processing/lab-snowpark-jafflepark/models/docs",
+  "permalink": "/docs/processing/lab-snowpark-jafflepark/models/docs",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Jaffle Shop Modeling with Snowpark",
+    "permalink": "/docs/processing/lab-snowpark-jafflepark/"
+  },
+  "next": {
+    "title": "Knoema Regression Model with Snowpark",
+    "permalink": "/docs/processing/lab-snowpark-knoema-regression/"
+  }
+}

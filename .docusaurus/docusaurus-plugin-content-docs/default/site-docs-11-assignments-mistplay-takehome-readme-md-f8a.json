@@ -1,0 +1,26 @@
+{
+  "unversionedId": "assignments/mistplay-takehome/README",
+  "id": "assignments/mistplay-takehome/README",
+  "title": "Mistplay Data Engineer Take Home Challenge",
+  "description": "This is an exercise for you to demonstrate your design and implementation skills to solve a typical data engineering problem.",
+  "source": "@site/docs/11-assignments/mistplay-takehome/README.md",
+  "sourceDirName": "11-assignments/mistplay-takehome",
+  "slug": "/assignments/mistplay-takehome/",
+  "permalink": "/docs/assignments/mistplay-takehome/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Logsense",
+    "permalink": "/docs/assignments/logsense/"
+  },
+  "next": {
+    "title": "Reading data from MySQL in CSV and saving into S3",
+    "permalink": "/docs/assignments/mysql-s3-incremental/"
+  }
+}

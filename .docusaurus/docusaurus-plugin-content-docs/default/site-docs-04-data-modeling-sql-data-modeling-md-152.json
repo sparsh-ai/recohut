@@ -1,0 +1,26 @@
+{
+  "unversionedId": "data-modeling/sql-data-modeling",
+  "id": "data-modeling/sql-data-modeling",
+  "title": "SQL Data Modeling",
+  "description": "What is data modeling? Data modeling is a process for representing the database objects in our real-world or business perspective. Objects in warehouses can be datasets, tables, or views. Representing the objects as close as possible to the real world is important because the end users of the data are human. Some of the most common end users are business analysts, data analysts, data scientists, BI users, or any other roles that require access to the data for business purposes.",
+  "source": "@site/docs/04-data-modeling/sql-data-modeling.md",
+  "sourceDirName": "04-data-modeling",
+  "slug": "/data-modeling/sql-data-modeling",
+  "permalink": "/docs/data-modeling/sql-data-modeling",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Quiz",
+    "permalink": "/docs/data-modeling/quiz"
+  },
+  "next": {
+    "title": "Data Extraction",
+    "permalink": "/docs/extraction/"
+  }
+}

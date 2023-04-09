@@ -1,0 +1,26 @@
+{
+  "unversionedId": "orchestration/airflow/lab-forex-etl/README",
+  "id": "orchestration/airflow/lab-forex-etl/README",
+  "title": "Airflow Forex ETL",
+  "description": "The ETL process will extract data from fixer.io API, transform it, and load it to a PostgreSQL database. This project aims to have an automated process that constantly feeds the PostgreSQL database with data.",
+  "source": "@site/docs/06-orchestration/airflow/lab-forex-etl/README.md",
+  "sourceDirName": "06-orchestration/airflow/lab-forex-etl",
+  "slug": "/orchestration/airflow/lab-forex-etl/",
+  "permalink": "/docs/orchestration/airflow/lab-forex-etl/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Bike Sharing Service Data Pipeline",
+    "permalink": "/docs/orchestration/airflow/lab-bike-sharing-service-pipeline/"
+  },
+  "next": {
+    "title": "IMDB data procesing and Airflow pipeline",
+    "permalink": "/docs/orchestration/airflow/lab-imdb-spark-etl/"
+  }
+}

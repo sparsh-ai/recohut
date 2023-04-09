@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/smartcity/firehose/README",
+  "id": "capstones/smartcity/firehose/README",
+  "title": "Amazon Kinesis Data Firehose",
+  "description": "Description of files",
+  "source": "@site/docs/12-capstones/smartcity/02-firehose/README.md",
+  "sourceDirName": "12-capstones/smartcity/02-firehose",
+  "slug": "/capstones/smartcity/firehose/",
+  "permalink": "/docs/capstones/smartcity/firehose/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Amazon Kinesis Data Streams",
+    "permalink": "/docs/capstones/smartcity/dataStream/"
+  },
+  "next": {
+    "title": "Welcome to your CDK Python project!",
+    "permalink": "/docs/capstones/smartcity/analytics/flink-cdk/"
+  }
+}

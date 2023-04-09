@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/lab-kafka-cli/README",
+  "id": "processing/lab-kafka-cli/README",
+  "title": "Getting started with Kafka and CLI",
+  "description": "",
+  "source": "@site/docs/03-processing/lab-kafka-cli/README.md",
+  "sourceDirName": "03-processing/lab-kafka-cli",
+  "slug": "/processing/lab-kafka-cli/",
+  "permalink": "/docs/processing/lab-kafka-cli/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tickets ETL with Glue Studio",
+    "permalink": "/docs/processing/lab-glue-studio-tickets/"
+  },
+  "next": {
+    "title": "Real-time fraud detection by applying filter in Kafka topic",
+    "permalink": "/docs/processing/lab-kafka-fraud-detection/"
+  }
+}

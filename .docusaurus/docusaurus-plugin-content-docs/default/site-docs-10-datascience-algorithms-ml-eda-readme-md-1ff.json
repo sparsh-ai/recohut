@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/algorithms/ml-eda/README",
+  "id": "datascience/algorithms/ml-eda/README",
+  "title": "ml-eda",
+  "description": "",
+  "source": "@site/docs/10-datascience/algorithms/ml-eda/README.md",
+  "sourceDirName": "10-datascience/algorithms/ml-eda",
+  "slug": "/datascience/algorithms/ml-eda/",
+  "permalink": "/docs/datascience/algorithms/ml-eda/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Logistic Regression",
+    "permalink": "/docs/datascience/algorithms/logistic-regression"
+  },
+  "next": {
+    "title": "README",
+    "permalink": "/docs/datascience/algorithms/ml-eda/variable-distribution-analysis/"
+  }
+}

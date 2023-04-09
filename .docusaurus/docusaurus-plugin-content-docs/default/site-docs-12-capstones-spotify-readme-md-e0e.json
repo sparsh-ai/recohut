@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/spotify/README",
+  "id": "capstones/spotify/README",
+  "title": "Spotify",
+  "description": "Implement Complete Data Pipeline Data Engineering Project using Spotify",
+  "source": "@site/docs/12-capstones/spotify/README.md",
+  "sourceDirName": "12-capstones/spotify",
+  "slug": "/capstones/spotify/",
+  "permalink": "/docs/capstones/spotify/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Sparkify",
+    "permalink": "/docs/capstones/sparkify/"
+  },
+  "next": {
+    "title": "Twitter data Topic Analysis and Realtime Sentiment Analysis",
+    "permalink": "/docs/capstones/twitter-sentiment-glue/"
+  }
+}

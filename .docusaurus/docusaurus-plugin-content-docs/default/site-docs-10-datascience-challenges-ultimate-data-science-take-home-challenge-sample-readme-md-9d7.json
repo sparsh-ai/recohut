@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/challenges/Ultimate-data-science-take-home-challenge-sample/README",
+  "id": "datascience/challenges/Ultimate-data-science-take-home-challenge-sample/README",
+  "title": "Ultimate Data Science Take Home Challenge Sample",
+  "description": "A practice challenge for the DS interview process",
+  "source": "@site/docs/10-datascience/challenges/Ultimate-data-science-take-home-challenge-sample/README.md",
+  "sourceDirName": "10-datascience/challenges/Ultimate-data-science-take-home-challenge-sample",
+  "slug": "/datascience/challenges/Ultimate-data-science-take-home-challenge-sample/",
+  "permalink": "/docs/datascience/challenges/Ultimate-data-science-take-home-challenge-sample/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Challenges",
+    "permalink": "/docs/datascience/challenges/"
+  },
+  "next": {
+    "title": "README",
+    "permalink": "/docs/datascience/challenges/conversion-rate/"
+  }
+}

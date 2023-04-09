@@ -1,0 +1,41 @@
+{
+  "permalink": "/blog/2021/10/01/personalized-unexpectedness-in-recommender-systems",
+  "source": "@site/blog/2021-10-01-personalized-unexpectedness-in-recommender-systems.mdx",
+  "title": "Personalized Unexpectedness in  Recommender Systems",
+  "description": "Classical recommender systems typically provides familier items, which not only bores customer after some time, but create a critical bias problem also, generally known as filter bubble or echo chamber problem.",
+  "date": "2021-10-01T00:00:00.000Z",
+  "formattedDate": "October 1, 2021",
+  "tags": [
+    {
+      "label": "personalization",
+      "permalink": "/blog/tags/personalization"
+    }
+  ],
+  "readingTime": 2.96,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Sparsh Agarwal",
+      "title": "Data Scientist & Engineer",
+      "url": "https://github.com/sparsh-ai",
+      "email": "sprsag@gmail.com",
+      "imageURL": "https://github.com/sparsh-ai.png",
+      "key": "sparsh"
+    }
+  ],
+  "frontMatter": {
+    "title": "Personalized Unexpectedness in  Recommender Systems",
+    "authors": "sparsh",
+    "tags": [
+      "personalization"
+    ]
+  },
+  "prevItem": {
+    "title": "PDF to Wordcloud via Mail",
+    "permalink": "/blog/2021/10/01/pdf-to-wordcloud-via-mail"
+  },
+  "nextItem": {
+    "title": "Predicting Electronics Resale Price",
+    "permalink": "/blog/2021/10/01/predicting-electronics-resale-price"
+  }
+}

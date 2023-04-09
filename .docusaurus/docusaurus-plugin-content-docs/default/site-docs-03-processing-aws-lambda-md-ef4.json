@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/aws-lambda",
+  "id": "processing/aws-lambda",
+  "title": "AWS Lambda",
+  "description": "Lambda Function",
+  "source": "@site/docs/03-processing/aws-lambda.md",
+  "sourceDirName": "03-processing",
+  "slug": "/processing/aws-lambda",
+  "permalink": "/docs/processing/aws-lambda",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Snippets related to Lambda function",
+    "permalink": "/docs/processing/aws-lambda-snippets"
+  },
+  "next": {
+    "title": "Azure Synapse Analytics",
+    "permalink": "/docs/processing/azure-synapse-analytics"
+  }
+}

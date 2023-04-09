@@ -1,0 +1,26 @@
+{
+  "unversionedId": "a1-interviewprep/basic-technical-questions",
+  "id": "a1-interviewprep/basic-technical-questions",
+  "title": "Basic Technical Questions",
+  "description": "Interviewers use easy technical questions designed to weed out candidates without the right experience. This question assesses your experience level, comfort with specific tools, and the depth of your domain expertise. Basic technical questions include:",
+  "source": "@site/docs/a1-interviewprep/basic-technical-questions.md",
+  "sourceDirName": "a1-interviewprep",
+  "slug": "/a1-interviewprep/basic-technical-questions",
+  "permalink": "/docs/a1-interviewprep/basic-technical-questions",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Azure Data Engineering",
+    "permalink": "/docs/a1-interviewprep/azure-data-engineering"
+  },
+  "next": {
+    "title": "Behavioral Interview Questions",
+    "permalink": "/docs/a1-interviewprep/behavioral-interview-questions"
+  }
+}

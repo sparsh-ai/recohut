@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/cloud/lab-create-your-first-vpc/README",
+  "id": "foundations/cloud/lab-create-your-first-vpc/README",
+  "title": "Introduction to Virtual Private Cloud (VPC)",
+  "description": "Description",
+  "source": "@site/docs/01-foundations/cloud/lab-create-your-first-vpc/README.md",
+  "sourceDirName": "01-foundations/cloud/lab-create-your-first-vpc",
+  "slug": "/foundations/cloud/lab-create-your-first-vpc/",
+  "permalink": "/docs/foundations/cloud/lab-create-your-first-vpc/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Create Your First Amazon EC2 Instance (Linux)",
+    "permalink": "/docs/foundations/cloud/lab-create-your-first-ec2-instance-linux/"
+  },
+  "next": {
+    "title": "RDS",
+    "permalink": "/docs/foundations/cloud/rds"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "assignments/bellabeat-analysis/README",
+  "id": "assignments/bellabeat-analysis/README",
+  "title": "Bellabeat Case Study",
+  "description": "How can a wellness company play it smart?",
+  "source": "@site/docs/11-assignments/bellabeat-analysis/README.md",
+  "sourceDirName": "11-assignments/bellabeat-analysis",
+  "slug": "/assignments/bellabeat-analysis/",
+  "permalink": "/docs/assignments/bellabeat-analysis/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Assignments",
+    "permalink": "/docs/assignments/"
+  },
+  "next": {
+    "title": "Cyclistic Case Study",
+    "permalink": "/docs/assignments/cyclistic-analysis/"
+  }
+}

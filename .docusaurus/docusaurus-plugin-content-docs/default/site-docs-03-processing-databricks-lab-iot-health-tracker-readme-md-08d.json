@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/databricks/lab-iot-health-tracker/README",
+  "id": "processing/databricks/lab-iot-health-tracker/README",
+  "title": "Real-time Health Tracking and Monitoring System",
+  "description": "What you'll build",
+  "source": "@site/docs/03-processing/databricks/lab-iot-health-tracker/README.md",
+  "sourceDirName": "03-processing/databricks/lab-iot-health-tracker",
+  "slug": "/processing/databricks/lab-iot-health-tracker/",
+  "permalink": "/docs/processing/databricks/lab-iot-health-tracker/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Unlocking the Power of Health Data With a Modern Data Lakehouse",
+    "permalink": "/docs/processing/databricks/lab-healthcare-databricks/"
+  },
+  "next": {
+    "title": "Simplifying Data Engineering and Analytics with Delta",
+    "permalink": "/docs/processing/databricks/lab-loan-application/"
+  }
+}

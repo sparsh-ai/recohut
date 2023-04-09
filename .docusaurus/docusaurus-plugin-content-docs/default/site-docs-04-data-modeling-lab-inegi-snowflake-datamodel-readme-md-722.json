@@ -1,0 +1,26 @@
+{
+  "unversionedId": "data-modeling/lab-inegi-snowflake-datamodel/README",
+  "id": "data-modeling/lab-inegi-snowflake-datamodel/README",
+  "title": "Inegi Snowflake Datamodel",
+  "description": "National Institute of Statistics and Geography",
+  "source": "@site/docs/04-data-modeling/lab-inegi-snowflake-datamodel/README.md",
+  "sourceDirName": "04-data-modeling/lab-inegi-snowflake-datamodel",
+  "slug": "/data-modeling/lab-inegi-snowflake-datamodel/",
+  "permalink": "/docs/data-modeling/lab-inegi-snowflake-datamodel/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Google Platstore Data Modeling",
+    "permalink": "/docs/data-modeling/lab-google-playstore-datamodel/"
+  },
+  "next": {
+    "title": "Data Modeling",
+    "permalink": "/docs/data-modeling/lab-mysql-northwind-datamodel/"
+  }
+}

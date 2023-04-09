@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/programming-languages/pyspark/partitioning",
+  "id": "foundations/programming-languages/pyspark/partitioning",
+  "title": "Partitioning",
+  "description": "A partition in spark is a logical chunk of data mapped to a single node in a cluster. Partitions are basic units of parallelism. Each partition is processed by a single task slot. In a multicore system, total slots for tasks will be num of executors x number of cores. Hence the number of partitions decides the task parallelism.",
+  "source": "@site/docs/01-foundations/04-programming-languages/pyspark/partitioning.md",
+  "sourceDirName": "01-foundations/04-programming-languages/pyspark",
+  "slug": "/foundations/programming-languages/pyspark/partitioning",
+  "permalink": "/docs/foundations/programming-languages/pyspark/partitioning",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Methods, Operations and Functions",
+    "permalink": "/docs/foundations/programming-languages/pyspark/methods-operations"
+  },
+  "next": {
+    "title": "PySpark vs Pandas",
+    "permalink": "/docs/foundations/programming-languages/pyspark/pyspark-vs-pandas"
+  }
+}

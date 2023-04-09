@@ -1,0 +1,26 @@
+{
+  "unversionedId": "orchestration/datafusion/lab-datafusion-pipeline/README",
+  "id": "orchestration/datafusion/lab-datafusion-pipeline/README",
+  "title": "Building and Executing a Pipeline Graph with Data Fusion",
+  "description": "Objective",
+  "source": "@site/docs/06-orchestration/datafusion/lab-datafusion-pipeline/README.md",
+  "sourceDirName": "06-orchestration/datafusion/lab-datafusion-pipeline",
+  "slug": "/orchestration/datafusion/lab-datafusion-pipeline/",
+  "permalink": "/docs/orchestration/datafusion/lab-datafusion-pipeline/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Cloud Data Fusion",
+    "permalink": "/docs/orchestration/datafusion/"
+  },
+  "next": {
+    "title": "Modern Data Stack (MDS)",
+    "permalink": "/docs/orchestration/modern-data-stack/"
+  }
+}

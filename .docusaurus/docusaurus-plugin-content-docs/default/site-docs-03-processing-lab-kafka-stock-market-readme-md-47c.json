@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/lab-kafka-stock-market/README",
+  "id": "processing/lab-kafka-stock-market/README",
+  "title": "Stock Market Kafka Real Time",
+  "description": "Problem Statement",
+  "source": "@site/docs/03-processing/lab-kafka-stock-market/README.md",
+  "sourceDirName": "03-processing/lab-kafka-stock-market",
+  "slug": "/processing/lab-kafka-stock-market/",
+  "permalink": "/docs/processing/lab-kafka-stock-market/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Realtime Streaming analytics with Apache Kafka and Spark Streaming",
+    "permalink": "/docs/processing/lab-kafka-spark-streaming/"
+  },
+  "next": {
+    "title": "Data Streaming Pipeline with Kafka for livetolldata",
+    "permalink": "/docs/processing/lab-kafka-toll-analysis/"
+  }
+}

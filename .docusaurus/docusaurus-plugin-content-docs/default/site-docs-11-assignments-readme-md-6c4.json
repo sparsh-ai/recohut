@@ -1,0 +1,26 @@
+{
+  "unversionedId": "assignments/README",
+  "id": "assignments/README",
+  "title": "Assignments",
+  "description": "",
+  "source": "@site/docs/11-assignments/README.md",
+  "sourceDirName": "11-assignments",
+  "slug": "/assignments/",
+  "permalink": "/docs/assignments/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Amazon Sagemaker",
+    "permalink": "/docs/datascience/sagemaker/"
+  },
+  "next": {
+    "title": "Bellabeat Case Study",
+    "permalink": "/docs/assignments/bellabeat-analysis/"
+  }
+}

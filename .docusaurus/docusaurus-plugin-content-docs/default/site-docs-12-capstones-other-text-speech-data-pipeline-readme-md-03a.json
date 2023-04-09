@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/other/text-speech-data-pipeline/README",
+  "id": "capstones/other/text-speech-data-pipeline/README",
+  "title": "Data Pipeline for Text to Speech translation model",
+  "description": "Problem Statement",
+  "source": "@site/docs/12-capstones/other/text-speech-data-pipeline/README.md",
+  "sourceDirName": "12-capstones/other/text-speech-data-pipeline",
+  "slug": "/capstones/other/text-speech-data-pipeline/",
+  "permalink": "/docs/capstones/other/text-speech-data-pipeline/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "NYC Taxi Fare Prediction",
+    "permalink": "/docs/capstones/other/taxi-fare-prediction/"
+  },
+  "next": {
+    "title": "Machine Learning with Big Data",
+    "permalink": "/docs/capstones/other/topic-modeling-pipeline/"
+  }
+}

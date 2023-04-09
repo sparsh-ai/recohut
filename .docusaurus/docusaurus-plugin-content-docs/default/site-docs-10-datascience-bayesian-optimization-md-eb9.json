@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/bayesian-optimization",
+  "id": "datascience/bayesian-optimization",
+  "title": "Bayesian Optimization",
+  "description": "Optimization aims to locate the optimal set of parameters of interest across the whole domain through carefully allocating limited resources. For example, when searching for the car key at home before leaving for work in two minutes, we would naturally start with the most promising place where we would usually put the key. If it is not there, think for a little while about the possible locations and go to the next most promising place. This process iterates until the key is found. In this example, the policy is digesting the available information on previous searches and proposing the following promising location. The environment is the house itself, revealing if the key is placed at the proposed location upon each sampling.",
+  "source": "@site/docs/10-datascience/bayesian-optimization.md",
+  "sourceDirName": "10-datascience",
+  "slug": "/datascience/bayesian-optimization",
+  "permalink": "/docs/datascience/bayesian-optimization",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Scalarization",
+    "permalink": "/docs/datascience/basics/scalarization"
+  },
+  "next": {
+    "title": "Bias-Variance Trade-Off",
+    "permalink": "/docs/datascience/bias-variance-tradeoff"
+  }
+}

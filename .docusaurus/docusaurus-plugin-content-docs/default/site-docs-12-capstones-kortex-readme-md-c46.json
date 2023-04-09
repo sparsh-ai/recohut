@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/kortex/README",
+  "id": "capstones/kortex/README",
+  "title": "Kortex",
+  "description": "Objectives",
+  "source": "@site/docs/12-capstones/kortex/README.md",
+  "sourceDirName": "12-capstones/kortex",
+  "slug": "/capstones/kortex/",
+  "permalink": "/docs/capstones/kortex/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Streaming ETL pipeline with Apache Flink and Amazon Kinesis Data Analytics",
+    "permalink": "/docs/capstones/kinesis-flink-etl/"
+  },
+  "next": {
+    "title": "Lufthansa API",
+    "permalink": "/docs/capstones/lufthansa/"
+  }
+}

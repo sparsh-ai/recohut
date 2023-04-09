@@ -1,0 +1,26 @@
+{
+  "unversionedId": "curriculum/de-aws",
+  "id": "curriculum/de-aws",
+  "title": "Curriculum - Data Engineering Training (AWS)",
+  "description": "Foundations",
+  "source": "@site/docs/00-curriculum/de-aws.md",
+  "sourceDirName": "00-curriculum",
+  "slug": "/curriculum/de-aws",
+  "permalink": "/docs/curriculum/de-aws",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Curriculum - Data Engineering Training (AWS)",
+    "permalink": "/docs/curriculum/de-aws-outline"
+  },
+  "next": {
+    "title": "Curriculum - Data Engineering Training (Azure)",
+    "permalink": "/docs/curriculum/de-azure-outline"
+  }
+}

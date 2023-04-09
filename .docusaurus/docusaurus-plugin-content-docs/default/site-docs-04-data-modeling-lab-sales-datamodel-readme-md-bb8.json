@@ -1,0 +1,26 @@
+{
+  "unversionedId": "data-modeling/lab-sales-datamodel/README",
+  "id": "data-modeling/lab-sales-datamodel/README",
+  "title": "Sales Datamodel",
+  "description": "Create dimension tables",
+  "source": "@site/docs/04-data-modeling/lab-sales-datamodel/README.md",
+  "sourceDirName": "04-data-modeling/lab-sales-datamodel",
+  "slug": "/data-modeling/lab-sales-datamodel/",
+  "permalink": "/docs/data-modeling/lab-sales-datamodel/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Housing Data Model with CDC and SCD Type 2",
+    "permalink": "/docs/data-modeling/lab-postgres-housing-cdc-scd/"
+  },
+  "next": {
+    "title": "Sparkify Music Company Data Model in Postgres",
+    "permalink": "/docs/data-modeling/lab-sparkify-data-model-postgres/"
+  }
+}

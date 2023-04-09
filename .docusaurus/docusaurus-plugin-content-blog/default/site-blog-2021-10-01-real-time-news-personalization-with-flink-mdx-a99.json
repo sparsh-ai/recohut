@@ -1,0 +1,46 @@
+{
+  "permalink": "/blog/2021/10/01/real-time-news-personalization-with-flink",
+  "source": "@site/blog/2021-10-01-real-time-news-personalization-with-flink.mdx",
+  "title": "Real-time news personalization with Flink",
+  "description": "Overview",
+  "date": "2021-10-01T00:00:00.000Z",
+  "formattedDate": "October 1, 2021",
+  "tags": [
+    {
+      "label": "personalization",
+      "permalink": "/blog/tags/personalization"
+    },
+    {
+      "label": "realtime",
+      "permalink": "/blog/tags/realtime"
+    }
+  ],
+  "readingTime": 9.82,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Sparsh Agarwal",
+      "title": "Data Scientist & Engineer",
+      "url": "https://github.com/sparsh-ai",
+      "email": "sprsag@gmail.com",
+      "imageURL": "https://github.com/sparsh-ai.png",
+      "key": "sparsh"
+    }
+  ],
+  "frontMatter": {
+    "title": "Real-time news personalization with Flink",
+    "authors": "sparsh",
+    "tags": [
+      "personalization",
+      "realtime"
+    ]
+  },
+  "prevItem": {
+    "title": "Predicting Electronics Resale Price",
+    "permalink": "/blog/2021/10/01/predicting-electronics-resale-price"
+  },
+  "nextItem": {
+    "title": "Semantic Similarity",
+    "permalink": "/blog/2021/10/01/semantic-similarity"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "orchestration/modern-data-stack/lab-terraform-gcp/README",
+  "id": "orchestration/modern-data-stack/lab-terraform-gcp/README",
+  "title": "Build a modern data stack",
+  "description": "In this lab, we will use Terraform to deploy a modern data stack on Google Cloud (GCP).",
+  "source": "@site/docs/06-orchestration/modern-data-stack/lab-terraform-gcp/README.md",
+  "sourceDirName": "06-orchestration/modern-data-stack/lab-terraform-gcp",
+  "slug": "/orchestration/modern-data-stack/lab-terraform-gcp/",
+  "permalink": "/docs/orchestration/modern-data-stack/lab-terraform-gcp/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Sequential Recommendation with the Modern Data Stack",
+    "permalink": "/docs/orchestration/modern-data-stack/lab-metaflow-snowflake/"
+  },
+  "next": {
+    "title": "NiFi",
+    "permalink": "/docs/orchestration/nifi/"
+  }
+}

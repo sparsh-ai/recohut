@@ -1,0 +1,26 @@
+{
+  "unversionedId": "devops/fastapi/README",
+  "id": "devops/fastapi/README",
+  "title": "FastAPI",
+  "description": "Labs",
+  "source": "@site/docs/07-devops/fastapi/README.md",
+  "sourceDirName": "07-devops/fastapi",
+  "slug": "/devops/fastapi/",
+  "permalink": "/docs/devops/fastapi/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Deploying a NodeJS app in Kubernetes",
+    "permalink": "/docs/devops/containers/lab-kubernetes-kubia-app/"
+  },
+  "next": {
+    "title": "README",
+    "permalink": "/docs/devops/fastapi/lab-fastapi-applications/"
+  }
+}
