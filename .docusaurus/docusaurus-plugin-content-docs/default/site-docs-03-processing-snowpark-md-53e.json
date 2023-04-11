@@ -10,17 +10,8 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Ray",
-    "permalink": "/docs/processing/ray"
-  },
-  "next": {
-    "title": "3NF/ Relational Modeling",
-    "permalink": "/docs/data-modeling/3nf-data-modeling"
-  }
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
 }

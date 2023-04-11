@@ -10,17 +10,8 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Spotify-Data-Engineering-and-Analysis",
-    "permalink": "/docs/orchestration/airflow/labdev-spotify/"
-  },
-  "next": {
-    "title": "Incremental Data Loading in Azure Data Factory",
-    "permalink": "/docs/orchestration/azure-data-factory/lab-adf-incremental-loading/"
-  }
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
 }

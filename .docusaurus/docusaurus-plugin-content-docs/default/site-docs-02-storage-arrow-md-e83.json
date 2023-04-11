@@ -10,17 +10,8 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Apache Iceberg",
-    "permalink": "/docs/storage/apache-iceberg"
-  },
-  "next": {
-    "title": "Amazon Athena",
-    "permalink": "/docs/storage/athena"
-  }
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
 }

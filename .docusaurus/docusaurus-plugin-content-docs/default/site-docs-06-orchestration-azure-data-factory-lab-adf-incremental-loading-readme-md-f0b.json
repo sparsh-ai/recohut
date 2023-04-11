@@ -10,17 +10,8 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Azure Data Factory",
-    "permalink": "/docs/orchestration/azure-data-factory/"
-  },
-  "next": {
-    "title": "Developing batch processing solutions by using Data Factory, Data Lake, Spark, Azure Synapse Pipelines, PolyBase, and Azure Databricks",
-    "permalink": "/docs/orchestration/azure-data-factory/lab-batch-processing-solution/"
-  }
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
 }

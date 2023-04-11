@@ -1,0 +1,17 @@
+{
+  "unversionedId": "datascience/timeseries/prophet",
+  "id": "datascience/timeseries/prophet",
+  "title": "Prophet",
+  "description": "In 2017, Facebook (now Meta) released its Prophet software as open source. This powerful tool was developed by Facebook engineers because its analysts were overwhelmed with the number of business forecasts demanded by managers. The developers of Prophet wanted to simultaneously solve two problems: 1 - completely automatic forecasting techniques are too brittle and inflexible to handle additional knowledge, and 2 - analysts who are consistently able to produce high-quality forecasts are rare and require extensive expertise. Prophet successfully solved both of these problems.",
+  "source": "@site/docs/10-datascience/timeseries/prophet.md",
+  "sourceDirName": "10-datascience/timeseries",
+  "slug": "/datascience/timeseries/prophet",
+  "permalink": "/docs/datascience/timeseries/prophet",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
+}

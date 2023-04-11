@@ -10,17 +10,8 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Data Streaming Pipeline with Kafka for livetolldata",
-    "permalink": "/docs/processing/lab-kafka-toll-analysis/"
-  },
-  "next": {
-    "title": "Real-Time Clickstream Anomaly Detection with Kinesis",
-    "permalink": "/docs/processing/lab-kinesis-clickstream-anomaly/"
-  }
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
 }

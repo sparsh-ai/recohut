@@ -10,17 +10,8 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Running Apache Spark jobs on Cloud Dataproc",
-    "permalink": "/docs/processing/lab-gcp-dataproc/"
-  },
-  "next": {
-    "title": "Streaming Data Processing - Publish Streaming Data into PubSub",
-    "permalink": "/docs/processing/lab-gcp-pubsub"
-  }
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
 }

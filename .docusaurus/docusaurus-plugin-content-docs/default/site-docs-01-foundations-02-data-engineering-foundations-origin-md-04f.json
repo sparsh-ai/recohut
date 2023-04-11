@@ -10,17 +10,8 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "OLTP vs OLAP",
-    "permalink": "/docs/foundations/data-engineering-foundations/oltp-vs-olap"
-  },
-  "next": {
-    "title": "Outliers Handling",
-    "permalink": "/docs/foundations/data-engineering-foundations/outliers-handling"
-  }
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
 }

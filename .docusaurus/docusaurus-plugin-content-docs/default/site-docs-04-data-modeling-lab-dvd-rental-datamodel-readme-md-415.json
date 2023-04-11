@@ -10,17 +10,8 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Disease Diagnosis and Medic Recommendation System",
-    "permalink": "/docs/data-modeling/lab-disease-diagnosis/"
-  },
-  "next": {
-    "title": "Google Platstore Data Modeling",
-    "permalink": "/docs/data-modeling/lab-google-playstore-datamodel/"
-  }
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
 }

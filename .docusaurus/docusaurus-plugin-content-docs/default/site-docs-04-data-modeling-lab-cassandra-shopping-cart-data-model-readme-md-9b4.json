@@ -10,17 +10,8 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Create a Data Model for Temperature Monitoring Sensor Networks",
-    "permalink": "/docs/data-modeling/lab-cassandra-sensor-data-model/"
-  },
-  "next": {
-    "title": "Disease Diagnosis and Medic Recommendation System",
-    "permalink": "/docs/data-modeling/lab-disease-diagnosis/"
-  }
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
 }

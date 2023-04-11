@@ -10,17 +10,8 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Churn Analytics Demo with dbt Snowpark Python models",
-    "permalink": "/docs/processing/lab-snowpark-churnpark/"
-  },
-  "next": {
-    "title": "FIFA modeling with Snowpark",
-    "permalink": "/docs/processing/lab-snowpark-fifapark/"
-  }
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
 }

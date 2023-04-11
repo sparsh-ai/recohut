@@ -2,7 +2,7 @@
 
 ![img](https://user-images.githubusercontent.com/62965911/213917834-967b67bb-89e6-483a-bbbe-db8cf5ddf36c.svg)
 
-### ELTL Pipeline
+## ELTL Pipeline
 
 This pipeline is one of the most common process companies are following. In this pipeline, we first extract and load the data from multiple data sources into data lake and then transform it using distributed compute engines like spark and then load the transformed data into warehouses.
 

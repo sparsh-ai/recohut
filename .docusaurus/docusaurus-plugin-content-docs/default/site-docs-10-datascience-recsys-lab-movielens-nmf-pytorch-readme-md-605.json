@@ -10,17 +10,8 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Graph RecSys Models",
-    "permalink": "/docs/datascience/recsys/lab-graph-models/"
-  },
-  "next": {
-    "title": "Recsys Personalize Getting Started",
-    "permalink": "/docs/datascience/recsys/lab-recsys-amazon-personalize/"
-  }
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
 }

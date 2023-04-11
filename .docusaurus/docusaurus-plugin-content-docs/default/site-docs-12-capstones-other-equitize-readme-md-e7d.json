@@ -10,17 +10,8 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "paas-data-ingestion",
-    "permalink": "/docs/capstones/other/data-ingestion-pulumi-lambda-snowflake/"
-  },
-  "next": {
-    "title": "Build an ELT pipeline with NYC Taxi dataset",
-    "permalink": "/docs/capstones/other/fireflow/"
-  }
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
 }

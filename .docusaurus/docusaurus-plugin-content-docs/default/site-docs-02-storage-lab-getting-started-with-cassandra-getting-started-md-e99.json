@@ -23,9 +23,9 @@
     }
   ],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {
     "title": "Cassandra Getting Started",
     "description": "NoSQL data modeling and analysis with Apache Cassandra",
@@ -34,14 +34,5 @@
       "cql",
       "keyspaces"
     ]
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Working with Cassandra and CLI",
-    "permalink": "/docs/storage/lab-getting-started-with-cassandra/cassandra-cli"
-  },
-  "next": {
-    "title": "Build a serverless transactional data lake with Apache Iceberg, Amazon EMR Serverless, and Amazon Athena",
-    "permalink": "/docs/storage/lab-glue-emr-iceberg-serverless-lakehouse/"
   }
 }

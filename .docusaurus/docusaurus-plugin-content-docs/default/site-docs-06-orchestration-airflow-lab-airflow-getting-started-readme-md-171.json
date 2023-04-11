@@ -10,17 +10,8 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Airflow Email Notifications",
-    "permalink": "/docs/orchestration/airflow/lab-airflow-email-notifications/"
-  },
-  "next": {
-    "title": "Bike Sharing Service Data Pipeline",
-    "permalink": "/docs/orchestration/airflow/lab-bike-sharing-service-pipeline/"
-  }
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
 }

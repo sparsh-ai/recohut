@@ -10,17 +10,8 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Implement a slowly changing dimension in Redshift",
-    "permalink": "/docs/storage/lab-redshift-scd"
-  },
-  "next": {
-    "title": "Redshift Spectrum Query Tuning",
-    "permalink": "/docs/storage/lab-redshift-spectrum-query-tuning"
-  }
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
 }

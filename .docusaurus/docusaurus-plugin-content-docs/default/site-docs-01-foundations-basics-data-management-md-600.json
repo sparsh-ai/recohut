@@ -13,14 +13,5 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Data Governance",
-    "permalink": "/docs/foundations/basics/data-governance"
-  },
-  "next": {
-    "title": "Data Pipelines",
-    "permalink": "/docs/foundations/basics/data-pipelines"
-  }
+  "frontMatter": {}
 }

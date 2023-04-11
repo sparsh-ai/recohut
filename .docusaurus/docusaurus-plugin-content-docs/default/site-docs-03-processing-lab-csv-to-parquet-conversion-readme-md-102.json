@@ -10,17 +10,8 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Real-time CDC-enabled Extract and Load Pipeline with Kafka on Cloud",
-    "permalink": "/docs/processing/lab-confluent-kafka-faker/"
-  },
-  "next": {
-    "title": "ETL Processing on Google Cloud Using Dataflow and BigQuery",
-    "permalink": "/docs/processing/lab-dataflow-bigquery-etl"
-  }
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
 }

@@ -1,0 +1,17 @@
+{
+  "unversionedId": "datascience/timeseries/README",
+  "id": "datascience/timeseries/README",
+  "title": "Time-Series",
+  "description": "",
+  "source": "@site/docs/10-datascience/timeseries/README.md",
+  "sourceDirName": "10-datascience/timeseries",
+  "slug": "/datascience/timeseries/",
+  "permalink": "/docs/datascience/timeseries/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
+}

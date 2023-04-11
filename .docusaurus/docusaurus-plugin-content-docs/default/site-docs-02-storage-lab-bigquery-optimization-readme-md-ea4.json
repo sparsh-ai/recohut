@@ -10,17 +10,8 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "GCP BigQuery NYC Taxi",
-    "permalink": "/docs/storage/lab-bigquery-nyctaxi/"
-  },
-  "next": {
-    "title": "GCP Bigquery Query Optimization",
-    "permalink": "/docs/storage/lab-bigquery-query-optimization/"
-  }
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
 }

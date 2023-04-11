@@ -13,14 +13,5 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Model Deployment",
-    "permalink": "/docs/foundations/basics/deployment"
-  },
-  "next": {
-    "title": "Hadoop Basics",
-    "permalink": "/docs/foundations/basics/hadoop-basics"
-  }
+  "frontMatter": {}
 }

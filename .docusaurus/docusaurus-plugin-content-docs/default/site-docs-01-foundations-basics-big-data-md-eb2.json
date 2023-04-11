@@ -13,14 +13,5 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Batch vs Incremental Data Processing",
-    "permalink": "/docs/foundations/basics/batch-vs-incremental"
-  },
-  "next": {
-    "title": "Data Contract",
-    "permalink": "/docs/foundations/basics/data-contract"
-  }
+  "frontMatter": {}
 }

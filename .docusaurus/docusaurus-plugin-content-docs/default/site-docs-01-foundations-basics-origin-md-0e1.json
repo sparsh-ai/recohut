@@ -13,14 +13,5 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "OLTP vs OLAP",
-    "permalink": "/docs/foundations/basics/oltp-vs-olap"
-  },
-  "next": {
-    "title": "Outliers Handling",
-    "permalink": "/docs/foundations/basics/outliers-handling"
-  }
+  "frontMatter": {}
 }

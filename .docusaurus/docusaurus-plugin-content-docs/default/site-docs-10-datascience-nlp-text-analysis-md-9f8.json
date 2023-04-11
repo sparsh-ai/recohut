@@ -10,17 +10,8 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "PDF to Wordcloud via Email",
-    "permalink": "/docs/datascience/nlp/lab-pdf-wordcloud-mail/"
-  },
-  "next": {
-    "title": "Text Cleaning",
-    "permalink": "/docs/datascience/nlp/text-cleaning"
-  }
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
 }

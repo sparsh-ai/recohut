@@ -10,17 +10,8 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "db2",
-    "permalink": "/docs/storage/lab-db2-bookshop-petsale-data-ingestion/"
-  },
-  "next": {
-    "title": "Lab - GCP Streaming Bigtable",
-    "permalink": "/docs/storage/lab-gcp-streaming-bigtable/"
-  }
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
 }

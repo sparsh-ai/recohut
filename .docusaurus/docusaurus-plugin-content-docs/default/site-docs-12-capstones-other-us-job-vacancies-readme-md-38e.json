@@ -10,17 +10,8 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Auto-Ingest Twitter Data into Snowflake",
-    "permalink": "/docs/capstones/other/twitter-snowpipe/"
-  },
-  "next": {
-    "title": "YouTube Trend Analysis Workshop",
-    "permalink": "/docs/capstones/other/youtube-insights/"
-  }
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
 }

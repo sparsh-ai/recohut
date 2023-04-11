@@ -10,17 +10,8 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Pyspark Itversity - Hadoop and Spark Hands-on Practical Exercises",
-    "permalink": "/docs/processing/databricks/lab-pyspark-itversity/"
-  },
-  "next": {
-    "title": "AdvancedBricks",
-    "permalink": "/docs/processing/databricks/project-advancedbricks/"
-  }
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
 }

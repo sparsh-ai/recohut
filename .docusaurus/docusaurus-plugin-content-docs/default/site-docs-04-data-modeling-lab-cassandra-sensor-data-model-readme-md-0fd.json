@@ -10,17 +10,8 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Create a Data Model for Investment Accounts or Portfolios",
-    "permalink": "/docs/data-modeling/lab-cassandra-investment-data-model/"
-  },
-  "next": {
-    "title": "Create a Data Model for Online Shopping Carts",
-    "permalink": "/docs/data-modeling/lab-cassandra-shopping-cart-data-model/"
-  }
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
 }

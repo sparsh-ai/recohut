@@ -10,17 +10,8 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Azure Data Ingestion",
-    "permalink": "/docs/foundations/cloud-essentials/azure-data-ingestion"
-  },
-  "next": {
-    "title": "Cloud Computing Basics",
-    "permalink": "/docs/foundations/cloud-essentials/cloud-basics"
-  }
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
 }

@@ -13,14 +13,5 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Big Data",
-    "permalink": "/docs/foundations/basics/big-data"
-  },
-  "next": {
-    "title": "Data Governance",
-    "permalink": "/docs/foundations/basics/data-governance"
-  }
+  "frontMatter": {}
 }

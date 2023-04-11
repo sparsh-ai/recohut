@@ -10,17 +10,8 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Redshift Spectrum Query Tuning",
-    "permalink": "/docs/storage/lab-redshift-spectrum-query-tuning"
-  },
-  "next": {
-    "title": "Lab: Implement slowly changing dimensions in a data lake using AWS Glue and Delta",
-    "permalink": "/docs/storage/lab-scd-glue-delta/"
-  }
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
 }

@@ -10,17 +10,8 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Snowflake dbt cloud TPCH",
-    "permalink": "/docs/processing/lab-dbt-tpch/"
-  },
-  "next": {
-    "title": "MapReduce in Beam using Python",
-    "permalink": "/docs/processing/lab-gcp-beam-mapreduce/"
-  }
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
 }

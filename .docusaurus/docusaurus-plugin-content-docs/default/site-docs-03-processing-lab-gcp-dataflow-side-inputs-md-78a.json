@@ -10,17 +10,8 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "GCP Dataflow Pipeline - A Simple Dataflow Pipeline (Python)",
-    "permalink": "/docs/processing/lab-gcp-dataflow-pipeline"
-  },
-  "next": {
-    "title": "GCP Dataflow Streaming Pipeline",
-    "permalink": "/docs/processing/lab-gcp-dataflow-stream-pipeline"
-  }
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
 }

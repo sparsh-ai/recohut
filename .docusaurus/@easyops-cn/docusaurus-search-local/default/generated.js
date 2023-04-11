@@ -3,7 +3,7 @@ export const language = ["en"];
 export const removeDefaultStopWordFilter = false;
 export const removeDefaultStemmer = false;
 export const Mark = null;
-export const searchIndexUrl = "search-index.json?_=f2042888";
+export const searchIndexUrl = "search-index.json?_=12fb9e31";
 export const searchResultLimits = 8;
 export const searchResultContextMaxLength = 50;
 export const explicitSearchResultPath = false;

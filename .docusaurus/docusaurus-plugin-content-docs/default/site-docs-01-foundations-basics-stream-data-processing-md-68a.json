@@ -13,14 +13,5 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "SQL vs NoSQL",
-    "permalink": "/docs/foundations/basics/sql-vs-nosql"
-  },
-  "next": {
-    "title": "Use Cases",
-    "permalink": "/docs/foundations/basics/use-cases"
-  }
+  "frontMatter": {}
 }

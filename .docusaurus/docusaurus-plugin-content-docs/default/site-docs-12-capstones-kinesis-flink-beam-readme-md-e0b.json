@@ -10,17 +10,8 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Datalake Schema Correction",
-    "permalink": "/docs/capstones/hmc/"
-  },
-  "next": {
-    "title": "Streaming ETL pipeline with Apache Flink and Amazon Kinesis Data Analytics",
-    "permalink": "/docs/capstones/kinesis-flink-etl/"
-  }
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
 }

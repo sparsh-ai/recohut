@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/timeseries/tools/README",
+  "id": "datascience/timeseries/tools/README",
+  "title": "Tools",
+  "description": "",
+  "source": "@site/docs/10-datascience/timeseries/tools/README.md",
+  "sourceDirName": "10-datascience/timeseries/tools",
+  "slug": "/datascience/timeseries/tools/",
+  "permalink": "/docs/datascience/timeseries/tools/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Time-Series",
+    "permalink": "/docs/datascience/timeseries/"
+  },
+  "next": {
+    "title": "Prophet",
+    "permalink": "/docs/datascience/timeseries/tools/prophet"
+  }
+}

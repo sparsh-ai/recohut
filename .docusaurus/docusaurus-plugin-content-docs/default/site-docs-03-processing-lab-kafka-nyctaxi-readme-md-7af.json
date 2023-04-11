@@ -10,17 +10,8 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Real-time fraud detection by applying filter in Kafka topic",
-    "permalink": "/docs/processing/lab-kafka-fraud-detection/"
-  },
-  "next": {
-    "title": "Kafka with Docker Compose",
-    "permalink": "/docs/processing/lab-kafka-nyctaxi/assets/"
-  }
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
 }

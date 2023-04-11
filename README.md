@@ -7,7 +7,7 @@ Hit the ⭐️ button if you like the repo
 - Getting Started
 
   - Data Engineering
-    - [Data Engineering Getting Started Guide](01-foundations/basics/de-basics.md)
+    - [Data Engineering Basics](01-foundations/basics/de-basics.md)
     - [Data Pipelines](01-foundations/basics/data-pipelines.md)
     - [OLTP vs OLAP](01-foundations/basics/oltp-vs-olap.md)
     - [Data Storages](01-foundations/basics/data-storages.md)
@@ -514,6 +514,10 @@ Hit the ⭐️ button if you like the repo
     - [Random Forest](10-datascience/algorithms/random-forest.md)
     - [Gradient Boosting](10-datascience/algorithms/gradient-boosting.md)
     - [Lab: Gradient Boosting](https://nbviewer.org/gist/sparsh-ai/3ddba63345c40a323021e04ea05def21)
+
+  - Time-Series Forecasting
+    - [Prophet](docs/10-datascience/timeseries/prophet.md)
+    - [Atmospheric CO2-level Prediction with Prophet](https://nbviewer.org/gist/sparsh-ai/2649176341669f493c9eeec6fb1aa7ba)
 
 - Deep Learning
 

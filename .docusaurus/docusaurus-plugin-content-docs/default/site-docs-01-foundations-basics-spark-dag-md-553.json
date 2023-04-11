@@ -13,14 +13,5 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Apache Spark Basics",
-    "permalink": "/docs/foundations/basics/spark-basics"
-  },
-  "next": {
-    "title": "Origin of Spark",
-    "permalink": "/docs/foundations/basics/spark-origin"
-  }
+  "frontMatter": {}
 }

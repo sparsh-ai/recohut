@@ -10,17 +10,8 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Streaming Data Processing - Streaming Data Pipelines",
-    "permalink": "/docs/processing/lab-gcp-pubsub-processing"
-  },
-  "next": {
-    "title": "GCP Serverless Dataflow",
-    "permalink": "/docs/processing/lab-gcp-serverless-dataflow"
-  }
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
 }

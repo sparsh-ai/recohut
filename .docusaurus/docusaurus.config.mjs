@@ -8,8 +8,8 @@ export default {
   "tagline": "Embrace excellence, embrace changes, embrace data",
   "url": "https://www.recohut.com",
   "baseUrl": "/",
-  "onBrokenLinks": "warn",
-  "onBrokenMarkdownLinks": "warn",
+  "onBrokenLinks": "ignore",
+  "onBrokenMarkdownLinks": "ignore",
   "trailingSlash": false,
   "favicon": "/img/branding/favicon-black.svg",
   "organizationName": "sparsh-ai",
@@ -79,7 +79,7 @@ export default {
         {
           "label": "Docs",
           "position": "left",
-          "to": "docs/bootcamp"
+          "to": "docs/introduction"
         },
         {
           "to": "blog",

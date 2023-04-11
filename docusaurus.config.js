@@ -12,8 +12,8 @@ const config = {
   tagline: 'Embrace excellence, embrace changes, embrace data',
   url: 'https://www.recohut.com/',
   baseUrl: '/',
-  onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: 'ignore',
+  onBrokenMarkdownLinks: 'ignore',
   trailingSlash: false,
   favicon: '/img/branding/favicon-black.svg',
   organizationName: 'sparsh-ai',
@@ -97,7 +97,7 @@ const config = {
           {
             label: "Docs",
             position: "left",
-            to: "docs/intro"
+            to: "docs/introduction"
           },
           {
             to: 'blog',

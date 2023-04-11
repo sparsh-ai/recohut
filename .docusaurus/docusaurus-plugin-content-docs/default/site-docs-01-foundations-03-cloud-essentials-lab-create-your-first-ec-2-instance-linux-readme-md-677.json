@@ -10,17 +10,8 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Create IAM Role and Policy",
-    "permalink": "/docs/foundations/cloud-essentials/lab-create-iam-policy-role/"
-  },
-  "next": {
-    "title": "Introduction to Virtual Private Cloud (VPC)",
-    "permalink": "/docs/foundations/cloud-essentials/lab-create-your-first-vpc/"
-  }
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
 }

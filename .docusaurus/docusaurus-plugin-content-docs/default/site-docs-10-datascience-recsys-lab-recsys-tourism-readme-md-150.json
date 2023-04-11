@@ -10,17 +10,8 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "RecSys Matrix Factorizations",
-    "permalink": "/docs/datascience/recsys/lab-recsys-matrix-factorizations/"
-  },
-  "next": {
-    "title": "Retail Product Recommendations using word2vec",
-    "permalink": "/docs/datascience/recsys/lab-retail-product-recommend-word2vec/"
-  }
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
 }

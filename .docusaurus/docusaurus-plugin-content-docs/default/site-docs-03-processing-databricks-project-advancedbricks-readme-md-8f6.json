@@ -10,17 +10,8 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Real-Time Point-of-Sale Analytics With the Data Lakehouse",
-    "permalink": "/docs/processing/databricks/lab-retail-pos-databricks/"
-  },
-  "next": {
-    "title": "BedBricks",
-    "permalink": "/docs/processing/databricks/project-bedbricks/"
-  }
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
 }

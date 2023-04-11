@@ -10,17 +10,8 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Yammer Analytics",
-    "permalink": "/docs/foundations/programming-languages/sql/challenges/yammer/"
-  },
-  "next": {
-    "title": "SQL Comparison Operators",
-    "permalink": "/docs/foundations/programming-languages/sql/comparison-operators"
-  }
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
 }

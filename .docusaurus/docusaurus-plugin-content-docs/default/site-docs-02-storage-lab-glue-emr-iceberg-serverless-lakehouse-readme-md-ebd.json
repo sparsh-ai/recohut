@@ -10,17 +10,8 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Cassandra Getting Started",
-    "permalink": "/docs/storage/lab-getting-started-with-cassandra/getting-started"
-  },
-  "next": {
-    "title": "Introduction to DynamoDB",
-    "permalink": "/docs/storage/lab-intro-to-dynamodb/"
-  }
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
 }

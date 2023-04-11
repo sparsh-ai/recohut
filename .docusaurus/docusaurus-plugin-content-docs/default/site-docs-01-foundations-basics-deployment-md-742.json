@@ -13,14 +13,5 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Data Engineering Getting Started Guide",
-    "permalink": "/docs/foundations/basics/de-basics"
-  },
-  "next": {
-    "title": "Extras",
-    "permalink": "/docs/foundations/basics/extras"
-  }
+  "frontMatter": {}
 }

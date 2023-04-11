@@ -10,17 +10,8 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Real-Time Clickstream Anomaly Detection with Kinesis",
-    "permalink": "/docs/processing/lab-kinesis-clickstream-anomaly/"
-  },
-  "next": {
-    "title": "Lab: Ray AIR Basics",
-    "permalink": "/docs/processing/lab-ray-air-basics/"
-  }
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
 }

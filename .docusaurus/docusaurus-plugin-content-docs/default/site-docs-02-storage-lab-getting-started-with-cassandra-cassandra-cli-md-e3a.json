@@ -10,17 +10,8 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Lab - GCP Streaming Bigtable",
-    "permalink": "/docs/storage/lab-gcp-streaming-bigtable/"
-  },
-  "next": {
-    "title": "Cassandra Getting Started",
-    "permalink": "/docs/storage/lab-getting-started-with-cassandra/getting-started"
-  }
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
 }

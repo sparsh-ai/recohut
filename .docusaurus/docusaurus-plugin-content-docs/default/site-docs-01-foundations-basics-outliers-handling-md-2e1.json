@@ -13,14 +13,5 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "The data science origin story",
-    "permalink": "/docs/foundations/basics/origin"
-  },
-  "next": {
-    "title": "Spark RDDs",
-    "permalink": "/docs/foundations/basics/rdd"
-  }
+  "frontMatter": {}
 }

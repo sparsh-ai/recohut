@@ -10,23 +10,14 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {
     "layout": "default",
     "title": "Home",
     "nav_order": 1,
     "description": "Standards - AI/ML boilerplates and snippets",
     "permalink": "/"
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Explore Further",
-    "permalink": "/docs/foundations/programming-languages/python/links"
-  },
-  "next": {
-    "title": "Python code",
-    "permalink": "/docs/foundations/programming-languages/python/python-snippets"
   }
 }

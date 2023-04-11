@@ -10,17 +10,8 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Implementing the Serving Layer Star Schema",
-    "permalink": "/docs/processing/lab-azure-synapse-implementing-star-schema/"
-  },
-  "next": {
-    "title": "CSV to Parquet Transformation with Glue Studio",
-    "permalink": "/docs/processing/lab-csv-to-parquet-conversion/"
-  }
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
 }

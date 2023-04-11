@@ -10,17 +10,8 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "prefect-streaming",
-    "permalink": "/docs/orchestration/prefect/lab-prefect-streaming/"
-  },
-  "next": {
-    "title": "Step Function Athena SNS",
-    "permalink": "/docs/orchestration/stepfunctions/lab-stepfunction-athena-sns/"
-  }
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
 }

@@ -13,14 +13,5 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Batch Data Processing",
-    "permalink": "/docs/foundations/basics/batch-data-processing"
-  },
-  "next": {
-    "title": "Big Data",
-    "permalink": "/docs/foundations/basics/big-data"
-  }
+  "frontMatter": {}
 }

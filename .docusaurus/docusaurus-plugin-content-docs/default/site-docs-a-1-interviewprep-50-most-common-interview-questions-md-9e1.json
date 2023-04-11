@@ -10,22 +10,13 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
   "sidebarPosition": 50,
   "frontMatter": {
     "title": "50 Most Common Interview Questions",
     "description": "50 Most Common Interview Questions",
     "slug": "50-most-common-interview-questions"
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Interview Preparation",
-    "permalink": "/docs/a1-interviewprep/"
-  },
-  "next": {
-    "title": "50 Most Asked Data Engineer Interview Questions and Answers in 2023",
-    "permalink": "/docs/a1-interviewprep/most-common-interview-questions-2023"
   }
 }

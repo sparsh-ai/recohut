@@ -10,17 +10,8 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Lab: Read Delta Tables stored in Amazon S3 with Python",
-    "permalink": "/docs/storage/lab-read-s3-delta-in-python/"
-  },
-  "next": {
-    "title": "Data Loading using Python",
-    "permalink": "/docs/storage/lab-redshift-data-loading-python"
-  }
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
 }
