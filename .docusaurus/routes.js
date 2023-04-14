@@ -434,21 +434,11 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '158'),
+    component: ComponentCreator('/docs', '7f5'),
     routes: [
       {
         path: '/docs/a1-interviewprep',
         component: ComponentCreator('/docs/a1-interviewprep', '64f'),
-        exact: true
-      },
-      {
-        path: '/docs/a1-interviewprep/25-most-common-interview-questions',
-        component: ComponentCreator('/docs/a1-interviewprep/25-most-common-interview-questions', '88a'),
-        exact: true
-      },
-      {
-        path: '/docs/a1-interviewprep/50-most-common-interview-questions',
-        component: ComponentCreator('/docs/a1-interviewprep/50-most-common-interview-questions', 'da1'),
         exact: true
       },
       {
@@ -474,11 +464,6 @@ export default [
       {
         path: '/docs/a1-interviewprep/behavioral-questions',
         component: ComponentCreator('/docs/a1-interviewprep/behavioral-questions', '1da'),
-        exact: true
-      },
-      {
-        path: '/docs/a1-interviewprep/most-common-interview-questions-2023',
-        component: ComponentCreator('/docs/a1-interviewprep/most-common-interview-questions-2023', '018'),
         exact: true
       },
       {
@@ -1587,34 +1572,58 @@ export default [
         exact: true
       },
       {
+        path: '/docs/foundations/basics/25-most-common-interview-questions',
+        component: ComponentCreator('/docs/foundations/basics/25-most-common-interview-questions', 'c07'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/foundations/basics/50-most-common-interview-questions',
+        component: ComponentCreator('/docs/foundations/basics/50-most-common-interview-questions', '587'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/foundations/basics/50-most-common-interview-questions-2023',
+        component: ComponentCreator('/docs/foundations/basics/50-most-common-interview-questions-2023', 'f8f'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
         path: '/docs/foundations/basics/batch-data-processing',
-        component: ComponentCreator('/docs/foundations/basics/batch-data-processing', 'edc'),
-        exact: true
+        component: ComponentCreator('/docs/foundations/basics/batch-data-processing', 'aa7'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/foundations/basics/batch-vs-incremental',
-        component: ComponentCreator('/docs/foundations/basics/batch-vs-incremental', '453'),
-        exact: true
+        component: ComponentCreator('/docs/foundations/basics/batch-vs-incremental', '726'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/foundations/basics/big-data',
-        component: ComponentCreator('/docs/foundations/basics/big-data', '27a'),
-        exact: true
+        component: ComponentCreator('/docs/foundations/basics/big-data', '27f'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/foundations/basics/data-contract',
-        component: ComponentCreator('/docs/foundations/basics/data-contract', 'cc2'),
-        exact: true
+        component: ComponentCreator('/docs/foundations/basics/data-contract', '56f'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/foundations/basics/data-governance',
-        component: ComponentCreator('/docs/foundations/basics/data-governance', 'fc7'),
-        exact: true
+        component: ComponentCreator('/docs/foundations/basics/data-governance', 'b37'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/foundations/basics/data-management',
-        component: ComponentCreator('/docs/foundations/basics/data-management', '05d'),
-        exact: true
+        component: ComponentCreator('/docs/foundations/basics/data-management', '5ae'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/foundations/basics/data-pipelines',
@@ -1624,13 +1633,15 @@ export default [
       },
       {
         path: '/docs/foundations/basics/data-quality',
-        component: ComponentCreator('/docs/foundations/basics/data-quality', '780'),
-        exact: true
+        component: ComponentCreator('/docs/foundations/basics/data-quality', 'e3b'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/foundations/basics/data-storages',
-        component: ComponentCreator('/docs/foundations/basics/data-storages', '00a'),
-        exact: true
+        component: ComponentCreator('/docs/foundations/basics/data-storages', 'a62'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/foundations/basics/de-basics',
@@ -1650,18 +1661,21 @@ export default [
       },
       {
         path: '/docs/foundations/basics/hadoop-basics',
-        component: ComponentCreator('/docs/foundations/basics/hadoop-basics', '4f3'),
-        exact: true
+        component: ComponentCreator('/docs/foundations/basics/hadoop-basics', '086'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/foundations/basics/hadoop-vs-spark',
-        component: ComponentCreator('/docs/foundations/basics/hadoop-vs-spark', '7d9'),
-        exact: true
+        component: ComponentCreator('/docs/foundations/basics/hadoop-vs-spark', '7f6'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/foundations/basics/map-reduce',
-        component: ComponentCreator('/docs/foundations/basics/map-reduce', 'ad2'),
-        exact: true
+        component: ComponentCreator('/docs/foundations/basics/map-reduce', 'c6d'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/foundations/basics/model-optimization',
@@ -1670,8 +1684,9 @@ export default [
       },
       {
         path: '/docs/foundations/basics/oltp-vs-olap',
-        component: ComponentCreator('/docs/foundations/basics/oltp-vs-olap', '6a4'),
-        exact: true
+        component: ComponentCreator('/docs/foundations/basics/oltp-vs-olap', 'd1a'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/foundations/basics/origin',
@@ -1685,38 +1700,45 @@ export default [
       },
       {
         path: '/docs/foundations/basics/rdd',
-        component: ComponentCreator('/docs/foundations/basics/rdd', '569'),
-        exact: true
+        component: ComponentCreator('/docs/foundations/basics/rdd', 'd75'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/foundations/basics/spark-basics',
-        component: ComponentCreator('/docs/foundations/basics/spark-basics', 'd39'),
-        exact: true
+        component: ComponentCreator('/docs/foundations/basics/spark-basics', '525'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/foundations/basics/spark-dag',
-        component: ComponentCreator('/docs/foundations/basics/spark-dag', '4e4'),
-        exact: true
+        component: ComponentCreator('/docs/foundations/basics/spark-dag', '534'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/foundations/basics/spark-origin',
-        component: ComponentCreator('/docs/foundations/basics/spark-origin', 'e52'),
-        exact: true
+        component: ComponentCreator('/docs/foundations/basics/spark-origin', '5a4'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/foundations/basics/spark-quiz',
-        component: ComponentCreator('/docs/foundations/basics/spark-quiz', '257'),
-        exact: true
+        component: ComponentCreator('/docs/foundations/basics/spark-quiz', '7c9'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/foundations/basics/sql-vs-nosql',
-        component: ComponentCreator('/docs/foundations/basics/sql-vs-nosql', 'd6f'),
-        exact: true
+        component: ComponentCreator('/docs/foundations/basics/sql-vs-nosql', 'a65'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/foundations/basics/stream-data-processing',
-        component: ComponentCreator('/docs/foundations/basics/stream-data-processing', '2d7'),
-        exact: true
+        component: ComponentCreator('/docs/foundations/basics/stream-data-processing', '7ed'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/foundations/basics/use-cases',
@@ -1839,44 +1861,52 @@ export default [
         exact: true
       },
       {
-        path: '/docs/foundations/developer-foundations/install-anaconda',
-        component: ComponentCreator('/docs/foundations/developer-foundations/install-anaconda', '5bd'),
-        exact: true
+        path: '/docs/foundations/developer/install-anaconda',
+        component: ComponentCreator('/docs/foundations/developer/install-anaconda', '937'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/developer-foundations/install-dbeaver',
-        component: ComponentCreator('/docs/foundations/developer-foundations/install-dbeaver', '012'),
-        exact: true
+        path: '/docs/foundations/developer/install-dbeaver',
+        component: ComponentCreator('/docs/foundations/developer/install-dbeaver', '4df'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/developer-foundations/install-jupyter',
-        component: ComponentCreator('/docs/foundations/developer-foundations/install-jupyter', 'e0d'),
-        exact: true
+        path: '/docs/foundations/developer/install-jupyter',
+        component: ComponentCreator('/docs/foundations/developer/install-jupyter', '741'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/developer-foundations/install-vscode',
-        component: ComponentCreator('/docs/foundations/developer-foundations/install-vscode', '45b'),
-        exact: true
+        path: '/docs/foundations/developer/install-vscode',
+        component: ComponentCreator('/docs/foundations/developer/install-vscode', 'dde'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/developer-foundations/lab-bash-commands',
-        component: ComponentCreator('/docs/foundations/developer-foundations/lab-bash-commands', '1cf'),
-        exact: true
+        path: '/docs/foundations/developer/lab-bash-commands',
+        component: ComponentCreator('/docs/foundations/developer/lab-bash-commands', '4c7'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/developer-foundations/lab-explore-vscode-features',
-        component: ComponentCreator('/docs/foundations/developer-foundations/lab-explore-vscode-features', '165'),
-        exact: true
+        path: '/docs/foundations/developer/lab-explore-vscode-features',
+        component: ComponentCreator('/docs/foundations/developer/lab-explore-vscode-features', '4c7'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/developer-foundations/lab-learn-git-commands',
-        component: ComponentCreator('/docs/foundations/developer-foundations/lab-learn-git-commands', 'dfb'),
-        exact: true
+        path: '/docs/foundations/developer/lab-learn-git-commands',
+        component: ComponentCreator('/docs/foundations/developer/lab-learn-git-commands', 'a5d'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/developer-foundations/setup-git',
-        component: ComponentCreator('/docs/foundations/developer-foundations/setup-git', '24d'),
-        exact: true
+        path: '/docs/foundations/developer/setup-git',
+        component: ComponentCreator('/docs/foundations/developer/setup-git', '550'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/foundations/programming-languages/pyspark/broadcasting',

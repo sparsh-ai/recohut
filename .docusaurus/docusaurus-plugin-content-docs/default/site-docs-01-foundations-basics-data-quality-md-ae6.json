@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Data Management",
+    "permalink": "/docs/foundations/basics/data-management"
+  },
+  "next": {
+    "title": "Batch Data Processing",
+    "permalink": "/docs/foundations/basics/batch-data-processing"
+  }
 }

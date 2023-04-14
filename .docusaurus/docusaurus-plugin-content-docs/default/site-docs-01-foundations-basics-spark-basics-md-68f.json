@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "50 Most Asked Data Engineer Interview Questions and Answers in 2023",
+    "permalink": "/docs/foundations/basics/50-most-common-interview-questions-2023"
+  },
+  "next": {
+    "title": "Origin of Spark",
+    "permalink": "/docs/foundations/basics/spark-origin"
+  }
 }

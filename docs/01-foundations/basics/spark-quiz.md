@@ -1,4 +1,4 @@
-# Spark Quiz
+# Quiz: Spark basics
 
 Below are a few questions that should come handy in the first go :
 

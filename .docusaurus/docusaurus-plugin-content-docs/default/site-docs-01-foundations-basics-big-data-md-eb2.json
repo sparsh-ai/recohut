@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "SQL vs NoSQL",
+    "permalink": "/docs/foundations/basics/sql-vs-nosql"
+  },
+  "next": {
+    "title": "Batch vs Incremental Data Processing",
+    "permalink": "/docs/foundations/basics/batch-vs-incremental"
+  }
 }

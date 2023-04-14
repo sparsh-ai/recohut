@@ -18,5 +18,9 @@
   "previous": {
     "title": "Data Engineering Basics",
     "permalink": "/docs/foundations/basics/de-basics"
+  },
+  "next": {
+    "title": "OLTP vs OLAP",
+    "permalink": "/docs/foundations/basics/oltp-vs-olap"
   }
 }

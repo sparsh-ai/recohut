@@ -1,4 +1,4 @@
-# Real-Time Analytics
+# Stream and Unified Data Processing
 
 ## What is an event stream?
 

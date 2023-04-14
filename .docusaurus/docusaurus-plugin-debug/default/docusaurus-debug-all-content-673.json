@@ -103,68 +103,6 @@
               "frontMatter": {}
             },
             {
-              "unversionedId": "a1-interviewprep/most-common-interview-questions",
-              "id": "a1-interviewprep/most-common-interview-questions",
-              "title": "25 Most Common Interview Questions",
-              "description": "25 Most Common Interview Questions",
-              "source": "@site/docs/a1-interviewprep/25-most-common-interview-questions.md",
-              "sourceDirName": "a1-interviewprep",
-              "slug": "/a1-interviewprep/25-most-common-interview-questions",
-              "permalink": "/docs/a1-interviewprep/25-most-common-interview-questions",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "lastUpdatedBy": "Author",
-              "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "Oct 14, 2018",
-              "sidebarPosition": 25,
-              "frontMatter": {
-                "title": "25 Most Common Interview Questions",
-                "description": "25 Most Common Interview Questions",
-                "slug": "25-most-common-interview-questions"
-              }
-            },
-            {
-              "unversionedId": "a1-interviewprep/most-common-interview-questions",
-              "id": "a1-interviewprep/most-common-interview-questions",
-              "title": "50 Most Common Interview Questions",
-              "description": "50 Most Common Interview Questions",
-              "source": "@site/docs/a1-interviewprep/50-most-common-interview-questions.md",
-              "sourceDirName": "a1-interviewprep",
-              "slug": "/a1-interviewprep/50-most-common-interview-questions",
-              "permalink": "/docs/a1-interviewprep/50-most-common-interview-questions",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "lastUpdatedBy": "Author",
-              "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "Oct 14, 2018",
-              "sidebarPosition": 50,
-              "frontMatter": {
-                "title": "50 Most Common Interview Questions",
-                "description": "50 Most Common Interview Questions",
-                "slug": "50-most-common-interview-questions"
-              }
-            },
-            {
-              "unversionedId": "a1-interviewprep/most-common-interview-questions-2023",
-              "id": "a1-interviewprep/most-common-interview-questions-2023",
-              "title": "50 Most Asked Data Engineer Interview Questions and Answers in 2023",
-              "description": "1. What is Data Engineering? Explain in detail.",
-              "source": "@site/docs/a1-interviewprep/50-most-common-interview-questions-2023.md",
-              "sourceDirName": "a1-interviewprep",
-              "slug": "/a1-interviewprep/most-common-interview-questions-2023",
-              "permalink": "/docs/a1-interviewprep/most-common-interview-questions-2023",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "lastUpdatedBy": "Author",
-              "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "Oct 14, 2018",
-              "sidebarPosition": 50,
-              "frontMatter": {}
-            },
-            {
               "unversionedId": "a1-interviewprep/README",
               "id": "a1-interviewprep/README",
               "title": "Interview Preparation",
@@ -3966,7 +3904,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Data Quality",
+                "permalink": "/docs/foundations/basics/data-quality"
+              },
+              "next": {
+                "title": "Stream and Unified Data Processing",
+                "permalink": "/docs/foundations/basics/stream-data-processing"
+              }
             },
             {
               "unversionedId": "foundations/basics/batch-vs-incremental",
@@ -3983,7 +3930,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Big Data",
+                "permalink": "/docs/foundations/basics/big-data"
+              },
+              "next": {
+                "title": "Data Contract",
+                "permalink": "/docs/foundations/basics/data-contract"
+              }
             },
             {
               "unversionedId": "foundations/basics/big-data",
@@ -4000,7 +3956,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "SQL vs NoSQL",
+                "permalink": "/docs/foundations/basics/sql-vs-nosql"
+              },
+              "next": {
+                "title": "Batch vs Incremental Data Processing",
+                "permalink": "/docs/foundations/basics/batch-vs-incremental"
+              }
             },
             {
               "unversionedId": "foundations/basics/data-contract",
@@ -4017,7 +3982,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Batch vs Incremental Data Processing",
+                "permalink": "/docs/foundations/basics/batch-vs-incremental"
+              },
+              "next": {
+                "title": "Data Governance",
+                "permalink": "/docs/foundations/basics/data-governance"
+              }
             },
             {
               "unversionedId": "foundations/basics/data-governance",
@@ -4034,7 +4008,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Data Contract",
+                "permalink": "/docs/foundations/basics/data-contract"
+              },
+              "next": {
+                "title": "Data Management",
+                "permalink": "/docs/foundations/basics/data-management"
+              }
             },
             {
               "unversionedId": "foundations/basics/data-management",
@@ -4051,7 +4034,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Data Governance",
+                "permalink": "/docs/foundations/basics/data-governance"
+              },
+              "next": {
+                "title": "Data Quality",
+                "permalink": "/docs/foundations/basics/data-quality"
+              }
             },
             {
               "unversionedId": "foundations/basics/data-pipelines",
@@ -4073,6 +4065,10 @@
               "previous": {
                 "title": "Data Engineering Basics",
                 "permalink": "/docs/foundations/basics/de-basics"
+              },
+              "next": {
+                "title": "OLTP vs OLAP",
+                "permalink": "/docs/foundations/basics/oltp-vs-olap"
               }
             },
             {
@@ -4090,7 +4086,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Data Management",
+                "permalink": "/docs/foundations/basics/data-management"
+              },
+              "next": {
+                "title": "Batch Data Processing",
+                "permalink": "/docs/foundations/basics/batch-data-processing"
+              }
             },
             {
               "unversionedId": "foundations/basics/data-storages",
@@ -4107,7 +4112,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "OLTP vs OLAP",
+                "permalink": "/docs/foundations/basics/oltp-vs-olap"
+              },
+              "next": {
+                "title": "SQL vs NoSQL",
+                "permalink": "/docs/foundations/basics/sql-vs-nosql"
+              }
             },
             {
               "unversionedId": "foundations/basics/de-basics",
@@ -4184,7 +4198,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Origin of Spark",
+                "permalink": "/docs/foundations/basics/spark-origin"
+              },
+              "next": {
+                "title": "Map Reduce",
+                "permalink": "/docs/foundations/basics/map-reduce"
+              }
             },
             {
               "unversionedId": "foundations/basics/hadoop-vs-spark",
@@ -4201,7 +4224,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Map Reduce",
+                "permalink": "/docs/foundations/basics/map-reduce"
+              },
+              "next": {
+                "title": "Interpreting a Spark DAG",
+                "permalink": "/docs/foundations/basics/spark-dag"
+              }
             },
             {
               "unversionedId": "foundations/basics/map-reduce",
@@ -4218,7 +4250,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Hadoop Basics",
+                "permalink": "/docs/foundations/basics/hadoop-basics"
+              },
+              "next": {
+                "title": "Hadoop vs Spark",
+                "permalink": "/docs/foundations/basics/hadoop-vs-spark"
+              }
             },
             {
               "unversionedId": "foundations/basics/model-optimization",
@@ -4238,6 +4279,96 @@
               "frontMatter": {}
             },
             {
+              "unversionedId": "foundations/basics/most-common-interview-questions-set1",
+              "id": "foundations/basics/most-common-interview-questions-set1",
+              "title": "25 Most Common Interview Questions",
+              "description": "25 Most Common Interview Questions",
+              "source": "@site/docs/01-foundations/basics/most-common-interview-questions-set1.md",
+              "sourceDirName": "01-foundations/basics",
+              "slug": "/foundations/basics/25-most-common-interview-questions",
+              "permalink": "/docs/foundations/basics/25-most-common-interview-questions",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {
+                "title": "25 Most Common Interview Questions",
+                "description": "25 Most Common Interview Questions",
+                "slug": "25-most-common-interview-questions"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Stream and Unified Data Processing",
+                "permalink": "/docs/foundations/basics/stream-data-processing"
+              },
+              "next": {
+                "title": "50 Most Common Interview Questions",
+                "permalink": "/docs/foundations/basics/50-most-common-interview-questions"
+              }
+            },
+            {
+              "unversionedId": "foundations/basics/most-common-interview-questions-set2",
+              "id": "foundations/basics/most-common-interview-questions-set2",
+              "title": "50 Most Common Interview Questions",
+              "description": "50 Most Common Interview Questions",
+              "source": "@site/docs/01-foundations/basics/most-common-interview-questions-set2.md",
+              "sourceDirName": "01-foundations/basics",
+              "slug": "/foundations/basics/50-most-common-interview-questions",
+              "permalink": "/docs/foundations/basics/50-most-common-interview-questions",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {
+                "title": "50 Most Common Interview Questions",
+                "description": "50 Most Common Interview Questions",
+                "slug": "50-most-common-interview-questions"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "25 Most Common Interview Questions",
+                "permalink": "/docs/foundations/basics/25-most-common-interview-questions"
+              },
+              "next": {
+                "title": "50 Most Asked Data Engineer Interview Questions and Answers in 2023",
+                "permalink": "/docs/foundations/basics/50-most-common-interview-questions-2023"
+              }
+            },
+            {
+              "unversionedId": "foundations/basics/most-common-interview-questions-set3",
+              "id": "foundations/basics/most-common-interview-questions-set3",
+              "title": "50 Most Asked Data Engineer Interview Questions and Answers in 2023",
+              "description": "50 Most Asked Data Engineer Interview Questions and Answers in 2023",
+              "source": "@site/docs/01-foundations/basics/most-common-interview-questions-set3.md",
+              "sourceDirName": "01-foundations/basics",
+              "slug": "/foundations/basics/50-most-common-interview-questions-2023",
+              "permalink": "/docs/foundations/basics/50-most-common-interview-questions-2023",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {
+                "title": "50 Most Asked Data Engineer Interview Questions and Answers in 2023",
+                "description": "50 Most Asked Data Engineer Interview Questions and Answers in 2023",
+                "slug": "50-most-common-interview-questions-2023"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "50 Most Common Interview Questions",
+                "permalink": "/docs/foundations/basics/50-most-common-interview-questions"
+              },
+              "next": {
+                "title": "Apache Spark Basics",
+                "permalink": "/docs/foundations/basics/spark-basics"
+              }
+            },
+            {
               "unversionedId": "foundations/basics/oltp-vs-olap",
               "id": "foundations/basics/oltp-vs-olap",
               "title": "OLTP vs OLAP",
@@ -4252,7 +4383,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Data Pipelines",
+                "permalink": "/docs/foundations/basics/data-pipelines"
+              },
+              "next": {
+                "title": "Data Storages",
+                "permalink": "/docs/foundations/basics/data-storages"
+              }
             },
             {
               "unversionedId": "foundations/basics/origin",
@@ -4303,7 +4443,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Interpreting a Spark DAG",
+                "permalink": "/docs/foundations/basics/spark-dag"
+              },
+              "next": {
+                "title": "Quiz: Spark basics",
+                "permalink": "/docs/foundations/basics/spark-quiz"
+              }
             },
             {
               "unversionedId": "foundations/basics/spark-basics",
@@ -4320,7 +4469,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "50 Most Asked Data Engineer Interview Questions and Answers in 2023",
+                "permalink": "/docs/foundations/basics/50-most-common-interview-questions-2023"
+              },
+              "next": {
+                "title": "Origin of Spark",
+                "permalink": "/docs/foundations/basics/spark-origin"
+              }
             },
             {
               "unversionedId": "foundations/basics/spark-dag",
@@ -4337,7 +4495,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Hadoop vs Spark",
+                "permalink": "/docs/foundations/basics/hadoop-vs-spark"
+              },
+              "next": {
+                "title": "Spark RDDs",
+                "permalink": "/docs/foundations/basics/rdd"
+              }
             },
             {
               "unversionedId": "foundations/basics/spark-origin",
@@ -4354,12 +4521,21 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Apache Spark Basics",
+                "permalink": "/docs/foundations/basics/spark-basics"
+              },
+              "next": {
+                "title": "Hadoop Basics",
+                "permalink": "/docs/foundations/basics/hadoop-basics"
+              }
             },
             {
               "unversionedId": "foundations/basics/spark-quiz",
               "id": "foundations/basics/spark-quiz",
-              "title": "Spark Quiz",
+              "title": "Quiz: Spark basics",
               "description": "Below are a few questions that should come handy in the first go :",
               "source": "@site/docs/01-foundations/basics/spark-quiz.md",
               "sourceDirName": "01-foundations/basics",
@@ -4371,7 +4547,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Spark RDDs",
+                "permalink": "/docs/foundations/basics/rdd"
+              },
+              "next": {
+                "title": "Install Anaconda",
+                "permalink": "/docs/foundations/developer/install-anaconda"
+              }
             },
             {
               "unversionedId": "foundations/basics/sql-vs-nosql",
@@ -4388,12 +4573,21 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Data Storages",
+                "permalink": "/docs/foundations/basics/data-storages"
+              },
+              "next": {
+                "title": "Big Data",
+                "permalink": "/docs/foundations/basics/big-data"
+              }
             },
             {
               "unversionedId": "foundations/basics/stream-data-processing",
               "id": "foundations/basics/stream-data-processing",
-              "title": "Real-Time Analytics",
+              "title": "Stream and Unified Data Processing",
               "description": "What is an event stream?",
               "source": "@site/docs/01-foundations/basics/stream-data-processing.md",
               "sourceDirName": "01-foundations/basics",
@@ -4405,7 +4599,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Batch Data Processing",
+                "permalink": "/docs/foundations/basics/batch-data-processing"
+              },
+              "next": {
+                "title": "25 Most Common Interview Questions",
+                "permalink": "/docs/foundations/basics/25-most-common-interview-questions"
+              }
             },
             {
               "unversionedId": "foundations/basics/use-cases",
@@ -4816,140 +5019,208 @@
               "frontMatter": {}
             },
             {
-              "unversionedId": "foundations/developer-foundations/install-anaconda",
-              "id": "foundations/developer-foundations/install-anaconda",
+              "unversionedId": "foundations/developer/install-anaconda",
+              "id": "foundations/developer/install-anaconda",
               "title": "Install Anaconda",
               "description": "1. Download the file from https://www.anaconda.com/products/distribution and install it",
-              "source": "@site/docs/01-foundations/01-developer-foundations/install-anaconda.md",
-              "sourceDirName": "01-foundations/01-developer-foundations",
-              "slug": "/foundations/developer-foundations/install-anaconda",
-              "permalink": "/docs/foundations/developer-foundations/install-anaconda",
+              "source": "@site/docs/01-foundations/developer/install-anaconda.md",
+              "sourceDirName": "01-foundations/developer",
+              "slug": "/foundations/developer/install-anaconda",
+              "permalink": "/docs/foundations/developer/install-anaconda",
               "draft": false,
               "tags": [],
               "version": "current",
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Quiz: Spark basics",
+                "permalink": "/docs/foundations/basics/spark-quiz"
+              },
+              "next": {
+                "title": "Install Jupyter Notebook",
+                "permalink": "/docs/foundations/developer/install-jupyter"
+              }
             },
             {
-              "unversionedId": "foundations/developer-foundations/install-dbeaver",
-              "id": "foundations/developer-foundations/install-dbeaver",
+              "unversionedId": "foundations/developer/install-dbeaver",
+              "id": "foundations/developer/install-dbeaver",
               "title": "Install DBeaver",
               "description": "Go to https://dbeaver.io/download to download DBeaver.",
-              "source": "@site/docs/01-foundations/01-developer-foundations/install-dbeaver.md",
-              "sourceDirName": "01-foundations/01-developer-foundations",
-              "slug": "/foundations/developer-foundations/install-dbeaver",
-              "permalink": "/docs/foundations/developer-foundations/install-dbeaver",
+              "source": "@site/docs/01-foundations/developer/install-dbeaver.md",
+              "sourceDirName": "01-foundations/developer",
+              "slug": "/foundations/developer/install-dbeaver",
+              "permalink": "/docs/foundations/developer/install-dbeaver",
               "draft": false,
               "tags": [],
               "version": "current",
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Lab: Learn Bash Commands",
+                "permalink": "/docs/foundations/developer/lab-bash-commands/"
+              }
             },
             {
-              "unversionedId": "foundations/developer-foundations/install-jupyter",
-              "id": "foundations/developer-foundations/install-jupyter",
+              "unversionedId": "foundations/developer/install-jupyter",
+              "id": "foundations/developer/install-jupyter",
               "title": "Install Jupyter Notebook",
               "description": "There are many free options to run jupyter notebooks:",
-              "source": "@site/docs/01-foundations/01-developer-foundations/install-jupyter.md",
-              "sourceDirName": "01-foundations/01-developer-foundations",
-              "slug": "/foundations/developer-foundations/install-jupyter",
-              "permalink": "/docs/foundations/developer-foundations/install-jupyter",
+              "source": "@site/docs/01-foundations/developer/install-jupyter.md",
+              "sourceDirName": "01-foundations/developer",
+              "slug": "/foundations/developer/install-jupyter",
+              "permalink": "/docs/foundations/developer/install-jupyter",
               "draft": false,
               "tags": [],
               "version": "current",
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Install Anaconda",
+                "permalink": "/docs/foundations/developer/install-anaconda"
+              },
+              "next": {
+                "title": "Install VS Code",
+                "permalink": "/docs/foundations/developer/install-vscode"
+              }
             },
             {
-              "unversionedId": "foundations/developer-foundations/install-vscode",
-              "id": "foundations/developer-foundations/install-vscode",
+              "unversionedId": "foundations/developer/install-vscode",
+              "id": "foundations/developer/install-vscode",
               "title": "Install VS Code",
               "description": "1. Follow this guide to install VS code in your system. Alternatively, go to https://code.visualstudio.com/download and download the VS Code",
-              "source": "@site/docs/01-foundations/01-developer-foundations/install-vscode.md",
-              "sourceDirName": "01-foundations/01-developer-foundations",
-              "slug": "/foundations/developer-foundations/install-vscode",
-              "permalink": "/docs/foundations/developer-foundations/install-vscode",
+              "source": "@site/docs/01-foundations/developer/install-vscode.md",
+              "sourceDirName": "01-foundations/developer",
+              "slug": "/foundations/developer/install-vscode",
+              "permalink": "/docs/foundations/developer/install-vscode",
               "draft": false,
               "tags": [],
               "version": "current",
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Install Jupyter Notebook",
+                "permalink": "/docs/foundations/developer/install-jupyter"
+              },
+              "next": {
+                "title": "Lab: Explore VS Code features",
+                "permalink": "/docs/foundations/developer/lab-explore-vscode-features"
+              }
             },
             {
-              "unversionedId": "foundations/developer-foundations/lab-bash-commands/README",
-              "id": "foundations/developer-foundations/lab-bash-commands/README",
+              "unversionedId": "foundations/developer/lab-bash-commands/index",
+              "id": "foundations/developer/lab-bash-commands/index",
               "title": "Lab: Learn Bash Commands",
               "description": "- pwd: Display the current directory",
-              "source": "@site/docs/01-foundations/01-developer-foundations/lab-bash-commands/README.md",
-              "sourceDirName": "01-foundations/01-developer-foundations/lab-bash-commands",
-              "slug": "/foundations/developer-foundations/lab-bash-commands/",
-              "permalink": "/docs/foundations/developer-foundations/lab-bash-commands/",
+              "source": "@site/docs/01-foundations/developer/lab-bash-commands/index.md",
+              "sourceDirName": "01-foundations/developer/lab-bash-commands",
+              "slug": "/foundations/developer/lab-bash-commands/",
+              "permalink": "/docs/foundations/developer/lab-bash-commands/",
               "draft": false,
               "tags": [],
               "version": "current",
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Lab: Learn git commands",
+                "permalink": "/docs/foundations/developer/lab-learn-git-commands"
+              },
+              "next": {
+                "title": "Install DBeaver",
+                "permalink": "/docs/foundations/developer/install-dbeaver"
+              }
             },
             {
-              "unversionedId": "foundations/developer-foundations/lab-explore-vscode-features",
-              "id": "foundations/developer-foundations/lab-explore-vscode-features",
+              "unversionedId": "foundations/developer/lab-explore-vscode-features",
+              "id": "foundations/developer/lab-explore-vscode-features",
               "title": "Lab: Explore VS Code features",
               "description": "In this lab, we will explore the following features:",
-              "source": "@site/docs/01-foundations/01-developer-foundations/lab-explore-vscode-features.md",
-              "sourceDirName": "01-foundations/01-developer-foundations",
-              "slug": "/foundations/developer-foundations/lab-explore-vscode-features",
-              "permalink": "/docs/foundations/developer-foundations/lab-explore-vscode-features",
+              "source": "@site/docs/01-foundations/developer/lab-explore-vscode-features.md",
+              "sourceDirName": "01-foundations/developer",
+              "slug": "/foundations/developer/lab-explore-vscode-features",
+              "permalink": "/docs/foundations/developer/lab-explore-vscode-features",
               "draft": false,
               "tags": [],
               "version": "current",
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Install VS Code",
+                "permalink": "/docs/foundations/developer/install-vscode"
+              },
+              "next": {
+                "title": "Setup Git",
+                "permalink": "/docs/foundations/developer/setup-git"
+              }
             },
             {
-              "unversionedId": "foundations/developer-foundations/lab-learn-git-commands",
-              "id": "foundations/developer-foundations/lab-learn-git-commands",
+              "unversionedId": "foundations/developer/lab-learn-git-commands",
+              "id": "foundations/developer/lab-learn-git-commands",
               "title": "Lab: Learn git commands",
               "description": "Objective",
-              "source": "@site/docs/01-foundations/01-developer-foundations/lab-learn-git-commands.md",
-              "sourceDirName": "01-foundations/01-developer-foundations",
-              "slug": "/foundations/developer-foundations/lab-learn-git-commands",
-              "permalink": "/docs/foundations/developer-foundations/lab-learn-git-commands",
+              "source": "@site/docs/01-foundations/developer/lab-learn-git-commands.md",
+              "sourceDirName": "01-foundations/developer",
+              "slug": "/foundations/developer/lab-learn-git-commands",
+              "permalink": "/docs/foundations/developer/lab-learn-git-commands",
               "draft": false,
               "tags": [],
               "version": "current",
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Setup Git",
+                "permalink": "/docs/foundations/developer/setup-git"
+              },
+              "next": {
+                "title": "Lab: Learn Bash Commands",
+                "permalink": "/docs/foundations/developer/lab-bash-commands/"
+              }
             },
             {
-              "unversionedId": "foundations/developer-foundations/setup-git",
-              "id": "foundations/developer-foundations/setup-git",
+              "unversionedId": "foundations/developer/setup-git",
+              "id": "foundations/developer/setup-git",
               "title": "Setup Git",
               "description": "One of the major problems with coding is to keep track of changes. It is also almost impossible to maintain a program you have multiple versions of. Another is the topic of collaboration and documentation. Which is super Important. Let’s say you work on a Spark application and your colleges need to make changes while you are on holiday. Without some code management they are in huge trouble: Where is the code? What have you changed last? Where is the documentation? How do we mark what we have changed? But if you put your code on GitHub your colleges can find your code. They can understand it through your documentation (please also have in-line comments) Developers can pull your code, make a new branch and do the changes. After your holiday you can inspect what they have done and merge it with your original code. and you end up having only one application.",
-              "source": "@site/docs/01-foundations/01-developer-foundations/setup-git.md",
-              "sourceDirName": "01-foundations/01-developer-foundations",
-              "slug": "/foundations/developer-foundations/setup-git",
-              "permalink": "/docs/foundations/developer-foundations/setup-git",
+              "source": "@site/docs/01-foundations/developer/setup-git.md",
+              "sourceDirName": "01-foundations/developer",
+              "slug": "/foundations/developer/setup-git",
+              "permalink": "/docs/foundations/developer/setup-git",
               "draft": false,
               "tags": [],
               "version": "current",
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Lab: Explore VS Code features",
+                "permalink": "/docs/foundations/developer/lab-explore-vscode-features"
+              },
+              "next": {
+                "title": "Lab: Learn git commands",
+                "permalink": "/docs/foundations/developer/lab-learn-git-commands"
+              }
             },
             {
               "unversionedId": "foundations/programming-languages/pyspark/broadcasting",
@@ -10208,6 +10479,142 @@
                       {
                         "type": "doc",
                         "id": "foundations/basics/data-pipelines"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "foundations/basics/oltp-vs-olap"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "foundations/basics/data-storages"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "foundations/basics/sql-vs-nosql"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "foundations/basics/big-data"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "foundations/basics/batch-vs-incremental"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "foundations/basics/data-contract"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "foundations/basics/data-governance"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "foundations/basics/data-management"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "foundations/basics/data-quality"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "foundations/basics/batch-data-processing"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "foundations/basics/stream-data-processing"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "foundations/basics/most-common-interview-questions-set1"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "foundations/basics/most-common-interview-questions-set2"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "foundations/basics/most-common-interview-questions-set3"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  },
+                  {
+                    "type": "category",
+                    "label": "Spark and Hadoop",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "foundations/basics/spark-basics"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "foundations/basics/spark-origin"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "foundations/basics/hadoop-basics"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "foundations/basics/map-reduce"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "foundations/basics/hadoop-vs-spark"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "foundations/basics/spark-dag"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "foundations/basics/rdd"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "foundations/basics/spark-quiz"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  },
+                  {
+                    "type": "category",
+                    "label": "Developer Essentials",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "foundations/developer/install-anaconda"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "foundations/developer/install-jupyter"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "foundations/developer/install-vscode"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "foundations/developer/lab-explore-vscode-features"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "foundations/developer/setup-git"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "foundations/developer/lab-learn-git-commands"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "foundations/developer/lab-bash-commands/index"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "foundations/developer/install-dbeaver"
                       }
                     ],
                     "collapsed": true,

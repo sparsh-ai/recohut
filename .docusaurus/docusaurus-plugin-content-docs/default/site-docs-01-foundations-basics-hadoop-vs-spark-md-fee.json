@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Map Reduce",
+    "permalink": "/docs/foundations/basics/map-reduce"
+  },
+  "next": {
+    "title": "Interpreting a Spark DAG",
+    "permalink": "/docs/foundations/basics/spark-dag"
+  }
 }

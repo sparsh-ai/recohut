@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Data Quality",
+    "permalink": "/docs/foundations/basics/data-quality"
+  },
+  "next": {
+    "title": "Stream and Unified Data Processing",
+    "permalink": "/docs/foundations/basics/stream-data-processing"
+  }
 }

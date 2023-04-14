@@ -38,18 +38,6 @@
               "path": "/docs/a1-interviewprep/behavioral-questions"
             },
             {
-              "id": "a1-interviewprep/most-common-interview-questions",
-              "path": "/docs/a1-interviewprep/25-most-common-interview-questions"
-            },
-            {
-              "id": "a1-interviewprep/most-common-interview-questions",
-              "path": "/docs/a1-interviewprep/50-most-common-interview-questions"
-            },
-            {
-              "id": "a1-interviewprep/most-common-interview-questions-2023",
-              "path": "/docs/a1-interviewprep/most-common-interview-questions-2023"
-            },
-            {
               "id": "a1-interviewprep/README",
               "path": "/docs/a1-interviewprep/"
             },
@@ -939,27 +927,33 @@
             },
             {
               "id": "foundations/basics/batch-data-processing",
-              "path": "/docs/foundations/basics/batch-data-processing"
+              "path": "/docs/foundations/basics/batch-data-processing",
+              "sidebar": "docs"
             },
             {
               "id": "foundations/basics/batch-vs-incremental",
-              "path": "/docs/foundations/basics/batch-vs-incremental"
+              "path": "/docs/foundations/basics/batch-vs-incremental",
+              "sidebar": "docs"
             },
             {
               "id": "foundations/basics/big-data",
-              "path": "/docs/foundations/basics/big-data"
+              "path": "/docs/foundations/basics/big-data",
+              "sidebar": "docs"
             },
             {
               "id": "foundations/basics/data-contract",
-              "path": "/docs/foundations/basics/data-contract"
+              "path": "/docs/foundations/basics/data-contract",
+              "sidebar": "docs"
             },
             {
               "id": "foundations/basics/data-governance",
-              "path": "/docs/foundations/basics/data-governance"
+              "path": "/docs/foundations/basics/data-governance",
+              "sidebar": "docs"
             },
             {
               "id": "foundations/basics/data-management",
-              "path": "/docs/foundations/basics/data-management"
+              "path": "/docs/foundations/basics/data-management",
+              "sidebar": "docs"
             },
             {
               "id": "foundations/basics/data-pipelines",
@@ -968,11 +962,13 @@
             },
             {
               "id": "foundations/basics/data-quality",
-              "path": "/docs/foundations/basics/data-quality"
+              "path": "/docs/foundations/basics/data-quality",
+              "sidebar": "docs"
             },
             {
               "id": "foundations/basics/data-storages",
-              "path": "/docs/foundations/basics/data-storages"
+              "path": "/docs/foundations/basics/data-storages",
+              "sidebar": "docs"
             },
             {
               "id": "foundations/basics/de-basics",
@@ -989,23 +985,42 @@
             },
             {
               "id": "foundations/basics/hadoop-basics",
-              "path": "/docs/foundations/basics/hadoop-basics"
+              "path": "/docs/foundations/basics/hadoop-basics",
+              "sidebar": "docs"
             },
             {
               "id": "foundations/basics/hadoop-vs-spark",
-              "path": "/docs/foundations/basics/hadoop-vs-spark"
+              "path": "/docs/foundations/basics/hadoop-vs-spark",
+              "sidebar": "docs"
             },
             {
               "id": "foundations/basics/map-reduce",
-              "path": "/docs/foundations/basics/map-reduce"
+              "path": "/docs/foundations/basics/map-reduce",
+              "sidebar": "docs"
             },
             {
               "id": "foundations/basics/model-optimization",
               "path": "/docs/foundations/basics/model-optimization"
             },
             {
+              "id": "foundations/basics/most-common-interview-questions-set1",
+              "path": "/docs/foundations/basics/25-most-common-interview-questions",
+              "sidebar": "docs"
+            },
+            {
+              "id": "foundations/basics/most-common-interview-questions-set2",
+              "path": "/docs/foundations/basics/50-most-common-interview-questions",
+              "sidebar": "docs"
+            },
+            {
+              "id": "foundations/basics/most-common-interview-questions-set3",
+              "path": "/docs/foundations/basics/50-most-common-interview-questions-2023",
+              "sidebar": "docs"
+            },
+            {
               "id": "foundations/basics/oltp-vs-olap",
-              "path": "/docs/foundations/basics/oltp-vs-olap"
+              "path": "/docs/foundations/basics/oltp-vs-olap",
+              "sidebar": "docs"
             },
             {
               "id": "foundations/basics/origin",
@@ -1017,31 +1032,38 @@
             },
             {
               "id": "foundations/basics/rdd",
-              "path": "/docs/foundations/basics/rdd"
+              "path": "/docs/foundations/basics/rdd",
+              "sidebar": "docs"
             },
             {
               "id": "foundations/basics/spark-basics",
-              "path": "/docs/foundations/basics/spark-basics"
+              "path": "/docs/foundations/basics/spark-basics",
+              "sidebar": "docs"
             },
             {
               "id": "foundations/basics/spark-dag",
-              "path": "/docs/foundations/basics/spark-dag"
+              "path": "/docs/foundations/basics/spark-dag",
+              "sidebar": "docs"
             },
             {
               "id": "foundations/basics/spark-origin",
-              "path": "/docs/foundations/basics/spark-origin"
+              "path": "/docs/foundations/basics/spark-origin",
+              "sidebar": "docs"
             },
             {
               "id": "foundations/basics/spark-quiz",
-              "path": "/docs/foundations/basics/spark-quiz"
+              "path": "/docs/foundations/basics/spark-quiz",
+              "sidebar": "docs"
             },
             {
               "id": "foundations/basics/sql-vs-nosql",
-              "path": "/docs/foundations/basics/sql-vs-nosql"
+              "path": "/docs/foundations/basics/sql-vs-nosql",
+              "sidebar": "docs"
             },
             {
               "id": "foundations/basics/stream-data-processing",
-              "path": "/docs/foundations/basics/stream-data-processing"
+              "path": "/docs/foundations/basics/stream-data-processing",
+              "sidebar": "docs"
             },
             {
               "id": "foundations/basics/use-cases",
@@ -1140,36 +1162,44 @@
               "path": "/docs/foundations/cloud-essentials/secrets-manager"
             },
             {
-              "id": "foundations/developer-foundations/install-anaconda",
-              "path": "/docs/foundations/developer-foundations/install-anaconda"
+              "id": "foundations/developer/install-anaconda",
+              "path": "/docs/foundations/developer/install-anaconda",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/developer-foundations/install-dbeaver",
-              "path": "/docs/foundations/developer-foundations/install-dbeaver"
+              "id": "foundations/developer/install-dbeaver",
+              "path": "/docs/foundations/developer/install-dbeaver",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/developer-foundations/install-jupyter",
-              "path": "/docs/foundations/developer-foundations/install-jupyter"
+              "id": "foundations/developer/install-jupyter",
+              "path": "/docs/foundations/developer/install-jupyter",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/developer-foundations/install-vscode",
-              "path": "/docs/foundations/developer-foundations/install-vscode"
+              "id": "foundations/developer/install-vscode",
+              "path": "/docs/foundations/developer/install-vscode",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/developer-foundations/lab-bash-commands/README",
-              "path": "/docs/foundations/developer-foundations/lab-bash-commands/"
+              "id": "foundations/developer/lab-bash-commands/index",
+              "path": "/docs/foundations/developer/lab-bash-commands/",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/developer-foundations/lab-explore-vscode-features",
-              "path": "/docs/foundations/developer-foundations/lab-explore-vscode-features"
+              "id": "foundations/developer/lab-explore-vscode-features",
+              "path": "/docs/foundations/developer/lab-explore-vscode-features",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/developer-foundations/lab-learn-git-commands",
-              "path": "/docs/foundations/developer-foundations/lab-learn-git-commands"
+              "id": "foundations/developer/lab-learn-git-commands",
+              "path": "/docs/foundations/developer/lab-learn-git-commands",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/developer-foundations/setup-git",
-              "path": "/docs/foundations/developer-foundations/setup-git"
+              "id": "foundations/developer/setup-git",
+              "path": "/docs/foundations/developer/setup-git",
+              "sidebar": "docs"
             },
             {
               "id": "foundations/programming-languages/pyspark/broadcasting",

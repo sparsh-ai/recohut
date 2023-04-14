@@ -34,6 +34,202 @@
                 "label": "Data Pipelines",
                 "href": "/docs/foundations/basics/data-pipelines",
                 "docId": "foundations/basics/data-pipelines"
+              },
+              {
+                "type": "link",
+                "label": "OLTP vs OLAP",
+                "href": "/docs/foundations/basics/oltp-vs-olap",
+                "docId": "foundations/basics/oltp-vs-olap"
+              },
+              {
+                "type": "link",
+                "label": "Data Storages",
+                "href": "/docs/foundations/basics/data-storages",
+                "docId": "foundations/basics/data-storages"
+              },
+              {
+                "type": "link",
+                "label": "SQL vs NoSQL",
+                "href": "/docs/foundations/basics/sql-vs-nosql",
+                "docId": "foundations/basics/sql-vs-nosql"
+              },
+              {
+                "type": "link",
+                "label": "Big Data",
+                "href": "/docs/foundations/basics/big-data",
+                "docId": "foundations/basics/big-data"
+              },
+              {
+                "type": "link",
+                "label": "Batch vs Incremental Data Processing",
+                "href": "/docs/foundations/basics/batch-vs-incremental",
+                "docId": "foundations/basics/batch-vs-incremental"
+              },
+              {
+                "type": "link",
+                "label": "Data Contract",
+                "href": "/docs/foundations/basics/data-contract",
+                "docId": "foundations/basics/data-contract"
+              },
+              {
+                "type": "link",
+                "label": "Data Governance",
+                "href": "/docs/foundations/basics/data-governance",
+                "docId": "foundations/basics/data-governance"
+              },
+              {
+                "type": "link",
+                "label": "Data Management",
+                "href": "/docs/foundations/basics/data-management",
+                "docId": "foundations/basics/data-management"
+              },
+              {
+                "type": "link",
+                "label": "Data Quality",
+                "href": "/docs/foundations/basics/data-quality",
+                "docId": "foundations/basics/data-quality"
+              },
+              {
+                "type": "link",
+                "label": "Batch Data Processing",
+                "href": "/docs/foundations/basics/batch-data-processing",
+                "docId": "foundations/basics/batch-data-processing"
+              },
+              {
+                "type": "link",
+                "label": "Stream and Unified Data Processing",
+                "href": "/docs/foundations/basics/stream-data-processing",
+                "docId": "foundations/basics/stream-data-processing"
+              },
+              {
+                "type": "link",
+                "label": "25 Most Common Interview Questions",
+                "href": "/docs/foundations/basics/25-most-common-interview-questions",
+                "docId": "foundations/basics/most-common-interview-questions-set1"
+              },
+              {
+                "type": "link",
+                "label": "50 Most Common Interview Questions",
+                "href": "/docs/foundations/basics/50-most-common-interview-questions",
+                "docId": "foundations/basics/most-common-interview-questions-set2"
+              },
+              {
+                "type": "link",
+                "label": "50 Most Asked Data Engineer Interview Questions and Answers in 2023",
+                "href": "/docs/foundations/basics/50-most-common-interview-questions-2023",
+                "docId": "foundations/basics/most-common-interview-questions-set3"
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
+          },
+          {
+            "type": "category",
+            "label": "Spark and Hadoop",
+            "items": [
+              {
+                "type": "link",
+                "label": "Apache Spark Basics",
+                "href": "/docs/foundations/basics/spark-basics",
+                "docId": "foundations/basics/spark-basics"
+              },
+              {
+                "type": "link",
+                "label": "Origin of Spark",
+                "href": "/docs/foundations/basics/spark-origin",
+                "docId": "foundations/basics/spark-origin"
+              },
+              {
+                "type": "link",
+                "label": "Hadoop Basics",
+                "href": "/docs/foundations/basics/hadoop-basics",
+                "docId": "foundations/basics/hadoop-basics"
+              },
+              {
+                "type": "link",
+                "label": "Map Reduce",
+                "href": "/docs/foundations/basics/map-reduce",
+                "docId": "foundations/basics/map-reduce"
+              },
+              {
+                "type": "link",
+                "label": "Hadoop vs Spark",
+                "href": "/docs/foundations/basics/hadoop-vs-spark",
+                "docId": "foundations/basics/hadoop-vs-spark"
+              },
+              {
+                "type": "link",
+                "label": "Interpreting a Spark DAG",
+                "href": "/docs/foundations/basics/spark-dag",
+                "docId": "foundations/basics/spark-dag"
+              },
+              {
+                "type": "link",
+                "label": "Spark RDDs",
+                "href": "/docs/foundations/basics/rdd",
+                "docId": "foundations/basics/rdd"
+              },
+              {
+                "type": "link",
+                "label": "Quiz: Spark basics",
+                "href": "/docs/foundations/basics/spark-quiz",
+                "docId": "foundations/basics/spark-quiz"
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
+          },
+          {
+            "type": "category",
+            "label": "Developer Essentials",
+            "items": [
+              {
+                "type": "link",
+                "label": "Install Anaconda",
+                "href": "/docs/foundations/developer/install-anaconda",
+                "docId": "foundations/developer/install-anaconda"
+              },
+              {
+                "type": "link",
+                "label": "Install Jupyter Notebook",
+                "href": "/docs/foundations/developer/install-jupyter",
+                "docId": "foundations/developer/install-jupyter"
+              },
+              {
+                "type": "link",
+                "label": "Install VS Code",
+                "href": "/docs/foundations/developer/install-vscode",
+                "docId": "foundations/developer/install-vscode"
+              },
+              {
+                "type": "link",
+                "label": "Lab: Explore VS Code features",
+                "href": "/docs/foundations/developer/lab-explore-vscode-features",
+                "docId": "foundations/developer/lab-explore-vscode-features"
+              },
+              {
+                "type": "link",
+                "label": "Setup Git",
+                "href": "/docs/foundations/developer/setup-git",
+                "docId": "foundations/developer/setup-git"
+              },
+              {
+                "type": "link",
+                "label": "Lab: Learn git commands",
+                "href": "/docs/foundations/developer/lab-learn-git-commands",
+                "docId": "foundations/developer/lab-learn-git-commands"
+              },
+              {
+                "type": "link",
+                "label": "Lab: Learn Bash Commands",
+                "href": "/docs/foundations/developer/lab-bash-commands/",
+                "docId": "foundations/developer/lab-bash-commands/index"
+              },
+              {
+                "type": "link",
+                "label": "Install DBeaver",
+                "href": "/docs/foundations/developer/install-dbeaver",
+                "docId": "foundations/developer/install-dbeaver"
               }
             ],
             "collapsed": true,
@@ -70,16 +266,6 @@
       "id": "a1-interviewprep/behavioral-questions",
       "title": "Behavioral Questions",
       "description": "Tell me about yourself"
-    },
-    "a1-interviewprep/most-common-interview-questions": {
-      "id": "a1-interviewprep/most-common-interview-questions",
-      "title": "50 Most Common Interview Questions",
-      "description": "50 Most Common Interview Questions"
-    },
-    "a1-interviewprep/most-common-interview-questions-2023": {
-      "id": "a1-interviewprep/most-common-interview-questions-2023",
-      "title": "50 Most Asked Data Engineer Interview Questions and Answers in 2023",
-      "description": "1. What is Data Engineering? Explain in detail."
     },
     "a1-interviewprep/README": {
       "id": "a1-interviewprep/README",
@@ -1194,32 +1380,38 @@
     "foundations/basics/batch-data-processing": {
       "id": "foundations/basics/batch-data-processing",
       "title": "Batch Data Processing",
-      "description": "Data processing involves taking source data which has been ingested into your data platform and cleansing it, combining it, and modeling it for downstream use. Historically the most popular way to transform data has been with the SQL language and data engineers have built data transformation pipelines using SQL often with the help of ETL/ELT tools. But recently many folks have also begun adopting the DataFrame API in languages like Python/Spark for this task. For the most part a data engineer can accomplish the same data transformations with either approach, and deciding between the two is mostly a matter of preference and particular use cases. That being said, there are use cases where a particular data transform can't be expressed in SQL and a different approach is needed. The most popular approach for these use cases is Python/Spark along with a DataFrame API."
+      "description": "Data processing involves taking source data which has been ingested into your data platform and cleansing it, combining it, and modeling it for downstream use. Historically the most popular way to transform data has been with the SQL language and data engineers have built data transformation pipelines using SQL often with the help of ETL/ELT tools. But recently many folks have also begun adopting the DataFrame API in languages like Python/Spark for this task. For the most part a data engineer can accomplish the same data transformations with either approach, and deciding between the two is mostly a matter of preference and particular use cases. That being said, there are use cases where a particular data transform can't be expressed in SQL and a different approach is needed. The most popular approach for these use cases is Python/Spark along with a DataFrame API.",
+      "sidebar": "docs"
     },
     "foundations/basics/batch-vs-incremental": {
       "id": "foundations/basics/batch-vs-incremental",
       "title": "Batch vs Incremental Data Processing",
-      "description": "The idea behind incremental processing is quite simple. Incremental processing extends the semantics of processing streaming data to batch processing pipelines by processing only new data each run and then incrementally updating the new results. This unlocks great cost savings due to much shorter batch pipelines as well as data freshness speedups due to being able to run them much more frequently as well."
+      "description": "The idea behind incremental processing is quite simple. Incremental processing extends the semantics of processing streaming data to batch processing pipelines by processing only new data each run and then incrementally updating the new results. This unlocks great cost savings due to much shorter batch pipelines as well as data freshness speedups due to being able to run them much more frequently as well.",
+      "sidebar": "docs"
     },
     "foundations/basics/big-data": {
       "id": "foundations/basics/big-data",
       "title": "Big Data",
-      "description": "Six Vs of big data"
+      "description": "Six Vs of big data",
+      "sidebar": "docs"
     },
     "foundations/basics/data-contract": {
       "id": "foundations/basics/data-contract",
       "title": "Data Contract",
-      "description": "Example"
+      "description": "Example",
+      "sidebar": "docs"
     },
     "foundations/basics/data-governance": {
       "id": "foundations/basics/data-governance",
       "title": "Data Governance",
-      "description": "What is Data Governance?"
+      "description": "What is Data Governance?",
+      "sidebar": "docs"
     },
     "foundations/basics/data-management": {
       "id": "foundations/basics/data-management",
       "title": "Data Management",
-      "description": "Importance of data management"
+      "description": "Importance of data management",
+      "sidebar": "docs"
     },
     "foundations/basics/data-pipelines": {
       "id": "foundations/basics/data-pipelines",
@@ -1230,12 +1422,14 @@
     "foundations/basics/data-quality": {
       "id": "foundations/basics/data-quality",
       "title": "Data Quality",
-      "description": "Do your product dashboards look funky? Are your quarterly reports stale? Is the data set you're using broken or just plain wrong? Have you ever been about to sign off after a long day running queries or building data pipelines only to get pinged by your head of marketing that “the data is missing” from a critical report? What about a frantic email from your CTO about “duplicate data” in a business intelligence dashboard? Or a memo from your CEO, the same one who is so bullish on data, about a confusing or inaccurate number in his latest board deck? If any of these situations hit home for you, you’re not alone. These problems affect almost every team, yet they're usually addressed on an ad hoc basis and in a reactive manner."
+      "description": "Do your product dashboards look funky? Are your quarterly reports stale? Is the data set you're using broken or just plain wrong? Have you ever been about to sign off after a long day running queries or building data pipelines only to get pinged by your head of marketing that “the data is missing” from a critical report? What about a frantic email from your CTO about “duplicate data” in a business intelligence dashboard? Or a memo from your CEO, the same one who is so bullish on data, about a confusing or inaccurate number in his latest board deck? If any of these situations hit home for you, you’re not alone. These problems affect almost every team, yet they're usually addressed on an ad hoc basis and in a reactive manner.",
+      "sidebar": "docs"
     },
     "foundations/basics/data-storages": {
       "id": "foundations/basics/data-storages",
       "title": "Data Storages",
-      "description": "| Architecture          | Total cost of solution                                                                                                                                                  | Flexibility of scenarios                                                                                                                                                                      | Complexity of development                                                                                                                                                     | Maturity of ecosystem                                                                                                                                                                         | Organizational maturity required                                                                                                                                                            |"
+      "description": "| Architecture          | Total cost of solution                                                                                                                                                  | Flexibility of scenarios                                                                                                                                                                      | Complexity of development                                                                                                                                                     | Maturity of ecosystem                                                                                                                                                                         | Organizational maturity required                                                                                                                                                            |",
+      "sidebar": "docs"
     },
     "foundations/basics/de-basics": {
       "id": "foundations/basics/de-basics",
@@ -1256,27 +1450,49 @@
     "foundations/basics/hadoop-basics": {
       "id": "foundations/basics/hadoop-basics",
       "title": "Hadoop Basics",
-      "description": "Apache Hadoop is an open source framework that is used to efficiently store and process large datasets ranging in size from gigabytes to petabytes of data. Instead of using one large computer to store and process the data, Hadoop allows clustering multiple computers to analyze massive datasets in parallel more quickly."
+      "description": "Apache Hadoop is an open source framework that is used to efficiently store and process large datasets ranging in size from gigabytes to petabytes of data. Instead of using one large computer to store and process the data, Hadoop allows clustering multiple computers to analyze massive datasets in parallel more quickly.",
+      "sidebar": "docs"
     },
     "foundations/basics/hadoop-vs-spark": {
       "id": "foundations/basics/hadoop-vs-spark",
       "title": "Hadoop vs Spark",
-      "description": ""
+      "description": "",
+      "sidebar": "docs"
     },
     "foundations/basics/map-reduce": {
       "id": "foundations/basics/map-reduce",
       "title": "Map Reduce",
-      "description": "Knowing that answering the how question is what is important to understanding big data, the first question we need to answer is how does it actually store the data? What makes it different from non-big data storage?"
+      "description": "Knowing that answering the how question is what is important to understanding big data, the first question we need to answer is how does it actually store the data? What makes it different from non-big data storage?",
+      "sidebar": "docs"
     },
     "foundations/basics/model-optimization": {
       "id": "foundations/basics/model-optimization",
       "title": "Model Optimization",
       "description": "Keras Model Pruning"
     },
+    "foundations/basics/most-common-interview-questions-set1": {
+      "id": "foundations/basics/most-common-interview-questions-set1",
+      "title": "25 Most Common Interview Questions",
+      "description": "25 Most Common Interview Questions",
+      "sidebar": "docs"
+    },
+    "foundations/basics/most-common-interview-questions-set2": {
+      "id": "foundations/basics/most-common-interview-questions-set2",
+      "title": "50 Most Common Interview Questions",
+      "description": "50 Most Common Interview Questions",
+      "sidebar": "docs"
+    },
+    "foundations/basics/most-common-interview-questions-set3": {
+      "id": "foundations/basics/most-common-interview-questions-set3",
+      "title": "50 Most Asked Data Engineer Interview Questions and Answers in 2023",
+      "description": "50 Most Asked Data Engineer Interview Questions and Answers in 2023",
+      "sidebar": "docs"
+    },
     "foundations/basics/oltp-vs-olap": {
       "id": "foundations/basics/oltp-vs-olap",
       "title": "OLTP vs OLAP",
-      "description": "Transactional databases (OLTP)"
+      "description": "Transactional databases (OLTP)",
+      "sidebar": "docs"
     },
     "foundations/basics/origin": {
       "id": "foundations/basics/origin",
@@ -1291,37 +1507,44 @@
     "foundations/basics/rdd": {
       "id": "foundations/basics/rdd",
       "title": "Spark RDDs",
-      "description": "An RDD (Resilient Distributed Dataset) is the primary data structure in Spark. It is a distributed collection of data that can be processed in parallel. RDDs are immutable, meaning that once an RDD is created, it cannot be modified. Instead, any transformations applied to an RDD will return a new RDD."
+      "description": "An RDD (Resilient Distributed Dataset) is the primary data structure in Spark. It is a distributed collection of data that can be processed in parallel. RDDs are immutable, meaning that once an RDD is created, it cannot be modified. Instead, any transformations applied to an RDD will return a new RDD.",
+      "sidebar": "docs"
     },
     "foundations/basics/spark-basics": {
       "id": "foundations/basics/spark-basics",
       "title": "Apache Spark Basics",
-      "description": "What is Apache Spark?"
+      "description": "What is Apache Spark?",
+      "sidebar": "docs"
     },
     "foundations/basics/spark-dag": {
       "id": "foundations/basics/spark-dag",
       "title": "Interpreting a Spark DAG",
-      "description": "A DAG is just a regular graph with nodes and edges but with no cycles or loops. In order to understand a Spark DAG, we first have to understand where a DAG comes into the picture during the execution of a Spark job."
+      "description": "A DAG is just a regular graph with nodes and edges but with no cycles or loops. In order to understand a Spark DAG, we first have to understand where a DAG comes into the picture during the execution of a Spark job.",
+      "sidebar": "docs"
     },
     "foundations/basics/spark-origin": {
       "id": "foundations/basics/spark-origin",
       "title": "Origin of Spark",
-      "description": "Big Data and Distributed Computing at Google"
+      "description": "Big Data and Distributed Computing at Google",
+      "sidebar": "docs"
     },
     "foundations/basics/spark-quiz": {
       "id": "foundations/basics/spark-quiz",
-      "title": "Spark Quiz",
-      "description": "Below are a few questions that should come handy in the first go :"
+      "title": "Quiz: Spark basics",
+      "description": "Below are a few questions that should come handy in the first go :",
+      "sidebar": "docs"
     },
     "foundations/basics/sql-vs-nosql": {
       "id": "foundations/basics/sql-vs-nosql",
       "title": "SQL vs NoSQL",
-      "description": "As you design large systems ( or even smaller ones), you need to decide the inflow-processing and outflow of data coming- and getting processed in the system."
+      "description": "As you design large systems ( or even smaller ones), you need to decide the inflow-processing and outflow of data coming- and getting processed in the system.",
+      "sidebar": "docs"
     },
     "foundations/basics/stream-data-processing": {
       "id": "foundations/basics/stream-data-processing",
-      "title": "Real-Time Analytics",
-      "description": "What is an event stream?"
+      "title": "Stream and Unified Data Processing",
+      "description": "What is an event stream?",
+      "sidebar": "docs"
     },
     "foundations/basics/use-cases": {
       "id": "foundations/basics/use-cases",
@@ -1443,45 +1666,53 @@
       "title": "Secrets Manager",
       "description": "AWS Secrets Management Service"
     },
-    "foundations/developer-foundations/install-anaconda": {
-      "id": "foundations/developer-foundations/install-anaconda",
+    "foundations/developer/install-anaconda": {
+      "id": "foundations/developer/install-anaconda",
       "title": "Install Anaconda",
-      "description": "1. Download the file from https://www.anaconda.com/products/distribution and install it"
+      "description": "1. Download the file from https://www.anaconda.com/products/distribution and install it",
+      "sidebar": "docs"
     },
-    "foundations/developer-foundations/install-dbeaver": {
-      "id": "foundations/developer-foundations/install-dbeaver",
+    "foundations/developer/install-dbeaver": {
+      "id": "foundations/developer/install-dbeaver",
       "title": "Install DBeaver",
-      "description": "Go to https://dbeaver.io/download to download DBeaver."
+      "description": "Go to https://dbeaver.io/download to download DBeaver.",
+      "sidebar": "docs"
     },
-    "foundations/developer-foundations/install-jupyter": {
-      "id": "foundations/developer-foundations/install-jupyter",
+    "foundations/developer/install-jupyter": {
+      "id": "foundations/developer/install-jupyter",
       "title": "Install Jupyter Notebook",
-      "description": "There are many free options to run jupyter notebooks:"
+      "description": "There are many free options to run jupyter notebooks:",
+      "sidebar": "docs"
     },
-    "foundations/developer-foundations/install-vscode": {
-      "id": "foundations/developer-foundations/install-vscode",
+    "foundations/developer/install-vscode": {
+      "id": "foundations/developer/install-vscode",
       "title": "Install VS Code",
-      "description": "1. Follow this guide to install VS code in your system. Alternatively, go to https://code.visualstudio.com/download and download the VS Code"
+      "description": "1. Follow this guide to install VS code in your system. Alternatively, go to https://code.visualstudio.com/download and download the VS Code",
+      "sidebar": "docs"
     },
-    "foundations/developer-foundations/lab-bash-commands/README": {
-      "id": "foundations/developer-foundations/lab-bash-commands/README",
+    "foundations/developer/lab-bash-commands/index": {
+      "id": "foundations/developer/lab-bash-commands/index",
       "title": "Lab: Learn Bash Commands",
-      "description": "- pwd: Display the current directory"
+      "description": "- pwd: Display the current directory",
+      "sidebar": "docs"
     },
-    "foundations/developer-foundations/lab-explore-vscode-features": {
-      "id": "foundations/developer-foundations/lab-explore-vscode-features",
+    "foundations/developer/lab-explore-vscode-features": {
+      "id": "foundations/developer/lab-explore-vscode-features",
       "title": "Lab: Explore VS Code features",
-      "description": "In this lab, we will explore the following features:"
+      "description": "In this lab, we will explore the following features:",
+      "sidebar": "docs"
     },
-    "foundations/developer-foundations/lab-learn-git-commands": {
-      "id": "foundations/developer-foundations/lab-learn-git-commands",
+    "foundations/developer/lab-learn-git-commands": {
+      "id": "foundations/developer/lab-learn-git-commands",
       "title": "Lab: Learn git commands",
-      "description": "Objective"
+      "description": "Objective",
+      "sidebar": "docs"
     },
-    "foundations/developer-foundations/setup-git": {
-      "id": "foundations/developer-foundations/setup-git",
+    "foundations/developer/setup-git": {
+      "id": "foundations/developer/setup-git",
       "title": "Setup Git",
-      "description": "One of the major problems with coding is to keep track of changes. It is also almost impossible to maintain a program you have multiple versions of. Another is the topic of collaboration and documentation. Which is super Important. Let’s say you work on a Spark application and your colleges need to make changes while you are on holiday. Without some code management they are in huge trouble: Where is the code? What have you changed last? Where is the documentation? How do we mark what we have changed? But if you put your code on GitHub your colleges can find your code. They can understand it through your documentation (please also have in-line comments) Developers can pull your code, make a new branch and do the changes. After your holiday you can inspect what they have done and merge it with your original code. and you end up having only one application."
+      "description": "One of the major problems with coding is to keep track of changes. It is also almost impossible to maintain a program you have multiple versions of. Another is the topic of collaboration and documentation. Which is super Important. Let’s say you work on a Spark application and your colleges need to make changes while you are on holiday. Without some code management they are in huge trouble: Where is the code? What have you changed last? Where is the documentation? How do we mark what we have changed? But if you put your code on GitHub your colleges can find your code. They can understand it through your documentation (please also have in-line comments) Developers can pull your code, make a new branch and do the changes. After your holiday you can inspect what they have done and merge it with your original code. and you end up having only one application.",
+      "sidebar": "docs"
     },
     "foundations/programming-languages/pyspark/broadcasting": {
       "id": "foundations/programming-languages/pyspark/broadcasting",

@@ -1,7 +1,7 @@
 {
   "unversionedId": "foundations/basics/stream-data-processing",
   "id": "foundations/basics/stream-data-processing",
-  "title": "Real-Time Analytics",
+  "title": "Stream and Unified Data Processing",
   "description": "What is an event stream?",
   "source": "@site/docs/01-foundations/basics/stream-data-processing.md",
   "sourceDirName": "01-foundations/basics",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Batch Data Processing",
+    "permalink": "/docs/foundations/basics/batch-data-processing"
+  },
+  "next": {
+    "title": "25 Most Common Interview Questions",
+    "permalink": "/docs/foundations/basics/25-most-common-interview-questions"
+  }
 }

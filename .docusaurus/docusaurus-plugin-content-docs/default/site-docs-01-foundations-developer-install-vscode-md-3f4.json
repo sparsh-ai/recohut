@@ -14,13 +14,13 @@
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docs",
   "previous": {
     "title": "Install Jupyter Notebook",
     "permalink": "/docs/foundations/developer/install-jupyter"
   },
   "next": {
-    "title": ":microscope: Lab: Learn Bash Commands",
-    "permalink": "/docs/foundations/developer/lab-bash-commands/"
+    "title": "Lab: Explore VS Code features",
+    "permalink": "/docs/foundations/developer/lab-explore-vscode-features"
   }
 }

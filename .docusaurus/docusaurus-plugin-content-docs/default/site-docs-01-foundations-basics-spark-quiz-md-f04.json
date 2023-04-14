@@ -1,7 +1,7 @@
 {
   "unversionedId": "foundations/basics/spark-quiz",
   "id": "foundations/basics/spark-quiz",
-  "title": "Spark Quiz",
+  "title": "Quiz: Spark basics",
   "description": "Below are a few questions that should come handy in the first go :",
   "source": "@site/docs/01-foundations/basics/spark-quiz.md",
   "sourceDirName": "01-foundations/basics",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Spark RDDs",
+    "permalink": "/docs/foundations/basics/rdd"
+  },
+  "next": {
+    "title": "Install Anaconda",
+    "permalink": "/docs/foundations/developer/install-anaconda"
+  }
 }

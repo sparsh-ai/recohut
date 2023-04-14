@@ -14,10 +14,10 @@
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docs",
   "previous": {
-    "title": "Install DBeaver",
-    "permalink": "/docs/foundations/developer/install-dbeaver"
+    "title": "Install Anaconda",
+    "permalink": "/docs/foundations/developer/install-anaconda"
   },
   "next": {
     "title": "Install VS Code",

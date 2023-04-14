@@ -14,13 +14,13 @@
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docs",
   "previous": {
-    "title": "Lab: Explore VS Code features",
-    "permalink": "/docs/foundations/developer/lab-explore-vscode-features"
-  },
-  "next": {
     "title": "Setup Git",
     "permalink": "/docs/foundations/developer/setup-git"
+  },
+  "next": {
+    "title": "Lab: Learn Bash Commands",
+    "permalink": "/docs/foundations/developer/lab-bash-commands/"
   }
 }

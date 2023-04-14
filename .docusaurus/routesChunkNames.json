@@ -1066,7 +1066,7 @@
       "plugin": "plugin---searchcbe-cf2"
     }
   },
-  "/docs-158": {
+  "/docs-7f5": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---docs-tagsa-71-345"
@@ -1076,14 +1076,6 @@
   "/docs/a1-interviewprep-64f": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-a-1-interviewprep-20-f-ad5"
-  },
-  "/docs/a1-interviewprep/25-most-common-interview-questions-88a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-a-1-interviewprep-25-most-common-interview-questionsf-2-f-9e7"
-  },
-  "/docs/a1-interviewprep/50-most-common-interview-questions-da1": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-a-1-interviewprep-50-most-common-interview-questions-9-e-1-3bf"
   },
   "/docs/a1-interviewprep/algorithm-problems-d8f": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -1104,10 +1096,6 @@
   "/docs/a1-interviewprep/behavioral-questions-1da": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-a-1-interviewprep-behavioral-questionse-65-ced"
-  },
-  "/docs/a1-interviewprep/most-common-interview-questions-2023-018": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-a-1-interviewprep-most-common-interview-questions-2023-e-19-871"
   },
   "/docs/a1-interviewprep/resume-buildup-358": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -1993,27 +1981,39 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-extraction-webscraping-lab-finance-extract-load-3-ef-b19"
   },
-  "/docs/foundations/basics/batch-data-processing-edc": {
+  "/docs/foundations/basics/25-most-common-interview-questions-c07": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-foundations-basics-25-most-common-interview-questions-830-d16"
+  },
+  "/docs/foundations/basics/50-most-common-interview-questions-587": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-foundations-basics-50-most-common-interview-questionsb-4-f-d79"
+  },
+  "/docs/foundations/basics/50-most-common-interview-questions-2023-f8f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-foundations-basics-50-most-common-interview-questions-202381-b-c97"
+  },
+  "/docs/foundations/basics/batch-data-processing-aa7": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-foundations-basics-batch-data-processingac-4-3b0"
   },
-  "/docs/foundations/basics/batch-vs-incremental-453": {
+  "/docs/foundations/basics/batch-vs-incremental-726": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-foundations-basics-batch-vs-incremental-44-b-99c"
   },
-  "/docs/foundations/basics/big-data-27a": {
+  "/docs/foundations/basics/big-data-27f": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-foundations-basics-big-dataeb-2-27f"
   },
-  "/docs/foundations/basics/data-contract-cc2": {
+  "/docs/foundations/basics/data-contract-56f": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-foundations-basics-data-contractf-24-3f9"
   },
-  "/docs/foundations/basics/data-governance-fc7": {
+  "/docs/foundations/basics/data-governance-b37": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-foundations-basics-data-governance-6-ae-b1c"
   },
-  "/docs/foundations/basics/data-management-05d": {
+  "/docs/foundations/basics/data-management-5ae": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-foundations-basics-data-management-600-7f7"
   },
@@ -2021,11 +2021,11 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-foundations-basics-data-pipelinescd-1-0d2"
   },
-  "/docs/foundations/basics/data-quality-780": {
+  "/docs/foundations/basics/data-quality-e3b": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-foundations-basics-data-qualityae-6-d3a"
   },
-  "/docs/foundations/basics/data-storages-00a": {
+  "/docs/foundations/basics/data-storages-a62": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-foundations-basics-data-storages-67-b-e9f"
   },
@@ -2041,15 +2041,15 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-foundations-basics-extras-70-f-e65"
   },
-  "/docs/foundations/basics/hadoop-basics-4f3": {
+  "/docs/foundations/basics/hadoop-basics-086": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-foundations-basics-hadoop-basics-07-c-b7e"
   },
-  "/docs/foundations/basics/hadoop-vs-spark-7d9": {
+  "/docs/foundations/basics/hadoop-vs-spark-7f6": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-foundations-basics-hadoop-vs-sparkfee-547"
   },
-  "/docs/foundations/basics/map-reduce-ad2": {
+  "/docs/foundations/basics/map-reduce-c6d": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-foundations-basics-map-reduce-1-cf-638"
   },
@@ -2057,7 +2057,7 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-foundations-basics-model-optimization-033-675"
   },
-  "/docs/foundations/basics/oltp-vs-olap-6a4": {
+  "/docs/foundations/basics/oltp-vs-olap-d1a": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-foundations-basics-oltp-vs-olap-454-aa6"
   },
@@ -2069,31 +2069,31 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-foundations-basics-outliers-handling-2-e-1-8b9"
   },
-  "/docs/foundations/basics/rdd-569": {
+  "/docs/foundations/basics/rdd-d75": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-foundations-basics-rdde-64-bcb"
   },
-  "/docs/foundations/basics/spark-basics-d39": {
+  "/docs/foundations/basics/spark-basics-525": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-foundations-basics-spark-basics-68-f-617"
   },
-  "/docs/foundations/basics/spark-dag-4e4": {
+  "/docs/foundations/basics/spark-dag-534": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-foundations-basics-spark-dag-553-fcd"
   },
-  "/docs/foundations/basics/spark-origin-e52": {
+  "/docs/foundations/basics/spark-origin-5a4": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-foundations-basics-spark-origin-6-cb-840"
   },
-  "/docs/foundations/basics/spark-quiz-257": {
+  "/docs/foundations/basics/spark-quiz-7c9": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-foundations-basics-spark-quizf-04-d21"
   },
-  "/docs/foundations/basics/sql-vs-nosql-d6f": {
+  "/docs/foundations/basics/sql-vs-nosql-a65": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-foundations-basics-sql-vs-nosql-359-c40"
   },
-  "/docs/foundations/basics/stream-data-processing-2d7": {
+  "/docs/foundations/basics/stream-data-processing-7ed": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-foundations-basics-stream-data-processing-68-a-7fd"
   },
@@ -2193,37 +2193,37 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-foundations-cloud-essentials-secrets-manager-40-d-89f"
   },
-  "/docs/foundations/developer-foundations/install-anaconda-5bd": {
+  "/docs/foundations/developer/install-anaconda-937": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-developer-foundations-install-anaconda-436-10d"
+    "content": "content---docs-foundations-developer-install-anacondab-2-b-8c8"
   },
-  "/docs/foundations/developer-foundations/install-dbeaver-012": {
+  "/docs/foundations/developer/install-dbeaver-4df": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-developer-foundations-install-dbeaver-05-c-b03"
+    "content": "content---docs-foundations-developer-install-dbeavercb-0-e6d"
   },
-  "/docs/foundations/developer-foundations/install-jupyter-e0d": {
+  "/docs/foundations/developer/install-jupyter-741": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-developer-foundations-install-jupyter-278-c21"
+    "content": "content---docs-foundations-developer-install-jupyterfa-9-03e"
   },
-  "/docs/foundations/developer-foundations/install-vscode-45b": {
+  "/docs/foundations/developer/install-vscode-dde": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-developer-foundations-install-vscode-0-a-7-439"
+    "content": "content---docs-foundations-developer-install-vscode-3-f-4-21b"
   },
-  "/docs/foundations/developer-foundations/lab-bash-commands-1cf": {
+  "/docs/foundations/developer/lab-bash-commands-4c7": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-developer-foundations-lab-bash-commandscd-0-4c5"
+    "content": "content---docs-foundations-developer-lab-bash-commands-696-408"
   },
-  "/docs/foundations/developer-foundations/lab-explore-vscode-features-165": {
+  "/docs/foundations/developer/lab-explore-vscode-features-4c7": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-developer-foundations-lab-explore-vscode-featuresf-77-e36"
+    "content": "content---docs-foundations-developer-lab-explore-vscode-features-981-839"
   },
-  "/docs/foundations/developer-foundations/lab-learn-git-commands-dfb": {
+  "/docs/foundations/developer/lab-learn-git-commands-a5d": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-developer-foundations-lab-learn-git-commands-54-b-308"
+    "content": "content---docs-foundations-developer-lab-learn-git-commandsa-0-f-3ef"
   },
-  "/docs/foundations/developer-foundations/setup-git-24d": {
+  "/docs/foundations/developer/setup-git-550": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-developer-foundations-setup-git-546-ef1"
+    "content": "content---docs-foundations-developer-setup-gitd-9-a-12f"
   },
   "/docs/foundations/programming-languages/pyspark/broadcasting-8e3": {
     "__comp": "__comp---theme-doc-item-178-a40",

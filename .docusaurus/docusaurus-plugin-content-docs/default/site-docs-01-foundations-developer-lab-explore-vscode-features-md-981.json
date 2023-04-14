@@ -14,13 +14,13 @@
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docs",
   "previous": {
-    "title": ":microscope: Lab: Learn Bash Commands",
-    "permalink": "/docs/foundations/developer/lab-bash-commands/"
+    "title": "Install VS Code",
+    "permalink": "/docs/foundations/developer/install-vscode"
   },
   "next": {
-    "title": "Lab: Learn git commands",
-    "permalink": "/docs/foundations/developer/lab-learn-git-commands"
+    "title": "Setup Git",
+    "permalink": "/docs/foundations/developer/setup-git"
   }
 }

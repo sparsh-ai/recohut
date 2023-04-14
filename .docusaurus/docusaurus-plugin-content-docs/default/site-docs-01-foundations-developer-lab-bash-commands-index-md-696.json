@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/developer/lab-bash-commands/index",
+  "id": "foundations/developer/lab-bash-commands/index",
+  "title": "Lab: Learn Bash Commands",
+  "description": "- pwd: Display the current directory",
+  "source": "@site/docs/01-foundations/developer/lab-bash-commands/index.md",
+  "sourceDirName": "01-foundations/developer/lab-bash-commands",
+  "slug": "/foundations/developer/lab-bash-commands/",
+  "permalink": "/docs/foundations/developer/lab-bash-commands/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Learn git commands",
+    "permalink": "/docs/foundations/developer/lab-learn-git-commands"
+  },
+  "next": {
+    "title": "Install DBeaver",
+    "permalink": "/docs/foundations/developer/install-dbeaver"
+  }
+}
