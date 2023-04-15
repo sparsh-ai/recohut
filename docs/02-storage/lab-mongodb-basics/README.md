@@ -1,4 +1,4 @@
-# Lab - MongoDB Basics
+# Lab: MongoDB Basics
 
 ## Environment Setup
 

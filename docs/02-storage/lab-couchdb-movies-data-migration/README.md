@@ -1,4 +1,4 @@
-# Couchdb Movies Data Migration
+# Lab: Couchdb Movies Data Migration
 
 ## Objective
 
@@ -25,3 +25,7 @@ You need to do the following tasks:
 - Write a cql query to count the number of rows in the movies table
 - Create an index for the column rating in the movies table using cql
 - Write a cql query to count the number of movies that are rated 'G'
+
+## Notebook
+
+[![nbviewer](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/recohut/blob/main/docs/02-storage/lab-couchdb-movies-data-migration/main.ipynb)

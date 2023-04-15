@@ -1,4 +1,4 @@
-# Lab - GCP Streaming Bigtable
+# Lab: GCP Streaming Bigtable
 
 ## Objective
 

@@ -1,4 +1,4 @@
-# Amazon Keyspaces
+# Lab: Amazon Keyspaces
 
 ## Setup
 
@@ -6,7 +6,9 @@ We will learn how to setup a production ready Cassandra database on cloud using 
 
 Go to https://us-east-1.console.aws.amazon.com/keyspaces/home?region=us-east-1#dashboard and follow the getting started guide to create a new keyspace, a new table inside that keyspace, insert a record inside the table and run query to retrieve the results.
 
-Follow [this](./01-sa.ipynb) notebook.
+## Notebook
+
+[![nbviewer](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/recohut/blob/main/docs/02-storage/lab-amazon-keyspaces/main.ipynb)
 
 ## Connect via Python/CQLSH client
 

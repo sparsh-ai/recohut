@@ -1,4 +1,6 @@
-# Building Federated Query System using Amazon Athena
+# Project: Athena Federated
+
+> Building Federated Query System using Amazon Athena
 
 ## Activity 1: Athena Lab Environment Setup
 

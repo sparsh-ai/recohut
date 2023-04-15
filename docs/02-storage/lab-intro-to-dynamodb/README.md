@@ -1,4 +1,4 @@
-# Introduction to DynamoDB
+# Lab: Intro to DynamoDB
 
 ## Description
 
