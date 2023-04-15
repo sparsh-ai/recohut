@@ -1,4 +1,6 @@
-# Build a serverless transactional data lake with Apache Iceberg, Amazon EMR Serverless, and Amazon Athena
+# Lab: Build an Iceberg Lakehouse
+
+> Build a serverless transactional data lake with Apache Iceberg, Amazon EMR Serverless, and Amazon Athena
 
 Since the deluge of big data over a decade ago, many organizations have learned to build applications to process and analyze petabytes of data. Data lakes have served as a central repository to store structured and unstructured data at any scale and in various formats. However, as data processing at scale solutions grow, organizations need to build more and more features on top of their data lakes. One important feature is to run different workloads such as business intelligence (BI), Machine Learning (ML), Data Science and data exploration, and Change Data Capture (CDC) of transactional data, without having to maintain multiple copies of data. Additionally, the task of maintaining and managing files in the data lake can be tedious and sometimes complex.
 

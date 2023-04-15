@@ -1,4 +1,4 @@
-# Redshift Spectrum Query Data Lake
+# Lab: Redshift Spectrum Query Data Lake
 
 [![](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/recohut/blob/main/02-storage/lab-redshift-immersion/04-query-data-lake-spectrum.ipynb)
 

@@ -1,4 +1,4 @@
-# Real-Time Point-of-Sale Analytics With the Data Lakehouse
+# Lab: Real-Time Point-of-Sale Analytics With the Data Lakehouse
 
 ## Introduction
 

@@ -1,4 +1,4 @@
-# Redshift Slowly Changing Dimension
+# Lab: Redshift Slowly Changing Dimension
 
 [![](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/recohut/blob/main/02-storage/lab-redshift-scd-2/main.ipynb)
 

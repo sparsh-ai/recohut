@@ -1,4 +1,4 @@
-# Delta Lake Optimizations
+# Lab: Delta Lake Optimizations
 
 In this lab, we will learn about various Delta Lake optimizations that help us build a more performant Lakehouse.
 

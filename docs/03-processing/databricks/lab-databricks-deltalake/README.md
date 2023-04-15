@@ -1,4 +1,4 @@
-# Databricks Deltalake
+# Lab: Databricks Deltalake
 
 Objective: Creation of an elementary Data Lakehouse using Databricks and the Delta lake technology
 

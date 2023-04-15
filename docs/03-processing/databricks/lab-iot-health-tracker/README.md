@@ -1,4 +1,4 @@
-# Real-time Health Tracking and Monitoring System
+# Lab: Real-time Health Tracking and Monitoring System
 
 ## What you'll build
 

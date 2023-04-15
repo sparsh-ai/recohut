@@ -1,4 +1,4 @@
-# Simplifying Data Engineering and Analytics with Delta
+# Lab: Simplifying Data Engineering and Analytics with Delta
 
 ## Objective
 

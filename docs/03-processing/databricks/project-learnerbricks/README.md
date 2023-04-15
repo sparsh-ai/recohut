@@ -1,4 +1,4 @@
-# Data Engineer Learner Path with Databricks
+# Project: Data Engineer Learner Path with Databricks
 
 The Data Engineering with Databricks (DEWD) course is designed to prepare students for the Databricks Certified Associate Data Engineer certification exam. The content for this course consists of the Associate-level modules of the Data Engineer Learning Path, and can be delivered as an instructor-led training (ILT) or self-paced (SP) course.
 

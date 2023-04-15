@@ -1,4 +1,4 @@
-# Cybersecurity Databricks
+# Lab: Cybersecurity Databricks
 
 ## Objective
 

@@ -23,165 +23,113 @@ Hit the ⭐️ button if you like the repo
 
 - Storages
 
-  - Warehouses
-    - [Lab: Redshift Table Design and Query Tuning](lab-redshift-table-design-query-tuning.md)
-    - [Lab: Implement a slowly changing dimension in Redshift](docs/02-storage/lab-redshift-scd.md)
-    - [Lab: Implement a slowly changing dimension in Redshift 2](docs/02-storage/lab-redshift-scd-2.md)
-    - [Lab: Redshift Ongoing Load - ELT](docs/02-storage/lab-redshift-ongoing-load-elt.md)
-    - [Lab: Redshift Spectrum Query Data Lake](docs/02-storage/lab-redshift-spectrum-query-datalake.md)
-    - [Lab: Redshift Spectrum Query Tuning](docs/02-storage/lab-redshift-spectrum-query-tuning.md)
-    - [Accelerate Application Development with Real Time Streams in Amazon Redshift](https://bit.ly/3Se99Ur)
-    - [GCP BigQuery](docs/02-storage/bigquery.md)
-    - [Snowflake](docs/02-storage/snowflake.md)
-
   - Data Lakes
-    - [What is a Data Lake?](docs/02-storage/datalakes.md)
-    - [Why we need Data Lakes?](docs/02-storage/why-datalakes.md)
-    - [On-premises Hadoop cluster vs Cloud data lakes](hadoop-vs-datalake.md)
-    - [Components of the cloud data lake architecture](docs/02-storage/datalake-components.md)
-    - [Azure Data Lakes](azure-datalake.md)
-    - [Google Cloud Storage (GCS)](gcs.md)
     - Lab: Working with S3 using Boto3 in Python
-    - [Lab: Building a data lake for a healthcare company with AWS, S3 and Athena](docs/02-storage/lab-datalake-healthcare-s3-glue-athena/)
-    - [Lab: Creating and Managing Data in Azure Data Lake](docs/02-storage/lab-adl-create-manage-data/)
-    - [Lab: Securing and Monitoring Data in Azure Data Lake](docs/02-storage/lab-adl-securing-monitoring-lakes/)
-
-  - Lakehouses
-    - [Data Lakehouses](docs/02-storage/data-lakehouses.md)
-    - [Deltalake](docs/02-storage/deltalake.md)
-    - [Apache Hudi](docs/02-storage/apache-hudi.md)
-    - [Apache Iceberg](docs/02-storage/apache-iceberg.md)
-    - [Lab: Read Delta Tables stored in Amazon S3 with Python](docs/02-storage/lab-read-s3-delta-in-python/)
-    - [Lab: Build a serverless transactional data lake with Apache Iceberg, Amazon EMR Serverless, and Amazon Athena](docs/02-storage/lab-glue-emr-iceberg-serverless-lakehouse/)
-    - [Lab: The Easy Ways to Clean Up Production Messes](docs/02-storage/lab-production-cleaning-deltalake/)
-    - [Lab: Implement slowly changing dimensions in a data lake using AWS Glue and Delta](docs/02-storage/lab-scd-glue-delta)
-
-  - Data Meshes
-    - [What is Data Mesh?](docs/02-storage/data-mesh-basics.md)
-    - [Case Study: Messflix (hypothetical)](docs/02-storage/casestudy-messflix-hypothetical.md)
 
 - Data Processing
 
-  - Databricks
-    - [Databricks Getting Started Guide](03-processing/databricks/)
-    - [Lab: Building a Cybersecurity Lakehouse for CrowdStrike Falcon Events in Databricks](03-processing/databricks/lab-cybersecurity-databricks/)
-    - [Lab: Databricks AWS Integration and Clickstream Analysis](03-processing/databricks/lab-databricks-clickstream/)
-    - [Lab: Create an elementary Data Lakehouse using Databricks and the Delta lake technology](03-processing/databricks/lab-databricks-deltalake/)
-    - [Lab: Delta Lake Optimizations](03-processing/databricks/lab-deltalake-optimizations/)
-    - [Lab: Compare dbt and Delta Live Tables (dlt) for data transformation](03-processing/databricks/lab-dlt-dbt/)
-    - [Lab: Unlocking the Power of Health Data With a Modern Data Lakehouse](03-processing/databricks/lab-healthcare-databricks/)
-    - [Lab: Real-time Health Tracking and Monitoring System](03-processing/databricks/lab-iot-health-tracker/)
-    - [Lab: Simplifying Data Engineering and Analytics with Delta](03-processing/databricks/lab-loan-application/)
-    - [Lab: Real-Time Point-of-Sale Analytics With the Data Lakehouse](03-processing/databricks/lab-retail-pos-databricks/)
-    - [Lab: Processing Data Using Azure Databricks](03-processing/databricks/lab-data-processing-azure-db/)
-    - [Project: Data Engineering with Databricks](03-processing/databricks/project-databricks-de/)
-    - [Project: Data Engineer Learner Path with Databricks](03-processing/databricks/project-learnerbricks/)
-    - [Project: Advanced Data Engineering with Databricks](03-processing/databricks/project-advancedbricks/)
-    - [Project: Databricks PySpark Ecommerce Data Processing Case Study](03-processing/databricks/project-bedbricks/)
-    - [Project: Data Pipeline with Databricks PySpark and Superset](03-processing/databricks/project-databricks-superset/)
-
   - AWS EMR
-    - [AWS EMR Getting Started Guide](03-processing/aws-emr.md)
-    - [Lab: Creating and submitting Word count Spark Job in EMR Serverless](03-processing/lab-emr-serverless/)
+    - [AWS EMR Getting Started Guide](docs/03-processing/aws-emr.md)
+    - [Lab: Creating and submitting Word count Spark Job in EMR Serverless](docs/03-processing/lab-emr-serverless/)
 
   - AWS Glue Studio
-    - [Lab: Advanced Data Engineering and Data Processing with AWS Glue Jobs](03-processing/lab-glue-advanced/)
-    - [Lab: Handle UPSERT data operations using open-source Delta Lake and AWS Glue](03-processing/lab-glue-deltalake-cdc-upsert/)
-    - [Lab: Create your own reusable visual transforms for AWS Glue Studio](03-processing/lab-glue-studio-custom-transforms/)
-    - [Lab: Tickets ETL with Glue Studio](03-processing/lab-glue-studio-tickets/)
-    - [Lab: CSV to Parquet Transformation with Glue Studio](03-processing/lab-csv-to-parquet-conversion/)
+    - [Lab: Advanced Data Engineering and Data Processing with AWS Glue Jobs](docs/03-processing/lab-glue-advanced/)
+    - [Lab: Handle UPSERT data operations using open-source Delta Lake and AWS Glue](docs/03-processing/lab-glue-deltalake-cdc-upsert/)
+    - [Lab: Create your own reusable visual transforms for AWS Glue Studio](docs/03-processing/lab-glue-studio-custom-transforms/)
+    - [Lab: Tickets ETL with Glue Studio](docs/03-processing/lab-glue-studio-tickets/)
+    - [Lab: CSV to Parquet Transformation with Glue Studio](docs/03-processing/lab-csv-to-parquet-conversion/)
 
   - AWS Lambda Function
-    - [AWS Lambda Function Getting Started Guide](03-processing/aws-lambda.md)
-    - [AWS Lambda Snippets](03-processing/aws-lambda-snippets.md)
-    - [Lab: Building a near real-time serverless data pipeline with AWS lambda function](03-processing/lab-lambda-csv-parquet/)
+    - [AWS Lambda Function Getting Started Guide](docs/03-processing/aws-lambda.md)
+    - [AWS Lambda Snippets](docs/03-processing/aws-lambda-snippets.md)
+    - [Lab: Building a near real-time serverless data pipeline with AWS lambda function](docs/03-processing/lab-lambda-csv-parquet/)
 
   - Amazon Kinesis
-    - [Amazon Kinesis Getting Started Guide](03-processing/aws-kinesis.md)
-    - [Lab: Real Time Apache Log Analytics with Kinesis](03-processing/lab-kinesis-apache-logs/)
-    - [Lab: Real-Time Clickstream Anomaly Detection with Kinesis](03-processing/lab-kinesis-clickstream-anomaly/)
+    - [Amazon Kinesis Getting Started Guide](docs/03-processing/aws-kinesis.md)
+    - [Lab: Real Time Apache Log Analytics with Kinesis](docs/03-processing/lab-kinesis-apache-logs/)
+    - [Lab: Real-Time Clickstream Anomaly Detection with Kinesis](docs/03-processing/lab-kinesis-clickstream-anomaly/)
 
   - Apache Beam
-    - [Apache Beam Getting Started Guide](03-processing/apache-beam.md)
-    - [Lab: Getting started with Apache Beam](03-processing/lab-getting-started-with-beam/)
-    - [Lab: MapReduce in Beam using Python](03-processing/lab-gcp-beam-mapreduce/)
+    - [Apache Beam Getting Started Guide](docs/03-processing/apache-beam.md)
+    - [Lab: Getting started with Apache Beam](docs/03-processing/lab-getting-started-with-beam/)
+    - [Lab: MapReduce in Beam using Python](docs/03-processing/lab-gcp-beam-mapreduce/)
 
   - GCP Dataflow
-    - [Lab: Build a simple Dataflow Pipeline (Python)](03-processing/lab-gcp-dataflow-pipeline.md)
-    - [Lab: Batch Analytics Pipelines with Cloud Dataflow (Python)](03-processing/lab-gcp-dataflow-batch-pipeline.md)
-    - [Lab: Providing Side Inputs in Dataflow (Python)](03-processing/lab-gcp-dataflow-side-inputs.md)
-    - [Lab: Using Dataflow for Streaming Analytics (Python)](03-processing/lab-gcp-dataflow-stream-pipeline.md)
-    - [Lab: Writing an ETL Pipeline using Apache Beam and Cloud Dataflow (Python)](03-processing/lab-gcp-serverless-dataflow.md)
-    - [Lab: ETL Processing on Google Cloud Using Dataflow and BigQuery](03-processing/lab-dataflow-bigquery-etl.md)
+    - [Lab: Build a simple Dataflow Pipeline (Python)](docs/03-processing/lab-gcp-dataflow-pipeline.md)
+    - [Lab: Batch Analytics Pipelines with Cloud Dataflow (Python)](docs/03-processing/lab-gcp-dataflow-batch-pipeline.md)
+    - [Lab: Providing Side Inputs in Dataflow (Python)](docs/03-processing/lab-gcp-dataflow-side-inputs.md)
+    - [Lab: Using Dataflow for Streaming Analytics (Python)](docs/03-processing/lab-gcp-dataflow-stream-pipeline.md)
+    - [Lab: Writing an ETL Pipeline using Apache Beam and Cloud Dataflow (Python)](docs/03-processing/lab-gcp-serverless-dataflow.md)
+    - [Lab: ETL Processing on Google Cloud Using Dataflow and BigQuery](docs/03-processing/lab-dataflow-bigquery-etl.md)
 
   - Ray
-    - [Ray Getting Started Guide](03-processing/ray.md)
-    - [Lab: Ray Core Basics](03-processing/lab-ray-core-basics/)
-    - [Lab: Ray AIR Basics](03-processing/lab-ray-air-basics/)
+    - [Ray Getting Started Guide](docs/03-processing/ray.md)
+    - [Lab: Ray Core Basics](docs/03-processing/lab-ray-core-basics/)
+    - [Lab: Ray AIR Basics](docs/03-processing/lab-ray-air-basics/)
 
   - GCP Dataproc
-    - [GCP Dataproc Getting Started Guide](03-processing/gcp-dataproc.md)
-    - [Lab: Running Apache Spark jobs on Cloud Dataproc](03-processing/lab-gcp-dataproc/)
+    - [GCP Dataproc Getting Started Guide](docs/03-processing/gcp-dataproc.md)
+    - [Lab: Running Apache Spark jobs on Cloud Dataproc](docs/03-processing/lab-gcp-dataproc/)
 
   - Azure HDInsight
-    - [Lab: Build Data Pipeline with HDInsight](03-processing/lab-azure-hdinsight-simple-data-processing/)
+    - [Lab: Build Data Pipeline with HDInsight](docs/03-processing/lab-azure-hdinsight-simple-data-processing/)
 
   - Azure Synapse Analytics
-    - [Azure Synapse Analytics Getting Started Guide](03-processing/azure-synapse-analytics.md)
-    - [Lab: Transforming Data Using Azure Synapse Dataflows](03-processing/lab-azure-synapse-dataflows/)
-    - [Lab: Processing Data Using Azure Synapse Analytics](03-processing/lab-azure-synapse-data-processing/)
-    - [Lab: Implementing the Serving Layer Star Schema](03-processing/lab-azure-synapse-implementing-star-schema/)
+    - [Azure Synapse Analytics Getting Started Guide](docs/03-processing/azure-synapse-analytics.md)
+    - [Lab: Transforming Data Using Azure Synapse Dataflows](docs/03-processing/lab-azure-synapse-dataflows/)
+    - [Lab: Processing Data Using Azure Synapse Analytics](docs/03-processing/lab-azure-synapse-data-processing/)
+    - [Lab: Implementing the Serving Layer Star Schema](docs/03-processing/lab-azure-synapse-implementing-star-schema/)
 
   - GCP Dataprep
-    - [Lab: Creating a Data Transformation Pipeline with Cloud Dataprep](03-processing/lab-gcp-dataprep.md)
+    - [Lab: Creating a Data Transformation Pipeline with Cloud Dataprep](docs/03-processing/lab-gcp-dataprep.md)
 
   - GCP PubSub
-    - [GCP PubSub Getting Started Guide](03-processing/gcp-pubsub.md)
-    - [Lab: Streaming Data Pipelines with GCP PubSub](03-processing/lab-gcp-pubsub-processing.md/)
-    - [Lab: Publish Streaming Data into PubSub](03-processing/lab-gcp-pubsub.md/)
+    - [GCP PubSub Getting Started Guide](docs/03-processing/gcp-pubsub.md)
+    - [Lab: Streaming Data Pipelines with GCP PubSub](docs/03-processing/lab-gcp-pubsub-processing.md/)
+    - [Lab: Publish Streaming Data into PubSub](docs/03-processing/lab-gcp-pubsub.md/)
 
   - Apache Kafka
-    - [Apache Kafka Getting Started Guide](03-processing/apache-kafka.md)
-    - [Lab: Getting started with Confluent Kafka and Python](03-processing/lab-confluent-python/)
-    - [Lab: Real-time CDC-enabled Extract and Load Pipeline with Kafka on Cloud](03-processing/lab-confluent-kafka-faker/)
-    - [Lab: Real-time fraud detection by applying filter in Kafka topic](03-processing/lab-kafka-fraud-detection/)
-    - [Lab: Kafka Streams for NYC Taxi data](03-processing/lab-kafka-nyctaxi/)
-    - [Lab: Kafka on Cloud with Amazon ECS and Container Orchestration](03-processing/lab-kafka-python-ecs/)
-    - [Lab: Realtime Streaming analytics with Apache Kafka and Spark Streaming](03-processing/lab-kafka-spark-streaming/)
-    - [Lab: Stock Market Kafka Real Time](03-processing/lab-kafka-stock-market/)
-    - [Lab: Data Streaming Pipeline with Kafka for livetolldata](03-processing/lab-kafka-toll-analysis/)
-    - [Lab: Building an event-driven IKEA app with Kafka](03-processing/project-ikea/)
-    - [Lab: Getting started with Kafka and CLI](03-processing/lab-kafka-cli/)
-    - [Lab: Getting started with Kafka and Python](03-processing/lab-kafka-python/)
-    - [Project: Building an event-driven IKEA app with Kafka](03-processing/project-kafka-ikea)
+    - [Apache Kafka Getting Started Guide](docs/03-processing/apache-kafka.md)
+    - [Lab: Getting started with Confluent Kafka and Python](docs/03-processing/lab-confluent-python/)
+    - [Lab: Real-time CDC-enabled Extract and Load Pipeline with Kafka on Cloud](docs/03-processing/lab-confluent-kafka-faker/)
+    - [Lab: Real-time fraud detection by applying filter in Kafka topic](docs/03-processing/lab-kafka-fraud-detection/)
+    - [Lab: Kafka Streams for NYC Taxi data](docs/03-processing/lab-kafka-nyctaxi/)
+    - [Lab: Kafka on Cloud with Amazon ECS and Container Orchestration](docs/03-processing/lab-kafka-python-ecs/)
+    - [Lab: Realtime Streaming analytics with Apache Kafka and Spark Streaming](docs/03-processing/lab-kafka-spark-streaming/)
+    - [Lab: Stock Market Kafka Real Time](docs/03-processing/lab-kafka-stock-market/)
+    - [Lab: Data Streaming Pipeline with Kafka for livetolldata](docs/03-processing/lab-kafka-toll-analysis/)
+    - [Lab: Building an event-driven IKEA app with Kafka](docs/03-processing/project-ikea/)
+    - [Lab: Getting started with Kafka and CLI](docs/03-processing/lab-kafka-cli/)
+    - [Lab: Getting started with Kafka and Python](docs/03-processing/lab-kafka-python/)
+    - [Project: Building an event-driven IKEA app with Kafka](docs/03-processing/project-kafka-ikea)
 
   - Apache Druid
-    - [Apache Druid Getting Started Guide](03-processing/apache-druid.md)
+    - [Apache Druid Getting Started Guide](docs/03-processing/apache-druid.md)
 
   - Apache Flink
-    - [Apache Flink Getting Started Guide](03-processing/apache-flink.md)
-    - [Lab: Real-time Taxi Price Model based Prediction using Flink](03-processing/lab-flink-taxi-pricing/)
-    - [Lab: Real-time Twitter Stream Wordcount using Flink](03-processing/lab-flink-twitter-stream-processing/)
-    - [Lab: Flink Kafka Sink](03-processing/lab-flink-kafka-sink/)
-    - [Lab: Flink Kafka Source](03-processing/lab-flink-kafka-source/)
+    - [Apache Flink Getting Started Guide](docs/03-processing/apache-flink.md)
+    - [Lab: Real-time Taxi Price Model based Prediction using Flink](docs/03-processing/lab-flink-taxi-pricing/)
+    - [Lab: Real-time Twitter Stream Wordcount using Flink](docs/03-processing/lab-flink-twitter-stream-processing/)
+    - [Lab: Flink Kafka Sink](docs/03-processing/lab-flink-kafka-sink/)
+    - [Lab: Flink Kafka Source](docs/03-processing/lab-flink-kafka-source/)
 
   - Snowpark
-    - [Snowpark Getting Started Guide](03-processing/lab-snowpark.md)
-    - [Lab: Churn Analytics Demo with dbt Snowpark Python models](03-processing/lab-snowpark-churnpark/)
-    - [Lab: Getting started with dbt and Snowpark](03-processing/lab-snowpark-dbtsnowpy/)
-    - [Lab: FIFA prediction model with dbt and Snowpark](03-processing/lab-snowpark-fifapark/)
-    - [Lab: Jaffle shop analytics modeling with dbt and Snowpark](03-processing/lab-snowpark-jafflepark/)
-    - [Lab: Knoema Regression with dbt Snowpark and Streamlit](03-processing/lab-snowpark-knoema-regression/)
+    - [Snowpark Getting Started Guide](docs/03-processing/lab-snowpark.md)
+    - [Lab: Churn Analytics Demo with dbt Snowpark Python models](docs/03-processing/lab-snowpark-churnpark/)
+    - [Lab: Getting started with dbt and Snowpark](docs/03-processing/lab-snowpark-dbtsnowpy/)
+    - [Lab: FIFA prediction model with dbt and Snowpark](docs/03-processing/lab-snowpark-fifapark/)
+    - [Lab: Jaffle shop analytics modeling with dbt and Snowpark](docs/03-processing/lab-snowpark-jafflepark/)
+    - [Lab: Knoema Regression with dbt Snowpark and Streamlit](docs/03-processing/lab-snowpark-knoema-regression/)
 
   - dbt
-    - [dbt Getting Started Guide](03-processing/dbt.md)
-    - [Lab: Building an ELT pipeline for a cab service company using dbt and Postgres](03-processing/lab-dbt-nyctaxi/)
-    - [Lab: dbt Postgres on Jaffle Shop data](03-processing/lab-dbt-jaffle-shop/)
-    - [Lab: dbt Snowflake on Knoema data](03-processing/lab-dbt-knoema/)
-    - [Lab: dbt Postgres on Olist Retail data](03-processing/lab-dbt-olist/)
-    - [Lab: dbt BigQuery on Stack Exchange data](03-processing/lab-dbt-stackexchnge/)
-    - [Lab: Building an ELT Pipeline with dbt and Amazon Redshift on TICKIT data](03-processing/lab-dbt-tickit/)
-    - [Lab: dbt Snowflake on TPCH data](03-processing/lab-dbt-tpch/)
+    - [dbt Getting Started Guide](docs/03-processing/dbt.md)
+    - [Lab: Building an ELT pipeline for a cab service company using dbt and Postgres](docs/03-processing/lab-dbt-nyctaxi/)
+    - [Lab: dbt Postgres on Jaffle Shop data](docs/03-processing/lab-dbt-jaffle-shop/)
+    - [Lab: dbt Snowflake on Knoema data](docs/03-processing/lab-dbt-knoema/)
+    - [Lab: dbt Postgres on Olist Retail data](docs/03-processing/lab-dbt-olist/)
+    - [Lab: dbt BigQuery on Stack Exchange data](docs/03-processing/lab-dbt-stackexchnge/)
+    - [Lab: Building an ELT Pipeline with dbt and Amazon Redshift on TICKIT data](docs/03-processing/lab-dbt-tickit/)
+    - [Lab: dbt Snowflake on TPCH data](docs/03-processing/lab-dbt-tpch/)
 
 - Data Modeling
 

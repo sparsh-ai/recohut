@@ -1,4 +1,4 @@
-# BedBricks
+# Project: BedBricks
 
 > Databricks PySpark Ecommerce Data Processing Case Study
 

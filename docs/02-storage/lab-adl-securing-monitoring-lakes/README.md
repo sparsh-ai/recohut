@@ -1,4 +1,4 @@
-# Azure Data Lake - Securing and Monitoring
+# Lab: Azure Data Lake - Securing and Monitoring
 
 Data Lake forms the key storage layer for data engineering pipelines. Security and the monitoring of Data Lake accounts are key aspects of Data Lake maintenance. This lab will focus on configuring security controls such as firewalls, encryption, and creating private links to a Data Lake account. By the end of this lab, you will have learned how to configure a firewall, virtual network, and private link to secure the Data Lake, encrypt Data Lake using Azure Key Vault, and monitor key user actions in Data Lake.
 
@@ -98,3 +98,20 @@ Setting up an alert is easy. At first, we need to define the alert condition (a 
 We then need to define the action to be performed when the alert condition is reached. We can define more than one action for an alert. In our example, in addition to sending an email when the used capacity is more than 5 MB, we can configure Azure Automation to delete the old blobs/files in order to maintain the Azure storage capacity within 5 MB.
 
 There are other signals, such as transactions, ingress, egress, availability, Success Server Latency, and Success E2E Latency, on which alerts can be defined. Detailed information on monitoring Azure storage is available at https://docs.microsoft.com/en-us/azure/storage/common/storage-monitoring-diagnosing-troubleshooting.
+
+## Files
+
+[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sparsh-ai/recohut/tree/main/docs/02-storage/lab-adl-securing-monitoring-lakes)
+
+```
+├── [9.9K]  README.md
+├── [ 154]  data
+│   └── [  58]  download.sh
+└── [ 11K]  main.ipynb
+
+  21K used in 1 directory, 3 files
+```
+
+## Notebook
+
+[![nbviewer](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/recohut/blob/main/docs/02-storage/lab-adl-securing-monitoring-lakes/main.ipynb)

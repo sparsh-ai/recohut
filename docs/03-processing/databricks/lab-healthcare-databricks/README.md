@@ -1,4 +1,6 @@
-# Unlocking the Power of Health Data With a Modern Data Lakehouse
+# Lab: Healthcare Lakehouse
+
+> Unlocking the Power of Health Data With a Modern Data Lakehouse
 
 A single patient produces approximately 80 megabytes of medical data every year. Multiply that across thousands of patients over their lifetime, and you’re looking at petabytes of patient data that contains valuable insights. Unlocking these insights can help streamline clinical operations, accelerate drug R&D and improve patient health outcomes. But first, the data needs to be prepared for downstream analytics and AI. Unfortunately, most healthcare and life sciences organizations spend an inordinate amount of time simply gathering, cleaning and structuring their data.
 

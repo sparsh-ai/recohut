@@ -1,4 +1,4 @@
-# AdvancedBricks
+# Project: AdvancedBricks
 
 > Advanced Data Engineering with Databricks
 

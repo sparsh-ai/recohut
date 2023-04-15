@@ -1,4 +1,4 @@
-# Data Pipeline with Databricks PySpark and Superset
+# Project: Data Pipeline with Databricks PySpark and Superset
 
 Put on your data engineer hat! In this project, you’ll build a modern, cloud-based, three-layer data Lakehouse. First, you’ll set up your workspace on the Databricks platform, leveraging important Databricks features, before pushing the data into the first two layers of the data lake. Next, using Apache Spark, you’ll build the third layer, used to serve insights to different end-users. Then, you’ll use Delta Lake to turn your existing data lake into a Lakehouse. Finally, you’ll deliver an infrastructure that allows your end-users to perform specific queries, using Apache Superset, and build dashboards on top of the existing data. When you’re done with the projects in this series, you’ll have a complete big data pipeline for a cloud-based data lake—and you’ll understand why the three-layer architecture is so popular.
 

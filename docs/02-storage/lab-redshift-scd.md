@@ -1,4 +1,4 @@
-# Implement a slowly changing dimension in Redshift
+# Lab: Implement a slowly changing dimension in Redshift
 
 [![](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/recohut/blob/main/02-storage/lab-redshift-scd.ipynb)
 

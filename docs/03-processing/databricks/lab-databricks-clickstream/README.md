@@ -1,4 +1,4 @@
-# Databricks AWS Integration and Clickstream Analysis
+# Lab: Databricks Clickstream Analysis
 
 ## Objective
 

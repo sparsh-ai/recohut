@@ -19,6 +19,10 @@ For instance, when an organization wanted to understand the sales, they built an
 
 ![Traditional on-premises data warehouse](https://user-images.githubusercontent.com/62965911/213930653-e195afbb-1d65-4c41-8e47-b73bec31783c.png)
 
+## On-premises Hadoop cluster vs Cloud data lakes
+
+![On-premises versus cloud architectures](https://user-images.githubusercontent.com/62965911/213930652-1784028d-8974-46ed-9e7c-4924df84a5c2.png)
+
 ## Limitations of on-premises data warehouse solutions
 
 While this works well for providing insights into the business, there are a few key limitations with this architecture, as listed below.
