@@ -14,13 +14,13 @@
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docs",
   "previous": {
-    "title": "DMS",
-    "permalink": "/docs/foundations/cloud/dms"
+    "title": "Comparison of Cloud Services",
+    "permalink": "/docs/foundations/cloud/cloud-comparison"
   },
   "next": {
-    "title": "GCP Basics",
-    "permalink": "/docs/foundations/cloud/gcp-basics"
+    "title": "IAM",
+    "permalink": "/docs/foundations/cloud/iam"
   }
 }

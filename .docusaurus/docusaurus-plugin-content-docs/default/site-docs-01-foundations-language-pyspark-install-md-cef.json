@@ -14,13 +14,13 @@
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docs",
   "previous": {
-    "title": "Spark Execution Plan",
-    "permalink": "/docs/foundations/language/pyspark/execution-plan"
+    "title": "Explore Further",
+    "permalink": "/docs/foundations/language/python/links"
   },
   "next": {
-    "title": "BCG Case Study",
-    "permalink": "/docs/foundations/language/pyspark/lab-bcg/"
+    "title": "PySpark DataFrame",
+    "permalink": "/docs/foundations/language/pyspark/dataframe"
   }
 }

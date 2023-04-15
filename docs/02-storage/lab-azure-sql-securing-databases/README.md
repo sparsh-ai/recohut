@@ -1,4 +1,4 @@
-# Configuring and Securing Azure SQL Database
+# Lab: Configuring and Securing Azure SQL Database
 
 Azure SQL Database, a fundamental relational database as a service offered in Azure, acts as a source, destination, or even as an intermediate storage layer in data engineering pipelines. Azure SQL Database can be used to consolidate data coming from several relational data sources and build mini data warehouses or data marts. With the introduction of Hyperscale tier in Azure SQL Database, the capacity of Azure SQL Database has increased leaps and bounds too. Securing Azure SQL Database is also pivotal in protecting access to the database. Having a strong understanding of Azure SQL Database's capabilities and security options is essential for any data engineer.
 
@@ -132,3 +132,7 @@ To add an existing database to an elastic pool, modify the database using Set-Az
 To remove a database from an elastic pool, modify the database using the Set-AzSqlDatabase command to specify a database edition explicitly.
 
 To remove an elastic pool, first, empty it by moving all of the databases out of the elastic pool, and then remove it using the Remove-AzSqlElasticPool command.
+
+## Notebook
+
+[![nbviewer](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/recohut/blob/main/docs/02-storage/lab-azure-sql-securing-databases/main.ipynb)

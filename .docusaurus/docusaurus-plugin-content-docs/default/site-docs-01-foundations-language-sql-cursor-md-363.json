@@ -14,13 +14,13 @@
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docs",
   "previous": {
-    "title": "cte",
-    "permalink": "/docs/foundations/language/sql/cte"
+    "title": "Comments",
+    "permalink": "/docs/foundations/language/sql/comments"
   },
   "next": {
-    "title": "SQL Date Functions",
-    "permalink": "/docs/foundations/language/sql/date-functions"
+    "title": "SQL Aggregate Functions",
+    "permalink": "/docs/foundations/language/sql/aggregate-functions"
   }
 }

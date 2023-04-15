@@ -1,7 +1,7 @@
 {
   "unversionedId": "foundations/cloud/lab-create-iam-policy-role/README",
   "id": "foundations/cloud/lab-create-iam-policy-role/README",
-  "title": "Create IAM Role and Policy",
+  "title": "Lab: Create IAM Role and Policy",
   "description": "In this lab, we will learn about AWS IAM service. We will perform the following activities:",
   "source": "@site/docs/01-foundations/cloud/lab-create-iam-policy-role/README.md",
   "sourceDirName": "01-foundations/cloud/lab-create-iam-policy-role",
@@ -14,13 +14,13 @@
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docs",
   "previous": {
-    "title": "README",
+    "title": "Lab: AWS Account Setup",
     "permalink": "/docs/foundations/cloud/lab-aws-setup/"
   },
   "next": {
-    "title": "Create Your First Amazon EC2 Instance (Linux)",
-    "permalink": "/docs/foundations/cloud/lab-create-your-first-ec2-instance-linux/"
+    "title": "Lab: AWS Secrets Manager",
+    "permalink": "/docs/foundations/cloud/lab-aws-secrets-manager/"
   }
 }

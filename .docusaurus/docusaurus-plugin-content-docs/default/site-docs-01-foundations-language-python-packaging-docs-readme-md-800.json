@@ -19,14 +19,5 @@
     "nav_order": 1,
     "description": "Standards - AI/ML boilerplates and snippets",
     "permalink": "/"
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Explore Further",
-    "permalink": "/docs/foundations/language/python/links"
-  },
-  "next": {
-    "title": "Python code",
-    "permalink": "/docs/foundations/language/python/python-snippets"
   }
 }

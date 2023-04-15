@@ -1,4 +1,4 @@
-# S3 Postgres Scala
+# Lab: S3 Postgres Scala
 
 ## Objective
 

@@ -14,13 +14,13 @@
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docs",
   "previous": {
-    "title": "SQL WHERE",
-    "permalink": "/docs/foundations/language/sql/where"
+    "title": "SQL Date Functions",
+    "permalink": "/docs/foundations/language/sql/date-functions"
   },
   "next": {
-    "title": "Apache CouchDB",
-    "permalink": "/docs/storage/apache-couchdb"
+    "title": "Performance Tuning",
+    "permalink": "/docs/foundations/language/sql/performance-tuning"
   }
 }

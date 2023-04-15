@@ -13,14 +13,5 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "SQL Assignment",
-    "permalink": "/docs/foundations/language/sql/challenges/assignment2/"
-  },
-  "next": {
-    "title": "SQL Assignment",
-    "permalink": "/docs/foundations/language/sql/challenges/assignment4/"
-  }
+  "frontMatter": {}
 }

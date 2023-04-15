@@ -14,13 +14,13 @@
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docs",
   "previous": {
-    "title": "Azure Basics",
-    "permalink": "/docs/foundations/cloud/azure-basics"
-  },
-  "next": {
     "title": "Azure Data Ingestion",
     "permalink": "/docs/foundations/cloud/azure-data-ingestion"
+  },
+  "next": {
+    "title": "Azure Full-stack Solutions",
+    "permalink": "/docs/foundations/cloud/azure-fullstack-solutions"
   }
 }

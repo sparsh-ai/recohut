@@ -14,13 +14,13 @@
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docs",
   "previous": {
-    "title": "SQL SELECT",
-    "permalink": "/docs/foundations/language/sql/select"
+    "title": "Azure Full-stack Solutions",
+    "permalink": "/docs/foundations/cloud/azure-fullstack-solutions"
   },
   "next": {
-    "title": "SQL Interview Questions",
-    "permalink": "/docs/foundations/language/sql/sql-interviews-questions"
+    "title": "SQL Query",
+    "permalink": "/docs/foundations/language/sql/sql-query"
   }
 }

@@ -13,14 +13,5 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "What are UDFs in PySpark",
-    "permalink": "/docs/foundations/language/pyspark/udf"
-  },
-  "next": {
-    "title": "Introduction to Python",
-    "permalink": "/docs/foundations/language/python/introduction-to-python"
-  }
+  "frontMatter": {}
 }

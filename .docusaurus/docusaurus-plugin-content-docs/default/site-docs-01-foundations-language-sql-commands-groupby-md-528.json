@@ -1,0 +1,17 @@
+{
+  "unversionedId": "foundations/language/sql/commands/groupby",
+  "id": "foundations/language/sql/commands/groupby",
+  "title": "SQL GROUP BY",
+  "description": "SQL aggregate function like COUNT, AVG, and SUM have something in common: they all aggregate across the entire table. But what if you want to aggregate only part of a table? For example, you might want to count the number of entries for each year.",
+  "source": "@site/docs/01-foundations/language/sql/commands/groupby.md",
+  "sourceDirName": "01-foundations/language/sql/commands",
+  "slug": "/foundations/language/sql/commands/groupby",
+  "permalink": "/docs/foundations/language/sql/commands/groupby",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
+}

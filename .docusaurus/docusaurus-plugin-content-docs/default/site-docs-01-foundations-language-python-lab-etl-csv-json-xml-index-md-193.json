@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/language/python/lab-etl-csv-json-xml/index",
+  "id": "foundations/language/python/lab-etl-csv-json-xml/index",
+  "title": "Lab: ETL process and reading/writing CSV, JSON and XML files in pandas",
+  "description": "",
+  "source": "@site/docs/01-foundations/language/python/lab-etl-csv-json-xml/index.md",
+  "sourceDirName": "01-foundations/language/python/lab-etl-csv-json-xml",
+  "slug": "/foundations/language/python/lab-etl-csv-json-xml/",
+  "permalink": "/docs/foundations/language/python/lab-etl-csv-json-xml/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Interesting Python Syntaxes",
+    "permalink": "/docs/foundations/language/python/python-syntax-sugars"
+  },
+  "next": {
+    "title": "Lab: Basic Text Handling with Python",
+    "permalink": "/docs/datascience/nlp/lab-basic-text-handlng-python/"
+  }
+}

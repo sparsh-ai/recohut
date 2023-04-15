@@ -1,4 +1,4 @@
-# Postgres Crime Reports
+# Lab: Postgres Crime Reports
 
 > Building a Database for Crime Reports
 
@@ -45,6 +45,10 @@ To accomplish your goals in this project, you would have to  perform the followi
 * Create the user group `readwrite` which has similar privileges with `readonly` and capable of inserting, deleting, and updating the data in all tables in the schema
 * Create the requested users and assign them to their respective user groups
 * Test the database if correct objects is created and users/groups have the right privileges
+
+## Notebook
+
+[![nbviewer](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/recohut/blob/main/docs/02-storage/lab-postgres-crime-reports/main.ipynb)
 
 ## References
 

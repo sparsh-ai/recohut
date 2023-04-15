@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/databricks/lab-databricks-pyspark-s3/index",
+  "id": "processing/databricks/lab-databricks-pyspark-s3/index",
+  "title": "Lab: Connect AWS to PySpark and build an ETL pipeline",
+  "description": "Github",
+  "source": "@site/docs/03-processing/databricks/lab-databricks-pyspark-s3/index.md",
+  "sourceDirName": "03-processing/databricks/lab-databricks-pyspark-s3",
+  "slug": "/processing/databricks/lab-databricks-pyspark-s3/",
+  "permalink": "/docs/processing/databricks/lab-databricks-pyspark-s3/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Pyspark Basics",
+    "permalink": "/docs/foundations/language/pyspark/lab-pyspark-basics/"
+  },
+  "next": {
+    "title": "Lab: Spark Optimizations",
+    "permalink": "/docs/foundations/language/pyspark/lab-spark-optimizations-2/"
+  }
+}

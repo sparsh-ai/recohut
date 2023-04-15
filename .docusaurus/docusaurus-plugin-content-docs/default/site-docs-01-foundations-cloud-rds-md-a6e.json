@@ -14,10 +14,10 @@
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docs",
   "previous": {
-    "title": "Introduction to Virtual Private Cloud (VPC)",
-    "permalink": "/docs/foundations/cloud/lab-create-your-first-vpc/"
+    "title": "Glue",
+    "permalink": "/docs/foundations/cloud/glue"
   },
   "next": {
     "title": "S3",

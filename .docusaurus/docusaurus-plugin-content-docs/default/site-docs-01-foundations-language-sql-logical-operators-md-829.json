@@ -14,13 +14,13 @@
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docs",
   "previous": {
-    "title": "Explore Further",
-    "permalink": "/docs/foundations/language/sql/links"
+    "title": "SQL Comparison Operators",
+    "permalink": "/docs/foundations/language/sql/comparison-operators"
   },
   "next": {
-    "title": "SQL NOT",
-    "permalink": "/docs/foundations/language/sql/not"
+    "title": "SQL Joins",
+    "permalink": "/docs/foundations/language/sql/joins"
   }
 }

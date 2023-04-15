@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/language/sql/lab-basic-to-advanced/index",
+  "id": "foundations/language/sql/lab-basic-to-advanced/index",
+  "title": "Lab: SQL Basics to Advanced Primer",
+  "description": "Notebooks",
+  "source": "@site/docs/01-foundations/language/sql/lab-basic-to-advanced/index.md",
+  "sourceDirName": "01-foundations/language/sql/lab-basic-to-advanced",
+  "slug": "/foundations/language/sql/lab-basic-to-advanced/",
+  "permalink": "/docs/foundations/language/sql/lab-basic-to-advanced/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Data Ingestion to MySQL",
+    "permalink": "/docs/foundations/language/sql/lab-mysql-data-ingestion/"
+  },
+  "next": {
+    "title": "Lab: Postgres SQL basics to advanced",
+    "permalink": "/docs/foundations/language/sql/lab-postgres-queries/"
+  }
+}

@@ -1,4 +1,4 @@
-# Window Functions in Spark
+# Window Functions
 
 ```python
 from pyspark.sql.window import Window

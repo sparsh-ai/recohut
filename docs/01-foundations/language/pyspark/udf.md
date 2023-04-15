@@ -1,4 +1,4 @@
-# What are UDFs in PySpark
+# UDFs
 
 In PySpark, `UDF` stands for User-Defined Function, which is a feature that allows users to define their own functions and apply them to Spark data frames or RDDs.
 

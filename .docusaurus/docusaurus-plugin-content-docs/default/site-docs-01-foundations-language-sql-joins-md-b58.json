@@ -14,13 +14,13 @@
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docs",
   "previous": {
-    "title": "SQL IS NULL",
-    "permalink": "/docs/foundations/language/sql/isnull"
+    "title": "SQL Logical Operators",
+    "permalink": "/docs/foundations/language/sql/logical-operators"
   },
   "next": {
-    "title": "Lab: Data Ingestion to MySQL",
-    "permalink": "/docs/foundations/language/sql/lab-mysql-data-ingestion/"
+    "title": "Comments",
+    "permalink": "/docs/foundations/language/sql/comments"
   }
 }

@@ -1,4 +1,4 @@
-# Pyspark Basics
+# Lab: Pyspark Basics
 
 In this lab, we will use the power of PySpark to perform various activities in databricks environment.
 
@@ -16,6 +16,7 @@ In this lab, we will use the power of PySpark to perform various activities in d
 12. [Data Lake Schema on Read](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/3208697936837428/1729220346146661/4695044765152887/latest.html)
 13. [Python vs PySpark](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/3208697936837428/310144235288371/4695044765152887/latest.html)
 14. [Weather Forecast Analysis](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/3208697936837428/1473168627488941/4695044765152887/latest.html)
+15. [Candy Sales analysis with PySpark](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/3208697936837428/3961935502928289/4695044765152887/latest.html)
 
 ## Electricity Data processing with PySpark
 

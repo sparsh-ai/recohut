@@ -14,10 +14,10 @@
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docs",
   "previous": {
-    "title": "EC2",
-    "permalink": "/docs/foundations/cloud/ec2"
+    "title": "Lab: Create AWS EC2 instance",
+    "permalink": "/docs/foundations/cloud/lab-create-your-first-ec2-instance-linux/"
   },
   "next": {
     "title": "GCP Setup",

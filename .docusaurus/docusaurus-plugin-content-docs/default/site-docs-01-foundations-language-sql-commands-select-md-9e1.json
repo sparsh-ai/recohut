@@ -1,0 +1,17 @@
+{
+  "unversionedId": "foundations/language/sql/commands/select",
+  "id": "foundations/language/sql/commands/select",
+  "title": "SQL SELECT",
+  "description": "There are two required ingredients in any SQL query: SELECT and FROM---and they have to be in that order. SELECT indicates which columns you'd like to view, and FROM identifies the table that they live in.",
+  "source": "@site/docs/01-foundations/language/sql/commands/select.md",
+  "sourceDirName": "01-foundations/language/sql/commands",
+  "slug": "/foundations/language/sql/commands/select",
+  "permalink": "/docs/foundations/language/sql/commands/select",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
+}

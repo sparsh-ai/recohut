@@ -1,4 +1,4 @@
-# Spark Optimizations
+# Lab: Spark Optimizations
 
 **Performance tuning** in **Apache** **Spark** plays an instrumental role in running efficient big data workloads. More often than not, the optimization techniques employed to prevent the shuffling and skewing of data drastically improve performance. In this lab, we will learn about the Spark optimization techniques directly related to **Spark Core** that help prevent the shuffling and skewing of data.
 

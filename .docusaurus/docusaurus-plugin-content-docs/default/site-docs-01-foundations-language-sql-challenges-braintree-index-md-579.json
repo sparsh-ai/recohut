@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/language/sql/challenges/braintree/index",
+  "id": "foundations/language/sql/challenges/braintree/index",
+  "title": "Challenge - BrainTree SQL Code Challenge",
+  "description": "Instructions",
+  "source": "@site/docs/01-foundations/language/sql/challenges/braintree/index.md",
+  "sourceDirName": "01-foundations/language/sql/challenges/braintree",
+  "slug": "/foundations/language/sql/challenges/braintree/",
+  "permalink": "/docs/foundations/language/sql/challenges/braintree/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Challenge - Yammer Advanced Analytics",
+    "permalink": "/docs/foundations/language/sql/challenges/yammer/"
+  },
+  "next": {
+    "title": "Challenge - Employee Analytics",
+    "permalink": "/docs/foundations/language/sql/challenges/employee"
+  }
+}

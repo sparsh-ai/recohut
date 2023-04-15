@@ -1,4 +1,4 @@
-# ETL with bash script
+# Lab: ETL with bash script
 
 ## Objective
 
@@ -30,3 +30,7 @@ and two more columns: `accessed_from_mobile` (boolean) and `browser_code` (int)
 The columns which we need to copy to the table are the first four coumns.
 
 NOTE: The file comes with a header. So use the 'HEADER' option in the 'COPY' command.
+
+## Notebooks
+
+[![nbviewer](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/recohut/blob/main/docs/02-storage/lab-postgres-bash-etl/)

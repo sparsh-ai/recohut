@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/language/sql/challenges/assignment5/index",
+  "id": "foundations/language/sql/challenges/assignment5/index",
+  "title": "Challenge - Danny's Diner",
+  "description": "Danny seriously loves Japanese food so in the beginning of 2021, he decides to embark upon a risky venture and opens up a cute little restaurant that sells his 3 favourite foods: sushi, curry and ramen.",
+  "source": "@site/docs/01-foundations/language/sql/challenges/assignment5/index.md",
+  "sourceDirName": "01-foundations/language/sql/challenges/assignment5",
+  "slug": "/foundations/language/sql/challenges/assignment5/",
+  "permalink": "/docs/foundations/language/sql/challenges/assignment5/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Challenge - Employee Analytics",
+    "permalink": "/docs/foundations/language/sql/challenges/employee"
+  },
+  "next": {
+    "title": "Explore Further",
+    "permalink": "/docs/foundations/language/sql/links"
+  }
+}

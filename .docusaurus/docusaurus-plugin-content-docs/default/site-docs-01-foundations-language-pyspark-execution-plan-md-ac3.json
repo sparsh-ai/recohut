@@ -14,13 +14,13 @@
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docs",
   "previous": {
-    "title": "PySpark DataFrame",
-    "permalink": "/docs/foundations/language/pyspark/dataframe"
+    "title": "cheat-sheet",
+    "permalink": "/docs/foundations/language/pyspark/cheat-sheet"
   },
   "next": {
-    "title": "Installing Spark",
-    "permalink": "/docs/foundations/language/pyspark/install"
+    "title": "PySpark vs Pandas",
+    "permalink": "/docs/foundations/language/pyspark/pyspark-vs-pandas"
   }
 }

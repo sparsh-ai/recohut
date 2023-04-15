@@ -14,13 +14,13 @@
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docs",
   "previous": {
-    "title": "Yammer Analytics",
-    "permalink": "/docs/foundations/language/sql/challenges/yammer/"
+    "title": "SQL Joins",
+    "permalink": "/docs/foundations/language/sql/joins"
   },
   "next": {
-    "title": "SQL Comparison Operators",
-    "permalink": "/docs/foundations/language/sql/comparison-operators"
+    "title": "Cursor",
+    "permalink": "/docs/foundations/language/sql/cursor"
   }
 }

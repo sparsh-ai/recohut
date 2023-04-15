@@ -14,13 +14,13 @@
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docs",
   "previous": {
-    "title": "Azure Batch Processing",
-    "permalink": "/docs/foundations/cloud/azure-batch-processing"
+    "title": "Azure Basics",
+    "permalink": "/docs/foundations/cloud/azure-basics"
   },
   "next": {
-    "title": "Azure Full-stack Solutions",
-    "permalink": "/docs/foundations/cloud/azure-fullstack-solutions"
+    "title": "Azure Batch Processing",
+    "permalink": "/docs/foundations/cloud/azure-batch-processing"
   }
 }

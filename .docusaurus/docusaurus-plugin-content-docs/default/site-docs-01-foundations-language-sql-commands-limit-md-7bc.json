@@ -1,0 +1,17 @@
+{
+  "unversionedId": "foundations/language/sql/commands/limit",
+  "id": "foundations/language/sql/commands/limit",
+  "title": "SQL LIMIT",
+  "description": "As you might expect, the limit restricts how many rows the SQL query returns.",
+  "source": "@site/docs/01-foundations/language/sql/commands/limit.md",
+  "sourceDirName": "01-foundations/language/sql/commands",
+  "slug": "/foundations/language/sql/commands/limit",
+  "permalink": "/docs/foundations/language/sql/commands/limit",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
+}

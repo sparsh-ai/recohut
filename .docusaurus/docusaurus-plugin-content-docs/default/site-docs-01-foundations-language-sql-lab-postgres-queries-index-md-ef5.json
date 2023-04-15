@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/language/sql/lab-postgres-queries/index",
+  "id": "foundations/language/sql/lab-postgres-queries/index",
+  "title": "Lab: Postgres SQL basics to advanced",
+  "description": "Notebooks",
+  "source": "@site/docs/01-foundations/language/sql/lab-postgres-queries/index.md",
+  "sourceDirName": "01-foundations/language/sql/lab-postgres-queries",
+  "slug": "/foundations/language/sql/lab-postgres-queries/",
+  "permalink": "/docs/foundations/language/sql/lab-postgres-queries/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: SQL Basics to Advanced Primer",
+    "permalink": "/docs/foundations/language/sql/lab-basic-to-advanced/"
+  },
+  "next": {
+    "title": "Lab: Postgres Sales",
+    "permalink": "/docs/foundations/language/sql/lab-postgres-sales/"
+  }
+}

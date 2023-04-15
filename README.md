@@ -4,83 +4,9 @@ Hit the ⭐️ button if you like the repo
 
 ![bigpicture drawio](https://user-images.githubusercontent.com/62965911/226115094-3ca039b1-0ee6-48f6-85b2-7303bb9c9cf8.svg)
 
-- Getting Started
-
-  - Data Engineering
-    - [Data Engineering Basics](docs/docs/01-foundations/basics/de-basics.md)
-    - [Data Pipelines](docs/docs/01-foundations/basics/data-pipelines.md)
-    - [OLTP vs OLAP](docs/docs/01-foundations/basics/oltp-vs-olap.md)
-    - [Data Storages](docs/docs/01-foundations/basics/data-storages.md)
-    - [SQL vs NoSQL](docs/docs/01-foundations/basics/sql-vs-nosql.md)
-    - [Big Data](docs/docs/01-foundations/basics/big-data.md)
-    - [Batch vs Incremental Data Processing](docs/docs/01-foundations/basics/batch-vs-incremental.md)
-    - [Data Contract](docs/docs/01-foundations/basics/data-contract.md)
-    - [Data Governance](docs/docs/01-foundations/basics/data-governance.md)
-    - [Data Management](docs/docs/01-foundations/basics/data-management.md)
-    - [Data Quality](docs/docs/01-foundations/basics/data-quality.md)
-    - [Batch Data Processing](docs/docs/01-foundations/basics/batch-data-processing.md)
-    - [Stream and Unified Data Processing](docs/docs/01-foundations/basics/stream-data-processing.md)
-    - [50 Most Common Interview Questions](a1-interviewprep/50-most-common-interview-questions.md)
-    - [25 Most Common Interview Questions](a1-interviewprep/25-most-common-interview-questions.md)
-    - [50 Most Asked Data Engineer Interview Questions and Answers in 2023](a1-interviewprep/50-most-common-interview-questions-2023.md)
-
-  - Spark and Hadoop
-    - [Apache Spark Basics](docs/docs/01-foundations/basics/spark-basics.md)
-    - [Origin of Spark](docs/docs/01-foundations/basics/spark-origin.md)
-    - [Hadoop Basics](docs/docs/01-foundations/basics/hadoop-basics.md)
-    - [Map Reduce](docs/docs/01-foundations/basics/map-reduce.md)
-    - [Hadoop vs Spark](docs/docs/01-foundations/basics/hadoop-vs-spark.md)
-    - [Interpreting a Spark DAG](docs/docs/01-foundations/basics/spark-dag.md)
-    - [Spark RDDs](docs/docs/01-foundations/basics/rdd.md)
-    - [Quiz: Spark basics](docs/basics/spark-quiz.md)
-
-  - Developer Essentials
-    - [Install Anaconda](docs/docs/01-foundations/developer/install-anaconda.md)
-    - [Install Jupyter Notebook](docs/docs/01-foundations/developer/install-jupyter.md)
-    - [Install VS Code](docs/docs/01-foundations/developer/install-vscode.md)
-    - [Lab: Explore VS Code features](docs/docs/01-foundations/developer/lab-explore-vscode-features.md)
-    - [Setup Git](docs/docs/01-foundations/developer/setup-git.md)
-    - [Lab: Learn git commands](docs/docs/01-foundations/developer/lab-learn-git-commands.md)
-    - [Lab: Learn bash commands](docs/docs/01-foundations/developer/lab-bash-commands/)
-    - [Install DBeaver](docs/docs/01-foundations/developer/install-dbeaver.md)
-
-- Cloud
-
-  - Cloud Computing
-    - [Cloud Computing Getting Started Guide](docs/01-foundations/cloud/cloud-basics.md)
-    - [Comparison of Cloud Services](docs/01-foundations/cloud/cloud-comparison.md)
-
-  - Amazon Web Services (AWS)
-    - [AWS EC2](docs/01-foundations/cloud/ec2.md)
-    - [AWS IAM](docs/01-foundations/cloud/iam.md)
-    - [AWS Glue](docs/01-foundations/cloud/glue.md)
-    - [AWS RDS](docs/01-foundations/cloud/rds.md)
-    - [AWS S3](docs/01-foundations/cloud/s3.md)
-    - [AWS DMS](docs/01-foundations/cloud/dms.md)
-    - [AWS Secrets Manager](docs/01-foundations/cloud/secrets-manager.md)
-    - [AWS Container Services](docs/01-foundations/cloud/aws-containers.md)
-    - [AWS Commands](docs/01-foundations/cloud/aws-commands.md)
-    - [Lab: AWS Account Setup](docs/01-foundations/cloud/lab-aws-setup/)
-    - [Lab: AWS IAM Service](docs/01-foundations/cloud/lab-create-iam-policy-role/)
-    - [Lab: AWS Secrets Manager](docs/01-foundations/cloud/lab-aws-secrets-manager/)
-    - [Lab: Create AWS VPC](docs/01-foundations/cloud/lab-create-your-first-vpc/)
-    - [Lab: Create AWS EC2 instance](docs/01-foundations/cloud/lab-create-your-first-ec2-instance-linux/)
-
-  - Google Cloud Platform (GCP)
-    - [GCP Basics](docs/01-foundations/cloud/gcp-basics.md)
-    - [GCP Setup](docs/01-foundations/cloud/gcp-setup.md)
-
-  - Azure Cloud
-    - [Azure Basics](docs/01-foundations/cloud/azure-basics.md)
-    - [Azure Data Ingestion](docs/01-foundations/cloud/azure-data-ingestion.md)
-    - [Azure Batch Processing](docs/01-foundations/cloud/azure-data-ingestion.md)
-    - [Azure Full-stack Solutions](docs/01-foundations/cloud/azure-fullstack-solutions.md)
-
 - Programming
 
   - Python
-    - [Introduction to Python](docs/01-foundations/language/python/introduction-to-python.md)
-    - [Lab: Sweet Python Syntax Sugar for Improving Your Coding Experience by Yang Zhou](docs/01-foundations/language/python/python-syntax-sugars.md)
     - Lab: Lists and dictionaries
     - Lab: For loops and while loops
     - Lab: Functions and Inline functions
@@ -90,146 +16,74 @@ Hit the ⭐️ button if you like the repo
     - Lab: Reading and writing data to databases using psycopg2 and sqlalchemy library
     - Lab: Reading data from S3 and athena using aws data wrangler library
     - Lab: Pull credentials from Secrets Manager using boto3 library
-    - [Lab: ETL process and reading/writing CSV, JSON and XML files in pandas](docs/01-foundations/language/python/lab-etl-csv-json-xml/)
-    - [Lab: Exchange Rate ETL process](docs/01-foundations/language/python/lab-exchange-rate-etl/)
-    - [Lab: Basic Text Handling with Python](18-nlp/lab-basic-text-handlng-python/)
-    - [Python Data Engineer Interview Questions](https://www.stratascratch.com/blog/python-data-engineer-interview-questions/)
-    - [Explore Further](docs/01-foundations/language/python/links.md)
 
   - PySpark
-    - [Installing Spark](docs/01-foundations/language/pyspark/install.md)
-    - [PySpark DataFrame](docs/01-foundations/language/pyspark/dataframe.md)
-    - [Methods, Operations and Functions](docs/01-foundations/language/pyspark/methods-operations.md)
-    - [Partitioning](docs/01-foundations/language/pyspark/partitioning.md)
-    - [Lazy Processing](docs/01-foundations/language/pyspark/lazy-processing.md)
-    - [Caching](docs/01-foundations/language/pyspark/caching.md)
-    - [UDFs](docs/01-foundations/language/pyspark/udf.md)
-    - [Broadcasting](docs/01-foundations/language/pyspark/broadcasting.md)
-    - [PySpark Cheat Sheet](docs/01-foundations/language/pyspark/cheat-sheet.md)
-    - [Spark Execution Plan](docs/01-foundations/language/pyspark/execution-plan.md)
-    - [PySpark vs Pandas](docs/01-foundations/language/pyspark/pyspark-vs-pandas.md)
     - Lab: Create your first databricks cluster
     - Lab: Create your first databricks notebook
-    - [Lab: PySpark Basics](docs/01-foundations/language/pyspark/lab-pyspark-basics/)
-    - Lab: M&M color balls analysis with PySpark
-    - [Lab: Candy Sales analysis with PySpark](docs/01-foundations/language/pyspark/lab-wonka-candy-sales)
-    - Lab: Movielens and Song analysis with PySpark
-    - Lab: San Francisco Fire Department call analysis with PySpark
-    - [Lab: Connect AWS to PySpark and build an ETL pipeline](03-processing/databricks/lab-databricks-pyspark-s3/)
-    - [Lab: Spark Optimizations](docs/01-foundations/language/pyspark/lab-spark-optimizations/)
-    - [Lab: Spark Optimization II](docs/01-foundations/language/pyspark/lab-spark-optimizations-2/)
-    - [Lab: Uber Analysis](docs/01-foundations/language/pyspark/lab-uber-analysis/)
-    - [Lab: Understand Spark Query Execution](docs/01-foundations/language/pyspark/lab-understand-spark-query-execution/)
-    - [Lab: Window Functions](docs/01-foundations/language/pyspark/lab-window-functions/)
-    - [Lab: BCG Case Study](docs/01-foundations/language/pyspark/lab-bcg/)
-    - [Lab: Building extract and load pipeline with Scala, S3 and Postgres](03-processing/databricks/lab-databricks-scala-postgres-s3/)
-    - [Lab: Calculating Spark Partitions](https://nbviewer.org/github/sparsh-ai/recohut/blob/main/docs/01-foundations/language/spark/lab-calculating-partitions.ipynb)
-
-  - Scala
-    - [Lab: Getting Started with Scala](docs/01-foundations/language/scala/lab-scala-getting-started/)
 
 - Storages
 
-  - Flat Files
-    - [Serialization](02-storage/serialization.md)
-    - [CSV](02-storage/csv.md)
-    - [XML](02-storage/xml.md)
-    - [JSON and JSONL](02-storage/json.md)
-    - [AVRO](02-storage/avro.md)
-    - [Parquet](02-storage/parquet.md)
-    - [ORC](02-storage/orc.md)
-    - [Arrow](02-storage/arrow.md)
-    - [Hudi](02-storage/hudi.md)
-    - [Iceberg](02-storage/iceberg.md)
-    - [Database Storage Engines](02-storage/database-storage-engines.md)
-    - [Avro vs Parquet vs ORC](02-storage/avro-vs-parquet-vs-orc.md)
-    - [Parquet vs CSV](02-storage/parquet-vs-csv.md)
-    - [Lab: Loading Data in Python](02-storage/lab-data-loading-python/)
-    - [Lab: Processing JSON data in Python](02-storage/lab-processing-json-data/)
-
   - Databases
-    - [Postgres](02-storage/postgres.md)
-    - [MySQL](02-storage/mysql.md)
-    - [SQLite](02-storage/sqlite.md)
-    - [DuckDB](02-storage/duckdb.md)
-    - [GCP CloudSQL](02-storage/gcp-cloudsql.md)
-    - [Azure SQL Databases](02-storage/azure-sql.md)
-    - https://learnsql.com/blog/companies-that-use-postgresql-in-business/
-    - https://www.cybertec-postgresql.com/en/postgresql-overview/solutions-who-uses-postgresql/
-    - [10 Essential PSQL Commands For Data Engineers](https://towardsdatascience.com/10-essential-psql-commands-for-data-engineers-c1ea42279160)
-    - [Building Your Data Warehouse On Top Of PostgreSQL](https://www.dataengineeringpodcast.com/postgresql-data-warehouse-episode-186/)
-    - [Interview Questions](02-storage/interview-questions.md)
-    - [Postgres vs MySQL](02-storage/postgres-vs-mysql.md)
-    - [Lab: AWS RDS Service](02-storage/lab-aws-rds-service/)
-    - [Lab: CSV Data Ingestion into MySQL](02-storage/lab-mysql-data-ingestion/)
-    - [Lab: SQLite Basics](02-storage/lab-sqlite-basics/)
-    - [Lab: Getting Started with Postgres](02-storage/lab-postgres-getting-started/)
-    - [Lab: Use bash shell commands to extract, transform and load data into Postgres](02-storage/lab-postgres-bash-etl/)
-    - [Lab: Building a Database for Crime Reports using Postgres](02-storage/lab-postgres-crime-reports/)
-    - [Lab: Generate Trips Data using Stored Procedure](02-storage/lab-postgres-trips-stored-procedure/)
-    - [Lab: Police API Data Engineering Task](02-storage/lab-mysql-police-api-etl/)
-    - [Lab: Loading Taxi Data into Google Cloud SQL](02-storage/lab-gcp-cloudsql-nyctaxi/)
-    - [Lab: Configuring and Securing Azure SQL Database](02-storage/lab-azure-sql-securing-databases/)
-    - [Lab: db2 BookShop and PetSale Data Ingestion and Stored Procedure](02-storage/db2/lab-dbt-bookshop-petsale-data-ingestion/)
-    - [Lab: OLAP Analytics on bank, TPCH and NYC Taxi datasets using DuckDB](02-storage/duckdb/lab-analytics-bank-tpch-nyctaxi/)
-    - [Lab: Extract from Hipolabs API, Transform and Load into SQLite database](02-storage/lab-sqlite-hipolabs-api/)
+    - [Lab: db2 BookShop and PetSale Data Ingestion and Stored Procedure](docs/02-storage/db2/lab-dbt-bookshop-petsale-data-ingestion/)
+    - [Lab: OLAP Analytics on bank, TPCH and NYC Taxi datasets using DuckDB](docs/02-storage/duckdb/lab-analytics-bank-tpch-nyctaxi/)
+    - [Lab: Extract from Hipolabs API, Transform and Load into SQLite database](docs/02-storage/lab-sqlite-hipolabs-api/)
 
   - NoSQL Databases
-    - [Apache Cassandra](02-storage/cassandra.md)
-    - [GCP BigTable](02-storage/gcp-bigtable.md)
-    - [AWS DynamoDB](02-storage/aws-dynamodb.md)
-    - [Apache CouchDB](02-storage/apache-couchdb.md)
-    - [MongoDB](02-storage/mongodb.md)
-    - [Lab: Getting started with Cassandra](02-storage/lab-getting-started-with-cassandra/)
-    - [Lab: Streaming Data Processing - Streaming Data Pipelines into GCP Bigtable](02-storage/bigtable/lab-gcp-streaming-bigtable/)
-    - [Lab: Cassandra on Cloud with Amazon Keyspaces](02-storage/lab-amazon-keyspaces/)
-    - [Lab: Fundamentals of DynamoDB](02-storage/lab-intro-to-dynamodb/)
-    - [Lab: Getting started with MongoDB](02-storage/lab-mongodb-basics/)
-    - [Lab: Ingest Movies data into CouchDB database](02-storage/lab-couchdb-movies-data-migration/)
+    - [Apache Cassandra](docs/02-storage/cassandra.md)
+    - [GCP BigTable](docs/02-storage/gcp-bigtable.md)
+    - [AWS DynamoDB](docs/02-storage/aws-dynamodb.md)
+    - [Apache CouchDB](docs/02-storage/apache-couchdb.md)
+    - [MongoDB](docs/02-storage/mongodb.md)
+    - [Lab: Getting started with Cassandra](docs/02-storage/lab-getting-started-with-cassandra/)
+    - [Lab: Streaming Data Processing - Streaming Data Pipelines into GCP Bigtable](docs/02-storage/bigtable/lab-gcp-streaming-bigtable/)
+    - [Lab: Cassandra on Cloud with Amazon Keyspaces](docs/02-storage/lab-amazon-keyspaces/)
+    - [Lab: Fundamentals of DynamoDB](docs/02-storage/lab-intro-to-dynamodb/)
+    - [Lab: Getting started with MongoDB](docs/02-storage/lab-mongodb-basics/)
+    - [Lab: Ingest Movies data into CouchDB database](docs/02-storage/lab-couchdb-movies-data-migration/)
 
   - Warehouses
-    - [Data Warehouses](02-storage/data-warehouses.md)
-    - [Amazon Athena](02-storage/athena.md)
-    - [Project: Athena Federated](02-storage/project-athena-federated/)
-    - [Amazon Redshift](02-storage/redshift.md)
-    - [Lab: Data Loading into Redshift](02-storage/lab-redshift-data-loading.md)
-    - [Lab: Data Loading into Redshift using Python](02-storage/lab-redshift-data-loading-python.md)
-    - [Lab: Data Loading into Redshift and Analysis](02-storage/lab-redshift-data-loading-analysis.md)
+    - [Data Warehouses](docs/02-storage/data-warehouses.md)
+    - [Amazon Athena](docs/02-storage/athena.md)
+    - [Project: Athena Federated](docs/02-storage/project-athena-federated/)
+    - [Amazon Redshift](docs/02-storage/redshift.md)
+    - [Lab: Data Loading into Redshift](docs/02-storage/lab-redshift-data-loading.md)
+    - [Lab: Data Loading into Redshift using Python](docs/02-storage/lab-redshift-data-loading-python.md)
+    - [Lab: Data Loading into Redshift and Analysis](docs/02-storage/lab-redshift-data-loading-analysis.md)
     - [Lab: Redshift Table Design and Query Tuning](lab-redshift-table-design-query-tuning.md)
-    - [Lab: Implement a slowly changing dimension in Redshift](02-storage/lab-redshift-scd.md)
-    - [Lab: Implement a slowly changing dimension in Redshift 2](02-storage/lab-redshift-scd-2.md)
-    - [Lab: Redshift Ongoing Load - ELT](02-storage/lab-redshift-ongoing-load-elt.md)
-    - [Lab: Redshift Spectrum Query Data Lake](02-storage/lab-redshift-spectrum-query-datalake.md)
-    - [Lab: Redshift Spectrum Query Tuning](02-storage/lab-redshift-spectrum-query-tuning.md)
+    - [Lab: Implement a slowly changing dimension in Redshift](docs/02-storage/lab-redshift-scd.md)
+    - [Lab: Implement a slowly changing dimension in Redshift 2](docs/02-storage/lab-redshift-scd-2.md)
+    - [Lab: Redshift Ongoing Load - ELT](docs/02-storage/lab-redshift-ongoing-load-elt.md)
+    - [Lab: Redshift Spectrum Query Data Lake](docs/02-storage/lab-redshift-spectrum-query-datalake.md)
+    - [Lab: Redshift Spectrum Query Tuning](docs/02-storage/lab-redshift-spectrum-query-tuning.md)
     - [Accelerate Application Development with Real Time Streams in Amazon Redshift](https://bit.ly/3Se99Ur)
-    - [GCP BigQuery](02-storage/bigquery.md)
-    - [Snowflake](02-storage/snowflake.md)
+    - [GCP BigQuery](docs/02-storage/bigquery.md)
+    - [Snowflake](docs/02-storage/snowflake.md)
 
   - Data Lakes
-    - [What is a Data Lake?](02-storage/datalakes.md)
-    - [Why we need Data Lakes?](02-storage/why-datalakes.md)
+    - [What is a Data Lake?](docs/02-storage/datalakes.md)
+    - [Why we need Data Lakes?](docs/02-storage/why-datalakes.md)
     - [On-premises Hadoop cluster vs Cloud data lakes](hadoop-vs-datalake.md)
-    - [Components of the cloud data lake architecture](02-storage/datalake-components.md)
+    - [Components of the cloud data lake architecture](docs/02-storage/datalake-components.md)
     - [Azure Data Lakes](azure-datalake.md)
     - [Google Cloud Storage (GCS)](gcs.md)
     - Lab: Working with S3 using Boto3 in Python
-    - [Lab: Building a data lake for a healthcare company with AWS, S3 and Athena](02-storage/lab-datalake-healthcare-s3-glue-athena/)
-    - [Lab: Creating and Managing Data in Azure Data Lake](02-storage/lab-adl-create-manage-data/)
-    - [Lab: Securing and Monitoring Data in Azure Data Lake](02-storage/lab-adl-securing-monitoring-lakes/)
+    - [Lab: Building a data lake for a healthcare company with AWS, S3 and Athena](docs/02-storage/lab-datalake-healthcare-s3-glue-athena/)
+    - [Lab: Creating and Managing Data in Azure Data Lake](docs/02-storage/lab-adl-create-manage-data/)
+    - [Lab: Securing and Monitoring Data in Azure Data Lake](docs/02-storage/lab-adl-securing-monitoring-lakes/)
 
   - Lakehouses
-    - [Data Lakehouses](02-storage/data-lakehouses.md)
-    - [Deltalake](02-storage/deltalake.md)
-    - [Apache Hudi](02-storage/apache-hudi.md)
-    - [Apache Iceberg](02-storage/apache-iceberg.md)
-    - [Lab: Read Delta Tables stored in Amazon S3 with Python](02-storage/lab-read-s3-delta-in-python/)
-    - [Lab: Build a serverless transactional data lake with Apache Iceberg, Amazon EMR Serverless, and Amazon Athena](02-storage/lab-glue-emr-iceberg-serverless-lakehouse/)
-    - [Lab: The Easy Ways to Clean Up Production Messes](02-storage/lab-production-cleaning-deltalake/)
-    - [Lab: Implement slowly changing dimensions in a data lake using AWS Glue and Delta](02-storage/lab-scd-glue-delta)
+    - [Data Lakehouses](docs/02-storage/data-lakehouses.md)
+    - [Deltalake](docs/02-storage/deltalake.md)
+    - [Apache Hudi](docs/02-storage/apache-hudi.md)
+    - [Apache Iceberg](docs/02-storage/apache-iceberg.md)
+    - [Lab: Read Delta Tables stored in Amazon S3 with Python](docs/02-storage/lab-read-s3-delta-in-python/)
+    - [Lab: Build a serverless transactional data lake with Apache Iceberg, Amazon EMR Serverless, and Amazon Athena](docs/02-storage/lab-glue-emr-iceberg-serverless-lakehouse/)
+    - [Lab: The Easy Ways to Clean Up Production Messes](docs/02-storage/lab-production-cleaning-deltalake/)
+    - [Lab: Implement slowly changing dimensions in a data lake using AWS Glue and Delta](docs/02-storage/lab-scd-glue-delta)
 
   - Data Meshes
-    - [What is Data Mesh?](02-storage/data-mesh-basics.md)
-    - [Case Study: Messflix (hypothetical)](02-storage/casestudy-messflix-hypothetical.md)
+    - [What is Data Mesh?](docs/02-storage/data-mesh-basics.md)
+    - [Case Study: Messflix (hypothetical)](docs/02-storage/casestudy-messflix-hypothetical.md)
 
 - Data Processing
 

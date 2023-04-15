@@ -1,4 +1,4 @@
-# Understanding Spark Query Execution
+# Lab: Understanding Spark Query Execution
 
 To write efficient Spark applications, we need to have some understanding of how Spark executes queries. Having a good understanding of how Spark executes a given query helps big data developers/engineers work efficiently with large volumes of data.
 

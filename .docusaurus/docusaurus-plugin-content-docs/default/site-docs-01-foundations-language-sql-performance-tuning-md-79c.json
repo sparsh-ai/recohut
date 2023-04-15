@@ -14,13 +14,13 @@
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docs",
   "previous": {
-    "title": "SQL ORDER BY",
-    "permalink": "/docs/foundations/language/sql/orderby"
+    "title": "Window Functions",
+    "permalink": "/docs/foundations/language/sql/window-functions"
   },
   "next": {
-    "title": "SQL SELECT",
-    "permalink": "/docs/foundations/language/sql/select"
+    "title": "SQL Joins",
+    "permalink": "/docs/foundations/language/sql/joins"
   }
 }

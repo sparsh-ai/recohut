@@ -1,8 +1,8 @@
 {
   "unversionedId": "foundations/language/python/python-syntax-sugars",
   "id": "foundations/language/python/python-syntax-sugars",
-  "title": "Sweet Python Syntax Sugar for Improving Your Coding Experience by Yang Zhou",
-  "description": "Github Google Colab",
+  "title": "Lab: Interesting Python Syntaxes",
+  "description": "Sweet Python Syntax Sugar for Improving Your Coding Experience by Yang Zhou",
   "source": "@site/docs/01-foundations/language/python/python-syntax-sugars.md",
   "sourceDirName": "01-foundations/language/python",
   "slug": "/foundations/language/python/python-syntax-sugars",
@@ -14,13 +14,13 @@
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docs",
   "previous": {
-    "title": "Python code",
-    "permalink": "/docs/foundations/language/python/python-snippets"
+    "title": "Introduction to Python",
+    "permalink": "/docs/foundations/language/python/introduction-to-python"
   },
   "next": {
-    "title": "Scala",
-    "permalink": "/docs/foundations/language/scala/"
+    "title": "Lab: ETL process and reading/writing CSV, JSON and XML files in pandas",
+    "permalink": "/docs/foundations/language/python/lab-etl-csv-json-xml/"
   }
 }

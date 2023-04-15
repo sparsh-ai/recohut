@@ -14,13 +14,13 @@
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docs",
   "previous": {
-    "title": "Comments",
-    "permalink": "/docs/foundations/language/sql/comments"
+    "title": "Indexes",
+    "permalink": "/docs/foundations/language/sql/indexes"
   },
   "next": {
-    "title": "cte",
-    "permalink": "/docs/foundations/language/sql/cte"
+    "title": "SQL Logical Operators",
+    "permalink": "/docs/foundations/language/sql/logical-operators"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "unversionedId": "foundations/language/sql/commands/not",
+  "id": "foundations/language/sql/commands/not",
+  "title": "SQL NOT",
+  "description": "NOT is a logical operator in SQL that you can put before any conditional statement to select rows for which that statement is false.",
+  "source": "@site/docs/01-foundations/language/sql/commands/not.md",
+  "sourceDirName": "01-foundations/language/sql/commands",
+  "slug": "/foundations/language/sql/commands/not",
+  "permalink": "/docs/foundations/language/sql/commands/not",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
+}

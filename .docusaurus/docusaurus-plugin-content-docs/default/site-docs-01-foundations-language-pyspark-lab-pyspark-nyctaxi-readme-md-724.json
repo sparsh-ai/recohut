@@ -13,14 +13,5 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Pyspark Basics",
-    "permalink": "/docs/foundations/language/pyspark/lab-pyspark-basics/"
-  },
-  "next": {
-    "title": "Spark Optimizations for Analytics Workloads",
-    "permalink": "/docs/foundations/language/pyspark/lab-spark-optimizations/"
-  }
+  "frontMatter": {}
 }

@@ -14,13 +14,13 @@
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docs",
   "previous": {
-    "title": "SQL LIMIT",
-    "permalink": "/docs/foundations/language/sql/limit"
+    "title": "Challenge - Danny's Diner",
+    "permalink": "/docs/foundations/language/sql/challenges/assignment5/"
   },
   "next": {
-    "title": "SQL Logical Operators",
-    "permalink": "/docs/foundations/language/sql/logical-operators"
+    "title": "Introduction to Python",
+    "permalink": "/docs/foundations/language/python/introduction-to-python"
   }
 }

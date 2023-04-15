@@ -758,6 +758,11 @@
               "path": "/docs/datascience/metrics-and-evaluation"
             },
             {
+              "id": "datascience/nlp/lab-basic-text-handlng-python/index",
+              "path": "/docs/datascience/nlp/lab-basic-text-handlng-python/",
+              "sidebar": "docs"
+            },
+            {
               "id": "datascience/nlp/lab-pdf-wordcloud-mail/README",
               "path": "/docs/datascience/nlp/lab-pdf-wordcloud-mail/"
             },
@@ -1074,92 +1079,114 @@
               "path": "/docs/foundations/basics/vector-search"
             },
             {
-              "id": "foundations/cloud-essentials/aws-commands",
-              "path": "/docs/foundations/cloud-essentials/aws-commands"
+              "id": "foundations/cloud/aws-commands",
+              "path": "/docs/foundations/cloud/aws-commands",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/cloud-essentials/aws-containers",
-              "path": "/docs/foundations/cloud-essentials/aws-containers"
+              "id": "foundations/cloud/aws-containers",
+              "path": "/docs/foundations/cloud/aws-containers",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/cloud-essentials/azure-basics",
-              "path": "/docs/foundations/cloud-essentials/azure-basics"
+              "id": "foundations/cloud/azure-basics",
+              "path": "/docs/foundations/cloud/azure-basics",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/cloud-essentials/azure-batch-processing",
-              "path": "/docs/foundations/cloud-essentials/azure-batch-processing"
+              "id": "foundations/cloud/azure-batch-processing",
+              "path": "/docs/foundations/cloud/azure-batch-processing",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/cloud-essentials/azure-data-ingestion",
-              "path": "/docs/foundations/cloud-essentials/azure-data-ingestion"
+              "id": "foundations/cloud/azure-data-ingestion",
+              "path": "/docs/foundations/cloud/azure-data-ingestion",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/cloud-essentials/azure-fullstack-solutions",
-              "path": "/docs/foundations/cloud-essentials/azure-fullstack-solutions"
+              "id": "foundations/cloud/azure-fullstack-solutions",
+              "path": "/docs/foundations/cloud/azure-fullstack-solutions",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/cloud-essentials/cloud-basics",
-              "path": "/docs/foundations/cloud-essentials/cloud-basics"
+              "id": "foundations/cloud/cloud-basics",
+              "path": "/docs/foundations/cloud/cloud-basics",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/cloud-essentials/cloud-comparison",
-              "path": "/docs/foundations/cloud-essentials/cloud-comparison"
+              "id": "foundations/cloud/cloud-comparison",
+              "path": "/docs/foundations/cloud/cloud-comparison",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/cloud-essentials/dms",
-              "path": "/docs/foundations/cloud-essentials/dms"
+              "id": "foundations/cloud/dms",
+              "path": "/docs/foundations/cloud/dms",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/cloud-essentials/ec2",
-              "path": "/docs/foundations/cloud-essentials/ec2"
+              "id": "foundations/cloud/ec2",
+              "path": "/docs/foundations/cloud/ec2",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/cloud-essentials/gcp-basics",
-              "path": "/docs/foundations/cloud-essentials/gcp-basics"
+              "id": "foundations/cloud/gcp-basics",
+              "path": "/docs/foundations/cloud/gcp-basics",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/cloud-essentials/gcp-setup",
-              "path": "/docs/foundations/cloud-essentials/gcp-setup"
+              "id": "foundations/cloud/gcp-setup",
+              "path": "/docs/foundations/cloud/gcp-setup",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/cloud-essentials/glue",
-              "path": "/docs/foundations/cloud-essentials/glue"
+              "id": "foundations/cloud/glue",
+              "path": "/docs/foundations/cloud/glue",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/cloud-essentials/iam",
-              "path": "/docs/foundations/cloud-essentials/iam"
+              "id": "foundations/cloud/iam",
+              "path": "/docs/foundations/cloud/iam",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/cloud-essentials/lab-aws-secrets-manager/README",
-              "path": "/docs/foundations/cloud-essentials/lab-aws-secrets-manager/"
+              "id": "foundations/cloud/lab-aws-secrets-manager/README",
+              "path": "/docs/foundations/cloud/lab-aws-secrets-manager/",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/cloud-essentials/lab-aws-setup/README",
-              "path": "/docs/foundations/cloud-essentials/lab-aws-setup/"
+              "id": "foundations/cloud/lab-aws-setup/README",
+              "path": "/docs/foundations/cloud/lab-aws-setup/",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/cloud-essentials/lab-create-iam-policy-role/README",
-              "path": "/docs/foundations/cloud-essentials/lab-create-iam-policy-role/"
+              "id": "foundations/cloud/lab-create-iam-policy-role/README",
+              "path": "/docs/foundations/cloud/lab-create-iam-policy-role/",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/cloud-essentials/lab-create-your-first-ec2-instance-linux/README",
-              "path": "/docs/foundations/cloud-essentials/lab-create-your-first-ec2-instance-linux/"
+              "id": "foundations/cloud/lab-create-your-first-ec2-instance-linux/README",
+              "path": "/docs/foundations/cloud/lab-create-your-first-ec2-instance-linux/",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/cloud-essentials/lab-create-your-first-vpc/README",
-              "path": "/docs/foundations/cloud-essentials/lab-create-your-first-vpc/"
+              "id": "foundations/cloud/lab-create-your-first-vpc/README",
+              "path": "/docs/foundations/cloud/lab-create-your-first-vpc/",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/cloud-essentials/rds",
-              "path": "/docs/foundations/cloud-essentials/rds"
+              "id": "foundations/cloud/rds",
+              "path": "/docs/foundations/cloud/rds",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/cloud-essentials/s3",
-              "path": "/docs/foundations/cloud-essentials/s3"
+              "id": "foundations/cloud/s3",
+              "path": "/docs/foundations/cloud/s3",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/cloud-essentials/secrets-manager",
-              "path": "/docs/foundations/cloud-essentials/secrets-manager"
+              "id": "foundations/cloud/secrets-manager",
+              "path": "/docs/foundations/cloud/secrets-manager",
+              "sidebar": "docs"
             },
             {
               "id": "foundations/developer/install-anaconda",
@@ -1202,316 +1229,380 @@
               "sidebar": "docs"
             },
             {
-              "id": "foundations/programming-languages/pyspark/broadcasting",
-              "path": "/docs/foundations/programming-languages/pyspark/broadcasting"
+              "id": "foundations/language/pyspark/broadcasting",
+              "path": "/docs/foundations/language/pyspark/broadcasting",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/programming-languages/pyspark/caching",
-              "path": "/docs/foundations/programming-languages/pyspark/caching"
+              "id": "foundations/language/pyspark/caching",
+              "path": "/docs/foundations/language/pyspark/caching",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/programming-languages/pyspark/cheat-sheet",
-              "path": "/docs/foundations/programming-languages/pyspark/cheat-sheet"
+              "id": "foundations/language/pyspark/cheat-sheet",
+              "path": "/docs/foundations/language/pyspark/cheat-sheet",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/programming-languages/pyspark/dataframe",
-              "path": "/docs/foundations/programming-languages/pyspark/dataframe"
+              "id": "foundations/language/pyspark/dataframe",
+              "path": "/docs/foundations/language/pyspark/dataframe",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/programming-languages/pyspark/execution-plan",
-              "path": "/docs/foundations/programming-languages/pyspark/execution-plan"
+              "id": "foundations/language/pyspark/execution-plan",
+              "path": "/docs/foundations/language/pyspark/execution-plan",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/programming-languages/pyspark/install",
-              "path": "/docs/foundations/programming-languages/pyspark/install"
+              "id": "foundations/language/pyspark/install",
+              "path": "/docs/foundations/language/pyspark/install",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/programming-languages/pyspark/lab-bcg/README",
-              "path": "/docs/foundations/programming-languages/pyspark/lab-bcg/"
+              "id": "foundations/language/pyspark/lab-bcg/README",
+              "path": "/docs/foundations/language/pyspark/lab-bcg/"
             },
             {
-              "id": "foundations/programming-languages/pyspark/lab-pyspark-basics/README",
-              "path": "/docs/foundations/programming-languages/pyspark/lab-pyspark-basics/"
+              "id": "foundations/language/pyspark/lab-pyspark-basics/index",
+              "path": "/docs/foundations/language/pyspark/lab-pyspark-basics/",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/programming-languages/pyspark/lab-pyspark-nyctaxi/README",
-              "path": "/docs/foundations/programming-languages/pyspark/lab-pyspark-nyctaxi/"
+              "id": "foundations/language/pyspark/lab-pyspark-nyctaxi/README",
+              "path": "/docs/foundations/language/pyspark/lab-pyspark-nyctaxi/"
             },
             {
-              "id": "foundations/programming-languages/pyspark/lab-spark-optimizations-2/README",
-              "path": "/docs/foundations/programming-languages/pyspark/lab-spark-optimizations-2/"
+              "id": "foundations/language/pyspark/lab-spark-optimizations-2/README",
+              "path": "/docs/foundations/language/pyspark/lab-spark-optimizations-2/",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/programming-languages/pyspark/lab-spark-optimizations/README",
-              "path": "/docs/foundations/programming-languages/pyspark/lab-spark-optimizations/"
+              "id": "foundations/language/pyspark/lab-spark-optimizations/README",
+              "path": "/docs/foundations/language/pyspark/lab-spark-optimizations/",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/programming-languages/pyspark/lab-sql-to-pyspark/README",
-              "path": "/docs/foundations/programming-languages/pyspark/lab-sql-to-pyspark/"
+              "id": "foundations/language/pyspark/lab-sql-to-pyspark/README",
+              "path": "/docs/foundations/language/pyspark/lab-sql-to-pyspark/"
             },
             {
-              "id": "foundations/programming-languages/pyspark/lab-uber-analysis/README",
-              "path": "/docs/foundations/programming-languages/pyspark/lab-uber-analysis/"
+              "id": "foundations/language/pyspark/lab-uber-analysis/README",
+              "path": "/docs/foundations/language/pyspark/lab-uber-analysis/",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/programming-languages/pyspark/lab-understand-spark-query-execution/README",
-              "path": "/docs/foundations/programming-languages/pyspark/lab-understand-spark-query-execution/"
+              "id": "foundations/language/pyspark/lab-understand-spark-query-execution/README",
+              "path": "/docs/foundations/language/pyspark/lab-understand-spark-query-execution/"
             },
             {
-              "id": "foundations/programming-languages/pyspark/lab-window-functions/README",
-              "path": "/docs/foundations/programming-languages/pyspark/lab-window-functions/"
+              "id": "foundations/language/pyspark/lab-window-functions/README",
+              "path": "/docs/foundations/language/pyspark/lab-window-functions/"
             },
             {
-              "id": "foundations/programming-languages/pyspark/lazy-processing",
-              "path": "/docs/foundations/programming-languages/pyspark/lazy-processing"
+              "id": "foundations/language/pyspark/lazy-processing",
+              "path": "/docs/foundations/language/pyspark/lazy-processing",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/programming-languages/pyspark/methods-operations",
-              "path": "/docs/foundations/programming-languages/pyspark/methods-operations"
+              "id": "foundations/language/pyspark/methods-operations",
+              "path": "/docs/foundations/language/pyspark/methods-operations",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/programming-languages/pyspark/partitioning",
-              "path": "/docs/foundations/programming-languages/pyspark/partitioning"
+              "id": "foundations/language/pyspark/partitioning",
+              "path": "/docs/foundations/language/pyspark/partitioning",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/programming-languages/pyspark/pyspark-vs-pandas",
-              "path": "/docs/foundations/programming-languages/pyspark/pyspark-vs-pandas"
+              "id": "foundations/language/pyspark/pyspark-vs-pandas",
+              "path": "/docs/foundations/language/pyspark/pyspark-vs-pandas",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/programming-languages/pyspark/udf",
-              "path": "/docs/foundations/programming-languages/pyspark/udf"
+              "id": "foundations/language/pyspark/udf",
+              "path": "/docs/foundations/language/pyspark/udf",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/programming-languages/python/introduction-to-python",
-              "path": "/docs/foundations/programming-languages/python/introduction-to-python"
+              "id": "foundations/language/python/introduction-to-python",
+              "path": "/docs/foundations/language/python/introduction-to-python",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/programming-languages/python/links",
-              "path": "/docs/foundations/programming-languages/python/links"
+              "id": "foundations/language/python/lab-etl-csv-json-xml/index",
+              "path": "/docs/foundations/language/python/lab-etl-csv-json-xml/",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/programming-languages/python/packaging/docs/README",
-              "path": "/docs/foundations/programming-languages/python/packaging/docs/"
+              "id": "foundations/language/python/links",
+              "path": "/docs/foundations/language/python/links",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/programming-languages/python/python-snippets",
-              "path": "/docs/foundations/programming-languages/python/python-snippets"
+              "id": "foundations/language/python/packaging/docs/README",
+              "path": "/docs/foundations/language/python/packaging/docs/"
             },
             {
-              "id": "foundations/programming-languages/python/python-syntax-sugars",
-              "path": "/docs/foundations/programming-languages/python/python-syntax-sugars"
+              "id": "foundations/language/python/python-snippets",
+              "path": "/docs/foundations/language/python/python-snippets"
             },
             {
-              "id": "foundations/programming-languages/python/README",
-              "path": "/docs/foundations/programming-languages/python/"
+              "id": "foundations/language/python/python-syntax-sugars",
+              "path": "/docs/foundations/language/python/python-syntax-sugars",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/programming-languages/scala/lab-scala-getting-started/README",
-              "path": "/docs/foundations/programming-languages/scala/lab-scala-getting-started/"
+              "id": "foundations/language/python/README",
+              "path": "/docs/foundations/language/python/"
             },
             {
-              "id": "foundations/programming-languages/scala/README",
-              "path": "/docs/foundations/programming-languages/scala/"
+              "id": "foundations/language/scala/lab-scala-getting-started/README",
+              "path": "/docs/foundations/language/scala/lab-scala-getting-started/"
             },
             {
-              "id": "foundations/programming-languages/sql/aggregate-functions",
-              "path": "/docs/foundations/programming-languages/sql/aggregate-functions"
+              "id": "foundations/language/scala/README",
+              "path": "/docs/foundations/language/scala/"
             },
             {
-              "id": "foundations/programming-languages/sql/and",
-              "path": "/docs/foundations/programming-languages/sql/and"
+              "id": "foundations/language/sql/aggregate-functions",
+              "path": "/docs/foundations/language/sql/aggregate-functions",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/programming-languages/sql/between",
-              "path": "/docs/foundations/programming-languages/sql/between"
+              "id": "foundations/language/sql/challenges/assignment1/README",
+              "path": "/docs/foundations/language/sql/challenges/assignment1/"
             },
             {
-              "id": "foundations/programming-languages/sql/case",
-              "path": "/docs/foundations/programming-languages/sql/case"
+              "id": "foundations/language/sql/challenges/assignment1/solution",
+              "path": "/docs/foundations/language/sql/challenges/assignment1/solution"
             },
             {
-              "id": "foundations/programming-languages/sql/challenges/assignment1/README",
-              "path": "/docs/foundations/programming-languages/sql/challenges/assignment1/"
+              "id": "foundations/language/sql/challenges/assignment2/README",
+              "path": "/docs/foundations/language/sql/challenges/assignment2/"
             },
             {
-              "id": "foundations/programming-languages/sql/challenges/assignment1/solution",
-              "path": "/docs/foundations/programming-languages/sql/challenges/assignment1/solution"
+              "id": "foundations/language/sql/challenges/assignment3/README",
+              "path": "/docs/foundations/language/sql/challenges/assignment3/"
             },
             {
-              "id": "foundations/programming-languages/sql/challenges/assignment2/README",
-              "path": "/docs/foundations/programming-languages/sql/challenges/assignment2/"
+              "id": "foundations/language/sql/challenges/assignment4/README",
+              "path": "/docs/foundations/language/sql/challenges/assignment4/"
             },
             {
-              "id": "foundations/programming-languages/sql/challenges/assignment3/README",
-              "path": "/docs/foundations/programming-languages/sql/challenges/assignment3/"
+              "id": "foundations/language/sql/challenges/assignment5/index",
+              "path": "/docs/foundations/language/sql/challenges/assignment5/",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/programming-languages/sql/challenges/assignment4/README",
-              "path": "/docs/foundations/programming-languages/sql/challenges/assignment4/"
+              "id": "foundations/language/sql/challenges/assignment6/README",
+              "path": "/docs/foundations/language/sql/challenges/assignment6/"
             },
             {
-              "id": "foundations/programming-languages/sql/challenges/assignment5/README",
-              "path": "/docs/foundations/programming-languages/sql/challenges/assignment5/"
+              "id": "foundations/language/sql/challenges/assignment7/README",
+              "path": "/docs/foundations/language/sql/challenges/assignment7/"
             },
             {
-              "id": "foundations/programming-languages/sql/challenges/assignment6/README",
-              "path": "/docs/foundations/programming-languages/sql/challenges/assignment6/"
+              "id": "foundations/language/sql/challenges/braintree/index",
+              "path": "/docs/foundations/language/sql/challenges/braintree/",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/programming-languages/sql/challenges/assignment7/README",
-              "path": "/docs/foundations/programming-languages/sql/challenges/assignment7/"
+              "id": "foundations/language/sql/challenges/employee",
+              "path": "/docs/foundations/language/sql/challenges/employee",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/programming-languages/sql/challenges/braintree/README",
-              "path": "/docs/foundations/programming-languages/sql/challenges/braintree/"
+              "id": "foundations/language/sql/challenges/yammer/index",
+              "path": "/docs/foundations/language/sql/challenges/yammer/",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/programming-languages/sql/challenges/employee",
-              "path": "/docs/foundations/programming-languages/sql/challenges/employee"
+              "id": "foundations/language/sql/commands/and",
+              "path": "/docs/foundations/language/sql/commands/and"
             },
             {
-              "id": "foundations/programming-languages/sql/challenges/yammer/README",
-              "path": "/docs/foundations/programming-languages/sql/challenges/yammer/"
+              "id": "foundations/language/sql/commands/between",
+              "path": "/docs/foundations/language/sql/commands/between"
             },
             {
-              "id": "foundations/programming-languages/sql/comments",
-              "path": "/docs/foundations/programming-languages/sql/comments"
+              "id": "foundations/language/sql/commands/case",
+              "path": "/docs/foundations/language/sql/commands/case"
             },
             {
-              "id": "foundations/programming-languages/sql/comparison-operators",
-              "path": "/docs/foundations/programming-languages/sql/comparison-operators"
+              "id": "foundations/language/sql/commands/distinct",
+              "path": "/docs/foundations/language/sql/commands/distinct"
             },
             {
-              "id": "foundations/programming-languages/sql/cte",
-              "path": "/docs/foundations/programming-languages/sql/cte"
+              "id": "foundations/language/sql/commands/groupby",
+              "path": "/docs/foundations/language/sql/commands/groupby"
             },
             {
-              "id": "foundations/programming-languages/sql/cursor",
-              "path": "/docs/foundations/programming-languages/sql/cursor"
+              "id": "foundations/language/sql/commands/having",
+              "path": "/docs/foundations/language/sql/commands/having"
             },
             {
-              "id": "foundations/programming-languages/sql/date-functions",
-              "path": "/docs/foundations/programming-languages/sql/date-functions"
+              "id": "foundations/language/sql/commands/in",
+              "path": "/docs/foundations/language/sql/commands/in"
             },
             {
-              "id": "foundations/programming-languages/sql/distinct",
-              "path": "/docs/foundations/programming-languages/sql/distinct"
+              "id": "foundations/language/sql/commands/index",
+              "path": "/docs/foundations/language/sql/commands/",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/programming-languages/sql/groupby",
-              "path": "/docs/foundations/programming-languages/sql/groupby"
+              "id": "foundations/language/sql/commands/isnull",
+              "path": "/docs/foundations/language/sql/commands/isnull"
             },
             {
-              "id": "foundations/programming-languages/sql/having",
-              "path": "/docs/foundations/programming-languages/sql/having"
+              "id": "foundations/language/sql/commands/like",
+              "path": "/docs/foundations/language/sql/commands/like"
             },
             {
-              "id": "foundations/programming-languages/sql/in",
-              "path": "/docs/foundations/programming-languages/sql/in"
+              "id": "foundations/language/sql/commands/limit",
+              "path": "/docs/foundations/language/sql/commands/limit"
             },
             {
-              "id": "foundations/programming-languages/sql/indexes",
-              "path": "/docs/foundations/programming-languages/sql/indexes"
+              "id": "foundations/language/sql/commands/not",
+              "path": "/docs/foundations/language/sql/commands/not"
             },
             {
-              "id": "foundations/programming-languages/sql/isnull",
-              "path": "/docs/foundations/programming-languages/sql/isnull"
+              "id": "foundations/language/sql/commands/or",
+              "path": "/docs/foundations/language/sql/commands/or"
             },
             {
-              "id": "foundations/programming-languages/sql/joins",
-              "path": "/docs/foundations/programming-languages/sql/joins"
+              "id": "foundations/language/sql/commands/orderby",
+              "path": "/docs/foundations/language/sql/commands/orderby"
             },
             {
-              "id": "foundations/programming-languages/sql/lab-mysql-data-ingestion/README",
-              "path": "/docs/foundations/programming-languages/sql/lab-mysql-data-ingestion/"
+              "id": "foundations/language/sql/commands/select",
+              "path": "/docs/foundations/language/sql/commands/select"
             },
             {
-              "id": "foundations/programming-languages/sql/lab-postgres-sales/README",
-              "path": "/docs/foundations/programming-languages/sql/lab-postgres-sales/"
+              "id": "foundations/language/sql/commands/union",
+              "path": "/docs/foundations/language/sql/commands/union"
             },
             {
-              "id": "foundations/programming-languages/sql/lab-sqlite-basics/README",
-              "path": "/docs/foundations/programming-languages/sql/lab-sqlite-basics/"
+              "id": "foundations/language/sql/commands/where",
+              "path": "/docs/foundations/language/sql/commands/where"
             },
             {
-              "id": "foundations/programming-languages/sql/like",
-              "path": "/docs/foundations/programming-languages/sql/like"
+              "id": "foundations/language/sql/comments",
+              "path": "/docs/foundations/language/sql/comments",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/programming-languages/sql/limit",
-              "path": "/docs/foundations/programming-languages/sql/limit"
+              "id": "foundations/language/sql/comparison-operators",
+              "path": "/docs/foundations/language/sql/comparison-operators",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/programming-languages/sql/links",
-              "path": "/docs/foundations/programming-languages/sql/links"
+              "id": "foundations/language/sql/cte",
+              "path": "/docs/foundations/language/sql/cte",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/programming-languages/sql/logical-operators",
-              "path": "/docs/foundations/programming-languages/sql/logical-operators"
+              "id": "foundations/language/sql/cursor",
+              "path": "/docs/foundations/language/sql/cursor",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/programming-languages/sql/not",
-              "path": "/docs/foundations/programming-languages/sql/not"
+              "id": "foundations/language/sql/date-functions",
+              "path": "/docs/foundations/language/sql/date-functions",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/programming-languages/sql/or",
-              "path": "/docs/foundations/programming-languages/sql/or"
+              "id": "foundations/language/sql/indexes",
+              "path": "/docs/foundations/language/sql/indexes",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/programming-languages/sql/orderby",
-              "path": "/docs/foundations/programming-languages/sql/orderby"
+              "id": "foundations/language/sql/joins",
+              "path": "/docs/foundations/language/sql/joins",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/programming-languages/sql/performance-tuning",
-              "path": "/docs/foundations/programming-languages/sql/performance-tuning"
+              "id": "foundations/language/sql/lab-basic-to-advanced/index",
+              "path": "/docs/foundations/language/sql/lab-basic-to-advanced/",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/programming-languages/sql/select",
-              "path": "/docs/foundations/programming-languages/sql/select"
+              "id": "foundations/language/sql/lab-mysql-data-ingestion/index",
+              "path": "/docs/foundations/language/sql/lab-mysql-data-ingestion/",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/programming-languages/sql/sql-basics",
-              "path": "/docs/foundations/programming-languages/sql/sql-basics"
+              "id": "foundations/language/sql/lab-postgres-queries/index",
+              "path": "/docs/foundations/language/sql/lab-postgres-queries/",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/programming-languages/sql/sql-interviews-questions",
-              "path": "/docs/foundations/programming-languages/sql/sql-interviews-questions"
+              "id": "foundations/language/sql/lab-postgres-sales/index",
+              "path": "/docs/foundations/language/sql/lab-postgres-sales/",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/programming-languages/sql/sql-query",
-              "path": "/docs/foundations/programming-languages/sql/sql-query"
+              "id": "foundations/language/sql/lab-sqlite-basics/index",
+              "path": "/docs/foundations/language/sql/lab-sqlite-basics/",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/programming-languages/sql/stored-procedures",
-              "path": "/docs/foundations/programming-languages/sql/stored-procedures"
+              "id": "foundations/language/sql/links",
+              "path": "/docs/foundations/language/sql/links",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/programming-languages/sql/string-functions",
-              "path": "/docs/foundations/programming-languages/sql/string-functions"
+              "id": "foundations/language/sql/logical-operators",
+              "path": "/docs/foundations/language/sql/logical-operators",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/programming-languages/sql/subquery",
-              "path": "/docs/foundations/programming-languages/sql/subquery"
+              "id": "foundations/language/sql/performance-tuning",
+              "path": "/docs/foundations/language/sql/performance-tuning",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/programming-languages/sql/triggers",
-              "path": "/docs/foundations/programming-languages/sql/triggers"
+              "id": "foundations/language/sql/sql-basics",
+              "path": "/docs/foundations/language/sql/sql-basics",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/programming-languages/sql/union",
-              "path": "/docs/foundations/programming-languages/sql/union"
+              "id": "foundations/language/sql/sql-interviews-questions",
+              "path": "/docs/foundations/language/sql/sql-interviews-questions"
             },
             {
-              "id": "foundations/programming-languages/sql/views",
-              "path": "/docs/foundations/programming-languages/sql/views"
+              "id": "foundations/language/sql/sql-query",
+              "path": "/docs/foundations/language/sql/sql-query",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/programming-languages/sql/where",
-              "path": "/docs/foundations/programming-languages/sql/where"
+              "id": "foundations/language/sql/stored-procedures",
+              "path": "/docs/foundations/language/sql/stored-procedures",
+              "sidebar": "docs"
             },
             {
-              "id": "foundations/programming-languages/sql/window-functions",
-              "path": "/docs/foundations/programming-languages/sql/window-functions"
+              "id": "foundations/language/sql/string-functions",
+              "path": "/docs/foundations/language/sql/string-functions",
+              "sidebar": "docs"
+            },
+            {
+              "id": "foundations/language/sql/subquery",
+              "path": "/docs/foundations/language/sql/subquery",
+              "sidebar": "docs"
+            },
+            {
+              "id": "foundations/language/sql/triggers",
+              "path": "/docs/foundations/language/sql/triggers",
+              "sidebar": "docs"
+            },
+            {
+              "id": "foundations/language/sql/views",
+              "path": "/docs/foundations/language/sql/views",
+              "sidebar": "docs"
+            },
+            {
+              "id": "foundations/language/sql/window-functions",
+              "path": "/docs/foundations/language/sql/window-functions",
+              "sidebar": "docs"
             },
             {
               "id": "introduction",
@@ -1713,6 +1804,11 @@
             {
               "id": "processing/databricks/lab-databricks-deltalake/README",
               "path": "/docs/processing/databricks/lab-databricks-deltalake/"
+            },
+            {
+              "id": "processing/databricks/lab-databricks-pyspark-s3/index",
+              "path": "/docs/processing/databricks/lab-databricks-pyspark-s3/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/databricks/lab-databricks-scala-postgres-s3/README",

@@ -1,4 +1,4 @@
-# Loading Taxi Data into Google Cloud SQL
+# Lab: Loading Taxi Data into Google Cloud SQL
 
 ## Objective
 

@@ -13,14 +13,5 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "SQL CASE",
-    "permalink": "/docs/foundations/language/sql/case"
-  },
-  "next": {
-    "title": "solution",
-    "permalink": "/docs/foundations/language/sql/challenges/assignment1/solution"
-  }
+  "frontMatter": {}
 }

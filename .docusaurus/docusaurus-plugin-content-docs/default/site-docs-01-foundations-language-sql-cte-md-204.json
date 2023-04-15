@@ -1,8 +1,8 @@
 {
   "unversionedId": "foundations/language/sql/cte",
   "id": "foundations/language/sql/cte",
-  "title": "cte",
-  "description": "CTE (Common Table Expressions)",
+  "title": "CTE (Common Table Expressions)",
+  "description": "A common table expression is a named temporary result set that exists only within the execution scope of a single SQL statement e.g.,SELECT, INSERT, UPDATE, or DELETE.",
   "source": "@site/docs/01-foundations/language/sql/cte.md",
   "sourceDirName": "01-foundations/language/sql",
   "slug": "/foundations/language/sql/cte",
@@ -14,13 +14,13 @@
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docs",
   "previous": {
-    "title": "SQL Comparison Operators",
-    "permalink": "/docs/foundations/language/sql/comparison-operators"
+    "title": "Commands",
+    "permalink": "/docs/foundations/language/sql/commands/"
   },
   "next": {
-    "title": "Cursor",
-    "permalink": "/docs/foundations/language/sql/cursor"
+    "title": "Subquery",
+    "permalink": "/docs/foundations/language/sql/subquery"
   }
 }

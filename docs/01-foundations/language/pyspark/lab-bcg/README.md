@@ -1,4 +1,4 @@
-# BCG Case Study
+# Lab: BCG Case Study
 
 ## Dataset
 

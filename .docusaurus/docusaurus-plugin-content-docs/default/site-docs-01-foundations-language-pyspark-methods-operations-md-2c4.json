@@ -14,10 +14,10 @@
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docs",
   "previous": {
-    "title": "Lazy Processing",
-    "permalink": "/docs/foundations/language/pyspark/lazy-processing"
+    "title": "PySpark DataFrame",
+    "permalink": "/docs/foundations/language/pyspark/dataframe"
   },
   "next": {
     "title": "Partitioning",

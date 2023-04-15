@@ -238,6 +238,516 @@
         ],
         "collapsed": true,
         "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Cloud Computing",
+        "items": [
+          {
+            "type": "category",
+            "label": "Introduction",
+            "items": [
+              {
+                "type": "link",
+                "label": "Cloud Computing Basics",
+                "href": "/docs/foundations/cloud/cloud-basics",
+                "docId": "foundations/cloud/cloud-basics"
+              },
+              {
+                "type": "link",
+                "label": "Comparison of Cloud Services",
+                "href": "/docs/foundations/cloud/cloud-comparison",
+                "docId": "foundations/cloud/cloud-comparison"
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
+          },
+          {
+            "type": "category",
+            "label": "AWS",
+            "items": [
+              {
+                "type": "link",
+                "label": "EC2",
+                "href": "/docs/foundations/cloud/ec2",
+                "docId": "foundations/cloud/ec2"
+              },
+              {
+                "type": "link",
+                "label": "IAM",
+                "href": "/docs/foundations/cloud/iam",
+                "docId": "foundations/cloud/iam"
+              },
+              {
+                "type": "link",
+                "label": "Glue",
+                "href": "/docs/foundations/cloud/glue",
+                "docId": "foundations/cloud/glue"
+              },
+              {
+                "type": "link",
+                "label": "RDS",
+                "href": "/docs/foundations/cloud/rds",
+                "docId": "foundations/cloud/rds"
+              },
+              {
+                "type": "link",
+                "label": "S3",
+                "href": "/docs/foundations/cloud/s3",
+                "docId": "foundations/cloud/s3"
+              },
+              {
+                "type": "link",
+                "label": "DMS",
+                "href": "/docs/foundations/cloud/dms",
+                "docId": "foundations/cloud/dms"
+              },
+              {
+                "type": "link",
+                "label": "Secrets Manager",
+                "href": "/docs/foundations/cloud/secrets-manager",
+                "docId": "foundations/cloud/secrets-manager"
+              },
+              {
+                "type": "link",
+                "label": "AWS Container Services",
+                "href": "/docs/foundations/cloud/aws-containers",
+                "docId": "foundations/cloud/aws-containers"
+              },
+              {
+                "type": "link",
+                "label": "AWS Commands",
+                "href": "/docs/foundations/cloud/aws-commands",
+                "docId": "foundations/cloud/aws-commands"
+              },
+              {
+                "type": "link",
+                "label": "Lab: AWS Account Setup",
+                "href": "/docs/foundations/cloud/lab-aws-setup/",
+                "docId": "foundations/cloud/lab-aws-setup/README"
+              },
+              {
+                "type": "link",
+                "label": "Lab: Create IAM Role and Policy",
+                "href": "/docs/foundations/cloud/lab-create-iam-policy-role/",
+                "docId": "foundations/cloud/lab-create-iam-policy-role/README"
+              },
+              {
+                "type": "link",
+                "label": "Lab: AWS Secrets Manager",
+                "href": "/docs/foundations/cloud/lab-aws-secrets-manager/",
+                "docId": "foundations/cloud/lab-aws-secrets-manager/README"
+              },
+              {
+                "type": "link",
+                "label": "Lab: Create AWS VPC",
+                "href": "/docs/foundations/cloud/lab-create-your-first-vpc/",
+                "docId": "foundations/cloud/lab-create-your-first-vpc/README"
+              },
+              {
+                "type": "link",
+                "label": "Lab: Create AWS EC2 instance",
+                "href": "/docs/foundations/cloud/lab-create-your-first-ec2-instance-linux/",
+                "docId": "foundations/cloud/lab-create-your-first-ec2-instance-linux/README"
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
+          },
+          {
+            "type": "category",
+            "label": "GCP",
+            "items": [
+              {
+                "type": "link",
+                "label": "GCP Basics",
+                "href": "/docs/foundations/cloud/gcp-basics",
+                "docId": "foundations/cloud/gcp-basics"
+              },
+              {
+                "type": "link",
+                "label": "GCP Setup",
+                "href": "/docs/foundations/cloud/gcp-setup",
+                "docId": "foundations/cloud/gcp-setup"
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
+          },
+          {
+            "type": "category",
+            "label": "Azure",
+            "items": [
+              {
+                "type": "link",
+                "label": "Azure Basics",
+                "href": "/docs/foundations/cloud/azure-basics",
+                "docId": "foundations/cloud/azure-basics"
+              },
+              {
+                "type": "link",
+                "label": "Azure Data Ingestion",
+                "href": "/docs/foundations/cloud/azure-data-ingestion",
+                "docId": "foundations/cloud/azure-data-ingestion"
+              },
+              {
+                "type": "link",
+                "label": "Azure Batch Processing",
+                "href": "/docs/foundations/cloud/azure-batch-processing",
+                "docId": "foundations/cloud/azure-batch-processing"
+              },
+              {
+                "type": "link",
+                "label": "Azure Full-stack Solutions",
+                "href": "/docs/foundations/cloud/azure-fullstack-solutions",
+                "docId": "foundations/cloud/azure-fullstack-solutions"
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Programming",
+        "items": [
+          {
+            "type": "category",
+            "label": "SQL",
+            "items": [
+              {
+                "type": "link",
+                "label": "SQL Basics",
+                "href": "/docs/foundations/language/sql/sql-basics",
+                "docId": "foundations/language/sql/sql-basics"
+              },
+              {
+                "type": "link",
+                "label": "SQL Query",
+                "href": "/docs/foundations/language/sql/sql-query",
+                "docId": "foundations/language/sql/sql-query"
+              },
+              {
+                "type": "link",
+                "label": "Commands",
+                "href": "/docs/foundations/language/sql/commands/",
+                "docId": "foundations/language/sql/commands/index"
+              },
+              {
+                "type": "link",
+                "label": "CTE (Common Table Expressions)",
+                "href": "/docs/foundations/language/sql/cte",
+                "docId": "foundations/language/sql/cte"
+              },
+              {
+                "type": "link",
+                "label": "Subquery",
+                "href": "/docs/foundations/language/sql/subquery",
+                "docId": "foundations/language/sql/subquery"
+              },
+              {
+                "type": "link",
+                "label": "Views",
+                "href": "/docs/foundations/language/sql/views",
+                "docId": "foundations/language/sql/views"
+              },
+              {
+                "type": "link",
+                "label": "Stored Procedures",
+                "href": "/docs/foundations/language/sql/stored-procedures",
+                "docId": "foundations/language/sql/stored-procedures"
+              },
+              {
+                "type": "link",
+                "label": "Triggers",
+                "href": "/docs/foundations/language/sql/triggers",
+                "docId": "foundations/language/sql/triggers"
+              },
+              {
+                "type": "link",
+                "label": "Indexes",
+                "href": "/docs/foundations/language/sql/indexes",
+                "docId": "foundations/language/sql/indexes"
+              },
+              {
+                "type": "link",
+                "label": "SQL Comparison Operators",
+                "href": "/docs/foundations/language/sql/comparison-operators",
+                "docId": "foundations/language/sql/comparison-operators"
+              },
+              {
+                "type": "link",
+                "label": "SQL Logical Operators",
+                "href": "/docs/foundations/language/sql/logical-operators",
+                "docId": "foundations/language/sql/logical-operators"
+              },
+              {
+                "type": "link",
+                "label": "SQL Joins",
+                "href": "/docs/foundations/language/sql/joins",
+                "docId": "foundations/language/sql/joins"
+              },
+              {
+                "type": "link",
+                "label": "Comments",
+                "href": "/docs/foundations/language/sql/comments",
+                "docId": "foundations/language/sql/comments"
+              },
+              {
+                "type": "link",
+                "label": "Cursor",
+                "href": "/docs/foundations/language/sql/cursor",
+                "docId": "foundations/language/sql/cursor"
+              },
+              {
+                "type": "link",
+                "label": "SQL Aggregate Functions",
+                "href": "/docs/foundations/language/sql/aggregate-functions",
+                "docId": "foundations/language/sql/aggregate-functions"
+              },
+              {
+                "type": "link",
+                "label": "SQL String Functions",
+                "href": "/docs/foundations/language/sql/string-functions",
+                "docId": "foundations/language/sql/string-functions"
+              },
+              {
+                "type": "link",
+                "label": "SQL Date Functions",
+                "href": "/docs/foundations/language/sql/date-functions",
+                "docId": "foundations/language/sql/date-functions"
+              },
+              {
+                "type": "link",
+                "label": "Window Functions",
+                "href": "/docs/foundations/language/sql/window-functions",
+                "docId": "foundations/language/sql/window-functions"
+              },
+              {
+                "type": "link",
+                "label": "Performance Tuning",
+                "href": "/docs/foundations/language/sql/performance-tuning",
+                "docId": "foundations/language/sql/performance-tuning"
+              },
+              {
+                "type": "link",
+                "label": "SQL Joins",
+                "href": "/docs/foundations/language/sql/joins",
+                "docId": "foundations/language/sql/joins"
+              },
+              {
+                "type": "link",
+                "label": "Lab: Data Ingestion to MySQL",
+                "href": "/docs/foundations/language/sql/lab-mysql-data-ingestion/",
+                "docId": "foundations/language/sql/lab-mysql-data-ingestion/index"
+              },
+              {
+                "type": "link",
+                "label": "Lab: SQL Basics to Advanced Primer",
+                "href": "/docs/foundations/language/sql/lab-basic-to-advanced/",
+                "docId": "foundations/language/sql/lab-basic-to-advanced/index"
+              },
+              {
+                "type": "link",
+                "label": "Lab: Postgres SQL basics to advanced",
+                "href": "/docs/foundations/language/sql/lab-postgres-queries/",
+                "docId": "foundations/language/sql/lab-postgres-queries/index"
+              },
+              {
+                "type": "link",
+                "label": "Lab: Postgres Sales",
+                "href": "/docs/foundations/language/sql/lab-postgres-sales/",
+                "docId": "foundations/language/sql/lab-postgres-sales/index"
+              },
+              {
+                "type": "link",
+                "label": "Lab: SQLite Basics",
+                "href": "/docs/foundations/language/sql/lab-sqlite-basics/",
+                "docId": "foundations/language/sql/lab-sqlite-basics/index"
+              },
+              {
+                "type": "link",
+                "label": "Challenge - Yammer Advanced Analytics",
+                "href": "/docs/foundations/language/sql/challenges/yammer/",
+                "docId": "foundations/language/sql/challenges/yammer/index"
+              },
+              {
+                "type": "link",
+                "label": "Challenge - BrainTree SQL Code Challenge",
+                "href": "/docs/foundations/language/sql/challenges/braintree/",
+                "docId": "foundations/language/sql/challenges/braintree/index"
+              },
+              {
+                "type": "link",
+                "label": "Challenge - Employee Analytics",
+                "href": "/docs/foundations/language/sql/challenges/employee",
+                "docId": "foundations/language/sql/challenges/employee"
+              },
+              {
+                "type": "link",
+                "label": "Challenge - Danny's Diner",
+                "href": "/docs/foundations/language/sql/challenges/assignment5/",
+                "docId": "foundations/language/sql/challenges/assignment5/index"
+              },
+              {
+                "type": "link",
+                "label": "Explore Further",
+                "href": "/docs/foundations/language/sql/links",
+                "docId": "foundations/language/sql/links"
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
+          },
+          {
+            "type": "category",
+            "label": "Python",
+            "items": [
+              {
+                "type": "link",
+                "label": "Introduction to Python",
+                "href": "/docs/foundations/language/python/introduction-to-python",
+                "docId": "foundations/language/python/introduction-to-python"
+              },
+              {
+                "type": "link",
+                "label": "Lab: Interesting Python Syntaxes",
+                "href": "/docs/foundations/language/python/python-syntax-sugars",
+                "docId": "foundations/language/python/python-syntax-sugars"
+              },
+              {
+                "type": "link",
+                "label": "Lab: ETL process and reading/writing CSV, JSON and XML files in pandas",
+                "href": "/docs/foundations/language/python/lab-etl-csv-json-xml/",
+                "docId": "foundations/language/python/lab-etl-csv-json-xml/index"
+              },
+              {
+                "type": "link",
+                "label": "Lab: Basic Text Handling with Python",
+                "href": "/docs/datascience/nlp/lab-basic-text-handlng-python/",
+                "docId": "datascience/nlp/lab-basic-text-handlng-python/index"
+              },
+              {
+                "type": "link",
+                "label": "Explore Further",
+                "href": "/docs/foundations/language/python/links",
+                "docId": "foundations/language/python/links"
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
+          },
+          {
+            "type": "category",
+            "label": "PySpark",
+            "items": [
+              {
+                "type": "link",
+                "label": "Installing Spark",
+                "href": "/docs/foundations/language/pyspark/install",
+                "docId": "foundations/language/pyspark/install"
+              },
+              {
+                "type": "link",
+                "label": "PySpark DataFrame",
+                "href": "/docs/foundations/language/pyspark/dataframe",
+                "docId": "foundations/language/pyspark/dataframe"
+              },
+              {
+                "type": "link",
+                "label": "Methods, Operations and Functions",
+                "href": "/docs/foundations/language/pyspark/methods-operations",
+                "docId": "foundations/language/pyspark/methods-operations"
+              },
+              {
+                "type": "link",
+                "label": "Partitioning",
+                "href": "/docs/foundations/language/pyspark/partitioning",
+                "docId": "foundations/language/pyspark/partitioning"
+              },
+              {
+                "type": "link",
+                "label": "Lazy Processing",
+                "href": "/docs/foundations/language/pyspark/lazy-processing",
+                "docId": "foundations/language/pyspark/lazy-processing"
+              },
+              {
+                "type": "link",
+                "label": "Caching",
+                "href": "/docs/foundations/language/pyspark/caching",
+                "docId": "foundations/language/pyspark/caching"
+              },
+              {
+                "type": "link",
+                "label": "UDFs",
+                "href": "/docs/foundations/language/pyspark/udf",
+                "docId": "foundations/language/pyspark/udf"
+              },
+              {
+                "type": "link",
+                "label": "Broadcasting",
+                "href": "/docs/foundations/language/pyspark/broadcasting",
+                "docId": "foundations/language/pyspark/broadcasting"
+              },
+              {
+                "type": "link",
+                "label": "cheat-sheet",
+                "href": "/docs/foundations/language/pyspark/cheat-sheet",
+                "docId": "foundations/language/pyspark/cheat-sheet"
+              },
+              {
+                "type": "link",
+                "label": "Spark Execution Plan",
+                "href": "/docs/foundations/language/pyspark/execution-plan",
+                "docId": "foundations/language/pyspark/execution-plan"
+              },
+              {
+                "type": "link",
+                "label": "PySpark vs Pandas",
+                "href": "/docs/foundations/language/pyspark/pyspark-vs-pandas",
+                "docId": "foundations/language/pyspark/pyspark-vs-pandas"
+              },
+              {
+                "type": "link",
+                "label": "Lab: Pyspark Basics",
+                "href": "/docs/foundations/language/pyspark/lab-pyspark-basics/",
+                "docId": "foundations/language/pyspark/lab-pyspark-basics/index"
+              },
+              {
+                "type": "link",
+                "label": "Lab: Connect AWS to PySpark and build an ETL pipeline",
+                "href": "/docs/processing/databricks/lab-databricks-pyspark-s3/",
+                "docId": "processing/databricks/lab-databricks-pyspark-s3/index"
+              },
+              {
+                "type": "link",
+                "label": "Lab: Spark Optimizations",
+                "href": "/docs/foundations/language/pyspark/lab-spark-optimizations-2/",
+                "docId": "foundations/language/pyspark/lab-spark-optimizations-2/README"
+              },
+              {
+                "type": "link",
+                "label": "Lab: Spark Optimizations for Analytics Workloads",
+                "href": "/docs/foundations/language/pyspark/lab-spark-optimizations/",
+                "docId": "foundations/language/pyspark/lab-spark-optimizations/README"
+              },
+              {
+                "type": "link",
+                "label": "Lab: Uber Data Analysis in Pyspark",
+                "href": "/docs/foundations/language/pyspark/lab-uber-analysis/",
+                "docId": "foundations/language/pyspark/lab-uber-analysis/README"
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
       }
     ]
   },
@@ -1167,6 +1677,12 @@
       "title": "Metrics and Evaluation",
       "description": "In general terms, metrics are tools to set standards and evaluate the performance of models. In the field of machine learning and data science, obtaining a functional model is far from enough. We need to develop methods and assessment metrics to determine how well models perform on tasks that are given. Metrics used in machine learning are formulas and equations that provide specific quantitative measurements as to how well the developed methods perform on the data provided. Evaluation refers to the process of distinguishing between the better and the worse models by comparing metrics."
     },
+    "datascience/nlp/lab-basic-text-handlng-python/index": {
+      "id": "datascience/nlp/lab-basic-text-handlng-python/index",
+      "title": "Lab: Basic Text Handling with Python",
+      "description": "Notebook",
+      "sidebar": "docs"
+    },
     "datascience/nlp/lab-pdf-wordcloud-mail/README": {
       "id": "datascience/nlp/lab-pdf-wordcloud-mail/README",
       "title": "PDF to Wordcloud via Email",
@@ -1556,115 +2072,137 @@
       "title": "Vector Search",
       "description": "Faiss"
     },
-    "foundations/cloud-essentials/aws-commands": {
-      "id": "foundations/cloud-essentials/aws-commands",
+    "foundations/cloud/aws-commands": {
+      "id": "foundations/cloud/aws-commands",
       "title": "AWS Commands",
-      "description": ""
+      "description": "",
+      "sidebar": "docs"
     },
-    "foundations/cloud-essentials/aws-containers": {
-      "id": "foundations/cloud-essentials/aws-containers",
+    "foundations/cloud/aws-containers": {
+      "id": "foundations/cloud/aws-containers",
       "title": "AWS Container Services",
-      "description": "1. Containers on AWS Overview: ECS | EKS | Fargate | ECR"
+      "description": "1. Containers on AWS Overview: ECS | EKS | Fargate | ECR",
+      "sidebar": "docs"
     },
-    "foundations/cloud-essentials/azure-basics": {
-      "id": "foundations/cloud-essentials/azure-basics",
+    "foundations/cloud/azure-basics": {
+      "id": "foundations/cloud/azure-basics",
       "title": "Azure Basics",
-      "description": "Learning Path"
+      "description": "Learning Path",
+      "sidebar": "docs"
     },
-    "foundations/cloud-essentials/azure-batch-processing": {
-      "id": "foundations/cloud-essentials/azure-batch-processing",
+    "foundations/cloud/azure-batch-processing": {
+      "id": "foundations/cloud/azure-batch-processing",
       "title": "Azure Batch Processing",
-      "description": "Here is a useful table reproduced from Azure that can help you decide on the technologies to use for your batch scenarios:"
+      "description": "Here is a useful table reproduced from Azure that can help you decide on the technologies to use for your batch scenarios:",
+      "sidebar": "docs"
     },
-    "foundations/cloud-essentials/azure-data-ingestion": {
-      "id": "foundations/cloud-essentials/azure-data-ingestion",
+    "foundations/cloud/azure-data-ingestion": {
+      "id": "foundations/cloud/azure-data-ingestion",
       "title": "Azure Data Ingestion",
-      "description": "This is the process of getting all the raw data into the data lake. Data from various sources lands in the raw zone of the data lake. Based on where the data is coming from, such as on-premise systems, other cloud systems, and so on, we could use different ingestion tools. Let's look at some of the options available in Azure:"
+      "description": "This is the process of getting all the raw data into the data lake. Data from various sources lands in the raw zone of the data lake. Based on where the data is coming from, such as on-premise systems, other cloud systems, and so on, we could use different ingestion tools. Let's look at some of the options available in Azure:",
+      "sidebar": "docs"
     },
-    "foundations/cloud-essentials/azure-fullstack-solutions": {
-      "id": "foundations/cloud-essentials/azure-fullstack-solutions",
+    "foundations/cloud/azure-fullstack-solutions": {
+      "id": "foundations/cloud/azure-fullstack-solutions",
       "title": "Azure Full-stack Solutions",
-      "description": "Modern Azure Data Architecture Platform"
+      "description": "Modern Azure Data Architecture Platform",
+      "sidebar": "docs"
     },
-    "foundations/cloud-essentials/cloud-basics": {
-      "id": "foundations/cloud-essentials/cloud-basics",
+    "foundations/cloud/cloud-basics": {
+      "id": "foundations/cloud/cloud-basics",
       "title": "Cloud Computing Basics",
-      "description": "What is Cloud Computing?"
+      "description": "What is Cloud Computing?",
+      "sidebar": "docs"
     },
-    "foundations/cloud-essentials/cloud-comparison": {
-      "id": "foundations/cloud-essentials/cloud-comparison",
+    "foundations/cloud/cloud-comparison": {
+      "id": "foundations/cloud/cloud-comparison",
       "title": "Comparison of Cloud Services",
-      "description": "Service"
+      "description": "Service",
+      "sidebar": "docs"
     },
-    "foundations/cloud-essentials/dms": {
-      "id": "foundations/cloud-essentials/dms",
+    "foundations/cloud/dms": {
+      "id": "foundations/cloud/dms",
       "title": "DMS",
-      "description": "AWS Database Migration Service (AWS DMS) helps you migrate databases to AWS quickly and securely. The source database remains fully operational during the migration, minimizing downtime to applications that rely on the database. The AWS Database Migration Service can migrate your data to and from the most widely used commercial and open-source databases."
+      "description": "AWS Database Migration Service (AWS DMS) helps you migrate databases to AWS quickly and securely. The source database remains fully operational during the migration, minimizing downtime to applications that rely on the database. The AWS Database Migration Service can migrate your data to and from the most widely used commercial and open-source databases.",
+      "sidebar": "docs"
     },
-    "foundations/cloud-essentials/ec2": {
-      "id": "foundations/cloud-essentials/ec2",
+    "foundations/cloud/ec2": {
+      "id": "foundations/cloud/ec2",
       "title": "EC2",
-      "description": "The foundational service that provides compute resources for customers to build their applications on AWS is called Amazon EC2. Amazon EC2 provides customers with a choice of 500+ instance types. Customers can then tailor the right combination of instance types for their business applications."
+      "description": "The foundational service that provides compute resources for customers to build their applications on AWS is called Amazon EC2. Amazon EC2 provides customers with a choice of 500+ instance types. Customers can then tailor the right combination of instance types for their business applications.",
+      "sidebar": "docs"
     },
-    "foundations/cloud-essentials/gcp-basics": {
-      "id": "foundations/cloud-essentials/gcp-basics",
+    "foundations/cloud/gcp-basics": {
+      "id": "foundations/cloud/gcp-basics",
       "title": "GCP Basics",
-      "description": "There are a lot of services in GCP. The services are not only limited to data and analytics. They also cover other areas such as application development, machine learning, networks, source repositories, and many more. As a data engineer working on GCP, you will face situations when you need to decide which services you need to use for your organization."
+      "description": "There are a lot of services in GCP. The services are not only limited to data and analytics. They also cover other areas such as application development, machine learning, networks, source repositories, and many more. As a data engineer working on GCP, you will face situations when you need to decide which services you need to use for your organization.",
+      "sidebar": "docs"
     },
-    "foundations/cloud-essentials/gcp-setup": {
-      "id": "foundations/cloud-essentials/gcp-setup",
+    "foundations/cloud/gcp-setup": {
+      "id": "foundations/cloud/gcp-setup",
       "title": "GCP Setup",
-      "description": "To set up GCP, please follow the steps below:"
+      "description": "To set up GCP, please follow the steps below:",
+      "sidebar": "docs"
     },
-    "foundations/cloud-essentials/glue": {
-      "id": "foundations/cloud-essentials/glue",
+    "foundations/cloud/glue": {
+      "id": "foundations/cloud/glue",
       "title": "Glue",
-      "description": "AWS Glue is a serverless data integration service that makes it easy to discover, prepare, and combine data for analytics, machine learning, and application development. AWS Glue provides all the capabilities needed for data integration so that you can start analyzing your data and put it to use in minutes instead of months."
+      "description": "AWS Glue is a serverless data integration service that makes it easy to discover, prepare, and combine data for analytics, machine learning, and application development. AWS Glue provides all the capabilities needed for data integration so that you can start analyzing your data and put it to use in minutes instead of months.",
+      "sidebar": "docs"
     },
-    "foundations/cloud-essentials/iam": {
-      "id": "foundations/cloud-essentials/iam",
+    "foundations/cloud/iam": {
+      "id": "foundations/cloud/iam",
       "title": "IAM",
-      "description": "Securely manage identities and access to AWS services and resources"
+      "description": "Securely manage identities and access to AWS services and resources",
+      "sidebar": "docs"
     },
-    "foundations/cloud-essentials/lab-aws-secrets-manager/README": {
-      "id": "foundations/cloud-essentials/lab-aws-secrets-manager/README",
-      "title": "AWS Secrets Manager",
-      "description": "Objective"
+    "foundations/cloud/lab-aws-secrets-manager/README": {
+      "id": "foundations/cloud/lab-aws-secrets-manager/README",
+      "title": "Lab: AWS Secrets Manager",
+      "description": "Objective",
+      "sidebar": "docs"
     },
-    "foundations/cloud-essentials/lab-aws-setup/README": {
-      "id": "foundations/cloud-essentials/lab-aws-setup/README",
-      "title": "README",
-      "description": "Create AWS Account"
+    "foundations/cloud/lab-aws-setup/README": {
+      "id": "foundations/cloud/lab-aws-setup/README",
+      "title": "Lab: AWS Account Setup",
+      "description": "Create AWS Account",
+      "sidebar": "docs"
     },
-    "foundations/cloud-essentials/lab-create-iam-policy-role/README": {
-      "id": "foundations/cloud-essentials/lab-create-iam-policy-role/README",
-      "title": "Create IAM Role and Policy",
-      "description": "In this lab, we will learn about AWS IAM service. We will perform the following activities:"
+    "foundations/cloud/lab-create-iam-policy-role/README": {
+      "id": "foundations/cloud/lab-create-iam-policy-role/README",
+      "title": "Lab: Create IAM Role and Policy",
+      "description": "In this lab, we will learn about AWS IAM service. We will perform the following activities:",
+      "sidebar": "docs"
     },
-    "foundations/cloud-essentials/lab-create-your-first-ec2-instance-linux/README": {
-      "id": "foundations/cloud-essentials/lab-create-your-first-ec2-instance-linux/README",
-      "title": "Create Your First Amazon EC2 Instance (Linux)",
-      "description": "Description"
+    "foundations/cloud/lab-create-your-first-ec2-instance-linux/README": {
+      "id": "foundations/cloud/lab-create-your-first-ec2-instance-linux/README",
+      "title": "Lab: Create AWS EC2 instance",
+      "description": "Description",
+      "sidebar": "docs"
     },
-    "foundations/cloud-essentials/lab-create-your-first-vpc/README": {
-      "id": "foundations/cloud-essentials/lab-create-your-first-vpc/README",
-      "title": "Introduction to Virtual Private Cloud (VPC)",
-      "description": "Description"
+    "foundations/cloud/lab-create-your-first-vpc/README": {
+      "id": "foundations/cloud/lab-create-your-first-vpc/README",
+      "title": "Lab: Create AWS VPC",
+      "description": "Description",
+      "sidebar": "docs"
     },
-    "foundations/cloud-essentials/rds": {
-      "id": "foundations/cloud-essentials/rds",
+    "foundations/cloud/rds": {
+      "id": "foundations/cloud/rds",
       "title": "RDS",
-      "description": "RDS stands for Relational Database Services"
+      "description": "RDS stands for Relational Database Services",
+      "sidebar": "docs"
     },
-    "foundations/cloud-essentials/s3": {
-      "id": "foundations/cloud-essentials/s3",
+    "foundations/cloud/s3": {
+      "id": "foundations/cloud/s3",
       "title": "S3",
-      "description": "Amazon S3 is one of the most commonly used cloud data storage services for web applications, and high-performance compute use cases. It is Amazon's object storage service providing virtually unlimited data storage. Some of the advantages of using Amazon S3 include very high scalability, durability, data availability, security, and performance. Amazon S3 can be used for a variety of cloud-native applications, ranging from simple data storage to very large data lakes to web hosting and high-performance applications, such as training very advanced and compute-intensive ML models. Amazon S3 offers several classes of storage options with differences in terms of data access, resiliency, archival needs, and cost. We can choose the storage class that best suits our use case and business needs. There is also an option for cost saving when the access pattern is unknown or changes over time (S3 Intelligent-Tiering)."
+      "description": "Amazon S3 is one of the most commonly used cloud data storage services for web applications, and high-performance compute use cases. It is Amazon's object storage service providing virtually unlimited data storage. Some of the advantages of using Amazon S3 include very high scalability, durability, data availability, security, and performance. Amazon S3 can be used for a variety of cloud-native applications, ranging from simple data storage to very large data lakes to web hosting and high-performance applications, such as training very advanced and compute-intensive ML models. Amazon S3 offers several classes of storage options with differences in terms of data access, resiliency, archival needs, and cost. We can choose the storage class that best suits our use case and business needs. There is also an option for cost saving when the access pattern is unknown or changes over time (S3 Intelligent-Tiering).",
+      "sidebar": "docs"
     },
-    "foundations/cloud-essentials/secrets-manager": {
-      "id": "foundations/cloud-essentials/secrets-manager",
+    "foundations/cloud/secrets-manager": {
+      "id": "foundations/cloud/secrets-manager",
       "title": "Secrets Manager",
-      "description": "AWS Secrets Management Service"
+      "description": "AWS Secrets Management Service",
+      "sidebar": "docs"
     },
     "foundations/developer/install-anaconda": {
       "id": "foundations/developer/install-anaconda",
@@ -1714,395 +2252,463 @@
       "description": "One of the major problems with coding is to keep track of changes. It is also almost impossible to maintain a program you have multiple versions of. Another is the topic of collaboration and documentation. Which is super Important. Let’s say you work on a Spark application and your colleges need to make changes while you are on holiday. Without some code management they are in huge trouble: Where is the code? What have you changed last? Where is the documentation? How do we mark what we have changed? But if you put your code on GitHub your colleges can find your code. They can understand it through your documentation (please also have in-line comments) Developers can pull your code, make a new branch and do the changes. After your holiday you can inspect what they have done and merge it with your original code. and you end up having only one application.",
       "sidebar": "docs"
     },
-    "foundations/programming-languages/pyspark/broadcasting": {
-      "id": "foundations/programming-languages/pyspark/broadcasting",
+    "foundations/language/pyspark/broadcasting": {
+      "id": "foundations/language/pyspark/broadcasting",
       "title": "Broadcasting",
-      "description": "Broadcasting is the process of sending a read-only variable to the worker nodes, rather than sending a copy of the variable to each worker node. This can greatly improve the performance of Spark jobs by reducing the amount of data that needs to be sent over the network."
+      "description": "Broadcasting is the process of sending a read-only variable to the worker nodes, rather than sending a copy of the variable to each worker node. This can greatly improve the performance of Spark jobs by reducing the amount of data that needs to be sent over the network.",
+      "sidebar": "docs"
     },
-    "foundations/programming-languages/pyspark/caching": {
-      "id": "foundations/programming-languages/pyspark/caching",
+    "foundations/language/pyspark/caching": {
+      "id": "foundations/language/pyspark/caching",
       "title": "Caching",
-      "description": "What is Caching?"
+      "description": "What is Caching?",
+      "sidebar": "docs"
     },
-    "foundations/programming-languages/pyspark/cheat-sheet": {
-      "id": "foundations/programming-languages/pyspark/cheat-sheet",
+    "foundations/language/pyspark/cheat-sheet": {
+      "id": "foundations/language/pyspark/cheat-sheet",
       "title": "cheat-sheet",
-      "description": "PySpark Cheat Sheet"
+      "description": "PySpark Cheat Sheet",
+      "sidebar": "docs"
     },
-    "foundations/programming-languages/pyspark/dataframe": {
-      "id": "foundations/programming-languages/pyspark/dataframe",
+    "foundations/language/pyspark/dataframe": {
+      "id": "foundations/language/pyspark/dataframe",
       "title": "PySpark DataFrame",
-      "description": "Creating a DataFrame in PySpark"
+      "description": "Creating a DataFrame in PySpark",
+      "sidebar": "docs"
     },
-    "foundations/programming-languages/pyspark/execution-plan": {
-      "id": "foundations/programming-languages/pyspark/execution-plan",
+    "foundations/language/pyspark/execution-plan": {
+      "id": "foundations/language/pyspark/execution-plan",
       "title": "Spark Execution Plan",
-      "description": "Spark uses a query optimizer known as Catalyst to optimize the execution plan of Spark jobs. The execution plan is a representation of the physical execution of a query and it can be used to understand how Spark is processing data."
+      "description": "Spark uses a query optimizer known as Catalyst to optimize the execution plan of Spark jobs. The execution plan is a representation of the physical execution of a query and it can be used to understand how Spark is processing data.",
+      "sidebar": "docs"
     },
-    "foundations/programming-languages/pyspark/install": {
-      "id": "foundations/programming-languages/pyspark/install",
+    "foundations/language/pyspark/install": {
+      "id": "foundations/language/pyspark/install",
       "title": "Installing Spark",
-      "description": "To get started with PySpark, you will need to have the Spark software installed on your machine. You can download the latest version of Spark from the Apache Spark website. Once you have Spark installed, you can start using it to process data."
+      "description": "To get started with PySpark, you will need to have the Spark software installed on your machine. You can download the latest version of Spark from the Apache Spark website. Once you have Spark installed, you can start using it to process data.",
+      "sidebar": "docs"
     },
-    "foundations/programming-languages/pyspark/lab-bcg/README": {
-      "id": "foundations/programming-languages/pyspark/lab-bcg/README",
+    "foundations/language/pyspark/lab-bcg/README": {
+      "id": "foundations/language/pyspark/lab-bcg/README",
       "title": "BCG Case Study",
       "description": "Dataset"
     },
-    "foundations/programming-languages/pyspark/lab-pyspark-basics/README": {
-      "id": "foundations/programming-languages/pyspark/lab-pyspark-basics/README",
-      "title": "Pyspark Basics",
-      "description": "In this lab, we will use the power of PySpark to perform various activities in databricks environment."
+    "foundations/language/pyspark/lab-pyspark-basics/index": {
+      "id": "foundations/language/pyspark/lab-pyspark-basics/index",
+      "title": "Lab: Pyspark Basics",
+      "description": "In this lab, we will use the power of PySpark to perform various activities in databricks environment.",
+      "sidebar": "docs"
     },
-    "foundations/programming-languages/pyspark/lab-pyspark-nyctaxi/README": {
-      "id": "foundations/programming-languages/pyspark/lab-pyspark-nyctaxi/README",
+    "foundations/language/pyspark/lab-pyspark-nyctaxi/README": {
+      "id": "foundations/language/pyspark/lab-pyspark-nyctaxi/README",
       "title": "Pyspark NYC Taxi",
       "description": ""
     },
-    "foundations/programming-languages/pyspark/lab-spark-optimizations-2/README": {
-      "id": "foundations/programming-languages/pyspark/lab-spark-optimizations-2/README",
-      "title": "Spark Optimizations",
-      "description": "Performance tuning in Apache Spark plays an instrumental role in running efficient big data workloads. More often than not, the optimization techniques employed to prevent the shuffling and skewing of data drastically improve performance. In this lab, we will learn about the Spark optimization techniques directly related to Spark Core that help prevent the shuffling and skewing of data."
+    "foundations/language/pyspark/lab-spark-optimizations-2/README": {
+      "id": "foundations/language/pyspark/lab-spark-optimizations-2/README",
+      "title": "Lab: Spark Optimizations",
+      "description": "Performance tuning in Apache Spark plays an instrumental role in running efficient big data workloads. More often than not, the optimization techniques employed to prevent the shuffling and skewing of data drastically improve performance. In this lab, we will learn about the Spark optimization techniques directly related to Spark Core that help prevent the shuffling and skewing of data.",
+      "sidebar": "docs"
     },
-    "foundations/programming-languages/pyspark/lab-spark-optimizations/README": {
-      "id": "foundations/programming-languages/pyspark/lab-spark-optimizations/README",
-      "title": "Spark Optimizations for Analytics Workloads",
-      "description": "Optimizations in Apache Spark play a crucial role while building big data solutions. Knowledge and experience in tuning Spark-based workloads help organizations save costs and time while running these workloads on the cloud. In this lab, we will learn about various optimization techniques concerning Spark DataFrames and big data analytics in general. We will learn about the limitations of the collect() method and inferSchema when reading data. This will be followed by an overview of the best practices for working with CSV files, Parquet files, Pandas projects, and Koalas projects. Also, we will learn about some powerful optimization techniques, such as column predicate pushdown, column pruning, and partitioning strategies."
+    "foundations/language/pyspark/lab-spark-optimizations/README": {
+      "id": "foundations/language/pyspark/lab-spark-optimizations/README",
+      "title": "Lab: Spark Optimizations for Analytics Workloads",
+      "description": "Optimizations in Apache Spark play a crucial role while building big data solutions. Knowledge and experience in tuning Spark-based workloads help organizations save costs and time while running these workloads on the cloud. In this lab, we will learn about various optimization techniques concerning Spark DataFrames and big data analytics in general. We will learn about the limitations of the collect() method and inferSchema when reading data. This will be followed by an overview of the best practices for working with CSV files, Parquet files, Pandas projects, and Koalas projects. Also, we will learn about some powerful optimization techniques, such as column predicate pushdown, column pruning, and partitioning strategies.",
+      "sidebar": "docs"
     },
-    "foundations/programming-languages/pyspark/lab-sql-to-pyspark/README": {
-      "id": "foundations/programming-languages/pyspark/lab-sql-to-pyspark/README",
+    "foundations/language/pyspark/lab-sql-to-pyspark/README": {
+      "id": "foundations/language/pyspark/lab-sql-to-pyspark/README",
       "title": "SQL to PySpark Code Conversion",
       "description": "Output:"
     },
-    "foundations/programming-languages/pyspark/lab-uber-analysis/README": {
-      "id": "foundations/programming-languages/pyspark/lab-uber-analysis/README",
-      "title": "Uber Data Analysis in Pyspark",
-      "description": "This lab can be used as a take-home assignment to learn Pyspark and Data Engineering."
+    "foundations/language/pyspark/lab-uber-analysis/README": {
+      "id": "foundations/language/pyspark/lab-uber-analysis/README",
+      "title": "Lab: Uber Data Analysis in Pyspark",
+      "description": "This lab can be used as a take-home assignment to learn Pyspark and Data Engineering.",
+      "sidebar": "docs"
     },
-    "foundations/programming-languages/pyspark/lab-understand-spark-query-execution/README": {
-      "id": "foundations/programming-languages/pyspark/lab-understand-spark-query-execution/README",
+    "foundations/language/pyspark/lab-understand-spark-query-execution/README": {
+      "id": "foundations/language/pyspark/lab-understand-spark-query-execution/README",
       "title": "Understanding Spark Query Execution",
       "description": "To write efficient Spark applications, we need to have some understanding of how Spark executes queries. Having a good understanding of how Spark executes a given query helps big data developers/engineers work efficiently with large volumes of data."
     },
-    "foundations/programming-languages/pyspark/lab-window-functions/README": {
-      "id": "foundations/programming-languages/pyspark/lab-window-functions/README",
+    "foundations/language/pyspark/lab-window-functions/README": {
+      "id": "foundations/language/pyspark/lab-window-functions/README",
       "title": "Window Functions in Spark",
       "description": ""
     },
-    "foundations/programming-languages/pyspark/lazy-processing": {
-      "id": "foundations/programming-languages/pyspark/lazy-processing",
+    "foundations/language/pyspark/lazy-processing": {
+      "id": "foundations/language/pyspark/lazy-processing",
       "title": "Lazy Processing",
-      "description": "PySpark uses a concept called lazy processing, which means that operations on DataFrames and RDDs are not executed immediately, but rather are recorded in a lineage. The actual execution of the operations is delayed until an action is called. This allows Spark to optimize the execution plan by analyzing the entire lineage of operations, rather than executing each operation individually."
+      "description": "PySpark uses a concept called lazy processing, which means that operations on DataFrames and RDDs are not executed immediately, but rather are recorded in a lineage. The actual execution of the operations is delayed until an action is called. This allows Spark to optimize the execution plan by analyzing the entire lineage of operations, rather than executing each operation individually.",
+      "sidebar": "docs"
     },
-    "foundations/programming-languages/pyspark/methods-operations": {
-      "id": "foundations/programming-languages/pyspark/methods-operations",
+    "foundations/language/pyspark/methods-operations": {
+      "id": "foundations/language/pyspark/methods-operations",
       "title": "Methods, Operations and Functions",
-      "description": "PySpark provides a variety of methods to work with data, some of the most commonly used are:"
+      "description": "PySpark provides a variety of methods to work with data, some of the most commonly used are:",
+      "sidebar": "docs"
     },
-    "foundations/programming-languages/pyspark/partitioning": {
-      "id": "foundations/programming-languages/pyspark/partitioning",
+    "foundations/language/pyspark/partitioning": {
+      "id": "foundations/language/pyspark/partitioning",
       "title": "Partitioning",
-      "description": "A partition in spark is a logical chunk of data mapped to a single node in a cluster. Partitions are basic units of parallelism. Each partition is processed by a single task slot. In a multicore system, total slots for tasks will be num of executors x number of cores. Hence the number of partitions decides the task parallelism."
+      "description": "A partition in spark is a logical chunk of data mapped to a single node in a cluster. Partitions are basic units of parallelism. Each partition is processed by a single task slot. In a multicore system, total slots for tasks will be num of executors x number of cores. Hence the number of partitions decides the task parallelism.",
+      "sidebar": "docs"
     },
-    "foundations/programming-languages/pyspark/pyspark-vs-pandas": {
-      "id": "foundations/programming-languages/pyspark/pyspark-vs-pandas",
+    "foundations/language/pyspark/pyspark-vs-pandas": {
+      "id": "foundations/language/pyspark/pyspark-vs-pandas",
       "title": "PySpark vs Pandas",
-      "description": "Spark DataFrames were inspired by pandas, which also provides an abstraction on top of the data called a DataFrame. pandas is a widely adopted library for data manipulation and analytics. Many developers use it to extrapolate data using Python."
+      "description": "Spark DataFrames were inspired by pandas, which also provides an abstraction on top of the data called a DataFrame. pandas is a widely adopted library for data manipulation and analytics. Many developers use it to extrapolate data using Python.",
+      "sidebar": "docs"
     },
-    "foundations/programming-languages/pyspark/udf": {
-      "id": "foundations/programming-languages/pyspark/udf",
-      "title": "What are UDFs in PySpark",
-      "description": "In PySpark, UDF stands for User-Defined Function, which is a feature that allows users to define their own functions and apply them to Spark data frames or RDDs."
+    "foundations/language/pyspark/udf": {
+      "id": "foundations/language/pyspark/udf",
+      "title": "UDFs",
+      "description": "In PySpark, UDF stands for User-Defined Function, which is a feature that allows users to define their own functions and apply them to Spark data frames or RDDs.",
+      "sidebar": "docs"
     },
-    "foundations/programming-languages/python/introduction-to-python": {
-      "id": "foundations/programming-languages/python/introduction-to-python",
+    "foundations/language/python/introduction-to-python": {
+      "id": "foundations/language/python/introduction-to-python",
       "title": "Introduction to Python",
-      "description": "A strong understanding of Python syntax, data types, operators, and control structures is essential. Data engineering using Python only gets better, and here is a list of points if you are beginning to think otherwise."
+      "description": "A strong understanding of Python syntax, data types, operators, and control structures is essential. Data engineering using Python only gets better, and here is a list of points if you are beginning to think otherwise.",
+      "sidebar": "docs"
     },
-    "foundations/programming-languages/python/links": {
-      "id": "foundations/programming-languages/python/links",
+    "foundations/language/python/lab-etl-csv-json-xml/index": {
+      "id": "foundations/language/python/lab-etl-csv-json-xml/index",
+      "title": "Lab: ETL process and reading/writing CSV, JSON and XML files in pandas",
+      "description": "",
+      "sidebar": "docs"
+    },
+    "foundations/language/python/links": {
+      "id": "foundations/language/python/links",
       "title": "Explore Further",
-      "description": "1. https://scrimba.com/learn/python"
+      "description": "1. https://scrimba.com/learn/python",
+      "sidebar": "docs"
     },
-    "foundations/programming-languages/python/packaging/docs/README": {
-      "id": "foundations/programming-languages/python/packaging/docs/README",
+    "foundations/language/python/packaging/docs/README": {
+      "id": "foundations/language/python/packaging/docs/README",
       "title": "Home",
       "description": "Standards - AI/ML boilerplates and snippets"
     },
-    "foundations/programming-languages/python/python-snippets": {
-      "id": "foundations/programming-languages/python/python-snippets",
+    "foundations/language/python/python-snippets": {
+      "id": "foundations/language/python/python-snippets",
       "title": "Python code",
       "description": "Generating a hash for given string"
     },
-    "foundations/programming-languages/python/python-syntax-sugars": {
-      "id": "foundations/programming-languages/python/python-syntax-sugars",
-      "title": "Sweet Python Syntax Sugar for Improving Your Coding Experience by Yang Zhou",
-      "description": "Github Google Colab"
+    "foundations/language/python/python-syntax-sugars": {
+      "id": "foundations/language/python/python-syntax-sugars",
+      "title": "Lab: Interesting Python Syntaxes",
+      "description": "Sweet Python Syntax Sugar for Improving Your Coding Experience by Yang Zhou",
+      "sidebar": "docs"
     },
-    "foundations/programming-languages/python/README": {
-      "id": "foundations/programming-languages/python/README",
+    "foundations/language/python/README": {
+      "id": "foundations/language/python/README",
       "title": "Python",
       "description": "Concepts"
     },
-    "foundations/programming-languages/scala/lab-scala-getting-started/README": {
-      "id": "foundations/programming-languages/scala/lab-scala-getting-started/README",
+    "foundations/language/scala/lab-scala-getting-started/README": {
+      "id": "foundations/language/scala/lab-scala-getting-started/README",
       "title": "Getting Started with Scala",
       "description": "Why Scala?"
     },
-    "foundations/programming-languages/scala/README": {
-      "id": "foundations/programming-languages/scala/README",
+    "foundations/language/scala/README": {
+      "id": "foundations/language/scala/README",
       "title": "Scala",
       "description": "- Expressive"
     },
-    "foundations/programming-languages/sql/aggregate-functions": {
-      "id": "foundations/programming-languages/sql/aggregate-functions",
+    "foundations/language/sql/aggregate-functions": {
+      "id": "foundations/language/sql/aggregate-functions",
       "title": "SQL Aggregate Functions",
-      "description": "| Aggregate function                                                  | Description                                                            |"
+      "description": "| Aggregate function                                                  | Description                                                            |",
+      "sidebar": "docs"
     },
-    "foundations/programming-languages/sql/and": {
-      "id": "foundations/programming-languages/sql/and",
-      "title": "SQL AND",
-      "description": "AND is a logical operator in SQL that allows you to select only rows that satisfy two conditions."
-    },
-    "foundations/programming-languages/sql/between": {
-      "id": "foundations/programming-languages/sql/between",
-      "title": "SQL BETWEEN",
-      "description": "BETWEEN is a logical operator in SQL that allows you to select only rows that are within a specific range."
-    },
-    "foundations/programming-languages/sql/case": {
-      "id": "foundations/programming-languages/sql/case",
-      "title": "SQL CASE",
-      "description": "The CASE statement is SQL's way of handling if/then logic. The CASE statement is followed by at least one pair of WHEN and THEN statements—SQL's equivalent of IF/THEN in Excel. Because of this pairing, you might be tempted to call this SQL CASE WHEN, but CASE is the accepted term."
-    },
-    "foundations/programming-languages/sql/challenges/assignment1/README": {
-      "id": "foundations/programming-languages/sql/challenges/assignment1/README",
+    "foundations/language/sql/challenges/assignment1/README": {
+      "id": "foundations/language/sql/challenges/assignment1/README",
       "title": "Lab - SQL Assignment",
       "description": "Activity"
     },
-    "foundations/programming-languages/sql/challenges/assignment1/solution": {
-      "id": "foundations/programming-languages/sql/challenges/assignment1/solution",
+    "foundations/language/sql/challenges/assignment1/solution": {
+      "id": "foundations/language/sql/challenges/assignment1/solution",
       "title": "solution",
       "description": "Solution"
     },
-    "foundations/programming-languages/sql/challenges/assignment2/README": {
-      "id": "foundations/programming-languages/sql/challenges/assignment2/README",
+    "foundations/language/sql/challenges/assignment2/README": {
+      "id": "foundations/language/sql/challenges/assignment2/README",
       "title": "SQL Assignment",
       "description": "Learning goals"
     },
-    "foundations/programming-languages/sql/challenges/assignment3/README": {
-      "id": "foundations/programming-languages/sql/challenges/assignment3/README",
+    "foundations/language/sql/challenges/assignment3/README": {
+      "id": "foundations/language/sql/challenges/assignment3/README",
       "title": "SQL Assignment",
       "description": "Part 1: Deforestation Exploration"
     },
-    "foundations/programming-languages/sql/challenges/assignment4/README": {
-      "id": "foundations/programming-languages/sql/challenges/assignment4/README",
+    "foundations/language/sql/challenges/assignment4/README": {
+      "id": "foundations/language/sql/challenges/assignment4/README",
       "title": "SQL Assignment",
       "description": ""
     },
-    "foundations/programming-languages/sql/challenges/assignment5/README": {
-      "id": "foundations/programming-languages/sql/challenges/assignment5/README",
-      "title": "SQL Danny's Diner Assignment",
-      "description": "Danny seriously loves Japanese food so in the beginning of 2021, he decides to embark upon a risky venture and opens up a cute little restaurant that sells his 3 favourite foods: sushi, curry and ramen."
+    "foundations/language/sql/challenges/assignment5/index": {
+      "id": "foundations/language/sql/challenges/assignment5/index",
+      "title": "Challenge - Danny's Diner",
+      "description": "Danny seriously loves Japanese food so in the beginning of 2021, he decides to embark upon a risky venture and opens up a cute little restaurant that sells his 3 favourite foods: sushi, curry and ramen.",
+      "sidebar": "docs"
     },
-    "foundations/programming-languages/sql/challenges/assignment6/README": {
-      "id": "foundations/programming-languages/sql/challenges/assignment6/README",
+    "foundations/language/sql/challenges/assignment6/README": {
+      "id": "foundations/language/sql/challenges/assignment6/README",
       "title": "SQL Pizza Runner Assignment",
       "description": "Did you know that over 115 million kilograms of pizza is consumed daily worldwide??? (Well according to Wikipedia anyway…)"
     },
-    "foundations/programming-languages/sql/challenges/assignment7/README": {
-      "id": "foundations/programming-languages/sql/challenges/assignment7/README",
+    "foundations/language/sql/challenges/assignment7/README": {
+      "id": "foundations/language/sql/challenges/assignment7/README",
       "title": "Patients SQL Assignment",
       "description": "Queries"
     },
-    "foundations/programming-languages/sql/challenges/braintree/README": {
-      "id": "foundations/programming-languages/sql/challenges/braintree/README",
-      "title": "README",
-      "description": "Welcome to the Braintree Analytics Code Challenge!"
+    "foundations/language/sql/challenges/braintree/index": {
+      "id": "foundations/language/sql/challenges/braintree/index",
+      "title": "Challenge - BrainTree SQL Code Challenge",
+      "description": "Instructions",
+      "sidebar": "docs"
     },
-    "foundations/programming-languages/sql/challenges/employee": {
-      "id": "foundations/programming-languages/sql/challenges/employee",
+    "foundations/language/sql/challenges/employee": {
+      "id": "foundations/language/sql/challenges/employee",
       "title": "Challenge - Employee Analytics",
-      "description": "Small dataset | 6 Questions"
+      "description": "Small dataset | 6 Questions",
+      "sidebar": "docs"
     },
-    "foundations/programming-languages/sql/challenges/yammer/README": {
-      "id": "foundations/programming-languages/sql/challenges/yammer/README",
-      "title": "Yammer Analytics",
-      "description": "Yammer is a social network for communicating with coworkers. Individuals share documents, updates, and ideas by posting them in groups. Yammer is free to use indefinitely, but companies must pay license fees if they want access to administrative controls, including integration with user management systems like ActiveDirectory."
+    "foundations/language/sql/challenges/yammer/index": {
+      "id": "foundations/language/sql/challenges/yammer/index",
+      "title": "Challenge - Yammer Advanced Analytics",
+      "description": "Yammer is a social network for communicating with coworkers. Individuals share documents, updates, and ideas by posting them in groups. Yammer is free to use indefinitely, but companies must pay license fees if they want access to administrative controls, including integration with user management systems like ActiveDirectory.",
+      "sidebar": "docs"
     },
-    "foundations/programming-languages/sql/comments": {
-      "id": "foundations/programming-languages/sql/comments",
-      "title": "Comments",
-      "description": "You can \"comment out\" pieces of code by adding combinations of characters. In other words, you can specify parts of your query that will not actually be treated like SQL code. It can be helpful to include comments that explain your thinking so that you can easily remember what you intended to do if you ever want to revisit your work. Commenting can also be useful if you want to test variations on your query while keeping all of your code intact."
+    "foundations/language/sql/commands/and": {
+      "id": "foundations/language/sql/commands/and",
+      "title": "SQL AND",
+      "description": "AND is a logical operator in SQL that allows you to select only rows that satisfy two conditions."
     },
-    "foundations/programming-languages/sql/comparison-operators": {
-      "id": "foundations/programming-languages/sql/comparison-operators",
-      "title": "SQL Comparison Operators",
-      "description": "Comparison operators on numerical data"
+    "foundations/language/sql/commands/between": {
+      "id": "foundations/language/sql/commands/between",
+      "title": "SQL BETWEEN",
+      "description": "BETWEEN is a logical operator in SQL that allows you to select only rows that are within a specific range."
     },
-    "foundations/programming-languages/sql/cte": {
-      "id": "foundations/programming-languages/sql/cte",
-      "title": "cte",
-      "description": "CTE (Common Table Expressions)"
+    "foundations/language/sql/commands/case": {
+      "id": "foundations/language/sql/commands/case",
+      "title": "SQL CASE",
+      "description": "The CASE statement is SQL's way of handling if/then logic. The CASE statement is followed by at least one pair of WHEN and THEN statements—SQL's equivalent of IF/THEN in Excel. Because of this pairing, you might be tempted to call this SQL CASE WHEN, but CASE is the accepted term."
     },
-    "foundations/programming-languages/sql/cursor": {
-      "id": "foundations/programming-languages/sql/cursor",
-      "title": "Cursor",
-      "description": "To handle a result set inside a stored procedure, you use a cursor. A cursor allows you to iterate a set of rows returned by a query and process each row individually."
-    },
-    "foundations/programming-languages/sql/date-functions": {
-      "id": "foundations/programming-languages/sql/date-functions",
-      "title": "SQL Date Functions",
-      "description": "Assuming you've got some dates properly stored as a date or time data type, you can do some pretty powerful things. Maybe you'd like to calculate a field of dates a week after an existing field. Or maybe you'd like to create a field that indicates how many days apart the values in two other date fields are. These are trivially simple, but it's important to keep in mind that the data type of your results will depend on exactly what you are doing to the dates."
-    },
-    "foundations/programming-languages/sql/distinct": {
-      "id": "foundations/programming-languages/sql/distinct",
+    "foundations/language/sql/commands/distinct": {
+      "id": "foundations/language/sql/commands/distinct",
       "title": "SQL DISTINCT",
       "description": "You'll occasionally want to look at only the unique values in a particular column. You can do this using SELECT DISTINCT syntax."
     },
-    "foundations/programming-languages/sql/groupby": {
-      "id": "foundations/programming-languages/sql/groupby",
+    "foundations/language/sql/commands/groupby": {
+      "id": "foundations/language/sql/commands/groupby",
       "title": "SQL GROUP BY",
       "description": "SQL aggregate function like COUNT, AVG, and SUM have something in common: they all aggregate across the entire table. But what if you want to aggregate only part of a table? For example, you might want to count the number of entries for each year."
     },
-    "foundations/programming-languages/sql/having": {
-      "id": "foundations/programming-languages/sql/having",
+    "foundations/language/sql/commands/having": {
+      "id": "foundations/language/sql/commands/having",
       "title": "SQL HAVING",
       "description": "You'll often encounter datasets where GROUP BY isn't enough to get what you're looking for. Let's say that it's not enough just to know aggregated stats by month. After all, there are a lot of months in this dataset. Instead, you might want to find every month during which AAPL stock worked its way over $400/share. The WHERE clause won't work for this because it doesn't allow you to filter on aggregate columns—that's where the HAVING clause comes in."
     },
-    "foundations/programming-languages/sql/in": {
-      "id": "foundations/programming-languages/sql/in",
+    "foundations/language/sql/commands/in": {
+      "id": "foundations/language/sql/commands/in",
       "title": "SQL IN",
       "description": "IN is a logical operator in SQL that allows you to specify a list of values that you'd like to include in the results."
     },
-    "foundations/programming-languages/sql/indexes": {
-      "id": "foundations/programming-languages/sql/indexes",
-      "title": "Indexes",
-      "description": "An index is created by a table or view to define a field that can be used to optimize queries."
+    "foundations/language/sql/commands/index": {
+      "id": "foundations/language/sql/commands/index",
+      "title": "Commands",
+      "description": "",
+      "sidebar": "docs"
     },
-    "foundations/programming-languages/sql/isnull": {
-      "id": "foundations/programming-languages/sql/isnull",
+    "foundations/language/sql/commands/isnull": {
+      "id": "foundations/language/sql/commands/isnull",
       "title": "SQL IS NULL",
       "description": "IS NULL is a logical operator in SQL that allows you to exclude rows with missing data from your results."
     },
-    "foundations/programming-languages/sql/joins": {
-      "id": "foundations/programming-languages/sql/joins",
-      "title": "SQL Joins",
-      "description": "It might be helpful to refer to this JOIN visualization by Patrik Spathon."
-    },
-    "foundations/programming-languages/sql/lab-mysql-data-ingestion/README": {
-      "id": "foundations/programming-languages/sql/lab-mysql-data-ingestion/README",
-      "title": "Lab: Data Ingestion to MySQL",
-      "description": "Process Flow"
-    },
-    "foundations/programming-languages/sql/lab-postgres-sales/README": {
-      "id": "foundations/programming-languages/sql/lab-postgres-sales/README",
-      "title": "Postgres Sales",
-      "description": "Running Dates, String and Advanced queries in Postgres on Sales data"
-    },
-    "foundations/programming-languages/sql/lab-sqlite-basics/README": {
-      "id": "foundations/programming-languages/sql/lab-sqlite-basics/README",
-      "title": "SQLite Basics",
-      "description": "The following entity-relationship- (ER) diagram for the books database shows the database’s tables and the relationships among them:"
-    },
-    "foundations/programming-languages/sql/like": {
-      "id": "foundations/programming-languages/sql/like",
+    "foundations/language/sql/commands/like": {
+      "id": "foundations/language/sql/commands/like",
       "title": "SQL LIKE",
       "description": "LIKE is a logical operator in SQL that allows you to match on similar values rather than exact ones."
     },
-    "foundations/programming-languages/sql/limit": {
-      "id": "foundations/programming-languages/sql/limit",
+    "foundations/language/sql/commands/limit": {
+      "id": "foundations/language/sql/commands/limit",
       "title": "SQL LIMIT",
       "description": "As you might expect, the limit restricts how many rows the SQL query returns."
     },
-    "foundations/programming-languages/sql/links": {
-      "id": "foundations/programming-languages/sql/links",
-      "title": "Explore Further",
-      "description": "1. SQL Cheat Sheet"
-    },
-    "foundations/programming-languages/sql/logical-operators": {
-      "id": "foundations/programming-languages/sql/logical-operators",
-      "title": "SQL Logical Operators",
-      "description": "You'll likely also want to filter data using several conditions---possibly more often than you'll want to filter by only one condition. Logical operators allow you to use multiple comparison operators in one query."
-    },
-    "foundations/programming-languages/sql/not": {
-      "id": "foundations/programming-languages/sql/not",
+    "foundations/language/sql/commands/not": {
+      "id": "foundations/language/sql/commands/not",
       "title": "SQL NOT",
       "description": "NOT is a logical operator in SQL that you can put before any conditional statement to select rows for which that statement is false."
     },
-    "foundations/programming-languages/sql/or": {
-      "id": "foundations/programming-languages/sql/or",
+    "foundations/language/sql/commands/or": {
+      "id": "foundations/language/sql/commands/or",
       "title": "SQL OR",
       "description": "OR is a logical operator in SQL that allows you to select rows that satisfy either of two conditions. It works the same way as AND, which selects the rows that satisfy both of two conditions."
     },
-    "foundations/programming-languages/sql/orderby": {
-      "id": "foundations/programming-languages/sql/orderby",
+    "foundations/language/sql/commands/orderby": {
+      "id": "foundations/language/sql/commands/orderby",
       "title": "SQL ORDER BY",
       "description": "The ORDER BY clause allows you to reorder your results based on the data in one or more columns."
     },
-    "foundations/programming-languages/sql/performance-tuning": {
-      "id": "foundations/programming-languages/sql/performance-tuning",
-      "title": "Performance Tuning",
-      "description": "SQL tuning is the process of improving SQL queries to accelerate your servers performance. It's general purpose is to reduce the amount of time it takes a user to receive a result after issuing a query, and to reduce the amount of resources used to process a query."
-    },
-    "foundations/programming-languages/sql/select": {
-      "id": "foundations/programming-languages/sql/select",
+    "foundations/language/sql/commands/select": {
+      "id": "foundations/language/sql/commands/select",
       "title": "SQL SELECT",
       "description": "There are two required ingredients in any SQL query: SELECT and FROM---and they have to be in that order. SELECT indicates which columns you'd like to view, and FROM identifies the table that they live in."
     },
-    "foundations/programming-languages/sql/sql-basics": {
-      "id": "foundations/programming-languages/sql/sql-basics",
-      "title": "SQL Basics",
-      "description": "What is SQL?"
-    },
-    "foundations/programming-languages/sql/sql-interviews-questions": {
-      "id": "foundations/programming-languages/sql/sql-interviews-questions",
-      "title": "SQL Interview Questions",
-      "description": "Topics Covered in SQL Interviews for Data Engineers"
-    },
-    "foundations/programming-languages/sql/sql-query": {
-      "id": "foundations/programming-languages/sql/sql-query",
-      "title": "SQL Query",
-      "description": "Execution path of a query"
-    },
-    "foundations/programming-languages/sql/stored-procedures": {
-      "id": "foundations/programming-languages/sql/stored-procedures",
-      "title": "Stored Procedures",
-      "description": "A stored procedure is a set of SQL statements stored in a database. These statements can request data entry parameters, which are used as variables during execution, and can constitute a data output."
-    },
-    "foundations/programming-languages/sql/string-functions": {
-      "id": "foundations/programming-languages/sql/string-functions",
-      "title": "SQL String Functions",
-      "description": "| Name                                                                                                    | Description                                                                              |"
-    },
-    "foundations/programming-languages/sql/subquery": {
-      "id": "foundations/programming-languages/sql/subquery",
-      "title": "Subquery",
-      "description": "Subqueries (also known as inner queries or nested queries) are a tool for performing operations in multiple steps. For example, if you wanted to take the sums of several columns, then average all of those values, you'd need to do each aggregation in a distinct step."
-    },
-    "foundations/programming-languages/sql/triggers": {
-      "id": "foundations/programming-languages/sql/triggers",
-      "title": "Triggers",
-      "description": "Triggers are a type of stored procedure, configured to call whenever an event occurs. This trigger can be used, for example, to signalize the execution of some statements whenever new data is included in a table, or a record is edited in the table."
-    },
-    "foundations/programming-languages/sql/union": {
-      "id": "foundations/programming-languages/sql/union",
+    "foundations/language/sql/commands/union": {
+      "id": "foundations/language/sql/commands/union",
       "title": "SQL UNION",
       "description": "SQL joins allow you to combine two datasets side-by-side, but UNION allows you to stack one dataset on top of the other. Put differently, UNION allows you to write two separate SELECT statements, and to have the results of one statement display in the same table as the results from the other statement."
     },
-    "foundations/programming-languages/sql/views": {
-      "id": "foundations/programming-languages/sql/views",
-      "title": "Views",
-      "description": "A view can be considered a virtual table because it is composed of rows and columns of data, the results of a SELECT SQL instruction in one or more database tables. Views are great resources for organizing information from different tables to create reports."
-    },
-    "foundations/programming-languages/sql/where": {
-      "id": "foundations/programming-languages/sql/where",
+    "foundations/language/sql/commands/where": {
+      "id": "foundations/language/sql/commands/where",
       "title": "SQL WHERE",
       "description": "Once you know how to view some data using SELECT and FROM, the next step is filtering the data using the WHERE clause."
     },
-    "foundations/programming-languages/sql/window-functions": {
-      "id": "foundations/programming-languages/sql/window-functions",
+    "foundations/language/sql/comments": {
+      "id": "foundations/language/sql/comments",
+      "title": "Comments",
+      "description": "You can \"comment out\" pieces of code by adding combinations of characters. In other words, you can specify parts of your query that will not actually be treated like SQL code. It can be helpful to include comments that explain your thinking so that you can easily remember what you intended to do if you ever want to revisit your work. Commenting can also be useful if you want to test variations on your query while keeping all of your code intact.",
+      "sidebar": "docs"
+    },
+    "foundations/language/sql/comparison-operators": {
+      "id": "foundations/language/sql/comparison-operators",
+      "title": "SQL Comparison Operators",
+      "description": "Comparison operators on numerical data",
+      "sidebar": "docs"
+    },
+    "foundations/language/sql/cte": {
+      "id": "foundations/language/sql/cte",
+      "title": "CTE (Common Table Expressions)",
+      "description": "A common table expression is a named temporary result set that exists only within the execution scope of a single SQL statement e.g.,SELECT, INSERT, UPDATE, or DELETE.",
+      "sidebar": "docs"
+    },
+    "foundations/language/sql/cursor": {
+      "id": "foundations/language/sql/cursor",
+      "title": "Cursor",
+      "description": "To handle a result set inside a stored procedure, you use a cursor. A cursor allows you to iterate a set of rows returned by a query and process each row individually.",
+      "sidebar": "docs"
+    },
+    "foundations/language/sql/date-functions": {
+      "id": "foundations/language/sql/date-functions",
+      "title": "SQL Date Functions",
+      "description": "Assuming you've got some dates properly stored as a date or time data type, you can do some pretty powerful things. Maybe you'd like to calculate a field of dates a week after an existing field. Or maybe you'd like to create a field that indicates how many days apart the values in two other date fields are. These are trivially simple, but it's important to keep in mind that the data type of your results will depend on exactly what you are doing to the dates.",
+      "sidebar": "docs"
+    },
+    "foundations/language/sql/indexes": {
+      "id": "foundations/language/sql/indexes",
+      "title": "Indexes",
+      "description": "An index is created by a table or view to define a field that can be used to optimize queries.",
+      "sidebar": "docs"
+    },
+    "foundations/language/sql/joins": {
+      "id": "foundations/language/sql/joins",
+      "title": "SQL Joins",
+      "description": "It might be helpful to refer to this JOIN visualization by Patrik Spathon.",
+      "sidebar": "docs"
+    },
+    "foundations/language/sql/lab-basic-to-advanced/index": {
+      "id": "foundations/language/sql/lab-basic-to-advanced/index",
+      "title": "Lab: SQL Basics to Advanced Primer",
+      "description": "Notebooks",
+      "sidebar": "docs"
+    },
+    "foundations/language/sql/lab-mysql-data-ingestion/index": {
+      "id": "foundations/language/sql/lab-mysql-data-ingestion/index",
+      "title": "Lab: Data Ingestion to MySQL",
+      "description": "Process Flow",
+      "sidebar": "docs"
+    },
+    "foundations/language/sql/lab-postgres-queries/index": {
+      "id": "foundations/language/sql/lab-postgres-queries/index",
+      "title": "Lab: Postgres SQL basics to advanced",
+      "description": "Notebooks",
+      "sidebar": "docs"
+    },
+    "foundations/language/sql/lab-postgres-sales/index": {
+      "id": "foundations/language/sql/lab-postgres-sales/index",
+      "title": "Lab: Postgres Sales",
+      "description": "Running Dates, String and Advanced queries in Postgres on Sales data",
+      "sidebar": "docs"
+    },
+    "foundations/language/sql/lab-sqlite-basics/index": {
+      "id": "foundations/language/sql/lab-sqlite-basics/index",
+      "title": "Lab: SQLite Basics",
+      "description": "Working with Book dataset on SQLite database",
+      "sidebar": "docs"
+    },
+    "foundations/language/sql/links": {
+      "id": "foundations/language/sql/links",
+      "title": "Explore Further",
+      "description": "1. SQL Cheat Sheet",
+      "sidebar": "docs"
+    },
+    "foundations/language/sql/logical-operators": {
+      "id": "foundations/language/sql/logical-operators",
+      "title": "SQL Logical Operators",
+      "description": "You'll likely also want to filter data using several conditions---possibly more often than you'll want to filter by only one condition. Logical operators allow you to use multiple comparison operators in one query.",
+      "sidebar": "docs"
+    },
+    "foundations/language/sql/performance-tuning": {
+      "id": "foundations/language/sql/performance-tuning",
+      "title": "Performance Tuning",
+      "description": "SQL tuning is the process of improving SQL queries to accelerate your servers performance. It's general purpose is to reduce the amount of time it takes a user to receive a result after issuing a query, and to reduce the amount of resources used to process a query.",
+      "sidebar": "docs"
+    },
+    "foundations/language/sql/sql-basics": {
+      "id": "foundations/language/sql/sql-basics",
+      "title": "SQL Basics",
+      "description": "What is SQL?",
+      "sidebar": "docs"
+    },
+    "foundations/language/sql/sql-interviews-questions": {
+      "id": "foundations/language/sql/sql-interviews-questions",
+      "title": "SQL Interview Questions",
+      "description": "Topics Covered in SQL Interviews for Data Engineers"
+    },
+    "foundations/language/sql/sql-query": {
+      "id": "foundations/language/sql/sql-query",
+      "title": "SQL Query",
+      "description": "Execution path of a query",
+      "sidebar": "docs"
+    },
+    "foundations/language/sql/stored-procedures": {
+      "id": "foundations/language/sql/stored-procedures",
+      "title": "Stored Procedures",
+      "description": "A stored procedure is a set of SQL statements stored in a database. These statements can request data entry parameters, which are used as variables during execution, and can constitute a data output.",
+      "sidebar": "docs"
+    },
+    "foundations/language/sql/string-functions": {
+      "id": "foundations/language/sql/string-functions",
+      "title": "SQL String Functions",
+      "description": "| Name                                                                                                    | Description                                                                              |",
+      "sidebar": "docs"
+    },
+    "foundations/language/sql/subquery": {
+      "id": "foundations/language/sql/subquery",
+      "title": "Subquery",
+      "description": "Subqueries (also known as inner queries or nested queries) are a tool for performing operations in multiple steps. For example, if you wanted to take the sums of several columns, then average all of those values, you'd need to do each aggregation in a distinct step.",
+      "sidebar": "docs"
+    },
+    "foundations/language/sql/triggers": {
+      "id": "foundations/language/sql/triggers",
+      "title": "Triggers",
+      "description": "Triggers are a type of stored procedure, configured to call whenever an event occurs. This trigger can be used, for example, to signalize the execution of some statements whenever new data is included in a table, or a record is edited in the table.",
+      "sidebar": "docs"
+    },
+    "foundations/language/sql/views": {
+      "id": "foundations/language/sql/views",
+      "title": "Views",
+      "description": "A view can be considered a virtual table because it is composed of rows and columns of data, the results of a SELECT SQL instruction in one or more database tables. Views are great resources for organizing information from different tables to create reports.",
+      "sidebar": "docs"
+    },
+    "foundations/language/sql/window-functions": {
+      "id": "foundations/language/sql/window-functions",
       "title": "Window Functions",
-      "description": "There is no official categorisation of Window Functions but based on the usage, we can briefly categorise them in 3 ways:"
+      "description": "There is no official categorisation of Window Functions but based on the usage, we can briefly categorise them in 3 ways:",
+      "sidebar": "docs"
     },
     "introduction": {
       "id": "introduction",
@@ -2354,6 +2960,12 @@
       "id": "processing/databricks/lab-databricks-deltalake/README",
       "title": "Databricks Deltalake",
       "description": "Objective: Creation of an elementary Data Lakehouse using Databricks and the Delta lake technology"
+    },
+    "processing/databricks/lab-databricks-pyspark-s3/index": {
+      "id": "processing/databricks/lab-databricks-pyspark-s3/index",
+      "title": "Lab: Connect AWS to PySpark and build an ETL pipeline",
+      "description": "Github",
+      "sidebar": "docs"
     },
     "processing/databricks/lab-databricks-scala-postgres-s3/README": {
       "id": "processing/databricks/lab-databricks-scala-postgres-s3/README",

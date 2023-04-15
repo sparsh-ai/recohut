@@ -1,7 +1,7 @@
 {
   "unversionedId": "foundations/language/pyspark/lab-spark-optimizations-2/README",
   "id": "foundations/language/pyspark/lab-spark-optimizations-2/README",
-  "title": "Spark Optimizations",
+  "title": "Lab: Spark Optimizations",
   "description": "Performance tuning in Apache Spark plays an instrumental role in running efficient big data workloads. More often than not, the optimization techniques employed to prevent the shuffling and skewing of data drastically improve performance. In this lab, we will learn about the Spark optimization techniques directly related to Spark Core that help prevent the shuffling and skewing of data.",
   "source": "@site/docs/01-foundations/language/pyspark/lab-spark-optimizations-2/README.md",
   "sourceDirName": "01-foundations/language/pyspark/lab-spark-optimizations-2",
@@ -14,13 +14,13 @@
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docs",
   "previous": {
-    "title": "Spark Optimizations for Analytics Workloads",
-    "permalink": "/docs/foundations/language/pyspark/lab-spark-optimizations/"
+    "title": "Lab: Connect AWS to PySpark and build an ETL pipeline",
+    "permalink": "/docs/processing/databricks/lab-databricks-pyspark-s3/"
   },
   "next": {
-    "title": "SQL to PySpark Code Conversion",
-    "permalink": "/docs/foundations/language/pyspark/lab-sql-to-pyspark/"
+    "title": "Lab: Spark Optimizations for Analytics Workloads",
+    "permalink": "/docs/foundations/language/pyspark/lab-spark-optimizations/"
   }
 }

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/language/sql/lab-mysql-data-ingestion/index",
+  "id": "foundations/language/sql/lab-mysql-data-ingestion/index",
+  "title": "Lab: Data Ingestion to MySQL",
+  "description": "Process Flow",
+  "source": "@site/docs/01-foundations/language/sql/lab-mysql-data-ingestion/index.md",
+  "sourceDirName": "01-foundations/language/sql/lab-mysql-data-ingestion",
+  "slug": "/foundations/language/sql/lab-mysql-data-ingestion/",
+  "permalink": "/docs/foundations/language/sql/lab-mysql-data-ingestion/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "SQL Joins",
+    "permalink": "/docs/foundations/language/sql/joins"
+  },
+  "next": {
+    "title": "Lab: SQL Basics to Advanced Primer",
+    "permalink": "/docs/foundations/language/sql/lab-basic-to-advanced/"
+  }
+}

@@ -14,13 +14,13 @@
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docs",
   "previous": {
-    "title": "AWS Commands",
-    "permalink": "/docs/foundations/cloud/aws-commands"
+    "title": "Secrets Manager",
+    "permalink": "/docs/foundations/cloud/secrets-manager"
   },
   "next": {
-    "title": "Azure Basics",
-    "permalink": "/docs/foundations/cloud/azure-basics"
+    "title": "AWS Commands",
+    "permalink": "/docs/foundations/cloud/aws-commands"
   }
 }

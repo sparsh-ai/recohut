@@ -13,14 +13,5 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Understanding Spark Query Execution",
-    "permalink": "/docs/foundations/language/pyspark/lab-understand-spark-query-execution/"
-  },
-  "next": {
-    "title": "Lazy Processing",
-    "permalink": "/docs/foundations/language/pyspark/lazy-processing"
-  }
+  "frontMatter": {}
 }

@@ -1,4 +1,4 @@
-# SQLite Basics
+# Lab: SQLite Basics
 
 The following entity-relationship- (ER) diagram for the books database shows the database’s tables and the relationships among them:
 

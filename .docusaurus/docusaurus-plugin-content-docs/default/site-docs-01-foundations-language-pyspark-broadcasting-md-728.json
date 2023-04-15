@@ -14,13 +14,13 @@
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docs",
   "previous": {
-    "title": "Secrets Manager",
-    "permalink": "/docs/foundations/cloud/secrets-manager"
+    "title": "UDFs",
+    "permalink": "/docs/foundations/language/pyspark/udf"
   },
   "next": {
-    "title": "Caching",
-    "permalink": "/docs/foundations/language/pyspark/caching"
+    "title": "cheat-sheet",
+    "permalink": "/docs/foundations/language/pyspark/cheat-sheet"
   }
 }

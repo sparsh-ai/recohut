@@ -14,13 +14,13 @@
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docs",
   "previous": {
     "title": "Cloud Computing Basics",
     "permalink": "/docs/foundations/cloud/cloud-basics"
   },
   "next": {
-    "title": "DMS",
-    "permalink": "/docs/foundations/cloud/dms"
+    "title": "EC2",
+    "permalink": "/docs/foundations/cloud/ec2"
   }
 }

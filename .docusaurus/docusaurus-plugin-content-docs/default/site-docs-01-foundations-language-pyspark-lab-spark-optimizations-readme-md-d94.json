@@ -1,7 +1,7 @@
 {
   "unversionedId": "foundations/language/pyspark/lab-spark-optimizations/README",
   "id": "foundations/language/pyspark/lab-spark-optimizations/README",
-  "title": "Spark Optimizations for Analytics Workloads",
+  "title": "Lab: Spark Optimizations for Analytics Workloads",
   "description": "Optimizations in Apache Spark play a crucial role while building big data solutions. Knowledge and experience in tuning Spark-based workloads help organizations save costs and time while running these workloads on the cloud. In this lab, we will learn about various optimization techniques concerning Spark DataFrames and big data analytics in general. We will learn about the limitations of the collect() method and inferSchema when reading data. This will be followed by an overview of the best practices for working with CSV files, Parquet files, Pandas projects, and Koalas projects. Also, we will learn about some powerful optimization techniques, such as column predicate pushdown, column pruning, and partitioning strategies.",
   "source": "@site/docs/01-foundations/language/pyspark/lab-spark-optimizations/README.md",
   "sourceDirName": "01-foundations/language/pyspark/lab-spark-optimizations",
@@ -14,13 +14,13 @@
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docs",
   "previous": {
-    "title": "Pyspark NYC Taxi",
-    "permalink": "/docs/foundations/language/pyspark/lab-pyspark-nyctaxi/"
+    "title": "Lab: Spark Optimizations",
+    "permalink": "/docs/foundations/language/pyspark/lab-spark-optimizations-2/"
   },
   "next": {
-    "title": "Spark Optimizations",
-    "permalink": "/docs/foundations/language/pyspark/lab-spark-optimizations-2/"
+    "title": "Lab: Uber Data Analysis in Pyspark",
+    "permalink": "/docs/foundations/language/pyspark/lab-uber-analysis/"
   }
 }

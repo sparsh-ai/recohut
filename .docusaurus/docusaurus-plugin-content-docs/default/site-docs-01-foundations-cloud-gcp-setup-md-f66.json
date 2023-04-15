@@ -14,13 +14,13 @@
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docs",
   "previous": {
     "title": "GCP Basics",
     "permalink": "/docs/foundations/cloud/gcp-basics"
   },
   "next": {
-    "title": "Glue",
-    "permalink": "/docs/foundations/cloud/glue"
+    "title": "Azure Basics",
+    "permalink": "/docs/foundations/cloud/azure-basics"
   }
 }

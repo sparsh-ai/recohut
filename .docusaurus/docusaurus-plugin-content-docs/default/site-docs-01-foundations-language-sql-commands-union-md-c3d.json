@@ -1,0 +1,17 @@
+{
+  "unversionedId": "foundations/language/sql/commands/union",
+  "id": "foundations/language/sql/commands/union",
+  "title": "SQL UNION",
+  "description": "SQL joins allow you to combine two datasets side-by-side, but UNION allows you to stack one dataset on top of the other. Put differently, UNION allows you to write two separate SELECT statements, and to have the results of one statement display in the same table as the results from the other statement.",
+  "source": "@site/docs/01-foundations/language/sql/commands/union.md",
+  "sourceDirName": "01-foundations/language/sql/commands",
+  "slug": "/foundations/language/sql/commands/union",
+  "permalink": "/docs/foundations/language/sql/commands/union",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
+}

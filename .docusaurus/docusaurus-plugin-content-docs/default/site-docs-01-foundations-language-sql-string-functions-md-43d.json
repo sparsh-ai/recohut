@@ -14,13 +14,13 @@
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docs",
   "previous": {
-    "title": "Stored Procedures",
-    "permalink": "/docs/foundations/language/sql/stored-procedures"
+    "title": "SQL Aggregate Functions",
+    "permalink": "/docs/foundations/language/sql/aggregate-functions"
   },
   "next": {
-    "title": "Subquery",
-    "permalink": "/docs/foundations/language/sql/subquery"
+    "title": "SQL Date Functions",
+    "permalink": "/docs/foundations/language/sql/date-functions"
   }
 }

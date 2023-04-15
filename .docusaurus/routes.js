@@ -434,7 +434,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '7f5'),
+    component: ComponentCreator('/docs', '232'),
     routes: [
       {
         path: '/docs/a1-interviewprep',
@@ -1367,6 +1367,12 @@ export default [
         exact: true
       },
       {
+        path: '/docs/datascience/nlp/lab-basic-text-handlng-python',
+        component: ComponentCreator('/docs/datascience/nlp/lab-basic-text-handlng-python', '2b3'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
         path: '/docs/datascience/nlp/lab-pdf-wordcloud-mail',
         component: ComponentCreator('/docs/datascience/nlp/lab-pdf-wordcloud-mail', '8cb'),
         exact: true
@@ -1751,114 +1757,136 @@ export default [
         exact: true
       },
       {
-        path: '/docs/foundations/cloud-essentials/aws-commands',
-        component: ComponentCreator('/docs/foundations/cloud-essentials/aws-commands', '999'),
-        exact: true
+        path: '/docs/foundations/cloud/aws-commands',
+        component: ComponentCreator('/docs/foundations/cloud/aws-commands', '6fe'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/cloud-essentials/aws-containers',
-        component: ComponentCreator('/docs/foundations/cloud-essentials/aws-containers', '1cd'),
-        exact: true
+        path: '/docs/foundations/cloud/aws-containers',
+        component: ComponentCreator('/docs/foundations/cloud/aws-containers', 'e8e'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/cloud-essentials/azure-basics',
-        component: ComponentCreator('/docs/foundations/cloud-essentials/azure-basics', 'a49'),
-        exact: true
+        path: '/docs/foundations/cloud/azure-basics',
+        component: ComponentCreator('/docs/foundations/cloud/azure-basics', 'cb8'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/cloud-essentials/azure-batch-processing',
-        component: ComponentCreator('/docs/foundations/cloud-essentials/azure-batch-processing', '97f'),
-        exact: true
+        path: '/docs/foundations/cloud/azure-batch-processing',
+        component: ComponentCreator('/docs/foundations/cloud/azure-batch-processing', '1cb'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/cloud-essentials/azure-data-ingestion',
-        component: ComponentCreator('/docs/foundations/cloud-essentials/azure-data-ingestion', '9de'),
-        exact: true
+        path: '/docs/foundations/cloud/azure-data-ingestion',
+        component: ComponentCreator('/docs/foundations/cloud/azure-data-ingestion', '6de'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/cloud-essentials/azure-fullstack-solutions',
-        component: ComponentCreator('/docs/foundations/cloud-essentials/azure-fullstack-solutions', '23c'),
-        exact: true
+        path: '/docs/foundations/cloud/azure-fullstack-solutions',
+        component: ComponentCreator('/docs/foundations/cloud/azure-fullstack-solutions', 'ff9'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/cloud-essentials/cloud-basics',
-        component: ComponentCreator('/docs/foundations/cloud-essentials/cloud-basics', '688'),
-        exact: true
+        path: '/docs/foundations/cloud/cloud-basics',
+        component: ComponentCreator('/docs/foundations/cloud/cloud-basics', '8ca'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/cloud-essentials/cloud-comparison',
-        component: ComponentCreator('/docs/foundations/cloud-essentials/cloud-comparison', 'fc9'),
-        exact: true
+        path: '/docs/foundations/cloud/cloud-comparison',
+        component: ComponentCreator('/docs/foundations/cloud/cloud-comparison', '3a7'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/cloud-essentials/dms',
-        component: ComponentCreator('/docs/foundations/cloud-essentials/dms', '2cd'),
-        exact: true
+        path: '/docs/foundations/cloud/dms',
+        component: ComponentCreator('/docs/foundations/cloud/dms', '247'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/cloud-essentials/ec2',
-        component: ComponentCreator('/docs/foundations/cloud-essentials/ec2', '191'),
-        exact: true
+        path: '/docs/foundations/cloud/ec2',
+        component: ComponentCreator('/docs/foundations/cloud/ec2', 'f57'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/cloud-essentials/gcp-basics',
-        component: ComponentCreator('/docs/foundations/cloud-essentials/gcp-basics', 'cfe'),
-        exact: true
+        path: '/docs/foundations/cloud/gcp-basics',
+        component: ComponentCreator('/docs/foundations/cloud/gcp-basics', 'fda'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/cloud-essentials/gcp-setup',
-        component: ComponentCreator('/docs/foundations/cloud-essentials/gcp-setup', '41a'),
-        exact: true
+        path: '/docs/foundations/cloud/gcp-setup',
+        component: ComponentCreator('/docs/foundations/cloud/gcp-setup', 'ca5'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/cloud-essentials/glue',
-        component: ComponentCreator('/docs/foundations/cloud-essentials/glue', '4fb'),
-        exact: true
+        path: '/docs/foundations/cloud/glue',
+        component: ComponentCreator('/docs/foundations/cloud/glue', '071'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/cloud-essentials/iam',
-        component: ComponentCreator('/docs/foundations/cloud-essentials/iam', 'b95'),
-        exact: true
+        path: '/docs/foundations/cloud/iam',
+        component: ComponentCreator('/docs/foundations/cloud/iam', 'b70'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/cloud-essentials/lab-aws-secrets-manager',
-        component: ComponentCreator('/docs/foundations/cloud-essentials/lab-aws-secrets-manager', '1a7'),
-        exact: true
+        path: '/docs/foundations/cloud/lab-aws-secrets-manager',
+        component: ComponentCreator('/docs/foundations/cloud/lab-aws-secrets-manager', 'c2b'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/cloud-essentials/lab-aws-setup',
-        component: ComponentCreator('/docs/foundations/cloud-essentials/lab-aws-setup', '31b'),
-        exact: true
+        path: '/docs/foundations/cloud/lab-aws-setup',
+        component: ComponentCreator('/docs/foundations/cloud/lab-aws-setup', '2e5'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/cloud-essentials/lab-create-iam-policy-role',
-        component: ComponentCreator('/docs/foundations/cloud-essentials/lab-create-iam-policy-role', '135'),
-        exact: true
+        path: '/docs/foundations/cloud/lab-create-iam-policy-role',
+        component: ComponentCreator('/docs/foundations/cloud/lab-create-iam-policy-role', '7e2'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/cloud-essentials/lab-create-your-first-ec2-instance-linux',
-        component: ComponentCreator('/docs/foundations/cloud-essentials/lab-create-your-first-ec2-instance-linux', '0f9'),
-        exact: true
+        path: '/docs/foundations/cloud/lab-create-your-first-ec2-instance-linux',
+        component: ComponentCreator('/docs/foundations/cloud/lab-create-your-first-ec2-instance-linux', 'ea8'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/cloud-essentials/lab-create-your-first-vpc',
-        component: ComponentCreator('/docs/foundations/cloud-essentials/lab-create-your-first-vpc', 'bcf'),
-        exact: true
+        path: '/docs/foundations/cloud/lab-create-your-first-vpc',
+        component: ComponentCreator('/docs/foundations/cloud/lab-create-your-first-vpc', 'd87'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/cloud-essentials/rds',
-        component: ComponentCreator('/docs/foundations/cloud-essentials/rds', '4b2'),
-        exact: true
+        path: '/docs/foundations/cloud/rds',
+        component: ComponentCreator('/docs/foundations/cloud/rds', '89f'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/cloud-essentials/s3',
-        component: ComponentCreator('/docs/foundations/cloud-essentials/s3', 'fd7'),
-        exact: true
+        path: '/docs/foundations/cloud/s3',
+        component: ComponentCreator('/docs/foundations/cloud/s3', '5c7'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/cloud-essentials/secrets-manager',
-        component: ComponentCreator('/docs/foundations/cloud-essentials/secrets-manager', '469'),
-        exact: true
+        path: '/docs/foundations/cloud/secrets-manager',
+        component: ComponentCreator('/docs/foundations/cloud/secrets-manager', 'b8a'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/foundations/developer/install-anaconda',
@@ -1909,394 +1937,462 @@ export default [
         sidebar: "docs"
       },
       {
-        path: '/docs/foundations/programming-languages/pyspark/broadcasting',
-        component: ComponentCreator('/docs/foundations/programming-languages/pyspark/broadcasting', '8e3'),
-        exact: true
+        path: '/docs/foundations/language/pyspark/broadcasting',
+        component: ComponentCreator('/docs/foundations/language/pyspark/broadcasting', 'd0e'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/programming-languages/pyspark/caching',
-        component: ComponentCreator('/docs/foundations/programming-languages/pyspark/caching', 'b95'),
-        exact: true
+        path: '/docs/foundations/language/pyspark/caching',
+        component: ComponentCreator('/docs/foundations/language/pyspark/caching', '7dd'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/programming-languages/pyspark/cheat-sheet',
-        component: ComponentCreator('/docs/foundations/programming-languages/pyspark/cheat-sheet', 'fd9'),
-        exact: true
+        path: '/docs/foundations/language/pyspark/cheat-sheet',
+        component: ComponentCreator('/docs/foundations/language/pyspark/cheat-sheet', '776'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/programming-languages/pyspark/dataframe',
-        component: ComponentCreator('/docs/foundations/programming-languages/pyspark/dataframe', '63e'),
-        exact: true
+        path: '/docs/foundations/language/pyspark/dataframe',
+        component: ComponentCreator('/docs/foundations/language/pyspark/dataframe', '27c'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/programming-languages/pyspark/execution-plan',
-        component: ComponentCreator('/docs/foundations/programming-languages/pyspark/execution-plan', '28f'),
-        exact: true
+        path: '/docs/foundations/language/pyspark/execution-plan',
+        component: ComponentCreator('/docs/foundations/language/pyspark/execution-plan', 'ef1'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/programming-languages/pyspark/install',
-        component: ComponentCreator('/docs/foundations/programming-languages/pyspark/install', '0cb'),
-        exact: true
+        path: '/docs/foundations/language/pyspark/install',
+        component: ComponentCreator('/docs/foundations/language/pyspark/install', 'cce'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/programming-languages/pyspark/lab-bcg',
-        component: ComponentCreator('/docs/foundations/programming-languages/pyspark/lab-bcg', 'e83'),
+        path: '/docs/foundations/language/pyspark/lab-bcg',
+        component: ComponentCreator('/docs/foundations/language/pyspark/lab-bcg', 'dbe'),
         exact: true
       },
       {
-        path: '/docs/foundations/programming-languages/pyspark/lab-pyspark-basics',
-        component: ComponentCreator('/docs/foundations/programming-languages/pyspark/lab-pyspark-basics', '6e8'),
-        exact: true
+        path: '/docs/foundations/language/pyspark/lab-pyspark-basics',
+        component: ComponentCreator('/docs/foundations/language/pyspark/lab-pyspark-basics', 'ae2'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/programming-languages/pyspark/lab-pyspark-nyctaxi',
-        component: ComponentCreator('/docs/foundations/programming-languages/pyspark/lab-pyspark-nyctaxi', 'c6b'),
+        path: '/docs/foundations/language/pyspark/lab-pyspark-nyctaxi',
+        component: ComponentCreator('/docs/foundations/language/pyspark/lab-pyspark-nyctaxi', '078'),
         exact: true
       },
       {
-        path: '/docs/foundations/programming-languages/pyspark/lab-spark-optimizations',
-        component: ComponentCreator('/docs/foundations/programming-languages/pyspark/lab-spark-optimizations', 'd91'),
-        exact: true
+        path: '/docs/foundations/language/pyspark/lab-spark-optimizations',
+        component: ComponentCreator('/docs/foundations/language/pyspark/lab-spark-optimizations', 'a10'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/programming-languages/pyspark/lab-spark-optimizations-2',
-        component: ComponentCreator('/docs/foundations/programming-languages/pyspark/lab-spark-optimizations-2', '33d'),
-        exact: true
+        path: '/docs/foundations/language/pyspark/lab-spark-optimizations-2',
+        component: ComponentCreator('/docs/foundations/language/pyspark/lab-spark-optimizations-2', 'dca'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/programming-languages/pyspark/lab-sql-to-pyspark',
-        component: ComponentCreator('/docs/foundations/programming-languages/pyspark/lab-sql-to-pyspark', '792'),
+        path: '/docs/foundations/language/pyspark/lab-sql-to-pyspark',
+        component: ComponentCreator('/docs/foundations/language/pyspark/lab-sql-to-pyspark', 'e8b'),
         exact: true
       },
       {
-        path: '/docs/foundations/programming-languages/pyspark/lab-uber-analysis',
-        component: ComponentCreator('/docs/foundations/programming-languages/pyspark/lab-uber-analysis', 'd88'),
-        exact: true
+        path: '/docs/foundations/language/pyspark/lab-uber-analysis',
+        component: ComponentCreator('/docs/foundations/language/pyspark/lab-uber-analysis', '155'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/programming-languages/pyspark/lab-understand-spark-query-execution',
-        component: ComponentCreator('/docs/foundations/programming-languages/pyspark/lab-understand-spark-query-execution', '5ba'),
+        path: '/docs/foundations/language/pyspark/lab-understand-spark-query-execution',
+        component: ComponentCreator('/docs/foundations/language/pyspark/lab-understand-spark-query-execution', '494'),
         exact: true
       },
       {
-        path: '/docs/foundations/programming-languages/pyspark/lab-window-functions',
-        component: ComponentCreator('/docs/foundations/programming-languages/pyspark/lab-window-functions', 'bf3'),
+        path: '/docs/foundations/language/pyspark/lab-window-functions',
+        component: ComponentCreator('/docs/foundations/language/pyspark/lab-window-functions', '4a6'),
         exact: true
       },
       {
-        path: '/docs/foundations/programming-languages/pyspark/lazy-processing',
-        component: ComponentCreator('/docs/foundations/programming-languages/pyspark/lazy-processing', '256'),
-        exact: true
+        path: '/docs/foundations/language/pyspark/lazy-processing',
+        component: ComponentCreator('/docs/foundations/language/pyspark/lazy-processing', 'd68'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/programming-languages/pyspark/methods-operations',
-        component: ComponentCreator('/docs/foundations/programming-languages/pyspark/methods-operations', 'cdd'),
-        exact: true
+        path: '/docs/foundations/language/pyspark/methods-operations',
+        component: ComponentCreator('/docs/foundations/language/pyspark/methods-operations', '9dc'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/programming-languages/pyspark/partitioning',
-        component: ComponentCreator('/docs/foundations/programming-languages/pyspark/partitioning', 'b82'),
-        exact: true
+        path: '/docs/foundations/language/pyspark/partitioning',
+        component: ComponentCreator('/docs/foundations/language/pyspark/partitioning', '70a'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/programming-languages/pyspark/pyspark-vs-pandas',
-        component: ComponentCreator('/docs/foundations/programming-languages/pyspark/pyspark-vs-pandas', '968'),
-        exact: true
+        path: '/docs/foundations/language/pyspark/pyspark-vs-pandas',
+        component: ComponentCreator('/docs/foundations/language/pyspark/pyspark-vs-pandas', '8f8'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/programming-languages/pyspark/udf',
-        component: ComponentCreator('/docs/foundations/programming-languages/pyspark/udf', '726'),
-        exact: true
+        path: '/docs/foundations/language/pyspark/udf',
+        component: ComponentCreator('/docs/foundations/language/pyspark/udf', '652'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/programming-languages/python',
-        component: ComponentCreator('/docs/foundations/programming-languages/python', '50c'),
+        path: '/docs/foundations/language/python',
+        component: ComponentCreator('/docs/foundations/language/python', '47b'),
         exact: true
       },
       {
-        path: '/docs/foundations/programming-languages/python/introduction-to-python',
-        component: ComponentCreator('/docs/foundations/programming-languages/python/introduction-to-python', 'd28'),
-        exact: true
+        path: '/docs/foundations/language/python/introduction-to-python',
+        component: ComponentCreator('/docs/foundations/language/python/introduction-to-python', 'af9'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/programming-languages/python/links',
-        component: ComponentCreator('/docs/foundations/programming-languages/python/links', '0e0'),
-        exact: true
+        path: '/docs/foundations/language/python/lab-etl-csv-json-xml',
+        component: ComponentCreator('/docs/foundations/language/python/lab-etl-csv-json-xml', '24f'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/programming-languages/python/packaging/docs',
-        component: ComponentCreator('/docs/foundations/programming-languages/python/packaging/docs', 'd71'),
-        exact: true
+        path: '/docs/foundations/language/python/links',
+        component: ComponentCreator('/docs/foundations/language/python/links', '62d'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/programming-languages/python/python-snippets',
-        component: ComponentCreator('/docs/foundations/programming-languages/python/python-snippets', '784'),
+        path: '/docs/foundations/language/python/packaging/docs',
+        component: ComponentCreator('/docs/foundations/language/python/packaging/docs', 'dd4'),
         exact: true
       },
       {
-        path: '/docs/foundations/programming-languages/python/python-syntax-sugars',
-        component: ComponentCreator('/docs/foundations/programming-languages/python/python-syntax-sugars', '59d'),
+        path: '/docs/foundations/language/python/python-snippets',
+        component: ComponentCreator('/docs/foundations/language/python/python-snippets', 'c0d'),
         exact: true
       },
       {
-        path: '/docs/foundations/programming-languages/scala',
-        component: ComponentCreator('/docs/foundations/programming-languages/scala', 'd0a'),
-        exact: true
+        path: '/docs/foundations/language/python/python-syntax-sugars',
+        component: ComponentCreator('/docs/foundations/language/python/python-syntax-sugars', '073'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/programming-languages/scala/lab-scala-getting-started',
-        component: ComponentCreator('/docs/foundations/programming-languages/scala/lab-scala-getting-started', '981'),
+        path: '/docs/foundations/language/scala',
+        component: ComponentCreator('/docs/foundations/language/scala', '73b'),
         exact: true
       },
       {
-        path: '/docs/foundations/programming-languages/sql/aggregate-functions',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/aggregate-functions', '945'),
+        path: '/docs/foundations/language/scala/lab-scala-getting-started',
+        component: ComponentCreator('/docs/foundations/language/scala/lab-scala-getting-started', '40a'),
         exact: true
       },
       {
-        path: '/docs/foundations/programming-languages/sql/and',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/and', '8aa'),
-        exact: true
+        path: '/docs/foundations/language/sql/aggregate-functions',
+        component: ComponentCreator('/docs/foundations/language/sql/aggregate-functions', '4d4'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/programming-languages/sql/between',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/between', 'a88'),
+        path: '/docs/foundations/language/sql/challenges/assignment1',
+        component: ComponentCreator('/docs/foundations/language/sql/challenges/assignment1', 'ffa'),
         exact: true
       },
       {
-        path: '/docs/foundations/programming-languages/sql/case',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/case', 'a67'),
+        path: '/docs/foundations/language/sql/challenges/assignment1/solution',
+        component: ComponentCreator('/docs/foundations/language/sql/challenges/assignment1/solution', '7b6'),
         exact: true
       },
       {
-        path: '/docs/foundations/programming-languages/sql/challenges/assignment1',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/challenges/assignment1', '6f4'),
+        path: '/docs/foundations/language/sql/challenges/assignment2',
+        component: ComponentCreator('/docs/foundations/language/sql/challenges/assignment2', '213'),
         exact: true
       },
       {
-        path: '/docs/foundations/programming-languages/sql/challenges/assignment1/solution',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/challenges/assignment1/solution', 'cc2'),
+        path: '/docs/foundations/language/sql/challenges/assignment3',
+        component: ComponentCreator('/docs/foundations/language/sql/challenges/assignment3', 'f99'),
         exact: true
       },
       {
-        path: '/docs/foundations/programming-languages/sql/challenges/assignment2',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/challenges/assignment2', '498'),
+        path: '/docs/foundations/language/sql/challenges/assignment4',
+        component: ComponentCreator('/docs/foundations/language/sql/challenges/assignment4', '8e2'),
         exact: true
       },
       {
-        path: '/docs/foundations/programming-languages/sql/challenges/assignment3',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/challenges/assignment3', '1d4'),
-        exact: true
+        path: '/docs/foundations/language/sql/challenges/assignment5',
+        component: ComponentCreator('/docs/foundations/language/sql/challenges/assignment5', 'b76'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/programming-languages/sql/challenges/assignment4',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/challenges/assignment4', '646'),
+        path: '/docs/foundations/language/sql/challenges/assignment6',
+        component: ComponentCreator('/docs/foundations/language/sql/challenges/assignment6', '0f9'),
         exact: true
       },
       {
-        path: '/docs/foundations/programming-languages/sql/challenges/assignment5',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/challenges/assignment5', 'bcc'),
+        path: '/docs/foundations/language/sql/challenges/assignment7',
+        component: ComponentCreator('/docs/foundations/language/sql/challenges/assignment7', '5e4'),
         exact: true
       },
       {
-        path: '/docs/foundations/programming-languages/sql/challenges/assignment6',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/challenges/assignment6', '27e'),
-        exact: true
+        path: '/docs/foundations/language/sql/challenges/braintree',
+        component: ComponentCreator('/docs/foundations/language/sql/challenges/braintree', 'bd9'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/programming-languages/sql/challenges/assignment7',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/challenges/assignment7', 'f2b'),
-        exact: true
+        path: '/docs/foundations/language/sql/challenges/employee',
+        component: ComponentCreator('/docs/foundations/language/sql/challenges/employee', 'b95'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/programming-languages/sql/challenges/braintree',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/challenges/braintree', '761'),
-        exact: true
+        path: '/docs/foundations/language/sql/challenges/yammer',
+        component: ComponentCreator('/docs/foundations/language/sql/challenges/yammer', '5fd'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/programming-languages/sql/challenges/employee',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/challenges/employee', 'b2e'),
-        exact: true
+        path: '/docs/foundations/language/sql/commands',
+        component: ComponentCreator('/docs/foundations/language/sql/commands', 'a32'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/programming-languages/sql/challenges/yammer',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/challenges/yammer', '915'),
+        path: '/docs/foundations/language/sql/commands/and',
+        component: ComponentCreator('/docs/foundations/language/sql/commands/and', '70d'),
         exact: true
       },
       {
-        path: '/docs/foundations/programming-languages/sql/comments',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/comments', '4c3'),
+        path: '/docs/foundations/language/sql/commands/between',
+        component: ComponentCreator('/docs/foundations/language/sql/commands/between', 'd9e'),
         exact: true
       },
       {
-        path: '/docs/foundations/programming-languages/sql/comparison-operators',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/comparison-operators', '01c'),
+        path: '/docs/foundations/language/sql/commands/case',
+        component: ComponentCreator('/docs/foundations/language/sql/commands/case', '389'),
         exact: true
       },
       {
-        path: '/docs/foundations/programming-languages/sql/cte',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/cte', '167'),
+        path: '/docs/foundations/language/sql/commands/distinct',
+        component: ComponentCreator('/docs/foundations/language/sql/commands/distinct', '94d'),
         exact: true
       },
       {
-        path: '/docs/foundations/programming-languages/sql/cursor',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/cursor', 'ace'),
+        path: '/docs/foundations/language/sql/commands/groupby',
+        component: ComponentCreator('/docs/foundations/language/sql/commands/groupby', 'c47'),
         exact: true
       },
       {
-        path: '/docs/foundations/programming-languages/sql/date-functions',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/date-functions', '21b'),
+        path: '/docs/foundations/language/sql/commands/having',
+        component: ComponentCreator('/docs/foundations/language/sql/commands/having', 'f9f'),
         exact: true
       },
       {
-        path: '/docs/foundations/programming-languages/sql/distinct',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/distinct', '024'),
+        path: '/docs/foundations/language/sql/commands/in',
+        component: ComponentCreator('/docs/foundations/language/sql/commands/in', '780'),
         exact: true
       },
       {
-        path: '/docs/foundations/programming-languages/sql/groupby',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/groupby', 'd6b'),
+        path: '/docs/foundations/language/sql/commands/isnull',
+        component: ComponentCreator('/docs/foundations/language/sql/commands/isnull', 'ff3'),
         exact: true
       },
       {
-        path: '/docs/foundations/programming-languages/sql/having',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/having', '79d'),
+        path: '/docs/foundations/language/sql/commands/like',
+        component: ComponentCreator('/docs/foundations/language/sql/commands/like', '635'),
         exact: true
       },
       {
-        path: '/docs/foundations/programming-languages/sql/in',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/in', '4dd'),
+        path: '/docs/foundations/language/sql/commands/limit',
+        component: ComponentCreator('/docs/foundations/language/sql/commands/limit', '59b'),
         exact: true
       },
       {
-        path: '/docs/foundations/programming-languages/sql/indexes',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/indexes', 'be6'),
+        path: '/docs/foundations/language/sql/commands/not',
+        component: ComponentCreator('/docs/foundations/language/sql/commands/not', '787'),
         exact: true
       },
       {
-        path: '/docs/foundations/programming-languages/sql/isnull',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/isnull', 'eab'),
+        path: '/docs/foundations/language/sql/commands/or',
+        component: ComponentCreator('/docs/foundations/language/sql/commands/or', '0bd'),
         exact: true
       },
       {
-        path: '/docs/foundations/programming-languages/sql/joins',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/joins', '7fb'),
+        path: '/docs/foundations/language/sql/commands/orderby',
+        component: ComponentCreator('/docs/foundations/language/sql/commands/orderby', '4c1'),
         exact: true
       },
       {
-        path: '/docs/foundations/programming-languages/sql/lab-mysql-data-ingestion',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/lab-mysql-data-ingestion', '7fe'),
+        path: '/docs/foundations/language/sql/commands/select',
+        component: ComponentCreator('/docs/foundations/language/sql/commands/select', '934'),
         exact: true
       },
       {
-        path: '/docs/foundations/programming-languages/sql/lab-postgres-sales',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/lab-postgres-sales', '256'),
+        path: '/docs/foundations/language/sql/commands/union',
+        component: ComponentCreator('/docs/foundations/language/sql/commands/union', 'ecc'),
         exact: true
       },
       {
-        path: '/docs/foundations/programming-languages/sql/lab-sqlite-basics',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/lab-sqlite-basics', '8ba'),
+        path: '/docs/foundations/language/sql/commands/where',
+        component: ComponentCreator('/docs/foundations/language/sql/commands/where', '890'),
         exact: true
       },
       {
-        path: '/docs/foundations/programming-languages/sql/like',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/like', 'efe'),
-        exact: true
+        path: '/docs/foundations/language/sql/comments',
+        component: ComponentCreator('/docs/foundations/language/sql/comments', '48e'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/programming-languages/sql/limit',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/limit', '654'),
-        exact: true
+        path: '/docs/foundations/language/sql/comparison-operators',
+        component: ComponentCreator('/docs/foundations/language/sql/comparison-operators', '56a'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/programming-languages/sql/links',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/links', '90e'),
-        exact: true
+        path: '/docs/foundations/language/sql/cte',
+        component: ComponentCreator('/docs/foundations/language/sql/cte', '963'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/programming-languages/sql/logical-operators',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/logical-operators', '57a'),
-        exact: true
+        path: '/docs/foundations/language/sql/cursor',
+        component: ComponentCreator('/docs/foundations/language/sql/cursor', 'ca1'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/programming-languages/sql/not',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/not', '882'),
-        exact: true
+        path: '/docs/foundations/language/sql/date-functions',
+        component: ComponentCreator('/docs/foundations/language/sql/date-functions', '331'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/programming-languages/sql/or',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/or', '786'),
-        exact: true
+        path: '/docs/foundations/language/sql/indexes',
+        component: ComponentCreator('/docs/foundations/language/sql/indexes', 'ffd'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/programming-languages/sql/orderby',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/orderby', 'd44'),
-        exact: true
+        path: '/docs/foundations/language/sql/joins',
+        component: ComponentCreator('/docs/foundations/language/sql/joins', '150'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/programming-languages/sql/performance-tuning',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/performance-tuning', '53a'),
-        exact: true
+        path: '/docs/foundations/language/sql/lab-basic-to-advanced',
+        component: ComponentCreator('/docs/foundations/language/sql/lab-basic-to-advanced', '07e'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/programming-languages/sql/select',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/select', '26d'),
-        exact: true
+        path: '/docs/foundations/language/sql/lab-mysql-data-ingestion',
+        component: ComponentCreator('/docs/foundations/language/sql/lab-mysql-data-ingestion', '8f4'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/programming-languages/sql/sql-basics',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/sql-basics', '4b4'),
-        exact: true
+        path: '/docs/foundations/language/sql/lab-postgres-queries',
+        component: ComponentCreator('/docs/foundations/language/sql/lab-postgres-queries', '999'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/programming-languages/sql/sql-interviews-questions',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/sql-interviews-questions', 'e2c'),
-        exact: true
+        path: '/docs/foundations/language/sql/lab-postgres-sales',
+        component: ComponentCreator('/docs/foundations/language/sql/lab-postgres-sales', 'b4f'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/programming-languages/sql/sql-query',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/sql-query', 'cbe'),
-        exact: true
+        path: '/docs/foundations/language/sql/lab-sqlite-basics',
+        component: ComponentCreator('/docs/foundations/language/sql/lab-sqlite-basics', 'ff8'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/programming-languages/sql/stored-procedures',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/stored-procedures', '8fd'),
-        exact: true
+        path: '/docs/foundations/language/sql/links',
+        component: ComponentCreator('/docs/foundations/language/sql/links', 'b54'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/programming-languages/sql/string-functions',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/string-functions', 'd31'),
-        exact: true
+        path: '/docs/foundations/language/sql/logical-operators',
+        component: ComponentCreator('/docs/foundations/language/sql/logical-operators', 'e66'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/programming-languages/sql/subquery',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/subquery', '046'),
-        exact: true
+        path: '/docs/foundations/language/sql/performance-tuning',
+        component: ComponentCreator('/docs/foundations/language/sql/performance-tuning', 'd1c'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/programming-languages/sql/triggers',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/triggers', '5b3'),
-        exact: true
+        path: '/docs/foundations/language/sql/sql-basics',
+        component: ComponentCreator('/docs/foundations/language/sql/sql-basics', '7e5'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/programming-languages/sql/union',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/union', '3b1'),
+        path: '/docs/foundations/language/sql/sql-interviews-questions',
+        component: ComponentCreator('/docs/foundations/language/sql/sql-interviews-questions', '85a'),
         exact: true
       },
       {
-        path: '/docs/foundations/programming-languages/sql/views',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/views', 'd0e'),
-        exact: true
+        path: '/docs/foundations/language/sql/sql-query',
+        component: ComponentCreator('/docs/foundations/language/sql/sql-query', '2fa'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/programming-languages/sql/where',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/where', '9f1'),
-        exact: true
+        path: '/docs/foundations/language/sql/stored-procedures',
+        component: ComponentCreator('/docs/foundations/language/sql/stored-procedures', 'a19'),
+        exact: true,
+        sidebar: "docs"
       },
       {
-        path: '/docs/foundations/programming-languages/sql/window-functions',
-        component: ComponentCreator('/docs/foundations/programming-languages/sql/window-functions', '895'),
-        exact: true
+        path: '/docs/foundations/language/sql/string-functions',
+        component: ComponentCreator('/docs/foundations/language/sql/string-functions', '2be'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/foundations/language/sql/subquery',
+        component: ComponentCreator('/docs/foundations/language/sql/subquery', '2f0'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/foundations/language/sql/triggers',
+        component: ComponentCreator('/docs/foundations/language/sql/triggers', 'c06'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/foundations/language/sql/views',
+        component: ComponentCreator('/docs/foundations/language/sql/views', '126'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/foundations/language/sql/window-functions',
+        component: ComponentCreator('/docs/foundations/language/sql/window-functions', '552'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/introduction',
@@ -2553,6 +2649,12 @@ export default [
         path: '/docs/processing/databricks/lab-databricks-deltalake',
         component: ComponentCreator('/docs/processing/databricks/lab-databricks-deltalake', '12d'),
         exact: true
+      },
+      {
+        path: '/docs/processing/databricks/lab-databricks-pyspark-s3',
+        component: ComponentCreator('/docs/processing/databricks/lab-databricks-pyspark-s3', '1ea'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/databricks/lab-databricks-scala-postgres-s3',

@@ -14,13 +14,13 @@
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docs",
   "previous": {
-    "title": "AWS Container Services",
-    "permalink": "/docs/foundations/cloud/aws-containers"
+    "title": "GCP Setup",
+    "permalink": "/docs/foundations/cloud/gcp-setup"
   },
   "next": {
-    "title": "Azure Batch Processing",
-    "permalink": "/docs/foundations/cloud/azure-batch-processing"
+    "title": "Azure Data Ingestion",
+    "permalink": "/docs/foundations/cloud/azure-data-ingestion"
   }
 }

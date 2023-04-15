@@ -14,13 +14,13 @@
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docs",
   "previous": {
-    "title": "README",
+    "title": "Challenge - BrainTree SQL Code Challenge",
     "permalink": "/docs/foundations/language/sql/challenges/braintree/"
   },
   "next": {
-    "title": "Yammer Analytics",
-    "permalink": "/docs/foundations/language/sql/challenges/yammer/"
+    "title": "Challenge - Danny's Diner",
+    "permalink": "/docs/foundations/language/sql/challenges/assignment5/"
   }
 }

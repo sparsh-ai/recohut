@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/language/sql/commands/index",
+  "id": "foundations/language/sql/commands/index",
+  "title": "Commands",
+  "description": "",
+  "source": "@site/docs/01-foundations/language/sql/commands/index.md",
+  "sourceDirName": "01-foundations/language/sql/commands",
+  "slug": "/foundations/language/sql/commands/",
+  "permalink": "/docs/foundations/language/sql/commands/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "SQL Query",
+    "permalink": "/docs/foundations/language/sql/sql-query"
+  },
+  "next": {
+    "title": "CTE (Common Table Expressions)",
+    "permalink": "/docs/foundations/language/sql/cte"
+  }
+}

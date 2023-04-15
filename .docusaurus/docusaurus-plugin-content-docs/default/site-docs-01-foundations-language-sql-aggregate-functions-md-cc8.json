@@ -14,13 +14,13 @@
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docs",
   "previous": {
-    "title": "Getting Started with Scala",
-    "permalink": "/docs/foundations/language/scala/lab-scala-getting-started/"
+    "title": "Cursor",
+    "permalink": "/docs/foundations/language/sql/cursor"
   },
   "next": {
-    "title": "SQL AND",
-    "permalink": "/docs/foundations/language/sql/and"
+    "title": "SQL String Functions",
+    "permalink": "/docs/foundations/language/sql/string-functions"
   }
 }

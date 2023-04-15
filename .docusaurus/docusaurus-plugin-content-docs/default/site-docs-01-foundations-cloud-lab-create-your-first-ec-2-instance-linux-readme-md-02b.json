@@ -1,7 +1,7 @@
 {
   "unversionedId": "foundations/cloud/lab-create-your-first-ec2-instance-linux/README",
   "id": "foundations/cloud/lab-create-your-first-ec2-instance-linux/README",
-  "title": "Create Your First Amazon EC2 Instance (Linux)",
+  "title": "Lab: Create AWS EC2 instance",
   "description": "Description",
   "source": "@site/docs/01-foundations/cloud/lab-create-your-first-ec2-instance-linux/README.md",
   "sourceDirName": "01-foundations/cloud/lab-create-your-first-ec2-instance-linux",
@@ -14,13 +14,13 @@
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docs",
   "previous": {
-    "title": "Create IAM Role and Policy",
-    "permalink": "/docs/foundations/cloud/lab-create-iam-policy-role/"
+    "title": "Lab: Create AWS VPC",
+    "permalink": "/docs/foundations/cloud/lab-create-your-first-vpc/"
   },
   "next": {
-    "title": "Introduction to Virtual Private Cloud (VPC)",
-    "permalink": "/docs/foundations/cloud/lab-create-your-first-vpc/"
+    "title": "GCP Basics",
+    "permalink": "/docs/foundations/cloud/gcp-basics"
   }
 }

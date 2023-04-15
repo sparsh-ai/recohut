@@ -1,7 +1,7 @@
 {
   "unversionedId": "foundations/language/pyspark/lab-uber-analysis/README",
   "id": "foundations/language/pyspark/lab-uber-analysis/README",
-  "title": "Uber Data Analysis in Pyspark",
+  "title": "Lab: Uber Data Analysis in Pyspark",
   "description": "This lab can be used as a take-home assignment to learn Pyspark and Data Engineering.",
   "source": "@site/docs/01-foundations/language/pyspark/lab-uber-analysis/README.md",
   "sourceDirName": "01-foundations/language/pyspark/lab-uber-analysis",
@@ -14,13 +14,9 @@
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docs",
   "previous": {
-    "title": "SQL to PySpark Code Conversion",
-    "permalink": "/docs/foundations/language/pyspark/lab-sql-to-pyspark/"
-  },
-  "next": {
-    "title": "Understanding Spark Query Execution",
-    "permalink": "/docs/foundations/language/pyspark/lab-understand-spark-query-execution/"
+    "title": "Lab: Spark Optimizations for Analytics Workloads",
+    "permalink": "/docs/foundations/language/pyspark/lab-spark-optimizations/"
   }
 }

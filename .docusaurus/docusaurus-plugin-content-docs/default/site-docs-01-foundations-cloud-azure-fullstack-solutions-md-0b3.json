@@ -14,13 +14,13 @@
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docs",
   "previous": {
-    "title": "Azure Data Ingestion",
-    "permalink": "/docs/foundations/cloud/azure-data-ingestion"
+    "title": "Azure Batch Processing",
+    "permalink": "/docs/foundations/cloud/azure-batch-processing"
   },
   "next": {
-    "title": "Cloud Computing Basics",
-    "permalink": "/docs/foundations/cloud/cloud-basics"
+    "title": "SQL Basics",
+    "permalink": "/docs/foundations/language/sql/sql-basics"
   }
 }

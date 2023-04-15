@@ -1,4 +1,4 @@
-# Uber Data Analysis in Pyspark
+# Lab: Uber Data Analysis in Pyspark
 
 >This lab can be used as a take-home assignment to learn Pyspark and Data Engineering.
 

@@ -13,14 +13,5 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Spark Optimizations",
-    "permalink": "/docs/foundations/language/pyspark/lab-spark-optimizations-2/"
-  },
-  "next": {
-    "title": "Uber Data Analysis in Pyspark",
-    "permalink": "/docs/foundations/language/pyspark/lab-uber-analysis/"
-  }
+  "frontMatter": {}
 }

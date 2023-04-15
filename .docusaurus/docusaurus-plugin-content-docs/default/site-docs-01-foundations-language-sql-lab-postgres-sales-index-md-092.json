@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/language/sql/lab-postgres-sales/index",
+  "id": "foundations/language/sql/lab-postgres-sales/index",
+  "title": "Lab: Postgres Sales",
+  "description": "Running Dates, String and Advanced queries in Postgres on Sales data",
+  "source": "@site/docs/01-foundations/language/sql/lab-postgres-sales/index.md",
+  "sourceDirName": "01-foundations/language/sql/lab-postgres-sales",
+  "slug": "/foundations/language/sql/lab-postgres-sales/",
+  "permalink": "/docs/foundations/language/sql/lab-postgres-sales/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Postgres SQL basics to advanced",
+    "permalink": "/docs/foundations/language/sql/lab-postgres-queries/"
+  },
+  "next": {
+    "title": "Lab: SQLite Basics",
+    "permalink": "/docs/foundations/language/sql/lab-sqlite-basics/"
+  }
+}

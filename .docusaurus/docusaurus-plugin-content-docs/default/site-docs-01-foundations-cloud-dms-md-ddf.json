@@ -14,13 +14,13 @@
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docs",
   "previous": {
-    "title": "Comparison of Cloud Services",
-    "permalink": "/docs/foundations/cloud/cloud-comparison"
+    "title": "S3",
+    "permalink": "/docs/foundations/cloud/s3"
   },
   "next": {
-    "title": "EC2",
-    "permalink": "/docs/foundations/cloud/ec2"
+    "title": "Secrets Manager",
+    "permalink": "/docs/foundations/cloud/secrets-manager"
   }
 }

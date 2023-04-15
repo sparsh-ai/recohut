@@ -1,0 +1,26 @@
+{
+  "unversionedId": "datascience/nlp/lab-basic-text-handlng-python/index",
+  "id": "datascience/nlp/lab-basic-text-handlng-python/index",
+  "title": "Lab: Basic Text Handling with Python",
+  "description": "Notebook",
+  "source": "@site/docs/10-datascience/nlp/lab-basic-text-handlng-python/index.md",
+  "sourceDirName": "10-datascience/nlp/lab-basic-text-handlng-python",
+  "slug": "/datascience/nlp/lab-basic-text-handlng-python/",
+  "permalink": "/docs/datascience/nlp/lab-basic-text-handlng-python/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: ETL process and reading/writing CSV, JSON and XML files in pandas",
+    "permalink": "/docs/foundations/language/python/lab-etl-csv-json-xml/"
+  },
+  "next": {
+    "title": "Explore Further",
+    "permalink": "/docs/foundations/language/python/links"
+  }
+}

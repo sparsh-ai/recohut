@@ -14,13 +14,13 @@
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docs",
   "previous": {
-    "title": "Introduction to Python",
-    "permalink": "/docs/foundations/language/python/introduction-to-python"
+    "title": "Lab: Basic Text Handling with Python",
+    "permalink": "/docs/datascience/nlp/lab-basic-text-handlng-python/"
   },
   "next": {
-    "title": "Home",
-    "permalink": "/docs/foundations/language/python/packaging/docs/"
+    "title": "Installing Spark",
+    "permalink": "/docs/foundations/language/pyspark/install"
   }
 }

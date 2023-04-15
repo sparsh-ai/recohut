@@ -14,13 +14,13 @@
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docs",
   "previous": {
-    "title": "Subquery",
-    "permalink": "/docs/foundations/language/sql/subquery"
+    "title": "Stored Procedures",
+    "permalink": "/docs/foundations/language/sql/stored-procedures"
   },
   "next": {
-    "title": "SQL UNION",
-    "permalink": "/docs/foundations/language/sql/union"
+    "title": "Indexes",
+    "permalink": "/docs/foundations/language/sql/indexes"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "unversionedId": "foundations/language/sql/commands/between",
+  "id": "foundations/language/sql/commands/between",
+  "title": "SQL BETWEEN",
+  "description": "BETWEEN is a logical operator in SQL that allows you to select only rows that are within a specific range.",
+  "source": "@site/docs/01-foundations/language/sql/commands/between.md",
+  "sourceDirName": "01-foundations/language/sql/commands",
+  "slug": "/foundations/language/sql/commands/between",
+  "permalink": "/docs/foundations/language/sql/commands/between",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
+}

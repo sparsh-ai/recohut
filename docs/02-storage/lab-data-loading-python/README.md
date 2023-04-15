@@ -1,4 +1,4 @@
-# Loading Data in Python
+# Lab: Loading Data in Python
 
 In this lab, we will learn how to load various file formats in Python.
 
@@ -9,3 +9,7 @@ In this lab, we will learn how to load various file formats in Python.
 - Loading a Parquet file
 - Loading an AVRO file
 - Loading Unstructured data
+
+## Notebook
+
+[![nbviewer](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/recohut/blob/main/docs/02-storage/lab-data-loading-python/main.ipynb)

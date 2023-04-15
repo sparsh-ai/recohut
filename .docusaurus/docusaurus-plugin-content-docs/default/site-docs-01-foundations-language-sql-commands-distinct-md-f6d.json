@@ -1,0 +1,17 @@
+{
+  "unversionedId": "foundations/language/sql/commands/distinct",
+  "id": "foundations/language/sql/commands/distinct",
+  "title": "SQL DISTINCT",
+  "description": "You'll occasionally want to look at only the unique values in a particular column. You can do this using SELECT DISTINCT syntax.",
+  "source": "@site/docs/01-foundations/language/sql/commands/distinct.md",
+  "sourceDirName": "01-foundations/language/sql/commands",
+  "slug": "/foundations/language/sql/commands/distinct",
+  "permalink": "/docs/foundations/language/sql/commands/distinct",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
+}

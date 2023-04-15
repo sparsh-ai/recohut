@@ -13,14 +13,5 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "SQL Danny's Diner Assignment",
-    "permalink": "/docs/foundations/language/sql/challenges/assignment5/"
-  },
-  "next": {
-    "title": "Patients SQL Assignment",
-    "permalink": "/docs/foundations/language/sql/challenges/assignment7/"
-  }
+  "frontMatter": {}
 }

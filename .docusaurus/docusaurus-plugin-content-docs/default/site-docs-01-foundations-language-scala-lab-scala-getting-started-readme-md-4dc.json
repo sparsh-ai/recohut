@@ -13,14 +13,5 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Scala",
-    "permalink": "/docs/foundations/language/scala/"
-  },
-  "next": {
-    "title": "SQL Aggregate Functions",
-    "permalink": "/docs/foundations/language/sql/aggregate-functions"
-  }
+  "frontMatter": {}
 }

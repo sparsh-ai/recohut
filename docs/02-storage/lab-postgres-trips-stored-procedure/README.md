@@ -1,4 +1,4 @@
-# Generate Trips Data using Stored Procedure
+# Lab: Generate Trips Data using Stored Procedure
 
 - Step 1 - Connect to the database
 
