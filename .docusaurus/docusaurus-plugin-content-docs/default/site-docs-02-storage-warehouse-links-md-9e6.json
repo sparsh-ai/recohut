@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/warehouse-links",
+  "id": "storage/warehouse-links",
+  "title": "Links",
+  "description": "1. Accelerate Application Development with Real Time Streams in Amazon Redshift",
+  "source": "@site/docs/02-storage/warehouse-links.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/warehouse-links",
+  "permalink": "/docs/storage/warehouse-links",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Snowflake",
+    "permalink": "/docs/storage/snowflake"
+  },
+  "next": {
+    "title": "Data Lakes",
+    "permalink": "/docs/storage/datalakes"
+  }
+}

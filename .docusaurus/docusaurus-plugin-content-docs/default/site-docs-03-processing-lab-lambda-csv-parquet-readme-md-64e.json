@@ -1,7 +1,7 @@
 {
   "unversionedId": "processing/lab-lambda-csv-parquet/README",
   "id": "processing/lab-lambda-csv-parquet/README",
-  "title": "Lambda CSV to Parquet",
+  "title": "Lab: Lambda CSV to Parquet",
   "description": "Create an S3 bucket and IAM user with user-defined policy. Create Lambda layer and lambda function and add the layer to the function. Add S3 trigger for auto-transformation from csv to parquet and query with Glue.",
   "source": "@site/docs/03-processing/lab-lambda-csv-parquet/README.md",
   "sourceDirName": "03-processing/lab-lambda-csv-parquet",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Snippets related to Lambda function",
+    "permalink": "/docs/processing/aws-lambda-snippets"
+  },
+  "next": {
+    "title": "Amazon Kinesis",
+    "permalink": "/docs/processing/aws-kinesis"
+  }
 }

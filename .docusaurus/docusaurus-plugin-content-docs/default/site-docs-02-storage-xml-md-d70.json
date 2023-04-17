@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "CSV: The nonstandard standard",
+    "permalink": "/docs/storage/csv"
+  },
+  "next": {
+    "title": "JSON and JSONL",
+    "permalink": "/docs/storage/json"
+  }
 }

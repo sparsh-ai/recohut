@@ -1,4 +1,4 @@
-# Kinesis
+# Amazon Kinesis
 
 > Easily collect, process, and analyze video and data streams in real time
 

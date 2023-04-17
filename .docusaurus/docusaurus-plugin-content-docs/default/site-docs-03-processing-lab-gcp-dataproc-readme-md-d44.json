@@ -1,7 +1,7 @@
 {
   "unversionedId": "processing/lab-gcp-dataproc/README",
   "id": "processing/lab-gcp-dataproc/README",
-  "title": "Running Apache Spark jobs on Cloud Dataproc",
+  "title": "Lab: Running Apache Spark jobs on Cloud Dataproc",
   "description": "Objective",
   "source": "@site/docs/03-processing/lab-gcp-dataproc/README.md",
   "sourceDirName": "03-processing/lab-gcp-dataproc",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Dataproc",
+    "permalink": "/docs/processing/gcp-dataproc"
+  },
+  "next": {
+    "title": "Lab: Simple Data Pipeline with HDInsight",
+    "permalink": "/docs/processing/lab-azure-hdinsight-simple-data-processing/"
+  }
 }

@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Ray",
+    "permalink": "/docs/processing/ray"
+  },
+  "next": {
+    "title": "Lab: Ray AIR Basics",
+    "permalink": "/docs/processing/lab-ray-air-basics/"
+  }
 }

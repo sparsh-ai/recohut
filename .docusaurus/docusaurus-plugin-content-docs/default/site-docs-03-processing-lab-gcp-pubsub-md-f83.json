@@ -1,7 +1,7 @@
 {
   "unversionedId": "processing/lab-gcp-pubsub",
   "id": "processing/lab-gcp-pubsub",
-  "title": "Streaming Data Processing - Publish Streaming Data into PubSub",
+  "title": "Lab: Streaming Data Processing - Publish Streaming Data into PubSub",
   "description": "Objective",
   "source": "@site/docs/03-processing/lab-gcp-pubsub.md",
   "sourceDirName": "03-processing",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Pub/Sub",
+    "permalink": "/docs/processing/gcp-pubsub"
+  },
+  "next": {
+    "title": "Lab: Streaming Data Processing - Streaming Data Pipelines",
+    "permalink": "/docs/processing/lab-gcp-pubsub-processing"
+  }
 }

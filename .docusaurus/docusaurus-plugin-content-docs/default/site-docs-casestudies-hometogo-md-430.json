@@ -1,0 +1,26 @@
+{
+  "unversionedId": "casestudies/hometogo",
+  "id": "casestudies/hometogo",
+  "title": "HomeToGo",
+  "description": "Vacation Rentals, Cabins, Condos, Villas, & More",
+  "source": "@site/docs/casestudies/hometogo.md",
+  "sourceDirName": "casestudies",
+  "slug": "/casestudies/hometogo",
+  "permalink": "/docs/casestudies/hometogo",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Helpshift",
+    "permalink": "/docs/casestudies/helpshift"
+  },
+  "next": {
+    "title": "Intuit",
+    "permalink": "/docs/casestudies/intuit"
+  }
+}

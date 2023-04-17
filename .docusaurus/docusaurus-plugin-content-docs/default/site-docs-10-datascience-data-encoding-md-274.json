@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Data Preparation",
+    "permalink": "/docs/datascience/data-preparation"
+  },
+  "next": {
+    "title": "Feature Selection",
+    "permalink": "/docs/datascience/feature-selection"
+  }
 }

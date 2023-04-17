@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Kafka and CDC",
+    "permalink": "/docs/processing/lab-confluent-kafka-faker/"
+  },
+  "next": {
+    "title": "Inmon versus the Kimball data model",
+    "permalink": "/docs/data-modeling/inmon-vs-kimball"
+  }
 }

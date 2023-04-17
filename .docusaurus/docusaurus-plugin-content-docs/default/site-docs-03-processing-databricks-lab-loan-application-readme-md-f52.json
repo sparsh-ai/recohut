@@ -1,7 +1,7 @@
 {
   "unversionedId": "processing/databricks/lab-loan-application/README",
   "id": "processing/databricks/lab-loan-application/README",
-  "title": "Simplifying Data Engineering and Analytics with Delta",
+  "title": "Lab: Simplifying Data Engineering and Analytics with Delta",
   "description": "Objective",
   "source": "@site/docs/03-processing/databricks/lab-loan-application/README.md",
   "sourceDirName": "03-processing/databricks/lab-loan-application",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Real-time Health Tracking and Monitoring System",
+    "permalink": "/docs/processing/databricks/lab-iot-health-tracker/"
+  },
+  "next": {
+    "title": "Lab: Real-Time Point-of-Sale Analytics With the Data Lakehouse",
+    "permalink": "/docs/processing/databricks/lab-retail-pos-databricks/"
+  }
 }

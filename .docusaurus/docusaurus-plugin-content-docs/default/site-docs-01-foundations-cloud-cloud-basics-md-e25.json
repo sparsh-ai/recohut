@@ -16,8 +16,8 @@
   "frontMatter": {},
   "sidebar": "docs",
   "previous": {
-    "title": "Install DBeaver",
-    "permalink": "/docs/foundations/developer/install-dbeaver"
+    "title": "Databricks Case Studies",
+    "permalink": "/docs/system-design/databricks-case-studies"
   },
   "next": {
     "title": "Comparison of Cloud Services",

@@ -1,7 +1,7 @@
 {
   "unversionedId": "storage/lab-production-cleaning-deltalake/README",
   "id": "storage/lab-production-cleaning-deltalake/README",
-  "title": "The Easy Ways to Clean Up Production Messes",
+  "title": "Lab: The Easy Ways to Clean Up Production Messes",
   "description": "When it comes to working with production data, messes are bound to happen. Whether it’s data inconsistency, schema errors, or other issues, cleaning up production messes can be a time-consuming and frustrating process. Fortunately, Delta Lake provides a powerful toolset for handling these types of issues, making it easy to fix production messes quickly and efficiently.",
   "source": "@site/docs/02-storage/lab-production-cleaning-deltalake/README.md",
   "sourceDirName": "02-storage/lab-production-cleaning-deltalake",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Build an Iceberg Lakehouse",
+    "permalink": "/docs/storage/lab-glue-emr-iceberg-serverless-lakehouse/"
+  },
+  "next": {
+    "title": "Lab: SCD in Lakehouse",
+    "permalink": "/docs/storage/lab-scd-glue-delta/"
+  }
 }

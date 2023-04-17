@@ -1,7 +1,7 @@
 {
   "unversionedId": "data-modeling/lab-airbnb-postgres-datamodel/README",
   "id": "data-modeling/lab-airbnb-postgres-datamodel/README",
-  "title": "AirBnB Postgres Datamodel",
+  "title": "Lab: AirBnB Postgres Datamodel",
   "description": "Objective",
   "source": "@site/docs/04-data-modeling/lab-airbnb-postgres-datamodel/README.md",
   "sourceDirName": "04-data-modeling/lab-airbnb-postgres-datamodel",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Quiz",
+    "permalink": "/docs/data-modeling/quiz"
+  },
+  "next": {
+    "title": "NoSQL Data Modeling",
+    "permalink": "/docs/data-modeling/nosql-data-modeling"
+  }
 }

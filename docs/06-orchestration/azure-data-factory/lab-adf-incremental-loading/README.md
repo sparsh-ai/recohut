@@ -1,4 +1,4 @@
-# Incremental Data Loading in Azure Data Factory
+# Lab: Incremental Data Loading in Azure Data Factory
 
 There are different ways in which we can design incremental loading using ADF. Based on the type of data source, we can have different techniques to implement incremental loading. Some of them are listed here:
 

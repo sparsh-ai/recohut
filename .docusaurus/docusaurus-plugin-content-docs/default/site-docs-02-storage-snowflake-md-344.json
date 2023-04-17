@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "BigQuery",
+    "permalink": "/docs/storage/bigquery"
+  },
+  "next": {
+    "title": "Links",
+    "permalink": "/docs/storage/warehouse-links"
+  }
 }

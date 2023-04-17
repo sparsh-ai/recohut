@@ -1,0 +1,22 @@
+{
+  "unversionedId": "casestudies/woot",
+  "id": "casestudies/woot",
+  "title": "Woot.com",
+  "description": "Online Shopping",
+  "source": "@site/docs/casestudies/woot.md",
+  "sourceDirName": "casestudies",
+  "slug": "/casestudies/woot",
+  "permalink": "/docs/casestudies/woot",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Webshoes",
+    "permalink": "/docs/casestudies/webshoes"
+  }
+}

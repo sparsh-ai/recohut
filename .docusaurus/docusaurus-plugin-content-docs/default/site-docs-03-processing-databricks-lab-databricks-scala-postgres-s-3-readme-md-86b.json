@@ -1,7 +1,7 @@
 {
   "unversionedId": "processing/databricks/lab-databricks-scala-postgres-s3/README",
   "id": "processing/databricks/lab-databricks-scala-postgres-s3/README",
-  "title": "S3 Postgres Scala",
+  "title": "Lab: S3 Postgres Scala",
   "description": "Objective",
   "source": "@site/docs/03-processing/databricks/lab-databricks-scala-postgres-s3/README.md",
   "sourceDirName": "03-processing/databricks/lab-databricks-scala-postgres-s3",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: BCG Case Study",
+    "permalink": "/docs/foundations/language/pyspark/lab-bcg/"
+  },
+  "next": {
+    "title": "Calculating Spark Partitions",
+    "permalink": "/docs/foundations/language/pyspark/lab-calculating-partitions/"
+  }
 }

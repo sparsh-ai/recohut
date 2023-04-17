@@ -1,7 +1,7 @@
 {
   "unversionedId": "processing/lab-azure-synapse-data-processing/README",
   "id": "processing/lab-azure-synapse-data-processing/README",
-  "title": "Processing Data Using Azure Synapse Analytics",
+  "title": "Lab: Processing Data Using Azure Synapse Analytics",
   "description": "This lab covers exploring data using Synapse Serverless SQL pool, processing data using Synapse Spark Pools, Working with Synapse Lake database, and integrating Synapse Analytics with Power BI",
   "source": "@site/docs/03-processing/lab-azure-synapse-data-processing/README.md",
   "sourceDirName": "03-processing/lab-azure-synapse-data-processing",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Transforming Data Using Azure Synapse Dataflows",
+    "permalink": "/docs/processing/lab-azure-synapse-dataflows/"
+  },
+  "next": {
+    "title": "Lab: Implementing the Serving Layer Star Schema",
+    "permalink": "/docs/processing/lab-azure-synapse-implementing-star-schema/"
+  }
 }

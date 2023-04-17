@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "3NF/ Relational Modeling",
+    "permalink": "/docs/data-modeling/3nf-data-modeling"
+  },
+  "next": {
+    "title": "Data Vault Modeling",
+    "permalink": "/docs/data-modeling/data-vault-modeling"
+  }
 }

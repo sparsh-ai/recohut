@@ -1,0 +1,26 @@
+{
+  "unversionedId": "extraction/faker/lab-generate-data-with-faker/README",
+  "id": "extraction/faker/lab-generate-data-with-faker/README",
+  "title": "Lab: Faker",
+  "description": "Extract synthetic data using Faker library in python",
+  "source": "@site/docs/05-extraction/faker/lab-generate-data-with-faker/README.md",
+  "sourceDirName": "05-extraction/faker/lab-generate-data-with-faker",
+  "slug": "/extraction/faker/lab-generate-data-with-faker/",
+  "permalink": "/docs/extraction/faker/lab-generate-data-with-faker/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Data Extraction from APIs",
+    "permalink": "/docs/extraction/api/"
+  },
+  "next": {
+    "title": "Airflow",
+    "permalink": "/docs/orchestration/airflow/"
+  }
+}

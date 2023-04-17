@@ -20,8 +20,8 @@
   },
   "sidebar": "docs",
   "previous": {
-    "title": "Stream and Unified Data Processing",
-    "permalink": "/docs/foundations/basics/stream-data-processing"
+    "title": "Orchestration",
+    "permalink": "/docs/orchestration/"
   },
   "next": {
     "title": "50 Most Common Interview Questions",

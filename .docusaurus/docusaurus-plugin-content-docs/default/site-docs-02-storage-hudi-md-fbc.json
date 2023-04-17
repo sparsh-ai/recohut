@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Apache Arrow or in-memory serialization",
+    "permalink": "/docs/storage/arrow"
+  },
+  "next": {
+    "title": "Iceberg",
+    "permalink": "/docs/storage/iceberg"
+  }
 }

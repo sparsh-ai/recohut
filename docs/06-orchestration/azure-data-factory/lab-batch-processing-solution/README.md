@@ -1,4 +1,6 @@
-# Developing batch processing solutions by using Data Factory, Data Lake, Spark, Azure Synapse Pipelines, PolyBase, and Azure Databricks
+# Lab: Azure Data Factory and Synapse Analytics
+
+> Developing batch processing solutions by using Data Factory, Data Lake, Spark, Azure Synapse Pipelines, PolyBase, and Azure Databricks
 
 ![B17525_09_001](https://user-images.githubusercontent.com/62965911/218307988-ac4d682d-4250-48a7-9a05-67d1173d1b0e.jpeg)
 

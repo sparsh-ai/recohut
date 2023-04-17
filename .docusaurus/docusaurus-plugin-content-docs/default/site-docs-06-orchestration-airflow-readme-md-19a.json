@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Faker",
+    "permalink": "/docs/extraction/faker/lab-generate-data-with-faker/"
+  },
+  "next": {
+    "title": "Azure Data Factory",
+    "permalink": "/docs/orchestration/azure-data-factory/"
+  }
 }

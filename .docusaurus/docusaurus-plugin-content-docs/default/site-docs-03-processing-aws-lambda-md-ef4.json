@@ -1,7 +1,7 @@
 {
   "unversionedId": "processing/aws-lambda",
   "id": "processing/aws-lambda",
-  "title": "AWS Lambda",
+  "title": "AWS Lambda Function",
   "description": "Lambda Function",
   "source": "@site/docs/03-processing/aws-lambda.md",
   "sourceDirName": "03-processing",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: CSV to Parquet Transformation with Glue Studio",
+    "permalink": "/docs/processing/lab-csv-to-parquet-conversion/"
+  },
+  "next": {
+    "title": "Snippets related to Lambda function",
+    "permalink": "/docs/processing/aws-lambda-snippets"
+  }
 }

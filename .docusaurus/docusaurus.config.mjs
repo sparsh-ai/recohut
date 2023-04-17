@@ -82,11 +82,6 @@ export default {
           "to": "docs/introduction"
         },
         {
-          "to": "blog",
-          "position": "left",
-          "label": "Blog"
-        },
-        {
           "href": "https://github.com/sparsh-ai/recohut",
           "label": "GitHub",
           "position": "right"

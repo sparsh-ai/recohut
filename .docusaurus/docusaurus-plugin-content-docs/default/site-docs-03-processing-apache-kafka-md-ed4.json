@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Streaming Data Processing - Streaming Data Pipelines",
+    "permalink": "/docs/processing/lab-gcp-pubsub-processing"
+  },
+  "next": {
+    "title": "Lab: Confluent Kafka with Python",
+    "permalink": "/docs/processing/lab-confluent-python/"
+  }
 }

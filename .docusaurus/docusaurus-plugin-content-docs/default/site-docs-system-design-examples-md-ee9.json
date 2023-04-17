@@ -1,0 +1,26 @@
+{
+  "unversionedId": "system-design/examples",
+  "id": "system-design/examples",
+  "title": "System Design Examples",
+  "description": "BookMyShow",
+  "source": "@site/docs/system-design/examples.md",
+  "sourceDirName": "system-design",
+  "slug": "/system-design/examples",
+  "permalink": "/docs/system-design/examples",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "System Design",
+    "permalink": "/docs/system-design/"
+  },
+  "next": {
+    "title": "Databricks Case Studies",
+    "permalink": "/docs/system-design/databricks-case-studies"
+  }
+}

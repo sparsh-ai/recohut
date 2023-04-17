@@ -1,7 +1,7 @@
 {
   "unversionedId": "processing/databricks/lab-deltalake-optimizations/README",
   "id": "processing/databricks/lab-deltalake-optimizations/README",
-  "title": "Delta Lake Optimizations",
+  "title": "Lab: Delta Lake Optimizations",
   "description": "In this lab, we will learn about various Delta Lake optimizations that help us build a more performant Lakehouse.",
   "source": "@site/docs/03-processing/databricks/lab-deltalake-optimizations/README.md",
   "sourceDirName": "03-processing/databricks/lab-deltalake-optimizations",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Databricks Deltalake",
+    "permalink": "/docs/processing/databricks/lab-databricks-deltalake/"
+  },
+  "next": {
+    "title": "Lab: dlt vs dbt",
+    "permalink": "/docs/processing/databricks/lab-dlt-dbt/"
+  }
 }

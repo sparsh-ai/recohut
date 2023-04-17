@@ -1,7 +1,7 @@
 {
   "unversionedId": "foundations/language/pyspark/lab-understand-spark-query-execution/README",
   "id": "foundations/language/pyspark/lab-understand-spark-query-execution/README",
-  "title": "Understanding Spark Query Execution",
+  "title": "Lab: Understanding Spark Query Execution",
   "description": "To write efficient Spark applications, we need to have some understanding of how Spark executes queries. Having a good understanding of how Spark executes a given query helps big data developers/engineers work efficiently with large volumes of data.",
   "source": "@site/docs/01-foundations/language/pyspark/lab-understand-spark-query-execution/README.md",
   "sourceDirName": "01-foundations/language/pyspark/lab-understand-spark-query-execution",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Uber Data Analysis in Pyspark",
+    "permalink": "/docs/foundations/language/pyspark/lab-uber-analysis/"
+  },
+  "next": {
+    "title": "Lab: BCG Case Study",
+    "permalink": "/docs/foundations/language/pyspark/lab-bcg/"
+  }
 }

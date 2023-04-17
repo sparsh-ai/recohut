@@ -1,7 +1,7 @@
 {
   "unversionedId": "storage/lab-redshift-spectrum-query-tuning",
   "id": "storage/lab-redshift-spectrum-query-tuning",
-  "title": "Redshift Spectrum Query Tuning",
+  "title": "Lab: Redshift Spectrum Query Tuning",
   "description": "In this lab, we show you how to diagnose your Redshift Spectrum query performance and optimize performance by leveraging partitions, optimizing storage, and predicate pushdown.",
   "source": "@site/docs/02-storage/lab-redshift-spectrum-query-tuning.md",
   "sourceDirName": "02-storage",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Redshift Spectrum Query Data Lake",
+    "permalink": "/docs/storage/lab-redshift-spectrum-query-datalake"
+  },
+  "next": {
+    "title": "BigQuery",
+    "permalink": "/docs/storage/bigquery"
+  }
 }

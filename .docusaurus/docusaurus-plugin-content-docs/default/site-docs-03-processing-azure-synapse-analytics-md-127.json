@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Simple Data Pipeline with HDInsight",
+    "permalink": "/docs/processing/lab-azure-hdinsight-simple-data-processing/"
+  },
+  "next": {
+    "title": "Lab: Transforming Data Using Azure Synapse Dataflows",
+    "permalink": "/docs/processing/lab-azure-synapse-dataflows/"
+  }
 }

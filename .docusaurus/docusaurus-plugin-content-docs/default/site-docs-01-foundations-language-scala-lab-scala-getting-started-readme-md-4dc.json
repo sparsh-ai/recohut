@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Calculating Spark Partitions",
+    "permalink": "/docs/foundations/language/pyspark/lab-calculating-partitions/"
+  },
+  "next": {
+    "title": "Serialization",
+    "permalink": "/docs/storage/serialization"
+  }
 }

@@ -18,7 +18,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
+            to="/docs/introduction">
               <div>
               Get Started
               </div>
@@ -37,7 +37,7 @@ export default function Home() {
       description="Data Bootcampts - We do intensive training for better Jobs!">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
+        {/* <HomepageFeatures /> */}
         {/* <Timeline /> */}
         {/* <Techstack /> */}
         {/* <BootcampTimeline /> */}

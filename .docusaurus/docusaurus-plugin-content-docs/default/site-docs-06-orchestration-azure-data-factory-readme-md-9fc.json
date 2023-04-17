@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Airflow",
+    "permalink": "/docs/orchestration/airflow/"
+  },
+  "next": {
+    "title": "Lab: Incremental Data Loading in Azure Data Factory",
+    "permalink": "/docs/orchestration/azure-data-factory/lab-adf-incremental-loading/"
+  }
 }

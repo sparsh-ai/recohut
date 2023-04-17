@@ -1,7 +1,7 @@
 {
   "unversionedId": "storage/lab-postgres-trips-stored-procedure/README",
   "id": "storage/lab-postgres-trips-stored-procedure/README",
-  "title": "Generate Trips Data using Stored Procedure",
+  "title": "Lab: Generate Trips Data using Stored Procedure",
   "description": "- Step 1 - Connect to the database",
   "source": "@site/docs/02-storage/lab-postgres-trips-stored-procedure/README.md",
   "sourceDirName": "02-storage/lab-postgres-trips-stored-procedure",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Postgres Crime Reports",
+    "permalink": "/docs/storage/lab-postgres-crime-reports/"
+  },
+  "next": {
+    "title": "Lab: Police API",
+    "permalink": "/docs/storage/lab-mysql-police-api-etl/"
+  }
 }

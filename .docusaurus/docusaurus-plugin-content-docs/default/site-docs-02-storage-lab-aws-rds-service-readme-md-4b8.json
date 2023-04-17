@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Postgres vs MySQL",
+    "permalink": "/docs/storage/postgres-vs-mysql"
+  },
+  "next": {
+    "title": "Lab: Data Ingestion to MySQL",
+    "permalink": "/docs/storage/lab-mysql-data-ingestion/"
+  }
 }

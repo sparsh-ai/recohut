@@ -1,7 +1,7 @@
 {
   "unversionedId": "foundations/language/pyspark/lab-bcg/README",
   "id": "foundations/language/pyspark/lab-bcg/README",
-  "title": "BCG Case Study",
+  "title": "Lab: BCG Case Study",
   "description": "Dataset",
   "source": "@site/docs/01-foundations/language/pyspark/lab-bcg/README.md",
   "sourceDirName": "01-foundations/language/pyspark/lab-bcg",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Understanding Spark Query Execution",
+    "permalink": "/docs/foundations/language/pyspark/lab-understand-spark-query-execution/"
+  },
+  "next": {
+    "title": "Lab: S3 Postgres Scala",
+    "permalink": "/docs/processing/databricks/lab-databricks-scala-postgres-s3/"
+  }
 }

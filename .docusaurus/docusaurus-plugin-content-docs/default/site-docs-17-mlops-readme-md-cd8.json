@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "The Rosenblatt Perceptron",
+    "permalink": "/docs/datascience/deep-learning/perceptron"
+  },
+  "next": {
+    "title": "MLOps Code Snippets",
+    "permalink": "/docs/mlops/code-snippets"
+  }
 }

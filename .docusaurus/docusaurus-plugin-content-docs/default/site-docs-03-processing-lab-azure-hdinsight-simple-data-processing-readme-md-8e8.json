@@ -1,7 +1,7 @@
 {
   "unversionedId": "processing/lab-azure-hdinsight-simple-data-processing/README",
   "id": "processing/lab-azure-hdinsight-simple-data-processing/README",
-  "title": "Simple Data Pipeline with HDInsight",
+  "title": "Lab: Simple Data Pipeline with HDInsight",
   "description": "Pre-requisites",
   "source": "@site/docs/03-processing/lab-azure-hdinsight-simple-data-processing/README.md",
   "sourceDirName": "03-processing/lab-azure-hdinsight-simple-data-processing",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Running Apache Spark jobs on Cloud Dataproc",
+    "permalink": "/docs/processing/lab-gcp-dataproc/"
+  },
+  "next": {
+    "title": "Azure Synapse Analytics",
+    "permalink": "/docs/processing/azure-synapse-analytics"
+  }
 }

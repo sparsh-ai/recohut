@@ -1,0 +1,26 @@
+{
+  "unversionedId": "casestudies/plexure",
+  "id": "casestudies/plexure",
+  "title": "Plexure",
+  "description": "Data-Driven Personalized Customer Experiences",
+  "source": "@site/docs/casestudies/plexure.md",
+  "sourceDirName": "casestudies",
+  "slug": "/casestudies/plexure",
+  "permalink": "/docs/casestudies/plexure",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "PANORAMIC - Simplifying Data Ingestion, Transformation, And Delivery",
+    "permalink": "/docs/casestudies/panoramic"
+  },
+  "next": {
+    "title": "Spotify Discover Weekly Playlist",
+    "permalink": "/docs/casestudies/spotify"
+  }
+}

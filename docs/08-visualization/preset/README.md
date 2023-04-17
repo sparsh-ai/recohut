@@ -1,4 +1,6 @@
-# Setup Preset
+# Apache Superset - Preset
+
+## Setup Preset
 
 Go to https://preset.io/ and Click on “Start for free” button at the top-right corner. Follow the instructions to create a free account there. You can skip the database connection part, we will connect to the database later.
 

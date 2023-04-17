@@ -1,0 +1,17 @@
+{
+  "unversionedId": "foundations/language/pyspark/window-functions",
+  "id": "foundations/language/pyspark/window-functions",
+  "title": "Window Functions",
+  "description": "",
+  "source": "@site/docs/01-foundations/language/pyspark/window-functions.md",
+  "sourceDirName": "01-foundations/language/pyspark",
+  "slug": "/foundations/language/pyspark/window-functions",
+  "permalink": "/docs/foundations/language/pyspark/window-functions",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
+}

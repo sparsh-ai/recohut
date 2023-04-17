@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Step Function Ecommerce SQL",
+    "permalink": "/docs/orchestration/stepfunctions/lab-stepfunction-ecomm-sqs/"
+  },
+  "next": {
+    "title": "Lab: Streaming Analytics and Dashboards",
+    "permalink": "/docs/visualization/looker-studio/lab-gcp-streaming-analytics"
+  }
 }

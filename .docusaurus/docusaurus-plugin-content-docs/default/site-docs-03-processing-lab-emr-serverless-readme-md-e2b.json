@@ -1,8 +1,8 @@
 {
   "unversionedId": "processing/lab-emr-serverless/README",
   "id": "processing/lab-emr-serverless/README",
-  "title": "EMR Serverless",
-  "description": "Objective",
+  "title": "Lab: EMR Serverless",
+  "description": "Creating and submitting Word count Spark Job in EMR Serverless",
   "source": "@site/docs/03-processing/lab-emr-serverless/README.md",
   "sourceDirName": "03-processing/lab-emr-serverless",
   "slug": "/processing/lab-emr-serverless/",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Amazon EMR",
+    "permalink": "/docs/processing/aws-emr"
+  },
+  "next": {
+    "title": "Lab: Glue ETL",
+    "permalink": "/docs/processing/lab-glue-advanced/"
+  }
 }

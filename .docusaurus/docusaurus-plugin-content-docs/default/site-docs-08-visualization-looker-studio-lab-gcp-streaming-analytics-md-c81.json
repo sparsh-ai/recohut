@@ -1,7 +1,7 @@
 {
   "unversionedId": "visualization/looker-studio/lab-gcp-streaming-analytics",
   "id": "visualization/looker-studio/lab-gcp-streaming-analytics",
-  "title": "Streaming Analytics and Dashboards",
+  "title": "Lab: Streaming Analytics and Dashboards",
   "description": "Objective",
   "source": "@site/docs/08-visualization/looker-studio/lab-gcp-streaming-analytics.md",
   "sourceDirName": "08-visualization/looker-studio",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Flask",
+    "permalink": "/docs/visualization/flask/"
+  },
+  "next": {
+    "title": "Apache Superset - Preset",
+    "permalink": "/docs/visualization/preset/"
+  }
 }

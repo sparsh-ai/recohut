@@ -1,7 +1,7 @@
 {
   "unversionedId": "storage/lab-redshift-data-loading-analysis",
   "id": "storage/lab-redshift-data-loading-analysis",
-  "title": "Data Loading and Analysis",
+  "title": "Lab: Redshift Data Loading and Analysis",
   "description": "1. Load csv and json data from S3 into Redshift using COPY command",
   "source": "@site/docs/02-storage/lab-redshift-data-loading-analysis.md",
   "sourceDirName": "02-storage",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Data Loading into Redshift",
+    "permalink": "/docs/storage/lab-redshift-data-loading"
+  },
+  "next": {
+    "title": "Lab: Redshift Table Design and Query Tuning",
+    "permalink": "/docs/storage/lab-redshift-table-design-query-tuning"
+  }
 }

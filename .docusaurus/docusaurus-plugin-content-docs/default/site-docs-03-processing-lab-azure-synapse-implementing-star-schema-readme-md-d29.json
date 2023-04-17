@@ -1,7 +1,7 @@
 {
   "unversionedId": "processing/lab-azure-synapse-implementing-star-schema/README",
   "id": "processing/lab-azure-synapse-implementing-star-schema/README",
-  "title": "Implementing the Serving Layer Star Schema",
+  "title": "Lab: Implementing the Serving Layer Star Schema",
   "description": "In this lab, we will learn about implementing the serving layer, which involves implementing star schemas, techniques to read and write different data formats, sharing data between services such as SQL and Spark, and more. Once you complete this lab, you should be able to understand the differences between a Synapse dedicated SQL pool versus traditional SQL systems for implementing the Star schema, the various ways of accessing Parquet data using technologies such as Spark and SQL, and the details involved in storing metadata across services. All this knowledge should help you build a practical and maintainable serving layer in a data lake.",
   "source": "@site/docs/03-processing/lab-azure-synapse-implementing-star-schema/README.md",
   "sourceDirName": "03-processing/lab-azure-synapse-implementing-star-schema",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Processing Data Using Azure Synapse Analytics",
+    "permalink": "/docs/processing/lab-azure-synapse-data-processing/"
+  },
+  "next": {
+    "title": "Lab: GCP Dataprep",
+    "permalink": "/docs/processing/lab-gcp-dataprep"
+  }
 }

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "casestudies/bookingdotcom",
+  "id": "casestudies/bookingdotcom",
+  "title": "Booking.com",
+  "description": "An online travel agency for reservations",
+  "source": "@site/docs/casestudies/bookingdotcom.md",
+  "sourceDirName": "casestudies",
+  "slug": "/casestudies/bookingdotcom",
+  "permalink": "/docs/casestudies/bookingdotcom",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Amazon",
+    "permalink": "/docs/casestudies/amazon"
+  },
+  "next": {
+    "title": "Expedia",
+    "permalink": "/docs/casestudies/expedia"
+  }
+}

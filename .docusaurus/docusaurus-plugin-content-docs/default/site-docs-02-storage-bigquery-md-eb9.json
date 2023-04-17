@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Redshift Spectrum Query Tuning",
+    "permalink": "/docs/storage/lab-redshift-spectrum-query-tuning"
+  },
+  "next": {
+    "title": "Snowflake",
+    "permalink": "/docs/storage/snowflake"
+  }
 }

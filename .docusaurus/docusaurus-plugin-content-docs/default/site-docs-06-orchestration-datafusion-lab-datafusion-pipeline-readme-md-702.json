@@ -1,7 +1,7 @@
 {
   "unversionedId": "orchestration/datafusion/lab-datafusion-pipeline/README",
   "id": "orchestration/datafusion/lab-datafusion-pipeline/README",
-  "title": "Building and Executing a Pipeline Graph with Data Fusion",
+  "title": "Lab: Building and Executing a Pipeline Graph with Data Fusion",
   "description": "Objective",
   "source": "@site/docs/06-orchestration/datafusion/lab-datafusion-pipeline/README.md",
   "sourceDirName": "06-orchestration/datafusion/lab-datafusion-pipeline",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Cloud Data Fusion",
+    "permalink": "/docs/orchestration/datafusion/"
+  },
+  "next": {
+    "title": "Lab: Step Function Athena SNS",
+    "permalink": "/docs/orchestration/stepfunctions/lab-stepfunction-athena-sns/"
+  }
 }

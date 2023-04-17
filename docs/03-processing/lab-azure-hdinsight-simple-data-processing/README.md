@@ -1,4 +1,4 @@
-# Simple Data Pipeline with HDInsight
+# Lab: Simple Data Pipeline with HDInsight
 
 ![](./img/process-flow.drawio.svg)
 

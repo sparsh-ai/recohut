@@ -1,4 +1,4 @@
-# Streaming Data Processing - Publish Streaming Data into PubSub
+# Lab: Streaming Data Processing - Publish Streaming Data into PubSub
 
 ## Objective
 

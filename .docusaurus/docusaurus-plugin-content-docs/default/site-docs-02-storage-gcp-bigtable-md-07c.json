@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Cassandra",
+    "permalink": "/docs/storage/cassandra"
+  },
+  "next": {
+    "title": "DynamoDB",
+    "permalink": "/docs/storage/aws-dynamodb"
+  }
 }

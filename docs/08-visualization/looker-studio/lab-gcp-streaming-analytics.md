@@ -1,4 +1,4 @@
-# Streaming Analytics and Dashboards
+# Lab: Streaming Analytics and Dashboards
 
 ## Objective
 

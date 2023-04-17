@@ -30,6 +30,7 @@ const sidebars = {
       'foundations/basics/data-quality',
       'foundations/basics/batch-data-processing',
       'foundations/basics/stream-data-processing',
+      'orchestration/README',
       'foundations/basics/most-common-interview-questions-set1',
       'foundations/basics/most-common-interview-questions-set2',
       'foundations/basics/most-common-interview-questions-set3',
@@ -44,16 +45,21 @@ const sidebars = {
         'foundations/basics/rdd',
         'foundations/basics/spark-quiz',
         ]},
-        {type: 'category', label: 'Developer Essentials', items: [
-          'foundations/developer/install-anaconda',
-          'foundations/developer/install-jupyter',
-          'foundations/developer/install-vscode',
-          'foundations/developer/lab-explore-vscode-features',
-          'foundations/developer/setup-git',
-          'foundations/developer/lab-learn-git-commands',
-          'foundations/developer/lab-bash-commands/index',
-          'foundations/developer/install-dbeaver',
-          ]},
+      {type: 'category', label: 'Developer Essentials', items: [
+        'foundations/developer/install-anaconda',
+        'foundations/developer/install-jupyter',
+        'foundations/developer/install-vscode',
+        'foundations/developer/lab-explore-vscode-features',
+        'foundations/developer/setup-git',
+        'foundations/developer/lab-learn-git-commands',
+        'foundations/developer/lab-bash-commands/index',
+        'foundations/developer/install-dbeaver',
+        ]},
+      {type: 'category', label: 'System Design', items: [
+        'system-design/README',
+        'system-design/examples',
+        'system-design/databricks-case-studies',
+        ]},
     ]},
     {type: 'category', label: 'Cloud Computing', items: [
       {type: 'category', label: 'Introduction', items: [
@@ -267,6 +273,217 @@ const sidebars = {
         'processing/databricks/project-advancedbricks/README',
         'processing/databricks/project-bedbricks/README',
         'processing/databricks/project-databricks-superset/README',
+      ]},
+      {type: 'category', label: 'AWS EMR', items: [
+        'processing/aws-emr',
+        'processing/lab-emr-serverless/README',
+      ]},
+      {type: 'category', label: 'AWS Glue Studio', items: [
+        'processing/lab-glue-advanced/README',
+        'processing/lab-glue-deltalake-cdc-upsert/README',
+        'processing/lab-glue-studio-custom-transforms/README',
+        'processing/lab-glue-studio-tickets/README',
+        'processing/lab-csv-to-parquet-conversion/README',
+      ]},
+      {type: 'category', label: 'AWS Lambda Function', items: [
+        'processing/aws-lambda',
+        'processing/aws-lambda-snippets',
+        'processing/lab-lambda-csv-parquet/README',
+      ]},
+      {type: 'category', label: 'Amazon Kinesis', items: [
+        'processing/aws-kinesis',
+        'processing/lab-kinesis-apache-logs/README',
+        'processing/lab-kinesis-clickstream-anomaly/README',
+      ]},
+      {type: 'category', label: 'Apache Beam', items: [
+        'processing/apache-beam',
+        'processing/lab-getting-started-with-beam/README',
+        'processing/lab-gcp-beam-mapreduce/README',
+      ]},
+      {type: 'category', label: 'GCP Dataflow', items: [
+        'processing/lab-gcp-dataflow-pipeline',
+        'processing/lab-gcp-dataflow-batch-pipeline',
+        'processing/lab-gcp-dataflow-side-inputs',
+        'processing/lab-gcp-dataflow-stream-pipeline',
+        'processing/lab-gcp-serverless-dataflow',
+        'processing/lab-dataflow-bigquery-etl',
+      ]},
+      {type: 'category', label: 'Ray', items: [
+        'processing/ray',
+        'processing/lab-ray-core-basics/README',
+        'processing/lab-ray-air-basics/README',
+      ]},
+      {type: 'category', label: 'GCP Dataproc', items: [
+        'processing/gcp-dataproc',
+        'processing/lab-gcp-dataproc/README',
+      ]},
+      {type: 'category', label: 'Azure HDInsight', items: [
+        'processing/lab-azure-hdinsight-simple-data-processing/README',
+      ]},
+      {type: 'category', label: 'Azure Synapse Analytics', items: [
+        'processing/azure-synapse-analytics',
+        'processing/lab-azure-synapse-dataflows/README',
+        'processing/lab-azure-synapse-data-processing/README',
+        'processing/lab-azure-synapse-implementing-star-schema/README',
+      ]},
+      {type: 'category', label: 'GCP Dataprep', items: [
+        'processing/lab-gcp-dataprep',
+      ]},
+      {type: 'category', label: 'GCP PubSub', items: [
+        'processing/gcp-pubsub',
+        'processing/lab-gcp-pubsub',
+        'processing/lab-gcp-pubsub-processing',
+      ]},
+      {type: 'category', label: 'Apache Kafka', items: [
+        'processing/apache-kafka',
+        'processing/lab-confluent-python/README',
+        'processing/lab-confluent-kafka-faker/README',
+      ]},
+    ]},
+    {type: 'category', label: 'Data Modeling', items: [
+      {type: 'category', label: 'SQL Data Modeling', items: [
+        'data-modeling/sql-data-modeling',
+        'data-modeling/inmon-vs-kimball',
+        'data-modeling/data-modeling-stages',
+        'data-modeling/3nf-data-modeling',
+        'data-modeling/dimensional-modeling',
+        'data-modeling/data-vault-modeling',
+        'data-modeling/data-modeling-steps',
+        'data-modeling/designing-scd',
+        'data-modeling/designing-incremental-loading',
+        'data-modeling/data-warehousing',
+        'data-modeling/normalization-vs-denormalization',
+        'data-modeling/cap-theorem',
+        'data-modeling/quiz',
+        'data-modeling/lab-airbnb-postgres-datamodel/README',
+      ]},
+      {type: 'category', label: 'NoSQL Data Modeling', items: [
+        'data-modeling/nosql-data-modeling',
+      ]},
+    ]},
+    {type: 'category', label: 'Data Extraction', items: [
+      {type: 'category', label: 'API', items: [
+        'extraction/api/README',
+      ]},
+      {type: 'category', label: 'Faker', items: [
+        'extraction/faker/lab-generate-data-with-faker/README',
+      ]},
+    ]},
+    {type: 'category', label: 'Data Pipelines', items: [
+      {type: 'category', label: 'Airflow', items: [
+        'orchestration/airflow/README',
+      ]},
+      {type: 'category', label: 'Azure Data Factory', items: [
+        'orchestration/azure-data-factory/README',
+        'orchestration/azure-data-factory/lab-adf-incremental-loading/README',
+        'orchestration/azure-data-factory/lab-batch-processing-solution/README',
+        'orchestration/azure-data-factory/lab-data-ingestion-pipeline/README',
+      ]},
+      {type: 'category', label: 'GCP Cloud DataFusion', items: [
+        'orchestration/datafusion/README',
+        'orchestration/datafusion/lab-datafusion-pipeline/README',
+      ]},
+      {type: 'category', label: 'AWS Step Functions', items: [
+        'orchestration/stepfunctions/lab-stepfunction-athena-sns/README',
+        'orchestration/stepfunctions/lab-stepfunction-ecomm-sqs/README',
+      ]},
+    ]},
+    {type: 'category', label: 'Data Visualization', items: [
+      {type: 'category', label: 'Flask', items: [
+        'visualization/flask/README',
+      ]},
+      {type: 'category', label: 'Looker Studio', items: [
+        'visualization/looker-studio/lab-gcp-streaming-analytics',
+      ]},
+      {type: 'category', label: 'Apache Superset', items: [
+        'visualization/preset/README',
+      ]},
+      {type: 'category', label: 'Streamlit', items: [
+        'visualization/streamlit/README',
+      ]},
+    ]},
+    {type: 'category', label: 'DevOps', items: [
+      {type: 'category', label: 'Basics', items: [
+        'devops/README',
+      ]},
+      {type: 'category', label: 'Containers', items: [
+        'devops/containers/README',
+      ]},
+      {type: 'category', label: 'Infra as Code', items: [
+        'devops/iac/README',
+      ]},
+    ]},
+    {type: 'category', label: 'Mathematics', items: [
+      {type: 'category', label: 'Basics', items: [
+        'mathematics/README',
+      ]},
+      {type: 'category', label: 'Probability', items: [
+        'mathematics/probability/probability-distributions',
+        'mathematics/probability/rules-of-probability',
+      ]},
+      {type: 'category', label: 'Statistics', items: [
+        'mathematics/statistics/sampling',
+      ]},
+    ]},
+    {type: 'category', label: 'Data Science', items: [
+      {type: 'category', label: 'Basics', items: [
+        'foundations/basics/origin',
+        'foundations/basics/use-cases',
+        'foundations/basics/deployment',
+        'datascience/data-splits',
+        'datascience/bias-variance-tradeoff',
+        'datascience/metrics-and-evaluation',
+        'datascience/data-preparation',
+        'datascience/data-encoding',
+        'datascience/feature-selection',
+      ]},
+      {type: 'category', label: 'Algorithms', items: [
+        'datascience/algorithms/linear-regression',
+        'datascience/algorithms/logistic-regression',
+        'datascience/algorithms/decision-trees',
+        'datascience/algorithms/random-forest',
+        'datascience/algorithms/knn',
+        'datascience/algorithms/gradient-boosting',
+      ]},
+      {type: 'category', label: 'Time-Series Forecasting', items: [
+        'datascience/timeseries/prophet',
+      ]},
+      {type: 'category', label: 'Deep Learning', items: [
+        'datascience/deep-learning/deep-learning-basics',
+        'datascience/deep-learning/perceptron',
+      ]},
+      {type: 'category', label: 'MLOps', items: [
+        'mlops/README',
+        'mlops/code-snippets',
+        'mlops/mlflow/README'
+      ]},
+    ]},
+    {type: 'category', label: 'Extras', items: [
+      {type: 'category', label: 'Case Studies', items: [
+        'casestudies/99group',
+        'casestudies/airbnb',
+        'casestudies/amazon',
+        'casestudies/bookingdotcom',
+        'casestudies/expedia',
+        'casestudies/fair',
+        'casestudies/harmony',
+        'casestudies/helpshift',
+        'casestudies/hometogo',
+        'casestudies/intuit',
+        'casestudies/linkedin',
+        'casestudies/myntra',
+        'casestudies/outfit7',
+        'casestudies/panoramic',
+        'casestudies/plexure',
+        'casestudies/spotify',
+        'casestudies/starbucks',
+        'casestudies/trivago',
+        'casestudies/twilio',
+        'casestudies/twitter',
+        'casestudies/uber',
+        'casestudies/video-stream',
+        'casestudies/webshoes',
+        'casestudies/woot',
       ]},
     ]},
   ],

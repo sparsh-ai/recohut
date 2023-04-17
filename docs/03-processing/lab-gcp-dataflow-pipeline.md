@@ -1,4 +1,4 @@
-# GCP Dataflow Pipeline - A Simple Dataflow Pipeline (Python)
+# Lab: GCP Dataflow Pipeline - A Simple Dataflow Pipeline (Python)
 
 ## Objective
 

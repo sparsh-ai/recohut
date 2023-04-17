@@ -1,8 +1,8 @@
 {
   "unversionedId": "processing/databricks/project-databricks-de/README",
   "id": "processing/databricks/project-databricks-de/README",
-  "title": "Data Engineering with Databricks",
-  "description": "In this project, we will learn basic to advanced concepts of databricks:",
+  "title": "Project: Data Engineering with Databricks",
+  "description": "Github",
   "source": "@site/docs/03-processing/databricks/project-databricks-de/README.md",
   "sourceDirName": "03-processing/databricks/project-databricks-de",
   "slug": "/processing/databricks/project-databricks-de/",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Processing Data Using Azure Databricks",
+    "permalink": "/docs/processing/databricks/lab-data-processing-azure-dbr/"
+  },
+  "next": {
+    "title": "Project: Data Engineer Learner Path with Databricks",
+    "permalink": "/docs/processing/databricks/project-learnerbricks/"
+  }
 }

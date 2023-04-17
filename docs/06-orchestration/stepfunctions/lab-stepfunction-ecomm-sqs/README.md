@@ -1,4 +1,4 @@
-# Step Function Ecommerce SQL
+# Lab: Step Function Ecommerce SQL
 
 Objective: Orchestrate Queue-based Microservices
 

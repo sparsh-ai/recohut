@@ -1,7 +1,7 @@
 {
   "unversionedId": "storage/lab-data-loading-python/README",
   "id": "storage/lab-data-loading-python/README",
-  "title": "Loading Data in Python",
+  "title": "Lab: Loading Data in Python",
   "description": "In this lab, we will learn how to load various file formats in Python.",
   "source": "@site/docs/02-storage/lab-data-loading-python/README.md",
   "sourceDirName": "02-storage/lab-data-loading-python",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Parquet vs CSV",
+    "permalink": "/docs/storage/parquet-vs-csv"
+  },
+  "next": {
+    "title": "Lab: JSON Data Processing",
+    "permalink": "/docs/storage/lab-processing-json-data/"
+  }
 }

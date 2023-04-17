@@ -434,7 +434,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '232'),
+    component: ComponentCreator('/docs', 'bd4'),
     routes: [
       {
         path: '/docs/a1-interviewprep',
@@ -469,131 +469,6 @@ export default [
       {
         path: '/docs/a1-interviewprep/resume-buildup',
         component: ComponentCreator('/docs/a1-interviewprep/resume-buildup', '358'),
-        exact: true
-      },
-      {
-        path: '/docs/a3-casestudies',
-        component: ComponentCreator('/docs/a3-casestudies', '7b2'),
-        exact: true
-      },
-      {
-        path: '/docs/a3-casestudies/99group',
-        component: ComponentCreator('/docs/a3-casestudies/99group', 'ce7'),
-        exact: true
-      },
-      {
-        path: '/docs/a3-casestudies/airbnb',
-        component: ComponentCreator('/docs/a3-casestudies/airbnb', 'b6f'),
-        exact: true
-      },
-      {
-        path: '/docs/a3-casestudies/amazon',
-        component: ComponentCreator('/docs/a3-casestudies/amazon', '19e'),
-        exact: true
-      },
-      {
-        path: '/docs/a3-casestudies/bookingdotcom',
-        component: ComponentCreator('/docs/a3-casestudies/bookingdotcom', 'be8'),
-        exact: true
-      },
-      {
-        path: '/docs/a3-casestudies/expedia',
-        component: ComponentCreator('/docs/a3-casestudies/expedia', 'd22'),
-        exact: true
-      },
-      {
-        path: '/docs/a3-casestudies/fair',
-        component: ComponentCreator('/docs/a3-casestudies/fair', '8c0'),
-        exact: true
-      },
-      {
-        path: '/docs/a3-casestudies/harmony',
-        component: ComponentCreator('/docs/a3-casestudies/harmony', '8d6'),
-        exact: true
-      },
-      {
-        path: '/docs/a3-casestudies/helpshift',
-        component: ComponentCreator('/docs/a3-casestudies/helpshift', '3e9'),
-        exact: true
-      },
-      {
-        path: '/docs/a3-casestudies/hometogo',
-        component: ComponentCreator('/docs/a3-casestudies/hometogo', '4fe'),
-        exact: true
-      },
-      {
-        path: '/docs/a3-casestudies/intuit',
-        component: ComponentCreator('/docs/a3-casestudies/intuit', '4f4'),
-        exact: true
-      },
-      {
-        path: '/docs/a3-casestudies/linkedin',
-        component: ComponentCreator('/docs/a3-casestudies/linkedin', '4a5'),
-        exact: true
-      },
-      {
-        path: '/docs/a3-casestudies/myntra',
-        component: ComponentCreator('/docs/a3-casestudies/myntra', '1a1'),
-        exact: true
-      },
-      {
-        path: '/docs/a3-casestudies/outfit7',
-        component: ComponentCreator('/docs/a3-casestudies/outfit7', 'e48'),
-        exact: true
-      },
-      {
-        path: '/docs/a3-casestudies/panoramic',
-        component: ComponentCreator('/docs/a3-casestudies/panoramic', 'ef7'),
-        exact: true
-      },
-      {
-        path: '/docs/a3-casestudies/plexure',
-        component: ComponentCreator('/docs/a3-casestudies/plexure', 'bc0'),
-        exact: true
-      },
-      {
-        path: '/docs/a3-casestudies/spotify',
-        component: ComponentCreator('/docs/a3-casestudies/spotify', '520'),
-        exact: true
-      },
-      {
-        path: '/docs/a3-casestudies/starbucks',
-        component: ComponentCreator('/docs/a3-casestudies/starbucks', '372'),
-        exact: true
-      },
-      {
-        path: '/docs/a3-casestudies/trivago',
-        component: ComponentCreator('/docs/a3-casestudies/trivago', 'f75'),
-        exact: true
-      },
-      {
-        path: '/docs/a3-casestudies/twilio',
-        component: ComponentCreator('/docs/a3-casestudies/twilio', '9e2'),
-        exact: true
-      },
-      {
-        path: '/docs/a3-casestudies/twitter',
-        component: ComponentCreator('/docs/a3-casestudies/twitter', '352'),
-        exact: true
-      },
-      {
-        path: '/docs/a3-casestudies/uber',
-        component: ComponentCreator('/docs/a3-casestudies/uber', '0e8'),
-        exact: true
-      },
-      {
-        path: '/docs/a3-casestudies/video-stream',
-        component: ComponentCreator('/docs/a3-casestudies/video-stream', 'ef3'),
-        exact: true
-      },
-      {
-        path: '/docs/a3-casestudies/webshoes',
-        component: ComponentCreator('/docs/a3-casestudies/webshoes', 'eaf'),
-        exact: true
-      },
-      {
-        path: '/docs/a3-casestudies/woot',
-        component: ComponentCreator('/docs/a3-casestudies/woot', 'ce3'),
         exact: true
       },
       {
@@ -962,59 +837,219 @@ export default [
         exact: true
       },
       {
-        path: '/docs/data-modeling/3nf-data-modeling',
-        component: ComponentCreator('/docs/data-modeling/3nf-data-modeling', '4be'),
+        path: '/docs/casestudies',
+        component: ComponentCreator('/docs/casestudies', 'adc'),
         exact: true
+      },
+      {
+        path: '/docs/casestudies/99group',
+        component: ComponentCreator('/docs/casestudies/99group', '852'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/casestudies/airbnb',
+        component: ComponentCreator('/docs/casestudies/airbnb', '1b9'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/casestudies/amazon',
+        component: ComponentCreator('/docs/casestudies/amazon', '31d'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/casestudies/bookingdotcom',
+        component: ComponentCreator('/docs/casestudies/bookingdotcom', '5eb'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/casestudies/expedia',
+        component: ComponentCreator('/docs/casestudies/expedia', '4ab'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/casestudies/fair',
+        component: ComponentCreator('/docs/casestudies/fair', '1b1'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/casestudies/harmony',
+        component: ComponentCreator('/docs/casestudies/harmony', '7e4'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/casestudies/helpshift',
+        component: ComponentCreator('/docs/casestudies/helpshift', 'ac5'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/casestudies/hometogo',
+        component: ComponentCreator('/docs/casestudies/hometogo', 'b43'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/casestudies/intuit',
+        component: ComponentCreator('/docs/casestudies/intuit', '493'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/casestudies/linkedin',
+        component: ComponentCreator('/docs/casestudies/linkedin', '8a4'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/casestudies/myntra',
+        component: ComponentCreator('/docs/casestudies/myntra', '75a'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/casestudies/outfit7',
+        component: ComponentCreator('/docs/casestudies/outfit7', 'ff3'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/casestudies/panoramic',
+        component: ComponentCreator('/docs/casestudies/panoramic', '841'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/casestudies/plexure',
+        component: ComponentCreator('/docs/casestudies/plexure', 'd90'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/casestudies/spotify',
+        component: ComponentCreator('/docs/casestudies/spotify', '360'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/casestudies/starbucks',
+        component: ComponentCreator('/docs/casestudies/starbucks', 'fa2'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/casestudies/trivago',
+        component: ComponentCreator('/docs/casestudies/trivago', 'd97'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/casestudies/twilio',
+        component: ComponentCreator('/docs/casestudies/twilio', '6fc'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/casestudies/twitter',
+        component: ComponentCreator('/docs/casestudies/twitter', 'da5'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/casestudies/uber',
+        component: ComponentCreator('/docs/casestudies/uber', '5b9'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/casestudies/video-stream',
+        component: ComponentCreator('/docs/casestudies/video-stream', 'c9a'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/casestudies/webshoes',
+        component: ComponentCreator('/docs/casestudies/webshoes', 'cdd'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/casestudies/woot',
+        component: ComponentCreator('/docs/casestudies/woot', '722'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/data-modeling/3nf-data-modeling',
+        component: ComponentCreator('/docs/data-modeling/3nf-data-modeling', '7ed'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/data-modeling/cap-theorem',
-        component: ComponentCreator('/docs/data-modeling/cap-theorem', '2e6'),
-        exact: true
+        component: ComponentCreator('/docs/data-modeling/cap-theorem', '67a'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/data-modeling/data-modeling-stages',
-        component: ComponentCreator('/docs/data-modeling/data-modeling-stages', 'ac1'),
-        exact: true
+        component: ComponentCreator('/docs/data-modeling/data-modeling-stages', 'c5c'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/data-modeling/data-modeling-steps',
-        component: ComponentCreator('/docs/data-modeling/data-modeling-steps', 'cba'),
-        exact: true
+        component: ComponentCreator('/docs/data-modeling/data-modeling-steps', '569'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/data-modeling/data-vault-modeling',
-        component: ComponentCreator('/docs/data-modeling/data-vault-modeling', 'bb1'),
-        exact: true
+        component: ComponentCreator('/docs/data-modeling/data-vault-modeling', 'e7a'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/data-modeling/data-warehousing',
-        component: ComponentCreator('/docs/data-modeling/data-warehousing', '7e9'),
-        exact: true
+        component: ComponentCreator('/docs/data-modeling/data-warehousing', 'ddd'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/data-modeling/designing-incremental-loading',
-        component: ComponentCreator('/docs/data-modeling/designing-incremental-loading', 'd1d'),
-        exact: true
+        component: ComponentCreator('/docs/data-modeling/designing-incremental-loading', '692'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/data-modeling/designing-scd',
-        component: ComponentCreator('/docs/data-modeling/designing-scd', '552'),
-        exact: true
+        component: ComponentCreator('/docs/data-modeling/designing-scd', 'f61'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/data-modeling/dimensional-modeling',
-        component: ComponentCreator('/docs/data-modeling/dimensional-modeling', 'a76'),
-        exact: true
+        component: ComponentCreator('/docs/data-modeling/dimensional-modeling', 'b68'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/data-modeling/inmon-vs-kimball',
-        component: ComponentCreator('/docs/data-modeling/inmon-vs-kimball', '96c'),
-        exact: true
+        component: ComponentCreator('/docs/data-modeling/inmon-vs-kimball', 'f50'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/data-modeling/lab-airbnb-postgres-datamodel',
-        component: ComponentCreator('/docs/data-modeling/lab-airbnb-postgres-datamodel', 'e87'),
-        exact: true
+        component: ComponentCreator('/docs/data-modeling/lab-airbnb-postgres-datamodel', 'ed2'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/data-modeling/lab-cars-mysql-datamodel/datamodel-cars',
@@ -1118,48 +1153,57 @@ export default [
       },
       {
         path: '/docs/data-modeling/normalization-vs-denormalization',
-        component: ComponentCreator('/docs/data-modeling/normalization-vs-denormalization', 'c6e'),
-        exact: true
+        component: ComponentCreator('/docs/data-modeling/normalization-vs-denormalization', '7cf'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/data-modeling/nosql-data-modeling',
-        component: ComponentCreator('/docs/data-modeling/nosql-data-modeling', '2b6'),
-        exact: true
+        component: ComponentCreator('/docs/data-modeling/nosql-data-modeling', '48c'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/data-modeling/quiz',
-        component: ComponentCreator('/docs/data-modeling/quiz', '4fe'),
-        exact: true
+        component: ComponentCreator('/docs/data-modeling/quiz', 'e33'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/data-modeling/sql-data-modeling',
-        component: ComponentCreator('/docs/data-modeling/sql-data-modeling', '23e'),
-        exact: true
+        component: ComponentCreator('/docs/data-modeling/sql-data-modeling', '127'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/datascience/algorithms/decision-trees',
-        component: ComponentCreator('/docs/datascience/algorithms/decision-trees', '69b'),
-        exact: true
+        component: ComponentCreator('/docs/datascience/algorithms/decision-trees', 'bb6'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/datascience/algorithms/gradient-boosting',
-        component: ComponentCreator('/docs/datascience/algorithms/gradient-boosting', '8cd'),
-        exact: true
+        component: ComponentCreator('/docs/datascience/algorithms/gradient-boosting', 'ac4'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/datascience/algorithms/knn',
-        component: ComponentCreator('/docs/datascience/algorithms/knn', '29c'),
-        exact: true
+        component: ComponentCreator('/docs/datascience/algorithms/knn', '3ee'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/datascience/algorithms/linear-regression',
-        component: ComponentCreator('/docs/datascience/algorithms/linear-regression', 'db0'),
-        exact: true
+        component: ComponentCreator('/docs/datascience/algorithms/linear-regression', 'ea9'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/datascience/algorithms/logistic-regression',
-        component: ComponentCreator('/docs/datascience/algorithms/logistic-regression', 'c1b'),
-        exact: true
+        component: ComponentCreator('/docs/datascience/algorithms/logistic-regression', '4d6'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/datascience/algorithms/ml-eda',
@@ -1173,8 +1217,9 @@ export default [
       },
       {
         path: '/docs/datascience/algorithms/random-forest',
-        component: ComponentCreator('/docs/datascience/algorithms/random-forest', 'a90'),
-        exact: true
+        component: ComponentCreator('/docs/datascience/algorithms/random-forest', '14d'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/datascience/basics/cross-domain',
@@ -1238,8 +1283,9 @@ export default [
       },
       {
         path: '/docs/datascience/bias-variance-tradeoff',
-        component: ComponentCreator('/docs/datascience/bias-variance-tradeoff', '042'),
-        exact: true
+        component: ComponentCreator('/docs/datascience/bias-variance-tradeoff', '30d'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/datascience/challenges',
@@ -1328,38 +1374,45 @@ export default [
       },
       {
         path: '/docs/datascience/data-encoding',
-        component: ComponentCreator('/docs/datascience/data-encoding', 'ae2'),
-        exact: true
+        component: ComponentCreator('/docs/datascience/data-encoding', '133'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/datascience/data-preparation',
-        component: ComponentCreator('/docs/datascience/data-preparation', 'ba1'),
-        exact: true
+        component: ComponentCreator('/docs/datascience/data-preparation', '9b7'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/datascience/data-splits',
-        component: ComponentCreator('/docs/datascience/data-splits', 'f8e'),
-        exact: true
+        component: ComponentCreator('/docs/datascience/data-splits', 'da0'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/datascience/deep-learning/deep-learning-basics',
-        component: ComponentCreator('/docs/datascience/deep-learning/deep-learning-basics', 'eab'),
-        exact: true
+        component: ComponentCreator('/docs/datascience/deep-learning/deep-learning-basics', '6cc'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/datascience/deep-learning/perceptron',
-        component: ComponentCreator('/docs/datascience/deep-learning/perceptron', 'a06'),
-        exact: true
+        component: ComponentCreator('/docs/datascience/deep-learning/perceptron', 'da9'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/datascience/feature-selection',
-        component: ComponentCreator('/docs/datascience/feature-selection', 'fde'),
-        exact: true
+        component: ComponentCreator('/docs/datascience/feature-selection', '0e1'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/datascience/metrics-and-evaluation',
-        component: ComponentCreator('/docs/datascience/metrics-and-evaluation', 'f50'),
-        exact: true
+        component: ComponentCreator('/docs/datascience/metrics-and-evaluation', 'a2f'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/datascience/nlp',
@@ -1494,18 +1547,21 @@ export default [
       },
       {
         path: '/docs/datascience/timeseries/prophet',
-        component: ComponentCreator('/docs/datascience/timeseries/prophet', 'c45'),
-        exact: true
+        component: ComponentCreator('/docs/datascience/timeseries/prophet', 'f7c'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/devops',
-        component: ComponentCreator('/docs/devops', '194'),
-        exact: true
+        component: ComponentCreator('/docs/devops', 'd94'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/devops/containers',
-        component: ComponentCreator('/docs/devops/containers', '64a'),
-        exact: true
+        component: ComponentCreator('/docs/devops/containers', 'd2b'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/devops/containers/lab-assignment-etl-docker',
@@ -1539,8 +1595,9 @@ export default [
       },
       {
         path: '/docs/devops/iac',
-        component: ComponentCreator('/docs/devops/iac', 'fd1'),
-        exact: true
+        component: ComponentCreator('/docs/devops/iac', '42f'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/extraction',
@@ -1549,8 +1606,9 @@ export default [
       },
       {
         path: '/docs/extraction/api',
-        component: ComponentCreator('/docs/extraction/api', '051'),
-        exact: true
+        component: ComponentCreator('/docs/extraction/api', 'b30'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/extraction/api/lab-hackernews-git-api',
@@ -1563,9 +1621,10 @@ export default [
         exact: true
       },
       {
-        path: '/docs/extraction/faker',
-        component: ComponentCreator('/docs/extraction/faker', 'ccb'),
-        exact: true
+        path: '/docs/extraction/faker/lab-generate-data-with-faker',
+        component: ComponentCreator('/docs/extraction/faker/lab-generate-data-with-faker', '5d4'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/extraction/webscraping',
@@ -1657,8 +1716,9 @@ export default [
       },
       {
         path: '/docs/foundations/basics/deployment',
-        component: ComponentCreator('/docs/foundations/basics/deployment', '9ee'),
-        exact: true
+        component: ComponentCreator('/docs/foundations/basics/deployment', '0c5'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/foundations/basics/extras',
@@ -1696,8 +1756,9 @@ export default [
       },
       {
         path: '/docs/foundations/basics/origin',
-        component: ComponentCreator('/docs/foundations/basics/origin', 'ed4'),
-        exact: true
+        component: ComponentCreator('/docs/foundations/basics/origin', '4b1'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/foundations/basics/outliers-handling',
@@ -1748,8 +1809,9 @@ export default [
       },
       {
         path: '/docs/foundations/basics/use-cases',
-        component: ComponentCreator('/docs/foundations/basics/use-cases', 'c15'),
-        exact: true
+        component: ComponentCreator('/docs/foundations/basics/use-cases', 'b84'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/foundations/basics/vector-search',
@@ -1974,8 +2036,15 @@ export default [
       },
       {
         path: '/docs/foundations/language/pyspark/lab-bcg',
-        component: ComponentCreator('/docs/foundations/language/pyspark/lab-bcg', 'dbe'),
-        exact: true
+        component: ComponentCreator('/docs/foundations/language/pyspark/lab-bcg', '340'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/foundations/language/pyspark/lab-calculating-partitions',
+        component: ComponentCreator('/docs/foundations/language/pyspark/lab-calculating-partitions', '5bd'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/foundations/language/pyspark/lab-pyspark-basics',
@@ -2013,13 +2082,9 @@ export default [
       },
       {
         path: '/docs/foundations/language/pyspark/lab-understand-spark-query-execution',
-        component: ComponentCreator('/docs/foundations/language/pyspark/lab-understand-spark-query-execution', '494'),
-        exact: true
-      },
-      {
-        path: '/docs/foundations/language/pyspark/lab-window-functions',
-        component: ComponentCreator('/docs/foundations/language/pyspark/lab-window-functions', '4a6'),
-        exact: true
+        component: ComponentCreator('/docs/foundations/language/pyspark/lab-understand-spark-query-execution', '1d4'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/foundations/language/pyspark/lazy-processing',
@@ -2050,6 +2115,11 @@ export default [
         component: ComponentCreator('/docs/foundations/language/pyspark/udf', '652'),
         exact: true,
         sidebar: "docs"
+      },
+      {
+        path: '/docs/foundations/language/pyspark/window-functions',
+        component: ComponentCreator('/docs/foundations/language/pyspark/window-functions', 'dd3'),
+        exact: true
       },
       {
         path: '/docs/foundations/language/python',
@@ -2097,8 +2167,9 @@ export default [
       },
       {
         path: '/docs/foundations/language/scala/lab-scala-getting-started',
-        component: ComponentCreator('/docs/foundations/language/scala/lab-scala-getting-started', '40a'),
-        exact: true
+        component: ComponentCreator('/docs/foundations/language/scala/lab-scala-getting-started', '49c'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/foundations/language/sql/aggregate-functions',
@@ -2402,8 +2473,9 @@ export default [
       },
       {
         path: '/docs/mathematics',
-        component: ComponentCreator('/docs/mathematics', '54a'),
-        exact: true
+        component: ComponentCreator('/docs/mathematics', '2bf'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/mathematics/probability',
@@ -2412,13 +2484,15 @@ export default [
       },
       {
         path: '/docs/mathematics/probability/probability-distributions',
-        component: ComponentCreator('/docs/mathematics/probability/probability-distributions', '732'),
-        exact: true
+        component: ComponentCreator('/docs/mathematics/probability/probability-distributions', '536'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/mathematics/probability/rules-of-probability',
-        component: ComponentCreator('/docs/mathematics/probability/rules-of-probability', '803'),
-        exact: true
+        component: ComponentCreator('/docs/mathematics/probability/rules-of-probability', '49c'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/mathematics/statistics',
@@ -2427,18 +2501,21 @@ export default [
       },
       {
         path: '/docs/mathematics/statistics/sampling',
-        component: ComponentCreator('/docs/mathematics/statistics/sampling', '43a'),
-        exact: true
+        component: ComponentCreator('/docs/mathematics/statistics/sampling', 'f9f'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/mlops',
-        component: ComponentCreator('/docs/mlops', '9a8'),
-        exact: true
+        component: ComponentCreator('/docs/mlops', '4fd'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/mlops/code-snippets',
-        component: ComponentCreator('/docs/mlops/code-snippets', 'baf'),
-        exact: true
+        component: ComponentCreator('/docs/mlops/code-snippets', '39b'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/mlops/ml-lab-tracking',
@@ -2447,18 +2524,21 @@ export default [
       },
       {
         path: '/docs/mlops/mlflow',
-        component: ComponentCreator('/docs/mlops/mlflow', '798'),
-        exact: true
+        component: ComponentCreator('/docs/mlops/mlflow', '9f6'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/orchestration',
-        component: ComponentCreator('/docs/orchestration', '257'),
-        exact: true
+        component: ComponentCreator('/docs/orchestration', 'c95'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/orchestration/airflow',
-        component: ComponentCreator('/docs/orchestration/airflow', 'b1f'),
-        exact: true
+        component: ComponentCreator('/docs/orchestration/airflow', '117'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/orchestration/airflow/github-nft',
@@ -2507,28 +2587,39 @@ export default [
       },
       {
         path: '/docs/orchestration/azure-data-factory',
-        component: ComponentCreator('/docs/orchestration/azure-data-factory', '453'),
-        exact: true
+        component: ComponentCreator('/docs/orchestration/azure-data-factory', '439'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/orchestration/azure-data-factory/lab-adf-incremental-loading',
-        component: ComponentCreator('/docs/orchestration/azure-data-factory/lab-adf-incremental-loading', '386'),
-        exact: true
+        component: ComponentCreator('/docs/orchestration/azure-data-factory/lab-adf-incremental-loading', '171'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/orchestration/azure-data-factory/lab-batch-processing-solution',
-        component: ComponentCreator('/docs/orchestration/azure-data-factory/lab-batch-processing-solution', '9eb'),
-        exact: true
+        component: ComponentCreator('/docs/orchestration/azure-data-factory/lab-batch-processing-solution', '5ca'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/orchestration/azure-data-factory/lab-data-ingestion-pipeline',
+        component: ComponentCreator('/docs/orchestration/azure-data-factory/lab-data-ingestion-pipeline', '7d0'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/orchestration/datafusion',
-        component: ComponentCreator('/docs/orchestration/datafusion', 'd93'),
-        exact: true
+        component: ComponentCreator('/docs/orchestration/datafusion', 'add'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/orchestration/datafusion/lab-datafusion-pipeline',
-        component: ComponentCreator('/docs/orchestration/datafusion/lab-datafusion-pipeline', '95d'),
-        exact: true
+        component: ComponentCreator('/docs/orchestration/datafusion/lab-datafusion-pipeline', 'd3a'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/orchestration/modern-data-stack',
@@ -2572,18 +2663,21 @@ export default [
       },
       {
         path: '/docs/orchestration/stepfunctions/lab-stepfunction-athena-sns',
-        component: ComponentCreator('/docs/orchestration/stepfunctions/lab-stepfunction-athena-sns', 'e1a'),
-        exact: true
+        component: ComponentCreator('/docs/orchestration/stepfunctions/lab-stepfunction-athena-sns', '39b'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/orchestration/stepfunctions/lab-stepfunction-ecomm-sqs',
-        component: ComponentCreator('/docs/orchestration/stepfunctions/lab-stepfunction-ecomm-sqs', '79b'),
-        exact: true
+        component: ComponentCreator('/docs/orchestration/stepfunctions/lab-stepfunction-ecomm-sqs', 'd85'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/apache-beam',
-        component: ComponentCreator('/docs/processing/apache-beam', '22a'),
-        exact: true
+        component: ComponentCreator('/docs/processing/apache-beam', '84a'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/apache-druid',
@@ -2597,38 +2691,45 @@ export default [
       },
       {
         path: '/docs/processing/apache-kafka',
-        component: ComponentCreator('/docs/processing/apache-kafka', '572'),
-        exact: true
+        component: ComponentCreator('/docs/processing/apache-kafka', '3dd'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/aws-emr',
-        component: ComponentCreator('/docs/processing/aws-emr', 'd45'),
-        exact: true
+        component: ComponentCreator('/docs/processing/aws-emr', '360'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/aws-kinesis',
-        component: ComponentCreator('/docs/processing/aws-kinesis', '0cf'),
-        exact: true
+        component: ComponentCreator('/docs/processing/aws-kinesis', '17b'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/aws-lambda',
-        component: ComponentCreator('/docs/processing/aws-lambda', 'c8f'),
-        exact: true
+        component: ComponentCreator('/docs/processing/aws-lambda', 'dad'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/aws-lambda-snippets',
-        component: ComponentCreator('/docs/processing/aws-lambda-snippets', '868'),
-        exact: true
+        component: ComponentCreator('/docs/processing/aws-lambda-snippets', '9d0'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/azure-synapse-analytics',
-        component: ComponentCreator('/docs/processing/azure-synapse-analytics', '694'),
-        exact: true
+        component: ComponentCreator('/docs/processing/azure-synapse-analytics', '433'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/databricks',
-        component: ComponentCreator('/docs/processing/databricks', 'c5e'),
-        exact: true
+        component: ComponentCreator('/docs/processing/databricks', 'b22'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/databricks/boston-crime-analysis',
@@ -2637,18 +2738,27 @@ export default [
       },
       {
         path: '/docs/processing/databricks/lab-cybersecurity-databricks',
-        component: ComponentCreator('/docs/processing/databricks/lab-cybersecurity-databricks', '429'),
-        exact: true
+        component: ComponentCreator('/docs/processing/databricks/lab-cybersecurity-databricks', 'aae'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/processing/databricks/lab-data-processing-azure-dbr',
+        component: ComponentCreator('/docs/processing/databricks/lab-data-processing-azure-dbr', '368'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/databricks/lab-databricks-clickstream',
-        component: ComponentCreator('/docs/processing/databricks/lab-databricks-clickstream', 'a87'),
-        exact: true
+        component: ComponentCreator('/docs/processing/databricks/lab-databricks-clickstream', 'ff3'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/databricks/lab-databricks-deltalake',
-        component: ComponentCreator('/docs/processing/databricks/lab-databricks-deltalake', '12d'),
-        exact: true
+        component: ComponentCreator('/docs/processing/databricks/lab-databricks-deltalake', '3ba'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/databricks/lab-databricks-pyspark-s3',
@@ -2658,33 +2768,39 @@ export default [
       },
       {
         path: '/docs/processing/databricks/lab-databricks-scala-postgres-s3',
-        component: ComponentCreator('/docs/processing/databricks/lab-databricks-scala-postgres-s3', '979'),
-        exact: true
+        component: ComponentCreator('/docs/processing/databricks/lab-databricks-scala-postgres-s3', 'fa0'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/databricks/lab-deltalake-optimizations',
-        component: ComponentCreator('/docs/processing/databricks/lab-deltalake-optimizations', '36c'),
-        exact: true
+        component: ComponentCreator('/docs/processing/databricks/lab-deltalake-optimizations', '5df'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/databricks/lab-dlt-dbt',
-        component: ComponentCreator('/docs/processing/databricks/lab-dlt-dbt', 'bcf'),
-        exact: true
+        component: ComponentCreator('/docs/processing/databricks/lab-dlt-dbt', 'e6d'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/databricks/lab-healthcare-databricks',
-        component: ComponentCreator('/docs/processing/databricks/lab-healthcare-databricks', 'bff'),
-        exact: true
+        component: ComponentCreator('/docs/processing/databricks/lab-healthcare-databricks', '8b1'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/databricks/lab-iot-health-tracker',
-        component: ComponentCreator('/docs/processing/databricks/lab-iot-health-tracker', 'a99'),
-        exact: true
+        component: ComponentCreator('/docs/processing/databricks/lab-iot-health-tracker', '57f'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/databricks/lab-loan-application',
-        component: ComponentCreator('/docs/processing/databricks/lab-loan-application', 'e3a'),
-        exact: true
+        component: ComponentCreator('/docs/processing/databricks/lab-loan-application', '686'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/databricks/lab-pyspark-itversity',
@@ -2693,33 +2809,39 @@ export default [
       },
       {
         path: '/docs/processing/databricks/lab-retail-pos-databricks',
-        component: ComponentCreator('/docs/processing/databricks/lab-retail-pos-databricks', '7e6'),
-        exact: true
+        component: ComponentCreator('/docs/processing/databricks/lab-retail-pos-databricks', 'fde'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/databricks/project-advancedbricks',
-        component: ComponentCreator('/docs/processing/databricks/project-advancedbricks', 'a66'),
-        exact: true
+        component: ComponentCreator('/docs/processing/databricks/project-advancedbricks', 'b4c'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/databricks/project-bedbricks',
-        component: ComponentCreator('/docs/processing/databricks/project-bedbricks', 'cdf'),
-        exact: true
+        component: ComponentCreator('/docs/processing/databricks/project-bedbricks', 'e25'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/databricks/project-databricks-de',
-        component: ComponentCreator('/docs/processing/databricks/project-databricks-de', '149'),
-        exact: true
+        component: ComponentCreator('/docs/processing/databricks/project-databricks-de', '51e'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/databricks/project-databricks-superset',
-        component: ComponentCreator('/docs/processing/databricks/project-databricks-superset', '26b'),
-        exact: true
+        component: ComponentCreator('/docs/processing/databricks/project-databricks-superset', '16a'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/databricks/project-learnerbricks',
-        component: ComponentCreator('/docs/processing/databricks/project-learnerbricks', '80f'),
-        exact: true
+        component: ComponentCreator('/docs/processing/databricks/project-learnerbricks', '510'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/databricks/setup',
@@ -2733,48 +2855,63 @@ export default [
       },
       {
         path: '/docs/processing/gcp-dataproc',
-        component: ComponentCreator('/docs/processing/gcp-dataproc', '17e'),
-        exact: true
+        component: ComponentCreator('/docs/processing/gcp-dataproc', 'a90'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/gcp-pubsub',
-        component: ComponentCreator('/docs/processing/gcp-pubsub', 'c9f'),
-        exact: true
+        component: ComponentCreator('/docs/processing/gcp-pubsub', '76a'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/lab-azure-hdinsight-simple-data-processing',
-        component: ComponentCreator('/docs/processing/lab-azure-hdinsight-simple-data-processing', 'b0e'),
-        exact: true
+        component: ComponentCreator('/docs/processing/lab-azure-hdinsight-simple-data-processing', '9d2'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/lab-azure-synapse-data-processing',
-        component: ComponentCreator('/docs/processing/lab-azure-synapse-data-processing', 'd82'),
-        exact: true
+        component: ComponentCreator('/docs/processing/lab-azure-synapse-data-processing', '277'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/lab-azure-synapse-dataflows',
-        component: ComponentCreator('/docs/processing/lab-azure-synapse-dataflows', 'bd8'),
-        exact: true
+        component: ComponentCreator('/docs/processing/lab-azure-synapse-dataflows', 'ec0'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/lab-azure-synapse-implementing-star-schema',
-        component: ComponentCreator('/docs/processing/lab-azure-synapse-implementing-star-schema', 'e38'),
-        exact: true
+        component: ComponentCreator('/docs/processing/lab-azure-synapse-implementing-star-schema', 'f95'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/lab-confluent-kafka-faker',
-        component: ComponentCreator('/docs/processing/lab-confluent-kafka-faker', 'ee2'),
-        exact: true
+        component: ComponentCreator('/docs/processing/lab-confluent-kafka-faker', 'bba'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/processing/lab-confluent-python',
+        component: ComponentCreator('/docs/processing/lab-confluent-python', '8dd'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/lab-csv-to-parquet-conversion',
-        component: ComponentCreator('/docs/processing/lab-csv-to-parquet-conversion', 'c55'),
-        exact: true
+        component: ComponentCreator('/docs/processing/lab-csv-to-parquet-conversion', 'f6c'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/lab-dataflow-bigquery-etl',
-        component: ComponentCreator('/docs/processing/lab-dataflow-bigquery-etl', '772'),
-        exact: true
+        component: ComponentCreator('/docs/processing/lab-dataflow-bigquery-etl', '680'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/lab-dbt-jaffle-shop',
@@ -2833,83 +2970,99 @@ export default [
       },
       {
         path: '/docs/processing/lab-emr-serverless',
-        component: ComponentCreator('/docs/processing/lab-emr-serverless', '215'),
-        exact: true
+        component: ComponentCreator('/docs/processing/lab-emr-serverless', '858'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/lab-gcp-beam-mapreduce',
-        component: ComponentCreator('/docs/processing/lab-gcp-beam-mapreduce', '875'),
-        exact: true
+        component: ComponentCreator('/docs/processing/lab-gcp-beam-mapreduce', 'b71'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/lab-gcp-dataflow-batch-pipeline',
-        component: ComponentCreator('/docs/processing/lab-gcp-dataflow-batch-pipeline', '9f3'),
-        exact: true
+        component: ComponentCreator('/docs/processing/lab-gcp-dataflow-batch-pipeline', 'ef9'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/lab-gcp-dataflow-pipeline',
-        component: ComponentCreator('/docs/processing/lab-gcp-dataflow-pipeline', '5f0'),
-        exact: true
+        component: ComponentCreator('/docs/processing/lab-gcp-dataflow-pipeline', 'cb8'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/lab-gcp-dataflow-side-inputs',
-        component: ComponentCreator('/docs/processing/lab-gcp-dataflow-side-inputs', '486'),
-        exact: true
+        component: ComponentCreator('/docs/processing/lab-gcp-dataflow-side-inputs', '82d'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/lab-gcp-dataflow-stream-pipeline',
-        component: ComponentCreator('/docs/processing/lab-gcp-dataflow-stream-pipeline', '0c1'),
-        exact: true
+        component: ComponentCreator('/docs/processing/lab-gcp-dataflow-stream-pipeline', '2f3'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/lab-gcp-dataprep',
-        component: ComponentCreator('/docs/processing/lab-gcp-dataprep', '7b6'),
-        exact: true
+        component: ComponentCreator('/docs/processing/lab-gcp-dataprep', '897'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/lab-gcp-dataproc',
-        component: ComponentCreator('/docs/processing/lab-gcp-dataproc', 'daa'),
-        exact: true
+        component: ComponentCreator('/docs/processing/lab-gcp-dataproc', 'a5a'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/lab-gcp-pubsub',
-        component: ComponentCreator('/docs/processing/lab-gcp-pubsub', '276'),
-        exact: true
+        component: ComponentCreator('/docs/processing/lab-gcp-pubsub', '01f'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/lab-gcp-pubsub-processing',
-        component: ComponentCreator('/docs/processing/lab-gcp-pubsub-processing', 'cc0'),
-        exact: true
+        component: ComponentCreator('/docs/processing/lab-gcp-pubsub-processing', 'd2c'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/lab-gcp-serverless-dataflow',
-        component: ComponentCreator('/docs/processing/lab-gcp-serverless-dataflow', '1d0'),
-        exact: true
+        component: ComponentCreator('/docs/processing/lab-gcp-serverless-dataflow', '9e1'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/lab-getting-started-with-beam',
-        component: ComponentCreator('/docs/processing/lab-getting-started-with-beam', 'c19'),
-        exact: true
+        component: ComponentCreator('/docs/processing/lab-getting-started-with-beam', '8e6'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/lab-glue-advanced',
-        component: ComponentCreator('/docs/processing/lab-glue-advanced', 'eb0'),
-        exact: true
+        component: ComponentCreator('/docs/processing/lab-glue-advanced', '521'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/lab-glue-deltalake-cdc-upsert',
-        component: ComponentCreator('/docs/processing/lab-glue-deltalake-cdc-upsert', 'bac'),
-        exact: true
+        component: ComponentCreator('/docs/processing/lab-glue-deltalake-cdc-upsert', 'e7b'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/lab-glue-studio-custom-transforms',
-        component: ComponentCreator('/docs/processing/lab-glue-studio-custom-transforms', '2f8'),
-        exact: true
+        component: ComponentCreator('/docs/processing/lab-glue-studio-custom-transforms', '93c'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/lab-glue-studio-tickets',
-        component: ComponentCreator('/docs/processing/lab-glue-studio-tickets', '82f'),
-        exact: true
+        component: ComponentCreator('/docs/processing/lab-glue-studio-tickets', '390'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/lab-kafka-cli',
@@ -2953,28 +3106,33 @@ export default [
       },
       {
         path: '/docs/processing/lab-kinesis-apache-logs',
-        component: ComponentCreator('/docs/processing/lab-kinesis-apache-logs', '082'),
-        exact: true
+        component: ComponentCreator('/docs/processing/lab-kinesis-apache-logs', 'd7f'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/lab-kinesis-clickstream-anomaly',
-        component: ComponentCreator('/docs/processing/lab-kinesis-clickstream-anomaly', 'b80'),
-        exact: true
+        component: ComponentCreator('/docs/processing/lab-kinesis-clickstream-anomaly', '053'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/lab-lambda-csv-parquet',
-        component: ComponentCreator('/docs/processing/lab-lambda-csv-parquet', 'fec'),
-        exact: true
+        component: ComponentCreator('/docs/processing/lab-lambda-csv-parquet', 'c2e'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/lab-ray-air-basics',
-        component: ComponentCreator('/docs/processing/lab-ray-air-basics', '56b'),
-        exact: true
+        component: ComponentCreator('/docs/processing/lab-ray-air-basics', '24d'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/lab-ray-core-basics',
-        component: ComponentCreator('/docs/processing/lab-ray-core-basics', 'cc0'),
-        exact: true
+        component: ComponentCreator('/docs/processing/lab-ray-core-basics', '53d'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/lab-snowpark-churnpark',
@@ -3013,8 +3171,9 @@ export default [
       },
       {
         path: '/docs/processing/ray',
-        component: ComponentCreator('/docs/processing/ray', 'd20'),
-        exact: true
+        component: ComponentCreator('/docs/processing/ray', '5bd'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/snowpark',
@@ -3023,68 +3182,81 @@ export default [
       },
       {
         path: '/docs/storage/apache-couchdb',
-        component: ComponentCreator('/docs/storage/apache-couchdb', 'bf6'),
-        exact: true
+        component: ComponentCreator('/docs/storage/apache-couchdb', '404'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/apache-hudi',
-        component: ComponentCreator('/docs/storage/apache-hudi', '784'),
-        exact: true
+        component: ComponentCreator('/docs/storage/apache-hudi', '318'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/apache-iceberg',
-        component: ComponentCreator('/docs/storage/apache-iceberg', 'd99'),
-        exact: true
+        component: ComponentCreator('/docs/storage/apache-iceberg', 'a38'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/arrow',
-        component: ComponentCreator('/docs/storage/arrow', '05e'),
-        exact: true
+        component: ComponentCreator('/docs/storage/arrow', '0d2'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/athena',
-        component: ComponentCreator('/docs/storage/athena', '15b'),
-        exact: true
+        component: ComponentCreator('/docs/storage/athena', '7d5'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/avro',
-        component: ComponentCreator('/docs/storage/avro', 'bfd'),
-        exact: true
+        component: ComponentCreator('/docs/storage/avro', '07a'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/avro-vs-parquet-vs-orc',
-        component: ComponentCreator('/docs/storage/avro-vs-parquet-vs-orc', '88c'),
-        exact: true
+        component: ComponentCreator('/docs/storage/avro-vs-parquet-vs-orc', '91c'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/aws-dynamodb',
-        component: ComponentCreator('/docs/storage/aws-dynamodb', 'ee5'),
-        exact: true
+        component: ComponentCreator('/docs/storage/aws-dynamodb', 'b92'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/azure-datalake',
-        component: ComponentCreator('/docs/storage/azure-datalake', 'fea'),
-        exact: true
+        component: ComponentCreator('/docs/storage/azure-datalake', '011'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/azure-sql',
-        component: ComponentCreator('/docs/storage/azure-sql', '343'),
-        exact: true
+        component: ComponentCreator('/docs/storage/azure-sql', '606'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/bigquery',
-        component: ComponentCreator('/docs/storage/bigquery', '3cb'),
-        exact: true
+        component: ComponentCreator('/docs/storage/bigquery', 'f7c'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/casestudy-messflix-hypothetical',
-        component: ComponentCreator('/docs/storage/casestudy-messflix-hypothetical', 'd9c'),
-        exact: true
+        component: ComponentCreator('/docs/storage/casestudy-messflix-hypothetical', 'e3a'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/cassandra',
-        component: ComponentCreator('/docs/storage/cassandra', '458'),
-        exact: true
+        component: ComponentCreator('/docs/storage/cassandra', '9cf'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/code-snippets',
@@ -3098,108 +3270,129 @@ export default [
       },
       {
         path: '/docs/storage/csv',
-        component: ComponentCreator('/docs/storage/csv', '968'),
-        exact: true
+        component: ComponentCreator('/docs/storage/csv', 'fc9'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/data-lakehouses',
-        component: ComponentCreator('/docs/storage/data-lakehouses', '5bb'),
-        exact: true
+        component: ComponentCreator('/docs/storage/data-lakehouses', '142'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/data-mesh-basics',
-        component: ComponentCreator('/docs/storage/data-mesh-basics', '6fc'),
-        exact: true
+        component: ComponentCreator('/docs/storage/data-mesh-basics', '12a'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/data-warehouses',
-        component: ComponentCreator('/docs/storage/data-warehouses', '462'),
-        exact: true
+        component: ComponentCreator('/docs/storage/data-warehouses', '16b'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/storage/database-links',
+        component: ComponentCreator('/docs/storage/database-links', 'c3e'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/database-storage-engines',
-        component: ComponentCreator('/docs/storage/database-storage-engines', 'c15'),
-        exact: true
-      },
-      {
-        path: '/docs/storage/datalake-components',
-        component: ComponentCreator('/docs/storage/datalake-components', '089'),
-        exact: true
+        component: ComponentCreator('/docs/storage/database-storage-engines', '578'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/datalakes',
-        component: ComponentCreator('/docs/storage/datalakes', 'feb'),
-        exact: true
+        component: ComponentCreator('/docs/storage/datalakes', 'd9d'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/deltalake',
-        component: ComponentCreator('/docs/storage/deltalake', '357'),
-        exact: true
+        component: ComponentCreator('/docs/storage/deltalake', '049'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/duckdb',
-        component: ComponentCreator('/docs/storage/duckdb', '9da'),
-        exact: true
+        component: ComponentCreator('/docs/storage/duckdb', '729'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/gcp-bigtable',
-        component: ComponentCreator('/docs/storage/gcp-bigtable', '3ae'),
-        exact: true
+        component: ComponentCreator('/docs/storage/gcp-bigtable', '8df'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/gcp-cloudsql',
-        component: ComponentCreator('/docs/storage/gcp-cloudsql', '53e'),
-        exact: true
+        component: ComponentCreator('/docs/storage/gcp-cloudsql', '1b0'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/gcs',
-        component: ComponentCreator('/docs/storage/gcs', 'c7d'),
-        exact: true
-      },
-      {
-        path: '/docs/storage/hadoop-vs-datalake',
-        component: ComponentCreator('/docs/storage/hadoop-vs-datalake', '103'),
-        exact: true
+        component: ComponentCreator('/docs/storage/gcs', '1a9'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/hudi',
-        component: ComponentCreator('/docs/storage/hudi', '5c3'),
-        exact: true
+        component: ComponentCreator('/docs/storage/hudi', '855'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/iceberg',
-        component: ComponentCreator('/docs/storage/iceberg', '5bf'),
-        exact: true
+        component: ComponentCreator('/docs/storage/iceberg', 'c3e'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/interview-questions',
-        component: ComponentCreator('/docs/storage/interview-questions', 'a66'),
-        exact: true
+        component: ComponentCreator('/docs/storage/interview-questions', 'b8d'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/json',
-        component: ComponentCreator('/docs/storage/json', '928'),
-        exact: true
+        component: ComponentCreator('/docs/storage/json', 'f8f'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/storage/lab-adl-create-manage-data',
+        component: ComponentCreator('/docs/storage/lab-adl-create-manage-data', 'e17'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/lab-adl-securing-monitoring-lakes',
-        component: ComponentCreator('/docs/storage/lab-adl-securing-monitoring-lakes', '5af'),
-        exact: true
+        component: ComponentCreator('/docs/storage/lab-adl-securing-monitoring-lakes', '19f'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/lab-amazon-keyspaces',
-        component: ComponentCreator('/docs/storage/lab-amazon-keyspaces', '20f'),
-        exact: true
+        component: ComponentCreator('/docs/storage/lab-amazon-keyspaces', '3ff'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/lab-aws-rds-service',
-        component: ComponentCreator('/docs/storage/lab-aws-rds-service', '685'),
-        exact: true
+        component: ComponentCreator('/docs/storage/lab-aws-rds-service', 'fd0'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/lab-azure-sql-securing-databases',
-        component: ComponentCreator('/docs/storage/lab-azure-sql-securing-databases', '070'),
-        exact: true
+        component: ComponentCreator('/docs/storage/lab-azure-sql-securing-databases', '14b'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/lab-bigquery-analysis',
@@ -3248,33 +3441,51 @@ export default [
       },
       {
         path: '/docs/storage/lab-couchdb-movies-data-migration',
-        component: ComponentCreator('/docs/storage/lab-couchdb-movies-data-migration', '0fd'),
-        exact: true
+        component: ComponentCreator('/docs/storage/lab-couchdb-movies-data-migration', 'f0c'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/lab-data-loading-python',
-        component: ComponentCreator('/docs/storage/lab-data-loading-python', '976'),
-        exact: true
+        component: ComponentCreator('/docs/storage/lab-data-loading-python', 'c54'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/lab-datalake-healthcare-s3-glue-athena',
-        component: ComponentCreator('/docs/storage/lab-datalake-healthcare-s3-glue-athena', '84f'),
-        exact: true
+        component: ComponentCreator('/docs/storage/lab-datalake-healthcare-s3-glue-athena', '127'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/lab-db2-bookshop-petsale-data-ingestion',
-        component: ComponentCreator('/docs/storage/lab-db2-bookshop-petsale-data-ingestion', '1b7'),
-        exact: true
+        component: ComponentCreator('/docs/storage/lab-db2-bookshop-petsale-data-ingestion', '378'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/storage/lab-duckdb-analytics-bank-tpch-nyctaxi',
+        component: ComponentCreator('/docs/storage/lab-duckdb-analytics-bank-tpch-nyctaxi', '236'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/lab-gcp-cloudsql-nyctaxi',
-        component: ComponentCreator('/docs/storage/lab-gcp-cloudsql-nyctaxi', '7fb'),
-        exact: true
+        component: ComponentCreator('/docs/storage/lab-gcp-cloudsql-nyctaxi', 'd25'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/lab-gcp-streaming-bigtable',
-        component: ComponentCreator('/docs/storage/lab-gcp-streaming-bigtable', '57c'),
-        exact: true
+        component: ComponentCreator('/docs/storage/lab-gcp-streaming-bigtable', 'bde'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/storage/lab-getting-started-with-cassandra',
+        component: ComponentCreator('/docs/storage/lab-getting-started-with-cassandra', '9ab'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/lab-getting-started-with-cassandra/cassandra-cli',
@@ -3288,18 +3499,21 @@ export default [
       },
       {
         path: '/docs/storage/lab-glue-emr-iceberg-serverless-lakehouse',
-        component: ComponentCreator('/docs/storage/lab-glue-emr-iceberg-serverless-lakehouse', 'fff'),
-        exact: true
+        component: ComponentCreator('/docs/storage/lab-glue-emr-iceberg-serverless-lakehouse', 'db2'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/lab-intro-to-dynamodb',
-        component: ComponentCreator('/docs/storage/lab-intro-to-dynamodb', '897'),
-        exact: true
+        component: ComponentCreator('/docs/storage/lab-intro-to-dynamodb', 'a1a'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/lab-mongodb-basics',
-        component: ComponentCreator('/docs/storage/lab-mongodb-basics', 'f41'),
-        exact: true
+        component: ComponentCreator('/docs/storage/lab-mongodb-basics', 'f9c'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/lab-mongodb-pandas',
@@ -3308,63 +3522,69 @@ export default [
       },
       {
         path: '/docs/storage/lab-mysql-data-ingestion',
-        component: ComponentCreator('/docs/storage/lab-mysql-data-ingestion', '96a'),
-        exact: true
+        component: ComponentCreator('/docs/storage/lab-mysql-data-ingestion', '935'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/lab-mysql-police-api-etl',
-        component: ComponentCreator('/docs/storage/lab-mysql-police-api-etl', 'b35'),
-        exact: true
+        component: ComponentCreator('/docs/storage/lab-mysql-police-api-etl', 'a98'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/lab-postgres-bash-etl',
-        component: ComponentCreator('/docs/storage/lab-postgres-bash-etl', 'ec4'),
-        exact: true
+        component: ComponentCreator('/docs/storage/lab-postgres-bash-etl', '44a'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/lab-postgres-crime-reports',
-        component: ComponentCreator('/docs/storage/lab-postgres-crime-reports', 'c7c'),
-        exact: true
+        component: ComponentCreator('/docs/storage/lab-postgres-crime-reports', 'fd0'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/lab-postgres-getting-started',
-        component: ComponentCreator('/docs/storage/lab-postgres-getting-started', '4c6'),
-        exact: true
+        component: ComponentCreator('/docs/storage/lab-postgres-getting-started', '56b'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/lab-postgres-trips-stored-procedure',
-        component: ComponentCreator('/docs/storage/lab-postgres-trips-stored-procedure', 'b3c'),
-        exact: true
+        component: ComponentCreator('/docs/storage/lab-postgres-trips-stored-procedure', '400'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/lab-processing-json-data',
-        component: ComponentCreator('/docs/storage/lab-processing-json-data', '31f'),
-        exact: true
+        component: ComponentCreator('/docs/storage/lab-processing-json-data', '858'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/lab-production-cleaning-deltalake',
-        component: ComponentCreator('/docs/storage/lab-production-cleaning-deltalake', '86a'),
-        exact: true
+        component: ComponentCreator('/docs/storage/lab-production-cleaning-deltalake', '7ca'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/lab-read-s3-delta-in-python',
-        component: ComponentCreator('/docs/storage/lab-read-s3-delta-in-python', '5c7'),
-        exact: true
+        component: ComponentCreator('/docs/storage/lab-read-s3-delta-in-python', '404'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/lab-redshift-data-loading',
-        component: ComponentCreator('/docs/storage/lab-redshift-data-loading', 'c7a'),
-        exact: true
+        component: ComponentCreator('/docs/storage/lab-redshift-data-loading', '53d'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/lab-redshift-data-loading-analysis',
-        component: ComponentCreator('/docs/storage/lab-redshift-data-loading-analysis', '1de'),
-        exact: true
-      },
-      {
-        path: '/docs/storage/lab-redshift-data-loading-python',
-        component: ComponentCreator('/docs/storage/lab-redshift-data-loading-python', '103'),
-        exact: true
+        component: ComponentCreator('/docs/storage/lab-redshift-data-loading-analysis', 'c5a'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/lab-redshift-immersion',
@@ -3378,38 +3598,45 @@ export default [
       },
       {
         path: '/docs/storage/lab-redshift-ongoing-load-elt',
-        component: ComponentCreator('/docs/storage/lab-redshift-ongoing-load-elt', '9ac'),
-        exact: true
+        component: ComponentCreator('/docs/storage/lab-redshift-ongoing-load-elt', '506'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/lab-redshift-scd',
-        component: ComponentCreator('/docs/storage/lab-redshift-scd', 'a7a'),
-        exact: true
+        component: ComponentCreator('/docs/storage/lab-redshift-scd', '591'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/lab-redshift-scd-2',
-        component: ComponentCreator('/docs/storage/lab-redshift-scd-2', '32f'),
-        exact: true
+        component: ComponentCreator('/docs/storage/lab-redshift-scd-2', '7c4'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/lab-redshift-spectrum-query-datalake',
-        component: ComponentCreator('/docs/storage/lab-redshift-spectrum-query-datalake', 'a7c'),
-        exact: true
+        component: ComponentCreator('/docs/storage/lab-redshift-spectrum-query-datalake', '06e'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/lab-redshift-spectrum-query-tuning',
-        component: ComponentCreator('/docs/storage/lab-redshift-spectrum-query-tuning', 'ab8'),
-        exact: true
+        component: ComponentCreator('/docs/storage/lab-redshift-spectrum-query-tuning', '8e7'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/lab-redshift-table-design-query-tuning',
-        component: ComponentCreator('/docs/storage/lab-redshift-table-design-query-tuning', 'bd8'),
-        exact: true
+        component: ComponentCreator('/docs/storage/lab-redshift-table-design-query-tuning', 'bbf'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/lab-scd-glue-delta',
-        component: ComponentCreator('/docs/storage/lab-scd-glue-delta', '67d'),
-        exact: true
+        component: ComponentCreator('/docs/storage/lab-scd-glue-delta', '738'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/lab-snowflake-getting-started',
@@ -3428,13 +3655,15 @@ export default [
       },
       {
         path: '/docs/storage/lab-sqlite-basics',
-        component: ComponentCreator('/docs/storage/lab-sqlite-basics', 'a4f'),
-        exact: true
+        component: ComponentCreator('/docs/storage/lab-sqlite-basics', '6ca'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/lab-sqlite-hipolabs-api',
-        component: ComponentCreator('/docs/storage/lab-sqlite-hipolabs-api', 'bc5'),
-        exact: true
+        component: ComponentCreator('/docs/storage/lab-sqlite-hipolabs-api', 'd62'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/lab-zero-to-snowflake',
@@ -3443,73 +3672,111 @@ export default [
       },
       {
         path: '/docs/storage/mongodb',
-        component: ComponentCreator('/docs/storage/mongodb', '734'),
-        exact: true
+        component: ComponentCreator('/docs/storage/mongodb', 'f06'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/mysql',
-        component: ComponentCreator('/docs/storage/mysql', '845'),
-        exact: true
+        component: ComponentCreator('/docs/storage/mysql', 'efc'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/orc',
-        component: ComponentCreator('/docs/storage/orc', '9b0'),
-        exact: true
+        component: ComponentCreator('/docs/storage/orc', '405'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/parquet',
-        component: ComponentCreator('/docs/storage/parquet', 'da0'),
-        exact: true
+        component: ComponentCreator('/docs/storage/parquet', 'f1b'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/parquet-vs-csv',
-        component: ComponentCreator('/docs/storage/parquet-vs-csv', '047'),
-        exact: true
+        component: ComponentCreator('/docs/storage/parquet-vs-csv', '088'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/postgres',
-        component: ComponentCreator('/docs/storage/postgres', '2f4'),
-        exact: true
+        component: ComponentCreator('/docs/storage/postgres', '39b'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/postgres-vs-mysql',
-        component: ComponentCreator('/docs/storage/postgres-vs-mysql', '13f'),
-        exact: true
+        component: ComponentCreator('/docs/storage/postgres-vs-mysql', '8f6'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/project-athena-federated',
-        component: ComponentCreator('/docs/storage/project-athena-federated', '9aa'),
-        exact: true
+        component: ComponentCreator('/docs/storage/project-athena-federated', '02a'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/redshift',
-        component: ComponentCreator('/docs/storage/redshift', 'bf4'),
-        exact: true
+        component: ComponentCreator('/docs/storage/redshift', 'b36'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/serialization',
-        component: ComponentCreator('/docs/storage/serialization', '52c'),
-        exact: true
+        component: ComponentCreator('/docs/storage/serialization', 'eb3'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/snowflake',
-        component: ComponentCreator('/docs/storage/snowflake', 'a01'),
-        exact: true
+        component: ComponentCreator('/docs/storage/snowflake', 'e43'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/sqlite',
-        component: ComponentCreator('/docs/storage/sqlite', '140'),
-        exact: true
+        component: ComponentCreator('/docs/storage/sqlite', 'f4e'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/storage/warehouse-links',
+        component: ComponentCreator('/docs/storage/warehouse-links', 'c1c'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/why-datalakes',
-        component: ComponentCreator('/docs/storage/why-datalakes', '1fa'),
-        exact: true
+        component: ComponentCreator('/docs/storage/why-datalakes', 'd05'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/xml',
-        component: ComponentCreator('/docs/storage/xml', '63e'),
-        exact: true
+        component: ComponentCreator('/docs/storage/xml', '169'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/system-design',
+        component: ComponentCreator('/docs/system-design', 'bc3'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/system-design/databricks-case-studies',
+        component: ComponentCreator('/docs/system-design/databricks-case-studies', '9a9'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/system-design/examples',
+        component: ComponentCreator('/docs/system-design/examples', '52b'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/visualization',
@@ -3518,8 +3785,9 @@ export default [
       },
       {
         path: '/docs/visualization/flask',
-        component: ComponentCreator('/docs/visualization/flask', 'b82'),
-        exact: true
+        component: ComponentCreator('/docs/visualization/flask', '1de'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/visualization/looker-studio',
@@ -3528,18 +3796,21 @@ export default [
       },
       {
         path: '/docs/visualization/looker-studio/lab-gcp-streaming-analytics',
-        component: ComponentCreator('/docs/visualization/looker-studio/lab-gcp-streaming-analytics', 'f60'),
-        exact: true
+        component: ComponentCreator('/docs/visualization/looker-studio/lab-gcp-streaming-analytics', '40a'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/visualization/preset',
-        component: ComponentCreator('/docs/visualization/preset', '7c7'),
-        exact: true
+        component: ComponentCreator('/docs/visualization/preset', '26f'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/visualization/streamlit',
-        component: ComponentCreator('/docs/visualization/streamlit', '529'),
-        exact: true
+        component: ComponentCreator('/docs/visualization/streamlit', 'f88'),
+        exact: true,
+        sidebar: "docs"
       }
     ]
   },

@@ -1,7 +1,7 @@
 {
   "unversionedId": "storage/lab-sqlite-hipolabs-api/README",
   "id": "storage/lab-sqlite-hipolabs-api/README",
-  "title": "Edu Hipolabs API",
+  "title": "Lab: SQLite Edu Hipolabs API",
   "description": "Objective",
   "source": "@site/docs/02-storage/lab-sqlite-hipolabs-api/README.md",
   "sourceDirName": "02-storage/lab-sqlite-hipolabs-api",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: DuckDB",
+    "permalink": "/docs/storage/lab-duckdb-analytics-bank-tpch-nyctaxi/"
+  },
+  "next": {
+    "title": "Links",
+    "permalink": "/docs/storage/database-links"
+  }
 }

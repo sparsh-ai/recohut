@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/databricks/lab-data-processing-azure-dbr/README",
+  "id": "processing/databricks/lab-data-processing-azure-dbr/README",
+  "title": "Lab: Processing Data Using Azure Databricks",
+  "description": "Files",
+  "source": "@site/docs/03-processing/databricks/lab-data-processing-azure-dbr/README.md",
+  "sourceDirName": "03-processing/databricks/lab-data-processing-azure-dbr",
+  "slug": "/processing/databricks/lab-data-processing-azure-dbr/",
+  "permalink": "/docs/processing/databricks/lab-data-processing-azure-dbr/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Real-Time Point-of-Sale Analytics With the Data Lakehouse",
+    "permalink": "/docs/processing/databricks/lab-retail-pos-databricks/"
+  },
+  "next": {
+    "title": "Project: Data Engineering with Databricks",
+    "permalink": "/docs/processing/databricks/project-databricks-de/"
+  }
+}

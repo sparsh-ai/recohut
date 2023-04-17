@@ -1,4 +1,4 @@
-# GCP Dataflow Size Inputs
+# Lab: GCP Dataflow Size Inputs
 
 ## Objective
 

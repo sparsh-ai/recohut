@@ -1,0 +1,26 @@
+{
+  "unversionedId": "system-design/databricks-case-studies",
+  "id": "system-design/databricks-case-studies",
+  "title": "Databricks Case Studies",
+  "description": "Data teams across the world are using Databricks to solve the toughest data problems. Every Databricks success story brings a unique set of challenges and new learning for architects and data professionals. Databricks can be used as a transformation layer, a real-time streaming engine, or a solution for machine learning and advanced analytics. In this note, we will look at several real-world case study examples and learn how Databricks is used to help drive innovation across various industries around the world.",
+  "source": "@site/docs/system-design/databricks-case-studies.md",
+  "sourceDirName": "system-design",
+  "slug": "/system-design/databricks-case-studies",
+  "permalink": "/docs/system-design/databricks-case-studies",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "System Design Examples",
+    "permalink": "/docs/system-design/examples"
+  },
+  "next": {
+    "title": "Cloud Computing Basics",
+    "permalink": "/docs/foundations/cloud/cloud-basics"
+  }
+}

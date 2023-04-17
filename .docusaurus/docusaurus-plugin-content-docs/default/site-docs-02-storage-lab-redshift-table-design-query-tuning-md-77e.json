@@ -1,7 +1,7 @@
 {
   "unversionedId": "storage/lab-redshift-table-design-query-tuning",
   "id": "storage/lab-redshift-table-design-query-tuning",
-  "title": "Redshift Table Design and Query Tuning",
+  "title": "Lab: Redshift Table Design and Query Tuning",
   "description": "1. Setting distribution and sort keys",
   "source": "@site/docs/02-storage/lab-redshift-table-design-query-tuning.md",
   "sourceDirName": "02-storage",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Redshift Data Loading and Analysis",
+    "permalink": "/docs/storage/lab-redshift-data-loading-analysis"
+  },
+  "next": {
+    "title": "Lab: Implement a slowly changing dimension in Redshift",
+    "permalink": "/docs/storage/lab-redshift-scd"
+  }
 }

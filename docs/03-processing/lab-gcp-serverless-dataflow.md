@@ -1,4 +1,4 @@
-# GCP Serverless Dataflow
+# Lab: GCP Serverless Dataflow
 
 ## Objective
 

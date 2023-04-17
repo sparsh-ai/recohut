@@ -1,7 +1,7 @@
 {
   "unversionedId": "processing/lab-gcp-dataprep",
   "id": "processing/lab-gcp-dataprep",
-  "title": "GCP Dataprep",
+  "title": "Lab: GCP Dataprep",
   "description": "Creating a Data Transformation Pipeline with Cloud Dataprep",
   "source": "@site/docs/03-processing/lab-gcp-dataprep.md",
   "sourceDirName": "03-processing",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Implementing the Serving Layer Star Schema",
+    "permalink": "/docs/processing/lab-azure-synapse-implementing-star-schema/"
+  },
+  "next": {
+    "title": "Pub/Sub",
+    "permalink": "/docs/processing/gcp-pubsub"
+  }
 }

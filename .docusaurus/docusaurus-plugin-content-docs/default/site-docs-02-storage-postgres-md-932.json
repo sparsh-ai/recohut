@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: JSON Data Processing",
+    "permalink": "/docs/storage/lab-processing-json-data/"
+  },
+  "next": {
+    "title": "MySQL",
+    "permalink": "/docs/storage/mysql"
+  }
 }

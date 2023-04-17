@@ -1,0 +1,26 @@
+{
+  "unversionedId": "foundations/language/pyspark/lab-calculating-partitions/README",
+  "id": "foundations/language/pyspark/lab-calculating-partitions/README",
+  "title": "Calculating Spark Partitions",
+  "description": "nbviewer",
+  "source": "@site/docs/01-foundations/language/pyspark/lab-calculating-partitions/README.md",
+  "sourceDirName": "01-foundations/language/pyspark/lab-calculating-partitions",
+  "slug": "/foundations/language/pyspark/lab-calculating-partitions/",
+  "permalink": "/docs/foundations/language/pyspark/lab-calculating-partitions/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: S3 Postgres Scala",
+    "permalink": "/docs/processing/databricks/lab-databricks-scala-postgres-s3/"
+  },
+  "next": {
+    "title": "Getting Started with Scala",
+    "permalink": "/docs/foundations/language/scala/lab-scala-getting-started/"
+  }
+}

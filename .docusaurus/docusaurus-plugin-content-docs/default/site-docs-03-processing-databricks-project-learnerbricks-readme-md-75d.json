@@ -1,7 +1,7 @@
 {
   "unversionedId": "processing/databricks/project-learnerbricks/README",
   "id": "processing/databricks/project-learnerbricks/README",
-  "title": "Data Engineer Learner Path with Databricks",
+  "title": "Project: Data Engineer Learner Path with Databricks",
   "description": "The Data Engineering with Databricks (DEWD) course is designed to prepare students for the Databricks Certified Associate Data Engineer certification exam. The content for this course consists of the Associate-level modules of the Data Engineer Learning Path, and can be delivered as an instructor-led training (ILT) or self-paced (SP) course.",
   "source": "@site/docs/03-processing/databricks/project-learnerbricks/README.md",
   "sourceDirName": "03-processing/databricks/project-learnerbricks",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Project: Data Engineering with Databricks",
+    "permalink": "/docs/processing/databricks/project-databricks-de/"
+  },
+  "next": {
+    "title": "Project: AdvancedBricks",
+    "permalink": "/docs/processing/databricks/project-advancedbricks/"
+  }
 }

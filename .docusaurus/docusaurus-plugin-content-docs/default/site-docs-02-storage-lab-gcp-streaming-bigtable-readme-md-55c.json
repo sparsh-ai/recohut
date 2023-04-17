@@ -1,7 +1,7 @@
 {
   "unversionedId": "storage/lab-gcp-streaming-bigtable/README",
   "id": "storage/lab-gcp-streaming-bigtable/README",
-  "title": "Lab - GCP Streaming Bigtable",
+  "title": "Lab: GCP Streaming Bigtable",
   "description": "Objective",
   "source": "@site/docs/02-storage/lab-gcp-streaming-bigtable/README.md",
   "sourceDirName": "02-storage/lab-gcp-streaming-bigtable",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Getting started with Cassandra",
+    "permalink": "/docs/storage/lab-getting-started-with-cassandra/"
+  },
+  "next": {
+    "title": "Lab: Amazon Keyspaces",
+    "permalink": "/docs/storage/lab-amazon-keyspaces/"
+  }
 }

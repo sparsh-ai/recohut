@@ -1,0 +1,26 @@
+{
+  "unversionedId": "casestudies/twilio",
+  "id": "casestudies/twilio",
+  "title": "Twilio",
+  "description": "Presto on AWS at Twilio - Lesson Learned and Optimization",
+  "source": "@site/docs/casestudies/twilio.md",
+  "sourceDirName": "casestudies",
+  "slug": "/casestudies/twilio",
+  "permalink": "/docs/casestudies/twilio",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Trivago",
+    "permalink": "/docs/casestudies/trivago"
+  },
+  "next": {
+    "title": "Twitter",
+    "permalink": "/docs/casestudies/twitter"
+  }
+}

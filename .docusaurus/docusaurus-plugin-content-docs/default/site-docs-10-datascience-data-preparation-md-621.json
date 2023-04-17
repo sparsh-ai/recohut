@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Metrics and Evaluation",
+    "permalink": "/docs/datascience/metrics-and-evaluation"
+  },
+  "next": {
+    "title": "Data Encoding",
+    "permalink": "/docs/datascience/data-encoding"
+  }
 }

@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Messflix (hypothetical)",
+    "permalink": "/docs/storage/casestudy-messflix-hypothetical"
+  },
+  "next": {
+    "title": "Lab: Cybersecurity Databricks",
+    "permalink": "/docs/processing/databricks/lab-cybersecurity-databricks/"
+  }
 }

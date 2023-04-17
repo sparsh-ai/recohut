@@ -1,4 +1,4 @@
-# ETL Processing on Google Cloud Using Dataflow and BigQuery
+# Lab: ETL Processing on Google Cloud Using Dataflow and BigQuery
 
 ## Objective
 

@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Sampling",
+    "permalink": "/docs/mathematics/statistics/sampling"
+  },
+  "next": {
+    "title": "Use Cases",
+    "permalink": "/docs/foundations/basics/use-cases"
+  }
 }

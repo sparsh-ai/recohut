@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/lab-datalake-healthcare-s3-glue-athena/README",
+  "id": "storage/lab-datalake-healthcare-s3-glue-athena/README",
+  "title": "Lab: Data Lake on S3",
+  "description": "Process flow",
+  "source": "@site/docs/02-storage/lab-datalake-healthcare-s3-glue-athena/README.md",
+  "sourceDirName": "02-storage/lab-datalake-healthcare-s3-glue-athena",
+  "slug": "/storage/lab-datalake-healthcare-s3-glue-athena/",
+  "permalink": "/docs/storage/lab-datalake-healthcare-s3-glue-athena/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Google Cloud Storage (GCS)",
+    "permalink": "/docs/storage/gcs"
+  },
+  "next": {
+    "title": "Lab: Creating and Managing Data in Azure Data Lake",
+    "permalink": "/docs/storage/lab-adl-create-manage-data/"
+  }
+}

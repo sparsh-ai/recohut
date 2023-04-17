@@ -1,7 +1,7 @@
 {
   "unversionedId": "processing/lab-kinesis-apache-logs/README",
   "id": "processing/lab-kinesis-apache-logs/README",
-  "title": "Real Time Apache Log Analytics with Kinesis",
+  "title": "Lab: Real Time Apache Log Analytics with Kinesis",
   "description": "Objective",
   "source": "@site/docs/03-processing/lab-kinesis-apache-logs/README.md",
   "sourceDirName": "03-processing/lab-kinesis-apache-logs",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Amazon Kinesis",
+    "permalink": "/docs/processing/aws-kinesis"
+  },
+  "next": {
+    "title": "Lab: Real-Time Clickstream Anomaly Detection with Kinesis",
+    "permalink": "/docs/processing/lab-kinesis-clickstream-anomaly/"
+  }
 }

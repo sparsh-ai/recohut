@@ -1,7 +1,7 @@
 {
   "unversionedId": "processing/lab-gcp-serverless-dataflow",
   "id": "processing/lab-gcp-serverless-dataflow",
-  "title": "GCP Serverless Dataflow",
+  "title": "Lab: GCP Serverless Dataflow",
   "description": "Objective",
   "source": "@site/docs/03-processing/lab-gcp-serverless-dataflow.md",
   "sourceDirName": "03-processing",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "GCP Dataflow Streaming Pipeline",
+    "permalink": "/docs/processing/lab-gcp-dataflow-stream-pipeline"
+  },
+  "next": {
+    "title": "Lab: ETL Processing on Google Cloud Using Dataflow and BigQuery",
+    "permalink": "/docs/processing/lab-dataflow-bigquery-etl"
+  }
 }

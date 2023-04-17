@@ -1,7 +1,7 @@
 {
   "unversionedId": "orchestration/stepfunctions/lab-stepfunction-ecomm-sqs/README",
   "id": "orchestration/stepfunctions/lab-stepfunction-ecomm-sqs/README",
-  "title": "Step Function Ecommerce SQL",
+  "title": "Lab: Step Function Ecommerce SQL",
   "description": "Objective: Orchestrate Queue-based Microservices",
   "source": "@site/docs/06-orchestration/stepfunctions/lab-stepfunction-ecomm-sqs/README.md",
   "sourceDirName": "06-orchestration/stepfunctions/lab-stepfunction-ecomm-sqs",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Step Function Athena SNS",
+    "permalink": "/docs/orchestration/stepfunctions/lab-stepfunction-athena-sns/"
+  },
+  "next": {
+    "title": "Flask",
+    "permalink": "/docs/visualization/flask/"
+  }
 }

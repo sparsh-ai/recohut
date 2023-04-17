@@ -1,7 +1,7 @@
 {
   "unversionedId": "processing/databricks/lab-retail-pos-databricks/README",
   "id": "processing/databricks/lab-retail-pos-databricks/README",
-  "title": "Real-Time Point-of-Sale Analytics With the Data Lakehouse",
+  "title": "Lab: Real-Time Point-of-Sale Analytics With the Data Lakehouse",
   "description": "Introduction",
   "source": "@site/docs/03-processing/databricks/lab-retail-pos-databricks/README.md",
   "sourceDirName": "03-processing/databricks/lab-retail-pos-databricks",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Simplifying Data Engineering and Analytics with Delta",
+    "permalink": "/docs/processing/databricks/lab-loan-application/"
+  },
+  "next": {
+    "title": "Lab: Processing Data Using Azure Databricks",
+    "permalink": "/docs/processing/databricks/lab-data-processing-azure-dbr/"
+  }
 }

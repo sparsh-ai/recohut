@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Stream and Unified Data Processing",
+    "permalink": "/docs/foundations/basics/stream-data-processing"
+  },
+  "next": {
+    "title": "25 Most Common Interview Questions",
+    "permalink": "/docs/foundations/basics/25-most-common-interview-questions"
+  }
 }

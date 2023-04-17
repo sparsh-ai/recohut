@@ -1,7 +1,7 @@
 {
   "unversionedId": "processing/databricks/project-advancedbricks/README",
   "id": "processing/databricks/project-advancedbricks/README",
-  "title": "AdvancedBricks",
+  "title": "Project: AdvancedBricks",
   "description": "Advanced Data Engineering with Databricks",
   "source": "@site/docs/03-processing/databricks/project-advancedbricks/README.md",
   "sourceDirName": "03-processing/databricks/project-advancedbricks",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Project: Data Engineer Learner Path with Databricks",
+    "permalink": "/docs/processing/databricks/project-learnerbricks/"
+  },
+  "next": {
+    "title": "Project: BedBricks",
+    "permalink": "/docs/processing/databricks/project-bedbricks/"
+  }
 }

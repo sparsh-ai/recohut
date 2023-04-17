@@ -1,7 +1,7 @@
 {
   "unversionedId": "processing/databricks/lab-dlt-dbt/README",
   "id": "processing/databricks/lab-dlt-dbt/README",
-  "title": "dlt vs dbt",
+  "title": "Lab: dlt vs dbt",
   "description": "Objective",
   "source": "@site/docs/03-processing/databricks/lab-dlt-dbt/README.md",
   "sourceDirName": "03-processing/databricks/lab-dlt-dbt",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Delta Lake Optimizations",
+    "permalink": "/docs/processing/databricks/lab-deltalake-optimizations/"
+  },
+  "next": {
+    "title": "Lab: Healthcare Lakehouse",
+    "permalink": "/docs/processing/databricks/lab-healthcare-databricks/"
+  }
 }

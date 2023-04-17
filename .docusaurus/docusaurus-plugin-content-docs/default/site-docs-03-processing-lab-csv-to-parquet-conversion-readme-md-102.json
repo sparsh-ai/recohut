@@ -1,7 +1,7 @@
 {
   "unversionedId": "processing/lab-csv-to-parquet-conversion/README",
   "id": "processing/lab-csv-to-parquet-conversion/README",
-  "title": "CSV to Parquet Transformation with Glue Studio",
+  "title": "Lab: CSV to Parquet Transformation with Glue Studio",
   "description": "Task: Process raw (CSV or JSON) data from the Landing S3 bucket and save it into another S3 bucket in a Columnar format with partitioning",
   "source": "@site/docs/03-processing/lab-csv-to-parquet-conversion/README.md",
   "sourceDirName": "03-processing/lab-csv-to-parquet-conversion",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Tickets ETL with Glue Studio",
+    "permalink": "/docs/processing/lab-glue-studio-tickets/"
+  },
+  "next": {
+    "title": "AWS Lambda Function",
+    "permalink": "/docs/processing/aws-lambda"
+  }
 }

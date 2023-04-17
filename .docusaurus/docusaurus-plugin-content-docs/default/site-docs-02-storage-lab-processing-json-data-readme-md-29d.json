@@ -1,7 +1,7 @@
 {
   "unversionedId": "storage/lab-processing-json-data/README",
   "id": "storage/lab-processing-json-data/README",
-  "title": "JSON Data Processing",
+  "title": "Lab: JSON Data Processing",
   "description": "In this lab, we will learn how to process JSON data.",
   "source": "@site/docs/02-storage/lab-processing-json-data/README.md",
   "sourceDirName": "02-storage/lab-processing-json-data",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Loading Data in Python",
+    "permalink": "/docs/storage/lab-data-loading-python/"
+  },
+  "next": {
+    "title": "Postgres",
+    "permalink": "/docs/storage/postgres"
+  }
 }

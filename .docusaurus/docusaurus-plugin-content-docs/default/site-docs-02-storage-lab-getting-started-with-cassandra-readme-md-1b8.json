@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/lab-getting-started-with-cassandra/README",
+  "id": "storage/lab-getting-started-with-cassandra/README",
+  "title": "Lab: Getting started with Cassandra",
+  "description": "Notebooks",
+  "source": "@site/docs/02-storage/lab-getting-started-with-cassandra/README.md",
+  "sourceDirName": "02-storage/lab-getting-started-with-cassandra",
+  "slug": "/storage/lab-getting-started-with-cassandra/",
+  "permalink": "/docs/storage/lab-getting-started-with-cassandra/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "MongoDB",
+    "permalink": "/docs/storage/mongodb"
+  },
+  "next": {
+    "title": "Lab: GCP Streaming Bigtable",
+    "permalink": "/docs/storage/lab-gcp-streaming-bigtable/"
+  }
+}

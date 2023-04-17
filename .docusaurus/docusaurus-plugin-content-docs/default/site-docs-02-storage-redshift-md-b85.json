@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Project: Athena Federated",
+    "permalink": "/docs/storage/project-athena-federated/"
+  },
+  "next": {
+    "title": "Lab: Data Loading into Redshift",
+    "permalink": "/docs/storage/lab-redshift-data-loading"
+  }
 }

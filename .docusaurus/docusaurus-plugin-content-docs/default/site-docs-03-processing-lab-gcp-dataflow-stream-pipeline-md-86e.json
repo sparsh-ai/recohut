@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: GCP Dataflow Size Inputs",
+    "permalink": "/docs/processing/lab-gcp-dataflow-side-inputs"
+  },
+  "next": {
+    "title": "Lab: GCP Serverless Dataflow",
+    "permalink": "/docs/processing/lab-gcp-serverless-dataflow"
+  }
 }

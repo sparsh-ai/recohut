@@ -1,7 +1,7 @@
 {
   "unversionedId": "processing/lab-getting-started-with-beam/README",
   "id": "processing/lab-getting-started-with-beam/README",
-  "title": "Apache Beam Getting Started",
+  "title": "Lab: Apache Beam Getting Started",
   "description": "Pipeline 1 - Simple Ingest Data Pipeline",
   "source": "@site/docs/03-processing/lab-getting-started-with-beam/README.md",
   "sourceDirName": "03-processing/lab-getting-started-with-beam",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Apache Beam",
+    "permalink": "/docs/processing/apache-beam"
+  },
+  "next": {
+    "title": "Lab: MapReduce in Beam using Python",
+    "permalink": "/docs/processing/lab-gcp-beam-mapreduce/"
+  }
 }

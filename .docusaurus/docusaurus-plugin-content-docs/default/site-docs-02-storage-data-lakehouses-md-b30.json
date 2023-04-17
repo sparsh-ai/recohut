@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Azure Data Lake - Securing and Monitoring",
+    "permalink": "/docs/storage/lab-adl-securing-monitoring-lakes/"
+  },
+  "next": {
+    "title": "Deltalake",
+    "permalink": "/docs/storage/deltalake"
+  }
 }

@@ -1,8 +1,6 @@
-# Advanced Data Engineering and Data Processing with AWS Glue Jobs
+# Lab: Glue ETL
 
-## Objective
-
-Advanced Data Engineering System with AWS Glue
+> Advanced Data Engineering and Data Processing with AWS Glue Jobs
 
 ## Steps
 
@@ -14,3 +12,7 @@ Advanced Data Engineering System with AWS Glue
 6. Glue Streaming Job
 7. Glue Databrew
 8. Glue Studio
+
+## Notebook
+
+[![nbviewer](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/recohut/blob/main/docs/03-processing/lab-glue-advanced/main.ipynb)

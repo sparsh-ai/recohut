@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Real-Time Clickstream Anomaly Detection with Kinesis",
+    "permalink": "/docs/processing/lab-kinesis-clickstream-anomaly/"
+  },
+  "next": {
+    "title": "Lab: Apache Beam Getting Started",
+    "permalink": "/docs/processing/lab-getting-started-with-beam/"
+  }
 }

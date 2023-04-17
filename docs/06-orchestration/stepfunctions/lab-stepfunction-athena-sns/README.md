@@ -1,4 +1,4 @@
-# Step Function Athena SNS
+# Lab: Step Function Athena SNS
 
 Objective: Execute multiple queries (Amazon Athena, Amazon SNS)
 

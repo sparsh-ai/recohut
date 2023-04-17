@@ -1,0 +1,26 @@
+{
+  "unversionedId": "casestudies/amazon",
+  "id": "casestudies/amazon",
+  "title": "Amazon",
+  "description": "Amazon Migrates 50 PB of Analytics Data from Oracle to AWS",
+  "source": "@site/docs/casestudies/amazon.md",
+  "sourceDirName": "casestudies",
+  "slug": "/casestudies/amazon",
+  "permalink": "/docs/casestudies/amazon",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Airbnb",
+    "permalink": "/docs/casestudies/airbnb"
+  },
+  "next": {
+    "title": "Booking.com",
+    "permalink": "/docs/casestudies/bookingdotcom"
+  }
+}

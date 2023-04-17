@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Data Encoding",
+    "permalink": "/docs/datascience/data-encoding"
+  },
+  "next": {
+    "title": "Linear Regression",
+    "permalink": "/docs/datascience/algorithms/linear-regression"
+  }
 }

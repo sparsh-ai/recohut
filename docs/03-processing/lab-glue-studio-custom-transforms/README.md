@@ -1,4 +1,4 @@
-# Glue Studio Custom Transforms
+# Lab: Glue Studio Custom Transforms
 
 Objective: Create your own reusable visual transforms for AWS Glue Studio
 
@@ -250,3 +250,7 @@ For instance, you can specify "department " as "Partition columns" in the transf
 In this lab, you have seen how you can create your own reusable visual transforms and then use them in AWS Glue Studio to enhance your jobs and your team's productivity.
 
 You first created a component to use synthetically generated data on demand and then another transform to optimize the data for partitioning on Amazon S3.
+
+## Notebook
+
+[![nbviewer](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/recohut/blob/main/docs/03-processing/lab-glue-studio-custom-transforms/main.ipynb)

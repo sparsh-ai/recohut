@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Iceberg",
+    "permalink": "/docs/storage/iceberg"
+  },
+  "next": {
+    "title": "Avro vs Parquet vs ORC",
+    "permalink": "/docs/storage/avro-vs-parquet-vs-orc"
+  }
 }

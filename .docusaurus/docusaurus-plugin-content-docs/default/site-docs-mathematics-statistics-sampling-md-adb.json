@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Rules of Probability",
+    "permalink": "/docs/mathematics/probability/rules-of-probability"
+  },
+  "next": {
+    "title": "The data science origin story",
+    "permalink": "/docs/foundations/basics/origin"
+  }
 }

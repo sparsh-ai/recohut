@@ -1,7 +1,7 @@
 {
   "unversionedId": "processing/aws-kinesis",
   "id": "processing/aws-kinesis",
-  "title": "Kinesis",
+  "title": "Amazon Kinesis",
   "description": "Easily collect, process, and analyze video and data streams in real time",
   "source": "@site/docs/03-processing/aws-kinesis.md",
   "sourceDirName": "03-processing",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Lambda CSV to Parquet",
+    "permalink": "/docs/processing/lab-lambda-csv-parquet/"
+  },
+  "next": {
+    "title": "Lab: Real Time Apache Log Analytics with Kinesis",
+    "permalink": "/docs/processing/lab-kinesis-apache-logs/"
+  }
 }

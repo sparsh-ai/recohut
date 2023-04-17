@@ -1,7 +1,7 @@
 {
   "unversionedId": "processing/lab-gcp-beam-mapreduce/README",
   "id": "processing/lab-gcp-beam-mapreduce/README",
-  "title": "MapReduce in Beam using Python",
+  "title": "Lab: MapReduce in Beam using Python",
   "description": "Objective",
   "source": "@site/docs/03-processing/lab-gcp-beam-mapreduce/README.md",
   "sourceDirName": "03-processing/lab-gcp-beam-mapreduce",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Apache Beam Getting Started",
+    "permalink": "/docs/processing/lab-getting-started-with-beam/"
+  },
+  "next": {
+    "title": "Lab: GCP Dataflow Pipeline - A Simple Dataflow Pipeline (Python)",
+    "permalink": "/docs/processing/lab-gcp-dataflow-pipeline"
+  }
 }

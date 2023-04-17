@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "CAP Theorem",
+    "permalink": "/docs/data-modeling/cap-theorem"
+  },
+  "next": {
+    "title": "Lab: AirBnB Postgres Datamodel",
+    "permalink": "/docs/data-modeling/lab-airbnb-postgres-datamodel/"
+  }
 }

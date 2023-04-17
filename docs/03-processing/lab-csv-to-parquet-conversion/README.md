@@ -1,4 +1,4 @@
-# CSV to Parquet Transformation with Glue Studio
+# Lab: CSV to Parquet Transformation with Glue Studio
 
 Task: Process raw (CSV or JSON) data from the Landing S3 bucket and save it into another S3 bucket in a Columnar format with partitioning
 

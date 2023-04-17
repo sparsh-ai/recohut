@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Probability Distributions",
+    "permalink": "/docs/mathematics/probability/probability-distributions"
+  },
+  "next": {
+    "title": "Sampling",
+    "permalink": "/docs/mathematics/statistics/sampling"
+  }
 }

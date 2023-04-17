@@ -1,4 +1,4 @@
-# Lambda CSV to Parquet
+# Lab: Lambda CSV to Parquet
 
 *Create an S3 bucket and IAM user with user-defined policy. Create Lambda layer and lambda function and add the layer to the function. Add S3 trigger for auto-transformation from csv to parquet and query with Glue.*
 
@@ -37,4 +37,4 @@ Your goal is to design and develop a data pipeline which solves the same purpose
 
 ## Code
 
-[![](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/recohut/blob/main/03-processing/aws-lambda-function/lab-lambda-csv-parquet/01-sa-etl-lambda.ipynb)
+[![](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/recohut/blob/main/docs/03-processing/lab-lambda-csv-parquet/main.ipynb)

@@ -1,4 +1,4 @@
-# MapReduce in Beam using Python
+# Lab: MapReduce in Beam using Python
 
 ## Objective
 

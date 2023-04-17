@@ -1,0 +1,26 @@
+{
+  "unversionedId": "casestudies/webshoes",
+  "id": "casestudies/webshoes",
+  "title": "Webshoes",
+  "description": "Webshoes is a fictitious sales company of shoes and accessories that is being created. The company's business areas have defined that Webshoes will have an online store and that the store will need to have personalized experiences. The requirements that the business areas have passed to the project development team are as follows:",
+  "source": "@site/docs/casestudies/webshoes.md",
+  "sourceDirName": "casestudies",
+  "slug": "/casestudies/webshoes",
+  "permalink": "/docs/casestudies/webshoes",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Technology-Driven Video Advertising",
+    "permalink": "/docs/casestudies/video-stream"
+  },
+  "next": {
+    "title": "Woot.com",
+    "permalink": "/docs/casestudies/woot"
+  }
+}

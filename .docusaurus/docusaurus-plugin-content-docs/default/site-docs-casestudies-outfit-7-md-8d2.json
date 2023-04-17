@@ -1,0 +1,26 @@
+{
+  "unversionedId": "casestudies/outfit7",
+  "id": "casestudies/outfit7",
+  "title": "Outfit7",
+  "description": "Multinational video game developer",
+  "source": "@site/docs/casestudies/outfit7.md",
+  "sourceDirName": "casestudies",
+  "slug": "/casestudies/outfit7",
+  "permalink": "/docs/casestudies/outfit7",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Myntra",
+    "permalink": "/docs/casestudies/myntra"
+  },
+  "next": {
+    "title": "PANORAMIC - Simplifying Data Ingestion, Transformation, And Delivery",
+    "permalink": "/docs/casestudies/panoramic"
+  }
+}

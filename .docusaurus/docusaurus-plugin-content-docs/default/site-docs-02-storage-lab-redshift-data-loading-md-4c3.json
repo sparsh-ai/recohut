@@ -1,8 +1,8 @@
 {
   "unversionedId": "storage/lab-redshift-data-loading",
   "id": "storage/lab-redshift-data-loading",
-  "title": "Data Loading into Redshift",
-  "description": "1. Create 8 Tables based on TPCH data model in Redshift (DDL)",
+  "title": "Lab: Data Loading into Redshift",
+  "description": "Load with COPY command",
   "source": "@site/docs/02-storage/lab-redshift-data-loading.md",
   "sourceDirName": "02-storage",
   "slug": "/storage/lab-redshift-data-loading",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Amazon Redshift",
+    "permalink": "/docs/storage/redshift"
+  },
+  "next": {
+    "title": "Lab: Redshift Data Loading and Analysis",
+    "permalink": "/docs/storage/lab-redshift-data-loading-analysis"
+  }
 }

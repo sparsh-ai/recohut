@@ -1,4 +1,4 @@
-# Building and Executing a Pipeline Graph with Data Fusion
+# Lab: Building and Executing a Pipeline Graph with Data Fusion
 
 ## Objective
 

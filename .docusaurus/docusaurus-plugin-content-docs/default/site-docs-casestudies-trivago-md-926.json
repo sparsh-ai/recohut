@@ -1,0 +1,26 @@
+{
+  "unversionedId": "casestudies/trivago",
+  "id": "casestudies/trivago",
+  "title": "Trivago",
+  "description": "Compare hotel prices worldwide",
+  "source": "@site/docs/casestudies/trivago.md",
+  "sourceDirName": "casestudies",
+  "slug": "/casestudies/trivago",
+  "permalink": "/docs/casestudies/trivago",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Starbucks",
+    "permalink": "/docs/casestudies/starbucks"
+  },
+  "next": {
+    "title": "Twilio",
+    "permalink": "/docs/casestudies/twilio"
+  }
+}

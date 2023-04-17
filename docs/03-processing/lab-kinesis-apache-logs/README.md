@@ -1,4 +1,4 @@
-# Real Time Apache Log Analytics with Kinesis
+# Lab: Real Time Apache Log Analytics with Kinesis
 
 ## Objective
 
@@ -71,3 +71,35 @@ In this module, we will show you how you can convert the incoming tab delimited 
 1. Run the Crawler
 1. Analyze the Glue table
 1. Querying Real Time Data
+
+## Files
+
+[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sparsh-ai/recohut/tree/main/docs/03-processing/lab-kinesis-apache-logs/)
+
+```
+├── [8.1K]  01-sa-kinesis-data-firehose.ipynb
+├── [3.5K]  02-sa-kinesis-streaming-etl.ipynb
+├── [4.4K]  03-sa-kinesis-log-analytics.ipynb
+├── [4.2K]  04-sa-kinesis-etl-optimized.ipynb
+├── [ 16K]  05-sa-kinesis-etl-glue.ipynb
+├── [ 11K]  FirehoseKinesisStreamETL
+│   ├── [6.1K]  datagen.yml
+│   └── [4.6K]  template.yml
+├── [ 23K]  FirehoseKinesisStreamETLParquet
+│   ├── [6.1K]  datagen.yml
+│   ├── [8.1K]  template-ref.yml
+│   └── [8.2K]  template-sparsh.yml
+├── [ 18K]  KinesisGlueETL
+│   └── [ 18K]  template.yml
+├── [8.1K]  LogAnalyticsFirehose
+│   ├── [6.1K]  datagen.yml
+│   └── [1.9K]  template.yml
+├── [1.1K]  Makefile
+└── [4.7K]  README.md
+
+ 102K used in 4 directories, 15 files
+```
+
+## Notebooks
+
+[![nbviewer](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/recohut/blob/main/docs/03-processing/lab-kinesis-apache-logs/)

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/lab-adl-create-manage-data/README",
+  "id": "storage/lab-adl-create-manage-data/README",
+  "title": "Lab: Creating and Managing Data in Azure Data Lake",
+  "description": "Files",
+  "source": "@site/docs/02-storage/lab-adl-create-manage-data/README.md",
+  "sourceDirName": "02-storage/lab-adl-create-manage-data",
+  "slug": "/storage/lab-adl-create-manage-data/",
+  "permalink": "/docs/storage/lab-adl-create-manage-data/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Data Lake on S3",
+    "permalink": "/docs/storage/lab-datalake-healthcare-s3-glue-athena/"
+  },
+  "next": {
+    "title": "Lab: Azure Data Lake - Securing and Monitoring",
+    "permalink": "/docs/storage/lab-adl-securing-monitoring-lakes/"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "casestudies/99group",
+  "id": "casestudies/99group",
+  "title": "99 Group",
+  "description": "References",
+  "source": "@site/docs/casestudies/99group.md",
+  "sourceDirName": "casestudies",
+  "slug": "/casestudies/99group",
+  "permalink": "/docs/casestudies/99group",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "MLflow",
+    "permalink": "/docs/mlops/mlflow/"
+  },
+  "next": {
+    "title": "Airbnb",
+    "permalink": "/docs/casestudies/airbnb"
+  }
+}

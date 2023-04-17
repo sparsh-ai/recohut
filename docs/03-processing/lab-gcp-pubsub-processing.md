@@ -1,4 +1,4 @@
-# Streaming Data Processing - Streaming Data Pipelines
+# Lab: Streaming Data Processing - Streaming Data Pipelines
 
 ## Objective
 

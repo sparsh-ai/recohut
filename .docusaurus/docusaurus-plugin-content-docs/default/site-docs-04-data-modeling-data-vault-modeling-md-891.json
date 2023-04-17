@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Dimensional Modeling",
+    "permalink": "/docs/data-modeling/dimensional-modeling"
+  },
+  "next": {
+    "title": "Steps of Building Data Models",
+    "permalink": "/docs/data-modeling/data-modeling-steps"
+  }
 }

@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Normalization vs Denormalization",
+    "permalink": "/docs/data-modeling/normalization-vs-denormalization"
+  },
+  "next": {
+    "title": "Quiz",
+    "permalink": "/docs/data-modeling/quiz"
+  }
 }

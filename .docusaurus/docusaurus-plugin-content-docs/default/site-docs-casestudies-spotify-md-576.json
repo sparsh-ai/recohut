@@ -1,0 +1,26 @@
+{
+  "unversionedId": "casestudies/spotify",
+  "id": "casestudies/spotify",
+  "title": "Spotify Discover Weekly Playlist",
+  "description": "This case study uses information from various presentations that engineers from Spotify delivered in 2015, mainly the “From Idea to Execution: Spotify’s Discover Weekly” presentation. They may no longer use some of the techniques or technologies discussed, but the core takeaways from this case study are still relevant.",
+  "source": "@site/docs/casestudies/spotify.md",
+  "sourceDirName": "casestudies",
+  "slug": "/casestudies/spotify",
+  "permalink": "/docs/casestudies/spotify",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Plexure",
+    "permalink": "/docs/casestudies/plexure"
+  },
+  "next": {
+    "title": "Starbucks",
+    "permalink": "/docs/casestudies/starbucks"
+  }
+}

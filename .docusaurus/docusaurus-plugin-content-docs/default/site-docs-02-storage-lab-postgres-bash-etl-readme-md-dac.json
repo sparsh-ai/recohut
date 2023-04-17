@@ -1,7 +1,7 @@
 {
   "unversionedId": "storage/lab-postgres-bash-etl/README",
   "id": "storage/lab-postgres-bash-etl/README",
-  "title": "ETL with bash script",
+  "title": "Lab: ETL with bash script",
   "description": "Objective",
   "source": "@site/docs/02-storage/lab-postgres-bash-etl/README.md",
   "sourceDirName": "02-storage/lab-postgres-bash-etl",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Getting Started with Postgres",
+    "permalink": "/docs/storage/lab-postgres-getting-started/"
+  },
+  "next": {
+    "title": "Lab: Postgres Crime Reports",
+    "permalink": "/docs/storage/lab-postgres-crime-reports/"
+  }
 }

@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: GCP Dataprep",
+    "permalink": "/docs/processing/lab-gcp-dataprep"
+  },
+  "next": {
+    "title": "Lab: Streaming Data Processing - Publish Streaming Data into PubSub",
+    "permalink": "/docs/processing/lab-gcp-pubsub"
+  }
 }

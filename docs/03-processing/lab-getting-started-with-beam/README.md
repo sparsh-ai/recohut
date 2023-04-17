@@ -1,4 +1,4 @@
-# Apache Beam Getting Started
+# Lab: Apache Beam Getting Started
 
 ## Pipeline 1 - Simple Ingest Data Pipeline
 
@@ -59,3 +59,40 @@ In this tutorial, we will learn about:
 1. PCollections to Beam Dataframe
 
 Notebook: `05-sa-dataframes.ipynb`
+
+## Files
+
+[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sparsh-ai/recohut/tree/main/docs/03-processing/lab-getting-started-with-beam/)
+
+```
+├── [ 22K]  01-sa-ingest-data-pipeline.ipynb
+├── [ 21K]  02-sa-wordcount-pipeline.ipynb
+├── [ 26K]  03-sa-basic-operations.ipynb
+├── [ 29K]  04-sa-windowing.ipynb
+├── [ 18K]  05-sa-dataframes.ipynb
+├── [ 113]  Makefile
+├── [2.0K]  README.md
+├── [158K]  data
+│   ├── [ 62K]  kinglear.txt.zip
+│   ├── [8.0K]  moon-phases.db
+│   ├── [ 529]  penguins.csv
+│   ├── [ 121]  sample1.txt
+│   ├── [  72]  sample2.txt
+│   ├── [ 160]  solar_events.csv
+│   └── [ 87K]  sp500.csv.zip
+├── [115K]  output
+│   ├── [ 66K]  pipe2-00000-of-00001
+│   ├── [  76]  result.txt-00000-of-00001
+│   ├── [ 153]  sample-00000-of-00001.txt
+│   └── [ 48K]  wordcount-00000-of-00001
+└── [5.4K]  src
+    ├── [3.5K]  pipeline1.py
+    └── [1.9K]  pipeline2.py
+
+ 397K used in 3 directories, 20 files
+```
+
+
+## Notebooks
+
+[![nbviewer](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/recohut/blob/main/docs/03-processing/lab-getting-started-with-beam/)

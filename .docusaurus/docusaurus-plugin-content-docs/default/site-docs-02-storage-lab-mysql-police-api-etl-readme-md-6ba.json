@@ -1,7 +1,7 @@
 {
   "unversionedId": "storage/lab-mysql-police-api-etl/README",
   "id": "storage/lab-mysql-police-api-etl/README",
-  "title": "Police API Data Engineering Task",
+  "title": "Lab: Police API",
   "description": "Using the Police UK API extracted the data related to street-level crime and outcome data and nearest police stations",
   "source": "@site/docs/02-storage/lab-mysql-police-api-etl/README.md",
   "sourceDirName": "02-storage/lab-mysql-police-api-etl",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Generate Trips Data using Stored Procedure",
+    "permalink": "/docs/storage/lab-postgres-trips-stored-procedure/"
+  },
+  "next": {
+    "title": "Lab: Loading Taxi Data into Google Cloud SQL",
+    "permalink": "/docs/storage/lab-gcp-cloudsql-nyctaxi/"
+  }
 }

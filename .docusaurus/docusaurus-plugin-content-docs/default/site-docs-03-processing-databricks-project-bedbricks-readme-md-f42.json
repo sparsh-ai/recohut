@@ -1,7 +1,7 @@
 {
   "unversionedId": "processing/databricks/project-bedbricks/README",
   "id": "processing/databricks/project-bedbricks/README",
-  "title": "BedBricks",
+  "title": "Project: BedBricks",
   "description": "Databricks PySpark Ecommerce Data Processing Case Study",
   "source": "@site/docs/03-processing/databricks/project-bedbricks/README.md",
   "sourceDirName": "03-processing/databricks/project-bedbricks",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Project: AdvancedBricks",
+    "permalink": "/docs/processing/databricks/project-advancedbricks/"
+  },
+  "next": {
+    "title": "Project: Data Pipeline with Databricks PySpark and Superset",
+    "permalink": "/docs/processing/databricks/project-databricks-superset/"
+  }
 }

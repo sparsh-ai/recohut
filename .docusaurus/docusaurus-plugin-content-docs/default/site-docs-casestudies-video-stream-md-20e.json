@@ -1,0 +1,26 @@
+{
+  "unversionedId": "casestudies/video-stream",
+  "id": "casestudies/video-stream",
+  "title": "Technology-Driven Video Advertising",
+  "description": "A global leader in cable and video advertising collects data from more than six billion devices. This data is accurate, rich, and valuable as part of its strategy for providing customized, targeted advertising. The problem was that this data was huge, and the resources required to provide near-real-time targeted advertising were immense. To meet the need, the company established several hundred Hadoop servers and used them to batch process and pre-aggregate the data. Still, with this huge investment in hardware and tools, the process took one to three days to send a targeted ad to a customer.",
+  "source": "@site/docs/casestudies/video-stream.md",
+  "sourceDirName": "casestudies",
+  "slug": "/casestudies/video-stream",
+  "permalink": "/docs/casestudies/video-stream",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Uber",
+    "permalink": "/docs/casestudies/uber"
+  },
+  "next": {
+    "title": "Webshoes",
+    "permalink": "/docs/casestudies/webshoes"
+  }
+}

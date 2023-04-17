@@ -1,0 +1,26 @@
+{
+  "unversionedId": "orchestration/azure-data-factory/lab-data-ingestion-pipeline/README",
+  "id": "orchestration/azure-data-factory/lab-data-ingestion-pipeline/README",
+  "title": "Lab: Building Data Ingestion Pipelines Using Azure Data Factory",
+  "description": "Azure Data Factory is the bread and butter for a data engineer and understanding its fundamentals is extremely essential in building efficient pipelines. By the end of the lab, you will know how to provision a data factory account, copy data from an Azure SQL database to a data lake using copy activity, use control flow activities, move data from SQL Server to a data lake, and choose options to trigger a data factory pipeline.",
+  "source": "@site/docs/06-orchestration/azure-data-factory/lab-data-ingestion-pipeline/README.md",
+  "sourceDirName": "06-orchestration/azure-data-factory/lab-data-ingestion-pipeline",
+  "slug": "/orchestration/azure-data-factory/lab-data-ingestion-pipeline/",
+  "permalink": "/docs/orchestration/azure-data-factory/lab-data-ingestion-pipeline/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Azure Data Factory and Synapse Analytics",
+    "permalink": "/docs/orchestration/azure-data-factory/lab-batch-processing-solution/"
+  },
+  "next": {
+    "title": "Cloud Data Fusion",
+    "permalink": "/docs/orchestration/datafusion/"
+  }
+}

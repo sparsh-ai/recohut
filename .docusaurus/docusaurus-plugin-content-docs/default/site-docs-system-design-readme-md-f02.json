@@ -1,0 +1,26 @@
+{
+  "unversionedId": "system-design/README",
+  "id": "system-design/README",
+  "title": "System Design",
+  "description": "Design the architecture, components and interfaces for big data systems",
+  "source": "@site/docs/system-design/README.md",
+  "sourceDirName": "system-design",
+  "slug": "/system-design/",
+  "permalink": "/docs/system-design/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Install DBeaver",
+    "permalink": "/docs/foundations/developer/install-dbeaver"
+  },
+  "next": {
+    "title": "System Design Examples",
+    "permalink": "/docs/system-design/examples"
+  }
+}

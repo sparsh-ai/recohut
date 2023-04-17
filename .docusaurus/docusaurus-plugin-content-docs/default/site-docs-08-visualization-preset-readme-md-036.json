@@ -1,8 +1,8 @@
 {
   "unversionedId": "visualization/preset/README",
   "id": "visualization/preset/README",
-  "title": "Setup Preset",
-  "description": "Go to https://preset.io/ and Click on “Start for free” button at the top-right corner. Follow the instructions to create a free account there. You can skip the database connection part, we will connect to the database later.",
+  "title": "Apache Superset - Preset",
+  "description": "Setup Preset",
   "source": "@site/docs/08-visualization/preset/README.md",
   "sourceDirName": "08-visualization/preset",
   "slug": "/visualization/preset/",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Streaming Analytics and Dashboards",
+    "permalink": "/docs/visualization/looker-studio/lab-gcp-streaming-analytics"
+  },
+  "next": {
+    "title": "Streamlit",
+    "permalink": "/docs/visualization/streamlit/"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "unversionedId": "processing/lab-azure-synapse-dataflows/README",
   "id": "processing/lab-azure-synapse-dataflows/README",
-  "title": "Transforming Data Using Azure Synapse Dataflows",
+  "title": "Lab: Transforming Data Using Azure Synapse Dataflows",
   "description": "This lab focuses on performing transformations using Synapse Dataflows, optimizing data flows using partitioning, and managing dynamic source schema changes using schema drifting",
   "source": "@site/docs/03-processing/lab-azure-synapse-dataflows/README.md",
   "sourceDirName": "03-processing/lab-azure-synapse-dataflows",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Azure Synapse Analytics",
+    "permalink": "/docs/processing/azure-synapse-analytics"
+  },
+  "next": {
+    "title": "Lab: Processing Data Using Azure Synapse Analytics",
+    "permalink": "/docs/processing/lab-azure-synapse-data-processing/"
+  }
 }

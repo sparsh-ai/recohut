@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Project: Data Pipeline with Databricks PySpark and Superset",
+    "permalink": "/docs/processing/databricks/project-databricks-superset/"
+  },
+  "next": {
+    "title": "Lab: EMR Serverless",
+    "permalink": "/docs/processing/lab-emr-serverless/"
+  }
 }

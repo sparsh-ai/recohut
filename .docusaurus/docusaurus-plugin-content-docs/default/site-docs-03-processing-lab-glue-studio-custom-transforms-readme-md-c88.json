@@ -1,7 +1,7 @@
 {
   "unversionedId": "processing/lab-glue-studio-custom-transforms/README",
   "id": "processing/lab-glue-studio-custom-transforms/README",
-  "title": "Glue Studio Custom Transforms",
+  "title": "Lab: Glue Studio Custom Transforms",
   "description": "Objective: Create your own reusable visual transforms for AWS Glue Studio",
   "source": "@site/docs/03-processing/lab-glue-studio-custom-transforms/README.md",
   "sourceDirName": "03-processing/lab-glue-studio-custom-transforms",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Glue ETL and CDC UPSERT",
+    "permalink": "/docs/processing/lab-glue-deltalake-cdc-upsert/"
+  },
+  "next": {
+    "title": "Lab: Tickets ETL with Glue Studio",
+    "permalink": "/docs/processing/lab-glue-studio-tickets/"
+  }
 }

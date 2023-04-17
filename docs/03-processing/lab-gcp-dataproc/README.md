@@ -1,4 +1,4 @@
-# Running Apache Spark jobs on Cloud Dataproc
+# Lab: Running Apache Spark jobs on Cloud Dataproc
 
 ## Objective
 
@@ -79,8 +79,6 @@ As soon as the cluster has fully started up you can connect to the Web interface
 
 ![](https://user-images.githubusercontent.com/62965911/214003309-5d1e41c8-29e1-49c8-9307-ae826d41e8f1.png)
 
-[Download notebook](./nbs/01_spark.ipynb)
-
 You can now step down through the cells and examine the code as it is processed so that you can see what the notebook is doing. In particular pay attention to where the data is saved and processed from.
 
 ## Task 2. Separate compute and storage
@@ -146,8 +144,6 @@ In the cell you just updated, replace the placeholder `[Your-Bucket-Name]` wit
 Click Cell and then Run All to run all of the cells in the notebook.
 
 You will see exactly the same output as you did when the file was loaded and run from internal cluster storage. Moving the source data files to Cloud Storage only requires that you repoint your storage source reference from `hdfs://` to `gs://`.
-
-[Download notebook](./nbs/De-couple-storage.ipynb)
 
 ## Task 3. Deploy Spark jobs
 
@@ -244,8 +240,6 @@ This lists the script output files that have been saved to your Cloud Storage bu
 
 - Click Cell and then Run All to run all of the cells in the notebook.
 
-[Download notebook](./nbs/PySpark-analysis-file.ipynb)
-
 ### Run the Analysis Job from Cloud Shell.
 
 - Switch back to your Cloud Shell and copy the Python script from Cloud Storage so you can run it as a Cloud Dataproc Job:
@@ -300,3 +294,7 @@ The storage bucket used by this Job for input and output data storage is the buc
 4.  Close the Jupyter tabs in your browser.
 
 Congratulations!
+
+## Notebooks
+
+[![nbviewer](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/recohut/blob/main/docs/03-processing/lab-gcp-dataproc/nbs/)

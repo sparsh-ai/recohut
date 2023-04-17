@@ -1,8 +1,8 @@
 {
   "unversionedId": "storage/lab-postgres-getting-started/README",
   "id": "storage/lab-postgres-getting-started/README",
-  "title": "Getting Started with Postgres",
-  "description": "",
+  "title": "Lab: Getting Started with Postgres",
+  "description": "Notebooks",
   "source": "@site/docs/02-storage/lab-postgres-getting-started/README.md",
   "sourceDirName": "02-storage/lab-postgres-getting-started",
   "slug": "/storage/lab-postgres-getting-started/",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: SQLite Basics",
+    "permalink": "/docs/storage/lab-sqlite-basics/"
+  },
+  "next": {
+    "title": "Lab: ETL with bash script",
+    "permalink": "/docs/storage/lab-postgres-bash-etl/"
+  }
 }

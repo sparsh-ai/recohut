@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/lab-confluent-python/README",
+  "id": "processing/lab-confluent-python/README",
+  "title": "Lab: Confluent Kafka with Python",
+  "description": "Produce messages to and consume messages from a Kafka cluster using Confluent Python Client for Apache Kafka.",
+  "source": "@site/docs/03-processing/lab-confluent-python/README.md",
+  "sourceDirName": "03-processing/lab-confluent-python",
+  "slug": "/processing/lab-confluent-python/",
+  "permalink": "/docs/processing/lab-confluent-python/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Apache Kafka",
+    "permalink": "/docs/processing/apache-kafka"
+  },
+  "next": {
+    "title": "Lab: Kafka and CDC",
+    "permalink": "/docs/processing/lab-confluent-kafka-faker/"
+  }
+}

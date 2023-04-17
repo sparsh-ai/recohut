@@ -1,7 +1,7 @@
 {
   "unversionedId": "processing/lab-gcp-dataflow-side-inputs",
   "id": "processing/lab-gcp-dataflow-side-inputs",
-  "title": "GCP Dataflow Size Inputs",
+  "title": "Lab: GCP Dataflow Size Inputs",
   "description": "Objective",
   "source": "@site/docs/03-processing/lab-gcp-dataflow-side-inputs.md",
   "sourceDirName": "03-processing",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: GCP Dataflow Batch Pipeline",
+    "permalink": "/docs/processing/lab-gcp-dataflow-batch-pipeline"
+  },
+  "next": {
+    "title": "GCP Dataflow Streaming Pipeline",
+    "permalink": "/docs/processing/lab-gcp-dataflow-stream-pipeline"
+  }
 }

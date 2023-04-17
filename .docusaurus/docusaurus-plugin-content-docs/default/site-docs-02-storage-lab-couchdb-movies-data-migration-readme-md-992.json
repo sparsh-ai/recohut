@@ -1,7 +1,7 @@
 {
   "unversionedId": "storage/lab-couchdb-movies-data-migration/README",
   "id": "storage/lab-couchdb-movies-data-migration/README",
-  "title": "Couchdb Movies Data Migration",
+  "title": "Lab: Couchdb Movies Data Migration",
   "description": "Objective",
   "source": "@site/docs/02-storage/lab-couchdb-movies-data-migration/README.md",
   "sourceDirName": "02-storage/lab-couchdb-movies-data-migration",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: MongoDB Basics",
+    "permalink": "/docs/storage/lab-mongodb-basics/"
+  },
+  "next": {
+    "title": "Data Warehouses",
+    "permalink": "/docs/storage/data-warehouses"
+  }
 }

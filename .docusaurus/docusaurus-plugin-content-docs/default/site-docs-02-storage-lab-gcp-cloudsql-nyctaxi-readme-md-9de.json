@@ -1,7 +1,7 @@
 {
   "unversionedId": "storage/lab-gcp-cloudsql-nyctaxi/README",
   "id": "storage/lab-gcp-cloudsql-nyctaxi/README",
-  "title": "Loading Taxi Data into Google Cloud SQL",
+  "title": "Lab: Loading Taxi Data into Google Cloud SQL",
   "description": "Objective",
   "source": "@site/docs/02-storage/lab-gcp-cloudsql-nyctaxi/README.md",
   "sourceDirName": "02-storage/lab-gcp-cloudsql-nyctaxi",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Police API",
+    "permalink": "/docs/storage/lab-mysql-police-api-etl/"
+  },
+  "next": {
+    "title": "Lab: Configuring and Securing Azure SQL Database",
+    "permalink": "/docs/storage/lab-azure-sql-securing-databases/"
+  }
 }

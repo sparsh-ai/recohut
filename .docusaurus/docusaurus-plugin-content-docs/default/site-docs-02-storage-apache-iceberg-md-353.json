@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Apache Hudi",
+    "permalink": "/docs/storage/apache-hudi"
+  },
+  "next": {
+    "title": "Lab: Read Delta Tables stored in Amazon S3 with Python",
+    "permalink": "/docs/storage/lab-read-s3-delta-in-python/"
+  }
 }

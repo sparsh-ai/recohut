@@ -1,7 +1,7 @@
 {
   "unversionedId": "processing/lab-gcp-pubsub-processing",
   "id": "processing/lab-gcp-pubsub-processing",
-  "title": "Streaming Data Processing - Streaming Data Pipelines",
+  "title": "Lab: Streaming Data Processing - Streaming Data Pipelines",
   "description": "Objective",
   "source": "@site/docs/03-processing/lab-gcp-pubsub-processing.md",
   "sourceDirName": "03-processing",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Streaming Data Processing - Publish Streaming Data into PubSub",
+    "permalink": "/docs/processing/lab-gcp-pubsub"
+  },
+  "next": {
+    "title": "Apache Kafka",
+    "permalink": "/docs/processing/apache-kafka"
+  }
 }

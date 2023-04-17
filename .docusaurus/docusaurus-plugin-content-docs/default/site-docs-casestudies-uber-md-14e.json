@@ -1,0 +1,26 @@
+{
+  "unversionedId": "casestudies/uber",
+  "id": "casestudies/uber",
+  "title": "Uber",
+  "description": "Uber's Big Data Platform: 100+ Petabytes with Minute Latency",
+  "source": "@site/docs/casestudies/uber.md",
+  "sourceDirName": "casestudies",
+  "slug": "/casestudies/uber",
+  "permalink": "/docs/casestudies/uber",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Twitter",
+    "permalink": "/docs/casestudies/twitter"
+  },
+  "next": {
+    "title": "Technology-Driven Video Advertising",
+    "permalink": "/docs/casestudies/video-stream"
+  }
+}

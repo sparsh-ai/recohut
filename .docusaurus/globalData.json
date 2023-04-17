@@ -46,106 +46,6 @@
               "path": "/docs/a1-interviewprep/resume-buildup"
             },
             {
-              "id": "a3-casestudies/99group",
-              "path": "/docs/a3-casestudies/99group"
-            },
-            {
-              "id": "a3-casestudies/airbnb",
-              "path": "/docs/a3-casestudies/airbnb"
-            },
-            {
-              "id": "a3-casestudies/amazon",
-              "path": "/docs/a3-casestudies/amazon"
-            },
-            {
-              "id": "a3-casestudies/bookingdotcom",
-              "path": "/docs/a3-casestudies/bookingdotcom"
-            },
-            {
-              "id": "a3-casestudies/expedia",
-              "path": "/docs/a3-casestudies/expedia"
-            },
-            {
-              "id": "a3-casestudies/fair",
-              "path": "/docs/a3-casestudies/fair"
-            },
-            {
-              "id": "a3-casestudies/harmony",
-              "path": "/docs/a3-casestudies/harmony"
-            },
-            {
-              "id": "a3-casestudies/helpshift",
-              "path": "/docs/a3-casestudies/helpshift"
-            },
-            {
-              "id": "a3-casestudies/hometogo",
-              "path": "/docs/a3-casestudies/hometogo"
-            },
-            {
-              "id": "a3-casestudies/intuit",
-              "path": "/docs/a3-casestudies/intuit"
-            },
-            {
-              "id": "a3-casestudies/linkedin",
-              "path": "/docs/a3-casestudies/linkedin"
-            },
-            {
-              "id": "a3-casestudies/myntra",
-              "path": "/docs/a3-casestudies/myntra"
-            },
-            {
-              "id": "a3-casestudies/outfit7",
-              "path": "/docs/a3-casestudies/outfit7"
-            },
-            {
-              "id": "a3-casestudies/panoramic",
-              "path": "/docs/a3-casestudies/panoramic"
-            },
-            {
-              "id": "a3-casestudies/plexure",
-              "path": "/docs/a3-casestudies/plexure"
-            },
-            {
-              "id": "a3-casestudies/README",
-              "path": "/docs/a3-casestudies/"
-            },
-            {
-              "id": "a3-casestudies/spotify",
-              "path": "/docs/a3-casestudies/spotify"
-            },
-            {
-              "id": "a3-casestudies/starbucks",
-              "path": "/docs/a3-casestudies/starbucks"
-            },
-            {
-              "id": "a3-casestudies/trivago",
-              "path": "/docs/a3-casestudies/trivago"
-            },
-            {
-              "id": "a3-casestudies/twilio",
-              "path": "/docs/a3-casestudies/twilio"
-            },
-            {
-              "id": "a3-casestudies/twitter",
-              "path": "/docs/a3-casestudies/twitter"
-            },
-            {
-              "id": "a3-casestudies/uber",
-              "path": "/docs/a3-casestudies/uber"
-            },
-            {
-              "id": "a3-casestudies/video-stream",
-              "path": "/docs/a3-casestudies/video-stream"
-            },
-            {
-              "id": "a3-casestudies/webshoes",
-              "path": "/docs/a3-casestudies/webshoes"
-            },
-            {
-              "id": "a3-casestudies/woot",
-              "path": "/docs/a3-casestudies/woot"
-            },
-            {
               "id": "assignments/bellabeat-analysis/README",
               "path": "/docs/assignments/bellabeat-analysis/"
             },
@@ -438,48 +338,183 @@
               "path": "/docs/capstones/us-immigration/"
             },
             {
+              "id": "casestudies/99group",
+              "path": "/docs/casestudies/99group",
+              "sidebar": "docs"
+            },
+            {
+              "id": "casestudies/airbnb",
+              "path": "/docs/casestudies/airbnb",
+              "sidebar": "docs"
+            },
+            {
+              "id": "casestudies/amazon",
+              "path": "/docs/casestudies/amazon",
+              "sidebar": "docs"
+            },
+            {
+              "id": "casestudies/bookingdotcom",
+              "path": "/docs/casestudies/bookingdotcom",
+              "sidebar": "docs"
+            },
+            {
+              "id": "casestudies/expedia",
+              "path": "/docs/casestudies/expedia",
+              "sidebar": "docs"
+            },
+            {
+              "id": "casestudies/fair",
+              "path": "/docs/casestudies/fair",
+              "sidebar": "docs"
+            },
+            {
+              "id": "casestudies/harmony",
+              "path": "/docs/casestudies/harmony",
+              "sidebar": "docs"
+            },
+            {
+              "id": "casestudies/helpshift",
+              "path": "/docs/casestudies/helpshift",
+              "sidebar": "docs"
+            },
+            {
+              "id": "casestudies/hometogo",
+              "path": "/docs/casestudies/hometogo",
+              "sidebar": "docs"
+            },
+            {
+              "id": "casestudies/intuit",
+              "path": "/docs/casestudies/intuit",
+              "sidebar": "docs"
+            },
+            {
+              "id": "casestudies/linkedin",
+              "path": "/docs/casestudies/linkedin",
+              "sidebar": "docs"
+            },
+            {
+              "id": "casestudies/myntra",
+              "path": "/docs/casestudies/myntra",
+              "sidebar": "docs"
+            },
+            {
+              "id": "casestudies/outfit7",
+              "path": "/docs/casestudies/outfit7",
+              "sidebar": "docs"
+            },
+            {
+              "id": "casestudies/panoramic",
+              "path": "/docs/casestudies/panoramic",
+              "sidebar": "docs"
+            },
+            {
+              "id": "casestudies/plexure",
+              "path": "/docs/casestudies/plexure",
+              "sidebar": "docs"
+            },
+            {
+              "id": "casestudies/README",
+              "path": "/docs/casestudies/"
+            },
+            {
+              "id": "casestudies/spotify",
+              "path": "/docs/casestudies/spotify",
+              "sidebar": "docs"
+            },
+            {
+              "id": "casestudies/starbucks",
+              "path": "/docs/casestudies/starbucks",
+              "sidebar": "docs"
+            },
+            {
+              "id": "casestudies/trivago",
+              "path": "/docs/casestudies/trivago",
+              "sidebar": "docs"
+            },
+            {
+              "id": "casestudies/twilio",
+              "path": "/docs/casestudies/twilio",
+              "sidebar": "docs"
+            },
+            {
+              "id": "casestudies/twitter",
+              "path": "/docs/casestudies/twitter",
+              "sidebar": "docs"
+            },
+            {
+              "id": "casestudies/uber",
+              "path": "/docs/casestudies/uber",
+              "sidebar": "docs"
+            },
+            {
+              "id": "casestudies/video-stream",
+              "path": "/docs/casestudies/video-stream",
+              "sidebar": "docs"
+            },
+            {
+              "id": "casestudies/webshoes",
+              "path": "/docs/casestudies/webshoes",
+              "sidebar": "docs"
+            },
+            {
+              "id": "casestudies/woot",
+              "path": "/docs/casestudies/woot",
+              "sidebar": "docs"
+            },
+            {
               "id": "data-modeling/3nf-data-modeling",
-              "path": "/docs/data-modeling/3nf-data-modeling"
+              "path": "/docs/data-modeling/3nf-data-modeling",
+              "sidebar": "docs"
             },
             {
               "id": "data-modeling/cap-theorem",
-              "path": "/docs/data-modeling/cap-theorem"
+              "path": "/docs/data-modeling/cap-theorem",
+              "sidebar": "docs"
             },
             {
               "id": "data-modeling/data-modeling-stages",
-              "path": "/docs/data-modeling/data-modeling-stages"
+              "path": "/docs/data-modeling/data-modeling-stages",
+              "sidebar": "docs"
             },
             {
               "id": "data-modeling/data-modeling-steps",
-              "path": "/docs/data-modeling/data-modeling-steps"
+              "path": "/docs/data-modeling/data-modeling-steps",
+              "sidebar": "docs"
             },
             {
               "id": "data-modeling/data-vault-modeling",
-              "path": "/docs/data-modeling/data-vault-modeling"
+              "path": "/docs/data-modeling/data-vault-modeling",
+              "sidebar": "docs"
             },
             {
               "id": "data-modeling/data-warehousing",
-              "path": "/docs/data-modeling/data-warehousing"
+              "path": "/docs/data-modeling/data-warehousing",
+              "sidebar": "docs"
             },
             {
               "id": "data-modeling/designing-incremental-loading",
-              "path": "/docs/data-modeling/designing-incremental-loading"
+              "path": "/docs/data-modeling/designing-incremental-loading",
+              "sidebar": "docs"
             },
             {
               "id": "data-modeling/designing-scd",
-              "path": "/docs/data-modeling/designing-scd"
+              "path": "/docs/data-modeling/designing-scd",
+              "sidebar": "docs"
             },
             {
               "id": "data-modeling/dimensional-modeling",
-              "path": "/docs/data-modeling/dimensional-modeling"
+              "path": "/docs/data-modeling/dimensional-modeling",
+              "sidebar": "docs"
             },
             {
               "id": "data-modeling/inmon-vs-kimball",
-              "path": "/docs/data-modeling/inmon-vs-kimball"
+              "path": "/docs/data-modeling/inmon-vs-kimball",
+              "sidebar": "docs"
             },
             {
               "id": "data-modeling/lab-airbnb-postgres-datamodel/README",
-              "path": "/docs/data-modeling/lab-airbnb-postgres-datamodel/"
+              "path": "/docs/data-modeling/lab-airbnb-postgres-datamodel/",
+              "sidebar": "docs"
             },
             {
               "id": "data-modeling/lab-cars-mysql-datamodel/datamodel-cars",
@@ -563,39 +598,48 @@
             },
             {
               "id": "data-modeling/normalization-vs-denormalization",
-              "path": "/docs/data-modeling/normalization-vs-denormalization"
+              "path": "/docs/data-modeling/normalization-vs-denormalization",
+              "sidebar": "docs"
             },
             {
               "id": "data-modeling/nosql-data-modeling",
-              "path": "/docs/data-modeling/nosql-data-modeling"
+              "path": "/docs/data-modeling/nosql-data-modeling",
+              "sidebar": "docs"
             },
             {
               "id": "data-modeling/quiz",
-              "path": "/docs/data-modeling/quiz"
+              "path": "/docs/data-modeling/quiz",
+              "sidebar": "docs"
             },
             {
               "id": "data-modeling/sql-data-modeling",
-              "path": "/docs/data-modeling/sql-data-modeling"
+              "path": "/docs/data-modeling/sql-data-modeling",
+              "sidebar": "docs"
             },
             {
               "id": "datascience/algorithms/decision-trees",
-              "path": "/docs/datascience/algorithms/decision-trees"
+              "path": "/docs/datascience/algorithms/decision-trees",
+              "sidebar": "docs"
             },
             {
               "id": "datascience/algorithms/gradient-boosting",
-              "path": "/docs/datascience/algorithms/gradient-boosting"
+              "path": "/docs/datascience/algorithms/gradient-boosting",
+              "sidebar": "docs"
             },
             {
               "id": "datascience/algorithms/knn",
-              "path": "/docs/datascience/algorithms/knn"
+              "path": "/docs/datascience/algorithms/knn",
+              "sidebar": "docs"
             },
             {
               "id": "datascience/algorithms/linear-regression",
-              "path": "/docs/datascience/algorithms/linear-regression"
+              "path": "/docs/datascience/algorithms/linear-regression",
+              "sidebar": "docs"
             },
             {
               "id": "datascience/algorithms/logistic-regression",
-              "path": "/docs/datascience/algorithms/logistic-regression"
+              "path": "/docs/datascience/algorithms/logistic-regression",
+              "sidebar": "docs"
             },
             {
               "id": "datascience/algorithms/ml-eda/README",
@@ -607,7 +651,8 @@
             },
             {
               "id": "datascience/algorithms/random-forest",
-              "path": "/docs/datascience/algorithms/random-forest"
+              "path": "/docs/datascience/algorithms/random-forest",
+              "sidebar": "docs"
             },
             {
               "id": "datascience/basics/cross-domain",
@@ -659,7 +704,8 @@
             },
             {
               "id": "datascience/bias-variance-tradeoff",
-              "path": "/docs/datascience/bias-variance-tradeoff"
+              "path": "/docs/datascience/bias-variance-tradeoff",
+              "sidebar": "docs"
             },
             {
               "id": "datascience/challenges/conversion-rate/README",
@@ -731,31 +777,38 @@
             },
             {
               "id": "datascience/data-encoding",
-              "path": "/docs/datascience/data-encoding"
+              "path": "/docs/datascience/data-encoding",
+              "sidebar": "docs"
             },
             {
               "id": "datascience/data-preparation",
-              "path": "/docs/datascience/data-preparation"
+              "path": "/docs/datascience/data-preparation",
+              "sidebar": "docs"
             },
             {
               "id": "datascience/data-splits",
-              "path": "/docs/datascience/data-splits"
+              "path": "/docs/datascience/data-splits",
+              "sidebar": "docs"
             },
             {
               "id": "datascience/deep-learning/deep-learning-basics",
-              "path": "/docs/datascience/deep-learning/deep-learning-basics"
+              "path": "/docs/datascience/deep-learning/deep-learning-basics",
+              "sidebar": "docs"
             },
             {
               "id": "datascience/deep-learning/perceptron",
-              "path": "/docs/datascience/deep-learning/perceptron"
+              "path": "/docs/datascience/deep-learning/perceptron",
+              "sidebar": "docs"
             },
             {
               "id": "datascience/feature-selection",
-              "path": "/docs/datascience/feature-selection"
+              "path": "/docs/datascience/feature-selection",
+              "sidebar": "docs"
             },
             {
               "id": "datascience/metrics-and-evaluation",
-              "path": "/docs/datascience/metrics-and-evaluation"
+              "path": "/docs/datascience/metrics-and-evaluation",
+              "sidebar": "docs"
             },
             {
               "id": "datascience/nlp/lab-basic-text-handlng-python/index",
@@ -860,7 +913,8 @@
             },
             {
               "id": "datascience/timeseries/prophet",
-              "path": "/docs/datascience/timeseries/prophet"
+              "path": "/docs/datascience/timeseries/prophet",
+              "sidebar": "docs"
             },
             {
               "id": "datascience/timeseries/README",
@@ -880,7 +934,8 @@
             },
             {
               "id": "devops/containers/README",
-              "path": "/docs/devops/containers/"
+              "path": "/docs/devops/containers/",
+              "sidebar": "docs"
             },
             {
               "id": "devops/fastapi/lab-fastapi-applications/README",
@@ -896,11 +951,13 @@
             },
             {
               "id": "devops/iac/README",
-              "path": "/docs/devops/iac/"
+              "path": "/docs/devops/iac/",
+              "sidebar": "docs"
             },
             {
               "id": "devops/README",
-              "path": "/docs/devops/"
+              "path": "/docs/devops/",
+              "sidebar": "docs"
             },
             {
               "id": "extraction/api/lab-hackernews-git-api/README",
@@ -912,11 +969,13 @@
             },
             {
               "id": "extraction/api/README",
-              "path": "/docs/extraction/api/"
+              "path": "/docs/extraction/api/",
+              "sidebar": "docs"
             },
             {
-              "id": "extraction/faker/README",
-              "path": "/docs/extraction/faker/"
+              "id": "extraction/faker/lab-generate-data-with-faker/README",
+              "path": "/docs/extraction/faker/lab-generate-data-with-faker/",
+              "sidebar": "docs"
             },
             {
               "id": "extraction/README",
@@ -982,7 +1041,8 @@
             },
             {
               "id": "foundations/basics/deployment",
-              "path": "/docs/foundations/basics/deployment"
+              "path": "/docs/foundations/basics/deployment",
+              "sidebar": "docs"
             },
             {
               "id": "foundations/basics/extras",
@@ -1029,7 +1089,8 @@
             },
             {
               "id": "foundations/basics/origin",
-              "path": "/docs/foundations/basics/origin"
+              "path": "/docs/foundations/basics/origin",
+              "sidebar": "docs"
             },
             {
               "id": "foundations/basics/outliers-handling",
@@ -1072,7 +1133,8 @@
             },
             {
               "id": "foundations/basics/use-cases",
-              "path": "/docs/foundations/basics/use-cases"
+              "path": "/docs/foundations/basics/use-cases",
+              "sidebar": "docs"
             },
             {
               "id": "foundations/basics/vector-search",
@@ -1260,7 +1322,13 @@
             },
             {
               "id": "foundations/language/pyspark/lab-bcg/README",
-              "path": "/docs/foundations/language/pyspark/lab-bcg/"
+              "path": "/docs/foundations/language/pyspark/lab-bcg/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "foundations/language/pyspark/lab-calculating-partitions/README",
+              "path": "/docs/foundations/language/pyspark/lab-calculating-partitions/",
+              "sidebar": "docs"
             },
             {
               "id": "foundations/language/pyspark/lab-pyspark-basics/index",
@@ -1292,11 +1360,8 @@
             },
             {
               "id": "foundations/language/pyspark/lab-understand-spark-query-execution/README",
-              "path": "/docs/foundations/language/pyspark/lab-understand-spark-query-execution/"
-            },
-            {
-              "id": "foundations/language/pyspark/lab-window-functions/README",
-              "path": "/docs/foundations/language/pyspark/lab-window-functions/"
+              "path": "/docs/foundations/language/pyspark/lab-understand-spark-query-execution/",
+              "sidebar": "docs"
             },
             {
               "id": "foundations/language/pyspark/lazy-processing",
@@ -1322,6 +1387,10 @@
               "id": "foundations/language/pyspark/udf",
               "path": "/docs/foundations/language/pyspark/udf",
               "sidebar": "docs"
+            },
+            {
+              "id": "foundations/language/pyspark/window-functions",
+              "path": "/docs/foundations/language/pyspark/window-functions"
             },
             {
               "id": "foundations/language/python/introduction-to-python",
@@ -1357,7 +1426,8 @@
             },
             {
               "id": "foundations/language/scala/lab-scala-getting-started/README",
-              "path": "/docs/foundations/language/scala/lab-scala-getting-started/"
+              "path": "/docs/foundations/language/scala/lab-scala-getting-started/",
+              "sidebar": "docs"
             },
             {
               "id": "foundations/language/scala/README",
@@ -1611,7 +1681,8 @@
             },
             {
               "id": "mathematics/probability/probability-distributions",
-              "path": "/docs/mathematics/probability/probability-distributions"
+              "path": "/docs/mathematics/probability/probability-distributions",
+              "sidebar": "docs"
             },
             {
               "id": "mathematics/probability/README",
@@ -1619,11 +1690,13 @@
             },
             {
               "id": "mathematics/probability/rules-of-probability",
-              "path": "/docs/mathematics/probability/rules-of-probability"
+              "path": "/docs/mathematics/probability/rules-of-probability",
+              "sidebar": "docs"
             },
             {
               "id": "mathematics/README",
-              "path": "/docs/mathematics/"
+              "path": "/docs/mathematics/",
+              "sidebar": "docs"
             },
             {
               "id": "mathematics/statistics/README",
@@ -1631,11 +1704,13 @@
             },
             {
               "id": "mathematics/statistics/sampling",
-              "path": "/docs/mathematics/statistics/sampling"
+              "path": "/docs/mathematics/statistics/sampling",
+              "sidebar": "docs"
             },
             {
               "id": "mlops/code-snippets",
-              "path": "/docs/mlops/code-snippets"
+              "path": "/docs/mlops/code-snippets",
+              "sidebar": "docs"
             },
             {
               "id": "mlops/ml-lab-tracking/README",
@@ -1643,11 +1718,13 @@
             },
             {
               "id": "mlops/mlflow/README",
-              "path": "/docs/mlops/mlflow/"
+              "path": "/docs/mlops/mlflow/",
+              "sidebar": "docs"
             },
             {
               "id": "mlops/README",
-              "path": "/docs/mlops/"
+              "path": "/docs/mlops/",
+              "sidebar": "docs"
             },
             {
               "id": "orchestration/airflow/github-nft/README",
@@ -1687,27 +1764,38 @@
             },
             {
               "id": "orchestration/airflow/README",
-              "path": "/docs/orchestration/airflow/"
+              "path": "/docs/orchestration/airflow/",
+              "sidebar": "docs"
             },
             {
               "id": "orchestration/azure-data-factory/lab-adf-incremental-loading/README",
-              "path": "/docs/orchestration/azure-data-factory/lab-adf-incremental-loading/"
+              "path": "/docs/orchestration/azure-data-factory/lab-adf-incremental-loading/",
+              "sidebar": "docs"
             },
             {
               "id": "orchestration/azure-data-factory/lab-batch-processing-solution/README",
-              "path": "/docs/orchestration/azure-data-factory/lab-batch-processing-solution/"
+              "path": "/docs/orchestration/azure-data-factory/lab-batch-processing-solution/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "orchestration/azure-data-factory/lab-data-ingestion-pipeline/README",
+              "path": "/docs/orchestration/azure-data-factory/lab-data-ingestion-pipeline/",
+              "sidebar": "docs"
             },
             {
               "id": "orchestration/azure-data-factory/README",
-              "path": "/docs/orchestration/azure-data-factory/"
+              "path": "/docs/orchestration/azure-data-factory/",
+              "sidebar": "docs"
             },
             {
               "id": "orchestration/datafusion/lab-datafusion-pipeline/README",
-              "path": "/docs/orchestration/datafusion/lab-datafusion-pipeline/"
+              "path": "/docs/orchestration/datafusion/lab-datafusion-pipeline/",
+              "sidebar": "docs"
             },
             {
               "id": "orchestration/datafusion/README",
-              "path": "/docs/orchestration/datafusion/"
+              "path": "/docs/orchestration/datafusion/",
+              "sidebar": "docs"
             },
             {
               "id": "orchestration/modern-data-stack/lab-analyse-stacks/README",
@@ -1739,15 +1827,18 @@
             },
             {
               "id": "orchestration/README",
-              "path": "/docs/orchestration/"
+              "path": "/docs/orchestration/",
+              "sidebar": "docs"
             },
             {
               "id": "orchestration/stepfunctions/lab-stepfunction-athena-sns/README",
-              "path": "/docs/orchestration/stepfunctions/lab-stepfunction-athena-sns/"
+              "path": "/docs/orchestration/stepfunctions/lab-stepfunction-athena-sns/",
+              "sidebar": "docs"
             },
             {
               "id": "orchestration/stepfunctions/lab-stepfunction-ecomm-sqs/README",
-              "path": "/docs/orchestration/stepfunctions/lab-stepfunction-ecomm-sqs/"
+              "path": "/docs/orchestration/stepfunctions/lab-stepfunction-ecomm-sqs/",
+              "sidebar": "docs"
             },
             {
               "id": "orchestration/stepfunctions/README",
@@ -1755,7 +1846,8 @@
             },
             {
               "id": "processing/apache-beam",
-              "path": "/docs/processing/apache-beam"
+              "path": "/docs/processing/apache-beam",
+              "sidebar": "docs"
             },
             {
               "id": "processing/apache-druid",
@@ -1767,27 +1859,33 @@
             },
             {
               "id": "processing/apache-kafka",
-              "path": "/docs/processing/apache-kafka"
+              "path": "/docs/processing/apache-kafka",
+              "sidebar": "docs"
             },
             {
               "id": "processing/aws-emr",
-              "path": "/docs/processing/aws-emr"
+              "path": "/docs/processing/aws-emr",
+              "sidebar": "docs"
             },
             {
               "id": "processing/aws-kinesis",
-              "path": "/docs/processing/aws-kinesis"
+              "path": "/docs/processing/aws-kinesis",
+              "sidebar": "docs"
             },
             {
               "id": "processing/aws-lambda",
-              "path": "/docs/processing/aws-lambda"
+              "path": "/docs/processing/aws-lambda",
+              "sidebar": "docs"
             },
             {
               "id": "processing/aws-lambda-snippets",
-              "path": "/docs/processing/aws-lambda-snippets"
+              "path": "/docs/processing/aws-lambda-snippets",
+              "sidebar": "docs"
             },
             {
               "id": "processing/azure-synapse-analytics",
-              "path": "/docs/processing/azure-synapse-analytics"
+              "path": "/docs/processing/azure-synapse-analytics",
+              "sidebar": "docs"
             },
             {
               "id": "processing/databricks/boston-crime-analysis/README",
@@ -1795,15 +1893,23 @@
             },
             {
               "id": "processing/databricks/lab-cybersecurity-databricks/README",
-              "path": "/docs/processing/databricks/lab-cybersecurity-databricks/"
+              "path": "/docs/processing/databricks/lab-cybersecurity-databricks/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "processing/databricks/lab-data-processing-azure-dbr/README",
+              "path": "/docs/processing/databricks/lab-data-processing-azure-dbr/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/databricks/lab-databricks-clickstream/README",
-              "path": "/docs/processing/databricks/lab-databricks-clickstream/"
+              "path": "/docs/processing/databricks/lab-databricks-clickstream/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/databricks/lab-databricks-deltalake/README",
-              "path": "/docs/processing/databricks/lab-databricks-deltalake/"
+              "path": "/docs/processing/databricks/lab-databricks-deltalake/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/databricks/lab-databricks-pyspark-s3/index",
@@ -1812,27 +1918,33 @@
             },
             {
               "id": "processing/databricks/lab-databricks-scala-postgres-s3/README",
-              "path": "/docs/processing/databricks/lab-databricks-scala-postgres-s3/"
+              "path": "/docs/processing/databricks/lab-databricks-scala-postgres-s3/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/databricks/lab-deltalake-optimizations/README",
-              "path": "/docs/processing/databricks/lab-deltalake-optimizations/"
+              "path": "/docs/processing/databricks/lab-deltalake-optimizations/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/databricks/lab-dlt-dbt/README",
-              "path": "/docs/processing/databricks/lab-dlt-dbt/"
+              "path": "/docs/processing/databricks/lab-dlt-dbt/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/databricks/lab-healthcare-databricks/README",
-              "path": "/docs/processing/databricks/lab-healthcare-databricks/"
+              "path": "/docs/processing/databricks/lab-healthcare-databricks/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/databricks/lab-iot-health-tracker/README",
-              "path": "/docs/processing/databricks/lab-iot-health-tracker/"
+              "path": "/docs/processing/databricks/lab-iot-health-tracker/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/databricks/lab-loan-application/README",
-              "path": "/docs/processing/databricks/lab-loan-application/"
+              "path": "/docs/processing/databricks/lab-loan-application/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/databricks/lab-pyspark-itversity/README",
@@ -1840,31 +1952,38 @@
             },
             {
               "id": "processing/databricks/lab-retail-pos-databricks/README",
-              "path": "/docs/processing/databricks/lab-retail-pos-databricks/"
+              "path": "/docs/processing/databricks/lab-retail-pos-databricks/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/databricks/project-advancedbricks/README",
-              "path": "/docs/processing/databricks/project-advancedbricks/"
+              "path": "/docs/processing/databricks/project-advancedbricks/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/databricks/project-bedbricks/README",
-              "path": "/docs/processing/databricks/project-bedbricks/"
+              "path": "/docs/processing/databricks/project-bedbricks/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/databricks/project-databricks-de/README",
-              "path": "/docs/processing/databricks/project-databricks-de/"
+              "path": "/docs/processing/databricks/project-databricks-de/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/databricks/project-databricks-superset/README",
-              "path": "/docs/processing/databricks/project-databricks-superset/"
+              "path": "/docs/processing/databricks/project-databricks-superset/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/databricks/project-learnerbricks/README",
-              "path": "/docs/processing/databricks/project-learnerbricks/"
+              "path": "/docs/processing/databricks/project-learnerbricks/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/databricks/README",
-              "path": "/docs/processing/databricks/"
+              "path": "/docs/processing/databricks/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/databricks/setup",
@@ -1876,39 +1995,53 @@
             },
             {
               "id": "processing/gcp-dataproc",
-              "path": "/docs/processing/gcp-dataproc"
+              "path": "/docs/processing/gcp-dataproc",
+              "sidebar": "docs"
             },
             {
               "id": "processing/gcp-pubsub",
-              "path": "/docs/processing/gcp-pubsub"
+              "path": "/docs/processing/gcp-pubsub",
+              "sidebar": "docs"
             },
             {
               "id": "processing/lab-azure-hdinsight-simple-data-processing/README",
-              "path": "/docs/processing/lab-azure-hdinsight-simple-data-processing/"
+              "path": "/docs/processing/lab-azure-hdinsight-simple-data-processing/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/lab-azure-synapse-data-processing/README",
-              "path": "/docs/processing/lab-azure-synapse-data-processing/"
+              "path": "/docs/processing/lab-azure-synapse-data-processing/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/lab-azure-synapse-dataflows/README",
-              "path": "/docs/processing/lab-azure-synapse-dataflows/"
+              "path": "/docs/processing/lab-azure-synapse-dataflows/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/lab-azure-synapse-implementing-star-schema/README",
-              "path": "/docs/processing/lab-azure-synapse-implementing-star-schema/"
+              "path": "/docs/processing/lab-azure-synapse-implementing-star-schema/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/lab-confluent-kafka-faker/README",
-              "path": "/docs/processing/lab-confluent-kafka-faker/"
+              "path": "/docs/processing/lab-confluent-kafka-faker/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "processing/lab-confluent-python/README",
+              "path": "/docs/processing/lab-confluent-python/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/lab-csv-to-parquet-conversion/README",
-              "path": "/docs/processing/lab-csv-to-parquet-conversion/"
+              "path": "/docs/processing/lab-csv-to-parquet-conversion/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/lab-dataflow-bigquery-etl",
-              "path": "/docs/processing/lab-dataflow-bigquery-etl"
+              "path": "/docs/processing/lab-dataflow-bigquery-etl",
+              "sidebar": "docs"
             },
             {
               "id": "processing/lab-dbt-jaffle-shop/models/docs",
@@ -1956,67 +2089,83 @@
             },
             {
               "id": "processing/lab-emr-serverless/README",
-              "path": "/docs/processing/lab-emr-serverless/"
+              "path": "/docs/processing/lab-emr-serverless/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/lab-gcp-beam-mapreduce/README",
-              "path": "/docs/processing/lab-gcp-beam-mapreduce/"
+              "path": "/docs/processing/lab-gcp-beam-mapreduce/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/lab-gcp-dataflow-batch-pipeline",
-              "path": "/docs/processing/lab-gcp-dataflow-batch-pipeline"
+              "path": "/docs/processing/lab-gcp-dataflow-batch-pipeline",
+              "sidebar": "docs"
             },
             {
               "id": "processing/lab-gcp-dataflow-pipeline",
-              "path": "/docs/processing/lab-gcp-dataflow-pipeline"
+              "path": "/docs/processing/lab-gcp-dataflow-pipeline",
+              "sidebar": "docs"
             },
             {
               "id": "processing/lab-gcp-dataflow-side-inputs",
-              "path": "/docs/processing/lab-gcp-dataflow-side-inputs"
+              "path": "/docs/processing/lab-gcp-dataflow-side-inputs",
+              "sidebar": "docs"
             },
             {
               "id": "processing/lab-gcp-dataflow-stream-pipeline",
-              "path": "/docs/processing/lab-gcp-dataflow-stream-pipeline"
+              "path": "/docs/processing/lab-gcp-dataflow-stream-pipeline",
+              "sidebar": "docs"
             },
             {
               "id": "processing/lab-gcp-dataprep",
-              "path": "/docs/processing/lab-gcp-dataprep"
+              "path": "/docs/processing/lab-gcp-dataprep",
+              "sidebar": "docs"
             },
             {
               "id": "processing/lab-gcp-dataproc/README",
-              "path": "/docs/processing/lab-gcp-dataproc/"
+              "path": "/docs/processing/lab-gcp-dataproc/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/lab-gcp-pubsub",
-              "path": "/docs/processing/lab-gcp-pubsub"
+              "path": "/docs/processing/lab-gcp-pubsub",
+              "sidebar": "docs"
             },
             {
               "id": "processing/lab-gcp-pubsub-processing",
-              "path": "/docs/processing/lab-gcp-pubsub-processing"
+              "path": "/docs/processing/lab-gcp-pubsub-processing",
+              "sidebar": "docs"
             },
             {
               "id": "processing/lab-gcp-serverless-dataflow",
-              "path": "/docs/processing/lab-gcp-serverless-dataflow"
+              "path": "/docs/processing/lab-gcp-serverless-dataflow",
+              "sidebar": "docs"
             },
             {
               "id": "processing/lab-getting-started-with-beam/README",
-              "path": "/docs/processing/lab-getting-started-with-beam/"
+              "path": "/docs/processing/lab-getting-started-with-beam/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/lab-glue-advanced/README",
-              "path": "/docs/processing/lab-glue-advanced/"
+              "path": "/docs/processing/lab-glue-advanced/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/lab-glue-deltalake-cdc-upsert/README",
-              "path": "/docs/processing/lab-glue-deltalake-cdc-upsert/"
+              "path": "/docs/processing/lab-glue-deltalake-cdc-upsert/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/lab-glue-studio-custom-transforms/README",
-              "path": "/docs/processing/lab-glue-studio-custom-transforms/"
+              "path": "/docs/processing/lab-glue-studio-custom-transforms/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/lab-glue-studio-tickets/README",
-              "path": "/docs/processing/lab-glue-studio-tickets/"
+              "path": "/docs/processing/lab-glue-studio-tickets/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/lab-kafka-cli/README",
@@ -2052,23 +2201,28 @@
             },
             {
               "id": "processing/lab-kinesis-apache-logs/README",
-              "path": "/docs/processing/lab-kinesis-apache-logs/"
+              "path": "/docs/processing/lab-kinesis-apache-logs/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/lab-kinesis-clickstream-anomaly/README",
-              "path": "/docs/processing/lab-kinesis-clickstream-anomaly/"
+              "path": "/docs/processing/lab-kinesis-clickstream-anomaly/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/lab-lambda-csv-parquet/README",
-              "path": "/docs/processing/lab-lambda-csv-parquet/"
+              "path": "/docs/processing/lab-lambda-csv-parquet/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/lab-ray-air-basics/README",
-              "path": "/docs/processing/lab-ray-air-basics/"
+              "path": "/docs/processing/lab-ray-air-basics/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/lab-ray-core-basics/README",
-              "path": "/docs/processing/lab-ray-core-basics/"
+              "path": "/docs/processing/lab-ray-core-basics/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/lab-snowpark-churnpark/README",
@@ -2100,7 +2254,8 @@
             },
             {
               "id": "processing/ray",
-              "path": "/docs/processing/ray"
+              "path": "/docs/processing/ray",
+              "sidebar": "docs"
             },
             {
               "id": "processing/snowpark",
@@ -2108,55 +2263,68 @@
             },
             {
               "id": "storage/apache-couchdb",
-              "path": "/docs/storage/apache-couchdb"
+              "path": "/docs/storage/apache-couchdb",
+              "sidebar": "docs"
             },
             {
               "id": "storage/apache-hudi",
-              "path": "/docs/storage/apache-hudi"
+              "path": "/docs/storage/apache-hudi",
+              "sidebar": "docs"
             },
             {
               "id": "storage/apache-iceberg",
-              "path": "/docs/storage/apache-iceberg"
+              "path": "/docs/storage/apache-iceberg",
+              "sidebar": "docs"
             },
             {
               "id": "storage/arrow",
-              "path": "/docs/storage/arrow"
+              "path": "/docs/storage/arrow",
+              "sidebar": "docs"
             },
             {
               "id": "storage/athena",
-              "path": "/docs/storage/athena"
+              "path": "/docs/storage/athena",
+              "sidebar": "docs"
             },
             {
               "id": "storage/avro",
-              "path": "/docs/storage/avro"
+              "path": "/docs/storage/avro",
+              "sidebar": "docs"
             },
             {
               "id": "storage/avro-vs-parquet-vs-orc",
-              "path": "/docs/storage/avro-vs-parquet-vs-orc"
+              "path": "/docs/storage/avro-vs-parquet-vs-orc",
+              "sidebar": "docs"
             },
             {
               "id": "storage/aws-dynamodb",
-              "path": "/docs/storage/aws-dynamodb"
+              "path": "/docs/storage/aws-dynamodb",
+              "sidebar": "docs"
             },
             {
               "id": "storage/azure-datalake",
-              "path": "/docs/storage/azure-datalake"
+              "path": "/docs/storage/azure-datalake",
+              "sidebar": "docs"
             },
             {
               "id": "storage/azure-sql",
-              "path": "/docs/storage/azure-sql"
+              "path": "/docs/storage/azure-sql",
+              "sidebar": "docs"
             },
             {
               "id": "storage/bigquery",
-              "path": "/docs/storage/bigquery"
+              "path": "/docs/storage/bigquery",
+              "sidebar": "docs"
             },
             {
               "id": "storage/casestudy-messflix-hypothetical",
-              "path": "/docs/storage/casestudy-messflix-hypothetical"
+              "path": "/docs/storage/casestudy-messflix-hypothetical",
+              "sidebar": "docs"
             },
             {
               "id": "storage/cassandra",
-              "path": "/docs/storage/cassandra"
+              "path": "/docs/storage/cassandra",
+              "sidebar": "docs"
             },
             {
               "id": "storage/code-snippets",
@@ -2168,87 +2336,108 @@
             },
             {
               "id": "storage/csv",
-              "path": "/docs/storage/csv"
+              "path": "/docs/storage/csv",
+              "sidebar": "docs"
             },
             {
               "id": "storage/data-lakehouses",
-              "path": "/docs/storage/data-lakehouses"
+              "path": "/docs/storage/data-lakehouses",
+              "sidebar": "docs"
             },
             {
               "id": "storage/data-mesh-basics",
-              "path": "/docs/storage/data-mesh-basics"
+              "path": "/docs/storage/data-mesh-basics",
+              "sidebar": "docs"
             },
             {
               "id": "storage/data-warehouses",
-              "path": "/docs/storage/data-warehouses"
+              "path": "/docs/storage/data-warehouses",
+              "sidebar": "docs"
+            },
+            {
+              "id": "storage/database-links",
+              "path": "/docs/storage/database-links",
+              "sidebar": "docs"
             },
             {
               "id": "storage/database-storage-engines",
-              "path": "/docs/storage/database-storage-engines"
-            },
-            {
-              "id": "storage/datalake-components",
-              "path": "/docs/storage/datalake-components"
+              "path": "/docs/storage/database-storage-engines",
+              "sidebar": "docs"
             },
             {
               "id": "storage/datalakes",
-              "path": "/docs/storage/datalakes"
+              "path": "/docs/storage/datalakes",
+              "sidebar": "docs"
             },
             {
               "id": "storage/deltalake",
-              "path": "/docs/storage/deltalake"
+              "path": "/docs/storage/deltalake",
+              "sidebar": "docs"
             },
             {
               "id": "storage/duckdb",
-              "path": "/docs/storage/duckdb"
+              "path": "/docs/storage/duckdb",
+              "sidebar": "docs"
             },
             {
               "id": "storage/gcp-bigtable",
-              "path": "/docs/storage/gcp-bigtable"
+              "path": "/docs/storage/gcp-bigtable",
+              "sidebar": "docs"
             },
             {
               "id": "storage/gcp-cloudsql",
-              "path": "/docs/storage/gcp-cloudsql"
+              "path": "/docs/storage/gcp-cloudsql",
+              "sidebar": "docs"
             },
             {
               "id": "storage/gcs",
-              "path": "/docs/storage/gcs"
-            },
-            {
-              "id": "storage/hadoop-vs-datalake",
-              "path": "/docs/storage/hadoop-vs-datalake"
+              "path": "/docs/storage/gcs",
+              "sidebar": "docs"
             },
             {
               "id": "storage/hudi",
-              "path": "/docs/storage/hudi"
+              "path": "/docs/storage/hudi",
+              "sidebar": "docs"
             },
             {
               "id": "storage/iceberg",
-              "path": "/docs/storage/iceberg"
+              "path": "/docs/storage/iceberg",
+              "sidebar": "docs"
             },
             {
               "id": "storage/interview-questions",
-              "path": "/docs/storage/interview-questions"
+              "path": "/docs/storage/interview-questions",
+              "sidebar": "docs"
             },
             {
               "id": "storage/json",
-              "path": "/docs/storage/json"
+              "path": "/docs/storage/json",
+              "sidebar": "docs"
+            },
+            {
+              "id": "storage/lab-adl-create-manage-data/README",
+              "path": "/docs/storage/lab-adl-create-manage-data/",
+              "sidebar": "docs"
             },
             {
               "id": "storage/lab-adl-securing-monitoring-lakes/README",
-              "path": "/docs/storage/lab-adl-securing-monitoring-lakes/"
+              "path": "/docs/storage/lab-adl-securing-monitoring-lakes/",
+              "sidebar": "docs"
             },
             {
               "id": "storage/lab-amazon-keyspaces/README",
-              "path": "/docs/storage/lab-amazon-keyspaces/"
+              "path": "/docs/storage/lab-amazon-keyspaces/",
+              "sidebar": "docs"
             },
             {
               "id": "storage/lab-aws-rds-service/README",
-              "path": "/docs/storage/lab-aws-rds-service/"
+              "path": "/docs/storage/lab-aws-rds-service/",
+              "sidebar": "docs"
             },
             {
               "id": "storage/lab-azure-sql-securing-databases/README",
-              "path": "/docs/storage/lab-azure-sql-securing-databases/"
+              "path": "/docs/storage/lab-azure-sql-securing-databases/",
+              "sidebar": "docs"
             },
             {
               "id": "storage/lab-bigquery-analysis/README",
@@ -2288,27 +2477,38 @@
             },
             {
               "id": "storage/lab-couchdb-movies-data-migration/README",
-              "path": "/docs/storage/lab-couchdb-movies-data-migration/"
+              "path": "/docs/storage/lab-couchdb-movies-data-migration/",
+              "sidebar": "docs"
             },
             {
               "id": "storage/lab-data-loading-python/README",
-              "path": "/docs/storage/lab-data-loading-python/"
+              "path": "/docs/storage/lab-data-loading-python/",
+              "sidebar": "docs"
             },
             {
-              "id": "storage/lab-datalake-healthcare-s3-glue-athena/readme",
-              "path": "/docs/storage/lab-datalake-healthcare-s3-glue-athena/"
+              "id": "storage/lab-datalake-healthcare-s3-glue-athena/README",
+              "path": "/docs/storage/lab-datalake-healthcare-s3-glue-athena/",
+              "sidebar": "docs"
             },
             {
               "id": "storage/lab-db2-bookshop-petsale-data-ingestion/README",
-              "path": "/docs/storage/lab-db2-bookshop-petsale-data-ingestion/"
+              "path": "/docs/storage/lab-db2-bookshop-petsale-data-ingestion/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "storage/lab-duckdb-analytics-bank-tpch-nyctaxi/README",
+              "path": "/docs/storage/lab-duckdb-analytics-bank-tpch-nyctaxi/",
+              "sidebar": "docs"
             },
             {
               "id": "storage/lab-gcp-cloudsql-nyctaxi/README",
-              "path": "/docs/storage/lab-gcp-cloudsql-nyctaxi/"
+              "path": "/docs/storage/lab-gcp-cloudsql-nyctaxi/",
+              "sidebar": "docs"
             },
             {
               "id": "storage/lab-gcp-streaming-bigtable/README",
-              "path": "/docs/storage/lab-gcp-streaming-bigtable/"
+              "path": "/docs/storage/lab-gcp-streaming-bigtable/",
+              "sidebar": "docs"
             },
             {
               "id": "storage/lab-getting-started-with-cassandra/cassandra-cli",
@@ -2319,16 +2519,24 @@
               "path": "/docs/storage/lab-getting-started-with-cassandra/getting-started"
             },
             {
+              "id": "storage/lab-getting-started-with-cassandra/README",
+              "path": "/docs/storage/lab-getting-started-with-cassandra/",
+              "sidebar": "docs"
+            },
+            {
               "id": "storage/lab-glue-emr-iceberg-serverless-lakehouse/README",
-              "path": "/docs/storage/lab-glue-emr-iceberg-serverless-lakehouse/"
+              "path": "/docs/storage/lab-glue-emr-iceberg-serverless-lakehouse/",
+              "sidebar": "docs"
             },
             {
               "id": "storage/lab-intro-to-dynamodb/README",
-              "path": "/docs/storage/lab-intro-to-dynamodb/"
+              "path": "/docs/storage/lab-intro-to-dynamodb/",
+              "sidebar": "docs"
             },
             {
               "id": "storage/lab-mongodb-basics/README",
-              "path": "/docs/storage/lab-mongodb-basics/"
+              "path": "/docs/storage/lab-mongodb-basics/",
+              "sidebar": "docs"
             },
             {
               "id": "storage/lab-mongodb-pandas/README",
@@ -2336,51 +2544,58 @@
             },
             {
               "id": "storage/lab-mysql-data-ingestion/README",
-              "path": "/docs/storage/lab-mysql-data-ingestion/"
+              "path": "/docs/storage/lab-mysql-data-ingestion/",
+              "sidebar": "docs"
             },
             {
               "id": "storage/lab-mysql-police-api-etl/README",
-              "path": "/docs/storage/lab-mysql-police-api-etl/"
+              "path": "/docs/storage/lab-mysql-police-api-etl/",
+              "sidebar": "docs"
             },
             {
               "id": "storage/lab-postgres-bash-etl/README",
-              "path": "/docs/storage/lab-postgres-bash-etl/"
+              "path": "/docs/storage/lab-postgres-bash-etl/",
+              "sidebar": "docs"
             },
             {
               "id": "storage/lab-postgres-crime-reports/README",
-              "path": "/docs/storage/lab-postgres-crime-reports/"
+              "path": "/docs/storage/lab-postgres-crime-reports/",
+              "sidebar": "docs"
             },
             {
               "id": "storage/lab-postgres-getting-started/README",
-              "path": "/docs/storage/lab-postgres-getting-started/"
+              "path": "/docs/storage/lab-postgres-getting-started/",
+              "sidebar": "docs"
             },
             {
               "id": "storage/lab-postgres-trips-stored-procedure/README",
-              "path": "/docs/storage/lab-postgres-trips-stored-procedure/"
+              "path": "/docs/storage/lab-postgres-trips-stored-procedure/",
+              "sidebar": "docs"
             },
             {
               "id": "storage/lab-processing-json-data/README",
-              "path": "/docs/storage/lab-processing-json-data/"
+              "path": "/docs/storage/lab-processing-json-data/",
+              "sidebar": "docs"
             },
             {
               "id": "storage/lab-production-cleaning-deltalake/README",
-              "path": "/docs/storage/lab-production-cleaning-deltalake/"
+              "path": "/docs/storage/lab-production-cleaning-deltalake/",
+              "sidebar": "docs"
             },
             {
               "id": "storage/lab-read-s3-delta-in-python/README",
-              "path": "/docs/storage/lab-read-s3-delta-in-python/"
+              "path": "/docs/storage/lab-read-s3-delta-in-python/",
+              "sidebar": "docs"
             },
             {
               "id": "storage/lab-redshift-data-loading",
-              "path": "/docs/storage/lab-redshift-data-loading"
+              "path": "/docs/storage/lab-redshift-data-loading",
+              "sidebar": "docs"
             },
             {
               "id": "storage/lab-redshift-data-loading-analysis",
-              "path": "/docs/storage/lab-redshift-data-loading-analysis"
-            },
-            {
-              "id": "storage/lab-redshift-data-loading-python",
-              "path": "/docs/storage/lab-redshift-data-loading-python"
+              "path": "/docs/storage/lab-redshift-data-loading-analysis",
+              "sidebar": "docs"
             },
             {
               "id": "storage/lab-redshift-immersion/README",
@@ -2392,31 +2607,38 @@
             },
             {
               "id": "storage/lab-redshift-ongoing-load-elt",
-              "path": "/docs/storage/lab-redshift-ongoing-load-elt"
+              "path": "/docs/storage/lab-redshift-ongoing-load-elt",
+              "sidebar": "docs"
             },
             {
               "id": "storage/lab-redshift-scd",
-              "path": "/docs/storage/lab-redshift-scd"
+              "path": "/docs/storage/lab-redshift-scd",
+              "sidebar": "docs"
             },
             {
               "id": "storage/lab-redshift-scd-2",
-              "path": "/docs/storage/lab-redshift-scd-2"
+              "path": "/docs/storage/lab-redshift-scd-2",
+              "sidebar": "docs"
             },
             {
               "id": "storage/lab-redshift-spectrum-query-datalake",
-              "path": "/docs/storage/lab-redshift-spectrum-query-datalake"
+              "path": "/docs/storage/lab-redshift-spectrum-query-datalake",
+              "sidebar": "docs"
             },
             {
               "id": "storage/lab-redshift-spectrum-query-tuning",
-              "path": "/docs/storage/lab-redshift-spectrum-query-tuning"
+              "path": "/docs/storage/lab-redshift-spectrum-query-tuning",
+              "sidebar": "docs"
             },
             {
               "id": "storage/lab-redshift-table-design-query-tuning",
-              "path": "/docs/storage/lab-redshift-table-design-query-tuning"
+              "path": "/docs/storage/lab-redshift-table-design-query-tuning",
+              "sidebar": "docs"
             },
             {
               "id": "storage/lab-scd-glue-delta/README",
-              "path": "/docs/storage/lab-scd-glue-delta/"
+              "path": "/docs/storage/lab-scd-glue-delta/",
+              "sidebar": "docs"
             },
             {
               "id": "storage/lab-snowflake-getting-started/README",
@@ -2432,11 +2654,13 @@
             },
             {
               "id": "storage/lab-sqlite-basics/README",
-              "path": "/docs/storage/lab-sqlite-basics/"
+              "path": "/docs/storage/lab-sqlite-basics/",
+              "sidebar": "docs"
             },
             {
               "id": "storage/lab-sqlite-hipolabs-api/README",
-              "path": "/docs/storage/lab-sqlite-hipolabs-api/"
+              "path": "/docs/storage/lab-sqlite-hipolabs-api/",
+              "sidebar": "docs"
             },
             {
               "id": "storage/lab-zero-to-snowflake",
@@ -2444,67 +2668,103 @@
             },
             {
               "id": "storage/mongodb",
-              "path": "/docs/storage/mongodb"
+              "path": "/docs/storage/mongodb",
+              "sidebar": "docs"
             },
             {
               "id": "storage/mysql",
-              "path": "/docs/storage/mysql"
+              "path": "/docs/storage/mysql",
+              "sidebar": "docs"
             },
             {
               "id": "storage/orc",
-              "path": "/docs/storage/orc"
+              "path": "/docs/storage/orc",
+              "sidebar": "docs"
             },
             {
               "id": "storage/parquet",
-              "path": "/docs/storage/parquet"
+              "path": "/docs/storage/parquet",
+              "sidebar": "docs"
             },
             {
               "id": "storage/parquet-vs-csv",
-              "path": "/docs/storage/parquet-vs-csv"
+              "path": "/docs/storage/parquet-vs-csv",
+              "sidebar": "docs"
             },
             {
               "id": "storage/postgres",
-              "path": "/docs/storage/postgres"
+              "path": "/docs/storage/postgres",
+              "sidebar": "docs"
             },
             {
               "id": "storage/postgres-vs-mysql",
-              "path": "/docs/storage/postgres-vs-mysql"
+              "path": "/docs/storage/postgres-vs-mysql",
+              "sidebar": "docs"
             },
             {
               "id": "storage/project-athena-federated/README",
-              "path": "/docs/storage/project-athena-federated/"
+              "path": "/docs/storage/project-athena-federated/",
+              "sidebar": "docs"
             },
             {
               "id": "storage/redshift",
-              "path": "/docs/storage/redshift"
+              "path": "/docs/storage/redshift",
+              "sidebar": "docs"
             },
             {
               "id": "storage/serialization",
-              "path": "/docs/storage/serialization"
+              "path": "/docs/storage/serialization",
+              "sidebar": "docs"
             },
             {
               "id": "storage/snowflake",
-              "path": "/docs/storage/snowflake"
+              "path": "/docs/storage/snowflake",
+              "sidebar": "docs"
             },
             {
               "id": "storage/sqlite",
-              "path": "/docs/storage/sqlite"
+              "path": "/docs/storage/sqlite",
+              "sidebar": "docs"
+            },
+            {
+              "id": "storage/warehouse-links",
+              "path": "/docs/storage/warehouse-links",
+              "sidebar": "docs"
             },
             {
               "id": "storage/why-datalakes",
-              "path": "/docs/storage/why-datalakes"
+              "path": "/docs/storage/why-datalakes",
+              "sidebar": "docs"
             },
             {
               "id": "storage/xml",
-              "path": "/docs/storage/xml"
+              "path": "/docs/storage/xml",
+              "sidebar": "docs"
+            },
+            {
+              "id": "system-design/databricks-case-studies",
+              "path": "/docs/system-design/databricks-case-studies",
+              "sidebar": "docs"
+            },
+            {
+              "id": "system-design/examples",
+              "path": "/docs/system-design/examples",
+              "sidebar": "docs"
+            },
+            {
+              "id": "system-design/README",
+              "path": "/docs/system-design/",
+              "sidebar": "docs"
             },
             {
               "id": "visualization/flask/README",
-              "path": "/docs/visualization/flask/"
+              "path": "/docs/visualization/flask/",
+              "sidebar": "docs"
             },
             {
               "id": "visualization/looker-studio/lab-gcp-streaming-analytics",
-              "path": "/docs/visualization/looker-studio/lab-gcp-streaming-analytics"
+              "path": "/docs/visualization/looker-studio/lab-gcp-streaming-analytics",
+              "sidebar": "docs"
             },
             {
               "id": "visualization/looker-studio/README",
@@ -2512,7 +2772,8 @@
             },
             {
               "id": "visualization/preset/README",
-              "path": "/docs/visualization/preset/"
+              "path": "/docs/visualization/preset/",
+              "sidebar": "docs"
             },
             {
               "id": "visualization/README",
@@ -2520,7 +2781,8 @@
             },
             {
               "id": "visualization/streamlit/README",
-              "path": "/docs/visualization/streamlit/"
+              "path": "/docs/visualization/streamlit/",
+              "sidebar": "docs"
             }
           ],
           "draftIds": [],

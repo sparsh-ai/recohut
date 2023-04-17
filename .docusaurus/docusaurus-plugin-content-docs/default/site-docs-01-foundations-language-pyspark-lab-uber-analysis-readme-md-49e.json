@@ -18,5 +18,9 @@
   "previous": {
     "title": "Lab: Spark Optimizations for Analytics Workloads",
     "permalink": "/docs/foundations/language/pyspark/lab-spark-optimizations/"
+  },
+  "next": {
+    "title": "Lab: Understanding Spark Query Execution",
+    "permalink": "/docs/foundations/language/pyspark/lab-understand-spark-query-execution/"
   }
 }

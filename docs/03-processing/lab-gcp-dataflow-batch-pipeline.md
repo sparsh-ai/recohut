@@ -1,4 +1,4 @@
-# GCP Dataflow Batch Pipeline
+# Lab: GCP Dataflow Batch Pipeline
 
 Objective: Serverless Data Processing with Dataflow - Batch Analytics Pipelines with Cloud Dataflow (Python)
 

@@ -1,7 +1,7 @@
 {
   "unversionedId": "orchestration/azure-data-factory/lab-adf-incremental-loading/README",
   "id": "orchestration/azure-data-factory/lab-adf-incremental-loading/README",
-  "title": "Incremental Data Loading in Azure Data Factory",
+  "title": "Lab: Incremental Data Loading in Azure Data Factory",
   "description": "There are different ways in which we can design incremental loading using ADF. Based on the type of data source, we can have different techniques to implement incremental loading. Some of them are listed here:",
   "source": "@site/docs/06-orchestration/azure-data-factory/lab-adf-incremental-loading/README.md",
   "sourceDirName": "06-orchestration/azure-data-factory/lab-adf-incremental-loading",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Azure Data Factory",
+    "permalink": "/docs/orchestration/azure-data-factory/"
+  },
+  "next": {
+    "title": "Lab: Azure Data Factory and Synapse Analytics",
+    "permalink": "/docs/orchestration/azure-data-factory/lab-batch-processing-solution/"
+  }
 }

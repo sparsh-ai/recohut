@@ -1,8 +1,8 @@
 {
   "unversionedId": "storage/lab-glue-emr-iceberg-serverless-lakehouse/README",
   "id": "storage/lab-glue-emr-iceberg-serverless-lakehouse/README",
-  "title": "Build a serverless transactional data lake with Apache Iceberg, Amazon EMR Serverless, and Amazon Athena",
-  "description": "Since the deluge of big data over a decade ago, many organizations have learned to build applications to process and analyze petabytes of data. Data lakes have served as a central repository to store structured and unstructured data at any scale and in various formats. However, as data processing at scale solutions grow, organizations need to build more and more features on top of their data lakes. One important feature is to run different workloads such as business intelligence (BI), Machine Learning (ML), Data Science and data exploration, and Change Data Capture (CDC) of transactional data, without having to maintain multiple copies of data. Additionally, the task of maintaining and managing files in the data lake can be tedious and sometimes complex.",
+  "title": "Lab: Build an Iceberg Lakehouse",
+  "description": "Build a serverless transactional data lake with Apache Iceberg, Amazon EMR Serverless, and Amazon Athena",
   "source": "@site/docs/02-storage/lab-glue-emr-iceberg-serverless-lakehouse/README.md",
   "sourceDirName": "02-storage/lab-glue-emr-iceberg-serverless-lakehouse",
   "slug": "/storage/lab-glue-emr-iceberg-serverless-lakehouse/",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Read Delta Tables stored in Amazon S3 with Python",
+    "permalink": "/docs/storage/lab-read-s3-delta-in-python/"
+  },
+  "next": {
+    "title": "Lab: The Easy Ways to Clean Up Production Messes",
+    "permalink": "/docs/storage/lab-production-cleaning-deltalake/"
+  }
 }

@@ -1,4 +1,4 @@
-# Tickets ETL with Glue Studio
+# Lab: Tickets ETL with Glue Studio
 
 You can use AWS Glue Studio to create jobs that extract structured or semi-structured data from a data source, perform a transformation of that data, and save the result set in a data target.
 
@@ -43,4 +43,17 @@ You will see a new table added in the glue database. Now run the following query
 
 ```sql
 SELECT * FROM tickets_transformd_new LIMIT 10;
+```
+
+## Files
+
+[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sparsh-ai/recohut/tree/main/docs/03-processing/lab-glue-studio-tickets)
+
+```
+├── [5.9K]  CFgluestudio.yaml
+├── [2.3K]  README.md
+├── [ 527]  athena.sql
+└── [1.8K]  etl.py
+
+  11K used in 0 directories, 4 files
 ```

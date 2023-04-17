@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Steps of Building Data Models",
+    "permalink": "/docs/data-modeling/data-modeling-steps"
+  },
+  "next": {
+    "title": "Designing for incremental loading",
+    "permalink": "/docs/data-modeling/designing-incremental-loading"
+  }
 }

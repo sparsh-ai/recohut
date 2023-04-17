@@ -1,4 +1,4 @@
-# AirBnB Postgres Datamodel
+# Lab: AirBnB Postgres Datamodel
 
 ## Objective
 
@@ -38,3 +38,7 @@ Repeat the above steps for all the 6 files that I have. Below are the row and co
 ## Data Model
 
 ![](https://user-images.githubusercontent.com/62965911/214234180-d970394c-91bf-4012-b59f-47b09fd8b14e.png)
+
+## Notebooks
+
+[![nbviewer](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/recohut/blob/main/docs/04-data-modeling/lab-airbnb-postgres-datamodel/)

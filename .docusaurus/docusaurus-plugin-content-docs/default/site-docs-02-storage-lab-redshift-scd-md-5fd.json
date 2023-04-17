@@ -1,7 +1,7 @@
 {
   "unversionedId": "storage/lab-redshift-scd",
   "id": "storage/lab-redshift-scd",
-  "title": "Implement a slowly changing dimension in Redshift",
+  "title": "Lab: Implement a slowly changing dimension in Redshift",
   "description": "1. Learn how to create a type 2 dimension table by adding slowly changing tracking columns",
   "source": "@site/docs/02-storage/lab-redshift-scd.md",
   "sourceDirName": "02-storage",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Redshift Table Design and Query Tuning",
+    "permalink": "/docs/storage/lab-redshift-table-design-query-tuning"
+  },
+  "next": {
+    "title": "Lab: Redshift Slowly Changing Dimension",
+    "permalink": "/docs/storage/lab-redshift-scd-2"
+  }
 }

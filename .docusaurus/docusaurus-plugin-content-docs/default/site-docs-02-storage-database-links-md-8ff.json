@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/database-links",
+  "id": "storage/database-links",
+  "title": "Links",
+  "description": "- https://learnsql.com/blog/companies-that-use-postgresql-in-business/",
+  "source": "@site/docs/02-storage/database-links.md",
+  "sourceDirName": "02-storage",
+  "slug": "/storage/database-links",
+  "permalink": "/docs/storage/database-links",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: SQLite Edu Hipolabs API",
+    "permalink": "/docs/storage/lab-sqlite-hipolabs-api/"
+  },
+  "next": {
+    "title": "Cassandra",
+    "permalink": "/docs/storage/cassandra"
+  }
+}

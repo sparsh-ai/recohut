@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Why we need Data Lakes?",
+    "permalink": "/docs/storage/why-datalakes"
+  },
+  "next": {
+    "title": "Google Cloud Storage (GCS)",
+    "permalink": "/docs/storage/gcs"
+  }
 }

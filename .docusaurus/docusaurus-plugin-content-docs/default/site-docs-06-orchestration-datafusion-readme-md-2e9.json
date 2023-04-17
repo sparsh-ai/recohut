@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Building Data Ingestion Pipelines Using Azure Data Factory",
+    "permalink": "/docs/orchestration/azure-data-factory/lab-data-ingestion-pipeline/"
+  },
+  "next": {
+    "title": "Lab: Building and Executing a Pipeline Graph with Data Fusion",
+    "permalink": "/docs/orchestration/datafusion/lab-datafusion-pipeline/"
+  }
 }

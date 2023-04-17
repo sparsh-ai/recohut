@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Feature Selection",
+    "permalink": "/docs/datascience/feature-selection"
+  },
+  "next": {
+    "title": "Logistic Regression",
+    "permalink": "/docs/datascience/algorithms/logistic-regression"
+  }
 }

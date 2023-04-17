@@ -1,7 +1,7 @@
 {
   "unversionedId": "processing/lab-gcp-dataflow-batch-pipeline",
   "id": "processing/lab-gcp-dataflow-batch-pipeline",
-  "title": "GCP Dataflow Batch Pipeline",
+  "title": "Lab: GCP Dataflow Batch Pipeline",
   "description": "Objective: Serverless Data Processing with Dataflow - Batch Analytics Pipelines with Cloud Dataflow (Python)",
   "source": "@site/docs/03-processing/lab-gcp-dataflow-batch-pipeline.md",
   "sourceDirName": "03-processing",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: GCP Dataflow Pipeline - A Simple Dataflow Pipeline (Python)",
+    "permalink": "/docs/processing/lab-gcp-dataflow-pipeline"
+  },
+  "next": {
+    "title": "Lab: GCP Dataflow Size Inputs",
+    "permalink": "/docs/processing/lab-gcp-dataflow-side-inputs"
+  }
 }

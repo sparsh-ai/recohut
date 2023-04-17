@@ -1,7 +1,7 @@
 {
   "unversionedId": "processing/databricks/lab-cybersecurity-databricks/README",
   "id": "processing/databricks/lab-cybersecurity-databricks/README",
-  "title": "Cybersecurity Databricks",
+  "title": "Lab: Cybersecurity Databricks",
   "description": "Objective",
   "source": "@site/docs/03-processing/databricks/lab-cybersecurity-databricks/README.md",
   "sourceDirName": "03-processing/databricks/lab-cybersecurity-databricks",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Databricks",
+    "permalink": "/docs/processing/databricks/"
+  },
+  "next": {
+    "title": "Lab: Databricks Clickstream Analysis",
+    "permalink": "/docs/processing/databricks/lab-databricks-clickstream/"
+  }
 }

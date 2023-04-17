@@ -1,0 +1,26 @@
+{
+  "unversionedId": "casestudies/twitter",
+  "id": "casestudies/twitter",
+  "title": "Twitter",
+  "description": "Watch this video//www.youtube.com/watch?v=OQPpEEMm6Gg",
+  "source": "@site/docs/casestudies/twitter.md",
+  "sourceDirName": "casestudies",
+  "slug": "/casestudies/twitter",
+  "permalink": "/docs/casestudies/twitter",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Twilio",
+    "permalink": "/docs/casestudies/twilio"
+  },
+  "next": {
+    "title": "Uber",
+    "permalink": "/docs/casestudies/uber"
+  }
+}

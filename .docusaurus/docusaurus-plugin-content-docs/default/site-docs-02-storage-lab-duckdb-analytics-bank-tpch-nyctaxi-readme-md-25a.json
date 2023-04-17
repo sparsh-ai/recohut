@@ -1,0 +1,26 @@
+{
+  "unversionedId": "storage/lab-duckdb-analytics-bank-tpch-nyctaxi/README",
+  "id": "storage/lab-duckdb-analytics-bank-tpch-nyctaxi/README",
+  "title": "Lab: DuckDB",
+  "description": "OLAP Analytics on bank, TPCH and NYC Taxi datasets using DuckDB",
+  "source": "@site/docs/02-storage/lab-duckdb-analytics-bank-tpch-nyctaxi/README.md",
+  "sourceDirName": "02-storage/lab-duckdb-analytics-bank-tpch-nyctaxi",
+  "slug": "/storage/lab-duckdb-analytics-bank-tpch-nyctaxi/",
+  "permalink": "/docs/storage/lab-duckdb-analytics-bank-tpch-nyctaxi/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "db2",
+    "permalink": "/docs/storage/lab-db2-bookshop-petsale-data-ingestion/"
+  },
+  "next": {
+    "title": "Lab: SQLite Edu Hipolabs API",
+    "permalink": "/docs/storage/lab-sqlite-hipolabs-api/"
+  }
+}

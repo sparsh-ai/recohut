@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Configuring and Securing Azure SQL Database",
+    "permalink": "/docs/storage/lab-azure-sql-securing-databases/"
+  },
+  "next": {
+    "title": "Lab: DuckDB",
+    "permalink": "/docs/storage/lab-duckdb-analytics-bank-tpch-nyctaxi/"
+  }
 }

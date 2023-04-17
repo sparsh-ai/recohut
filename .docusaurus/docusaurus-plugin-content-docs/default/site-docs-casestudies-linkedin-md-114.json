@@ -1,0 +1,26 @@
+{
+  "unversionedId": "casestudies/linkedin",
+  "id": "casestudies/linkedin",
+  "title": "LinkedIn",
+  "description": "World's largest professional network on the internet",
+  "source": "@site/docs/casestudies/linkedin.md",
+  "sourceDirName": "casestudies",
+  "slug": "/casestudies/linkedin",
+  "permalink": "/docs/casestudies/linkedin",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Intuit",
+    "permalink": "/docs/casestudies/intuit"
+  },
+  "next": {
+    "title": "Myntra",
+    "permalink": "/docs/casestudies/myntra"
+  }
+}

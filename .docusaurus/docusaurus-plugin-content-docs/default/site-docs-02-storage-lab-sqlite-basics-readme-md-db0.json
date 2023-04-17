@@ -1,7 +1,7 @@
 {
   "unversionedId": "storage/lab-sqlite-basics/README",
   "id": "storage/lab-sqlite-basics/README",
-  "title": "SQLite Basics",
+  "title": "Lab: SQLite Basics",
   "description": "The following entity-relationship- (ER) diagram for the books database shows the database’s tables and the relationships among them:",
   "source": "@site/docs/02-storage/lab-sqlite-basics/README.md",
   "sourceDirName": "02-storage/lab-sqlite-basics",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Data Ingestion to MySQL",
+    "permalink": "/docs/storage/lab-mysql-data-ingestion/"
+  },
+  "next": {
+    "title": "Lab: Getting Started with Postgres",
+    "permalink": "/docs/storage/lab-postgres-getting-started/"
+  }
 }

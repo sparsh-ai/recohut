@@ -1,8 +1,8 @@
 {
   "unversionedId": "processing/lab-glue-advanced/README",
   "id": "processing/lab-glue-advanced/README",
-  "title": "Advanced Data Engineering and Data Processing with AWS Glue Jobs",
-  "description": "Objective",
+  "title": "Lab: Glue ETL",
+  "description": "Advanced Data Engineering and Data Processing with AWS Glue Jobs",
   "source": "@site/docs/03-processing/lab-glue-advanced/README.md",
   "sourceDirName": "03-processing/lab-glue-advanced",
   "slug": "/processing/lab-glue-advanced/",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: EMR Serverless",
+    "permalink": "/docs/processing/lab-emr-serverless/"
+  },
+  "next": {
+    "title": "Lab: Glue ETL and CDC UPSERT",
+    "permalink": "/docs/processing/lab-glue-deltalake-cdc-upsert/"
+  }
 }

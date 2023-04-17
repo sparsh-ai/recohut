@@ -1066,7 +1066,7 @@
       "plugin": "plugin---searchcbe-cf2"
     }
   },
-  "/docs-232": {
+  "/docs-bd4": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---docs-tagsa-71-345"
@@ -1100,106 +1100,6 @@
   "/docs/a1-interviewprep/resume-buildup-358": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-a-1-interviewprep-resume-buildup-221-fdf"
-  },
-  "/docs/a3-casestudies-7b2": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-a-3-casestudiese-09-e80"
-  },
-  "/docs/a3-casestudies/99group-ce7": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-a-3-casestudies-99-group-8-ae-5f5"
-  },
-  "/docs/a3-casestudies/airbnb-b6f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-a-3-casestudies-airbnb-7-c-5-bdf"
-  },
-  "/docs/a3-casestudies/amazon-19e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-a-3-casestudies-amazonc-44-257"
-  },
-  "/docs/a3-casestudies/bookingdotcom-be8": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-a-3-casestudies-bookingdotcom-011-e4d"
-  },
-  "/docs/a3-casestudies/expedia-d22": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-a-3-casestudies-expedia-32-f-9f1"
-  },
-  "/docs/a3-casestudies/fair-8c0": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-a-3-casestudies-fair-740-97b"
-  },
-  "/docs/a3-casestudies/harmony-8d6": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-a-3-casestudies-harmony-3-e-1-4e6"
-  },
-  "/docs/a3-casestudies/helpshift-3e9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-a-3-casestudies-helpshift-906-609"
-  },
-  "/docs/a3-casestudies/hometogo-4fe": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-a-3-casestudies-hometogo-8-d-6-59d"
-  },
-  "/docs/a3-casestudies/intuit-4f4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-a-3-casestudies-intuite-7-c-b80"
-  },
-  "/docs/a3-casestudies/linkedin-4a5": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-a-3-casestudies-linkedinb-14-5cc"
-  },
-  "/docs/a3-casestudies/myntra-1a1": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-a-3-casestudies-myntraacc-7ba"
-  },
-  "/docs/a3-casestudies/outfit7-e48": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-a-3-casestudies-outfit-7637-cff"
-  },
-  "/docs/a3-casestudies/panoramic-ef7": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-a-3-casestudies-panoramicabf-7da"
-  },
-  "/docs/a3-casestudies/plexure-bc0": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-a-3-casestudies-plexure-74-c-454"
-  },
-  "/docs/a3-casestudies/spotify-520": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-a-3-casestudies-spotifybd-2-cbc"
-  },
-  "/docs/a3-casestudies/starbucks-372": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-a-3-casestudies-starbucksc-94-ca4"
-  },
-  "/docs/a3-casestudies/trivago-f75": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-a-3-casestudies-trivago-9-f-6-ddf"
-  },
-  "/docs/a3-casestudies/twilio-9e2": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-a-3-casestudies-twilioe-3-c-d35"
-  },
-  "/docs/a3-casestudies/twitter-352": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-a-3-casestudies-twitter-7-aa-2fe"
-  },
-  "/docs/a3-casestudies/uber-0e8": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-a-3-casestudies-uber-381-8d4"
-  },
-  "/docs/a3-casestudies/video-stream-ef3": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-a-3-casestudies-video-streama-98-e0d"
-  },
-  "/docs/a3-casestudies/webshoes-eaf": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-a-3-casestudies-webshoesfa-3-87f"
-  },
-  "/docs/a3-casestudies/woot-ce3": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-a-3-casestudies-woote-16-f3d"
   },
   "/docs/assignments-7ca": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -1493,47 +1393,147 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-capstones-us-immigrationecf-6c2"
   },
-  "/docs/data-modeling/3nf-data-modeling-4be": {
+  "/docs/casestudies-adc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-casestudiesc-41-42b"
+  },
+  "/docs/casestudies/99group-852": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-casestudies-99-group-4-ae-951"
+  },
+  "/docs/casestudies/airbnb-1b9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-casestudies-airbnbef-4-c8a"
+  },
+  "/docs/casestudies/amazon-31d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-casestudies-amazon-7-d-9-6d1"
+  },
+  "/docs/casestudies/bookingdotcom-5eb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-casestudies-bookingdotcomc-6-e-fe8"
+  },
+  "/docs/casestudies/expedia-4ab": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-casestudies-expedia-327-862"
+  },
+  "/docs/casestudies/fair-1b1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-casestudies-faird-23-890"
+  },
+  "/docs/casestudies/harmony-7e4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-casestudies-harmony-53-f-166"
+  },
+  "/docs/casestudies/helpshift-ac5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-casestudies-helpshiftec-5-c9c"
+  },
+  "/docs/casestudies/hometogo-b43": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-casestudies-hometogo-430-ae0"
+  },
+  "/docs/casestudies/intuit-493": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-casestudies-intuit-6-b-3-484"
+  },
+  "/docs/casestudies/linkedin-8a4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-casestudies-linkedin-114-1d7"
+  },
+  "/docs/casestudies/myntra-75a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-casestudies-myntra-7-d-5-c26"
+  },
+  "/docs/casestudies/outfit7-ff3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-casestudies-outfit-78-d-2-9e4"
+  },
+  "/docs/casestudies/panoramic-841": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-casestudies-panoramic-997-aa6"
+  },
+  "/docs/casestudies/plexure-d90": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-casestudies-plexure-950-15e"
+  },
+  "/docs/casestudies/spotify-360": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-casestudies-spotify-576-1c9"
+  },
+  "/docs/casestudies/starbucks-fa2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-casestudies-starbucks-70-f-997"
+  },
+  "/docs/casestudies/trivago-d97": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-casestudies-trivago-926-16c"
+  },
+  "/docs/casestudies/twilio-6fc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-casestudies-twilio-866-9e0"
+  },
+  "/docs/casestudies/twitter-da5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-casestudies-twitter-219-459"
+  },
+  "/docs/casestudies/uber-5b9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-casestudies-uber-14-e-e6b"
+  },
+  "/docs/casestudies/video-stream-c9a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-casestudies-video-stream-20-e-e97"
+  },
+  "/docs/casestudies/webshoes-cdd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-casestudies-webshoesd-5-c-215"
+  },
+  "/docs/casestudies/woot-722": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-casestudies-woot-702-0df"
+  },
+  "/docs/data-modeling/3nf-data-modeling-7ed": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-data-modeling-3-nf-data-modelingfb-1-391"
   },
-  "/docs/data-modeling/cap-theorem-2e6": {
+  "/docs/data-modeling/cap-theorem-67a": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-data-modeling-cap-theorem-822-ea6"
   },
-  "/docs/data-modeling/data-modeling-stages-ac1": {
+  "/docs/data-modeling/data-modeling-stages-c5c": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-data-modeling-data-modeling-stagesd-4-e-a81"
   },
-  "/docs/data-modeling/data-modeling-steps-cba": {
+  "/docs/data-modeling/data-modeling-steps-569": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-data-modeling-data-modeling-stepsd-7-d-80a"
   },
-  "/docs/data-modeling/data-vault-modeling-bb1": {
+  "/docs/data-modeling/data-vault-modeling-e7a": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-data-modeling-data-vault-modeling-891-563"
   },
-  "/docs/data-modeling/data-warehousing-7e9": {
+  "/docs/data-modeling/data-warehousing-ddd": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-data-modeling-data-warehousing-405-4be"
   },
-  "/docs/data-modeling/designing-incremental-loading-d1d": {
+  "/docs/data-modeling/designing-incremental-loading-692": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-data-modeling-designing-incremental-loading-33-f-7b8"
   },
-  "/docs/data-modeling/designing-scd-552": {
+  "/docs/data-modeling/designing-scd-f61": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-data-modeling-designing-scd-634-e4b"
   },
-  "/docs/data-modeling/dimensional-modeling-a76": {
+  "/docs/data-modeling/dimensional-modeling-b68": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-data-modeling-dimensional-modelinga-4-a-a94"
   },
-  "/docs/data-modeling/inmon-vs-kimball-96c": {
+  "/docs/data-modeling/inmon-vs-kimball-f50": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-data-modeling-inmon-vs-kimballa-7-d-d38"
   },
-  "/docs/data-modeling/lab-airbnb-postgres-datamodel-e87": {
+  "/docs/data-modeling/lab-airbnb-postgres-datamodel-ed2": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-data-modeling-lab-airbnb-postgres-datamodel-44-b-72d"
   },
@@ -1617,39 +1617,39 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-data-modeling-lab-sparkify-data-model-postgresc-67-aa3"
   },
-  "/docs/data-modeling/normalization-vs-denormalization-c6e": {
+  "/docs/data-modeling/normalization-vs-denormalization-7cf": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-data-modeling-normalization-vs-denormalizatione-7-c-261"
   },
-  "/docs/data-modeling/nosql-data-modeling-2b6": {
+  "/docs/data-modeling/nosql-data-modeling-48c": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-data-modeling-nosql-data-modeling-069-09e"
   },
-  "/docs/data-modeling/quiz-4fe": {
+  "/docs/data-modeling/quiz-e33": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-data-modeling-quiz-5-fe-9d3"
   },
-  "/docs/data-modeling/sql-data-modeling-23e": {
+  "/docs/data-modeling/sql-data-modeling-127": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-data-modeling-sql-data-modeling-152-0e8"
   },
-  "/docs/datascience/algorithms/decision-trees-69b": {
+  "/docs/datascience/algorithms/decision-trees-bb6": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-datascience-algorithms-decision-treesafa-173"
   },
-  "/docs/datascience/algorithms/gradient-boosting-8cd": {
+  "/docs/datascience/algorithms/gradient-boosting-ac4": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-datascience-algorithms-gradient-boosting-934-5ab"
   },
-  "/docs/datascience/algorithms/knn-29c": {
+  "/docs/datascience/algorithms/knn-3ee": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-datascience-algorithms-knn-2-ec-413"
   },
-  "/docs/datascience/algorithms/linear-regression-db0": {
+  "/docs/datascience/algorithms/linear-regression-ea9": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-datascience-algorithms-linear-regression-006-39e"
   },
-  "/docs/datascience/algorithms/logistic-regression-c1b": {
+  "/docs/datascience/algorithms/logistic-regression-4d6": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-datascience-algorithms-logistic-regression-508-164"
   },
@@ -1661,7 +1661,7 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-datascience-algorithms-ml-eda-variable-distribution-analysis-633-28d"
   },
-  "/docs/datascience/algorithms/random-forest-a90": {
+  "/docs/datascience/algorithms/random-forest-14d": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-datascience-algorithms-random-foreste-2-c-107"
   },
@@ -1713,7 +1713,7 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-datascience-bayesian-optimizationeb-9-445"
   },
-  "/docs/datascience/bias-variance-tradeoff-042": {
+  "/docs/datascience/bias-variance-tradeoff-30d": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-datascience-bias-variance-tradeoff-138-ad7"
   },
@@ -1785,31 +1785,31 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-datascience-computer-vision-lab-image-analytics-tensorflowd-81-bc0"
   },
-  "/docs/datascience/data-encoding-ae2": {
+  "/docs/datascience/data-encoding-133": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-datascience-data-encoding-274-443"
   },
-  "/docs/datascience/data-preparation-ba1": {
+  "/docs/datascience/data-preparation-9b7": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-datascience-data-preparation-621-316"
   },
-  "/docs/datascience/data-splits-f8e": {
+  "/docs/datascience/data-splits-da0": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-datascience-data-splitsff-8-69c"
   },
-  "/docs/datascience/deep-learning/deep-learning-basics-eab": {
+  "/docs/datascience/deep-learning/deep-learning-basics-6cc": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-datascience-deep-learning-deep-learning-basicsdb-7-01c"
   },
-  "/docs/datascience/deep-learning/perceptron-a06": {
+  "/docs/datascience/deep-learning/perceptron-da9": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-datascience-deep-learning-perceptron-549-5da"
   },
-  "/docs/datascience/feature-selection-fde": {
+  "/docs/datascience/feature-selection-0e1": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-datascience-feature-selection-436-b4f"
   },
-  "/docs/datascience/metrics-and-evaluation-f50": {
+  "/docs/datascience/metrics-and-evaluation-a2f": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-datascience-metrics-and-evaluation-39-a-c2b"
   },
@@ -1917,15 +1917,15 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-datascience-timeseries-821-6ff"
   },
-  "/docs/datascience/timeseries/prophet-c45": {
+  "/docs/datascience/timeseries/prophet-f7c": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-datascience-timeseries-prophet-3-ef-c85"
   },
-  "/docs/devops-194": {
+  "/docs/devops-d94": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-devops-195-b2c"
   },
-  "/docs/devops/containers-64a": {
+  "/docs/devops/containers-d2b": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-devops-containersf-9-a-d5f"
   },
@@ -1953,7 +1953,7 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-devops-fastapi-project-railway-api-4-b-3-3bb"
   },
-  "/docs/devops/iac-fd1": {
+  "/docs/devops/iac-42f": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-devops-iac-0-b-6-e54"
   },
@@ -1961,7 +1961,7 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-extractionea-0-5c0"
   },
-  "/docs/extraction/api-051": {
+  "/docs/extraction/api-b30": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-extraction-apiffd-d8d"
   },
@@ -1973,9 +1973,9 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-extraction-api-lab-scoota-1-a-7-b44"
   },
-  "/docs/extraction/faker-ccb": {
+  "/docs/extraction/faker/lab-generate-data-with-faker-5d4": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-extraction-faker-0-f-6-0e1"
+    "content": "content---docs-extraction-faker-lab-generate-data-with-faker-5-cd-6ea"
   },
   "/docs/extraction/webscraping-cd1": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -2037,7 +2037,7 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-foundations-basics-de-basics-148-719"
   },
-  "/docs/foundations/basics/deployment-9ee": {
+  "/docs/foundations/basics/deployment-0c5": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-foundations-basics-deployment-742-0cb"
   },
@@ -2065,7 +2065,7 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-foundations-basics-oltp-vs-olap-454-aa6"
   },
-  "/docs/foundations/basics/origin-ed4": {
+  "/docs/foundations/basics/origin-4b1": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-foundations-basics-origin-0-e-1-896"
   },
@@ -2101,7 +2101,7 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-foundations-basics-stream-data-processing-68-a-7fd"
   },
-  "/docs/foundations/basics/use-cases-c15": {
+  "/docs/foundations/basics/use-cases-b84": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-foundations-basics-use-cases-379-587"
   },
@@ -2253,9 +2253,13 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-foundations-language-pyspark-installcef-b44"
   },
-  "/docs/foundations/language/pyspark/lab-bcg-dbe": {
+  "/docs/foundations/language/pyspark/lab-bcg-340": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-foundations-language-pyspark-lab-bcg-999-27f"
+  },
+  "/docs/foundations/language/pyspark/lab-calculating-partitions-5bd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-foundations-language-pyspark-lab-calculating-partitions-41-b-7c0"
   },
   "/docs/foundations/language/pyspark/lab-pyspark-basics-ae2": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -2281,13 +2285,9 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-foundations-language-pyspark-lab-uber-analysis-49-e-47c"
   },
-  "/docs/foundations/language/pyspark/lab-understand-spark-query-execution-494": {
+  "/docs/foundations/language/pyspark/lab-understand-spark-query-execution-1d4": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-foundations-language-pyspark-lab-understand-spark-query-executiond-18-1ae"
-  },
-  "/docs/foundations/language/pyspark/lab-window-functions-4a6": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-pyspark-lab-window-functions-29-d-14d"
   },
   "/docs/foundations/language/pyspark/lazy-processing-d68": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -2308,6 +2308,10 @@
   "/docs/foundations/language/pyspark/udf-652": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-foundations-language-pyspark-udf-7-e-8-81a"
+  },
+  "/docs/foundations/language/pyspark/window-functions-dd3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-foundations-language-pyspark-window-functions-908-762"
   },
   "/docs/foundations/language/python-47b": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -2341,7 +2345,7 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-foundations-language-scalafaa-5d1"
   },
-  "/docs/foundations/language/scala/lab-scala-getting-started-40a": {
+  "/docs/foundations/language/scala/lab-scala-getting-started-49c": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-foundations-language-scala-lab-scala-getting-started-4-dc-a04"
   },
@@ -2561,7 +2565,7 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-introductiona-09-6b4"
   },
-  "/docs/mathematics-54a": {
+  "/docs/mathematics-2bf": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-mathematics-9-ac-8b9"
   },
@@ -2569,11 +2573,11 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-mathematics-probabilityeb-3-fd9"
   },
-  "/docs/mathematics/probability/probability-distributions-732": {
+  "/docs/mathematics/probability/probability-distributions-536": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-mathematics-probability-probability-distributionsb-56-d99"
   },
-  "/docs/mathematics/probability/rules-of-probability-803": {
+  "/docs/mathematics/probability/rules-of-probability-49c": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-mathematics-probability-rules-of-probabilityf-22-c57"
   },
@@ -2581,15 +2585,15 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-mathematics-statisticsc-6-c-8f3"
   },
-  "/docs/mathematics/statistics/sampling-43a": {
+  "/docs/mathematics/statistics/sampling-f9f": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-mathematics-statistics-samplingadb-b2e"
   },
-  "/docs/mlops-9a8": {
+  "/docs/mlops-4fd": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-mlopscd-8-4bf"
   },
-  "/docs/mlops/code-snippets-baf": {
+  "/docs/mlops/code-snippets-39b": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-mlops-code-snippets-76-a-ed4"
   },
@@ -2597,15 +2601,15 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-mlops-ml-lab-tracking-7-fa-220"
   },
-  "/docs/mlops/mlflow-798": {
+  "/docs/mlops/mlflow-9f6": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-mlops-mlflow-70-d-7f1"
   },
-  "/docs/orchestration-257": {
+  "/docs/orchestration-c95": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-orchestrationda-8-e9b"
   },
-  "/docs/orchestration/airflow-b1f": {
+  "/docs/orchestration/airflow-117": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-orchestration-airflow-19-a-c41"
   },
@@ -2645,23 +2649,27 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-orchestration-airflow-labdev-spotifya-88-160"
   },
-  "/docs/orchestration/azure-data-factory-453": {
+  "/docs/orchestration/azure-data-factory-439": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-orchestration-azure-data-factory-9-fc-d67"
   },
-  "/docs/orchestration/azure-data-factory/lab-adf-incremental-loading-386": {
+  "/docs/orchestration/azure-data-factory/lab-adf-incremental-loading-171": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-orchestration-azure-data-factory-lab-adf-incremental-loadingf-0-b-f70"
   },
-  "/docs/orchestration/azure-data-factory/lab-batch-processing-solution-9eb": {
+  "/docs/orchestration/azure-data-factory/lab-batch-processing-solution-5ca": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-orchestration-azure-data-factory-lab-batch-processing-solution-812-dfc"
   },
-  "/docs/orchestration/datafusion-d93": {
+  "/docs/orchestration/azure-data-factory/lab-data-ingestion-pipeline-7d0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-orchestration-azure-data-factory-lab-data-ingestion-pipeline-7-bb-f40"
+  },
+  "/docs/orchestration/datafusion-add": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-orchestration-datafusion-2-e-9-b58"
   },
-  "/docs/orchestration/datafusion/lab-datafusion-pipeline-95d": {
+  "/docs/orchestration/datafusion/lab-datafusion-pipeline-d3a": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-orchestration-datafusion-lab-datafusion-pipeline-702-561"
   },
@@ -2697,15 +2705,15 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-orchestration-stepfunctionsbc-9-24e"
   },
-  "/docs/orchestration/stepfunctions/lab-stepfunction-athena-sns-e1a": {
+  "/docs/orchestration/stepfunctions/lab-stepfunction-athena-sns-39b": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-orchestration-stepfunctions-lab-stepfunction-athena-sns-10-e-531"
   },
-  "/docs/orchestration/stepfunctions/lab-stepfunction-ecomm-sqs-79b": {
+  "/docs/orchestration/stepfunctions/lab-stepfunction-ecomm-sqs-d85": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-orchestration-stepfunctions-lab-stepfunction-ecomm-sqs-69-d-a7b"
   },
-  "/docs/processing/apache-beam-22a": {
+  "/docs/processing/apache-beam-84a": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-apache-beam-88-d-517"
   },
@@ -2717,31 +2725,31 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-apache-flink-8-a-1-a88"
   },
-  "/docs/processing/apache-kafka-572": {
+  "/docs/processing/apache-kafka-3dd": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-apache-kafkaed-4-9a1"
   },
-  "/docs/processing/aws-emr-d45": {
+  "/docs/processing/aws-emr-360": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-aws-emrda-3-67b"
   },
-  "/docs/processing/aws-kinesis-0cf": {
+  "/docs/processing/aws-kinesis-17b": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-aws-kinesis-7-f-7-87d"
   },
-  "/docs/processing/aws-lambda-c8f": {
+  "/docs/processing/aws-lambda-dad": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-aws-lambdaef-4-cf9"
   },
-  "/docs/processing/aws-lambda-snippets-868": {
+  "/docs/processing/aws-lambda-snippets-9d0": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-aws-lambda-snippets-008-11e"
   },
-  "/docs/processing/azure-synapse-analytics-694": {
+  "/docs/processing/azure-synapse-analytics-433": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-azure-synapse-analytics-127-728"
   },
-  "/docs/processing/databricks-c5e": {
+  "/docs/processing/databricks-b22": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-databricks-2-a-0-3c9"
   },
@@ -2749,15 +2757,19 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-databricks-boston-crime-analysisc-22-164"
   },
-  "/docs/processing/databricks/lab-cybersecurity-databricks-429": {
+  "/docs/processing/databricks/lab-cybersecurity-databricks-aae": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-databricks-lab-cybersecurity-databricks-55-f-c4b"
   },
-  "/docs/processing/databricks/lab-databricks-clickstream-a87": {
+  "/docs/processing/databricks/lab-data-processing-azure-dbr-368": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-processing-databricks-lab-data-processing-azure-dbr-65-e-49f"
+  },
+  "/docs/processing/databricks/lab-databricks-clickstream-ff3": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-databricks-lab-databricks-clickstream-879-598"
   },
-  "/docs/processing/databricks/lab-databricks-deltalake-12d": {
+  "/docs/processing/databricks/lab-databricks-deltalake-3ba": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-databricks-lab-databricks-deltalakee-29-3d0"
   },
@@ -2765,27 +2777,27 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-databricks-lab-databricks-pyspark-s-30-de-9d4"
   },
-  "/docs/processing/databricks/lab-databricks-scala-postgres-s3-979": {
+  "/docs/processing/databricks/lab-databricks-scala-postgres-s3-fa0": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-databricks-lab-databricks-scala-postgres-s-386-b-9a3"
   },
-  "/docs/processing/databricks/lab-deltalake-optimizations-36c": {
+  "/docs/processing/databricks/lab-deltalake-optimizations-5df": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-databricks-lab-deltalake-optimizations-2-a-8-48b"
   },
-  "/docs/processing/databricks/lab-dlt-dbt-bcf": {
+  "/docs/processing/databricks/lab-dlt-dbt-e6d": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-databricks-lab-dlt-dbt-125-b19"
   },
-  "/docs/processing/databricks/lab-healthcare-databricks-bff": {
+  "/docs/processing/databricks/lab-healthcare-databricks-8b1": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-databricks-lab-healthcare-databricks-3-c-3-732"
   },
-  "/docs/processing/databricks/lab-iot-health-tracker-a99": {
+  "/docs/processing/databricks/lab-iot-health-tracker-57f": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-databricks-lab-iot-health-tracker-08-d-883"
   },
-  "/docs/processing/databricks/lab-loan-application-e3a": {
+  "/docs/processing/databricks/lab-loan-application-686": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-databricks-lab-loan-applicationf-52-8d1"
   },
@@ -2793,27 +2805,27 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-databricks-lab-pyspark-itversity-0-f-0-e8b"
   },
-  "/docs/processing/databricks/lab-retail-pos-databricks-7e6": {
+  "/docs/processing/databricks/lab-retail-pos-databricks-fde": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-databricks-lab-retail-pos-databrickse-34-a74"
   },
-  "/docs/processing/databricks/project-advancedbricks-a66": {
+  "/docs/processing/databricks/project-advancedbricks-b4c": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-databricks-project-advancedbricks-8-f-6-2cc"
   },
-  "/docs/processing/databricks/project-bedbricks-cdf": {
+  "/docs/processing/databricks/project-bedbricks-e25": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-databricks-project-bedbricksf-42-fe0"
   },
-  "/docs/processing/databricks/project-databricks-de-149": {
+  "/docs/processing/databricks/project-databricks-de-51e": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-databricks-project-databricks-deec-5-94e"
   },
-  "/docs/processing/databricks/project-databricks-superset-26b": {
+  "/docs/processing/databricks/project-databricks-superset-16a": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-databricks-project-databricks-superset-6-ee-7b5"
   },
-  "/docs/processing/databricks/project-learnerbricks-80f": {
+  "/docs/processing/databricks/project-learnerbricks-510": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-databricks-project-learnerbricks-75-d-2a3"
   },
@@ -2825,39 +2837,43 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-dbt-27-f-011"
   },
-  "/docs/processing/gcp-dataproc-17e": {
+  "/docs/processing/gcp-dataproc-a90": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-gcp-dataproca-4-a-d41"
   },
-  "/docs/processing/gcp-pubsub-c9f": {
+  "/docs/processing/gcp-pubsub-76a": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-gcp-pubsub-3-a-5-ac5"
   },
-  "/docs/processing/lab-azure-hdinsight-simple-data-processing-b0e": {
+  "/docs/processing/lab-azure-hdinsight-simple-data-processing-9d2": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-lab-azure-hdinsight-simple-data-processing-8-e-8-8fe"
   },
-  "/docs/processing/lab-azure-synapse-data-processing-d82": {
+  "/docs/processing/lab-azure-synapse-data-processing-277": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-lab-azure-synapse-data-processingdfc-3a4"
   },
-  "/docs/processing/lab-azure-synapse-dataflows-bd8": {
+  "/docs/processing/lab-azure-synapse-dataflows-ec0": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-lab-azure-synapse-dataflows-9-b-1-560"
   },
-  "/docs/processing/lab-azure-synapse-implementing-star-schema-e38": {
+  "/docs/processing/lab-azure-synapse-implementing-star-schema-f95": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-lab-azure-synapse-implementing-star-schemad-29-1e6"
   },
-  "/docs/processing/lab-confluent-kafka-faker-ee2": {
+  "/docs/processing/lab-confluent-kafka-faker-bba": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-lab-confluent-kafka-fakerb-47-85c"
   },
-  "/docs/processing/lab-csv-to-parquet-conversion-c55": {
+  "/docs/processing/lab-confluent-python-8dd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-processing-lab-confluent-pythonfe-3-ba3"
+  },
+  "/docs/processing/lab-csv-to-parquet-conversion-f6c": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-lab-csv-to-parquet-conversion-102-823"
   },
-  "/docs/processing/lab-dataflow-bigquery-etl-772": {
+  "/docs/processing/lab-dataflow-bigquery-etl-680": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-lab-dataflow-bigquery-etld-92-ec1"
   },
@@ -2905,67 +2921,67 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-lab-dbt-tpch-066-918"
   },
-  "/docs/processing/lab-emr-serverless-215": {
+  "/docs/processing/lab-emr-serverless-858": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-lab-emr-serverlesse-2-b-797"
   },
-  "/docs/processing/lab-gcp-beam-mapreduce-875": {
+  "/docs/processing/lab-gcp-beam-mapreduce-b71": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-lab-gcp-beam-mapreducedcd-fc5"
   },
-  "/docs/processing/lab-gcp-dataflow-batch-pipeline-9f3": {
+  "/docs/processing/lab-gcp-dataflow-batch-pipeline-ef9": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-lab-gcp-dataflow-batch-pipelinef-3-b-837"
   },
-  "/docs/processing/lab-gcp-dataflow-pipeline-5f0": {
+  "/docs/processing/lab-gcp-dataflow-pipeline-cb8": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-lab-gcp-dataflow-pipelinef-62-973"
   },
-  "/docs/processing/lab-gcp-dataflow-side-inputs-486": {
+  "/docs/processing/lab-gcp-dataflow-side-inputs-82d": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-lab-gcp-dataflow-side-inputs-78-a-2f1"
   },
-  "/docs/processing/lab-gcp-dataflow-stream-pipeline-0c1": {
+  "/docs/processing/lab-gcp-dataflow-stream-pipeline-2f3": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-lab-gcp-dataflow-stream-pipeline-86-e-fc0"
   },
-  "/docs/processing/lab-gcp-dataprep-7b6": {
+  "/docs/processing/lab-gcp-dataprep-897": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-lab-gcp-dataprep-4-ab-a2a"
   },
-  "/docs/processing/lab-gcp-dataproc-daa": {
+  "/docs/processing/lab-gcp-dataproc-a5a": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-lab-gcp-dataprocd-44-bee"
   },
-  "/docs/processing/lab-gcp-pubsub-276": {
+  "/docs/processing/lab-gcp-pubsub-01f": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-lab-gcp-pubsubf-83-1c1"
   },
-  "/docs/processing/lab-gcp-pubsub-processing-cc0": {
+  "/docs/processing/lab-gcp-pubsub-processing-d2c": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-lab-gcp-pubsub-processing-040-703"
   },
-  "/docs/processing/lab-gcp-serverless-dataflow-1d0": {
+  "/docs/processing/lab-gcp-serverless-dataflow-9e1": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-lab-gcp-serverless-dataflowdce-b52"
   },
-  "/docs/processing/lab-getting-started-with-beam-c19": {
+  "/docs/processing/lab-getting-started-with-beam-8e6": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-lab-getting-started-with-beam-52-c-ef8"
   },
-  "/docs/processing/lab-glue-advanced-eb0": {
+  "/docs/processing/lab-glue-advanced-521": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-lab-glue-advanced-3-c-0-17a"
   },
-  "/docs/processing/lab-glue-deltalake-cdc-upsert-bac": {
+  "/docs/processing/lab-glue-deltalake-cdc-upsert-e7b": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-lab-glue-deltalake-cdc-upsert-995-f24"
   },
-  "/docs/processing/lab-glue-studio-custom-transforms-2f8": {
+  "/docs/processing/lab-glue-studio-custom-transforms-93c": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-lab-glue-studio-custom-transformsc-88-5c7"
   },
-  "/docs/processing/lab-glue-studio-tickets-82f": {
+  "/docs/processing/lab-glue-studio-tickets-390": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-lab-glue-studio-tickets-04-e-208"
   },
@@ -3001,23 +3017,23 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-lab-kafka-toll-analysis-70-e-435"
   },
-  "/docs/processing/lab-kinesis-apache-logs-082": {
+  "/docs/processing/lab-kinesis-apache-logs-d7f": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-lab-kinesis-apache-logs-793-854"
   },
-  "/docs/processing/lab-kinesis-clickstream-anomaly-b80": {
+  "/docs/processing/lab-kinesis-clickstream-anomaly-053": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-lab-kinesis-clickstream-anomalyb-94-174"
   },
-  "/docs/processing/lab-lambda-csv-parquet-fec": {
+  "/docs/processing/lab-lambda-csv-parquet-c2e": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-lab-lambda-csv-parquet-64-e-129"
   },
-  "/docs/processing/lab-ray-air-basics-56b": {
+  "/docs/processing/lab-ray-air-basics-24d": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-lab-ray-air-basics-637-8f6"
   },
-  "/docs/processing/lab-ray-core-basics-cc0": {
+  "/docs/processing/lab-ray-core-basics-53d": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-lab-ray-core-basics-7-fd-0f4"
   },
@@ -3049,7 +3065,7 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-project-kafka-ikea-840-5eb"
   },
-  "/docs/processing/ray-d20": {
+  "/docs/processing/ray-5bd": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-ray-9-d-0-83b"
   },
@@ -3057,55 +3073,55 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-processing-snowpark-53-e-ca2"
   },
-  "/docs/storage/apache-couchdb-bf6": {
+  "/docs/storage/apache-couchdb-404": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-apache-couchdbf-8-e-671"
   },
-  "/docs/storage/apache-hudi-784": {
+  "/docs/storage/apache-hudi-318": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-apache-hudibdc-7ee"
   },
-  "/docs/storage/apache-iceberg-d99": {
+  "/docs/storage/apache-iceberg-a38": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-apache-iceberg-353-5f7"
   },
-  "/docs/storage/arrow-05e": {
+  "/docs/storage/arrow-0d2": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-arrowe-83-fb7"
   },
-  "/docs/storage/athena-15b": {
+  "/docs/storage/athena-7d5": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-athenaa-13-474"
   },
-  "/docs/storage/avro-bfd": {
+  "/docs/storage/avro-07a": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-avro-9-de-299"
   },
-  "/docs/storage/avro-vs-parquet-vs-orc-88c": {
+  "/docs/storage/avro-vs-parquet-vs-orc-91c": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-avro-vs-parquet-vs-orc-28-a-fad"
   },
-  "/docs/storage/aws-dynamodb-ee5": {
+  "/docs/storage/aws-dynamodb-b92": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-aws-dynamodb-87-c-bce"
   },
-  "/docs/storage/azure-datalake-fea": {
+  "/docs/storage/azure-datalake-011": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-azure-datalake-501-f6d"
   },
-  "/docs/storage/azure-sql-343": {
+  "/docs/storage/azure-sql-606": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-azure-sqlc-48-eba"
   },
-  "/docs/storage/bigquery-3cb": {
+  "/docs/storage/bigquery-f7c": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-bigqueryeb-9-1b9"
   },
-  "/docs/storage/casestudy-messflix-hypothetical-d9c": {
+  "/docs/storage/casestudy-messflix-hypothetical-e3a": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-casestudy-messflix-hypothetical-3-cd-f68"
   },
-  "/docs/storage/cassandra-458": {
+  "/docs/storage/cassandra-9cf": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-cassandraae-4-b45"
   },
@@ -3117,87 +3133,87 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-compression-13-f-f18"
   },
-  "/docs/storage/csv-968": {
+  "/docs/storage/csv-fc9": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-csv-6-ba-679"
   },
-  "/docs/storage/data-lakehouses-5bb": {
+  "/docs/storage/data-lakehouses-142": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-data-lakehousesb-30-f00"
   },
-  "/docs/storage/data-mesh-basics-6fc": {
+  "/docs/storage/data-mesh-basics-12a": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-data-mesh-basics-51-c-b45"
   },
-  "/docs/storage/data-warehouses-462": {
+  "/docs/storage/data-warehouses-16b": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-data-warehouses-8-ce-1c1"
   },
-  "/docs/storage/database-storage-engines-c15": {
+  "/docs/storage/database-links-c3e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-storage-database-links-8-ff-66b"
+  },
+  "/docs/storage/database-storage-engines-578": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-database-storage-engines-9-ef-4a5"
   },
-  "/docs/storage/datalake-components-089": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-datalake-componentsf-15-39c"
-  },
-  "/docs/storage/datalakes-feb": {
+  "/docs/storage/datalakes-d9d": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-datalakes-1-a-1-295"
   },
-  "/docs/storage/deltalake-357": {
+  "/docs/storage/deltalake-049": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-deltalake-42-f-5e1"
   },
-  "/docs/storage/duckdb-9da": {
+  "/docs/storage/duckdb-729": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-duckdb-246-51b"
   },
-  "/docs/storage/gcp-bigtable-3ae": {
+  "/docs/storage/gcp-bigtable-8df": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-gcp-bigtable-07-c-54c"
   },
-  "/docs/storage/gcp-cloudsql-53e": {
+  "/docs/storage/gcp-cloudsql-1b0": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-gcp-cloudsql-12-f-4b9"
   },
-  "/docs/storage/gcs-c7d": {
+  "/docs/storage/gcs-1a9": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-gcs-3-d-7-d81"
   },
-  "/docs/storage/hadoop-vs-datalake-103": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-hadoop-vs-datalake-021-e1f"
-  },
-  "/docs/storage/hudi-5c3": {
+  "/docs/storage/hudi-855": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-hudifbc-c59"
   },
-  "/docs/storage/iceberg-5bf": {
+  "/docs/storage/iceberg-c3e": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-iceberg-137-023"
   },
-  "/docs/storage/interview-questions-a66": {
+  "/docs/storage/interview-questions-b8d": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-interview-questions-703-a5f"
   },
-  "/docs/storage/json-928": {
+  "/docs/storage/json-f8f": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-jsonaaa-09d"
   },
-  "/docs/storage/lab-adl-securing-monitoring-lakes-5af": {
+  "/docs/storage/lab-adl-create-manage-data-e17": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-storage-lab-adl-create-manage-datae-1-a-799"
+  },
+  "/docs/storage/lab-adl-securing-monitoring-lakes-19f": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-lab-adl-securing-monitoring-lakesc-5-e-41b"
   },
-  "/docs/storage/lab-amazon-keyspaces-20f": {
+  "/docs/storage/lab-amazon-keyspaces-3ff": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-lab-amazon-keyspacesc-4-b-b1f"
   },
-  "/docs/storage/lab-aws-rds-service-685": {
+  "/docs/storage/lab-aws-rds-service-fd0": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-lab-aws-rds-service-4-b-8-eca"
   },
-  "/docs/storage/lab-azure-sql-securing-databases-070": {
+  "/docs/storage/lab-azure-sql-securing-databases-14b": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-lab-azure-sql-securing-databases-7-ac-937"
   },
@@ -3237,29 +3253,37 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-lab-biqeury-building-warehouse-260-c3f"
   },
-  "/docs/storage/lab-couchdb-movies-data-migration-0fd": {
+  "/docs/storage/lab-couchdb-movies-data-migration-f0c": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-lab-couchdb-movies-data-migration-992-580"
   },
-  "/docs/storage/lab-data-loading-python-976": {
+  "/docs/storage/lab-data-loading-python-c54": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-lab-data-loading-python-7-d-4-a16"
   },
-  "/docs/storage/lab-datalake-healthcare-s3-glue-athena-84f": {
+  "/docs/storage/lab-datalake-healthcare-s3-glue-athena-127": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-datalake-healthcare-s-3-glue-athena-537-a00"
+    "content": "content---docs-storage-lab-datalake-healthcare-s-3-glue-athena-78-f-c67"
   },
-  "/docs/storage/lab-db2-bookshop-petsale-data-ingestion-1b7": {
+  "/docs/storage/lab-db2-bookshop-petsale-data-ingestion-378": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-lab-db-2-bookshop-petsale-data-ingestion-927-f3b"
   },
-  "/docs/storage/lab-gcp-cloudsql-nyctaxi-7fb": {
+  "/docs/storage/lab-duckdb-analytics-bank-tpch-nyctaxi-236": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-storage-lab-duckdb-analytics-bank-tpch-nyctaxi-25-a-9ff"
+  },
+  "/docs/storage/lab-gcp-cloudsql-nyctaxi-d25": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-lab-gcp-cloudsql-nyctaxi-9-de-05c"
   },
-  "/docs/storage/lab-gcp-streaming-bigtable-57c": {
+  "/docs/storage/lab-gcp-streaming-bigtable-bde": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-lab-gcp-streaming-bigtable-55-c-28f"
+  },
+  "/docs/storage/lab-getting-started-with-cassandra-9ab": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-storage-lab-getting-started-with-cassandra-1-b-8-eb1"
   },
   "/docs/storage/lab-getting-started-with-cassandra/cassandra-cli-be7": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -3269,15 +3293,15 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-lab-getting-started-with-cassandra-getting-startede-99-226"
   },
-  "/docs/storage/lab-glue-emr-iceberg-serverless-lakehouse-fff": {
+  "/docs/storage/lab-glue-emr-iceberg-serverless-lakehouse-db2": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-lab-glue-emr-iceberg-serverless-lakehouseebd-159"
   },
-  "/docs/storage/lab-intro-to-dynamodb-897": {
+  "/docs/storage/lab-intro-to-dynamodb-a1a": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-lab-intro-to-dynamodb-2-d-9-376"
   },
-  "/docs/storage/lab-mongodb-basics-f41": {
+  "/docs/storage/lab-mongodb-basics-f9c": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-lab-mongodb-basics-9-f-2-b5c"
   },
@@ -3285,53 +3309,49 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-lab-mongodb-pandas-36-d-b25"
   },
-  "/docs/storage/lab-mysql-data-ingestion-96a": {
+  "/docs/storage/lab-mysql-data-ingestion-935": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-lab-mysql-data-ingestion-209-e8d"
   },
-  "/docs/storage/lab-mysql-police-api-etl-b35": {
+  "/docs/storage/lab-mysql-police-api-etl-a98": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-lab-mysql-police-api-etl-6-ba-e88"
   },
-  "/docs/storage/lab-postgres-bash-etl-ec4": {
+  "/docs/storage/lab-postgres-bash-etl-44a": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-lab-postgres-bash-etldac-b1a"
   },
-  "/docs/storage/lab-postgres-crime-reports-c7c": {
+  "/docs/storage/lab-postgres-crime-reports-fd0": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-lab-postgres-crime-reports-735-c98"
   },
-  "/docs/storage/lab-postgres-getting-started-4c6": {
+  "/docs/storage/lab-postgres-getting-started-56b": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-lab-postgres-getting-started-57-b-8fc"
   },
-  "/docs/storage/lab-postgres-trips-stored-procedure-b3c": {
+  "/docs/storage/lab-postgres-trips-stored-procedure-400": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-lab-postgres-trips-stored-procedure-7-b-5-5e4"
   },
-  "/docs/storage/lab-processing-json-data-31f": {
+  "/docs/storage/lab-processing-json-data-858": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-lab-processing-json-data-29-d-1f0"
   },
-  "/docs/storage/lab-production-cleaning-deltalake-86a": {
+  "/docs/storage/lab-production-cleaning-deltalake-7ca": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-lab-production-cleaning-deltalakebe-7-73e"
   },
-  "/docs/storage/lab-read-s3-delta-in-python-5c7": {
+  "/docs/storage/lab-read-s3-delta-in-python-404": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-lab-read-s-3-delta-in-pythonaf-6-09e"
   },
-  "/docs/storage/lab-redshift-data-loading-c7a": {
+  "/docs/storage/lab-redshift-data-loading-53d": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-lab-redshift-data-loading-4-c-3-405"
   },
-  "/docs/storage/lab-redshift-data-loading-analysis-1de": {
+  "/docs/storage/lab-redshift-data-loading-analysis-c5a": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-lab-redshift-data-loading-analysis-336-77f"
-  },
-  "/docs/storage/lab-redshift-data-loading-python-103": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-redshift-data-loading-python-6-a-1-32b"
   },
   "/docs/storage/lab-redshift-immersion-9e5": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -3341,31 +3361,31 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-lab-redshift-ml-339-268"
   },
-  "/docs/storage/lab-redshift-ongoing-load-elt-9ac": {
+  "/docs/storage/lab-redshift-ongoing-load-elt-506": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-lab-redshift-ongoing-load-elt-179-f66"
   },
-  "/docs/storage/lab-redshift-scd-a7a": {
+  "/docs/storage/lab-redshift-scd-591": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-lab-redshift-scd-5-fd-ffe"
   },
-  "/docs/storage/lab-redshift-scd-2-32f": {
+  "/docs/storage/lab-redshift-scd-2-7c4": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-lab-redshift-scd-20-e-1-412"
   },
-  "/docs/storage/lab-redshift-spectrum-query-datalake-a7c": {
+  "/docs/storage/lab-redshift-spectrum-query-datalake-06e": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-lab-redshift-spectrum-query-datalakec-7-b-d78"
   },
-  "/docs/storage/lab-redshift-spectrum-query-tuning-ab8": {
+  "/docs/storage/lab-redshift-spectrum-query-tuning-8e7": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-lab-redshift-spectrum-query-tuning-309-426"
   },
-  "/docs/storage/lab-redshift-table-design-query-tuning-bd8": {
+  "/docs/storage/lab-redshift-table-design-query-tuning-bbf": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-lab-redshift-table-design-query-tuning-77-e-498"
   },
-  "/docs/storage/lab-scd-glue-delta-67d": {
+  "/docs/storage/lab-scd-glue-delta-738": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-lab-scd-glue-delta-865-3f2"
   },
@@ -3381,11 +3401,11 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-lab-snowpark-churnc-29-2a7"
   },
-  "/docs/storage/lab-sqlite-basics-a4f": {
+  "/docs/storage/lab-sqlite-basics-6ca": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-lab-sqlite-basicsdb-0-9ac"
   },
-  "/docs/storage/lab-sqlite-hipolabs-api-bc5": {
+  "/docs/storage/lab-sqlite-hipolabs-api-d62": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-lab-sqlite-hipolabs-apide-0-0e8"
   },
@@ -3393,67 +3413,83 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-lab-zero-to-snowflake-291-405"
   },
-  "/docs/storage/mongodb-734": {
+  "/docs/storage/mongodb-f06": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-mongodb-0-f-5-9e2"
   },
-  "/docs/storage/mysql-845": {
+  "/docs/storage/mysql-efc": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-mysqle-2-b-62e"
   },
-  "/docs/storage/orc-9b0": {
+  "/docs/storage/orc-405": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-orcded-9ff"
   },
-  "/docs/storage/parquet-da0": {
+  "/docs/storage/parquet-f1b": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-parquet-142-8b4"
   },
-  "/docs/storage/parquet-vs-csv-047": {
+  "/docs/storage/parquet-vs-csv-088": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-parquet-vs-csv-7-a-4-1fe"
   },
-  "/docs/storage/postgres-2f4": {
+  "/docs/storage/postgres-39b": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-postgres-932-dc5"
   },
-  "/docs/storage/postgres-vs-mysql-13f": {
+  "/docs/storage/postgres-vs-mysql-8f6": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-postgres-vs-mysqlc-99-9d7"
   },
-  "/docs/storage/project-athena-federated-9aa": {
+  "/docs/storage/project-athena-federated-02a": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-project-athena-federated-38-d-865"
   },
-  "/docs/storage/redshift-bf4": {
+  "/docs/storage/redshift-b36": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-redshiftb-85-795"
   },
-  "/docs/storage/serialization-52c": {
+  "/docs/storage/serialization-eb3": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-serializationbec-8ff"
   },
-  "/docs/storage/snowflake-a01": {
+  "/docs/storage/snowflake-e43": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-snowflake-344-04e"
   },
-  "/docs/storage/sqlite-140": {
+  "/docs/storage/sqlite-f4e": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-sqlite-205-0e0"
   },
-  "/docs/storage/why-datalakes-1fa": {
+  "/docs/storage/warehouse-links-c1c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-storage-warehouse-links-9-e-6-764"
+  },
+  "/docs/storage/why-datalakes-d05": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-why-datalakes-474-327"
   },
-  "/docs/storage/xml-63e": {
+  "/docs/storage/xml-169": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-storage-xmld-70-861"
+  },
+  "/docs/system-design-bc3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-system-designf-02-b23"
+  },
+  "/docs/system-design/databricks-case-studies-9a9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-system-design-databricks-case-studieseb-3-220"
+  },
+  "/docs/system-design/examples-52b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-system-design-examplesee-9-b6a"
   },
   "/docs/visualization-67b": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-visualizationf-1-c-122"
   },
-  "/docs/visualization/flask-b82": {
+  "/docs/visualization/flask-1de": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-visualization-flask-574-fab"
   },
@@ -3461,15 +3497,15 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-visualization-looker-studio-8-c-1-867"
   },
-  "/docs/visualization/looker-studio/lab-gcp-streaming-analytics-f60": {
+  "/docs/visualization/looker-studio/lab-gcp-streaming-analytics-40a": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-visualization-looker-studio-lab-gcp-streaming-analyticsc-81-381"
   },
-  "/docs/visualization/preset-7c7": {
+  "/docs/visualization/preset-26f": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-visualization-preset-036-17b"
   },
-  "/docs/visualization/streamlit-529": {
+  "/docs/visualization/streamlit-f88": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-visualization-streamlit-293-0dc"
   },

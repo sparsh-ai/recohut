@@ -1,8 +1,8 @@
 {
   "unversionedId": "storage/lab-scd-glue-delta/README",
   "id": "storage/lab-scd-glue-delta/README",
-  "title": "Lab: Implement slowly changing dimensions in a data lake using AWS Glue and Delta",
-  "description": "process-flow drawio",
+  "title": "Lab: SCD in Lakehouse",
+  "description": "Implement slowly changing dimensions in a data lake using AWS Glue and Delta",
   "source": "@site/docs/02-storage/lab-scd-glue-delta/README.md",
   "sourceDirName": "02-storage/lab-scd-glue-delta",
   "slug": "/storage/lab-scd-glue-delta/",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: The Easy Ways to Clean Up Production Messes",
+    "permalink": "/docs/storage/lab-production-cleaning-deltalake/"
+  },
+  "next": {
+    "title": "Data Mesh Basics",
+    "permalink": "/docs/storage/data-mesh-basics"
+  }
 }

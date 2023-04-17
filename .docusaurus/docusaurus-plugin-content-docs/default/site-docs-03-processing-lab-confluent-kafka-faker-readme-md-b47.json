@@ -1,8 +1,8 @@
 {
   "unversionedId": "processing/lab-confluent-kafka-faker/README",
   "id": "processing/lab-confluent-kafka-faker/README",
-  "title": "Real-time CDC-enabled Extract and Load Pipeline with Kafka on Cloud",
-  "description": "Introduction",
+  "title": "Lab: Kafka and CDC",
+  "description": "Real-time CDC-enabled Extract and Load Pipeline with Kafka on Cloud",
   "source": "@site/docs/03-processing/lab-confluent-kafka-faker/README.md",
   "sourceDirName": "03-processing/lab-confluent-kafka-faker",
   "slug": "/processing/lab-confluent-kafka-faker/",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Confluent Kafka with Python",
+    "permalink": "/docs/processing/lab-confluent-python/"
+  },
+  "next": {
+    "title": "SQL Data Modeling",
+    "permalink": "/docs/data-modeling/sql-data-modeling"
+  }
 }

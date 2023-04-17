@@ -1,7 +1,7 @@
 {
   "unversionedId": "storage/lab-intro-to-dynamodb/README",
   "id": "storage/lab-intro-to-dynamodb/README",
-  "title": "Introduction to DynamoDB",
+  "title": "Lab: Intro to DynamoDB",
   "description": "Description",
   "source": "@site/docs/02-storage/lab-intro-to-dynamodb/README.md",
   "sourceDirName": "02-storage/lab-intro-to-dynamodb",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Amazon Keyspaces",
+    "permalink": "/docs/storage/lab-amazon-keyspaces/"
+  },
+  "next": {
+    "title": "Lab: MongoDB Basics",
+    "permalink": "/docs/storage/lab-mongodb-basics/"
+  }
 }

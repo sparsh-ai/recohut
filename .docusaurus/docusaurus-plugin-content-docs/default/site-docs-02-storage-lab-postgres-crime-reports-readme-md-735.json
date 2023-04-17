@@ -1,7 +1,7 @@
 {
   "unversionedId": "storage/lab-postgres-crime-reports/README",
   "id": "storage/lab-postgres-crime-reports/README",
-  "title": "Postgres Crime Reports",
+  "title": "Lab: Postgres Crime Reports",
   "description": "Building a Database for Crime Reports",
   "source": "@site/docs/02-storage/lab-postgres-crime-reports/README.md",
   "sourceDirName": "02-storage/lab-postgres-crime-reports",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: ETL with bash script",
+    "permalink": "/docs/storage/lab-postgres-bash-etl/"
+  },
+  "next": {
+    "title": "Lab: Generate Trips Data using Stored Procedure",
+    "permalink": "/docs/storage/lab-postgres-trips-stored-procedure/"
+  }
 }

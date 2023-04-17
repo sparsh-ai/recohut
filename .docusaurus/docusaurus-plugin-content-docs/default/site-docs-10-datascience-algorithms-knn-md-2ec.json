@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Random Forest",
+    "permalink": "/docs/datascience/algorithms/random-forest"
+  },
+  "next": {
+    "title": "Gradient Boosting",
+    "permalink": "/docs/datascience/algorithms/gradient-boosting"
+  }
 }

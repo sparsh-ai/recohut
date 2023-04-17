@@ -1,7 +1,7 @@
 {
   "unversionedId": "orchestration/stepfunctions/lab-stepfunction-athena-sns/README",
   "id": "orchestration/stepfunctions/lab-stepfunction-athena-sns/README",
-  "title": "Step Function Athena SNS",
+  "title": "Lab: Step Function Athena SNS",
   "description": "Objective: Execute multiple queries (Amazon Athena, Amazon SNS)",
   "source": "@site/docs/06-orchestration/stepfunctions/lab-stepfunction-athena-sns/README.md",
   "sourceDirName": "06-orchestration/stepfunctions/lab-stepfunction-athena-sns",
@@ -13,5 +13,14 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Building and Executing a Pipeline Graph with Data Fusion",
+    "permalink": "/docs/orchestration/datafusion/lab-datafusion-pipeline/"
+  },
+  "next": {
+    "title": "Lab: Step Function Ecommerce SQL",
+    "permalink": "/docs/orchestration/stepfunctions/lab-stepfunction-ecomm-sqs/"
+  }
 }
