@@ -1,4 +1,4 @@
-# Data Streaming Pipeline with Kafka for livetolldata
+# Lab: Data Streaming Pipeline with Kafka for livetolldata
 
 ## Objective
 
@@ -133,3 +133,11 @@ Take a screenshot of the command and the output.
 Name the screenshot `output_rows.jpg`. (Images can be saved with either the .jpg or .png extension.)
 
 This concludes the assignment.
+
+## Files
+
+[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sparsh-ai/recohut/tree/main/docs/03-processing/lab-kafka-toll-analysis)
+
+## Notebook
+
+[![nbviewer](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/recohut/blob/main/docs/03-processing/lab-kafka-toll-analysis/main.ipynb)

@@ -4,36 +4,10 @@ Hit the ⭐️ button if you like the repo
 
 ![bigpicture drawio](https://user-images.githubusercontent.com/62965911/226115094-3ca039b1-0ee6-48f6-85b2-7303bb9c9cf8.svg)
 
-- Programming
 
-  - Python
-    - Lab: Lists and dictionaries
-    - Lab: For loops and while loops
-    - Lab: Functions and Inline functions
-    - Lab: Reading data from flat files - csv, json, parquet, avro, excel, txt
-    - Lab: Read/Write and Manipulate Data using Pandas
-    - Lab: Pulling data from APIs using requests library
-    - Lab: Reading and writing data to databases using psycopg2 and sqlalchemy library
-    - Lab: Reading data from S3 and athena using aws data wrangler library
-    - Lab: Pull credentials from Secrets Manager using boto3 library
-
-  - PySpark
-    - Lab: Create your first databricks cluster
-    - Lab: Create your first databricks notebook
-
-- Storages
-
-  - Data Lakes
-    - Lab: Working with S3 using Boto3 in Python
 
 - Data Processing
 
-    - [Lab: Real-time fraud detection by applying filter in Kafka topic](docs/03-processing/lab-kafka-fraud-detection/)
-    - [Lab: Kafka Streams for NYC Taxi data](docs/03-processing/lab-kafka-nyctaxi/)
-    - [Lab: Kafka on Cloud with Amazon ECS and Container Orchestration](docs/03-processing/lab-kafka-python-ecs/)
-    - [Lab: Realtime Streaming analytics with Apache Kafka and Spark Streaming](docs/03-processing/lab-kafka-spark-streaming/)
-    - [Lab: Stock Market Kafka Real Time](docs/03-processing/lab-kafka-stock-market/)
-    - [Lab: Data Streaming Pipeline with Kafka for livetolldata](docs/03-processing/lab-kafka-toll-analysis/)
     - [Lab: Building an event-driven IKEA app with Kafka](docs/03-processing/project-ikea/)
     - [Lab: Getting started with Kafka and CLI](docs/03-processing/lab-kafka-cli/)
     - [Lab: Getting started with Kafka and Python](docs/03-processing/lab-kafka-python/)

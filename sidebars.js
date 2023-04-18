@@ -15,8 +15,8 @@
 const sidebars = {
   docs: [
     'introduction',
-    {type: 'category', label: 'Getting Started', items: [
-      {type: 'category', label: 'Data Engineering', items: [
+    {type: 'category', label: 'Getting Started', link: {type: 'generated-index'}, items: [
+      {type: 'category', label: 'Data Engineering', link: {type: 'generated-index'}, items: [
       'foundations/basics/de-basics',
       'foundations/basics/data-pipelines',
       'foundations/basics/oltp-vs-olap',
@@ -35,7 +35,7 @@ const sidebars = {
       'foundations/basics/most-common-interview-questions-set2',
       'foundations/basics/most-common-interview-questions-set3',
       ]},
-      {type: 'category', label: 'Spark and Hadoop', items: [
+      {type: 'category', label: 'Spark and Hadoop', link: {type: 'generated-index'}, items: [
         'foundations/basics/spark-basics',
         'foundations/basics/spark-origin',
         'foundations/basics/hadoop-basics',
@@ -45,7 +45,7 @@ const sidebars = {
         'foundations/basics/rdd',
         'foundations/basics/spark-quiz',
         ]},
-      {type: 'category', label: 'Developer Essentials', items: [
+      {type: 'category', label: 'Developer Essentials', link: {type: 'generated-index'}, items: [
         'foundations/developer/install-anaconda',
         'foundations/developer/install-jupyter',
         'foundations/developer/install-vscode',
@@ -55,18 +55,13 @@ const sidebars = {
         'foundations/developer/lab-bash-commands/index',
         'foundations/developer/install-dbeaver',
         ]},
-      {type: 'category', label: 'System Design', items: [
-        'system-design/README',
+      {type: 'category', label: 'System Design', link: {type: 'doc', id: 'system-design/README'}, items: [
         'system-design/examples',
         'system-design/databricks-case-studies',
         ]},
     ]},
-    {type: 'category', label: 'Cloud Computing', items: [
-      {type: 'category', label: 'Introduction', items: [
-      'foundations/cloud/cloud-basics',
-      'foundations/cloud/cloud-comparison',
-      ]},
-      {type: 'category', label: 'AWS', items: [
+    {type: 'category', label: 'Cloud Computing', link: {type: 'doc', id: 'foundations/cloud/cloud-computing'}, items: [
+      {type: 'category', label: 'AWS', link: {type: 'generated-index'}, items: [
         'foundations/cloud/ec2',
         'foundations/cloud/iam',
         'foundations/cloud/glue',
@@ -82,11 +77,11 @@ const sidebars = {
         'foundations/cloud/lab-create-your-first-vpc/README',
         'foundations/cloud/lab-create-your-first-ec2-instance-linux/README',
         ]},
-        {type: 'category', label: 'GCP', items: [
+        {type: 'category', label: 'GCP', link: {type: 'generated-index'}, items: [
           'foundations/cloud/gcp-basics',
           'foundations/cloud/gcp-setup',
           ]},
-        {type: 'category', label: 'Azure', items: [
+        {type: 'category', label: 'Azure', link: {type: 'generated-index'}, items: [
           'foundations/cloud/azure-basics',
           'foundations/cloud/azure-data-ingestion',
           'foundations/cloud/azure-batch-processing',
@@ -94,8 +89,7 @@ const sidebars = {
           ]},
     ]},
     {type: 'category', label: 'Programming', items: [
-      {type: 'category', label: 'SQL', items: [
-      'foundations/language/sql/sql-basics',
+      {type: 'category', label: 'SQL', link: {type: 'doc', id: 'foundations/language/sql/sql-basics'}, items: [
       'foundations/language/sql/sql-query',
       'foundations/language/sql/commands/index',
       'foundations/language/sql/cte',
@@ -338,6 +332,12 @@ const sidebars = {
         'processing/apache-kafka',
         'processing/lab-confluent-python/README',
         'processing/lab-confluent-kafka-faker/README',
+        'processing/lab-kafka-fraud-detection/README',
+        'processing/lab-kafka-nyctaxi/README',
+        'processing/lab-kafka-python-ecs/README',
+        'processing/lab-kafka-spark-streaming/README',
+        'processing/lab-kafka-stock-market/README',
+        'processing/lab-kafka-toll-analysis/README',
       ]},
     ]},
     {type: 'category', label: 'Data Modeling', items: [

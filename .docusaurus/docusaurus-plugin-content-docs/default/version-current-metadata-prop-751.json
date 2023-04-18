@@ -2644,11 +2644,6 @@
       "title": "OLX Data Engineering Challenge",
       "description": "Tasks"
     },
-    "assignments/README": {
-      "id": "assignments/README",
-      "title": "Assignments",
-      "description": ""
-    },
     "assignments/sakila/README": {
       "id": "assignments/sakila/README",
       "title": "Batch and Stream Unified analytics for Sakila Music Company",
@@ -3673,11 +3668,6 @@
       "title": "Prophet",
       "description": "In 2017, Facebook (now Meta) released its Prophet software as open source. This powerful tool was developed by Facebook engineers because its analysts were overwhelmed with the number of business forecasts demanded by managers. The developers of Prophet wanted to simultaneously solve two problems: 1 - completely automatic forecasting techniques are too brittle and inflexible to handle additional knowledge, and 2 - analysts who are consistently able to produce high-quality forecasts are rare and require extensive expertise. Prophet successfully solved both of these problems.",
       "sidebar": "docs"
-    },
-    "datascience/timeseries/README": {
-      "id": "datascience/timeseries/README",
-      "title": "Time-Series",
-      "description": ""
     },
     "devops/containers/lab-assignment-etl-docker/README": {
       "id": "devops/containers/lab-assignment-etl-docker/README",

@@ -1,3519 +1,3468 @@
 {
-  "/__docusaurus/debug-b27": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debuge-60-2c2"
-    }
-  },
-  "/__docusaurus/debug/config-910": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debuge-60-2c2"
-    }
-  },
-  "/__docusaurus/debug/content-82f": {
-    "__comp": "__comp---theme-debug-contentba-8-ce7",
-    "__context": {
-      "plugin": "plugin---docusaurus-debuge-60-2c2"
-    },
-    "allContent": "allContent---docusaurus-debug-content-246-9aa"
-  },
-  "/__docusaurus/debug/globalData-aa3": {
-    "__comp": "__comp---theme-debug-global-dataede-0fa",
-    "__context": {
-      "plugin": "plugin---docusaurus-debuge-60-2c2"
-    }
-  },
-  "/__docusaurus/debug/metadata-716": {
-    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
-    "__context": {
-      "plugin": "plugin---docusaurus-debuge-60-2c2"
-    }
-  },
-  "/__docusaurus/debug/registry-b62": {
-    "__comp": "__comp---theme-debug-registry-679-501",
-    "__context": {
-      "plugin": "plugin---docusaurus-debuge-60-2c2"
-    }
-  },
-  "/__docusaurus/debug/routes-480": {
-    "__comp": "__comp---theme-debug-routes-946-699",
-    "__context": {
-      "plugin": "plugin---docusaurus-debuge-60-2c2"
-    }
-  },
   "/blog-d3a": {
-    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__comp": "a6aa9e1f",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-32-a-860"
+        "content": "32abe96b"
       },
       {
-        "content": "content---blog-476-0f8"
+        "content": "4765de0c"
       },
       {
-        "content": "content---blog-0-b-3-ff2"
+        "content": "0b3203ef"
       },
       {
-        "content": "content---blogc-21-740"
+        "content": "c21c202a"
       },
       {
-        "content": "content---blog-02-a-4c0"
+        "content": "02a5a6e0"
       },
       {
-        "content": "content---blog-744-7a9"
+        "content": "744cb713"
       },
       {
-        "content": "content---blogefe-40e"
+        "content": "efed6fa0"
       },
       {
-        "content": "content---blog-0-e-3-056"
+        "content": "0e3c1a88"
       },
       {
-        "content": "content---blog-903-b99"
+        "content": "90386e86"
       },
       {
-        "content": "content---blogd-4-a-a2d"
+        "content": "d4ab1fbc"
       }
     ],
-    "metadata": "metadata---blogb-2-b-df1"
+    "metadata": "b2b675dd"
   },
   "/blog/2020/01/19/mobilenet-ssd-caffe-pre-trained-model-1ea": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2020-01-19-mobilenet-ssd-caffe-pre-trained-modelae-2-664"
+    "sidebar": "814f3328",
+    "content": "ae27c878"
   },
   "/blog/2021/01/23/object-detection-with-yolo3-8c8": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2021-01-23-object-detection-with-yolo-3-f-76-267"
+    "sidebar": "814f3328",
+    "content": "f76e21a9"
   },
   "/blog/2021/10/01/clinical-decision-making-47f": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2021-10-01-clinical-decision-making-7-f-2-518"
+    "sidebar": "814f3328",
+    "content": "7f20c9b3"
   },
   "/blog/2021/10/01/detectron-2-12b": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2021-10-01-detectron-23-d-9-11d"
+    "sidebar": "814f3328",
+    "content": "3d93fce4"
   },
   "/blog/2021/10/01/distributed-training-of-recommender-systems-031": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2021-10-01-distributed-training-of-recommender-systems-0-ad-c79"
+    "sidebar": "814f3328",
+    "content": "0ada242c"
   },
   "/blog/2021/10/01/document-recommendation-5c2": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2021-10-01-document-recommendation-746-a4e"
+    "sidebar": "814f3328",
+    "content": "746b09f8"
   },
   "/blog/2021/10/01/fake-voice-detection-d88": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2021-10-01-fake-voice-detectionef-4-094"
+    "sidebar": "814f3328",
+    "content": "ef4cd368"
   },
   "/blog/2021/10/01/image-similarity-system-8a4": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2021-10-01-image-similarity-systemcaa-385"
+    "sidebar": "814f3328",
+    "content": "caa49cac"
   },
   "/blog/2021/10/01/insurance-personalization-a92": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2021-10-01-insurance-personalizationf-6-a-3bb"
+    "sidebar": "814f3328",
+    "content": "f6af6df9"
   },
   "/blog/2021/10/01/name-&-address-parsing-208": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2021-10-01-name-address-parsing-4-f-3-030"
+    "sidebar": "814f3328",
+    "content": "4f303f78"
   },
   "/blog/2021/10/01/object-detection-hands-on-exercises-a47": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2021-10-01-object-detection-hands-on-exercises-214-fe0"
+    "sidebar": "814f3328",
+    "content": "2143c78b"
   },
   "/blog/2021/10/01/object-detection-with-opencv-662": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2021-10-01-object-detection-with-opencvbfe-cc8"
+    "sidebar": "814f3328",
+    "content": "bfe29135"
   },
   "/blog/2021/10/01/object-detection-with-yolo3-40c": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2021-10-01-object-detection-with-yolo-341-d-1bb"
+    "sidebar": "814f3328",
+    "content": "41dadac5"
   },
   "/blog/2021/10/01/ocr-experiments-af7": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2021-10-01-ocr-experiments-3-ca-3cd"
+    "sidebar": "814f3328",
+    "content": "3ca4ffcb"
   },
   "/blog/2021/10/01/pdf-to-wordcloud-via-mail-51c": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2021-10-01-pdf-to-wordcloud-via-mail-45-f-b0b"
+    "sidebar": "814f3328",
+    "content": "45f8179f"
   },
   "/blog/2021/10/01/personalized-unexpectedness-in-recommender-systems-94f": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2021-10-01-personalized-unexpectedness-in-recommender-systems-96-e-d9d"
+    "sidebar": "814f3328",
+    "content": "96e00020"
   },
   "/blog/2021/10/01/predicting-electronics-resale-price-caf": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2021-10-01-predicting-electronics-resale-price-7-dc-e4b"
+    "sidebar": "814f3328",
+    "content": "7dca322b"
   },
   "/blog/2021/10/01/real-time-news-personalization-with-flink-cd9": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2021-10-01-real-time-news-personalization-with-flinka-99-9e5"
+    "sidebar": "814f3328",
+    "content": "a999e6ba"
   },
   "/blog/2021/10/01/semantic-similarity-af8": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2021-10-01-semantic-similarity-841-095"
+    "sidebar": "814f3328",
+    "content": "84115211"
   },
   "/blog/2021/10/01/short-video-background-music-recommender-4a1": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2021-10-01-short-video-background-music-recommenderedb-d71"
+    "sidebar": "814f3328",
+    "content": "edbe2c02"
   },
   "/blog/2021/10/01/the-progression-of-analytics-in-enterprises-dc3": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2021-10-01-the-progression-of-analytics-in-enterprisesf-66-23b"
+    "sidebar": "814f3328",
+    "content": "f66eeb44"
   },
   "/blog/2021/10/01/tools-for-building-recommender-systems-5f6": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2021-10-01-tools-for-building-recommender-systemsf-14-950"
+    "sidebar": "814f3328",
+    "content": "f1450ef9"
   },
   "/blog/2021/10/01/vehicle-suggestions-1fa": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2021-10-01-vehicle-suggestions-031-04c"
+    "sidebar": "814f3328",
+    "content": "03158ba3"
   },
   "/blog/2021/10/01/web-scraping-using-scrapy-bs4-and-selenium-3c8": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2021-10-01-web-scraping-using-scrapy-bs-4-and-selenium-15-f-101"
+    "sidebar": "814f3328",
+    "content": "15f89aec"
   },
   "/blog/2021/10/01/web-scraping-with-gazpacho-df7": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2021-10-01-web-scraping-with-gazpacho-112-e1b"
+    "sidebar": "814f3328",
+    "content": "1125aadf"
   },
   "/blog/2021/10/01/wellness-tracker-chatbot-911": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2021-10-01-wellness-tracker-chatbotc-6-b-398"
+    "sidebar": "814f3328",
+    "content": "c6b8a14b"
   },
   "/blog/2021/10/01/what-is-livestream-ecommerce-591": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2021-10-01-what-is-livestream-ecommerce-14-e-92e"
+    "sidebar": "814f3328",
+    "content": "14e07bbd"
   },
   "/blog/2022/11/16/opening-material-b4d": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2022-11-16-opening-material-3-ff-cd7"
+    "sidebar": "814f3328",
+    "content": "3ffaf9ee"
   },
   "/blog/2022/12/12/the-complete-python-course-2022-ae3": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2022-12-12-the-complete-python-course-2022-d-4-c-d25"
+    "sidebar": "814f3328",
+    "content": "d4c534c0"
   },
   "/blog/2022/12/13/sql-to-snowflake-schema-conversion-4ee": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2022-12-13-sql-to-snowflake-schema-conversion-88-b-f81"
+    "sidebar": "814f3328",
+    "content": "88b856fb"
   },
   "/blog/2022/12/24/ab-mab-tests-563": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2022-12-24-ab-mab-tests-102-938"
+    "sidebar": "814f3328",
+    "content": "102b64fb"
   },
   "/blog/archive-8d8": {
-    "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
+    "__comp": "9e4087bc",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "archive": "archive---blog-archiveb-2-f-393"
+    "archive": "b2f554cd"
   },
   "/blog/page/2-a5d": {
-    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__comp": "a6aa9e1f",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-page-27-cf-43f"
+        "content": "7cf6b45a"
       },
       {
-        "content": "content---blog-page-2-baf-36f"
+        "content": "bafaae06"
       },
       {
-        "content": "content---blog-page-2-ac-9-aad"
+        "content": "ac98e55f"
       },
       {
-        "content": "content---blog-page-2-eda-37f"
+        "content": "edadaca9"
       },
       {
-        "content": "content---blog-page-2620-632"
+        "content": "6208a5b7"
       },
       {
-        "content": "content---blog-page-20-bc-18a"
+        "content": "0bcd0601"
       },
       {
-        "content": "content---blog-page-2327-7c6"
+        "content": "3278e099"
       },
       {
-        "content": "content---blog-page-20-c-6-35c"
+        "content": "0c655d87"
       },
       {
-        "content": "content---blog-page-29-cd-b68"
+        "content": "9cd79544"
       },
       {
-        "content": "content---blog-page-28-a-7-66f"
+        "content": "8a789c15"
       }
     ],
-    "metadata": "metadata---blog-page-28-eb-625"
+    "metadata": "8eb4e46b"
   },
   "/blog/page/3-ada": {
-    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__comp": "a6aa9e1f",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-page-3630-acd"
+        "content": "630af974"
       },
       {
-        "content": "content---blog-page-3-e-4-e-fe0"
+        "content": "e4e8793a"
       },
       {
-        "content": "content---blog-page-31-c-3-b49"
+        "content": "1c317916"
       },
       {
-        "content": "content---blog-page-37-bd-183"
+        "content": "7bd4c30f"
       },
       {
-        "content": "content---blog-page-3-def-3bc"
+        "content": "defae8b4"
       },
       {
-        "content": "content---blog-page-33-a-1-f6a"
+        "content": "3a1b8b71"
       },
       {
-        "content": "content---blog-page-3285-b7d"
+        "content": "28598ea0"
       },
       {
-        "content": "content---blog-page-39-ea-29d"
+        "content": "9ea30017"
       },
       {
-        "content": "content---blog-page-3-f-48-436"
+        "content": "f4866862"
       },
       {
-        "content": "content---blog-page-3-af-0-85d"
+        "content": "af0d3de2"
       }
     ],
-    "metadata": "metadata---blog-page-3929-7ba"
+    "metadata": "92999a1c"
   },
   "/blog/page/4-e75": {
-    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__comp": "a6aa9e1f",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-page-4069-83d"
+        "content": "0690447f"
       }
     ],
-    "metadata": "metadata---blog-page-47-d-9-260"
+    "metadata": "7d9726a8"
   },
   "/blog/tags-0a1": {
-    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
+    "__comp": "01a85c17",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "tags": "tags---blog-tagsa-70-da2"
+    "sidebar": "814f3328",
+    "tags": "a7023ddc"
   },
   "/blog/tags/ab-f21": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-32-a-860"
+        "content": "32abe96b"
       }
     ],
-    "tag": "tag---blog-tags-abe-33-99b",
-    "listMetadata": "listMetadata---blog-tags-ab-8-d-8-827"
+    "tag": "e33e619f",
+    "listMetadata": "8d8611ef"
   },
   "/blog/tags/app-891": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-page-2-baf-36f"
+        "content": "bafaae06"
       },
       {
-        "content": "content---blog-page-2620-632"
+        "content": "6208a5b7"
       },
       {
-        "content": "content---blog-page-3-af-0-85d"
+        "content": "af0d3de2"
       },
       {
-        "content": "content---blog-page-4069-83d"
+        "content": "0690447f"
       }
     ],
-    "tag": "tag---blog-tags-app-03-e-251",
-    "listMetadata": "listMetadata---blog-tags-appe-8-a-b7c"
+    "tag": "03ee96e8",
+    "listMetadata": "e8a7a622"
   },
   "/blog/tags/audio-dbd": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-903-b99"
+        "content": "90386e86"
       }
     ],
-    "tag": "tag---blog-tags-audio-671-b71",
-    "listMetadata": "listMetadata---blog-tags-audio-3-cd-30d"
+    "tag": "6712406b",
+    "listMetadata": "3cdc5a5f"
   },
   "/blog/tags/aws-beanstalk-449": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blogd-4-a-a2d"
+        "content": "d4ab1fbc"
       }
     ],
-    "tag": "tag---blog-tags-aws-beanstalkf-90-9be",
-    "listMetadata": "listMetadata---blog-tags-aws-beanstalk-216-cfa"
+    "tag": "f9046b55",
+    "listMetadata": "216e5ef2"
   },
   "/blog/tags/chatbot-a73": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-page-39-ea-29d"
+        "content": "9ea30017"
       }
     ],
-    "tag": "tag---blog-tags-chatbotbb-0-460",
-    "listMetadata": "listMetadata---blog-tags-chatbotc-27-399"
+    "tag": "bb0ed552",
+    "listMetadata": "c271de28"
   },
   "/blog/tags/classification-12e": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-02-a-4c0"
+        "content": "02a5a6e0"
       }
     ],
-    "tag": "tag---blog-tags-classification-739-673",
-    "listMetadata": "listMetadata---blog-tags-classification-1-d-3-295"
+    "tag": "739966d2",
+    "listMetadata": "1d3f515b"
   },
   "/blog/tags/course-b3c": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-0-b-3-ff2"
+        "content": "0b3203ef"
       }
     ],
-    "tag": "tag---blog-tags-coursea-81-6d9",
-    "listMetadata": "listMetadata---blog-tags-coursee-6-e-07b"
+    "tag": "a81f6532",
+    "listMetadata": "e6ea14f6"
   },
   "/blog/tags/dataengineering-fc5": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blogc-21-740"
+        "content": "c21c202a"
       }
     ],
-    "tag": "tag---blog-tags-dataengineering-5-cc-7c2",
-    "listMetadata": "listMetadata---blog-tags-dataengineering-9-b-2-5d9"
+    "tag": "5cc17d16",
+    "listMetadata": "9b2e0a80"
   },
   "/blog/tags/deepfake-826": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-903-b99"
+        "content": "90386e86"
       }
     ],
-    "tag": "tag---blog-tags-deepfakec-4-a-810",
-    "listMetadata": "listMetadata---blog-tags-deepfakedc-9-0ff"
+    "tag": "c4aea541",
+    "listMetadata": "dc9cd635"
   },
   "/blog/tags/distributed-76e": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blogefe-40e"
+        "content": "efed6fa0"
       }
     ],
-    "tag": "tag---blog-tags-distributed-8-b-9-107",
-    "listMetadata": "listMetadata---blog-tags-distributedeb-0-2f5"
+    "tag": "8b9f1315",
+    "listMetadata": "eb04623a"
   },
   "/blog/tags/docusaurus-42b": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blogc-21-740"
+        "content": "c21c202a"
       }
     ],
-    "tag": "tag---blog-tags-docusaurusa-80-728",
-    "listMetadata": "listMetadata---blog-tags-docusaurus-608-c09"
+    "tag": "a80da1cf",
+    "listMetadata": "608ae6a4"
   },
   "/blog/tags/flask-f55": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blogd-4-a-a2d"
+        "content": "d4ab1fbc"
       },
       {
-        "content": "content---blog-page-2-baf-36f"
+        "content": "bafaae06"
       }
     ],
-    "tag": "tag---blog-tags-flask-65-d-52f",
-    "listMetadata": "listMetadata---blog-tags-flask-235-55a"
+    "tag": "65da7a06",
+    "listMetadata": "23527531"
   },
   "/blog/tags/healthcare-da5": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-02-a-4c0"
+        "content": "02a5a6e0"
       },
       {
-        "content": "content---blog-page-39-ea-29d"
+        "content": "9ea30017"
       }
     ],
-    "tag": "tag---blog-tags-healthcare-8-fa-e25",
-    "listMetadata": "listMetadata---blog-tags-healthcare-6-cc-820"
+    "tag": "8fa4918e",
+    "listMetadata": "6ccb7d3e"
   },
   "/blog/tags/insight-002": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-page-31-c-3-b49"
+        "content": "1c317916"
       }
     ],
-    "tag": "tag---blog-tags-insightdb-1-743",
-    "listMetadata": "listMetadata---blog-tags-insight-2-d-0-b2d"
+    "tag": "db1b94d9",
+    "listMetadata": "2d0448a9"
   },
   "/blog/tags/insurance-36c": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-page-27-cf-43f"
+        "content": "7cf6b45a"
       }
     ],
-    "tag": "tag---blog-tags-insurance-5-b-0-acd",
-    "listMetadata": "listMetadata---blog-tags-insurancef-30-b72"
+    "tag": "5b04adc5",
+    "listMetadata": "f30b30d6"
   },
   "/blog/tags/mab-b5b": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-32-a-860"
+        "content": "32abe96b"
       }
     ],
-    "tag": "tag---blog-tags-maba-01-427",
-    "listMetadata": "listMetadata---blog-tags-mab-64-e-361"
+    "tag": "a01aab0a",
+    "listMetadata": "64e7b08d"
   },
   "/blog/tags/ner-5ba": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-page-2-baf-36f"
+        "content": "bafaae06"
       }
     ],
-    "tag": "tag---blog-tags-nerd-03-3a6",
-    "listMetadata": "listMetadata---blog-tags-ner-45-f-d5d"
+    "tag": "d03645fc",
+    "listMetadata": "45fa7acd"
   },
   "/blog/tags/nlp-706": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-0-e-3-056"
+        "content": "0e3c1a88"
       },
       {
-        "content": "content---blog-page-2-baf-36f"
+        "content": "bafaae06"
       },
       {
-        "content": "content---blog-page-3630-acd"
+        "content": "630af974"
       },
       {
-        "content": "content---blog-page-3-def-3bc"
+        "content": "defae8b4"
       },
       {
-        "content": "content---blog-page-39-ea-29d"
+        "content": "9ea30017"
       }
     ],
-    "tag": "tag---blog-tags-nlpfb-1-230",
-    "listMetadata": "listMetadata---blog-tags-nlp-59-f-5d5"
+    "tag": "fb1f3d53",
+    "listMetadata": "59fc48d3"
   },
   "/blog/tags/object-detection-b95": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-page-2-ac-9-aad"
+        "content": "ac98e55f"
       },
       {
-        "content": "content---blog-page-2-eda-37f"
+        "content": "edadaca9"
       }
     ],
-    "tag": "tag---blog-tags-object-detection-895-c76",
-    "listMetadata": "listMetadata---blog-tags-object-detectione-46-9f7"
+    "tag": "89594076",
+    "listMetadata": "e4602884"
   },
   "/blog/tags/ocr-e9a": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-page-20-bc-18a"
+        "content": "0bcd0601"
       }
     ],
-    "tag": "tag---blog-tags-ocrc-5-c-5c2",
-    "listMetadata": "listMetadata---blog-tags-ocr-822-90d"
+    "tag": "c5c6dc34",
+    "listMetadata": "822a1fbe"
   },
   "/blog/tags/opencv-2d3": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-page-2-eda-37f"
+        "content": "edadaca9"
       }
     ],
-    "tag": "tag---blog-tags-opencv-279-82b",
-    "listMetadata": "listMetadata---blog-tags-opencv-42-b-530"
+    "tag": "2796da64",
+    "listMetadata": "42bbdbe1"
   },
   "/blog/tags/packtpublishing-571": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-0-b-3-ff2"
+        "content": "0b3203ef"
       }
     ],
-    "tag": "tag---blog-tags-packtpublishing-3-b-1-437",
-    "listMetadata": "listMetadata---blog-tags-packtpublishinga-75-88a"
+    "tag": "3b139e03",
+    "listMetadata": "a7555732"
   },
   "/blog/tags/personalization-5de": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-page-27-cf-43f"
+        "content": "7cf6b45a"
       },
       {
-        "content": "content---blog-page-20-c-6-35c"
+        "content": "0c655d87"
       },
       {
-        "content": "content---blog-page-28-a-7-66f"
+        "content": "8a789c15"
       },
       {
-        "content": "content---blog-page-3-f-48-436"
+        "content": "f4866862"
       }
     ],
-    "tag": "tag---blog-tags-personalizationd-73-3d5",
-    "listMetadata": "listMetadata---blog-tags-personalization-591-d04"
+    "tag": "d73e75b6",
+    "listMetadata": "59151ec8"
   },
   "/blog/tags/python-913": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-0-b-3-ff2"
+        "content": "0b3203ef"
       }
     ],
-    "tag": "tag---blog-tags-python-232-db4",
-    "listMetadata": "listMetadata---blog-tags-pythonf-8-d-e7d"
+    "tag": "232c92ba",
+    "listMetadata": "f8de77c0"
   },
   "/blog/tags/realtime-6f4": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-page-28-a-7-66f"
+        "content": "8a789c15"
       }
     ],
-    "tag": "tag---blog-tags-realtimeb-14-345",
-    "listMetadata": "listMetadata---blog-tags-realtimeec-8-cda"
+    "tag": "b14e6d9a",
+    "listMetadata": "ec80144f"
   },
   "/blog/tags/recohut-0aa": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blogc-21-740"
+        "content": "c21c202a"
       }
     ],
-    "tag": "tag---blog-tags-recohute-72-272",
-    "listMetadata": "listMetadata---blog-tags-recohute-6-a-473"
+    "tag": "e7263638",
+    "listMetadata": "e6ad873a"
   },
   "/blog/tags/recsys-584": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blogefe-40e"
+        "content": "efed6fa0"
       },
       {
-        "content": "content---blog-page-3-e-4-e-fe0"
+        "content": "e4e8793a"
       },
       {
-        "content": "content---blog-page-37-bd-183"
+        "content": "7bd4c30f"
       }
     ],
-    "tag": "tag---blog-tags-recsysa-32-c6f",
-    "listMetadata": "listMetadata---blog-tags-recsys-325-2ec"
+    "tag": "a32b5cd8",
+    "listMetadata": "3258c15c"
   },
   "/blog/tags/regression-6ee": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-page-29-cd-b68"
+        "content": "9cd79544"
       }
     ],
-    "tag": "tag---blog-tags-regressiond-3-c-558",
-    "listMetadata": "listMetadata---blog-tags-regressiona-42-605"
+    "tag": "d3c8c60b",
+    "listMetadata": "a423a63e"
   },
   "/blog/tags/scraping-7f2": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-page-33-a-1-f6a"
+        "content": "3a1b8b71"
       },
       {
-        "content": "content---blog-page-3285-b7d"
+        "content": "28598ea0"
       }
     ],
-    "tag": "tag---blog-tags-scraping-57-e-f12",
-    "listMetadata": "listMetadata---blog-tags-scraping-048-7af"
+    "tag": "57e4dcf7",
+    "listMetadata": "0489aa3d"
   },
   "/blog/tags/similarity-b52": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-0-e-3-056"
+        "content": "0e3c1a88"
       },
       {
-        "content": "content---blogd-4-a-a2d"
+        "content": "d4ab1fbc"
       },
       {
-        "content": "content---blog-page-3630-acd"
+        "content": "630af974"
       },
       {
-        "content": "content---blog-page-3-def-3bc"
+        "content": "defae8b4"
       }
     ],
-    "tag": "tag---blog-tags-similarity-2-f-3-d1b",
-    "listMetadata": "listMetadata---blog-tags-similarity-3-ac-bf2"
+    "tag": "2f39caf0",
+    "listMetadata": "3ac9248e"
   },
   "/blog/tags/snowflake-b07": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-476-0f8"
+        "content": "4765de0c"
       }
     ],
-    "tag": "tag---blog-tags-snowflake-2-ee-829",
-    "listMetadata": "listMetadata---blog-tags-snowflakea-4-d-975"
+    "tag": "2eeb3ee9",
+    "listMetadata": "a4d9c209"
   },
   "/blog/tags/streamlit-867": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-page-2620-632"
+        "content": "6208a5b7"
       },
       {
-        "content": "content---blog-page-3-af-0-85d"
+        "content": "af0d3de2"
       },
       {
-        "content": "content---blog-page-4069-83d"
+        "content": "0690447f"
       }
     ],
-    "tag": "tag---blog-tags-streamlit-451-386",
-    "listMetadata": "listMetadata---blog-tags-streamlit-0-b-9-a2e"
+    "tag": "451a9aa3",
+    "listMetadata": "0b956dd5"
   },
   "/blog/tags/tool-6d9": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-744-7a9"
+        "content": "744cb713"
       },
       {
-        "content": "content---blog-page-37-bd-183"
+        "content": "7bd4c30f"
       }
     ],
-    "tag": "tag---blog-tags-toolc-17-cc4",
-    "listMetadata": "listMetadata---blog-tags-tooldde-4bd"
+    "tag": "c1721191",
+    "listMetadata": "ddec1041"
   },
   "/blog/tags/trend-c94": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-page-3-f-48-436"
+        "content": "f4866862"
       }
     ],
-    "tag": "tag---blog-tags-trend-553-c47",
-    "listMetadata": "listMetadata---blog-tags-trend-71-e-850"
+    "tag": "553a85c6",
+    "listMetadata": "71ebf51c"
   },
   "/blog/tags/vision-9e4": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-8-c-0-2d5"
+      "plugin": "8c043233"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-744-7a9"
+        "content": "744cb713"
       },
       {
-        "content": "content---blogd-4-a-a2d"
+        "content": "d4ab1fbc"
       },
       {
-        "content": "content---blog-page-2-ac-9-aad"
+        "content": "ac98e55f"
       },
       {
-        "content": "content---blog-page-2-eda-37f"
+        "content": "edadaca9"
       },
       {
-        "content": "content---blog-page-2620-632"
+        "content": "6208a5b7"
       },
       {
-        "content": "content---blog-page-20-bc-18a"
+        "content": "0bcd0601"
       },
       {
-        "content": "content---blog-page-3-def-3bc"
+        "content": "defae8b4"
       },
       {
-        "content": "content---blog-page-3-af-0-85d"
+        "content": "af0d3de2"
       },
       {
-        "content": "content---blog-page-4069-83d"
+        "content": "0690447f"
       }
     ],
-    "tag": "tag---blog-tags-vision-829-cb4",
-    "listMetadata": "listMetadata---blog-tags-visiona-03-866"
+    "tag": "829ddb37",
+    "listMetadata": "a03db28d"
   },
   "/docs/tags-349": {
-    "__comp": "__comp---theme-doc-tags-list-page-372-89e",
+    "__comp": "3720c009",
     "__context": {
-      "plugin": "plugin---docs-tagsa-71-345"
+      "plugin": "a7170206"
     },
-    "tags": "tags---docs-tags-559-5e5"
+    "tags": "55960ee5"
   },
   "/docs/tags/cassandra-77d": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__comp": "df203c0f",
     "__context": {
-      "plugin": "plugin---docs-tagsa-71-345"
+      "plugin": "a7170206"
     },
-    "tag": "tag---docs-tags-cassandra-01-a-6e7"
+    "tag": "01ac2b17"
   },
   "/docs/tags/cql-100": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__comp": "df203c0f",
     "__context": {
-      "plugin": "plugin---docs-tagsa-71-345"
+      "plugin": "a7170206"
     },
-    "tag": "tag---docs-tags-cql-56-e-2ae"
+    "tag": "56efc387"
   },
   "/docs/tags/keyspaces-6a5": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__comp": "df203c0f",
     "__context": {
-      "plugin": "plugin---docs-tagsa-71-345"
+      "plugin": "a7170206"
     },
-    "tag": "tag---docs-tags-keyspacesba-6-c1b"
+    "tag": "ba6c7bfb"
   },
   "/docs/tags/nlp-849": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__comp": "df203c0f",
     "__context": {
-      "plugin": "plugin---docs-tagsa-71-345"
+      "plugin": "a7170206"
     },
-    "tag": "tag---docs-tags-nlp-148-ba0"
+    "tag": "1483e95d"
   },
   "/markdown-page-4a3": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---markdown-page-71-c-0dd"
+      "plugin": "71cbbba0"
     },
-    "content": "content---markdown-page-393-028"
+    "content": "393be207"
   },
   "/search-5c9": {
-    "__comp": "__comp---theme-search-page-1-a-4-d6f",
+    "__comp": "1a4e3797",
     "__context": {
-      "plugin": "plugin---searchcbe-cf2"
+      "plugin": "cbe0042f"
     }
   },
-  "/docs-bd4": {
-    "__comp": "__comp---theme-doc-page-1-be-9be",
+  "/docs-980": {
+    "__comp": "1be78505",
     "__context": {
-      "plugin": "plugin---docs-tagsa-71-345"
+      "plugin": "a7170206"
     },
-    "versionMetadata": "versionMetadata---docs-935-398"
+    "versionMetadata": "935f2afb"
   },
   "/docs/a1-interviewprep-64f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-a-1-interviewprep-20-f-ad5"
+    "__comp": "17896441",
+    "content": "20f5ab6b"
   },
   "/docs/a1-interviewprep/algorithm-problems-d8f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-a-1-interviewprep-algorithm-problems-8-d-6-d0d"
+    "__comp": "17896441",
+    "content": "8d648d29"
   },
   "/docs/a1-interviewprep/azure-data-engineering-423": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-a-1-interviewprep-azure-data-engineering-39-c-502"
+    "__comp": "17896441",
+    "content": "39c3f5f1"
   },
   "/docs/a1-interviewprep/basic-technical-questions-5bd": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-a-1-interviewprep-basic-technical-questions-49-a-317"
+    "__comp": "17896441",
+    "content": "49a13170"
   },
   "/docs/a1-interviewprep/behavioral-interview-questions-636": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-a-1-interviewprep-behavioral-interview-questionsef-9-f70"
+    "__comp": "17896441",
+    "content": "ef9be3d5"
   },
   "/docs/a1-interviewprep/behavioral-questions-1da": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-a-1-interviewprep-behavioral-questionse-65-ced"
+    "__comp": "17896441",
+    "content": "e659f4b0"
   },
   "/docs/a1-interviewprep/resume-buildup-358": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-a-1-interviewprep-resume-buildup-221-fdf"
-  },
-  "/docs/assignments-7ca": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-assignments-6-c-4-8c2"
+    "__comp": "17896441",
+    "content": "221bbbdc"
   },
   "/docs/assignments/bellabeat-analysis-f12": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-assignments-bellabeat-analysisc-93-fb1"
+    "__comp": "17896441",
+    "content": "c9372d25"
   },
   "/docs/assignments/cyclistic-analysis-92b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-assignments-cyclistic-analysis-514-611"
+    "__comp": "17896441",
+    "content": "514f3222"
   },
   "/docs/assignments/florida-panthers-396": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-assignments-florida-panthers-241-08a"
+    "__comp": "17896441",
+    "content": "241c1092"
   },
   "/docs/assignments/healthverity-bcc": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-assignments-healthverityd-56-b59"
+    "__comp": "17896441",
+    "content": "d561ad19"
   },
   "/docs/assignments/klodars-datalake-design-f96": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-assignments-klodars-datalake-designf-46-56d"
+    "__comp": "17896441",
+    "content": "f46cc6b6"
   },
   "/docs/assignments/logsense-af8": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-assignments-logsense-6-c-1-262"
+    "__comp": "17896441",
+    "content": "6c1a7452"
   },
   "/docs/assignments/mistplay-takehome-a73": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-assignments-mistplay-takehomef-8-a-f3a"
+    "__comp": "17896441",
+    "content": "f8a17af8"
   },
   "/docs/assignments/mysql-s3-incremental-6d0": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-assignments-mysql-s-3-incremental-64-e-a59"
+    "__comp": "17896441",
+    "content": "64e05e4d"
   },
   "/docs/assignments/olx-python-ebc": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-assignments-olx-pythond-24-550"
+    "__comp": "17896441",
+    "content": "d24e9b2c"
   },
   "/docs/assignments/sakila-166": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-assignments-sakila-441-ef7"
+    "__comp": "17896441",
+    "content": "4411f922"
   },
   "/docs/assignments/spiff-takehome-47d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-assignments-spiff-takehome-0-b-2-f6f"
+    "__comp": "17896441",
+    "content": "0b2a0a31"
   },
   "/docs/assignments/spotify-extract-load-beb": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-assignments-spotify-extract-load-8-e-5-464"
+    "__comp": "17896441",
+    "content": "8e5cd2df"
   },
   "/docs/assignments/ternary-363": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-assignments-ternary-18-a-614"
+    "__comp": "17896441",
+    "content": "18ae6a94"
   },
   "/docs/assignments/twitter-s3-26f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-assignments-twitter-s-34-b-7-2de"
+    "__comp": "17896441",
+    "content": "4b7af9aa"
   },
   "/docs/b3-misc/explore-further-4eb": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-b-3-misc-explore-further-1-c-1-27d"
+    "__comp": "17896441",
+    "content": "1c1e0356"
   },
   "/docs/b3-misc/extras-6b3": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-b-3-misc-extras-7-e-1-ead"
+    "__comp": "17896441",
+    "content": "7e152c84"
   },
   "/docs/b3-misc/readme_archive-cd6": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-b-3-misc-readme-archive-863-14a"
+    "__comp": "17896441",
+    "content": "863db538"
   },
   "/docs/b3-misc/resources-93c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-b-3-misc-resources-931-ccc"
+    "__comp": "17896441",
+    "content": "931b9d67"
   },
   "/docs/capstones-82f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-4-bc-f0e"
+    "__comp": "17896441",
+    "content": "4bc7153b"
   },
   "/docs/capstones/acled-ad3": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-acled-139-254"
+    "__comp": "17896441",
+    "content": "139bab67"
   },
   "/docs/capstones/citibike-trip-histories-f1d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-citibike-trip-histories-6-aa-5d3"
+    "__comp": "17896441",
+    "content": "6aae5825"
   },
   "/docs/capstones/city-pollution-acc": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-city-pollutionb-6-f-f9b"
+    "__comp": "17896441",
+    "content": "b6f2480a"
   },
   "/docs/capstones/city-traffic-drone-6c6": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-city-traffic-dronede-3-3a4"
+    "__comp": "17896441",
+    "content": "de3c4b02"
   },
   "/docs/capstones/climate-f25": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-climate-19-e-6d4"
+    "__comp": "17896441",
+    "content": "19e1f866"
   },
   "/docs/capstones/cloudmaze-afb": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-cloudmazed-06-b1e"
+    "__comp": "17896441",
+    "content": "d06891f7"
   },
   "/docs/capstones/dbt-redshift-845": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-dbt-redshiftd-0-c-eea"
+    "__comp": "17896441",
+    "content": "d0c1137a"
   },
   "/docs/capstones/digitalskola-82d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-digitalskola-7-dd-c5e"
+    "__comp": "17896441",
+    "content": "7dd00039"
   },
   "/docs/capstones/disaster-response-5e9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-disaster-response-26-a-344"
+    "__comp": "17896441",
+    "content": "26acc124"
   },
   "/docs/capstones/funflix-fa5": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-funflix-975-54d"
+    "__comp": "17896441",
+    "content": "9752eb71"
   },
   "/docs/capstones/hmc-101": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-hmc-61-c-8c0"
+    "__comp": "17896441",
+    "content": "61c5224c"
   },
   "/docs/capstones/kinesis-flink-beam-404": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-kinesis-flink-beame-0-b-82b"
+    "__comp": "17896441",
+    "content": "e0b8cba0"
   },
   "/docs/capstones/kinesis-flink-etl-283": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-kinesis-flink-etl-031-dd0"
+    "__comp": "17896441",
+    "content": "03115399"
   },
   "/docs/capstones/kortex-55d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-kortexc-46-e50"
+    "__comp": "17896441",
+    "content": "c4669189"
   },
   "/docs/capstones/lufthansa-b01": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-lufthansa-572-853"
+    "__comp": "17896441",
+    "content": "57287fdd"
   },
   "/docs/capstones/movie-sentiment-54c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-movie-sentimentbd-5-a5b"
+    "__comp": "17896441",
+    "content": "bd551071"
   },
   "/docs/capstones/multi-touch-attribution-b84": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-multi-touch-attribution-1-cf-915"
+    "__comp": "17896441",
+    "content": "1cff5577"
   },
   "/docs/capstones/other/covid19-datalake-235": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-other-covid-19-datalake-7-bc-98f"
+    "__comp": "17896441",
+    "content": "7bc1d63b"
   },
   "/docs/capstones/other/data-ingestion-pulumi-lambda-snowflake-11b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-other-data-ingestion-pulumi-lambda-snowflakeb-72-6ff"
+    "__comp": "17896441",
+    "content": "b72b2974"
   },
   "/docs/capstones/other/equitize-4c6": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-other-equitizee-7-d-4fb"
+    "__comp": "17896441",
+    "content": "e7de719d"
   },
   "/docs/capstones/other/fireflow-23a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-other-fireflowfff-8dc"
+    "__comp": "17896441",
+    "content": "fffca7da"
   },
   "/docs/capstones/other/fireflow/airflow/notes-473": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-other-fireflow-airflow-notes-50-f-348"
+    "__comp": "17896441",
+    "content": "50fd3320"
   },
   "/docs/capstones/other/loop-analytics-85e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-other-loop-analyticsb-4-b-d1b"
+    "__comp": "17896441",
+    "content": "b4b55f08"
   },
   "/docs/capstones/other/patent-analytics-cf6": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-other-patent-analyticsd-67-c5f"
+    "__comp": "17896441",
+    "content": "d6728a4e"
   },
   "/docs/capstones/other/patent-analytics/REPORT-ace": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-other-patent-analytics-report-13-d-45a"
+    "__comp": "17896441",
+    "content": "13d2419b"
   },
   "/docs/capstones/other/patent-analytics/SETUP-dfc": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-other-patent-analytics-setup-216-61f"
+    "__comp": "17896441",
+    "content": "2169b28f"
   },
   "/docs/capstones/other/patent-analytics/spark-607": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-other-patent-analytics-spark-516-355"
+    "__comp": "17896441",
+    "content": "516a3e1a"
   },
   "/docs/capstones/other/reddit-kafka-sparkstream-bigquery-af8": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-other-reddit-kafka-sparkstream-bigqueryf-21-45a"
+    "__comp": "17896441",
+    "content": "f212fff9"
   },
   "/docs/capstones/other/resale-price-realtime-cd4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-other-resale-price-realtimed-3-f-50c"
+    "__comp": "17896441",
+    "content": "d3fa29aa"
   },
   "/docs/capstones/other/sqs-postgres-etl-c90": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-other-sqs-postgres-etldc-3-e69"
+    "__comp": "17896441",
+    "content": "dc3a3b86"
   },
   "/docs/capstones/other/star-jeans-etl-1ad": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-other-star-jeans-etlcb-2-64e"
+    "__comp": "17896441",
+    "content": "cb2571e9"
   },
   "/docs/capstones/other/taxi-fare-prediction-860": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-other-taxi-fare-prediction-8-ff-97d"
+    "__comp": "17896441",
+    "content": "8ff35bc6"
   },
   "/docs/capstones/other/text-speech-data-pipeline-fed": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-other-text-speech-data-pipeline-03-a-b52"
+    "__comp": "17896441",
+    "content": "03ae4dbf"
   },
   "/docs/capstones/other/topic-modeling-pipeline-2ec": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-other-topic-modeling-pipeline-51-d-a57"
+    "__comp": "17896441",
+    "content": "51da5b17"
   },
   "/docs/capstones/other/topic-modeling-pipeline/v2/scoping-e8e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-other-topic-modeling-pipeline-v-2-scopingc-28-775"
+    "__comp": "17896441",
+    "content": "c282487f"
   },
   "/docs/capstones/other/twitter-sentiment-realtime-68e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-other-twitter-sentiment-realtimeec-8-814"
+    "__comp": "17896441",
+    "content": "ec805712"
   },
   "/docs/capstones/other/twitter-snowpipe-244": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-other-twitter-snowpipe-146-ffd"
+    "__comp": "17896441",
+    "content": "146e4f39"
   },
   "/docs/capstones/other/us-job-vacancies-079": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-other-us-job-vacancies-38-e-02c"
+    "__comp": "17896441",
+    "content": "38e65d26"
   },
   "/docs/capstones/other/youtube-insights-d9b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-other-youtube-insights-4-c-6-fb1"
+    "__comp": "17896441",
+    "content": "4c6f855d"
   },
   "/docs/capstones/recofront-7d1": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-recofront-76-d-487"
+    "__comp": "17896441",
+    "content": "76d40d9d"
   },
   "/docs/capstones/reddit-c2a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-reddit-1-c-8-45b"
+    "__comp": "17896441",
+    "content": "1c86dd8c"
   },
   "/docs/capstones/redshield-6a6": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-redshield-0-ab-739"
+    "__comp": "17896441",
+    "content": "0ab340f5"
   },
   "/docs/capstones/robust-data-pipeline-d9b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-robust-data-pipeline-5-ef-d97"
+    "__comp": "17896441",
+    "content": "5eff4698"
   },
   "/docs/capstones/ServerlessStreamingApp-883": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-serverless-streaming-app-1-cc-b3d"
+    "__comp": "17896441",
+    "content": "1cc198d7"
   },
   "/docs/capstones/smartcity/analytics/flink-cdk-b5d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-smartcity-analytics-flink-cdkfca-7b7"
+    "__comp": "17896441",
+    "content": "fca74083"
   },
   "/docs/capstones/smartcity/analytics/producer-app-bc3": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-smartcity-analytics-producer-app-79-e-a80"
+    "__comp": "17896441",
+    "content": "79ec331c"
   },
   "/docs/capstones/smartcity/analytics/producer-cdk-f71": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-smartcity-analytics-producer-cdk-46-b-d7c"
+    "__comp": "17896441",
+    "content": "46b044bf"
   },
   "/docs/capstones/smartcity/dataStream-1f0": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-smartcity-data-stream-166-5b4"
+    "__comp": "17896441",
+    "content": "166b6c31"
   },
   "/docs/capstones/smartcity/firehose-dc3": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-smartcity-firehose-54-e-a99"
+    "__comp": "17896441",
+    "content": "54e6fbf3"
   },
   "/docs/capstones/sparkify-ea8": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-sparkifyf-6-e-d7d"
+    "__comp": "17896441",
+    "content": "f6e12fbc"
   },
   "/docs/capstones/spotify-afe": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-spotifye-0-e-112"
+    "__comp": "17896441",
+    "content": "e0e3a16f"
   },
   "/docs/capstones/twitter-sentiment-glue-18b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-twitter-sentiment-glued-79-b18"
+    "__comp": "17896441",
+    "content": "d7959d00"
   },
   "/docs/capstones/us-immigration-9d3": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstones-us-immigrationecf-6c2"
+    "__comp": "17896441",
+    "content": "ecf163e9"
   },
   "/docs/casestudies-adc": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-casestudiesc-41-42b"
+    "__comp": "17896441",
+    "content": "c41f9d7c"
   },
   "/docs/casestudies/99group-852": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-casestudies-99-group-4-ae-951"
+    "__comp": "17896441",
+    "content": "4ae979c4"
   },
   "/docs/casestudies/airbnb-1b9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-casestudies-airbnbef-4-c8a"
+    "__comp": "17896441",
+    "content": "ef4f26bb"
   },
   "/docs/casestudies/amazon-31d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-casestudies-amazon-7-d-9-6d1"
+    "__comp": "17896441",
+    "content": "7d9f6958"
   },
   "/docs/casestudies/bookingdotcom-5eb": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-casestudies-bookingdotcomc-6-e-fe8"
+    "__comp": "17896441",
+    "content": "c6e53260"
   },
   "/docs/casestudies/expedia-4ab": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-casestudies-expedia-327-862"
+    "__comp": "17896441",
+    "content": "327a035f"
   },
   "/docs/casestudies/fair-1b1": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-casestudies-faird-23-890"
+    "__comp": "17896441",
+    "content": "d232c0d8"
   },
   "/docs/casestudies/harmony-7e4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-casestudies-harmony-53-f-166"
+    "__comp": "17896441",
+    "content": "53f97536"
   },
   "/docs/casestudies/helpshift-ac5": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-casestudies-helpshiftec-5-c9c"
+    "__comp": "17896441",
+    "content": "ec5471b0"
   },
   "/docs/casestudies/hometogo-b43": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-casestudies-hometogo-430-ae0"
+    "__comp": "17896441",
+    "content": "4307c1d0"
   },
   "/docs/casestudies/intuit-493": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-casestudies-intuit-6-b-3-484"
+    "__comp": "17896441",
+    "content": "6b34a38b"
   },
   "/docs/casestudies/linkedin-8a4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-casestudies-linkedin-114-1d7"
+    "__comp": "17896441",
+    "content": "114f19f5"
   },
   "/docs/casestudies/myntra-75a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-casestudies-myntra-7-d-5-c26"
+    "__comp": "17896441",
+    "content": "7d5ba10d"
   },
   "/docs/casestudies/outfit7-ff3": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-casestudies-outfit-78-d-2-9e4"
+    "__comp": "17896441",
+    "content": "8d26a11a"
   },
   "/docs/casestudies/panoramic-841": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-casestudies-panoramic-997-aa6"
+    "__comp": "17896441",
+    "content": "997a598d"
   },
   "/docs/casestudies/plexure-d90": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-casestudies-plexure-950-15e"
+    "__comp": "17896441",
+    "content": "9500f1c1"
   },
   "/docs/casestudies/spotify-360": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-casestudies-spotify-576-1c9"
+    "__comp": "17896441",
+    "content": "57600057"
   },
   "/docs/casestudies/starbucks-fa2": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-casestudies-starbucks-70-f-997"
+    "__comp": "17896441",
+    "content": "70f0fa58"
   },
   "/docs/casestudies/trivago-d97": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-casestudies-trivago-926-16c"
+    "__comp": "17896441",
+    "content": "9269536b"
   },
   "/docs/casestudies/twilio-6fc": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-casestudies-twilio-866-9e0"
+    "__comp": "17896441",
+    "content": "866f1e74"
   },
   "/docs/casestudies/twitter-da5": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-casestudies-twitter-219-459"
+    "__comp": "17896441",
+    "content": "2199ff4d"
   },
   "/docs/casestudies/uber-5b9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-casestudies-uber-14-e-e6b"
+    "__comp": "17896441",
+    "content": "14e7b3d6"
   },
   "/docs/casestudies/video-stream-c9a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-casestudies-video-stream-20-e-e97"
+    "__comp": "17896441",
+    "content": "20e3d29d"
   },
   "/docs/casestudies/webshoes-cdd": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-casestudies-webshoesd-5-c-215"
+    "__comp": "17896441",
+    "content": "d5cf44d3"
   },
   "/docs/casestudies/woot-722": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-casestudies-woot-702-0df"
+    "__comp": "17896441",
+    "content": "702b2471"
   },
   "/docs/data-modeling/3nf-data-modeling-7ed": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-data-modeling-3-nf-data-modelingfb-1-391"
+    "__comp": "17896441",
+    "content": "fb141337"
   },
   "/docs/data-modeling/cap-theorem-67a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-data-modeling-cap-theorem-822-ea6"
+    "__comp": "17896441",
+    "content": "82277a68"
   },
   "/docs/data-modeling/data-modeling-stages-c5c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-data-modeling-data-modeling-stagesd-4-e-a81"
+    "__comp": "17896441",
+    "content": "d4e01d6f"
   },
   "/docs/data-modeling/data-modeling-steps-569": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-data-modeling-data-modeling-stepsd-7-d-80a"
+    "__comp": "17896441",
+    "content": "d7da0613"
   },
   "/docs/data-modeling/data-vault-modeling-e7a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-data-modeling-data-vault-modeling-891-563"
+    "__comp": "17896441",
+    "content": "8918e623"
   },
   "/docs/data-modeling/data-warehousing-ddd": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-data-modeling-data-warehousing-405-4be"
+    "__comp": "17896441",
+    "content": "4057b207"
   },
   "/docs/data-modeling/designing-incremental-loading-692": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-data-modeling-designing-incremental-loading-33-f-7b8"
+    "__comp": "17896441",
+    "content": "33fdb706"
   },
   "/docs/data-modeling/designing-scd-f61": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-data-modeling-designing-scd-634-e4b"
+    "__comp": "17896441",
+    "content": "634b0999"
   },
   "/docs/data-modeling/dimensional-modeling-b68": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-data-modeling-dimensional-modelinga-4-a-a94"
+    "__comp": "17896441",
+    "content": "a4af17f1"
   },
   "/docs/data-modeling/inmon-vs-kimball-f50": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-data-modeling-inmon-vs-kimballa-7-d-d38"
+    "__comp": "17896441",
+    "content": "a7dd0359"
   },
   "/docs/data-modeling/lab-airbnb-postgres-datamodel-ed2": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-data-modeling-lab-airbnb-postgres-datamodel-44-b-72d"
+    "__comp": "17896441",
+    "content": "44bc54f1"
   },
   "/docs/data-modeling/lab-cars-mysql-datamodel/datamodel-cars-ef4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-data-modeling-lab-cars-mysql-datamodel-datamodel-carse-64-ee4"
+    "__comp": "17896441",
+    "content": "e642bcb8"
   },
   "/docs/data-modeling/lab-cassandra-digital-music-library-cbb": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-data-modeling-lab-cassandra-digital-music-libraryc-30-917"
+    "__comp": "17896441",
+    "content": "c30789a9"
   },
   "/docs/data-modeling/lab-cassandra-email-data-model-9d8": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-data-modeling-lab-cassandra-email-data-modele-17-236"
+    "__comp": "17896441",
+    "content": "e17a8cb7"
   },
   "/docs/data-modeling/lab-cassandra-hotel-reservations-d8b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-data-modeling-lab-cassandra-hotel-reservations-1-de-082"
+    "__comp": "17896441",
+    "content": "1de3672f"
   },
   "/docs/data-modeling/lab-cassandra-investment-data-model-225": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-data-modeling-lab-cassandra-investment-data-modelb-61-137"
+    "__comp": "17896441",
+    "content": "b612904d"
   },
   "/docs/data-modeling/lab-cassandra-sensor-data-model-714": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-data-modeling-lab-cassandra-sensor-data-model-0-fd-7ad"
+    "__comp": "17896441",
+    "content": "0fd01c5c"
   },
   "/docs/data-modeling/lab-cassandra-shopping-cart-data-model-675": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-data-modeling-lab-cassandra-shopping-cart-data-model-9-b-4-9ff"
+    "__comp": "17896441",
+    "content": "9b4e06b8"
   },
   "/docs/data-modeling/lab-disease-diagnosis-8b3": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-data-modeling-lab-disease-diagnosis-1-fb-bf1"
+    "__comp": "17896441",
+    "content": "1fbc3120"
   },
   "/docs/data-modeling/lab-dvd-rental-datamodel-883": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-data-modeling-lab-dvd-rental-datamodel-415-b94"
+    "__comp": "17896441",
+    "content": "4150a1b6"
   },
   "/docs/data-modeling/lab-google-playstore-datamodel-854": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-data-modeling-lab-google-playstore-datamodel-4-bb-938"
+    "__comp": "17896441",
+    "content": "4bb1d081"
   },
   "/docs/data-modeling/lab-inegi-snowflake-datamodel-086": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-data-modeling-lab-inegi-snowflake-datamodel-722-760"
+    "__comp": "17896441",
+    "content": "722a0e7f"
   },
   "/docs/data-modeling/lab-mysql-northwind-datamodel-df8": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-data-modeling-lab-mysql-northwind-datamodel-4-d-4-b08"
+    "__comp": "17896441",
+    "content": "4d472540"
   },
   "/docs/data-modeling/lab-mysql-retail-store-datamodel-c1a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-data-modeling-lab-mysql-retail-store-datamodel-8-e-3-7b3"
+    "__comp": "17896441",
+    "content": "8e3a3dc1"
   },
   "/docs/data-modeling/lab-postgres-busrapid-transit-b1d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-data-modeling-lab-postgres-busrapid-transit-3-e-2-4d9"
+    "__comp": "17896441",
+    "content": "3e2d0dfc"
   },
   "/docs/data-modeling/lab-postgres-demographics-datamodel-85f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-data-modeling-lab-postgres-demographics-datamodele-77-9af"
+    "__comp": "17896441",
+    "content": "e77821ca"
   },
   "/docs/data-modeling/lab-postgres-elt-datamodel-a97": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-data-modeling-lab-postgres-elt-datamodelfde-c22"
+    "__comp": "17896441",
+    "content": "fde336e3"
   },
   "/docs/data-modeling/lab-postgres-ewallet-datamodel-49a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-data-modeling-lab-postgres-ewallet-datamodele-27-001"
+    "__comp": "17896441",
+    "content": "e275dbd6"
   },
   "/docs/data-modeling/lab-postgres-housing-cdc-scd-326": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-data-modeling-lab-postgres-housing-cdc-scdb-3-b-c6d"
+    "__comp": "17896441",
+    "content": "b3bb0cba"
   },
   "/docs/data-modeling/lab-sales-datamodel-ac2": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-data-modeling-lab-sales-datamodelbb-8-7be"
+    "__comp": "17896441",
+    "content": "bb8f4631"
   },
   "/docs/data-modeling/lab-sparkify-data-model-postgres-4db": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-data-modeling-lab-sparkify-data-model-postgresc-67-aa3"
+    "__comp": "17896441",
+    "content": "c671e9c2"
   },
   "/docs/data-modeling/normalization-vs-denormalization-7cf": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-data-modeling-normalization-vs-denormalizatione-7-c-261"
+    "__comp": "17896441",
+    "content": "e7c80b58"
   },
   "/docs/data-modeling/nosql-data-modeling-48c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-data-modeling-nosql-data-modeling-069-09e"
+    "__comp": "17896441",
+    "content": "06968644"
   },
   "/docs/data-modeling/quiz-e33": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-data-modeling-quiz-5-fe-9d3"
+    "__comp": "17896441",
+    "content": "5fe054d1"
   },
   "/docs/data-modeling/sql-data-modeling-127": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-data-modeling-sql-data-modeling-152-0e8"
+    "__comp": "17896441",
+    "content": "152bd288"
   },
   "/docs/datascience/algorithms/decision-trees-bb6": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-algorithms-decision-treesafa-173"
+    "__comp": "17896441",
+    "content": "afa84d66"
   },
   "/docs/datascience/algorithms/gradient-boosting-ac4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-algorithms-gradient-boosting-934-5ab"
+    "__comp": "17896441",
+    "content": "9347a0fd"
   },
   "/docs/datascience/algorithms/knn-3ee": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-algorithms-knn-2-ec-413"
+    "__comp": "17896441",
+    "content": "2ec8f8b4"
   },
   "/docs/datascience/algorithms/linear-regression-ea9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-algorithms-linear-regression-006-39e"
+    "__comp": "17896441",
+    "content": "006351df"
   },
   "/docs/datascience/algorithms/logistic-regression-4d6": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-algorithms-logistic-regression-508-164"
+    "__comp": "17896441",
+    "content": "5080fe44"
   },
   "/docs/datascience/algorithms/ml-eda-05d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-algorithms-ml-eda-1-ff-ac1"
+    "__comp": "17896441",
+    "content": "1fff69f1"
   },
   "/docs/datascience/algorithms/ml-eda/variable-distribution-analysis-5af": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-algorithms-ml-eda-variable-distribution-analysis-633-28d"
+    "__comp": "17896441",
+    "content": "633eb5ab"
   },
   "/docs/datascience/algorithms/random-forest-14d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-algorithms-random-foreste-2-c-107"
+    "__comp": "17896441",
+    "content": "e2cbec69"
   },
   "/docs/datascience/basics/cross-domain-876": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-basics-cross-domaind-77-582"
+    "__comp": "17896441",
+    "content": "d77ad69a"
   },
   "/docs/datascience/basics/graph-embeddings-247": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-basics-graph-embeddings-25-c-6d8"
+    "__comp": "17896441",
+    "content": "25cfa6fb"
   },
   "/docs/datascience/basics/graph-networks-ef0": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-basics-graph-networks-7-bd-a6e"
+    "__comp": "17896441",
+    "content": "7bdf0f18"
   },
   "/docs/datascience/basics/incremental-learning-ace": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-basics-incremental-learningb-7-c-d53"
+    "__comp": "17896441",
+    "content": "b7cb0dbc"
   },
   "/docs/datascience/basics/meta-learning-a6e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-basics-meta-learning-610-e6c"
+    "__comp": "17896441",
+    "content": "610564cc"
   },
   "/docs/datascience/basics/model-retraining-640": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-basics-model-retrainingf-7-b-ded"
+    "__comp": "17896441",
+    "content": "f7b61696"
   },
   "/docs/datascience/basics/multi-objective-optimization-449": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-basics-multi-objective-optimization-442-a91"
+    "__comp": "17896441",
+    "content": "442b3784"
   },
   "/docs/datascience/basics/multitask-learning-e45": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-basics-multitask-learningb-7-c-f0f"
+    "__comp": "17896441",
+    "content": "b7c03c39"
   },
   "/docs/datascience/basics/offline-learning-aad": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-basics-offline-learning-86-e-2d9"
+    "__comp": "17896441",
+    "content": "86e4a3e8"
   },
   "/docs/datascience/basics/river-fce": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-basics-river-698-ed0"
+    "__comp": "17896441",
+    "content": "698f48a8"
   },
   "/docs/datascience/basics/scalarization-bf4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-basics-scalarization-018-f48"
+    "__comp": "17896441",
+    "content": "018dca44"
   },
   "/docs/datascience/bayesian-optimization-269": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-bayesian-optimizationeb-9-445"
+    "__comp": "17896441",
+    "content": "eb96b7af"
   },
   "/docs/datascience/bias-variance-tradeoff-30d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-bias-variance-tradeoff-138-ad7"
+    "__comp": "17896441",
+    "content": "138960cf"
   },
   "/docs/datascience/challenges-7b2": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-challengesdb-0-03f"
+    "__comp": "17896441",
+    "content": "db033291"
   },
   "/docs/datascience/challenges/conversion-rate-1e5": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-challenges-conversion-rate-108-099"
+    "__comp": "17896441",
+    "content": "108b3c6a"
   },
   "/docs/datascience/challenges/creditcard-fraud-94f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-challenges-creditcard-fraud-10-f-08d"
+    "__comp": "17896441",
+    "content": "10f67b3b"
   },
   "/docs/datascience/challenges/employee-retention-03c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-challenges-employee-retention-53-e-685"
+    "__comp": "17896441",
+    "content": "53e906dd"
   },
   "/docs/datascience/challenges/employee-shuttle-stops-d49": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-challenges-employee-shuttle-stopse-3-a-8ba"
+    "__comp": "17896441",
+    "content": "e3a84d84"
   },
   "/docs/datascience/challenges/fraud-activity-e34": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-challenges-fraud-activity-00-a-2a8"
+    "__comp": "17896441",
+    "content": "00a7130a"
   },
   "/docs/datascience/challenges/funnel-analysis-646": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-challenges-funnel-analysis-23-b-aec"
+    "__comp": "17896441",
+    "content": "23bdf3d9"
   },
   "/docs/datascience/challenges/loan-grant-702": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-challenges-loan-grant-8-c-1-c40"
+    "__comp": "17896441",
+    "content": "8c18cb7a"
   },
   "/docs/datascience/challenges/marketing-email-campaign-c86": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-challenges-marketing-email-campaign-4-fa-37c"
+    "__comp": "17896441",
+    "content": "4fa78929"
   },
   "/docs/datascience/challenges/price-test-b46": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-challenges-price-test-370-310"
+    "__comp": "17896441",
+    "content": "37077d43"
   },
   "/docs/datascience/challenges/translate-ab-test-d2c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-challenges-translate-ab-testd-08-bba"
+    "__comp": "17896441",
+    "content": "d08693f4"
   },
   "/docs/datascience/challenges/Ultimate-data-science-take-home-challenge-sample-1eb": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-challenges-ultimate-data-science-take-home-challenge-sample-9-d-7-384"
+    "__comp": "17896441",
+    "content": "9d7963ce"
   },
   "/docs/datascience/challenges/user-referral-program-902": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-challenges-user-referral-program-925-024"
+    "__comp": "17896441",
+    "content": "9255d819"
   },
   "/docs/datascience/challenges/video-sharing-analysis-c0f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-challenges-video-sharing-analysis-959-0b9"
+    "__comp": "17896441",
+    "content": "959da938"
   },
   "/docs/datascience/computer-vision-a1e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-computer-vision-412-1d6"
+    "__comp": "17896441",
+    "content": "4122b556"
   },
   "/docs/datascience/computer-vision/lab-agri-setallite-image-segmentation-0ec": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-computer-vision-lab-agri-setallite-image-segmentation-70-f-0d2"
+    "__comp": "17896441",
+    "content": "70f7d594"
   },
   "/docs/datascience/computer-vision/lab-image-analytics-tensorflow-0da": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-computer-vision-lab-image-analytics-tensorflowd-81-bc0"
+    "__comp": "17896441",
+    "content": "d811b0fe"
   },
   "/docs/datascience/data-encoding-133": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-data-encoding-274-443"
+    "__comp": "17896441",
+    "content": "274c4a72"
   },
   "/docs/datascience/data-preparation-9b7": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-data-preparation-621-316"
+    "__comp": "17896441",
+    "content": "6212b814"
   },
   "/docs/datascience/data-splits-da0": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-data-splitsff-8-69c"
+    "__comp": "17896441",
+    "content": "ff870887"
   },
   "/docs/datascience/deep-learning/deep-learning-basics-6cc": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-deep-learning-deep-learning-basicsdb-7-01c"
+    "__comp": "17896441",
+    "content": "db7de638"
   },
   "/docs/datascience/deep-learning/perceptron-da9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-deep-learning-perceptron-549-5da"
+    "__comp": "17896441",
+    "content": "5498da72"
   },
   "/docs/datascience/feature-selection-0e1": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-feature-selection-436-b4f"
+    "__comp": "17896441",
+    "content": "436a5b38"
   },
   "/docs/datascience/metrics-and-evaluation-a2f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-metrics-and-evaluation-39-a-c2b"
+    "__comp": "17896441",
+    "content": "39a58c4d"
   },
   "/docs/datascience/nlp-5a2": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-nlp-819-922"
+    "__comp": "17896441",
+    "content": "8191ff64"
   },
   "/docs/datascience/nlp/lab-basic-text-handlng-python-2b3": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-nlp-lab-basic-text-handlng-pythonb-70-697"
+    "__comp": "17896441",
+    "content": "b70ae60d"
   },
   "/docs/datascience/nlp/lab-pdf-wordcloud-mail-8cb": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-nlp-lab-pdf-wordcloud-mail-980-c5d"
+    "__comp": "17896441",
+    "content": "9803142e"
   },
   "/docs/datascience/nlp/text-analysis-998": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-nlp-text-analysis-9-f-8-3c5"
+    "__comp": "17896441",
+    "content": "9f8fbc53"
   },
   "/docs/datascience/nlp/text-cleaning-0ee": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-nlp-text-cleaningf-7-b-df4"
+    "__comp": "17896441",
+    "content": "f7be7c5b"
   },
   "/docs/datascience/nlp/text-processing-d83": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-nlp-text-processinge-8-c-b8f"
+    "__comp": "17896441",
+    "content": "e8ca066c"
   },
   "/docs/datascience/nlp/text-style-transfer-a44": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-nlp-text-style-transfer-8-c-3-7dd"
+    "__comp": "17896441",
+    "content": "8c3d6b88"
   },
   "/docs/datascience/nlp/word2vec-9cf": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-nlp-word-2-vec-8-e-7-9b6"
+    "__comp": "17896441",
+    "content": "8e78104f"
   },
   "/docs/datascience/recsys-814": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-recsysab-2-480"
+    "__comp": "17896441",
+    "content": "ab2391ba"
   },
   "/docs/datascience/recsys/amazon-personalize-8ab": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-recsys-amazon-personalizef-77-1b0"
+    "__comp": "17896441",
+    "content": "f7717370"
   },
   "/docs/datascience/recsys/lab-graph-models-2d8": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-recsys-lab-graph-models-802-7a4"
+    "__comp": "17896441",
+    "content": "8025b3c0"
   },
   "/docs/datascience/recsys/lab-movielens-nmf-pytorch-308": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-recsys-lab-movielens-nmf-pytorch-605-a2b"
+    "__comp": "17896441",
+    "content": "6050a6c5"
   },
   "/docs/datascience/recsys/lab-recsys-amazon-personalize-a0a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-recsys-lab-recsys-amazon-personalize-909-719"
+    "__comp": "17896441",
+    "content": "909b0e8c"
   },
   "/docs/datascience/recsys/lab-recsys-evaluation-6d6": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-recsys-lab-recsys-evaluation-1-d-3-8d3"
+    "__comp": "17896441",
+    "content": "1d37effc"
   },
   "/docs/datascience/recsys/lab-recsys-matrix-factorizations-11d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-recsys-lab-recsys-matrix-factorizations-0-a-5-d5f"
+    "__comp": "17896441",
+    "content": "0a5ddc49"
   },
   "/docs/datascience/recsys/lab-recsys-tourism-82b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-recsys-lab-recsys-tourism-150-4f0"
+    "__comp": "17896441",
+    "content": "1505b14f"
   },
   "/docs/datascience/recsys/lab-retail-product-recommend-word2vec-f91": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-recsys-lab-retail-product-recommend-word-2-vec-43-d-5f6"
+    "__comp": "17896441",
+    "content": "43d8b204"
   },
   "/docs/datascience/recsys/lab-similar-shirt-image-recommender-17f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-recsys-lab-similar-shirt-image-recommenderf-51-036"
+    "__comp": "17896441",
+    "content": "f5111c2c"
   },
   "/docs/datascience/recsys/most-prominent-architectures-296": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-recsys-most-prominent-architectures-44-f-3af"
+    "__comp": "17896441",
+    "content": "44f0bd92"
   },
   "/docs/datascience/recsys/movielens-mf-node2vec-graph-embeddings-946": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-recsys-movielens-mf-node-2-vec-graph-embeddings-7-b-3-059"
+    "__comp": "17896441",
+    "content": "7b3f440b"
   },
   "/docs/datascience/regression-bb9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-regression-20-c-bf7"
+    "__comp": "17896441",
+    "content": "20cd92a9"
   },
   "/docs/datascience/reinforcement-learning-053": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-reinforcement-learning-845-e38"
+    "__comp": "17896441",
+    "content": "845308bf"
   },
   "/docs/datascience/reinforcement-learning/bias-&-fairness-98b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-reinforcement-learning-bias-fairness-7-e-6-1de"
+    "__comp": "17896441",
+    "content": "7e696c5f"
   },
   "/docs/datascience/reinforcement-learning/causal-inference-121": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-reinforcement-learning-causal-inference-69-f-c5c"
+    "__comp": "17896441",
+    "content": "69f05d01"
   },
   "/docs/datascience/sagemaker-cd1": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-sagemaker-9-f-9-136"
-  },
-  "/docs/datascience/timeseries-8dd": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-timeseries-821-6ff"
+    "__comp": "17896441",
+    "content": "9f9fa58d"
   },
   "/docs/datascience/timeseries/prophet-f7c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-datascience-timeseries-prophet-3-ef-c85"
+    "__comp": "17896441",
+    "content": "3ef6a778"
   },
   "/docs/devops-d94": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-devops-195-b2c"
+    "__comp": "17896441",
+    "content": "1954d70f"
   },
   "/docs/devops/containers-d2b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-devops-containersf-9-a-d5f"
+    "__comp": "17896441",
+    "content": "f9a9cdd7"
   },
   "/docs/devops/containers/lab-assignment-etl-docker-c5b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-devops-containers-lab-assignment-etl-dockerf-4-c-a6d"
+    "__comp": "17896441",
+    "content": "f4c42e04"
   },
   "/docs/devops/containers/lab-deploy-simple-docker-ecs-801": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-devops-containers-lab-deploy-simple-docker-ecsf-15-9f3"
+    "__comp": "17896441",
+    "content": "f15b82ec"
   },
   "/docs/devops/containers/lab-kubernetes-kubia-app-f14": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-devops-containers-lab-kubernetes-kubia-app-757-210"
+    "__comp": "17896441",
+    "content": "75766043"
   },
   "/docs/devops/fastapi-b6b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-devops-fastapicd-4-19f"
+    "__comp": "17896441",
+    "content": "cd4a0fc1"
   },
   "/docs/devops/fastapi/lab-fastapi-applications-b43": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-devops-fastapi-lab-fastapi-applications-2-ee-ac5"
+    "__comp": "17896441",
+    "content": "2eed96a5"
   },
   "/docs/devops/fastapi/project-railway-api-1d2": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-devops-fastapi-project-railway-api-4-b-3-3bb"
+    "__comp": "17896441",
+    "content": "4b36ea39"
   },
   "/docs/devops/iac-42f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-devops-iac-0-b-6-e54"
+    "__comp": "17896441",
+    "content": "0b690926"
   },
   "/docs/extraction-7da": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-extractionea-0-5c0"
+    "__comp": "17896441",
+    "content": "ea0a2811"
   },
   "/docs/extraction/api-b30": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-extraction-apiffd-d8d"
+    "__comp": "17896441",
+    "content": "ffdff76e"
   },
   "/docs/extraction/api/lab-hackernews-git-api-ff2": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-extraction-api-lab-hackernews-git-api-064-06d"
+    "__comp": "17896441",
+    "content": "064d2e7b"
   },
   "/docs/extraction/api/lab-scoota-f69": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-extraction-api-lab-scoota-1-a-7-b44"
+    "__comp": "17896441",
+    "content": "1a706c0a"
   },
   "/docs/extraction/faker/lab-generate-data-with-faker-5d4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-extraction-faker-lab-generate-data-with-faker-5-cd-6ea"
+    "__comp": "17896441",
+    "content": "5cd0a972"
   },
   "/docs/extraction/webscraping-cd1": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-extraction-webscraping-7-af-130"
+    "__comp": "17896441",
+    "content": "7af9acc0"
   },
   "/docs/extraction/webscraping/lab-finance-extract-load-be9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-extraction-webscraping-lab-finance-extract-load-3-ef-b19"
+    "__comp": "17896441",
+    "content": "3ef0ae0f"
   },
   "/docs/foundations/basics/25-most-common-interview-questions-c07": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-basics-25-most-common-interview-questions-830-d16"
+    "__comp": "17896441",
+    "content": "8302c667"
   },
   "/docs/foundations/basics/50-most-common-interview-questions-587": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-basics-50-most-common-interview-questionsb-4-f-d79"
+    "__comp": "17896441",
+    "content": "b4ff5728"
   },
   "/docs/foundations/basics/50-most-common-interview-questions-2023-f8f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-basics-50-most-common-interview-questions-202381-b-c97"
+    "__comp": "17896441",
+    "content": "81b83746"
   },
   "/docs/foundations/basics/batch-data-processing-aa7": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-basics-batch-data-processingac-4-3b0"
+    "__comp": "17896441",
+    "content": "ac45ab9c"
   },
   "/docs/foundations/basics/batch-vs-incremental-726": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-basics-batch-vs-incremental-44-b-99c"
+    "__comp": "17896441",
+    "content": "44b78f5e"
   },
   "/docs/foundations/basics/big-data-27f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-basics-big-dataeb-2-27f"
+    "__comp": "17896441",
+    "content": "eb20f5c3"
   },
   "/docs/foundations/basics/data-contract-56f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-basics-data-contractf-24-3f9"
+    "__comp": "17896441",
+    "content": "f24bc2cc"
   },
   "/docs/foundations/basics/data-governance-b37": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-basics-data-governance-6-ae-b1c"
+    "__comp": "17896441",
+    "content": "6ae7d1ea"
   },
   "/docs/foundations/basics/data-management-5ae": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-basics-data-management-600-7f7"
+    "__comp": "17896441",
+    "content": "6002e7d9"
   },
   "/docs/foundations/basics/data-pipelines-989": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-basics-data-pipelinescd-1-0d2"
+    "__comp": "17896441",
+    "content": "cd158403"
   },
   "/docs/foundations/basics/data-quality-e3b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-basics-data-qualityae-6-d3a"
+    "__comp": "17896441",
+    "content": "ae6187ff"
   },
   "/docs/foundations/basics/data-storages-a62": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-basics-data-storages-67-b-e9f"
+    "__comp": "17896441",
+    "content": "67b7c28b"
   },
   "/docs/foundations/basics/de-basics-638": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-basics-de-basics-148-719"
+    "__comp": "17896441",
+    "content": "148883b3"
   },
   "/docs/foundations/basics/deployment-0c5": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-basics-deployment-742-0cb"
+    "__comp": "17896441",
+    "content": "742b8b42"
   },
   "/docs/foundations/basics/extras-dd6": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-basics-extras-70-f-e65"
+    "__comp": "17896441",
+    "content": "70ffb4f0"
   },
   "/docs/foundations/basics/hadoop-basics-086": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-basics-hadoop-basics-07-c-b7e"
+    "__comp": "17896441",
+    "content": "07cb588c"
   },
   "/docs/foundations/basics/hadoop-vs-spark-7f6": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-basics-hadoop-vs-sparkfee-547"
+    "__comp": "17896441",
+    "content": "fee369cf"
   },
   "/docs/foundations/basics/map-reduce-c6d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-basics-map-reduce-1-cf-638"
+    "__comp": "17896441",
+    "content": "1cfaf615"
   },
   "/docs/foundations/basics/model-optimization-02a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-basics-model-optimization-033-675"
+    "__comp": "17896441",
+    "content": "033d3a76"
   },
   "/docs/foundations/basics/oltp-vs-olap-d1a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-basics-oltp-vs-olap-454-aa6"
+    "__comp": "17896441",
+    "content": "454525f7"
   },
   "/docs/foundations/basics/origin-4b1": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-basics-origin-0-e-1-896"
+    "__comp": "17896441",
+    "content": "0e1a684f"
   },
   "/docs/foundations/basics/outliers-handling-63f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-basics-outliers-handling-2-e-1-8b9"
+    "__comp": "17896441",
+    "content": "2e1dc835"
   },
   "/docs/foundations/basics/rdd-d75": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-basics-rdde-64-bcb"
+    "__comp": "17896441",
+    "content": "e64c394d"
   },
   "/docs/foundations/basics/spark-basics-525": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-basics-spark-basics-68-f-617"
+    "__comp": "17896441",
+    "content": "68f11956"
   },
   "/docs/foundations/basics/spark-dag-534": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-basics-spark-dag-553-fcd"
+    "__comp": "17896441",
+    "content": "5533452e"
   },
   "/docs/foundations/basics/spark-origin-5a4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-basics-spark-origin-6-cb-840"
+    "__comp": "17896441",
+    "content": "6cb253be"
   },
   "/docs/foundations/basics/spark-quiz-7c9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-basics-spark-quizf-04-d21"
+    "__comp": "17896441",
+    "content": "f047c799"
   },
   "/docs/foundations/basics/sql-vs-nosql-a65": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-basics-sql-vs-nosql-359-c40"
+    "__comp": "17896441",
+    "content": "35988332"
   },
   "/docs/foundations/basics/stream-data-processing-7ed": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-basics-stream-data-processing-68-a-7fd"
+    "__comp": "17896441",
+    "content": "68abcc07"
   },
   "/docs/foundations/basics/use-cases-b84": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-basics-use-cases-379-587"
+    "__comp": "17896441",
+    "content": "379d00e0"
   },
   "/docs/foundations/basics/vector-search-b49": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-basics-vector-searche-4-a-d62"
+    "__comp": "17896441",
+    "content": "e4ab93d1"
   },
   "/docs/foundations/cloud/aws-commands-6fe": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-cloud-aws-commands-56-a-39a"
+    "__comp": "17896441",
+    "content": "56ac393b"
   },
   "/docs/foundations/cloud/aws-containers-e8e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-cloud-aws-containers-813-3be"
+    "__comp": "17896441",
+    "content": "813ee315"
   },
   "/docs/foundations/cloud/azure-basics-cb8": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-cloud-azure-basics-61-a-7e0"
+    "__comp": "17896441",
+    "content": "61aa6627"
   },
   "/docs/foundations/cloud/azure-batch-processing-1cb": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-cloud-azure-batch-processingcb-7-bfa"
+    "__comp": "17896441",
+    "content": "cb753559"
   },
   "/docs/foundations/cloud/azure-data-ingestion-6de": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-cloud-azure-data-ingestionf-2-d-cfe"
+    "__comp": "17896441",
+    "content": "f2d14d79"
   },
   "/docs/foundations/cloud/azure-fullstack-solutions-ff9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-cloud-azure-fullstack-solutions-0-b-3-667"
+    "__comp": "17896441",
+    "content": "0b31ffdc"
   },
   "/docs/foundations/cloud/cloud-basics-8ca": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-cloud-cloud-basicse-25-a49"
+    "__comp": "17896441",
+    "content": "e256aee7"
   },
   "/docs/foundations/cloud/cloud-comparison-3a7": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-cloud-cloud-comparisonbda-43b"
+    "__comp": "17896441",
+    "content": "bda3e558"
   },
   "/docs/foundations/cloud/dms-247": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-cloud-dmsddf-7db"
+    "__comp": "17896441",
+    "content": "ddfd774d"
   },
   "/docs/foundations/cloud/ec2-f57": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-cloud-ec-280-b-216"
+    "__comp": "17896441",
+    "content": "80b63389"
   },
   "/docs/foundations/cloud/gcp-basics-fda": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-cloud-gcp-basics-7-cb-546"
+    "__comp": "17896441",
+    "content": "7cbbdde8"
   },
   "/docs/foundations/cloud/gcp-setup-ca5": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-cloud-gcp-setupf-66-e6f"
+    "__comp": "17896441",
+    "content": "f6693878"
   },
   "/docs/foundations/cloud/glue-071": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-cloud-glue-706-630"
+    "__comp": "17896441",
+    "content": "70699289"
   },
   "/docs/foundations/cloud/iam-b70": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-cloud-iama-2-e-1e5"
+    "__comp": "17896441",
+    "content": "a2efb4cc"
   },
   "/docs/foundations/cloud/lab-aws-secrets-manager-c2b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-cloud-lab-aws-secrets-managera-64-d25"
+    "__comp": "17896441",
+    "content": "a64f92ae"
   },
   "/docs/foundations/cloud/lab-aws-setup-2e5": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-cloud-lab-aws-setupb-4-c-60c"
+    "__comp": "17896441",
+    "content": "b4c25734"
   },
   "/docs/foundations/cloud/lab-create-iam-policy-role-7e2": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-cloud-lab-create-iam-policy-rolea-54-a26"
+    "__comp": "17896441",
+    "content": "a54cf58b"
   },
   "/docs/foundations/cloud/lab-create-your-first-ec2-instance-linux-ea8": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-cloud-lab-create-your-first-ec-2-instance-linux-02-b-930"
+    "__comp": "17896441",
+    "content": "02bf3485"
   },
   "/docs/foundations/cloud/lab-create-your-first-vpc-d87": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-cloud-lab-create-your-first-vpc-142-47d"
+    "__comp": "17896441",
+    "content": "142b341f"
   },
   "/docs/foundations/cloud/rds-89f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-cloud-rdsa-6-e-a82"
+    "__comp": "17896441",
+    "content": "a6e1fed2"
   },
   "/docs/foundations/cloud/s3-5c7": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-cloud-s-330-e-925"
+    "__comp": "17896441",
+    "content": "30e9d3a8"
   },
   "/docs/foundations/cloud/secrets-manager-b8a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-cloud-secrets-manager-56-c-fd7"
+    "__comp": "17896441",
+    "content": "56cc05cb"
   },
   "/docs/foundations/developer/install-anaconda-937": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-developer-install-anacondab-2-b-8c8"
+    "__comp": "17896441",
+    "content": "b2b1a098"
   },
   "/docs/foundations/developer/install-dbeaver-4df": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-developer-install-dbeavercb-0-e6d"
+    "__comp": "17896441",
+    "content": "cb0ed422"
   },
   "/docs/foundations/developer/install-jupyter-741": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-developer-install-jupyterfa-9-03e"
+    "__comp": "17896441",
+    "content": "fa980e7c"
   },
   "/docs/foundations/developer/install-vscode-dde": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-developer-install-vscode-3-f-4-21b"
+    "__comp": "17896441",
+    "content": "3f41634a"
   },
   "/docs/foundations/developer/lab-bash-commands-4c7": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-developer-lab-bash-commands-696-408"
+    "__comp": "17896441",
+    "content": "6969cbeb"
   },
   "/docs/foundations/developer/lab-explore-vscode-features-4c7": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-developer-lab-explore-vscode-features-981-839"
+    "__comp": "17896441",
+    "content": "98150a67"
   },
   "/docs/foundations/developer/lab-learn-git-commands-a5d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-developer-lab-learn-git-commandsa-0-f-3ef"
+    "__comp": "17896441",
+    "content": "a0f16e5c"
   },
   "/docs/foundations/developer/setup-git-550": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-developer-setup-gitd-9-a-12f"
+    "__comp": "17896441",
+    "content": "d9ad1367"
   },
   "/docs/foundations/language/pyspark/broadcasting-d0e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-pyspark-broadcasting-728-470"
+    "__comp": "17896441",
+    "content": "7280cb8d"
   },
   "/docs/foundations/language/pyspark/caching-7dd": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-pyspark-cachingc-45-29e"
+    "__comp": "17896441",
+    "content": "c451c76f"
   },
   "/docs/foundations/language/pyspark/cheat-sheet-776": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-pyspark-cheat-sheet-1-a-4-dc0"
+    "__comp": "17896441",
+    "content": "1a43849b"
   },
   "/docs/foundations/language/pyspark/dataframe-27c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-pyspark-dataframec-02-959"
+    "__comp": "17896441",
+    "content": "c0225fdc"
   },
   "/docs/foundations/language/pyspark/execution-plan-ef1": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-pyspark-execution-planac-3-cec"
+    "__comp": "17896441",
+    "content": "ac30c8a1"
   },
   "/docs/foundations/language/pyspark/install-cce": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-pyspark-installcef-b44"
+    "__comp": "17896441",
+    "content": "cefce568"
   },
   "/docs/foundations/language/pyspark/lab-bcg-340": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-pyspark-lab-bcg-999-27f"
+    "__comp": "17896441",
+    "content": "999fb0d4"
   },
   "/docs/foundations/language/pyspark/lab-calculating-partitions-5bd": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-pyspark-lab-calculating-partitions-41-b-7c0"
+    "__comp": "17896441",
+    "content": "41b626c8"
   },
   "/docs/foundations/language/pyspark/lab-pyspark-basics-ae2": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-pyspark-lab-pyspark-basicsa-80-1ae"
+    "__comp": "17896441",
+    "content": "a80330f9"
   },
   "/docs/foundations/language/pyspark/lab-pyspark-nyctaxi-078": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-pyspark-lab-pyspark-nyctaxi-724-937"
+    "__comp": "17896441",
+    "content": "724c9b6d"
   },
   "/docs/foundations/language/pyspark/lab-spark-optimizations-a10": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-pyspark-lab-spark-optimizationsd-94-5cb"
+    "__comp": "17896441",
+    "content": "d946a4d8"
   },
   "/docs/foundations/language/pyspark/lab-spark-optimizations-2-dca": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-pyspark-lab-spark-optimizations-2302-691"
+    "__comp": "17896441",
+    "content": "3025c656"
   },
   "/docs/foundations/language/pyspark/lab-sql-to-pyspark-e8b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-pyspark-lab-sql-to-pyspark-173-33f"
+    "__comp": "17896441",
+    "content": "1734ca6f"
   },
   "/docs/foundations/language/pyspark/lab-uber-analysis-155": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-pyspark-lab-uber-analysis-49-e-47c"
+    "__comp": "17896441",
+    "content": "49e718b4"
   },
   "/docs/foundations/language/pyspark/lab-understand-spark-query-execution-1d4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-pyspark-lab-understand-spark-query-executiond-18-1ae"
+    "__comp": "17896441",
+    "content": "d18a12d2"
   },
   "/docs/foundations/language/pyspark/lazy-processing-d68": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-pyspark-lazy-processinge-78-b5b"
+    "__comp": "17896441",
+    "content": "e781f628"
   },
   "/docs/foundations/language/pyspark/methods-operations-9dc": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-pyspark-methods-operations-2-c-4-456"
+    "__comp": "17896441",
+    "content": "2c433392"
   },
   "/docs/foundations/language/pyspark/partitioning-70a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-pyspark-partitioning-87-c-5f8"
+    "__comp": "17896441",
+    "content": "87ca9a27"
   },
   "/docs/foundations/language/pyspark/pyspark-vs-pandas-8f8": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-pyspark-pyspark-vs-pandas-3-a-7-c63"
+    "__comp": "17896441",
+    "content": "3a7a0f1e"
   },
   "/docs/foundations/language/pyspark/udf-652": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-pyspark-udf-7-e-8-81a"
+    "__comp": "17896441",
+    "content": "7e8a3331"
   },
   "/docs/foundations/language/pyspark/window-functions-dd3": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-pyspark-window-functions-908-762"
+    "__comp": "17896441",
+    "content": "9080bb4a"
   },
   "/docs/foundations/language/python-47b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-pythonc-4-f-4ac"
+    "__comp": "17896441",
+    "content": "c4fcb2af"
   },
   "/docs/foundations/language/python/introduction-to-python-af9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-python-introduction-to-python-68-d-982"
+    "__comp": "17896441",
+    "content": "68da6171"
   },
   "/docs/foundations/language/python/lab-etl-csv-json-xml-24f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-python-lab-etl-csv-json-xml-193-b2f"
+    "__comp": "17896441",
+    "content": "193c18a7"
   },
   "/docs/foundations/language/python/links-62d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-python-linksbd-1-3ea"
+    "__comp": "17896441",
+    "content": "bd16cb47"
   },
   "/docs/foundations/language/python/packaging/docs-dd4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-python-packaging-docs-800-991"
+    "__comp": "17896441",
+    "content": "80016b9b"
   },
   "/docs/foundations/language/python/python-snippets-c0d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-python-python-snippets-758-eac"
+    "__comp": "17896441",
+    "content": "7585d602"
   },
   "/docs/foundations/language/python/python-syntax-sugars-073": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-python-python-syntax-sugars-5-ef-ef1"
+    "__comp": "17896441",
+    "content": "5efd79d7"
   },
   "/docs/foundations/language/scala-73b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-scalafaa-5d1"
+    "__comp": "17896441",
+    "content": "faa14927"
   },
   "/docs/foundations/language/scala/lab-scala-getting-started-49c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-scala-lab-scala-getting-started-4-dc-a04"
+    "__comp": "17896441",
+    "content": "4dc205cd"
   },
   "/docs/foundations/language/sql/aggregate-functions-4d4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-aggregate-functionscc-8-5c5"
+    "__comp": "17896441",
+    "content": "cc8b72dd"
   },
   "/docs/foundations/language/sql/challenges/assignment1-ffa": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-challenges-assignment-195-c-27b"
+    "__comp": "17896441",
+    "content": "95caf686"
   },
   "/docs/foundations/language/sql/challenges/assignment1/solution-7b6": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-challenges-assignment-1-solution-0-ac-fde"
+    "__comp": "17896441",
+    "content": "0ac8a30e"
   },
   "/docs/foundations/language/sql/challenges/assignment2-213": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-challenges-assignment-2307-ad9"
+    "__comp": "17896441",
+    "content": "3077455c"
   },
   "/docs/foundations/language/sql/challenges/assignment3-f99": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-challenges-assignment-3511-f6a"
+    "__comp": "17896441",
+    "content": "511a846a"
   },
   "/docs/foundations/language/sql/challenges/assignment4-8e2": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-challenges-assignment-43-f-9-686"
+    "__comp": "17896441",
+    "content": "3f9aeaec"
   },
   "/docs/foundations/language/sql/challenges/assignment5-b76": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-challenges-assignment-562-c-910"
+    "__comp": "17896441",
+    "content": "62c7d300"
   },
   "/docs/foundations/language/sql/challenges/assignment6-0f9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-challenges-assignment-6-c-8-b-24d"
+    "__comp": "17896441",
+    "content": "c8bd7b07"
   },
   "/docs/foundations/language/sql/challenges/assignment7-5e4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-challenges-assignment-7-fdb-8fe"
+    "__comp": "17896441",
+    "content": "fdb9773a"
   },
   "/docs/foundations/language/sql/challenges/braintree-bd9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-challenges-braintree-579-e3b"
+    "__comp": "17896441",
+    "content": "57959751"
   },
   "/docs/foundations/language/sql/challenges/employee-b95": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-challenges-employeec-2-e-974"
+    "__comp": "17896441",
+    "content": "c2eed174"
   },
   "/docs/foundations/language/sql/challenges/yammer-5fd": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-challenges-yammer-3-dc-758"
+    "__comp": "17896441",
+    "content": "3dc7efec"
   },
   "/docs/foundations/language/sql/commands-a32": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-commandsd-2-e-31e"
+    "__comp": "17896441",
+    "content": "d2e50ff0"
   },
   "/docs/foundations/language/sql/commands/and-70d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-commands-and-4-fa-6a1"
+    "__comp": "17896441",
+    "content": "4faf045e"
   },
   "/docs/foundations/language/sql/commands/between-d9e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-commands-between-24-a-e66"
+    "__comp": "17896441",
+    "content": "24af9c91"
   },
   "/docs/foundations/language/sql/commands/case-389": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-commands-casef-57-34e"
+    "__comp": "17896441",
+    "content": "f57857c9"
   },
   "/docs/foundations/language/sql/commands/distinct-94d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-commands-distinctf-6-d-7bf"
+    "__comp": "17896441",
+    "content": "f6d4ba78"
   },
   "/docs/foundations/language/sql/commands/groupby-c47": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-commands-groupby-528-369"
+    "__comp": "17896441",
+    "content": "528ff30e"
   },
   "/docs/foundations/language/sql/commands/having-f9f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-commands-having-358-3a6"
+    "__comp": "17896441",
+    "content": "3585a1ce"
   },
   "/docs/foundations/language/sql/commands/in-780": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-commands-inf-43-753"
+    "__comp": "17896441",
+    "content": "f43731e0"
   },
   "/docs/foundations/language/sql/commands/isnull-ff3": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-commands-isnull-84-a-05a"
+    "__comp": "17896441",
+    "content": "84a4bcc5"
   },
   "/docs/foundations/language/sql/commands/like-635": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-commands-likefca-9dc"
+    "__comp": "17896441",
+    "content": "fca2b803"
   },
   "/docs/foundations/language/sql/commands/limit-59b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-commands-limit-7-bc-6c7"
+    "__comp": "17896441",
+    "content": "7bcc2f9b"
   },
   "/docs/foundations/language/sql/commands/not-787": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-commands-notb-32-555"
+    "__comp": "17896441",
+    "content": "b32c351d"
   },
   "/docs/foundations/language/sql/commands/or-0bd": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-commands-or-262-093"
+    "__comp": "17896441",
+    "content": "262f69ee"
   },
   "/docs/foundations/language/sql/commands/orderby-4c1": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-commands-orderbyd-87-2dd"
+    "__comp": "17896441",
+    "content": "d87a7537"
   },
   "/docs/foundations/language/sql/commands/select-934": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-commands-select-9-e-1-eb2"
+    "__comp": "17896441",
+    "content": "9e1eccf0"
   },
   "/docs/foundations/language/sql/commands/union-ecc": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-commands-unionc-3-d-ec6"
+    "__comp": "17896441",
+    "content": "c3de6234"
   },
   "/docs/foundations/language/sql/commands/where-890": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-commands-where-0-c-1-a81"
+    "__comp": "17896441",
+    "content": "0c1a2e30"
   },
   "/docs/foundations/language/sql/comments-48e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-comments-766-c1a"
+    "__comp": "17896441",
+    "content": "7665e2ae"
   },
   "/docs/foundations/language/sql/comparison-operators-56a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-comparison-operators-07-f-5cf"
+    "__comp": "17896441",
+    "content": "07f4f848"
   },
   "/docs/foundations/language/sql/cte-963": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-cte-204-19b"
+    "__comp": "17896441",
+    "content": "204605ad"
   },
   "/docs/foundations/language/sql/cursor-ca1": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-cursor-363-6b3"
+    "__comp": "17896441",
+    "content": "36317e06"
   },
   "/docs/foundations/language/sql/date-functions-331": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-date-functionsb-31-16a"
+    "__comp": "17896441",
+    "content": "b31d61ae"
   },
   "/docs/foundations/language/sql/indexes-ffd": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-indexes-1-d-5-2c6"
+    "__comp": "17896441",
+    "content": "1d57378f"
   },
   "/docs/foundations/language/sql/joins-150": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-joinsb-58-c42"
+    "__comp": "17896441",
+    "content": "b587d6f1"
   },
   "/docs/foundations/language/sql/lab-basic-to-advanced-07e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-lab-basic-to-advancedd-46-c82"
+    "__comp": "17896441",
+    "content": "d4682a54"
   },
   "/docs/foundations/language/sql/lab-mysql-data-ingestion-8f4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-lab-mysql-data-ingestion-9-c-1-4b3"
+    "__comp": "17896441",
+    "content": "9c1571a2"
   },
   "/docs/foundations/language/sql/lab-postgres-queries-999": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-lab-postgres-queriesef-5-f22"
+    "__comp": "17896441",
+    "content": "ef593228"
   },
   "/docs/foundations/language/sql/lab-postgres-sales-b4f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-lab-postgres-sales-092-d31"
+    "__comp": "17896441",
+    "content": "09295cb0"
   },
   "/docs/foundations/language/sql/lab-sqlite-basics-ff8": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-lab-sqlite-basicsbe-8-c7d"
+    "__comp": "17896441",
+    "content": "be811913"
   },
   "/docs/foundations/language/sql/links-b54": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-links-3-a-4-b35"
+    "__comp": "17896441",
+    "content": "3a4c9cca"
   },
   "/docs/foundations/language/sql/logical-operators-e66": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-logical-operators-829-6b7"
+    "__comp": "17896441",
+    "content": "8296f061"
   },
   "/docs/foundations/language/sql/performance-tuning-d1c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-performance-tuning-79-c-b05"
+    "__comp": "17896441",
+    "content": "79c09280"
   },
   "/docs/foundations/language/sql/sql-basics-7e5": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-sql-basics-6-a-0-980"
+    "__comp": "17896441",
+    "content": "6a0e5fec"
   },
   "/docs/foundations/language/sql/sql-interviews-questions-85a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-sql-interviews-questionse-68-14b"
+    "__comp": "17896441",
+    "content": "e68b94b4"
   },
   "/docs/foundations/language/sql/sql-query-2fa": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-sql-queryfb-6-85e"
+    "__comp": "17896441",
+    "content": "fb675cc6"
   },
   "/docs/foundations/language/sql/stored-procedures-a19": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-stored-proceduresf-48-d60"
+    "__comp": "17896441",
+    "content": "f489c64c"
   },
   "/docs/foundations/language/sql/string-functions-2be": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-string-functions-43-d-e28"
+    "__comp": "17896441",
+    "content": "43d4b672"
   },
   "/docs/foundations/language/sql/subquery-2f0": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-subquery-5-a-0-ed3"
+    "__comp": "17896441",
+    "content": "5a02d917"
   },
   "/docs/foundations/language/sql/triggers-c06": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-triggersb-72-0ff"
+    "__comp": "17896441",
+    "content": "b7211712"
   },
   "/docs/foundations/language/sql/views-126": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-views-19-d-c4f"
+    "__comp": "17896441",
+    "content": "19d514e0"
   },
   "/docs/foundations/language/sql/window-functions-552": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-foundations-language-sql-window-functions-9-a-9-2ab"
+    "__comp": "17896441",
+    "content": "9a942d0b"
   },
   "/docs/introduction-00f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-introductiona-09-6b4"
+    "__comp": "17896441",
+    "content": "a09c2993"
   },
   "/docs/mathematics-2bf": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-mathematics-9-ac-8b9"
+    "__comp": "17896441",
+    "content": "9ace52fd"
   },
   "/docs/mathematics/probability-132": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-mathematics-probabilityeb-3-fd9"
+    "__comp": "17896441",
+    "content": "eb3f8daf"
   },
   "/docs/mathematics/probability/probability-distributions-536": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-mathematics-probability-probability-distributionsb-56-d99"
+    "__comp": "17896441",
+    "content": "b5644ecc"
   },
   "/docs/mathematics/probability/rules-of-probability-49c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-mathematics-probability-rules-of-probabilityf-22-c57"
+    "__comp": "17896441",
+    "content": "f22f7184"
   },
   "/docs/mathematics/statistics-829": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-mathematics-statisticsc-6-c-8f3"
+    "__comp": "17896441",
+    "content": "c6cac405"
   },
   "/docs/mathematics/statistics/sampling-f9f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-mathematics-statistics-samplingadb-b2e"
+    "__comp": "17896441",
+    "content": "adb05602"
   },
   "/docs/mlops-4fd": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-mlopscd-8-4bf"
+    "__comp": "17896441",
+    "content": "cd8269ac"
   },
   "/docs/mlops/code-snippets-39b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-mlops-code-snippets-76-a-ed4"
+    "__comp": "17896441",
+    "content": "76abb326"
   },
   "/docs/mlops/ml-lab-tracking-324": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-mlops-ml-lab-tracking-7-fa-220"
+    "__comp": "17896441",
+    "content": "7fa116c4"
   },
   "/docs/mlops/mlflow-9f6": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-mlops-mlflow-70-d-7f1"
+    "__comp": "17896441",
+    "content": "70d0b06c"
   },
   "/docs/orchestration-c95": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-orchestrationda-8-e9b"
+    "__comp": "17896441",
+    "content": "da8ef6f9"
   },
   "/docs/orchestration/airflow-117": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-orchestration-airflow-19-a-c41"
+    "__comp": "17896441",
+    "content": "19afcf99"
   },
   "/docs/orchestration/airflow/github-nft-0a1": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-orchestration-airflow-github-nft-594-acb"
+    "__comp": "17896441",
+    "content": "59433616"
   },
   "/docs/orchestration/airflow/lab-airflow-conn-py-51e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-orchestration-airflow-lab-airflow-conn-pyf-78-ec5"
+    "__comp": "17896441",
+    "content": "f78ae42b"
   },
   "/docs/orchestration/airflow/lab-airflow-email-notifications-572": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-orchestration-airflow-lab-airflow-email-notifications-6-bb-364"
+    "__comp": "17896441",
+    "content": "6bb11a9e"
   },
   "/docs/orchestration/airflow/lab-airflow-getting-started-e3d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-orchestration-airflow-lab-airflow-getting-started-171-9a5"
+    "__comp": "17896441",
+    "content": "17118313"
   },
   "/docs/orchestration/airflow/lab-bike-sharing-service-pipeline-1f5": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-orchestration-airflow-lab-bike-sharing-service-pipeline-94-c-7a3"
+    "__comp": "17896441",
+    "content": "94c96652"
   },
   "/docs/orchestration/airflow/lab-forex-etl-5dd": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-orchestration-airflow-lab-forex-etl-525-a52"
+    "__comp": "17896441",
+    "content": "525f8f7a"
   },
   "/docs/orchestration/airflow/lab-imdb-spark-etl-48c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-orchestration-airflow-lab-imdb-spark-etldcf-70d"
+    "__comp": "17896441",
+    "content": "dcf61b72"
   },
   "/docs/orchestration/airflow/lab-tolldata-e04": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-orchestration-airflow-lab-tolldata-225-73c"
+    "__comp": "17896441",
+    "content": "22542ba8"
   },
   "/docs/orchestration/airflow/labdev-spotify-5ea": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-orchestration-airflow-labdev-spotifya-88-160"
+    "__comp": "17896441",
+    "content": "a88efe62"
   },
   "/docs/orchestration/azure-data-factory-439": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-orchestration-azure-data-factory-9-fc-d67"
+    "__comp": "17896441",
+    "content": "9fcec583"
   },
   "/docs/orchestration/azure-data-factory/lab-adf-incremental-loading-171": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-orchestration-azure-data-factory-lab-adf-incremental-loadingf-0-b-f70"
+    "__comp": "17896441",
+    "content": "f0b725d5"
   },
   "/docs/orchestration/azure-data-factory/lab-batch-processing-solution-5ca": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-orchestration-azure-data-factory-lab-batch-processing-solution-812-dfc"
+    "__comp": "17896441",
+    "content": "8123cf47"
   },
   "/docs/orchestration/azure-data-factory/lab-data-ingestion-pipeline-7d0": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-orchestration-azure-data-factory-lab-data-ingestion-pipeline-7-bb-f40"
+    "__comp": "17896441",
+    "content": "7bb20e2c"
   },
   "/docs/orchestration/datafusion-add": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-orchestration-datafusion-2-e-9-b58"
+    "__comp": "17896441",
+    "content": "2e9bd5f0"
   },
   "/docs/orchestration/datafusion/lab-datafusion-pipeline-d3a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-orchestration-datafusion-lab-datafusion-pipeline-702-561"
+    "__comp": "17896441",
+    "content": "702e73c3"
   },
   "/docs/orchestration/modern-data-stack-daf": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-orchestration-modern-data-stacke-8-d-47a"
+    "__comp": "17896441",
+    "content": "e8d89355"
   },
   "/docs/orchestration/modern-data-stack/lab-analyse-stacks-691": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-orchestration-modern-data-stack-lab-analyse-stacksac-2-f73"
+    "__comp": "17896441",
+    "content": "ac29af7f"
   },
   "/docs/orchestration/modern-data-stack/lab-metaflow-snowflake-6b6": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-orchestration-modern-data-stack-lab-metaflow-snowflake-051-28b"
+    "__comp": "17896441",
+    "content": "05133979"
   },
   "/docs/orchestration/modern-data-stack/lab-terraform-gcp-b6b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-orchestration-modern-data-stack-lab-terraform-gcpc-9-d-bff"
+    "__comp": "17896441",
+    "content": "c9dc3b6f"
   },
   "/docs/orchestration/nifi-fcf": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-orchestration-nifiad-9-5c1"
+    "__comp": "17896441",
+    "content": "ad9027d7"
   },
   "/docs/orchestration/prefect-1ca": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-orchestration-prefect-566-7b5"
+    "__comp": "17896441",
+    "content": "566f775c"
   },
   "/docs/orchestration/prefect/lab-prefect-streaming-30d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-orchestration-prefect-lab-prefect-streamingf-1-b-261"
+    "__comp": "17896441",
+    "content": "f1be5cd0"
   },
   "/docs/orchestration/stepfunctions-fcf": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-orchestration-stepfunctionsbc-9-24e"
+    "__comp": "17896441",
+    "content": "bc933a68"
   },
   "/docs/orchestration/stepfunctions/lab-stepfunction-athena-sns-39b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-orchestration-stepfunctions-lab-stepfunction-athena-sns-10-e-531"
+    "__comp": "17896441",
+    "content": "10e43503"
   },
   "/docs/orchestration/stepfunctions/lab-stepfunction-ecomm-sqs-d85": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-orchestration-stepfunctions-lab-stepfunction-ecomm-sqs-69-d-a7b"
+    "__comp": "17896441",
+    "content": "69d3c57a"
   },
   "/docs/processing/apache-beam-84a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-apache-beam-88-d-517"
+    "__comp": "17896441",
+    "content": "88d706e6"
   },
   "/docs/processing/apache-druid-352": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-apache-druid-6-ca-15e"
+    "__comp": "17896441",
+    "content": "6ca735c1"
   },
   "/docs/processing/apache-flink-678": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-apache-flink-8-a-1-a88"
+    "__comp": "17896441",
+    "content": "8a1b7c9d"
   },
   "/docs/processing/apache-kafka-3dd": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-apache-kafkaed-4-9a1"
+    "__comp": "17896441",
+    "content": "ed4124b8"
   },
   "/docs/processing/aws-emr-360": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-aws-emrda-3-67b"
+    "__comp": "17896441",
+    "content": "da3bba31"
   },
   "/docs/processing/aws-kinesis-17b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-aws-kinesis-7-f-7-87d"
+    "__comp": "17896441",
+    "content": "7f7b8d84"
   },
   "/docs/processing/aws-lambda-dad": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-aws-lambdaef-4-cf9"
+    "__comp": "17896441",
+    "content": "ef47a505"
   },
   "/docs/processing/aws-lambda-snippets-9d0": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-aws-lambda-snippets-008-11e"
+    "__comp": "17896441",
+    "content": "00853ddd"
   },
   "/docs/processing/azure-synapse-analytics-433": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-azure-synapse-analytics-127-728"
+    "__comp": "17896441",
+    "content": "12798d3c"
   },
   "/docs/processing/databricks-b22": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-databricks-2-a-0-3c9"
+    "__comp": "17896441",
+    "content": "2a018d7b"
   },
   "/docs/processing/databricks/boston-crime-analysis-906": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-databricks-boston-crime-analysisc-22-164"
+    "__comp": "17896441",
+    "content": "c220bb49"
   },
   "/docs/processing/databricks/lab-cybersecurity-databricks-aae": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-databricks-lab-cybersecurity-databricks-55-f-c4b"
+    "__comp": "17896441",
+    "content": "55ff177b"
   },
   "/docs/processing/databricks/lab-data-processing-azure-dbr-368": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-databricks-lab-data-processing-azure-dbr-65-e-49f"
+    "__comp": "17896441",
+    "content": "65eb15f3"
   },
   "/docs/processing/databricks/lab-databricks-clickstream-ff3": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-databricks-lab-databricks-clickstream-879-598"
+    "__comp": "17896441",
+    "content": "879b1a13"
   },
   "/docs/processing/databricks/lab-databricks-deltalake-3ba": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-databricks-lab-databricks-deltalakee-29-3d0"
+    "__comp": "17896441",
+    "content": "e294ad96"
   },
   "/docs/processing/databricks/lab-databricks-pyspark-s3-1ea": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-databricks-lab-databricks-pyspark-s-30-de-9d4"
+    "__comp": "17896441",
+    "content": "0de7ffb7"
   },
   "/docs/processing/databricks/lab-databricks-scala-postgres-s3-fa0": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-databricks-lab-databricks-scala-postgres-s-386-b-9a3"
+    "__comp": "17896441",
+    "content": "86b8a7fa"
   },
   "/docs/processing/databricks/lab-deltalake-optimizations-5df": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-databricks-lab-deltalake-optimizations-2-a-8-48b"
+    "__comp": "17896441",
+    "content": "2a8963b8"
   },
   "/docs/processing/databricks/lab-dlt-dbt-e6d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-databricks-lab-dlt-dbt-125-b19"
+    "__comp": "17896441",
+    "content": "1254f7cc"
   },
   "/docs/processing/databricks/lab-healthcare-databricks-8b1": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-databricks-lab-healthcare-databricks-3-c-3-732"
+    "__comp": "17896441",
+    "content": "3c3405d9"
   },
   "/docs/processing/databricks/lab-iot-health-tracker-57f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-databricks-lab-iot-health-tracker-08-d-883"
+    "__comp": "17896441",
+    "content": "08d81bc3"
   },
   "/docs/processing/databricks/lab-loan-application-686": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-databricks-lab-loan-applicationf-52-8d1"
+    "__comp": "17896441",
+    "content": "f5289bcd"
   },
   "/docs/processing/databricks/lab-pyspark-itversity-eb6": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-databricks-lab-pyspark-itversity-0-f-0-e8b"
+    "__comp": "17896441",
+    "content": "0f0903f4"
   },
   "/docs/processing/databricks/lab-retail-pos-databricks-fde": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-databricks-lab-retail-pos-databrickse-34-a74"
+    "__comp": "17896441",
+    "content": "e34ed16b"
   },
   "/docs/processing/databricks/project-advancedbricks-b4c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-databricks-project-advancedbricks-8-f-6-2cc"
+    "__comp": "17896441",
+    "content": "8f644503"
   },
   "/docs/processing/databricks/project-bedbricks-e25": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-databricks-project-bedbricksf-42-fe0"
+    "__comp": "17896441",
+    "content": "f42d1d23"
   },
   "/docs/processing/databricks/project-databricks-de-51e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-databricks-project-databricks-deec-5-94e"
+    "__comp": "17896441",
+    "content": "ec5f10a0"
   },
   "/docs/processing/databricks/project-databricks-superset-16a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-databricks-project-databricks-superset-6-ee-7b5"
+    "__comp": "17896441",
+    "content": "6eeecd06"
   },
   "/docs/processing/databricks/project-learnerbricks-510": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-databricks-project-learnerbricks-75-d-2a3"
+    "__comp": "17896441",
+    "content": "75d1ecf8"
   },
   "/docs/processing/databricks/setup-61b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-databricks-setup-911-4bf"
+    "__comp": "17896441",
+    "content": "91129090"
   },
   "/docs/processing/dbt-5e1": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-dbt-27-f-011"
+    "__comp": "17896441",
+    "content": "27f05d3e"
   },
   "/docs/processing/gcp-dataproc-a90": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-gcp-dataproca-4-a-d41"
+    "__comp": "17896441",
+    "content": "a4ade51d"
   },
   "/docs/processing/gcp-pubsub-76a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-gcp-pubsub-3-a-5-ac5"
+    "__comp": "17896441",
+    "content": "3a581819"
   },
   "/docs/processing/lab-azure-hdinsight-simple-data-processing-9d2": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-azure-hdinsight-simple-data-processing-8-e-8-8fe"
+    "__comp": "17896441",
+    "content": "8e867de6"
   },
   "/docs/processing/lab-azure-synapse-data-processing-277": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-azure-synapse-data-processingdfc-3a4"
+    "__comp": "17896441",
+    "content": "dfc726ff"
   },
   "/docs/processing/lab-azure-synapse-dataflows-ec0": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-azure-synapse-dataflows-9-b-1-560"
+    "__comp": "17896441",
+    "content": "9b10ad33"
   },
   "/docs/processing/lab-azure-synapse-implementing-star-schema-f95": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-azure-synapse-implementing-star-schemad-29-1e6"
+    "__comp": "17896441",
+    "content": "d292ea36"
   },
   "/docs/processing/lab-confluent-kafka-faker-bba": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-confluent-kafka-fakerb-47-85c"
+    "__comp": "17896441",
+    "content": "b47d3771"
   },
   "/docs/processing/lab-confluent-python-8dd": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-confluent-pythonfe-3-ba3"
+    "__comp": "17896441",
+    "content": "fe335655"
   },
   "/docs/processing/lab-csv-to-parquet-conversion-f6c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-csv-to-parquet-conversion-102-823"
+    "__comp": "17896441",
+    "content": "10258748"
   },
   "/docs/processing/lab-dataflow-bigquery-etl-680": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-dataflow-bigquery-etld-92-ec1"
+    "__comp": "17896441",
+    "content": "d9255796"
   },
   "/docs/processing/lab-dbt-jaffle-shop-cd4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-dbt-jaffle-shop-6-be-658"
+    "__comp": "17896441",
+    "content": "6bef20a8"
   },
   "/docs/processing/lab-dbt-jaffle-shop/models/docs-773": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-dbt-jaffle-shop-models-docs-83-c-bd2"
+    "__comp": "17896441",
+    "content": "83c148b5"
   },
   "/docs/processing/lab-dbt-jaffle-shop/models/overview-3c2": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-dbt-jaffle-shop-models-overviewf-91-4a3"
+    "__comp": "17896441",
+    "content": "f91f3a31"
   },
   "/docs/processing/lab-dbt-knoema-34b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-dbt-knoemadb-8-6f2"
+    "__comp": "17896441",
+    "content": "db8482a1"
   },
   "/docs/processing/lab-dbt-nyctaxi-756": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-dbt-nyctaxi-7-a-4-608"
+    "__comp": "17896441",
+    "content": "7a46c79c"
   },
   "/docs/processing/lab-dbt-nyctaxi-lookup-c52": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-dbt-nyctaxi-lookup-2-dc-4b0"
+    "__comp": "17896441",
+    "content": "2dc6977d"
   },
   "/docs/processing/lab-dbt-olist-a3a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-dbt-olist-0-b-5-8b4"
+    "__comp": "17896441",
+    "content": "0b526ef5"
   },
   "/docs/processing/lab-dbt-olist/models/staging/olist/stg_ecommerce-878": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-dbt-olist-models-staging-olist-stg-ecommercea-50-ab1"
+    "__comp": "17896441",
+    "content": "a5063f17"
   },
   "/docs/processing/lab-dbt-stackexchnge-3d9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-dbt-stackexchnge-77-f-505"
+    "__comp": "17896441",
+    "content": "77f9b4d9"
   },
   "/docs/processing/lab-dbt-tickit-49d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-dbt-tickit-4-a-2-796"
+    "__comp": "17896441",
+    "content": "4a2bc696"
   },
   "/docs/processing/lab-dbt-tpch-9ae": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-dbt-tpch-066-918"
+    "__comp": "17896441",
+    "content": "06650951"
   },
   "/docs/processing/lab-emr-serverless-858": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-emr-serverlesse-2-b-797"
+    "__comp": "17896441",
+    "content": "e2b2a7c2"
   },
   "/docs/processing/lab-gcp-beam-mapreduce-b71": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-gcp-beam-mapreducedcd-fc5"
+    "__comp": "17896441",
+    "content": "dcd1da67"
   },
   "/docs/processing/lab-gcp-dataflow-batch-pipeline-ef9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-gcp-dataflow-batch-pipelinef-3-b-837"
+    "__comp": "17896441",
+    "content": "f3b183fe"
   },
   "/docs/processing/lab-gcp-dataflow-pipeline-cb8": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-gcp-dataflow-pipelinef-62-973"
+    "__comp": "17896441",
+    "content": "f62b9f1e"
   },
   "/docs/processing/lab-gcp-dataflow-side-inputs-82d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-gcp-dataflow-side-inputs-78-a-2f1"
+    "__comp": "17896441",
+    "content": "78a3030f"
   },
   "/docs/processing/lab-gcp-dataflow-stream-pipeline-2f3": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-gcp-dataflow-stream-pipeline-86-e-fc0"
+    "__comp": "17896441",
+    "content": "86e7f63d"
   },
   "/docs/processing/lab-gcp-dataprep-897": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-gcp-dataprep-4-ab-a2a"
+    "__comp": "17896441",
+    "content": "4ab19cec"
   },
   "/docs/processing/lab-gcp-dataproc-a5a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-gcp-dataprocd-44-bee"
+    "__comp": "17896441",
+    "content": "d4458f18"
   },
   "/docs/processing/lab-gcp-pubsub-01f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-gcp-pubsubf-83-1c1"
+    "__comp": "17896441",
+    "content": "f83907b2"
   },
   "/docs/processing/lab-gcp-pubsub-processing-d2c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-gcp-pubsub-processing-040-703"
+    "__comp": "17896441",
+    "content": "040837c1"
   },
   "/docs/processing/lab-gcp-serverless-dataflow-9e1": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-gcp-serverless-dataflowdce-b52"
+    "__comp": "17896441",
+    "content": "dce04ccd"
   },
   "/docs/processing/lab-getting-started-with-beam-8e6": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-getting-started-with-beam-52-c-ef8"
+    "__comp": "17896441",
+    "content": "52c58b5f"
   },
   "/docs/processing/lab-glue-advanced-521": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-glue-advanced-3-c-0-17a"
+    "__comp": "17896441",
+    "content": "3c017ec1"
   },
   "/docs/processing/lab-glue-deltalake-cdc-upsert-e7b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-glue-deltalake-cdc-upsert-995-f24"
+    "__comp": "17896441",
+    "content": "9952e106"
   },
   "/docs/processing/lab-glue-studio-custom-transforms-93c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-glue-studio-custom-transformsc-88-5c7"
+    "__comp": "17896441",
+    "content": "c88eec71"
   },
   "/docs/processing/lab-glue-studio-tickets-390": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-glue-studio-tickets-04-e-208"
+    "__comp": "17896441",
+    "content": "04e44c21"
   },
   "/docs/processing/lab-kafka-cli-1de": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-kafka-cli-48-a-8a6"
+    "__comp": "17896441",
+    "content": "48a2ca83"
   },
   "/docs/processing/lab-kafka-fraud-detection-017": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-kafka-fraud-detection-778-103"
+    "__comp": "17896441",
+    "content": "778d05f3"
   },
   "/docs/processing/lab-kafka-nyctaxi-de5": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-kafka-nyctaxi-7-af-bd9"
+    "__comp": "17896441",
+    "content": "7af4baa8"
   },
   "/docs/processing/lab-kafka-nyctaxi/assets-402": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-kafka-nyctaxi-assetscae-d8e"
+    "__comp": "17896441",
+    "content": "cae0e569"
   },
   "/docs/processing/lab-kafka-python-43f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-kafka-python-650-d8b"
+    "__comp": "17896441",
+    "content": "6500c616"
   },
   "/docs/processing/lab-kafka-spark-streaming-457": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-kafka-spark-streaming-504-be3"
+    "__comp": "17896441",
+    "content": "504a62d2"
   },
   "/docs/processing/lab-kafka-stock-market-b08": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-kafka-stock-market-47-c-858"
+    "__comp": "17896441",
+    "content": "47cbee57"
   },
   "/docs/processing/lab-kafka-toll-analysis-47a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-kafka-toll-analysis-70-e-435"
+    "__comp": "17896441",
+    "content": "70e4955e"
   },
   "/docs/processing/lab-kinesis-apache-logs-d7f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-kinesis-apache-logs-793-854"
+    "__comp": "17896441",
+    "content": "7930aabe"
   },
   "/docs/processing/lab-kinesis-clickstream-anomaly-053": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-kinesis-clickstream-anomalyb-94-174"
+    "__comp": "17896441",
+    "content": "b944869b"
   },
   "/docs/processing/lab-lambda-csv-parquet-c2e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-lambda-csv-parquet-64-e-129"
+    "__comp": "17896441",
+    "content": "64e6b3de"
   },
   "/docs/processing/lab-ray-air-basics-24d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-ray-air-basics-637-8f6"
+    "__comp": "17896441",
+    "content": "6378dad0"
   },
   "/docs/processing/lab-ray-core-basics-53d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-ray-core-basics-7-fd-0f4"
+    "__comp": "17896441",
+    "content": "7fda2228"
   },
   "/docs/processing/lab-snowpark-churnpark-a46": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-snowpark-churnpark-498-f22"
+    "__comp": "17896441",
+    "content": "498efc30"
   },
   "/docs/processing/lab-snowpark-dbtsnowpy-688": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-snowpark-dbtsnowpy-4-fb-6b6"
+    "__comp": "17896441",
+    "content": "4fb35f9d"
   },
   "/docs/processing/lab-snowpark-fifapark-5e6": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-snowpark-fifapark-3-d-9-825"
+    "__comp": "17896441",
+    "content": "3d9e97e6"
   },
   "/docs/processing/lab-snowpark-jafflepark-2a2": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-snowpark-jafflepark-1-a-8-e31"
+    "__comp": "17896441",
+    "content": "1a89c3f0"
   },
   "/docs/processing/lab-snowpark-jafflepark/models/docs-0d3": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-snowpark-jafflepark-models-docse-8-c-b52"
+    "__comp": "17896441",
+    "content": "e8c13c73"
   },
   "/docs/processing/lab-snowpark-knoema-regression-881": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-lab-snowpark-knoema-regression-9-c-2-cc7"
+    "__comp": "17896441",
+    "content": "9c259a9e"
   },
   "/docs/processing/project-kafka-ikea-a58": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-project-kafka-ikea-840-5eb"
+    "__comp": "17896441",
+    "content": "8404097c"
   },
   "/docs/processing/ray-5bd": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-ray-9-d-0-83b"
+    "__comp": "17896441",
+    "content": "9d0a397b"
   },
   "/docs/processing/snowpark-a92": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-processing-snowpark-53-e-ca2"
+    "__comp": "17896441",
+    "content": "53e9b015"
   },
   "/docs/storage/apache-couchdb-404": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-apache-couchdbf-8-e-671"
+    "__comp": "17896441",
+    "content": "f8e7c7c9"
   },
   "/docs/storage/apache-hudi-318": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-apache-hudibdc-7ee"
+    "__comp": "17896441",
+    "content": "bdc22b7d"
   },
   "/docs/storage/apache-iceberg-a38": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-apache-iceberg-353-5f7"
+    "__comp": "17896441",
+    "content": "353cc2ea"
   },
   "/docs/storage/arrow-0d2": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-arrowe-83-fb7"
+    "__comp": "17896441",
+    "content": "e83d4aa0"
   },
   "/docs/storage/athena-7d5": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-athenaa-13-474"
+    "__comp": "17896441",
+    "content": "a13662b1"
   },
   "/docs/storage/avro-07a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-avro-9-de-299"
+    "__comp": "17896441",
+    "content": "9decdfc0"
   },
   "/docs/storage/avro-vs-parquet-vs-orc-91c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-avro-vs-parquet-vs-orc-28-a-fad"
+    "__comp": "17896441",
+    "content": "28a1e194"
   },
   "/docs/storage/aws-dynamodb-b92": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-aws-dynamodb-87-c-bce"
+    "__comp": "17896441",
+    "content": "87c5486f"
   },
   "/docs/storage/azure-datalake-011": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-azure-datalake-501-f6d"
+    "__comp": "17896441",
+    "content": "5011dd2f"
   },
   "/docs/storage/azure-sql-606": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-azure-sqlc-48-eba"
+    "__comp": "17896441",
+    "content": "c480b753"
   },
   "/docs/storage/bigquery-f7c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-bigqueryeb-9-1b9"
+    "__comp": "17896441",
+    "content": "eb9d1523"
   },
   "/docs/storage/casestudy-messflix-hypothetical-e3a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-casestudy-messflix-hypothetical-3-cd-f68"
+    "__comp": "17896441",
+    "content": "3cd1009e"
   },
   "/docs/storage/cassandra-9cf": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-cassandraae-4-b45"
+    "__comp": "17896441",
+    "content": "ae46ed31"
   },
   "/docs/storage/code-snippets-9ba": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-code-snippetsc-6-d-0ec"
+    "__comp": "17896441",
+    "content": "c6d3a0ba"
   },
   "/docs/storage/compression-d10": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-compression-13-f-f18"
+    "__comp": "17896441",
+    "content": "13f415b3"
   },
   "/docs/storage/csv-fc9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-csv-6-ba-679"
+    "__comp": "17896441",
+    "content": "6ba2b434"
   },
   "/docs/storage/data-lakehouses-142": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-data-lakehousesb-30-f00"
+    "__comp": "17896441",
+    "content": "b307769a"
   },
   "/docs/storage/data-mesh-basics-12a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-data-mesh-basics-51-c-b45"
+    "__comp": "17896441",
+    "content": "51c1f34e"
   },
   "/docs/storage/data-warehouses-16b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-data-warehouses-8-ce-1c1"
+    "__comp": "17896441",
+    "content": "8ceeb397"
   },
   "/docs/storage/database-links-c3e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-database-links-8-ff-66b"
+    "__comp": "17896441",
+    "content": "8fffae02"
   },
   "/docs/storage/database-storage-engines-578": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-database-storage-engines-9-ef-4a5"
+    "__comp": "17896441",
+    "content": "9ef643c9"
   },
   "/docs/storage/datalakes-d9d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-datalakes-1-a-1-295"
+    "__comp": "17896441",
+    "content": "1a11545e"
   },
   "/docs/storage/deltalake-049": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-deltalake-42-f-5e1"
+    "__comp": "17896441",
+    "content": "42fe5fff"
   },
   "/docs/storage/duckdb-729": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-duckdb-246-51b"
+    "__comp": "17896441",
+    "content": "24616237"
   },
   "/docs/storage/gcp-bigtable-8df": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-gcp-bigtable-07-c-54c"
+    "__comp": "17896441",
+    "content": "07caa7e4"
   },
   "/docs/storage/gcp-cloudsql-1b0": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-gcp-cloudsql-12-f-4b9"
+    "__comp": "17896441",
+    "content": "12f70d2a"
   },
   "/docs/storage/gcs-1a9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-gcs-3-d-7-d81"
+    "__comp": "17896441",
+    "content": "3d7a217c"
   },
   "/docs/storage/hudi-855": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-hudifbc-c59"
+    "__comp": "17896441",
+    "content": "fbc0f64c"
   },
   "/docs/storage/iceberg-c3e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-iceberg-137-023"
+    "__comp": "17896441",
+    "content": "137a23bf"
   },
   "/docs/storage/interview-questions-b8d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-interview-questions-703-a5f"
+    "__comp": "17896441",
+    "content": "7032b98f"
   },
   "/docs/storage/json-f8f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-jsonaaa-09d"
+    "__comp": "17896441",
+    "content": "aaa14829"
   },
   "/docs/storage/lab-adl-create-manage-data-e17": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-adl-create-manage-datae-1-a-799"
+    "__comp": "17896441",
+    "content": "e1ab7f21"
   },
   "/docs/storage/lab-adl-securing-monitoring-lakes-19f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-adl-securing-monitoring-lakesc-5-e-41b"
+    "__comp": "17896441",
+    "content": "c5ec3889"
   },
   "/docs/storage/lab-amazon-keyspaces-3ff": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-amazon-keyspacesc-4-b-b1f"
+    "__comp": "17896441",
+    "content": "c4bac38c"
   },
   "/docs/storage/lab-aws-rds-service-fd0": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-aws-rds-service-4-b-8-eca"
+    "__comp": "17896441",
+    "content": "4b8ebfcb"
   },
   "/docs/storage/lab-azure-sql-securing-databases-14b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-azure-sql-securing-databases-7-ac-937"
+    "__comp": "17896441",
+    "content": "7ace658e"
   },
   "/docs/storage/lab-bigquery-analysis-674": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-bigquery-analysisa-0-f-03d"
+    "__comp": "17896441",
+    "content": "a0f32aca"
   },
   "/docs/storage/lab-bigquery-commandline-629": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-bigquery-commandlinebae-ab0"
+    "__comp": "17896441",
+    "content": "baec3faa"
   },
   "/docs/storage/lab-bigquery-composer-1c2": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-bigquery-composer-056-e8a"
+    "__comp": "17896441",
+    "content": "056604b7"
   },
   "/docs/storage/lab-bigquery-data-warehousing-8d7": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-bigquery-data-warehousing-09-e-f36"
+    "__comp": "17896441",
+    "content": "09e164d8"
   },
   "/docs/storage/lab-bigquery-ml-575": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-bigquery-ml-81-a-83c"
+    "__comp": "17896441",
+    "content": "81a35610"
   },
   "/docs/storage/lab-bigquery-nyctaxi-97d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-bigquery-nyctaxifea-fe4"
+    "__comp": "17896441",
+    "content": "fea33342"
   },
   "/docs/storage/lab-bigquery-optimization-188": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-bigquery-optimizationea-4-efc"
+    "__comp": "17896441",
+    "content": "ea477341"
   },
   "/docs/storage/lab-bigquery-query-optimization-d19": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-bigquery-query-optimizationfa-5-79c"
+    "__comp": "17896441",
+    "content": "fa57c9a1"
   },
   "/docs/storage/lab-biqeury-building-warehouse-49b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-biqeury-building-warehouse-260-c3f"
+    "__comp": "17896441",
+    "content": "260a1937"
   },
   "/docs/storage/lab-couchdb-movies-data-migration-f0c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-couchdb-movies-data-migration-992-580"
+    "__comp": "17896441",
+    "content": "992e049b"
   },
   "/docs/storage/lab-data-loading-python-c54": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-data-loading-python-7-d-4-a16"
+    "__comp": "17896441",
+    "content": "7d487281"
   },
   "/docs/storage/lab-datalake-healthcare-s3-glue-athena-127": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-datalake-healthcare-s-3-glue-athena-78-f-c67"
+    "__comp": "17896441",
+    "content": "78fa14cf"
   },
   "/docs/storage/lab-db2-bookshop-petsale-data-ingestion-378": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-db-2-bookshop-petsale-data-ingestion-927-f3b"
+    "__comp": "17896441",
+    "content": "927f271b"
   },
   "/docs/storage/lab-duckdb-analytics-bank-tpch-nyctaxi-236": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-duckdb-analytics-bank-tpch-nyctaxi-25-a-9ff"
+    "__comp": "17896441",
+    "content": "25ac4af4"
   },
   "/docs/storage/lab-gcp-cloudsql-nyctaxi-d25": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-gcp-cloudsql-nyctaxi-9-de-05c"
+    "__comp": "17896441",
+    "content": "9de7da10"
   },
   "/docs/storage/lab-gcp-streaming-bigtable-bde": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-gcp-streaming-bigtable-55-c-28f"
+    "__comp": "17896441",
+    "content": "55cfdd33"
   },
   "/docs/storage/lab-getting-started-with-cassandra-9ab": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-getting-started-with-cassandra-1-b-8-eb1"
+    "__comp": "17896441",
+    "content": "1b8af426"
   },
   "/docs/storage/lab-getting-started-with-cassandra/cassandra-cli-be7": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-getting-started-with-cassandra-cassandra-clie-3-a-2b3"
+    "__comp": "17896441",
+    "content": "e3ae4530"
   },
   "/docs/storage/lab-getting-started-with-cassandra/getting-started-409": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-getting-started-with-cassandra-getting-startede-99-226"
+    "__comp": "17896441",
+    "content": "e99947c1"
   },
   "/docs/storage/lab-glue-emr-iceberg-serverless-lakehouse-db2": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-glue-emr-iceberg-serverless-lakehouseebd-159"
+    "__comp": "17896441",
+    "content": "ebd6100f"
   },
   "/docs/storage/lab-intro-to-dynamodb-a1a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-intro-to-dynamodb-2-d-9-376"
+    "__comp": "17896441",
+    "content": "2d9dc795"
   },
   "/docs/storage/lab-mongodb-basics-f9c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-mongodb-basics-9-f-2-b5c"
+    "__comp": "17896441",
+    "content": "9f2c1d68"
   },
   "/docs/storage/lab-mongodb-pandas-a29": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-mongodb-pandas-36-d-b25"
+    "__comp": "17896441",
+    "content": "36d13c4e"
   },
   "/docs/storage/lab-mysql-data-ingestion-935": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-mysql-data-ingestion-209-e8d"
+    "__comp": "17896441",
+    "content": "20987543"
   },
   "/docs/storage/lab-mysql-police-api-etl-a98": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-mysql-police-api-etl-6-ba-e88"
+    "__comp": "17896441",
+    "content": "6baaa21e"
   },
   "/docs/storage/lab-postgres-bash-etl-44a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-postgres-bash-etldac-b1a"
+    "__comp": "17896441",
+    "content": "dac2901f"
   },
   "/docs/storage/lab-postgres-crime-reports-fd0": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-postgres-crime-reports-735-c98"
+    "__comp": "17896441",
+    "content": "73554a3e"
   },
   "/docs/storage/lab-postgres-getting-started-56b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-postgres-getting-started-57-b-8fc"
+    "__comp": "17896441",
+    "content": "57b70f1d"
   },
   "/docs/storage/lab-postgres-trips-stored-procedure-400": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-postgres-trips-stored-procedure-7-b-5-5e4"
+    "__comp": "17896441",
+    "content": "7b585626"
   },
   "/docs/storage/lab-processing-json-data-858": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-processing-json-data-29-d-1f0"
+    "__comp": "17896441",
+    "content": "29d0ea11"
   },
   "/docs/storage/lab-production-cleaning-deltalake-7ca": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-production-cleaning-deltalakebe-7-73e"
+    "__comp": "17896441",
+    "content": "be79e117"
   },
   "/docs/storage/lab-read-s3-delta-in-python-404": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-read-s-3-delta-in-pythonaf-6-09e"
+    "__comp": "17896441",
+    "content": "af6d8dcd"
   },
   "/docs/storage/lab-redshift-data-loading-53d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-redshift-data-loading-4-c-3-405"
+    "__comp": "17896441",
+    "content": "4c31b83c"
   },
   "/docs/storage/lab-redshift-data-loading-analysis-c5a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-redshift-data-loading-analysis-336-77f"
+    "__comp": "17896441",
+    "content": "3362e51d"
   },
   "/docs/storage/lab-redshift-immersion-9e5": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-redshift-immersion-65-e-45a"
+    "__comp": "17896441",
+    "content": "65e6613b"
   },
   "/docs/storage/lab-redshift-ml-6ef": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-redshift-ml-339-268"
+    "__comp": "17896441",
+    "content": "3393f606"
   },
   "/docs/storage/lab-redshift-ongoing-load-elt-506": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-redshift-ongoing-load-elt-179-f66"
+    "__comp": "17896441",
+    "content": "179c6e3c"
   },
   "/docs/storage/lab-redshift-scd-591": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-redshift-scd-5-fd-ffe"
+    "__comp": "17896441",
+    "content": "5fd6dfbb"
   },
   "/docs/storage/lab-redshift-scd-2-7c4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-redshift-scd-20-e-1-412"
+    "__comp": "17896441",
+    "content": "0e1c8ff9"
   },
   "/docs/storage/lab-redshift-spectrum-query-datalake-06e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-redshift-spectrum-query-datalakec-7-b-d78"
+    "__comp": "17896441",
+    "content": "c7b742e4"
   },
   "/docs/storage/lab-redshift-spectrum-query-tuning-8e7": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-redshift-spectrum-query-tuning-309-426"
+    "__comp": "17896441",
+    "content": "309fcb88"
   },
   "/docs/storage/lab-redshift-table-design-query-tuning-bbf": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-redshift-table-design-query-tuning-77-e-498"
+    "__comp": "17896441",
+    "content": "77ed0896"
   },
   "/docs/storage/lab-scd-glue-delta-738": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-scd-glue-delta-865-3f2"
+    "__comp": "17896441",
+    "content": "8655fa68"
   },
   "/docs/storage/lab-snowflake-getting-started-434": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-snowflake-getting-startedeb-0-73c"
+    "__comp": "17896441",
+    "content": "eb0c4736"
   },
   "/docs/storage/lab-snowflake-snowsql-c12": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-snowflake-snowsql-2-c-1-5b3"
+    "__comp": "17896441",
+    "content": "2c19f32b"
   },
   "/docs/storage/lab-snowpark-churn-7f6": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-snowpark-churnc-29-2a7"
+    "__comp": "17896441",
+    "content": "c29aa218"
   },
   "/docs/storage/lab-sqlite-basics-6ca": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-sqlite-basicsdb-0-9ac"
+    "__comp": "17896441",
+    "content": "db041721"
   },
   "/docs/storage/lab-sqlite-hipolabs-api-d62": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-sqlite-hipolabs-apide-0-0e8"
+    "__comp": "17896441",
+    "content": "de0a1df0"
   },
   "/docs/storage/lab-zero-to-snowflake-76a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-lab-zero-to-snowflake-291-405"
+    "__comp": "17896441",
+    "content": "291fd2d1"
   },
   "/docs/storage/mongodb-f06": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-mongodb-0-f-5-9e2"
+    "__comp": "17896441",
+    "content": "0f505423"
   },
   "/docs/storage/mysql-efc": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-mysqle-2-b-62e"
+    "__comp": "17896441",
+    "content": "e2b7ac87"
   },
   "/docs/storage/orc-405": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-orcded-9ff"
+    "__comp": "17896441",
+    "content": "dedb8db3"
   },
   "/docs/storage/parquet-f1b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-parquet-142-8b4"
+    "__comp": "17896441",
+    "content": "142e9c11"
   },
   "/docs/storage/parquet-vs-csv-088": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-parquet-vs-csv-7-a-4-1fe"
+    "__comp": "17896441",
+    "content": "7a423f63"
   },
   "/docs/storage/postgres-39b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-postgres-932-dc5"
+    "__comp": "17896441",
+    "content": "9327d0a6"
   },
   "/docs/storage/postgres-vs-mysql-8f6": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-postgres-vs-mysqlc-99-9d7"
+    "__comp": "17896441",
+    "content": "c9920e4c"
   },
   "/docs/storage/project-athena-federated-02a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-project-athena-federated-38-d-865"
+    "__comp": "17896441",
+    "content": "38d27c01"
   },
   "/docs/storage/redshift-b36": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-redshiftb-85-795"
+    "__comp": "17896441",
+    "content": "b851b497"
   },
   "/docs/storage/serialization-eb3": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-serializationbec-8ff"
+    "__comp": "17896441",
+    "content": "bec4aa4a"
   },
   "/docs/storage/snowflake-e43": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-snowflake-344-04e"
+    "__comp": "17896441",
+    "content": "3440a333"
   },
   "/docs/storage/sqlite-f4e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-sqlite-205-0e0"
+    "__comp": "17896441",
+    "content": "205c598a"
   },
   "/docs/storage/warehouse-links-c1c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-warehouse-links-9-e-6-764"
+    "__comp": "17896441",
+    "content": "9e6b20f2"
   },
   "/docs/storage/why-datalakes-d05": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-why-datalakes-474-327"
+    "__comp": "17896441",
+    "content": "474c0a88"
   },
   "/docs/storage/xml-169": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-storage-xmld-70-861"
+    "__comp": "17896441",
+    "content": "d70f9f64"
   },
   "/docs/system-design-bc3": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-system-designf-02-b23"
+    "__comp": "17896441",
+    "content": "f024b097"
   },
   "/docs/system-design/databricks-case-studies-9a9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-system-design-databricks-case-studieseb-3-220"
+    "__comp": "17896441",
+    "content": "eb397964"
   },
   "/docs/system-design/examples-52b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-system-design-examplesee-9-b6a"
+    "__comp": "17896441",
+    "content": "ee92650a"
   },
   "/docs/visualization-67b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-visualizationf-1-c-122"
+    "__comp": "17896441",
+    "content": "f1c80b91"
   },
   "/docs/visualization/flask-1de": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-visualization-flask-574-fab"
+    "__comp": "17896441",
+    "content": "5747a69a"
   },
   "/docs/visualization/looker-studio-ca9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-visualization-looker-studio-8-c-1-867"
+    "__comp": "17896441",
+    "content": "8c1cbe41"
   },
   "/docs/visualization/looker-studio/lab-gcp-streaming-analytics-40a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-visualization-looker-studio-lab-gcp-streaming-analyticsc-81-381"
+    "__comp": "17896441",
+    "content": "c816c7b2"
   },
   "/docs/visualization/preset-26f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-visualization-preset-036-17b"
+    "__comp": "17896441",
+    "content": "036aa75c"
   },
   "/docs/visualization/streamlit-f88": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-visualization-streamlit-293-0dc"
+    "__comp": "17896441",
+    "content": "293acdaa"
   },
   "/-1a8": {
-    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__comp": "c4f5d8e4",
     "__context": {
-      "plugin": "plugin---markdown-page-71-c-0dd"
+      "plugin": "71cbbba0"
     },
-    "config": "config---5-e-9-4f3"
+    "config": "5e9f5e1a"
   }
 }

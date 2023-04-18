@@ -1,4 +1,4 @@
-# Stock Market Kafka Real Time
+# Lab: Stock Market Kafka Real Time
 
 ## Problem Statement
 
@@ -21,3 +21,7 @@ Video Link - https://www.youtube.com/embed/KerNf0NANMo
 ## Dataset Used
 
 You can use any dataset, we are mainly interested in operation side of Data Engineering (building data pipeline)
+
+## Notebooks
+
+[![nbviewer](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/recohut/blob/main/docs/03-processing/lab-kafka-stock-market)

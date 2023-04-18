@@ -82,10 +82,6 @@
               "path": "/docs/assignments/olx-python/"
             },
             {
-              "id": "assignments/README",
-              "path": "/docs/assignments/"
-            },
-            {
               "id": "assignments/sakila/README",
               "path": "/docs/assignments/sakila/"
             },
@@ -915,10 +911,6 @@
               "id": "datascience/timeseries/prophet",
               "path": "/docs/datascience/timeseries/prophet",
               "sidebar": "docs"
-            },
-            {
-              "id": "datascience/timeseries/README",
-              "path": "/docs/datascience/timeseries/"
             },
             {
               "id": "devops/containers/lab-assignment-etl-docker/README",

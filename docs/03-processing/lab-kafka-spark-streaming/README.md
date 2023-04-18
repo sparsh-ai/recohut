@@ -1,4 +1,4 @@
-# Realtime Streaming analytics with Apache Kafka and Spark Streaming
+# Lab: Realtime Streaming analytics with Apache Kafka and Spark Streaming
 
 ## Activity 1
 
@@ -51,3 +51,25 @@ Perform the following tasks on the dataset provided using PySpark:
     - Only entries with the order status value of "PENDING" should be included in the result
     - Order date should be in the YYY-MM-DD format
     - Save the results in the result/scenario7/solution folder
+
+## Files
+
+[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sparsh-ai/recohut/tree/main/docs/03-processing/lab-kafka-spark-streaming)
+
+```
+├── [3.9K]  README.md
+├── [ 140]  data
+│   └── [  44]  download.sh
+├── [1.5M]  etc
+│   ├── [772K]  lab2-prompt.pdf
+│   └── [742K]  lab2-solution.pdf
+└── [267K]  nbs
+    ├── [235K]  01-sa-lab-1-solution.ipynb
+    └── [ 31K]  02-sa-lab-2-solution.ipynb
+
+ 1.7M used in 3 directories, 6 files
+```
+
+## Notebooks
+
+[![nbviewer](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/recohut/blob/main/docs/03-processing/lab-kafka-spark-streaming/nbs)

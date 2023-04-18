@@ -1,4 +1,4 @@
-# Data Engineering Basics
+# Basics
 
 ## What is Data Engineering?
 
