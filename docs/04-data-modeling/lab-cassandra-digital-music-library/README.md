@@ -1,4 +1,4 @@
-# Create a Data Model for a Digital Music Library
+# Lab: Create a Data Model for a Digital Music Library
 
 ## Conceptual Data Model
 
@@ -354,3 +354,7 @@ Find all tracks played by the user in September 2020; order by timestamp (desc):
     AND month = '2020-09-01';
 </details>
 <br/>
+
+## Files
+
+[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sparsh-ai/recohut/tree/main/docs/04-data-modeling/lab-cassandra-digital-music-library)

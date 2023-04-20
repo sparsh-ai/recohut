@@ -1,4 +1,4 @@
-# Housing Data Model with CDC and SCD Type 2
+# Lab: Housing Data Model with CDC and SCD Type 2
 
 A critical aspect of data engineering is dealing with data change from one date to the next. In this case, we want both the current and historical value. There are many techniques and patterns to create a historical-friendly model during the ingestion and modeling phases. In this lab, we will build a data model that uses Change Data Capture and Slowly Changing Dimension Type 2 modelization to track housing prices. The code is written in Python. `pandas` and `sqlalchemy` library is used to load data from CSV files and execute SQL queries against the data warehouse.
 
@@ -114,3 +114,23 @@ And that's it, you have the data ingestion and transformation necessary to analy
 ## Conclusion
 
 In this lab, we applied change data capture and slowly changing dimension type 2 modelization to build a model for housing price analysis.
+
+## Files
+
+[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sparsh-ai/recohut/tree/main/docs/04-data-modeling/lab-postgres-housing-cdc-scd)
+
+```
+├── [8.2K]  README.md
+├── [ 688]  data
+│   ├── [ 167]  01_01_2023.csv
+│   ├── [ 190]  02_01_2023.csv
+│   └── [ 171]  today.csv
+├── [ 28K]  main.ipynb
+└── [  56]  requirements.txt
+
+  38K used in 1 directory, 6 files
+```
+
+## Notebooks
+
+[![nbviewer](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/recohut/blob/main/docs/04-data-modeling/lab-postgres-housing-cdc-scd)

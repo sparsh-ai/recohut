@@ -328,8 +328,9 @@ const sidebars = {
         'processing/lab-gcp-pubsub',
         'processing/lab-gcp-pubsub-processing',
       ]},
-      {type: 'category', label: 'Apache Kafka', items: [
-        'processing/apache-kafka',
+      {type: 'category', label: 'Apache Kafka', link: {type: 'doc', id: 'processing/apache-kafka'}, items: [
+        'processing/lab-kafka-cli/README',
+        'processing/lab-kafka-python/README',
         'processing/lab-confluent-python/README',
         'processing/lab-confluent-kafka-faker/README',
         'processing/lab-kafka-fraud-detection/README',
@@ -338,11 +339,11 @@ const sidebars = {
         'processing/lab-kafka-spark-streaming/README',
         'processing/lab-kafka-stock-market/README',
         'processing/lab-kafka-toll-analysis/README',
+        'processing/project-kafka-ikea/README',
       ]},
     ]},
-    {type: 'category', label: 'Data Modeling', items: [
-      {type: 'category', label: 'SQL Data Modeling', items: [
-        'data-modeling/sql-data-modeling',
+    {type: 'category', label: 'Data Modeling', link: {type: 'generated-index'}, items: [
+      {type: 'category', label: 'SQL Data Modeling', link: {type: 'doc', id: 'data-modeling/sql-data-modeling'}, items: [
         'data-modeling/inmon-vs-kimball',
         'data-modeling/data-modeling-stages',
         'data-modeling/3nf-data-modeling',
@@ -356,9 +357,21 @@ const sidebars = {
         'data-modeling/cap-theorem',
         'data-modeling/quiz',
         'data-modeling/lab-airbnb-postgres-datamodel/README',
+        'data-modeling/lab-cars-mysql-datamodel/README',
+        'data-modeling/lab-dvd-rental-datamodel/README',
+        'data-modeling/lab-google-playstore-datamodel/README',
+        'data-modeling/lab-inegi-snowflake-datamodel/README',
+        'data-modeling/lab-mysql-northwind-datamodel/README',
+        'data-modeling/lab-mysql-retail-store-datamodel/README',
+        'data-modeling/lab-postgres-busrapid-transit/README',
+        'data-modeling/lab-postgres-elt-datamodel/README',
+        'data-modeling/lab-postgres-ewallet-datamodel/README',
+        'data-modeling/lab-postgres-housing-cdc-scd/README',
+        'data-modeling/lab-snowflake-creditdebit-datamodel/README',
+        'data-modeling/lab-sparkify-data-model-postgres/README',
       ]},
-      {type: 'category', label: 'NoSQL Data Modeling', items: [
-        'data-modeling/nosql-data-modeling',
+      {type: 'category', label: 'NoSQL Data Modeling', link: {type: 'doc', id: 'data-modeling/nosql-data-modeling'}, items: [
+        'data-modeling/lab-cassandra-digital-music-library/README',
       ]},
     ]},
     {type: 'category', label: 'Data Extraction', items: [

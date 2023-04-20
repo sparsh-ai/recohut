@@ -1,4 +1,4 @@
-# Sparkify Music Company Data Model in Postgres
+# Lab: Sparkify Music Company Data Model in Postgres
 
 In this, we will model the data with Postgres and build an ETL pipeline using Python. The fact and dimension tables for a star database schema for a particular analytic focus is defined, and an ETL pipeline that transfers data from files in two local directories into these tables in Postgres using Python and SQL was developed.
 
@@ -56,3 +56,22 @@ The Star Database Schema used for data modeling in this ETL pipeline. There is o
 ## Process Flow
 
 ![](./img/process-flow.drawio.svg)
+
+## Files
+
+[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sparsh-ai/recohut/tree/main/docs/04-data-modeling/lab-sparkify-data-model-postgres)
+
+```
+├── [4.5K]  README.md
+├── [ 70K]  img
+│   ├── [ 39K]  datamodel.drawio.svg
+│   └── [ 31K]  process-flow.drawio.svg
+├── [ 43K]  main.ipynb
+└── [  30]  requirements.txt
+
+ 118K used in 1 directory, 5 files
+```
+
+## Notebooks
+
+[![nbviewer](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/recohut/blob/main/docs/04-data-modeling/lab-sparkify-data-model-postgres)

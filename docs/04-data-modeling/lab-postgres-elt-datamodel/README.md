@@ -1,6 +1,4 @@
-# Postgres ELT Datamodel with PSQL
-
-> Create Fact and Dimension Tables from Denormalized Raw Data
+# Lab: Create Fact and Dimension Tables from Denormalized Raw Data
 
 In data warehousing world there are occasions where developers have to reverse engineer model from flat csv files. We will understand this with simple example.
 
@@ -159,3 +157,15 @@ select * from elt_dim.person where personid = 4;
 This is the basics, if needed the data can be normalized / modeled further.
 
 Example : asofdate is used as part of Fact, if needed date can be normalized into Year, Month, Day for Snowflake Schema.
+
+## Files
+
+[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sparsh-ai/recohut/tree/main/docs/04-data-modeling/lab-postgres-elt-datamodel)
+
+```
+├── [4.1K]  README.md
+└── [ 399]  data
+    └── [ 303]  data.csv
+
+ 4.6K used in 1 directory, 2 files
+```

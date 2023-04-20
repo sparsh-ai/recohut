@@ -1,4 +1,4 @@
-# Postgres ewallet Datamodel
+# Lab: Postgres e-Wallet Data Model
 
 In this lab, we will design a data model for an eWallet company.
 
@@ -108,3 +108,22 @@ Below is the logical diagram of the dimensional model for the eWallet service:
 1. Load the Tables into Database
 2. Create views to answer the 3 questions asked by the finance department team
 3. Create PR for your solution and add Instructor and a peer for review
+
+## Files
+
+[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sparsh-ai/recohut/tree/main/docs/04-data-modeling/lab-postgres-ewallet-datamodel)
+
+```
+├── [ 25K]  01-sa-generate-synthetic-data.ipynb
+├── [5.3K]  README.md
+└── [8.5K]  data
+    ├── [1.5K]  customer.csv
+    ├── [6.5K]  transactions.csv
+    └── [ 437]  wallet.csv
+
+  39K used in 1 directory, 5 files
+```
+
+## Notebooks
+
+[![nbviewer](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/recohut/blob/main/docs/04-data-modeling/lab-postgres-ewallet-datamodel)

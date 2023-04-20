@@ -1,4 +1,4 @@
-# Inegi Snowflake Datamodel
+# Lab: Inegi Snowflake Datamodel
 
 > National Institute of Statistics and Geography
 
@@ -13,10 +13,11 @@ In this workshop, we will:
 
 ![](https://user-images.githubusercontent.com/62965911/211294409-8070a0d0-21ba-4861-8ca2-4da4090b37a8.png)
 
-## Solution
+## Files
+
+[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sparsh-ai/recohut/tree/main/docs/04-data-modeling/lab-inegi-snowflake-datamodel)
 
 ```
-.
 ├── [ 27K]  01-sa-lab-1-inegi-snowpark.ipynb
 ├── [272M]  data
 │   └── [272M]  inegi
@@ -55,3 +56,7 @@ In this workshop, we will:
 
  272M used in 10 directories, 25 files
 ```
+
+## Notebooks
+
+[![nbviewer](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/recohut/blob/main/docs/04-data-modeling/lab-inegi-snowflake-datamodel)
