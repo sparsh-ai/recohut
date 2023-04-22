@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/lab-flink-kafka-source/README",
+  "id": "processing/lab-flink-kafka-source/README",
+  "title": "Lab: Flink Kafka Source",
+  "description": "Files",
+  "source": "@site/docs/03-processing/lab-flink-kafka-source/README.md",
+  "sourceDirName": "03-processing/lab-flink-kafka-source",
+  "slug": "/processing/lab-flink-kafka-source/",
+  "permalink": "/docs/processing/lab-flink-kafka-source/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Flink Kafka Sink",
+    "permalink": "/docs/processing/lab-flink-kafka-sink/"
+  },
+  "next": {
+    "title": "dbt",
+    "permalink": "/docs/processing/dbt"
+  }
+}

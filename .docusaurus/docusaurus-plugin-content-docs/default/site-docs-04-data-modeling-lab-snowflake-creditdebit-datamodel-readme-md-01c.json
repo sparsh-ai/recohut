@@ -1,0 +1,26 @@
+{
+  "unversionedId": "data-modeling/lab-snowflake-creditdebit-datamodel/README",
+  "id": "data-modeling/lab-snowflake-creditdebit-datamodel/README",
+  "title": "Lab: Credit Debit Finance Data Model in Snowflake",
+  "description": "Notebooks",
+  "source": "@site/docs/04-data-modeling/lab-snowflake-creditdebit-datamodel/README.md",
+  "sourceDirName": "04-data-modeling/lab-snowflake-creditdebit-datamodel",
+  "slug": "/data-modeling/lab-snowflake-creditdebit-datamodel/",
+  "permalink": "/docs/data-modeling/lab-snowflake-creditdebit-datamodel/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Housing Data Model with CDC and SCD Type 2",
+    "permalink": "/docs/data-modeling/lab-postgres-housing-cdc-scd/"
+  },
+  "next": {
+    "title": "Lab: Sparkify Music Company Data Model in Postgres",
+    "permalink": "/docs/data-modeling/lab-sparkify-data-model-postgres/"
+  }
+}

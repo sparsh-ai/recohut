@@ -18,34 +18,6 @@
           "mainDocId": "introduction",
           "docs": [
             {
-              "id": "a1-interviewprep/algorithm-problems",
-              "path": "/docs/a1-interviewprep/algorithm-problems"
-            },
-            {
-              "id": "a1-interviewprep/azure-data-engineering",
-              "path": "/docs/a1-interviewprep/azure-data-engineering"
-            },
-            {
-              "id": "a1-interviewprep/basic-technical-questions",
-              "path": "/docs/a1-interviewprep/basic-technical-questions"
-            },
-            {
-              "id": "a1-interviewprep/behavioral-interview-questions",
-              "path": "/docs/a1-interviewprep/behavioral-interview-questions"
-            },
-            {
-              "id": "a1-interviewprep/behavioral-questions",
-              "path": "/docs/a1-interviewprep/behavioral-questions"
-            },
-            {
-              "id": "a1-interviewprep/README",
-              "path": "/docs/a1-interviewprep/"
-            },
-            {
-              "id": "a1-interviewprep/resume-buildup",
-              "path": "/docs/a1-interviewprep/resume-buildup"
-            },
-            {
               "id": "assignments/bellabeat-analysis/README",
               "path": "/docs/assignments/bellabeat-analysis/"
             },
@@ -102,88 +74,89 @@
               "path": "/docs/assignments/twitter-s3/"
             },
             {
-              "id": "b3-misc/explore-further",
-              "path": "/docs/b3-misc/explore-further"
-            },
-            {
-              "id": "b3-misc/extras",
-              "path": "/docs/b3-misc/extras"
-            },
-            {
-              "id": "b3-misc/readme_archive",
-              "path": "/docs/b3-misc/readme_archive"
-            },
-            {
-              "id": "b3-misc/resources",
-              "path": "/docs/b3-misc/resources"
-            },
-            {
               "id": "capstones/acled/README",
-              "path": "/docs/capstones/acled/"
+              "path": "/docs/capstones/acled/",
+              "sidebar": "docs"
             },
             {
               "id": "capstones/citibike-trip-histories/README",
-              "path": "/docs/capstones/citibike-trip-histories/"
+              "path": "/docs/capstones/citibike-trip-histories/",
+              "sidebar": "docs"
             },
             {
               "id": "capstones/city-pollution/README",
-              "path": "/docs/capstones/city-pollution/"
+              "path": "/docs/capstones/city-pollution/",
+              "sidebar": "docs"
             },
             {
               "id": "capstones/city-traffic-drone/README",
-              "path": "/docs/capstones/city-traffic-drone/"
+              "path": "/docs/capstones/city-traffic-drone/",
+              "sidebar": "docs"
             },
             {
               "id": "capstones/climate/README",
-              "path": "/docs/capstones/climate/"
+              "path": "/docs/capstones/climate/",
+              "sidebar": "docs"
             },
             {
               "id": "capstones/cloudmaze/README",
-              "path": "/docs/capstones/cloudmaze/"
+              "path": "/docs/capstones/cloudmaze/",
+              "sidebar": "docs"
             },
             {
               "id": "capstones/dbt-redshift/README",
-              "path": "/docs/capstones/dbt-redshift/"
+              "path": "/docs/capstones/dbt-redshift/",
+              "sidebar": "docs"
             },
             {
               "id": "capstones/digitalskola/README",
-              "path": "/docs/capstones/digitalskola/"
+              "path": "/docs/capstones/digitalskola/",
+              "sidebar": "docs"
             },
             {
               "id": "capstones/disaster-response/README",
-              "path": "/docs/capstones/disaster-response/"
+              "path": "/docs/capstones/disaster-response/",
+              "sidebar": "docs"
             },
             {
               "id": "capstones/funflix/README",
-              "path": "/docs/capstones/funflix/"
+              "path": "/docs/capstones/funflix/",
+              "sidebar": "docs"
             },
             {
               "id": "capstones/hmc/README",
-              "path": "/docs/capstones/hmc/"
+              "path": "/docs/capstones/hmc/",
+              "sidebar": "docs"
             },
             {
               "id": "capstones/kinesis-flink-beam/README",
-              "path": "/docs/capstones/kinesis-flink-beam/"
+              "path": "/docs/capstones/kinesis-flink-beam/",
+              "sidebar": "docs"
             },
             {
               "id": "capstones/kinesis-flink-etl/README",
-              "path": "/docs/capstones/kinesis-flink-etl/"
+              "path": "/docs/capstones/kinesis-flink-etl/",
+              "sidebar": "docs"
             },
             {
               "id": "capstones/kortex/README",
-              "path": "/docs/capstones/kortex/"
+              "path": "/docs/capstones/kortex/",
+              "sidebar": "docs"
             },
             {
               "id": "capstones/lufthansa/README",
-              "path": "/docs/capstones/lufthansa/"
+              "path": "/docs/capstones/lufthansa/",
+              "sidebar": "docs"
             },
             {
               "id": "capstones/movie-sentiment/README",
-              "path": "/docs/capstones/movie-sentiment/"
+              "path": "/docs/capstones/movie-sentiment/",
+              "sidebar": "docs"
             },
             {
               "id": "capstones/multi-touch-attribution/README",
-              "path": "/docs/capstones/multi-touch-attribution/"
+              "path": "/docs/capstones/multi-touch-attribution/",
+              "sidebar": "docs"
             },
             {
               "id": "capstones/other/covid19-datalake/README",
@@ -279,23 +252,28 @@
             },
             {
               "id": "capstones/recofront/README",
-              "path": "/docs/capstones/recofront/"
+              "path": "/docs/capstones/recofront/",
+              "sidebar": "docs"
             },
             {
               "id": "capstones/reddit/README",
-              "path": "/docs/capstones/reddit/"
+              "path": "/docs/capstones/reddit/",
+              "sidebar": "docs"
             },
             {
               "id": "capstones/redshield/README",
-              "path": "/docs/capstones/redshield/"
+              "path": "/docs/capstones/redshield/",
+              "sidebar": "docs"
             },
             {
               "id": "capstones/robust-data-pipeline/README",
-              "path": "/docs/capstones/robust-data-pipeline/"
+              "path": "/docs/capstones/robust-data-pipeline/",
+              "sidebar": "docs"
             },
             {
               "id": "capstones/ServerlessStreamingApp/README",
-              "path": "/docs/capstones/ServerlessStreamingApp/"
+              "path": "/docs/capstones/ServerlessStreamingApp/",
+              "sidebar": "docs"
             },
             {
               "id": "capstones/smartcity/analytics/flink-cdk/README",
@@ -318,20 +296,29 @@
               "path": "/docs/capstones/smartcity/firehose/"
             },
             {
+              "id": "capstones/smartcity/README",
+              "path": "/docs/capstones/smartcity/",
+              "sidebar": "docs"
+            },
+            {
               "id": "capstones/sparkify/README",
-              "path": "/docs/capstones/sparkify/"
+              "path": "/docs/capstones/sparkify/",
+              "sidebar": "docs"
             },
             {
               "id": "capstones/spotify/README",
-              "path": "/docs/capstones/spotify/"
+              "path": "/docs/capstones/spotify/",
+              "sidebar": "docs"
             },
             {
               "id": "capstones/twitter-sentiment-glue/README",
-              "path": "/docs/capstones/twitter-sentiment-glue/"
+              "path": "/docs/capstones/twitter-sentiment-glue/",
+              "sidebar": "docs"
             },
             {
               "id": "capstones/us-immigration/README",
-              "path": "/docs/capstones/us-immigration/"
+              "path": "/docs/capstones/us-immigration/",
+              "sidebar": "docs"
             },
             {
               "id": "casestudies/99group",
@@ -517,28 +504,39 @@
               "path": "/docs/data-modeling/lab-cars-mysql-datamodel/datamodel-cars"
             },
             {
+              "id": "data-modeling/lab-cars-mysql-datamodel/README",
+              "path": "/docs/data-modeling/lab-cars-mysql-datamodel/",
+              "sidebar": "docs"
+            },
+            {
               "id": "data-modeling/lab-cassandra-digital-music-library/README",
-              "path": "/docs/data-modeling/lab-cassandra-digital-music-library/"
+              "path": "/docs/data-modeling/lab-cassandra-digital-music-library/",
+              "sidebar": "docs"
             },
             {
               "id": "data-modeling/lab-cassandra-email-data-model/README",
-              "path": "/docs/data-modeling/lab-cassandra-email-data-model/"
+              "path": "/docs/data-modeling/lab-cassandra-email-data-model/",
+              "sidebar": "docs"
             },
             {
               "id": "data-modeling/lab-cassandra-hotel-reservations/README",
-              "path": "/docs/data-modeling/lab-cassandra-hotel-reservations/"
+              "path": "/docs/data-modeling/lab-cassandra-hotel-reservations/",
+              "sidebar": "docs"
             },
             {
               "id": "data-modeling/lab-cassandra-investment-data-model/README",
-              "path": "/docs/data-modeling/lab-cassandra-investment-data-model/"
+              "path": "/docs/data-modeling/lab-cassandra-investment-data-model/",
+              "sidebar": "docs"
             },
             {
               "id": "data-modeling/lab-cassandra-sensor-data-model/README",
-              "path": "/docs/data-modeling/lab-cassandra-sensor-data-model/"
+              "path": "/docs/data-modeling/lab-cassandra-sensor-data-model/",
+              "sidebar": "docs"
             },
             {
               "id": "data-modeling/lab-cassandra-shopping-cart-data-model/README",
-              "path": "/docs/data-modeling/lab-cassandra-shopping-cart-data-model/"
+              "path": "/docs/data-modeling/lab-cassandra-shopping-cart-data-model/",
+              "sidebar": "docs"
             },
             {
               "id": "data-modeling/lab-disease-diagnosis/README",
@@ -546,27 +544,33 @@
             },
             {
               "id": "data-modeling/lab-dvd-rental-datamodel/README",
-              "path": "/docs/data-modeling/lab-dvd-rental-datamodel/"
+              "path": "/docs/data-modeling/lab-dvd-rental-datamodel/",
+              "sidebar": "docs"
             },
             {
               "id": "data-modeling/lab-google-playstore-datamodel/README",
-              "path": "/docs/data-modeling/lab-google-playstore-datamodel/"
+              "path": "/docs/data-modeling/lab-google-playstore-datamodel/",
+              "sidebar": "docs"
             },
             {
               "id": "data-modeling/lab-inegi-snowflake-datamodel/README",
-              "path": "/docs/data-modeling/lab-inegi-snowflake-datamodel/"
+              "path": "/docs/data-modeling/lab-inegi-snowflake-datamodel/",
+              "sidebar": "docs"
             },
             {
               "id": "data-modeling/lab-mysql-northwind-datamodel/README",
-              "path": "/docs/data-modeling/lab-mysql-northwind-datamodel/"
+              "path": "/docs/data-modeling/lab-mysql-northwind-datamodel/",
+              "sidebar": "docs"
             },
             {
               "id": "data-modeling/lab-mysql-retail-store-datamodel/README",
-              "path": "/docs/data-modeling/lab-mysql-retail-store-datamodel/"
+              "path": "/docs/data-modeling/lab-mysql-retail-store-datamodel/",
+              "sidebar": "docs"
             },
             {
               "id": "data-modeling/lab-postgres-busrapid-transit/README",
-              "path": "/docs/data-modeling/lab-postgres-busrapid-transit/"
+              "path": "/docs/data-modeling/lab-postgres-busrapid-transit/",
+              "sidebar": "docs"
             },
             {
               "id": "data-modeling/lab-postgres-demographics-datamodel",
@@ -574,23 +578,32 @@
             },
             {
               "id": "data-modeling/lab-postgres-elt-datamodel/README",
-              "path": "/docs/data-modeling/lab-postgres-elt-datamodel/"
+              "path": "/docs/data-modeling/lab-postgres-elt-datamodel/",
+              "sidebar": "docs"
             },
             {
               "id": "data-modeling/lab-postgres-ewallet-datamodel/README",
-              "path": "/docs/data-modeling/lab-postgres-ewallet-datamodel/"
+              "path": "/docs/data-modeling/lab-postgres-ewallet-datamodel/",
+              "sidebar": "docs"
             },
             {
               "id": "data-modeling/lab-postgres-housing-cdc-scd/README",
-              "path": "/docs/data-modeling/lab-postgres-housing-cdc-scd/"
+              "path": "/docs/data-modeling/lab-postgres-housing-cdc-scd/",
+              "sidebar": "docs"
             },
             {
               "id": "data-modeling/lab-sales-datamodel/README",
               "path": "/docs/data-modeling/lab-sales-datamodel/"
             },
             {
+              "id": "data-modeling/lab-snowflake-creditdebit-datamodel/README",
+              "path": "/docs/data-modeling/lab-snowflake-creditdebit-datamodel/",
+              "sidebar": "docs"
+            },
+            {
               "id": "data-modeling/lab-sparkify-data-model-postgres/README",
-              "path": "/docs/data-modeling/lab-sparkify-data-model-postgres/"
+              "path": "/docs/data-modeling/lab-sparkify-data-model-postgres/",
+              "sidebar": "docs"
             },
             {
               "id": "data-modeling/normalization-vs-denormalization",
@@ -1163,13 +1176,8 @@
               "sidebar": "docs"
             },
             {
-              "id": "foundations/cloud/cloud-basics",
-              "path": "/docs/foundations/cloud/cloud-basics",
-              "sidebar": "docs"
-            },
-            {
-              "id": "foundations/cloud/cloud-comparison",
-              "path": "/docs/foundations/cloud/cloud-comparison",
+              "id": "foundations/cloud/cloud-computing",
+              "path": "/docs/foundations/cloud/cloud-computing",
               "sidebar": "docs"
             },
             {
@@ -1667,6 +1675,36 @@
               "sidebar": "docs"
             },
             {
+              "id": "interviewprep/algorithm-problems",
+              "path": "/docs/interviewprep/algorithm-problems"
+            },
+            {
+              "id": "interviewprep/azure-data-engineering",
+              "path": "/docs/interviewprep/azure-data-engineering"
+            },
+            {
+              "id": "interviewprep/basic-technical-questions",
+              "path": "/docs/interviewprep/basic-technical-questions"
+            },
+            {
+              "id": "interviewprep/behavioral-interview-questions",
+              "path": "/docs/interviewprep/behavioral-interview-questions"
+            },
+            {
+              "id": "interviewprep/behavioral-questions",
+              "path": "/docs/interviewprep/behavioral-questions"
+            },
+            {
+              "id": "interviewprep/README",
+              "path": "/docs/interviewprep/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interviewprep/resume-buildup",
+              "path": "/docs/interviewprep/resume-buildup",
+              "sidebar": "docs"
+            },
+            {
               "id": "introduction",
               "path": "/docs/introduction",
               "sidebar": "docs"
@@ -1697,6 +1735,28 @@
             {
               "id": "mathematics/statistics/sampling",
               "path": "/docs/mathematics/statistics/sampling",
+              "sidebar": "docs"
+            },
+            {
+              "id": "misc/explore-further",
+              "path": "/docs/misc/explore-further"
+            },
+            {
+              "id": "misc/extras",
+              "path": "/docs/misc/extras",
+              "sidebar": "docs"
+            },
+            {
+              "id": "misc/pending-topics",
+              "path": "/docs/misc/pending-topics"
+            },
+            {
+              "id": "misc/readme_archive",
+              "path": "/docs/misc/readme_archive"
+            },
+            {
+              "id": "misc/resources",
+              "path": "/docs/misc/resources",
               "sidebar": "docs"
             },
             {
@@ -1847,7 +1907,8 @@
             },
             {
               "id": "processing/apache-flink",
-              "path": "/docs/processing/apache-flink"
+              "path": "/docs/processing/apache-flink",
+              "sidebar": "docs"
             },
             {
               "id": "processing/apache-kafka",
@@ -1983,7 +2044,8 @@
             },
             {
               "id": "processing/dbt",
-              "path": "/docs/processing/dbt"
+              "path": "/docs/processing/dbt",
+              "sidebar": "docs"
             },
             {
               "id": "processing/gcp-dataproc",
@@ -2045,11 +2107,13 @@
             },
             {
               "id": "processing/lab-dbt-jaffle-shop/README",
-              "path": "/docs/processing/lab-dbt-jaffle-shop/"
+              "path": "/docs/processing/lab-dbt-jaffle-shop/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/lab-dbt-knoema/README",
-              "path": "/docs/processing/lab-dbt-knoema/"
+              "path": "/docs/processing/lab-dbt-knoema/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/lab-dbt-nyctaxi-lookup/README",
@@ -2057,7 +2121,8 @@
             },
             {
               "id": "processing/lab-dbt-nyctaxi/README",
-              "path": "/docs/processing/lab-dbt-nyctaxi/"
+              "path": "/docs/processing/lab-dbt-nyctaxi/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/lab-dbt-olist/models/staging/olist/stg_ecommerce",
@@ -2065,23 +2130,47 @@
             },
             {
               "id": "processing/lab-dbt-olist/README",
-              "path": "/docs/processing/lab-dbt-olist/"
+              "path": "/docs/processing/lab-dbt-olist/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/lab-dbt-stackexchnge/README",
-              "path": "/docs/processing/lab-dbt-stackexchnge/"
+              "path": "/docs/processing/lab-dbt-stackexchnge/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/lab-dbt-tickit/README",
-              "path": "/docs/processing/lab-dbt-tickit/"
+              "path": "/docs/processing/lab-dbt-tickit/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/lab-dbt-tpch/README",
-              "path": "/docs/processing/lab-dbt-tpch/"
+              "path": "/docs/processing/lab-dbt-tpch/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/lab-emr-serverless/README",
               "path": "/docs/processing/lab-emr-serverless/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "processing/lab-flink-kafka-sink/README",
+              "path": "/docs/processing/lab-flink-kafka-sink/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "processing/lab-flink-kafka-source/README",
+              "path": "/docs/processing/lab-flink-kafka-source/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "processing/lab-flink-taxi-pricing/README",
+              "path": "/docs/processing/lab-flink-taxi-pricing/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "processing/lab-flink-twitter-stream-processing/README",
+              "path": "/docs/processing/lab-flink-twitter-stream-processing/",
               "sidebar": "docs"
             },
             {
@@ -2161,11 +2250,13 @@
             },
             {
               "id": "processing/lab-kafka-cli/README",
-              "path": "/docs/processing/lab-kafka-cli/"
+              "path": "/docs/processing/lab-kafka-cli/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/lab-kafka-fraud-detection/README",
-              "path": "/docs/processing/lab-kafka-fraud-detection/"
+              "path": "/docs/processing/lab-kafka-fraud-detection/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/lab-kafka-nyctaxi/assets/README",
@@ -2173,23 +2264,33 @@
             },
             {
               "id": "processing/lab-kafka-nyctaxi/README",
-              "path": "/docs/processing/lab-kafka-nyctaxi/"
+              "path": "/docs/processing/lab-kafka-nyctaxi/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "processing/lab-kafka-python-ecs/README",
+              "path": "/docs/processing/lab-kafka-python-ecs/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/lab-kafka-python/README",
-              "path": "/docs/processing/lab-kafka-python/"
+              "path": "/docs/processing/lab-kafka-python/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/lab-kafka-spark-streaming/README",
-              "path": "/docs/processing/lab-kafka-spark-streaming/"
+              "path": "/docs/processing/lab-kafka-spark-streaming/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/lab-kafka-stock-market/README",
-              "path": "/docs/processing/lab-kafka-stock-market/"
+              "path": "/docs/processing/lab-kafka-stock-market/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/lab-kafka-toll-analysis/README",
-              "path": "/docs/processing/lab-kafka-toll-analysis/"
+              "path": "/docs/processing/lab-kafka-toll-analysis/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/lab-kinesis-apache-logs/README",
@@ -2218,15 +2319,18 @@
             },
             {
               "id": "processing/lab-snowpark-churnpark/README",
-              "path": "/docs/processing/lab-snowpark-churnpark/"
+              "path": "/docs/processing/lab-snowpark-churnpark/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/lab-snowpark-dbtsnowpy/README",
-              "path": "/docs/processing/lab-snowpark-dbtsnowpy/"
+              "path": "/docs/processing/lab-snowpark-dbtsnowpy/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/lab-snowpark-fifapark/README",
-              "path": "/docs/processing/lab-snowpark-fifapark/"
+              "path": "/docs/processing/lab-snowpark-fifapark/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/lab-snowpark-jafflepark/models/docs",
@@ -2234,15 +2338,18 @@
             },
             {
               "id": "processing/lab-snowpark-jafflepark/README",
-              "path": "/docs/processing/lab-snowpark-jafflepark/"
+              "path": "/docs/processing/lab-snowpark-jafflepark/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/lab-snowpark-knoema-regression/README",
-              "path": "/docs/processing/lab-snowpark-knoema-regression/"
+              "path": "/docs/processing/lab-snowpark-knoema-regression/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/project-kafka-ikea/README",
-              "path": "/docs/processing/project-kafka-ikea/"
+              "path": "/docs/processing/project-kafka-ikea/",
+              "sidebar": "docs"
             },
             {
               "id": "processing/ray",
@@ -2251,7 +2358,8 @@
             },
             {
               "id": "processing/snowpark",
-              "path": "/docs/processing/snowpark"
+              "path": "/docs/processing/snowpark",
+              "sidebar": "docs"
             },
             {
               "id": "storage/apache-couchdb",
@@ -2774,6 +2882,56 @@
             {
               "id": "visualization/streamlit/README",
               "path": "/docs/visualization/streamlit/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "/category/getting-started",
+              "path": "/docs/category/getting-started",
+              "sidebar": "docs"
+            },
+            {
+              "id": "/category/data-engineering",
+              "path": "/docs/category/data-engineering",
+              "sidebar": "docs"
+            },
+            {
+              "id": "/category/spark-and-hadoop",
+              "path": "/docs/category/spark-and-hadoop",
+              "sidebar": "docs"
+            },
+            {
+              "id": "/category/developer-essentials",
+              "path": "/docs/category/developer-essentials",
+              "sidebar": "docs"
+            },
+            {
+              "id": "/category/aws",
+              "path": "/docs/category/aws",
+              "sidebar": "docs"
+            },
+            {
+              "id": "/category/gcp",
+              "path": "/docs/category/gcp",
+              "sidebar": "docs"
+            },
+            {
+              "id": "/category/azure",
+              "path": "/docs/category/azure",
+              "sidebar": "docs"
+            },
+            {
+              "id": "/category/data-modeling",
+              "path": "/docs/category/data-modeling",
+              "sidebar": "docs"
+            },
+            {
+              "id": "/category/case-studies",
+              "path": "/docs/category/case-studies",
+              "sidebar": "docs"
+            },
+            {
+              "id": "/category/capstones",
+              "path": "/docs/category/capstones",
               "sidebar": "docs"
             }
           ],

@@ -1,8 +1,8 @@
 {
   "unversionedId": "processing/lab-dbt-nyctaxi/README",
   "id": "processing/lab-dbt-nyctaxi/README",
-  "title": "dbt NYC Taxi",
-  "description": "Objective",
+  "title": "Lab: Building an ELT pipeline for a cab service company using dbt and Postgres",
+  "description": "Architecture",
   "source": "@site/docs/03-processing/lab-dbt-nyctaxi/README.md",
   "sourceDirName": "03-processing/lab-dbt-nyctaxi",
   "slug": "/processing/lab-dbt-nyctaxi/",
@@ -10,8 +10,17 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {}
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "dbt",
+    "permalink": "/docs/processing/dbt"
+  },
+  "next": {
+    "title": "Lab: dbt Postgres on Jaffle Shop data",
+    "permalink": "/docs/processing/lab-dbt-jaffle-shop/"
+  }
 }

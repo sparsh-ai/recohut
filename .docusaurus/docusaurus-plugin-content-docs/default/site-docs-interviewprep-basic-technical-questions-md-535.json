@@ -1,0 +1,17 @@
+{
+  "unversionedId": "interviewprep/basic-technical-questions",
+  "id": "interviewprep/basic-technical-questions",
+  "title": "Basic Technical Questions",
+  "description": "Interviewers use easy technical questions designed to weed out candidates without the right experience. This question assesses your experience level, comfort with specific tools, and the depth of your domain expertise. Basic technical questions include:",
+  "source": "@site/docs/interviewprep/basic-technical-questions.md",
+  "sourceDirName": "interviewprep",
+  "slug": "/interviewprep/basic-technical-questions",
+  "permalink": "/docs/interviewprep/basic-technical-questions",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
+}

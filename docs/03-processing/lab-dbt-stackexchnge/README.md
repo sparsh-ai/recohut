@@ -1,6 +1,4 @@
-# Stackexchange dbt Bigquery
-
-> Stack Exchange ELT pipeline with dbt and BigQuery
+# Lab: dbt BigQuery on Stack Exchange data
 
 Extract, Load and Transform the Stack Exchange data using dbt and google bigquery warehouse.
 
@@ -59,3 +57,21 @@ bq extract \
 ${PROJECT_ID}:${DATASET}.aggregated_users \
 gs://${BUCKET_NAME}/dbt_bigquery/agg_users.csv.gz
 ```
+
+## Files
+
+[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sparsh-ai/recohut/tree/main/docs/03-processing/lab-dbt-stackexchnge)
+
+```
+├── [2.1K]  README.md
+├── [1.1K]  dbt_project.yml
+└── [1.8K]  models
+    ├── [1.2K]  aggregated_users.sql
+    └── [ 525]  schema.yml
+
+ 5.2K used in 1 directory, 4 files
+```
+
+## Notebooks
+
+[![nbviewer](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/recohut/blob/main/docs/03-processing/lab-dbt-stackexchnge)

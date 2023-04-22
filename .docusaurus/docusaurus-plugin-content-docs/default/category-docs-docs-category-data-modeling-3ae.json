@@ -1,0 +1,15 @@
+{
+  "title": "Data Modeling",
+  "slug": "/category/data-modeling",
+  "permalink": "/docs/category/data-modeling",
+  "navigation": {
+    "previous": {
+      "title": "Lab: Knoema Regression Model with Snowpark",
+      "permalink": "/docs/processing/lab-snowpark-knoema-regression/"
+    },
+    "next": {
+      "title": "SQL Data Modeling",
+      "permalink": "/docs/data-modeling/sql-data-modeling"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/lab-flink-kafka-sink/README",
+  "id": "processing/lab-flink-kafka-sink/README",
+  "title": "Lab: Flink Kafka Sink",
+  "description": "Files",
+  "source": "@site/docs/03-processing/lab-flink-kafka-sink/README.md",
+  "sourceDirName": "03-processing/lab-flink-kafka-sink",
+  "slug": "/processing/lab-flink-kafka-sink/",
+  "permalink": "/docs/processing/lab-flink-kafka-sink/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Real-time Twitter Stream Wordcount using Flink",
+    "permalink": "/docs/processing/lab-flink-twitter-stream-processing/"
+  },
+  "next": {
+    "title": "Lab: Flink Kafka Source",
+    "permalink": "/docs/processing/lab-flink-kafka-source/"
+  }
+}

@@ -2,7 +2,7 @@
   "unversionedId": "casestudies/README",
   "id": "casestudies/README",
   "title": "Case Studies",
-  "description": "Steps",
+  "description": "More",
   "source": "@site/docs/casestudies/README.md",
   "sourceDirName": "casestudies",
   "slug": "/casestudies/",
@@ -10,8 +10,8 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681732641,
-  "formattedLastUpdatedAt": "Apr 17, 2023",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {}
 }

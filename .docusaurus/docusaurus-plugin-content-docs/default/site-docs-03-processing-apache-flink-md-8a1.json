@@ -10,8 +10,17 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {}
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Project: Building an event-driven IKEA app with Kafka",
+    "permalink": "/docs/processing/project-kafka-ikea/"
+  },
+  "next": {
+    "title": "Lab: Real-time Taxi Price Model based Prediction using Flink",
+    "permalink": "/docs/processing/lab-flink-taxi-pricing/"
+  }
 }

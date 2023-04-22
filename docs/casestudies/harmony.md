@@ -1,4 +1,6 @@
-# HARMONY - Responsive Data Pipeline
+# Harmony
+
+> Responsive Data Pipeline
 
 As one of Australasia's leading marketplace lending platforms, Harmoney has matched more than 32,000 borrowers with more than $1 billion in personal loans. Its lending experience is 100 percent online, from application to funding, necessitating complete and accurate data collection, processing, and analysis. 
 

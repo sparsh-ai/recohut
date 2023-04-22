@@ -2,7 +2,7 @@
   "unversionedId": "capstones/README",
   "id": "capstones/README",
   "title": "Capstones",
-  "description": "ETL - ACLED",
+  "description": "More Ideas",
   "source": "@site/docs/12-capstones/README.md",
   "sourceDirName": "12-capstones",
   "slug": "/capstones/",
@@ -10,8 +10,8 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {}
 }

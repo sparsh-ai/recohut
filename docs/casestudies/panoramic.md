@@ -1,4 +1,6 @@
-# PANORAMIC - Simplifying Data Ingestion, Transformation, And Delivery
+# Panoramic
+
+> Simplifying Data Ingestion, Transformation, And Delivery
 
 Panoramic is a world leader in providing analytics to communications firms and media service providers. It helps marketers use consumer data to hone their creative strategies. Panoramic's data scientists and marketing analysts build customized data platforms that enable marketers to visualize consumer data for analysis, benchmarking, internal collaboration, and more. The company has built its business around ingesting and modeling marketing data as a foundation for generating meaningful insights.
 

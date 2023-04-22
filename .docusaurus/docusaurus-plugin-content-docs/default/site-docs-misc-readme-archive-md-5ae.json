@@ -1,0 +1,17 @@
+{
+  "unversionedId": "misc/readme_archive",
+  "id": "misc/readme_archive",
+  "title": "Data Engineering Intensive Training Program",
+  "description": "Hit the ⭐️ button if you like the repo.",
+  "source": "@site/docs/misc/readme_archive.md",
+  "sourceDirName": "misc",
+  "slug": "/misc/readme_archive",
+  "permalink": "/docs/misc/readme_archive",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
+}

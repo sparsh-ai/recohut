@@ -10,9 +10,9 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
   "sidebar": "docs",
   "previous": {
@@ -20,7 +20,7 @@
     "permalink": "/docs/processing/lab-gcp-pubsub-processing"
   },
   "next": {
-    "title": "Lab: Confluent Kafka with Python",
-    "permalink": "/docs/processing/lab-confluent-python/"
+    "title": "Lab: Getting started with Kafka and CLI",
+    "permalink": "/docs/processing/lab-kafka-cli/"
   }
 }

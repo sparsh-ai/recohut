@@ -1,0 +1,22 @@
+{
+  "unversionedId": "misc/extras",
+  "id": "misc/extras",
+  "title": "Extras",
+  "description": "Data, analytics and AI maturity curve",
+  "source": "@site/docs/misc/extras.md",
+  "sourceDirName": "misc",
+  "slug": "/misc/extras",
+  "permalink": "/docs/misc/extras",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Resources",
+    "permalink": "/docs/misc/resources"
+  }
+}

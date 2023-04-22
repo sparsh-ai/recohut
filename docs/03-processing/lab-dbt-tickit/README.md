@@ -1,6 +1,4 @@
-# dbt Redshift TICKIT
-
-> Building an ELT Pipeline with dbt and Amazon Redshift
+# Lab: Building an ELT Pipeline with dbt and Amazon Redshift on TICKIT data
 
 ## Objective
 
@@ -99,3 +97,52 @@ In this activity, you will simulate an Experimental department that is exploring
 ### Database
 
 ![](https://user-images.githubusercontent.com/62965911/214304319-ffe03556-37d7-49c2-8111-01a8380707ee.png)
+
+## Files
+
+[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sparsh-ai/recohut/tree/main/docs/03-processing/lab-dbt-tickit)
+
+```
+├── [ 40K]  01-sa-main.ipynb
+├── [5.7K]  README.md
+├── [ 41K]  cfn
+│   └── [ 40K]  dbt-redshift.json
+├── [1.9K]  dbt_project.yml
+├── [4.0K]  generate_base_tables.py
+├── [8.4K]  macros
+│   ├── [3.1K]  macro_hello_world.sql
+│   ├── [3.9K]  macro_manage_access.sql
+│   ├── [ 803]  macro_overwrite_for_mv.sql
+│   └── [ 421]  macro_pii_masking.sql
+├── [4.9K]  models
+│   ├── [2.5K]  base_public
+│   │   ├── [ 211]  base_public_category.sql
+│   │   ├── [ 257]  base_public_date.sql
+│   │   ├── [ 242]  base_public_event.sql
+│   │   ├── [ 290]  base_public_listing.sql
+│   │   ├── [ 314]  base_public_sales.sql
+│   │   ├── [ 473]  base_public_users.sql
+│   │   ├── [ 234]  base_public_venue.sql
+│   │   └── [ 201]  schema.yml
+│   ├── [ 536]  dept_experimental
+│   │   └── [ 440]  rpt_experimental_qtr_total_sales_by_event.sql
+│   ├── [ 822]  dept_finance
+│   │   ├── [ 205]  rpt_finance_qtr_top_events_by_sales.sql
+│   │   └── [ 489]  rpt_finance_qtr_total_sales_by_event.sql
+│   ├── [ 291]  dept_marketing
+│   │   └── [ 195]  rpt_marketing_category_full_desc.sql
+│   └── [ 617]  dept_tech
+│       └── [ 521]  rpt_tech_all_users.sql
+├── [ 157]  packages.yml
+├── [ 635]  seeds
+│   └── [ 539]  dept_marketing
+│       └── [ 443]  mnl_category_desc.csv
+└── [2.6K]  src
+    └── [2.6K]  data_load.sql
+
+ 110K used in 11 directories, 25 files
+```
+
+## Notebooks
+
+[![nbviewer](https://img.shields.io/badge/jupyter-notebook-informational?logo=jupyter)](https://nbviewer.org/github/sparsh-ai/recohut/blob/main/docs/03-processing/lab-dbt-tickit)

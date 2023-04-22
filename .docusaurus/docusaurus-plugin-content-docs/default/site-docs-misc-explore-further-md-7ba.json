@@ -1,0 +1,17 @@
+{
+  "unversionedId": "misc/explore-further",
+  "id": "misc/explore-further",
+  "title": "Explore Further",
+  "description": "Basic Concepts",
+  "source": "@site/docs/misc/explore-further.md",
+  "sourceDirName": "misc",
+  "slug": "/misc/explore-further",
+  "permalink": "/docs/misc/explore-further",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
+}

@@ -1,8 +1,8 @@
 {
   "unversionedId": "processing/lab-snowpark-dbtsnowpy/README",
   "id": "processing/lab-snowpark-dbtsnowpy/README",
-  "title": "Modeling with dbt and Snowpark",
-  "description": "",
+  "title": "Lab: Modeling with dbt and Snowpark",
+  "description": "Files",
   "source": "@site/docs/03-processing/lab-snowpark-dbtsnowpy/README.md",
   "sourceDirName": "03-processing/lab-snowpark-dbtsnowpy",
   "slug": "/processing/lab-snowpark-dbtsnowpy/",
@@ -10,8 +10,17 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {}
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Churn Analytics Demo with dbt Snowpark Python models",
+    "permalink": "/docs/processing/lab-snowpark-churnpark/"
+  },
+  "next": {
+    "title": "Lab: FIFA prediction model with dbt and Snowpark",
+    "permalink": "/docs/processing/lab-snowpark-fifapark/"
+  }
 }

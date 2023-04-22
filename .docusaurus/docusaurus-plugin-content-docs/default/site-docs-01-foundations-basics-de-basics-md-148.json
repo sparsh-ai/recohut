@@ -1,7 +1,7 @@
 {
   "unversionedId": "foundations/basics/de-basics",
   "id": "foundations/basics/de-basics",
-  "title": "Data Engineering Basics",
+  "title": "Basics",
   "description": "What is Data Engineering?",
   "source": "@site/docs/01-foundations/basics/de-basics.md",
   "sourceDirName": "01-foundations/basics",
@@ -10,14 +10,14 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681212836,
-  "formattedLastUpdatedAt": "Apr 11, 2023",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
   "sidebar": "docs",
   "previous": {
-    "title": "Introduction",
-    "permalink": "/docs/introduction"
+    "title": "Data Engineering",
+    "permalink": "/docs/category/data-engineering"
   },
   "next": {
     "title": "Data Pipelines",

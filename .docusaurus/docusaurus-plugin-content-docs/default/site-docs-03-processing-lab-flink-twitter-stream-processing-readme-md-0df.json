@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/lab-flink-twitter-stream-processing/README",
+  "id": "processing/lab-flink-twitter-stream-processing/README",
+  "title": "Lab: Real-time Twitter Stream Wordcount using Flink",
+  "description": "Files",
+  "source": "@site/docs/03-processing/lab-flink-twitter-stream-processing/README.md",
+  "sourceDirName": "03-processing/lab-flink-twitter-stream-processing",
+  "slug": "/processing/lab-flink-twitter-stream-processing/",
+  "permalink": "/docs/processing/lab-flink-twitter-stream-processing/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Real-time Taxi Price Model based Prediction using Flink",
+    "permalink": "/docs/processing/lab-flink-taxi-pricing/"
+  },
+  "next": {
+    "title": "Lab: Flink Kafka Sink",
+    "permalink": "/docs/processing/lab-flink-kafka-sink/"
+  }
+}

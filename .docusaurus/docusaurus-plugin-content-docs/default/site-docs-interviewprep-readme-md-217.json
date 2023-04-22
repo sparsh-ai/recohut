@@ -1,0 +1,26 @@
+{
+  "unversionedId": "interviewprep/README",
+  "id": "interviewprep/README",
+  "title": "Interview Preparation",
+  "description": "Whether you’re just getting into the data engineer job market or your interview is tomorrow, practice is an essential part of the interview preparation process for a data engineer. Data engineering interview questions assess your data engineering skills and domain expertise. They are based on a company’s tech stack and technology goals, and they test your ability to perform job functions. In an interview for any Engineering role, the interviewer wants to understand if you have good analytical skills, problem-solving ability, communication, work culture and ability to build technical solutions. Specific to Data Engineering, they also want to understand if you have the skills to handle large data and build scalable and robust systems.",
+  "source": "@site/docs/interviewprep/README.md",
+  "sourceDirName": "interviewprep",
+  "slug": "/interviewprep/",
+  "permalink": "/docs/interviewprep/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "US Immigration analysis and data pipeline",
+    "permalink": "/docs/capstones/us-immigration/"
+  },
+  "next": {
+    "title": "Resume Buildup",
+    "permalink": "/docs/interviewprep/resume-buildup"
+  }
+}

@@ -10,14 +10,14 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681212836,
-  "formattedLastUpdatedAt": "Apr 11, 2023",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
   "sidebar": "docs",
   "previous": {
-    "title": "50 Most Asked Data Engineer Interview Questions and Answers in 2023",
-    "permalink": "/docs/foundations/basics/50-most-common-interview-questions-2023"
+    "title": "Spark and Hadoop",
+    "permalink": "/docs/category/spark-and-hadoop"
   },
   "next": {
     "title": "Origin of Spark",

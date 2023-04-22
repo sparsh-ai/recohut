@@ -1,7 +1,7 @@
 {
   "unversionedId": "processing/lab-dbt-olist/README",
   "id": "processing/lab-dbt-olist/README",
-  "title": "dbt Olist",
+  "title": "Lab: dbt Postgres on Olist Retail data",
   "description": "Objective",
   "source": "@site/docs/03-processing/lab-dbt-olist/README.md",
   "sourceDirName": "03-processing/lab-dbt-olist",
@@ -10,8 +10,17 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {}
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: dbt Snowflake on Knoema data",
+    "permalink": "/docs/processing/lab-dbt-knoema/"
+  },
+  "next": {
+    "title": "Lab: dbt BigQuery on Stack Exchange data",
+    "permalink": "/docs/processing/lab-dbt-stackexchnge/"
+  }
 }

@@ -1,0 +1,15 @@
+{
+  "title": "Case Studies",
+  "slug": "/category/case-studies",
+  "permalink": "/docs/category/case-studies",
+  "navigation": {
+    "previous": {
+      "title": "MLflow",
+      "permalink": "/docs/mlops/mlflow/"
+    },
+    "next": {
+      "title": "99 Group",
+      "permalink": "/docs/casestudies/99group"
+    }
+  }
+}

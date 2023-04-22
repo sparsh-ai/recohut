@@ -1,0 +1,15 @@
+{
+  "title": "Azure",
+  "slug": "/category/azure",
+  "permalink": "/docs/category/azure",
+  "navigation": {
+    "previous": {
+      "title": "GCP Setup",
+      "permalink": "/docs/foundations/cloud/gcp-setup"
+    },
+    "next": {
+      "title": "Azure Basics",
+      "permalink": "/docs/foundations/cloud/azure-basics"
+    }
+  }
+}

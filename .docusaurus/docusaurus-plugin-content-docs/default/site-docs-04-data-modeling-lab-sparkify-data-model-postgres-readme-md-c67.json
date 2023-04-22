@@ -1,7 +1,7 @@
 {
   "unversionedId": "data-modeling/lab-sparkify-data-model-postgres/README",
   "id": "data-modeling/lab-sparkify-data-model-postgres/README",
-  "title": "Sparkify Music Company Data Model in Postgres",
+  "title": "Lab: Sparkify Music Company Data Model in Postgres",
   "description": "In this, we will model the data with Postgres and build an ETL pipeline using Python. The fact and dimension tables for a star database schema for a particular analytic focus is defined, and an ETL pipeline that transfers data from files in two local directories into these tables in Postgres using Python and SQL was developed.",
   "source": "@site/docs/04-data-modeling/lab-sparkify-data-model-postgres/README.md",
   "sourceDirName": "04-data-modeling/lab-sparkify-data-model-postgres",
@@ -10,8 +10,17 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {}
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Credit Debit Finance Data Model in Snowflake",
+    "permalink": "/docs/data-modeling/lab-snowflake-creditdebit-datamodel/"
+  },
+  "next": {
+    "title": "NoSQL Data Modeling",
+    "permalink": "/docs/data-modeling/nosql-data-modeling"
+  }
 }

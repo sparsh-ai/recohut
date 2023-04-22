@@ -1,8 +1,8 @@
 {
   "unversionedId": "casestudies/fair",
   "id": "casestudies/fair",
-  "title": "FAIR - Data Ingestion with a Cloud Data Platform",
-  "description": "Fair is a financial technology company that offers a new way to shop for a car, get approved for a loan, and pay for the car. Its unique smartphone app gives customers the freedom to drive the car they want for as long as they want and gives them the flexibility to turn in the vehicle at any time. Data is essential to this business model: The company ingests and analyzes billions of data points from more than 500 data sources.",
+  "title": "Fair",
+  "description": "Data Ingestion with a Cloud Data Platform",
   "source": "@site/docs/casestudies/fair.md",
   "sourceDirName": "casestudies",
   "slug": "/casestudies/fair",
@@ -10,9 +10,9 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681732641,
-  "formattedLastUpdatedAt": "Apr 17, 2023",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
   "sidebar": "docs",
   "previous": {
@@ -20,7 +20,7 @@
     "permalink": "/docs/casestudies/expedia"
   },
   "next": {
-    "title": "HARMONY - Responsive Data Pipeline",
+    "title": "Harmony",
     "permalink": "/docs/casestudies/harmony"
   }
 }

@@ -1,7 +1,7 @@
 {
   "unversionedId": "data-modeling/lab-postgres-busrapid-transit/README",
   "id": "data-modeling/lab-postgres-busrapid-transit/README",
-  "title": "Postgres Bus Rapid Transit",
+  "title": "Lab: Creating a Bus Rapid Transit (BRT) Database in Postgres",
   "description": "Creating a Bus Rapid Transit (BRT) Database",
   "source": "@site/docs/04-data-modeling/lab-postgres-busrapid-transit/README.md",
   "sourceDirName": "04-data-modeling/lab-postgres-busrapid-transit",
@@ -10,8 +10,17 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {}
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Retail Store Data Model in MySQL",
+    "permalink": "/docs/data-modeling/lab-mysql-retail-store-datamodel/"
+  },
+  "next": {
+    "title": "Lab: Create Fact and Dimension Tables from Denormalized Raw Data",
+    "permalink": "/docs/data-modeling/lab-postgres-elt-datamodel/"
+  }
 }

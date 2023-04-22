@@ -1,0 +1,15 @@
+{
+  "title": "Developer Essentials",
+  "slug": "/category/developer-essentials",
+  "permalink": "/docs/category/developer-essentials",
+  "navigation": {
+    "previous": {
+      "title": "Quiz: Spark basics",
+      "permalink": "/docs/foundations/basics/spark-quiz"
+    },
+    "next": {
+      "title": "Install Anaconda",
+      "permalink": "/docs/foundations/developer/install-anaconda"
+    }
+  }
+}

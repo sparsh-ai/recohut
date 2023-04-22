@@ -1,8 +1,8 @@
 {
   "unversionedId": "processing/lab-snowpark-fifapark/README",
   "id": "processing/lab-snowpark-fifapark/README",
-  "title": "FIFA modeling with Snowpark",
-  "description": "",
+  "title": "Lab: FIFA prediction model with dbt and Snowpark",
+  "description": "Files",
   "source": "@site/docs/03-processing/lab-snowpark-fifapark/README.md",
   "sourceDirName": "03-processing/lab-snowpark-fifapark",
   "slug": "/processing/lab-snowpark-fifapark/",
@@ -10,8 +10,17 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {}
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Modeling with dbt and Snowpark",
+    "permalink": "/docs/processing/lab-snowpark-dbtsnowpy/"
+  },
+  "next": {
+    "title": "Lab: Jaffle Shop Modeling with Snowpark",
+    "permalink": "/docs/processing/lab-snowpark-jafflepark/"
+  }
 }

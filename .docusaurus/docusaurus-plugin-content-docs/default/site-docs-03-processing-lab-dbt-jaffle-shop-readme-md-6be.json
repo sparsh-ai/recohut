@@ -1,7 +1,7 @@
 {
   "unversionedId": "processing/lab-dbt-jaffle-shop/README",
   "id": "processing/lab-dbt-jaffle-shop/README",
-  "title": "dbt Jaffle Shop",
+  "title": "Lab: dbt Postgres on Jaffle Shop data",
   "description": "Objective",
   "source": "@site/docs/03-processing/lab-dbt-jaffle-shop/README.md",
   "sourceDirName": "03-processing/lab-dbt-jaffle-shop",
@@ -10,8 +10,17 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {}
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Building an ELT pipeline for a cab service company using dbt and Postgres",
+    "permalink": "/docs/processing/lab-dbt-nyctaxi/"
+  },
+  "next": {
+    "title": "Lab: dbt Snowflake on Knoema data",
+    "permalink": "/docs/processing/lab-dbt-knoema/"
+  }
 }

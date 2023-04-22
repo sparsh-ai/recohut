@@ -1,7 +1,7 @@
 {
   "unversionedId": "processing/lab-snowpark-churnpark/README",
   "id": "processing/lab-snowpark-churnpark/README",
-  "title": "Churn Analytics Demo with dbt Snowpark Python models",
+  "title": "Lab: Churn Analytics Demo with dbt Snowpark Python models",
   "description": "PPT//docs.google.com/presentation/d/1IJSeE96bze7DECuDYqsTVv6FaOcNcJ5tTiCWKEkuQQ/edit#slide=id.g158d486fe9e2_12",
   "source": "@site/docs/03-processing/lab-snowpark-churnpark/README.md",
   "sourceDirName": "03-processing/lab-snowpark-churnpark",
@@ -10,8 +10,17 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {}
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Snowpark",
+    "permalink": "/docs/processing/snowpark"
+  },
+  "next": {
+    "title": "Lab: Modeling with dbt and Snowpark",
+    "permalink": "/docs/processing/lab-snowpark-dbtsnowpy/"
+  }
 }

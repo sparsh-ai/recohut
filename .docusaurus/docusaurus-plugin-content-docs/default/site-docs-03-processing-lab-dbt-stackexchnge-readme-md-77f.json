@@ -1,8 +1,8 @@
 {
   "unversionedId": "processing/lab-dbt-stackexchnge/README",
   "id": "processing/lab-dbt-stackexchnge/README",
-  "title": "Stackexchange dbt Bigquery",
-  "description": "Stack Exchange ELT pipeline with dbt and BigQuery",
+  "title": "Lab: dbt BigQuery on Stack Exchange data",
+  "description": "Extract, Load and Transform the Stack Exchange data using dbt and google bigquery warehouse.",
   "source": "@site/docs/03-processing/lab-dbt-stackexchnge/README.md",
   "sourceDirName": "03-processing/lab-dbt-stackexchnge",
   "slug": "/processing/lab-dbt-stackexchnge/",
@@ -10,8 +10,17 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {}
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: dbt Postgres on Olist Retail data",
+    "permalink": "/docs/processing/lab-dbt-olist/"
+  },
+  "next": {
+    "title": "Lab: Building an ELT Pipeline with dbt and Amazon Redshift on TICKIT data",
+    "permalink": "/docs/processing/lab-dbt-tickit/"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "unversionedId": "processing/lab-dbt-knoema/README",
   "id": "processing/lab-dbt-knoema/README",
-  "title": "Snowflake dbt Knoema",
+  "title": "Lab: dbt Snowflake on Knoema data",
   "description": "In this lab, we are going to analyze historical trading performance of a company that has trading desks spread across different regions. As inputs, we are going to leverage datasets available in Knoema Economy Data Atlas that is available in Snowflake Data Marketplace, plus few manual uploads.",
   "source": "@site/docs/03-processing/lab-dbt-knoema/README.md",
   "sourceDirName": "03-processing/lab-dbt-knoema",
@@ -10,8 +10,17 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {}
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: dbt Postgres on Jaffle Shop data",
+    "permalink": "/docs/processing/lab-dbt-jaffle-shop/"
+  },
+  "next": {
+    "title": "Lab: dbt Postgres on Olist Retail data",
+    "permalink": "/docs/processing/lab-dbt-olist/"
+  }
 }

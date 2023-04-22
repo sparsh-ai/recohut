@@ -1,8 +1,8 @@
 {
   "unversionedId": "processing/lab-snowpark-jafflepark/README",
   "id": "processing/lab-snowpark-jafflepark/README",
-  "title": "Jaffle Shop Modeling with Snowpark",
-  "description": "",
+  "title": "Lab: Jaffle Shop Modeling with Snowpark",
+  "description": "Files",
   "source": "@site/docs/03-processing/lab-snowpark-jafflepark/README.md",
   "sourceDirName": "03-processing/lab-snowpark-jafflepark",
   "slug": "/processing/lab-snowpark-jafflepark/",
@@ -10,8 +10,17 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {}
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: FIFA prediction model with dbt and Snowpark",
+    "permalink": "/docs/processing/lab-snowpark-fifapark/"
+  },
+  "next": {
+    "title": "Lab: Knoema Regression Model with Snowpark",
+    "permalink": "/docs/processing/lab-snowpark-knoema-regression/"
+  }
 }

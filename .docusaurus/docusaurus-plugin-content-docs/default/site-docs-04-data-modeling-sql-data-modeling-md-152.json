@@ -10,14 +10,14 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
   "sidebar": "docs",
   "previous": {
-    "title": "Lab: Kafka and CDC",
-    "permalink": "/docs/processing/lab-confluent-kafka-faker/"
+    "title": "Data Modeling",
+    "permalink": "/docs/category/data-modeling"
   },
   "next": {
     "title": "Inmon versus the Kimball data model",

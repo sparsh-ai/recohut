@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/lab-kafka-python-ecs/README",
+  "id": "processing/lab-kafka-python-ecs/README",
+  "title": "Lab: Kafka on Cloud with Amazon ECS and Container Orchestration",
+  "description": "Notebooks",
+  "source": "@site/docs/03-processing/lab-kafka-python-ecs/README.md",
+  "sourceDirName": "03-processing/lab-kafka-python-ecs",
+  "slug": "/processing/lab-kafka-python-ecs/",
+  "permalink": "/docs/processing/lab-kafka-python-ecs/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Kafka Streams for NYC Taxi data",
+    "permalink": "/docs/processing/lab-kafka-nyctaxi/"
+  },
+  "next": {
+    "title": "Lab: Realtime Streaming analytics with Apache Kafka and Spark Streaming",
+    "permalink": "/docs/processing/lab-kafka-spark-streaming/"
+  }
+}

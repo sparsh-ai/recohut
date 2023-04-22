@@ -1,8 +1,8 @@
 {
   "unversionedId": "data-modeling/lab-postgres-elt-datamodel/README",
   "id": "data-modeling/lab-postgres-elt-datamodel/README",
-  "title": "Postgres ELT Datamodel with PSQL",
-  "description": "Create Fact and Dimension Tables from Denormalized Raw Data",
+  "title": "Lab: Create Fact and Dimension Tables from Denormalized Raw Data",
+  "description": "In data warehousing world there are occasions where developers have to reverse engineer model from flat csv files. We will understand this with simple example.",
   "source": "@site/docs/04-data-modeling/lab-postgres-elt-datamodel/README.md",
   "sourceDirName": "04-data-modeling/lab-postgres-elt-datamodel",
   "slug": "/data-modeling/lab-postgres-elt-datamodel/",
@@ -10,8 +10,17 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {}
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Creating a Bus Rapid Transit (BRT) Database in Postgres",
+    "permalink": "/docs/data-modeling/lab-postgres-busrapid-transit/"
+  },
+  "next": {
+    "title": "Lab: Postgres e-Wallet Data Model",
+    "permalink": "/docs/data-modeling/lab-postgres-ewallet-datamodel/"
+  }
 }

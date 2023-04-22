@@ -1,4 +1,6 @@
-# FAIR - Data Ingestion with a Cloud Data Platform
+# Fair
+
+> Data Ingestion with a Cloud Data Platform
 
 Fair is a financial technology company that offers a new way to shop for a car, get approved for a loan, and pay for the car. Its unique smartphone app gives customers the freedom to drive the car they want for as long as they want and gives them the flexibility to turn in the vehicle at any time. Data is essential to this business model: The company ingests and analyzes billions of data points from more than 500 data sources.
 

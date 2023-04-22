@@ -1,7 +1,7 @@
 {
   "unversionedId": "processing/lab-dbt-tpch/README",
   "id": "processing/lab-dbt-tpch/README",
-  "title": "Snowflake dbt cloud TPCH",
+  "title": "Lab: dbt Snowflake on TPCH data",
   "description": "Accelerating Data Teams with Snowflake and dbt Cloud Hands On Lab",
   "source": "@site/docs/03-processing/lab-dbt-tpch/README.md",
   "sourceDirName": "03-processing/lab-dbt-tpch",
@@ -10,8 +10,17 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {}
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Building an ELT Pipeline with dbt and Amazon Redshift on TICKIT data",
+    "permalink": "/docs/processing/lab-dbt-tickit/"
+  },
+  "next": {
+    "title": "Snowpark",
+    "permalink": "/docs/processing/snowpark"
+  }
 }

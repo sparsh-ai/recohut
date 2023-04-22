@@ -1,7 +1,7 @@
 {
   "unversionedId": "data-modeling/lab-dvd-rental-datamodel/README",
   "id": "data-modeling/lab-dvd-rental-datamodel/README",
-  "title": "Postgres Pagila",
+  "title": "Lab: Create a star schema from 3NF schema on DVD rental Pagila dataset",
   "description": "Objective",
   "source": "@site/docs/04-data-modeling/lab-dvd-rental-datamodel/README.md",
   "sourceDirName": "04-data-modeling/lab-dvd-rental-datamodel",
@@ -10,8 +10,17 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {}
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Car company Data Model in MySQL",
+    "permalink": "/docs/data-modeling/lab-cars-mysql-datamodel/"
+  },
+  "next": {
+    "title": "Lab: Create a Postgres data model of Google Playstore dataset",
+    "permalink": "/docs/data-modeling/lab-google-playstore-datamodel/"
+  }
 }

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "misc/resources",
+  "id": "misc/resources",
+  "title": "Resources",
+  "description": "Courses",
+  "source": "@site/docs/misc/resources.md",
+  "sourceDirName": "misc",
+  "slug": "/misc/resources",
+  "permalink": "/docs/misc/resources",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Resume Buildup",
+    "permalink": "/docs/interviewprep/resume-buildup"
+  },
+  "next": {
+    "title": "Extras",
+    "permalink": "/docs/misc/extras"
+  }
+}

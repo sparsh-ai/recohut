@@ -3,6 +3,41 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+    path: '/__docusaurus/debug',
+    component: ComponentCreator('/__docusaurus/debug', 'b27'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/config',
+    component: ComponentCreator('/__docusaurus/debug/config', '910'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/content',
+    component: ComponentCreator('/__docusaurus/debug/content', '82f'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/globalData',
+    component: ComponentCreator('/__docusaurus/debug/globalData', 'aa3'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/metadata',
+    component: ComponentCreator('/__docusaurus/debug/metadata', '716'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/registry',
+    component: ComponentCreator('/__docusaurus/debug/registry', 'b62'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/routes',
+    component: ComponentCreator('/__docusaurus/debug/routes', '480'),
+    exact: true
+  },
+  {
     path: '/blog',
     component: ComponentCreator('/blog', 'd3a'),
     exact: true
@@ -399,43 +434,8 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '980'),
+    component: ComponentCreator('/docs', 'd7a'),
     routes: [
-      {
-        path: '/docs/a1-interviewprep',
-        component: ComponentCreator('/docs/a1-interviewprep', '64f'),
-        exact: true
-      },
-      {
-        path: '/docs/a1-interviewprep/algorithm-problems',
-        component: ComponentCreator('/docs/a1-interviewprep/algorithm-problems', 'd8f'),
-        exact: true
-      },
-      {
-        path: '/docs/a1-interviewprep/azure-data-engineering',
-        component: ComponentCreator('/docs/a1-interviewprep/azure-data-engineering', '423'),
-        exact: true
-      },
-      {
-        path: '/docs/a1-interviewprep/basic-technical-questions',
-        component: ComponentCreator('/docs/a1-interviewprep/basic-technical-questions', '5bd'),
-        exact: true
-      },
-      {
-        path: '/docs/a1-interviewprep/behavioral-interview-questions',
-        component: ComponentCreator('/docs/a1-interviewprep/behavioral-interview-questions', '636'),
-        exact: true
-      },
-      {
-        path: '/docs/a1-interviewprep/behavioral-questions',
-        component: ComponentCreator('/docs/a1-interviewprep/behavioral-questions', '1da'),
-        exact: true
-      },
-      {
-        path: '/docs/a1-interviewprep/resume-buildup',
-        component: ComponentCreator('/docs/a1-interviewprep/resume-buildup', '358'),
-        exact: true
-      },
       {
         path: '/docs/assignments/bellabeat-analysis',
         component: ComponentCreator('/docs/assignments/bellabeat-analysis', 'f12'),
@@ -507,114 +507,111 @@ export default [
         exact: true
       },
       {
-        path: '/docs/b3-misc/explore-further',
-        component: ComponentCreator('/docs/b3-misc/explore-further', '4eb'),
-        exact: true
-      },
-      {
-        path: '/docs/b3-misc/extras',
-        component: ComponentCreator('/docs/b3-misc/extras', '6b3'),
-        exact: true
-      },
-      {
-        path: '/docs/b3-misc/readme_archive',
-        component: ComponentCreator('/docs/b3-misc/readme_archive', 'cd6'),
-        exact: true
-      },
-      {
-        path: '/docs/b3-misc/resources',
-        component: ComponentCreator('/docs/b3-misc/resources', '93c'),
-        exact: true
-      },
-      {
         path: '/docs/capstones',
         component: ComponentCreator('/docs/capstones', '82f'),
         exact: true
       },
       {
         path: '/docs/capstones/acled',
-        component: ComponentCreator('/docs/capstones/acled', 'ad3'),
-        exact: true
+        component: ComponentCreator('/docs/capstones/acled', '926'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/capstones/citibike-trip-histories',
-        component: ComponentCreator('/docs/capstones/citibike-trip-histories', 'f1d'),
-        exact: true
+        component: ComponentCreator('/docs/capstones/citibike-trip-histories', '81a'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/capstones/city-pollution',
-        component: ComponentCreator('/docs/capstones/city-pollution', 'acc'),
-        exact: true
+        component: ComponentCreator('/docs/capstones/city-pollution', '15f'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/capstones/city-traffic-drone',
-        component: ComponentCreator('/docs/capstones/city-traffic-drone', '6c6'),
-        exact: true
+        component: ComponentCreator('/docs/capstones/city-traffic-drone', 'ae3'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/capstones/climate',
-        component: ComponentCreator('/docs/capstones/climate', 'f25'),
-        exact: true
+        component: ComponentCreator('/docs/capstones/climate', '591'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/capstones/cloudmaze',
-        component: ComponentCreator('/docs/capstones/cloudmaze', 'afb'),
-        exact: true
+        component: ComponentCreator('/docs/capstones/cloudmaze', '443'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/capstones/dbt-redshift',
-        component: ComponentCreator('/docs/capstones/dbt-redshift', '845'),
-        exact: true
+        component: ComponentCreator('/docs/capstones/dbt-redshift', '803'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/capstones/digitalskola',
-        component: ComponentCreator('/docs/capstones/digitalskola', '82d'),
-        exact: true
+        component: ComponentCreator('/docs/capstones/digitalskola', '091'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/capstones/disaster-response',
-        component: ComponentCreator('/docs/capstones/disaster-response', '5e9'),
-        exact: true
+        component: ComponentCreator('/docs/capstones/disaster-response', '53e'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/capstones/funflix',
-        component: ComponentCreator('/docs/capstones/funflix', 'fa5'),
-        exact: true
+        component: ComponentCreator('/docs/capstones/funflix', '886'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/capstones/hmc',
-        component: ComponentCreator('/docs/capstones/hmc', '101'),
-        exact: true
+        component: ComponentCreator('/docs/capstones/hmc', 'cb4'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/capstones/kinesis-flink-beam',
-        component: ComponentCreator('/docs/capstones/kinesis-flink-beam', '404'),
-        exact: true
+        component: ComponentCreator('/docs/capstones/kinesis-flink-beam', '23b'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/capstones/kinesis-flink-etl',
-        component: ComponentCreator('/docs/capstones/kinesis-flink-etl', '283'),
-        exact: true
+        component: ComponentCreator('/docs/capstones/kinesis-flink-etl', 'bd3'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/capstones/kortex',
-        component: ComponentCreator('/docs/capstones/kortex', '55d'),
-        exact: true
+        component: ComponentCreator('/docs/capstones/kortex', '6a8'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/capstones/lufthansa',
-        component: ComponentCreator('/docs/capstones/lufthansa', 'b01'),
-        exact: true
+        component: ComponentCreator('/docs/capstones/lufthansa', '7a7'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/capstones/movie-sentiment',
-        component: ComponentCreator('/docs/capstones/movie-sentiment', '54c'),
-        exact: true
+        component: ComponentCreator('/docs/capstones/movie-sentiment', '1a7'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/capstones/multi-touch-attribution',
-        component: ComponentCreator('/docs/capstones/multi-touch-attribution', 'b84'),
-        exact: true
+        component: ComponentCreator('/docs/capstones/multi-touch-attribution', 'cec'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/capstones/other/covid19-datalake',
@@ -728,28 +725,39 @@ export default [
       },
       {
         path: '/docs/capstones/recofront',
-        component: ComponentCreator('/docs/capstones/recofront', '7d1'),
-        exact: true
+        component: ComponentCreator('/docs/capstones/recofront', '3d1'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/capstones/reddit',
-        component: ComponentCreator('/docs/capstones/reddit', 'c2a'),
-        exact: true
+        component: ComponentCreator('/docs/capstones/reddit', '170'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/capstones/redshield',
-        component: ComponentCreator('/docs/capstones/redshield', '6a6'),
-        exact: true
+        component: ComponentCreator('/docs/capstones/redshield', 'f6e'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/capstones/robust-data-pipeline',
-        component: ComponentCreator('/docs/capstones/robust-data-pipeline', 'd9b'),
-        exact: true
+        component: ComponentCreator('/docs/capstones/robust-data-pipeline', '037'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/capstones/ServerlessStreamingApp',
-        component: ComponentCreator('/docs/capstones/ServerlessStreamingApp', '883'),
-        exact: true
+        component: ComponentCreator('/docs/capstones/ServerlessStreamingApp', 'c99'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/capstones/smartcity',
+        component: ComponentCreator('/docs/capstones/smartcity', 'fd5'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/capstones/smartcity/analytics/flink-cdk',
@@ -778,23 +786,27 @@ export default [
       },
       {
         path: '/docs/capstones/sparkify',
-        component: ComponentCreator('/docs/capstones/sparkify', 'ea8'),
-        exact: true
+        component: ComponentCreator('/docs/capstones/sparkify', '589'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/capstones/spotify',
-        component: ComponentCreator('/docs/capstones/spotify', 'afe'),
-        exact: true
+        component: ComponentCreator('/docs/capstones/spotify', '472'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/capstones/twitter-sentiment-glue',
-        component: ComponentCreator('/docs/capstones/twitter-sentiment-glue', '18b'),
-        exact: true
+        component: ComponentCreator('/docs/capstones/twitter-sentiment-glue', '249'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/capstones/us-immigration',
-        component: ComponentCreator('/docs/capstones/us-immigration', '9d3'),
-        exact: true
+        component: ComponentCreator('/docs/capstones/us-immigration', '9b9'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/casestudies',
@@ -946,6 +958,66 @@ export default [
         sidebar: "docs"
       },
       {
+        path: '/docs/category/aws',
+        component: ComponentCreator('/docs/category/aws', 'e04'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/category/azure',
+        component: ComponentCreator('/docs/category/azure', '120'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/category/capstones',
+        component: ComponentCreator('/docs/category/capstones', '2ba'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/category/case-studies',
+        component: ComponentCreator('/docs/category/case-studies', 'f4e'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/category/data-engineering',
+        component: ComponentCreator('/docs/category/data-engineering', '1ab'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/category/data-modeling',
+        component: ComponentCreator('/docs/category/data-modeling', '832'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/category/developer-essentials',
+        component: ComponentCreator('/docs/category/developer-essentials', 'ac7'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/category/gcp',
+        component: ComponentCreator('/docs/category/gcp', '2ab'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/category/getting-started',
+        component: ComponentCreator('/docs/category/getting-started', '066'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/category/spark-and-hadoop',
+        component: ComponentCreator('/docs/category/spark-and-hadoop', 'a2b'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
         path: '/docs/data-modeling/3nf-data-modeling',
         component: ComponentCreator('/docs/data-modeling/3nf-data-modeling', '7ed'),
         exact: true,
@@ -1012,39 +1084,51 @@ export default [
         sidebar: "docs"
       },
       {
+        path: '/docs/data-modeling/lab-cars-mysql-datamodel',
+        component: ComponentCreator('/docs/data-modeling/lab-cars-mysql-datamodel', '458'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
         path: '/docs/data-modeling/lab-cars-mysql-datamodel/datamodel-cars',
         component: ComponentCreator('/docs/data-modeling/lab-cars-mysql-datamodel/datamodel-cars', 'ef4'),
         exact: true
       },
       {
         path: '/docs/data-modeling/lab-cassandra-digital-music-library',
-        component: ComponentCreator('/docs/data-modeling/lab-cassandra-digital-music-library', 'cbb'),
-        exact: true
+        component: ComponentCreator('/docs/data-modeling/lab-cassandra-digital-music-library', '468'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/data-modeling/lab-cassandra-email-data-model',
-        component: ComponentCreator('/docs/data-modeling/lab-cassandra-email-data-model', '9d8'),
-        exact: true
+        component: ComponentCreator('/docs/data-modeling/lab-cassandra-email-data-model', 'c29'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/data-modeling/lab-cassandra-hotel-reservations',
-        component: ComponentCreator('/docs/data-modeling/lab-cassandra-hotel-reservations', 'd8b'),
-        exact: true
+        component: ComponentCreator('/docs/data-modeling/lab-cassandra-hotel-reservations', '12d'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/data-modeling/lab-cassandra-investment-data-model',
-        component: ComponentCreator('/docs/data-modeling/lab-cassandra-investment-data-model', '225'),
-        exact: true
+        component: ComponentCreator('/docs/data-modeling/lab-cassandra-investment-data-model', '00f'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/data-modeling/lab-cassandra-sensor-data-model',
-        component: ComponentCreator('/docs/data-modeling/lab-cassandra-sensor-data-model', '714'),
-        exact: true
+        component: ComponentCreator('/docs/data-modeling/lab-cassandra-sensor-data-model', '7c4'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/data-modeling/lab-cassandra-shopping-cart-data-model',
-        component: ComponentCreator('/docs/data-modeling/lab-cassandra-shopping-cart-data-model', '675'),
-        exact: true
+        component: ComponentCreator('/docs/data-modeling/lab-cassandra-shopping-cart-data-model', '253'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/data-modeling/lab-disease-diagnosis',
@@ -1053,33 +1137,39 @@ export default [
       },
       {
         path: '/docs/data-modeling/lab-dvd-rental-datamodel',
-        component: ComponentCreator('/docs/data-modeling/lab-dvd-rental-datamodel', '883'),
-        exact: true
+        component: ComponentCreator('/docs/data-modeling/lab-dvd-rental-datamodel', '671'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/data-modeling/lab-google-playstore-datamodel',
-        component: ComponentCreator('/docs/data-modeling/lab-google-playstore-datamodel', '854'),
-        exact: true
+        component: ComponentCreator('/docs/data-modeling/lab-google-playstore-datamodel', 'a10'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/data-modeling/lab-inegi-snowflake-datamodel',
-        component: ComponentCreator('/docs/data-modeling/lab-inegi-snowflake-datamodel', '086'),
-        exact: true
+        component: ComponentCreator('/docs/data-modeling/lab-inegi-snowflake-datamodel', 'e1d'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/data-modeling/lab-mysql-northwind-datamodel',
-        component: ComponentCreator('/docs/data-modeling/lab-mysql-northwind-datamodel', 'df8'),
-        exact: true
+        component: ComponentCreator('/docs/data-modeling/lab-mysql-northwind-datamodel', 'b43'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/data-modeling/lab-mysql-retail-store-datamodel',
-        component: ComponentCreator('/docs/data-modeling/lab-mysql-retail-store-datamodel', 'c1a'),
-        exact: true
+        component: ComponentCreator('/docs/data-modeling/lab-mysql-retail-store-datamodel', 'c2a'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/data-modeling/lab-postgres-busrapid-transit',
-        component: ComponentCreator('/docs/data-modeling/lab-postgres-busrapid-transit', 'b1d'),
-        exact: true
+        component: ComponentCreator('/docs/data-modeling/lab-postgres-busrapid-transit', '641'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/data-modeling/lab-postgres-demographics-datamodel',
@@ -1088,18 +1178,21 @@ export default [
       },
       {
         path: '/docs/data-modeling/lab-postgres-elt-datamodel',
-        component: ComponentCreator('/docs/data-modeling/lab-postgres-elt-datamodel', 'a97'),
-        exact: true
+        component: ComponentCreator('/docs/data-modeling/lab-postgres-elt-datamodel', '4be'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/data-modeling/lab-postgres-ewallet-datamodel',
-        component: ComponentCreator('/docs/data-modeling/lab-postgres-ewallet-datamodel', '49a'),
-        exact: true
+        component: ComponentCreator('/docs/data-modeling/lab-postgres-ewallet-datamodel', 'ce7'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/data-modeling/lab-postgres-housing-cdc-scd',
-        component: ComponentCreator('/docs/data-modeling/lab-postgres-housing-cdc-scd', '326'),
-        exact: true
+        component: ComponentCreator('/docs/data-modeling/lab-postgres-housing-cdc-scd', '6fc'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/data-modeling/lab-sales-datamodel',
@@ -1107,9 +1200,16 @@ export default [
         exact: true
       },
       {
+        path: '/docs/data-modeling/lab-snowflake-creditdebit-datamodel',
+        component: ComponentCreator('/docs/data-modeling/lab-snowflake-creditdebit-datamodel', '9ea'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
         path: '/docs/data-modeling/lab-sparkify-data-model-postgres',
-        component: ComponentCreator('/docs/data-modeling/lab-sparkify-data-model-postgres', '4db'),
-        exact: true
+        component: ComponentCreator('/docs/data-modeling/lab-sparkify-data-model-postgres', 'd61'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/data-modeling/normalization-vs-denormalization',
@@ -1810,14 +1910,8 @@ export default [
         sidebar: "docs"
       },
       {
-        path: '/docs/foundations/cloud/cloud-basics',
-        component: ComponentCreator('/docs/foundations/cloud/cloud-basics', '8ca'),
-        exact: true,
-        sidebar: "docs"
-      },
-      {
-        path: '/docs/foundations/cloud/cloud-comparison',
-        component: ComponentCreator('/docs/foundations/cloud/cloud-comparison', '3a7'),
+        path: '/docs/foundations/cloud/cloud-computing',
+        component: ComponentCreator('/docs/foundations/cloud/cloud-computing', 'ca6'),
         exact: true,
         sidebar: "docs"
       },
@@ -2421,6 +2515,43 @@ export default [
         sidebar: "docs"
       },
       {
+        path: '/docs/interviewprep',
+        component: ComponentCreator('/docs/interviewprep', '029'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/interviewprep/algorithm-problems',
+        component: ComponentCreator('/docs/interviewprep/algorithm-problems', '5a4'),
+        exact: true
+      },
+      {
+        path: '/docs/interviewprep/azure-data-engineering',
+        component: ComponentCreator('/docs/interviewprep/azure-data-engineering', '382'),
+        exact: true
+      },
+      {
+        path: '/docs/interviewprep/basic-technical-questions',
+        component: ComponentCreator('/docs/interviewprep/basic-technical-questions', '493'),
+        exact: true
+      },
+      {
+        path: '/docs/interviewprep/behavioral-interview-questions',
+        component: ComponentCreator('/docs/interviewprep/behavioral-interview-questions', '8c1'),
+        exact: true
+      },
+      {
+        path: '/docs/interviewprep/behavioral-questions',
+        component: ComponentCreator('/docs/interviewprep/behavioral-questions', '4e3'),
+        exact: true
+      },
+      {
+        path: '/docs/interviewprep/resume-buildup',
+        component: ComponentCreator('/docs/interviewprep/resume-buildup', '030'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
         path: '/docs/introduction',
         component: ComponentCreator('/docs/introduction', '00f'),
         exact: true,
@@ -2457,6 +2588,33 @@ export default [
       {
         path: '/docs/mathematics/statistics/sampling',
         component: ComponentCreator('/docs/mathematics/statistics/sampling', 'f9f'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/misc/explore-further',
+        component: ComponentCreator('/docs/misc/explore-further', '60f'),
+        exact: true
+      },
+      {
+        path: '/docs/misc/extras',
+        component: ComponentCreator('/docs/misc/extras', '526'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/misc/pending-topics',
+        component: ComponentCreator('/docs/misc/pending-topics', 'da9'),
+        exact: true
+      },
+      {
+        path: '/docs/misc/readme_archive',
+        component: ComponentCreator('/docs/misc/readme_archive', 'e70'),
+        exact: true
+      },
+      {
+        path: '/docs/misc/resources',
+        component: ComponentCreator('/docs/misc/resources', '807'),
         exact: true,
         sidebar: "docs"
       },
@@ -2641,8 +2799,9 @@ export default [
       },
       {
         path: '/docs/processing/apache-flink',
-        component: ComponentCreator('/docs/processing/apache-flink', '678'),
-        exact: true
+        component: ComponentCreator('/docs/processing/apache-flink', '786'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/apache-kafka',
@@ -2805,8 +2964,9 @@ export default [
       },
       {
         path: '/docs/processing/dbt',
-        component: ComponentCreator('/docs/processing/dbt', '5e1'),
-        exact: true
+        component: ComponentCreator('/docs/processing/dbt', '088'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/gcp-dataproc',
@@ -2870,8 +3030,9 @@ export default [
       },
       {
         path: '/docs/processing/lab-dbt-jaffle-shop',
-        component: ComponentCreator('/docs/processing/lab-dbt-jaffle-shop', 'cd4'),
-        exact: true
+        component: ComponentCreator('/docs/processing/lab-dbt-jaffle-shop', 'bbc'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/lab-dbt-jaffle-shop/models/docs',
@@ -2885,13 +3046,15 @@ export default [
       },
       {
         path: '/docs/processing/lab-dbt-knoema',
-        component: ComponentCreator('/docs/processing/lab-dbt-knoema', '34b'),
-        exact: true
+        component: ComponentCreator('/docs/processing/lab-dbt-knoema', 'c23'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/lab-dbt-nyctaxi',
-        component: ComponentCreator('/docs/processing/lab-dbt-nyctaxi', '756'),
-        exact: true
+        component: ComponentCreator('/docs/processing/lab-dbt-nyctaxi', '9aa'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/lab-dbt-nyctaxi-lookup',
@@ -2900,8 +3063,9 @@ export default [
       },
       {
         path: '/docs/processing/lab-dbt-olist',
-        component: ComponentCreator('/docs/processing/lab-dbt-olist', 'a3a'),
-        exact: true
+        component: ComponentCreator('/docs/processing/lab-dbt-olist', 'e63'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/lab-dbt-olist/models/staging/olist/stg_ecommerce',
@@ -2910,22 +3074,49 @@ export default [
       },
       {
         path: '/docs/processing/lab-dbt-stackexchnge',
-        component: ComponentCreator('/docs/processing/lab-dbt-stackexchnge', '3d9'),
-        exact: true
+        component: ComponentCreator('/docs/processing/lab-dbt-stackexchnge', '428'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/lab-dbt-tickit',
-        component: ComponentCreator('/docs/processing/lab-dbt-tickit', '49d'),
-        exact: true
+        component: ComponentCreator('/docs/processing/lab-dbt-tickit', '5d7'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/lab-dbt-tpch',
-        component: ComponentCreator('/docs/processing/lab-dbt-tpch', '9ae'),
-        exact: true
+        component: ComponentCreator('/docs/processing/lab-dbt-tpch', '2b6'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/lab-emr-serverless',
         component: ComponentCreator('/docs/processing/lab-emr-serverless', '858'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/processing/lab-flink-kafka-sink',
+        component: ComponentCreator('/docs/processing/lab-flink-kafka-sink', '6aa'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/processing/lab-flink-kafka-source',
+        component: ComponentCreator('/docs/processing/lab-flink-kafka-source', 'd20'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/processing/lab-flink-taxi-pricing',
+        component: ComponentCreator('/docs/processing/lab-flink-taxi-pricing', '3fc'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/processing/lab-flink-twitter-stream-processing',
+        component: ComponentCreator('/docs/processing/lab-flink-twitter-stream-processing', '084'),
         exact: true,
         sidebar: "docs"
       },
@@ -3021,18 +3212,21 @@ export default [
       },
       {
         path: '/docs/processing/lab-kafka-cli',
-        component: ComponentCreator('/docs/processing/lab-kafka-cli', '1de'),
-        exact: true
+        component: ComponentCreator('/docs/processing/lab-kafka-cli', '402'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/lab-kafka-fraud-detection',
-        component: ComponentCreator('/docs/processing/lab-kafka-fraud-detection', '017'),
-        exact: true
+        component: ComponentCreator('/docs/processing/lab-kafka-fraud-detection', '953'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/lab-kafka-nyctaxi',
-        component: ComponentCreator('/docs/processing/lab-kafka-nyctaxi', 'de5'),
-        exact: true
+        component: ComponentCreator('/docs/processing/lab-kafka-nyctaxi', 'a5c'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/lab-kafka-nyctaxi/assets',
@@ -3041,23 +3235,33 @@ export default [
       },
       {
         path: '/docs/processing/lab-kafka-python',
-        component: ComponentCreator('/docs/processing/lab-kafka-python', '43f'),
-        exact: true
+        component: ComponentCreator('/docs/processing/lab-kafka-python', 'b92'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/processing/lab-kafka-python-ecs',
+        component: ComponentCreator('/docs/processing/lab-kafka-python-ecs', 'a76'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/lab-kafka-spark-streaming',
-        component: ComponentCreator('/docs/processing/lab-kafka-spark-streaming', '457'),
-        exact: true
+        component: ComponentCreator('/docs/processing/lab-kafka-spark-streaming', '9bf'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/lab-kafka-stock-market',
-        component: ComponentCreator('/docs/processing/lab-kafka-stock-market', 'b08'),
-        exact: true
+        component: ComponentCreator('/docs/processing/lab-kafka-stock-market', '501'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/lab-kafka-toll-analysis',
-        component: ComponentCreator('/docs/processing/lab-kafka-toll-analysis', '47a'),
-        exact: true
+        component: ComponentCreator('/docs/processing/lab-kafka-toll-analysis', 'af4'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/lab-kinesis-apache-logs',
@@ -3091,23 +3295,27 @@ export default [
       },
       {
         path: '/docs/processing/lab-snowpark-churnpark',
-        component: ComponentCreator('/docs/processing/lab-snowpark-churnpark', 'a46'),
-        exact: true
+        component: ComponentCreator('/docs/processing/lab-snowpark-churnpark', 'db2'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/lab-snowpark-dbtsnowpy',
-        component: ComponentCreator('/docs/processing/lab-snowpark-dbtsnowpy', '688'),
-        exact: true
+        component: ComponentCreator('/docs/processing/lab-snowpark-dbtsnowpy', 'd4f'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/lab-snowpark-fifapark',
-        component: ComponentCreator('/docs/processing/lab-snowpark-fifapark', '5e6'),
-        exact: true
+        component: ComponentCreator('/docs/processing/lab-snowpark-fifapark', 'ce1'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/lab-snowpark-jafflepark',
-        component: ComponentCreator('/docs/processing/lab-snowpark-jafflepark', '2a2'),
-        exact: true
+        component: ComponentCreator('/docs/processing/lab-snowpark-jafflepark', '183'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/lab-snowpark-jafflepark/models/docs',
@@ -3116,13 +3324,15 @@ export default [
       },
       {
         path: '/docs/processing/lab-snowpark-knoema-regression',
-        component: ComponentCreator('/docs/processing/lab-snowpark-knoema-regression', '881'),
-        exact: true
+        component: ComponentCreator('/docs/processing/lab-snowpark-knoema-regression', '843'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/project-kafka-ikea',
-        component: ComponentCreator('/docs/processing/project-kafka-ikea', 'a58'),
-        exact: true
+        component: ComponentCreator('/docs/processing/project-kafka-ikea', 'a6e'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/processing/ray',
@@ -3132,8 +3342,9 @@ export default [
       },
       {
         path: '/docs/processing/snowpark',
-        component: ComponentCreator('/docs/processing/snowpark', 'a92'),
-        exact: true
+        component: ComponentCreator('/docs/processing/snowpark', '852'),
+        exact: true,
+        sidebar: "docs"
       },
       {
         path: '/docs/storage/apache-couchdb',

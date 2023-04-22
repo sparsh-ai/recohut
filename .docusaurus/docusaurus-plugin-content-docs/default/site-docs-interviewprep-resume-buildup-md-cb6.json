@@ -1,0 +1,26 @@
+{
+  "unversionedId": "interviewprep/resume-buildup",
+  "id": "interviewprep/resume-buildup",
+  "title": "Resume Buildup",
+  "description": "Expert Tips to Perfect Your Data Engineer Resume",
+  "source": "@site/docs/interviewprep/resume-buildup.md",
+  "sourceDirName": "interviewprep",
+  "slug": "/interviewprep/resume-buildup",
+  "permalink": "/docs/interviewprep/resume-buildup",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Interview Preparation",
+    "permalink": "/docs/interviewprep/"
+  },
+  "next": {
+    "title": "Resources",
+    "permalink": "/docs/misc/resources"
+  }
+}

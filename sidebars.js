@@ -250,8 +250,7 @@ const sidebars = {
       ]},
     ]},
     {type: 'category', label: 'Data Processing', items: [
-      {type: 'category', label: 'Databricks', items: [
-        'processing/databricks/README',
+      {type: 'category', label: 'Databricks', link: {type: 'doc', id: 'processing/databricks/README'}, items: [
         'processing/databricks/lab-cybersecurity-databricks/README',
         'processing/databricks/lab-databricks-clickstream/README',
         'processing/databricks/lab-databricks-deltalake/README',
@@ -268,8 +267,7 @@ const sidebars = {
         'processing/databricks/project-bedbricks/README',
         'processing/databricks/project-databricks-superset/README',
       ]},
-      {type: 'category', label: 'AWS EMR', items: [
-        'processing/aws-emr',
+      {type: 'category', label: 'AWS EMR', link: {type: 'doc', id: 'processing/aws-emr'}, items: [
         'processing/lab-emr-serverless/README',
       ]},
       {type: 'category', label: 'AWS Glue Studio', items: [
@@ -279,18 +277,15 @@ const sidebars = {
         'processing/lab-glue-studio-tickets/README',
         'processing/lab-csv-to-parquet-conversion/README',
       ]},
-      {type: 'category', label: 'AWS Lambda Function', items: [
-        'processing/aws-lambda',
+      {type: 'category', label: 'AWS Lambda Function', link: {type: 'doc', id: 'processing/aws-lambda'}, items: [
         'processing/aws-lambda-snippets',
         'processing/lab-lambda-csv-parquet/README',
       ]},
-      {type: 'category', label: 'Amazon Kinesis', items: [
-        'processing/aws-kinesis',
+      {type: 'category', label: 'Amazon Kinesis', link: {type: 'doc', id: 'processing/aws-kinesis'}, items: [
         'processing/lab-kinesis-apache-logs/README',
         'processing/lab-kinesis-clickstream-anomaly/README',
       ]},
-      {type: 'category', label: 'Apache Beam', items: [
-        'processing/apache-beam',
+      {type: 'category', label: 'Apache Beam', link: {type: 'doc', id: 'processing/apache-beam'}, items: [
         'processing/lab-getting-started-with-beam/README',
         'processing/lab-gcp-beam-mapreduce/README',
       ]},
@@ -302,20 +297,17 @@ const sidebars = {
         'processing/lab-gcp-serverless-dataflow',
         'processing/lab-dataflow-bigquery-etl',
       ]},
-      {type: 'category', label: 'Ray', items: [
-        'processing/ray',
+      {type: 'category', label: 'Ray', link: {type: 'doc', id: 'processing/ray'}, items: [
         'processing/lab-ray-core-basics/README',
         'processing/lab-ray-air-basics/README',
       ]},
-      {type: 'category', label: 'GCP Dataproc', items: [
-        'processing/gcp-dataproc',
+      {type: 'category', label: 'GCP Dataproc', link: {type: 'doc', id: 'processing/gcp-dataproc'}, items: [
         'processing/lab-gcp-dataproc/README',
       ]},
       {type: 'category', label: 'Azure HDInsight', items: [
         'processing/lab-azure-hdinsight-simple-data-processing/README',
       ]},
-      {type: 'category', label: 'Azure Synapse Analytics', items: [
-        'processing/azure-synapse-analytics',
+      {type: 'category', label: 'Azure Synapse Analytics', link: {type: 'doc', id: 'processing/azure-synapse-analytics'}, items: [
         'processing/lab-azure-synapse-dataflows/README',
         'processing/lab-azure-synapse-data-processing/README',
         'processing/lab-azure-synapse-implementing-star-schema/README',
@@ -323,8 +315,7 @@ const sidebars = {
       {type: 'category', label: 'GCP Dataprep', items: [
         'processing/lab-gcp-dataprep',
       ]},
-      {type: 'category', label: 'GCP PubSub', items: [
-        'processing/gcp-pubsub',
+      {type: 'category', label: 'GCP PubSub', link: {type: 'doc', id: 'processing/gcp-pubsub'}, items: [
         'processing/lab-gcp-pubsub',
         'processing/lab-gcp-pubsub-processing',
       ]},
@@ -340,6 +331,28 @@ const sidebars = {
         'processing/lab-kafka-stock-market/README',
         'processing/lab-kafka-toll-analysis/README',
         'processing/project-kafka-ikea/README',
+      ]},
+      {type: 'category', label: 'Apache Flink', link: {type: 'doc', id: 'processing/apache-flink'}, items: [
+        'processing/lab-flink-taxi-pricing/README',
+        'processing/lab-flink-twitter-stream-processing/README',
+        'processing/lab-flink-kafka-sink/README',
+        'processing/lab-flink-kafka-source/README',
+      ]},
+      {type: 'category', label: 'dbt', link: {type: 'doc', id: 'processing/dbt'}, items: [
+        'processing/lab-dbt-nyctaxi/README',
+        'processing/lab-dbt-jaffle-shop/README',
+        'processing/lab-dbt-knoema/README',
+        'processing/lab-dbt-olist/README',
+        'processing/lab-dbt-stackexchnge/README',
+        'processing/lab-dbt-tickit/README',
+        'processing/lab-dbt-tpch/README',
+      ]},
+      {type: 'category', label: 'Snowpark', link: {type: 'doc', id: 'processing/snowpark'}, items: [
+        'processing/lab-snowpark-churnpark/README',
+        'processing/lab-snowpark-dbtsnowpy/README',
+        'processing/lab-snowpark-fifapark/README',
+        'processing/lab-snowpark-jafflepark/README',
+        'processing/lab-snowpark-knoema-regression/README',
       ]},
     ]},
     {type: 'category', label: 'Data Modeling', link: {type: 'generated-index'}, items: [
@@ -372,6 +385,11 @@ const sidebars = {
       ]},
       {type: 'category', label: 'NoSQL Data Modeling', link: {type: 'doc', id: 'data-modeling/nosql-data-modeling'}, items: [
         'data-modeling/lab-cassandra-digital-music-library/README',
+        'data-modeling/lab-cassandra-email-data-model/README',
+        'data-modeling/lab-cassandra-hotel-reservations/README',
+        'data-modeling/lab-cassandra-investment-data-model/README',
+        'data-modeling/lab-cassandra-sensor-data-model/README',
+        'data-modeling/lab-cassandra-shopping-cart-data-model/README',
       ]},
     ]},
     {type: 'category', label: 'Data Extraction', items: [
@@ -386,14 +404,12 @@ const sidebars = {
       {type: 'category', label: 'Airflow', items: [
         'orchestration/airflow/README',
       ]},
-      {type: 'category', label: 'Azure Data Factory', items: [
-        'orchestration/azure-data-factory/README',
+      {type: 'category', label: 'Azure Data Factory', link: {type: 'doc', id: 'orchestration/azure-data-factory/README'} ,items: [
         'orchestration/azure-data-factory/lab-adf-incremental-loading/README',
         'orchestration/azure-data-factory/lab-batch-processing-solution/README',
         'orchestration/azure-data-factory/lab-data-ingestion-pipeline/README',
       ]},
-      {type: 'category', label: 'GCP Cloud DataFusion', items: [
-        'orchestration/datafusion/README',
+      {type: 'category', label: 'GCP Cloud DataFusion', link: {type: 'doc', id: 'orchestration/datafusion/README'}, items: [
         'orchestration/datafusion/lab-datafusion-pipeline/README',
       ]},
       {type: 'category', label: 'AWS Step Functions', items: [
@@ -426,10 +442,7 @@ const sidebars = {
         'devops/iac/README',
       ]},
     ]},
-    {type: 'category', label: 'Mathematics', items: [
-      {type: 'category', label: 'Basics', items: [
-        'mathematics/README',
-      ]},
+    {type: 'category', label: 'Mathematics', link: {type: 'doc', id: 'mathematics/README'}, items: [
       {type: 'category', label: 'Probability', items: [
         'mathematics/probability/probability-distributions',
         'mathematics/probability/rules-of-probability',
@@ -472,7 +485,7 @@ const sidebars = {
       ]},
     ]},
     {type: 'category', label: 'Extras', items: [
-      {type: 'category', label: 'Case Studies', items: [
+      {type: 'category', label: 'Case Studies', link: {type: 'generated-index'}, items: [
         'casestudies/99group',
         'casestudies/airbnb',
         'casestudies/amazon',
@@ -498,6 +511,39 @@ const sidebars = {
         'casestudies/webshoes',
         'casestudies/woot',
       ]},
+      {type: 'category', label: 'Capstones', link: {type: 'generated-index'}, items: [
+        'capstones/ServerlessStreamingApp/README',
+        'capstones/acled/README',
+        'capstones/citibike-trip-histories/README',
+        'capstones/city-pollution/README',
+        'capstones/city-traffic-drone/README',
+        'capstones/climate/README',
+        'capstones/cloudmaze/README',
+        'capstones/dbt-redshift/README',
+        'capstones/digitalskola/README',
+        'capstones/disaster-response/README',
+        'capstones/funflix/README',
+        'capstones/hmc/README',
+        'capstones/kinesis-flink-beam/README',
+        'capstones/kinesis-flink-etl/README',
+        'capstones/kortex/README',
+        'capstones/lufthansa/README',
+        'capstones/movie-sentiment/README',
+        'capstones/multi-touch-attribution/README',
+        'capstones/recofront/README',
+        'capstones/reddit/README',
+        'capstones/redshield/README',
+        'capstones/robust-data-pipeline/README',
+        'capstones/smartcity/README',
+        'capstones/sparkify/README',
+        'capstones/spotify/README',
+        'capstones/twitter-sentiment-glue/README',
+        'capstones/us-immigration/README',
+      ]},
+      'interviewprep/README',
+      'interviewprep/resume-buildup',
+      'misc/resources',
+      'misc/extras',
     ]},
   ],
 };

@@ -1,0 +1,15 @@
+{
+  "title": "Capstones",
+  "slug": "/category/capstones",
+  "permalink": "/docs/category/capstones",
+  "navigation": {
+    "previous": {
+      "title": "Woot.com",
+      "permalink": "/docs/casestudies/woot"
+    },
+    "next": {
+      "title": "Serverless Streaming Data on AWS",
+      "permalink": "/docs/capstones/ServerlessStreamingApp/"
+    }
+  }
+}

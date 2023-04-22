@@ -1,7 +1,7 @@
 {
   "unversionedId": "data-modeling/lab-postgres-ewallet-datamodel/README",
   "id": "data-modeling/lab-postgres-ewallet-datamodel/README",
-  "title": "Postgres ewallet Datamodel",
+  "title": "Lab: Postgres e-Wallet Data Model",
   "description": "In this lab, we will design a data model for an eWallet company.",
   "source": "@site/docs/04-data-modeling/lab-postgres-ewallet-datamodel/README.md",
   "sourceDirName": "04-data-modeling/lab-postgres-ewallet-datamodel",
@@ -10,8 +10,17 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {}
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Create Fact and Dimension Tables from Denormalized Raw Data",
+    "permalink": "/docs/data-modeling/lab-postgres-elt-datamodel/"
+  },
+  "next": {
+    "title": "Lab: Housing Data Model with CDC and SCD Type 2",
+    "permalink": "/docs/data-modeling/lab-postgres-housing-cdc-scd/"
+  }
 }

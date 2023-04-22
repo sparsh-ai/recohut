@@ -10,8 +10,17 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {}
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Create a Data Model for an Email System",
+    "permalink": "/docs/data-modeling/lab-cassandra-email-data-model/"
+  },
+  "next": {
+    "title": "Create a Data Model for Investment Accounts or Portfolios",
+    "permalink": "/docs/data-modeling/lab-cassandra-investment-data-model/"
+  }
 }

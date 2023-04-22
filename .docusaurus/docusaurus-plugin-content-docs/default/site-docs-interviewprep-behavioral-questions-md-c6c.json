@@ -1,0 +1,17 @@
+{
+  "unversionedId": "interviewprep/behavioral-questions",
+  "id": "interviewprep/behavioral-questions",
+  "title": "Behavioral Questions",
+  "description": "Tell me about yourself",
+  "source": "@site/docs/interviewprep/behavioral-questions.md",
+  "sourceDirName": "interviewprep",
+  "slug": "/interviewprep/behavioral-questions",
+  "permalink": "/docs/interviewprep/behavioral-questions",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
+}

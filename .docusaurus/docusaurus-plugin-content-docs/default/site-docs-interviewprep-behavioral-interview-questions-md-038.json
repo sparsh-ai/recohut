@@ -1,0 +1,17 @@
+{
+  "unversionedId": "interviewprep/behavioral-interview-questions",
+  "id": "interviewprep/behavioral-interview-questions",
+  "title": "Behavioral Interview Questions",
+  "description": "Behavioral questions assess soft skills (e.g., communication, leadership, adaptability), your skill level, and how you fit into the company’s data engineering team.",
+  "source": "@site/docs/interviewprep/behavioral-interview-questions.md",
+  "sourceDirName": "interviewprep",
+  "slug": "/interviewprep/behavioral-interview-questions",
+  "permalink": "/docs/interviewprep/behavioral-interview-questions",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
+}

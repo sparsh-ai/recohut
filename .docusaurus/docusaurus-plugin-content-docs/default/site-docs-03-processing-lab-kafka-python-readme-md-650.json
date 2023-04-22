@@ -1,8 +1,8 @@
 {
   "unversionedId": "processing/lab-kafka-python/README",
   "id": "processing/lab-kafka-python/README",
-  "title": "Getting started with Kafka and Python",
-  "description": "",
+  "title": "Lab: Getting started with Kafka and Python",
+  "description": "Files",
   "source": "@site/docs/03-processing/lab-kafka-python/README.md",
   "sourceDirName": "03-processing/lab-kafka-python",
   "slug": "/processing/lab-kafka-python/",
@@ -10,8 +10,17 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {}
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Getting started with Kafka and CLI",
+    "permalink": "/docs/processing/lab-kafka-cli/"
+  },
+  "next": {
+    "title": "Lab: Confluent Kafka with Python",
+    "permalink": "/docs/processing/lab-confluent-python/"
+  }
 }

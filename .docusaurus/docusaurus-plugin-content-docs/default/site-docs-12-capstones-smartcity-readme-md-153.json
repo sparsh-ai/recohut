@@ -1,0 +1,26 @@
+{
+  "unversionedId": "capstones/smartcity/README",
+  "id": "capstones/smartcity/README",
+  "title": "Smartcity",
+  "description": "Files",
+  "source": "@site/docs/12-capstones/smartcity/README.md",
+  "sourceDirName": "12-capstones/smartcity",
+  "slug": "/capstones/smartcity/",
+  "permalink": "/docs/capstones/smartcity/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Data Pipeline with dbt, Airflow and Great Expectations",
+    "permalink": "/docs/capstones/robust-data-pipeline/"
+  },
+  "next": {
+    "title": "Sparkify",
+    "permalink": "/docs/capstones/sparkify/"
+  }
+}

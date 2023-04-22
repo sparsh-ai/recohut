@@ -10,14 +10,14 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681451444,
-  "formattedLastUpdatedAt": "Apr 14, 2023",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
   "sidebar": "docs",
   "previous": {
-    "title": "Lab: Create AWS EC2 instance",
-    "permalink": "/docs/foundations/cloud/lab-create-your-first-ec2-instance-linux/"
+    "title": "GCP",
+    "permalink": "/docs/category/gcp"
   },
   "next": {
     "title": "GCP Setup",

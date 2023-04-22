@@ -1,0 +1,17 @@
+{
+  "unversionedId": "interviewprep/azure-data-engineering",
+  "id": "interviewprep/azure-data-engineering",
+  "title": "Azure Data Engineering",
+  "description": "Case study - data lake",
+  "source": "@site/docs/interviewprep/azure-data-engineering.md",
+  "sourceDirName": "interviewprep",
+  "slug": "/interviewprep/azure-data-engineering",
+  "permalink": "/docs/interviewprep/azure-data-engineering",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
+}

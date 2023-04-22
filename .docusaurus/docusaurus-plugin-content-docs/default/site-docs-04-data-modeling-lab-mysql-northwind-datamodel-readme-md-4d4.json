@@ -1,7 +1,7 @@
 {
   "unversionedId": "data-modeling/lab-mysql-northwind-datamodel/README",
   "id": "data-modeling/lab-mysql-northwind-datamodel/README",
-  "title": "Data Modeling",
+  "title": "Lab: Northwind Data Model in MySQL",
   "description": "Process Flow",
   "source": "@site/docs/04-data-modeling/lab-mysql-northwind-datamodel/README.md",
   "sourceDirName": "04-data-modeling/lab-mysql-northwind-datamodel",
@@ -10,8 +10,17 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {}
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Inegi Snowflake Datamodel",
+    "permalink": "/docs/data-modeling/lab-inegi-snowflake-datamodel/"
+  },
+  "next": {
+    "title": "Lab: Retail Store Data Model in MySQL",
+    "permalink": "/docs/data-modeling/lab-mysql-retail-store-datamodel/"
+  }
 }

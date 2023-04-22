@@ -1,0 +1,15 @@
+{
+  "title": "Data Engineering",
+  "slug": "/category/data-engineering",
+  "permalink": "/docs/category/data-engineering",
+  "navigation": {
+    "previous": {
+      "title": "Getting Started",
+      "permalink": "/docs/category/getting-started"
+    },
+    "next": {
+      "title": "Basics",
+      "permalink": "/docs/foundations/basics/de-basics"
+    }
+  }
+}

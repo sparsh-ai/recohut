@@ -10,9 +10,9 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681732641,
-  "formattedLastUpdatedAt": "Apr 17, 2023",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
   "sidebar": "docs",
   "previous": {
@@ -20,7 +20,7 @@
     "permalink": "/docs/processing/lab-confluent-python/"
   },
   "next": {
-    "title": "SQL Data Modeling",
-    "permalink": "/docs/data-modeling/sql-data-modeling"
+    "title": "Lab: Real-time fraud detection by applying filter in Kafka topic",
+    "permalink": "/docs/processing/lab-kafka-fraud-detection/"
   }
 }

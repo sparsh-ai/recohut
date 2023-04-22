@@ -18,125 +18,6 @@
           "contentPathLocalized": "/Users/sparshagarwal/Desktop/projects/de/de-main/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
-              "unversionedId": "a1-interviewprep/algorithm-problems",
-              "id": "a1-interviewprep/algorithm-problems",
-              "title": "Algorithm Problems",
-              "description": "1. https://leetcode.com/problems/two-sum/",
-              "source": "@site/docs/a1-interviewprep/algorithm-problems.md",
-              "sourceDirName": "a1-interviewprep",
-              "slug": "/a1-interviewprep/algorithm-problems",
-              "permalink": "/docs/a1-interviewprep/algorithm-problems",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "lastUpdatedBy": "Author",
-              "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
-            },
-            {
-              "unversionedId": "a1-interviewprep/azure-data-engineering",
-              "id": "a1-interviewprep/azure-data-engineering",
-              "title": "Azure Data Engineering",
-              "description": "Case study - data lake",
-              "source": "@site/docs/a1-interviewprep/azure-data-engineering.md",
-              "sourceDirName": "a1-interviewprep",
-              "slug": "/a1-interviewprep/azure-data-engineering",
-              "permalink": "/docs/a1-interviewprep/azure-data-engineering",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "lastUpdatedBy": "Author",
-              "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
-            },
-            {
-              "unversionedId": "a1-interviewprep/basic-technical-questions",
-              "id": "a1-interviewprep/basic-technical-questions",
-              "title": "Basic Technical Questions",
-              "description": "Interviewers use easy technical questions designed to weed out candidates without the right experience. This question assesses your experience level, comfort with specific tools, and the depth of your domain expertise. Basic technical questions include:",
-              "source": "@site/docs/a1-interviewprep/basic-technical-questions.md",
-              "sourceDirName": "a1-interviewprep",
-              "slug": "/a1-interviewprep/basic-technical-questions",
-              "permalink": "/docs/a1-interviewprep/basic-technical-questions",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "lastUpdatedBy": "Author",
-              "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
-            },
-            {
-              "unversionedId": "a1-interviewprep/behavioral-interview-questions",
-              "id": "a1-interviewprep/behavioral-interview-questions",
-              "title": "Behavioral Interview Questions",
-              "description": "Behavioral questions assess soft skills (e.g., communication, leadership, adaptability), your skill level, and how you fit into the company’s data engineering team.",
-              "source": "@site/docs/a1-interviewprep/behavioral-interview-questions.md",
-              "sourceDirName": "a1-interviewprep",
-              "slug": "/a1-interviewprep/behavioral-interview-questions",
-              "permalink": "/docs/a1-interviewprep/behavioral-interview-questions",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "lastUpdatedBy": "Author",
-              "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
-            },
-            {
-              "unversionedId": "a1-interviewprep/behavioral-questions",
-              "id": "a1-interviewprep/behavioral-questions",
-              "title": "Behavioral Questions",
-              "description": "Tell me about yourself",
-              "source": "@site/docs/a1-interviewprep/behavioral-questions.md",
-              "sourceDirName": "a1-interviewprep",
-              "slug": "/a1-interviewprep/behavioral-questions",
-              "permalink": "/docs/a1-interviewprep/behavioral-questions",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "lastUpdatedBy": "Author",
-              "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
-            },
-            {
-              "unversionedId": "a1-interviewprep/README",
-              "id": "a1-interviewprep/README",
-              "title": "Interview Preparation",
-              "description": "Whether you’re just getting into the data engineer job market or your interview is tomorrow, practice is an essential part of the interview preparation process for a data engineer. Data engineering interview questions assess your data engineering skills and domain expertise. They are based on a company’s tech stack and technology goals, and they test your ability to perform job functions. In an interview for any Engineering role, the interviewer wants to understand if you have good analytical skills, problem-solving ability, communication, work culture and ability to build technical solutions. Specific to Data Engineering, they also want to understand if you have the skills to handle large data and build scalable and robust systems.",
-              "source": "@site/docs/a1-interviewprep/README.md",
-              "sourceDirName": "a1-interviewprep",
-              "slug": "/a1-interviewprep/",
-              "permalink": "/docs/a1-interviewprep/",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "lastUpdatedBy": "Author",
-              "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
-            },
-            {
-              "unversionedId": "a1-interviewprep/resume-buildup",
-              "id": "a1-interviewprep/resume-buildup",
-              "title": "Resume Buildup",
-              "description": "Expert Tips to Perfect Your Data Engineer Resume",
-              "source": "@site/docs/a1-interviewprep/resume-buildup.md",
-              "sourceDirName": "a1-interviewprep",
-              "slug": "/a1-interviewprep/resume-buildup",
-              "permalink": "/docs/a1-interviewprep/resume-buildup",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "lastUpdatedBy": "Author",
-              "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
-            },
-            {
               "unversionedId": "assignments/bellabeat-analysis/README",
               "id": "assignments/bellabeat-analysis/README",
               "title": "Bellabeat Case Study",
@@ -290,23 +171,6 @@
               "frontMatter": {}
             },
             {
-              "unversionedId": "assignments/README",
-              "id": "assignments/README",
-              "title": "Assignments",
-              "description": "",
-              "source": "@site/docs/11-assignments/README.md",
-              "sourceDirName": "11-assignments",
-              "slug": "/assignments/",
-              "permalink": "/docs/assignments/",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "lastUpdatedBy": "Author",
-              "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
-            },
-            {
               "unversionedId": "assignments/sakila/README",
               "id": "assignments/sakila/README",
               "title": "Batch and Stream Unified analytics for Sakila Music Company",
@@ -392,74 +256,6 @@
               "frontMatter": {}
             },
             {
-              "unversionedId": "b3-misc/explore-further",
-              "id": "b3-misc/explore-further",
-              "title": "Explore Further",
-              "description": "Basic Concepts",
-              "source": "@site/docs/b3-misc/explore-further.md",
-              "sourceDirName": "b3-misc",
-              "slug": "/b3-misc/explore-further",
-              "permalink": "/docs/b3-misc/explore-further",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "lastUpdatedBy": "Author",
-              "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
-            },
-            {
-              "unversionedId": "b3-misc/extras",
-              "id": "b3-misc/extras",
-              "title": "Extras",
-              "description": "Data, analytics and AI maturity curve",
-              "source": "@site/docs/b3-misc/extras.md",
-              "sourceDirName": "b3-misc",
-              "slug": "/b3-misc/extras",
-              "permalink": "/docs/b3-misc/extras",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "lastUpdatedBy": "Author",
-              "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
-            },
-            {
-              "unversionedId": "b3-misc/readme_archive",
-              "id": "b3-misc/readme_archive",
-              "title": "Data Engineering Intensive Training Program",
-              "description": "Hit the ⭐️ button if you like the repo.",
-              "source": "@site/docs/b3-misc/readme_archive.md",
-              "sourceDirName": "b3-misc",
-              "slug": "/b3-misc/readme_archive",
-              "permalink": "/docs/b3-misc/readme_archive",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "lastUpdatedBy": "Author",
-              "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
-            },
-            {
-              "unversionedId": "b3-misc/resources",
-              "id": "b3-misc/resources",
-              "title": "Resources",
-              "description": "Courses",
-              "source": "@site/docs/b3-misc/resources.md",
-              "sourceDirName": "b3-misc",
-              "slug": "/b3-misc/resources",
-              "permalink": "/docs/b3-misc/resources",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "lastUpdatedBy": "Author",
-              "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
-            },
-            {
               "unversionedId": "capstones/acled/README",
               "id": "capstones/acled/README",
               "title": "ACLED",
@@ -474,7 +270,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Serverless Streaming Data on AWS",
+                "permalink": "/docs/capstones/ServerlessStreamingApp/"
+              },
+              "next": {
+                "title": "Citi Bike Trip Histories",
+                "permalink": "/docs/capstones/citibike-trip-histories/"
+              }
             },
             {
               "unversionedId": "capstones/citibike-trip-histories/README",
@@ -491,7 +296,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "ACLED",
+                "permalink": "/docs/capstones/acled/"
+              },
+              "next": {
+                "title": "Air Pollution Pipeline",
+                "permalink": "/docs/capstones/city-pollution/"
+              }
             },
             {
               "unversionedId": "capstones/city-pollution/README",
@@ -508,7 +322,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Citi Bike Trip Histories",
+                "permalink": "/docs/capstones/citibike-trip-histories/"
+              },
+              "next": {
+                "title": "Airflow - City Traffic Drone",
+                "permalink": "/docs/capstones/city-traffic-drone/"
+              }
             },
             {
               "unversionedId": "capstones/city-traffic-drone/README",
@@ -525,7 +348,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Air Pollution Pipeline",
+                "permalink": "/docs/capstones/city-pollution/"
+              },
+              "next": {
+                "title": "Global Historical Climatology Network Daily Data Pipeline",
+                "permalink": "/docs/capstones/climate/"
+              }
             },
             {
               "unversionedId": "capstones/climate/README",
@@ -542,7 +374,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Airflow - City Traffic Drone",
+                "permalink": "/docs/capstones/city-traffic-drone/"
+              },
+              "next": {
+                "title": "Building End to end data pipeline in AWS",
+                "permalink": "/docs/capstones/cloudmaze/"
+              }
             },
             {
               "unversionedId": "capstones/cloudmaze/README",
@@ -559,7 +400,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Global Historical Climatology Network Daily Data Pipeline",
+                "permalink": "/docs/capstones/climate/"
+              },
+              "next": {
+                "title": "README",
+                "permalink": "/docs/capstones/dbt-redshift/"
+              }
             },
             {
               "unversionedId": "capstones/dbt-redshift/README",
@@ -576,7 +426,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Building End to end data pipeline in AWS",
+                "permalink": "/docs/capstones/cloudmaze/"
+              },
+              "next": {
+                "title": "DigitalSkola",
+                "permalink": "/docs/capstones/digitalskola/"
+              }
             },
             {
               "unversionedId": "capstones/digitalskola/README",
@@ -593,7 +452,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "README",
+                "permalink": "/docs/capstones/dbt-redshift/"
+              },
+              "next": {
+                "title": "Disaster Response Pipeline",
+                "permalink": "/docs/capstones/disaster-response/"
+              }
             },
             {
               "unversionedId": "capstones/disaster-response/README",
@@ -610,7 +478,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "DigitalSkola",
+                "permalink": "/docs/capstones/digitalskola/"
+              },
+              "next": {
+                "title": "Funflix",
+                "permalink": "/docs/capstones/funflix/"
+              }
             },
             {
               "unversionedId": "capstones/funflix/README",
@@ -627,7 +504,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Disaster Response Pipeline",
+                "permalink": "/docs/capstones/disaster-response/"
+              },
+              "next": {
+                "title": "Datalake Schema Correction",
+                "permalink": "/docs/capstones/hmc/"
+              }
             },
             {
               "unversionedId": "capstones/hmc/README",
@@ -644,7 +530,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Funflix",
+                "permalink": "/docs/capstones/funflix/"
+              },
+              "next": {
+                "title": "Log Analytics and Processing in Real-Time",
+                "permalink": "/docs/capstones/kinesis-flink-beam/"
+              }
             },
             {
               "unversionedId": "capstones/kinesis-flink-beam/README",
@@ -661,7 +556,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Datalake Schema Correction",
+                "permalink": "/docs/capstones/hmc/"
+              },
+              "next": {
+                "title": "Streaming ETL pipeline with Apache Flink and Amazon Kinesis Data Analytics",
+                "permalink": "/docs/capstones/kinesis-flink-etl/"
+              }
             },
             {
               "unversionedId": "capstones/kinesis-flink-etl/README",
@@ -678,7 +582,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Log Analytics and Processing in Real-Time",
+                "permalink": "/docs/capstones/kinesis-flink-beam/"
+              },
+              "next": {
+                "title": "Kortex",
+                "permalink": "/docs/capstones/kortex/"
+              }
             },
             {
               "unversionedId": "capstones/kortex/README",
@@ -695,7 +608,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Streaming ETL pipeline with Apache Flink and Amazon Kinesis Data Analytics",
+                "permalink": "/docs/capstones/kinesis-flink-etl/"
+              },
+              "next": {
+                "title": "Lufthansa API",
+                "permalink": "/docs/capstones/lufthansa/"
+              }
             },
             {
               "unversionedId": "capstones/lufthansa/README",
@@ -712,7 +634,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Kortex",
+                "permalink": "/docs/capstones/kortex/"
+              },
+              "next": {
+                "title": "Movie Review Sentiment Analysis Pipeline",
+                "permalink": "/docs/capstones/movie-sentiment/"
+              }
             },
             {
               "unversionedId": "capstones/movie-sentiment/README",
@@ -729,7 +660,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Lufthansa API",
+                "permalink": "/docs/capstones/lufthansa/"
+              },
+              "next": {
+                "title": "Multi-touch Attribution",
+                "permalink": "/docs/capstones/multi-touch-attribution/"
+              }
             },
             {
               "unversionedId": "capstones/multi-touch-attribution/README",
@@ -746,7 +686,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Movie Review Sentiment Analysis Pipeline",
+                "permalink": "/docs/capstones/movie-sentiment/"
+              },
+              "next": {
+                "title": "Building Recommender System from Scratch",
+                "permalink": "/docs/capstones/recofront/"
+              }
             },
             {
               "unversionedId": "capstones/other/covid19-datalake/README",
@@ -1126,7 +1075,7 @@
               "unversionedId": "capstones/README",
               "id": "capstones/README",
               "title": "Capstones",
-              "description": "ETL - ACLED",
+              "description": "More Ideas",
               "source": "@site/docs/12-capstones/README.md",
               "sourceDirName": "12-capstones",
               "slug": "/capstones/",
@@ -1154,7 +1103,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Multi-touch Attribution",
+                "permalink": "/docs/capstones/multi-touch-attribution/"
+              },
+              "next": {
+                "title": "Reddit Submissions, Authors and Subreddits analysis",
+                "permalink": "/docs/capstones/reddit/"
+              }
             },
             {
               "unversionedId": "capstones/reddit/README",
@@ -1171,7 +1129,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Building Recommender System from Scratch",
+                "permalink": "/docs/capstones/recofront/"
+              },
+              "next": {
+                "title": "AWS Kafka and DynamoDB for real time fraud detection",
+                "permalink": "/docs/capstones/redshield/"
+              }
             },
             {
               "unversionedId": "capstones/redshield/README",
@@ -1188,7 +1155,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Reddit Submissions, Authors and Subreddits analysis",
+                "permalink": "/docs/capstones/reddit/"
+              },
+              "next": {
+                "title": "Data Pipeline with dbt, Airflow and Great Expectations",
+                "permalink": "/docs/capstones/robust-data-pipeline/"
+              }
             },
             {
               "unversionedId": "capstones/robust-data-pipeline/README",
@@ -1205,7 +1181,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "AWS Kafka and DynamoDB for real time fraud detection",
+                "permalink": "/docs/capstones/redshield/"
+              },
+              "next": {
+                "title": "Smartcity",
+                "permalink": "/docs/capstones/smartcity/"
+              }
             },
             {
               "unversionedId": "capstones/ServerlessStreamingApp/README",
@@ -1222,7 +1207,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Capstones",
+                "permalink": "/docs/category/capstones"
+              },
+              "next": {
+                "title": "ACLED",
+                "permalink": "/docs/capstones/acled/"
+              }
             },
             {
               "unversionedId": "capstones/smartcity/analytics/flink-cdk/README",
@@ -1310,6 +1304,32 @@
               "frontMatter": {}
             },
             {
+              "unversionedId": "capstones/smartcity/README",
+              "id": "capstones/smartcity/README",
+              "title": "Smartcity",
+              "description": "Files",
+              "source": "@site/docs/12-capstones/smartcity/README.md",
+              "sourceDirName": "12-capstones/smartcity",
+              "slug": "/capstones/smartcity/",
+              "permalink": "/docs/capstones/smartcity/",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Data Pipeline with dbt, Airflow and Great Expectations",
+                "permalink": "/docs/capstones/robust-data-pipeline/"
+              },
+              "next": {
+                "title": "Sparkify",
+                "permalink": "/docs/capstones/sparkify/"
+              }
+            },
+            {
               "unversionedId": "capstones/sparkify/README",
               "id": "capstones/sparkify/README",
               "title": "Sparkify",
@@ -1324,7 +1344,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Smartcity",
+                "permalink": "/docs/capstones/smartcity/"
+              },
+              "next": {
+                "title": "Spotify",
+                "permalink": "/docs/capstones/spotify/"
+              }
             },
             {
               "unversionedId": "capstones/spotify/README",
@@ -1341,7 +1370,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Sparkify",
+                "permalink": "/docs/capstones/sparkify/"
+              },
+              "next": {
+                "title": "Twitter data Topic Analysis and Realtime Sentiment Analysis",
+                "permalink": "/docs/capstones/twitter-sentiment-glue/"
+              }
             },
             {
               "unversionedId": "capstones/twitter-sentiment-glue/README",
@@ -1358,7 +1396,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Spotify",
+                "permalink": "/docs/capstones/spotify/"
+              },
+              "next": {
+                "title": "US Immigration analysis and data pipeline",
+                "permalink": "/docs/capstones/us-immigration/"
+              }
             },
             {
               "unversionedId": "capstones/us-immigration/README",
@@ -1375,7 +1422,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Twitter data Topic Analysis and Realtime Sentiment Analysis",
+                "permalink": "/docs/capstones/twitter-sentiment-glue/"
+              },
+              "next": {
+                "title": "Interview Preparation",
+                "permalink": "/docs/interviewprep/"
+              }
             },
             {
               "unversionedId": "casestudies/99group",
@@ -1395,8 +1451,8 @@
               "frontMatter": {},
               "sidebar": "docs",
               "previous": {
-                "title": "MLflow",
-                "permalink": "/docs/mlops/mlflow/"
+                "title": "Case Studies",
+                "permalink": "/docs/category/case-studies"
               },
               "next": {
                 "title": "Airbnb",
@@ -1503,15 +1559,15 @@
                 "permalink": "/docs/casestudies/bookingdotcom"
               },
               "next": {
-                "title": "FAIR - Data Ingestion with a Cloud Data Platform",
+                "title": "Fair",
                 "permalink": "/docs/casestudies/fair"
               }
             },
             {
               "unversionedId": "casestudies/fair",
               "id": "casestudies/fair",
-              "title": "FAIR - Data Ingestion with a Cloud Data Platform",
-              "description": "Fair is a financial technology company that offers a new way to shop for a car, get approved for a loan, and pay for the car. Its unique smartphone app gives customers the freedom to drive the car they want for as long as they want and gives them the flexibility to turn in the vehicle at any time. Data is essential to this business model: The company ingests and analyzes billions of data points from more than 500 data sources.",
+              "title": "Fair",
+              "description": "Data Ingestion with a Cloud Data Platform",
               "source": "@site/docs/casestudies/fair.md",
               "sourceDirName": "casestudies",
               "slug": "/casestudies/fair",
@@ -1529,15 +1585,15 @@
                 "permalink": "/docs/casestudies/expedia"
               },
               "next": {
-                "title": "HARMONY - Responsive Data Pipeline",
+                "title": "Harmony",
                 "permalink": "/docs/casestudies/harmony"
               }
             },
             {
               "unversionedId": "casestudies/harmony",
               "id": "casestudies/harmony",
-              "title": "HARMONY - Responsive Data Pipeline",
-              "description": "As one of Australasia's leading marketplace lending platforms, Harmoney has matched more than 32,000 borrowers with more than $1 billion in personal loans. Its lending experience is 100 percent online, from application to funding, necessitating complete and accurate data collection, processing, and analysis.",
+              "title": "Harmony",
+              "description": "Responsive Data Pipeline",
               "source": "@site/docs/casestudies/harmony.md",
               "sourceDirName": "casestudies",
               "slug": "/casestudies/harmony",
@@ -1551,7 +1607,7 @@
               "frontMatter": {},
               "sidebar": "docs",
               "previous": {
-                "title": "FAIR - Data Ingestion with a Cloud Data Platform",
+                "title": "Fair",
                 "permalink": "/docs/casestudies/fair"
               },
               "next": {
@@ -1577,7 +1633,7 @@
               "frontMatter": {},
               "sidebar": "docs",
               "previous": {
-                "title": "HARMONY - Responsive Data Pipeline",
+                "title": "Harmony",
                 "permalink": "/docs/casestudies/harmony"
               },
               "next": {
@@ -1711,15 +1767,15 @@
                 "permalink": "/docs/casestudies/myntra"
               },
               "next": {
-                "title": "PANORAMIC - Simplifying Data Ingestion, Transformation, And Delivery",
+                "title": "Panoramic",
                 "permalink": "/docs/casestudies/panoramic"
               }
             },
             {
               "unversionedId": "casestudies/panoramic",
               "id": "casestudies/panoramic",
-              "title": "PANORAMIC - Simplifying Data Ingestion, Transformation, And Delivery",
-              "description": "Panoramic is a world leader in providing analytics to communications firms and media service providers. It helps marketers use consumer data to hone their creative strategies. Panoramic's data scientists and marketing analysts build customized data platforms that enable marketers to visualize consumer data for analysis, benchmarking, internal collaboration, and more. The company has built its business around ingesting and modeling marketing data as a foundation for generating meaningful insights.",
+              "title": "Panoramic",
+              "description": "Simplifying Data Ingestion, Transformation, And Delivery",
               "source": "@site/docs/casestudies/panoramic.md",
               "sourceDirName": "casestudies",
               "slug": "/casestudies/panoramic",
@@ -1759,7 +1815,7 @@
               "frontMatter": {},
               "sidebar": "docs",
               "previous": {
-                "title": "PANORAMIC - Simplifying Data Ingestion, Transformation, And Delivery",
+                "title": "Panoramic",
                 "permalink": "/docs/casestudies/panoramic"
               },
               "next": {
@@ -1771,7 +1827,7 @@
               "unversionedId": "casestudies/README",
               "id": "casestudies/README",
               "title": "Case Studies",
-              "description": "Steps",
+              "description": "More",
               "source": "@site/docs/casestudies/README.md",
               "sourceDirName": "casestudies",
               "slug": "/casestudies/",
@@ -2012,6 +2068,10 @@
               "previous": {
                 "title": "Webshoes",
                 "permalink": "/docs/casestudies/webshoes"
+              },
+              "next": {
+                "title": "Capstones",
+                "permalink": "/docs/category/capstones"
               }
             },
             {
@@ -2296,8 +2356,8 @@
                 "permalink": "/docs/data-modeling/quiz"
               },
               "next": {
-                "title": "NoSQL Data Modeling",
-                "permalink": "/docs/data-modeling/nosql-data-modeling"
+                "title": "Lab: Car company Data Model in MySQL",
+                "permalink": "/docs/data-modeling/lab-cars-mysql-datamodel/"
               }
             },
             {
@@ -2318,9 +2378,35 @@
               "frontMatter": {}
             },
             {
+              "unversionedId": "data-modeling/lab-cars-mysql-datamodel/README",
+              "id": "data-modeling/lab-cars-mysql-datamodel/README",
+              "title": "Lab: Car company Data Model in MySQL",
+              "description": "Files",
+              "source": "@site/docs/04-data-modeling/lab-cars-mysql-datamodel/README.md",
+              "sourceDirName": "04-data-modeling/lab-cars-mysql-datamodel",
+              "slug": "/data-modeling/lab-cars-mysql-datamodel/",
+              "permalink": "/docs/data-modeling/lab-cars-mysql-datamodel/",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Lab: AirBnB Postgres Datamodel",
+                "permalink": "/docs/data-modeling/lab-airbnb-postgres-datamodel/"
+              },
+              "next": {
+                "title": "Lab: Create a star schema from 3NF schema on DVD rental Pagila dataset",
+                "permalink": "/docs/data-modeling/lab-dvd-rental-datamodel/"
+              }
+            },
+            {
               "unversionedId": "data-modeling/lab-cassandra-digital-music-library/README",
               "id": "data-modeling/lab-cassandra-digital-music-library/README",
-              "title": "Create a Data Model for a Digital Music Library",
+              "title": "Lab: Create a Data Model for a Digital Music Library",
               "description": "Conceptual Data Model",
               "source": "@site/docs/04-data-modeling/lab-cassandra-digital-music-library/README.md",
               "sourceDirName": "04-data-modeling/lab-cassandra-digital-music-library",
@@ -2332,7 +2418,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "NoSQL Data Modeling",
+                "permalink": "/docs/data-modeling/nosql-data-modeling"
+              },
+              "next": {
+                "title": "Create a Data Model for an Email System",
+                "permalink": "/docs/data-modeling/lab-cassandra-email-data-model/"
+              }
             },
             {
               "unversionedId": "data-modeling/lab-cassandra-email-data-model/README",
@@ -2349,7 +2444,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Lab: Create a Data Model for a Digital Music Library",
+                "permalink": "/docs/data-modeling/lab-cassandra-digital-music-library/"
+              },
+              "next": {
+                "title": "Hotel Reservations Data Modeling with Cassandra",
+                "permalink": "/docs/data-modeling/lab-cassandra-hotel-reservations/"
+              }
             },
             {
               "unversionedId": "data-modeling/lab-cassandra-hotel-reservations/README",
@@ -2366,7 +2470,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Create a Data Model for an Email System",
+                "permalink": "/docs/data-modeling/lab-cassandra-email-data-model/"
+              },
+              "next": {
+                "title": "Create a Data Model for Investment Accounts or Portfolios",
+                "permalink": "/docs/data-modeling/lab-cassandra-investment-data-model/"
+              }
             },
             {
               "unversionedId": "data-modeling/lab-cassandra-investment-data-model/README",
@@ -2383,7 +2496,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Hotel Reservations Data Modeling with Cassandra",
+                "permalink": "/docs/data-modeling/lab-cassandra-hotel-reservations/"
+              },
+              "next": {
+                "title": "Create a Data Model for Temperature Monitoring Sensor Networks",
+                "permalink": "/docs/data-modeling/lab-cassandra-sensor-data-model/"
+              }
             },
             {
               "unversionedId": "data-modeling/lab-cassandra-sensor-data-model/README",
@@ -2400,7 +2522,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Create a Data Model for Investment Accounts or Portfolios",
+                "permalink": "/docs/data-modeling/lab-cassandra-investment-data-model/"
+              },
+              "next": {
+                "title": "Create a Data Model for Online Shopping Carts",
+                "permalink": "/docs/data-modeling/lab-cassandra-shopping-cart-data-model/"
+              }
             },
             {
               "unversionedId": "data-modeling/lab-cassandra-shopping-cart-data-model/README",
@@ -2417,7 +2548,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Create a Data Model for Temperature Monitoring Sensor Networks",
+                "permalink": "/docs/data-modeling/lab-cassandra-sensor-data-model/"
+              },
+              "next": {
+                "title": "Data Extraction from APIs",
+                "permalink": "/docs/extraction/api/"
+              }
             },
             {
               "unversionedId": "data-modeling/lab-disease-diagnosis/README",
@@ -2439,7 +2579,7 @@
             {
               "unversionedId": "data-modeling/lab-dvd-rental-datamodel/README",
               "id": "data-modeling/lab-dvd-rental-datamodel/README",
-              "title": "Postgres Pagila",
+              "title": "Lab: Create a star schema from 3NF schema on DVD rental Pagila dataset",
               "description": "Objective",
               "source": "@site/docs/04-data-modeling/lab-dvd-rental-datamodel/README.md",
               "sourceDirName": "04-data-modeling/lab-dvd-rental-datamodel",
@@ -2451,13 +2591,22 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Lab: Car company Data Model in MySQL",
+                "permalink": "/docs/data-modeling/lab-cars-mysql-datamodel/"
+              },
+              "next": {
+                "title": "Lab: Create a Postgres data model of Google Playstore dataset",
+                "permalink": "/docs/data-modeling/lab-google-playstore-datamodel/"
+              }
             },
             {
               "unversionedId": "data-modeling/lab-google-playstore-datamodel/README",
               "id": "data-modeling/lab-google-playstore-datamodel/README",
-              "title": "Google Platstore Data Modeling",
-              "description": "Objective",
+              "title": "Lab: Create a Postgres data model of Google Playstore dataset",
+              "description": "Data model",
               "source": "@site/docs/04-data-modeling/lab-google-playstore-datamodel/README.md",
               "sourceDirName": "04-data-modeling/lab-google-playstore-datamodel",
               "slug": "/data-modeling/lab-google-playstore-datamodel/",
@@ -2468,12 +2617,21 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Lab: Create a star schema from 3NF schema on DVD rental Pagila dataset",
+                "permalink": "/docs/data-modeling/lab-dvd-rental-datamodel/"
+              },
+              "next": {
+                "title": "Lab: Inegi Snowflake Datamodel",
+                "permalink": "/docs/data-modeling/lab-inegi-snowflake-datamodel/"
+              }
             },
             {
               "unversionedId": "data-modeling/lab-inegi-snowflake-datamodel/README",
               "id": "data-modeling/lab-inegi-snowflake-datamodel/README",
-              "title": "Inegi Snowflake Datamodel",
+              "title": "Lab: Inegi Snowflake Datamodel",
               "description": "National Institute of Statistics and Geography",
               "source": "@site/docs/04-data-modeling/lab-inegi-snowflake-datamodel/README.md",
               "sourceDirName": "04-data-modeling/lab-inegi-snowflake-datamodel",
@@ -2485,12 +2643,21 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Lab: Create a Postgres data model of Google Playstore dataset",
+                "permalink": "/docs/data-modeling/lab-google-playstore-datamodel/"
+              },
+              "next": {
+                "title": "Lab: Northwind Data Model in MySQL",
+                "permalink": "/docs/data-modeling/lab-mysql-northwind-datamodel/"
+              }
             },
             {
               "unversionedId": "data-modeling/lab-mysql-northwind-datamodel/README",
               "id": "data-modeling/lab-mysql-northwind-datamodel/README",
-              "title": "Data Modeling",
+              "title": "Lab: Northwind Data Model in MySQL",
               "description": "Process Flow",
               "source": "@site/docs/04-data-modeling/lab-mysql-northwind-datamodel/README.md",
               "sourceDirName": "04-data-modeling/lab-mysql-northwind-datamodel",
@@ -2502,12 +2669,21 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Lab: Inegi Snowflake Datamodel",
+                "permalink": "/docs/data-modeling/lab-inegi-snowflake-datamodel/"
+              },
+              "next": {
+                "title": "Lab: Retail Store Data Model in MySQL",
+                "permalink": "/docs/data-modeling/lab-mysql-retail-store-datamodel/"
+              }
             },
             {
               "unversionedId": "data-modeling/lab-mysql-retail-store-datamodel/README",
               "id": "data-modeling/lab-mysql-retail-store-datamodel/README",
-              "title": "Data Modeling",
+              "title": "Lab: Retail Store Data Model in MySQL",
               "description": "Process Flow",
               "source": "@site/docs/04-data-modeling/lab-mysql-retail-store-datamodel/README.md",
               "sourceDirName": "04-data-modeling/lab-mysql-retail-store-datamodel",
@@ -2519,12 +2695,21 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Lab: Northwind Data Model in MySQL",
+                "permalink": "/docs/data-modeling/lab-mysql-northwind-datamodel/"
+              },
+              "next": {
+                "title": "Lab: Creating a Bus Rapid Transit (BRT) Database in Postgres",
+                "permalink": "/docs/data-modeling/lab-postgres-busrapid-transit/"
+              }
             },
             {
               "unversionedId": "data-modeling/lab-postgres-busrapid-transit/README",
               "id": "data-modeling/lab-postgres-busrapid-transit/README",
-              "title": "Postgres Bus Rapid Transit",
+              "title": "Lab: Creating a Bus Rapid Transit (BRT) Database in Postgres",
               "description": "Creating a Bus Rapid Transit (BRT) Database",
               "source": "@site/docs/04-data-modeling/lab-postgres-busrapid-transit/README.md",
               "sourceDirName": "04-data-modeling/lab-postgres-busrapid-transit",
@@ -2536,7 +2721,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Lab: Retail Store Data Model in MySQL",
+                "permalink": "/docs/data-modeling/lab-mysql-retail-store-datamodel/"
+              },
+              "next": {
+                "title": "Lab: Create Fact and Dimension Tables from Denormalized Raw Data",
+                "permalink": "/docs/data-modeling/lab-postgres-elt-datamodel/"
+              }
             },
             {
               "unversionedId": "data-modeling/lab-postgres-demographics-datamodel",
@@ -2558,8 +2752,8 @@
             {
               "unversionedId": "data-modeling/lab-postgres-elt-datamodel/README",
               "id": "data-modeling/lab-postgres-elt-datamodel/README",
-              "title": "Postgres ELT Datamodel with PSQL",
-              "description": "Create Fact and Dimension Tables from Denormalized Raw Data",
+              "title": "Lab: Create Fact and Dimension Tables from Denormalized Raw Data",
+              "description": "In data warehousing world there are occasions where developers have to reverse engineer model from flat csv files. We will understand this with simple example.",
               "source": "@site/docs/04-data-modeling/lab-postgres-elt-datamodel/README.md",
               "sourceDirName": "04-data-modeling/lab-postgres-elt-datamodel",
               "slug": "/data-modeling/lab-postgres-elt-datamodel/",
@@ -2570,12 +2764,21 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Lab: Creating a Bus Rapid Transit (BRT) Database in Postgres",
+                "permalink": "/docs/data-modeling/lab-postgres-busrapid-transit/"
+              },
+              "next": {
+                "title": "Lab: Postgres e-Wallet Data Model",
+                "permalink": "/docs/data-modeling/lab-postgres-ewallet-datamodel/"
+              }
             },
             {
               "unversionedId": "data-modeling/lab-postgres-ewallet-datamodel/README",
               "id": "data-modeling/lab-postgres-ewallet-datamodel/README",
-              "title": "Postgres ewallet Datamodel",
+              "title": "Lab: Postgres e-Wallet Data Model",
               "description": "In this lab, we will design a data model for an eWallet company.",
               "source": "@site/docs/04-data-modeling/lab-postgres-ewallet-datamodel/README.md",
               "sourceDirName": "04-data-modeling/lab-postgres-ewallet-datamodel",
@@ -2587,12 +2790,21 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Lab: Create Fact and Dimension Tables from Denormalized Raw Data",
+                "permalink": "/docs/data-modeling/lab-postgres-elt-datamodel/"
+              },
+              "next": {
+                "title": "Lab: Housing Data Model with CDC and SCD Type 2",
+                "permalink": "/docs/data-modeling/lab-postgres-housing-cdc-scd/"
+              }
             },
             {
               "unversionedId": "data-modeling/lab-postgres-housing-cdc-scd/README",
               "id": "data-modeling/lab-postgres-housing-cdc-scd/README",
-              "title": "Housing Data Model with CDC and SCD Type 2",
+              "title": "Lab: Housing Data Model with CDC and SCD Type 2",
               "description": "A critical aspect of data engineering is dealing with data change from one date to the next. In this case, we want both the current and historical value. There are many techniques and patterns to create a historical-friendly model during the ingestion and modeling phases. In this lab, we will build a data model that uses Change Data Capture and Slowly Changing Dimension Type 2 modelization to track housing prices. The code is written in Python. pandas and sqlalchemy library is used to load data from CSV files and execute SQL queries against the data warehouse.",
               "source": "@site/docs/04-data-modeling/lab-postgres-housing-cdc-scd/README.md",
               "sourceDirName": "04-data-modeling/lab-postgres-housing-cdc-scd",
@@ -2604,7 +2816,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Lab: Postgres e-Wallet Data Model",
+                "permalink": "/docs/data-modeling/lab-postgres-ewallet-datamodel/"
+              },
+              "next": {
+                "title": "Lab: Credit Debit Finance Data Model in Snowflake",
+                "permalink": "/docs/data-modeling/lab-snowflake-creditdebit-datamodel/"
+              }
             },
             {
               "unversionedId": "data-modeling/lab-sales-datamodel/README",
@@ -2624,9 +2845,35 @@
               "frontMatter": {}
             },
             {
+              "unversionedId": "data-modeling/lab-snowflake-creditdebit-datamodel/README",
+              "id": "data-modeling/lab-snowflake-creditdebit-datamodel/README",
+              "title": "Lab: Credit Debit Finance Data Model in Snowflake",
+              "description": "Notebooks",
+              "source": "@site/docs/04-data-modeling/lab-snowflake-creditdebit-datamodel/README.md",
+              "sourceDirName": "04-data-modeling/lab-snowflake-creditdebit-datamodel",
+              "slug": "/data-modeling/lab-snowflake-creditdebit-datamodel/",
+              "permalink": "/docs/data-modeling/lab-snowflake-creditdebit-datamodel/",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Lab: Housing Data Model with CDC and SCD Type 2",
+                "permalink": "/docs/data-modeling/lab-postgres-housing-cdc-scd/"
+              },
+              "next": {
+                "title": "Lab: Sparkify Music Company Data Model in Postgres",
+                "permalink": "/docs/data-modeling/lab-sparkify-data-model-postgres/"
+              }
+            },
+            {
               "unversionedId": "data-modeling/lab-sparkify-data-model-postgres/README",
               "id": "data-modeling/lab-sparkify-data-model-postgres/README",
-              "title": "Sparkify Music Company Data Model in Postgres",
+              "title": "Lab: Sparkify Music Company Data Model in Postgres",
               "description": "In this, we will model the data with Postgres and build an ETL pipeline using Python. The fact and dimension tables for a star database schema for a particular analytic focus is defined, and an ETL pipeline that transfers data from files in two local directories into these tables in Postgres using Python and SQL was developed.",
               "source": "@site/docs/04-data-modeling/lab-sparkify-data-model-postgres/README.md",
               "sourceDirName": "04-data-modeling/lab-sparkify-data-model-postgres",
@@ -2638,7 +2885,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Lab: Credit Debit Finance Data Model in Snowflake",
+                "permalink": "/docs/data-modeling/lab-snowflake-creditdebit-datamodel/"
+              },
+              "next": {
+                "title": "NoSQL Data Modeling",
+                "permalink": "/docs/data-modeling/nosql-data-modeling"
+              }
             },
             {
               "unversionedId": "data-modeling/normalization-vs-denormalization",
@@ -2684,12 +2940,12 @@
               "frontMatter": {},
               "sidebar": "docs",
               "previous": {
-                "title": "Lab: AirBnB Postgres Datamodel",
-                "permalink": "/docs/data-modeling/lab-airbnb-postgres-datamodel/"
+                "title": "Lab: Sparkify Music Company Data Model in Postgres",
+                "permalink": "/docs/data-modeling/lab-sparkify-data-model-postgres/"
               },
               "next": {
-                "title": "Data Extraction from APIs",
-                "permalink": "/docs/extraction/api/"
+                "title": "Lab: Create a Data Model for a Digital Music Library",
+                "permalink": "/docs/data-modeling/lab-cassandra-digital-music-library/"
               }
             },
             {
@@ -2736,8 +2992,8 @@
               "frontMatter": {},
               "sidebar": "docs",
               "previous": {
-                "title": "Lab: Kafka and CDC",
-                "permalink": "/docs/processing/lab-confluent-kafka-faker/"
+                "title": "Data Modeling",
+                "permalink": "/docs/category/data-modeling"
               },
               "next": {
                 "title": "Inmon versus the Kimball data model",
@@ -4109,23 +4365,6 @@
               }
             },
             {
-              "unversionedId": "datascience/timeseries/README",
-              "id": "datascience/timeseries/README",
-              "title": "Time-Series",
-              "description": "",
-              "source": "@site/docs/10-datascience/timeseries/README.md",
-              "sourceDirName": "10-datascience/timeseries",
-              "slug": "/datascience/timeseries/",
-              "permalink": "/docs/datascience/timeseries/",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "lastUpdatedBy": "Author",
-              "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
-            },
-            {
               "unversionedId": "devops/containers/lab-assignment-etl-docker/README",
               "id": "devops/containers/lab-assignment-etl-docker/README",
               "title": "ETL Docker",
@@ -4357,8 +4596,8 @@
               "frontMatter": {},
               "sidebar": "docs",
               "previous": {
-                "title": "NoSQL Data Modeling",
-                "permalink": "/docs/data-modeling/nosql-data-modeling"
+                "title": "Create a Data Model for Online Shopping Carts",
+                "permalink": "/docs/data-modeling/lab-cassandra-shopping-cart-data-model/"
               },
               "next": {
                 "title": "Lab: Faker",
@@ -4471,7 +4710,7 @@
             {
               "unversionedId": "foundations/basics/batch-vs-incremental",
               "id": "foundations/basics/batch-vs-incremental",
-              "title": "Batch vs Incremental Data Processing",
+              "title": "Batch vs Incremental",
               "description": "The idea behind incremental processing is quite simple. Incremental processing extends the semantics of processing streaming data to batch processing pipelines by processing only new data each run and then incrementally updating the new results. This unlocks great cost savings due to much shorter batch pipelines as well as data freshness speedups due to being able to run them much more frequently as well.",
               "source": "@site/docs/01-foundations/basics/batch-vs-incremental.md",
               "sourceDirName": "01-foundations/basics",
@@ -4516,7 +4755,7 @@
                 "permalink": "/docs/foundations/basics/sql-vs-nosql"
               },
               "next": {
-                "title": "Batch vs Incremental Data Processing",
+                "title": "Batch vs Incremental",
                 "permalink": "/docs/foundations/basics/batch-vs-incremental"
               }
             },
@@ -4538,7 +4777,7 @@
               "frontMatter": {},
               "sidebar": "docs",
               "previous": {
-                "title": "Batch vs Incremental Data Processing",
+                "title": "Batch vs Incremental",
                 "permalink": "/docs/foundations/basics/batch-vs-incremental"
               },
               "next": {
@@ -4616,7 +4855,7 @@
               "frontMatter": {},
               "sidebar": "docs",
               "previous": {
-                "title": "Data Engineering Basics",
+                "title": "Basics",
                 "permalink": "/docs/foundations/basics/de-basics"
               },
               "next": {
@@ -4679,7 +4918,7 @@
             {
               "unversionedId": "foundations/basics/de-basics",
               "id": "foundations/basics/de-basics",
-              "title": "Data Engineering Basics",
+              "title": "Basics",
               "description": "What is Data Engineering?",
               "source": "@site/docs/01-foundations/basics/de-basics.md",
               "sourceDirName": "01-foundations/basics",
@@ -4694,8 +4933,8 @@
               "frontMatter": {},
               "sidebar": "docs",
               "previous": {
-                "title": "Introduction",
-                "permalink": "/docs/introduction"
+                "title": "Data Engineering",
+                "permalink": "/docs/category/data-engineering"
               },
               "next": {
                 "title": "Data Pipelines",
@@ -4926,8 +5165,8 @@
                 "permalink": "/docs/foundations/basics/50-most-common-interview-questions"
               },
               "next": {
-                "title": "Apache Spark Basics",
-                "permalink": "/docs/foundations/basics/spark-basics"
+                "title": "Spark and Hadoop",
+                "permalink": "/docs/category/spark-and-hadoop"
               }
             },
             {
@@ -5043,8 +5282,8 @@
               "frontMatter": {},
               "sidebar": "docs",
               "previous": {
-                "title": "50 Most Asked Data Engineer Interview Questions and Answers in 2023",
-                "permalink": "/docs/foundations/basics/50-most-common-interview-questions-2023"
+                "title": "Spark and Hadoop",
+                "permalink": "/docs/category/spark-and-hadoop"
               },
               "next": {
                 "title": "Origin of Spark",
@@ -5125,8 +5364,8 @@
                 "permalink": "/docs/foundations/basics/rdd"
               },
               "next": {
-                "title": "Install Anaconda",
-                "permalink": "/docs/foundations/developer/install-anaconda"
+                "title": "Developer Essentials",
+                "permalink": "/docs/category/developer-essentials"
               }
             },
             {
@@ -5294,8 +5533,8 @@
               "frontMatter": {},
               "sidebar": "docs",
               "previous": {
-                "title": "GCP Setup",
-                "permalink": "/docs/foundations/cloud/gcp-setup"
+                "title": "Azure",
+                "permalink": "/docs/category/azure"
               },
               "next": {
                 "title": "Azure Data Ingestion",
@@ -5381,14 +5620,14 @@
               }
             },
             {
-              "unversionedId": "foundations/cloud/cloud-basics",
-              "id": "foundations/cloud/cloud-basics",
-              "title": "Cloud Computing Basics",
+              "unversionedId": "foundations/cloud/cloud-computing",
+              "id": "foundations/cloud/cloud-computing",
+              "title": "Cloud Computing",
               "description": "What is Cloud Computing?",
-              "source": "@site/docs/01-foundations/cloud/cloud-basics.md",
+              "source": "@site/docs/01-foundations/cloud/cloud-computing.md",
               "sourceDirName": "01-foundations/cloud",
-              "slug": "/foundations/cloud/cloud-basics",
-              "permalink": "/docs/foundations/cloud/cloud-basics",
+              "slug": "/foundations/cloud/cloud-computing",
+              "permalink": "/docs/foundations/cloud/cloud-computing",
               "draft": false,
               "tags": [],
               "version": "current",
@@ -5402,34 +5641,8 @@
                 "permalink": "/docs/system-design/databricks-case-studies"
               },
               "next": {
-                "title": "Comparison of Cloud Services",
-                "permalink": "/docs/foundations/cloud/cloud-comparison"
-              }
-            },
-            {
-              "unversionedId": "foundations/cloud/cloud-comparison",
-              "id": "foundations/cloud/cloud-comparison",
-              "title": "Comparison of Cloud Services",
-              "description": "Service",
-              "source": "@site/docs/01-foundations/cloud/cloud-comparison.md",
-              "sourceDirName": "01-foundations/cloud",
-              "slug": "/foundations/cloud/cloud-comparison",
-              "permalink": "/docs/foundations/cloud/cloud-comparison",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "lastUpdatedBy": "Author",
-              "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {},
-              "sidebar": "docs",
-              "previous": {
-                "title": "Cloud Computing Basics",
-                "permalink": "/docs/foundations/cloud/cloud-basics"
-              },
-              "next": {
-                "title": "EC2",
-                "permalink": "/docs/foundations/cloud/ec2"
+                "title": "AWS",
+                "permalink": "/docs/category/aws"
               }
             },
             {
@@ -5476,8 +5689,8 @@
               "frontMatter": {},
               "sidebar": "docs",
               "previous": {
-                "title": "Comparison of Cloud Services",
-                "permalink": "/docs/foundations/cloud/cloud-comparison"
+                "title": "AWS",
+                "permalink": "/docs/category/aws"
               },
               "next": {
                 "title": "IAM",
@@ -5502,8 +5715,8 @@
               "frontMatter": {},
               "sidebar": "docs",
               "previous": {
-                "title": "Lab: Create AWS EC2 instance",
-                "permalink": "/docs/foundations/cloud/lab-create-your-first-ec2-instance-linux/"
+                "title": "GCP",
+                "permalink": "/docs/category/gcp"
               },
               "next": {
                 "title": "GCP Setup",
@@ -5532,8 +5745,8 @@
                 "permalink": "/docs/foundations/cloud/gcp-basics"
               },
               "next": {
-                "title": "Azure Basics",
-                "permalink": "/docs/foundations/cloud/azure-basics"
+                "title": "Azure",
+                "permalink": "/docs/category/azure"
               }
             },
             {
@@ -5688,8 +5901,8 @@
                 "permalink": "/docs/foundations/cloud/lab-create-your-first-vpc/"
               },
               "next": {
-                "title": "GCP Basics",
-                "permalink": "/docs/foundations/cloud/gcp-basics"
+                "title": "GCP",
+                "permalink": "/docs/category/gcp"
               }
             },
             {
@@ -5814,8 +6027,8 @@
               "frontMatter": {},
               "sidebar": "docs",
               "previous": {
-                "title": "Quiz: Spark basics",
-                "permalink": "/docs/foundations/basics/spark-quiz"
+                "title": "Developer Essentials",
+                "permalink": "/docs/category/developer-essentials"
               },
               "next": {
                 "title": "Install Jupyter Notebook",
@@ -7890,6 +8103,143 @@
               }
             },
             {
+              "unversionedId": "interviewprep/algorithm-problems",
+              "id": "interviewprep/algorithm-problems",
+              "title": "Algorithm Problems",
+              "description": "1. https://leetcode.com/problems/two-sum/",
+              "source": "@site/docs/interviewprep/algorithm-problems.md",
+              "sourceDirName": "interviewprep",
+              "slug": "/interviewprep/algorithm-problems",
+              "permalink": "/docs/interviewprep/algorithm-problems",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {}
+            },
+            {
+              "unversionedId": "interviewprep/azure-data-engineering",
+              "id": "interviewprep/azure-data-engineering",
+              "title": "Azure Data Engineering",
+              "description": "Case study - data lake",
+              "source": "@site/docs/interviewprep/azure-data-engineering.md",
+              "sourceDirName": "interviewprep",
+              "slug": "/interviewprep/azure-data-engineering",
+              "permalink": "/docs/interviewprep/azure-data-engineering",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {}
+            },
+            {
+              "unversionedId": "interviewprep/basic-technical-questions",
+              "id": "interviewprep/basic-technical-questions",
+              "title": "Basic Technical Questions",
+              "description": "Interviewers use easy technical questions designed to weed out candidates without the right experience. This question assesses your experience level, comfort with specific tools, and the depth of your domain expertise. Basic technical questions include:",
+              "source": "@site/docs/interviewprep/basic-technical-questions.md",
+              "sourceDirName": "interviewprep",
+              "slug": "/interviewprep/basic-technical-questions",
+              "permalink": "/docs/interviewprep/basic-technical-questions",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {}
+            },
+            {
+              "unversionedId": "interviewprep/behavioral-interview-questions",
+              "id": "interviewprep/behavioral-interview-questions",
+              "title": "Behavioral Interview Questions",
+              "description": "Behavioral questions assess soft skills (e.g., communication, leadership, adaptability), your skill level, and how you fit into the company’s data engineering team.",
+              "source": "@site/docs/interviewprep/behavioral-interview-questions.md",
+              "sourceDirName": "interviewprep",
+              "slug": "/interviewprep/behavioral-interview-questions",
+              "permalink": "/docs/interviewprep/behavioral-interview-questions",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {}
+            },
+            {
+              "unversionedId": "interviewprep/behavioral-questions",
+              "id": "interviewprep/behavioral-questions",
+              "title": "Behavioral Questions",
+              "description": "Tell me about yourself",
+              "source": "@site/docs/interviewprep/behavioral-questions.md",
+              "sourceDirName": "interviewprep",
+              "slug": "/interviewprep/behavioral-questions",
+              "permalink": "/docs/interviewprep/behavioral-questions",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {}
+            },
+            {
+              "unversionedId": "interviewprep/README",
+              "id": "interviewprep/README",
+              "title": "Interview Preparation",
+              "description": "Whether you’re just getting into the data engineer job market or your interview is tomorrow, practice is an essential part of the interview preparation process for a data engineer. Data engineering interview questions assess your data engineering skills and domain expertise. They are based on a company’s tech stack and technology goals, and they test your ability to perform job functions. In an interview for any Engineering role, the interviewer wants to understand if you have good analytical skills, problem-solving ability, communication, work culture and ability to build technical solutions. Specific to Data Engineering, they also want to understand if you have the skills to handle large data and build scalable and robust systems.",
+              "source": "@site/docs/interviewprep/README.md",
+              "sourceDirName": "interviewprep",
+              "slug": "/interviewprep/",
+              "permalink": "/docs/interviewprep/",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "US Immigration analysis and data pipeline",
+                "permalink": "/docs/capstones/us-immigration/"
+              },
+              "next": {
+                "title": "Resume Buildup",
+                "permalink": "/docs/interviewprep/resume-buildup"
+              }
+            },
+            {
+              "unversionedId": "interviewprep/resume-buildup",
+              "id": "interviewprep/resume-buildup",
+              "title": "Resume Buildup",
+              "description": "Expert Tips to Perfect Your Data Engineer Resume",
+              "source": "@site/docs/interviewprep/resume-buildup.md",
+              "sourceDirName": "interviewprep",
+              "slug": "/interviewprep/resume-buildup",
+              "permalink": "/docs/interviewprep/resume-buildup",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Interview Preparation",
+                "permalink": "/docs/interviewprep/"
+              },
+              "next": {
+                "title": "Resources",
+                "permalink": "/docs/misc/resources"
+              }
+            },
+            {
               "unversionedId": "introduction",
               "id": "introduction",
               "title": "Introduction",
@@ -7907,8 +8257,8 @@
               "frontMatter": {},
               "sidebar": "docs",
               "next": {
-                "title": "Data Engineering Basics",
-                "permalink": "/docs/foundations/basics/de-basics"
+                "title": "Getting Started",
+                "permalink": "/docs/category/getting-started"
               }
             },
             {
@@ -8050,6 +8400,105 @@
               }
             },
             {
+              "unversionedId": "misc/explore-further",
+              "id": "misc/explore-further",
+              "title": "Explore Further",
+              "description": "Basic Concepts",
+              "source": "@site/docs/misc/explore-further.md",
+              "sourceDirName": "misc",
+              "slug": "/misc/explore-further",
+              "permalink": "/docs/misc/explore-further",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {}
+            },
+            {
+              "unversionedId": "misc/extras",
+              "id": "misc/extras",
+              "title": "Extras",
+              "description": "Data, analytics and AI maturity curve",
+              "source": "@site/docs/misc/extras.md",
+              "sourceDirName": "misc",
+              "slug": "/misc/extras",
+              "permalink": "/docs/misc/extras",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Resources",
+                "permalink": "/docs/misc/resources"
+              }
+            },
+            {
+              "unversionedId": "misc/pending-topics",
+              "id": "misc/pending-topics",
+              "title": "Pending Topics",
+              "description": "- Programming",
+              "source": "@site/docs/misc/pending-topics.md",
+              "sourceDirName": "misc",
+              "slug": "/misc/pending-topics",
+              "permalink": "/docs/misc/pending-topics",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {}
+            },
+            {
+              "unversionedId": "misc/readme_archive",
+              "id": "misc/readme_archive",
+              "title": "Data Engineering Intensive Training Program",
+              "description": "Hit the ⭐️ button if you like the repo.",
+              "source": "@site/docs/misc/readme_archive.md",
+              "sourceDirName": "misc",
+              "slug": "/misc/readme_archive",
+              "permalink": "/docs/misc/readme_archive",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {}
+            },
+            {
+              "unversionedId": "misc/resources",
+              "id": "misc/resources",
+              "title": "Resources",
+              "description": "Courses",
+              "source": "@site/docs/misc/resources.md",
+              "sourceDirName": "misc",
+              "slug": "/misc/resources",
+              "permalink": "/docs/misc/resources",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Resume Buildup",
+                "permalink": "/docs/interviewprep/resume-buildup"
+              },
+              "next": {
+                "title": "Extras",
+                "permalink": "/docs/misc/extras"
+              }
+            },
+            {
               "unversionedId": "mlops/code-snippets",
               "id": "mlops/code-snippets",
               "title": "MLOps Code Snippets",
@@ -8114,8 +8563,8 @@
                 "permalink": "/docs/mlops/code-snippets"
               },
               "next": {
-                "title": "99 Group",
-                "permalink": "/docs/casestudies/99group"
+                "title": "Case Studies",
+                "permalink": "/docs/category/case-studies"
               }
             },
             {
@@ -8751,7 +9200,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Project: Building an event-driven IKEA app with Kafka",
+                "permalink": "/docs/processing/project-kafka-ikea/"
+              },
+              "next": {
+                "title": "Lab: Real-time Taxi Price Model based Prediction using Flink",
+                "permalink": "/docs/processing/lab-flink-taxi-pricing/"
+              }
             },
             {
               "unversionedId": "processing/apache-kafka",
@@ -8775,8 +9233,8 @@
                 "permalink": "/docs/processing/lab-gcp-pubsub-processing"
               },
               "next": {
-                "title": "Lab: Confluent Kafka with Python",
-                "permalink": "/docs/processing/lab-confluent-python/"
+                "title": "Lab: Getting started with Kafka and CLI",
+                "permalink": "/docs/processing/lab-kafka-cli/"
               }
             },
             {
@@ -9443,7 +9901,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Lab: Flink Kafka Source",
+                "permalink": "/docs/processing/lab-flink-kafka-source/"
+              },
+              "next": {
+                "title": "Lab: Building an ELT pipeline for a cab service company using dbt and Postgres",
+                "permalink": "/docs/processing/lab-dbt-nyctaxi/"
+              }
             },
             {
               "unversionedId": "processing/gcp-dataproc",
@@ -9623,8 +10090,8 @@
                 "permalink": "/docs/processing/lab-confluent-python/"
               },
               "next": {
-                "title": "SQL Data Modeling",
-                "permalink": "/docs/data-modeling/sql-data-modeling"
+                "title": "Lab: Real-time fraud detection by applying filter in Kafka topic",
+                "permalink": "/docs/processing/lab-kafka-fraud-detection/"
               }
             },
             {
@@ -9645,8 +10112,8 @@
               "frontMatter": {},
               "sidebar": "docs",
               "previous": {
-                "title": "Apache Kafka",
-                "permalink": "/docs/processing/apache-kafka"
+                "title": "Lab: Getting started with Kafka and Python",
+                "permalink": "/docs/processing/lab-kafka-python/"
               },
               "next": {
                 "title": "Lab: Kafka and CDC",
@@ -9742,7 +10209,7 @@
             {
               "unversionedId": "processing/lab-dbt-jaffle-shop/README",
               "id": "processing/lab-dbt-jaffle-shop/README",
-              "title": "dbt Jaffle Shop",
+              "title": "Lab: dbt Postgres on Jaffle Shop data",
               "description": "Objective",
               "source": "@site/docs/03-processing/lab-dbt-jaffle-shop/README.md",
               "sourceDirName": "03-processing/lab-dbt-jaffle-shop",
@@ -9754,12 +10221,21 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Lab: Building an ELT pipeline for a cab service company using dbt and Postgres",
+                "permalink": "/docs/processing/lab-dbt-nyctaxi/"
+              },
+              "next": {
+                "title": "Lab: dbt Snowflake on Knoema data",
+                "permalink": "/docs/processing/lab-dbt-knoema/"
+              }
             },
             {
               "unversionedId": "processing/lab-dbt-knoema/README",
               "id": "processing/lab-dbt-knoema/README",
-              "title": "Snowflake dbt Knoema",
+              "title": "Lab: dbt Snowflake on Knoema data",
               "description": "In this lab, we are going to analyze historical trading performance of a company that has trading desks spread across different regions. As inputs, we are going to leverage datasets available in Knoema Economy Data Atlas that is available in Snowflake Data Marketplace, plus few manual uploads.",
               "source": "@site/docs/03-processing/lab-dbt-knoema/README.md",
               "sourceDirName": "03-processing/lab-dbt-knoema",
@@ -9771,7 +10247,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Lab: dbt Postgres on Jaffle Shop data",
+                "permalink": "/docs/processing/lab-dbt-jaffle-shop/"
+              },
+              "next": {
+                "title": "Lab: dbt Postgres on Olist Retail data",
+                "permalink": "/docs/processing/lab-dbt-olist/"
+              }
             },
             {
               "unversionedId": "processing/lab-dbt-nyctaxi-lookup/README",
@@ -9793,8 +10278,8 @@
             {
               "unversionedId": "processing/lab-dbt-nyctaxi/README",
               "id": "processing/lab-dbt-nyctaxi/README",
-              "title": "dbt NYC Taxi",
-              "description": "Objective",
+              "title": "Lab: Building an ELT pipeline for a cab service company using dbt and Postgres",
+              "description": "Architecture",
               "source": "@site/docs/03-processing/lab-dbt-nyctaxi/README.md",
               "sourceDirName": "03-processing/lab-dbt-nyctaxi",
               "slug": "/processing/lab-dbt-nyctaxi/",
@@ -9805,7 +10290,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "dbt",
+                "permalink": "/docs/processing/dbt"
+              },
+              "next": {
+                "title": "Lab: dbt Postgres on Jaffle Shop data",
+                "permalink": "/docs/processing/lab-dbt-jaffle-shop/"
+              }
             },
             {
               "unversionedId": "processing/lab-dbt-olist/models/staging/olist/stg_ecommerce",
@@ -9827,7 +10321,7 @@
             {
               "unversionedId": "processing/lab-dbt-olist/README",
               "id": "processing/lab-dbt-olist/README",
-              "title": "dbt Olist",
+              "title": "Lab: dbt Postgres on Olist Retail data",
               "description": "Objective",
               "source": "@site/docs/03-processing/lab-dbt-olist/README.md",
               "sourceDirName": "03-processing/lab-dbt-olist",
@@ -9839,13 +10333,22 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Lab: dbt Snowflake on Knoema data",
+                "permalink": "/docs/processing/lab-dbt-knoema/"
+              },
+              "next": {
+                "title": "Lab: dbt BigQuery on Stack Exchange data",
+                "permalink": "/docs/processing/lab-dbt-stackexchnge/"
+              }
             },
             {
               "unversionedId": "processing/lab-dbt-stackexchnge/README",
               "id": "processing/lab-dbt-stackexchnge/README",
-              "title": "Stackexchange dbt Bigquery",
-              "description": "Stack Exchange ELT pipeline with dbt and BigQuery",
+              "title": "Lab: dbt BigQuery on Stack Exchange data",
+              "description": "Extract, Load and Transform the Stack Exchange data using dbt and google bigquery warehouse.",
               "source": "@site/docs/03-processing/lab-dbt-stackexchnge/README.md",
               "sourceDirName": "03-processing/lab-dbt-stackexchnge",
               "slug": "/processing/lab-dbt-stackexchnge/",
@@ -9856,13 +10359,22 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Lab: dbt Postgres on Olist Retail data",
+                "permalink": "/docs/processing/lab-dbt-olist/"
+              },
+              "next": {
+                "title": "Lab: Building an ELT Pipeline with dbt and Amazon Redshift on TICKIT data",
+                "permalink": "/docs/processing/lab-dbt-tickit/"
+              }
             },
             {
               "unversionedId": "processing/lab-dbt-tickit/README",
               "id": "processing/lab-dbt-tickit/README",
-              "title": "dbt Redshift TICKIT",
-              "description": "Building an ELT Pipeline with dbt and Amazon Redshift",
+              "title": "Lab: Building an ELT Pipeline with dbt and Amazon Redshift on TICKIT data",
+              "description": "Objective",
               "source": "@site/docs/03-processing/lab-dbt-tickit/README.md",
               "sourceDirName": "03-processing/lab-dbt-tickit",
               "slug": "/processing/lab-dbt-tickit/",
@@ -9873,12 +10385,21 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Lab: dbt BigQuery on Stack Exchange data",
+                "permalink": "/docs/processing/lab-dbt-stackexchnge/"
+              },
+              "next": {
+                "title": "Lab: dbt Snowflake on TPCH data",
+                "permalink": "/docs/processing/lab-dbt-tpch/"
+              }
             },
             {
               "unversionedId": "processing/lab-dbt-tpch/README",
               "id": "processing/lab-dbt-tpch/README",
-              "title": "Snowflake dbt cloud TPCH",
+              "title": "Lab: dbt Snowflake on TPCH data",
               "description": "Accelerating Data Teams with Snowflake and dbt Cloud Hands On Lab",
               "source": "@site/docs/03-processing/lab-dbt-tpch/README.md",
               "sourceDirName": "03-processing/lab-dbt-tpch",
@@ -9890,7 +10411,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Lab: Building an ELT Pipeline with dbt and Amazon Redshift on TICKIT data",
+                "permalink": "/docs/processing/lab-dbt-tickit/"
+              },
+              "next": {
+                "title": "Snowpark",
+                "permalink": "/docs/processing/snowpark"
+              }
             },
             {
               "unversionedId": "processing/lab-emr-serverless/README",
@@ -9916,6 +10446,110 @@
               "next": {
                 "title": "Lab: Glue ETL",
                 "permalink": "/docs/processing/lab-glue-advanced/"
+              }
+            },
+            {
+              "unversionedId": "processing/lab-flink-kafka-sink/README",
+              "id": "processing/lab-flink-kafka-sink/README",
+              "title": "Lab: Flink Kafka Sink",
+              "description": "Files",
+              "source": "@site/docs/03-processing/lab-flink-kafka-sink/README.md",
+              "sourceDirName": "03-processing/lab-flink-kafka-sink",
+              "slug": "/processing/lab-flink-kafka-sink/",
+              "permalink": "/docs/processing/lab-flink-kafka-sink/",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Lab: Real-time Twitter Stream Wordcount using Flink",
+                "permalink": "/docs/processing/lab-flink-twitter-stream-processing/"
+              },
+              "next": {
+                "title": "Lab: Flink Kafka Source",
+                "permalink": "/docs/processing/lab-flink-kafka-source/"
+              }
+            },
+            {
+              "unversionedId": "processing/lab-flink-kafka-source/README",
+              "id": "processing/lab-flink-kafka-source/README",
+              "title": "Lab: Flink Kafka Source",
+              "description": "Files",
+              "source": "@site/docs/03-processing/lab-flink-kafka-source/README.md",
+              "sourceDirName": "03-processing/lab-flink-kafka-source",
+              "slug": "/processing/lab-flink-kafka-source/",
+              "permalink": "/docs/processing/lab-flink-kafka-source/",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Lab: Flink Kafka Sink",
+                "permalink": "/docs/processing/lab-flink-kafka-sink/"
+              },
+              "next": {
+                "title": "dbt",
+                "permalink": "/docs/processing/dbt"
+              }
+            },
+            {
+              "unversionedId": "processing/lab-flink-taxi-pricing/README",
+              "id": "processing/lab-flink-taxi-pricing/README",
+              "title": "Lab: Real-time Taxi Price Model based Prediction using Flink",
+              "description": "Files",
+              "source": "@site/docs/03-processing/lab-flink-taxi-pricing/README.md",
+              "sourceDirName": "03-processing/lab-flink-taxi-pricing",
+              "slug": "/processing/lab-flink-taxi-pricing/",
+              "permalink": "/docs/processing/lab-flink-taxi-pricing/",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Apache Flink",
+                "permalink": "/docs/processing/apache-flink"
+              },
+              "next": {
+                "title": "Lab: Real-time Twitter Stream Wordcount using Flink",
+                "permalink": "/docs/processing/lab-flink-twitter-stream-processing/"
+              }
+            },
+            {
+              "unversionedId": "processing/lab-flink-twitter-stream-processing/README",
+              "id": "processing/lab-flink-twitter-stream-processing/README",
+              "title": "Lab: Real-time Twitter Stream Wordcount using Flink",
+              "description": "Files",
+              "source": "@site/docs/03-processing/lab-flink-twitter-stream-processing/README.md",
+              "sourceDirName": "03-processing/lab-flink-twitter-stream-processing",
+              "slug": "/processing/lab-flink-twitter-stream-processing/",
+              "permalink": "/docs/processing/lab-flink-twitter-stream-processing/",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Lab: Real-time Taxi Price Model based Prediction using Flink",
+                "permalink": "/docs/processing/lab-flink-taxi-pricing/"
+              },
+              "next": {
+                "title": "Lab: Flink Kafka Sink",
+                "permalink": "/docs/processing/lab-flink-kafka-sink/"
               }
             },
             {
@@ -10311,8 +10945,8 @@
             {
               "unversionedId": "processing/lab-kafka-cli/README",
               "id": "processing/lab-kafka-cli/README",
-              "title": "Getting started with Kafka and CLI",
-              "description": "",
+              "title": "Lab: Getting started with Kafka and CLI",
+              "description": "Notebook",
               "source": "@site/docs/03-processing/lab-kafka-cli/README.md",
               "sourceDirName": "03-processing/lab-kafka-cli",
               "slug": "/processing/lab-kafka-cli/",
@@ -10323,12 +10957,21 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Apache Kafka",
+                "permalink": "/docs/processing/apache-kafka"
+              },
+              "next": {
+                "title": "Lab: Getting started with Kafka and Python",
+                "permalink": "/docs/processing/lab-kafka-python/"
+              }
             },
             {
               "unversionedId": "processing/lab-kafka-fraud-detection/README",
               "id": "processing/lab-kafka-fraud-detection/README",
-              "title": "Real-time fraud detection by applying filter in Kafka topic",
+              "title": "Lab: Real-time fraud detection by applying filter in Kafka topic",
               "description": "In this lab, we will generate some transactions out of which some would be fraudulent and then at the consumer end, we will check if the transaction is legit or fraud.",
               "source": "@site/docs/03-processing/lab-kafka-fraud-detection/README.md",
               "sourceDirName": "03-processing/lab-kafka-fraud-detection",
@@ -10340,7 +10983,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Lab: Kafka and CDC",
+                "permalink": "/docs/processing/lab-confluent-kafka-faker/"
+              },
+              "next": {
+                "title": "Kafka Streams for NYC Taxi data",
+                "permalink": "/docs/processing/lab-kafka-nyctaxi/"
+              }
             },
             {
               "unversionedId": "processing/lab-kafka-nyctaxi/assets/README",
@@ -10374,13 +11026,48 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Lab: Real-time fraud detection by applying filter in Kafka topic",
+                "permalink": "/docs/processing/lab-kafka-fraud-detection/"
+              },
+              "next": {
+                "title": "Lab: Kafka on Cloud with Amazon ECS and Container Orchestration",
+                "permalink": "/docs/processing/lab-kafka-python-ecs/"
+              }
+            },
+            {
+              "unversionedId": "processing/lab-kafka-python-ecs/README",
+              "id": "processing/lab-kafka-python-ecs/README",
+              "title": "Lab: Kafka on Cloud with Amazon ECS and Container Orchestration",
+              "description": "Notebooks",
+              "source": "@site/docs/03-processing/lab-kafka-python-ecs/README.md",
+              "sourceDirName": "03-processing/lab-kafka-python-ecs",
+              "slug": "/processing/lab-kafka-python-ecs/",
+              "permalink": "/docs/processing/lab-kafka-python-ecs/",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Kafka Streams for NYC Taxi data",
+                "permalink": "/docs/processing/lab-kafka-nyctaxi/"
+              },
+              "next": {
+                "title": "Lab: Realtime Streaming analytics with Apache Kafka and Spark Streaming",
+                "permalink": "/docs/processing/lab-kafka-spark-streaming/"
+              }
             },
             {
               "unversionedId": "processing/lab-kafka-python/README",
               "id": "processing/lab-kafka-python/README",
-              "title": "Getting started with Kafka and Python",
-              "description": "",
+              "title": "Lab: Getting started with Kafka and Python",
+              "description": "Files",
               "source": "@site/docs/03-processing/lab-kafka-python/README.md",
               "sourceDirName": "03-processing/lab-kafka-python",
               "slug": "/processing/lab-kafka-python/",
@@ -10391,12 +11078,21 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Lab: Getting started with Kafka and CLI",
+                "permalink": "/docs/processing/lab-kafka-cli/"
+              },
+              "next": {
+                "title": "Lab: Confluent Kafka with Python",
+                "permalink": "/docs/processing/lab-confluent-python/"
+              }
             },
             {
               "unversionedId": "processing/lab-kafka-spark-streaming/README",
               "id": "processing/lab-kafka-spark-streaming/README",
-              "title": "Realtime Streaming analytics with Apache Kafka and Spark Streaming",
+              "title": "Lab: Realtime Streaming analytics with Apache Kafka and Spark Streaming",
               "description": "Activity 1",
               "source": "@site/docs/03-processing/lab-kafka-spark-streaming/README.md",
               "sourceDirName": "03-processing/lab-kafka-spark-streaming",
@@ -10408,12 +11104,21 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Lab: Kafka on Cloud with Amazon ECS and Container Orchestration",
+                "permalink": "/docs/processing/lab-kafka-python-ecs/"
+              },
+              "next": {
+                "title": "Lab: Stock Market Kafka Real Time",
+                "permalink": "/docs/processing/lab-kafka-stock-market/"
+              }
             },
             {
               "unversionedId": "processing/lab-kafka-stock-market/README",
               "id": "processing/lab-kafka-stock-market/README",
-              "title": "Stock Market Kafka Real Time",
+              "title": "Lab: Stock Market Kafka Real Time",
               "description": "Problem Statement",
               "source": "@site/docs/03-processing/lab-kafka-stock-market/README.md",
               "sourceDirName": "03-processing/lab-kafka-stock-market",
@@ -10425,12 +11130,21 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Lab: Realtime Streaming analytics with Apache Kafka and Spark Streaming",
+                "permalink": "/docs/processing/lab-kafka-spark-streaming/"
+              },
+              "next": {
+                "title": "Lab: Data Streaming Pipeline with Kafka for livetolldata",
+                "permalink": "/docs/processing/lab-kafka-toll-analysis/"
+              }
             },
             {
               "unversionedId": "processing/lab-kafka-toll-analysis/README",
               "id": "processing/lab-kafka-toll-analysis/README",
-              "title": "Data Streaming Pipeline with Kafka for livetolldata",
+              "title": "Lab: Data Streaming Pipeline with Kafka for livetolldata",
               "description": "Objective",
               "source": "@site/docs/03-processing/lab-kafka-toll-analysis/README.md",
               "sourceDirName": "03-processing/lab-kafka-toll-analysis",
@@ -10442,7 +11156,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Lab: Stock Market Kafka Real Time",
+                "permalink": "/docs/processing/lab-kafka-stock-market/"
+              },
+              "next": {
+                "title": "Project: Building an event-driven IKEA app with Kafka",
+                "permalink": "/docs/processing/project-kafka-ikea/"
+              }
             },
             {
               "unversionedId": "processing/lab-kinesis-apache-logs/README",
@@ -10577,7 +11300,7 @@
             {
               "unversionedId": "processing/lab-snowpark-churnpark/README",
               "id": "processing/lab-snowpark-churnpark/README",
-              "title": "Churn Analytics Demo with dbt Snowpark Python models",
+              "title": "Lab: Churn Analytics Demo with dbt Snowpark Python models",
               "description": "PPT//docs.google.com/presentation/d/1IJSeE96bze7DECuDYqsTVv6FaOcNcJ5tTiCWKEkuQQ/edit#slide=id.g158d486fe9e2_12",
               "source": "@site/docs/03-processing/lab-snowpark-churnpark/README.md",
               "sourceDirName": "03-processing/lab-snowpark-churnpark",
@@ -10589,13 +11312,22 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Snowpark",
+                "permalink": "/docs/processing/snowpark"
+              },
+              "next": {
+                "title": "Lab: Modeling with dbt and Snowpark",
+                "permalink": "/docs/processing/lab-snowpark-dbtsnowpy/"
+              }
             },
             {
               "unversionedId": "processing/lab-snowpark-dbtsnowpy/README",
               "id": "processing/lab-snowpark-dbtsnowpy/README",
-              "title": "Modeling with dbt and Snowpark",
-              "description": "",
+              "title": "Lab: Modeling with dbt and Snowpark",
+              "description": "Files",
               "source": "@site/docs/03-processing/lab-snowpark-dbtsnowpy/README.md",
               "sourceDirName": "03-processing/lab-snowpark-dbtsnowpy",
               "slug": "/processing/lab-snowpark-dbtsnowpy/",
@@ -10606,13 +11338,22 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Lab: Churn Analytics Demo with dbt Snowpark Python models",
+                "permalink": "/docs/processing/lab-snowpark-churnpark/"
+              },
+              "next": {
+                "title": "Lab: FIFA prediction model with dbt and Snowpark",
+                "permalink": "/docs/processing/lab-snowpark-fifapark/"
+              }
             },
             {
               "unversionedId": "processing/lab-snowpark-fifapark/README",
               "id": "processing/lab-snowpark-fifapark/README",
-              "title": "FIFA modeling with Snowpark",
-              "description": "",
+              "title": "Lab: FIFA prediction model with dbt and Snowpark",
+              "description": "Files",
               "source": "@site/docs/03-processing/lab-snowpark-fifapark/README.md",
               "sourceDirName": "03-processing/lab-snowpark-fifapark",
               "slug": "/processing/lab-snowpark-fifapark/",
@@ -10623,7 +11364,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Lab: Modeling with dbt and Snowpark",
+                "permalink": "/docs/processing/lab-snowpark-dbtsnowpy/"
+              },
+              "next": {
+                "title": "Lab: Jaffle Shop Modeling with Snowpark",
+                "permalink": "/docs/processing/lab-snowpark-jafflepark/"
+              }
             },
             {
               "unversionedId": "processing/lab-snowpark-jafflepark/models/docs",
@@ -10645,8 +11395,8 @@
             {
               "unversionedId": "processing/lab-snowpark-jafflepark/README",
               "id": "processing/lab-snowpark-jafflepark/README",
-              "title": "Jaffle Shop Modeling with Snowpark",
-              "description": "",
+              "title": "Lab: Jaffle Shop Modeling with Snowpark",
+              "description": "Files",
               "source": "@site/docs/03-processing/lab-snowpark-jafflepark/README.md",
               "sourceDirName": "03-processing/lab-snowpark-jafflepark",
               "slug": "/processing/lab-snowpark-jafflepark/",
@@ -10657,12 +11407,21 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Lab: FIFA prediction model with dbt and Snowpark",
+                "permalink": "/docs/processing/lab-snowpark-fifapark/"
+              },
+              "next": {
+                "title": "Lab: Knoema Regression Model with Snowpark",
+                "permalink": "/docs/processing/lab-snowpark-knoema-regression/"
+              }
             },
             {
               "unversionedId": "processing/lab-snowpark-knoema-regression/README",
               "id": "processing/lab-snowpark-knoema-regression/README",
-              "title": "Knoema Regression Model with Snowpark",
+              "title": "Lab: Knoema Regression Model with Snowpark",
               "description": "We are interested in the US Inflation data, so we will use this query to explore the data for the application: What is the US inflation over time?",
               "source": "@site/docs/03-processing/lab-snowpark-knoema-regression/README.md",
               "sourceDirName": "03-processing/lab-snowpark-knoema-regression",
@@ -10674,12 +11433,21 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Lab: Jaffle Shop Modeling with Snowpark",
+                "permalink": "/docs/processing/lab-snowpark-jafflepark/"
+              },
+              "next": {
+                "title": "Data Modeling",
+                "permalink": "/docs/category/data-modeling"
+              }
             },
             {
               "unversionedId": "processing/project-kafka-ikea/README",
               "id": "processing/project-kafka-ikea/README",
-              "title": "Building an event-driven IKEA app with Kafka",
+              "title": "Project: Building an event-driven IKEA app with Kafka",
               "description": "This app is designed to break down the event driven architecture for modern apps",
               "source": "@site/docs/03-processing/project-kafka-ikea/README.md",
               "sourceDirName": "03-processing/project-kafka-ikea",
@@ -10691,7 +11459,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Lab: Data Streaming Pipeline with Kafka for livetolldata",
+                "permalink": "/docs/processing/lab-kafka-toll-analysis/"
+              },
+              "next": {
+                "title": "Apache Flink",
+                "permalink": "/docs/processing/apache-flink"
+              }
             },
             {
               "unversionedId": "processing/ray",
@@ -10734,7 +11511,16 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Lab: dbt Snowflake on TPCH data",
+                "permalink": "/docs/processing/lab-dbt-tpch/"
+              },
+              "next": {
+                "title": "Lab: Churn Analytics Demo with dbt Snowpark Python models",
+                "permalink": "/docs/processing/lab-snowpark-churnpark/"
+              }
             },
             {
               "unversionedId": "storage/apache-couchdb",
@@ -13199,8 +13985,8 @@
                 "permalink": "/docs/system-design/examples"
               },
               "next": {
-                "title": "Cloud Computing Basics",
-                "permalink": "/docs/foundations/cloud/cloud-basics"
+                "title": "Cloud Computing",
+                "permalink": "/docs/foundations/cloud/cloud-computing"
               }
             },
             {
@@ -13404,10 +14190,20 @@
               {
                 "type": "category",
                 "label": "Getting Started",
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/getting-started",
+                  "permalink": "/docs/category/getting-started"
+                },
                 "items": [
                   {
                     "type": "category",
                     "label": "Data Engineering",
+                    "link": {
+                      "type": "generated-index",
+                      "slug": "/category/data-engineering",
+                      "permalink": "/docs/category/data-engineering"
+                    },
                     "items": [
                       {
                         "type": "doc",
@@ -13484,6 +14280,11 @@
                   {
                     "type": "category",
                     "label": "Spark and Hadoop",
+                    "link": {
+                      "type": "generated-index",
+                      "slug": "/category/spark-and-hadoop",
+                      "permalink": "/docs/category/spark-and-hadoop"
+                    },
                     "items": [
                       {
                         "type": "doc",
@@ -13524,6 +14325,11 @@
                   {
                     "type": "category",
                     "label": "Developer Essentials",
+                    "link": {
+                      "type": "generated-index",
+                      "slug": "/category/developer-essentials",
+                      "permalink": "/docs/category/developer-essentials"
+                    },
                     "items": [
                       {
                         "type": "doc",
@@ -13564,11 +14370,11 @@
                   {
                     "type": "category",
                     "label": "System Design",
+                    "link": {
+                      "type": "doc",
+                      "id": "system-design/README"
+                    },
                     "items": [
-                      {
-                        "type": "doc",
-                        "id": "system-design/README"
-                      },
                       {
                         "type": "doc",
                         "id": "system-design/examples"
@@ -13588,26 +14394,19 @@
               {
                 "type": "category",
                 "label": "Cloud Computing",
+                "link": {
+                  "type": "doc",
+                  "id": "foundations/cloud/cloud-computing"
+                },
                 "items": [
                   {
                     "type": "category",
-                    "label": "Introduction",
-                    "items": [
-                      {
-                        "type": "doc",
-                        "id": "foundations/cloud/cloud-basics"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "foundations/cloud/cloud-comparison"
-                      }
-                    ],
-                    "collapsed": true,
-                    "collapsible": true
-                  },
-                  {
-                    "type": "category",
                     "label": "AWS",
+                    "link": {
+                      "type": "generated-index",
+                      "slug": "/category/aws",
+                      "permalink": "/docs/category/aws"
+                    },
                     "items": [
                       {
                         "type": "doc",
@@ -13672,6 +14471,11 @@
                   {
                     "type": "category",
                     "label": "GCP",
+                    "link": {
+                      "type": "generated-index",
+                      "slug": "/category/gcp",
+                      "permalink": "/docs/category/gcp"
+                    },
                     "items": [
                       {
                         "type": "doc",
@@ -13688,6 +14492,11 @@
                   {
                     "type": "category",
                     "label": "Azure",
+                    "link": {
+                      "type": "generated-index",
+                      "slug": "/category/azure",
+                      "permalink": "/docs/category/azure"
+                    },
                     "items": [
                       {
                         "type": "doc",
@@ -13720,11 +14529,11 @@
                   {
                     "type": "category",
                     "label": "SQL",
+                    "link": {
+                      "type": "doc",
+                      "id": "foundations/language/sql/sql-basics"
+                    },
                     "items": [
-                      {
-                        "type": "doc",
-                        "id": "foundations/language/sql/sql-basics"
-                      },
                       {
                         "type": "doc",
                         "id": "foundations/language/sql/sql-query"
@@ -14368,11 +15177,11 @@
                   {
                     "type": "category",
                     "label": "Databricks",
+                    "link": {
+                      "type": "doc",
+                      "id": "processing/databricks/README"
+                    },
                     "items": [
-                      {
-                        "type": "doc",
-                        "id": "processing/databricks/README"
-                      },
                       {
                         "type": "doc",
                         "id": "processing/databricks/lab-cybersecurity-databricks/README"
@@ -14440,11 +15249,11 @@
                   {
                     "type": "category",
                     "label": "AWS EMR",
+                    "link": {
+                      "type": "doc",
+                      "id": "processing/aws-emr"
+                    },
                     "items": [
-                      {
-                        "type": "doc",
-                        "id": "processing/aws-emr"
-                      },
                       {
                         "type": "doc",
                         "id": "processing/lab-emr-serverless/README"
@@ -14484,11 +15293,11 @@
                   {
                     "type": "category",
                     "label": "AWS Lambda Function",
+                    "link": {
+                      "type": "doc",
+                      "id": "processing/aws-lambda"
+                    },
                     "items": [
-                      {
-                        "type": "doc",
-                        "id": "processing/aws-lambda"
-                      },
                       {
                         "type": "doc",
                         "id": "processing/aws-lambda-snippets"
@@ -14504,11 +15313,11 @@
                   {
                     "type": "category",
                     "label": "Amazon Kinesis",
+                    "link": {
+                      "type": "doc",
+                      "id": "processing/aws-kinesis"
+                    },
                     "items": [
-                      {
-                        "type": "doc",
-                        "id": "processing/aws-kinesis"
-                      },
                       {
                         "type": "doc",
                         "id": "processing/lab-kinesis-apache-logs/README"
@@ -14524,11 +15333,11 @@
                   {
                     "type": "category",
                     "label": "Apache Beam",
+                    "link": {
+                      "type": "doc",
+                      "id": "processing/apache-beam"
+                    },
                     "items": [
-                      {
-                        "type": "doc",
-                        "id": "processing/apache-beam"
-                      },
                       {
                         "type": "doc",
                         "id": "processing/lab-getting-started-with-beam/README"
@@ -14576,11 +15385,11 @@
                   {
                     "type": "category",
                     "label": "Ray",
+                    "link": {
+                      "type": "doc",
+                      "id": "processing/ray"
+                    },
                     "items": [
-                      {
-                        "type": "doc",
-                        "id": "processing/ray"
-                      },
                       {
                         "type": "doc",
                         "id": "processing/lab-ray-core-basics/README"
@@ -14596,11 +15405,11 @@
                   {
                     "type": "category",
                     "label": "GCP Dataproc",
+                    "link": {
+                      "type": "doc",
+                      "id": "processing/gcp-dataproc"
+                    },
                     "items": [
-                      {
-                        "type": "doc",
-                        "id": "processing/gcp-dataproc"
-                      },
                       {
                         "type": "doc",
                         "id": "processing/lab-gcp-dataproc/README"
@@ -14624,11 +15433,11 @@
                   {
                     "type": "category",
                     "label": "Azure Synapse Analytics",
+                    "link": {
+                      "type": "doc",
+                      "id": "processing/azure-synapse-analytics"
+                    },
                     "items": [
-                      {
-                        "type": "doc",
-                        "id": "processing/azure-synapse-analytics"
-                      },
                       {
                         "type": "doc",
                         "id": "processing/lab-azure-synapse-dataflows/README"
@@ -14660,11 +15469,11 @@
                   {
                     "type": "category",
                     "label": "GCP PubSub",
+                    "link": {
+                      "type": "doc",
+                      "id": "processing/gcp-pubsub"
+                    },
                     "items": [
-                      {
-                        "type": "doc",
-                        "id": "processing/gcp-pubsub"
-                      },
                       {
                         "type": "doc",
                         "id": "processing/lab-gcp-pubsub"
@@ -14680,10 +15489,18 @@
                   {
                     "type": "category",
                     "label": "Apache Kafka",
+                    "link": {
+                      "type": "doc",
+                      "id": "processing/apache-kafka"
+                    },
                     "items": [
                       {
                         "type": "doc",
-                        "id": "processing/apache-kafka"
+                        "id": "processing/lab-kafka-cli/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "processing/lab-kafka-python/README"
                       },
                       {
                         "type": "doc",
@@ -14692,6 +15509,134 @@
                       {
                         "type": "doc",
                         "id": "processing/lab-confluent-kafka-faker/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "processing/lab-kafka-fraud-detection/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "processing/lab-kafka-nyctaxi/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "processing/lab-kafka-python-ecs/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "processing/lab-kafka-spark-streaming/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "processing/lab-kafka-stock-market/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "processing/lab-kafka-toll-analysis/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "processing/project-kafka-ikea/README"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  },
+                  {
+                    "type": "category",
+                    "label": "Apache Flink",
+                    "link": {
+                      "type": "doc",
+                      "id": "processing/apache-flink"
+                    },
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "processing/lab-flink-taxi-pricing/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "processing/lab-flink-twitter-stream-processing/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "processing/lab-flink-kafka-sink/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "processing/lab-flink-kafka-source/README"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  },
+                  {
+                    "type": "category",
+                    "label": "dbt",
+                    "link": {
+                      "type": "doc",
+                      "id": "processing/dbt"
+                    },
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "processing/lab-dbt-nyctaxi/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "processing/lab-dbt-jaffle-shop/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "processing/lab-dbt-knoema/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "processing/lab-dbt-olist/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "processing/lab-dbt-stackexchnge/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "processing/lab-dbt-tickit/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "processing/lab-dbt-tpch/README"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  },
+                  {
+                    "type": "category",
+                    "label": "Snowpark",
+                    "link": {
+                      "type": "doc",
+                      "id": "processing/snowpark"
+                    },
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "processing/lab-snowpark-churnpark/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "processing/lab-snowpark-dbtsnowpy/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "processing/lab-snowpark-fifapark/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "processing/lab-snowpark-jafflepark/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "processing/lab-snowpark-knoema-regression/README"
                       }
                     ],
                     "collapsed": true,
@@ -14704,15 +15649,20 @@
               {
                 "type": "category",
                 "label": "Data Modeling",
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/data-modeling",
+                  "permalink": "/docs/category/data-modeling"
+                },
                 "items": [
                   {
                     "type": "category",
                     "label": "SQL Data Modeling",
+                    "link": {
+                      "type": "doc",
+                      "id": "data-modeling/sql-data-modeling"
+                    },
                     "items": [
-                      {
-                        "type": "doc",
-                        "id": "data-modeling/sql-data-modeling"
-                      },
                       {
                         "type": "doc",
                         "id": "data-modeling/inmon-vs-kimball"
@@ -14764,6 +15714,54 @@
                       {
                         "type": "doc",
                         "id": "data-modeling/lab-airbnb-postgres-datamodel/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "data-modeling/lab-cars-mysql-datamodel/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "data-modeling/lab-dvd-rental-datamodel/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "data-modeling/lab-google-playstore-datamodel/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "data-modeling/lab-inegi-snowflake-datamodel/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "data-modeling/lab-mysql-northwind-datamodel/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "data-modeling/lab-mysql-retail-store-datamodel/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "data-modeling/lab-postgres-busrapid-transit/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "data-modeling/lab-postgres-elt-datamodel/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "data-modeling/lab-postgres-ewallet-datamodel/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "data-modeling/lab-postgres-housing-cdc-scd/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "data-modeling/lab-snowflake-creditdebit-datamodel/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "data-modeling/lab-sparkify-data-model-postgres/README"
                       }
                     ],
                     "collapsed": true,
@@ -14772,10 +15770,34 @@
                   {
                     "type": "category",
                     "label": "NoSQL Data Modeling",
+                    "link": {
+                      "type": "doc",
+                      "id": "data-modeling/nosql-data-modeling"
+                    },
                     "items": [
                       {
                         "type": "doc",
-                        "id": "data-modeling/nosql-data-modeling"
+                        "id": "data-modeling/lab-cassandra-digital-music-library/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "data-modeling/lab-cassandra-email-data-model/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "data-modeling/lab-cassandra-hotel-reservations/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "data-modeling/lab-cassandra-investment-data-model/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "data-modeling/lab-cassandra-sensor-data-model/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "data-modeling/lab-cassandra-shopping-cart-data-model/README"
                       }
                     ],
                     "collapsed": true,
@@ -14836,11 +15858,11 @@
                   {
                     "type": "category",
                     "label": "Azure Data Factory",
+                    "link": {
+                      "type": "doc",
+                      "id": "orchestration/azure-data-factory/README"
+                    },
                     "items": [
-                      {
-                        "type": "doc",
-                        "id": "orchestration/azure-data-factory/README"
-                      },
                       {
                         "type": "doc",
                         "id": "orchestration/azure-data-factory/lab-adf-incremental-loading/README"
@@ -14860,11 +15882,11 @@
                   {
                     "type": "category",
                     "label": "GCP Cloud DataFusion",
+                    "link": {
+                      "type": "doc",
+                      "id": "orchestration/datafusion/README"
+                    },
                     "items": [
-                      {
-                        "type": "doc",
-                        "id": "orchestration/datafusion/README"
-                      },
                       {
                         "type": "doc",
                         "id": "orchestration/datafusion/lab-datafusion-pipeline/README"
@@ -14996,19 +16018,11 @@
               {
                 "type": "category",
                 "label": "Mathematics",
+                "link": {
+                  "type": "doc",
+                  "id": "mathematics/README"
+                },
                 "items": [
-                  {
-                    "type": "category",
-                    "label": "Basics",
-                    "items": [
-                      {
-                        "type": "doc",
-                        "id": "mathematics/README"
-                      }
-                    ],
-                    "collapsed": true,
-                    "collapsible": true
-                  },
                   {
                     "type": "category",
                     "label": "Probability",
@@ -15180,6 +16194,11 @@
                   {
                     "type": "category",
                     "label": "Case Studies",
+                    "link": {
+                      "type": "generated-index",
+                      "slug": "/category/case-studies",
+                      "permalink": "/docs/category/case-studies"
+                    },
                     "items": [
                       {
                         "type": "doc",
@@ -15280,6 +16299,143 @@
                     ],
                     "collapsed": true,
                     "collapsible": true
+                  },
+                  {
+                    "type": "category",
+                    "label": "Capstones",
+                    "link": {
+                      "type": "generated-index",
+                      "slug": "/category/capstones",
+                      "permalink": "/docs/category/capstones"
+                    },
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "capstones/ServerlessStreamingApp/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "capstones/acled/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "capstones/citibike-trip-histories/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "capstones/city-pollution/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "capstones/city-traffic-drone/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "capstones/climate/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "capstones/cloudmaze/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "capstones/dbt-redshift/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "capstones/digitalskola/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "capstones/disaster-response/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "capstones/funflix/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "capstones/hmc/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "capstones/kinesis-flink-beam/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "capstones/kinesis-flink-etl/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "capstones/kortex/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "capstones/lufthansa/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "capstones/movie-sentiment/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "capstones/multi-touch-attribution/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "capstones/recofront/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "capstones/reddit/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "capstones/redshield/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "capstones/robust-data-pipeline/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "capstones/smartcity/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "capstones/sparkify/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "capstones/spotify/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "capstones/twitter-sentiment-glue/README"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "capstones/us-immigration/README"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  },
+                  {
+                    "type": "doc",
+                    "id": "interviewprep/README"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "interviewprep/resume-buildup"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "misc/resources"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "misc/extras"
                   }
                 ],
                 "collapsed": true,

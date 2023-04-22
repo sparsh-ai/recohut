@@ -10,8 +10,17 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {}
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Building End to end data pipeline in AWS",
+    "permalink": "/docs/capstones/cloudmaze/"
+  },
+  "next": {
+    "title": "DigitalSkola",
+    "permalink": "/docs/capstones/digitalskola/"
+  }
 }

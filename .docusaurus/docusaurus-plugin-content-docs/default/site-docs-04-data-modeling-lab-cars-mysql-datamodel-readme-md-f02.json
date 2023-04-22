@@ -1,0 +1,26 @@
+{
+  "unversionedId": "data-modeling/lab-cars-mysql-datamodel/README",
+  "id": "data-modeling/lab-cars-mysql-datamodel/README",
+  "title": "Lab: Car company Data Model in MySQL",
+  "description": "Files",
+  "source": "@site/docs/04-data-modeling/lab-cars-mysql-datamodel/README.md",
+  "sourceDirName": "04-data-modeling/lab-cars-mysql-datamodel",
+  "slug": "/data-modeling/lab-cars-mysql-datamodel/",
+  "permalink": "/docs/data-modeling/lab-cars-mysql-datamodel/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: AirBnB Postgres Datamodel",
+    "permalink": "/docs/data-modeling/lab-airbnb-postgres-datamodel/"
+  },
+  "next": {
+    "title": "Lab: Create a star schema from 3NF schema on DVD rental Pagila dataset",
+    "permalink": "/docs/data-modeling/lab-dvd-rental-datamodel/"
+  }
+}

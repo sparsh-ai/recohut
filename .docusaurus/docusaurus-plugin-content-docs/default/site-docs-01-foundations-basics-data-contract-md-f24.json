@@ -10,13 +10,13 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681212836,
-  "formattedLastUpdatedAt": "Apr 11, 2023",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
   "sidebar": "docs",
   "previous": {
-    "title": "Batch vs Incremental Data Processing",
+    "title": "Batch vs Incremental",
     "permalink": "/docs/foundations/basics/batch-vs-incremental"
   },
   "next": {

@@ -1,0 +1,17 @@
+{
+  "unversionedId": "interviewprep/algorithm-problems",
+  "id": "interviewprep/algorithm-problems",
+  "title": "Algorithm Problems",
+  "description": "1. https://leetcode.com/problems/two-sum/",
+  "source": "@site/docs/interviewprep/algorithm-problems.md",
+  "sourceDirName": "interviewprep",
+  "slug": "/interviewprep/algorithm-problems",
+  "permalink": "/docs/interviewprep/algorithm-problems",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {}
+}

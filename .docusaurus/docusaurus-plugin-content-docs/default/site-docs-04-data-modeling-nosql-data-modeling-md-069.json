@@ -10,17 +10,17 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
   "sidebar": "docs",
   "previous": {
-    "title": "Lab: AirBnB Postgres Datamodel",
-    "permalink": "/docs/data-modeling/lab-airbnb-postgres-datamodel/"
+    "title": "Lab: Sparkify Music Company Data Model in Postgres",
+    "permalink": "/docs/data-modeling/lab-sparkify-data-model-postgres/"
   },
   "next": {
-    "title": "Data Extraction from APIs",
-    "permalink": "/docs/extraction/api/"
+    "title": "Lab: Create a Data Model for a Digital Music Library",
+    "permalink": "/docs/data-modeling/lab-cassandra-digital-music-library/"
   }
 }

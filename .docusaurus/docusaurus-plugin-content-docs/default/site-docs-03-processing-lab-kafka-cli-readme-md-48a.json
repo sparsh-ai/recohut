@@ -1,8 +1,8 @@
 {
   "unversionedId": "processing/lab-kafka-cli/README",
   "id": "processing/lab-kafka-cli/README",
-  "title": "Getting started with Kafka and CLI",
-  "description": "",
+  "title": "Lab: Getting started with Kafka and CLI",
+  "description": "Notebook",
   "source": "@site/docs/03-processing/lab-kafka-cli/README.md",
   "sourceDirName": "03-processing/lab-kafka-cli",
   "slug": "/processing/lab-kafka-cli/",
@@ -10,8 +10,17 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {}
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Apache Kafka",
+    "permalink": "/docs/processing/apache-kafka"
+  },
+  "next": {
+    "title": "Lab: Getting started with Kafka and Python",
+    "permalink": "/docs/processing/lab-kafka-python/"
+  }
 }

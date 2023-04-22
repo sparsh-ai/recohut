@@ -1,0 +1,26 @@
+{
+  "unversionedId": "processing/lab-flink-taxi-pricing/README",
+  "id": "processing/lab-flink-taxi-pricing/README",
+  "title": "Lab: Real-time Taxi Price Model based Prediction using Flink",
+  "description": "Files",
+  "source": "@site/docs/03-processing/lab-flink-taxi-pricing/README.md",
+  "sourceDirName": "03-processing/lab-flink-taxi-pricing",
+  "slug": "/processing/lab-flink-taxi-pricing/",
+  "permalink": "/docs/processing/lab-flink-taxi-pricing/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Apache Flink",
+    "permalink": "/docs/processing/apache-flink"
+  },
+  "next": {
+    "title": "Lab: Real-time Twitter Stream Wordcount using Flink",
+    "permalink": "/docs/processing/lab-flink-twitter-stream-processing/"
+  }
+}

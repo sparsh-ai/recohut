@@ -1,0 +1,15 @@
+{
+  "title": "GCP",
+  "slug": "/category/gcp",
+  "permalink": "/docs/category/gcp",
+  "navigation": {
+    "previous": {
+      "title": "Lab: Create AWS EC2 instance",
+      "permalink": "/docs/foundations/cloud/lab-create-your-first-ec2-instance-linux/"
+    },
+    "next": {
+      "title": "GCP Basics",
+      "permalink": "/docs/foundations/cloud/gcp-basics"
+    }
+  }
+}

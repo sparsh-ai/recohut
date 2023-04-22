@@ -1,8 +1,8 @@
 {
   "unversionedId": "casestudies/harmony",
   "id": "casestudies/harmony",
-  "title": "HARMONY - Responsive Data Pipeline",
-  "description": "As one of Australasia's leading marketplace lending platforms, Harmoney has matched more than 32,000 borrowers with more than $1 billion in personal loans. Its lending experience is 100 percent online, from application to funding, necessitating complete and accurate data collection, processing, and analysis.",
+  "title": "Harmony",
+  "description": "Responsive Data Pipeline",
   "source": "@site/docs/casestudies/harmony.md",
   "sourceDirName": "casestudies",
   "slug": "/casestudies/harmony",
@@ -10,13 +10,13 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681732641,
-  "formattedLastUpdatedAt": "Apr 17, 2023",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {},
   "sidebar": "docs",
   "previous": {
-    "title": "FAIR - Data Ingestion with a Cloud Data Platform",
+    "title": "Fair",
     "permalink": "/docs/casestudies/fair"
   },
   "next": {

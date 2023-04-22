@@ -25,7 +25,7 @@
             "items": [
               {
                 "type": "link",
-                "label": "Data Engineering Basics",
+                "label": "Basics",
                 "href": "/docs/foundations/basics/de-basics",
                 "docId": "foundations/basics/de-basics"
               },
@@ -61,7 +61,7 @@
               },
               {
                 "type": "link",
-                "label": "Batch vs Incremental Data Processing",
+                "label": "Batch vs Incremental",
                 "href": "/docs/foundations/basics/batch-vs-incremental",
                 "docId": "foundations/basics/batch-vs-incremental"
               },
@@ -127,7 +127,8 @@
               }
             ],
             "collapsed": true,
-            "collapsible": true
+            "collapsible": true,
+            "href": "/docs/category/data-engineering"
           },
           {
             "type": "category",
@@ -183,7 +184,8 @@
               }
             ],
             "collapsed": true,
-            "collapsible": true
+            "collapsible": true,
+            "href": "/docs/category/spark-and-hadoop"
           },
           {
             "type": "category",
@@ -239,18 +241,13 @@
               }
             ],
             "collapsed": true,
-            "collapsible": true
+            "collapsible": true,
+            "href": "/docs/category/developer-essentials"
           },
           {
             "type": "category",
             "label": "System Design",
             "items": [
-              {
-                "type": "link",
-                "label": "System Design",
-                "href": "/docs/system-design/",
-                "docId": "system-design/README"
-              },
               {
                 "type": "link",
                 "label": "System Design Examples",
@@ -265,36 +262,18 @@
               }
             ],
             "collapsed": true,
-            "collapsible": true
+            "collapsible": true,
+            "href": "/docs/system-design/"
           }
         ],
         "collapsed": true,
-        "collapsible": true
+        "collapsible": true,
+        "href": "/docs/category/getting-started"
       },
       {
         "type": "category",
         "label": "Cloud Computing",
         "items": [
-          {
-            "type": "category",
-            "label": "Introduction",
-            "items": [
-              {
-                "type": "link",
-                "label": "Cloud Computing Basics",
-                "href": "/docs/foundations/cloud/cloud-basics",
-                "docId": "foundations/cloud/cloud-basics"
-              },
-              {
-                "type": "link",
-                "label": "Comparison of Cloud Services",
-                "href": "/docs/foundations/cloud/cloud-comparison",
-                "docId": "foundations/cloud/cloud-comparison"
-              }
-            ],
-            "collapsed": true,
-            "collapsible": true
-          },
           {
             "type": "category",
             "label": "AWS",
@@ -385,7 +364,8 @@
               }
             ],
             "collapsed": true,
-            "collapsible": true
+            "collapsible": true,
+            "href": "/docs/category/aws"
           },
           {
             "type": "category",
@@ -405,7 +385,8 @@
               }
             ],
             "collapsed": true,
-            "collapsible": true
+            "collapsible": true,
+            "href": "/docs/category/gcp"
           },
           {
             "type": "category",
@@ -437,11 +418,13 @@
               }
             ],
             "collapsed": true,
-            "collapsible": true
+            "collapsible": true,
+            "href": "/docs/category/azure"
           }
         ],
         "collapsed": true,
-        "collapsible": true
+        "collapsible": true,
+        "href": "/docs/foundations/cloud/cloud-computing"
       },
       {
         "type": "category",
@@ -451,12 +434,6 @@
             "type": "category",
             "label": "SQL",
             "items": [
-              {
-                "type": "link",
-                "label": "SQL Basics",
-                "href": "/docs/foundations/language/sql/sql-basics",
-                "docId": "foundations/language/sql/sql-basics"
-              },
               {
                 "type": "link",
                 "label": "SQL Query",
@@ -633,7 +610,8 @@
               }
             ],
             "collapsed": true,
-            "collapsible": true
+            "collapsible": true,
+            "href": "/docs/foundations/language/sql/sql-basics"
           },
           {
             "type": "category",
@@ -1373,12 +1351,6 @@
             "items": [
               {
                 "type": "link",
-                "label": "Databricks",
-                "href": "/docs/processing/databricks/",
-                "docId": "processing/databricks/README"
-              },
-              {
-                "type": "link",
                 "label": "Lab: Cybersecurity Databricks",
                 "href": "/docs/processing/databricks/lab-cybersecurity-databricks/",
                 "docId": "processing/databricks/lab-cybersecurity-databricks/README"
@@ -1469,18 +1441,13 @@
               }
             ],
             "collapsed": true,
-            "collapsible": true
+            "collapsible": true,
+            "href": "/docs/processing/databricks/"
           },
           {
             "type": "category",
             "label": "AWS EMR",
             "items": [
-              {
-                "type": "link",
-                "label": "Amazon EMR",
-                "href": "/docs/processing/aws-emr",
-                "docId": "processing/aws-emr"
-              },
               {
                 "type": "link",
                 "label": "Lab: EMR Serverless",
@@ -1489,7 +1456,8 @@
               }
             ],
             "collapsed": true,
-            "collapsible": true
+            "collapsible": true,
+            "href": "/docs/processing/aws-emr"
           },
           {
             "type": "category",
@@ -1535,12 +1503,6 @@
             "items": [
               {
                 "type": "link",
-                "label": "AWS Lambda Function",
-                "href": "/docs/processing/aws-lambda",
-                "docId": "processing/aws-lambda"
-              },
-              {
-                "type": "link",
                 "label": "Snippets related to Lambda function",
                 "href": "/docs/processing/aws-lambda-snippets",
                 "docId": "processing/aws-lambda-snippets"
@@ -1553,18 +1515,13 @@
               }
             ],
             "collapsed": true,
-            "collapsible": true
+            "collapsible": true,
+            "href": "/docs/processing/aws-lambda"
           },
           {
             "type": "category",
             "label": "Amazon Kinesis",
             "items": [
-              {
-                "type": "link",
-                "label": "Amazon Kinesis",
-                "href": "/docs/processing/aws-kinesis",
-                "docId": "processing/aws-kinesis"
-              },
               {
                 "type": "link",
                 "label": "Lab: Real Time Apache Log Analytics with Kinesis",
@@ -1579,18 +1536,13 @@
               }
             ],
             "collapsed": true,
-            "collapsible": true
+            "collapsible": true,
+            "href": "/docs/processing/aws-kinesis"
           },
           {
             "type": "category",
             "label": "Apache Beam",
             "items": [
-              {
-                "type": "link",
-                "label": "Apache Beam",
-                "href": "/docs/processing/apache-beam",
-                "docId": "processing/apache-beam"
-              },
               {
                 "type": "link",
                 "label": "Lab: Apache Beam Getting Started",
@@ -1605,7 +1557,8 @@
               }
             ],
             "collapsed": true,
-            "collapsible": true
+            "collapsible": true,
+            "href": "/docs/processing/apache-beam"
           },
           {
             "type": "category",
@@ -1657,12 +1610,6 @@
             "items": [
               {
                 "type": "link",
-                "label": "Ray",
-                "href": "/docs/processing/ray",
-                "docId": "processing/ray"
-              },
-              {
-                "type": "link",
                 "label": "Lab: Ray Core Basics",
                 "href": "/docs/processing/lab-ray-core-basics/",
                 "docId": "processing/lab-ray-core-basics/README"
@@ -1675,18 +1622,13 @@
               }
             ],
             "collapsed": true,
-            "collapsible": true
+            "collapsible": true,
+            "href": "/docs/processing/ray"
           },
           {
             "type": "category",
             "label": "GCP Dataproc",
             "items": [
-              {
-                "type": "link",
-                "label": "Dataproc",
-                "href": "/docs/processing/gcp-dataproc",
-                "docId": "processing/gcp-dataproc"
-              },
               {
                 "type": "link",
                 "label": "Lab: Running Apache Spark jobs on Cloud Dataproc",
@@ -1695,7 +1637,8 @@
               }
             ],
             "collapsed": true,
-            "collapsible": true
+            "collapsible": true,
+            "href": "/docs/processing/gcp-dataproc"
           },
           {
             "type": "category",
@@ -1717,12 +1660,6 @@
             "items": [
               {
                 "type": "link",
-                "label": "Azure Synapse Analytics",
-                "href": "/docs/processing/azure-synapse-analytics",
-                "docId": "processing/azure-synapse-analytics"
-              },
-              {
-                "type": "link",
                 "label": "Lab: Transforming Data Using Azure Synapse Dataflows",
                 "href": "/docs/processing/lab-azure-synapse-dataflows/",
                 "docId": "processing/lab-azure-synapse-dataflows/README"
@@ -1741,7 +1678,8 @@
               }
             ],
             "collapsed": true,
-            "collapsible": true
+            "collapsible": true,
+            "href": "/docs/processing/azure-synapse-analytics"
           },
           {
             "type": "category",
@@ -1763,12 +1701,6 @@
             "items": [
               {
                 "type": "link",
-                "label": "Pub/Sub",
-                "href": "/docs/processing/gcp-pubsub",
-                "docId": "processing/gcp-pubsub"
-              },
-              {
-                "type": "link",
                 "label": "Lab: Streaming Data Processing - Publish Streaming Data into PubSub",
                 "href": "/docs/processing/lab-gcp-pubsub",
                 "docId": "processing/lab-gcp-pubsub"
@@ -1781,7 +1713,8 @@
               }
             ],
             "collapsed": true,
-            "collapsible": true
+            "collapsible": true,
+            "href": "/docs/processing/gcp-pubsub"
           },
           {
             "type": "category",
@@ -1789,9 +1722,15 @@
             "items": [
               {
                 "type": "link",
-                "label": "Apache Kafka",
-                "href": "/docs/processing/apache-kafka",
-                "docId": "processing/apache-kafka"
+                "label": "Lab: Getting started with Kafka and CLI",
+                "href": "/docs/processing/lab-kafka-cli/",
+                "docId": "processing/lab-kafka-cli/README"
+              },
+              {
+                "type": "link",
+                "label": "Lab: Getting started with Kafka and Python",
+                "href": "/docs/processing/lab-kafka-python/",
+                "docId": "processing/lab-kafka-python/README"
               },
               {
                 "type": "link",
@@ -1804,10 +1743,176 @@
                 "label": "Lab: Kafka and CDC",
                 "href": "/docs/processing/lab-confluent-kafka-faker/",
                 "docId": "processing/lab-confluent-kafka-faker/README"
+              },
+              {
+                "type": "link",
+                "label": "Lab: Real-time fraud detection by applying filter in Kafka topic",
+                "href": "/docs/processing/lab-kafka-fraud-detection/",
+                "docId": "processing/lab-kafka-fraud-detection/README"
+              },
+              {
+                "type": "link",
+                "label": "Kafka Streams for NYC Taxi data",
+                "href": "/docs/processing/lab-kafka-nyctaxi/",
+                "docId": "processing/lab-kafka-nyctaxi/README"
+              },
+              {
+                "type": "link",
+                "label": "Lab: Kafka on Cloud with Amazon ECS and Container Orchestration",
+                "href": "/docs/processing/lab-kafka-python-ecs/",
+                "docId": "processing/lab-kafka-python-ecs/README"
+              },
+              {
+                "type": "link",
+                "label": "Lab: Realtime Streaming analytics with Apache Kafka and Spark Streaming",
+                "href": "/docs/processing/lab-kafka-spark-streaming/",
+                "docId": "processing/lab-kafka-spark-streaming/README"
+              },
+              {
+                "type": "link",
+                "label": "Lab: Stock Market Kafka Real Time",
+                "href": "/docs/processing/lab-kafka-stock-market/",
+                "docId": "processing/lab-kafka-stock-market/README"
+              },
+              {
+                "type": "link",
+                "label": "Lab: Data Streaming Pipeline with Kafka for livetolldata",
+                "href": "/docs/processing/lab-kafka-toll-analysis/",
+                "docId": "processing/lab-kafka-toll-analysis/README"
+              },
+              {
+                "type": "link",
+                "label": "Project: Building an event-driven IKEA app with Kafka",
+                "href": "/docs/processing/project-kafka-ikea/",
+                "docId": "processing/project-kafka-ikea/README"
               }
             ],
             "collapsed": true,
-            "collapsible": true
+            "collapsible": true,
+            "href": "/docs/processing/apache-kafka"
+          },
+          {
+            "type": "category",
+            "label": "Apache Flink",
+            "items": [
+              {
+                "type": "link",
+                "label": "Lab: Real-time Taxi Price Model based Prediction using Flink",
+                "href": "/docs/processing/lab-flink-taxi-pricing/",
+                "docId": "processing/lab-flink-taxi-pricing/README"
+              },
+              {
+                "type": "link",
+                "label": "Lab: Real-time Twitter Stream Wordcount using Flink",
+                "href": "/docs/processing/lab-flink-twitter-stream-processing/",
+                "docId": "processing/lab-flink-twitter-stream-processing/README"
+              },
+              {
+                "type": "link",
+                "label": "Lab: Flink Kafka Sink",
+                "href": "/docs/processing/lab-flink-kafka-sink/",
+                "docId": "processing/lab-flink-kafka-sink/README"
+              },
+              {
+                "type": "link",
+                "label": "Lab: Flink Kafka Source",
+                "href": "/docs/processing/lab-flink-kafka-source/",
+                "docId": "processing/lab-flink-kafka-source/README"
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true,
+            "href": "/docs/processing/apache-flink"
+          },
+          {
+            "type": "category",
+            "label": "dbt",
+            "items": [
+              {
+                "type": "link",
+                "label": "Lab: Building an ELT pipeline for a cab service company using dbt and Postgres",
+                "href": "/docs/processing/lab-dbt-nyctaxi/",
+                "docId": "processing/lab-dbt-nyctaxi/README"
+              },
+              {
+                "type": "link",
+                "label": "Lab: dbt Postgres on Jaffle Shop data",
+                "href": "/docs/processing/lab-dbt-jaffle-shop/",
+                "docId": "processing/lab-dbt-jaffle-shop/README"
+              },
+              {
+                "type": "link",
+                "label": "Lab: dbt Snowflake on Knoema data",
+                "href": "/docs/processing/lab-dbt-knoema/",
+                "docId": "processing/lab-dbt-knoema/README"
+              },
+              {
+                "type": "link",
+                "label": "Lab: dbt Postgres on Olist Retail data",
+                "href": "/docs/processing/lab-dbt-olist/",
+                "docId": "processing/lab-dbt-olist/README"
+              },
+              {
+                "type": "link",
+                "label": "Lab: dbt BigQuery on Stack Exchange data",
+                "href": "/docs/processing/lab-dbt-stackexchnge/",
+                "docId": "processing/lab-dbt-stackexchnge/README"
+              },
+              {
+                "type": "link",
+                "label": "Lab: Building an ELT Pipeline with dbt and Amazon Redshift on TICKIT data",
+                "href": "/docs/processing/lab-dbt-tickit/",
+                "docId": "processing/lab-dbt-tickit/README"
+              },
+              {
+                "type": "link",
+                "label": "Lab: dbt Snowflake on TPCH data",
+                "href": "/docs/processing/lab-dbt-tpch/",
+                "docId": "processing/lab-dbt-tpch/README"
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true,
+            "href": "/docs/processing/dbt"
+          },
+          {
+            "type": "category",
+            "label": "Snowpark",
+            "items": [
+              {
+                "type": "link",
+                "label": "Lab: Churn Analytics Demo with dbt Snowpark Python models",
+                "href": "/docs/processing/lab-snowpark-churnpark/",
+                "docId": "processing/lab-snowpark-churnpark/README"
+              },
+              {
+                "type": "link",
+                "label": "Lab: Modeling with dbt and Snowpark",
+                "href": "/docs/processing/lab-snowpark-dbtsnowpy/",
+                "docId": "processing/lab-snowpark-dbtsnowpy/README"
+              },
+              {
+                "type": "link",
+                "label": "Lab: FIFA prediction model with dbt and Snowpark",
+                "href": "/docs/processing/lab-snowpark-fifapark/",
+                "docId": "processing/lab-snowpark-fifapark/README"
+              },
+              {
+                "type": "link",
+                "label": "Lab: Jaffle Shop Modeling with Snowpark",
+                "href": "/docs/processing/lab-snowpark-jafflepark/",
+                "docId": "processing/lab-snowpark-jafflepark/README"
+              },
+              {
+                "type": "link",
+                "label": "Lab: Knoema Regression Model with Snowpark",
+                "href": "/docs/processing/lab-snowpark-knoema-regression/",
+                "docId": "processing/lab-snowpark-knoema-regression/README"
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true,
+            "href": "/docs/processing/snowpark"
           }
         ],
         "collapsed": true,
@@ -1821,12 +1926,6 @@
             "type": "category",
             "label": "SQL Data Modeling",
             "items": [
-              {
-                "type": "link",
-                "label": "SQL Data Modeling",
-                "href": "/docs/data-modeling/sql-data-modeling",
-                "docId": "data-modeling/sql-data-modeling"
-              },
               {
                 "type": "link",
                 "label": "Inmon versus the Kimball data model",
@@ -1904,10 +2003,83 @@
                 "label": "Lab: AirBnB Postgres Datamodel",
                 "href": "/docs/data-modeling/lab-airbnb-postgres-datamodel/",
                 "docId": "data-modeling/lab-airbnb-postgres-datamodel/README"
+              },
+              {
+                "type": "link",
+                "label": "Lab: Car company Data Model in MySQL",
+                "href": "/docs/data-modeling/lab-cars-mysql-datamodel/",
+                "docId": "data-modeling/lab-cars-mysql-datamodel/README"
+              },
+              {
+                "type": "link",
+                "label": "Lab: Create a star schema from 3NF schema on DVD rental Pagila dataset",
+                "href": "/docs/data-modeling/lab-dvd-rental-datamodel/",
+                "docId": "data-modeling/lab-dvd-rental-datamodel/README"
+              },
+              {
+                "type": "link",
+                "label": "Lab: Create a Postgres data model of Google Playstore dataset",
+                "href": "/docs/data-modeling/lab-google-playstore-datamodel/",
+                "docId": "data-modeling/lab-google-playstore-datamodel/README"
+              },
+              {
+                "type": "link",
+                "label": "Lab: Inegi Snowflake Datamodel",
+                "href": "/docs/data-modeling/lab-inegi-snowflake-datamodel/",
+                "docId": "data-modeling/lab-inegi-snowflake-datamodel/README"
+              },
+              {
+                "type": "link",
+                "label": "Lab: Northwind Data Model in MySQL",
+                "href": "/docs/data-modeling/lab-mysql-northwind-datamodel/",
+                "docId": "data-modeling/lab-mysql-northwind-datamodel/README"
+              },
+              {
+                "type": "link",
+                "label": "Lab: Retail Store Data Model in MySQL",
+                "href": "/docs/data-modeling/lab-mysql-retail-store-datamodel/",
+                "docId": "data-modeling/lab-mysql-retail-store-datamodel/README"
+              },
+              {
+                "type": "link",
+                "label": "Lab: Creating a Bus Rapid Transit (BRT) Database in Postgres",
+                "href": "/docs/data-modeling/lab-postgres-busrapid-transit/",
+                "docId": "data-modeling/lab-postgres-busrapid-transit/README"
+              },
+              {
+                "type": "link",
+                "label": "Lab: Create Fact and Dimension Tables from Denormalized Raw Data",
+                "href": "/docs/data-modeling/lab-postgres-elt-datamodel/",
+                "docId": "data-modeling/lab-postgres-elt-datamodel/README"
+              },
+              {
+                "type": "link",
+                "label": "Lab: Postgres e-Wallet Data Model",
+                "href": "/docs/data-modeling/lab-postgres-ewallet-datamodel/",
+                "docId": "data-modeling/lab-postgres-ewallet-datamodel/README"
+              },
+              {
+                "type": "link",
+                "label": "Lab: Housing Data Model with CDC and SCD Type 2",
+                "href": "/docs/data-modeling/lab-postgres-housing-cdc-scd/",
+                "docId": "data-modeling/lab-postgres-housing-cdc-scd/README"
+              },
+              {
+                "type": "link",
+                "label": "Lab: Credit Debit Finance Data Model in Snowflake",
+                "href": "/docs/data-modeling/lab-snowflake-creditdebit-datamodel/",
+                "docId": "data-modeling/lab-snowflake-creditdebit-datamodel/README"
+              },
+              {
+                "type": "link",
+                "label": "Lab: Sparkify Music Company Data Model in Postgres",
+                "href": "/docs/data-modeling/lab-sparkify-data-model-postgres/",
+                "docId": "data-modeling/lab-sparkify-data-model-postgres/README"
               }
             ],
             "collapsed": true,
-            "collapsible": true
+            "collapsible": true,
+            "href": "/docs/data-modeling/sql-data-modeling"
           },
           {
             "type": "category",
@@ -1915,17 +2087,49 @@
             "items": [
               {
                 "type": "link",
-                "label": "NoSQL Data Modeling",
-                "href": "/docs/data-modeling/nosql-data-modeling",
-                "docId": "data-modeling/nosql-data-modeling"
+                "label": "Lab: Create a Data Model for a Digital Music Library",
+                "href": "/docs/data-modeling/lab-cassandra-digital-music-library/",
+                "docId": "data-modeling/lab-cassandra-digital-music-library/README"
+              },
+              {
+                "type": "link",
+                "label": "Create a Data Model for an Email System",
+                "href": "/docs/data-modeling/lab-cassandra-email-data-model/",
+                "docId": "data-modeling/lab-cassandra-email-data-model/README"
+              },
+              {
+                "type": "link",
+                "label": "Hotel Reservations Data Modeling with Cassandra",
+                "href": "/docs/data-modeling/lab-cassandra-hotel-reservations/",
+                "docId": "data-modeling/lab-cassandra-hotel-reservations/README"
+              },
+              {
+                "type": "link",
+                "label": "Create a Data Model for Investment Accounts or Portfolios",
+                "href": "/docs/data-modeling/lab-cassandra-investment-data-model/",
+                "docId": "data-modeling/lab-cassandra-investment-data-model/README"
+              },
+              {
+                "type": "link",
+                "label": "Create a Data Model for Temperature Monitoring Sensor Networks",
+                "href": "/docs/data-modeling/lab-cassandra-sensor-data-model/",
+                "docId": "data-modeling/lab-cassandra-sensor-data-model/README"
+              },
+              {
+                "type": "link",
+                "label": "Create a Data Model for Online Shopping Carts",
+                "href": "/docs/data-modeling/lab-cassandra-shopping-cart-data-model/",
+                "docId": "data-modeling/lab-cassandra-shopping-cart-data-model/README"
               }
             ],
             "collapsed": true,
-            "collapsible": true
+            "collapsible": true,
+            "href": "/docs/data-modeling/nosql-data-modeling"
           }
         ],
         "collapsed": true,
-        "collapsible": true
+        "collapsible": true,
+        "href": "/docs/category/data-modeling"
       },
       {
         "type": "category",
@@ -1987,12 +2191,6 @@
             "items": [
               {
                 "type": "link",
-                "label": "Azure Data Factory",
-                "href": "/docs/orchestration/azure-data-factory/",
-                "docId": "orchestration/azure-data-factory/README"
-              },
-              {
-                "type": "link",
                 "label": "Lab: Incremental Data Loading in Azure Data Factory",
                 "href": "/docs/orchestration/azure-data-factory/lab-adf-incremental-loading/",
                 "docId": "orchestration/azure-data-factory/lab-adf-incremental-loading/README"
@@ -2011,18 +2209,13 @@
               }
             ],
             "collapsed": true,
-            "collapsible": true
+            "collapsible": true,
+            "href": "/docs/orchestration/azure-data-factory/"
           },
           {
             "type": "category",
             "label": "GCP Cloud DataFusion",
             "items": [
-              {
-                "type": "link",
-                "label": "Cloud Data Fusion",
-                "href": "/docs/orchestration/datafusion/",
-                "docId": "orchestration/datafusion/README"
-              },
               {
                 "type": "link",
                 "label": "Lab: Building and Executing a Pipeline Graph with Data Fusion",
@@ -2031,7 +2224,8 @@
               }
             ],
             "collapsed": true,
-            "collapsible": true
+            "collapsible": true,
+            "href": "/docs/orchestration/datafusion/"
           },
           {
             "type": "category",
@@ -2177,20 +2371,6 @@
         "items": [
           {
             "type": "category",
-            "label": "Basics",
-            "items": [
-              {
-                "type": "link",
-                "label": "Mathematics",
-                "href": "/docs/mathematics/",
-                "docId": "mathematics/README"
-              }
-            ],
-            "collapsed": true,
-            "collapsible": true
-          },
-          {
-            "type": "category",
             "label": "Probability",
             "items": [
               {
@@ -2225,7 +2405,8 @@
           }
         ],
         "collapsed": true,
-        "collapsible": true
+        "collapsible": true,
+        "href": "/docs/mathematics/"
       },
       {
         "type": "category",
@@ -2441,13 +2622,13 @@
               },
               {
                 "type": "link",
-                "label": "FAIR - Data Ingestion with a Cloud Data Platform",
+                "label": "Fair",
                 "href": "/docs/casestudies/fair",
                 "docId": "casestudies/fair"
               },
               {
                 "type": "link",
-                "label": "HARMONY - Responsive Data Pipeline",
+                "label": "Harmony",
                 "href": "/docs/casestudies/harmony",
                 "docId": "casestudies/harmony"
               },
@@ -2489,7 +2670,7 @@
               },
               {
                 "type": "link",
-                "label": "PANORAMIC - Simplifying Data Ingestion, Transformation, And Delivery",
+                "label": "Panoramic",
                 "href": "/docs/casestudies/panoramic",
                 "docId": "casestudies/panoramic"
               },
@@ -2555,7 +2736,203 @@
               }
             ],
             "collapsed": true,
-            "collapsible": true
+            "collapsible": true,
+            "href": "/docs/category/case-studies"
+          },
+          {
+            "type": "category",
+            "label": "Capstones",
+            "items": [
+              {
+                "type": "link",
+                "label": "Serverless Streaming Data on AWS",
+                "href": "/docs/capstones/ServerlessStreamingApp/",
+                "docId": "capstones/ServerlessStreamingApp/README"
+              },
+              {
+                "type": "link",
+                "label": "ACLED",
+                "href": "/docs/capstones/acled/",
+                "docId": "capstones/acled/README"
+              },
+              {
+                "type": "link",
+                "label": "Citi Bike Trip Histories",
+                "href": "/docs/capstones/citibike-trip-histories/",
+                "docId": "capstones/citibike-trip-histories/README"
+              },
+              {
+                "type": "link",
+                "label": "Air Pollution Pipeline",
+                "href": "/docs/capstones/city-pollution/",
+                "docId": "capstones/city-pollution/README"
+              },
+              {
+                "type": "link",
+                "label": "Airflow - City Traffic Drone",
+                "href": "/docs/capstones/city-traffic-drone/",
+                "docId": "capstones/city-traffic-drone/README"
+              },
+              {
+                "type": "link",
+                "label": "Global Historical Climatology Network Daily Data Pipeline",
+                "href": "/docs/capstones/climate/",
+                "docId": "capstones/climate/README"
+              },
+              {
+                "type": "link",
+                "label": "Building End to end data pipeline in AWS",
+                "href": "/docs/capstones/cloudmaze/",
+                "docId": "capstones/cloudmaze/README"
+              },
+              {
+                "type": "link",
+                "label": "README",
+                "href": "/docs/capstones/dbt-redshift/",
+                "docId": "capstones/dbt-redshift/README"
+              },
+              {
+                "type": "link",
+                "label": "DigitalSkola",
+                "href": "/docs/capstones/digitalskola/",
+                "docId": "capstones/digitalskola/README"
+              },
+              {
+                "type": "link",
+                "label": "Disaster Response Pipeline",
+                "href": "/docs/capstones/disaster-response/",
+                "docId": "capstones/disaster-response/README"
+              },
+              {
+                "type": "link",
+                "label": "Funflix",
+                "href": "/docs/capstones/funflix/",
+                "docId": "capstones/funflix/README"
+              },
+              {
+                "type": "link",
+                "label": "Datalake Schema Correction",
+                "href": "/docs/capstones/hmc/",
+                "docId": "capstones/hmc/README"
+              },
+              {
+                "type": "link",
+                "label": "Log Analytics and Processing in Real-Time",
+                "href": "/docs/capstones/kinesis-flink-beam/",
+                "docId": "capstones/kinesis-flink-beam/README"
+              },
+              {
+                "type": "link",
+                "label": "Streaming ETL pipeline with Apache Flink and Amazon Kinesis Data Analytics",
+                "href": "/docs/capstones/kinesis-flink-etl/",
+                "docId": "capstones/kinesis-flink-etl/README"
+              },
+              {
+                "type": "link",
+                "label": "Kortex",
+                "href": "/docs/capstones/kortex/",
+                "docId": "capstones/kortex/README"
+              },
+              {
+                "type": "link",
+                "label": "Lufthansa API",
+                "href": "/docs/capstones/lufthansa/",
+                "docId": "capstones/lufthansa/README"
+              },
+              {
+                "type": "link",
+                "label": "Movie Review Sentiment Analysis Pipeline",
+                "href": "/docs/capstones/movie-sentiment/",
+                "docId": "capstones/movie-sentiment/README"
+              },
+              {
+                "type": "link",
+                "label": "Multi-touch Attribution",
+                "href": "/docs/capstones/multi-touch-attribution/",
+                "docId": "capstones/multi-touch-attribution/README"
+              },
+              {
+                "type": "link",
+                "label": "Building Recommender System from Scratch",
+                "href": "/docs/capstones/recofront/",
+                "docId": "capstones/recofront/README"
+              },
+              {
+                "type": "link",
+                "label": "Reddit Submissions, Authors and Subreddits analysis",
+                "href": "/docs/capstones/reddit/",
+                "docId": "capstones/reddit/README"
+              },
+              {
+                "type": "link",
+                "label": "AWS Kafka and DynamoDB for real time fraud detection",
+                "href": "/docs/capstones/redshield/",
+                "docId": "capstones/redshield/README"
+              },
+              {
+                "type": "link",
+                "label": "Data Pipeline with dbt, Airflow and Great Expectations",
+                "href": "/docs/capstones/robust-data-pipeline/",
+                "docId": "capstones/robust-data-pipeline/README"
+              },
+              {
+                "type": "link",
+                "label": "Smartcity",
+                "href": "/docs/capstones/smartcity/",
+                "docId": "capstones/smartcity/README"
+              },
+              {
+                "type": "link",
+                "label": "Sparkify",
+                "href": "/docs/capstones/sparkify/",
+                "docId": "capstones/sparkify/README"
+              },
+              {
+                "type": "link",
+                "label": "Spotify",
+                "href": "/docs/capstones/spotify/",
+                "docId": "capstones/spotify/README"
+              },
+              {
+                "type": "link",
+                "label": "Twitter data Topic Analysis and Realtime Sentiment Analysis",
+                "href": "/docs/capstones/twitter-sentiment-glue/",
+                "docId": "capstones/twitter-sentiment-glue/README"
+              },
+              {
+                "type": "link",
+                "label": "US Immigration analysis and data pipeline",
+                "href": "/docs/capstones/us-immigration/",
+                "docId": "capstones/us-immigration/README"
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true,
+            "href": "/docs/category/capstones"
+          },
+          {
+            "type": "link",
+            "label": "Interview Preparation",
+            "href": "/docs/interviewprep/",
+            "docId": "interviewprep/README"
+          },
+          {
+            "type": "link",
+            "label": "Resume Buildup",
+            "href": "/docs/interviewprep/resume-buildup",
+            "docId": "interviewprep/resume-buildup"
+          },
+          {
+            "type": "link",
+            "label": "Resources",
+            "href": "/docs/misc/resources",
+            "docId": "misc/resources"
+          },
+          {
+            "type": "link",
+            "label": "Extras",
+            "href": "/docs/misc/extras",
+            "docId": "misc/extras"
           }
         ],
         "collapsed": true,
@@ -2564,41 +2941,6 @@
     ]
   },
   "docs": {
-    "a1-interviewprep/algorithm-problems": {
-      "id": "a1-interviewprep/algorithm-problems",
-      "title": "Algorithm Problems",
-      "description": "1. https://leetcode.com/problems/two-sum/"
-    },
-    "a1-interviewprep/azure-data-engineering": {
-      "id": "a1-interviewprep/azure-data-engineering",
-      "title": "Azure Data Engineering",
-      "description": "Case study - data lake"
-    },
-    "a1-interviewprep/basic-technical-questions": {
-      "id": "a1-interviewprep/basic-technical-questions",
-      "title": "Basic Technical Questions",
-      "description": "Interviewers use easy technical questions designed to weed out candidates without the right experience. This question assesses your experience level, comfort with specific tools, and the depth of your domain expertise. Basic technical questions include:"
-    },
-    "a1-interviewprep/behavioral-interview-questions": {
-      "id": "a1-interviewprep/behavioral-interview-questions",
-      "title": "Behavioral Interview Questions",
-      "description": "Behavioral questions assess soft skills (e.g., communication, leadership, adaptability), your skill level, and how you fit into the company’s data engineering team."
-    },
-    "a1-interviewprep/behavioral-questions": {
-      "id": "a1-interviewprep/behavioral-questions",
-      "title": "Behavioral Questions",
-      "description": "Tell me about yourself"
-    },
-    "a1-interviewprep/README": {
-      "id": "a1-interviewprep/README",
-      "title": "Interview Preparation",
-      "description": "Whether you’re just getting into the data engineer job market or your interview is tomorrow, practice is an essential part of the interview preparation process for a data engineer. Data engineering interview questions assess your data engineering skills and domain expertise. They are based on a company’s tech stack and technology goals, and they test your ability to perform job functions. In an interview for any Engineering role, the interviewer wants to understand if you have good analytical skills, problem-solving ability, communication, work culture and ability to build technical solutions. Specific to Data Engineering, they also want to understand if you have the skills to handle large data and build scalable and robust systems."
-    },
-    "a1-interviewprep/resume-buildup": {
-      "id": "a1-interviewprep/resume-buildup",
-      "title": "Resume Buildup",
-      "description": "Expert Tips to Perfect Your Data Engineer Resume"
-    },
     "assignments/bellabeat-analysis/README": {
       "id": "assignments/bellabeat-analysis/README",
       "title": "Bellabeat Case Study",
@@ -2669,110 +3011,107 @@
       "title": "Assignment: Extract Data from Twitter API and Load into AWS S3",
       "description": ""
     },
-    "b3-misc/explore-further": {
-      "id": "b3-misc/explore-further",
-      "title": "Explore Further",
-      "description": "Basic Concepts"
-    },
-    "b3-misc/extras": {
-      "id": "b3-misc/extras",
-      "title": "Extras",
-      "description": "Data, analytics and AI maturity curve"
-    },
-    "b3-misc/readme_archive": {
-      "id": "b3-misc/readme_archive",
-      "title": "Data Engineering Intensive Training Program",
-      "description": "Hit the ⭐️ button if you like the repo."
-    },
-    "b3-misc/resources": {
-      "id": "b3-misc/resources",
-      "title": "Resources",
-      "description": "Courses"
-    },
     "capstones/acled/README": {
       "id": "capstones/acled/README",
       "title": "ACLED",
-      "description": "Objective"
+      "description": "Objective",
+      "sidebar": "docs"
     },
     "capstones/citibike-trip-histories/README": {
       "id": "capstones/citibike-trip-histories/README",
       "title": "Citi Bike Trip Histories",
-      "description": "The goal of this capstone is to build an end-to-end data pipeline:"
+      "description": "The goal of this capstone is to build an end-to-end data pipeline:",
+      "sidebar": "docs"
     },
     "capstones/city-pollution/README": {
       "id": "capstones/city-pollution/README",
       "title": "Air Pollution Pipeline",
-      "description": ""
+      "description": "",
+      "sidebar": "docs"
     },
     "capstones/city-traffic-drone/README": {
       "id": "capstones/city-traffic-drone/README",
       "title": "Airflow - City Traffic Drone",
-      "description": "City Vehicle Trajactories Data extraction and warehousing for Traffic analysis"
+      "description": "City Vehicle Trajactories Data extraction and warehousing for Traffic analysis",
+      "sidebar": "docs"
     },
     "capstones/climate/README": {
       "id": "capstones/climate/README",
       "title": "Global Historical Climatology Network Daily Data Pipeline",
-      "description": "Objective"
+      "description": "Objective",
+      "sidebar": "docs"
     },
     "capstones/cloudmaze/README": {
       "id": "capstones/cloudmaze/README",
       "title": "Building End to end data pipeline in AWS",
-      "description": "Architecture Diagram"
+      "description": "Architecture Diagram",
+      "sidebar": "docs"
     },
     "capstones/dbt-redshift/README": {
       "id": "capstones/dbt-redshift/README",
       "title": "README",
-      "description": "Objective"
+      "description": "Objective",
+      "sidebar": "docs"
     },
     "capstones/digitalskola/README": {
       "id": "capstones/digitalskola/README",
       "title": "DigitalSkola",
-      "description": "Objective"
+      "description": "Objective",
+      "sidebar": "docs"
     },
     "capstones/disaster-response/README": {
       "id": "capstones/disaster-response/README",
       "title": "Disaster Response Pipeline",
-      "description": "wall"
+      "description": "wall",
+      "sidebar": "docs"
     },
     "capstones/funflix/README": {
       "id": "capstones/funflix/README",
       "title": "Funflix",
-      "description": "You are working as a data engineer in an Australian media company Funflix. You got the following requirements and tasks to solve."
+      "description": "You are working as a data engineer in an Australian media company Funflix. You got the following requirements and tasks to solve.",
+      "sidebar": "docs"
     },
     "capstones/hmc/README": {
       "id": "capstones/hmc/README",
       "title": "Datalake Schema Correction",
-      "description": "Objective"
+      "description": "Objective",
+      "sidebar": "docs"
     },
     "capstones/kinesis-flink-beam/README": {
       "id": "capstones/kinesis-flink-beam/README",
       "title": "Log Analytics and Processing in Real-Time",
-      "description": "Lab 1: Apache Flink on Amazon Kinesis Data Analytics"
+      "description": "Lab 1: Apache Flink on Amazon Kinesis Data Analytics",
+      "sidebar": "docs"
     },
     "capstones/kinesis-flink-etl/README": {
       "id": "capstones/kinesis-flink-etl/README",
       "title": "Streaming ETL pipeline with Apache Flink and Amazon Kinesis Data Analytics",
-      "description": "We will create an Amazon Kinesis Data Analytics for Apache Flink application with Amazon Kinesis Data Streams as a source and a Amazon S3 bucket as a sink. Random data is ingested using Amazon Kinesis Data Generator. The Apache Flink application code performs a word count on the streaming random data using a tumbling window of 5 minutes. The generated word count is then stored in the specified Amazon S3 bucket. Amazon Athena is used to query data generated in the Amazon S3 bucket to validate the end results."
+      "description": "We will create an Amazon Kinesis Data Analytics for Apache Flink application with Amazon Kinesis Data Streams as a source and a Amazon S3 bucket as a sink. Random data is ingested using Amazon Kinesis Data Generator. The Apache Flink application code performs a word count on the streaming random data using a tumbling window of 5 minutes. The generated word count is then stored in the specified Amazon S3 bucket. Amazon Athena is used to query data generated in the Amazon S3 bucket to validate the end results.",
+      "sidebar": "docs"
     },
     "capstones/kortex/README": {
       "id": "capstones/kortex/README",
       "title": "Kortex",
-      "description": "Objectives"
+      "description": "Objectives",
+      "sidebar": "docs"
     },
     "capstones/lufthansa/README": {
       "id": "capstones/lufthansa/README",
       "title": "Lufthansa API",
-      "description": "Objective"
+      "description": "Objective",
+      "sidebar": "docs"
     },
     "capstones/movie-sentiment/README": {
       "id": "capstones/movie-sentiment/README",
       "title": "Movie Review Sentiment Analysis Pipeline",
-      "description": "Build a pipeline that expresses the fact artist review sentiment and film review sentiment, based on the data provided by IMDb and TMDb."
+      "description": "Build a pipeline that expresses the fact artist review sentiment and film review sentiment, based on the data provided by IMDb and TMDb.",
+      "sidebar": "docs"
     },
     "capstones/multi-touch-attribution/README": {
       "id": "capstones/multi-touch-attribution/README",
       "title": "Multi-touch Attribution",
-      "description": "Abstract"
+      "description": "Abstract",
+      "sidebar": "docs"
     },
     "capstones/other/covid19-datalake/README": {
       "id": "capstones/other/covid19-datalake/README",
@@ -2887,32 +3226,37 @@
     "capstones/README": {
       "id": "capstones/README",
       "title": "Capstones",
-      "description": "ETL - ACLED"
+      "description": "More Ideas"
     },
     "capstones/recofront/README": {
       "id": "capstones/recofront/README",
       "title": "Building Recommender System from Scratch",
-      "description": "Overview"
+      "description": "Overview",
+      "sidebar": "docs"
     },
     "capstones/reddit/README": {
       "id": "capstones/reddit/README",
       "title": "Reddit Submissions, Authors and Subreddits analysis",
-      "description": "Problem Statement"
+      "description": "Problem Statement",
+      "sidebar": "docs"
     },
     "capstones/redshield/README": {
       "id": "capstones/redshield/README",
       "title": "AWS Kafka and DynamoDB for real time fraud detection",
-      "description": "Problem Statement"
+      "description": "Problem Statement",
+      "sidebar": "docs"
     },
     "capstones/robust-data-pipeline/README": {
       "id": "capstones/robust-data-pipeline/README",
       "title": "Data Pipeline with dbt, Airflow and Great Expectations",
-      "description": "In this project, we will learn how to combine the functions of three open source tools - Airflow, dbt and Great expectations - to build, test, validate, document, and orchestrate an entire pipeline, end to end, from scratch. We are going to load the NYC Taxi data into Redshift warehouse and then transform + validate the data using dbt and great expectations."
+      "description": "In this project, we will learn how to combine the functions of three open source tools - Airflow, dbt and Great expectations - to build, test, validate, document, and orchestrate an entire pipeline, end to end, from scratch. We are going to load the NYC Taxi data into Redshift warehouse and then transform + validate the data using dbt and great expectations.",
+      "sidebar": "docs"
     },
     "capstones/ServerlessStreamingApp/README": {
       "id": "capstones/ServerlessStreamingApp/README",
       "title": "Serverless Streaming Data on AWS",
-      "description": "https://youtu.be/abaVSFFdU-c"
+      "description": "https://youtu.be/abaVSFFdU-c",
+      "sidebar": "docs"
     },
     "capstones/smartcity/analytics/flink-cdk/README": {
       "id": "capstones/smartcity/analytics/flink-cdk/README",
@@ -2939,25 +3283,35 @@
       "title": "Amazon Kinesis Data Firehose",
       "description": "Description of files"
     },
+    "capstones/smartcity/README": {
+      "id": "capstones/smartcity/README",
+      "title": "Smartcity",
+      "description": "Files",
+      "sidebar": "docs"
+    },
     "capstones/sparkify/README": {
       "id": "capstones/sparkify/README",
       "title": "Sparkify",
-      "description": "Sparkify SQL Data Modeling with Postgres"
+      "description": "Sparkify SQL Data Modeling with Postgres",
+      "sidebar": "docs"
     },
     "capstones/spotify/README": {
       "id": "capstones/spotify/README",
       "title": "Spotify",
-      "description": "Implement Complete Data Pipeline Data Engineering Project using Spotify"
+      "description": "Implement Complete Data Pipeline Data Engineering Project using Spotify",
+      "sidebar": "docs"
     },
     "capstones/twitter-sentiment-glue/README": {
       "id": "capstones/twitter-sentiment-glue/README",
       "title": "Twitter data Topic Analysis and Realtime Sentiment Analysis",
-      "description": "Problem Statement"
+      "description": "Problem Statement",
+      "sidebar": "docs"
     },
     "capstones/us-immigration/README": {
       "id": "capstones/us-immigration/README",
       "title": "US Immigration analysis and data pipeline",
-      "description": "Problem Statement"
+      "description": "Problem Statement",
+      "sidebar": "docs"
     },
     "casestudies/99group": {
       "id": "casestudies/99group",
@@ -2991,14 +3345,14 @@
     },
     "casestudies/fair": {
       "id": "casestudies/fair",
-      "title": "FAIR - Data Ingestion with a Cloud Data Platform",
-      "description": "Fair is a financial technology company that offers a new way to shop for a car, get approved for a loan, and pay for the car. Its unique smartphone app gives customers the freedom to drive the car they want for as long as they want and gives them the flexibility to turn in the vehicle at any time. Data is essential to this business model: The company ingests and analyzes billions of data points from more than 500 data sources.",
+      "title": "Fair",
+      "description": "Data Ingestion with a Cloud Data Platform",
       "sidebar": "docs"
     },
     "casestudies/harmony": {
       "id": "casestudies/harmony",
-      "title": "HARMONY - Responsive Data Pipeline",
-      "description": "As one of Australasia's leading marketplace lending platforms, Harmoney has matched more than 32,000 borrowers with more than $1 billion in personal loans. Its lending experience is 100 percent online, from application to funding, necessitating complete and accurate data collection, processing, and analysis.",
+      "title": "Harmony",
+      "description": "Responsive Data Pipeline",
       "sidebar": "docs"
     },
     "casestudies/helpshift": {
@@ -3039,8 +3393,8 @@
     },
     "casestudies/panoramic": {
       "id": "casestudies/panoramic",
-      "title": "PANORAMIC - Simplifying Data Ingestion, Transformation, And Delivery",
-      "description": "Panoramic is a world leader in providing analytics to communications firms and media service providers. It helps marketers use consumer data to hone their creative strategies. Panoramic's data scientists and marketing analysts build customized data platforms that enable marketers to visualize consumer data for analysis, benchmarking, internal collaboration, and more. The company has built its business around ingesting and modeling marketing data as a foundation for generating meaningful insights.",
+      "title": "Panoramic",
+      "description": "Simplifying Data Ingestion, Transformation, And Delivery",
       "sidebar": "docs"
     },
     "casestudies/plexure": {
@@ -3052,7 +3406,7 @@
     "casestudies/README": {
       "id": "casestudies/README",
       "title": "Case Studies",
-      "description": "Steps"
+      "description": "More"
     },
     "casestudies/spotify": {
       "id": "casestudies/spotify",
@@ -3179,35 +3533,47 @@
       "title": "Cars Data Modeling MySQL",
       "description": "ETL, data modeling and Data quality runs on cars and dealership dataset"
     },
+    "data-modeling/lab-cars-mysql-datamodel/README": {
+      "id": "data-modeling/lab-cars-mysql-datamodel/README",
+      "title": "Lab: Car company Data Model in MySQL",
+      "description": "Files",
+      "sidebar": "docs"
+    },
     "data-modeling/lab-cassandra-digital-music-library/README": {
       "id": "data-modeling/lab-cassandra-digital-music-library/README",
-      "title": "Create a Data Model for a Digital Music Library",
-      "description": "Conceptual Data Model"
+      "title": "Lab: Create a Data Model for a Digital Music Library",
+      "description": "Conceptual Data Model",
+      "sidebar": "docs"
     },
     "data-modeling/lab-cassandra-email-data-model/README": {
       "id": "data-modeling/lab-cassandra-email-data-model/README",
       "title": "Create a Data Model for an Email System",
-      "description": "Conceptual Data Model"
+      "description": "Conceptual Data Model",
+      "sidebar": "docs"
     },
     "data-modeling/lab-cassandra-hotel-reservations/README": {
       "id": "data-modeling/lab-cassandra-hotel-reservations/README",
       "title": "Hotel Reservations Data Modeling with Cassandra",
-      "description": "Learning CQL Query Clauses"
+      "description": "Learning CQL Query Clauses",
+      "sidebar": "docs"
     },
     "data-modeling/lab-cassandra-investment-data-model/README": {
       "id": "data-modeling/lab-cassandra-investment-data-model/README",
       "title": "Create a Data Model for Investment Accounts or Portfolios",
-      "description": "Conceptual Data Model"
+      "description": "Conceptual Data Model",
+      "sidebar": "docs"
     },
     "data-modeling/lab-cassandra-sensor-data-model/README": {
       "id": "data-modeling/lab-cassandra-sensor-data-model/README",
       "title": "Create a Data Model for Temperature Monitoring Sensor Networks",
-      "description": "Conceptual Data Model"
+      "description": "Conceptual Data Model",
+      "sidebar": "docs"
     },
     "data-modeling/lab-cassandra-shopping-cart-data-model/README": {
       "id": "data-modeling/lab-cassandra-shopping-cart-data-model/README",
       "title": "Create a Data Model for Online Shopping Carts",
-      "description": "Conceptual Data Model"
+      "description": "Conceptual Data Model",
+      "sidebar": "docs"
     },
     "data-modeling/lab-disease-diagnosis/README": {
       "id": "data-modeling/lab-disease-diagnosis/README",
@@ -3216,33 +3582,39 @@
     },
     "data-modeling/lab-dvd-rental-datamodel/README": {
       "id": "data-modeling/lab-dvd-rental-datamodel/README",
-      "title": "Postgres Pagila",
-      "description": "Objective"
+      "title": "Lab: Create a star schema from 3NF schema on DVD rental Pagila dataset",
+      "description": "Objective",
+      "sidebar": "docs"
     },
     "data-modeling/lab-google-playstore-datamodel/README": {
       "id": "data-modeling/lab-google-playstore-datamodel/README",
-      "title": "Google Platstore Data Modeling",
-      "description": "Objective"
+      "title": "Lab: Create a Postgres data model of Google Playstore dataset",
+      "description": "Data model",
+      "sidebar": "docs"
     },
     "data-modeling/lab-inegi-snowflake-datamodel/README": {
       "id": "data-modeling/lab-inegi-snowflake-datamodel/README",
-      "title": "Inegi Snowflake Datamodel",
-      "description": "National Institute of Statistics and Geography"
+      "title": "Lab: Inegi Snowflake Datamodel",
+      "description": "National Institute of Statistics and Geography",
+      "sidebar": "docs"
     },
     "data-modeling/lab-mysql-northwind-datamodel/README": {
       "id": "data-modeling/lab-mysql-northwind-datamodel/README",
-      "title": "Data Modeling",
-      "description": "Process Flow"
+      "title": "Lab: Northwind Data Model in MySQL",
+      "description": "Process Flow",
+      "sidebar": "docs"
     },
     "data-modeling/lab-mysql-retail-store-datamodel/README": {
       "id": "data-modeling/lab-mysql-retail-store-datamodel/README",
-      "title": "Data Modeling",
-      "description": "Process Flow"
+      "title": "Lab: Retail Store Data Model in MySQL",
+      "description": "Process Flow",
+      "sidebar": "docs"
     },
     "data-modeling/lab-postgres-busrapid-transit/README": {
       "id": "data-modeling/lab-postgres-busrapid-transit/README",
-      "title": "Postgres Bus Rapid Transit",
-      "description": "Creating a Bus Rapid Transit (BRT) Database"
+      "title": "Lab: Creating a Bus Rapid Transit (BRT) Database in Postgres",
+      "description": "Creating a Bus Rapid Transit (BRT) Database",
+      "sidebar": "docs"
     },
     "data-modeling/lab-postgres-demographics-datamodel": {
       "id": "data-modeling/lab-postgres-demographics-datamodel",
@@ -3251,28 +3623,38 @@
     },
     "data-modeling/lab-postgres-elt-datamodel/README": {
       "id": "data-modeling/lab-postgres-elt-datamodel/README",
-      "title": "Postgres ELT Datamodel with PSQL",
-      "description": "Create Fact and Dimension Tables from Denormalized Raw Data"
+      "title": "Lab: Create Fact and Dimension Tables from Denormalized Raw Data",
+      "description": "In data warehousing world there are occasions where developers have to reverse engineer model from flat csv files. We will understand this with simple example.",
+      "sidebar": "docs"
     },
     "data-modeling/lab-postgres-ewallet-datamodel/README": {
       "id": "data-modeling/lab-postgres-ewallet-datamodel/README",
-      "title": "Postgres ewallet Datamodel",
-      "description": "In this lab, we will design a data model for an eWallet company."
+      "title": "Lab: Postgres e-Wallet Data Model",
+      "description": "In this lab, we will design a data model for an eWallet company.",
+      "sidebar": "docs"
     },
     "data-modeling/lab-postgres-housing-cdc-scd/README": {
       "id": "data-modeling/lab-postgres-housing-cdc-scd/README",
-      "title": "Housing Data Model with CDC and SCD Type 2",
-      "description": "A critical aspect of data engineering is dealing with data change from one date to the next. In this case, we want both the current and historical value. There are many techniques and patterns to create a historical-friendly model during the ingestion and modeling phases. In this lab, we will build a data model that uses Change Data Capture and Slowly Changing Dimension Type 2 modelization to track housing prices. The code is written in Python. pandas and sqlalchemy library is used to load data from CSV files and execute SQL queries against the data warehouse."
+      "title": "Lab: Housing Data Model with CDC and SCD Type 2",
+      "description": "A critical aspect of data engineering is dealing with data change from one date to the next. In this case, we want both the current and historical value. There are many techniques and patterns to create a historical-friendly model during the ingestion and modeling phases. In this lab, we will build a data model that uses Change Data Capture and Slowly Changing Dimension Type 2 modelization to track housing prices. The code is written in Python. pandas and sqlalchemy library is used to load data from CSV files and execute SQL queries against the data warehouse.",
+      "sidebar": "docs"
     },
     "data-modeling/lab-sales-datamodel/README": {
       "id": "data-modeling/lab-sales-datamodel/README",
       "title": "Sales Datamodel",
       "description": "Create dimension tables"
     },
+    "data-modeling/lab-snowflake-creditdebit-datamodel/README": {
+      "id": "data-modeling/lab-snowflake-creditdebit-datamodel/README",
+      "title": "Lab: Credit Debit Finance Data Model in Snowflake",
+      "description": "Notebooks",
+      "sidebar": "docs"
+    },
     "data-modeling/lab-sparkify-data-model-postgres/README": {
       "id": "data-modeling/lab-sparkify-data-model-postgres/README",
-      "title": "Sparkify Music Company Data Model in Postgres",
-      "description": "In this, we will model the data with Postgres and build an ETL pipeline using Python. The fact and dimension tables for a star database schema for a particular analytic focus is defined, and an ETL pipeline that transfers data from files in two local directories into these tables in Postgres using Python and SQL was developed."
+      "title": "Lab: Sparkify Music Company Data Model in Postgres",
+      "description": "In this, we will model the data with Postgres and build an ETL pipeline using Python. The fact and dimension tables for a star database schema for a particular analytic focus is defined, and an ETL pipeline that transfers data from files in two local directories into these tables in Postgres using Python and SQL was developed.",
+      "sidebar": "docs"
     },
     "data-modeling/normalization-vs-denormalization": {
       "id": "data-modeling/normalization-vs-denormalization",
@@ -3762,7 +4144,7 @@
     },
     "foundations/basics/batch-vs-incremental": {
       "id": "foundations/basics/batch-vs-incremental",
-      "title": "Batch vs Incremental Data Processing",
+      "title": "Batch vs Incremental",
       "description": "The idea behind incremental processing is quite simple. Incremental processing extends the semantics of processing streaming data to batch processing pipelines by processing only new data each run and then incrementally updating the new results. This unlocks great cost savings due to much shorter batch pipelines as well as data freshness speedups due to being able to run them much more frequently as well.",
       "sidebar": "docs"
     },
@@ -3810,7 +4192,7 @@
     },
     "foundations/basics/de-basics": {
       "id": "foundations/basics/de-basics",
-      "title": "Data Engineering Basics",
+      "title": "Basics",
       "description": "What is Data Engineering?",
       "sidebar": "docs"
     },
@@ -3972,16 +4354,10 @@
       "description": "Modern Azure Data Architecture Platform",
       "sidebar": "docs"
     },
-    "foundations/cloud/cloud-basics": {
-      "id": "foundations/cloud/cloud-basics",
-      "title": "Cloud Computing Basics",
+    "foundations/cloud/cloud-computing": {
+      "id": "foundations/cloud/cloud-computing",
+      "title": "Cloud Computing",
       "description": "What is Cloud Computing?",
-      "sidebar": "docs"
-    },
-    "foundations/cloud/cloud-comparison": {
-      "id": "foundations/cloud/cloud-comparison",
-      "title": "Comparison of Cloud Services",
-      "description": "Service",
       "sidebar": "docs"
     },
     "foundations/cloud/dms": {
@@ -4583,6 +4959,43 @@
       "description": "There is no official categorisation of Window Functions but based on the usage, we can briefly categorise them in 3 ways:",
       "sidebar": "docs"
     },
+    "interviewprep/algorithm-problems": {
+      "id": "interviewprep/algorithm-problems",
+      "title": "Algorithm Problems",
+      "description": "1. https://leetcode.com/problems/two-sum/"
+    },
+    "interviewprep/azure-data-engineering": {
+      "id": "interviewprep/azure-data-engineering",
+      "title": "Azure Data Engineering",
+      "description": "Case study - data lake"
+    },
+    "interviewprep/basic-technical-questions": {
+      "id": "interviewprep/basic-technical-questions",
+      "title": "Basic Technical Questions",
+      "description": "Interviewers use easy technical questions designed to weed out candidates without the right experience. This question assesses your experience level, comfort with specific tools, and the depth of your domain expertise. Basic technical questions include:"
+    },
+    "interviewprep/behavioral-interview-questions": {
+      "id": "interviewprep/behavioral-interview-questions",
+      "title": "Behavioral Interview Questions",
+      "description": "Behavioral questions assess soft skills (e.g., communication, leadership, adaptability), your skill level, and how you fit into the company’s data engineering team."
+    },
+    "interviewprep/behavioral-questions": {
+      "id": "interviewprep/behavioral-questions",
+      "title": "Behavioral Questions",
+      "description": "Tell me about yourself"
+    },
+    "interviewprep/README": {
+      "id": "interviewprep/README",
+      "title": "Interview Preparation",
+      "description": "Whether you’re just getting into the data engineer job market or your interview is tomorrow, practice is an essential part of the interview preparation process for a data engineer. Data engineering interview questions assess your data engineering skills and domain expertise. They are based on a company’s tech stack and technology goals, and they test your ability to perform job functions. In an interview for any Engineering role, the interviewer wants to understand if you have good analytical skills, problem-solving ability, communication, work culture and ability to build technical solutions. Specific to Data Engineering, they also want to understand if you have the skills to handle large data and build scalable and robust systems.",
+      "sidebar": "docs"
+    },
+    "interviewprep/resume-buildup": {
+      "id": "interviewprep/resume-buildup",
+      "title": "Resume Buildup",
+      "description": "Expert Tips to Perfect Your Data Engineer Resume",
+      "sidebar": "docs"
+    },
     "introduction": {
       "id": "introduction",
       "title": "Introduction",
@@ -4621,6 +5034,33 @@
       "id": "mathematics/statistics/sampling",
       "title": "Sampling",
       "description": "- Random sampling: This is the most common probability sampling technique as every single sample is selected randomly from the population data set. This gives an opportunity for each record in the data set an equal chance (probability) to be chosen to be a part of the sample. For example, the HR department wants to conduct a social event. Therefore, it wants to select 50 people out of 300. To provide an equal opportunity to everyone, HR picks the names randomly from a jar containing all the names of employees.",
+      "sidebar": "docs"
+    },
+    "misc/explore-further": {
+      "id": "misc/explore-further",
+      "title": "Explore Further",
+      "description": "Basic Concepts"
+    },
+    "misc/extras": {
+      "id": "misc/extras",
+      "title": "Extras",
+      "description": "Data, analytics and AI maturity curve",
+      "sidebar": "docs"
+    },
+    "misc/pending-topics": {
+      "id": "misc/pending-topics",
+      "title": "Pending Topics",
+      "description": "- Programming"
+    },
+    "misc/readme_archive": {
+      "id": "misc/readme_archive",
+      "title": "Data Engineering Intensive Training Program",
+      "description": "Hit the ⭐️ button if you like the repo."
+    },
+    "misc/resources": {
+      "id": "misc/resources",
+      "title": "Resources",
+      "description": "Courses",
       "sidebar": "docs"
     },
     "mlops/code-snippets": {
@@ -4805,7 +5245,8 @@
     "processing/apache-flink": {
       "id": "processing/apache-flink",
       "title": "Apache Flink",
-      "description": "Apache Flink is a widely used data processing engine for scalable streaming ETL, analytics, and event-driven applications. It provides precise time and state management with fault tolerance. Flink can process bounded stream (batch) and unbounded stream (stream) with a unified API or application. After data is processed with Apache Flink, downstream applications can access the curated data with a unified data catalog. With unified metadata, both data processing and data consuming applications can access the tables using the same metadata."
+      "description": "Apache Flink is a widely used data processing engine for scalable streaming ETL, analytics, and event-driven applications. It provides precise time and state management with fault tolerance. Flink can process bounded stream (batch) and unbounded stream (stream) with a unified API or application. After data is processed with Apache Flink, downstream applications can access the curated data with a unified data catalog. With unified metadata, both data processing and data consuming applications can access the tables using the same metadata.",
+      "sidebar": "docs"
     },
     "processing/apache-kafka": {
       "id": "processing/apache-kafka",
@@ -4969,7 +5410,8 @@
     "processing/dbt": {
       "id": "processing/dbt",
       "title": "dbt",
-      "description": "Transform your data in warehouse"
+      "description": "Transform your data in warehouse",
+      "sidebar": "docs"
     },
     "processing/gcp-dataproc": {
       "id": "processing/gcp-dataproc",
@@ -5043,13 +5485,15 @@
     },
     "processing/lab-dbt-jaffle-shop/README": {
       "id": "processing/lab-dbt-jaffle-shop/README",
-      "title": "dbt Jaffle Shop",
-      "description": "Objective"
+      "title": "Lab: dbt Postgres on Jaffle Shop data",
+      "description": "Objective",
+      "sidebar": "docs"
     },
     "processing/lab-dbt-knoema/README": {
       "id": "processing/lab-dbt-knoema/README",
-      "title": "Snowflake dbt Knoema",
-      "description": "In this lab, we are going to analyze historical trading performance of a company that has trading desks spread across different regions. As inputs, we are going to leverage datasets available in Knoema Economy Data Atlas that is available in Snowflake Data Marketplace, plus few manual uploads."
+      "title": "Lab: dbt Snowflake on Knoema data",
+      "description": "In this lab, we are going to analyze historical trading performance of a company that has trading desks spread across different regions. As inputs, we are going to leverage datasets available in Knoema Economy Data Atlas that is available in Snowflake Data Marketplace, plus few manual uploads.",
+      "sidebar": "docs"
     },
     "processing/lab-dbt-nyctaxi-lookup/README": {
       "id": "processing/lab-dbt-nyctaxi-lookup/README",
@@ -5058,8 +5502,9 @@
     },
     "processing/lab-dbt-nyctaxi/README": {
       "id": "processing/lab-dbt-nyctaxi/README",
-      "title": "dbt NYC Taxi",
-      "description": "Objective"
+      "title": "Lab: Building an ELT pipeline for a cab service company using dbt and Postgres",
+      "description": "Architecture",
+      "sidebar": "docs"
     },
     "processing/lab-dbt-olist/models/staging/olist/stg_ecommerce": {
       "id": "processing/lab-dbt-olist/models/staging/olist/stg_ecommerce",
@@ -5068,28 +5513,56 @@
     },
     "processing/lab-dbt-olist/README": {
       "id": "processing/lab-dbt-olist/README",
-      "title": "dbt Olist",
-      "description": "Objective"
+      "title": "Lab: dbt Postgres on Olist Retail data",
+      "description": "Objective",
+      "sidebar": "docs"
     },
     "processing/lab-dbt-stackexchnge/README": {
       "id": "processing/lab-dbt-stackexchnge/README",
-      "title": "Stackexchange dbt Bigquery",
-      "description": "Stack Exchange ELT pipeline with dbt and BigQuery"
+      "title": "Lab: dbt BigQuery on Stack Exchange data",
+      "description": "Extract, Load and Transform the Stack Exchange data using dbt and google bigquery warehouse.",
+      "sidebar": "docs"
     },
     "processing/lab-dbt-tickit/README": {
       "id": "processing/lab-dbt-tickit/README",
-      "title": "dbt Redshift TICKIT",
-      "description": "Building an ELT Pipeline with dbt and Amazon Redshift"
+      "title": "Lab: Building an ELT Pipeline with dbt and Amazon Redshift on TICKIT data",
+      "description": "Objective",
+      "sidebar": "docs"
     },
     "processing/lab-dbt-tpch/README": {
       "id": "processing/lab-dbt-tpch/README",
-      "title": "Snowflake dbt cloud TPCH",
-      "description": "Accelerating Data Teams with Snowflake and dbt Cloud Hands On Lab"
+      "title": "Lab: dbt Snowflake on TPCH data",
+      "description": "Accelerating Data Teams with Snowflake and dbt Cloud Hands On Lab",
+      "sidebar": "docs"
     },
     "processing/lab-emr-serverless/README": {
       "id": "processing/lab-emr-serverless/README",
       "title": "Lab: EMR Serverless",
       "description": "Creating and submitting Word count Spark Job in EMR Serverless",
+      "sidebar": "docs"
+    },
+    "processing/lab-flink-kafka-sink/README": {
+      "id": "processing/lab-flink-kafka-sink/README",
+      "title": "Lab: Flink Kafka Sink",
+      "description": "Files",
+      "sidebar": "docs"
+    },
+    "processing/lab-flink-kafka-source/README": {
+      "id": "processing/lab-flink-kafka-source/README",
+      "title": "Lab: Flink Kafka Source",
+      "description": "Files",
+      "sidebar": "docs"
+    },
+    "processing/lab-flink-taxi-pricing/README": {
+      "id": "processing/lab-flink-taxi-pricing/README",
+      "title": "Lab: Real-time Taxi Price Model based Prediction using Flink",
+      "description": "Files",
+      "sidebar": "docs"
+    },
+    "processing/lab-flink-twitter-stream-processing/README": {
+      "id": "processing/lab-flink-twitter-stream-processing/README",
+      "title": "Lab: Real-time Twitter Stream Wordcount using Flink",
+      "description": "Files",
       "sidebar": "docs"
     },
     "processing/lab-gcp-beam-mapreduce/README": {
@@ -5184,13 +5657,15 @@
     },
     "processing/lab-kafka-cli/README": {
       "id": "processing/lab-kafka-cli/README",
-      "title": "Getting started with Kafka and CLI",
-      "description": ""
+      "title": "Lab: Getting started with Kafka and CLI",
+      "description": "Notebook",
+      "sidebar": "docs"
     },
     "processing/lab-kafka-fraud-detection/README": {
       "id": "processing/lab-kafka-fraud-detection/README",
-      "title": "Real-time fraud detection by applying filter in Kafka topic",
-      "description": "In this lab, we will generate some transactions out of which some would be fraudulent and then at the consumer end, we will check if the transaction is legit or fraud."
+      "title": "Lab: Real-time fraud detection by applying filter in Kafka topic",
+      "description": "In this lab, we will generate some transactions out of which some would be fraudulent and then at the consumer end, we will check if the transaction is legit or fraud.",
+      "sidebar": "docs"
     },
     "processing/lab-kafka-nyctaxi/assets/README": {
       "id": "processing/lab-kafka-nyctaxi/assets/README",
@@ -5200,27 +5675,38 @@
     "processing/lab-kafka-nyctaxi/README": {
       "id": "processing/lab-kafka-nyctaxi/README",
       "title": "Kafka Streams for NYC Taxi data",
-      "description": "Objective"
+      "description": "Objective",
+      "sidebar": "docs"
+    },
+    "processing/lab-kafka-python-ecs/README": {
+      "id": "processing/lab-kafka-python-ecs/README",
+      "title": "Lab: Kafka on Cloud with Amazon ECS and Container Orchestration",
+      "description": "Notebooks",
+      "sidebar": "docs"
     },
     "processing/lab-kafka-python/README": {
       "id": "processing/lab-kafka-python/README",
-      "title": "Getting started with Kafka and Python",
-      "description": ""
+      "title": "Lab: Getting started with Kafka and Python",
+      "description": "Files",
+      "sidebar": "docs"
     },
     "processing/lab-kafka-spark-streaming/README": {
       "id": "processing/lab-kafka-spark-streaming/README",
-      "title": "Realtime Streaming analytics with Apache Kafka and Spark Streaming",
-      "description": "Activity 1"
+      "title": "Lab: Realtime Streaming analytics with Apache Kafka and Spark Streaming",
+      "description": "Activity 1",
+      "sidebar": "docs"
     },
     "processing/lab-kafka-stock-market/README": {
       "id": "processing/lab-kafka-stock-market/README",
-      "title": "Stock Market Kafka Real Time",
-      "description": "Problem Statement"
+      "title": "Lab: Stock Market Kafka Real Time",
+      "description": "Problem Statement",
+      "sidebar": "docs"
     },
     "processing/lab-kafka-toll-analysis/README": {
       "id": "processing/lab-kafka-toll-analysis/README",
-      "title": "Data Streaming Pipeline with Kafka for livetolldata",
-      "description": "Objective"
+      "title": "Lab: Data Streaming Pipeline with Kafka for livetolldata",
+      "description": "Objective",
+      "sidebar": "docs"
     },
     "processing/lab-kinesis-apache-logs/README": {
       "id": "processing/lab-kinesis-apache-logs/README",
@@ -5254,18 +5740,21 @@
     },
     "processing/lab-snowpark-churnpark/README": {
       "id": "processing/lab-snowpark-churnpark/README",
-      "title": "Churn Analytics Demo with dbt Snowpark Python models",
-      "description": "PPT//docs.google.com/presentation/d/1IJSeE96bze7DECuDYqsTVv6FaOcNcJ5tTiCWKEkuQQ/edit#slide=id.g158d486fe9e2_12"
+      "title": "Lab: Churn Analytics Demo with dbt Snowpark Python models",
+      "description": "PPT//docs.google.com/presentation/d/1IJSeE96bze7DECuDYqsTVv6FaOcNcJ5tTiCWKEkuQQ/edit#slide=id.g158d486fe9e2_12",
+      "sidebar": "docs"
     },
     "processing/lab-snowpark-dbtsnowpy/README": {
       "id": "processing/lab-snowpark-dbtsnowpy/README",
-      "title": "Modeling with dbt and Snowpark",
-      "description": ""
+      "title": "Lab: Modeling with dbt and Snowpark",
+      "description": "Files",
+      "sidebar": "docs"
     },
     "processing/lab-snowpark-fifapark/README": {
       "id": "processing/lab-snowpark-fifapark/README",
-      "title": "FIFA modeling with Snowpark",
-      "description": ""
+      "title": "Lab: FIFA prediction model with dbt and Snowpark",
+      "description": "Files",
+      "sidebar": "docs"
     },
     "processing/lab-snowpark-jafflepark/models/docs": {
       "id": "processing/lab-snowpark-jafflepark/models/docs",
@@ -5274,18 +5763,21 @@
     },
     "processing/lab-snowpark-jafflepark/README": {
       "id": "processing/lab-snowpark-jafflepark/README",
-      "title": "Jaffle Shop Modeling with Snowpark",
-      "description": ""
+      "title": "Lab: Jaffle Shop Modeling with Snowpark",
+      "description": "Files",
+      "sidebar": "docs"
     },
     "processing/lab-snowpark-knoema-regression/README": {
       "id": "processing/lab-snowpark-knoema-regression/README",
-      "title": "Knoema Regression Model with Snowpark",
-      "description": "We are interested in the US Inflation data, so we will use this query to explore the data for the application: What is the US inflation over time?"
+      "title": "Lab: Knoema Regression Model with Snowpark",
+      "description": "We are interested in the US Inflation data, so we will use this query to explore the data for the application: What is the US inflation over time?",
+      "sidebar": "docs"
     },
     "processing/project-kafka-ikea/README": {
       "id": "processing/project-kafka-ikea/README",
-      "title": "Building an event-driven IKEA app with Kafka",
-      "description": "This app is designed to break down the event driven architecture for modern apps"
+      "title": "Project: Building an event-driven IKEA app with Kafka",
+      "description": "This app is designed to break down the event driven architecture for modern apps",
+      "sidebar": "docs"
     },
     "processing/ray": {
       "id": "processing/ray",
@@ -5296,7 +5788,8 @@
     "processing/snowpark": {
       "id": "processing/snowpark",
       "title": "Snowpark",
-      "description": "What is Snowpark"
+      "description": "What is Snowpark",
+      "sidebar": "docs"
     },
     "storage/apache-couchdb": {
       "id": "storage/apache-couchdb",

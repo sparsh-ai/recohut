@@ -1,28 +1,5 @@
 # Case Studies
 
-## Steps
-
-1. [99group](99group.md)
-1. [airbnb](airbnb.md)
-1. [amazon](amazon.md)
-1. [bookingdotcom](bookingdotcom.md)
-1. [expedia](expedia.md)
-1. [helpshift](helpshift.md)
-1. [hometogo](hometogo.md)
-1. [intuit](intuit.md)
-1. [jeevansathi](jeevansathi.md)
-1. [linkedin](linkedin.md)
-1. [myntra](myntra.md)
-1. [outfit7](outfit7.md)
-1. [plexure](plexure.md)
-1. [spotify](spotify.md)
-1. [starbucks](starbucks.md)
-1. [trivago](trivago.md)
-1. [twilio](twilio.md)
-1. [twitter](twitter.md)
-1. [video-stream](video-stream.md)
-1. [woot](woot.md)
-
 ## More
 
 1. [The Big Book of Data Engineering with Databricks](https://drive.google.com/open?id=1fWOQOUCHz7j-niHErOTN-9fa0fMTSI_y&authuser=recohut.data.001%40gmail.com&usp=drive_fs)

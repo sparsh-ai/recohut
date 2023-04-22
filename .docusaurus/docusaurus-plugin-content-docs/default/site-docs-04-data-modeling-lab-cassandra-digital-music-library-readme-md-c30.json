@@ -1,7 +1,7 @@
 {
   "unversionedId": "data-modeling/lab-cassandra-digital-music-library/README",
   "id": "data-modeling/lab-cassandra-digital-music-library/README",
-  "title": "Create a Data Model for a Digital Music Library",
+  "title": "Lab: Create a Data Model for a Digital Music Library",
   "description": "Conceptual Data Model",
   "source": "@site/docs/04-data-modeling/lab-cassandra-digital-music-library/README.md",
   "sourceDirName": "04-data-modeling/lab-cassandra-digital-music-library",
@@ -10,8 +10,17 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {}
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "NoSQL Data Modeling",
+    "permalink": "/docs/data-modeling/nosql-data-modeling"
+  },
+  "next": {
+    "title": "Create a Data Model for an Email System",
+    "permalink": "/docs/data-modeling/lab-cassandra-email-data-model/"
+  }
 }

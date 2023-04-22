@@ -1,7 +1,7 @@
 {
   "unversionedId": "processing/lab-snowpark-knoema-regression/README",
   "id": "processing/lab-snowpark-knoema-regression/README",
-  "title": "Knoema Regression Model with Snowpark",
+  "title": "Lab: Knoema Regression Model with Snowpark",
   "description": "We are interested in the US Inflation data, so we will use this query to explore the data for the application: What is the US inflation over time?",
   "source": "@site/docs/03-processing/lab-snowpark-knoema-regression/README.md",
   "sourceDirName": "03-processing/lab-snowpark-knoema-regression",
@@ -10,8 +10,17 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "sparsh",
-  "lastUpdatedAt": 1681047270,
-  "formattedLastUpdatedAt": "Apr 9, 2023",
-  "frontMatter": {}
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Lab: Jaffle Shop Modeling with Snowpark",
+    "permalink": "/docs/processing/lab-snowpark-jafflepark/"
+  },
+  "next": {
+    "title": "Data Modeling",
+    "permalink": "/docs/category/data-modeling"
+  }
 }
