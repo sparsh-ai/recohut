@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[21650],{91439:o=>{o.exports=JSON.parse('{"title":"AWS","slug":"/category/aws","permalink":"/docs/category/aws","navigation":{"previous":{"title":"Cloud Computing","permalink":"/docs/foundations/cloud/cloud-computing"},"next":{"title":"EC2","permalink":"/docs/foundations/cloud/ec2"}}}')}}]);

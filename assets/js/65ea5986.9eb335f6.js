@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[46013],{26191:s=>{s.exports=JSON.parse('{"title":"Case Studies","slug":"/category/case-studies","permalink":"/docs/category/case-studies","navigation":{"previous":{"title":"MLflow","permalink":"/docs/mlops/mlflow/"},"next":{"title":"99 Group","permalink":"/docs/casestudies/99group"}}}')}}]);
