@@ -21,7 +21,7 @@ Parameters:
     Description: Github Repository URL
   Domain:
     Type: String
-    Default: recohut.com
+    Default: recohut.in
     Description: Custom Domain Name
 
 Resources:

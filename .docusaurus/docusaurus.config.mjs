@@ -6,7 +6,7 @@
 export default {
   "title": "Recohut Data Bootcamp",
   "tagline": "Embrace excellence, embrace changes, embrace data",
-  "url": "https://www.recohut.com",
+  "url": "https://www.recohut.in",
   "baseUrl": "/",
   "onBrokenLinks": "ignore",
   "onBrokenMarkdownLinks": "ignore",

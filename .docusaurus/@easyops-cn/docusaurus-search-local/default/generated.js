@@ -1,9 +1,9 @@
-import lunr from "/Users/sparshagarwal/Desktop/projects/de/de-main/node_modules/lunr/lunr.js";
+import lunr from "/workspaces/recohut/node_modules/lunr/lunr.js";
 export const language = ["en"];
 export const removeDefaultStopWordFilter = false;
 export const removeDefaultStemmer = false;
 export const Mark = null;
-export const searchIndexUrl = "search-index.json?_=b6b0aaf2";
+export const searchIndexUrl = "search-index.json?_=aa4520ef";
 export const searchResultLimits = 8;
 export const searchResultContextMaxLength = 50;
 export const explicitSearchResultPath = false;

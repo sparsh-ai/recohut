@@ -10,7 +10,7 @@ const katex = require('rehype-katex');
 const config = {
   title: 'Recohut Data Bootcamp',
   tagline: 'Embrace excellence, embrace changes, embrace data',
-  url: 'https://www.recohut.com/',
+  url: 'https://www.recohut.in/',
   baseUrl: '/',
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'ignore',
@@ -124,7 +124,7 @@ const config = {
         // logo: {
         //   alt: 'Recohut Logo',
         //   src: '/img/branding/logo-no-background-small.png',
-        //   href: 'https://www.recohut.com/',
+        //   href: 'https://www.recohut.in/',
         // },
         copyright: `Copyright © ${new Date().getFullYear()} Bootcamp. Built with Docusaurus.`,
       },
